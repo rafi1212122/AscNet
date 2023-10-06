@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Config.Net" Version="5.1.5" />
+    <PackageReference Include="Google.Protobuf" Version="3.24.3" />
+    <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
+  </ItemGroup>
+
+</Project>
