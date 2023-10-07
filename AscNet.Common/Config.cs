@@ -19,6 +19,9 @@ namespace AscNet.Common
 
         interface IGameServer
         {
+            [Option(DefaultValue = nameof(AscNet))]
+            string RegionName { get; set; }
+
             [Option(DefaultValue = "127.0.0.1")]
             string Host { get; set; }
 

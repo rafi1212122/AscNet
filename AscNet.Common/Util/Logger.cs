@@ -4,7 +4,7 @@ namespace AscNet.Common.Util
 {
     public class Logger
     {
-        public static readonly Logger c = new("SF", ConsoleColor.DarkRed);
+        public static readonly Logger c = new(nameof(AscNet), ConsoleColor.DarkRed);
         private readonly string _name;
         private readonly bool TraceOnError;
         private readonly ConsoleColor _color;
