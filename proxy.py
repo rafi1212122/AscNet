@@ -21,7 +21,7 @@ def next_layer(nextlayer: layer.NextLayer):
         nextlayer.context.server.address = ("127.0.0.1", 443)
 
 def request(flow: http.HTTPFlow) -> None:
-    if "kurogame.net" in flow.request.pretty_url or "kurogame-service.com" in flow.request.pretty_url:
+    if "kurogame.net" in flow.request.pretty_url:
         flow.request.host = "localhost"
         flow.request.headers["Host"] = "localhost"
     pass
