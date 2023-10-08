@@ -1,4 +1,5 @@
-﻿using AscNet.Common.Util;
+﻿using System.Runtime.InteropServices;
+using AscNet.Common.Util;
 
 namespace AscNet
 {

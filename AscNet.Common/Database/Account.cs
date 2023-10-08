@@ -14,40 +14,33 @@ namespace AscNet.Common.Database
             return collection.AsQueryable().FirstOrDefault(x => x.Uid == uid);
         }
 
-        public static Account? FromAccessToken(string token)
+        public static Account? FromToken(string token)
         {
-            return collection.AsQueryable().FirstOrDefault(x => x.AccessToken == token);
+            return collection.AsQueryable().FirstOrDefault(x => x.Token == token);
         }
 
-        public static Account? FromPhone(string phone)
+        public static Account? FromUsername(string username)
         {
-            return collection.AsQueryable().FirstOrDefault(x => x.PhoneNum == phone);
+            return collection.AsQueryable().FirstOrDefault(x => x.Username == username);
         }
 
-        public static Account? FromPhone(string phone, string password)
+        public static Account? FromUsername(string username, string password)
         {
-            return collection.AsQueryable().FirstOrDefault(x => x.PhoneNum == phone && x.Password == password);
+            return collection.AsQueryable().FirstOrDefault(x => x.Username == username && x.Password == password);
         }
 
         /// <exception cref="ArgumentException"></exception>
-        public static Account Create(string phone, string password)
+        public static Account Create(string username, string password)
         {
-            if (collection.AsQueryable().FirstOrDefault(x => x.PhoneNum == phone) is not null)
-                throw new ArgumentException("Phone is already registered!", "phone");
+            if (collection.AsQueryable().FirstOrDefault(x => x.Username == username) is not null)
+                throw new ArgumentException("Username is already registered!", "username");
 
             Account account = new()
             {
                 Uid = (collection.AsQueryable().OrderByDescending(x => x.Uid).FirstOrDefault()?.Uid ?? 0) + 1,
-                PhoneNum = phone,
-                Email = "",
+                Username = username,
                 Password = password,
-                AccessToken = Guid.NewGuid().ToString(),
-                Age = 0,
-                IsActivation = false,
-                IsAdult = true,
-                IsGuest = false,
-                UnfreezeTime = 0,
-                IsReal = true
+                Token = Guid.NewGuid().ToString()
             };
 
             collection.InsertOne(account);
@@ -61,44 +54,16 @@ namespace AscNet.Common.Database
         [BsonRequired]
         public long Uid { get; set; }
 
-        [BsonElement("phone_num")]
+        [BsonElement("username")]
         [BsonRequired]
-        public string PhoneNum { get; set; }
-
-        [BsonElement("email")]
-        [BsonRequired]
-        public string Email { get; set; }
+        public string Username { get; set; }
 
         [BsonElement("password")]
         [BsonRequired]
         public string Password { get; set; }
 
-        [BsonElement("access_token")]
+        [BsonElement("token")]
         [BsonRequired]
-        public string AccessToken { get; set; }
-
-        [BsonElement("age")]
-        [BsonRequired]
-        public int Age { get; set; }
-
-        [BsonElement("is_activation")]
-        [BsonRequired]
-        public bool IsActivation { get; set; }
-
-        [BsonElement("is_adult")]
-        [BsonRequired]
-        public bool IsAdult { get; set; }
-
-        [BsonElement("is_guest")]
-        [BsonRequired]
-        public bool IsGuest { get; set; }
-
-        [BsonElement("unfreeze_time")]
-        [BsonRequired]
-        public int UnfreezeTime { get; set; }
-
-        [BsonElement("is_real")]
-        [BsonRequired]
-        public bool IsReal { get; set; }
+        public string Token { get; set; }
     }
 }

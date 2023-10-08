@@ -37,7 +37,7 @@ namespace AscNet.Common
             [Option(DefaultValue = (ushort)27017)]
             ushort Port { get; set; }
 
-            [Option(DefaultValue = "sf")]
+            [Option(DefaultValue = "asc_net")]
             string Name { get; set; }
         }
 
