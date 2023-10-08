@@ -33,7 +33,7 @@ namespace AscNet.Common.Database
         public static Account Create(string username, string password)
         {
             if (collection.AsQueryable().FirstOrDefault(x => x.Username == username) is not null)
-                throw new ArgumentException("Username is already registered!", "username");
+                throw new ArgumentException("Username is already registered!", nameof(username));
 
             Account account = new()
             {

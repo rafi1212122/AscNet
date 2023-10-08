@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Config.Net" Version="5.1.5" />
-    <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
+    <PackageReference Include="MessagePack" Version="2.5.129" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AscNet.Common\AscNet.Common.csproj" />
   </ItemGroup>
 
 </Project>
