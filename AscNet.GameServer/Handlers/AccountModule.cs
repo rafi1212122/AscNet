@@ -34,7 +34,7 @@ namespace AscNet.GameServer.Handlers
                 UtcServerTime = (uint)DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()
             });
 
-            session.SendResponse(JsonSerializer.Deserialize<NotifyLogin>(File.ReadAllText("Data\\NotifyLogin.json")));
+            session.SendPush(JsonSerializer.Deserialize<NotifyLogin>(File.ReadAllText("Data\\NotifyLogin.json")));
         }
     }
 }
