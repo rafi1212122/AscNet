@@ -1,0 +1,315 @@
+{
+    "PlayerData": {
+        "Id": 10000001,
+        "Name": "Test",
+        "Level": 50,
+        "Sign": "",
+        "DisplayCharId": 1021001,
+        "Birthday": {
+            "Mon": 1,
+            "Day": 1
+        },
+        "HonorLevel": 1,
+        "ServerId": "5001",
+        "Likes": 0,
+        "CurrTeamId": 1,
+        "ChallengeEventId": 0,
+        "CurrHeadPortraitId": 9000002,
+        "CurrHeadFrameId": 0,
+        "CurrMedalId": 0,
+        "AppearanceShowType": 0,
+        "DailyReceiveGiftCount": 0,
+        "DailyActivenessRewardStatus": 0,
+        "WeeklyActivenessRewardStatus": 0,
+        "Marks": [],
+        "ShowCharacters": [
+            1021001
+        ],
+        "ShieldFuncList": [],
+        "AppearanceSettingInfo": {
+            "TitleType": 1,
+            "CharacterType": 1,
+            "FashionType": 1,
+            "WeaponFashionType": 1,
+            "DormitoryType": 1,
+            "DormitoryId": 21001
+        },
+        "CreateTime": 1626538573,
+        "LastLoginTime": 1691332946,
+        "ReportTime": 0,
+        "ChangeNameTime": 1626547796,
+        "Flags": 0
+    },
+    "TimeLimitCtrlConfigList": [],
+    "SharePlatformConfigList": [
+        {
+            "Id": 0,
+            "SdkId": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "Id": 35,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 20,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 23,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 1,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 2,
+            "SdkId": []
+        },
+        {
+            "Id": 11,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 14,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 16,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 15,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 24,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 70,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 46,
+            "SdkId": []
+        },
+        {
+            "Id": 94,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 69,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 13,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 18,
+            "SdkId": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "Id": 136,
+            "SdkId": [
+                1,
+                2
+            ]
+        },
+        {
+            "Id": 56,
+            "SdkId": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    ],
+    "ItemList": [],
+    "ItemRecycleDict": {},
+    "CharacterList": [
+        {
+            "Id": 1021001,
+            "Level": 50,
+            "Exp": 564,
+            "Quality": 2,
+            "InitQuality": 1,
+            "Star": 4,
+            "Grade": 8,
+            "SkillList": [
+                {
+                    "Id": 102101,
+                    "Level": 12
+                },
+                {
+                    "Id": 102106,
+                    "Level": 11
+                },
+                {
+                    "Id": 102111,
+                    "Level": 11
+                },
+                {
+                    "Id": 102116,
+                    "Level": 12
+                },
+                {
+                    "Id": 102117,
+                    "Level": 11
+                },
+                {
+                    "Id": 102118,
+                    "Level": 10
+                },
+                {
+                    "Id": 102121,
+                    "Level": 10
+                },
+                {
+                    "Id": 102123,
+                    "Level": 1
+                },
+                {
+                    "Id": 102122,
+                    "Level": 1
+                }
+            ],
+            "EnhanceSkillList": [],
+            "FashionId": 6210101,
+            "CreateTime": 1626538573,
+            "TrustLv": 2,
+            "TrustExp": 80,
+            "Ability": 3387,
+            "LiberateLv": 2,
+            "CharacterHeadInfo": {
+                "HeadFashionId": 0,
+                "HeadFashionType": 0
+            }
+        }
+    ],
+    "EquipList": [
+        {
+            "Id": 1,
+            "TemplateId": 3035002,
+            "CharacterId": 1021001,
+            "Level": 45,
+            "Exp": 60,
+            "Breakthrough": 4,
+            "ResonanceInfo": [],
+            "UnconfirmedResonanceInfo": [],
+            "AwakeSlotList": [],
+            "IsLock": false,
+            "CreateTime": 1626632133,
+            "IsRecycle": false
+        }
+    ],
+    "FashionList": [
+        {
+            "Id": 6210101,
+            "IsLock": false
+        }
+    ],
+    "HeadPortraitList": [
+        {
+            "Id": 9000001,
+            "LeftCount": 1,
+            "BeginTime": 1672341323
+        }
+    ],
+    "BaseEquipLoginData": {
+        "BaseEquipList": [],
+        "DressedList": []
+    },
+    "FubenData": {
+        "StageData": {},
+        "FubenBaseData": {
+            "RefreshTime": 0,
+            "SelectedCharId": 1021001,
+            "UrgentAlarmCount": 0,
+            "WeeklyUrgentCount": 0,
+            "DayUrgentCount": {}
+        },
+        "UnlockHideStages": [],
+        "StageDifficulties": []
+    },
+    "FubenMainLineData": {
+        "TreasureData": [],
+        "LastPassStage": {},
+        "MainChapterEventInfos": []
+    },
+    "FubenChapterExtraLoginData": {
+        "TreasureData": [],
+        "LastPassStage": [],
+        "ChapterEventInfos": []
+    },
+    "FubenUrgentEventData": {
+        "UrgentEventData": {}
+    },
+    "AutoFightRecords": [],
+    "TeamGroupData": {},
+    "TeamPrefabData": {},
+    "SignInfos": [],
+    "AssignChapterRecord": [],
+    "WeaponFashionList": [],
+    "PartnerList": [],
+    "ShieldedProtocolList": [],
+    "LimitedLoginData": null,
+    "UseBackgroundId": 14000001,
+    "FubenShortStoryLoginData": {
+        "TreasureData": [],
+        "LastPassStage": [],
+        "ChapterEventInfos": []
+    }
+}

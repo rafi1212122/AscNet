@@ -85,6 +85,7 @@ namespace AscNet.GameServer
                                     c.Error($"Exception packet received: {exception.Code}, {exception.Message}");
                                     break;
                                 default:
+                                    c.Error($"Unknown packet received: {packet}");
                                     break;
                             }
                         }

@@ -1,5 +1,8 @@
 ﻿using AscNet.Common.MsgPack;
 using MessagePack;
+using MongoDB.Bson.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using static AscNet.GameServer.Packet;
 
 namespace AscNet.GameServer.Handlers
@@ -28,8 +31,10 @@ namespace AscNet.GameServer.Handlers
                 Code = 0,
                 ReconnectToken = "eeeeeeeeeeeeeeh",
                 UtcOffset = 0,
-                UtcServerTime = (uint)DateTime.UtcNow.Ticks
+                UtcServerTime = (uint)DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()
             });
+
+            session.SendResponse(JsonSerializer.Deserialize<NotifyLogin>(File.ReadAllText("Data\\NotifyLogin.json")));
         }
     }
 }
