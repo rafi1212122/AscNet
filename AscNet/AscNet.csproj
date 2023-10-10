@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AscNet.Common\AscNet.Common.csproj" />
     <ProjectReference Include="..\AscNet.GameServer\AscNet.GameServer.csproj" />
     <ProjectReference Include="..\AscNet.SDKServer\AscNet.SDKServer.csproj" />
   </ItemGroup>
