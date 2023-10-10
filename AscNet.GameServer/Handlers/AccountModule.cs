@@ -1,5 +1,6 @@
 ﻿using AscNet.Common.MsgPack;
 using MessagePack;
+using static AscNet.GameServer.Packet;
 
 namespace AscNet.GameServer.Handlers
 {
@@ -17,6 +18,18 @@ namespace AscNet.GameServer.Handlers
             };
 
             session.SendResponse(response);
+        }
+
+        [PacketHandler("LoginRequest")]
+        public static void LoginRequestHandler(Session session, byte[] packet)
+        {
+            session.SendResponse(new LoginResponse
+            {
+                Code = 0,
+                ReconnectToken = "eeeeeeeeeeeeeeh",
+                UtcOffset = 0,
+                UtcServerTime = (uint)DateTime.UtcNow.Ticks
+            });
         }
     }
 }
