@@ -12,7 +12,7 @@ namespace AscNet.GameServer
         public readonly TcpClient client;
         public readonly Logger c;
         private long lastPacketTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
-        private ushort packetNo = 0;
+        private ushort packetNo = 1;
         private readonly MessagePackSerializerOptions lz4Options = MessagePackSerializerOptions.Standard.WithCompression(MessagePackCompression.Lz4Block);
 
         public Session(string id, TcpClient tcpClient)
@@ -126,7 +126,7 @@ namespace AscNet.GameServer
         {
             Packet.Response packet = new()
             {
-                Id = 0,
+                Id = 1,
                 Name = typeof(T).Name,
                 Content = MessagePackSerializer.Serialize(response)
             };
@@ -144,12 +144,13 @@ namespace AscNet.GameServer
         private void Send(Packet packet)
         {
             byte[] serializedPacket = MessagePackSerializer.Serialize(packet, lz4Options);
+            Crypto.HaruCrypt.Encrypt(serializedPacket);
+
             byte[] sendBytes = GC.AllocateUninitializedArray<byte>(serializedPacket.Length + 4);
 
-            BinaryPrimitives.WriteInt32LittleEndian(sendBytes, serializedPacket.Length);
+            BinaryPrimitives.WriteInt32LittleEndian(sendBytes.AsSpan()[0..4], serializedPacket.Length);
             Array.Copy(serializedPacket, 0, sendBytes, 4, serializedPacket.Length);
 
-            Crypto.HaruCrypt.Encrypt(sendBytes);
             client.GetStream().Write(sendBytes);
         }
 
