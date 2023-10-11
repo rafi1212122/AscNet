@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AscNet", "AscNet\AscNet.csproj", "{817773C2-B4F3-48D5-9CDE-977BB0A0920E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AscNet", "AscNet\AscNet.csproj", "{817773C2-B4F3-48D5-9CDE-977BB0A0920E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AscNet.Common", "AscNet.Common\AscNet.Common.csproj", "{BE6BB857-5DA2-4A7D-B8AB-6901460DC2B9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AscNet.SDKServer", "AscNet.SDKServer\AscNet.SDKServer.csproj", "{B5040F93-BA7F-4E76-AF54-E3FAA857A5DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AscNet.GameServer", "AscNet.GameServer\AscNet.GameServer.csproj", "{EB20C0CB-7CA1-459F-8410-7A27CC99F98C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AscNet.GameServer", "AscNet.GameServer\AscNet.GameServer.csproj", "{EB20C0CB-7CA1-459F-8410-7A27CC99F98C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AscNet.Test", "AscNet.Test\AscNet.Test.csproj", "{DD4C8BB1-2422-4AA4-A12C-9B3A25873887}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EB20C0CB-7CA1-459F-8410-7A27CC99F98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB20C0CB-7CA1-459F-8410-7A27CC99F98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB20C0CB-7CA1-459F-8410-7A27CC99F98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4C8BB1-2422-4AA4-A12C-9B3A25873887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4C8BB1-2422-4AA4-A12C-9B3A25873887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4C8BB1-2422-4AA4-A12C-9B3A25873887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4C8BB1-2422-4AA4-A12C-9B3A25873887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

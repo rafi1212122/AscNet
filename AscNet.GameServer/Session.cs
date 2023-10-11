@@ -118,20 +118,28 @@ namespace AscNet.GameServer
 
         public void SendPush<T>(T push)
         {
-            Packet.Push packet = new()
+            try
             {
-                Name = typeof(T).Name,
-                Content = MessagePackSerializer.Serialize(push)
-            };
+                Packet.Push packet = new()
+                {
+                    Name = typeof(T).Name,
+                    Content = MessagePackSerializer.Serialize(push)
+                };
 
-            Send(new Packet()
+                Packet pushPacket = new Packet()
+                {
+                    No = packetNo,
+                    Type = Packet.ContentType.Push,
+                    Content = MessagePackSerializer.Serialize(packet)
+                };
+
+                Send(pushPacket);
+                packetNo++;
+            }
+            catch (Exception ex)
             {
-                No = packetNo,
-                Type = Packet.ContentType.Push,
-                Content = MessagePackSerializer.Serialize(packet)
-            });
-            c.Log(packet.Name);
-            packetNo++;
+                c.Error(ex.Message);
+            }
         }
 
         public void SendResponse<T>(T response)

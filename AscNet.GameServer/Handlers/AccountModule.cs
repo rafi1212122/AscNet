@@ -490,7 +490,7 @@ namespace AscNet.GameServer.Handlers
             };
             session.SendPush(notifyTrialData);
 
-            
+
 
             NotifyPivotCombatData notifyPivotCombatData = new()
             {
