@@ -1,6 +1,6 @@
 ﻿using AscNet.Common.MsgPack;
 using MessagePack;
-using static AscNet.GameServer.Packet;
+using Newtonsoft.Json;
 
 namespace AscNet.GameServer.Handlers
 {
@@ -9,7 +9,6 @@ namespace AscNet.GameServer.Handlers
         [PacketHandler("HandshakeRequest")]
         public static void HandshakeRequestHandler(Session session, byte[] packet)
         {
-            HandshakeRequest request = MessagePackSerializer.Deserialize<HandshakeRequest>(packet);
             HandshakeResponse response = new()
             {
                 Code = 0,
@@ -23,13 +22,17 @@ namespace AscNet.GameServer.Handlers
         [PacketHandler("LoginRequest")]
         public static void LoginRequestHandler(Session session, byte[] packet)
         {
+            LoginRequest request = MessagePackSerializer.Deserialize<LoginRequest>(packet);
             session.SendResponse(new LoginResponse
             {
                 Code = 0,
                 ReconnectToken = "eeeeeeeeeeeeeeh",
                 UtcOffset = 0,
-                UtcServerTime = (uint)DateTime.UtcNow.Ticks
+                UtcServerTime = (uint)DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()
             });
+
+            NotifyLogin notifyLogin = JsonConvert.DeserializeObject<NotifyLogin>(File.ReadAllText("Data/NotifyLogin.json"))!;
+            session.SendPush(notifyLogin);
         }
     }
 }

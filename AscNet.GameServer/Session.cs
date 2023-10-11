@@ -68,24 +68,35 @@ namespace AscNet.GameServer
 
                         foreach (var packet in packets)
                         {
-                            switch (packet.Type)
+                            byte[] debugContent = packet.Content;
+                            try
                             {
-                                case Packet.ContentType.Request:
-                                    Packet.Request request = MessagePackSerializer.Deserialize<Packet.Request>(packet.Content);
-                                    c.Log(request.Name);
-                                    PacketFactory.GetPacketHandler(request.Name)?.Invoke(this, request.Content);
-                                    break;
-                                case Packet.ContentType.Push:
-                                    Packet.Push push = MessagePackSerializer.Deserialize<Packet.Push>(packet.Content);
-                                    c.Log(push.Name);
-                                    PacketFactory.GetPacketHandler(push.Name)?.Invoke(this, push.Content);
-                                    break;
-                                case Packet.ContentType.Exception:
-                                    Packet.Exception exception = MessagePackSerializer.Deserialize<Packet.Exception>(packet.Content);
-                                    c.Error($"Exception packet received: {exception.Code}, {exception.Message}");
-                                    break;
-                                default:
-                                    break;
+                                switch (packet.Type)
+                                {
+                                    case Packet.ContentType.Request:
+                                        Packet.Request request = MessagePackSerializer.Deserialize<Packet.Request>(packet.Content);
+                                        c.Log(request.Name);
+                                        debugContent = request.Content;
+                                        PacketFactory.GetPacketHandler(request.Name)?.Invoke(this, request.Content);
+                                        break;
+                                    case Packet.ContentType.Push:
+                                        Packet.Push push = MessagePackSerializer.Deserialize<Packet.Push>(packet.Content);
+                                        c.Log(push.Name);
+                                        debugContent = push.Content;
+                                        PacketFactory.GetPacketHandler(push.Name)?.Invoke(this, push.Content);
+                                        break;
+                                    case Packet.ContentType.Exception:
+                                        Packet.Exception exception = MessagePackSerializer.Deserialize<Packet.Exception>(packet.Content);
+                                        c.Error($"Exception packet received: {exception.Code}, {exception.Message}");
+                                        break;
+                                    default:
+                                        c.Error($"Unknown packet received: {packet}");
+                                        break;
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                c.Error("Failed to invoke handler: " + ex.Message + $", Raw {packet.Type} packet: " + BitConverter.ToString(debugContent).Replace("-", ""));
                             }
                         }
                     }
