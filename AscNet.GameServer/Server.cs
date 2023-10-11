@@ -26,14 +26,14 @@ namespace AscNet.GameServer
 
         public void Start()
         {
-            for (; ; )
+            while (true)
             {
                 try
                 {
                     listener.Start();
                     c.Log($"{nameof(GameServer)} started and listening on port {Common.Common.config.GameServer.Port}");
 
-                    for (; ; )
+                    while (true)
                     {
                         TcpClient tcpClient = listener.AcceptTcpClient();
                         string id = tcpClient.Client.RemoteEndPoint!.ToString()!;
