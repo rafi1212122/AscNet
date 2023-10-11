@@ -13,8 +13,8 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class HandshakeResponse
     {
-        public Byte Code { get; set; }
-        public Byte UtcOpenTime { get; set; }
+        public Int32 Code { get; set; }
+        public Int32 UtcOpenTime { get; set; }
         public dynamic? Sha1Table { get; set; }
     }
 
@@ -22,12 +22,12 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class LoginRequest
     {
-        public Byte LoginType { get; set; }
+        public Int32 LoginType { get; set; }
         public String ServerBean { get; set; }
-        public Byte LoginPlatform { get; set; }
+        public Int32 LoginPlatform { get; set; }
         public String ClientVersion { get; set; }
         public String DeviceId { get; set; }
-        public String UserId { get; set; }
+        public Int32 UserId { get; set; }
         public String Token { get; set; }
     }
 
@@ -35,8 +35,8 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class LoginResponse
     {
-        public Byte Code { get; set; }
-        public Byte UtcOffset { get; set; }
+        public Int32 Code { get; set; }
+        public Int32 UtcOffset { get; set; }
         public UInt32 UtcServerTime { get; set; }
         public String ReconnectToken { get; set; }
     }
@@ -57,58 +57,58 @@ namespace AscNet.Common.MsgPack
         {
             public UInt32 Id { get; set; }
             public String Name { get; set; }
-            public Byte Level { get; set; }
+            public Int32 Level { get; set; }
             public String Sign { get; set; }
             public UInt32 DisplayCharId { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyLoginPlayerDataBirthday
             {
-                public Byte Mon { get; set; }
-                public Byte Day { get; set; }
+                public Int32 Mon { get; set; }
+                public Int32 Day { get; set; }
             }
 
             public NotifyLoginPlayerDataBirthday Birthday { get; set; }
-            public Byte HonorLevel { get; set; }
+            public Int32 HonorLevel { get; set; }
             public String ServerId { get; set; }
-            public Byte Likes { get; set; }
-            public Byte CurrTeamId { get; set; }
-            public Byte ChallengeEventId { get; set; }
+            public Int32 Likes { get; set; }
+            public Int32 CurrTeamId { get; set; }
+            public Int32 ChallengeEventId { get; set; }
             public UInt32 CurrHeadPortraitId { get; set; }
-            public Byte CurrHeadFrameId { get; set; }
-            public Byte CurrMedalId { get; set; }
-            public Byte AppearanceShowType { get; set; }
-            public Byte DailyReceiveGiftCount { get; set; }
-            public Byte DailyActivenessRewardStatus { get; set; }
-            public Byte WeeklyActivenessRewardStatus { get; set; }
-            public Byte[] Marks { get; set; }
+            public Int32 CurrHeadFrameId { get; set; }
+            public Int32 CurrMedalId { get; set; }
+            public Int32 AppearanceShowType { get; set; }
+            public Int32 DailyReceiveGiftCount { get; set; }
+            public Int32 DailyActivenessRewardStatus { get; set; }
+            public Int32 WeeklyActivenessRewardStatus { get; set; }
+            public Int32[] Marks { get; set; }
             public UInt32[] GuideData { get; set; }
-            public Byte[] Communications { get; set; }
+            public Int32[] Communications { get; set; }
             public dynamic[] ShowCharacters { get; set; }
             public dynamic[] ShieldFuncList { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyLoginPlayerDataAppearanceSettingInfo
             {
-                public Byte TitleType { get; set; }
-                public Byte CharacterType { get; set; }
-                public Byte FashionType { get; set; }
-                public Byte WeaponFashionType { get; set; }
-                public Byte DormitoryType { get; set; }
-                public Byte DormitoryId { get; set; }
+                public Int32 TitleType { get; set; }
+                public Int32 CharacterType { get; set; }
+                public Int32 FashionType { get; set; }
+                public Int32 WeaponFashionType { get; set; }
+                public Int32 DormitoryType { get; set; }
+                public Int32 DormitoryId { get; set; }
             }
 
             public NotifyLoginPlayerDataAppearanceSettingInfo AppearanceSettingInfo { get; set; }
             public UInt32 CreateTime { get; set; }
             public UInt32 LastLoginTime { get; set; }
-            public Byte ReportTime { get; set; }
+            public Int32 ReportTime { get; set; }
             public UInt32 ChangeNameTime { get; set; }
-            public Byte Flags { get; set; }
+            public Int32 Flags { get; set; }
         }
 
         public NotifyLoginPlayerData PlayerData { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyLoginTimeLimitCtrlConfigList
         {
-            public Byte Id { get; set; }
+            public Int32 Id { get; set; }
             public UInt32 StartTime { get; set; }
             public UInt32 EndTime { get; set; }
         }
@@ -117,19 +117,19 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyLoginSharePlatformConfigList
         {
-            public Byte Id { get; set; }
-            public Byte[] SdkId { get; set; }
+            public Int32 Id { get; set; }
+            public Int32[] SdkId { get; set; }
         }
 
         public NotifyLoginSharePlatformConfigList[] SharePlatformConfigList { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyLoginItemList
         {
-            public Byte Id { get; set; }
+            public Int32 Id { get; set; }
             public UInt32 Count { get; set; }
-            public Byte BuyTimes { get; set; }
-            public Byte TotalBuyTimes { get; set; }
-            public Byte LastBuyTime { get; set; }
+            public Int32 BuyTimes { get; set; }
+            public Int32 TotalBuyTimes { get; set; }
+            public Int32 LastBuyTime { get; set; }
             public UInt32 RefreshTime { get; set; }
             public UInt32 CreateTime { get; set; }
         }
@@ -140,32 +140,32 @@ namespace AscNet.Common.MsgPack
         public class NotifyLoginCharacterList
         {
             public UInt32 Id { get; set; }
-            public Byte Level { get; set; }
-            public Byte Exp { get; set; }
-            public Byte Quality { get; set; }
-            public Byte InitQuality { get; set; }
-            public Byte Star { get; set; }
-            public Byte Grade { get; set; }
+            public Int32 Level { get; set; }
+            public Int32 Exp { get; set; }
+            public Int32 Quality { get; set; }
+            public Int32 InitQuality { get; set; }
+            public Int32 Star { get; set; }
+            public Int32 Grade { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyLoginCharacterListSkillList
             {
                 public UInt32 Id { get; set; }
-                public Byte Level { get; set; }
+                public Int32 Level { get; set; }
             }
 
             public NotifyLoginCharacterListSkillList[] SkillList { get; set; }
             public dynamic[] EnhanceSkillList { get; set; }
             public UInt32 FashionId { get; set; }
             public UInt32 CreateTime { get; set; }
-            public Byte TrustLv { get; set; }
-            public Byte TrustExp { get; set; }
-            public UInt16 Ability { get; set; }
-            public Byte LiberateLv { get; set; }
+            public Int32 TrustLv { get; set; }
+            public Int32 TrustExp { get; set; }
+            public UInt32 Ability { get; set; }
+            public Int32 LiberateLv { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyLoginCharacterListCharacterHeadInfo
             {
-                public Byte HeadFashionId { get; set; }
-                public Byte HeadFashionType { get; set; }
+                public Int32 HeadFashionId { get; set; }
+                public Int32 HeadFashionType { get; set; }
             }
 
             public NotifyLoginCharacterListCharacterHeadInfo CharacterHeadInfo { get; set; }
@@ -175,12 +175,12 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyLoginEquipList
         {
-            public Byte Id { get; set; }
+            public Int32 Id { get; set; }
             public UInt32 TemplateId { get; set; }
             public UInt32 CharacterId { get; set; }
-            public Byte Level { get; set; }
-            public Byte Exp { get; set; }
-            public Byte Breakthrough { get; set; }
+            public Int32 Level { get; set; }
+            public Int32 Exp { get; set; }
+            public Int32 Breakthrough { get; set; }
             public dynamic[] ResonanceInfo { get; set; }
             public dynamic[] UnconfirmedResonanceInfo { get; set; }
             public dynamic[] AwakeSlotList { get; set; }
@@ -202,7 +202,7 @@ namespace AscNet.Common.MsgPack
         public class NotifyLoginHeadPortraitList
         {
             public UInt32 Id { get; set; }
-            public Byte LeftCount { get; set; }
+            public Int32 LeftCount { get; set; }
             public UInt32 BeginTime { get; set; }
         }
 
@@ -222,10 +222,10 @@ namespace AscNet.Common.MsgPack
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyLoginFubenDataFubenBaseData
             {
-                public Byte RefreshTime { get; set; }
-                public Byte SelectedCharId { get; set; }
-                public Byte UrgentAlarmCount { get; set; }
-                public Byte WeeklyUrgentCount { get; set; }
+                public Int32 RefreshTime { get; set; }
+                public Int32 SelectedCharId { get; set; }
+                public Int32 UrgentAlarmCount { get; set; }
+                public Int32 WeeklyUrgentCount { get; set; }
                 public dynamic? DayUrgentCount { get; set; }
             }
 
@@ -266,11 +266,11 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyLoginSignInf
         {
-            public Byte Id { get; set; }
-            public Byte Round { get; set; }
-            public Byte Day { get; set; }
+            public Int32 Id { get; set; }
+            public Int32 Round { get; set; }
+            public Int32 Day { get; set; }
             public Boolean Got { get; set; }
-            public Byte FinishDay { get; set; }
+            public Int32 FinishDay { get; set; }
         }
 
         public NotifyLoginSignInf[] SignInfos { get; set; }
@@ -313,9 +313,9 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyEquipChipAutoRecycleSiteChipRecycleSite
         {
-            public Byte[] RecycleStar { get; set; }
-            public Byte Days { get; set; }
-            public Byte SetRecycleTime { get; set; }
+            public Int32[] RecycleStar { get; set; }
+            public Int32 Days { get; set; }
+            public Int32 SetRecycleTime { get; set; }
         }
 
         public NotifyEquipChipAutoRecycleSiteChipRecycleSite ChipRecycleSite { get; set; }
@@ -328,7 +328,7 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyEquipGuideDataEquipGuideData
         {
-            public Byte TargetId { get; set; }
+            public Int32 TargetId { get; set; }
             public dynamic[] PutOnPosList { get; set; }
             public dynamic[] FinishedTargets { get; set; }
         }
@@ -343,8 +343,8 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyArchiveLoginDataMonste
         {
-            public UInt16 Id { get; set; }
-            public Byte Killed { get; set; }
+            public UInt32 Id { get; set; }
+            public Int32 Killed { get; set; }
         }
 
         public NotifyArchiveLoginDataMonste[] Monsters { get; set; }
@@ -352,9 +352,9 @@ namespace AscNet.Common.MsgPack
         public class NotifyArchiveLoginDataEqui
         {
             public UInt32 Id { get; set; }
-            public Byte Level { get; set; }
-            public Byte Breakthrough { get; set; }
-            public Byte ResonanceCount { get; set; }
+            public Int32 Level { get; set; }
+            public Int32 Breakthrough { get; set; }
+            public Int32 ResonanceCount { get; set; }
         }
 
         public NotifyArchiveLoginDataEqui[] Equips { get; set; }
@@ -383,7 +383,7 @@ namespace AscNet.Common.MsgPack
         public class NotifyChatLoginDataUnlockEmoj
         {
             public UInt32 Id { get; set; }
-            public Byte EndTime { get; set; }
+            public Int32 EndTime { get; set; }
         }
 
         public NotifyChatLoginDataUnlockEmoj[] UnlockEmojis { get; set; }
@@ -409,28 +409,28 @@ namespace AscNet.Common.MsgPack
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyTaskDataTaskDataTas
             {
-                public UInt16 Id { get; set; }
+                public UInt32 Id { get; set; }
                 [global::MessagePack.MessagePackObject(true)]
                 public class NotifyTaskDataTaskDataTasSchedule
                 {
-                    public UInt16 Id { get; set; }
-                    public Byte Value { get; set; }
+                    public UInt32 Id { get; set; }
+                    public Int32 Value { get; set; }
                 }
 
                 public NotifyTaskDataTaskDataTasSchedule[] Schedule { get; set; }
-                public Byte State { get; set; }
+                public Int32 State { get; set; }
                 public UInt32 RecordTime { get; set; }
-                public Byte ActivityId { get; set; }
+                public Int32 ActivityId { get; set; }
             }
 
             public NotifyTaskDataTaskDataTas[] Tasks { get; set; }
             public UInt32[] Course { get; set; }
-            public Byte[] FinishedTasks { get; set; }
-            public Byte[] NewPlayerRewardRecord { get; set; }
+            public Int32[] FinishedTasks { get; set; }
+            public Int32[] NewPlayerRewardRecord { get; set; }
             public dynamic[] TaskLimitIdActiveInfos { get; set; }
             public dynamic[] NewbieRecvProgress { get; set; }
             public Boolean NewbieHonorReward { get; set; }
-            public Byte NewbieUnlockPeriod { get; set; }
+            public Int32 NewbieUnlockPeriod { get; set; }
         }
 
         public NotifyTaskDataTaskData TaskData { get; set; }
@@ -440,15 +440,15 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyActivenessStatus
     {
-        public Byte DailyActivenessRewardStatus { get; set; }
-        public Byte WeeklyActivenessRewardStatus { get; set; }
+        public Int32 DailyActivenessRewardStatus { get; set; }
+        public Int32 WeeklyActivenessRewardStatus { get; set; }
     }
 
 
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyNewPlayerTaskStatus
     {
-        public UInt16 NewPlayerTaskActiveDay { get; set; }
+        public UInt32 NewPlayerTaskActiveDay { get; set; }
     }
 
 
@@ -461,9 +461,9 @@ namespace AscNet.Common.MsgPack
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyRegression2DataDataActivityData
             {
-                public Byte Id { get; set; }
-                public Byte BeginTime { get; set; }
-                public Byte State { get; set; }
+                public Int32 Id { get; set; }
+                public Int32 BeginTime { get; set; }
+                public Int32 State { get; set; }
             }
 
             public NotifyRegression2DataDataActivityData ActivityData { get; set; }
@@ -479,14 +479,14 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyMaintainerActionData
     {
-        public Byte Id { get; set; }
+        public Int32 Id { get; set; }
         public UInt32 ResetTime { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyMaintainerActionDataNod
         {
-            public Byte NodeId { get; set; }
-            public Byte NodeType { get; set; }
-            public Byte EventId { get; set; }
+            public Int32 NodeId { get; set; }
+            public Int32 NodeType { get; set; }
+            public Int32 EventId { get; set; }
             public String Value { get; set; }
         }
 
@@ -497,22 +497,22 @@ namespace AscNet.Common.MsgPack
             public UInt32 PlayerId { get; set; }
             public String PlayerName { get; set; }
             public UInt32 HeadPortraitId { get; set; }
-            public Byte HeadFrameId { get; set; }
-            public Byte NodeId { get; set; }
+            public Int32 HeadFrameId { get; set; }
+            public Int32 NodeId { get; set; }
             public Boolean IsNodeTriggered { get; set; }
             public Boolean Reverse { get; set; }
         }
 
         public NotifyMaintainerActionDataPlaye[] Players { get; set; }
-        public Byte[] Cards { get; set; }
-        public Byte FightWinCount { get; set; }
-        public Byte BoxCount { get; set; }
-        public Byte UsedActionCount { get; set; }
-        public Byte ExtraActionCount { get; set; }
+        public Int32[] Cards { get; set; }
+        public Int32 FightWinCount { get; set; }
+        public Int32 BoxCount { get; set; }
+        public Int32 UsedActionCount { get; set; }
+        public Int32 ExtraActionCount { get; set; }
         public Boolean HasWarehouseNode { get; set; }
-        public Byte WarehouseFinishCount { get; set; }
+        public Int32 WarehouseFinishCount { get; set; }
         public Boolean HasMentorNode { get; set; }
-        public Byte MentorStatus { get; set; }
+        public Int32 MentorStatus { get; set; }
     }
 
 
@@ -532,9 +532,9 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyScoreTitleDataWallInf
         {
-            public Byte Id { get; set; }
-            public UInt16 PedestalId { get; set; }
-            public UInt16 BackgroundId { get; set; }
+            public Int32 Id { get; set; }
+            public UInt32 PedestalId { get; set; }
+            public UInt32 BackgroundId { get; set; }
             public Boolean IsShow { get; set; }
             public dynamic[] CollectionSetInfos { get; set; }
         }
@@ -567,18 +567,18 @@ namespace AscNet.Common.MsgPack
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyTaskTasksTas
             {
-                public UInt16 Id { get; set; }
+                public UInt32 Id { get; set; }
                 [global::MessagePack.MessagePackObject(true)]
                 public class NotifyTaskTasksTasSchedule
                 {
-                    public UInt16 Id { get; set; }
-                    public Byte Value { get; set; }
+                    public UInt32 Id { get; set; }
+                    public Int32 Value { get; set; }
                 }
 
                 public NotifyTaskTasksTasSchedule[] Schedule { get; set; }
-                public Byte State { get; set; }
+                public Int32 State { get; set; }
                 public UInt32 RecordTime { get; set; }
-                public Byte ActivityId { get; set; }
+                public Int32 ActivityId { get; set; }
             }
 
             public NotifyTaskTasksTas[] Tasks { get; set; }
@@ -592,9 +592,9 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyGuildEvent
     {
-        public Byte Type { get; set; }
+        public Int32 Type { get; set; }
         public UInt32 Value { get; set; }
-        public Byte Value2 { get; set; }
+        public Int32 Value2 { get; set; }
         public dynamic? Str1 { get; set; }
     }
 
@@ -625,20 +625,20 @@ namespace AscNet.Common.MsgPack
         public dynamic[] FurnitureCreateList { get; set; }
         public dynamic[] WorkList { get; set; }
         public UInt32[] FurnitureUnlockList { get; set; }
-        public Byte SnapshotTimes { get; set; }
+        public Int32 SnapshotTimes { get; set; }
         public dynamic[] DormitoryList { get; set; }
         public dynamic[] VisitorList { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyDormitoryDataFurnitureList
         {
-            public Byte Id { get; set; }
+            public Int32 Id { get; set; }
             public UInt32 ConfigId { get; set; }
-            public Byte X { get; set; }
-            public Byte Y { get; set; }
-            public Byte Angle { get; set; }
-            public Byte DormitoryId { get; set; }
-            public UInt16 Addition { get; set; }
-            public Byte[] AttrList { get; set; }
+            public Int32 X { get; set; }
+            public Int32 Y { get; set; }
+            public Int32 Angle { get; set; }
+            public Int32 DormitoryId { get; set; }
+            public UInt32 Addition { get; set; }
+            public Int32[] AttrList { get; set; }
             public Boolean IsLocked { get; set; }
         }
 
@@ -648,12 +648,12 @@ namespace AscNet.Common.MsgPack
         {
             public UInt32 CharacterId { get; set; }
             public SByte DormitoryId { get; set; }
-            public Byte Mood { get; set; }
-            public Byte Vitality { get; set; }
-            public Byte MoodSpeed { get; set; }
-            public Byte VitalitySpeed { get; set; }
+            public Int32 Mood { get; set; }
+            public Int32 Vitality { get; set; }
+            public Int32 MoodSpeed { get; set; }
+            public Int32 VitalitySpeed { get; set; }
             public UInt32 LastFondleRecoveryTime { get; set; }
-            public Byte LeftFondleCount { get; set; }
+            public Int32 LeftFondleCount { get; set; }
             public dynamic[] EventList { get; set; }
         }
 
@@ -666,7 +666,7 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyNameplateLoginData
     {
-        public Byte CurrentWearNameplate { get; set; }
+        public Int32 CurrentWearNameplate { get; set; }
         public dynamic[] UnlockNameplates { get; set; }
     }
 
@@ -677,9 +677,9 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyGuildDormPlayerDataGuildDormData
         {
-            public Byte CurrentCharacterId { get; set; }
-            public Byte DailyInteractRewardTotalTimes { get; set; }
-            public Byte DailyInteractRewardCurTimes { get; set; }
+            public Int32 CurrentCharacterId { get; set; }
+            public Int32 DailyInteractRewardTotalTimes { get; set; }
+            public Int32 DailyInteractRewardCurTimes { get; set; }
         }
 
         public NotifyGuildDormPlayerDataGuildDormData GuildDormData { get; set; }
@@ -692,18 +692,18 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyBountyTaskInfoTaskInfo
         {
-            public Byte RankLevel { get; set; }
+            public Int32 RankLevel { get; set; }
             public dynamic[] TaskCards { get; set; }
-            public Byte TaskPoolRefreshCount { get; set; }
+            public Int32 TaskPoolRefreshCount { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyBountyTaskInfoTaskInfoTaskPool
             {
-                public Byte Id { get; set; }
+                public Int32 Id { get; set; }
                 public UInt32 StageId { get; set; }
-                public UInt16 RewardId { get; set; }
-                public UInt16 EventId { get; set; }
+                public UInt32 RewardId { get; set; }
+                public UInt32 EventId { get; set; }
                 public UInt32 DifficultStageId { get; set; }
-                public Byte Status { get; set; }
+                public Int32 Status { get; set; }
             }
 
             public NotifyBountyTaskInfoTaskInfoTaskPool[] TaskPool { get; set; }
@@ -719,7 +719,7 @@ namespace AscNet.Common.MsgPack
     {
         public dynamic[] CharacterIds { get; set; }
         public dynamic[] GroupRecord { get; set; }
-        public Byte ActivityNo { get; set; }
+        public Int32 ActivityNo { get; set; }
     }
 
 
@@ -777,7 +777,7 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyGatherRewardList
     {
-        public Byte[] GatherRewards { get; set; }
+        public Int32[] GatherRewards { get; set; }
     }
 
 
@@ -791,7 +791,7 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyAccumulatedPayData
     {
-        public Byte PayId { get; set; }
+        public Int32 PayId { get; set; }
         public Single PayMoney { get; set; }
         public dynamic[] PayRewardIds { get; set; }
     }
@@ -800,18 +800,18 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyArenaActivity
     {
-        public Byte ActivityNo { get; set; }
-        public Byte ChallengeId { get; set; }
-        public Byte Status { get; set; }
+        public Int32 ActivityNo { get; set; }
+        public Int32 ChallengeId { get; set; }
+        public Int32 Status { get; set; }
         public UInt32 NextStatusTime { get; set; }
-        public Byte ArenaLevel { get; set; }
-        public Byte JoinActivity { get; set; }
-        public Byte UnlockCount { get; set; }
+        public Int32 ArenaLevel { get; set; }
+        public Int32 JoinActivity { get; set; }
+        public Int32 UnlockCount { get; set; }
         public UInt32 TeamTime { get; set; }
         public UInt32 FightTime { get; set; }
         public UInt32 ResultTime { get; set; }
         public dynamic[] MaxPointStageList { get; set; }
-        public Byte ContributeScore { get; set; }
+        public Int32 ContributeScore { get; set; }
     }
 
 
@@ -847,9 +847,9 @@ namespace AscNet.Common.MsgPack
     public class NotifyMainLineActivity
     {
         public UInt16[] Chapters { get; set; }
-        public Byte BfrtChapter { get; set; }
+        public Int32 BfrtChapter { get; set; }
         public UInt32 EndTime { get; set; }
-        public Byte HideChapterBeginTime { get; set; }
+        public Int32 HideChapterBeginTime { get; set; }
     }
 
 
@@ -864,8 +864,8 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyBirthdayPlot
     {
-        public UInt16 NextActiveYear { get; set; }
-        public Byte IsChange { get; set; }
+        public UInt32 NextActiveYear { get; set; }
+        public Int32 IsChange { get; set; }
         public dynamic[] UnLockCg { get; set; }
     }
 
@@ -873,9 +873,9 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyBossActivityData
     {
-        public Byte ActivityId { get; set; }
-        public Byte SectionId { get; set; }
-        public Byte Schedule { get; set; }
+        public Int32 ActivityId { get; set; }
+        public Int32 SectionId { get; set; }
+        public Int32 Schedule { get; set; }
         public dynamic[] StageStarInfos { get; set; }
         public dynamic[] StarRewardIds { get; set; }
     }
@@ -895,16 +895,16 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyChessPursuitGroupInfoMapBossList
         {
-            public Byte Id { get; set; }
-            public Byte InitHp { get; set; }
-            public Byte SubBossMaxHp { get; set; }
-            public Byte BossStepMin { get; set; }
-            public Byte BossStepMax { get; set; }
+            public Int32 Id { get; set; }
+            public Int32 InitHp { get; set; }
+            public Int32 SubBossMaxHp { get; set; }
+            public Int32 BossStepMin { get; set; }
+            public Int32 BossStepMax { get; set; }
             public Single BattleHurtRate { get; set; }
-            public Byte BattleHurtMax { get; set; }
-            public Byte SelfHpRate { get; set; }
-            public Byte SelfHpMax { get; set; }
-            public Byte ConvertHurtRate { get; set; }
+            public Int32 BattleHurtMax { get; set; }
+            public Int32 SelfHpRate { get; set; }
+            public Int32 SelfHpMax { get; set; }
+            public Int32 ConvertHurtRate { get; set; }
         }
 
         public NotifyChessPursuitGroupInfoMapBossList[] MapBossList { get; set; }
@@ -924,8 +924,8 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyCourseDataData
         {
-            public Byte TotalLessonPoint { get; set; }
-            public Byte MaxTotalLessonPoint { get; set; }
+            public Int32 TotalLessonPoint { get; set; }
+            public Int32 MaxTotalLessonPoint { get; set; }
             public dynamic[] ChapterDataList { get; set; }
             public dynamic? StageDataDict { get; set; }
             public dynamic[] RewardIds { get; set; }
@@ -945,7 +945,7 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyActivityDrawGroupCount
     {
-        public Byte Count { get; set; }
+        public Int32 Count { get; set; }
     }
 
 
@@ -960,24 +960,24 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyBabelTowerActivityStatus
     {
-        public Byte ActivityNo { get; set; }
-        public Byte Status { get; set; }
+        public Int32 ActivityNo { get; set; }
+        public Int32 Status { get; set; }
     }
 
 
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyBabelTowerData
     {
-        public Byte ActivityNo { get; set; }
-        public Byte MaxScore { get; set; }
-        public Byte RankLevel { get; set; }
+        public Int32 ActivityNo { get; set; }
+        public Int32 MaxScore { get; set; }
+        public Int32 RankLevel { get; set; }
         public dynamic[] StageDatas { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyBabelTowerDataExtraData
         {
-            public Byte ActivityNo { get; set; }
-            public Byte MaxScore { get; set; }
-            public Byte RankLevel { get; set; }
+            public Int32 ActivityNo { get; set; }
+            public Int32 MaxScore { get; set; }
+            public Int32 RankLevel { get; set; }
             public dynamic[] StageDatas { get; set; }
         }
 
@@ -991,19 +991,19 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyFubenBossSingleDataFubenBossSingleData
         {
-            public Byte ActivityNo { get; set; }
-            public Byte TotalScore { get; set; }
-            public Byte MaxScore { get; set; }
-            public Byte OldLevelType { get; set; }
-            public Byte LevelType { get; set; }
-            public Byte ChallengeCount { get; set; }
+            public Int32 ActivityNo { get; set; }
+            public Int32 TotalScore { get; set; }
+            public Int32 MaxScore { get; set; }
+            public Int32 OldLevelType { get; set; }
+            public Int32 LevelType { get; set; }
+            public Int32 ChallengeCount { get; set; }
             public UInt32 RemainTime { get; set; }
-            public Byte AutoFightCount { get; set; }
+            public Int32 AutoFightCount { get; set; }
             public dynamic? CharacterPoints { get; set; }
             public dynamic[] HistoryList { get; set; }
             public dynamic[] RewardIds { get; set; }
-            public Byte RankPlatform { get; set; }
-            public Byte[] BossList { get; set; }
+            public Int32 RankPlatform { get; set; }
+            public Int32[] BossList { get; set; }
             public dynamic[] TrialStageInfoList { get; set; }
         }
 
@@ -1024,7 +1024,7 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyPracticeDataChapterInf
         {
-            public Byte Id { get; set; }
+            public Int32 Id { get; set; }
             public UInt32[] FinishStages { get; set; }
         }
 
@@ -1035,8 +1035,8 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyTrialData
     {
-        public Byte[] FinishTrial { get; set; }
-        public Byte[] RewardRecord { get; set; }
+        public Int32[] FinishTrial { get; set; }
+        public Int32[] RewardRecord { get; set; }
         public dynamic[] TypeRewardRecord { get; set; }
     }
 
@@ -1047,8 +1047,8 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyPivotCombatDataPivotCombatData
         {
-            public Byte ActivityId { get; set; }
-            public Byte Difficulty { get; set; }
+            public Int32 ActivityId { get; set; }
+            public Int32 Difficulty { get; set; }
             public dynamic[] RegionDataList { get; set; }
         }
 
@@ -1066,12 +1066,12 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyRepeatChallengeData
     {
-        public Byte Id { get; set; }
+        public Int32 Id { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyRepeatChallengeDataExpInfo
         {
-            public Byte Level { get; set; }
-            public Byte Exp { get; set; }
+            public Int32 Level { get; set; }
+            public Int32 Exp { get; set; }
         }
 
         public NotifyRepeatChallengeDataExpInfo ExpInfo { get; set; }
@@ -1086,8 +1086,8 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyPlayerReportDataReportData
         {
-            public Byte ReportTimes { get; set; }
-            public Byte LastReportTime { get; set; }
+            public Int32 ReportTimes { get; set; }
+            public Int32 LastReportTime { get; set; }
         }
 
         public NotifyPlayerReportDataReportData ReportData { get; set; }
@@ -1100,10 +1100,10 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyReviewConfigReviewActivityConfigList
         {
-            public Byte Id { get; set; }
+            public Int32 Id { get; set; }
             public UInt32 StartTime { get; set; }
             public UInt32 EndTime { get; set; }
-            public UInt16 RewardId { get; set; }
+            public UInt32 RewardId { get; set; }
         }
 
         public NotifyReviewConfigReviewActivityConfigList[] ReviewActivityConfigList { get; set; }
@@ -1113,17 +1113,17 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyStrongholdLoginData
     {
-        public Byte Id { get; set; }
+        public Int32 Id { get; set; }
         public UInt32 BeginTime { get; set; }
         public UInt32 FightBeginTime { get; set; }
-        public Byte CurDay { get; set; }
-        public Byte AssistCharacterId { get; set; }
-        public Byte SetAssistCharacterTime { get; set; }
-        public Byte BorrowCount { get; set; }
-        public UInt16 ElectricEnergy { get; set; }
-        public Byte Endurance { get; set; }
-        public Byte MineralLeft { get; set; }
-        public Byte TotalMineral { get; set; }
+        public Int32 CurDay { get; set; }
+        public Int32 AssistCharacterId { get; set; }
+        public Int32 SetAssistCharacterTime { get; set; }
+        public Int32 BorrowCount { get; set; }
+        public UInt32 ElectricEnergy { get; set; }
+        public Int32 Endurance { get; set; }
+        public Int32 MineralLeft { get; set; }
+        public Int32 TotalMineral { get; set; }
         public dynamic[] ElectricCharacterIds { get; set; }
         public dynamic[] FinishGroupIds { get; set; }
         public dynamic[] FinishGroupInfos { get; set; }
@@ -1133,38 +1133,38 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyStrongholdLoginDataGroupStageDat
         {
-            public Byte Id { get; set; }
+            public Int32 Id { get; set; }
             public UInt32[] StageIds { get; set; }
             public Dictionary<dynamic, dynamic> StageBuffId { get; set; }
-            public Byte SupportId { get; set; }
+            public Int32 SupportId { get; set; }
         }
 
         public NotifyStrongholdLoginDataGroupStageDat[] GroupStageDatas { get; set; }
-        public Byte[] RuneList { get; set; }
+        public Int32[] RuneList { get; set; }
         public dynamic[] RewardIds { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyStrongholdLoginDataLastResultRecord
         {
-            public Byte Id { get; set; }
-            public Byte FinishCount { get; set; }
-            public Byte MinerCount { get; set; }
-            public Byte MineralCount { get; set; }
-            public Byte AssistCount { get; set; }
-            public Byte AssistRewardValue { get; set; }
+            public Int32 Id { get; set; }
+            public Int32 FinishCount { get; set; }
+            public Int32 MinerCount { get; set; }
+            public Int32 MineralCount { get; set; }
+            public Int32 AssistCount { get; set; }
+            public Int32 AssistRewardValue { get; set; }
         }
 
         public NotifyStrongholdLoginDataLastResultRecord LastResultRecord { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyStrongholdLoginDataMineRecor
         {
-            public Byte Day { get; set; }
-            public Byte MinerCount { get; set; }
-            public Byte MineralCount { get; set; }
+            public Int32 Day { get; set; }
+            public Int32 MinerCount { get; set; }
+            public Int32 MineralCount { get; set; }
             public Boolean IsStay { get; set; }
         }
 
         public NotifyStrongholdLoginDataMineRecor[] MineRecords { get; set; }
-        public Byte LevelId { get; set; }
+        public Int32 LevelId { get; set; }
         public dynamic[] StayDays { get; set; }
     }
 
@@ -1172,9 +1172,9 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifySummerSignInData
     {
-        public Byte ActId { get; set; }
+        public Int32 ActId { get; set; }
         public dynamic[] MsgIdList { get; set; }
-        public Byte SurplusTimes { get; set; }
+        public Int32 SurplusTimes { get; set; }
     }
 
 
@@ -1184,13 +1184,13 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyTaikoMasterDataTaikoMasterData
         {
-            public Byte ActivityId { get; set; }
+            public Int32 ActivityId { get; set; }
             public dynamic[] StageDataList { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyTaikoMasterDataTaikoMasterDataSetting
             {
-                public Byte AppearOffset { get; set; }
-                public Byte JudgeOffset { get; set; }
+                public Int32 AppearOffset { get; set; }
+                public Int32 JudgeOffset { get; set; }
             }
 
             public NotifyTaikoMasterDataTaikoMasterDataSetting Setting { get; set; }
@@ -1210,10 +1210,10 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyTheatreData
     {
-        public Byte CurChapterId { get; set; }
-        public Byte CurRoleLv { get; set; }
-        public Byte DifficultyId { get; set; }
-        public Byte KeepsakeId { get; set; }
+        public Int32 CurChapterId { get; set; }
+        public Int32 CurRoleLv { get; set; }
+        public Int32 DifficultyId { get; set; }
+        public Int32 KeepsakeId { get; set; }
         public dynamic[] UnlockPowerIds { get; set; }
         public dynamic[] UnlockPowerFavorIds { get; set; }
         public dynamic[] EffectPowerFavorIds { get; set; }
@@ -1222,16 +1222,16 @@ namespace AscNet.Common.MsgPack
         public dynamic[] Keepsakes { get; set; }
         public dynamic[] Decorations { get; set; }
         public dynamic? CurChapterDb { get; set; }
-        public Byte ReopenCount { get; set; }
+        public Int32 ReopenCount { get; set; }
         public dynamic[] SkillIllustratedBook { get; set; }
         public dynamic? SingleTeamData { get; set; }
         public dynamic[] MultiTeamDatas { get; set; }
-        public Byte UseOwnCharacter { get; set; }
-        public Byte FavorCoin { get; set; }
-        public Byte DecorationCoin { get; set; }
+        public Int32 UseOwnCharacter { get; set; }
+        public Int32 FavorCoin { get; set; }
+        public Int32 DecorationCoin { get; set; }
         public dynamic[] PassChapterId { get; set; }
         public dynamic? PassEventRecord { get; set; }
-        public Byte PassNodeCount { get; set; }
+        public Int32 PassNodeCount { get; set; }
         public dynamic[] EndingRecord { get; set; }
     }
 
@@ -1246,21 +1246,21 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyTRPGData
     {
-        public UInt16 CurTargetLink { get; set; }
+        public UInt32 CurTargetLink { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyTRPGDataBaseInfo
         {
-            public Byte Level { get; set; }
-            public Byte Exp { get; set; }
-            public Byte Endurance { get; set; }
+            public Int32 Level { get; set; }
+            public Int32 Exp { get; set; }
+            public Int32 Endurance { get; set; }
         }
 
         public NotifyTRPGDataBaseInfo BaseInfo { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyTRPGDataBossInfo
         {
-            public Byte Id { get; set; }
-            public Byte ChallengeCount { get; set; }
+            public Int32 Id { get; set; }
+            public Int32 ChallengeCount { get; set; }
             public dynamic[] PhasesRewardList { get; set; }
         }
 
@@ -1272,8 +1272,8 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyTRPGDataShopInf
         {
-            public Byte DisCount { get; set; }
-            public Byte AddBuyCount { get; set; }
+            public Int32 DisCount { get; set; }
+            public Int32 AddBuyCount { get; set; }
             public UInt32 Id { get; set; }
             public dynamic[] ItemInfos { get; set; }
         }
@@ -1281,7 +1281,7 @@ namespace AscNet.Common.MsgPack
         public NotifyTRPGDataShopInf[] ShopInfos { get; set; }
         public dynamic[] MazeInfos { get; set; }
         public dynamic[] MemoirList { get; set; }
-        public Byte ItemCapacityAdd { get; set; }
+        public Int32 ItemCapacityAdd { get; set; }
         public Boolean IsNormalPage { get; set; }
         public dynamic[] StageList { get; set; }
     }
@@ -1290,14 +1290,14 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyBiancaTheatreActivityData
     {
-        public Byte CurActivityId { get; set; }
-        public Byte CurChapterId { get; set; }
-        public Byte DifficultyId { get; set; }
-        public Byte CurTeamId { get; set; }
+        public Int32 CurActivityId { get; set; }
+        public Int32 CurChapterId { get; set; }
+        public Int32 DifficultyId { get; set; }
+        public Int32 CurTeamId { get; set; }
         public dynamic? CurChapterDb { get; set; }
         public dynamic[] Characters { get; set; }
         public dynamic[] Items { get; set; }
-        public Byte TotalExp { get; set; }
+        public Int32 TotalExp { get; set; }
         public dynamic[] GetRewardIds { get; set; }
         public dynamic[] StrengthenDbs { get; set; }
         public dynamic? SingleTeamData { get; set; }
@@ -1312,29 +1312,29 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyMentorData
     {
-        public Byte PlayerType { get; set; }
+        public Int32 PlayerType { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyMentorDataTeacher
         {
-            public Byte PlayerId { get; set; }
+            public Int32 PlayerId { get; set; }
             public dynamic? PlayerName { get; set; }
-            public Byte Level { get; set; }
-            public Byte HeadPortraitId { get; set; }
-            public Byte HeadFrameId { get; set; }
+            public Int32 Level { get; set; }
+            public Int32 HeadPortraitId { get; set; }
+            public Int32 HeadFrameId { get; set; }
             public Boolean IsGraduate { get; set; }
             public dynamic? Tag { get; set; }
             public dynamic? OnlineTag { get; set; }
             public dynamic? Announcement { get; set; }
-            public Byte StudentCount { get; set; }
+            public Int32 StudentCount { get; set; }
             public dynamic? StudentTask { get; set; }
             public Boolean IsOnline { get; set; }
             public dynamic? SystemTask { get; set; }
             public dynamic? WeeklyTask { get; set; }
-            public Byte KizunaAmount { get; set; }
-            public Byte JoinTime { get; set; }
-            public Byte ReachTime { get; set; }
-            public Byte LastLoginTime { get; set; }
-            public Byte SendGiftCount { get; set; }
+            public Int32 KizunaAmount { get; set; }
+            public Int32 JoinTime { get; set; }
+            public Int32 ReachTime { get; set; }
+            public Int32 LastLoginTime { get; set; }
+            public Int32 SendGiftCount { get; set; }
         }
 
         public NotifyMentorDataTeacher Teacher { get; set; }
@@ -1343,49 +1343,49 @@ namespace AscNet.Common.MsgPack
         {
             public UInt32 PlayerId { get; set; }
             public String PlayerName { get; set; }
-            public Byte Level { get; set; }
+            public Int32 Level { get; set; }
             public UInt32 HeadPortraitId { get; set; }
-            public Byte HeadFrameId { get; set; }
+            public Int32 HeadFrameId { get; set; }
             public Boolean IsGraduate { get; set; }
             public dynamic? Tag { get; set; }
             public dynamic? OnlineTag { get; set; }
             public dynamic? Announcement { get; set; }
-            public Byte StudentCount { get; set; }
+            public Int32 StudentCount { get; set; }
             public dynamic[] StudentTask { get; set; }
             public Boolean IsOnline { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyMentorDataStudenSystemTask
             {
-                public UInt16 TaskId { get; set; }
-                public Byte State { get; set; }
+                public UInt32 TaskId { get; set; }
+                public Int32 State { get; set; }
                 public dynamic[] Schedule { get; set; }
-                public Byte Status { get; set; }
-                public Byte RewardId { get; set; }
+                public Int32 Status { get; set; }
+                public Int32 RewardId { get; set; }
                 public dynamic[] EquipList { get; set; }
                 public Boolean HasChange { get; set; }
             }
 
             public NotifyMentorDataStudenSystemTask[] SystemTask { get; set; }
             public dynamic[] WeeklyTask { get; set; }
-            public Byte KizunaAmount { get; set; }
-            public Byte JoinTime { get; set; }
-            public Byte ReachTime { get; set; }
-            public Byte LastLoginTime { get; set; }
-            public Byte SendGiftCount { get; set; }
+            public Int32 KizunaAmount { get; set; }
+            public Int32 JoinTime { get; set; }
+            public Int32 ReachTime { get; set; }
+            public Int32 LastLoginTime { get; set; }
+            public Int32 SendGiftCount { get; set; }
         }
 
         public NotifyMentorDataStuden[] Students { get; set; }
         public dynamic[] ApplyList { get; set; }
-        public Byte GraduateStudentCount { get; set; }
+        public Int32 GraduateStudentCount { get; set; }
         public dynamic[] StageReward { get; set; }
         public dynamic[] WeeklyTaskReward { get; set; }
-        public Byte WeeklyTaskCompleteCount { get; set; }
-        public Byte[] Tag { get; set; }
-        public Byte[] OnlineTag { get; set; }
+        public Int32 WeeklyTaskCompleteCount { get; set; }
+        public Int32[] Tag { get; set; }
+        public Int32[] OnlineTag { get; set; }
         public String Announcement { get; set; }
-        public Byte DailyChangeTaskCount { get; set; }
-        public Byte WeeklyLevel { get; set; }
-        public Byte MonthlyStudentCount { get; set; }
+        public Int32 DailyChangeTaskCount { get; set; }
+        public Int32 WeeklyLevel { get; set; }
+        public Int32 MonthlyStudentCount { get; set; }
         public dynamic? Message { get; set; }
     }
 
@@ -1400,23 +1400,23 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyMaintainerActionDailyReset
     {
-        public Byte UsedActionCount { get; set; }
-        public Byte ExtraActionCount { get; set; }
+        public Int32 UsedActionCount { get; set; }
+        public Int32 ExtraActionCount { get; set; }
     }
 
 
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyGuildData
     {
-        public Byte GuildId { get; set; }
+        public Int32 GuildId { get; set; }
         public String GuildName { get; set; }
-        public Byte GuildLevel { get; set; }
-        public Byte IconId { get; set; }
-        public Byte GuildRankLevel { get; set; }
-        public Byte HasContributeReward { get; set; }
+        public Int32 GuildLevel { get; set; }
+        public Int32 IconId { get; set; }
+        public Int32 GuildRankLevel { get; set; }
+        public Int32 HasContributeReward { get; set; }
         public Boolean HasRecruit { get; set; }
-        public Byte BossEndTime { get; set; }
-        public Byte FreeChangeGuildNameCount { get; set; }
+        public Int32 BossEndTime { get; set; }
+        public Int32 FreeChangeGuildNameCount { get; set; }
     }
 
 
@@ -1427,10 +1427,10 @@ namespace AscNet.Common.MsgPack
         public class NotifyMailsNewMailList
         {
             public String Id { get; set; }
-            public Byte GroupId { get; set; }
+            public Int32 GroupId { get; set; }
             public dynamic? BatchId { get; set; }
-            public Byte Type { get; set; }
-            public Byte Status { get; set; }
+            public Int32 Type { get; set; }
+            public Int32 Status { get; set; }
             public String SendName { get; set; }
             public String Title { get; set; }
             public String Content { get; set; }
@@ -1440,15 +1440,15 @@ namespace AscNet.Common.MsgPack
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyMailsNewMailListRewardGoodsList
             {
-                public Byte RewardType { get; set; }
+                public Int32 RewardType { get; set; }
                 public UInt32 TemplateId { get; set; }
-                public Byte Count { get; set; }
-                public Byte Level { get; set; }
-                public Byte Quality { get; set; }
-                public Byte Grade { get; set; }
-                public Byte Breakthrough { get; set; }
-                public Byte ConvertFrom { get; set; }
-                public Byte Id { get; set; }
+                public Int32 Count { get; set; }
+                public Int32 Level { get; set; }
+                public Int32 Quality { get; set; }
+                public Int32 Grade { get; set; }
+                public Int32 Breakthrough { get; set; }
+                public Int32 ConvertFrom { get; set; }
+                public Int32 Id { get; set; }
             }
 
             public NotifyMailsNewMailListRewardGoodsList[] RewardGoodsList { get; set; }
@@ -1463,20 +1463,20 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class EnterWorldChatResponse
     {
-        public Byte Code { get; set; }
-        public Byte ChannelId { get; set; }
+        public Int32 Code { get; set; }
+        public Int32 ChannelId { get; set; }
     }
 
 
     [global::MessagePack.MessagePackObject(true)]
     public class GetWorldChannelInfoResponse
     {
-        public Byte Code { get; set; }
+        public Int32 Code { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class GetWorldChannelInfoResponseChannelInf
         {
-            public Byte ChannelId { get; set; }
-            public Byte PlayerNum { get; set; }
+            public Int32 ChannelId { get; set; }
+            public Int32 PlayerNum { get; set; }
         }
 
         public GetWorldChannelInfoResponseChannelInf[] ChannelInfos { get; set; }
@@ -1493,36 +1493,36 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class GetPurchaseListRequest
     {
-        public Byte[] UiTypeList { get; set; }
+        public Int32[] UiTypeList { get; set; }
     }
 
 
     [global::MessagePack.MessagePackObject(true)]
     public class GetPurchaseListResponse
     {
-        public Byte Code { get; set; }
+        public Int32 Code { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class GetPurchaseListResponsePurchaseInfoList
         {
             public UInt32 Id { get; set; }
-            public Byte TimeToInvalid { get; set; }
-            public Byte TimeToShelve { get; set; }
-            public Byte TimeToUnShelve { get; set; }
-            public Byte BuyTimes { get; set; }
-            public Byte BuyLimitTimes { get; set; }
-            public Byte ConsumeId { get; set; }
-            public Byte ConsumeCount { get; set; }
+            public Int32 TimeToInvalid { get; set; }
+            public Int32 TimeToShelve { get; set; }
+            public Int32 TimeToUnShelve { get; set; }
+            public Int32 BuyTimes { get; set; }
+            public Int32 BuyLimitTimes { get; set; }
+            public Int32 ConsumeId { get; set; }
+            public Int32 ConsumeCount { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class GetPurchaseListResponsePurchaseInfoListRewardGoodsList
             {
-                public Byte RewardType { get; set; }
-                public Byte TemplateId { get; set; }
-                public UInt16 Count { get; set; }
-                public Byte Level { get; set; }
-                public Byte Quality { get; set; }
-                public Byte Grade { get; set; }
-                public Byte Breakthrough { get; set; }
-                public Byte ConvertFrom { get; set; }
+                public Int32 RewardType { get; set; }
+                public Int32 TemplateId { get; set; }
+                public UInt32 Count { get; set; }
+                public Int32 Level { get; set; }
+                public Int32 Quality { get; set; }
+                public Int32 Grade { get; set; }
+                public Int32 Breakthrough { get; set; }
+                public Int32 ConvertFrom { get; set; }
                 public UInt32 Id { get; set; }
             }
 
@@ -1530,34 +1530,34 @@ namespace AscNet.Common.MsgPack
             [global::MessagePack.MessagePackObject(true)]
             public class GetPurchaseListResponsePurchaseInfoListDailyRewardGoodsList
             {
-                public Byte RewardType { get; set; }
-                public Byte TemplateId { get; set; }
-                public Byte Count { get; set; }
-                public Byte Level { get; set; }
-                public Byte Quality { get; set; }
-                public Byte Grade { get; set; }
-                public Byte Breakthrough { get; set; }
-                public Byte ConvertFrom { get; set; }
+                public Int32 RewardType { get; set; }
+                public Int32 TemplateId { get; set; }
+                public Int32 Count { get; set; }
+                public Int32 Level { get; set; }
+                public Int32 Quality { get; set; }
+                public Int32 Grade { get; set; }
+                public Int32 Breakthrough { get; set; }
+                public Int32 ConvertFrom { get; set; }
                 public UInt32 Id { get; set; }
             }
 
             public GetPurchaseListResponsePurchaseInfoListDailyRewardGoodsList[] DailyRewardGoodsList { get; set; }
             public dynamic? FirstRewardGoods { get; set; }
             public dynamic? ExtraRewardGoods { get; set; }
-            public Byte DailyRewardRemainDay { get; set; }
+            public Int32 DailyRewardRemainDay { get; set; }
             public Boolean IsDailyRewardGet { get; set; }
             public String Name { get; set; }
             public String Desc { get; set; }
             public String Icon { get; set; }
-            public Byte UiType { get; set; }
-            public Byte SignInId { get; set; }
-            public Byte Tag { get; set; }
-            public Byte Priority { get; set; }
+            public Int32 UiType { get; set; }
+            public Int32 SignInId { get; set; }
+            public Int32 Tag { get; set; }
+            public Int32 Priority { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class GetPurchaseListResponsePurchaseInfoListClientResetInfo
             {
-                public Byte ResetType { get; set; }
-                public Byte DayCount { get; set; }
+                public Int32 ResetType { get; set; }
+                public Int32 DayCount { get; set; }
             }
 
             public GetPurchaseListResponsePurchaseInfoListClientResetInfo ClientResetInfo { get; set; }
@@ -1565,11 +1565,11 @@ namespace AscNet.Common.MsgPack
             public dynamic? NormalDiscounts { get; set; }
             public dynamic? DiscountCouponInfos { get; set; }
             public dynamic? DiscountShowStr { get; set; }
-            public Byte LastBuyTime { get; set; }
-            public Byte MailCount { get; set; }
+            public Int32 LastBuyTime { get; set; }
+            public Int32 MailCount { get; set; }
             public dynamic? PayKeySuffix { get; set; }
             public UInt32[] MutexPurchaseIds { get; set; }
-            public Byte ConvertSwitch { get; set; }
+            public Int32 ConvertSwitch { get; set; }
             public Boolean CanMultiply { get; set; }
             public dynamic? FashionLabel { get; set; }
         }
@@ -1588,7 +1588,7 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class OfflineMessageResponse
     {
-        public Byte Code { get; set; }
+        public Int32 Code { get; set; }
         public dynamic? Messages { get; set; }
     }
 
@@ -1596,21 +1596,21 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class DoClientTaskEventRequest
     {
-        public Byte ClientTaskType { get; set; }
+        public Int32 ClientTaskType { get; set; }
     }
 
 
     [global::MessagePack.MessagePackObject(true)]
     public class DoClientTaskEventResponse
     {
-        public Byte Code { get; set; }
+        public Int32 Code { get; set; }
     }
 
 
     [global::MessagePack.MessagePackObject(true)]
     public class SignInRequest
     {
-        public Byte Id { get; set; }
+        public Int32 Id { get; set; }
     }
 
 
@@ -1620,11 +1620,11 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyItemDataListItemDataList
         {
-            public UInt16 Id { get; set; }
-            public Byte Count { get; set; }
-            public Byte BuyTimes { get; set; }
-            public Byte TotalBuyTimes { get; set; }
-            public Byte LastBuyTime { get; set; }
+            public UInt32 Id { get; set; }
+            public Int32 Count { get; set; }
+            public Int32 BuyTimes { get; set; }
+            public Int32 TotalBuyTimes { get; set; }
+            public Int32 LastBuyTime { get; set; }
             public UInt32 RefreshTime { get; set; }
             public UInt32 CreateTime { get; set; }
         }
@@ -1637,18 +1637,18 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class SignInResponse
     {
-        public Byte Code { get; set; }
+        public Int32 Code { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class SignInResponseRewardGoodsList
         {
-            public Byte RewardType { get; set; }
-            public UInt16 TemplateId { get; set; }
-            public Byte Count { get; set; }
-            public Byte Level { get; set; }
-            public Byte Quality { get; set; }
-            public Byte Grade { get; set; }
-            public Byte Breakthrough { get; set; }
-            public Byte ConvertFrom { get; set; }
+            public Int32 RewardType { get; set; }
+            public UInt32 TemplateId { get; set; }
+            public Int32 Count { get; set; }
+            public Int32 Level { get; set; }
+            public Int32 Quality { get; set; }
+            public Int32 Grade { get; set; }
+            public Int32 Breakthrough { get; set; }
+            public Int32 ConvertFrom { get; set; }
             public UInt32 Id { get; set; }
         }
 
@@ -1662,12 +1662,12 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyEquipDataListEquipDataList
         {
-            public UInt16 Id { get; set; }
+            public UInt32 Id { get; set; }
             public UInt32 TemplateId { get; set; }
-            public Byte CharacterId { get; set; }
-            public Byte Level { get; set; }
-            public Byte Exp { get; set; }
-            public Byte Breakthrough { get; set; }
+            public Int32 CharacterId { get; set; }
+            public Int32 Level { get; set; }
+            public Int32 Exp { get; set; }
+            public Int32 Breakthrough { get; set; }
             public dynamic[] ResonanceInfo { get; set; }
             public dynamic[] UnconfirmedResonanceInfo { get; set; }
             public dynamic[] AwakeSlotList { get; set; }
@@ -1695,32 +1695,32 @@ namespace AscNet.Common.MsgPack
         public class NotifyCharacterDataListCharacterDataList
         {
             public UInt32 Id { get; set; }
-            public Byte Level { get; set; }
-            public Byte Exp { get; set; }
-            public Byte Quality { get; set; }
-            public Byte InitQuality { get; set; }
-            public Byte Star { get; set; }
-            public Byte Grade { get; set; }
+            public Int32 Level { get; set; }
+            public Int32 Exp { get; set; }
+            public Int32 Quality { get; set; }
+            public Int32 InitQuality { get; set; }
+            public Int32 Star { get; set; }
+            public Int32 Grade { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyCharacterDataListCharacterDataListSkillList
             {
                 public UInt32 Id { get; set; }
-                public Byte Level { get; set; }
+                public Int32 Level { get; set; }
             }
 
             public NotifyCharacterDataListCharacterDataListSkillList[] SkillList { get; set; }
             public dynamic[] EnhanceSkillList { get; set; }
             public UInt32 FashionId { get; set; }
             public UInt32 CreateTime { get; set; }
-            public Byte TrustLv { get; set; }
-            public Byte TrustExp { get; set; }
-            public UInt16 Ability { get; set; }
-            public Byte LiberateLv { get; set; }
+            public Int32 TrustLv { get; set; }
+            public Int32 TrustExp { get; set; }
+            public UInt32 Ability { get; set; }
+            public Int32 LiberateLv { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class NotifyCharacterDataListCharacterDataListCharacterHeadInfo
             {
-                public Byte HeadFashionId { get; set; }
-                public Byte HeadFashionType { get; set; }
+                public Int32 HeadFashionId { get; set; }
+                public Int32 HeadFashionType { get; set; }
             }
 
             public NotifyCharacterDataListCharacterDataListCharacterHeadInfo CharacterHeadInfo { get; set; }
@@ -1733,28 +1733,28 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class CharacterLevelUpResponse
     {
-        public Byte Code { get; set; }
+        public Int32 Code { get; set; }
     }
 
 
     [global::MessagePack.MessagePackObject(true)]
     public class AreaDataResponse
     {
-        public Byte Code { get; set; }
-        public Byte TotalPoint { get; set; }
+        public Int32 Code { get; set; }
+        public Int32 TotalPoint { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class AreaDataResponseAreaList
         {
-            public Byte AreaId { get; set; }
-            public Byte Lock { get; set; }
-            public Byte Point { get; set; }
+            public Int32 AreaId { get; set; }
+            public Int32 Lock { get; set; }
+            public Int32 Point { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class AreaDataResponseAreaListLordList
             {
                 public UInt32 Id { get; set; }
                 public String Name { get; set; }
                 public UInt32 CurrHeadPortraitId { get; set; }
-                public Byte CurrHeadFrameId { get; set; }
+                public Int32 CurrHeadFrameId { get; set; }
                 public UInt32 Point { get; set; }
             }
 
@@ -1763,7 +1763,7 @@ namespace AscNet.Common.MsgPack
         }
 
         public AreaDataResponseAreaList[] AreaList { get; set; }
-        public UInt16 GroupFightEvent { get; set; }
+        public UInt32 GroupFightEvent { get; set; }
     }
 
 
@@ -1787,9 +1787,9 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class TeamSetTeamRequestTeamData
         {
-            public Byte TeamId { get; set; }
-            public Byte CaptainPos { get; set; }
-            public Byte FirstFightPos { get; set; }
+            public Int32 TeamId { get; set; }
+            public Int32 CaptainPos { get; set; }
+            public Int32 FirstFightPos { get; set; }
             public String TeamName { get; set; }
             public Dictionary<dynamic, dynamic> TeamData { get; set; }
         }
@@ -1801,7 +1801,7 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class TeamSetTeamResponse
     {
-        public Byte Code { get; set; }
+        public Int32 Code { get; set; }
     }
 
 
@@ -1811,11 +1811,11 @@ namespace AscNet.Common.MsgPack
         [global::MessagePack.MessagePackObject(true)]
         public class PreFightRequestPreFightData
         {
-            public Byte ChallengeCount { get; set; }
+            public Int32 ChallengeCount { get; set; }
             public Boolean IsHasAssist { get; set; }
-            public Byte FirstFightPos { get; set; }
+            public Int32 FirstFightPos { get; set; }
             public UInt32[] CardIds { get; set; }
-            public Byte CaptainPos { get; set; }
+            public Int32 CaptainPos { get; set; }
             public UInt32 StageId { get; set; }
         }
 
@@ -1826,19 +1826,19 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class PreFightResponse
     {
-        public Byte Code { get; set; }
+        public Int32 Code { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class PreFightResponseFightData
         {
             public Boolean Online { get; set; }
             public UInt32 FightId { get; set; }
             public dynamic? RoomId { get; set; }
-            public Byte OnlineMode { get; set; }
+            public Int32 OnlineMode { get; set; }
             public UInt32 Seed { get; set; }
             public UInt32 StageId { get; set; }
-            public Byte RebootId { get; set; }
-            public UInt16 PassTimeLimit { get; set; }
-            public Byte StarsMark { get; set; }
+            public Int32 RebootId { get; set; }
+            public UInt32 PassTimeLimit { get; set; }
+            public Int32 StarsMark { get; set; }
             public dynamic? MonsterLevel { get; set; }
             public dynamic[] EventIds { get; set; }
             public dynamic? FightEventsWithLevel { get; set; }
@@ -1847,18 +1847,18 @@ namespace AscNet.Common.MsgPack
             public class PreFightResponseFightDataRoleData
             {
                 public UInt32 Id { get; set; }
-                public Byte Camp { get; set; }
+                public Int32 Camp { get; set; }
                 public String Name { get; set; }
                 public Boolean IsRobot { get; set; }
-                public Byte CaptainIndex { get; set; }
-                public Byte FirstFightPos { get; set; }
+                public Int32 CaptainIndex { get; set; }
+                public Int32 FirstFightPos { get; set; }
                 public Dictionary<dynamic, dynamic> NpcData { get; set; }
                 public dynamic? CustomNpc { get; set; }
                 [global::MessagePack.MessagePackObject(true)]
                 public class PreFightResponseFightDataRoleDataAssistNpcData
                 {
                     public UInt32 Id { get; set; }
-                    public Byte Level { get; set; }
+                    public Int32 Level { get; set; }
                     public String Name { get; set; }
                     [global::MessagePack.MessagePackObject(true)]
                     public class PreFightResponseFightDataRoleDataAssistNpcDataNpcData
@@ -1867,32 +1867,32 @@ namespace AscNet.Common.MsgPack
                         public class PreFightResponseFightDataRoleDataAssistNpcDataNpcDataCharacter
                         {
                             public UInt32 Id { get; set; }
-                            public Byte Level { get; set; }
-                            public Byte Exp { get; set; }
-                            public Byte Quality { get; set; }
-                            public Byte InitQuality { get; set; }
-                            public Byte Star { get; set; }
-                            public Byte Grade { get; set; }
+                            public Int32 Level { get; set; }
+                            public Int32 Exp { get; set; }
+                            public Int32 Quality { get; set; }
+                            public Int32 InitQuality { get; set; }
+                            public Int32 Star { get; set; }
+                            public Int32 Grade { get; set; }
                             [global::MessagePack.MessagePackObject(true)]
                             public class PreFightResponseFightDataRoleDataAssistNpcDataNpcDataCharacterSkillList
                             {
                                 public UInt32 Id { get; set; }
-                                public Byte Level { get; set; }
+                                public Int32 Level { get; set; }
                             }
 
                             public PreFightResponseFightDataRoleDataAssistNpcDataNpcDataCharacterSkillList[] SkillList { get; set; }
                             public dynamic[] EnhanceSkillList { get; set; }
                             public UInt32 FashionId { get; set; }
                             public UInt32 CreateTime { get; set; }
-                            public Byte TrustLv { get; set; }
-                            public Byte TrustExp { get; set; }
-                            public Byte Ability { get; set; }
-                            public Byte LiberateLv { get; set; }
+                            public Int32 TrustLv { get; set; }
+                            public Int32 TrustExp { get; set; }
+                            public Int32 Ability { get; set; }
+                            public Int32 LiberateLv { get; set; }
                             [global::MessagePack.MessagePackObject(true)]
                             public class PreFightResponseFightDataRoleDataAssistNpcDataNpcDataCharacterCharacterHeadInfo
                             {
                                 public UInt32 HeadFashionId { get; set; }
-                                public Byte HeadFashionType { get; set; }
+                                public Int32 HeadFashionType { get; set; }
                             }
 
                             public PreFightResponseFightDataRoleDataAssistNpcDataNpcDataCharacterCharacterHeadInfo CharacterHeadInfo { get; set; }
@@ -1902,12 +1902,12 @@ namespace AscNet.Common.MsgPack
                         [global::MessagePack.MessagePackObject(true)]
                         public class PreFightResponseFightDataRoleDataAssistNpcDataNpcDataEqui
                         {
-                            public Byte Id { get; set; }
+                            public Int32 Id { get; set; }
                             public UInt32 TemplateId { get; set; }
                             public UInt32 CharacterId { get; set; }
-                            public Byte Level { get; set; }
-                            public Byte Exp { get; set; }
-                            public Byte Breakthrough { get; set; }
+                            public Int32 Level { get; set; }
+                            public Int32 Exp { get; set; }
+                            public Int32 Breakthrough { get; set; }
                             public dynamic[] ResonanceInfo { get; set; }
                             public dynamic[] UnconfirmedResonanceInfo { get; set; }
                             public dynamic[] AwakeSlotList { get; set; }
@@ -1920,39 +1920,39 @@ namespace AscNet.Common.MsgPack
                         public dynamic[] AttribGroupList { get; set; }
                         public dynamic? CharacterSkillPlus { get; set; }
                         public dynamic[] EquipSkillPlus { get; set; }
-                        public Byte AttribReviseId { get; set; }
+                        public Int32 AttribReviseId { get; set; }
                         public dynamic[] EventIds { get; set; }
                         public dynamic? FightEventsWithLevel { get; set; }
-                        public Byte WeaponFashionId { get; set; }
+                        public Int32 WeaponFashionId { get; set; }
                         public dynamic? Partner { get; set; }
                         public Boolean IsRobot { get; set; }
                         public dynamic? AttrRateTable { get; set; }
                     }
 
                     public PreFightResponseFightDataRoleDataAssistNpcDataNpcData NpcData { get; set; }
-                    public Byte AssistType { get; set; }
-                    public Byte RuleTemplateId { get; set; }
+                    public Int32 AssistType { get; set; }
+                    public Int32 RuleTemplateId { get; set; }
                     public String Sign { get; set; }
                     public UInt32 HeadPortraitId { get; set; }
-                    public Byte HeadFrameId { get; set; }
+                    public Int32 HeadFrameId { get; set; }
                 }
 
                 public PreFightResponseFightDataRoleDataAssistNpcData AssistNpcData { get; set; }
             }
 
             public PreFightResponseFightDataRoleData[] RoleData { get; set; }
-            public Byte ReviseId { get; set; }
-            public Byte PlayerLevel { get; set; }
+            public Int32 ReviseId { get; set; }
+            public Int32 PlayerLevel { get; set; }
             public dynamic? NpcGroupList { get; set; }
             [global::MessagePack.MessagePackObject(true)]
             public class PreFightResponseFightDataFightControlData
             {
-                public Byte MaxFight { get; set; }
-                public Byte MaxRecommendFight { get; set; }
-                public Byte MaxShowFight { get; set; }
-                public Byte AvgFight { get; set; }
-                public Byte AvgRecommendFight { get; set; }
-                public Byte AvgShowFight { get; set; }
+                public Int32 MaxFight { get; set; }
+                public Int32 MaxRecommendFight { get; set; }
+                public Int32 MaxShowFight { get; set; }
+                public Int32 AvgFight { get; set; }
+                public Int32 AvgRecommendFight { get; set; }
+                public Int32 AvgShowFight { get; set; }
             }
 
             public PreFightResponseFightDataFightControlData FightControlData { get; set; }
@@ -1978,39 +1978,39 @@ namespace AscNet.Common.MsgPack
             public Boolean IsWin { get; set; }
             public Boolean IsForceExit { get; set; }
             public UInt32 StageId { get; set; }
-            public Byte StageLevel { get; set; }
+            public Int32 StageLevel { get; set; }
             public UInt32 FightId { get; set; }
-            public Byte RebootCount { get; set; }
-            public Byte AddStars { get; set; }
-            public Byte StartFrame { get; set; }
-            public UInt16 SettleFrame { get; set; }
-            public Byte PauseFrame { get; set; }
-            public Byte ExSkillPauseFrame { get; set; }
+            public Int32 RebootCount { get; set; }
+            public Int32 AddStars { get; set; }
+            public Int32 StartFrame { get; set; }
+            public UInt32 SettleFrame { get; set; }
+            public Int32 PauseFrame { get; set; }
+            public Int32 ExSkillPauseFrame { get; set; }
             public UInt32 SettleCode { get; set; }
-            public Byte DodgeTimes { get; set; }
-            public Byte NormalAttackTimes { get; set; }
-            public Byte ConsumeBallTimes { get; set; }
-            public Byte StuntSkillTimes { get; set; }
-            public Byte PauseTimes { get; set; }
-            public Byte HighestCombo { get; set; }
-            public Byte DamagedTimes { get; set; }
-            public Byte MatrixTimes { get; set; }
-            public UInt16 HighestDamage { get; set; }
+            public Int32 DodgeTimes { get; set; }
+            public Int32 NormalAttackTimes { get; set; }
+            public Int32 ConsumeBallTimes { get; set; }
+            public Int32 StuntSkillTimes { get; set; }
+            public Int32 PauseTimes { get; set; }
+            public Int32 HighestCombo { get; set; }
+            public Int32 DamagedTimes { get; set; }
+            public Int32 MatrixTimes { get; set; }
+            public UInt32 HighestDamage { get; set; }
             public UInt32 TotalDamage { get; set; }
-            public UInt16 TotalDamaged { get; set; }
-            public UInt16 TotalCure { get; set; }
+            public UInt32 TotalDamaged { get; set; }
+            public UInt32 TotalCure { get; set; }
             public UInt32[] PlayerIds { get; set; }
             public dynamic[] PlayerData { get; set; }
             public dynamic? IntToIntRecord { get; set; }
             public dynamic? StringToIntRecord { get; set; }
             public Dictionary<dynamic, dynamic> Operations { get; set; }
             public UInt32[] Codes { get; set; }
-            public Byte LeftTime { get; set; }
+            public Int32 LeftTime { get; set; }
             public Dictionary<dynamic, dynamic> NpcHpInfo { get; set; }
             public Dictionary<dynamic, dynamic> NpcDpsTable { get; set; }
             public dynamic[] EventSet { get; set; }
-            public Byte DeathTotalMyTeam { get; set; }
-            public Byte DeathTotalEnemy { get; set; }
+            public Int32 DeathTotalMyTeam { get; set; }
+            public Int32 DeathTotalEnemy { get; set; }
             public Dictionary<dynamic, dynamic> DeathRecord { get; set; }
             public dynamic[] GroupDropDatas { get; set; }
             public dynamic? EpisodeFightResults { get; set; }
@@ -2024,22 +2024,22 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class FightSettleResponse
     {
-        public Byte Code { get; set; }
+        public Int32 Code { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class FightSettleResponseSettle
         {
             public Boolean IsWin { get; set; }
             public UInt32 StageId { get; set; }
-            public Byte StarsMark { get; set; }
+            public Int32 StarsMark { get; set; }
             public dynamic? RewardGoodsList { get; set; }
-            public Byte LeftTime { get; set; }
+            public Int32 LeftTime { get; set; }
             public Dictionary<dynamic, dynamic> NpcHpInfo { get; set; }
-            public Byte UrgentEnventId { get; set; }
+            public Int32 UrgentEnventId { get; set; }
             public dynamic? ClientAssistInfo { get; set; }
             public dynamic[] FlopRewardList { get; set; }
             public dynamic? ArenaResult { get; set; }
             public dynamic? MultiRewardGoodsList { get; set; }
-            public Byte ChallengeCount { get; set; }
+            public Int32 ChallengeCount { get; set; }
             public dynamic? UnionKillResult { get; set; }
             public dynamic? InfestorBossFightResult { get; set; }
             public dynamic? GuildBossFightResult { get; set; }
@@ -2076,25 +2076,25 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class FinishTaskRequest
     {
-        public UInt16 TaskId { get; set; }
+        public UInt32 TaskId { get; set; }
     }
 
 
     [global::MessagePack.MessagePackObject(true)]
     public class FinishTaskResponse
     {
-        public Byte Code { get; set; }
+        public Int32 Code { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class FinishTaskResponseRewardGoodsList
         {
-            public Byte RewardType { get; set; }
-            public Byte TemplateId { get; set; }
-            public UInt16 Count { get; set; }
-            public Byte Level { get; set; }
-            public Byte Quality { get; set; }
-            public Byte Grade { get; set; }
-            public Byte Breakthrough { get; set; }
-            public Byte ConvertFrom { get; set; }
+            public Int32 RewardType { get; set; }
+            public Int32 TemplateId { get; set; }
+            public UInt32 Count { get; set; }
+            public Int32 Level { get; set; }
+            public Int32 Quality { get; set; }
+            public Int32 Grade { get; set; }
+            public Int32 Breakthrough { get; set; }
+            public Int32 ConvertFrom { get; set; }
             public UInt32 Id { get; set; }
         }
 
