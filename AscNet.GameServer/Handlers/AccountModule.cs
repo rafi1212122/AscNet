@@ -314,6 +314,26 @@ namespace AscNet.GameServer.Handlers
             };
             session.SendPush(notifyFiveTwentyRecord);
 
+            PurchaseDailyNotify purchaseDailyNotify = new()
+            {
+                ExpireInfoList = { },
+                DailyRewardInfoList = { },
+                FreeRewardInfoList = { }
+            };
+            session.SendPush(purchaseDailyNotify);
+
+            NotifyPurchaseRecommendConfig notifyPurchaseRecommendConfig = new()
+            {
+                Data = { }
+            };
+            session.SendPush(notifyPurchaseRecommendConfig);
+
+            NotifyBackgroundLoginData notifyBackgroundLoginData = new()
+            {
+                HaveBackgroundIds = { }
+            };
+            session.SendPush(notifyBackgroundLoginData);
+
             NotifyMedalData notifyMedalData = new()
             {
                 MedalInfos = { }
@@ -469,6 +489,8 @@ namespace AscNet.GameServer.Handlers
                 TypeRewardRecord = { }
             };
             session.SendPush(notifyTrialData);
+
+            
 
             NotifyPivotCombatData notifyPivotCombatData = new()
             {
