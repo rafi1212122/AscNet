@@ -9,6 +9,11 @@ namespace AscNet.GameServer.Handlers
         [PacketHandler("HandshakeRequest")]
         public static void HandshakeRequestHandler(Session session, byte[] packet)
         {
+            // TODO: make this somehow universal, look into better architecture to handle packets
+            // and automatically log their deserialized form
+            HandshakeRequest request = MessagePackSerializer.Deserialize<HandshakeRequest>(packet);
+            session.c.Log("HandshakeRequest" + " " + JsonConvert.SerializeObject(request));
+
             HandshakeResponse response = new()
             {
                 Code = 0,
@@ -23,6 +28,8 @@ namespace AscNet.GameServer.Handlers
         public static void LoginRequestHandler(Session session, byte[] packet)
         {
             LoginRequest request = MessagePackSerializer.Deserialize<LoginRequest>(packet);
+            session.c.Log("LoginRequest" + " " + JsonConvert.SerializeObject(request));
+
             session.SendResponse(new LoginResponse
             {
                 Code = 0,
@@ -38,6 +45,9 @@ namespace AscNet.GameServer.Handlers
         [PacketHandler("EnterWorldChatRequest")]
         public static void EnterWorldChatRequestHandler(Session session, byte[] packet)
         {
+            //EnterWorldChatRequest request = MessagePackSerializer.Deserialize<EnterWorldChatRequest>(packet);
+            //session.c.Log("EnterWorldChatRequest" + " " + JsonConvert.SerializeObject(request));
+
             EnterWorldChatResponse enterWorldChatResponse = new()
             {
                 Code = 0,
@@ -49,6 +59,9 @@ namespace AscNet.GameServer.Handlers
         [PacketHandler("GetWorldChannelInfoRequest")]
         public static void GetWorldChannelInfoRequestHandler(Session session, byte[] packet)
         {
+            //GetWorldChannelInfoRequest request = MessagePackSerializer.Deserialize<GetWorldChannelInfoRequest>(packet);
+            //session.c.Log("GetWorldChannelInfoRequest" + " " + JsonConvert.SerializeObject(request));
+
             GetWorldChannelInfoResponse getWorldChannelInfoResponse = new()
             {
                 Code = 0,
@@ -65,6 +78,9 @@ namespace AscNet.GameServer.Handlers
         [PacketHandler("OfflineMessageRequest")]
         public static void OfflineMessageRequestHandler(Session session, byte[] packet)
         {
+            OfflineMessageRequest request = MessagePackSerializer.Deserialize<OfflineMessageRequest>(packet);
+            session.c.Log("OfflineMessageRequest" + " " + JsonConvert.SerializeObject(request));
+
             OfflineMessageResponse offlineMessageResponse = new()
             {
                 Code = 0,
@@ -76,6 +92,9 @@ namespace AscNet.GameServer.Handlers
         [PacketHandler("HeartbeatRequest")]
         public static void HeartbeatRequestHandler(Session session, byte[] packet)
         {
+            //HeartbeatRequest request = MessagePackSerializer.Deserialize<HeartbeatRequest>(packet);
+            //session.c.Log("HeartbeatRequest" + " " + JsonConvert.SerializeObject(request));
+
             HeartbeatResponse heartbeatResponse = new()
             {
                 UtcServerTime = (uint)DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()
@@ -86,7 +105,8 @@ namespace AscNet.GameServer.Handlers
         [PacketHandler("DoClientTaskEventRequest")]
         public static void DoClientTaskEventRequestHandler(Session session, byte[] packet)
         {
-            DoClientTaskEventRequest doClientTaskEventRequest = MessagePackSerializer.Deserialize<DoClientTaskEventRequest>(packet);
+            DoClientTaskEventRequest request = MessagePackSerializer.Deserialize<DoClientTaskEventRequest>(packet);
+            session.c.Log("DoClientTaskEventRequest" + " " + JsonConvert.SerializeObject(request));
 
             DoClientTaskEventResponse doClientTaskEventResponse = new()
             {
@@ -98,7 +118,8 @@ namespace AscNet.GameServer.Handlers
         [PacketHandler("SignInRequest")]
         public static void SignInRequestHandler(Session session, byte[] packet)
         {
-            SignInRequest signInRequest = MessagePackSerializer.Deserialize<SignInRequest>(packet);
+            SignInRequest request = MessagePackSerializer.Deserialize<SignInRequest>(packet);
+            session.c.Log("SignInRequest" + " " + JsonConvert.SerializeObject(request));
 
             SignInResponse signInResponse = new()
             {
@@ -111,7 +132,8 @@ namespace AscNet.GameServer.Handlers
         [PacketHandler("GetPurchaseListRequest")]
         public static void GetPurchaseListRequestHandler(Session session, byte[] packet)
         {
-            GetPurchaseListRequest getPurchaseListRequest = MessagePackSerializer.Deserialize<GetPurchaseListRequest>(packet);
+            GetPurchaseListRequest request = MessagePackSerializer.Deserialize<GetPurchaseListRequest>(packet);
+            session.c.Log("GetPurchaseListRequest" + " " + JsonConvert.SerializeObject(request));
 
             GetPurchaseListResponse getPurchaseListResponse = new()
             {
@@ -121,6 +143,7 @@ namespace AscNet.GameServer.Handlers
             session.SendResponse(getPurchaseListResponse);
         }
 
+        // TODO: Move somewhere else, also split.
         static void DoLogin(Session session)
         {
             NotifyLogin notifyLogin = JsonConvert.DeserializeObject<NotifyLogin>(File.ReadAllText("Data/NotifyLogin.json"))!;
@@ -489,8 +512,6 @@ namespace AscNet.GameServer.Handlers
                 TypeRewardRecord = { }
             };
             session.SendPush(notifyTrialData);
-
-
 
             NotifyPivotCombatData notifyPivotCombatData = new()
             {

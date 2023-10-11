@@ -1,9 +1,8 @@
 ﻿using System.Buffers.Binary;
-using System.Net.Mail;
 using System.Net.Sockets;
-using System.Text.Json;
 using AscNet.Common.Util;
 using MessagePack;
+using Newtonsoft.Json;
 
 namespace AscNet.GameServer
 {
@@ -76,13 +75,11 @@ namespace AscNet.GameServer
                                 {
                                     case Packet.ContentType.Request:
                                         Packet.Request request = MessagePackSerializer.Deserialize<Packet.Request>(packet.Content);
-                                        c.Log(request.Name);
                                         debugContent = request.Content;
                                         PacketFactory.GetPacketHandler(request.Name)?.Invoke(this, request.Content);
                                         break;
                                     case Packet.ContentType.Push:
                                         Packet.Push push = MessagePackSerializer.Deserialize<Packet.Push>(packet.Content);
-                                        c.Log(push.Name);
                                         debugContent = push.Content;
                                         PacketFactory.GetPacketHandler(push.Name)?.Invoke(this, push.Content);
                                         break;
@@ -118,28 +115,19 @@ namespace AscNet.GameServer
 
         public void SendPush<T>(T push)
         {
-            try
+            Packet.Push packet = new()
             {
-                Packet.Push packet = new()
-                {
-                    Name = typeof(T).Name,
-                    Content = MessagePackSerializer.Serialize(push)
-                };
-
-                Packet pushPacket = new Packet()
-                {
-                    No = packetNo,
-                    Type = Packet.ContentType.Push,
-                    Content = MessagePackSerializer.Serialize(packet)
-                };
-
-                Send(pushPacket);
-                packetNo++;
-            }
-            catch (Exception ex)
+                Name = typeof(T).Name,
+                Content = MessagePackSerializer.Serialize(push)
+            };
+            Send(new Packet()
             {
-                c.Error(ex.Message);
-            }
+                No = packetNo,
+                Type = Packet.ContentType.Push,
+                Content = MessagePackSerializer.Serialize(packet)
+            });
+            c.Log(packet.Name + " " + JsonConvert.SerializeObject(push));
+            packetNo++;
         }
 
         public void SendResponse<T>(T response)
@@ -150,14 +138,13 @@ namespace AscNet.GameServer
                 Name = typeof(T).Name,
                 Content = MessagePackSerializer.Serialize(response)
             };
-
             Send(new Packet()
             {
                 No = packetNo,
                 Type = Packet.ContentType.Response,
                 Content = MessagePackSerializer.Serialize(packet)
             });
-            c.Log(packet.Name);
+            c.Log(packet.Name + " " + JsonConvert.SerializeObject(response));
             packetNo++;
         }
 

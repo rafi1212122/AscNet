@@ -2,6 +2,7 @@
 
 namespace AscNet.Common.Util
 {
+    // TODO: Extend, add file logging, correct some behavior, ensure proper formatting
     public class Logger
     {
         public static readonly Logger c = new(nameof(AscNet), ConsoleColor.DarkRed);
