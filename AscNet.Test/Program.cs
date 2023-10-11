@@ -1,10 +1,6 @@
 ﻿using AscNet.Common.MsgPack;
-using System.Text.Json;
 using Newtonsoft.Json;
 using System.Reflection;
-using AscNet.GameServer;
-using MessagePack;
-using static AscNet.GameServer.Packet;
 
 namespace AscNet.Test
 {
@@ -12,14 +8,14 @@ namespace AscNet.Test
     {
         static void Main(string[] args)
         {
-            string lines = File.ReadAllText("Data/NotifyLogin.json");
-            NotifyLogin notifyLogin = System.Text.Json.JsonSerializer.Deserialize<NotifyLogin>(lines)!;
-            NotifyLogin notifyLoginNew = JsonConvert.DeserializeObject<NotifyLogin>(lines)!;
-
-            foreach (PropertyCompareResult resultItem in Compare(notifyLogin, notifyLoginNew))
+            try
             {
-                Console.WriteLine("  Property name: {0} -- old: {1}, new: {2}",
-                    resultItem.Name, resultItem.OldValue ?? "<null>", resultItem.NewValue ?? "<null>");
+                NotifyLogin notifyLoginNew = JsonConvert.DeserializeObject<NotifyLogin>(File.ReadAllText("Data/NotifyLogin.json"))!;
+                NotifyTaskData notifyTaskData = JsonConvert.DeserializeObject<NotifyTaskData>(File.ReadAllText("Data/NotifyTaskData.json"))!;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
             }
         }
 

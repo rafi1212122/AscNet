@@ -199,11 +199,11 @@ namespace AscNet.GameServer.Handlers
             };
             session.SendPush(notifySocialData);
 
-            // NotifyTaskData notifyTaskData = JsonConvert.DeserializeObject<NotifyTaskData>(File.ReadAllText("Data/NotifyTaskData.json"))!;
-            NotifyTaskData notifyTaskData = new()
-            {
-                TaskData = { }
-            };
+            NotifyTaskData notifyTaskData = JsonConvert.DeserializeObject<NotifyTaskData>(File.ReadAllText("Data/NotifyTaskData.json"))!;
+            //NotifyTaskData notifyTaskData = new()
+            //{
+            //    TaskData = { }
+            //};
             session.SendPush(notifyTaskData);
 
             NotifyActivenessStatus notifyActivenessStatus = new()
