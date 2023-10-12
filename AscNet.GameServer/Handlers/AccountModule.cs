@@ -366,11 +366,20 @@ namespace AscNet.GameServer.Handlers
             NotifyExperimentData notifyExperimentData = new();
             session.SendPush(notifyExperimentData);
 
+            NotifyBabelTowerData notifyBabelTowerData = new()
+            {
+                ActivityNo = 13,
+                MaxScore = 0,
+                RankLevel = 0,
+                StageDatas = new(),
+                ExtraData = new()
+            };
+            session.SendPush(notifyBabelTowerData);
+
+            /* Not needed?
             NotifyBabelTowerActivityStatus notifyBabelTowerActivityStatus = new();
             session.SendPush(notifyBabelTowerActivityStatus);
-
-            NotifyBabelTowerData notifyBabelTowerData = new();
-            session.SendPush(notifyBabelTowerData);
+            */
 
             NotifyFubenBossSingleData notifyFubenBossSingleData = new()
             {
@@ -415,7 +424,7 @@ namespace AscNet.GameServer.Handlers
             };
             session.SendPush(notifyRepeatChallengeData);
 
-            
+
 
             NotifyPlayerReportData notifyPlayerReportData = new()
             {
