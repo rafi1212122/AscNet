@@ -62,11 +62,7 @@ namespace AscNet.GameServer.Handlers
             //GetWorldChannelInfoRequest request = MessagePackSerializer.Deserialize<GetWorldChannelInfoRequest>(packet);
             //session.c.Log("GetWorldChannelInfoRequest" + " " + JsonConvert.SerializeObject(request));
 
-            GetWorldChannelInfoResponse getWorldChannelInfoResponse = new()
-            {
-                Code = 0,
-                ChannelInfos = { }
-            };
+            GetWorldChannelInfoResponse getWorldChannelInfoResponse = new();
             getWorldChannelInfoResponse.ChannelInfos.Append(new()
             {
                 ChannelId = 0,
@@ -84,7 +80,7 @@ namespace AscNet.GameServer.Handlers
             OfflineMessageResponse offlineMessageResponse = new()
             {
                 Code = 0,
-                Messages = { }
+                Messages = Array.Empty<dynamic>()
             };
             session.SendResponse(offlineMessageResponse);
         }
@@ -121,11 +117,7 @@ namespace AscNet.GameServer.Handlers
             SignInRequest request = MessagePackSerializer.Deserialize<SignInRequest>(packet);
             session.c.Log("SignInRequest" + " " + JsonConvert.SerializeObject(request));
 
-            SignInResponse signInResponse = new()
-            {
-                Code = 0,
-                RewardGoodsList = { },
-            };
+            SignInResponse signInResponse = new();
             session.SendResponse(signInResponse);
         }
 
@@ -135,11 +127,7 @@ namespace AscNet.GameServer.Handlers
             GetPurchaseListRequest request = MessagePackSerializer.Deserialize<GetPurchaseListRequest>(packet);
             session.c.Log("GetPurchaseListRequest" + " " + JsonConvert.SerializeObject(request));
 
-            GetPurchaseListResponse getPurchaseListResponse = new()
-            {
-                Code = 0,
-                PurchaseInfoList = { }
-            };
+            GetPurchaseListResponse getPurchaseListResponse = new();
             session.SendResponse(getPurchaseListResponse);
         }
 
@@ -149,10 +137,7 @@ namespace AscNet.GameServer.Handlers
             NotifyLogin notifyLogin = JsonConvert.DeserializeObject<NotifyLogin>(File.ReadAllText("Data/NotifyLogin.json"))!;
             session.SendPush(notifyLogin);
 
-            NotifyDailyLotteryData notifyDailyLotteryData = new()
-            {
-                Lotteries = { }
-            };
+            NotifyDailyLotteryData notifyDailyLotteryData = new();
             session.SendPush(notifyDailyLotteryData);
 
             NotifyPayInfo notifyPayInfo = new()
@@ -162,78 +147,41 @@ namespace AscNet.GameServer.Handlers
             };
             session.SendPush(notifyPayInfo);
 
-            NotifyEquipChipGroupList notifyEquipChipGroupList = new()
-            {
-                ChipGroupDataList = { }
-            };
+            NotifyEquipChipGroupList notifyEquipChipGroupList = new();
             session.SendPush(notifyEquipChipGroupList);
 
             NotifyEquipChipAutoRecycleSite notifyEquipChipAutoRecycleSite = new()
             {
-                ChipRecycleSite = { }
+                ChipRecycleSite = new NotifyEquipChipAutoRecycleSite.NotifyEquipChipAutoRecycleSiteChipRecycleSite()
             };
             session.SendPush(notifyEquipChipAutoRecycleSite);
 
             NotifyEquipGuideData notifyEquipGuideData = new()
             {
                 EquipGuideData = new()
-                {
-                    TargetId = 0,
-                    PutOnPosList = { },
-                    FinishedTargets = { }
-                }
             };
             session.SendPush(notifyEquipGuideData);
 
-            NotifyArchiveLoginData notifyArchiveLoginData = new()
-            {
-                Monsters = { },
-                Equips = { },
-                MonsterUnlockIds = { },
-                WeaponUnlockIds = { },
-                AwarenessUnlockIds = { },
-                MonsterSettings = { },
-                WeaponSettings = { },
-                AwarenessSettings = { },
-                MonsterInfos = { },
-                MonsterSkills = { },
-                UnlockCgs = { },
-                UnlockStoryDetails = { },
-                PartnerUnlockIds = { },
-                PartnerSettings = { },
-                UnlockPvDetails = { },
-                UnlockMails = { }
-            };
+            NotifyArchiveLoginData notifyArchiveLoginData = new();
             session.SendPush(notifyArchiveLoginData);
 
             NotifyChatLoginData notifyChatLoginData = new()
             {
-                RefreshTime = GetPlaceholderTime(),
-                UnlockEmojis = { }
+                RefreshTime = GetPlaceholderTime()
             };
             session.SendPush(notifyChatLoginData);
 
-            NotifySocialData notifySocialData = new()
-            {
-                FriendData = { },
-                ApplyData = { },
-                Remarks = { },
-                BlockData = { },
-            };
+            NotifySocialData notifySocialData = new();
             session.SendPush(notifySocialData);
 
             NotifyTaskData notifyTaskData = JsonConvert.DeserializeObject<NotifyTaskData>(File.ReadAllText("Data/NotifyTaskData.json"))!;
             //NotifyTaskData notifyTaskData = new()
             //{
-            //    TaskData = { }
+            //    TaskData = Array.Empty<dynamic>()
             //};
             session.SendPush(notifyTaskData);
 
-            NotifyActivenessStatus notifyActivenessStatus = new()
-            {
-                DailyActivenessRewardStatus = 0,
-                WeeklyActivenessRewardStatus = 0
-            };
+            NotifyActivenessStatus notifyActivenessStatus = new();
             session.SendPush(notifyActivenessStatus);
 
             NotifyNewPlayerTaskStatus notifyNewPlayerTaskStatus = new()
@@ -244,35 +192,19 @@ namespace AscNet.GameServer.Handlers
 
             NotifyRegression2Data notifyRegression2Data = new()
             {
-                Data = { }
+                Data = new NotifyRegression2Data.NotifyRegression2DataData()
             };
             session.SendPush(notifyRegression2Data);
 
-            NotifyMaintainerActionData notifyMaintainerActionData = new();
-            session.SendPush(notifyMaintainerActionData);
-
-            NotifyAllRedEnvelope notifyAllRedEnvelope = new()
-            {
-                Envelopes = { }
-            };
+            NotifyAllRedEnvelope notifyAllRedEnvelope = new();
             session.SendPush(notifyAllRedEnvelope);
 
-            NotifyScoreTitleData notifyScoreTitleData = new()
-            {
-                TitleInfos = { },
-                HideTypes = { },
-                IsHideCollection = false,
-                WallInfos = { },
-            };
+            NotifyScoreTitleData notifyScoreTitleData = new();
             session.SendPush(notifyScoreTitleData);
 
             NotifyBfrtData notifyBfrtData = new()
             {
                 BfrtData = new()
-                {
-                    BfrtGroupRecords = { },
-                    BfrtTeamInfos = { }
-                }
             };
             session.SendPush(notifyBfrtData);
 
@@ -294,108 +226,71 @@ namespace AscNet.GameServer.Handlers
             };
             session.SendPush(notifyWorkNextRefreshTime);
 
-            NotifyDormitoryData notifyDormitoryData = new()
-            {
-                FurnitureCreateList = { },
-                WorkList = { },
-                FurnitureUnlockList = { },
-                SnapshotTimes = 0,
-                DormitoryList = { },
-                VisitorList = { },
-                FurnitureList = { },
-                CharacterList = { },
-                Layouts = { },
-                BindRelations = { }
-            };
+            NotifyDormitoryData notifyDormitoryData = new();
             session.SendPush(notifyDormitoryData);
 
-            NotifyNameplateLoginData notifyNameplateLoginData = new()
-            {
-                CurrentWearNameplate = 0,
-                UnlockNameplates = { }
-            };
+            NotifyNameplateLoginData notifyNameplateLoginData = new();
             session.SendPush(notifyNameplateLoginData);
 
             NotifyGuildDormPlayerData notifyGuildDormPlayerData = new()
             {
-                GuildDormData = { }
+                GuildDormData = new NotifyGuildDormPlayerData.NotifyGuildDormPlayerDataGuildDormData()
             };
             session.SendPush(notifyGuildDormPlayerData);
 
             NotifyBountyTaskInfo notifyBountyTaskInfo = new()
             {
-                TaskInfo = { },
+                TaskInfo = new NotifyBountyTaskInfo.NotifyBountyTaskInfoTaskInfo
+                {
+                    RankLevel = 1,
+                    TaskPoolRefreshCount = 0
+                },
                 RefreshTime = GetPlaceholderTime()
             };
             session.SendPush(notifyBountyTaskInfo);
 
-            NotifyFiveTwentyRecord notifyFiveTwentyRecord = new()
-            {
-                CharacterIds = { },
-                GroupRecord = { },
-                ActivityNo = 0
-            };
+            NotifyFiveTwentyRecord notifyFiveTwentyRecord = new();
             session.SendPush(notifyFiveTwentyRecord);
 
-            PurchaseDailyNotify purchaseDailyNotify = new()
-            {
-                ExpireInfoList = { },
-                DailyRewardInfoList = { },
-                FreeRewardInfoList = { }
-            };
+            PurchaseDailyNotify purchaseDailyNotify = new();
             session.SendPush(purchaseDailyNotify);
 
             NotifyPurchaseRecommendConfig notifyPurchaseRecommendConfig = new()
             {
-                Data = { }
+                Data = new NotifyPurchaseRecommendConfig.NotifyPurchaseRecommendConfigData
+                {
+                    AddOrModifyConfigs = new(),
+                    RemoveIds = Array.Empty<dynamic>()
+                }
             };
             session.SendPush(notifyPurchaseRecommendConfig);
 
-            NotifyBackgroundLoginData notifyBackgroundLoginData = new()
-            {
-                HaveBackgroundIds = { }
-            };
+            NotifyBackgroundLoginData notifyBackgroundLoginData = new();
             session.SendPush(notifyBackgroundLoginData);
 
-            NotifyMedalData notifyMedalData = new()
-            {
-                MedalInfos = { }
-            };
+            NotifyMedalData notifyMedalData = new();
             session.SendPush(notifyMedalData);
 
-            NotifyExploreData notifyExploreData = new()
-            {
-                ChapterDatas = { }
-            };
+            NotifyExploreData notifyExploreData = new();
             session.SendPush(notifyExploreData);
 
-            NotifyGatherRewardList notifyGatherRewardList = new()
-            {
-                GatherRewards = { }
-            };
+            NotifyGatherRewardList notifyGatherRewardList = new();
             session.SendPush(notifyGatherRewardList);
 
-            NotifyDrawTicketData notifyDrawTicketData = new()
-            {
-                DrawTicketInfos = { }
-            };
+            NotifyDrawTicketData notifyDrawTicketData = new();
             session.SendPush(notifyDrawTicketData);
 
             NotifyAccumulatedPayData notifyAccumulatedPayData = new()
             {
                 PayId = 1,
-                PayMoney = 0,
-                PayRewardIds = { }
+                PayMoney = 0
             };
             session.SendPush(notifyAccumulatedPayData);
 
             NotifyArenaActivity notifyArenaActivity = new();
             session.SendPush(notifyArenaActivity);
 
-            NotifyPrequelUnlockChallengeStages notifyPrequelUnlockChallengeStages = new()
-            {
-                UnlockChallengeStages = { }
-            };
+            NotifyPrequelUnlockChallengeStages notifyPrequelUnlockChallengeStages = new();
             session.SendPush(notifyPrequelUnlockChallengeStages);
 
             NotifyPrequelChallengeRefreshTime notifyPrequelChallengeRefreshTime = new()
@@ -406,13 +301,12 @@ namespace AscNet.GameServer.Handlers
 
             NotifyFubenPrequelData notifyFubenPrequelData = new()
             {
-                FubenPrequelData = { }
+                FubenPrequelData = new()
             };
             session.SendPush(notifyFubenPrequelData);
 
             NotifyMainLineActivity notifyMainLineActivity = new()
             {
-                Chapters = { },
                 BfrtChapter = 0,
                 EndTime = GetPlaceholderTime(),
                 HideChapterBeginTime = 0
@@ -421,51 +315,46 @@ namespace AscNet.GameServer.Handlers
 
             NotifyDailyFubenLoginData notifyDailyFubenLoginData = new()
             {
-                RefreshTime = GetPlaceholderTime(),
-                Records = { }
+                RefreshTime = GetPlaceholderTime()
             };
             session.SendPush(notifyDailyFubenLoginData);
 
             NotifyBirthdayPlot notifyBirthdayPlot = new()
             {
                 NextActiveYear = 2023,
-                IsChange = 1,
-                UnLockCg = { }
+                IsChange = 1
             };
             session.SendPush(notifyBirthdayPlot);
 
-            NotifyBossActivityData notifyBossActivityData = new();
+            NotifyBossActivityData notifyBossActivityData = new()
+            {
+                ActivityId = 11,
+                SectionId = 1,
+                Schedule = 0
+            };
             session.SendPush(notifyBossActivityData);
 
-            NotifyBriefStoryData notifyBriefStoryData = new()
-            {
-                FinishedIds = { }
-            };
+            NotifyBriefStoryData notifyBriefStoryData = new();
             session.SendPush(notifyBriefStoryData);
 
-            NotifyChessPursuitGroupInfo notifyChessPursuitGroupInfo = new()
-            {
-                MapDBList = { },
-                MapBossList = { }
-            };
+            NotifyChessPursuitGroupInfo notifyChessPursuitGroupInfo = new();
             session.SendPush(notifyChessPursuitGroupInfo);
 
-            NotifyClickClearData notifyClickClearData = new()
-            {
-                Activities = { }
-            };
+            NotifyClickClearData notifyClickClearData = new();
             session.SendPush(notifyClickClearData);
 
             NotifyCourseData notifyCourseData = new()
             {
-                Data = { }
+                Data = new NotifyCourseData.NotifyCourseDataData
+                {
+                    MaxTotalLessonPoint = 0,
+                    StageDataDict = new Dictionary<dynamic, dynamic>(),
+                    TotalLessonPoint = 0
+                }
             };
             session.SendPush(notifyCourseData);
 
-            NotifyActivityDrawList notifyActivityDrawList = new()
-            {
-                DrawIdList = { }
-            };
+            NotifyActivityDrawList notifyActivityDrawList = new();
             session.SendPush(notifyActivityDrawList);
 
             NotifyActivityDrawGroupCount notifyActivityDrawGroupCount = new()
@@ -474,11 +363,7 @@ namespace AscNet.GameServer.Handlers
             };
             session.SendPush(notifyActivityDrawGroupCount);
 
-            NotifyExperimentData notifyExperimentData = new()
-            {
-                FinishIds = { },
-                ExperimentInfos = { }
-            };
+            NotifyExperimentData notifyExperimentData = new();
             session.SendPush(notifyExperimentData);
 
             NotifyBabelTowerActivityStatus notifyBabelTowerActivityStatus = new();
@@ -489,33 +374,26 @@ namespace AscNet.GameServer.Handlers
 
             NotifyFubenBossSingleData notifyFubenBossSingleData = new()
             {
-                FubenBossSingleData = { }
+                FubenBossSingleData = new NotifyFubenBossSingleData.NotifyFubenBossSingleDataFubenBossSingleData()
             };
             session.SendPush(notifyFubenBossSingleData);
 
-            NotifyFestivalData notifyFestivalData = new()
-            {
-                FestivalInfos = { }
-            };
+            NotifyFestivalData notifyFestivalData = new();
             session.SendPush(notifyFestivalData);
 
-            NotifyPracticeData notifyPracticeData = new()
-            {
-                ChapterInfos = { }
-            };
+            NotifyPracticeData notifyPracticeData = new();
             session.SendPush(notifyPracticeData);
 
-            NotifyTrialData notifyTrialData = new()
-            {
-                FinishTrial = { },
-                RewardRecord = { },
-                TypeRewardRecord = { }
-            };
+            NotifyTrialData notifyTrialData = new();
             session.SendPush(notifyTrialData);
 
             NotifyPivotCombatData notifyPivotCombatData = new()
             {
-                PivotCombatData = { }
+                PivotCombatData = new NotifyPivotCombatData.NotifyPivotCombatDataPivotCombatData
+                {
+                    ActivityId = 0,
+                    Difficulty = 0
+                }
             };
             session.SendPush(notifyPivotCombatData);
 
@@ -525,84 +403,103 @@ namespace AscNet.GameServer.Handlers
             };
             session.SendPush(notifySettingLoadingOption);
 
-            NotifyRepeatChallengeData notifyRepeatChallengeData = new();
+            NotifyTask notifyTask = new()
+            {
+                TaskLimitIdActiveInfos = Array.Empty<int>()
+            };
+
+            NotifyRepeatChallengeData notifyRepeatChallengeData = new()
+            {
+                Id = 20,
+                ExpInfo = new() { Level = 1 }
+            };
             session.SendPush(notifyRepeatChallengeData);
+
+            
 
             NotifyPlayerReportData notifyPlayerReportData = new()
             {
-                ReportData = { }
+                ReportData = new NotifyPlayerReportData.NotifyPlayerReportDataReportData()
             };
             session.SendPush(notifyPlayerReportData);
 
-            NotifyReviewConfig notifyReviewConfig = new()
-            {
-                ReviewActivityConfigList = { }
-            };
+            NotifyReviewConfig notifyReviewConfig = new();
             session.SendPush(notifyReviewConfig);
 
-            NotifyStrongholdLoginData notifyStrongholdLoginData = new();
+            NotifyStrongholdLoginData notifyStrongholdLoginData = new()
+            {
+                Id = 21
+            };
             session.SendPush(notifyStrongholdLoginData);
 
-            NotifySummerSignInData notifySummerSignInData = new();
+            NotifySummerSignInData notifySummerSignInData = new()
+            {
+                ActId = 1,
+                SurplusTimes = 1
+            };
             session.SendPush(notifySummerSignInData);
 
             NotifyTaikoMasterData notifyTaikoMasterData = new()
             {
-                TaikoMasterData = { }
+                TaikoMasterData = new NotifyTaikoMasterData.NotifyTaikoMasterDataTaikoMasterData()
+                {
+                    Setting = new()
+                }
             };
             session.SendPush(notifyTaikoMasterData);
 
-            NotifyTeachingActivityInfo notifyTeachingActivityInfo = new()
-            {
-                ActivityInfo = { }
-            };
+            NotifyTeachingActivityInfo notifyTeachingActivityInfo = new();
             session.SendPush(notifyTeachingActivityInfo);
 
             NotifyTheatreData notifyTheatreData = new();
             session.SendPush(notifyTheatreData);
 
-            NotifyVoteData notifyVoteData = new()
-            {
-                VoteAlarmDic = { }
-            };
+            NotifyVoteData notifyVoteData = new();
             session.SendPush(notifyVoteData);
 
-            NotifyTRPGData notifyTRPGData = new();
+            NotifyTRPGData notifyTRPGData = new()
+            {
+                BossInfo = new(),
+                BaseInfo = new()
+                {
+                    Level = 1
+                }
+            };
             session.SendPush(notifyTRPGData);
 
-            NotifyBiancaTheatreActivityData notifyBiancaTheatreActivityData = new();
+            NotifyBiancaTheatreActivityData notifyBiancaTheatreActivityData = new()
+            {
+                CurActivityId = 1
+            };
             session.SendPush(notifyBiancaTheatreActivityData);
 
-            NotifyMentorData notifyMentorData = new();
+            NotifyMentorData notifyMentorData = new()
+            {
+                PlayerType = 2,
+                Announcement = "",
+                WeeklyLevel = 28
+            };
             session.SendPush(notifyMentorData);
 
-            NotifyMentorChat notifyMentorChat = new()
-            {
-                ChatMessages = { }
-            };
+            NotifyMentorChat notifyMentorChat = new();
             session.SendPush(notifyMentorChat);
 
-            NotifyMaintainerActionDailyReset notifyMaintainerActionDailyReset = new()
-            {
-                UsedActionCount = 0,
-                ExtraActionCount = 0
-            };
+            NotifyMaintainerActionDailyReset notifyMaintainerActionDailyReset = new();
             session.SendPush(notifyMaintainerActionDailyReset);
 
-            NotifyGuildData notifyGuildData = new();
+            NotifyGuildData notifyGuildData = new()
+            {
+                GuildName = string.Empty,
+                GuildRankLevel = 0
+            };
             session.SendPush(notifyGuildData);
 
-            NotifyMails notifyMails = new()
-            {
-                NewMailList = { },
-                ExpireIdList = { }
-            };
+            NotifyMails notifyMails = new();
             session.SendPush(notifyMails);
 
             NotifyItemDataList notifyItemDataList = new()
             {
-                ItemDataList = { },
-                ItemRecycleDict = { }
+                ItemRecycleDict = Array.Empty<dynamic>()
             };
             session.SendPush(notifyItemDataList);
         }
