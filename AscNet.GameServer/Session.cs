@@ -12,7 +12,8 @@ namespace AscNet.GameServer
         public readonly TcpClient client;
         public readonly Logger c;
         private long lastPacketTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
-        private ushort packetNo = 1;
+        private int packetNo = 1;
+        private int packetNo2 = 1;
         private readonly MessagePackSerializerOptions lz4Options = MessagePackSerializerOptions.Standard.WithCompression(MessagePackCompression.Lz4Block);
 
         public Session(string id, TcpClient tcpClient)
@@ -113,11 +114,11 @@ namespace AscNet.GameServer
             DisconnectProtocol();
         }
 
-        public void SendPush<T>(T push)
+        public void SendPush<T>(string name, T push)
         {
             Packet.Push packet = new()
             {
-                Name = typeof(T).Name,
+                Name = name,
                 Content = MessagePackSerializer.Serialize(push)
             };
             Send(new Packet()
@@ -140,12 +141,12 @@ namespace AscNet.GameServer
             };
             Send(new Packet()
             {
-                No = packetNo,
+                No = packetNo2,
                 Type = Packet.ContentType.Response,
                 Content = MessagePackSerializer.Serialize(packet)
             });
             c.Log(packet.Name + " " + JsonConvert.SerializeObject(response));
-            packetNo++;
+            packetNo2++;
         }
 
         private void Send(Packet packet)
