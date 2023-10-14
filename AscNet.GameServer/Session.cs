@@ -122,11 +122,11 @@ namespace AscNet.GameServer
             DisconnectProtocol();
         }
 
-        public void SendPush<T>(T push)
+        public void SendPush<T>(string name, T push)
         {
             Packet.Push packet = new()
             {
-                Name = typeof(T).Name,
+                Name = name,
                 Content = MessagePackSerializer.Serialize(push)
             };
             Send(new Packet()
