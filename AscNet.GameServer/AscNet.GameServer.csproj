@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AscNet.Common\AscNet.Common.csproj" />
+    <ProjectReference Include="..\AscNet.Logging\AscNet.Logging.csproj" />
   </ItemGroup>
 
 </Project>

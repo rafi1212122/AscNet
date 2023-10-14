@@ -1,8 +1,10 @@
+using AscNet.Logging;
+
 namespace AscNet.SDKServer
 {
     public class SDKServer
     {
-        public static readonly Common.Util.Logger c = new(nameof(SDKServer), ConsoleColor.Green);
+        public static readonly Logger log = new(typeof(SDKServer), Logging.LogLevel.DEBUG, Logging.LogLevel.DEBUG);
 
         public static void Main(string[] args)
         {
@@ -25,14 +27,14 @@ namespace AscNet.SDKServer
             {
                 controller.GetMethod(nameof(IRegisterable.Register))!.Invoke(null, new object[] { app });
 #if DEBUG
-                c.Log($"Registered HTTP controller '{controller.Name}'");
+                log.Info($"Registered HTTP controller '{controller.Name}'");
 #endif
             }
 
             app.UseMiddleware<RequestLoggingMiddleware>();
 
             new Thread(() => app.Run()).Start();
-            c.Log($"{nameof(SDKServer)} started in port {string.Join(", ", app.Urls.Select(x => x.Split(':').Last()))}!");
+            log.Info($"{nameof(SDKServer)} started in port {string.Join(", ", app.Urls.Select(x => x.Split(':').Last()))}!");
         }
 
         private class RequestLoggingMiddleware
@@ -53,7 +55,7 @@ namespace AscNet.SDKServer
                 }
                 finally
                 {
-                     c.Log($"{context.Response.StatusCode} {context.Request.Method.ToUpper()} {context.Request.Path + context.Request.QueryString}");
+                     log.Info($"{context.Response.StatusCode} {context.Request.Method.ToUpper()} {context.Request.Path + context.Request.QueryString}");
                 }
             }
         }

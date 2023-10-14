@@ -45,7 +45,7 @@ namespace AscNet.SDKServer.Controllers
                 remoteConfigs.AddConfig("PcPayCallbackList", $"{Common.Common.config.GameServer.Host}/api/XPay/KuroPayResult");
 
                 string serializedObject = TsvTool.SerializeObject(remoteConfigs);
-                SDKServer.c.Log(serializedObject);
+                SDKServer.log.Info(serializedObject);
                 return serializedObject;
             });
 
@@ -61,13 +61,13 @@ namespace AscNet.SDKServer.Controllers
                     Title = "NOTICE"
                 };
                 string serializedObject = JsonConvert.SerializeObject(notice);
-                SDKServer.c.Log(serializedObject);
+                SDKServer.log.Info(serializedObject);
                 return serializedObject;
             });
 
             app.MapPost("/feedback", (HttpContext ctx) =>
             {
-                SDKServer.c.Log("1");
+                SDKServer.log.Info("1");
                 return "1";
             });
 
@@ -81,7 +81,7 @@ namespace AscNet.SDKServer.Controllers
                     Token = token
                 };
                 string serializedObject = JsonConvert.SerializeObject(gate);
-                SDKServer.c.Log(serializedObject);
+                SDKServer.log.Info(serializedObject);
                 return serializedObject;
             });
         }

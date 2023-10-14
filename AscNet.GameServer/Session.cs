@@ -2,8 +2,10 @@
 using System.Net.Sockets;
 using AscNet.Common;
 using AscNet.Common.Util;
+using AscNet.Logging;
 using MessagePack;
 using Newtonsoft.Json;
+using Logger = AscNet.Logging.Logger;
 
 namespace AscNet.GameServer
 {
@@ -11,7 +13,7 @@ namespace AscNet.GameServer
     {
         public readonly string id;
         public readonly TcpClient client;
-        public readonly Logger c;
+        public readonly Logger log;
         private long lastPacketTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
         private ushort packetNo = 0;
         private readonly MessagePackSerializerOptions lz4Options = MessagePackSerializerOptions.Standard.WithCompression(MessagePackCompression.Lz4Block);
@@ -20,7 +22,8 @@ namespace AscNet.GameServer
         {
             this.id = id;
             client = tcpClient;
-            c = new(id, ConsoleColor.DarkGray);
+            // TODO: add session based configuration? maybe from database?
+            log = new(typeof(Session), LogLevel.DEBUG, LogLevel.DEBUG);
 
             Task.Run(ClientLoop);
         }
@@ -62,7 +65,7 @@ namespace AscNet.GameServer
                                 }
                                 catch (Exception)
                                 {
-                                    c.Error("Failed to deserialize packet: " + BitConverter.ToString(packet).Replace("-", ""));
+                                    log.Error("Failed to deserialize packet: " + BitConverter.ToString(packet).Replace("-", ""));
                                 }
                             }
                         }
@@ -81,34 +84,37 @@ namespace AscNet.GameServer
                                         RequestPacketHandlerDelegate? requestPacketHandler = PacketFactory.GetRequestPacketHandler(request.Name);
                                         if (requestPacketHandler is not null)
                                         {
+                                            // TODO: with new logger this will be unnecessary
                                             if (Common.Common.config.VerboseLevel > VerboseLevel.Silent)
-                                                c.Log($"{request.Name}{(Common.Common.config.VerboseLevel >= VerboseLevel.Debug ? (", " + JsonConvert.SerializeObject(MessagePackSerializer.Typeless.Deserialize(request.Content))) : "")}");
+                                                log.Info($"{request.Name}{(Common.Common.config.VerboseLevel >= VerboseLevel.Debug ? (", " + JsonConvert.SerializeObject(MessagePackSerializer.Typeless.Deserialize(request.Content))) : "")}");
                                             requestPacketHandler.Invoke(this, request);
                                         }
                                         else
                                         {
                                             if (Common.Common.config.VerboseLevel > VerboseLevel.Silent)
-                                                c.Warn($"{request.Name} handler not found!{(Common.Common.config.VerboseLevel >= VerboseLevel.Debug ? (", " + JsonConvert.SerializeObject(MessagePackSerializer.Typeless.Deserialize(request.Content))) : "")}");
+                                                log.Warn($"{request.Name} handler not found!{(Common.Common.config.VerboseLevel >= VerboseLevel.Debug ? (", " + JsonConvert.SerializeObject(MessagePackSerializer.Typeless.Deserialize(request.Content))) : "")}");
                                         }
                                         break;
+
                                     case Packet.ContentType.Push:
                                         Packet.Push push = MessagePackSerializer.Deserialize<Packet.Push>(packet.Content);
                                         debugContent = push.Content;
-                                        c.Log(push.Name);
+                                        log.Info(push.Name);
                                         throw new NotImplementedException($"Packet push handlers not implemented ({push.Name})");
-                                        break;
+
                                     case Packet.ContentType.Exception:
                                         Packet.Exception exception = MessagePackSerializer.Deserialize<Packet.Exception>(packet.Content);
-                                        c.Error($"Exception packet received: {exception.Code}, {exception.Message}");
+                                        log.Error($"Exception packet received: {exception.Code}, {exception.Message}");
                                         break;
+
                                     default:
-                                        c.Error($"Unknown packet received: {packet}");
+                                        log.Error($"Unknown packet received: {packet}");
                                         break;
                                 }
                             }
                             catch (Exception ex)
                             {
-                                c.Error("Failed to invoke handler: " + ex.Message + $", Raw {packet.Type} packet: " + BitConverter.ToString(debugContent).Replace("-", ""));
+                                log.Error("Failed to invoke handler: " + ex.Message + $", Raw {packet.Type} packet: " + BitConverter.ToString(debugContent).Replace("-", ""));
                             }
                         }
                     }
@@ -140,7 +146,7 @@ namespace AscNet.GameServer
                 Type = Packet.ContentType.Push,
                 Content = MessagePackSerializer.Serialize(packet)
             });
-            c.Log(packet.Name);
+            log.Info(packet.Name);
         }
 
         public void SendPush(string name, byte[] push)
@@ -156,7 +162,7 @@ namespace AscNet.GameServer
                 Type = Packet.ContentType.Push,
                 Content = MessagePackSerializer.Serialize(packet)
             });
-            c.Log(packet.Name);
+            log.Info(packet.Name);
         }
 
         public void SendResponse<T>(T response, int clientSeq = 0)
@@ -173,7 +179,7 @@ namespace AscNet.GameServer
                 Type = Packet.ContentType.Response,
                 Content = MessagePackSerializer.Serialize(packet)
             });
-            c.Log(packet.Name);
+            log.Info(packet.Name);
         }
 
         private void Send(Packet packet)
@@ -194,7 +200,7 @@ namespace AscNet.GameServer
             if (Server.Instance.Sessions.GetValueOrDefault(id) is null)
                 return;
 
-            c.Warn($"{id} disconnected");
+            log.Warn($"{id} disconnected");
             client.Close();
             Server.Instance.Sessions.Remove(id);
         }

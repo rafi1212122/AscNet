@@ -1,5 +1,5 @@
 ﻿using System.Reflection;
-using AscNet.Common.Util;
+using AscNet.Logging;
 using MessagePack;
 
 namespace AscNet.GameServer
@@ -92,7 +92,9 @@ namespace AscNet.GameServer
     public static class PacketFactory
     {
         public static readonly Dictionary<string, RequestPacketHandlerDelegate> ReqHandlers = new();
-        static readonly Logger c = new("Factory", ConsoleColor.Yellow);
+
+        // TODO: Configure based on session?
+        static readonly Logger log = new(typeof(PacketFactory), LogLevel.DEBUG, LogLevel.DEBUG);
 
         public static void LoadPacketHandlers()
         {
@@ -101,7 +103,7 @@ namespace AscNet.GameServer
 
         private static void LoadRequestPacketHandlers()
         {
-            c.Log("Loading Packet Handlers...");
+            log.Info("Loading Packet Handlers...");
 
             IEnumerable<Type> classes = from t in Assembly.GetExecutingAssembly().GetTypes()
                                         select t;
@@ -112,11 +114,11 @@ namespace AscNet.GameServer
                 if (attr == null || ReqHandlers.ContainsKey(attr.Name)) continue;
                 ReqHandlers.Add(attr.Name, (RequestPacketHandlerDelegate)Delegate.CreateDelegate(typeof(RequestPacketHandlerDelegate), method));
 #if DEBUG
-                c.Log($"Loaded {method.Name}");
+                log.Info($"Loaded {method.Name}");
 #endif
             }
 
-            c.Log("Finished Loading Packet Handlers");
+            log.Info("Finished Loading Packet Handlers");
         }
 
         public static RequestPacketHandlerDelegate? GetRequestPacketHandler(string name)
