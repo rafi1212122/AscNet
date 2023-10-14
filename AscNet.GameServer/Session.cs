@@ -1,5 +1,6 @@
 ﻿using System.Buffers.Binary;
 using System.Net.Sockets;
+using AscNet.Common;
 using AscNet.Common.Util;
 using MessagePack;
 using Newtonsoft.Json;
@@ -80,11 +81,15 @@ namespace AscNet.GameServer
                                         RequestPacketHandlerDelegate? requestPacketHandler = PacketFactory.GetRequestPacketHandler(request.Name);
                                         if (requestPacketHandler is not null)
                                         {
-                                            c.Log(request.Name);
+                                            if (Common.Common.config.VerboseLevel > VerboseLevel.Silent)
+                                                c.Log($"{request.Name}{(Common.Common.config.VerboseLevel >= VerboseLevel.Debug ? (", " + JsonConvert.SerializeObject(MessagePackSerializer.Typeless.Deserialize(request.Content))) : "")}");
                                             requestPacketHandler.Invoke(this, request);
                                         }
                                         else
-                                            c.Warn($"{request.Name} handler not found!");
+                                        {
+                                            if (Common.Common.config.VerboseLevel > VerboseLevel.Silent)
+                                                c.Warn($"{request.Name} handler not found!{(Common.Common.config.VerboseLevel >= VerboseLevel.Debug ? (", " + JsonConvert.SerializeObject(MessagePackSerializer.Typeless.Deserialize(request.Content))) : "")}");
+                                        }
                                         break;
                                     case Packet.ContentType.Push:
                                         Packet.Push push = MessagePackSerializer.Deserialize<Packet.Push>(packet.Content);
