@@ -36,6 +36,25 @@ namespace AscNet.GameServer.Handlers
             DoLogin(session);
         }
 
+        [RequestPacketHandler("ReconnectRequest")]
+        public static void ReconnectRequestHandler(Session session, Packet.Request packet)
+        {
+            session.SendResponse(new ReconnectResponse()
+            {
+                Code = 0,
+                OfflineMessages = { },
+                ReconnectToken = "eeeeeeeeeeeeeeh",
+                RequestNo = 0
+            }, packet.Id);
+        }
+        
+        /* TODO
+        [RequestPacketHandler("ReconnectAck")]
+        public static void ReconnectAckHandler(Session session, Packet.Request packet)
+        {
+        }
+        */
+
         // TODO: Move somewhere else, also split.
         static void DoLogin(Session session)
         {
