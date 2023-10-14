@@ -12,7 +12,7 @@ namespace AscNet.GameServer
         public readonly TcpClient client;
         public readonly Logger c;
         private long lastPacketTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
-        private ushort packetNo = 1;
+        private ushort packetNo = 0;
         private readonly MessagePackSerializerOptions lz4Options = MessagePackSerializerOptions.Standard.WithCompression(MessagePackCompression.Lz4Block);
 
         public Session(string id, TcpClient tcpClient)
@@ -76,12 +76,21 @@ namespace AscNet.GameServer
                                     case Packet.ContentType.Request:
                                         Packet.Request request = MessagePackSerializer.Deserialize<Packet.Request>(packet.Content);
                                         debugContent = request.Content;
-                                        PacketFactory.GetPacketHandler(request.Name)?.Invoke(this, request.Content);
+
+                                        RequestPacketHandlerDelegate? requestPacketHandler = PacketFactory.GetRequestPacketHandler(request.Name);
+                                        if (requestPacketHandler is not null)
+                                        {
+                                            c.Log(request.Name);
+                                            requestPacketHandler.Invoke(this, request);
+                                        }
+                                        else
+                                            c.Warn($"{request.Name} handler not found!");
                                         break;
                                     case Packet.ContentType.Push:
                                         Packet.Push push = MessagePackSerializer.Deserialize<Packet.Push>(packet.Content);
                                         debugContent = push.Content;
-                                        PacketFactory.GetPacketHandler(push.Name)?.Invoke(this, push.Content);
+                                        c.Log(push.Name);
+                                        throw new NotImplementedException($"Packet push handlers not implemented ({push.Name})");
                                         break;
                                     case Packet.ContentType.Exception:
                                         Packet.Exception exception = MessagePackSerializer.Deserialize<Packet.Exception>(packet.Content);
@@ -122,30 +131,44 @@ namespace AscNet.GameServer
             };
             Send(new Packet()
             {
-                No = packetNo,
+                No = ++packetNo,
                 Type = Packet.ContentType.Push,
                 Content = MessagePackSerializer.Serialize(packet)
             });
-            c.Log(packet.Name + " " + JsonConvert.SerializeObject(push));
-            packetNo++;
+            c.Log(packet.Name);
         }
 
-        public void SendResponse<T>(T response)
+        public void SendPush(string name, byte[] push)
+        {
+            Packet.Push packet = new()
+            {
+                Name = name,
+                Content = push
+            };
+            Send(new Packet()
+            {
+                No = ++packetNo,
+                Type = Packet.ContentType.Push,
+                Content = MessagePackSerializer.Serialize(packet)
+            });
+            c.Log(packet.Name);
+        }
+
+        public void SendResponse<T>(T response, int clientSeq = 0)
         {
             Packet.Response packet = new()
             {
-                Id = 1,
-                Name = typeof(T).Name,
+                Id = clientSeq,
+                Name = response!.GetType().Name,
                 Content = MessagePackSerializer.Serialize(response)
             };
             Send(new Packet()
             {
-                No = packetNo,
+                No = 0,
                 Type = Packet.ContentType.Response,
                 Content = MessagePackSerializer.Serialize(packet)
             });
-            c.Log(packet.Name + " " + JsonConvert.SerializeObject(response));
-            packetNo++;
+            c.Log(packet.Name);
         }
 
         private void Send(Packet packet)

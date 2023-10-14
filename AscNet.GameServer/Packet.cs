@@ -77,24 +77,29 @@ namespace AscNet.GameServer
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 
     [AttributeUsage(AttributeTargets.Method)]
-    public class PacketHandler : Attribute
+    public class RequestPacketHandler : Attribute
     {
         public string Name { get; }
 
-        public PacketHandler(string name)
+        public RequestPacketHandler(string name)
         {
             Name = name;
         }
     }
 
-    public delegate void PacketHandlerDelegate(Session session, byte[] packet);
+    public delegate void RequestPacketHandlerDelegate(Session session, Packet.Request packet);
 
     public static class PacketFactory
     {
-        public static readonly Dictionary<string, PacketHandlerDelegate> Handlers = new();
+        public static readonly Dictionary<string, RequestPacketHandlerDelegate> ReqHandlers = new();
         static readonly Logger c = new("Factory", ConsoleColor.Yellow);
 
         public static void LoadPacketHandlers()
+        {
+            LoadRequestPacketHandlers();
+        }
+
+        private static void LoadRequestPacketHandlers()
         {
             c.Log("Loading Packet Handlers...");
 
@@ -103,9 +108,9 @@ namespace AscNet.GameServer
 
             foreach (var method in classes.SelectMany(t => t.GetMethods(BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic)))
             {
-                var attr = method.GetCustomAttribute<PacketHandler>(false);
-                if (attr == null || Handlers.ContainsKey(attr.Name)) continue;
-                Handlers.Add(attr.Name, (PacketHandlerDelegate)Delegate.CreateDelegate(typeof(PacketHandlerDelegate), method));
+                var attr = method.GetCustomAttribute<RequestPacketHandler>(false);
+                if (attr == null || ReqHandlers.ContainsKey(attr.Name)) continue;
+                ReqHandlers.Add(attr.Name, (RequestPacketHandlerDelegate)Delegate.CreateDelegate(typeof(RequestPacketHandlerDelegate), method));
 #if DEBUG
                 c.Log($"Loaded {method.Name}");
 #endif
@@ -114,9 +119,9 @@ namespace AscNet.GameServer
             c.Log("Finished Loading Packet Handlers");
         }
 
-        public static PacketHandlerDelegate? GetPacketHandler(string name)
+        public static RequestPacketHandlerDelegate? GetRequestPacketHandler(string name)
         {
-            Handlers.TryGetValue(name, out PacketHandlerDelegate? handler);
+            ReqHandlers.TryGetValue(name, out RequestPacketHandlerDelegate? handler);
             return handler;
         }
     }
