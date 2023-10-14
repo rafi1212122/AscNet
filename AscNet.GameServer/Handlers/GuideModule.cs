@@ -2,6 +2,17 @@
 
 namespace AscNet.GameServer.Handlers
 {
+    public class GuideGroupFinishRequest
+    {
+        public int GroupId;
+    }
+
+    public class GuideGroupFinishResponse
+    {
+        public int Code;
+        public List<dynamic>? RewardGoodsList;
+    }
+    
     internal class GuideModule
     {
         [RequestPacketHandler("GuideOpenRequest")]
@@ -9,12 +20,12 @@ namespace AscNet.GameServer.Handlers
         {
             session.SendResponse(new GuideOpenResponse(), packet.Id);
         }
-        
-        /* TODO: Need this to skip tutorials
+
+        // TODO: Invalid, need proper types
         [RequestPacketHandler("GuideGroupFinishRequest")]
         public static void GuideGroupFinishRequestHandler(Session session, Packet.Request packet)
         {
+            session.SendResponse(new GuideGroupFinishResponse(), packet.Id);
         }
-        */
     }
 }
