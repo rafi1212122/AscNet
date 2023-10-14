@@ -15,6 +15,15 @@
 
         #region Instantiation
 
+        public Dictionary<LogLevel, ConsoleColor> LogLevelColor { get; set; } = new Dictionary<LogLevel, ConsoleColor>()
+        {
+            { LogLevel.FATAL , ConsoleColor.DarkRed },
+            { LogLevel.ERROR , ConsoleColor.Red },
+            { LogLevel.WARN , ConsoleColor.Yellow },
+            { LogLevel.INFO , ConsoleColor.Green },
+            { LogLevel.DEBUG , ConsoleColor.Magenta }
+        };
+
         public Logger(string logFilePath)
         {
             _logFilePath = logFilePath;
@@ -156,32 +165,7 @@
         {
             if (logLevel <= _logLevel)
             {
-                switch (logLevel)
-                {
-                    case LogLevel.DEBUG:
-                        Console.ForegroundColor = ConsoleColor.Magenta;
-                        break;
-
-                    case LogLevel.INFO:
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        break;
-
-                    case LogLevel.WARN:
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        break;
-
-                    case LogLevel.ERROR:
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        break;
-
-                    case LogLevel.FATAL:
-                        Console.ForegroundColor = ConsoleColor.DarkRed;
-                        break;
-
-                    default:
-                        throw new ArgumentOutOfRangeException(nameof(logLevel), logLevel, null);
-                }
-
+                Console.ForegroundColor = LogLevelColor[logLevel];
                 Console.WriteLine($"[{DateTime.Now:HH:mm:ss.fff}][{logLevel}]{message}");
                 Console.ResetColor();
             }

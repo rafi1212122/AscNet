@@ -8,6 +8,7 @@ namespace AscNet.SDKServer
 
         public static void Main(string[] args)
         {
+            log.LogLevelColor[Logging.LogLevel.INFO] = ConsoleColor.Blue;
             var builder = WebApplication.CreateBuilder(args);
 
             // Disables default logger

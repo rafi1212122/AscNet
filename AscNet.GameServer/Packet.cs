@@ -98,6 +98,7 @@ namespace AscNet.GameServer
 
         public static void LoadPacketHandlers()
         {
+            log.LogLevelColor[LogLevel.INFO] = ConsoleColor.White;
             LoadRequestPacketHandlers();
         }
 
@@ -111,7 +112,8 @@ namespace AscNet.GameServer
             foreach (var method in classes.SelectMany(t => t.GetMethods(BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic)))
             {
                 var attr = method.GetCustomAttribute<RequestPacketHandler>(false);
-                if (attr == null || ReqHandlers.ContainsKey(attr.Name)) continue;
+                if (attr == null || ReqHandlers.ContainsKey(attr.Name)) 
+                    continue;
                 ReqHandlers.Add(attr.Name, (RequestPacketHandlerDelegate)Delegate.CreateDelegate(typeof(RequestPacketHandlerDelegate), method));
 #if DEBUG
                 log.Info($"Loaded {method.Name}");

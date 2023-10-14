@@ -23,8 +23,8 @@ namespace AscNet.GameServer
             this.id = id;
             client = tcpClient;
             // TODO: add session based configuration? maybe from database?
-            log = new(typeof(Session), LogLevel.DEBUG, LogLevel.DEBUG);
-
+            log = new(typeof(Session), id, LogLevel.DEBUG, LogLevel.DEBUG);
+            log.LogLevelColor[LogLevel.INFO] = ConsoleColor.Cyan;
             Task.Run(ClientLoop);
         }
 
