@@ -1,12 +1,15 @@
 ﻿using AscNet.Common.MsgPack;
+using MessagePack;
 
 namespace AscNet.GameServer.Handlers
 {
+    [MessagePackObject(true)]
     public class GuideGroupFinishRequest
     {
         public int GroupId;
     }
 
+    [MessagePackObject(true)]
     public class GuideGroupFinishResponse
     {
         public int Code;
