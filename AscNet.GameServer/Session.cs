@@ -122,11 +122,11 @@ namespace AscNet.GameServer
             DisconnectProtocol();
         }
 
-        public void SendPush<T>(string name, T push)
+        public void SendPush<T>(T push)
         {
             Packet.Push packet = new()
             {
-                Name = name,
+                Name = typeof(T).Name,
                 Content = MessagePackSerializer.Serialize(push)
             };
             Send(new Packet()
@@ -159,7 +159,7 @@ namespace AscNet.GameServer
             Packet.Response packet = new()
             {
                 Id = clientSeq,
-                Name = response!.GetType().Name,
+                Name = typeof(T).Name,
                 Content = MessagePackSerializer.Serialize(response)
             };
             Send(new Packet()
