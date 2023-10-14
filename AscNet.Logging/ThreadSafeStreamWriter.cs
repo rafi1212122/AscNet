@@ -13,7 +13,7 @@
 
         private object _lock = new object();
 
-        public ThreadSafeStreamWriter()
+        private ThreadSafeStreamWriter()
         {
             _writer = new StreamWriter(_logFilePath, true);
 #if !RELEASE
