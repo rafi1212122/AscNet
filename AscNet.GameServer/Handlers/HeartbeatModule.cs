@@ -14,6 +14,13 @@ namespace AscNet.GameServer.Handlers
             session.SendResponse(heartbeatResponse, packet.Id);
         }
 
-        // TODO: Pong?
+        [RequestPacketHandler("Ping")]
+        public static void PingHandler(Session session, Packet.Request packet)
+        {
+            session.SendResponse(new Pong()
+            {
+                UtcTime = (ulong)DateTimeOffset.UtcNow.UtcTicks
+            }, packet.Id);
+        }
     }
 }
