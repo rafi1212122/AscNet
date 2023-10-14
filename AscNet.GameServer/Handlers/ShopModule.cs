@@ -23,7 +23,7 @@ namespace AscNet.GameServer.Handlers
                 ClientShop = { }
             };
 
-            session.SendResponse(rsp);
+            session.SendResponse(rsp, packet.Id);
         }
     }
 }
