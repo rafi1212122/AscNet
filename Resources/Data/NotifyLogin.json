@@ -1,45 +1,126 @@
 {
     "PlayerData": {
-      "Id": 10000001,
-      "Name": "Test",
-      "Level": 50,
-      "Sign": "",
-      "DisplayCharId": 1021001,
-      "Birthday": {
-        "Mon": 1,
-        "Day": 1
-      },
-      "HonorLevel": 1,
-      "ServerId": "5001",
-      "Likes": 0,
-      "CurrTeamId": 1,
-      "ChallengeEventId": 0,
-      "CurrHeadPortraitId": 9000002,
-      "CurrHeadFrameId": 0,
-      "CurrMedalId": 0,
-      "AppearanceShowType": 0,
-      "DailyReceiveGiftCount": 0,
-      "DailyActivenessRewardStatus": 0,
-      "WeeklyActivenessRewardStatus": 0,
-      "Marks": [],
-      "ShowCharacters": [
-        1021001
-      ],
-      "ShieldFuncList": [],
-      "AppearanceSettingInfo": {
-        "TitleType": 1,
-        "CharacterType": 1,
-        "FashionType": 1,
-        "WeaponFashionType": 1,
-        "DormitoryType": 1,
-        "DormitoryId": 21001
-      },
-      "CreateTime": 1626538573,
-      "LastLoginTime": 1691332946,
-      "ReportTime": 0,
-      "ChangeNameTime": 1626547796,
-      "Flags": 0,
-      "GuideData": []
+        "Id": 10000001,
+        "Name": "Test",
+        "Level": 100,
+        "Sign": "",
+        "DisplayCharId": 1021001,
+        "Birthday": {
+            "Mon": 1,
+            "Day": 1
+        },
+        "HonorLevel": 1,
+        "ServerId": "5001",
+        "Likes": 0,
+        "CurrTeamId": 1,
+        "ChallengeEventId": 0,
+        "CurrHeadPortraitId": 9000002,
+        "CurrHeadFrameId": 0,
+        "CurrMedalId": 0,
+        "AppearanceShowType": 0,
+        "DailyReceiveGiftCount": 0,
+        "DailyActivenessRewardStatus": 0,
+        "WeeklyActivenessRewardStatus": 0,
+        "Marks": [],
+        "GuideData": [
+            100001,
+            100002,
+            100003,
+            50000,
+            50101,
+            50102,
+            50103,
+            50201,
+            50202,
+            50203,
+            50301,
+            50401,
+            50501,
+            50602,
+            50603,
+            50701,
+            50800,
+            50801,
+            50803,
+            50901,
+            50931,
+            200001,
+            51001,
+            51101,
+            51201,
+            51301,
+            51401,
+            51501,
+            51701,
+            51901,
+            52001,
+            52031,
+            52101,
+            52301,
+            52401,
+            52501,
+            52601,
+            52701,
+            52931,
+            51601,
+            52801,
+            52901,
+            53005,
+            52731,
+            52602
+        ],
+        "Communications": [
+            101,
+            102,
+            103,
+            104,
+            1,
+            105,
+            2,
+            3,
+            111,
+            106,
+            4,
+            5,
+            107,
+            108,
+            6,
+            7,
+            8,
+            9,
+            109,
+            10,
+            11,
+            112,
+            12,
+            110,
+            14,
+            15,
+            16,
+            18,
+            19,
+            20,
+            22,
+            13,
+            25
+        ],
+        "ShowCharacters": [
+            1021001
+        ],
+        "ShieldFuncList": [],
+        "AppearanceSettingInfo": {
+            "TitleType": 1,
+            "CharacterType": 1,
+            "FashionType": 1,
+            "WeaponFashionType": 1,
+            "DormitoryType": 1,
+            "DormitoryId": 21001
+        },
+        "CreateTime": 0,
+        "LastLoginTime": 0,
+        "ReportTime": 0,
+        "ChangeNameTime": 0,
+        "Flags": 0
     },
     "TimeLimitCtrlConfigList": [],
     "SharePlatformConfigList": [
@@ -178,45 +259,127 @@
             ]
         }
     ],
-    "ItemList": [],
+    "ItemList": [
+        {
+            "Id": 1,
+            "Count": 268983,
+            "BuyTimes": 0,
+            "TotalBuyTimes": 0,
+            "LastBuyTime": 0,
+            "RefreshTime": 1626538573,
+            "CreateTime": 1626538573
+        },
+        {
+            "Id": 2,
+            "Count": 0,
+            "BuyTimes": 0,
+            "TotalBuyTimes": 0,
+            "LastBuyTime": 0,
+            "RefreshTime": 1626538573,
+            "CreateTime": 1626538573
+        },
+        {
+            "Id": 3,
+            "Count": 720,
+            "BuyTimes": 0,
+            "TotalBuyTimes": 0,
+            "LastBuyTime": 0,
+            "RefreshTime": 1626538573,
+            "CreateTime": 1626538573
+        },
+        {
+            "Id": 4,
+            "Count": 425,
+            "BuyTimes": 0,
+            "TotalBuyTimes": 0,
+            "LastBuyTime": 0,
+            "RefreshTime": 1691333015,
+            "CreateTime": 1626538573
+        },
+        {
+            "Id": 12,
+            "Count": 137,
+            "BuyTimes": 0,
+            "TotalBuyTimes": 0,
+            "LastBuyTime": 0,
+            "RefreshTime": 1626538573,
+            "CreateTime": 1626538573
+        },
+        {
+            "Id": 17,
+            "Count": 21,
+            "BuyTimes": 0,
+            "TotalBuyTimes": 0,
+            "LastBuyTime": 0,
+            "RefreshTime": 1630083581,
+            "CreateTime": 1626538573
+        },
+        {
+            "Id": 21,
+            "Count": 99,
+            "BuyTimes": 0,
+            "TotalBuyTimes": 0,
+            "LastBuyTime": 0,
+            "RefreshTime": 1630083581,
+            "CreateTime": 1626538573
+        },
+        {
+            "Id": 22,
+            "Count": 21,
+            "BuyTimes": 0,
+            "TotalBuyTimes": 0,
+            "LastBuyTime": 0,
+            "RefreshTime": 1630083581,
+            "CreateTime": 1626538573
+        },
+        {
+            "Id": 7,
+            "Count": 127,
+            "BuyTimes": 0,
+            "TotalBuyTimes": 0,
+            "LastBuyTime": 0,
+            "RefreshTime": 1626538911,
+            "CreateTime": 1626538911
+        }
+    ],
     "ItemRecycleDict": {},
     "CharacterList": [
         {
             "Id": 1021001,
-            "Level": 50,
-            "Exp": 564,
-            "Quality": 2,
+            "Level": 1,
+            "Exp": 0,
+            "Quality": 1,
             "InitQuality": 1,
             "Star": 4,
-            "Grade": 8,
+            "Grade": 0,
             "SkillList": [
                 {
                     "Id": 102101,
-                    "Level": 12
+                    "Level": 1
                 },
                 {
                     "Id": 102106,
-                    "Level": 11
+                    "Level": 1
                 },
                 {
                     "Id": 102111,
-                    "Level": 11
+                    "Level": 1
                 },
                 {
                     "Id": 102116,
-                    "Level": 12
+                    "Level": 1
                 },
                 {
                     "Id": 102117,
-                    "Level": 11
+                    "Level": 1
                 },
                 {
                     "Id": 102118,
-                    "Level": 10
+                    "Level": 1
                 },
                 {
                     "Id": 102121,
-                    "Level": 10
+                    "Level": 1
                 },
                 {
                     "Id": 102123,
@@ -229,11 +392,11 @@
             ],
             "EnhanceSkillList": [],
             "FashionId": 6210101,
-            "CreateTime": 1626538573,
-            "TrustLv": 2,
-            "TrustExp": 80,
-            "Ability": 3387,
-            "LiberateLv": 2,
+            "CreateTime": 0,
+            "TrustLv": 1,
+            "TrustExp": 0,
+            "Ability": 0,
+            "LiberateLv": 0,
             "CharacterHeadInfo": {
                 "HeadFashionId": 0,
                 "HeadFashionType": 0
@@ -242,7 +405,7 @@
     ],
     "EquipList": [
         {
-            "Id": 1,
+            "Id": 70,
             "TemplateId": 3035002,
             "CharacterId": 1021001,
             "Level": 45,
@@ -253,6 +416,110 @@
             "AwakeSlotList": [],
             "IsLock": false,
             "CreateTime": 1626632133,
+            "IsRecycle": false
+        },
+        {
+            "Id": 71,
+            "TemplateId": 3065002,
+            "CharacterId": 1021001,
+            "Level": 40,
+            "Exp": 220,
+            "Breakthrough": 3,
+            "ResonanceInfo": [],
+            "UnconfirmedResonanceInfo": [],
+            "AwakeSlotList": [],
+            "IsLock": false,
+            "CreateTime": 1626632133,
+            "IsRecycle": false
+        },
+        {
+            "Id": 112,
+            "TemplateId": 2025001,
+            "CharacterId": 1021001,
+            "Level": 45,
+            "Exp": 160,
+            "Breakthrough": 4,
+            "ResonanceInfo": [
+                {
+                    "Slot": 1,
+                    "Type": 1,
+                    "CharacterId": 0,
+                    "TemplateId": 20
+                }
+            ],
+            "UnconfirmedResonanceInfo": [],
+            "AwakeSlotList": [],
+            "IsLock": false,
+            "CreateTime": 1626634841,
+            "IsRecycle": false
+        },
+        {
+            "Id": 153,
+            "TemplateId": 3025002,
+            "CharacterId": 1021001,
+            "Level": 45,
+            "Exp": 10,
+            "Breakthrough": 4,
+            "ResonanceInfo": [],
+            "UnconfirmedResonanceInfo": [],
+            "AwakeSlotList": [],
+            "IsLock": false,
+            "CreateTime": 1626637516,
+            "IsRecycle": false
+        },
+        {
+            "Id": 181,
+            "TemplateId": 3015001,
+            "CharacterId": 1021001,
+            "Level": 45,
+            "Exp": 260,
+            "Breakthrough": 4,
+            "ResonanceInfo": [],
+            "UnconfirmedResonanceInfo": [],
+            "AwakeSlotList": [],
+            "IsLock": false,
+            "CreateTime": 1626638512,
+            "IsRecycle": false
+        },
+        {
+            "Id": 182,
+            "TemplateId": 3045001,
+            "CharacterId": 1021001,
+            "Level": 45,
+            "Exp": 10,
+            "Breakthrough": 4,
+            "ResonanceInfo": [
+                {
+                    "Slot": 1,
+                    "Type": 1,
+                    "CharacterId": 0,
+                    "TemplateId": 27
+                },
+                {
+                    "Slot": 2,
+                    "Type": 1,
+                    "CharacterId": 0,
+                    "TemplateId": 26
+                }
+            ],
+            "UnconfirmedResonanceInfo": [],
+            "AwakeSlotList": [],
+            "IsLock": false,
+            "CreateTime": 1626638512,
+            "IsRecycle": false
+        },
+        {
+            "Id": 521,
+            "TemplateId": 3055002,
+            "CharacterId": 1021001,
+            "Level": 1,
+            "Exp": 0,
+            "Breakthrough": 4,
+            "ResonanceInfo": [],
+            "UnconfirmedResonanceInfo": [],
+            "AwakeSlotList": [],
+            "IsLock": false,
+            "CreateTime": 1626792402,
             "IsRecycle": false
         }
     ],
@@ -274,11 +541,3950 @@
         "DressedList": []
     },
     "FubenData": {
-        "StageData": {},
+        "StageData": {
+            "10010101": {
+                "StageId": 10010101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1691330205,
+                "RefreshTime": 1691330205,
+                "CreateTime": 1626538911,
+                "BestRecordTime": 14,
+                "LastRecordTime": 14,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10010102": {
+                "StageId": 10010102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1691056089,
+                "RefreshTime": 1691329553,
+                "CreateTime": 1626546366,
+                "BestRecordTime": 20,
+                "LastRecordTime": 20,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10010103": {
+                "StageId": 10010103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626792876,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626546500,
+                "BestRecordTime": 32,
+                "LastRecordTime": 32,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10010104": {
+                "StageId": 10010104,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1691056910,
+                "RefreshTime": 1691329553,
+                "CreateTime": 1626546618,
+                "BestRecordTime": 17,
+                "LastRecordTime": 17,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10010201": {
+                "StageId": 10010201,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626546675,
+                "RefreshTime": 1626631757,
+                "CreateTime": 1626546747,
+                "BestRecordTime": 53,
+                "LastRecordTime": 53,
+                "BestCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ]
+            },
+            "10010202": {
+                "StageId": 10010202,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626546769,
+                "RefreshTime": 1626631757,
+                "CreateTime": 1626546834,
+                "BestRecordTime": 48,
+                "LastRecordTime": 48,
+                "BestCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ]
+            },
+            "10010203": {
+                "StageId": 10010203,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626546917,
+                "RefreshTime": 1626631757,
+                "CreateTime": 1626546990,
+                "BestRecordTime": 60,
+                "LastRecordTime": 60,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "10010204": {
+                "StageId": 10010204,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626547239,
+                "RefreshTime": 1626631757,
+                "CreateTime": 1626547310,
+                "BestRecordTime": 51,
+                "LastRecordTime": 51,
+                "BestCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ]
+            },
+            "10010301": {
+                "StageId": 10010301,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626547412,
+                "RefreshTime": 1626631757,
+                "CreateTime": 1626547479,
+                "BestRecordTime": 50,
+                "LastRecordTime": 50,
+                "BestCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ]
+            },
+            "10010302": {
+                "StageId": 10010302,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626547600,
+                "RefreshTime": 1626631757,
+                "CreateTime": 1626547698,
+                "BestRecordTime": 61,
+                "LastRecordTime": 61,
+                "BestCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ]
+            },
+            "10010303": {
+                "StageId": 10010303,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626547900,
+                "RefreshTime": 1626631757,
+                "CreateTime": 1626547970,
+                "BestRecordTime": 51,
+                "LastRecordTime": 51,
+                "BestCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ]
+            },
+            "10010304": {
+                "StageId": 10010304,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626549387,
+                "RefreshTime": 1626631757,
+                "CreateTime": 1626549465,
+                "BestRecordTime": 43,
+                "LastRecordTime": 43,
+                "BestCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031001,
+                    1031003
+                ]
+            },
+            "10020101": {
+                "StageId": 10020101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626631933,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626632014,
+                "BestRecordTime": 61,
+                "LastRecordTime": 61,
+                "BestCardIds": [
+                    1021001,
+                    1031001,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031001,
+                    1051001
+                ]
+            },
+            "10020102": {
+                "StageId": 10020102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626632171,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626632244,
+                "BestRecordTime": 55,
+                "LastRecordTime": 55,
+                "BestCardIds": [
+                    1021001,
+                    1031001,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031001,
+                    1051001
+                ]
+            },
+            "10020103": {
+                "StageId": 10020103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 3,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626643727,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626632561,
+                "BestRecordTime": 48,
+                "LastRecordTime": 48,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10020104": {
+                "StageId": 10020104,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627487796,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1626633682,
+                "BestRecordTime": 30,
+                "LastRecordTime": 30,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10020201": {
+                "StageId": 10020201,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626633887,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626634010,
+                "BestRecordTime": 93,
+                "LastRecordTime": 93,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10020202": {
+                "StageId": 10020202,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626643276,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626634579,
+                "BestRecordTime": 48,
+                "LastRecordTime": 48,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10020203": {
+                "StageId": 10020203,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626635261,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626635411,
+                "BestRecordTime": 117,
+                "LastRecordTime": 117,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10020204": {
+                "StageId": 10020204,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626635467,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626635570,
+                "BestRecordTime": 70,
+                "LastRecordTime": 70,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10020301": {
+                "StageId": 10020301,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626635763,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626635863,
+                "BestRecordTime": 73,
+                "LastRecordTime": 73,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10020302": {
+                "StageId": 10020302,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626635984,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626636062,
+                "BestRecordTime": 54,
+                "LastRecordTime": 54,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10020303": {
+                "StageId": 10020303,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626636094,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626636169,
+                "BestRecordTime": 53,
+                "LastRecordTime": 53,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10020304": {
+                "StageId": 10020304,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626636221,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626636284,
+                "BestRecordTime": 35,
+                "LastRecordTime": 35,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10030101": {
+                "StageId": 10030101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626638562,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626638740,
+                "BestRecordTime": 153,
+                "LastRecordTime": 153,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "10030102": {
+                "StageId": 10030102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626639398,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626639504,
+                "BestRecordTime": 82,
+                "LastRecordTime": 82,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10030103": {
+                "StageId": 10030103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626640561,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626640654,
+                "BestRecordTime": 66,
+                "LastRecordTime": 66,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10030104": {
+                "StageId": 10030104,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626640704,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626640851,
+                "BestRecordTime": 118,
+                "LastRecordTime": 118,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10030201": {
+                "StageId": 10030201,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626640869,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626641012,
+                "BestRecordTime": 121,
+                "LastRecordTime": 121,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10030202": {
+                "StageId": 10030202,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626641070,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626641165,
+                "BestRecordTime": 74,
+                "LastRecordTime": 74,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10030203": {
+                "StageId": 10030203,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626643526,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626641817,
+                "BestRecordTime": 62,
+                "LastRecordTime": 62,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10030204": {
+                "StageId": 10030204,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626641856,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626641985,
+                "BestRecordTime": 104,
+                "LastRecordTime": 104,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10030301": {
+                "StageId": 10030301,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626642204,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626642308,
+                "BestRecordTime": 84,
+                "LastRecordTime": 84,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "10030302": {
+                "StageId": 10030302,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626642429,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626642560,
+                "BestRecordTime": 94,
+                "LastRecordTime": 94,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10030303": {
+                "StageId": 10030303,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626642870,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626642931,
+                "BestRecordTime": 36,
+                "LastRecordTime": 36,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10030304": {
+                "StageId": 10030304,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627489495,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1626643007,
+                "BestRecordTime": 33,
+                "LastRecordTime": 37,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ]
+            },
+            "10040101": {
+                "StageId": 10040101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626656871,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626656976,
+                "BestRecordTime": 85,
+                "LastRecordTime": 85,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10040102": {
+                "StageId": 10040102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627489581,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1626657780,
+                "BestRecordTime": 72,
+                "LastRecordTime": 72,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ]
+            },
+            "10040103": {
+                "StageId": 10040103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626699302,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626699420,
+                "BestRecordTime": 82,
+                "LastRecordTime": 82,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10040104": {
+                "StageId": 10040104,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626699435,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626699553,
+                "BestRecordTime": 97,
+                "LastRecordTime": 97,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10040201": {
+                "StageId": 10040201,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626699572,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626699930,
+                "BestRecordTime": 126,
+                "LastRecordTime": 126,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10040202": {
+                "StageId": 10040202,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626700178,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626700246,
+                "BestRecordTime": 52,
+                "LastRecordTime": 52,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10040203": {
+                "StageId": 10040203,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626701083,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626701127,
+                "BestRecordTime": 25,
+                "LastRecordTime": 25,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10040204": {
+                "StageId": 10040204,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626701146,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626701248,
+                "BestRecordTime": 80,
+                "LastRecordTime": 80,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10040301": {
+                "StageId": 10040301,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626705801,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626705918,
+                "BestRecordTime": 92,
+                "LastRecordTime": 92,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10040302": {
+                "StageId": 10040302,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626706846,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626706924,
+                "BestRecordTime": 51,
+                "LastRecordTime": 51,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10040303": {
+                "StageId": 10040303,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626706942,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626707020,
+                "BestRecordTime": 48,
+                "LastRecordTime": 48,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10040304": {
+                "StageId": 10040304,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627384916,
+                "RefreshTime": 1627482356,
+                "CreateTime": 1626707141,
+                "BestRecordTime": 38,
+                "LastRecordTime": 38,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1041002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1041002
+                ]
+            },
+            "10050101": {
+                "StageId": 10050101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626790041,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626790122,
+                "BestRecordTime": 56,
+                "LastRecordTime": 56,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10050102": {
+                "StageId": 10050102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626790135,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626790251,
+                "BestRecordTime": 90,
+                "LastRecordTime": 90,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "10050103": {
+                "StageId": 10050103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626793050,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626790417,
+                "BestRecordTime": 108,
+                "LastRecordTime": 130,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10050104": {
+                "StageId": 10050104,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626790432,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626790550,
+                "BestRecordTime": 102,
+                "LastRecordTime": 102,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "10050201": {
+                "StageId": 10050201,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626790581,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626790667,
+                "BestRecordTime": 63,
+                "LastRecordTime": 63,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10050202": {
+                "StageId": 10050202,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626790708,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626790831,
+                "BestRecordTime": 100,
+                "LastRecordTime": 100,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10050203": {
+                "StageId": 10050203,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626803357,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626803435,
+                "BestRecordTime": 56,
+                "LastRecordTime": 56,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10050204": {
+                "StageId": 10050204,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626805010,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626805074,
+                "BestRecordTime": 48,
+                "LastRecordTime": 48,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10050301": {
+                "StageId": 10050301,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626805503,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626805538,
+                "BestRecordTime": 22,
+                "LastRecordTime": 22,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10050302": {
+                "StageId": 10050302,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626805557,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626805672,
+                "BestRecordTime": 101,
+                "LastRecordTime": 101,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10050303": {
+                "StageId": 10050303,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626805690,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626805743,
+                "BestRecordTime": 37,
+                "LastRecordTime": 37,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10050304": {
+                "StageId": 10050304,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626805765,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626805872,
+                "BestRecordTime": 91,
+                "LastRecordTime": 91,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10060101": {
+                "StageId": 10060101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627031948,
+                "RefreshTime": 1627175899,
+                "CreateTime": 1627032040,
+                "BestRecordTime": 75,
+                "LastRecordTime": 75,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10060102": {
+                "StageId": 10060102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627032054,
+                "RefreshTime": 1627175899,
+                "CreateTime": 1627032197,
+                "BestRecordTime": 127,
+                "LastRecordTime": 127,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10060103": {
+                "StageId": 10060103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627487640,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627212349,
+                "BestRecordTime": 44,
+                "LastRecordTime": 44,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10060104": {
+                "StageId": 10060104,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627489293,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627326994,
+                "BestRecordTime": 87,
+                "LastRecordTime": 87,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ]
+            },
+            "10060201": {
+                "StageId": 10060201,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627380323,
+                "RefreshTime": 1627482356,
+                "CreateTime": 1627380432,
+                "BestRecordTime": 87,
+                "LastRecordTime": 87,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10060202": {
+                "StageId": 10060202,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627380454,
+                "RefreshTime": 1627482356,
+                "CreateTime": 1627380499,
+                "BestRecordTime": 30,
+                "LastRecordTime": 30,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10060203": {
+                "StageId": 10060203,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627380512,
+                "RefreshTime": 1627482356,
+                "CreateTime": 1627380625,
+                "BestRecordTime": 96,
+                "LastRecordTime": 96,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "10060204": {
+                "StageId": 10060204,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627486020,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627486134,
+                "BestRecordTime": 94,
+                "LastRecordTime": 94,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10060301": {
+                "StageId": 10060301,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627486178,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627486234,
+                "BestRecordTime": 37,
+                "LastRecordTime": 37,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10060302": {
+                "StageId": 10060302,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627486256,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627486376,
+                "BestRecordTime": 102,
+                "LastRecordTime": 102,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10060303": {
+                "StageId": 10060303,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627486392,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627486475,
+                "BestRecordTime": 66,
+                "LastRecordTime": 66,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10060304": {
+                "StageId": 10060304,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627486497,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627486543,
+                "BestRecordTime": 20,
+                "LastRecordTime": 20,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10070101": {
+                "StageId": 10070101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1630083719,
+                "RefreshTime": 1672341323,
+                "CreateTime": 1630083876,
+                "BestRecordTime": 121,
+                "LastRecordTime": 121,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10070102": {
+                "StageId": 10070102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1672414048,
+                "RefreshTime": 1684140278,
+                "CreateTime": 1672414193,
+                "BestRecordTime": 130,
+                "LastRecordTime": 130,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "10160101": {
+                "StageId": 10160101,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1672413806,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "10160102": {
+                "StageId": 10160102,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1672413815,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "10160103": {
+                "StageId": 10160103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1672413890,
+                "RefreshTime": 1684140278,
+                "CreateTime": 1672414006,
+                "BestRecordTime": 98,
+                "LastRecordTime": 98,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "10160104": {
+                "StageId": 10160104,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1672414023,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "11010101": {
+                "StageId": 11010101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626636410,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626636576,
+                "BestRecordTime": 142,
+                "LastRecordTime": 142,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "11010102": {
+                "StageId": 11010102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626636774,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626636836,
+                "BestRecordTime": 42,
+                "LastRecordTime": 42,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11010103": {
+                "StageId": 11010103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626637552,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626637674,
+                "BestRecordTime": 100,
+                "LastRecordTime": 100,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "11010104": {
+                "StageId": 11010104,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626637698,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626637770,
+                "BestRecordTime": 58,
+                "LastRecordTime": 58,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11010105": {
+                "StageId": 11010105,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626637783,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626637927,
+                "BestRecordTime": 122,
+                "LastRecordTime": 122,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "11010106": {
+                "StageId": 11010106,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626638049,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626638119,
+                "BestRecordTime": 51,
+                "LastRecordTime": 51,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11020101": {
+                "StageId": 11020101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626643106,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626643229,
+                "BestRecordTime": 94,
+                "LastRecordTime": 94,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "11020102": {
+                "StageId": 11020102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626656076,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626656149,
+                "BestRecordTime": 55,
+                "LastRecordTime": 55,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11020103": {
+                "StageId": 11020103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626656162,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626656252,
+                "BestRecordTime": 71,
+                "LastRecordTime": 71,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "11020104": {
+                "StageId": 11020104,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626656311,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626656395,
+                "BestRecordTime": 74,
+                "LastRecordTime": 74,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11020105": {
+                "StageId": 11020105,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626656405,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626656460,
+                "BestRecordTime": 47,
+                "LastRecordTime": 47,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11020106": {
+                "StageId": 11020106,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626656470,
+                "RefreshTime": 1626698679,
+                "CreateTime": 1626656557,
+                "BestRecordTime": 66,
+                "LastRecordTime": 66,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "11030101": {
+                "StageId": 11030101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626733258,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626733379,
+                "BestRecordTime": 103,
+                "LastRecordTime": 103,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "11030102": {
+                "StageId": 11030102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626733389,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626733486,
+                "BestRecordTime": 87,
+                "LastRecordTime": 87,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11030103": {
+                "StageId": 11030103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626733566,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626733658,
+                "BestRecordTime": 77,
+                "LastRecordTime": 77,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11030104": {
+                "StageId": 11030104,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626733708,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626733887,
+                "BestRecordTime": 60,
+                "LastRecordTime": 60,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11030105": {
+                "StageId": 11030105,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626734685,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626734811,
+                "BestRecordTime": 111,
+                "LastRecordTime": 111,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "11030106": {
+                "StageId": 11030106,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626734821,
+                "RefreshTime": 1626788265,
+                "CreateTime": 1626734933,
+                "BestRecordTime": 96,
+                "LastRecordTime": 96,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "11040101": {
+                "StageId": 11040101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626806317,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626806436,
+                "BestRecordTime": 104,
+                "LastRecordTime": 104,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "11040102": {
+                "StageId": 11040102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626806449,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626806529,
+                "BestRecordTime": 70,
+                "LastRecordTime": 70,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11040103": {
+                "StageId": 11040103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626806547,
+                "RefreshTime": 1626903618,
+                "CreateTime": 1626806645,
+                "BestRecordTime": 85,
+                "LastRecordTime": 85,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11040104": {
+                "StageId": 11040104,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626974002,
+                "RefreshTime": 1627031354,
+                "CreateTime": 1626974074,
+                "BestRecordTime": 54,
+                "LastRecordTime": 54,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "11040105": {
+                "StageId": 11040105,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626974093,
+                "RefreshTime": 1627031354,
+                "CreateTime": 1626974248,
+                "BestRecordTime": 144,
+                "LastRecordTime": 144,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11040106": {
+                "StageId": 11040106,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626974260,
+                "RefreshTime": 1627031354,
+                "CreateTime": 1626974345,
+                "BestRecordTime": 72,
+                "LastRecordTime": 72,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "11050101": {
+                "StageId": 11050101,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627487378,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627487469,
+                "BestRecordTime": 70,
+                "LastRecordTime": 70,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "11050102": {
+                "StageId": 11050102,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627487483,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627487581,
+                "BestRecordTime": 85,
+                "LastRecordTime": 85,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11050103": {
+                "StageId": 11050103,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627488666,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627488817,
+                "BestRecordTime": 129,
+                "LastRecordTime": 129,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ]
+            },
+            "11050104": {
+                "StageId": 11050104,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627488834,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627488955,
+                "BestRecordTime": 109,
+                "LastRecordTime": 109,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11050105": {
+                "StageId": 11050105,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627488977,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627489056,
+                "BestRecordTime": 67,
+                "LastRecordTime": 67,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "11050106": {
+                "StageId": 11050106,
+                "StarsMark": 7,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627489086,
+                "RefreshTime": 1627554727,
+                "CreateTime": 1627489201,
+                "BestRecordTime": 90,
+                "LastRecordTime": 90,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ]
+            },
+            "13010111": {
+                "StageId": 13010111,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1626642010,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010112": {
+                "StageId": 13010112,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1626642014,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010113": {
+                "StageId": 13010113,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1626642019,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010114": {
+                "StageId": 13010114,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1626642022,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010115": {
+                "StageId": 13010115,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626642026,
+                "RefreshTime": 1626642026,
+                "CreateTime": 1626642082,
+                "BestRecordTime": 34,
+                "LastRecordTime": 34,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13010116": {
+                "StageId": 13010116,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626642097,
+                "RefreshTime": 1626642097,
+                "CreateTime": 1626642132,
+                "BestRecordTime": 20,
+                "LastRecordTime": 20,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13010211": {
+                "StageId": 13010211,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1626804463,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010212": {
+                "StageId": 13010212,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1626804466,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010213": {
+                "StageId": 13010213,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1626804468,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010214": {
+                "StageId": 13010214,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626804470,
+                "RefreshTime": 1626804470,
+                "CreateTime": 1626804544,
+                "BestRecordTime": 63,
+                "LastRecordTime": 63,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13010215": {
+                "StageId": 13010215,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1626804556,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010216": {
+                "StageId": 13010216,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626804565,
+                "RefreshTime": 1626804565,
+                "CreateTime": 1626804611,
+                "BestRecordTime": 37,
+                "LastRecordTime": 37,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13010311": {
+                "StageId": 13010311,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627381431,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010312": {
+                "StageId": 13010312,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627381434,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010313": {
+                "StageId": 13010313,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627381436,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010314": {
+                "StageId": 13010314,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627381439,
+                "RefreshTime": 1627381439,
+                "CreateTime": 1627381500,
+                "BestRecordTime": 51,
+                "LastRecordTime": 51,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13010315": {
+                "StageId": 13010315,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627381512,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010316": {
+                "StageId": 13010316,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627381515,
+                "RefreshTime": 1627381515,
+                "CreateTime": 1627381548,
+                "BestRecordTime": 25,
+                "LastRecordTime": 25,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13010411": {
+                "StageId": 13010411,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627489704,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010412": {
+                "StageId": 13010412,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627489707,
+                "RefreshTime": 1627489707,
+                "CreateTime": 1627489762,
+                "BestRecordTime": 41,
+                "LastRecordTime": 41,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13010413": {
+                "StageId": 13010413,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627489771,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010414": {
+                "StageId": 13010414,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627489774,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010415": {
+                "StageId": 13010415,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627489777,
+                "RefreshTime": 1627489777,
+                "CreateTime": 1627489919,
+                "BestRecordTime": 127,
+                "LastRecordTime": 127,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13010416": {
+                "StageId": 13010416,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627489931,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010911": {
+                "StageId": 13010911,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627381569,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010912": {
+                "StageId": 13010912,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627381573,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010913": {
+                "StageId": 13010913,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627381575,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13010914": {
+                "StageId": 13010914,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627381578,
+                "RefreshTime": 1627381578,
+                "CreateTime": 1627381634,
+                "BestRecordTime": 45,
+                "LastRecordTime": 45,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13010915": {
+                "StageId": 13010915,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627381645,
+                "RefreshTime": 1627381645,
+                "CreateTime": 1627381699,
+                "BestRecordTime": 45,
+                "LastRecordTime": 45,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13010916": {
+                "StageId": 13010916,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627381712,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13011011": {
+                "StageId": 13011011,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1628084959,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13011012": {
+                "StageId": 13011012,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1628084962,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13011013": {
+                "StageId": 13011013,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1628084965,
+                "RefreshTime": 1628084965,
+                "CreateTime": 1628085061,
+                "BestRecordTime": 85,
+                "LastRecordTime": 85,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13011014": {
+                "StageId": 13011014,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1628085068,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "13011015": {
+                "StageId": 13011015,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1628085076,
+                "RefreshTime": 1628085076,
+                "CreateTime": 1628085155,
+                "BestRecordTime": 70,
+                "LastRecordTime": 70,
+                "BestCardIds": [],
+                "LastCardIds": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "13011016": {
+                "StageId": 13011016,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1628085165,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "20000101": {
+                "StageId": 20000101,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 2,
+                "PassTimesTotal": 13,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627326863,
+                "RefreshTime": 1627326863,
+                "CreateTime": 1626974730,
+                "BestRecordTime": 34,
+                "LastRecordTime": 63,
+                "BestCardIds": [
+                    1021001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    0,
+                    0
+                ]
+            },
+            "30000101": {
+                "StageId": 30000101,
+                "StarsMark": 0,
+                "Passed": false,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1626804757,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "30000102": {
+                "StageId": 30000102,
+                "StarsMark": 0,
+                "Passed": false,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1626804842,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "30000201": {
+                "StageId": 30000201,
+                "StarsMark": 0,
+                "Passed": false,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627416131,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "30000202": {
+                "StageId": 30000202,
+                "StarsMark": 0,
+                "Passed": false,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627416238,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "30000203": {
+                "StageId": 30000203,
+                "StarsMark": 0,
+                "Passed": false,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627416353,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "30000204": {
+                "StageId": 30000204,
+                "StarsMark": 0,
+                "Passed": false,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627488586,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "30000205": {
+                "StageId": 30000205,
+                "StarsMark": 0,
+                "Passed": false,
+                "PassTimesToday": 0,
+                "PassTimesTotal": 0,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 0,
+                "RefreshTime": 0,
+                "CreateTime": 1627491223,
+                "BestRecordTime": 0,
+                "LastRecordTime": 0,
+                "BestCardIds": [],
+                "LastCardIds": []
+            },
+            "30010301": {
+                "StageId": 30010301,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626632273,
+                "RefreshTime": 1626632273,
+                "CreateTime": 1626632336,
+                "BestRecordTime": 50,
+                "LastRecordTime": 50,
+                "BestCardIds": [
+                    1021001,
+                    1031001,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031001,
+                    1051001
+                ]
+            },
+            "30010302": {
+                "StageId": 30010302,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626805929,
+                "RefreshTime": 1626805929,
+                "CreateTime": 1626805963,
+                "BestRecordTime": 22,
+                "LastRecordTime": 22,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "30010401": {
+                "StageId": 30010401,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 10,
+                "PassTimesTotal": 10,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626707316,
+                "RefreshTime": 1626707316,
+                "CreateTime": 1626637998,
+                "BestRecordTime": 15,
+                "LastRecordTime": 25,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30010402": {
+                "StageId": 30010402,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 5,
+                "PassTimesTotal": 5,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627031874,
+                "RefreshTime": 1627031874,
+                "CreateTime": 1626735029,
+                "BestRecordTime": 18,
+                "LastRecordTime": 30,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "30010403": {
+                "StageId": 30010403,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 2,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627486990,
+                "RefreshTime": 1627486990,
+                "CreateTime": 1627486966,
+                "BestRecordTime": 15,
+                "LastRecordTime": 16,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30010404": {
+                "StageId": 30010404,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 5,
+                "PassTimesTotal": 5,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627673273,
+                "RefreshTime": 1627673273,
+                "CreateTime": 1627586757,
+                "BestRecordTime": 17,
+                "LastRecordTime": 17,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30010701": {
+                "StageId": 30010701,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 4,
+                "PassTimesTotal": 4,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626700678,
+                "RefreshTime": 1626700678,
+                "CreateTime": 1626635643,
+                "BestRecordTime": 16,
+                "LastRecordTime": 19,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30010702": {
+                "StageId": 30010702,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 7,
+                "PassTimesTotal": 7,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626789729,
+                "RefreshTime": 1626789729,
+                "CreateTime": 1626789310,
+                "BestRecordTime": 12,
+                "LastRecordTime": 12,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30010703": {
+                "StageId": 30010703,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 4,
+                "PassTimesTotal": 4,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627672527,
+                "RefreshTime": 1627672527,
+                "CreateTime": 1627486895,
+                "BestRecordTime": 22,
+                "LastRecordTime": 25,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1051001,
+                    1031003,
+                    1041002
+                ]
+            },
+            "30010801": {
+                "StageId": 30010801,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 9,
+                "PassTimesTotal": 9,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626637439,
+                "RefreshTime": 1626637439,
+                "CreateTime": 1626635931,
+                "BestRecordTime": 18,
+                "LastRecordTime": 28,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30010802": {
+                "StageId": 30010802,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 3,
+                "PassTimesTotal": 3,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626641447,
+                "RefreshTime": 1626641447,
+                "CreateTime": 1626641320,
+                "BestRecordTime": 40,
+                "LastRecordTime": 40,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30010803": {
+                "StageId": 30010803,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 47,
+                "PassTimesTotal": 47,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627672278,
+                "RefreshTime": 1627672278,
+                "CreateTime": 1626657248,
+                "BestRecordTime": 17,
+                "LastRecordTime": 33,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ],
+                "LastCardIds": [
+                    1051001,
+                    1031003,
+                    1041002
+                ]
+            },
+            "30050101": {
+                "StageId": 30050101,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626634601,
+                "RefreshTime": 1626634601,
+                "CreateTime": 1626634641,
+                "BestRecordTime": 25,
+                "LastRecordTime": 25,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30050102": {
+                "StageId": 30050102,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 2,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627488029,
+                "RefreshTime": 1627488029,
+                "CreateTime": 1627488015,
+                "BestRecordTime": 18,
+                "LastRecordTime": 18,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30050103": {
+                "StageId": 30050103,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627672381,
+                "RefreshTime": 1627672381,
+                "CreateTime": 1627672423,
+                "BestRecordTime": 30,
+                "LastRecordTime": 30,
+                "BestCardIds": [
+                    1051001,
+                    1031003,
+                    1041002
+                ],
+                "LastCardIds": [
+                    1051001,
+                    1031003,
+                    1041002
+                ]
+            },
+            "30050201": {
+                "StageId": 30050201,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626634040,
+                "RefreshTime": 1626634040,
+                "CreateTime": 1626634080,
+                "BestRecordTime": 26,
+                "LastRecordTime": 26,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30060503": {
+                "StageId": 30060503,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626643625,
+                "RefreshTime": 1626643625,
+                "CreateTime": 1626643689,
+                "BestRecordTime": 50,
+                "LastRecordTime": 50,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30060802": {
+                "StageId": 30060802,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 2,
+                "PassTimesTotal": 2,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627487851,
+                "RefreshTime": 1627487851,
+                "CreateTime": 1626643399,
+                "BestRecordTime": 27,
+                "LastRecordTime": 55,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30060902": {
+                "StageId": 30060902,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626792938,
+                "RefreshTime": 1626792938,
+                "CreateTime": 1626793018,
+                "BestRecordTime": 66,
+                "LastRecordTime": 66,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "30061102": {
+                "StageId": 30061102,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626793209,
+                "RefreshTime": 1626793209,
+                "CreateTime": 1626793265,
+                "BestRecordTime": 41,
+                "LastRecordTime": 41,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "30061201": {
+                "StageId": 30061201,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627487715,
+                "RefreshTime": 1627487715,
+                "CreateTime": 1627487761,
+                "BestRecordTime": 33,
+                "LastRecordTime": 33,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30061301": {
+                "StageId": 30061301,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626643805,
+                "RefreshTime": 1626643805,
+                "CreateTime": 1626643854,
+                "BestRecordTime": 33,
+                "LastRecordTime": 33,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051001
+                ]
+            },
+            "30070101": {
+                "StageId": 30070101,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626804111,
+                "RefreshTime": 1626804111,
+                "CreateTime": 1626804149,
+                "BestRecordTime": 24,
+                "LastRecordTime": 24,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "30070102": {
+                "StageId": 30070102,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1626804380,
+                "RefreshTime": 1626804380,
+                "CreateTime": 1626804428,
+                "BestRecordTime": 34,
+                "LastRecordTime": 34,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1011002
+                ]
+            },
+            "30070103": {
+                "StageId": 30070103,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627381788,
+                "RefreshTime": 1627381788,
+                "CreateTime": 1627381849,
+                "BestRecordTime": 50,
+                "LastRecordTime": 50,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1041002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1041002
+                ]
+            },
+            "30070104": {
+                "StageId": 30070104,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627381874,
+                "RefreshTime": 1627381874,
+                "CreateTime": 1627381911,
+                "BestRecordTime": 22,
+                "LastRecordTime": 22,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1041002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1041002
+                ]
+            },
+            "30070105": {
+                "StageId": 30070105,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627381936,
+                "RefreshTime": 1627381936,
+                "CreateTime": 1627382005,
+                "BestRecordTime": 59,
+                "LastRecordTime": 59,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1041002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1041002
+                ]
+            },
+            "30070106": {
+                "StageId": 30070106,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627415961,
+                "RefreshTime": 1627415961,
+                "CreateTime": 1627416037,
+                "BestRecordTime": 60,
+                "LastRecordTime": 60,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1041002
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1041002
+                ]
+            },
+            "30070107": {
+                "StageId": 30070107,
+                "StarsMark": 0,
+                "Passed": true,
+                "PassTimesToday": 1,
+                "PassTimesTotal": 1,
+                "BuyCount": 0,
+                "Score": 0,
+                "LastPassTime": 1627490012,
+                "RefreshTime": 1627490012,
+                "CreateTime": 1627490111,
+                "BestRecordTime": 82,
+                "LastRecordTime": 82,
+                "BestCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ],
+                "LastCardIds": [
+                    1021001,
+                    1031003,
+                    1051003
+                ]
+            }
+        },
         "FubenBaseData": {
             "RefreshTime": 0,
             "SelectedCharId": 1021001,
-            "UrgentAlarmCount": 0,
+            "UrgentAlarmCount": 107,
             "WeeklyUrgentCount": 0,
             "DayUrgentCount": {}
         },
@@ -286,8 +4492,56 @@
         "StageDifficulties": []
     },
     "FubenMainLineData": {
-        "TreasureData": [],
-        "LastPassStage": {},
+        "TreasureData": [
+            1001002,
+            1001003,
+            1001004,
+            1002002,
+            1002003,
+            1101002,
+            1101003,
+            1101004,
+            1002004,
+            1003002,
+            1003003,
+            1102002,
+            1102003,
+            1102004,
+            1004002,
+            1004003,
+            1103002,
+            1103003,
+            1103004,
+            1005002,
+            1005003,
+            1005004,
+            1104002,
+            1104003,
+            1104004,
+            1006002,
+            1006003,
+            1105002,
+            1105003,
+            1105004,
+            1006004,
+            1003004,
+            1004004
+        ],
+        "LastPassStage": {
+            "1001": 10010101,
+            "1002": 10020104,
+            "1003": 10030304,
+            "1004": 10040102,
+            "1005": 10050304,
+            "1006": 10060104,
+            "1007": 10070102,
+            "1016": 10160103,
+            "1101": 11010106,
+            "1102": 11020106,
+            "1103": 11030106,
+            "1104": 11040106,
+            "1105": 11050106
+        },
         "MainChapterEventInfos": []
     },
     "FubenChapterExtraLoginData": {
@@ -299,7 +4553,20 @@
         "UrgentEventData": {}
     },
     "AutoFightRecords": [],
-    "TeamGroupData": {},
+    "TeamGroupData": {
+        "1": {
+            "TeamType": 1,
+            "TeamId": 1,
+            "CaptainPos": 1,
+            "FirstFightPos": 1,
+            "TeamData": {
+                "1": 1021001,
+                "2": 0,
+                "3": 0
+            },
+            "TeamName": ""
+        }
+    },
     "TeamPrefabData": {},
     "SignInfos": [],
     "AssignChapterRecord": [],

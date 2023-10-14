@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Handlers\SignInModule.cs~RF3f1e071.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MessagePack" Version="2.4.59" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
