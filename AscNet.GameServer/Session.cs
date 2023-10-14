@@ -159,7 +159,7 @@ namespace AscNet.GameServer
             c.Log(packet.Name);
         }
 
-        public void SendResponse<T>(T response, int clientSeq = 0)
+        public void SendResponse<T>(T response, int clientSeq = 0) where T : new()
         {
             Packet.Response packet = new()
             {
