@@ -10,5 +10,8 @@ namespace AscNet.SDKServer.Models
 
         [JsonProperty("password", NullValueHandling = NullValueHandling.Ignore)]
         public string Password { get; set; }
+
+        [JsonProperty("token", NullValueHandling = NullValueHandling.Ignore)]
+        public string Token { get; set; }
     }
 }
