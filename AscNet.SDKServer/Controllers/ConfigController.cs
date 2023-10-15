@@ -57,10 +57,71 @@ namespace AscNet.SDKServer.Controllers
                     EndTime = 0,
                     HtmlUrl = "/",
                     Id = "1",
-                    ModifyTime = 0,
+                    ModifyTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
                     Title = "NOTICE"
                 };
+
                 string serializedObject = JsonConvert.SerializeObject(notice);
+                SDKServer.log.Info(serializedObject);
+                return serializedObject;
+            });
+
+            app.MapGet("/prod/client/notice/config/com.kurogame.punishing.grayraven.en.pc/{version}/ScrollTextNotice.json", (HttpContext ctx) =>
+            {
+                ScrollTextNotice notice = new()
+                {
+                    Id = "1",
+                    ModifyTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
+                    BeginTime = 0,
+                    EndTime = 0,
+                    Content = "[ANNOUNCEMENT] There is no announcement.",
+                    ScrollInterval = 300,
+                    ScrollTimes = 15,
+                    ShowInFight = 1,
+                    ShowInPhotograph = 1
+                };
+
+                string serializedObject = JsonConvert.SerializeObject(notice);
+                SDKServer.log.Info(serializedObject);
+                return serializedObject;
+            });
+
+            app.MapGet("/prod/client/notice/config/com.kurogame.punishing.grayraven.en.pc/{version}/ScrollPicNotice.json", (HttpContext ctx) =>
+            {
+                ScrollPicNotice notice = new()
+                {
+                    Id = "1",
+                    ModifyTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
+                    Content = new ScrollPicNotice.NoticeContent[]
+                    {
+                        new ScrollPicNotice.NoticeContent()
+                        {
+                            Id = 0,
+                            PicAddr = "0",
+                            JumpType = "0",
+                            JumpAddr = "0",
+                            PicType = "0",
+                            Interval = 5,
+                            BeginTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
+                            EndTime = DateTimeOffset.Now.ToUnixTimeSeconds() + 3600 * 24,
+                            AppearanceCondition = Array.Empty<dynamic>(),
+                            AppearanceDay = Array.Empty<dynamic>(),
+                            AppearanceTime = Array.Empty<dynamic>(),
+                            DisappearanceCondition = Array.Empty<dynamic>(),
+                        }
+                    }
+                };
+
+                string serializedObject = JsonConvert.SerializeObject(notice);
+                SDKServer.log.Info(serializedObject);
+                return serializedObject;
+            });
+
+            app.MapGet("/prod/client/notice/config/com.kurogame.punishing.grayraven.en.pc/{version}/GameNotice.json", (HttpContext ctx) =>
+            {
+                List<GameNotice> notices = new();
+
+                string serializedObject = JsonConvert.SerializeObject(notices);
                 SDKServer.log.Info(serializedObject);
                 return serializedObject;
             });
@@ -80,6 +141,7 @@ namespace AscNet.SDKServer.Controllers
                     Port = Common.Common.config.GameServer.Port,
                     Token = token
                 };
+
                 string serializedObject = JsonConvert.SerializeObject(gate);
                 SDKServer.log.Info(serializedObject);
                 return serializedObject;

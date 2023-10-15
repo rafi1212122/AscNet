@@ -133,7 +133,7 @@ namespace AscNet.GameServer
             DisconnectProtocol();
         }
 
-        public void SendPush<T>(T push)
+        public void SendPush<T>(T push) where T : new()
         {
             Packet.Push packet = new()
             {
@@ -146,7 +146,7 @@ namespace AscNet.GameServer
                 Type = Packet.ContentType.Push,
                 Content = MessagePackSerializer.Serialize(packet)
             });
-            log.Info(packet.Name);
+            log.Info($"{packet.Name}{(Common.Common.config.VerboseLevel >= VerboseLevel.Debug ? (", " + JsonConvert.SerializeObject(push)) : "")}");
         }
 
         public void SendPush(string name, byte[] push)
@@ -162,7 +162,7 @@ namespace AscNet.GameServer
                 Type = Packet.ContentType.Push,
                 Content = MessagePackSerializer.Serialize(packet)
             });
-            log.Info(packet.Name);
+            log.Info($"{name}{(Common.Common.config.VerboseLevel >= VerboseLevel.Debug ? (", " + JsonConvert.SerializeObject(MessagePackSerializer.Typeless.Deserialize(push))) : "")}");
         }
 
         public void SendResponse<T>(T response, int clientSeq = 0) where T : new()
@@ -179,7 +179,7 @@ namespace AscNet.GameServer
                 Type = Packet.ContentType.Response,
                 Content = MessagePackSerializer.Serialize(packet)
             });
-            log.Info(packet.Name);
+            log.Info($"{packet.Name}{(Common.Common.config.VerboseLevel >= VerboseLevel.Debug ? (", " + JsonConvert.SerializeObject(response)) : "")}");
         }
 
         private void Send(Packet packet)
