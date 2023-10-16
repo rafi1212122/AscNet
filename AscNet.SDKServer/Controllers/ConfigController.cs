@@ -131,21 +131,6 @@ namespace AscNet.SDKServer.Controllers
                 SDKServer.log.Info("1");
                 return "1";
             });
-
-            app.MapGet("/api/Login/Login", ([FromQuery] int loginType, [FromQuery] int userId, [FromQuery] string token, [FromQuery] string clientIp) =>
-            {
-                LoginGate gate = new()
-                {
-                    Code = 0,
-                    Ip = Common.Common.config.GameServer.Host,
-                    Port = Common.Common.config.GameServer.Port,
-                    Token = token
-                };
-
-                string serializedObject = JsonConvert.SerializeObject(gate);
-                SDKServer.log.Info(serializedObject);
-                return serializedObject;
-            });
         }
     }
 }

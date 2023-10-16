@@ -229,7 +229,7 @@ namespace AscNet.Common.MsgPack
         public long Level { get; set; }
         public string Sign { get; set; }
         public long DisplayCharId { get; set; }
-        public Birthday Birthday { get; set; }
+        public Birthday? Birthday { get; set; }
         public long HonorLevel { get; set; }
         public string ServerId { get; set; }
         public long Likes { get; set; }
@@ -242,11 +242,11 @@ namespace AscNet.Common.MsgPack
         public long DailyReceiveGiftCount { get; set; }
         public long DailyActivenessRewardStatus { get; set; }
         public long WeeklyActivenessRewardStatus { get; set; }
-        public long[] Marks { get; set; }
-        public long[] GuideData { get; set; }
-        public long[] Communications { get; set; }
-        public long[] ShowCharacters { get; set; }
-        public object[] ShieldFuncList { get; set; }
+        public List<long> Marks { get; set; } = new();
+        public List<long> GuideData { get; set; } = new();
+        public List<long> Communications { get; set; } = new();
+        public List<long> ShowCharacters { get; set; } = new();
+        public List<dynamic> ShieldFuncList { get; set; } = new();
         public AppearanceSettingInfo AppearanceSettingInfo { get; set; }
         public long CreateTime { get; set; }
         public long LastLoginTime { get; set; }

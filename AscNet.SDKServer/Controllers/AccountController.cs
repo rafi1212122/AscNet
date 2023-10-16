@@ -107,6 +107,34 @@ namespace AscNet.SDKServer.Controllers
                     account
                 });
             });
+
+            app.MapGet("/api/Login/Login", ([FromQuery] int loginType, [FromQuery] int userId, [FromQuery] string token, [FromQuery] string clientIp) =>
+            {
+                Account? account = Account.FromToken(token);
+
+                if (account is null)
+                {
+                    return JsonConvert.SerializeObject(new
+                    {
+                        code = -1,
+                        msg = "Invalid credentials!"
+                    });
+                }
+
+                Player player = Player.FromId(account.Uid);
+
+                LoginGate gate = new()
+                {
+                    Code = 0,
+                    Ip = Common.Common.config.GameServer.Host,
+                    Port = Common.Common.config.GameServer.Port,
+                    Token = player.Token
+                };
+
+                string serializedObject = JsonConvert.SerializeObject(gate);
+                SDKServer.log.Info(serializedObject);
+                return serializedObject;
+            });
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using AscNet.Common.MsgPack;
+﻿using AscNet.Common.Database;
+using AscNet.Common.MsgPack;
 using MessagePack;
 using Newtonsoft.Json;
 
@@ -25,10 +26,22 @@ namespace AscNet.GameServer.Handlers
         [RequestPacketHandler("LoginRequest")]
         public static void LoginRequestHandler(Session session, Packet.Request packet)
         {
+            LoginRequest request = MessagePackSerializer.Deserialize<LoginRequest>(packet.Content);
+            Player? player = Player.FromToken(request.Token);
+
+            if (player is null)
+            {
+                session.SendResponse(new LoginResponse
+                {
+                    Code = 1007 // LoginInvalidLoginToken
+                }, packet.Id);
+                return;
+            }
+
             session.SendResponse(new LoginResponse
             {
                 Code = 0,
-                ReconnectToken = "eeeeeeeeeeeeeeh",
+                ReconnectToken = player.Token,
                 UtcOffset = 0,
                 UtcServerTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds()
             }, packet.Id);
@@ -39,12 +52,21 @@ namespace AscNet.GameServer.Handlers
         [RequestPacketHandler("ReconnectRequest")]
         public static void ReconnectRequestHandler(Session session, Packet.Request packet)
         {
+            ReconnectRequest request = MessagePackSerializer.Deserialize<ReconnectRequest>(packet.Content);
+            Player? player = Player.FromToken(request.Token);
+
+            if (player?.PlayerData.Id != request.PlayerId)
+            {
+                session.SendResponse(new ReconnectResponse()
+                {
+                    Code = 1029 // ReconnectInvalidToken
+                }, packet.Id);
+                return;
+            }
+
             session.SendResponse(new ReconnectResponse()
             {
-                Code = 0,
-                OfflineMessages = { },
-                ReconnectToken = "eeeeeeeeeeeeeeh",
-                RequestNo = 0
+                ReconnectToken = request.Token
             }, packet.Id);
         }
         
