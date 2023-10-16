@@ -38,6 +38,7 @@ namespace AscNet.GameServer.Handlers
                 return;
             }
 
+            session.player = player;
             session.SendResponse(new LoginResponse
             {
                 Code = 0,
@@ -64,6 +65,7 @@ namespace AscNet.GameServer.Handlers
                 return;
             }
 
+            session.player = player;
             session.SendResponse(new ReconnectResponse()
             {
                 ReconnectToken = request.Token

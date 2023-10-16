@@ -1,6 +1,7 @@
 ﻿using System.Buffers.Binary;
 using System.Net.Sockets;
 using AscNet.Common;
+using AscNet.Common.Database;
 using AscNet.Common.Util;
 using AscNet.Logging;
 using MessagePack;
@@ -13,6 +14,7 @@ namespace AscNet.GameServer
     {
         public readonly string id;
         public readonly TcpClient client;
+        public Player player = default!;
         public readonly Logger log;
         private long lastPacketTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
         private ushort packetNo = 0;
