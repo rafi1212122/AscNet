@@ -18,7 +18,6 @@ namespace AscNet
             PacketFactory.LoadPacketHandlers();
             Task.Run(Server.Instance.Start);
             SDKServer.SDKServer.Main(args);
-            Common.Common.DumpTables();
         }
     }
 }
