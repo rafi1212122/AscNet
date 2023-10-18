@@ -6,8 +6,8 @@ namespace AscNet.Common.Util
     public abstract class TableReader<TSelf, TScheme>
     {
         public List<TScheme> All { get; set; }
-        private readonly Logger c = new(typeof(TableReader<TSelf, TScheme>), nameof(TableReader<TSelf, TScheme>), LogLevel.DEBUG, LogLevel.DEBUG);
         protected abstract string FilePath { get; }
+        private readonly Logger c = new(typeof(TableReader<TSelf, TScheme>), nameof(TableReader<TSelf, TScheme>), LogLevel.DEBUG, LogLevel.DEBUG);
         private static TSelf _instance;
         
         public static TSelf Instance
@@ -26,7 +26,7 @@ namespace AscNet.Common.Util
             }
         }
         
-        protected abstract void Load();
+        public abstract void Load();
     }
 }
 

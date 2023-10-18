@@ -54,8 +54,8 @@ namespace AscNet.Common.MsgPack
     [MessagePackObject(true)]
     public partial class BaseEquipLoginData
     {
-        public object[] BaseEquipList { get; set; }
-        public object[] DressedList { get; set; }
+        public List<dynamic> BaseEquipList { get; set; } = new();
+        public List<dynamic> DressedList { get; set; } = new();
     }
 
 
@@ -75,8 +75,8 @@ namespace AscNet.Common.MsgPack
         public long InitQuality { get; set; }
         public long Star { get; set; }
         public long Grade { get; set; }
-        public SkillList[] SkillList { get; set; }
-        public object[] EnhanceSkillList { get; set; }
+        public List<SkillList> SkillList { get; set; } = new();
+        public List<dynamic> EnhanceSkillList { get; set; } = new();
         public long FashionId { get; set; }
         public long CreateTime { get; set; }
         public long TrustLv { get; set; }
@@ -109,9 +109,9 @@ namespace AscNet.Common.MsgPack
         public long Level { get; set; }
         public long Exp { get; set; }
         public long Breakthrough { get; set; }
-        public ResonanceInfo[] ResonanceInfo { get; set; }
-        public object[] UnconfirmedResonanceInfo { get; set; }
-        public object[] AwakeSlotList { get; set; }
+        public List<ResonanceInfo> ResonanceInfo { get; set; } = new();
+        public List<object> UnconfirmedResonanceInfo { get; set; } = new();
+        public List<object> AwakeSlotList { get; set; } = new();
         public bool IsLock { get; set; }
         public long CreateTime { get; set; }
         public bool IsRecycle { get; set; }
@@ -136,9 +136,9 @@ namespace AscNet.Common.MsgPack
     [MessagePackObject(true)]
     public partial class FubenLoginData
     {
-        public object[] TreasureData { get; set; }
-        public object[] LastPassStage { get; set; }
-        public object[] ChapterEventInfos { get; set; }
+        public List<object> TreasureData { get; set; } = new();
+        public List<object> LastPassStage { get; set; } = new();
+        public List<object> ChapterEventInfos { get; set; } = new();
     }
 
     [MessagePackObject(true)]
@@ -146,8 +146,8 @@ namespace AscNet.Common.MsgPack
     {
         public Dictionary<int, StageDatum> StageData { get; set; }
         public FubenBaseData FubenBaseData { get; set; }
-        public object[] UnlockHideStages { get; set; }
-        public object[] StageDifficulties { get; set; }
+        public List<object> UnlockHideStages { get; set; } = new();
+        public List<object> StageDifficulties { get; set; } = new();
     }
 
     [MessagePackObject(true)]
@@ -183,16 +183,16 @@ namespace AscNet.Common.MsgPack
         public long CreateTime { get; set; }
         public long BestRecordTime { get; set; }
         public long LastRecordTime { get; set; }
-        public long[] BestCardIds { get; set; }
-        public long[] LastCardIds { get; set; }
+        public List<long> BestCardIds { get; set; } = new();
+        public List<long> LastCardIds { get; set; } = new();
     }
 
     [MessagePackObject(true)]
     public partial class FubenMainLineData
     {
-        public long[] TreasureData { get; set; }
+        public List<long> TreasureData { get; set; } = new();
         public Dictionary<int, long> LastPassStage { get; set; }
-        public object[] MainChapterEventInfos { get; set; }
+        public List<dynamic> MainChapterEventInfos { get; set; } = new();
     }
 
     [MessagePackObject(true)]
@@ -277,7 +277,7 @@ namespace AscNet.Common.MsgPack
     public partial class SharePlatformConfigList
     {
         public long Id { get; set; }
-        public long[] SdkId { get; set; }
+        public List<long> SdkId { get; set; } = new();
     }
 
     [MessagePackObject(true)]
@@ -313,27 +313,27 @@ namespace AscNet.Common.MsgPack
     public partial class NotifyLogin
     {
         public PlayerData PlayerData { get; set; }
-        public TimeLimitCtrlConfigList[] TimeLimitCtrlConfigList { get; set; }
-        public SharePlatformConfigList[] SharePlatformConfigList { get; set; }
-        public ItemList[] ItemList { get; set; }
-        public Dictionary<int, ItemRecycleData[]> ItemRecycleDict { get; set; }
-        public LoginCharacterList[] CharacterList { get; set; }
-        public EquipList[] EquipList { get; set; }
-        public FashionList[] FashionList { get; set; }
-        public HeadPortraitList[] HeadPortraitList { get; set; }
+        public List<TimeLimitCtrlConfigList> TimeLimitCtrlConfigList { get; set; } = new();
+        public List<SharePlatformConfigList> SharePlatformConfigList { get; set; } = new();
+        public List<ItemList> ItemList { get; set; } = new();
+        public Dictionary<int, List<ItemRecycleData>> ItemRecycleDict { get; set; } = new();
+        public List<LoginCharacterList> CharacterList { get; set; } = new();
+        public List<EquipList> EquipList { get; set; } = new();
+        public List<FashionList> FashionList { get; set; } = new();
+        public List<HeadPortraitList> HeadPortraitList { get; set; } = new();
         public BaseEquipLoginData BaseEquipLoginData { get; set; }
         public FubenData FubenData { get; set; }
         public FubenMainLineData FubenMainLineData { get; set; }
         public FubenLoginData FubenChapterExtraLoginData { get; set; }
         public FubenUrgentEventData FubenUrgentEventData { get; set; }
-        public object[] AutoFightRecords { get; set; }
+        public List<dynamic> AutoFightRecords { get; set; } = new();
         public Dictionary<int, TeamGroupDatum> TeamGroupData { get; set; }
-        public object TeamPrefabData { get; set; }
-        public SignInfo[] SignInfos { get; set; }
-        public object[] AssignChapterRecord { get; set; }
-        public object[] WeaponFashionList { get; set; }
-        public object[] PartnerList { get; set; }
-        public object[] ShieldedProtocolList { get; set; }
+        public dynamic TeamPrefabData { get; set; }
+        public List<SignInfo> SignInfos { get; set; } = new();
+        public List<dynamic> AssignChapterRecord { get; set; } = new();
+        public List<dynamic> WeaponFashionList { get; set; } = new();
+        public List<dynamic> PartnerList { get; set; } = new();
+        public List<dynamic> ShieldedProtocolList { get; set; } = new();
         public object LimitedLoginData { get; set; }
         public long UseBackgroundId { get; set; }
         public FubenLoginData FubenShortStoryLoginData { get; set; }
@@ -2559,7 +2559,7 @@ namespace AscNet.Common.MsgPack
             public List<NotifyCharacterDataListCharacterDataSkill> SkillList { get; set; } = new();
             public List<dynamic> EnhanceSkillList { get; set; } = new();
             public UInt32 FashionId { get; set; }
-            public UInt32 CreateTime { get; set; }
+            public Int64 CreateTime { get; set; }
             public Int32 TrustLv { get; set; }
             public Int32 TrustExp { get; set; }
             public Int32 Ability { get; set; }
