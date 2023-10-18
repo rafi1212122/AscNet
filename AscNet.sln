@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AscNet.GameServer", "AscNet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AscNet.Test", "AscNet.Test\AscNet.Test.csproj", "{DD4C8BB1-2422-4AA4-A12C-9B3A25873887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AscNet.Logging", "AscNet.Logging\AscNet.Logging.csproj", "{1DFF24B2-A3E1-4E5B-A1E4-3FE7022828EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AscNet.Logging", "AscNet.Logging\AscNet.Logging.csproj", "{1DFF24B2-A3E1-4E5B-A1E4-3FE7022828EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AscNet.Table", "AscNet.Table\AscNet.Table.csproj", "{7B6F3E2A-69D6-429B-9D5C-52339093663C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1DFF24B2-A3E1-4E5B-A1E4-3FE7022828EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DFF24B2-A3E1-4E5B-A1E4-3FE7022828EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DFF24B2-A3E1-4E5B-A1E4-3FE7022828EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6F3E2A-69D6-429B-9D5C-52339093663C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6F3E2A-69D6-429B-9D5C-52339093663C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6F3E2A-69D6-429B-9D5C-52339093663C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6F3E2A-69D6-429B-9D5C-52339093663C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

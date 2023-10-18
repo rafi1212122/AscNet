@@ -1,0 +1,161 @@
+;`_\π0∑˝ánb%∫∑I¡Œ«` ∞>+hQ8*HNäÌ¡ŸáπéAN+¢:Äò∏'ßYáùU…≥ÕmYﬂK··.´¯Ç≈«ñ$í·›-Ïπ/ã•ÔÙúØ–§„ouA&Î¥y1ŒÕ≥@¿K2qÿuä£)≤IY2ÛSƒ°MId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory178.png																								
+2	2		401							1	208																							
+3	3		301			DialogEnable						You are standing outside an antique-style shop with "Lam's Clothing" written on the banner in calligraphy.																						
+4	4		201							1	500445																							
+5	5		301							1	Pulao	It's a clothing store. Why did you bring me here, Commandant?	1																					
+6	6		302								If they are scared of your uniform...	7																						
+7	7		302								Then you must hide your identity.	8																						
+8	8		301								Pulao	Do you want me to go undercover? But if I go to them in disguise, even if they get close with me, they aren't close with the Construct Pulao.	1																					
+9	9		302								First, you must understand each other.	10																						
+10	10		302								And one of you must take the initiative.	11																						
+11	11		204							1	1																							
+12	12		301								Pulao	...I see. That's why you know how to respond to "Have you eaten yet". I shall take the first step.	1																					
+13	13		202							1					1																			
+14	14		301									Slightly anxious, the girl steps forward and knocks on the door.																						
+15	15		201							1	500462																							
+16	16		301							1	Shop Owner	Coming! Welcome, what would you like today? Ready-to-wear, or custom-made... What, a Pulao Crew?!	1																					
+17	17		301									The shop owner panics a little seeing the unexpected visitors, but soon calms down and starts to observe the two of you.																						
+18	18		301								Shop Owner	Madam Pulao, and this honored guest... What can I do for you? Would you like to buy something... or investigate a case?	1																					
+19	19		302								We're here to buy some clothes.	20																						
+20	20		301								Shop Owner	Phew... Easy! No problem!	1																					
+21	21		301								Shop Owner	How terribly sensitive of me. I have overacted.	1																					
+22	22		203							1	0.25	450																						
+23	23		201							2	500445		-450																					
+24	24		301							1	Pulao	Is there anything I should investigate?	2																					
+25	25		301								Shop Owner	C'mon, my shop is perfectly clean. You can go around and ask, everybody on the street knows me...	1																					
+26	3000		204							2	5																							
+27	26		301								Pulao	Let's go somewhere else, Commandant.	2																					
+28	27		301								Shop Owner	Hey, don't go! Please, come inside.	1																					
+29	28		204							2	1																							
+30	29		301								Pulao	Speaking of which, Commandant, your outfit also stands out a lot. Why don't you change into something else too?	2																					
+31	30		301									As you walk into the store with Pulao, your vision is overwhelmed with all sorts of colors. You almost feel dazzled, considering that your closet only consists of uniforms.																						
+32	31		301								Pulao	Which one suits me better? What do you think, Commandant?	2																					
+33	32		302								The black one.	33	The white one.	33	The green one.	33																		
+34	33		204							2	8																							
+35	34		301								Pulao	Um...	2																					
+36	35		302								What about the purple one? I think it will fit.	36																						
+37	36		204							2	1																							
+38	37		301								Pulao	Hmm, let me try...	2																					
+39	38		301								Shop Owner	Ahem, excuse me. That dress surely looks gorgeous, but it's still a male dress...	1																					
+40	39		302								!!!!	40																						
+41	40		301								Shop Owner	Let me take a look...	1																					
+42	41		301								Shop Owner	What about this one, Madam Pulao?	1																					
+43	42		301									The owner takes a light green dress from the clothes hanger and hands it to Pulao.																						
+44	43		204							2	2																							
+45	44		301								Pulao	It looks great. Let me try it on!	2																					
+46	45		202							1	2				1																			
+47	46		301									Pulao dashes into the fitting room.																						
+48	47		201							1	500462																							
+49	48		301							1	Shop Owner	And what would you like? Had your eyes on anything?	1																					
+50	49		302								I'll...	50																						
+51	50		301								Shop Owner	I can recommend for you too if you need.	1																					
+52	51		302								...I'll leave it all to you.	52																						
+53	52		301				AniZhuanchangBegin				Shop Owner	Roger that. Based on your size, I think this one will look great...	1																					
+54	53		202							1					1																			
+55	54		301									Kowloong attire is more complicated than you think. You spend a long time in the fitting room wresting with the dress until you finally manage to squeeze yourself into it. When you step out, the owner is just tying the last red ribbon on Pulao's hair.																						
+56	55		201							1	500462		450																					
+57	56		201							2	500446		-450																					
+58	57		301			AniZhuanchangEnd				1	Shop Owner	Fantastic. This dress goes the best with this hair style.	1																					
+59	58		301								Shop Owner	Hey, you look awesome too!	1																					
+60	59		301								Pulao	Oh, Commandant, you have finished. What do you think of my dress?	2																					
+61	60		302								You look great.	61	I still think mine's...	63																				
+62	61		204							2	2																							
+63	62	64	301								Pulao	Yeah, I love it too.	2																					
+64	63		301									The owner gives you a death stare before you can finish the sentence.																						
+65	64		301								Pulao	Yours also looks very nice. You are better at picking your own dress, Commandant.	2																					
+66	65		301								Shop Owner	Since you both like your dresses, 230 Grubs please.	1																					
+67	66		202							1	2				1																			
+68	67		301									You take out your wallet, only to find Black Cards inside.																						
+69	68		301									But...																						
+70	69		301									There is no Grub inside.																						
+71	70		302								Take out a few Black Cards.	71																						
+72	71		201							1	500462																							
+73	72		301								Shop Owner	Babylonia currency? Unfortunately, we don't use it here.	1																					
+74	73		301									You saw it coming but cannot do anything. Finally, the girl's crisp voice helps you out.																						
+75	74		203							1	0.25	450																						
+76	75		201							2	500446		-450																					
+77	76		301							1	Pulao	Commandant, have you forgotten? You left the Grub bag with me because you said you weren't familiar with Kowloong money.	2																					
+78	77		301									The girl takes out a panda bag and picks Grubs of different sizes from it.																						
+79	78		301								Pulao	27, 28, 29, 30... Alright, I think that's the right amount.	2																					
+80	79		301								Shop Owner	Madam, you gave me 17 Grubs more. Here's your change.	1																					
+81	80		204							2	12																							
+82	81		301								Pulao	Ahem, I knew. I just want to test your integrity.	2																					
+83	82		301								Pulao	Let's go, Commandant.	2																					
+84	83		202							1	2				1																			
+85	84		301									Pulao puts away the Grubs and rushes out. You thank the owner and are also about to leave.																						
+86	85		201							1	500462		450																					
+87	86		201							2	500446		-450																					
+88	87		301							1	Shop Owner	Wait a sec.	1																					
+89	88		301								Pulao	What is it? Did you also get the number wrong?	2																					
+90	89		301								Shop Owner	No, but this guest has left something behind.	1																					
+91	90		301									It's a silver badge with the symbol of F.O.S. on it.																						
+92	91		301								Shop Owner	I found it in the fitting room. You probably dropped it while changing.	1																					
+93	92		302								Thank you.	93																						
+94	93		301								Shop Owner	No problem. People often make this kind of mistake, so I always pay extra attention. Since you take this badge with you, it must be important. Don't lose it again.	1																					
+95	94		301								Shop Owner	Oh, and... There are people who exchange Grubs for Babylonia money in the West District. Don't make the kid pay for you next time.	1																					
+96	95		204							2	11																							
+97	96		301								Pulao	Oops... It's okay, Commandant! I'm not a kid anymore.	2																					
+98	97		301				AniZhuanchangBegin				Pulao	Wait for me, Commandant!	2																					
+99	98		202							1	2				1																			
+100	99		101							Assets/Product/Texture/Image/BgStory/Bgstory179.png																								
+101	100		301			AniZhuanchangEnd						After leaving the clothing store, you get enough Grubs at the currency exchange, but Pulao refuses to take the money for the dress.																						
+102	101		301									You only proposed to change Pulao's outfit so it does not look too eye-catching. But now she is hopping around like an uncaged rabbit, catching people's attention in another way.																						
+103	102		301								Pedestrian	Hey, watch out, girl! Don't fall down. And you, take care of her!																						
+104	103		301									Unable and unwilling to restrict Pulao's movement, you take the blame. Pulao notices it and quickly changes her way of walking, but she is not slowing down at all.																						
+105	104		301									You suddenly see a crowd in front, breaking the peace on the Nighter with their loud shouting and screaming.																						
+106	105		301								Pedestrian	Hit! Hit! Hit! Ouch...																						
+107	106		201							1	500446	4																						
+108	107		301							1	Pulao	Hit...? Wait, don't tell me they are gambling! That's against the law!	1																					
+109	108		202							1					1																			
+110	109		301			RImgBg1Shake						Even without the uniform, Pulao still remembers her duty. She quickly rushes forward, pushing the crowd aside.																						
+111	110		301								Pedestrian	Hey, stop pushing! Where does this girl come from? Ouch, you've got a lot of strength.																						
+112	111		301									You keep apologizing to the people pushed aside and follow Pulao to the center of the crowd. All you see are a shelf full of plush toys, snacks and masks, a ceramic bottle that is narrow at the top and wide at the bottom, and a few arrows.																						
+113	112		201							1	500446	11																						
+114	113		301							1	Pulao	Um... I got it wrong...	1																					
+115	114		301									Pulao looks embarrassed.																						
+116	115		204							1																								
+117	116		203							1	0.25	-450																						
+118	117		201							2	500460		450																					
+119	118		301							1	Stall Owner	Are you also interested in shooting bottle? Do you want a game?	2																					
+120	119		301								Pulao	Ahem, yes. I am. How do I play?	1																					
+121	120		301								Stall Owner	Easy. 10 arrows for 5 Grubs. If you throw it into the wine bottle, you get a prize. I can give two extra arrows for cute ladies like you. Do you want to play?	2																					
+122	121		204							1	2																							
+123	122		301								Pulao	Get me one.	1																					
+124	123		301								Stall Owner	Gotcha. Thank you!	2																					
+125	124		202							1	2				1																			
+126	125		301									The arrow is about 30 cm long, but the bottle is only 15 cm tall with a coin-sized opening. To throw the arrow in, one must have great control and calculating power. It may be difficult for humans, but shouldn't be a problem for a Construct‚Äî																						
+127	126		401							2	737																							
+128	127		301			RImgBg1Shake						Bang!																						
+129	128		301									You hear the bottle explode and see an arrow pinned into the ground, with only three-quarters of it remaining outside. The bottle only has a few broken pieces left. Pulao is still in a throwing pose.																						
+130	129		201							1	500446	11																						
+131	130		301							1	Pulao	I was already controlling my force...	1																					
+132	131		301									The whole crowd has been muted, making Pulao's mumbling more audible.																						
+133	132		301								Pedestrian 1	Is that... a hit?																						
+134	133		301								Pedestrian 2	Of course it is. I saw the arrow go in and out.																						
+135	134		201							1	500460																							
+136	135		301							1	Stall Owner	...Excuse me, Ma'am, Can I just give the Grubs back to you?	1																					
+137	136		301								Pedestrian 1	That's cheating. You didn't specify how she could throw.																						
+138	137		301								Pedestrian 2	Yeah, girl! We're on your side! We'll tell the Pulao Crew if he cheats!																						
+139	138		201							1	500446	12																						
+140	139		301							1	Pulao	I... I'm done. Can you throw the rest of the arrows for me?	1																					
+141	140		201							1	500460																							
+142	141		301							1	Stall Owner	Please, show some mercy.	1																					
+143	142		202							1					1																			
+144	143		301									The owner is almost crying. You pick the arrow from Pulao's hand and start to estimate the throwing angle.																						
+145	144		301				AniZhuanchangBegin					This is the correct angle. The arrow will surely go in! You turn your wrist and hurl the arrow‚Äî																						
+146	145		401							1	205																							
+147	146		301			AniZhuanchangEnd						After some time, you have finished playing.																						
+148	147		201							1	500460																							
+149	148		301							1	Stall Owner	Huh? Are you sure you don't want to play another round? You could have nailed it... Are you really going?	1																					
+150	149		301								Stall Owner	What a pity...	1																					
+151	150		301								Stall Owner	Here's your mask, young lady. Come back next time!	1																					
+152	151		202							1					1																			
+153	152		301									You hear the owner's voice. Without turning back, you can imagine his happy face.																						
+154	153		201							1	500446																							
+155	154		301							1	Pulao	Never thought that you spent 50 Grubs but didn't hit it... Oh, but the last one was so close.	1																					
+156	155		301									Pulao makes a gap with her thumb and index finger, then moves her fingers even closer.																						
+157	156		301								Pulao	It was this close.	1																					
+158	157		302								If only that was a gun...	158	Tsk, I got carried away again.	159																				
+159	158		301		1		AniZhuanchangBegin				Pulao	I remember there is a shooting game stall not far away. Would you like to give it a try?																						
+160	159		301		1		AniZhuanchangBegin				Pulao	Hehe, I never know you can be this competitive. I would never see this side of you if not for today.																						

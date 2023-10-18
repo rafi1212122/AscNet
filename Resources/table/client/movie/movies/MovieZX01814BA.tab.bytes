@@ -1,0 +1,82 @@
+aNb¢RÜC›'=°«‡’‡"—ˆeäW„,>Xw
+Ô Xâé¯B¹È„p;_b…éÃ[N†4ƒ-²‘zV¦lï,¨—O@¦VSŸš7CWþß{ª=Æ˜Ç¨7‚oŸ I'Q‡+w¢âªê¥¢áÛun¼8x7˜øT<^‰+¨ìId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory11.jpg																								
+2	2		401							1	202																							
+3	3		201							1	500298																							
+4	4		301			DialogEnable				1	Troy	Looks like the battle here was especially brutal, even the foundation is deformed.	1																					
+5	5		301									After confirming that there are no signs of life up ahead, Troy puts down his scope and walks out of the corner of the ruins.																						
+6	6		203							1	0.25	-400																						
+7	7		201							2	500273		400																					
+8	8		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+9	9		301							1	Troy	Wanshi, everything checks out on my side. I'm going to head down the tilted foundation and investigate.	1																					
+10	10		301								Wanshi	Alright... I've positioned myself in a vantage point nearby.	2																					
+11	11		301								Troy	Wow, that was fast.	1																					
+12	12		301								Wanshi	That just means I can kick up my feet sooner.	2																					
+13	13		301									Troy checks Wanshi's coordinates on his panel, then looks up to see a sniper rifle nestled within a hole in the wall above. Wanshi leans up against the wall and yawns.																						
+14	14		301								Troy	You've even set up your weapon. NOW I can count on you...	1																					
+15	15		301									Troy leaps forward and arrives at a cluster of buildings under the deformed foundation.																						
+16	16		301								Troy	But you noticed it too, didn't you? The marker for the file we've been looking for is flashing in the ruins.	1																					
+17	17		301								Troy	We'll finish our mission once I collect it.	1																					
+18	18		301								Wanshi	Copy that.	2																					
+19	19		301								Troy	Let me check the scan... Alright, I should be able to enter from here.	1																					
+20	20		202							1	2				1																			
+21	21		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+22	22		301									Two collapsed stone slabs on the left and right support each other, forming a space just big enough for one person to enter and exit. Troy kneels down under the stone slabs and steps into the dark ruins in front of him.																						
+23	23		301									However, just as Troy wants to move on, he comes into contact with something hard.																						
+24	24		201							1	500298																							
+25	25		301							1	Troy	Huh? My panel isn't showing anything on the display.	1																					
+26	26		401							1	203																							
+27	27		301								???	Scusa, outsiders are not permitted to enter.																						
+28	28		301			PanelActor1Shake				1	Troy	Who's there?!	1																					
+29	29		202							1	2				1																			
+30	30		201							1	500273																							
+31	31		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+32	32		301							1	Wanshi	Troy, get out of there!	1																					
+33	33		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+34	34		202							1					1																			
+35	35		401							2	1503																							
+36	36		301			RImgBg1Shake	AniZhuanchangBegin					A strong shock interrupts Troy's conversation with Wanshi. The building ruins that Troy entered suddenly shake violently.																						
+37	37		101							Assets/Product/Texture/Image/BgStory/Bgstory311.png																								
+38	38		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	2																							
+39	39		301			AniZhuanchangEnd						Rubble and steel bars collapse for the second time. Troy and debris fly out of the collapsed ruins and hit the opposite building, stirring up a cloud of smoke and dust.																						
+40	40		201							1	500288																							
+41	41		401							2	1509																							
+42	42		301							1		A dark figure exits the collapsed ruins. The mechanical grinding of machine parts can be heard coming from his torso.	1																					
+43	43		301									Wanshi's vision module can only detect an intricate machine and a head tightly bandaged as if out of punishment or atonement.																						
+44	44		301									But Wanshi and Troy's panels pick up nothing on the scan. The Babylonian equipment is useless in identifying the figure.																						
+45	45		301									No Corrupted response. No Construct response. Not ever a human response. The flashing lights on their scanners indicate that the equipment is operating normally.																						
+46	46		301									The position where the figure stands is devoured by thick darkness, even light cannot escape. The moonlight and remaining light within the ruins does not reflect any color.																						
+47	47		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab																							
+48	48		201							1	500298																							
+49	49		301							1	Troy	(Clears throat) This is the first time... I've seen someone this strange.	1																					
+50	50		203							1	0.25	-400																						
+51	51		201							2	500273		400																					
+52	52		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+53	53		301							1	Wanshi	Troy... Troy...	2																					
+54	54		301								Troy	Wanshi... I'm okay. That thing... has what we need.	1																					
+55	55		301									The dark figure inserts a chip into its chest, causing the mission icon to flash on their display panels.																						
+56	56		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+57	57		202							1	2				1																			
+58	58		201							1	500288																							
+59	59		301							1	???	Seems like we have our eyes on the same file.	1																					
+60	60		301								???	Unfortunately, I cannot let you have it. I went through tremendous effort to unlock Gestalt's encrypted lock.	1																					
+61	61		203							1	0.25	400																						
+62	62		201							2	500298		-400																					
+63	63		301							1	Troy	Who... are you?	2																					
+64	64		301								Gear?	Just an insignificant "gear." My job is to ensure that all operations run smoothly.	1																					
+65	65		401							2	1507																							
+66	66		301									The dark figure replies and walks toward Troy who fell in the ruins. The gravel at its feet vibrates with each step like a pounding drum.																						
+67	67		202							1	2				1																			
+68	68		201							1	500273	4																						
+69	69		301							1	Wanshi	Step away from him.	1																					
+70	70		202							1					1																			
+71	71		401							2	10001004																							
+72	72		301									Wanshi quickly rappels down as he empties his clip. Silver lights rain down on the shadow, only to be deflected in the air by blue lights.																						
+73	73		201							1	500288																							
+74	74		301							1	Gear?	Is that a threat?	1																					
+75	75		301								Gear?	It seems that you can't simply die without pain.	1																					
+76	76		202							1					1																			
+77	77		201							1	500273	4																						
+78	78		301							1	Wanshi	Ngh... Troy, hold on.	1																					
+79	79		201							1	500288																							
+80	80		301		1		AniZhuanchangBegin			1	Gear?	Outsiders must be purged.	1																					

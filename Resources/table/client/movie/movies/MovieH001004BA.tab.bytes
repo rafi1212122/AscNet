@@ -1,0 +1,318 @@
+WåfÇ=N»È(ç„£@õ†õ–å·ºT“ßõó!.†?˛aƒ;vH<·Zò◊$m
+∏uÅ◊È˙z Å>ŒyòÆÃàNÎï
+˙_ò'>C8Æ÷Qkπ9ÊÈﬁ@πFoÁENÄSÌE≥Aræ§Ï»j∫‘È+(™,i"ÏId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		102							Nameless Island	Day 3	Assets/Product/Texture/Atlas/CommonLogo/BgLogo1.png																						
+2	2		502							ThemeEnable																								
+3	3		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory305.png																								
+4	4		401							1	45																							
+5	5		201							1	1031001		-400																					
+6	6		201							2	500026		400																					
+7	7		301			DialogEnable				1	Liv	I've detected someone... or something with immense Punishing Virus concentration 1.3km south of here!	1																					
+8	8		301								Liv	This level of concentration... It can't be a normal Corrupted...	1																					
+9	9		301								Lee	Let's go check it out.	2																					
+10	10		301									The duo rushes toward the moving target as fast as they can, but they can only barely see the figure from behind.																						
+11	11		301								Liv	That's...	1																					
+12	12		301								Lee	Roland.	2																					
+13	13		204							2	10																							
+14	14		301								Lee	Seems like my hunch was correct. Everything always leads back to them.	2																					
+15	15		204							2																								
+16	16		301								Lee	But Lucia and the commandant are our top priorities right now. Any readings yet?	2																					
+17	17		301								Liv	Yes. The commandant's signal is weak, but it's enough to get a reading on the coordinates.	1																					
+18	18		301									Liv hands her terminal to Lee.																						
+19	19		301								Lee	If this is where they are...	2																					
+20	20		301								Lee	I can calculate our route. We'll have to take a slight detour, but at least we'll be fairly safe.	2																					
+21	21		301								Lee	Let's go save the commandant.	2																					
+22	22		301				AniZhuanchangBegin				Liv	Roger!	1																					
+23	23		202							1	2				1																			
+24	24		101							Assets/Product/Texture/Image/BgStory/Bgstory186.png																								
+25	25		301			AniZhuanchangEnd						Today marks the third day stuck on this island.																						
+26	26		301									Surrounded by "attendants," you return to the "palace" and watch a meaningless performance. During which, you are forced to wear the prince's musty costume.																						
+27	27		301									You barely manage make it through the unpalatable "banquet" and flee the "palace."																						
+28	28		301									In order to find Lucia after "splitting her tail into legs," you have been wandering the beach since last night. Since this behavior does not contradict the prince in the story, the surveillance around you is much more relaxed.																						
+29	29		301									During this rare moment of free time while looking for Lucia, you take the opportunity to debug the terminal and repeatedly try to send signals to Lee and Liv.																						
+30	30		301									Soon after, the first ray of dawn brings an end to the fleeting summer night.																						
+31	31		101							Assets/Product/Texture/Image/BgStory/Bgstory210.png																								
+32	32		301									The breaking sun pierces the clouds and reflects silver light on the sea.																						
+33	33		301									In your peripheral vision, you see a blue figure slowly emerge.																						
+34	34		302								Lucia!	35	(Run toward her)	36																				
+35	35		301									Hearing you call out to her, she quickly comes over.																						
+36	36		201							1	500347																							
+37	37		301							1		Seeing Lucia again, she is as silent as the mermaid princess in the story.	1																					
+38	38		302								What's wrong?	39																						
+39	39		204							1	1																							
+40	40		301									Lucia forces a smile and shakes her head.																						
+41	41		302								You can't speak...?	42																						
+42	42		301									She nods, then looks at you inquisitively.																						
+43	43		302								You want to know if I'm okay?	44																						
+44	44		301									Lucia nods again.																						
+45	45		302								There have been a few bumps along the way, but I can still handle myself.																							
+46	46		201							1	500354																							
+47	47		301							1	Attendant	Your Highness!	1																					
+48	48		301									Before you have time to say anything more to Lucia, the attendant appears at an inopportune time.																						
+49	49		301								Attendant	Ah, what a beautiful lady! Does thou wish to take her back to the palace, Your Highness?	1																					
+50	50		301									It reads its lines in an exaggerated tone.																						
+51	51		201							1	500347																							
+52	52		301				DialogDisable					You return an inquisitive look at Lucia, but she shakes her head.																						
+53	53		302								...Now's not the time to fight?	54																						
+54	54		302								Then I guess let's just follow the attendant back.	55																						
+55	55		301			DialogEnable						She quietly follows you as the attendant leads you back to the palace.																						
+56	56		301									You quickly realize something is wrong with Lucia.																						
+57	57		301									Although Lucia has a high tolerance for pain, whenever the pain exceeds a certain threshold, she has a habit of gripping the handle of her blade more tightly than usual.																						
+58	58		301									Had it not been for your time fighting as comrades on the battlefield, you would have missed such a small detail.																						
+59	59		302								(Are you hurt?)	60	...Is it the tips of your feet?	60																				
+60	60		204							1	2																							
+61	61		301									This time, she doesn't nod. She just grimaces.																						
+62	62		301									If the situation is consistent with the story, Lucia must feel like she is "stepping on the blade of a knife."																						
+63	63		302								I can carry you on my back.	64																						
+64	64		204							1																								
+65	65		301				DialogDisable					She looks at you with a worried expression and shakes her head. Seems like she wants you to conserve your stamina for this situation ahead.																						
+66	66		302								If you need to, deactivate your pain module.	67																						
+67	67		302								We have a strong link as it is.	68																						
+68	68		302								No need to worry about M.I.N.D. deviation.	69																						
+69	69		301			DialogEnable						You and Lucia had a similar conversation long ago.																						
+70	70		301									Back then, Lucia deactivated her pain module to maintain her performance in the following battle.																						
+71	71		301									She still seems to be safe and sound, but no minor injury would make her act the way she is now.																						
+72	72		301									Lucia hesitates for a moment, then nods with a serious expression. She seems to understand your worries and is ready to face the potential battle ahead.																						
+73	73		302								Why did the island become like this?	74																						
+74	74		301									Lucia points below the ocean surface.																						
+75	75		302								So there's an area underwater as well...	76																						
+76	76		301				DialogDisable					She nods, then gestures the number "1".																						
+77	77		302								That's where the mastermind is?	78																						
+78	78		302								Or should I say‚Äî	79																						
+79	79		302								The "Witch of the Sea"?	80																						
+80	80		301			DialogEnable						Lucia nods.																						
+81	81		301									No matter what sort of method the "Witch of the Sea" used to prevent Lucia from speaking, it was all meaningless.																						
+82	82		301				DialogDisable					Even though you both are forced to play the tragic role of the prince and the mermaid princess, you two had already grown close over many years. Both of you can share a conversation at a glance.																						
+83	83		302								(Based on your interaction with the "Witch of the Sea"...)	84																						
+84	84		302								(Will defeating her get us out of this nightmare?)	85																						
+85	85		301			DialogEnable						As you whisper to Lucia, she turns her back to the sea, then gestures at you with a pulling motion.																						
+86	86		302								You want to pull her out of hiding?	87																						
+87	87		301									She nods firmly.																						
+88	88		302								We need a plan though.	89																						
+89	89		301									Lucia points to herself.																						
+90	90		302								Leave it to you?	91																						
+91	91		301									She nods again.																						
+92	92		302								You aren't going to do anything crazy, are you?																							
+93	93		204							1	2																							
+94	94		301				AniZhuanchangBegin					Lucia smiles bitterly.																						
+95	95		202							1					1																			
+96	96		101							Assets/Product/Texture/Image/BgStory/Bgstory121.png																								
+97	97		301			AniZhuanchangEnd						After that, you both follow the "Immersive Xperience" according to the story without any issues.																						
+98	98		201							1	500357																							
+99	99		301							1	Anna	...Should everything go according to plan, tomorrow shall be the day you and I be joined in matrimony.	1																					
+100	100		302								My prince, I can't wait to spend the rest of my life with you.	101	...	101																				
+101	101		301									During this time, your cooperation has not caused any conflict with the Mini Bots.																						
+102	102		301									However, they now begin to rush through the story as if having fulfilled some unknown parameters for continuing the story.																						
+103	103		301								Anna	Ever since the day that fate brought us together, I have given you my heart, Prince „Äêkuroname„Äë.	1																					
+104	104		301									The Mini Bot who calls itself Anna recites its lines quietly.																						
+105	105		301									The flashy ornaments hanging from its frame also look like clusters of pale hyacinths with its peaceful tone and temperament.																						
+106	106		301								Anna	I recommend you go to bed early in preparation for tomorrow's ceremony.	1																					
+107	107		301									It curtsies gracefully.																						
+108	108		301								Anna	Well then... Prince „Äêkuroname„Äë, please excuse me.	1																					
+109	109		302								Understood.	110																						
+110	110		201							1	500347																							
+111	111		301							1		After it turns and leaves, you look back at Lucia sitting at the corner of the dining table.																						
+112	112		301									Holding a fork and knife, she casts a worried look at you.	1																					
+113	113		301									These days, the food provided by the Mini Bots had all been moldy and rotten. Aside from the purified water, you have hardly had anything to fill your stomach.																						
+114	114		301									But Lucia's situation is far more dangerous than this.																						
+115	115		301									If she continues on like this, she will "turn into seafoam" by the end of the night.																						
+116	116		301									If you express your worries to her, Lucia will only make you wait.																						
+117	117		301				AniZhuanchangBegin					The only torturous moment from the story you can avoid is the mermaid princess's dance during the banquet dinner.																						
+118	118		504							0.7																								
+119	119		201							1	500354																							
+120	120		301			AniZhuanchangEnd				1	Attendant	Since you cannot speak, why don't you dance for the prince?	1																					
+121	121		302								That won't be necessary.	122																						
+122	122		301								Attendant	Only then can the prince appreciate you and call you to his side.	1																					
+123	123		302								She can stay by my side without doing something like that.	124	I don't need someone to dance for me if they are in pain.	124																				
+124	124		201							1	500347	1																						
+125	125		301							1	Lucia	...	1																					
+126	126		201							1	500357																							
+127	127		301							1	Anna	We needn't obligate the maiden. Should you need someone to tie the bow on tonight's banquet, might I sing you a song, Your Highness?	1																					
+128	128		302								Thank you.	129	...	129																				
+129	129		301				AniZhuanchangBegin					The attendant becomes quiet. Following that, the banquet scene changes to Anna, the princess from a neighboring country, singing a song.																						
+130	130		504							0																								
+131	131		201							1	500354																							
+132	132		301			AniZhuanchangEnd				1	Attendant	Are you tired?	1																					
+133	133		302								Not yet.	134	...	134																				
+134	134		301								Attendant	It's getting late. You should rest, Your Highness.																						
+135	135		302								Very well.	136	...	136																				
+136	136		201							1	500347																							
+137	137		301				AniZhuanchangBegin			1	Lucia	...	1																					
+138	138		202							1					1																			
+139	139		101							Assets/Product/Texture/Image/BgStory/Bgstory58.jpg																								
+140	140		301			AniZhuanchangEnd						Under the quiet gaze of Lucia, you leave the hall and walk to the bed, which seems especially gaudy in augmented reality.																						
+141	141		302								(Close eyes)	142																						
+142	142		301									Before the attendant can recite more of its script, you quickly close your eyes.																						
+143	143		301				AniZhuanchangBegin					Seeing that you have fallen asleep, it tucks in the corner of the bed and turns to leave.																						
+144	144		401							1	36																							
+145	11145		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+146	152		401							1	207																							
+147	146		301			AniZhuanchangEnd						As the night grows deeper, the huge "palace" is now restored to its dead silence.																						
+148	147		301									Before they stumbled upon this place, how long had the Mini Bots been waiting here on standby? You cannot seem to fathom such an answer.																						
+149	148		301									Do they feel sadness just like humans?																						
+150	149		301									Or is the "Witch of the Sea" hiding in the ocean's depths the only one buried in sadness?																						
+151	150		302				AniZhuanchangBegin				...	145																						
+152	145		101							Assets/Product/Texture/Image/BgStory/Bgstory210.png																								
+153	153		301			AniZhuanchangEnd						You sleep faintly in the heat. Unable to tell how much time had passed, you just vaguely see the moon rise and fall.																						
+154	154		301									Before dawn, you hear quiet footsteps approach and stop outside the door.																						
+155	155		301									Based on the gait, it appears to be an attendant.																						
+156	156		302								...?	157																						
+157	157		301									At the same time, another person walking without making a single sound opens the door of the "bedchamber" and quietly approaches you.																						
+158	158		302								...	159																						
+159	159		301									There's a cool touch on your cheeks, dispelling a little summer heat.																						
+160	160		301				AniZhuanchangBegin					...It's Lucia.																						
+161	11151		101							Assets/Product/Texture/Image/BgStory/Bgstory58.jpg																								
+162	11124		201							1	500347																							
+163	161		301			AniZhuanchangEnd				1		You want to ask about her, but considering the attendant standing outside the door, you decide it is safer to continue pretending to sleep.																						
+164	162		401							2	560																							
+165	163		301									But at this moment, you hear the sound of a sharp blade slowly being pulled by your ear.																						
+166	164		301									"If you kill the prince, then your tail will return and you may go back to the sea."																						
+167	165		302								...	166																						
+168	166		301									Before this, you had heard that a Construct had defected.																						
+169	167		301									Compared with endless fighting, there are also people who choose to cast aside their responsibilities after becoming a Construct in favor of a life as a wanderer.																						
+170	168		301									Much like how the malicious actions of a small faction can further aggravate tensions, defectors also promote increased prejudice‚Äîthis is the reason why the Purifying Force exists.																						
+171	169		301									Now, will this happen to you?																						
+172	170		302								(No)	171	(Perhaps)	172																				
+173	171	173	301									She trusts you wholeheartedly, so at this moment, you return the same degree of trust.																						
+174	172		301									If she wants to exchange this for her freedom and voice...																						
+175	173		401							2	788																							
+176	174		301									The breeze from the sharp blade passes by your ear, and you feel a gentle blow to the chest.																						
+177	175		301									Red liquid flows down from the wound as her hand trembles. However, you feel no pain...																						
+178	176		301									Right at that moment, you realize Lucia's plan.																						
+179	177		302								(Play along)	178	(Remain still)	1182																				
+180	178		301									You open your eyes and sit up in bed, clutching your wound.																						
+181	1178		302								Lucia! You... betrayed...	1179																						
+182	1179		301									You recite your line and give Lucia a look of revenge.																						
+183	1180		301								Lucia	...!	1																					
+184	1181	1183	301									Lucia's apprehension was already beyond words. Before she has time to explain, you pretend to fall back in bed and gradually lie there motionless.																						
+185	1182		301									Even after another blow to the chest, you lie there motionless as if you had died peacefully in your sleep.																						
+186	1183		204							1	2																							
+187	179		301								Lucia	...	1																					
+188	11178		202							1																								
+189	180		301									As if she has lost her strength, she kneels down slowly beside the bed and puts her forehead into the palms of her trembling hands.																						
+190	181		401							2	1516																							
+191	182		301									After a while, you hear the attendant outside leave.																						
+192	183		301									Lucia stands up and covers the cut on her wrist, then leaves the room.																						
+193	184		401							1	36																							
+194	185		302				AniZhuanchangBegin				(Now's the time)	186																						
+195	186		101							Assets/Product/Texture/Image/BgStory/Bgstory186.png																								
+196	187		401							1	201																							
+197	188		201							1	500358																							
+198	189		301			AniZhuanchangEnd				1	Witch of the Sea	Well done.	1																					
+199	190		301									Standing on the beach, her words carry a tone of sarcasm.																						
+200	191		301								Witch of the Sea	Next... Roland should be here shortly.	1																					
+201	192		301								Witch of the Sea	Although it depends on you whether you can pass the filtering, I've gathered enough qualified people to meet his superior and begin the trial for ascension.	1																					
+202	193		203							1	0.25	400																						
+203	194		201							2	500347		-400																					
+204	195		301							1	Lucia	...!	2																					
+205	196		301								Witch of the Sea	When we were at the bottom of the sea, you asked me if there was anything I didn't tell you.	1																					
+206	197		301								Witch of the Sea	That's right. I've been helping Roland find suitable targets all along.	1																					
+207	198		301								Witch of the Sea	Some people lose their way, some people detect an anomaly here, and some are caught by me from afar...	1																					
+208	199		301								Witch of the Sea	He only ever comes to collect the spoils and lend a hand safeguarding the island once I've captured prey. But alas, they never come back no matter who it is.	1																					
+209	200		301								Witch of the Sea	I have no way of knowing if they pass‚Äîor die.	1																					
+210	201		301								Lucia	...	2																					
+211	202		301								Witch of the Sea	Our game these days may have only been to buy time, but we thoroughly enjoyed it. Thank you.	1																					
+212	203		301								Witch of the Sea	My long-cherished wish... will soon come true.	1																					
+213	204		301									She opens her hands as if to embrace the island.																						
+214	205		301								Witch of the Sea	When I gather enough people, Roland said he would introduce me to "her."	1																					
+215	206		301								Witch of the Sea	I need the power to control the Punishing Virus in order to keep my companions on this island clean.	1																					
+216	207		301								Witch of the Sea	For now, we must rely on Roland to keep the Punishing concentration under control here, but soon I will be able to do so.	1																					
+217	208		301								Witch of the Sea	When that time comes, I can return to my original place... and prove to Master that we will not become abominations.	1																					
+218	209		301								Lucia	...	2																					
+219	210		301								Witch of the Sea	Hmph... By that look on your face, you must think I've already lost my mind. Correct? If you find this so hard to believe, then... It only shows how lucky you are...	1																					
+220	211		301									Lucia shakes her head, but the Witch of the Sea does not understand her intent.																						
+221	212		301								Witch of the Sea	Being unable to speak is quite the inconvenience. Since you have completed the terms of our agreement, I'll remove the device on your back.	1																					
+222	213		401							2	1515																							
+223	214		301									She walks behind Lucia and removes the thin artificial skin patch on her back with a simple authentication process.																						
+224	215		301								Witch of the Sea	You may speak now.	1																					
+225	216		301								Lucia	I'm not someone lucky enough to be spared from suffering and witnessing the despair of others. Still, seeing you here to bear everything alone... I feel sorry for you.	2																					
+226	217		301								Witch of the Sea	I had no other choice.	1																					
+227	218		301								Lucia	I don't blame you for the choices you made in the past...	2																					
+228	219		301								Lucia	But now... Staying here only to watch strangers die here on this island... You can only delay the inevitable. Nothing will change.	2																					
+229	220		301								Witch of the Sea	Of course, I also thought about letting my companions return to the sealed underground facility while I go out and search for hope.	1																					
+230	221		301								Witch of the Sea	But as a corrupted machine, where else can I go besides here?	1																					
+231	222		204							2	4																							
+232	223		301								Lucia	The world is not so optimistic, but it's not as hopeless as you think.	2																					
+233	224		301								Witch of the Sea	Of course, humans are more willing to accept Constructs that share their resemblance.	1																					
+234	225		204							2																								
+235	226		301								Lucia	...Do you really think it's that idealistic?	2																					
+236	227		301								Witch of the Sea	...?	1																					
+237	228		301								Lucia	After I became a Construct, those people... They looked at me with disdain and fear.	2																					
+238	229		301								Lucia	I heard them complain about having to spend more resources and cut down on other expenses in order to maintain the Construct army.	2																					
+239	230		301								Lucia	We fight to give hope to others, yet some people insist on staying in Babylonia is enough to prolong life. They say there's no need to take back Earth.	2																					
+240	231		301								Lucia	Even some "prophets" claim that Construct tech will lead to the downfall of humanity just because we can't pass our genes on to further generations.	2																					
+241	232		301								Lucia	Not to mention, people fear Constructs as a threat due to their single combat ability. Others feel it's unfair for Constructs to get a free pass to Babylonia.	2																					
+242	233		301								Lucia	And the small number of defectors only serve to prove that their prejudices and fear aren't just fabricated out of thin air.	2																					
+243	234		301								Lucia	That being said, there's an increasing number of people like Commandant who put trust and hope in their comrades. So we can't stop moving forward.	2																					
+244	235		301								Witch of the Sea	Trust in their comrades?	1																					
+245	236		301									She sneers.																						
+246	237		301								Witch of the Sea	I lost any semblance of "trust" when Master died.	1																					
+247	238		301								Witch of the Sea	I chose this path. I will carry on to the end no matter how many people I must sacrifice!	1																					
+248	239		301								Witch of the Sea	And what qualifies you to preach to me about trust? You killed that human. You long betrayed this trust!	1																					
+249	242		302								(Open fire)	243	She's lived up to my trust.	268																				
+250	243		401							2	1510																							
+251	244		301			PanelActor1Shake					Witch of the Sea	What?!	1																					
+252	245		301									A barrage of bullets accurately penetrates the defense barrier around the Witch of the Sea's core.																						
+253	246		301									She looks in horror at the prince's dress on you, which is stained red but undamaged, and collapses on the beach.																						
+254	247		301								Witch of the Sea	You were hiding nearby...	1																					
+255	248		302								I just got here.	249																						
+256	249		301								Witch of the Sea	How are you still alive? The attendant watched you die... It recorded everything...	1																					
+257	250		301								Witch of the Sea	Hmph... It was all just an act?	1																					
+258	251		301								Witch of the Sea	Even with a sword pointed at you, unable to speak... you still played along seamlessly?	1																					
+259	252		301								Lucia	...You...	2																					
+260	253		301								Witch of the Sea	So... This is what trust really is.	1																					
+261	254		301								Witch of the Sea	If I had trusted him... a little more... Would I...	1																					
+262	255		301								??	Tsk... Looks like I'm late.																						
+263	256		202							1	2				1																			
+264	257		301									Looking in the direction of the voice, you see a young man smirking nearby.																						
+265	258		201							1	500358																							
+266	259		301							1	Witch of the Sea	...Roland...	1																					
+267	260		301									She stretches out her trembling hand as if pleading for help.																						
+268	261		201							1	500008																							
+269	262		301							1	Roland	We meet again, Gray Raven.	1																					
+270	263		201							1	500347																							
+271	264		301							1	Lucia	...!	1																					
+272	265		201							1	500008																							
+273	266		301							1	Roland	Are you here all alone? How fortuitous.	1																					
+274	267		301		1		AniZhuanchangBegin				Roland	Well, then. Let's begin.	1																					
+275	268		301								Witch of the Sea	What?!																						
+276	269		301									She looks in horror at the prince's dress on you, which is stained red but undamaged, and then stumbles back two steps.																						
+277	270		301								Witch of the Sea	You're still alive? The attendant watched you die... It recorded everything...	1																					
+278	271		302								Lucia didn't hurt me at all.	272																						
+279	272		301								Witch of the Sea	Someone as powerful as her turns their blade against you, and you trust her? She obviously couldn't have told you her plan, though!	1																					
+280	273		301								Lucia	I didn't have to. The commandant trusts me.	2																					
+281	274		301								Witch of the Sea	...Hmph. Trust...	1																					
+282	275		301								Witch of the Sea	Is this your... trust? Your... bond?	1																					
+283	276		301								Witch of the Sea	...	1																					
+284	277		301								Witch of the Sea	The Witch of the Sea looks deep into the island as if recalling her past.	1																					
+285	278		301								Witch of the Sea	If I had been able to...	1																					
+286	279		301								Witch of the Sea	...No. I have no way of knowing if he wanted to protect me‚Äîor destroy me.	1																					
+287	280		301								Lucia	It's not too late. Put everyone in the sealed facility underground and leave this place.	2																					
+288	281		301								Lucia	You're immune to the Punishing Virus. You might not be able to get near anyone, but there are things only you can do.	2																					
+289	282		301								Lucia	As long as we hurry and take back Earth, this island will return to its former glory.	2																					
+290	283		301								Witch of the Sea	...Is that possible?	1																					
+291	284		301								Witch of the Sea	...Then I'll...	1																					
+292	285		401							2	1510																							
+293	286		401					500		2	1510																							
+294	287		401					200		2	1510																							
+295	288		301			PanelActor1Shake						The Witch of the Sea raises her hand and takes a step toward Lucia. But right as a glimmer of hope appears on her face, several shots come from behind...																						
+296	289		301							1	Witch of the Sea	...!	1																					
+297	290		301									A barrage of bullets accurately penetrates the defense barrier around the Witch of the Sea's core. Before she can even say a word, she collapses onto the beach and loses control over her frame.																						
+298	291		202							1	2				1																			
+299	292		301								??	Tsk... Looks like I'm late.																						
+300	293		301									Looking in the direction of the voice, you see a young man smirking nearby.																						
+301	294		201							1	500347																							
+302	295		301							1	Lucia	Roland?!	1																					
+303	296		203							1	0.25	-400																						
+304	297		201							2	500008		400																					
+305	298		301							1	Roland	We meet again, Gray Raven.	2																					
+306	299		301								Lucia	Why'd you kill her?!	1																					
+307	300		301								Roland	Think I'd just stand here and watch you brainwash her?	2																					
+308	301		301								Roland	What a pity. I was planning on taking her away to contribute to our cause.	2																					
+309	302		301								Roland	This island's been a thorn in our side for too long. I'm tired of having to come here and tidy up the place.	2																					
+310	303		301								Lucia	You didn't want her to become an Ascendant?	1																					
+311	304		301								Roland	It's not that I didn't want to. She just wouldn't make the cut.	2																					
+312	305		301								Lucia	You made that promise to her even though you knew that!	1																					
+313	306		301								Roland	People can still live on with false hope, can't they?	2																					
+314	307		301								Roland	Anyway. What brings you here all alone, Gray Raven? How fortuitous.	2																					
+315	308		301		1		AniZhuanchangBegin				Roland	Well, then. Let's begin.	2																					

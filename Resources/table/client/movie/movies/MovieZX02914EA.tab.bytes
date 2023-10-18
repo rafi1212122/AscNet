@@ -1,0 +1,324 @@
+Gs¾ç0mL®´ä6ðFøp8Ùï{‹°3¡B€ïK¾ÞéÝ°ÞÂþ.GC\H¯C¿¬Pâ~)È>l"ØiW	o°I’y‘§°£œc®ZgKår¡z°ˆ'¢žúE43w~¸þïÜ[ÅÐ7	ê´ðÓ*dJÎ¼<~[[)Ì–&Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory605.jpg																								
+2	2		401							1	101																							
+3	3		201							1	500405		400																					
+4	4		201							2	500019		-400																					
+5	5		301			DialogEnable				1	Construct Soldier 1	An Ascendant?!	1																					
+6	6		301									The retreated Construct's reinforcement has finally arrived.																						
+7	7		301								Construct Soldier 2	Were you responsible for the attack on our base as well?!	2																					
+8	8		202							1	2				1																			
+9	9		201							1	500506																							
+10	10		301							1	Noan	N-no! I just arrived!	1																					
+11	11		301								Noan	We were also under attack at Medical Center 09! Our way out is blocked by the Red Tide, and our comms are down. We need protective suits to move our patients, so Iâ€”	1																					
+12	12		202							1					1																			
+13	13		201							1	500019																							
+14	14		301							1	Construct Soldier 2	Who would trust an Ascendant?!	1																					
+15	15		202							1					1																			
+16	16		201							1	500506																							
+17	17		301							1	Noan	I'm not an Ascendant! I'm just...	1																					
+18	18		301								Noan	I don't know what I am, either! Stay guarded all you want, but please trust my words!	1																					
+19	19		301								Noan	There are still many people in Medical Center 09 who need help! Their CPF can't sustain for longâ€”people will die if you wait any longer!	1																					
+20	20		202							1					1																			
+21	21		201							1	500019																							
+22	22		301							1	Construct Soldier 3	You're probably trying to trick us there to slaughter us!	1																					
+23	23		202							1					1																			
+24	24		201							1	500506																							
+25	25		301							1	Noan	How can I make you trust me?	1																					
+26	26		202							1					1																			
+27	27		201							1	500019																							
+28	28		301							1	Construct Soldier 4	We'll never trust you!	1																					
+29	29		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab	2																							
+30	30		203						100	1	0.15			-150																				
+31	31		202							1					1																			
+32	32		401						200	2	1510																							
+33	33		401							2	10002001																							
+34	34		301									The Constructs all draw their weapons, charging toward Noan, not giving him a chance to explain himself.																						
+35	35		401						100	2	819016																							
+36	36		501			RImgBg1Shake				Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+37	37		401							2	1510																							
+38	38		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+39	39		201							1	500506	4			-150																			
+40	40		203							1	0.1																							
+41	41		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab																							
+42	42		301							1		Their blades and bullets graze his body, leaving behind several bloody marks, but Noan refuses to strike back.																						
+43	43		401						200	2	1510																							
+44	44		401							2	1510																							
+45	45		203						80	1	0.15	-300																						
+46	46		202							1					1																			
+47	47		401						300	2	13015111																							
+48	48		402						300	13015111																								
+49	49		201							1	500405																							
+50	50		301							1	Construct Soldier 1	Stop dodging!	1																					
+51	51		203						400	1	0.25		-150																					
+52	52		203						50	1	0.15																							
+53	53		202							1					1																			
+54	54		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFallNew.prefab	2																							
+55	55		104						200	0|-50|-300	0.15																							
+56	56		401						300	2	13015111																							
+57	57		402							13015111																								
+58	58		201							1	500405																							
+59	59		301							1		A female Construct leaps onto a set of broken stone staircases, striking Noan with her blade from high ground.																						
+60	60		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFallNew.prefab																							
+61	61		401							2	10002001																							
+62	62		202							1					1																			
+63	63		501						500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+64	64		104						300	0|0|0	0.15																							
+65	65		201							1	500019																							
+66	66		301							1	Construct Soldier 2	Do you only know how to run away?!	1																					
+67	67		201							1	500506																							
+68	68		301							1	Noan	I'm here to seek help for the people of Medical Center 09.	1																					
+69	69		201							1	500019																							
+70	70		301							1	Construct Soldier 1	Lier!	1																					
+71	71		201							1	500506																							
+72	72		301							1	Noan	I'm not...!	1																					
+73	73		401						20	2	1510																							
+74	74		401					100		2	1510																							
+75	75		401						60	2	1510																							
+76	76		203						100	1	0.1	100	-80	100																				
+77	77		203						100	1	0.1	-100	-130	200																				
+78	78		301			RImgBg1Shake						A barrage of bullets drives Noan back before he can finish, entrapping him among the Constructs.																						
+79	79		202							1					1																			
+80	80		201							1	500019																							
+81	81		301							1	Construct Soldier 4	Kill him!	1																					
+82	82		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab	2																							
+83	83		201							2	500019		-600																					
+84	84		201							3	500019		600																					
+85	85		203						80	2	0.15	-600		-150																				
+86	86		202							2					1																			
+87	87		203						80	3	0.15	600		-150																				
+88	88		202							3					1																			
+89	89		401						300	2	13015111																							
+90	90		402							13015111																								
+91	91		301									Hearing his order, other Constructs who have been hiding inside the ruins leap out, blocking any escape routes.																						
+92	92		203						80	3	0.15			-150																				
+93	93		202						200	1					1																			
+94	94		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+95	95		201							1	500506																							
+96	96		301									Right before their blades strike Noan, the Punishing Virus concentration in the air rises drastically. Crimson spikes sprout from beneath Noan's feet, shooting at everyone around him indiscriminately.																						
+97	97		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab																							
+98	98		501						100	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab	2																							
+99	99		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab																							
+100	100		501						100	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab	2																							
+101	101		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab																							
+102	102		202							1					1																			
+103	103		101						800	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+104	104		101							Assets/Product/Texture/Image/BgStory/BgStory605.jpg																								
+105	105		201							1	500506																							
+106	106		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryRedSmokeNew.prefab	1	1																						
+107	107		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab	2	1																						
+108	108		301							1	Noan	Watch out!	1																					
+109	109		502							DialogDisable																								
+110	110		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryRedSmokeNew.prefab		1																					
+111	111		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																					
+112	112		202							1					1																			
+113	113		101						500	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+114	114		101							Assets/Product/Texture/Image/BgStory/BgStory605.jpg																								
+115	115		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab	2																							
+116	116		201							2	500019					1																		
+117	117		104						600	0|0|-200	0.5																							
+118	118		201						500	1	500506	4	250																					
+119	119		202							1	2				1																			
+120	120		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab																							
+121	121		101						1500	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+122	122		101							Assets/Product/Texture/Image/BgStory/BgStory605.jpg																								
+123	123		201							1	500506																							
+124	124		301			DialogEnable				1		Seeing that one of the spikes is about to hit the Construct closest to him, he rushes to catch it, but it still pierces through his palm uncontrolled.																						
+125	125		301								Noan	...!	1																					
+126	126		202							1					1																			
+127	127		201							1	500019																							
+128	128		301							1	Construct Soldier 4	And you said you're not an Ascendant?!	1																					
+129	129		203						80	1	0.15			-150																				
+130	130		202							1					1																			
+131	131		401						300	2	13015111																							
+132	132		402							13015111																								
+133	133		301									Unwilling to give up, the Construct raises his weapon and strikes again. The spikes, in turn, form a rocket launcher of arrows, primed and ready to fire.																						
+134	134		201							1	500506																							
+135	135		301							1	Noan	I'm sorry! I can't control it! Please stay away!	1																					
+136	136		202							1					1																			
+137	137		201							1	500405																							
+138	138		301							1	Construct Soldier 1	What are you...	1																					
+139	139		202							1					1																			
+140	140		201							1	500506																							
+141	141		301							1	Noan	I didn't want to become this! I don't want to hurt any of you.	1																					
+142	142		301								Noan	I'm here to ask for help. The people in Medical Center 09 are trapped by the Red Tide. Please trust me on that.	1																					
+143	143		202							1					1																			
+144	144		201							1	500405		400																					
+145	145		201							2	500019		-400																					
+146	146		301							1		The female Construct does not say a word. She quietly turns away, sending a comms request through her terminal.																						
+147	147		301								Construct Soldier 2	Anything?	2																					
+148	148		301								Construct Soldier 1	Nothing from Medical Center 09, just like what he said.	1																					
+149	149		201							1	500019		400																					
+150	150		301							1	Construct Soldier 3	We're so dead if this is a trap.	1																					
+151	151		202							1	2				1																			
+152	152		201							1	500506																							
+153	153		301							1	Noan	You can call for more reinforcement if you still believe it's dangerous. It's safer with more people.	1																					
+154	154		202							1					1																			
+155	155		201							1	500405																							
+156	156		201							2	500019		-600																					
+157	157		201							3	500019		600																					
+158	158		301							1	Construct Soldier 1	Which base has the people to spare at a time like this?	1																					
+159	159		301								Construct Soldier 2	The elite squad investigating the deserters is still nearby. Maybe they are free?	2																					
+160	160		301								Construct Soldier 3	Let's send in a request and see how it goes.	3																					
+161	161		202							1	2	3			1																			
+162	162		201							1	500506																							
+163	163		301							1	Noan	...Thank you.	1																					
+164	164		202							1					1																			
+165	165		201							1	500405																							
+166	166		201							2	500019		-600																					
+167	167		201							3	500019		600																					
+168	168		301							1	Construct Soldier 1	What do we do with this guy? He... doesn't seem like the other Ascendants in our files.	1																					
+169	169		301								Construct Soldier 2	Should we let the elite squad handle it as well?	2																					
+170	170		301								Construct Soldier 3	Yeah, they can handle whatever he is. How they deal with him will depend on who's in the squad.	3																					
+171	171		202							1	2	3			1																			
+172	172		201							1	500506																							
+173	173		301							1	Noan	I can stay here as long as Medical Center 09 gets the help it needs. You can keep an eye on me if you want.	1																					
+174	174		202							1					1																			
+175	175		201							1	500405																							
+176	176		201							2	500019		-600																					
+177	177		201							3	500019		600																					
+178	178		301							1	Constructs	...	1	2	3																			
+179	179		301									The Constructs share a glance and discuss quietly.																						
+180	180		301								Construct Soldier 1	We've sent a rescue request. We'll head to Medical Center 09 too after rendezvousing with them.	1																					
+181	181		202							1	2	3			1																			
+182	182		201							1	500506																							
+183	183		301							1	Noan	Thanks.	1																					
+184	184		202							1					1																			
+185	185		201							1	500405																							
+186	186		201							2	500019		-600																					
+187	187		201							3	500019		600																					
+188	188		301							1	Construct Soldier 1	There's no point in keeping an eye on you. I hate to admit it, but given what you're capable of... there's nothing we can do if you do want to take us down.	1																					
+189	189		202							1	2	3			1																			
+190	190		201							1	500506																							
+191	191		301							1	Noan	I'll stay here, then.	1																					
+192	192		202							1					1																			
+193	193		201							1	500405																							
+194	194		201							2	500019		-600																					
+195	195		201							3	500019		600																					
+196	196		301							1	Constructs	...	1	2	3																			
+197	197		301								Construct Soldier 1	Can we really trust you?	1																					
+198	198		202							1	2	3			1																			
+199	199		201							1	500506																							
+200	200		301								Noan	Trust me.	1																					
+201	201		202							1					1																			
+202	202		201							1	500405		400																					
+203	203		201							2	500019		-400																					
+204	204		301							1	Constructs	...	1	2																				
+205	205		301									Doubting they may be, the Constructs have come to a decision despite the concerns for their own safety.																						
+206	206		301				AniZhuanchangBegin				Construct Soldier 4	Let the elite squad deal with him. They're almost here.	2																					
+207	207		401						3000	1	36																							
+208	208		202			DialogDisable				1	2				1																			
+209	209		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/BgStory605.jpg																								
+210	210		401							1	201																							
+211	211		201							1	500506	16																						
+212	212		301			DialogEnable				1	Noan	...	1																					
+213	213		301									After he watches the Constructs leave, Noan turns to look at the red spikes beside him, lost in thought.																						
+214	214		301								Noan	... What am I...	1																					
+215	215		301									Something unusual must have happened to him, even if he is not an Ascendant or Transcendant.																						
+216	216		204							1																								
+217	217		301								Noan	I don't want to become the enemy. If I can't control this power, perhaps I should let their elite squad...	1																					
+218	218		204							1	9																							
+219	219		301								???	...Hold on.																						
+220	220		301									Noan suddenly hears a soft voice from a dark alley.																						
+221	221		203							1	0.25	400																						
+222	222		201							2	500514	2	-400																					
+223	223		301							1	Noan	Lithos? How did you get here? You made it through the Red Tide?	1																					
+224	224		301								Lithos	You were away for so long... I was worried...	2																					
+225	225		204							1																								
+226	226		301								Noan	Don't worry. Help's coming. And you didn't answer me.	1																					
+227	227		301									Lithos ignores him, focusing on Noan's hand worriedly instead.																						
+228	228		301								Lithos	The wound on your hand...	2																					
+229	229		204							1	9																							
+230	230		301								Noan	Wait, stay away! I still can't control these spikes. I couldâ€”	1																					
+231	231		301								Lithos	You're an Ascendant?	2																					
+232	232		204							1																								
+233	233		301								Noan	...	1																					
+234	234		301								Lithos	Do you want to hurt me?	2																					
+235	235		301								Noan	Of course I don't, but I can't control it.	1																					
+236	236		301								Lithos	Then... do you want to control it?	2																					
+237	237		301								Noan	Yes.	1																					
+238	238		301								Lithos	Should we look for an Ascendant? Only they have the power to control the Punishing Virus.	2																					
+239	239		301								Noan	...How do know so much?	1																					
+240	240		204							1	9																							
+241	241		301								Lithos	Because I've seen my share of deserting Constructs.	2																					
+242	242		301								Noan	What do you mean? Were you a deserter as well?	1																					
+243	243		301									Lithos does not answer him. Looking into Noan's eyes, Lithos slowly approaches him.																						
+244	244		301								Noan	Stay away, Lithos.	1																					
+245	245		301								Lithos	It's okay... I won't get hurt. I can control it.	2																					
+246	246		301									And the spikes have not moved an inch as Lithos moves closer to Noan and holds his hand.																						
+247	247		301								Noan	Who are you really? Can you tell me?	1																					
+248	248		204							2																								
+249	249		301								Lithos	I'll tell you, but first... let me treat your injury.	2																					
+250	250		301									Lithos takes out some simple tools, gently fixing the wound on Noan's hand.																						
+251	251		301								Lithos	Don't be afraid of this "anomaly." If you can accept and learn to control it, you won't hurt anyone you don't want to hurt. You might even be able to save them.	2																					
+252	252		301								Noan	Save them...? What happened to your teammates when I met you?	1																					
+253	253		301								Lithos	They... refused an irrefutable offer, and they were disciplined accordingly.	2																					
+254	254		204							1	7																							
+255	255		301								Noan	Disciplined?	1																					
+256	256		202							1	2				1																			
+257	257		101							Assets/Product/Texture/Image/BgStory/Bgstory453.jpg																								
+258	258		201							1	500526																							
+259	259		301							1	???	...Naughty children need to be disciplined.	1																					
+260	260		202							1					1																			
+261	261		101							Assets/Product/Texture/Image/BgStory/BgStory605.jpg																								
+262	262		201							1	500506	9	400			1																		
+263	263		201							2	500514		-400			1																		
+264	264		301							1		Hearing that, his shrouded memories suddenly clear up as if someone has shone a light upon them. With that hint of light, Noan finally remembers.																						
+265	265		204						300	1	16																							
+266	266		204						300	1	14																							
+267	267		204						300	1	10																							
+268	268		401							1	202																							
+269	269		301									As his memories flood back, his expression toward Lithos changes from worry to confusion to realization before it becomes an expression of calmness and acceptance.																						
+270	270		204							1																								
+271	271		301								Noan	Lithos. You...	1																					
+272	272		301								Lithos	...Yes?	2																					
+273	273		301									Curious but uncertain how to phrase it appropriately, Noan still decides to voice his question.																						
+274	274		301								Noan	What pronoun do you use?	1																					
+275	275		301								Lithos	...	2																					
+276	276		204							2	1																							
+277	277		301								Lithos	So you've finally remembered.	2																					
+278	278		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+279	279		202							1	2				1																			
+280	280		504							0.7																								
+281	281		101							Assets/Product/Texture/Image/BgStory/Bgstory453.jpg																								
+282	282		201							1	500506		400																					
+283	283		201							2	500513		-400																					
+284	284		301							1	Noan	Yeah... It was you who turned me into a Construct back then, wasn't it?	1																					
+285	285		301								Lithos	It was...	2																					
+286	286		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+287	287		504							0																								
+288	288		202							1	2				1																			
+289	289		101							Assets/Product/Texture/Image/BgStory/BgStory605.jpg																								
+290	290		201							1	500506		400																					
+291	291		201							2	500514	2	-400																					
+292	292		301							1	Noan	Why are you passing as someone you don't identify as...? Waitâ€”that's not entirely true.	1																					
+293	293		301								Noan	You weren't hiding your identity when I first met you. I just forgot...	1																					
+294	294		204							2	1																							
+295	295		301									Lithos turns his head away, sneering in lament.																						
+296	296		204							2	2																							
+297	297		301								Noan	No, that's not the pointâ€”you were the Ascendant hiding among us all this time?	1																					
+298	298		301								Lithos	Well, yeah... I was worried you couldn't control yourself or wouldn't accept me. This is the only way I can stay with you.	2																					
+299	299		301								Lithos	Come back with me. Your "anomaly" has sprouted within you. I can teach you how to control its power.	2																					
+300	300		204							1	15																							
+301	301		301								Noan	...	1																					
+302	302		301									Noan once again reminds himself of his lost memoriesâ€”there must be a reason he refused Lithos' offer in the past so resolutely. Giving Lithos an answer now before remembering it would be reckless.																						
+303	303		204							1																								
+304	304		301								Noan	No. I haven't remembered everything yet. I can't tell how much of what you're saying is true.	1																					
+305	305		301								Lithos	It won't do you any good to remember your past.	2																					
+306	306		301								Noan	They are my memories. I'll be the judge on that.	1																					
+307	307		301								Lithos	Do you really want to remember... even that time when they all hunt you down?	2																					
+308	308		301								Noan	What?	1																					
+309	309		301								Lithos	I've reset your memories four times now. This happened last time as well... You wouldn't accept me, and you couldn't control your Ascendant power. You became a walking target after you lost control.	2																					
+310	310		301								Lithos	I had to kill them to protect you.	2																					
+311	311		204							1	7																							
+312	312		301								Noan	...What did you just say?!	1																					
+313	313		301								Lithos	I said I had to kill them to protect you. But your M.I.N.D. immediately deviated after seeing their bodies... You don't remember any of this, do you?	2																					
+314	314		204							1	4																							
+315	315		301								Noan	...It doesn't matter what you say...	1																					
+316	316		301								Lithos	You still want to remember before you make a decision?	2																					
+317	317		301								Noan	Yes.	1																					
+318	318		301								Lithos	That was what you said last time and the time before. Your M.I.N.D. deviated both times before you could give me an answer.	2																					
+319	319		301								Lithos	But that's alright. If you still insist on getting your memories back, I'll give you what you want.	2																					
+320	320		301								Lithos	Come here, Shrek...	2																					
+321	321		301									Lithos silently reaches out.																						
+322	322		204							2	1																							
+323	323		301		1		AniZhuanchangBegin				Lithos	I can be patient. I'll stay with you... until you understand me. Until you become my family.	2																					

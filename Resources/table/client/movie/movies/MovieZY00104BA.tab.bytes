@@ -1,0 +1,56 @@
+sÛ= x8yıµn=Sˆ’ΩN–Hf‘*4ÌﬁUªÅ©#¢Óòœ	1Á¸ùÍV¢ëªæî)Âo8{∫&≤=ã‹måSˆiÄƒ5GÄRÃ,å5$G
+ƒ∂üXV‡ÛŸñW¥ÃΩFJRÃVw›∞à∑üã˘—’•a$´430ÇW§ëYId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory79.jpg																								
+2	2		401							1	209																							
+3	3		201							1	1031001		600																					
+4	4		201							2	500166																							
+5	5		201							3	500026		-600																					
+6	6		301			DialogEnable				1	Lee	Frankly, I can't tell how that trial is related to wisdom at all.	3																					
+7	7		301								Lucia	But it was pretty fun as an activity. Liv and I were guessing along as well.	2																					
+8	8		301								Lee	...Were all the gesturings you guys were doing just you trying to solve the puzzles?	3																					
+9	9		301								Lucia	That's right. I got distracted for a second, and Liv won in the end.	2																					
+10	1000		302								Should we give Liv a reward, then?	10	Do you want a rematch next time, Lucia?	11																				
+11	10	12	301								Liv	Oh, I... I don't need any rewards... Lee and Commandant winning is the best reward I can hope for.	1																					
+12	11	12	301								Lucia	I'll do my best if there is a rematch.	2																					
+13	12		301								Lee	Anyway, we've got two keys with us now. It also proves the importance of finding out whose portrait it is.	3																					
+14	1001		202							1	2	3																						
+15	1002		201							1	500018																							
+16	13		301							1	Foreman	Oh, ain't your trials going smoothly, Gray Raven from Babylonia!	1																					
+17	1003		302								Why are you here?	14	What's up?	15																				
+18	14	4000	301								Foreman	Not that odd for me to hang around the place. I'm part of the crew, after all! But you're right that I'm here for another reason.	1																					
+19	15	4000	301								Foreman	Something's up! But you ain't the one I'm looking for.	1																					
+20	4000		203							1	0.25	-400																						
+21	1004		201							2	500170		400																					
+22	16		301							1		After greeting you all, the foreman walks over to the South General, who is disappointed with the riddle having been solved, and smacks him on the back of the head.																						
+23	17		301			PanelActor2Shake					South General	Ouch! What was that, Foreman?!	2																					
+24	18		301							1	Foreman	Do you still have to ask? What are you doing leaving your post and coming all the way here? Look at that mess of a queue outside with all those mechanoids!	1																					
+25	19		301								South General	Ugh!	2																					
+26	20		301								Foreman	Just pick yourself up and head back, or the event's screwed!	1																					
+27	21		301								South General	U-understood!	2																					
+28	1005		202							1	2																							
+29	1006		201							1	500166	1																						
+30	22		301							1	Lucia	I think I know why he is the foreman.	1																					
+31	1007		302								So do I.	1008																						
+32	1008		203							1	0.25	400																						
+33	1009		201							2	500018		-400																					
+34	23		301							1	Foreman	I have to thank you as well, Babylonians.	2																					
+35	24		301								Lucia	Why?	1																					
+36	25		301								Foreman	Because y'all are great contestants, that's why! The Fist of the Taoist has never been as competitive as this year, thanks to you!	2																					
+37	26		301								Lucia	Now that you've mentioned it, there were indeed mechanoids cheering for us, just like an audience.	1																					
+38	27		301								Foreman	The competition is an event, after all.	2																					
+39	1010		201							1	1031001		400																					
+40	28		301							1	Liv	But why are you organizing these activities during the Ghost Festival? The festival in the records is supposed to be...	1																					
+41	29		301								Foreman	Of course we know what the Ghost Festival is supposed to be. We're just... trying to find an excuse to do something together, is what it is.	2																					
+42	1011		302								Can't you do that in your daily lives?	30	Just to fool around?	31																				
+43	30	32	301								Foreman	The lives of us mechanoids are way more boring than you think.	2																					
+44	31	32	301								Foreman	That's a good way to put it.	2																					
+45	32		301								Foreman	Which is to say... sometimes we would want to remember the good ol' days too.	2																					
+46	33		301								Liv	These old days you're talking about...	1																					
+47	34		301								Foreman	Hmm, weird to talk about this sort of thing in front of guests, ain't it? Trek along now to find the West General. I should return to my patrol!	2																					
+48	1012		202							2																								
+49	35		301								Liv	And he's gone...	1																					
+50	1013		201							2	500166		-400																					
+51	36		301							1	Lucia	From what Foreman said, this event shouldn't be dangerous to begin with. Let's keep going, Commandant.	2																					
+52	1014		302								Let's go.	37	Lucia's next, right?	38																				
+53	37		301		1		AniZhuanchangBegin				Lucia	(Nods) Let's head toward the Western trial.	2																					
+54	38		301		1		AniZhuanchangBegin				Lucia	(Nods) We don't have anyone else, anyway. Let's go get our third victory!	2																					

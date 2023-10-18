@@ -1,0 +1,52 @@
+LÀÀ•ÆÂÍ:u·$µæ3š¹qëiÁÆl±t˜§;'€['ÆPd÷p@;º‚ãp­´8®ð‘~áM*|VÔžG2~{Cì¨‹(t¿õ+2Édã-¤£º¶®»ó>‘)!0ñ½ÚC
+ÖˆÒ, 2ø>È¯‘bò›VÅœTÛÊV^Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	36																							
+3	3		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie1New.prefab	2																							
+4	4		401							2	1509																							
+5	5		301			DialogEnable					System	...Establishing connection...																						
+6	6		301				AniZhuanchangBegin				System	Connected.																						
+7	7		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie1New.prefab																							
+8	8		101							Assets/Product/Texture/Image/BgStory/Bgstory6.jpg																								
+9	9		401							1	101																							
+10	10		301			AniZhuanchangEnd						...																						
+11	11		201							1	500013																							
+12	12		401							2	1508																							
+13	13		301							1	Corrupted	â€”! â€”!	1																					
+14	14		201							1	1021001																							
+15	15		301							1	Lucia	The number of Corrupted is beyond my expectation... I shouldn't have separated with Liv and Lee.	1																					
+16	16		302								Lucia!	17																						
+17	17		204							1	3																							
+18	18		301								Lucia	Commandant, why...	1																					
+19	19		201							1	500013																							
+20	20		401							2	1508																							
+21	21		301							1	Corrupted	â€”!	1																					
+22	22		201							1	1021001																							
+23	23		401							3	102005																							
+24	24		301							1	Lucia	Out of my way!	1																					
+25	25		201							1	500013																							
+26	26		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab		1																						
+27	27		401							2	10002001																							
+28	28		301			PanelActor1Shake				1	Corrupted	!	1																					
+29	29		202							1					1																			
+30	30		401						1000	2	1506																							
+31	31		201							1	1021001	3																						
+32	32		301							1	Lucia	All good now. Commandant, why are you remotely connecting to me...? Do you mind explaining?	1																					
+33	33		302								(Explain the situation)	34																						
+34	34		204							1																								
+35	35		401							3	102002																							
+36	36		301								Lucia	I see. You were kidnapped, and are now connecting to me using the chamber she mentioned. Is that right?	1																					
+37	37		204							1	3																							
+38	38		301								Lucia	This connection chamber... how amazing it is. It not only increases my power output... I feel like you're standing right next to me as well.	1																					
+39	39		401							3	102003																							
+40	40		301								Lucia	We'll be able to implement more tactics if we can make good use of them.	1																					
+41	41		204							1																								
+42	42		302								We'll explore the possibilities later.	43	Then let's put our first tactic to the test!	45																				
+43	43		204							1	6																							
+44	44	46	301								Lucia	You're right. Let's locate you first.	1																					
+45	45		301								Lucia	(Nods) Let's find your whereabouts and get you out of there.	1																					
+46	46		201							1	500142																							
+47	47		401							2	1508																							
+48	48		301							1	Corrupted	â€”! â€”â€”â€”â€”â€”â€”!!!!	1																					
+49	49		201							1	1021001	4																						
+50	50		301		1		AniZhuanchangBegin			1	Lucia	The noise must have alerted these Corrupted. Commandant, let's go.	1																					

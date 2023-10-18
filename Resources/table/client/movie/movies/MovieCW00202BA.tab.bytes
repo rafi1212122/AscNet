@@ -1,0 +1,53 @@
+IÃ?¬PmWŸâL‘ÉßŽûe…¦?f–4º±Á;t}ó\£sE¼´^þBç2ˆãò¨Üš2vMÌ!›Lëˆ¤|á³gø§nœ“¡V4âAÎµ•r¤ÚIÚÊ¾MDï	å:ów3¾xsa™YÞ¶Ë„Ç’DEG×\ÒKU¸¦=–É\N<Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory227.png																								
+2	2		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySnowNew.prefab	2																							
+3	3		401							1	204																							
+4	4		401							2	1515																							
+5	5		301			DialogEnable						Lost in thought, Rosetta suddenly receives a transmission from Babylonia. She takes a deep breath to suppress her doubts, then answers the transmission.																						
+6	6		201							2	500004																							
+7	7		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+8	8		301							1	Asimov	Rosetta.	2																					
+9	9		203							2	0.25	400																						
+10	10		201							1	500214		-400																					
+11	11		301							1	Rosetta	Speaking.	1																					
+12	12		301								Asimov	Looks like the comm link is stable. I'll make it quick.	2																					
+13	13		301								Asimov	I need you to establish a link with the new CUB, the Combat Unit Booster, to collect field data.	2																					
+14	14		301								Rosetta	...?	1																					
+15	15		301									Seeing Rosetta's hesitation, Asimov takes a sip of his coffee and explains further.																						
+16	16		301								Asimov	I know you're busy with the reconstruction, but there's a reason why it has to be you who tests the CUB. You'll understand once you see it.	2																					
+17	17		301								Rosetta	Understood.	1																					
+18	18		301				AniZhuanchangBegin				Asimov	Find a clearing, and I'll drop the CUB at your coordinates.	2																					
+19	19		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+20	20		202							1	2				1																			
+21	21		101							Assets/Product/Texture/Image/BgStory/Bgstory227.png																								
+22	22		301			AniZhuanchangEnd						Once the dust settles from the airdrop's landing, the security lock disengages after detecting Rosetta, revealing the CUB within.																						
+23	23		201							1	500332																							
+24	24		301							1	Rosetta	That's...!																						
+25	25		301									The new CUB standing before Rosetta is an all-too-familiar sight and proof of her years as a Forest Guard.																						
+26	26		202							1					1																			
+27	27		201							1	500214		-400																					
+28	28		201							2	500004		400																					
+29	29		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+30	30		301							1	Asimov	As you can see, the data for this CUB prototype is based on your centaur moduleâ€”the one they called "Lindwyrm". Thus, the CUB's combat strength is significantly upgraded.	2																					
+31	31		301								Asimov	Due to Babylonia's technical bias, you've been operating in humanoid mode since the Battle of Kowloong, while your centaur module has been stuck at maintenance for one reason or another.	2																					
+32	32		301								Asimov	With recent advancements in CUB technology, we've finally managed to repair the centaur module you left behind so that it can return to the surface.	2																					
+33	33		301								Rosetta	...	1																					
+34	34		301								Asimov	But whatever the excuse, we did in fact use your old data without your permission and modified it.	2																					
+35	35		301								Rosetta	That's fine. That was part of the deal for helping each other.	1																					
+36	36		301								Rosetta	Restoring it to this state is more than satisfactory.	1																					
+37	37		301								Rosetta	Thank you.	1																					
+38	38		301								Asimov	...Ehm, it's nothing.	2																					
+39	39		301									The activated CUB lowers its head and stares at Rosetta.																						
+40	40		301								Rosetta	But I'm afraid I have one request.	1																					
+41	41		301								Asimov	What is it?	2																					
+42	42		301								Rosetta	I thought I could never return to the battlefield as I used to.	1																					
+43	43		301								Rosetta	But this gives me hope. Could you please allow me to reintegrate with it?	1																					
+44	44		301								Asimov	...But the humanoid-hybrid structure will be a heavy burden for you. Are you sure?	2																					
+45	45		301								Rosetta	I'm sure.	1																					
+46	46		204							2	8																							
+47	47		301								Asimov	...	2																					
+48	48		204							2																								
+49	49		301								Asimov	I see. All I need right now is just field data from the new CUB.	2																					
+50	50		301								Asimov	Once you're done collecting the data, I'll help you recalibrate with it.	2																					
+51	51		301								Asimov	I'll begin preparations in the meantime.	2																					
+52	52		301		1		AniZhuanchangBegin				Rosetta	Understood. I appreciate it.	1																					

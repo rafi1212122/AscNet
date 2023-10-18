@@ -1,0 +1,190 @@
+r[0€˘≈äÂ\˝ìTõ¯™∫EΩ‰’Â|q#‘Úû¯µí!ùzy∫ÄJBQü1c•"ƒZı,¡ÃßÁë¿Ÿ!ŸWÇ†^%π5Ô¸ÒË´•‚4hrè$îô#—PÆ\jò ŸZ≤‹9i~´¨'˙ºìUÆ…sA¨]H¬%tﬁô¡,Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory285.png																								
+2	2		401							1	201																							
+3	3		201							1	500166																							
+4	4		301			DialogEnable				1	Lucia	We're almost done searching the area, but we didn't turn up any clues.	1																					
+5	5		301								Lucia	This is all we can see on the map. Where should we go next?	1																					
+6	6		202							1					1																			
+7	7		301				DialogDisable					Just when everyone is at a loss, a flustered researcher catches everyone's attention.																						
+8	8		501						1500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+9	9		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+10	10		504							0.8																								
+11	11		201							1	500249																							
+12	12		301			DialogEnable				1	Flustered Researcher	Excuse me. Have you seen this person?	1																					
+13	13		301									She pulls out a picture and asks around the scavengers.																						
+14	14		203							1	0.25	-400																						
+15	15		201							2	500226		400																					
+16	16		301							1	Scavenger	You damn fancy folks with your fancy jobs! If you're lookin' for someone, why doncha go ask your damn watchdogs!	2																					
+17	17		301								Flustered Researcher	S-sorry, this is personal. I can't ask security for help.	1																					
+18	18		301								Flustered Researcher	P-please... Help me...	1																					
+19	19		301									Hearing this, the scavenger squatting in the corner takes the photo and glances at it.																						
+20	20		301								Scavenger	Oh, this gal. I can give you the scoop, but what's in it for me?	2																					
+21	21		301									The flustered researcher takes out a bag of compressed biscuits from her pocket and hands it to the scavenger. He quickly rips open the bag and swallows them whole.																						
+22	22		301								Scavenger	I just saw her go that way.	2																					
+23	23		202							1					1																			
+24	24		203							2	0.25																							
+25	25		301									The researcher thanks the scavenger, then runs in the direction he was pointing. He smacks his lips and sneers.																						
+26	26		301				DialogDisable				Scavenger	Heh, I didn't see nothin'.	2																					
+27	27		202							2					1																			
+28	28		501						1500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+29	29		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+30	30		504							0																								
+31	31		201							1	1031001																							
+32	32		301			DialogEnable				1	Liv	By the look of the scavenger and researcher, this must've happened quite a long time ago.	1																					
+33	33		301				AniZhuanchangBegin				Liv	There are no clues that match the key intel here. Should we take a chance?	1																					
+34	34		202							1					1																			
+35	35		101							Assets/Product/Texture/Image/BgStory/Bgstory4.jpg																								
+36	36		401							1	211																							
+37	37		301			AniZhuanchangEnd						Following the researcher's projection, you all arrive at a dark alley...																						
+38	38		201							1	1031001																							
+39	39		301							1	Liv	We haven't searched this area yet...	1																					
+40	40		201							1	500166																							
+41	41		301							1	Lucia	The entrance is well hidden‚Äîlooks intentional.	1																					
+42	42		302								See if there are any records here.	43																						
+43	43		202							1					1																			
+44	44		301				DialogDisable					After inputting the key intel into the Spear of F.O.S., the researcher reappears in front of you.																						
+45	45		501						1500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+46	46		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+47	47		504							0.8																								
+48	48		201							1	500249																							
+49	49		301			DialogEnable				1		She has not run down the alley for long before embracing a Construct and cries.																						
+50	50		301								Flustered Researcher	Sister!	1																					
+51	51		504							0																								
+52	52		201							1	1031001	7	-600																					
+53	53		201							2	500166		0																					
+54	54		201							3	500026		600																					
+55	55		301							1	Liv	She found her even though he just pointed in a random direction... Was it because she kept narrowing her search?	1																					
+56	56		302								Family members share a certain bond.	57																						
+57	57		301								Lee	It's not that strange. Growing up with someone makes it easier to predict where they'll go. After all, you're familiar with their habits and how they think.	3																					
+58	58		204							1	1																							
+59	59		301								Liv	Really? I don't have any practical experience in this matter.	1																					
+60	60		204							1																								
+61	61		301								Lucia	You don't have any siblings, Liv?	2																					
+62	62		301								Liv	I have brothers and sisters, but we're not related by blood.	1																					
+63	63		301								Liv	If we did, maybe it would've been better...	1																					
+64	64		204							2	1																							
+65	65		301								Lucia	Blood...?	2																					
+66	66		302								(Lucia no longer understands what Luna's thinking.)	67	(Lucia's been separated from her sister for too long.)	67																				
+67	67		202							1	2	3																						
+68	68		504							0.8																								
+69	69		201							1	500249		-400																					
+70	70		201							2	500267		400																					
+71	71		301							1		At that moment, the Construct in the researcher's arms turns around and gives a look of surprise.																						
+72	72		301								Female Construct	Who are... Oh, you're Liadrin's little sister... Angel, right?	2																					
+73	73		202							1	2				1																			
+74	74		504							0																								
+75	75		201							1	1031001	7																						
+76	76		301							1	Liv	Oh, wrong person.	1																					
+77	77		202							1					1																			
+78	78		504							0.8																								
+79	79		201							1	500249		-400																					
+80	80		201							2	500267		400																					
+81	81		301							1	Female Construct	It's you. How did you know she's here?	2																					
+82	82		301								Angel	Where is she?! Why haven't I heard from her for so long? Her locator pinpoints her near this area... That's the only reason I've found this place.	1																					
+83	83		301								Female Construct	Didn't anyone tell you? She was wounded in battle and switched bodies in order to recover. I saw her go out this morning. Maybe she's on a mission.	2																					
+84	84		301								Angel	Does she still remember me?	1																					
+85	85		301								Female Construct	I don't think her memory data was damaged. She said "Hi" to me last night.	2																					
+86	86		301								Female Construct	If you don't feel at ease, just wait for her here. I need to get going. I'm still on a mission.	2																					
+87	87		202							2					1																			
+88	88		203							1	0.25																							
+89	89		301									She waves goodbye and leaves. Angel breathes a sigh of relief and sinks to the ground.																						
+90	90		504							0																								
+91	91		201							1	1031001		-400																					
+92	92		201							2	500026		400																					
+93	93		301							1	Liv	Seems likes she's worried about her sister... And as a researcher, the fact that her sister is a Construct...	1																					
+94	94		301								Lee	...She must have her own reasons.	2																					
+95	95		202							1	2				1																			
+96	96		504							0.8																								
+97	97		301									Angel stands up and pats the dirt off her knees. Just as she is about to walk to a nearby bench, her comms rings.																						
+98	98		201							1	500249																							
+99	99		301							1	Angel	A message... Sister?	1																					
+100	100		301									She opens the message in a hurry. The four of you onlookers step forward and look carefully at the words on the screen.																						
+101	101		301								Liadrin	Sorry I haven't been in touch with you for so long, Angel.																						
+102	102		301								Liadrin	I was wounded in battle a few days ago. When I was at the rescue camp, I saw a winged mechanical angel. He told me about a power known as the Ascension-Network.																						
+103	103		302								A winged...	104	(You feel a pain in your chest.)	104																				
+104	104		301								Liadrin	We were both researchers, but when we ran out of test subjects, they used me instead. Since then, I haven't been able to continue with my research...																						
+105	105		301								Liadrin	But now, I've been presented an opportunity to research the Punishing Virus. So, I've accepted his invitation.																						
+106	106		301								Liadrin	Farewell, Angel. I hope we see each other again in this life.																						
+107	107		301									After reading the message, Angel staggers backward a few steps and falls to the ground again.																						
+108	108		301								Angel	...The Ascension-Network?	1																					
+109	109		301									Even though she does not know what she is talking about, she can still sense the danger.																						
+110	110		301								Angel	Sister... I will find you. I WILL!	1																					
+111	111		301									Angel stands up, ignoring the dust on her body, turns back and dials a number in her contacts.																						
+112	112		301								Angel	It's me, Angel. Requesting permission to locate Liadrin.	1																					
+113	113		203							1	0.25	-400																						
+114	114		201							2	500138		400																					
+115	115		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+116	116		301							1	???	Permission denied, Angel. How many times have I told you? Quit getting involved with your sister. You'll only hinder her in battle. I know it was against your wishes for her to become a Construct.	2																					
+117	117		301								???	But, think about your future career. You know what unemployment looks like.	2																					
+118	118		301								Angel	Hmph, then I won't beat around the bush. She's gone AWOL. Do you know where she is now?	1																					
+119	119		301								???	What?! Do you have any proof?	2																					
+120	120		301								Angel	Try contacting her.	1																					
+121	121		301								???	Alright, wait a moment.	2																					
+122	122		202							2					1																			
+123	123		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+124	124		301									Shortly after, her comms rings again.																						
+125	125		201							2	500138		400																					
+126	126		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+127	127		301							1	???	...I can't reach her. I don't know what happened, but I'm going to dispatch a team to help you look for her.	2																					
+128	128		301								???	For your sake, I hope she comes back to her senses. After all, your sister is quite an accomplished soldier. We've put her talents in high regard.	2																					
+129	129		202							1	2				1																			
+130	130		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+131	131		301									Not long after terminating the call, three Constructs arrive by car. The car's navigation system clearly displays the coordinates of their destination.																						
+132	132		301				DialogDisable					Angel enters the car and proceeds en route to their destination, quickly disappearing out of sight.																						
+133	133		501						1500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+134	134		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+135	135		504							0																								
+136	136		302								Finally, we've found a clue.	137																						
+137	137		201							1	500166	5																						
+138	138		301			DialogEnable				1	Lucia	Looks like they went here. Let's get going, Commandant.	1																					
+139	139		302								On it.	140																						
+140	140		201							1	1031001	14																						
+141	141		301							1	Liv	But do you think she'll be able to find her sister?	1																					
+142	142		201							1	500026																							
+143	143		301							1	Lee	If this really is the Ascendants' headquarters, I'm afraid this doesn't look good.	1																					
+144	144		201							1	1031001	14																						
+145	145		301							1		Liv clenches her hands and gives a look of sadness.																						
+146	146		301								Liv	Blood is complicated. When you grow up together, it brings you closer to one another... but in times like this, it also pushes you to the abyss.	1																					
+147	147		201							1	500166																							
+148	148		301							1	Lucia	...Blood.	1																					
+149	149		301									This is the second time Lucia says this word. Is she still thinking about what happened to her sister, Luna?																						
+150	150		302								Lucia...	151																						
+151	151		301								Lucia	I'm here, Commandant.	1																					
+152	152		302								Are you thinking about your sister?	153	Did this topic remind you of something?	153																				
+153	153		301								Lucia	...Yes.	1																					
+154	154		301								Lucia	I don't understand. Why did Luna become an Ascendant?	1																					
+155	155		301								Lucia	I heard that she was disposed of after failing to become a Construct. Did something happen?	1																					
+156	156		301								Lucia	Why is she with another me? If she is me... why did she choose to become an Ascendant?	1																					
+157	157		302								Maybe she went through something that you didn't.	158																						
+158	158		301								Lucia	You mean...	1																					
+159	159		302								The same person with different experiences...	160																						
+160	160		302								...will make different choices.	161																						
+161	161		301								Lucia	Different experiences?	1																					
+162	162		301								Lucia	If they could do it again... If they could live in a gentle environment... They wouldn't have chosen this path, would they?	1																					
+163	163		302								Your choice is proof of that.	164																						
+164	164		301								Lucia	...If only I could know what she went through, I might be able to understand why she made this choice.	1																					
+165	165		301								Lucia	But...	1																					
+166	166		301									Lucia looks up and stretches her hand toward the distant sky. The sun hiding behind the clouds struggles to shine a ray of light between her fingers.																						
+167	167		301								Lucia	If I find out from her memories that all of this is a lie... and that my purpose belongs somewhere else...	1																					
+168	168		301								Lucia	...Will I become someone like her?	1																					
+169	169		302								You won't.	170	Maybe.	173																				
+170	170		204							1	1																							
+171	171		301								Lucia	Are you sure, Commandant?	1																					
+172	172		302								I believe in you.	176																						
+173	173		301								Lucia	If I really did, what would you do?	1																					
+174	174		302								I don't know.	175	I'll find you.	175																				
+175	175		204							1	1																							
+176	176		301									Hearing this, she places her outreached hand on her heart. Her smile shows signs of doubt and bitterness.																						
+177	177		301								Lucia	She and I are the same person. I wouldn't be surprised if we'd make the same decision. Do you really believe in me?	1																					
+178	178		302								Yes, I'm sure she would make the same decisions as you.	179																						
+179	179		301								Lucia	You mean... If she had the same experiences as I have, she would also be standing here as a member of the Gray Ravens?	1																					
+180	180		301									Your affirmation does little to assuage Lucia of her worries.																						
+181	181		301									Confusion of the unknown, the fear of loss, the possibility of parting after uncovering the truth...																						
+182	182		301									All these worries cloud her heart, much like the sun above.																						
+183	183		302								Whatever happens in the end...	184																						
+184	184		302								I will respect your decision, Lucia.	185																						
+185	185		301								Lucia	Thank you, Commandant.	1																					
+186	186		301									Lucia nods. Although the worries in her eyes remain, her smile widens faintly.																						
+187	187		202							1					1																			
+188	188		301									She turns and leads the rest of you to the target location.																						
+189	189		301		1		AniZhuanchangBegin					Her pace continues to be firm in conviction and, like a raven aimed at its target, she spreads her wings and soars into the cloud-covered sky.																						

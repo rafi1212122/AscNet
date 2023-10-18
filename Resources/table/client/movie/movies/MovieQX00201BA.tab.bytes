@@ -1,0 +1,77 @@
+l°mÝ¾GûŠŽ=Õ=½´Ÿ÷
+—ê]µ/–°ŽG“‹uñ|Cæ^z*µ×FîC'.c¾/Ca ®èì²üò6AlãìÇB¡)µr<VlQ¨R'FÄp!­vK	G¯Ñƒ$¤R«Ã˜½K:h­Â4§Í†ãÒ¬Ü¿Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101							Assets/Product/Texture/Image/BgStory/Bgstory263.png																								
+2	2		205				AniZhuanchangEnd			999	Assets/Product/Texture/Image/BgStory/BgStory0.png	0	0.8	0																				
+3	3		401							1	208																							
+4	4		301			DialogEnable						This is a familiar night.																						
+5	5		301									The fight is over. One by one, each deployed squad returns to Babylonia.																						
+6	6		301									While technically on leave, you cannot afford to delay your mission report. After all, you have finally gathered some useful intel after days of fighting.																						
+7	7		201							1	500546																							
+8	8		301							1	???	Commandant? Are you... stargazing on your own?	1																					
+9	9		301									A figure appears behind you while you look off into the stars.																						
+10	10		202							1					1																			
+11	11		201							1	500128	1																						
+12	12		301							1	Bianca	My apologies. Did I interrupt you?	1																					
+13	13		302								Not at all.	14	It's alright.	14																				
+14	14		301								Bianca	You've been coming here for some fresh air around this hour every day, haven't you?	1																					
+15	15		301								Bianca	Aren't you still on leave? It doesn't sound like the best idea to ignore your doctor's order to "get enough sleep."	1																					
+16	16		302								I slept when I filed the battle report.	17	I'm just a night owl.	17																				
+17	17		301								Bianca	I knew you'd say thatâ€”you're stubborn like that.	1																					
+18	18		301									Bianca smiles resignedly, tucking her hair behind her ear.																						
+19	19		301								Bianca	If you don't feel like sleeping right now, can I invite you to a walk?	1																					
+20	20		301								Bianca	I heard that there's a gathering tonight at the plaza from a small hobby club. I'm sure the walk will at least unwind you.	1																					
+21	21		302								Sure.	22																						
+22	22		502							AniZhuanchangBegin																								
+23	24		202			DialogDisable			300		1				1																			
+24	25		205							999		0.5	0	0																				
+25	26		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/Bgstory459.jpg																								
+26	28		301			DialogEnable						You expect an evening gathering to last until midnight, but there are only a few people left by the time you arrive. The numerous tables and chairs and the darkened lanterns prove that a party did take place here.																						
+27	29		201							1	500128																							
+28	30		301							1	Bianca	It's over already? I'm sorry, Commandant; I should've checked their schedule before inviting you. That's on me...	1																					
+29	31		302								The walk was relaxing enough.	32	Being with you is good enough.	32																				
+30	32		204							1	1																							
+31	33		301								Bianca	...As long as it helps, then.	1																					
+32	34		301									A shooting star flies across the sky, building a bridge across the galaxy with its silver tail and drawing the attention of the people in the plaza. It even catches Bianca's eyes.																						
+33	35		301									The silver bridge soon fades, returning the spotlight to the Summer Triangle in the sky: Deneb, the Cowherd, and the Weaver Girlâ€”hold on. Is today...?																						
+34	36		301									You recall the Double Seventh Festival celebration on the Nighter, and the joyous, if not chaotic, memories make you smile.																						
+35	37		301								Bianca	Did you think of something interesting, Commandant?	1																					
+36	38		301									Bianca seems to relax as well, seeing you smile. You proceed to tell her about the lively celebration on the Nighter with some dramatic flair, and you both end up laughing.																						
+37	40		202							1																								
+38	39		301									Truly, the romantic story humans gave to the stars has also brought about many unforgettable moments.																						
+39	41		301									These moments form the universe that envelopes you, every cold, lifeless star granted warmth and meaning.																						
+40	42		301									All your efforts are spent to defend where this warmth comes from.																						
+41	43		201							1	500303																							
+42	44		301							1	???	How interesting... So the old Kowloong traditions in the database have been preserved to this day.	1																					
+43	45		301								???	What a shame. If you were here 40 minutes ago, your story could've been the climax of the night.	1																					
+44	46		301									You turn and find another stargazer applauding you. It is clear that he was eavesdropping on your exaggerated adventure on the Nighter just now.																						
+45	47		302								The climax?	48	It was a storytelling event tonight?	48																				
+46	48		301								???	Oh? You aren't members of the club?	1																					
+47	49		202							1					1																			
+48	50		201							1	500128																							
+49	51		301							1	Bianca	We were thinking of attending your gathering, but we missed it, unfortunately.	1																					
+50	52		202							1					1																			
+51	53		201							1	500303																							
+52	54		301							1	???	I see... Yeah, I totally got it now. You're hoping to join our Astrology Club, aren't you?	1																					
+53	55		302								?	56	...What club again?	57																				
+54	56	58	301								???	We are officially supported by the WGAA, by the way. I'm absolutely certain that the artisans of WGAA are highly likely to consider joining us for a sharing in the future.	1																					
+55	57		301								???	Astrologyâ€”Club. We are officially supported by the WGAA, by the way. I'm absolutely certain that the artisans of WGAA are highly likely to consider joining us for a sharing in the future.	1																					
+56	58		301								Club Member	Ahem. Anyway, tonight was about the Double Seventh Festival and its ties to the stars and astrotheology, so your story would have been welcomed. Hard to find someone who's experienced those Kowloong traditions firsthand.	1																					
+57	59		301								Club Member	So? Do you want to join us? I think our members will love you guys.	1																					
+58	60		301									Before you can reply, he already takes out an intricate box and a stack of cards with astrology symbols printed on them.																						
+59	61		301								Club Member	Now, let's make a bet using the game we played during the gathering when we decided on the order of claiming the gifts.	1																					
+60	62		301								Club Member	You win when you guess correctly if the next card is higher or lower than the current one. Easy, right?	1																					
+61	63		301								Club Member	If you win, you'll get this mystery box handmade by our core members.	1																					
+62	64		301								Club Member	But if you lose, you'll join our club.	1																					
+63	65		302								The reward doesn't match the punishment. I refuse to play.	66																						
+64	66		301								Club Member	What do you mean? It's clearly a win-win situation!	1																					
+65	67		301								Club Member	And I guarantee you that whatever you find in that box will be so captivating that you'll want to join us regardless.	1																					
+66	68		301								Club Member	At the very least, you can give it to someone you care about on this day. Think of the surprise you will share when you open it together! Our members will definitely deliver a proper dose of starry romance!	1																					
+67	69		301									With 70 percent sincerity and 30 percent confidence, he makes it hard for you to reject him.																						
+68	70		202							1																								
+69	71		301									And his words have indeed made you curious about the "captivating" mystery box.																						
+70	72		302								...Want to give it a shot, Bianca?	73																						
+71	73		201							1	500128	1																						
+72	74		301							1	Bianca	It sounds interesting, but I'm not good at this kind of game...	1																					
+73	75		301								Bianca	And he's inviting us mostly because of your story, Commandant. You should be the one who decides.	1																					
+74	76		301								Bianca	I was just hoping to bring you somewhere relaxing. The way I see it, my mission is accomplished.	1																					
+75	77		302		1		AniZhuanchangBegin				Well... we're here anyway.																							

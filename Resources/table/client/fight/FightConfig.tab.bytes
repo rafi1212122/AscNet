@@ -1,0 +1,38 @@
+‚fk/ëwHå9ð-ï&gy‘7x‰(žD°S…2UC=<•ŸVj+©sàÝH‹2˜b't–ô¹Ö²¼yJð¯7çMáj˜_;Ïµ‡‡ùzqÄqž;¢÷ŽÓýLW¬làÅ˜¯lLoJ˜‰è ŠÚ€Üh´˜ùÍ2JàKey	Type	Value
+CollisionEffect	string	FxAirwallActivated
+CollisionEffectInterval	float	1
+RebootContaminationColor	string	ff3f3fff
+RebootRescuingColor	string	34aff9ff
+RebootRecontaminationTransitionTime	float	0.3
+HpTransitionDuration	float	0.8
+EnergyTransitionDuration	float	0.3
+HpShakeDuration	float	0.2
+HpShakeRange	float	3
+BallTemplate	string	Assets/Product/Ui/UiFightPrefab/BallTemplate.prefab
+UiPolygonSprite	string	Assets/Product/Texture/Image/UiFight/FightSekuai.png
+AffixLevel2	string	Assets/Product/Texture/Image/IconAffix/2.png
+AffixLevel3	string	Assets/Product/Texture/Image/IconAffix/3.png
+FightOnlineMsgTime	float	10
+FightOnlineMsgSendCdTime	float	5
+FightOnlineMsgAutoCloseTime	float	5
+UiFighMarkMoving	string	Assets/Product/Texture/Image/UiFight/UiFighMarkMoving.png
+UiFighMarkMovingBg	string	Assets/Product/Texture/Image/UiFight/UiFighMarkMovingBg.png
+UiFighMarkMovingBtn	string	Assets/Product/Texture/Image/UiFight/UiFighMarkMovingBtn.png
+UiFighMarkMovingPoint1	string	Assets/Product/Texture/Image/UiFight/UiFighMarkMovingPoint1.png
+UiFighMarkMovingPoint2	string	Assets/Product/Texture/Image/UiFight/UiFighMarkMovingPoint2.png
+UiFighMarkMovingPoint3	string	Assets/Product/Texture/Image/UiFight/UiFighMarkMovingPoint3.png
+UiFighTeachingRyq	string	Assets/Product/Texture/Image/UiFight/FightRyq.png
+UiFighTeachingArrows	string	Assets/Product/Texture/Image/UiFight/FightTypeUp.png
+SceneRollNumber	string	Assets/Product/Ui/Prefab/SceneRollNumber.prefab
+Used3DRollNumber	bool	0
+HackTransitionDuration	float	0.2
+DefaultViewDuration	float	1
+DefaultViewNoMouseMoveMaxTime	float	15
+FreeViewNoMouseMoveMaxTime	float	0.2
+DefaultFightBtnExitTexture	string	Assets/Product/Texture/Image/UiFight/FightButtonExitNor.png
+PCFightBtnExitTexture	string	Assets/Product/Texture/Image/UiFight/FightButtonExitPCNor.png
+XboxFightBtnExitTexture	string	Assets/Product/Texture/Image/UiFight/FightButtonExitXBOXNor.png
+PsFightBtnExitTexture	string	Assets/Product/Texture/Image/UiFight/FightButtonExitPSNor.png
+ControlCameraByDragTip	string	Switched to Classic Mode: Hold the left mouse button to control camera movement
+ControlCameraByMoveTip	string	Switched to Free Mode: Camera will automatically follow your mouse
+OccupiedKeyCode	string	This button is already occupied and cannot be used.

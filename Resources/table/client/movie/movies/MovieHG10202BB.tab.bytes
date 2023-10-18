@@ -1,0 +1,41 @@
+zwf[5˝$À—¸ß¡¶•§ÛÌ∑*¨ˇí˛q±¬∞,pò™Ø˙ÙÖ^WéÌÔÕ¸l©’µEºyáÆ-é∂z>WpræCÂ“›ø· -,GC≈giÅ}vRê|5ìch*Éo’@BªT≥tó√BÙîù"A)*x2v¥ã¡Õu)@Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+2	2		401							1	5																							
+3	3		201							1	500019																							
+4	4		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+5	5		301			DialogEnable				1	Construct	...Yes, that's right.	1																					
+6	6		301								Construct	Can I trouble you to look after it before we have time to retrieve it?	1																					
+7	7		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+8	8		201							1	1021001																							
+9	9		301							1	Lucia	That shouldn't be a problem.	1																					
+10	10		201							1	500019																							
+11	11		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+12	12		301							1	Construct	...Well, I guess I should say thanks first.	1																					
+13	13		302							100	What was that about?	17	Is it about that puppy?	18																				
+14	14		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+15	15		201							1	1021001																							
+16	16		303							100																								
+17	17	19	301							1	Lucia	It's from the Support Force responsible for the conservation area.	1																					
+18	18		301							1	Lucia	Yes, we were discussing what to do with the puppy.	1																					
+19	19		302								Conservation area?	20																						
+20	20		301								Lucia	Conservation areas are areas that we execution forces have recovered and rebuilt afterward.	1																					
+21	21		301								Lucia	To put it simply, the environmental sustainability device is rebooted and an ecosystem is built.	1																					
+22	22		301								Lucia	The puppy we rescued was from the conservation area.	1																					
+23	23		302								They're going to come pick up the puppy?	24	Did they ask us to take care of it for a while?	25																				
+24	24	27	301								Lucia	Yes, but it'll need to stay in the base for a while before they can come to pick it up.	1																					
+25	25		301								Lucia	Because they are currently short-staffed, and also, the puppy is injured.	1																					
+26	26		301								Lucia	So, before the Support Force can come to pick it up, we'll have to take care of it here in the base.	1																					
+27	27		202							1					1																			
+28	28		301								Puppy	Woof!																						
+29	29		201							2	1031001																							
+30	30		301							1	Liv	Oh, the puppy's awake.	2																					
+31	31		203							2	0.25	400																						
+32	32		201							1	1021001		-400																					
+33	33		301							1	Lucia	It seems so. Liv, can you go check up on it?	1																					
+34	34		301								Liv	Okay.	2																					
+35	35		202							2					1																			
+36	36		203							1	0.25	0																						
+37	37		301								Lucia	...	1																					
+38	38		302								You're not coming, Lucia?	39	I'll go with you.	40																				
+39	39		301		1		AniZhuanchangBegin				Lucia	No, I still have other missions to do.	1																					
+40	40		301		1		AniZhuanchangBegin				Lucia	Then you should go with Liv, Commandant. I still have other things to take care of.	1																					

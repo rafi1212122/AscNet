@@ -1,0 +1,25 @@
+táM{{ıêvÓ4\êZØ§å%ﬂAN9?r&QÂ$2°T˜qz6B'zÇ7S–Ü÷+¥¡÷ã[‚Ii°]pu.%)àôÔ_IÛ®.sX*lÄ‡:aˆ‰æï€2I¬yÅò©.@ kní´f`T√0izM¿SÎFi¥¯ﬁÛƒÑ94™®çEId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory275.png																								
+2	2		401							1	201																							
+3	3		201							1	1031001		-400																					
+4	4		201							2	500166		400																					
+5	5		301			DialogEnable				1	Liv	Look, something is written on the wall.	1																					
+6	6		301									Following where Liv is pointing at, you find a neatly written slogan on the wall of an abandoned building.																						
+7	7		301									"Earth has been stricken with innumerable disasters, and time has washed every one of them away. Live for tomorrow, because all will pass."																						
+8	8		204							1	1																							
+9	9		301								Liv	How very inspiring.	1																					
+10	10		204							1																								
+11	11		301								Liv	It looks kind of new as well. Could one of the scavengers have written this?	1																					
+12	12		301								Lucia	You don't usually see scavengers being so optimistic.	2																					
+13	13		301								Liv	True... Which reminds me, I think I read something similar in that book from before.	1																					
+14	14		301								Lucia	You mean that "Cardman Rider Genesis" book? The handwriting does look kind of similar. It might be written by the same person.	2																					
+15	15		301								Lucia	But the words below the slogan look like they are written by someone else.	2																					
+16	16		301									A hazily written "of course" can be seen below the slogan. There seems to be something else after these two words, but they have been roughly scrubbed off.																						
+17	17		302								It really is the owner of the book.	18																						
+18	18		301				DialogDisable				Liv	Should we check their projections?	1																					
+19	19		302								Sure.	20																						
+20	20		302								It's not every day you run into optimistic people.	21																						
+21	21		305							22	24																							
+22	22		301			DialogEnable					Liv	The young man who scrubbed off the words is showing severe symptoms of infection...	1																					
+23	23		301		1		AniZhuanchangBegin				Liv	Let's just hope that he carried enough serum to treat himself...	1																					
+24	24		202		1		AniZhuanchangBegin			1	2				1																			

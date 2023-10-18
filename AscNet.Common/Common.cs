@@ -6,7 +6,7 @@ namespace AscNet.Common
     public static class Common
     {
         public static readonly IConfig config;
-        public static readonly MongoClient mongoClient;
+        private static readonly MongoClient mongoClient;
         public static readonly IMongoDatabase db;
 
         static Common()

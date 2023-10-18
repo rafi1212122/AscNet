@@ -1,0 +1,74 @@
+P?kÉJNÏªÄ<OÁŽVþ‰]Ü«‰d‹OÐ_sœ—%µo°Ö{A¥#rˆ2sRÒòw\–Â^hí-¤'"ßA'„ç&ÄÌDÛô®Ø.Ì*þJ¥eö‰½“vPÇ‚Ë#êúFš†?Uàw*sh„à³3Ë)Ã.¥Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory93.png																								
+2	2		401							1	10																							
+3	3		301			DialogEnable						The wind is roaring. Standing on the decrepit ruins, the man gazes from afar at the abandoned city on the icy plains, one hand combing the stray strands of windblown hair outside of his eyes.																						
+4	4		301									From where he's standing, he can see a cluster of ramshackle buildings covered by snow. Not a single human can be spotted.																						
+5	5		301								???	I sense something approaching.																						
+6	6		301								Comms	Oh, you again. "Fara" is pretty quiet, though.																						
+7	7		301				AniZhuanchangBegin				Comms	Wait... abnormal waveform at 20.9 miles out! Looks similar to the Owl S-118 at Orekhovo the other day. Oops, we almost let that big ol' fish go that time.																						
+8	8		101							Assets/Product/Texture/Image/BgStory/Bgstory92.png																								
+9	9		201							1	500026		-400			1																		
+10	10		201							2	1031001		400			1																		
+11	11		302								Lee, update the mission briefing.	12																						
+12	12		301			AniZhuanchangEnd				1	Lee	Update complete: The current time is 3:56 p.m. Our current location is in the east of the Eurasian continent. Mission destination is still the land-based Airforce HQ of the Eurasian Branch of the World Government. According to President Hassen's orders, the objective is close recon and reclamation...	1																					
+13	13		301								Liv	...From the data we just received, the closer it is to our destination, the higher concentration of the Punishing Virus is.	2																					
+14	14		302								That's why we must figure out what's going on.	15																						
+15	15		301								Everyone	Understood.	1	2																				
+16	16		202							1	2				1																			
+17	17		201							1	500166					1																		
+18	18		301							1	Lucia	Gray Raven, move out!	1																					
+19	19		202							1																								
+20	20		301									On the snowy plains, all that's visible are the remains of run-down buildings and an endless expanse of snow.																						
+21	21		301									But for some reason, I can't shake the feeling we're being watched...																						
+22	22		302								Wait.	23	Are you sure there's no one here?	23																				
+23	23		201							1	1031001																							
+24	24		301							1	Liv	No body heat nor Inver-Device signals detected. Commandant, is something wrong?	1																					
+25	25		302								...Forget it, then. Let's go.	26																						
+26	26		301								Liv	I'll do another check, just in case...	1																					
+27	27		202							1																								
+28	28		301									Just as the team is preparing to leave, Lucia unsheathes her blade and points it towards a spot in the distance.																						
+29	29		201							1	500166	4																						
+30	30		301			RImgBg1Shake				1	Lucia	Who goes there!	1																					
+31	31		202							1																								
+32	32		301								???	ã€kuronameã€‘'s instincts were right.																						
+33	33		201							1	1101001																							
+34	34		301							1	Watanabe	The rest of you, on the other hand... Can't believe you let an unidentified Attacker Construct come within 15 meters around your commandant.	1																					
+35	35		301								Watanabe	If I were a long-range Attacker, Babylonia would have lost an excellent commandant today.	1																					
+36	36		201							1	1031001																							
+37	37		301							1	Liv	...	1																					
+38	38		302								Don't you think that's crossing the line?	39	I trust Lucia.	42																				
+39	39		201							1	1101001																							
+40	40		301							1	Watanabe	Do you mean using my experience in guerilla warfare against Liv is unfair?	1																					
+41	41	44	301								Watanabe	She's not a rookie anymore. Underestimating the enemy is a bad habit to have.	1																					
+42	42		201							1	1101001																							
+43	43		301							1	Watanabe	That's on you.	1																					
+44	44		301								Watanabe	I'll get straight to the point.	1																					
+45	45		301								Watanabe	If I'm guessing correctly, your destination... is it Cape Nohama?	1																					
+46	46		301								Watanabe	The land-based airforce HQ of the Eurasia Branch of the World Government... For some reason, it's become a barren hell on earth. Go ahead for another six miles and you'll see what I mean.	1																					
+47	47		302								You're heading there too?	48	For some reason?	49																				
+48	48	50	301								Watanabe	I see I guessed right...	1																					
+49	49		301								Watanabe	Reasons that politicians don't talk about... and I don't care about...	1																					
+50	50		301								Watanabe	Back to the point, Commandant. Since our goals align, are you interested in working together?	1																					
+51	51		302								Gray Raven can complete the mission on our own.	52	What's your angle?	53																				
+52	52	54	301								Watanabe	I don't doubt it at all.	1																					
+53	53		301								Watanabe	I understand that you may have doubts. But don't worry, I have no interest in tangling with Babylonia.	1																					
+54	54		301								Watanabe	Judging by your formation, you're here for recon? Reclamation?	1																					
+55	55		302								Both.	56																						
+56	56		301								Watanabe	Well, then, I don't mind sharing with you what data I have.	1																					
+57	57		301								Watanabe	It will at least save you some trouble.	1																					
+58	58		302								On what condition?	59																						
+59	59		301								Watanabe	The airforce HQ you have your eyes on is also the site of the only functioning marine radar station in the area.	1																					
+60	60		301								Watanabe	What we want is temporary control of the radar station. Babylonia should find this reasonable.	1																					
+61	61		302								Why is that?	62																						
+62	62		301								Watanabe	That's got nothing to do with Babylonia, right?	1																					
+63	63		301								Watanabe	Of course, when I said "saving unnecessary trouble", I was referring to more than intelligence-related affairs.	1																					
+64	64		201							1	500154																							
+65	65		201							2	500154		-600																					
+66	66		201							3	500154		600																					
+67	67		401							2	1504																							
+68	68		301							1		Watanabe raises an arm and makes a gesture. In a flash, over a dozen Forsaken soldiers materialize out of the snow, dressed in infrared combat suits.																						
+69	69		302								...	70																						
+70	70		201							1	1101001																							
+71	71		301							1	Watanabe	They've been stationed here in this area for years, and know everything there is to know, from the way the wind blows to how the snow tastes. They are the perfect scouts and intelligence providers.	1																					
+72	72		301								Watanabe	Let's set off now. You can always change your mind before we arrive at Ghost Coast.	1																					
+73	73		301		1		AniZhuanchangBegin				Watanabe	And trust me... you wouldn't want to traverse the icefield at night.	1																					

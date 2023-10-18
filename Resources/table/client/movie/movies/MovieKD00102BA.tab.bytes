@@ -1,0 +1,58 @@
+NwSÙO?1¿à∂°raxg@sô˘t¨˚Dñ¨$ûc%xñt%xà˜ñæ–˝êÛ£≈¨¨Ê¥ÎÕZ§Ml¡SÂôùæ0Lﬂ]¨ßâig=X´#.KòØÌŒ_ˆfEkVµ+á÷˘âYõç°ûP›ZÏ–¶ÇΩ√h’[©áId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+2	2		401							1	204																							
+3	3		201							1	500001																							
+4	4		301			DialogEnable				1	Celica	Sir, the Gray Raven Commandant has arrived.	1																					
+5	5		301									Inside the large laboratory, only Asimov is there debugging various machines.																						
+6	6		302								Are you alone again?	7																						
+7	7		203							1	0.25	-450																						
+8	8		201							2	500004		450																					
+9	9		301							1	Asimov	The others have gone to bed since they've been working all night.	2																					
+10	10		302								What about you?	11																						
+11	11		301								Asimov	...I'm not tired.	2																					
+12	12		204							1	4																							
+13	13		301								Celica	Asimov! I told you and your team not to overwork yourselves, remember?	1																					
+14	14		301								Asimov	Sure... Anyway, remember that I entrusted you with testing the CUBs?	2																					
+15	15		302								I do, but...	16																						
+16	16		301								Asimov	Regarding the project, there has been some... how to say...	2																					
+17	17		202							1																								
+18	18		302								Sorry, I need to go. I just remembered that I've got a meeting...	19																						
+19	19		401						1500	2	1509																							
+20	20		301									The smiling Celica swiftly closes the door to the lab unexpectedly, blocking your way out.																						
+21	21		201							1	500001	2	-450																					
+22	22		301							1	Celica	You must've misremembered. I've checked, and you don't have any meetings today.	1																					
+23	23		302								Of course you have.	24																						
+24	24		204							1																								
+25	25		301								Asimov	I guess I'll carry on then... We've received two pieces feedback, one of which is not good and the other is bad. Which one do you want to hear first?	2																					
+26	26		302								Isn't that the same thing‚Ä¶?	27																						
+27	27		301								Asimov	Well, not exactly. You know, the tests and preliminary data collection for the CUB are done...	2																					
+28	28		302								That's good news!	29																						
+29	29		301								Asimov	Sure, but we've noticed that its AI is lacking without the support of a database, so it can't adapt to complex situations on the battlefields.	2																					
+30	30		301								Asimov	Though it doesn't require a perfect AI performance, some combat patterns are needed as a data reference.	2																					
+31	31		302								That's tricky... but I don't think I can help.	32																						
+32	32		301								Celica	Just wait and let Asimov finish what he has to say.	1																					
+33	33		301								Asimov	But we can solve this by simulating encounters with different enemies in different environments‚Äîalthough we have already run out of time on that.	2																					
+34	34		302								That's the "not good news"? What about the bad news?	35																						
+35	35		301									Asimov taps the holographic projection display and refreshes the screen, and the word "Chestlefield" pops up.																						
+36	36		301								Asimov	To speed up the process, we've developed "Chestlefield", a program simulating some popular tabletop games from the Golden Age. Given your experience with a CUB, we need you to carry out the test.	2																					
+37	37		302								So... it's a game?	38																						
+38	38		301								Asimov	Technically, you could say so.	2																					
+39	39		302								Is it... safe?	40																						
+40	40		301									Asimov points to the coffee in his hand.																						
+41	41		301								Asimov	Safe‚Ä¶? It's at least safer than this cold cup of coffee.	2																					
+42	42		302								That's not bad news.	43																						
+43	43		301								Asimov	It's not. I haven't mentioned the bad news.	2																					
+44	44		302								You haven't?	45																						
+45	45		204							1	2																							
+46	46		401							1	202																							
+47	47		301								Asimov	The real bad news is that the main rule designer of the simulation program is the one standing beside you. Celica.	2																					
+48	48		302								What?!	49	I've got to go!	49																				
+49	49		204							1	5																							
+50	50		301								Celica	Wait! Take a look at my design! You'll be fascinated, I promise!	1																					
+51	51		301								Asimov	Just so you know, I'm only responsible for the data collection. I haven't tampered with the content of this program yet...	2																					
+52	52		301								Celica	Mr. Asimov, enough talking... Sit down here, Commandant. I'll teach you how to do it!	1																					
+53	53		401							2	1515																							
+54	54		301									Celica pins you down with a surprisingly strong forearm and activates the test program.																						
+55	55		204							1	2																							
+56	56		301								Celica	I'm sure you'll enjoy it!	1																					
+57	57		302		1		AniZhuanchangBegin				Fingers crossed...																							

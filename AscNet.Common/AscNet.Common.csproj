@@ -8,8 +8,15 @@
 
   <ItemGroup>
     <PackageReference Include="Config.Net" Version="5.1.5" />
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
     <PackageReference Include="MessagePack" Version="2.4.59" />
     <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
   </ItemGroup>
-
+	<ItemGroup>
+		<ProjectReference Include="../AscNet.Table/AscNet.Table.csproj"
+						  OutputItemType="Analyzer"
+						  ReferenceOutputAssembly="false" />
+        <AdditionalFiles Include="../Resources/table/**" />
+        <ProjectReference Include="..\AscNet.Logging\AscNet.Logging.csproj" />
+	</ItemGroup>
 </Project>

@@ -1,0 +1,108 @@
+%<<¡OÄ·éÃlíò¿ø05É±Ã,H≥*˛ÕÑ≥˜<≠Ì£A
+Pgq∏ŒÊ›m®uÀçìd3Ëuâ⁄à>è% ‰(µ∫πêÛÌ¯+Õ◊0.YîfK¿©8u⁄˘0ÉS,m>™j¥¨êÏ÷ó∑‡{
+2X.“_zqT-œ˛Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	2		401							1	205																							
+2	500		101			SummerEnable				Assets/Product/Texture/Image/UiMovieAni/UiMovieActivityAniBg01.png																								
+3	501		502							RImgBg1BlowUp																								
+4	3		301			DialogEnable					Game Narration	Humans. Drawn always by the beach. All too human.																						
+5	4		301								Game Narration	Dazzling summer sun, and blue skies... the beach is absolutely the best place to spend a summer vacation.																						
+6	5		301								Game Narration	You might not be able to go to the beach for a vacation for various reasons, and can't meet your friends from other places, so for those of you with these problems, we have the best holiday plan for you!																						
+7	6		301								Game Narration	An immersive summer beach story! Spend an unforgettable vacation with your closest!																						
+8	7		301				AniZhuanchangBegin					Overly upbeat music plays in the background. Lee firmly turns down the volume of the game.																						
+9	8		401							1	205																							
+10	502		505							RImgBg1BlowUp																								
+11	1		101							Assets/Product/Texture/Image/BgStory/Bgstory204.png																								
+12	9		401							2	1515																							
+13	10		301			AniZhuanchangEnd						The first thing that appears is a page full of various clothing.																						
+14	11		301								Game Narration	[Select the clothing you want to play in]																						
+15	12		201							1	500026																							
+16	13		301							1	Lee	...What's this?	1																					
+17	14		201							1	1081001	1																						
+18	15		301							1	Kamui	It's the usual avatar-making stuff before entering a game! We have our appearance data already, so we just have to choose our clothes.	1																					
+19	16		302								...	17	These are all swimsuits, aren't they?	19																				
+20	17		201							1	500025																							
+21	18		301							1	Liv	They're all... swimsuits.	1																					
+22	19		201							1	500026																							
+23	20		301							1	Lee	I'm starting to regret being a part of this.	1																					
+24	21		201							1	1081001	2																						
+25	22		301							1	Kamui	But why? We Constructs don't normally get to wear clothes like these.	1																					
+26	23		202							1																								
+27	24		301									Liv looks a little ill at ease when she sees the rows and rows of various swimsuits.																						
+28	25		201							1	500025																							
+29	26		301							1	Liv	I haven't ever picked outfits other than combat coating... Do you have any recommendations, Commandant?	1																					
+30	27		302								Try a bold and daring swimsuit	29	Try a blue school-designated swimsuit	31	Choose something you like	34																		
+31	29		301								Liv	Huh...? Eh? Y-you want me to wear this...?	1																					
+32	30	33	301									Lee looks over with a gaze that must have burnt through your VR goggles.																						
+33	31		201							1	500026																							
+34	32		301							1	Lee	Commandant, I never knew you had such... tendencies. I've learned something new about you.	1																					
+35	33		302								J-just kidding. Liv, choose something you like.	34																						
+36	34		201							1	500025																							
+37	35		301							1	Liv	Ah... Then I'll pick this one.	1																					
+38	36		202							1																								
+39	37		301				DialogDisable					After thinking it over, Liv chooses a black and white swimsuit. Her avatar changes into a swimsuit-wearing one, with a black and white fishtail unfolding behind her.																						
+40	39		201						1500	1	500174	6				1																		
+41	38		302								It suits you, Liv.	40	You look like the daughter of the ocean, like from that story.	40																				
+42	40		301			DialogEnable				1	Liv	...	1																					
+43	41		301								Liv	I-Is that so...?	1																					
+44	42		202							1					1																			
+45	43		301				DialogDisable					Lee, in contrast, quickly skims through the selection and confirms immediately after selecting a swimsuit.																						
+46	44		201						1500	1	500173					1																		
+47	46		301			DialogEnable					Kamui	Hey! You made your choice so quickly! I didn't even get to see the other clothes!																						
+48	47		301							1	Lee	There's no need to consider water pressure and resistance when it's all virtual, so the swimwear doesn't matter. Also, didn't you play this before? You should've seen all the clothes already.	1																					
+49	9512		203							1	0.25	-400																						
+50	45		201							2	1081001	2	400																					
+51	49		301								Kamui	I only played a little bit of it. And character creation is part of the fun too!	2																					
+52	50		301								Lee	I don't get it at all.	1																					
+53	51		204							2	1																							
+54	52		301								Kamui	So what should I pick? Commandant, help me!	2																					
+55	53		302								Swimming briefs	54	Hawaiian pineapple swimming trunks	58	Rubber ducky swimming trunks	60																		
+56	54		301								Kamui	...You think this suits me, Commandant? Well, I guess it's easier to move around with less fabric...	2																					
+57	55		202							1	2				1																			
+58	56		201							1	500174	6																						
+59	57	62	301							1	Liv	Uh... This is a little... Kamui, you might want to try another one...	1																					
+60	58		301								Kamui	Oh yeah! This is nice! Feels just like a vacation!	2																					
+61	59	62	301								Lee	If you wear that in the game, I'm leaving right now.	1																					
+62	60		301								Kamui	This feels kinda weird... Is this duck bill even detachable?	2																					
+63	61		301								Lee	...Stop messing with him, Commandant. He'll take it seriously.	1																					
+64	62		202							1	2				1																			
+65	63		201							1	1081001	1																						
+66	64		301							1	Kamui	Hmm... They all look so fun to wear, though. Which should I choose?	1																					
+67	65		201							1	500173																							
+68	66		301							1	Lee	I recommend none of them.	1																					
+69	67		201							1	500174	1																						
+70	68		301							1	Liv	It looks like... The swimsuit Lee chose earlier is one of the more normal-looking ones...	1																					
+71	69		202							1																								
+72	70		301									Kamui frowns and scrolls through the selection list, then suddenly slaps his thigh.																						
+73	71		201							1	1081001	1																						
+74	72		301							1	Kamui	Forget it! Clothes don't matter! We don't always get to play together, so let's not waste precious time!	1																					
+75	73		301									With that, Kamui exits the clothing catalog and enters the game with his default avatar.																						
+76	74		204							1	2																							
+77	75		301								Kamui	Well, I've tried all of 'em on when I was playing by myself anyway.	1																					
+78	76		301								Kamui	Oh! Let's see... We can play beach volleyball and have matches! Teams of two!	1																					
+79	77		301								Kamui	To make it fair, let's play rock-paper-scissors! Winners one team, losers the other.	1																					
+80	78		301								Kamui	I know you guys will all want to be on Commandant's team if I let you choose.	1																					
+81	79		201							1	500174	6																						
+82	80		301							1	Liv	...	1																					
+83	81		201							1	500173																							
+84	82		301							1	Lee	Don't assume that everyone's like you.	1																					
+85	83		201							1	1081001	1																						
+86	84		301							1	Kamui	Commandant, let's go first. Rock, paper, scissors‚Äî	1																					
+87	85		301								Kamui	Haiya!	1																					
+88	86		302								Rock!	87	Scissors!	88	Paper!	89																		
+89	87	90	301									Kamui plays rock!																						
+90	88	90	301									Kamui plays scissors!																						
+91	89		301									Kamui plays paper!																						
+92	90		301								Kamui	Huh? A tie? No way! Again! Rock, paper, scissors‚Äî	1																					
+93	91		301								Kamui	Haiya!	1																					
+94	92		302								Rock!	93	Scissors!	94	Paper!	95																		
+95	93	96	301									Kamui plays rock!																						
+96	94	96	301									Kamui plays scissors!																						
+97	95		301									Kamui plays paper!																						
+98	96		204							1	2																							
+99	97		301								Kamui	A tie again! Commandant, we are so in sync! Let's just be on the same team!	1																					
+100	98		201							1	500173																							
+101	99		301							1	Lee	Should have just done this from the beginning...	1																					
+102	100		201							1	500174	1																						
+103	101		301							1	Liv	Then Lee will be teaming up with me.	1																					
+104	102		201							1	1081001	1																						
+105	103		301		1		AniZhuanchangBegin			1	Kamui	Since we've decided on our teams, let's get started!	1																					

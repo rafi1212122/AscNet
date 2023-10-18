@@ -1,0 +1,51 @@
+L√,‘°XYYÇÿvÚQW¥Äü·˜˚Ê>]’3ÜmäÏ72ôΩÉ~j™
+Cµynç∑iMøÕSc ÉÙ∂˘`çôÚ	øIÁö!ÍÅW>ƒêÖ’©Ic•¨¿‘®!Í‚ØØjõa£»é(æ”µú≠ÂÀ2˙0~¡ëî'yJId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory222.png																								
+2	2		401							1	10																							
+3	3		201							1	500088	4																						
+4	4		301			DialogEnable				1	Diana	I can't believe there's such a large cave here...	1																					
+5	5		301									Walking into the entrance, everyone arrives at a strange underground world.																						
+6	7		301							1	Diana	There's a production line over there...	1																					
+7	1000		203							1	0.25	400																						
+8	1001		201							2	500214	4	-400																					
+9	8		301							1	Rosetta	That must be the where our enemies came from... No wonder the numbers don't match up.	2																					
+10	9		301								Diana	That doesn't make sense, though. Why would such a large cave go undiscovered for this long...?	1																					
+11	10		301								Rosetta	Must be some sort of interference. Look up there‚Äîthe strange lights. They must be some sort of signal jammer.	2																					
+12	11		301								Diana	They'd put so much effort into burying their past mistakes and building this military base, instead of trying to rebuild the ARU...	1																					
+13	1002		302								Because they had war in mind.	12	That's all in the past.	14																				
+14	12	13	301								Diana	Yeah... The captain said that Amberia and the bionics were built for war from the start.	1																					
+15	13	16	301								Rosetta	From the looks of this cave, you can see the true intent of the ARU's leadership. They never swayed from their belief that war was the final solution.	2																					
+16	14	15	301								Rosetta	Yeah, Diana. All in the past.	2																					
+17	15	16	301								Rosetta	Whatever the past mistakes, let's try our best to make amends.	2																					
+18	16		301								???	Oh, how very deep and all, Forest Guards. Ah, „Äêkuroname„Äë, you as well.																						
+19	1003		302								Who are you?	17	Who's there?!	18																				
+20	17	19	301								???	Oh, wha... Oh. Wait. I don't think we ever met.																						
+21	18		301								???	Well, well.																						
+22	19		301									An unfamiliar female voice warbles through the air, nauseous and muffled like noise.																						
+23	20		301								Lamia	Self-intros are annoooyiiing, but I guess I'll still go through with it... My name is Lamia, an Ascendant.																						
+24	21		301								Rosetta	First Alpha, now Lamia? Do you Ascendants think you can stroll in and out of the ARU, just as you please?	2																					
+25	22		301								Lamia	Well, we just needed something here... That's all.																						
+26	1004		302								Are you the one behind all of this?	23	Where is Atiel?	26																				
+27	23	24	301								Lamia	Oh, you are such a funny little tart... Didn't you just arrive at your answer? It's all the ARU's fault.																						
+28	24	25	301								Lamia	Whether it's the bionics that are attacking the ARU,or the Amberia buried in this place‚ÄîI've got nothing to do with 'em.																						
+29	25	28	301								Lamia	I'm just a little spectator. That's all.																						
+30	26	27	301								Lamia	Oh come on, little pumpkin, you know the answer.																						
+31	27	28	301								Rosetta	Which means... you have Atiel.	2																					
+32	28		301								Lamia	I'm only here for Amberia. We've got enough juice, so after she's fully charged, we can make her go beep-boop with the code, and... voila!																						
+33	29		301								Lamia	Then Amberia will be under my control. After which...																						
+34	1005		302								You're just telling us that?	30	Can't you just use the virus to control her?	31																				
+35	30	32	301								Lamia	...I'm not tryna tell you, you're the brutes who barged in on me talking to myself! Hmph!																						
+36	31	32	301								Lamia	...Asks all the wrong questions‚Äîcheck.																						
+37	32		301									Lamia cuts the broadcast. Bionics begin pouring out of the dark recesses of the cavern.																						
+38	1006		202							1	2																							
+39	1007		201							1	500208																							
+40	1008		401							2	1508																							
+41	33		301							1	Bionic Machine	Urgh‚Äî	1																					
+42	1009		201							1	500088	4	400																					
+43	1010		201							2	500214		-400																					
+44	34		301							1	Diana	Wait, these bionics... They've been corrupted!	1																					
+45	35		301								Diana	Corrupted and Ascendants... Is that Lamia trying to turn the ARU into Kowloong...?	1																					
+46	36		301								Rosetta	We're here to prevent that from happening. Let's break through their forces and continue downward, Commandant.	2																					
+47	500		401							2	1506																							
+48	37		301			RImgBg1Shake						As you are about to move, the ice cave begins to rumble.																						
+49	38		301		1		AniZhuanchangBegin				Diana	It's a trap?!	1																					

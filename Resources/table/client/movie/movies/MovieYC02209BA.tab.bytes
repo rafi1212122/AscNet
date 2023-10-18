@@ -1,0 +1,420 @@
+p»÷Þ¤…*oó;aöi•Bª¿lQ”èÒ¹hƒ}¼,ÛäjAæÉø%ÌÔ”òÝÃûL3ø`Ý•Ó"7SI+Ž›jÈáwì1°÷>µÙ«%¬·â‘eÄsþ²ÿv­¤¼9¡Í¯kÍ•ˆYÄÆ´>´ãvr©ÚM‡	WÐId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory436.jpg																								
+2	2		401							1	55																							
+3	3		201							1	500136																							
+4	4		301			DialogEnable				1	Zack	We made it.	1																					
+5	5		202							1					1																			
+6	6		301									Nearly at their limits, the Scavengers stand in front of the doorway. A dusty nameplate with the words "Central Control Room" written on it hangs on the open door.																						
+7	7		201							1	500140		-600																					
+8	8		201							2	500139		600																					
+9	9		201							3	500136																							
+10	10		301							1	"Beardy"	Is this what we're looking for?	1																					
+11	11		301								Kordes	I didn't expect to find it... Seems like there aren't any monsters here. Maybe because we're on such a high floor?	2																					
+12	12		301								Zack	Maybe the monsters can't climb stairs. Or maybe we're just lucky.	3																					
+13	13		301								Zack	CPFs with earlier serial codes are often prototypes. The government feared a Punishing Virus leak or that the technology wasn't full developed. So they were often built in less populated areas. Looks like it's smaller in scale and the interior hasn't been fully optimized.	3																					
+14	14		301				AniZhuanchangBegin				Zack	The central control room is the most important place in the tower, so it's relatively easy to find.	3																					
+15	15		202							1	2	3			1																			
+16	16		101							Assets/Product/Texture/Image/BgStory/Bgstory441.jpg																								
+17	17		301			AniZhuanchangEnd						Entering the room, Zack smells a dusty, stale odor, indicating that the room hadn't been opened for quite some time.																						
+18	18		301									Zack shows a subtle expression, like a long entangled hatred, but with a flash of memory.																						
+19	19		301									His eyes spell a sense of hatred towards something he cannot separate from.																						
+20	20		301									Zack touches the console, causing the interface to light up.																						
+21	21		201							1	500136																							
+22	22		301							1	Zack	Looks like it's still working...!	1																					
+23	23		202							1					1																			
+24	24		301									Zack's hand trembles slightly with excitement. He puts his hands on the console and slowly exhales.																						
+25	25		201							1	500140																							
+26	26		301							1	"Beardy"	You work on that. I'll go see if we can find anything else in the room.		1																				
+27	27		202							1					1																			
+28	28		301									Zack nods, then begins to study the complex control system.																						
+29	29		201							1	500136																							
+30	30		301							1	Zack	First, I need to locate the fire door at the entrance... Do I need to input a command...?	1																					
+31	31		301								Zack	Damn it. Where the hell am I supposed to find the commands? They were probably set ages ago!	1																					
+32	32		301								Zack	Guess I'll see if I can at least open a side door...	1																					
+33	33		301								Zack	Wait... the last time this control system was activated... it was during the end of the Post-Pandemic Age?!	1																					
+34	34		301								Zack	Since the door to the tower was never opened, why is it still running?! There hasn't been anyone to maintain the centrifuge array. There's no way it should still be in operation!	1																					
+35	35		301								Zack	What's going on here... If the tower still functions normally, there shouldn't be so many Hetero-Creatures here!	1																					
+36	36		201							2	500140		-600																					
+37	37		201							3	500139		600																					
+38	38		301							1	Kordes	What's wrong? Your face is pale.	3																					
+39	39		301								Zack	Something's... not right with this tower.	1																					
+40	40		301								"Beardy"	That's for sure, pal. Look around at all these plants and monsters. Of course, there's something going on here.	2																					
+41	41		301								Zack	No, that's not it.	1																					
+42	42		301								Zack	I thought this tower was started recently... That's what the operation log states. But the control system shows that it was last activated during the Post-Pandemic Age!	1																					
+43	43		301								Zack	So how was the tower activated? Who can bypass the control authentication here and start the tower?	1																					
+44	44		301									Zack puts his head in his trembling hands, muttering to himself.																						
+45	45		301								Zack	This tower... has been in operation for at least two months.	1																					
+46	46		301								"Beardy"	...Something wrong with that?	2																					
+47	47		301								Zack	To put it plainly, the CPF is just a super large air conditioner.	1																					
+48	48		301								Zack	With the operation of the centrifuge array, the filter tower can separate gases with different densities, allowing it to pull the Punishing Virus from the air and transfer it to the filter element at the base of the tower.	1																					
+49	49		301								Zack	Therefore, it's necessary to do routine maintenance on the centrifuge array and clear the filter once it's reached max concentration.	1																					
+50	50		301								Zack	Generally, CPFs in areas with larger populations need to have routine maintenance once a month due to the air quality. But even CPFs in forests cannot go two months without maintenance.	1																					
+51	51		301								Zack	But... The Punishing concentration here is low, and we can still breathe here safely.	1																					
+52	52		301								"Beardy"	Is someone maintaining it?	2																					
+53	53		301								Zack	Impossible. It's too complicated. Each step needs to be carried out strictly according to special instructions. Even the slightest error can lead to disastrous results. We can't joke around with the lives of everyone who lives within a 12 kilometer radius.	1																					
+54	54		301								"Beardy"	"We"? I get it now. You know, I've been meaning to ask how you know all of this. I know that you're a mechanical engineer, but I didn't know that you used to work in CPFs.	2																					
+55	55		301								Zack	"Was" a mechanical engineer.	1																					
+56	56		301									Zack quickly corrects him.																						
+57	57		301								Zack	I didn't participate in the construction of any tower. I just had to maintain the centrifuge array once since no one wanted to go near it.	1																					
+58	58		301								Zack	...After all, it's not easy to maintain it. Any mistake will lead to infection. It's nothing but bad news.	1																					
+59	59		301								Zack	The only reward was a nutri-stick. In retrospect, I was just taken advantage of...	1																					
+60	60		301								Kordes	If that's the case, where is the filtered Punishing Virus going?	3																					
+61	61		301								Zack	That's the problem.	1																					
+62	62		301								Kordes	The plants and monsters we saw on the way here...	3																					
+63	63		301								Zack	...I don't think things are that simple.	1																					
+64	64		301									After Zack presses a few buttons on the terminal, the projection screen suddenly lights up, showing an image.																						
+65	65		301									Even "Beardy" who has no knowledge of the CPF can see the seriousness of the situation. The image is covered with red warnings and data.																						
+66	66		301				AniZhuanchangBegin				"Beardy"	...What's this?	2																					
+67	67		401							1	51																							
+68	68		202							1	2	3			1																			
+69	69		101							Assets/Product/Texture/Image/BgStory/Bgstory425.jpg																								
+70	70		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryError.prefab	2																							
+71	71		201							1	500301																							
+72	72		301			AniZhuanchangEnd				1		The image is an indecipherable 3D model. It looks like a heart but also an egg of some kind of creature. Countless red cables stretch out from it, each with a high concentration of Punishing Virus.																						
+73	73		301				AniZhuanchangBegin					The cables look eerily familiar to the Scavengers. They have an uncanny resemblance to the umbilical cords on the humanoid creatures in the forest or the plants in the cracks of the tower.																						
+74	74		202							1					1																			
+75	75		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryError.prefab																							
+76	76		101							Assets/Product/Texture/Image/BgStory/Bgstory441.jpg																								
+77	77		201							1	500136																							
+78	78		201							2	500140		-600																					
+79	79		201							3	500139		600																					
+80	80		301			AniZhuanchangEnd				1	Zack	...These umbilical cords are like pipelines of energy supply, providing this thing with... Punishing Virus.	1																					
+81	81		301								Zack	The Punishing Virus, which should've been sent to the filter element through the centrifuge array, is being redirected into whatever the hell this thing is.	1																					
+82	82		301									Zack clenches his fist on the console even tighter.																						
+83	83		301								Kordes	This level of concentration...	3																					
+84	84		301									Kordes' voice trembles. He doesn't even dare to look at the alarming data that continues to escalate.																						
+85	85		301								"Beardy"	Holy ****. We're done for. Compared to the Red Tide, this is a whole new level.	2																					
+86	86		301								"Beardy"	What's this progress bar?	2																					
+87	87		301									"Beardy" points to the progress bar at the bottom of the screen. It's visibly ticking up as they watch.																						
+88	88		301								"Beardy"	89.6%. What happens when it's full?	2																					
+89	89		301									Zack shakes his head in silence.																						
+90	90		301									Even if they can't get the answer, they know that when the progress bar is full, nothing good will happen.																						
+91	91		301								Zack	What should we do? We can handle one or two Hetero-Creatures, but this looks completely out of our league.	1																					
+92	92		301									Should they escape and act like they didn't see anything? The trio exchanges glances, apparently all thinking the same thing.																						
+93	93		301								"Beardy"	The existence of something like this is a huge threat. We can't just let it go.	2																					
+94	94		301								Zack	Besides, the conservation area we're going to isn't far from here.	1																					
+95	95		301								Kordes	...Help.	3																					
+96	96		301								Kordes	...Call for help!	3																					
+97	97		301								Kordes	This tower was built by the World Government. There must be a communication system, an alarm system, and a special emergency frequency!	3																					
+98	98		301								Kordes	If we can send a message, even if it's a radio signal, even if Babylonia's army doesn't receive it, as long as someone can receive it...	3																					
+99	99		301								"Beardy"	Someone might come to the rescue! Yeah! Why didn't I think of that...	2																					
+100	100		301				AniZhuanchangBegin				Zack	I'll give it a try.	1																					
+101	101		202							1	2	3			1																			
+102	102		101							Assets/Product/Texture/Image/BgStory/Bgstory425.jpg																								
+103	103		201							1	500367	1																						
+104	104		301			AniZhuanchangEnd				1	Roland	Hah... Look at them trying to call for help.	1																					
+105	105		301								Roland	They have no idea that we can see all their running, hiding, struggling and even trying to call for help crystal clear on the monitors.	1																					
+106	106		301									Looking at the Scavenger with a serious look on the screen, Roland laughs heartily, but his eyes are not smiling at all. Inside them are only deep and complicated emotions.																						
+107	107		202							1					1																			
+108	108		301									He hears a distant noise in his M.I.N.D., like quietly dusting off an old roll of film and playing it again.																						
+109	109		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+110	110		301									"Of course, I do. First, the screen went black. After that, the cameras kept changing, but I saw everything."																						
+111	111		301				AniZhuanchangBegin					"You running and looking for a place to hide, then ending up in that conference room. I saw the whole crisis!"																						
+112	112		101							Assets/Product/Texture/Image/BgStory/Bgstory441.jpg																								
+113	113		301			AniZhuanchangEnd						Roland shakes his head, forcing himself to recover from the chaos of noise. The Scavengers' onscreen "performance" continues.																						
+114	114		301									They are anxiously checking the large operation panel in the central control room, trying to find a way to contact the ground forces or Babylonia.																						
+115	115		301									But the filter's signal had long since been jammed. No one will hear their desperate cries for help.																						
+116	116		301									The Scavengers in the image seem to realize this. They stand around the console, their faces pale as a ghost.																						
+117	117		301									Roland has seen this look of despair countless times on helpless Constructs and hopeless humans...																						
+118	118		301									And... What else is on their face?																						
+119	119		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+120	120		301									"Anyway, please call the police ASAP"																						
+121	121		301									"I gotta say, this attempt at boosting audience participation is a bit ham-fisted."																						
+122	122		301				AniZhuanchangBegin					...But do you really know what 'real' is?																						
+123	123		101							Assets/Product/Texture/Image/BgStory/Bgstory425.jpg																								
+124	124		301			AniZhuanchangEnd						Even for just a moment, Roland still feels the pain tearing his stomach. A feeling of nausea that he had buried in the depths of his soul a long time ago. It was as fleeting as an illusion, but at the moment, it was clear as day.																						
+125	125		301									Those feelings that he thought he would not resurface, like ghosts hidden in an abandoned house, begin to haunt him again one by one with the progression of the "performance."																						
+126	126		301									â€”These feelings become stronger and stronger until they could no longer be ignored.																						
+127	127		201							1	500367	5																						
+128	128		301							1	Roland	...Ha.	1																					
+129	129		301								Roland	Good show... Jolly good show.	1																					
+130	130		202							1					1																			
+131	131		301									Roland smiles with a slight grimace, then jumps off the stack of old machinery and walks to the door.																						
+132	132		201							1	500367	1																						
+133	133		301							1	Roland	But watching these are dreadfully boring. I'm going to find a place to sleep.	1																					
+134	134		301									Before he leaves, he glances back at the rusty schematic of the tower hanging on the wall and the location of hidden fire exits.																						
+135	135		301									Generally speaking... the audience isn't allowed on stage.																						
+136	136		301				AniZhuanchangBegin					But there's always an exception.																						
+137	137		202							1					1																			
+138	138		101							Assets/Product/Texture/Image/BgStory/Bgstory441.jpg																								
+139	139		301			AniZhuanchangEnd						In the central control room, the three Scavengers are slumped on the ground.																						
+140	140		201							1	500136																							
+141	141		201							2	500140		-600																					
+142	142		201							3	500139		600																					
+143	143		301							1	"Beardy"	...Things aren't looking good.	2																					
+144	144		301								Zack	...I've tried everything, but I can't start the gate using the central control system here.	1																					
+145	145		301								Kordes	We can't send a distress signal, and now we can't even open the door.	3																					
+146	146		203							2	0.5	-400																						
+147	147		301								"Beardy"	Impossible... There's gotta be another way. Right?	2																					
+148	148		301								"Beardy"	...We're so close to the conservation area.	2																					
+149	149		301									On the brink of fatigue, "Beardy" drags himself over and grabs Zack's clothes with his trembling hands. He keeps repeating his question. The always cheery smile has disappeared from his face. Instead, there's only the gradual emergence of fear and despair.																						
+150	150		301									It seems that some string that has been stretched tight for a long time is finally about to break.																						
+151	151		301								Zack	...	1																					
+152	152		301				AniZhuanchangBegin				Kordes	...	3																					
+153	153		202							1	2	3			1																			
+154	154		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+155	155		301			AniZhuanchangEnd						No one responds.																						
+156	156		301									The central control room is almost maddeningly silent. The intermittent hiss of the CPF being strangled by the plants outside knocks at their hearts.																						
+157	157		301				AniZhuanchangBegin					The projection screen is still lit, and the progress bar reading is still growing.																						
+158	158		101							Assets/Product/Texture/Image/BgStory/Bgstory441.jpg																								
+159	159		201							1	500136																							
+160	160		301			AniZhuanchangEnd				1	Zack	No...	1																					
+161	161		301								Zack	It's not over yet...	1																					
+162	162		301									Zack stands up slowly.																						
+163	163		301								Zack	Punishing Virus... Corrupted... This is all their doing... Damn it...	1																					
+164	164		301									As if all his strength has been pulled away, he holds onto the console for support. However, his eyes are transfixed on the bright red color on the projection screen.																						
+165	165		301								Zack	Just because of an oversight before I went to sleep... I didn't notice the mechanical abnormality... No, no, that's because I've been lying. Hell, I'm still lying to myself!	1																					
+166	166		301								Zack	I said, "How can my machines be infected with an organic virus? Isn't that just a common malfunction?"	1																					
+167	167		301								Zack	I hid the mechanical abnormality, and I didn't report it...	1																					
+168	168		301								Zack	When I woke up... I opened the door...	1																					
+169	169		301								Zack	All the machines I was familiar with now had... red eyes... their bodies... stained with red blood...	1																					
+170	170		301								Zack	The anomaly I should've paid more attention to harmed my family... harmed the entire block...	1																					
+171	171		201							1	500139																							
+172	172		301							1	Kordes	Zack, calm down...	1																					
+173	173		202							1					1																			
+174	174		301									Zack closes his eyes and takes a deep breath. His hand on the console clenches into a fist.																						
+175	175		201							1	500136																							
+176	176		301							1	Zack	The CPFs... are machines built to protect people.	1																					
+177	177		301								Zack	The conservation area was built around the CPF. Countless refugees were reunited under the tower.	1																					
+178	178		301								Zack	Mechanic engineers built these towers. How could we let these... disgusting monsters... act so recklessly!	1																					
+179	179		301									Zack puts his hand on the keyboard and begins to type rapidly. Several pages spread out on the projection screen.																						
+180	180		301									Each page displays the number and status of various groups of centrifuges.																						
+181	181		301								Zack	I'm going to destroy the tower's centrifuge array, cut off power and put a stop to this CPF.	1																					
+182	182		301								Zack	Even if we can't destroy the monster, we can at least prevent that progress bar from increasing.	1																					
+183	183		301				AniZhuanchangBegin				Zack	The CPFs should be a hope for humanity, not a lair for those monsters!	1																					
+184	184		202							1					1																			
+185	185		101							Assets/Product/Texture/Image/BgStory/Bgstory425.jpg																								
+186	186		401							2	716																							
+187	187		301			AniZhuanchangEnd						An ear-piercing alarm begins to echo throughout the entire tower.																						
+188	188		301								Alert	WARNING! WARNING! Centrifuge array in Sector A deactivated. Please contact maintenance personnel to resolve the issue immediately!																						
+189	189		301								Alert	WARNING! WARNING! Centrifuge array in Sector B deactivated. Please contact maintenance personnel to resolve the issue immediately!																						
+190	190		301								Alert	WARNING! CPF will be rendered inoperative without immediate course of action.																						
+191	191		201							1	500308																							
+192	192		301							1	Cinderelik	...?	1																					
+193	193		301									The metrics and oscillograms on the screen have changed significantly.																						
+194	194		301								Cinderelik	This reading... Is... "Mother"... "afraid"?	1																					
+195	195		301									The progress bar that is about to come to an end stops slowly and buzzes repeatedly with a warning sound.																						
+196	196		301									â€”94.5%																						
+197	197		301									â€”94.5%																						
+198	198		301									â€”93.9%																						
+199	199		301									â€”93.5%																						
+200	200		301									â€”Then, the reading starts to slowly retreat.																						
+201	201		301								Cinderelik	...Mother!	1																					
+202	202		202							1					1																			
+203	203		301									At the moment she sees the reading beginning to retreat, Cinderelik's dark golden pupils suddenly shrink.																						
+204	204		301									She immediately looks toward the Hetero-Mother, which was previously in a stable state and is now crying. After the scarlet umbilical cords lost their supply of Punishing Virus, they fall to the ground like a rapidly withering and rotting plant.																						
+205	205		301									The remaining red umbilical cords, hungry for more nutrients, slowly crawl with "Mother" to the place with the highest Punishing concentration.																						
+206	206		201							1	500308																							
+207	207		301							1	Cinderelik	"Mother" is starving because of them.	1																					
+208	208		301								Cinderelik	The centrifuge arrays... Four of them are already irreparable.	1																					
+209	209		301								Cinderelik	...Why? This problem has never occurred in previous experiments.	1																					
+210	210		301								Cinderelik	...They're hurting "Mother".	1																					
+211	211		301								Cinderelik	No... I can't let this happen.	1																					
+212	212		301								Cinderelik	Unfavorable factors in the experiment need to be screened out.	1																					
+213	213		301									Cinderelik raises her hand and gently sings a lullaby.																						
+214	214		301									The lullaby is calm and long, passing through the stacked steel frames and iron pipes. The Hetero-Creatures hiding in the dark, as if having obtained some enlightenment, go in a certain direction under the guidance of Cinderelik.																						
+215	215		301								Cinderelik	"Mother" needs more space for delivery.	1																					
+216	216		301				AniZhuanchangBegin					Cinderelik commands the Hetero-Plants that has penetrated through the cracks to rip open the ceiling. Cross-shaped light projects onto "Mother". As the cracks widen, Cinderelik can now see what's above, as "Mother" gradually moves in that direction.																						
+217	217		401							1	60																							
+218	218		202							1					1																			
+219	219		101							Assets/Product/Texture/Image/BgStory/Bgstory441.jpg																								
+220	220		201							1	500140																							
+221	221		301			AniZhuanchangEnd				1	"Beardy"	You've got to be joking...	1																					
+222	222		202							1					1																			
+223	223		301									Despite all of the Hetero-Creatures they had seen along the way, none frightened them as much as the scene in front of the Scavengers.																						
+224	224		301									From the glass wall in front of the central control room, they can see the scene inside the CPF. Only a faint skylight at the top of the tower illuminates the base floor, which had been eroded by the Hetero-Plants.																						
+225	225		301									The sturdy, solid vines break open the floor to form a hatch. A huge black shadow appears from deep within the darkness. Something rises gradually on the branches and vines. The sounds of the CPF's walls being scratched and squeezed echo in the nearly fortified space.																						
+226	226		301									The dense black shadow is like a giant parasite living in the tower, climbing up among the lingering branches step by step.																						
+227	227		201							1	500136																							
+228	228		301							1	Zack	Is that it... I didn't expect it to be hiding under the CPF.	1																					
+229	229		301								Zack	Is it climbing outside because it can't absorb energy from the centrifuge array?	1																					
+230	230		301								Zack	This is only the beginning...	1																					
+231	231		301									Zack lowers his head and quickly operates the control terminal. Sweat drips from his forehead and falls on his trembling hands, which does nothing to impede his work.																						
+232	232		301								Zack	I need to violate each safety protocol one by one... I never thought I'd see such a day, but...	1																					
+233	233		202							1					1																			
+234	234		301								Alert	ERROR! ERROR! Centrifuge array in Sector C deactivated. Please contact maintenance personnel to resolve the issue immediately!																						
+235	235		301									But who could have thought that doing such a thing would end up helping humanity resist the Punishing Virus?																						
+236	236		301									As "Mother" begins to rise, the vines become more aggressive and continue to bang on the door to the central control room. To combat this, Kordes and "Beardy" barricade the door with heavy objects.																						
+237	237		301									Both of them slump on the floor with their backs against the heavy objects and look at Zack, who is hurriedly working in front of the console.																						
+238	238		301									"Beardy" looks like he has recovered to his usual appearance and smiles bitterly at his empty gun.																						
+239	239		201							2	500140		-450																					
+240	240		201							3	500139		450																					
+241	241		301							1	"Beardy"	Now we really have no way back, Zack.	2																					
+242	242		301								Kordes	Hey, "Beardy". Think these flower seeds will grow if I ingest them?	3																					
+243	243		301								"Beardy"	Heh... You're always calling me an idiot, but turns out you're the real idiot. I might not know much about plants, but I do know that burying a body under a flower patch burns their roots.	2																					
+244	244		301								Kordes	...I just feel sorry that I couldn't make my daughter's wish come true.	3																					
+245	245		301								Kordes	But if I die, I just hope I don't see her there.	3																					
+246	246		301								Kordes	I hope that she's alive... That she lives to see when dawn of a new day comes.	3																					
+247	247		301								"Beardy"	Given how long it's been since you've seen her... If she's still alive, she should be all grown up by now.	2																					
+248	248		301									Kordes takes out a photo tightly wrapped in clear plastic from his breast pocket and gently strokes it. In doing so, the small bag of seeds is squeezed out and falls gently onto the floor.																						
+249	249		301									But Kordes doesn't pick it up. His eyes remain firmly locked on the photo for a long time.																						
+250	250		301									In the yellowing photo, the girl with white hair and pink clothes looks like a gentle flower. She gives the camera a bright smile.																						
+251	251		301								Kordes	She's my pride and joy.	3																					
+252	252		202							2	3				1																			
+253	253		201							1	500136																							
+254	254		301							1	Zack	...	1																					
+255	255		301								Zack	Sorry.	1																					
+256	256		301								Zack	If I hadn't insisted on coming here... you wouldn't...	1																					
+257	257		202							1					1																			
+258	258		201							2	500140		-450																					
+259	259		201							3	500139		450																					
+260	260		301							1	"Beardy"	No point talking about such useless things at a time like this.	2																					
+261	261		301								Kordes	We all know that we couldn't have reached the conservation area with the supplies we had.	3																					
+262	262		301								Kordes	And obviously, you can't leave us.	3																					
+263	263		301								"Beardy"	At least, we'll die fightingâ€”let alone against an entire tower of Hetero-Creatures. This would make for one hell of a movie. We'd be the heroes.	2																					
+264	264		301									Even now, "Beardy" tries his best to liven up the mood. Maybe because this is the role he has always played in the team. Or maybe he simply doesn't want his partners' sad expressions to be his last memory as they die together.																						
+265	265		301								Kordes	Yeah, you're right. There's even someone to play the role of pulling out his daughter's picture right before he dies. We've got all the roles covered.	3																					
+266	266		202							2	3				1																			
+267	267		301									Zack chuckles. He lowers his head and swallows the guilt in his eyes as he looks back at the projector screen.																						
+268	268		201							1	500136																							
+269	269		301							1	Zack	Good. Looks like the centrifuge array in Sector D is also...	1																					
+270	270		301								Zack	Rgh...!	1																					
+271	271		301									His abdomen feels ice cold at first, followed by intense heat, then agonizing pain.																						
+272	272		402							716																								
+273	273		401							1	33																							
+274	274		301									Zack lowers his head slowly and sees a scarlet branch protruding from his abdomen as blood drips down from it and onto the table.																						
+275	275		202							1					1																			
+276	276		201							2	500140		-450																					
+277	277		201							3	500139		450																					
+278	278		301							1	Kordes & "Beardy"	Zack!!!	2	3																				
+279	279		202							2	3				1																			
+280	280		301									All this happens so suddenly that no one had noticed branches emerging from the small vents in the ceiling.																						
+281	281		301									Due to the intense pain from the stab wound in his abdomen, Zack can no longer support himself and falls to the ground slowly.																						
+282	282		301									The wound quickly shows symptoms of Punishing infection. A burning sensation rapidly spreads to his limbs.																						
+283	283		201							2	500140		-450																					
+284	284		201							3	500139		450																					
+285	285		301							1	"Beardy"	Kordes, serum!	2																					
+286	286		301								Kordes	Here!	3																					
+287	287		301									Kordes hurriedly takes out the box of serum from his bag, grabs a vial, and prepares to give Zack an injection.																						
+288	288		202							2	3				1																			
+289	289		201							1	500136																							
+290	290		301							1	Zack	D-don't... It's... no use... Don't w-waste it...	1																					
+291	291		301									Zack reaches out and stops Kordes' hand holding the serum, shaking his head.																						
+292	292		202							1					1																			
+293	293		201							2	500140		-450																					
+294	294		201							3	500139		450																					
+295	295		301							1	Kordes	But you...	3																					
+296	296		202							2	3				1																			
+297	297		201							1	500136																							
+298	298		301							1	Zack	I've... had it coming...	1																					
+299	299		301									He struggles to raise his head and looks at the progress bar on the projection screen.																						
+300	300		301									â€”79.9%																						
+301	301		301								Zack	...Is t-that it?	1																					
+302	302		202							1					1																			
+303	303		301									Through the glass, the giant indescribable shell rises up to the height of the central control room. It appears this is the highest it can reach. The black armored shell tightly wraps the soft red underbelly. It frantically shakes the umbilical cords connected to it, screaming in agony.																						
+304	304		301			RImgBg1Shake					???	â€”!																						
+305	305		301									A moment later, the barricaded door is smashed open by some immense force from outside.																						
+306	306		301									Outside, they see a pale girl floating.																						
+307	307		301									Or rather, being hoisted in the air. Two fish-shaped Hetero-Creatures tightly holding strands of cloth hanging from her clothes give her the illusion of floating.																						
+308	308		301									A half-broken wing stretches out from behind her. The girl's golden pupils are like a bottomless haze devoid of emotion.																						
+309	309		201							1	500308																							
+310	310		301							1	Cinderelik	Please stop hurting "Mother".	1																					
+311	311		301								Cinderelik	Please stop interfering with the tower.	1																					
+312	312		301									The girl raises her slender wrist and points to the huge shell hanging in the distance.																						
+313	313		301								Cinderelik	"Mother" is about to go through the most crucial stage. I can't let her be in danger at this time.	1																					
+314	314		301								Cinderelik	You should have come to help incubate "Mother".	1																					
+315	315		301								Cinderelik	...Instead, you hurt it.	1																					
+316	316		301								Cinderelik	This is an unforgivable sin.	1																					
+317	317		301									With her light, gentle tone, the pale and thin girl looks vulnerable, but the Scavengers knew the moment the door was torn open that she is no ordinary human nor is she on their side.																						
+318	318		301								Cinderelik	Now, please, turn into a bouquet of red flowers for "Mother".	1																					
+319	319		301									She delivers them the most cruel death sentence in her most gentle tone.																						
+320	320		401							2	10007502																							
+321	321		301			RImgBg1Shake						Right as Cinderelik points her finger at the Scavengers, a giant hole is blown out of the wall beside her with a sudden bang. Scrap metal and cement fly past her. In response, she quickly commands her fish, allowing her to escape unharmed. However, the sudden blast interrupts her attack.																						
+322	322		201							1	500384																							
+323	323		301							1	???	Oops! Sorry! My aim was a little off. I didn't hurt you, did I? Looks my aim has suffered from being so weak right now.	1																					
+324	324		202							1					1																			
+325	325		301									A figure appears in the breached wall. He shakes the chain blade in his hand, and the dust from the explosion slowly settles.																						
+326	326		201							1	500308																							
+327	327		301							1	Cinderelik	Roland?	1																					
+328	328		301								Cinderelik	...I'm fine. Please be more careful next time.	1																					
+329	329		203							1	0.25	-450																						
+330	330		201							2	500367	1	450																					
+331	331		301							1		The figure emerges from the dust. Shaking the dust off his hair, he smiles gracefully.																						
+332	332		301								Roland	Good. I didn't miss the climax, did I?	2																					
+333	333		301								Cinderelik	They hurt "Mother" and hindered der Meister's plan. They have to pay the price.	1																					
+334	334		301								Roland	Heh... Looks like they're already scared out of their wits.	2																					
+335	335		301								Roland	Think I can have a word with them?	2																					
+336	336		202							1	2				1																			
+337	337		301									Cinderelik silently floats to the side and lands in the corner of the room.																						
+338	338		201							1	500367	1																						
+339	339		301							1	Roland	Thank you so much.	1																					
+340	340		301									Roland looks at the Scavengers with a smile.																						
+341	341		301								Roland	Hmph, what a pity. Especially you, Zack... That wound sure looks serious. I'd advise you to leave him behind. You can't escape with him.	1																					
+342	342		201							1	500136																							
+343	343		301							1	Zack	Aren't you... Rolmo...?	1																					
+344	344		201							1	500367	1																						
+345	345		301							1	Roland	Ah, I'm surprised you recognize me even as you're about to go unconscious. I'm touched.	1																					
+346	346		201							1	500136																							
+347	347		301							1	Zack	I-I was suspicious of you... ever since we entered the t-tower... Cough...	1																					
+348	348		202							1					1																			
+349	349		201							2	500140		-450																					
+350	350		201							3	500139		450																					
+351	351		301							1	"Beardy"	What?! That's the refugee who led us here?!	2																					
+352	352		301								Kordes	Why'd you trick us...	3																					
+353	353		202							2	3				1																			
+354	354		301									The Scavengers' surprise in realizing that they were deceived was just as Roland had imagined, but their reaction lacks in intensity. Probably because they were already past the point of exhaustion.																						
+355	355		201							1	500367	1																						
+356	356		301							1	Roland	I didn't trick you.	1																					
+357	357		301								Roland	The forest... The tower... The supplies... Every word I said was the truth. You saw it with your own eyes.	1																					
+358	358		301								Roland	I gave you intel and warned you about the intel. But, it was ultimately you who made the decision to come here, didn't you?	1																					
+359	359		204							1																								
+360	360		301								Roland	So far, everything was on your own volition. I just led the way.	1																					
+361	361		301									Roland's smile disappears from the corner of his lips. His tone carries a sense of pity. A trace of inexplicable sadness flashes in his eyes as he looks at them.																						
+362	362		301									Maybe this is just another layer of his act.																						
+363	363		202							1					1																			
+364	364		201							2	500140		-450																					
+365	365		201							3	500139		450																					
+366	366		301							1	Kordes	You...!	3																					
+367	367		202							2	3				1																			
+368	368		201							1	500367	1																						
+369	369		301							1	Roland	Don't be angry. What if I saidâ€”you have a chance to survive?	1																					
+370	370		202							1					1																			
+371	371		201							2	500140		-450																					
+372	372		201							3	500139		450																					
+373	373		301							1	Kordes	You think we'll believe your lies?	3																					
+374	374		202							2	3				1																			
+375	375		201							1	500367	1																						
+376	376		301							1	Roland	Right, my apologies. What I said wasn't forthright enough.	1																					
+377	377		301									Roland reaches out and gestures with a finger toward "Beardy" and Kordes.																						
+378	378		301								Roland	You... And You... If you leave Zack here, I'll ensure your safe departure from this place. How does that sound?	1																					
+379	379		202							1					1																			
+380	380		201							2	500140		-450																					
+381	381		201							3	500139		450																					
+382	382		301							1	Kordes	Cut your bull****...	3																					
+383	383		301								"Beardy"	Even if we die, we will die together.	2																					
+384	384		202							2	3																							
+385	385		301									Kordes and "Beardy" struggle to lift up Zack, who is nearly unconscious.																						
+386	386		201							1	500367	1																						
+387	387		301							1	Roland	Stop pretending. I've been with you long enough. It's not like I don't know how much you two want to live.	1																					
+388	388		202							1					1																			
+389	389		201							2	500140		-450																					
+390	390		201							3	500139		450																					
+391	391		301							1	Kordes	But we're not just going to leave him here to die!	3																					
+392	392		202							2	3				1																			
+393	393		201							1	500367	7																						
+394	394		301							1	Roland	Sigh... I'm just giving you your best option. Why are you making me out to be the villain?	1																					
+395	395		201							1	500136																							
+396	396		301							1	Zack	D-don't worry about me... Hurry... Only you... two... can survive...	1																					
+397	397		202							1					1																			
+398	398		201							2	500140		-450																					
+399	399		201							3	500139		450																					
+400	400		301							1	"Beardy"	That's bull****! We're not leaving you here!	2																					
+401	401		202							2	3				1																			
+402	402		201							1	500367	1																						
+403	403		301							1	Roland	Nothing puts the audience at the edge of their seats like "You go first! No, I won't leave you!"	1																					
+404	404		202							1					1																			
+405	405		301									Roland opens his arms in a grand gesture, mimicking a classic scene in movies, then shakes his head.																						
+406	406		201							1	500367	1																						
+407	407		301							1	Roland	Normally I wouldn't mind relieving some boredom with this kind of scene, but unfortunately... there's no time for that.	1																					
+408	408		301								Roland	Don't you feel the Punishing Virus concentration rising? That's all thanks to you destroying the centrifuge array.	1																					
+409	409		202							1					1																			
+410	410		401							2	10006001																							
+411	411		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+412	412		301									Roland sighs with regret. The next second, the chain blade flashes a ray of cold light as he attacks the three Scavengers sitting motionlessly on the ground.																						
+413	413		301									The two remaining conscious close their eyes and prepare for death.																						
+414	414		401							2	1503																							
+415	415		301			RImgBg1Shake						However, their anticipated death does not come. Everything around them suddenly began spinning, as if they were tied up and fiercely thrown out.																						
+416	416		301									Before falling into the dark stairwell, Kordes feels a cold card in his hand and someone whispering in his ear.																						
+417	417		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+418	418		301									"Walk along the direction shown in the picture. The basement has access to the outside."																						
+419	419		301		1		AniZhuanchangBegin					"By the way, the mess has been cleaned up. Don't be too grateful."																						

@@ -1,0 +1,72 @@
+ÎIW†1¶‡Ã”^íZFçfw¤l(¿p”ßÄ€§ædthõù<„Z,‡\7é	Uoîƒ[ÉòxëQÍÐ@¸ÑïhA¼¬òn_”(a9G$iGÃRÖ.(@†R.ccMÂ †É;4 ÆøšÊÁ4°7žµyId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory594.jpg																								
+2	2		401							1	147																							
+3	3		201							1	500505	1		-100																				
+4	4		301			DialogEnable				1		The pale monster is pushed to its limit. Its tissues cannot generate as fast as they are destroyed. The body made up of Hetero-Creature cells and other miscellaneous debris begins to disintegrate.																						
+5	5		203			PanelActor1Shake			250	1	0.25																							
+6	6		301								Pale Mutant	...?!	1																					
+7	7		203			PanelActor1Shake			200	1	0.25		-100																					
+8	8		202							1																								
+9	9		301									It struggles to get up, only to find its broken body cannot support its weight and collapse to the ground once again.																						
+10	10		301									With an equally damaged body, Karenina holds onto her Blast Hammer and gets on her feet. Step after step, she walks toward the monster.																						
+11	11		201							1	500505	1																						
+12	12		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFallNew.prefab	2																							
+13	13		104							0|-100|-200	0.25																							
+14	14		301							1		Wiggling its body, the monster tries to make itself afloat by using the zero-point engine's power, hoping to fly away.																						
+15	15		201							1	500494	4																						
+16	16		301								Karenina	Grandpa told me that life was precious... Perhaps you also want to survive...	1																					
+17	17		204							1	5																							
+18	18		301								Karenina	But you are the enemy to all living things. You are nothing but a monster!	1																					
+19	19		201							1	500505	1																						
+20	20		401						200	2	2404																							
+21	21		401							2	10027802																							
+22	22		203							1	0.25		-150																					
+23	23		104							0|0|0	0.25																							
+24	24		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFallNew.prefab																							
+25	25		301							1		Karenina deploys the gravity cannon form of the Blast Hammer and shoots at the ground under the monster. The compressed gravitons generate an enormous gravity that neutralizes its floating force, pulling it back to the Moon's surface.																						
+26	26		203							1	0.25		-80																					
+27	27		301				AniZhuanchangBegin					It barely raises its head, but it is all too late.																						
+28	28		401							1	146																							
+29	29		202							1					1																			
+30	30		101							Assets/Product/Texture/Image/BgCg/Cg2801_04.jpg																								
+31	31		301			AniZhuanchangEnd						The gravity control device in Karenina's frame is running beyond its limit, compressing and distorting gravity and light, engulfing her in a radiance that is brighter than the rising sun.																						
+32	32		301								Pale Mutant	AAAGGHHH...!																						
+33	33		301									The monster also extracts all its strength to the zero-point engine, trying to unleash the most powerful gravitational waves to tear the girl apart.																						
+34	34		301								Karenina	Nowâ€”																						
+35	35		401							2	1226																							
+36	36		301									The Blast Hammer's blast engine is lit up by its tail flames. All light shines at this moment, converging into an invincible strike.																						
+37	37		301								Karenina	Just crush and burn!!																						
+38	38		502							DialogDisable																								
+39	39		401							2	781																							
+40	40		401					2800		2	957																							
+41	41		402							829																								
+42	42		502							RImgBg1Shake																								
+43	43		501						3500	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBaiBegin.prefab	1																							
+44	44		101							Assets/Product/Texture/Image/BgStory/Bgstory428.jpg																								
+45	45		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBaiEnd.prefab	2																							
+46	46		505				AniZhuanchangBegin	10			Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBaiBegin.prefab																							
+47	47		101							Assets/Product/Texture/Image/BgStory/BgStory594.jpg																								
+48	48		502							DialogEnable																								
+49	49		301			AniZhuanchangEnd						After a blinding flash, the severely damaged zero-point engine continues to emit strong gravitational waves, reducing the monster's remaining body to pale, lifeless flesh.																						
+50	50		401							2	915																							
+51	51		301									The outburst of gravitational waves sends Karenina flying. She rolls on the Moon's surface for tens of meters and finally comes to a stop.																						
+52	52		201							1	500494	5		-100	-100																			
+53	53		301							1	Karenina	Coughâ€”	1																					
+54	54		301									Karenina reopens her eyes and finds the damaged zero-point engine has sunk under the Moon's surface. The gravitational waves are directly acting on the rocks, creating ripples on the nearby ground.																						
+55	55		301									Rocks protrude from the ground like swords while soft lunar soil flows down like sand.																						
+56	56		401							2	13015111																							
+57	57		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab	1																							
+58	58		203						300	1	0.2																							
+59	59		402							13015111																								
+60	60		301									Karenina has no time to hesitate. She quickly jumps back and barely avoids the collapse of the ground underneath.																						
+61	61		301								Teddy	Karenina? You aren't dead, are you?																						
+62	62		301								Karenina	I... guess... so!	1																					
+63	63		301									Karenina replies while sprinting between more protruding rocks.																						
+64	64		301								Teddy	Then hurry up to the coordinates I sent you. The gravitational waves built up in the zero-point engine will break out in 3 minutes.																						
+65	65		301								Karenina	What? Isn't that also within the range of gravitational waves? Are you just picking a better place to die?	1																					
+66	66		301								Teddy	Alright... We'll give you a proper funeral. Relax... No, rest in peace.																						
+67	67		401							2	2566																							
+68	68		301									The comms ended abruptly. Karenina can never contact Teddy again.																						
+69	69		301			RImgBg1Shake					Karenina	****!	1																					
+70	70		401							2	1513																							
+71	71		301		1		AniZhuanchangBegin					Karenina is totally clueless, but she still runs toward the coordinates that Teddy sent.																						

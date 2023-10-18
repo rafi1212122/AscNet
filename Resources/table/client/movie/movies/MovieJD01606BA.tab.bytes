@@ -1,0 +1,22 @@
+m%2Q>êGlŠo!&:€ßá…ãû½Påç0ÖóÅ?û€Y²É»G‡"X%ùæô›~ì†·d|Ó¼«ÕèÒyÈ¬‹rù'æ¸ëª¥Ç¢ÅÖÄŞ‹aLá×Àù¼#Ëº™ (d¦¦W,@‘ûÊ­ø5TÿìÄh˜;h-Û
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory261.png																								
+2	2		401							1	203																							
+3	3		201							1	500128																							
+4	4		301							1		The Program Ghost twitches. "Bianca" stands in front of it, slowly disappearing.																						
+5	5		202							1					1																			
+6	6		201							1	1031001		-600																					
+7	7		201							2	500026		600																					
+8	8		201							3	500166																							
+9	9		301			DialogEnable				1	Lucia	You're not getting away this time!	3																					
+10	10		301								Lee	...Liv, initiate signal jamming!	2																					
+11	11		301								Liv	Okay!	1																					
+12	12		301									Liv runs the Inver-Device at full power, dashing toward the vanishing "Bianca" as Lucia and Lee flank her from both sides.																						
+13	13		301									But they are still too late.																						
+14	14		301									"Bianca" vanishes into thin air, leaving only a shadow behind.																						
+15	15		302								We're not done yet. Analyze the Program Ghost now!	16																						
+16	16		301								Lee	Understood! She doesn't have time to cover up her track now. We'll find her if we just follow it!	2																					
+17	17		302				DialogDisable				Hurry up!	18																						
+18	18		305							19	20																							
+19	19		301		1	DialogEnable	AniZhuanchangBegin				Liv	...Found her!	1																					
+20	20		202		1		AniZhuanchangBegin			1	2	3			1																			

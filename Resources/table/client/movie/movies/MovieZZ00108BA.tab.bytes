@@ -1,0 +1,44 @@
+\;ù'ø…<º‡úÑ|J“+7\;^Ž)OÏñ®s¡ªæ›09ê("÷”W+fi½–ÔÃŸ²G áÒ¾ÙA2h-¤xÕ[žyÛZ=±awààïSµŽÅ·™×«‘Ñ%ÊÍ\µôwÄCìÂÃž7åÅ[z…Ø¿ã›!¥DId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory5.jpg																								
+2	2		401							1	205																							
+3	3		301			DialogEnable						You finally make it to the final stage of the mission, but you are met with an arduous battle.																						
+4	4		201							1	1041001	1																						
+5	5		401							3	105152																							
+6	6		301							1	Storm	That's quite a crowd! Nanamideon, activate!	1																					
+7	7		202							1																								
+8	8		301									Storm swings her chainsaw menacingly at the hostiles, even just scratching an enemy causes it to explode into scrap metal.																						
+9	9		302								Storm is OP! How many Storms did I pull?!	10																						
+10	10		301								-AI-	Half of the enemies have been annihilated, while Storm only sustained minor injuries.																						
+11	11		301									Regardless, the outcome of the battle still looks bleak. The reason being...																						
+12	12		302								What's up with my team being all close-ranged...	13																						
+13	13		301									Dawn, Tenebrion, Astral, and Arclight... The only long-ranged member is Blast, but sending her out will cause other issues.																						
+14	14		301									Your team members are unable to get close to the last elite enemy standing firmly atop a cliff...																						
+15	15		201							1	500016																							
+16	16		401							2	1508																							
+17	17		301							1	Elite Enemy	Rargh!!!!!	1																					
+18	18		301								Asimov	(Laughs sardonically) Are you out of options?																						
+19	19		301								Elite Enemy	Rargh!! Rargh!!!	1																					
+20	20		302								If we can just make it fall down...	21																						
+21	21		202							1																								
+22	22		301								-AI-	Do you need it to fall?																						
+23	23		301			RImgBg1Shake						Suddenly, the battlefield begins to shake.																						
+24	24		301								-AI-	Importing global variable dataâ€”complete.																						
+25	25		301									The hill that the elite enemy was standing on abruptly disappears, causing it to fall to the ground.																						
+26	26		201							1	500004																							
+27	100		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+28	27		301							1	Asimov	In "Virtual Horizon", battlefield conditions will intermittently change and produce different effects to simulate a variety of battle scenarios. Looks like you got lucky.	1																					
+29	102		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+30	28		201							1	1041001	1																						
+31	29		301							1	Storm	From the hate-scorched sky, with righteous anger in our hearts! Corrupted Bane!	1																					
+32	30		202							1																								
+33	31		301									Storm shreds the elite enemy to pieces just as it hits the ground.																						
+34	32		302								Amazing! Storm is unstoppable!	33																						
+35	33		301									But was that change to the battlefield really... just a coincidence?																						
+36	34		301								-AI-	The elite enemy has been vanquished. Combat complete. Congratulations!																						
+37	35		302								Did you help me?	36																						
+38	36		301								-AI-	...																						
+39	37		201							1	500004																							
+40	101		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+41	38		301							1	Asimov	There's no way. This AI is just an AI. And it's from ages past, it won't help you out on its own.	1																					
+42	39		302								But something doesn't seem quite right...	40																						
+43	40		301		1		AniZhuanchangBegin				Asimov	Alright, this week's test is over. Good work. I hope you keep it up next week as well.	1																					

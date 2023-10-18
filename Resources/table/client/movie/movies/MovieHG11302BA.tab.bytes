@@ -1,0 +1,77 @@
+%€§ìÉ‰e-ë≤7dHêÜ´SÈ?>1Ö&¨hP˜K9Ì¶kÕµ¥ﬁmBŸ¢vï+bØR∫¬bV≥,ÉémçÀ»õÍUUî°Z˘lﬁ¨›Ñ ÃŒ>Aë∫.è]L <ãŸ∫QYa¸/rb£Ú’.π°æ•ÙèœEbª∆ò$õ±eÑ"Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory17.jpg																								
+2	2		401							1	210																							
+3	3		201							1	1031001	7																						
+4	4		301			DialogEnable				1	Liv	Oh, Commandant. Good afternoon. Is something the matter?	1																					
+5	5		302								Are you about to leave for military supplies?	6	Anything I can help with?	7																				
+6	6	8	301								Liv	Oh‚Äîyup. Today's Thursday after all.	1																					
+7	7		301								Liv	It's okay, Commandant. You should take a rest. I can handle the supplies.	1																					
+8	8		302								Let me do it.	9																						
+9	9		204							1	14																							
+10	10		301								Liv	Huh...? But, that's part of my duties...	1																					
+11	11		302								Get some rest, Liv.	12																						
+12	12		301								Liv	W-was I messing it up before...? Did I do something wrong?	1																					
+13	13		302								Of course not!	14																						
+14	14		301									After an eternity, you finally convince Liv that you just want to help out, and that it is not an issue on her end.																						
+15	15		301								Liv	...Then, I'll leave it to you, Commandant.	1																					
+16	16		302								Leave this to me!	17																						
+17	17		301				AniZhuanchangBegin				Liv	I don't know what drove you to do this, Commandant... But thanks!	1																					
+18	18		101							Assets/Product/Texture/Image/BgStory/BgStory84.jpg																								
+19	19		202							1					1																			
+20	20		301			AniZhuanchangEnd						Learning from before, you pick up the military supplies without a hitch this time. You quickly scan the hall afterward.																						
+21	21		301									...And you find her. Vera is in that same corner again, but this time, she seems to be conversing with a different person.																						
+22	22		301									Vera's thin lips move. The man in front of her deflates visibly, just like the last. He hands her a... medication vial?																						
+23	23		302								Wait!	24	(Stay still)	27																				
+24	24		201							1	500168																							
+25	25		301							1	Vera	...	1																					
+26	26	33	301								Vera	...And here I was. Trying to pretend I didn't see you.	1																					
+27	27		301									The man pauses and speaks something to Vera. She sighs.																						
+28	28		201							1	500168																							
+29	29		301							1	Vera	C'mere.	1																					
+30	30		302								...	31																						
+31	31		301								Vera	Hello? Do you need a new pair of ears?	1																					
+32	32		302								Me?	33																						
+33	33		301									Vera extends her hand and gestures, as if beckoning a small animal toward her. You are still unsure if she is referring to you, but you walk over anyway.																						
+34	34		301									She then points at you, saying something inaudible to the man. The man nods and hands a black trunk to Vera.																						
+35	35		301								Vera	...Yep, „Äêkuroname„Äë.	1																					
+36	36		202							1																								
+37	37		301									The man, likely some supplier, writes something down on a notebook.																						
+38	38		302								(Peek)	39	(Try not to peek)	40																				
+39	39	41	301									You see some nigh-unintelligible scribbles... and some unfamiliar words, and... your name...?																						
+40	40		301									You tell yourself not to look, but you still accidentally catch several unfamiliar words on the pages.																						
+41	41		301								Supplier	Alrighty.																						
+42	42		301									Vera hums in delight. She grabs your arm before you could even react, then drags you outside.																						
+43	43		302								What was that?	44	What's the matter?	44																				
+44	44		201							1	500168	1																						
+45	45		301							1	Vera	Nothing.	1																					
+46	46		301								Vera	Just used your name for a little trade. That's all.	1																					
+47	47		302								You used my name?	48	What trade?	52																				
+48	48		301								Vera	Exactly what you think it is. Smuggling medical supplies. How's that sound? Want a piece, "pardner?"	1																					
+49	49		302								That's illegal!	50	Really?	51																				
+50	50	56	301								Vera	'Course I know it's illegal. Now that you're in on this, try saying no. You'll find yourself in the gutters in the morning.	1																					
+51	51	56	301								Vera	Uh-huh. Now that you know. You only have one option left.	1																					
+52	52		301								Vera	Just smuggling some medical supplies. Not much of a big deal. How's that sound? Want a piece, "pardner?"	1																					
+53	53		302								No way!	54	You what?	55																				
+54	54	56	301								Vera	Too late. We're already a couple of criminals.	1																					
+55	55		301								Vera	Uh-huh. Now that you know. You only have one option left.	1																					
+56	56		301								Vera	But, well. Thanks to your rep, the guy bowed down and agreed to a lower price.	1																					
+57	57		301								Vera	Now that we're on the same boat though, I don't mind tellin' you a little something more.	1																					
+58	58		302								Why are you doing this?	59	Why smuggle?	63																				
+59	59		204							1	13																							
+60	60		301								Vera	All the better to complete missions with, dear.	1																					
+61	61		301								Vera	On the battlefield, I'm always the last one standing.	1																					
+62	62	65	301								Vera	I don't expect the other mongrels to be at my level. So to stop them from dragging me down, I'll have to make preparations.	1																					
+63	63		301								Vera	If I can just stroll into meds and grab these juicers, I won't be doing this.	1																					
+64	64		301								Vera	What are you? Just naive? Or dumb?	1																					
+65	65		302								So you're trafficking drugs?	66																						
+66	66		204							1	1																							
+67	67		301								Vera	No. Just messin' with you.	1																					
+68	68		302								???	69	What are you actually doing?	69																				
+69	69		204							1	13																							
+70	70		301								Vera	Pah. Truth is, you're one annoying wimp. What I'm doing is none of your business.	1																					
+71	71		301								Vera	Didn't I tell you to stop poking your nose into things?	1																					
+72	72		301								Vera	And even so, you're still sniffing around my personal life. You might need a better whipping, "Commandant."	1																					
+73	73		301								Vera	Go ahead, try bothering me again. But don't come crying because of what I'll do to you.	1																					
+74	74		301									The red-haired vixen gloats at the expression you make.																						
+75	75		301								Vera	What a face you pull! The Gray Ravens should get a picture of this and hang it over at their base.	1																					
+76	76		301		1		AniZhuanchangBegin				Vera	Anyways, what happened here, stays here. Cerberus has nothing to fear. You though, might want to watch out.	1																					

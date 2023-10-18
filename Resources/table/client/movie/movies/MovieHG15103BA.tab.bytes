@@ -1,0 +1,179 @@
+HÇf"ê9ˆÕ ŽÖ)â7~Aœ‡cqzH0Äng®‚Ÿ„3+Àogd˜v~¥äà€·‰eíä°«€öÁ‚!‡‚gé“hø»ÖáÅMlfNæò»]¼ VØ¦R½µ$"ˆšG
+^à„ªsøs(2ÅLßÒ€7—õM¤™·‚RId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		301									...																						
+3	3		302								...	4																						
+4	4		301				AniZhuanchangBegin					Beep beep beep...																						
+5	5		101							Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+6	6		401							1	208																							
+7	7		502							AniZhuanchangEnd																								
+8	8		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	3																							
+9	9		301					2500				You wake up to your terminal beeping like no tomorrow. You open your eyes to see the bedroom ceiling. Strange. You have the day off as far as you can remember.																						
+10	10		302								An emergency mission?	11																						
+11	11		401							2	1515																							
+12	12		301									You connect to the device to hear Kamui speaking.																						
+13	13		201							1	1081001																							
+14	14		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+15	15		301							1	Kamui	Commandant! Commandant! Are you busy?	1																					
+16	16		302								Not that busy...	17	Yes.	17																				
+17	17		204							1	5																							
+18	18		301								Kamui	Forget what you're doing, I've got something urgent here!	1																					
+19	19		302								What's up?	20																						
+20	20		301				AniZhuanchangBegin				Kamui	It's Camu...	1																					
+21	21		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+22	22		202							1					1																			
+23	23		101							Assets/Product/Texture/Image/BgStory/Bgstory3.jpg																								
+24	24		502							AniZhuanchangEnd																								
+25	25		301				AniZhuanchangBegin					You rush out onto the streets with just a jacket, Kamui's words still fresh in your head.																						
+26	26		101			DialogDisable				Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+27	27		504							1																								
+28	28		201							1	1081001																							
+29	29		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+30	30		302			AniZhuanchangEnd					Camu's gone?	31																						
+31	31		301			DialogEnable					Kamui	Yeah. I hadn't been able to get in contact with him since last night. He often disappeared out of nowhere like this, too, but usually he'd be back by morning.	1																					
+32	32		301								Kamui	If he were still with me, I wouldn't have minded, but...	1																					
+33	33		301								Kamui	It's the first time this happened... so I can't be sure where he is either.	1																					
+34	34		302								I understand.	35	...	35																				
+35	35		301									It's rare to see Kamui look so serious, though he's beaming again the very next second.																						
+36	36		204							1	2																							
+37	37		301								Kamui	Heh, you must be confused, huh?	1																					
+38	38		302								Not really.	39	A little, yes.	39																				
+39	39		301								Kamui	I'm not sure how to explain it, but I just have a feeling... perhaps because of how you usually seem...	1																					
+40	40		204							1	1																							
+41	41		301								Kamui	I just feel like it'd be better if you're the one who finds him.	1																					
+42	42		204							1	5																							
+43	43		301				AniZhuanchangBegin				Kamui	Please, Commandant, bring Camu home.	1																					
+44	44		101							Assets/Product/Texture/Image/BgStory/Bgstory3.jpg																								
+45	45		202							1					1																			
+46	46		504							0																								
+47	47		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+48	48		301			AniZhuanchangEnd						You promised Kamui that you would find Camu, but Babylonia is huge... How will you find Camu without asking the Council for help?																						
+49	49		301									The Council must know where he is, which means that he is not posing a threat to anyone right now. On the other hand, you also do not exactly want the officials to "capture" Camu and force him to return.																						
+50	50		301				AniZhuanchangBegin					No choice but to start looking.																						
+51	52		101							Assets/Product/Texture/Image/BgStory/BgStory81.jpg																								
+52	53		301			AniZhuanchangEnd						It is almost noon, and the sun is getting increasingly blinding. Squinting, you walk around for a while without finding anything...																						
+53	54		502							AniZhuanchangBegin																								
+54	55		101							Assets/Product/Texture/Image/BgStory/Bgstory3.jpg																								
+55	56		301			AniZhuanchangEnd						...And then you are back to where you have started.																						
+56	57		301									(Stomach growls)																						
+57	58		302								I'm hungry...	59	I should rest.	59																				
+58	59		301									You decide to sit down in a nearby park.																						
+59	60		301				DialogDisable					As soon as you enter the park, you see a familiar figure sprawled out on a bench.																						
+60	62		201							1	500175																							
+61	61		302								...Camu?!	63																						
+62	63		301			DialogEnable					Camu	â€”?!	1																					
+63	64		301								Camu	What are you doing here?	1																					
+64	65		302								Just passing by.	66	I'm looking for you.	67																				
+65	66	68	301								Camu	I can tell you came looking for me. I'm not stupid.	1																					
+66	67		301								Camu	What for?	1																					
+67	68		302								I couldn't reach you the whole night.	69																						
+68	69		301								Camu	So? Am I not even free to be gone for one night?	1																					
+69	70		302								...	71	It's not that.	71																				
+70	71		301								Camu	Tch. Well, now you know where I am. Get lost.	1																					
+71	72		302								I'm worried about you.	73																						
+72	73		202							1					1																			
+73	74		301									Camu grimaces, as if he just bit into a lemon.																						
+74	75		201							1	500175	5																						
+75	76		301							1	Camu	I'm tired of repeating myself, Gray Raven Commandant. Listen, we have nothing to do with each other outside of our missions. You don't know anything about me and are in no position to stand here and talk about things you don't understand.	1																					
+76	77		301									He speaks without emotion, gaze full of judgment.																						
+77	78		301								Camu	Or are you acting all concerned because you want something from me?	1																					
+78	79		302								I'm not acting.	81	You don't have anything I want.	80																				
+79	80		301								Camu	...Do you want to die or something?	1																					
+80	81		301								Camu	So what exactly do you want, then? To get to know me? Fine. I'll tell you what I think.	1																					
+81	82		301								Camu	This world is despicable.	1																					
+82	83		301								Camu	Babylonia... the Punishing Virus... the world itself... they're all the same. All filthy.	1																					
+83	84		301								Camu	I'm just me. I'm not gonna change just because of a few pretty words you said, because I understand this world better than you do. It's not worth it, you know. Even without the virus, the world is just as corrupt.	1																					
+84	85		301								Camu	If only the world would just end. We could start anew, then.	1																					
+85	86		301								Camu	If I didn't know a thing, didn't have any of my past experiences... I might have ended up like Kamui.	1																					
+86	87		301								Camu	But I'm not like him.	1																					
+87	88		301								Camu	So don't waste your words and energy on me. Love... justice... those are foolish, selfish, self-righteous concepts.	1																					
+88	89		302								...	90																						
+89	90		301								Camu	I don't want to take responsibility for my powers. I'm not obliged to nor want to "save" this disgusting world.	1																					
+90	91		301								Camu	Staying here is a temporary decision. There's no point in wasting energy on me.	1																					
+91	92		301								Camu	Got it?	1																					
+92	93		302								I see.	94	I don't get it.	102																				
+93	94		301								Camu	...	1																					
+94	95		301								Camu	Are you an imbecile?	1																					
+95	96		301								Camu	No idea why I just told you all that...	1																					
+96	97		302								I'm sorry.	98																						
+97	98		301								Camu	What for?	1																					
+98	99		302								For making assumptions about you.	100																						
+99	100		302								I'll respect you as your own person from now on.	101																						
+100	101	110	301								Camu	...?	1																					
+101	102		301								Camu	...	1																					
+102	103		301								Camu	Are you an imbecile?	1																					
+103	104		301								Camu	No idea why I just told you all that...	1																					
+104	105		302								Thank you.	106																						
+105	106		301								Camu	...?	1																					
+106	107		302								For taking a punch for me yesterday.	108																						
+107	108		301								Camu	...Not a big deal. I was the one who shoved you to the ground by accident in the first place.	1																					
+108	109		302								...	110																						
+109	110		301								Camu	Wait, that's not the point!	1																					
+110	111		502							PanelActor1Shake																								
+111	112		301								Camu	Ughhhhh!	1																					
+112	113		301								Camu	I told you all that... and you didn't even react?	1																					
+113	114		301								Camu	Shouldn't you see me as a monster and want to steer clear of me?	1																					
+114	115		302								I don't feel that way.	116	I'll try to not let it bother me.	116																				
+115	116		301								Camu	What... what's in that human noggin of yours?	1																					
+116	117		301								Camu	After all that I just said... nothing even changed. What a waste of my time!	1																					
+117	118		202							1					1																			
+118	119		502							RImgBg1Shake																								
+119	120		301									Losing his cool, Camu grabs the collar of your uniform and practically hoists you up into the air.																						
+120	121		201							1	500175	5																						
+121	122		301							1	Camu	What exactly do you want? To confuse me?	1																					
+122	123		302								You misunderstand.	124	Please let go of me first...	124																				
+123	124		301								Camu	Out with it, now!	1																					
+124	125		302								It's not that complicated.	126																						
+125	126		302								If you want a reason...	127																						
+126	127		302								It's because you're "Camu".	129																						
+127	129		302								I want to see you smile...	130																						
+128	130		302								As "Camu" and no one else.	131																						
+129	131		302								I genuinely care about what you're thinking.	54269																						
+130	54269		302								I don't need a reason for that.	132																						
+131	132		202							1					1																			
+132	133		301									Camu looks shocked.																						
+133	134		301									It is rare to see him like that... though you do wish he would let go of your collar already.																						
+134	135		301									(Stomach growls)																						
+135	136		301									You are starting to feeling lightheaded when your stomach growls at the wrong moment... or the right one, perhaps.																						
+136	137		302								It's time for lunch.	138																						
+137	138		201							1	500175																							
+138	139		301							1	Camu	...	1																					
+139	140		301								Camu	Hey, do you treat Kamui the same way you treat me?	1																					
+140	141		302								Nope.	142	He's not as prickly as you.	142																				
+141	142		202							1					1																			
+142	143		301				AniZhuanchangBegin					Camu finally lets go of his chokehold and sighs... out of frustration or relief, you cannot tell.																						
+143	144		101							Assets/Product/Texture/Image/BgStory/BgStory81.jpg																								
+144	145		301			AniZhuanchangEnd						The golden octopus balls in your hand smell delectable.																						
+145	146		302								(Munch munch)	147																						
+146	147		301								???	(Munch munch munch)																						
+147	148		302								(Munch munch)	149																						
+148	149		301								???	(Munch munch munch)																						
+149	150		302								...You're a Construct. Why are you eating too?	151																						
+150	151		301									Camu munches on with calm nonchalance.																						
+151	152		201							1	500175																							
+152	153		301							1	Camu	Yes, I like food. You have a problem with that?	1																					
+153	154		302								No, even though it's my money you're spending...	160	First time hearing you say you "like" something.	155																				
+154	155		301								Camu	"Like", huh?	1																					
+155	156		301								Camu	The word just slipped out.	1																					
+156	157		301								Camu	Got a problem with that?	1																					
+157	158		302								No. I was just relieved to hear you say it.	159																						
+158	159		301								Camu	Huh? You're weird. What's to be relieved about that?	1																					
+159	160		301								Camu	Hey, I'll get another serving. Double the spice!	1																					
+160	161		302								I'll get one too!	162	Can you really taste it?	163																				
+161	162	165	301								Camu	...One more serving, then.	1																					
+162	163		301								Camu	Of course. Do you really have to ask about everything?	1																					
+163	164		302								Just curious...	165																						
+164	165		202							1					1																			
+165	166		301									Carrying the street snacks he packed, Camu stands up from the chair and leaves the shade of the umbrella. He turns and glances at you, sunlight spilling over his face.																						
+166	167		201							1	500175																							
+167	168		301							1	Camu	Let's go.	1																					
+168	169		302								Coming.	170	Where to?	170																				
+169	170		202							1					1																			
+170	171		301									Camu turns away, impatient. You can see him headed for the building of the Babylonia Command Central in the distance.																						
+171	172		201							1	500175	5																						
+172	173		301							1	Camu	Hey. Next time don't come outside looking for me.	1																					
+173	174		302								Huh?	175	But...	175																				
+174	175		301								Camu	It's not like I "ran away from home".	1																					
+175	176		301								Camu	I know what I'm doing.	1																					
+176	177		302								Understood.	178	(Chuckle)	178																				
+177	178		301		1		AniZhuanchangBegin				Camu	Enough with that creepy smile.	1																					

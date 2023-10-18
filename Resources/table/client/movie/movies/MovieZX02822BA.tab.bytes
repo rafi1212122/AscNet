@@ -1,0 +1,55 @@
+ëÄöÿe=ûìr&˘qéÕ”Ãÿ•H^ﬁ√`)}B:≥U"_ø∆xï∏4Ieæä˛œßºË©8úwÙ!˚¸lçÎìB±6ZªÜÚ\XäY˙C€oﬁ}™(È√„ÆÖü7¡Û™¨º—˜‘}÷£õ‘=≤ñﬁÁvv°º≠F»Cn†çId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory365.png																								
+2	2		504							0.7																								
+3	3		401							1	100																							
+4	4		201							1	500031																							
+5	5		301			DialogEnable				1	Luna	Sis! What happened to the rabbits in the end?	1																					
+6	6		203							1	0.25	-400																						
+7	7		201							2	500056		400																					
+8	8		301							1	Lucia	They stayed on the Moon.	2																					
+9	9		301								Luna	What were they going to do after they stayed on the Moon?	1																					
+10	10		301								Lucia	Um... What did they do... Since they loved carrots so much, I guess they must have planted a lot of carrots on the Moon.	2																					
+11	11		301								Luna	Okay! What did they do after that?	1																					
+12	12		301								Lucia	After that... They were digging the ground in order to plant carrots. They dug and dug, until they found a carrot monster in the soil! It was formed by the spirits of all the carrots they ate!	2																					
+13	13		301								Luna	A big monster! Then what? What happened to the rabbits...? Did the carrot monster eat them?	1																					
+14	14		301								Lucia	Um... Um... Right, the rabbits came together to build a robot called Iron Bunny. They were about to attack the carrot monster.	2																					
+15	15		301								Luna	The rabbits were so good... What happened after?	1																					
+16	16		301								Lucia	Do you still want more...? Oh, right! Luna, it's about time for you to sleep. Otherwise I won't tell you stories tomorrow.	2																					
+17	17		301								Luna	Are you going to tell me more stories tomorrow?	1																					
+18	18		301								Lucia	Of course... But you need to sleep first.	2																					
+19	19		301								Luna	Sure. Luna will be a good girl. Good night, Sis!	1																					
+20	20		301				AniZhuanchangBegin				Lucia	Goodnight, Luna... Have a nice dream. Tomorrow will be a new day.	2																					
+21	21		202							1	2				1																			
+22	22		504			DialogDisable				0																								
+23	23		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	2																							
+24	24		401							2	1501																							
+25	25		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/BgStory588.jpg																								
+26	26		301			DialogEnable						Raging gravitational waves are tearing apart the tiny lab relentlessly. The interval between waves is quickly decreasing, approaching the critical point.																						
+27	27		301			RImgBg1Shake						Decomposed buildings keep falling around. The giant Omega Weapon has completed its mission and gets buried under the debris.																						
+28	28		301				AniZhuanchangBegin					‚ÄîThe imprisoned agent is no longer here.																						
+29	29		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab																							
+30	30		101			DialogDisable	AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/BgStory593.jpg																								
+31	31		201							1	500238																							
+32	32		301			DialogEnable				1		The wrecked zero-point engine emits a blazing blue light from the center of the gravity waves. Around them floats a white figure that seems completely unaffected by the gravitational waves.																						
+33	33		301									The pale flesh wiggles around the zero-point engine, trying to crawl onto the white figure's body.																						
+34	34		301								Luna	You too are a pathetic creation. Your fate was twisted from the very beginning...	1																					
+35	35		301									Luna allows it to wrap around her, but the moment it touches Luna, it turns into crimson ash and dissolves away.																						
+36	36		301									The blue glow of the zero-point engine is turning incandescent white, warning everyone that the gravitational waves will soon explode and destroy everything on the ground.																						
+37	37		301								Luna	Is this the pure destructive power brought by science...? Let me harness this power.	1																					
+38	38		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab	2	1																						
+39	39		301									Luna raises her right hand and gathers all the Punishing Virus from the entire lunar base.																						
+40	40		301									The condensed Punishing Virus gradually forms a hardened spherical shell, encasing the wrecked zero-point engine and Luna herself. Meanwhile, chaotic and destructive gravitational waves also slowly gather around Luna.																						
+41	41		301								Luna	I'm going back... to where Sis is.	1																					
+42	42		301									Luna gently holds the Frog charm in her scarred right hand. She rests it on the safest place near her chest.																						
+43	43		301				AniZhuanchangBegin					The concentrated gravitational waves send the Punishing Virus sphere afloat before it disappears in a blazing light.																						
+44	44		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																					
+45	45		202			DialogDisable				1					1																			
+46	46		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/Bgstory394.jpg																								
+47	47		201							1	500100																							
+48	48		301			DialogEnable				1		The white-haired girl is moving alone in the wilderness. She suddenly stops.																						
+49	49		301									As if she has heard something, she raises her head slightly to look at the night sky. It's almost dawn.																						
+50	50		301									A meteor suddenly bursts into the sky and slowly descends.																						
+51	51		301								Œ±	Luna...	1																					
+52	54		203						80	1	0.15			-150																				
+53	55		202							1																								
+54	56		301		1		AniZhuanchangBegin					The Ascendant named Alpha takes a few baffled steps. She then quickly sprints toward the sunrise.																						

@@ -1,0 +1,22 @@
+jÒØš;-kÍËR¢¿àQ×½Îx®ÔbáãL½)|% Ä#Š^ıŸc(Ã4È#-¤&M0Û«Ïş%/7÷Âm9;k=×?nJ|ÖÍl3K«†x“ªd€NÎ,D»ç—=kÓi4²ÙŠmt%¢’Ş¹’OEd­,‰¼–TyTyJId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory261.png																								
+2	2		401							1	201																							
+3	3		201							1	1031001		-600																					
+4	4		201							2	500026		600																					
+5	5		201							3	500166																							
+6	6		301			DialogEnable				1	Liv	Hm...	1																					
+7	7		301								Lee	Tch... Seems like they were prepared for a brute-force filtering.	2																					
+8	8		302								What is it?	9																						
+9	9		301								Liv	All the tracks in this area... are legitimate. They all spread out in different directions while still being connected to each other...	1																					
+10	10		301								Lee	Crossing, interrupting, skipping, camouflaging... This maze of tracks was specifically designed to counteract brute-force filtering.	2																					
+11	11		302								Guess we can now only count on... our instincts.	12																						
+12	12		301				DialogDisable				Lee	I see... So instead of trying to crack it with your computing power, you're using the guiding function on the reinforced sensor of the Inver-Device?	2																					
+13	13		302								That's it.	14																						
+14	14		305							15	22																							
+15	15		301			DialogEnable					Liv	This track... is pointing toward the way we came.	1																					
+16	16		301								Lee	This means if we hadn't come across this path, we'd have found ourselves getting further away from the target the longer we chase it...	2																					
+17	18		301								Lee	We have no time to waste now. We need to report this.	2																					
+18	19		301								Lee	If we lost this fight, Asimov would need to be prepared.	2																					
+19	20		302								...Well then, let's report this first.	21																						
+20	21		301		1		AniZhuanchangBegin				Lucia	Roger that. Let's find a place nearby with better connection so we can report the situation.	3																					
+21	22		202		1		AniZhuanchangBegin			1	2	3			1																			

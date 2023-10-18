@@ -1,0 +1,184 @@
+]`ƒaRáıéÛ‹4§ÄP–∂í≈æV9sô¸¸—ÏêSÆƒ]t!„ã ﬂ⁄qJ®{ê–-Î«UÇ—oÍ…«ˆ%•€©[Wı_‡äz√®~ö”Òˇèƒ¶™R ‘¨âk¥‡”k_≥jÃ∆Á‘FL“◊≠œ˝`TU5∏X¡üƒπId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory305.png																								
+2	2		401							1	209																							
+3	3		201							1	500275																							
+4	4		301			DialogEnable				1	???	What. Are. You. You. You. Doing?!	1																					
+5	5		302								You can... speak?	6																						
+6	6		301								???	S-speak?	1																					
+7	7		201							1	500029																							
+8	8		201							2	1011001		600																					
+9	9		201							3	1031001		-600																					
+10	10		301							1	Liv	Looks like you can understand us.	3																					
+11	11		301								Lucia	We've run into mechanoids that weren't labeled red or blue, but they couldn't understand us.	1																					
+12	12		301				DialogDisable				Lee	This is an interesting turn of events. Maybe they can tell us a thing or two.	2																					
+13	13		202							1	2	3			1																			
+14	14		302								Who are you?	15	Why can you talk?	29																				
+15	15		201							1	500275																							
+16	16		301			DialogEnable				1	???	Who? What?	1																					
+17	17		201							1	1011001																							
+18	18		301							1	Lee	What's your name? Did you or someone give you a name?	1																					
+19	19		201							1	500275																							
+20	20		301							1	???	...A-Askr.	1																					
+21	21		201							1	500029		-400																					
+22	22		201							2	1011001		400																					
+23	23		301							1	Lucia	Askr? Isn't that...	1																					
+24	24		302								Do you know something, Lucia?	25																						
+25	25		301								Lucia	I think I ran across this name while reading a document in Babylonia.	1																					
+26	26		301								Lee	I think I've heard of this myth as well... Isn't it the brother of two siblings carved out of wood by the gods?	2																					
+27	27		301								Lucia	...I think so.	1																					
+28	28	60	301								Lee	If I remember correctly... the girl's name is Embla?	2																					
+29	29		201							1	500275																							
+30	30		301			DialogEnable				1	???	I. Just. Can.	1																					
+31	31		201							1	1011001																							
+32	32		301							1	Lee	Just like the "defect" we saw. Seems like they have at least some degree of cognition.	1																					
+33	33		201							1	500275																							
+34	34		301							1	???	C-cognition? What's. That?	1																					
+35	35		301								???	You. Won't. Kill us?	1																					
+36	36		201							1	1031001																							
+37	37		301							1	Liv	Are you referring to those "red" and "blue" mechanoids?	1																					
+38	38		301								Liv	Relax. We aren't like them.	1																					
+39	39		201							1	500275																							
+40	40		301							1	???	"Red". "Blue". On you. Too!	1																					
+41	41		202							1					1																			
+42	42		301									The mechanoid raises its hand and points at Lee and Lucia, bringing a previously relaxed situation back into confrontation.																						
+43	43		301									Lucia gestures to the mechanoid to calm down.																						
+44	44		201							1	500029																							
+45	45		301							1	Lucia	That may be true, but we're not hostile like those mechanoids.	1																					
+46	46		301								Lucia	The people in blue and pink and the person behind me are my "comrades."	1																					
+47	47		201							1	500275																							
+48	48		301							1	???	..."Comrades"?	1																					
+49	49		201							1	1011001		400																					
+50	50		201							2	1031001		-400																					
+51	51		301							1	Liv	Yes, "comrades."	2																					
+52	52		301								Lee	Correct.	1																					
+53	53		302								It's true.	54																						
+54	54		202							1	2				1																			
+55	55		201							1	500275																							
+56	56		301							1	???	"Comrade." I. Have too.	1																					
+57	57		301									The mechanoid steps forward while still shielding the figure behind it.																						
+58	58		201							1	1011001																							
+59	59		301							1	Lee	Don't worry. We won't harm you or your "comrade."	1																					
+60	60		202							1	2				1																			
+61	61		301									Lee looks toward the small figure hiding behind the larger mechanoid.																						
+62	62		201							1	500276																							
+63	63		301							1	???	A-Askr...	1																					
+64	64		203							1	0.25	-500																						
+65	65		201							2	500275		500																					
+66	66		301							1	Askr	No. Embla. Don't. Come out.	2																					
+67	67		301								Embla	They. Not like. Robots. Want "war."	1																					
+68	68		302								You know about the "war"?	75	Embla?	Normal Dialog																				
+69	69		301								Askr	Embla. My comrade. Father's book. Says "sister."	2																					
+70	70		301								Askr	Askr. Protects. Embla.	2																					
+71	71		302								She's your "sister"? And... you're her "brother"?	72																						
+72	72		301								Askr	Askr. Protects. Embla. We survived. Last "war."	2																					
+73	73		302								Last war?	74																						
+74	74	77	301								Askr	"War." Many times. Many remains. Different remains. Askr and Embla. Hide here. And live.	2																					
+75	75		301								Askr	We. They. All know.	2																					
+76	76		301								Askr	Red. Blue. No color. We live. Like this.	2																					
+77	77		202							1	2				1																			
+78	78		201							1	1011001																							
+79	79		301							1	Lee	...What's going on?	1																					
+80	80		201							1	500276		-500																					
+81	81		201							2	500275		500																					
+82	82		301							1	Askr	...You aren't. Mechanoids. Made by. "War System"?	2																					
+83	83		302								...Questions are leading to more questions.	84																						
+84	84		301								Embla	Are you... Outside. Beings?	1																					
+85	85		202							1	2				1																			
+86	86		301									Lucia and Lee look at you as if debating whether to tell the mechanoid where you are from.																						
+87	87		302								(Nod)	88	(Shake head)	96	...	96																		
+88	88		201							1	500029																							
+89	89		301							1	Lucia	Yes, we... we are from the "outside world."	1																					
+90	90		201							1	500275																							
+91	91		301							1	Askr	But. My "knowledge." Says no. Outside beings.	1																					
+92	92		301								Askr	Beings. Only in. Naraka.	1																					
+93	93		302								Beings?	94	"Naraka"?	95																				
+94	94	101	301								Askr	You. Me. Are "beings"	1																					
+95	95	101	301								Askr	Here. There. All is. Naraka.	1																					
+96	96		201							1	1011001																							
+97	97		301							1	Lee	...	1																					
+98	98		201							1	500275																							
+99	99		301							1	Askr	You. Don't speak.	1																					
+100	100		301								Askr	Unlike. Beings. In "Naraka".	1																					
+101	101		201							1	500276																							
+102	102		301							1	Embla	If you. Are. Outside beings. Then...	1																					
+103	103		201							1	500275																							
+104	104		301							1	Askr	"Knowledge." Is. A lie.	1																					
+105	105		302								This "knowledge" you speak of...	106																						
+106	106		302								What is it?	107																						
+107	107		301								Askr	"Knowledge" is. Naraka. Beings. Must know. Do know.	1																					
+108	108		301								Askr	"No outside beings." "Only 'war' prolongs 'beings.'" "Only 'war' awakens 'Father.'"	1																					
+109	109		302								"Father"?	110																						
+110	110		301								Askr	When. "Father" is awoken. All will. End.	1																					
+111	111		201							1	1011001																							
+112	112		301							1	Lee	We aren't getting too many explanations, just more and more questions waiting to be answered.	1																					
+113	113		301								Lee	When "Father" wakes up, everything will end...?	1																					
+114	114		201							1	500275																							
+115	115		301							1	Askr	This is. What. I must do.	1																					
+116	116		302								?	117																						
+117	117		301								Askr	Me. Embla. Hesitate. Weak. Cannot "war."	1																					
+118	118		301								Askr	Only way. Is. Push everything. Past breaking point. I can. Wake "Father".	1																					
+119	119		301								Askr	Naraka. Cannot. Be this.	1																					
+120	120		201							1	500029																							
+121	121		301							1	Lucia	...You want to wake up "Father"?	1																					
+122	122		201							1	500275																							
+123	123		301							1	Askr	Wake "Father". Make Father. See everything.	1																					
+124	124		301								Askr	Our. Pain. Our. Suffering. Make Father. See.	1																					
+125	125		201							1	1011001		400																					
+126	126		201							2	1031001		-400																					
+127	127		301							1	Lee	The other mechanoids also said...	1																					
+128	128		301								Lee	"Supreme Father won't sit idly by."	1																					
+129	129		301								Liv	The mechanoids think... this "Father" won't ignore their suffering...?	2																					
+130	130		302								Looks like this "Father" plays a key role.	131																						
+131	131		202							1	2				1																			
+132	132		201							1	500029																							
+133	133		301							1	Lucia	Indeed. If we can find "Father"...	1																					
+134	134		302								Perhaps we can uncover the truth behind this facility.	135																						
+135	135		301								Lucia	Um, Askr?	1																					
+136	136		203							1	0.25	-400																						
+137	137		201							2	500275		500																					
+138	138		301							1	Askr	...Speak.	2																					
+139	139		301								Lucia	We want to help you awaken the "Father" you speak of.	1																					
+140	140		301								Askr	...Why?	2																					
+141	141		302								We have something to ask him.	142	Because we also care about "Father"...	145																				
+142	142		301								Askr	You. Want to. Ask "Father"?	2																					
+143	143		301								Lucia	That is, if he, or she, is willing to answer us.	1																					
+144	144	157	301								Askr	...Alright.	2																					
+145	145		301								Askr	You. Outside beings. Why care. About "Father"?	2																					
+146	146		202							1	2				1																			
+147	147		201							1	1011001																							
+148	148		301							1	Lee	We're just following orders.	1																					
+149	149		201							1	500275																							
+150	150		301							1	Askr	Orders. Come here?	1																					
+151	151		301								Askr	Understood. You. Also share. Our. "Knowledge."	1																					
+152	152		201							1	500029																							
+153	153		301							1	Lucia	?	1																					
+154	154		302								(Motion to Lucia to be quiet)	155																						
+155	155		301								Lucia	...That's right.	1																					
+156	156		201							1	500275																							
+157	157		301							1	Askr	Then. Please. Help...	1																					
+158	158		302								?	159																						
+159	159		301									Askr points to a nearly indiscernible wound on Embla.																						
+160	160		301									‚ÄîYou notice an indentation. The outer metal layer was cracked with black lubricant seeping out of it.																						
+161	161		301								Askr	Damaged. Movement. Slow.	1																					
+162	162		301								Askr	But. With. Parts...	1																					
+163	163		201							1	500029																							
+164	164		301							1	Lucia	Understood. You want us to help you find parts so you can repair it?	1																					
+165	165		202							1					1																			
+166	166		301									Askr remains quiet as if his language module cannot find an appropriate response.																						
+167	167		301									But after a period of silence, he nods with his spherical head and upper body slightly.																						
+168	168		302								Understood.	169																						
+169	169		302								Is that okay, everyone?	170																						
+170	170		201							1	500029																							
+171	171		201							2	1011001		600																					
+172	172		201							3	1031001		-600																					
+173	173		301							1	Lucia	No problem. We came here on a mission, but our duty as soldiers is to help those in need.	1																					
+174	174		301								Lee	Agreed.	2																					
+175	175		301								Liv	I'd be... more than happy to help others...	3																					
+176	176		302								I see.	177																						
+177	177		302								Then let's do this, Askr.	178																						
+178	178		202							1	2	3			1																			
+179	179		201							1	500275																							
+180	180		301							1	Askr	"Let's do this"... Do not. Compute.	1																					
+181	181		302								It's a human phrase of acknowledgment.	182																						
+182	182		301								Askr	...	1																					
+183	183		301		1		AniZhuanchangBegin				Askr	...Let's. Do this?	1																					

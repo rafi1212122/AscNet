@@ -1,0 +1,61 @@
+<,®eﬁ∞Îü~eﬁédD≤ÈX„˚õA©$q⁄yXçáòzÍ2XPsÁÛÂVÃ#E£Çÿ≤ÕgÁÓëˇòª,ùåÁ±È(˘≥8$Æ®Êp€m8Z˛coÏáK_}<^ÿ}Ì•/aeÖ–lïΩU>^RÅo∫QÕË´5Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory70.jpg																								
+2	2		401							1	201																							
+3	3		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHuijinNew.prefab	2																							
+4	4		502							RImgBg1Shake																								
+5	5		301			DialogEnable				1		The sound of a giant machine operating comes through the wall...																						
+6	6		201							1	1021001	3	-400																					
+7	7		401							2	1509																							
+8	8		301							1	Lucia	...What is that? Another royal guard?	1																					
+9	9		201							1	1041001		400																					
+10	10		301							1	Nanami	That's not it! Something's in the wall...	1																					
+11	11		201							1	500017																							
+12	12		301							1	Royal Guard	Executing full alert sequence... Full alert...	1																					
+13	13		201							1	1111001																							
+14	14		301			PanelActor1Shake				1	Karenina	...Lucia?!	1																					
+15	15		202							1					1																			
+16	16		301			RImgBg1Shake				1		Before any of you can react, Karenina is transported to another corridor by the rotating trap wall and separated from you.																						
+17	17		201							1	1021001	3	-400																					
+18	18		301							1	Lucia	When did she...	1																					
+19	19		201							1	500017																							
+20	20		301							1	Royal Guard	Executing full alert sequence... Full alert...	1																					
+21	21		201							1	1091001																							
+22	22		301							1	Bianca	...?!	1																					
+23	23		201							1	1011001		-400																					
+24	24		301							1	Lee	Bianca!	1																					
+25	25		202							1					1																			
+26	26		301							1		Lee immediately notices the trap underneath Bianca's feet, but he still cannot catch her in time...																						
+27	27		201							1	1011001		-400																					
+28	28		301							1	Lee	Be careful, everyone. There are traps all over this place.	1																					
+29	29		201							1	1021001	4	-400																					
+30	30		301							1	Lucia	Nanami, we have to protect Commandant.	1																					
+31	31		201							1	500045																							
+32	32		301							1	Nat	Why did they not trap the commandant...? Forget it.	1																					
+33	33		301								Nat	It is not a bad idea to keep those Constructs away.	1																					
+34	34		202							1					1																			
+35	35		401							2	1506																							
+36	36		301			RImgBg1Shake				1		‚Äî‚Äî‚Äî‚Äî																						
+37	37		201							1	500017																							
+38	38		401							2	1508																							
+39	39		301							1	Royal Guard	Warning... Golden Vortex... power supply... compromised...	1																					
+40	40		201							1	500045																							
+41	41		401							2	1515																							
+42	42		301			PanelActor1Shake				1	Nat	(Immediately examines the warning system) That is not possible... Something must be wrong with the warning system...	1																					
+43	43		201							1	1011001		-400																					
+44	44		301							1	Lee	Pay attention. Something's going on...	1																					
+45	45		202							1					1																			
+46	46		301							1		The closing trap door on the floor is stuck half-closed with the loss of power.																						
+47	47		201							1	500045																							
+48	48		401							2	1515																							
+49	49		301							1	Nat	(Orders the rest of the royal guards) "Send royal guards to the weather engine. Investigate the damaged power system."	1																					
+50	50		401							2	1515																							
+51	51		301								Nat	(Continues with her order) "Must recover power. We cannot control the virus if the engines are not sustained."	1																					
+52	52		201							1	1011001		-400																					
+53	53		301							1	Lee	(Notices that Nat is distracted) Now!	1																					
+54	54		201							1	1041001	2	400																					
+55	55		301							1	Nanami	(Jumps through the stuck trapdoor) Commandant, this way!	1																					
+56	56		201							1	500013																							
+57	57		301							1		The half-opened door is not big enough for the bigger royal guards to enter.																						
+58	58		201							1	1021001																							
+59	59		401							2	1503																							
+60	60		301		1		AniZhuanchangBegin			1	Lucia	(After Lee jumps in) ...I'll bring up the rear. Commandant, you go in first.	1																					
