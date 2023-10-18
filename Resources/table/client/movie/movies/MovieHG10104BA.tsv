@@ -1,0 +1,21 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	205																							
+3	3		201							1	1081001	2																						
+4	4		301			DialogEnable				1	Kamui	Yo! Commandant, what are you doing here sneaking around?	1																					
+5	5		302								Shh—	6	Quiet.	6																				
+6	6		204							1	1																							
+7	7		301								Kamui	Wow... I thought you were spying on something top secret but what's so interesting about Lee? Just go in and say hi... Hi! Lee!!	1																					
+8	8		203							1	0.25	-400																						
+9	9		201							2	1011001		400																					
+10	10		301							1	Kamui	You were busy with something and I saw Commandant here peeking for a while now.	1																					
+11	11		301								Lee	Commandant, care to explain why you were loitering outside my room?	2																					
+12	12		302								I didn't want to disturb you.	13	I was just passing by.	13																				
+13	13		301								Lee	...Just let me know next time, I wouldn't bar you from entering.	2																					
+14	14		301								Kamui	See, I told you to just go and say hi!	1																					
+15	15		301								Kamui	But I'm curious about what you were doing too.	1																					
+16	16		301								Lee	...It's none of your business.	2																					
+17	17		301								Lee	Don't you two have a mission to do or something other than spying on me?	2																					
+18	18		302								Checking up on your wellbeing is also my job.	19																						
+19	19		301								Lee	...Look all you want, I'm quite sure you'll lose interest soon enough.	2																					
+20	20		301		1		AniZhuanchangBegin				Kamui	What about me? I'm interested even if Commandant isn't!	1																					

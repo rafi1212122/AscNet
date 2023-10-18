@@ -1,0 +1,73 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory309.png																								
+2	2		401							1	101																							
+3	3		201							1	500489																							
+4	4		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+5	5		301			DialogEnable				1	Lee	This is the last one.	1																					
+6	6		301									Your team's strategy of maintaining constant communication seems to be almost on par with the Engineering Force, even with the help of their thrusters.																						
+7	7		301									Only one component remains.																						
+8	8		201							1	500019																							
+9	9		301							1	Construct A	Sorry, but we've found it, too!	1																					
+10	10		201							1	500489																							
+11	11		301							1	Lee	Tch.	1																					
+12	12		302								Ignore them, Lee.	13																						
+13	13		301									One of the other Constructs stays behind and blocks Lee for a few seconds, giving the other Construct a chance to slip by the side of the cliff using the thrusters.																						
+14	14		201							1	500019																							
+15	15		301							1	Construct A	Should've expected such tactics from a combat team. Guess I learned a thing or two.	1																					
+16	16		301									Even though Lee manages to juke the Construct blocking his way, the competition is still down to the wire.																						
+17	17		201							2	500405		-400																					
+18	18		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+19	19		203							1	0.25	400																						
+20	20		301							1	Construct B	Got it!	2																					
+21	21		301								Construct A	We win!	1																					
+22	22		301								Construct B	Looks like we got the upper hand this time.	2																					
+23	23		301									After grabbing the last part, the Construct returns to her companion's side. She extends her hand in a gesture of sportsmanship.																						
+24	24		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+25	25		202							2					1																			
+26	26		201							1	500489	8																						
+27	27		301							1	Lee	...	1																					
+28	28		204							1	1																							
+29	29		301								Lee	Who wouldn't have an "upper hand" with anti-gravity thrusters...	1																					
+30	30		301				AniZhuanchangBegin					Lee's response carries a sarcastic undertone, but he still shakes hands with his opponents in a friendly gesture.																						
+31	31		401							1	208																							
+32	32		505			DialogDisable					Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+33	33		202							1																								
+34	34		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory102.png																								
+35	35		302								We lost...	36																						
+36	36		301			DialogEnable						You feel slightly annoyed with the other team for using high-speed support devices.																						
+37	37		301									After all, the organizers probably didn't anticipate anyone going out of bounds and bypassing the side of the cliff. You feel helpless against their exploitation of a loophole.																						
+38	38		201							1	500489	1																						
+39	39		301							1	Lee	It's not over yet.	1																					
+40	40		302								?	41																						
+41	41		201							1	500019		400																					
+42	42		201							2	500405		-400																					
+43	43		301							1	Construct A	Hold on. Didn't we get the last bolt? Why does it look like the other parts...	1																					
+44	44		301								Construct B	Did you mess up?	2																					
+45	45		301								Construct A	How's that possible? Would you have messed up?	1																					
+46	46		301									Faced with the explanation by the organizer's staff, the Constructs share looks of dismay.																						
+47	47		301									They repeatedly check the objects on the table only to realize they accidentally grabbed a duplicate bolt.																						
+48	48		302								(Could it be...?)	49																						
+49	49		202							1	2				1																			
+50	50		201							1	500489	1																						
+51	51		301							1		At that moment, Lee hands in the items you have collected.																						
+52	52		301									Surely enough, the last part lies in his palm.																						
+53	53		301								Lee	Looks like I still have a trick up my sleeve from playing magician all day.	1																					
+54	54		302								When you shook their hands?	55																						
+55	55		301								Lee	Correct.	1																					
+56	56		302								You weren't practicing beforehand, were you?	57																						
+57	57		302								You seem a little too good at that.	58																						
+58	58		204							1																								
+59	59		301				AniZhuanchangBegin		2000		Lee	...I just have quick hands.	1																					
+60	60		101							Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+61	61		504							0.7																								
+62	62		201							1	500026																							
+63	63		301			AniZhuanchangEnd				1		After leaving his signature code at the end of the last report today, Lee closes the holo-screen.																						
+64	64		204							1	10																							
+65	65		301									After rubbing the center of his brow, he clenches his fist, shakes his wrist, and opens his fingers. An intricate robot instantly appears in the palm of his hand.																						
+66	66		204							1																								
+67	67		301									Lee opens a drawer stuffed with parts, ribbons, playing cards, and small robots of various shapes, and puts it in.																						
+68	68		301									Then he casually picks up the paper in front of him, holds it by the edge, and folds it several times. The celebration flyer becomes an intricate origami rose.																						
+69	69		301									Looking at the time, he furrows his eyebrows and quickly unfolds the paper with blistering speed.																						
+70	70		301									Folding it again, but this time faster, he checks his time, then puts the "rose" in the drawer.																						
+71	71		301									After moving his stiff joints, he takes out a bottle of lubricant and rubs it on his hands.																						
+72	72		301		1		AniZhuanchangBegin				Lee	All that remains is...	1																					

@@ -1,0 +1,55 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		401			AniZhuanchangEnd				1	112																							
+2	200		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryGoldDustLightWall.prefab	1																							
+3	2		101							Assets/Product/Texture/Image/BgStory/Bgstory177.png																								
+4	3		301								Phecda	Ugh...																						
+5	4		301								Construct	M-monster...																						
+6	5		301			RImgBg1Shake						Kowloong, Babylonia—an abrupt tremor seizes everything, rendering members of both factions all paralyzed on the floor.																						
+7	6		201							1	500101																							
+8	7		301							1	Gabriel	I will pray for you.	1																					
+9	8		401							2	1516																							
+10	9		301									The culprit, Gabriel, saunters down this littered path. His black-clad figure casts an enormous shadow on the ground, but his footsteps remain soundless.																						
+11	10		301									Gabriel is more than aware that the Constructs are still conscious. His attack only partially disabled their functions. The Constructs are all struggling to get on their feet, trying to exact their revenge.																						
+12	11		301									Yet that is more than enough. Gabriel would not kill unless necessary, not in the least, but he would not hesitate to do it for Luna.																						
+13	12		301									For Gabriel, Luna is a symbol of the world spirit—the whole—something he would give his all to defend.																						
+14	13		301								Gabriel	This light wall... must be some kind of protective shield.	1																					
+15	14		202							1																								
+16	15		301									Gabriel stops before the light wall, hoping to find a way through it. As thin as the wall seems, Gabriel knows better than to take it lightly.																						
+17	16		201							2	500019		-400																					
+18	17		201							3	500013		400																					
+19	18		301							1	Construct	Goddamned Corrupted!	2																					
+20	19		401							2	1508																							
+21	20		301								Corrupted	—!	3																					
+22	21		301									The Corrupted that followed Gabriel into the city are tied up with the remaining squads. Summoning the Corrupted over might complicate things, so Gabriel turns his gaze instead to a Construct that is glaring at him.																						
+23	22		202							2	3				1																			
+24	23		201							2	500101		-400																					
+25	24		201							3	500019		400																					
+26	25		301							1	Gabriel	Sorry.	2																					
+27	26		301								Construct	W-what are you doing, you degenerate freak!?	3																					
+28	27		301									A monstrous hand reaches out from Gabriel's overcoat and plucks the Construct up. Ignoring the Construct's curses, Gabriel studies the light wall, then finally confirming the fatal spot—																						
+29	29		401							2	10007502																							
+30	28		301			RImgBg1Shake						He rams the Construct into the wall.																						
+31	30		301			PanelActor3Shake					Construct	Aaaargh!!!	3																					
+32	100		401							2	10007502																							
+33	31		301			RImgBg1Shake						Like a toddler abusing a toy, Gabriel slams the Construct, over and over, at the light wall.																						
+34	101		401							2	10007502																							
+35	32		202					1000		3																								
+36	33		203							2	0.25																							
+37	34		301									Very quickly, he realizes the true nature of the light wall.																						
+38	35		202							2																								
+39	36		301									It is a force field made of light, serving a defensive purpose as well as an offensive one. The spasming, scorched Construct in his hand is the evidence.																						
+40	37		201							2	500101																							
+41	38		301							1	Gabriel	I see. Then this shan't be difficult. Greater force can create an aperture, and then...	2																					
+42	39		301								Gabriel	The laser-generating components can be destroyed from within.	2																					
+43	40		301									With that, Gabriel tosses aside the broken Construct and aims his hand at the light wall.																						
+44	41		301				AniZhuanchangBegin					—!																						
+45	201		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryGoldDustLightWall.prefab																							
+46	42		101							Assets/Product/Texture/Image/BgStory/Bgstory173.png																								
+47	43		202							3					1																			
+48	44		201							2	1081001		-400			1																		
+49	45		201							3	500155		400			1																		
+50	46		401							2	10007502																							
+51	47		301			AniZhuanchangEnd				1	Kamui	More explosions, Captain!	2																					
+52	48		301								Chrome	That came near the core area. Is the wall being attacked by the Corrupted...?	3																					
+53	49		301								Kamui	Let's go there and find out!	2																					
+54	50		301		1		AniZhuanchangBegin				Chrome	Yeah. We'll take the shortest path!	3																					

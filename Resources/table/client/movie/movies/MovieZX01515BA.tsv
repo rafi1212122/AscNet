@@ -1,0 +1,180 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory36.jpg																								
+2	2		401							1	102																							
+3	3		401							2	1501																							
+4	4		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab	2																							
+5	5		301			DialogEnable						The end of the passage glows red from the alarm.																						
+6	7		301							1		Unable to see the other side of the wall, HNB1 readies his weapon and nods to HBG3. Whatever comes in will be destroyed by their coordinated attack.																						
+7	1000		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab																							
+8	9		301									————																						
+9	10		201							2	500233																							
+10	11		301			PanelActor2Shake				1	HBG3	Wait!	2																					
+11	12		202							2					1																			
+12	13		301								???	Ahh!																						
+13	14		301									A stone flies through the dust, bouncing off of HBG3's chest and rolling to HNB1's feet behind him.																						
+14	15		301									The dust disperses, revealing a human standing in place.																						
+15	16		201							2	500233																							
+16	954		401							2	1515																							
+17	18		301							1		Scanning<<<<Assessing danger level<<<<	2																					
+18	19		301								HBG3	Don't attack. It's a human.	2																					
+19	20		202							2					1																			
+20	21		201							3	500219																							
+21	22		301							1	???	...	3																					
+22	23		202							3					1																			
+23	24		201							1	500231																							
+24	25		301							1	HNB1	More precisely, it's a child.	1																					
+25	26		201							1	500219																							
+26	27		301							1	???	D-don't come any closer!	1																					
+27	28		301									The child in front grabs a small stone beside her, holding onto it like a weapon. She clenches her lips and her eyes brim red. Eyeing the two Tai'E units cautiously, she seems to be looking for an opening to escape.																						
+28	29		201							1	500231		400																					
+29	30		201							2	500233		-400																					
+30	31		301							1	HBG3	Greetings. We mean no harm. Did you come in from outside?	2																					
+31	32		202							1	2				1																			
+32	33		201							3	500219																							
+33	34		301							1	Little Girl	Go away!	3																					
+34	35		202							3					1																			
+35	36		201							1	500231		400																					
+36	37		201							2	500233		-400																					
+37	38		301			PanelActor1Shake				1		The girl throws another stone, but it bounces off HNB1's face with a clear "ding."	1																					
+38	8523		401							1	205																							
+39	39		301								HNB1	Hey, kid! Relax! Do you know how expensive I am?	1																					
+40	40		301								HBG3	Sensing increased heart rate and breathing. Emotional analysis indicates level one fear. Possibility to attempt escape—97.25%. We won't attack you, and you can't run away from us. Please, cease from resisting.	2																					
+41	41		203							2		-400																						
+42	42		301									HBG3 puts the weapon down and quietly steps back.																						
+43	43		301								HNB1	...Alright alright, guess there's no other way.		1																				
+44	44		301								HNB1	Here kid, I'll drop my weapon too.		1																				
+45	45		202							1	2				1																			
+46	46		201							3	500219																							
+47	47		301							1	Little Girl	...	3																					
+48	48		202							3					1																			
+49	49		201							1	500231		400																					
+50	50		201							2	500233		-400																					
+51	51		301							1	HNB1	Where are your parents? Why are you here alone? Oh, you hurt your knee... Are you okay? Are you separated from your parents? What's going on outside?	1																					
+52	52		301								HBG3	HNB1, can you please turn off your human emotion module? It's interfering with my analysis.	2																					
+53	53		301								HNB1	If you don't bandage your wound, it'll get infected. Look... Hey! Wait!	1																					
+54	54		202							1	2				1																			
+55	55		201							3	500219		-600			1																		
+56	56		203							3	1	3000																						
+57	57		301									Right as the Tai'E units are talking to each other, the girl uses this opportunity to slip between them like an alerted deer.	3																					
+58	58		201							1	500231		400																					
+59	59		201							2	500233		-400																					
+60	60		301							1	HBG3	Please, halt—	2																					
+61	61		301			PanelActor1Shake				1	HNB1	Hey—! Now you're kicking me! I'm expensive!	1																					
+62	62		202							1	2				1																			
+63	63		301			RImgBg1Shake						HBG3 stretches out its huge steel hand and picks the girl up. The girl screams in the air and kicks her legs in vain.																						
+64	64		201							2	500233																							
+65	65		301				AniZhuanchangBegin			1	HBG3	You're safe now, human child. We have rescued you.	2																					
+66	66		202							2					1																			
+67	67		101							Assets/Product/Texture/Image/BgStory/BgStory83.jpg																								
+68	1001		401							1	25																							
+69	68		201							1	500231		400																					
+70	69		201							2	500233		-400																					
+71	70		301			AniZhuanchangEnd				1	HNB1	Let's see. There's sand in your wound. Looks serious...	1																					
+72	71		301								HBG3	There is an 82% chance of scarring.	2																					
+73	72		202							1	2				1																			
+74	73		201							3	500219	4																						
+75	74		301							1	Little Girl	...	3																					
+76	75		202							3					1																			
+77	76		201							1	500231		400																					
+78	77		201							2	500233		-400																					
+79	78		301							1	HBG3	Her hostility against you has increased.	2																					
+80	79		301								HNB1	Thanks for the explanation. But I'm pretty sure she's trying to punch you in the face, not me.	1																					
+81	80		202							1	2				1																			
+82	81		201							3	500219	4																						
+83	82		301			PanelActor3Shake				1	Little Girl	I don't care about... Ow!	3																					
+84	83		202							3					1																			
+85	84		201							1	500231		400																					
+86	85		201							2	500233		-400																					
+87	86		301							1	HNB1	Don't move. We need to sterilize the wound, or it will get infected.	1																					
+88	87		301								HBG3	Through my analysis of past human habits and behaviors, the non-therapeutic act of blowing on a painful wound can achieve psychological comfort.	2																					
+89	88		202							1	2				1																			
+90	89		201							3	500219	16																						
+91	90		301							1	Little Girl	I mean... it's not like you can blow air!	3																					
+92	91		202							3					1																			
+93	92		201							1	500231		400																					
+94	93		201							2	500233		-400																					
+95	94		301							1	HNB1	I have a ventilation system installed on my back. Want to give it a try?	1																					
+96	95		301								HBG3	HNB1, there is a 35% chance that the human will be dragged inside your ventilation system if you were to use it.	2																					
+97	96		301								HNB1	I'm just messing with her. I'm not one to hold grudges against some little girl—Alright, done! Here's a pretty bow tied up and... you're good to go!	1																					
+98	97		202							1	2				1																			
+99	98		201							3	500219																							
+100	99		301							1	Little Girl	You two are weird... But you don't have the virus... Thank you, I guess.	3																					
+101	100		201							3	500233																							
+102	2585		401							1	201																							
+103	101		301							1	HBG3	By virus, do you mean the effects of the "Punishing Virus"? May I ask, what is that?	3																					
+104	102		201							3	500219																							
+105	103		301							1	Little Girl	Daddy said... The Punishing Virus will hurt people and make robots sick.	3																					
+106	104		201							3	500231																							
+107	105		301							1	HNB1	Robots?	3																					
+108	106		201							3	500219																							
+109	107		301							1	Little Girl	Sick robots will... attack humans.	3																					
+110	108		301								Little Girl	There are too many sick robots, so people have to fight them.	3																					
+111	109		301								Little Girl	We were supposed to drive to a safe place. Daddy said a big boat would take us away, but our car was stopped. So Daddy told me to run first and he would pick me up.	3																					
+112	110		204							3	16																							
+113	111		301								Little Girl	Daddy told me to... stay away from mechanoids... and keep running to stay alive.	3																					
+114	112		301								Little Girl	So I ran the other way... I ran for a long long time...	3																					
+115	113		301									The girls eyes brim with tears and her nose sniffles as she shakes her head.	3																					
+116	1100		204							3																								
+117	114		301								Little Girl	I ran for a long time until I ended up here.	3																					
+118	115		201							3	500231																							
+119	116		301							1	HNB1	You just mentioned a safe place. Do you know where that place is?	3																					
+120	117		201							3	500219	16																						
+121	118		301							1	Little Girl	I don't know...	3																					
+122	119		201							3	500233																							
+123	120		301							1	HBG3	How does the virus spread? Is it airborne or...	3																					
+124	121		201							3	500219																							
+125	122		301							1	Little Girl	I... I don't know.	3																					
+126	123		202							3					1																			
+127	124		201							1	500231		400																					
+128	125		201							2	500233		-400																					
+129	126		301							1	HNB1	...	1																					
+130	127		301								HBG3	...	2																					
+131	128		301								HBG3	If they were planning on evacuating by boat and the main city area is at war, a general range can be calculated by combining her path and the location of the city's port.	2																					
+132	129		301								HBG3	Our top priority now is to send the human child to the safe point.	2																					
+133	130		301								HNB1	You're not reporting back for duty?	1																					
+134	131		301								HBG3	We are Tai'E. Our top priority is to ensure human safety.	2																					
+135	132		301								HBG3	But we don't know anything about the virus. If it causes machines to go haywire...	2																					
+136	133		301								HNB1	But hey, we're still functioning normally.	1																					
+137	134		202							1	2				1																			
+138	135		401							2	10007502																							
+139	136		301			RImgBg1Shake						Boom—																						
+140	137		301									An explosion faintly rumbles in the distance. All three look in the direction of the noise.																						
+141	138		201							2	500233																							
+142	139		301							1	HBG3	We have to hurry.	2																					
+143	140		301								HBG3	Combined with the existing information, there must be malfunctioning machines in the city. The safest option would be to avoid them at all costs.	2																					
+144	141		202							2					1																			
+145	142		301									HBG3 activates his control screen, projecting the topographic map of Kowloong City out of his chest.																						
+146	143		201							2	500233																							
+147	144		301							1	HBG3	Do you see the map?	2																					
+148	145		201							2	500219	4																						
+149	146		301							1	Little Girl	Wait... I didn't say I'd go with you!	2																					
+150	147		301								Little Girl	I'm going back to the city! Daddy must be worried about me. He said he would pick me up!	2																					
+151	148		201							2	500231																							
+152	149		301							1	HNB1	Don't be silly. You hear that? That's the sound of war. If you just came from the city, you should know what happened better than us. You are a human child... Even if we go with you, we can't guarantee your safety.	2																					
+153	150		201							2	500219																							
+154	151		301							1	Little Girl	I... I can protect myself!	2																					
+155	152		301								Little Girl	I know what happened... That's why I have to go back!	2																					
+156	153		204							1	4																							
+157	154		301								Little Girl	Also... Why would I trust you in the first place!	2																					
+158	155		202							2					1																			
+159	156		201							1	500231		400																					
+160	157		201							2	500233		-400																					
+161	158		301							1	HBG3	...	2																					
+162	159		301								HNB1	Quit joking around. Regardless, I...	1																					
+163	160		301								HBG3	Okay. Then we shall go with you. It'll definitely be faster with us than just you alone.	2																					
+164	161		301								HNB1	Hey, G3!	1																					
+165	162		301								HBG3	Article 1 of the KCC Pulao Crew regulations, Tai'E shall not harm humans, or by inaction allow humans to come to harm.	2																					
+166	163		301								HNB1	Bleugh...	1																					
+167	164		301								HBG3	These are our instructions hardwired into our programming. I can't disobey, neither can you.	2																					
+168	165		301								HNB1	Of course, I know that! But if she really wants us to take her to the battlefield...	1																					
+169	166		301								HBG3	You and I don't know what's going on in the outside world either.	2																					
+170	167		301								HNB1	Alright, you win.	1																					
+171	168		301								HNB1	Okay then, kiddo. Let's get you to your place.	1																					
+172	169		202							1	2				1																			
+173	170		201							3	500219																							
+174	171		301							1	Little Girl	...	3																					
+175	172		201							3	500233																							
+176	173		301							1	HBG3	So, do you know how to read a map?	3																					
+177	174		201							3	500219																							
+178	175		301							1	Little Girl	Well...	3																					
+179	176		301		1		AniZhuanchangBegin				Little Girl	I can try.	3																					

@@ -1,0 +1,16 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory38.jpg																								
+2	1000		401							1	202																							
+3	2		201							1	1031001		400																					
+4	3		201							2	500029		-400																					
+5	4		301			DialogEnable				1	Liv	Lucia, Lee's over there!	1																					
+6	5		301								Lucia	Be careful. The Iron Maiden is near him.	2																					
+7	100		204							1	7																							
+8	6		301								Liv	Wait. Lee is aiming at us!	1																					
+9	7		302								Lee's not responding to my connection. Something's wrong.	8																						
+10	8		204							1																								
+11	9		301								Lucia	On the right.	2																					
+12	10		301								Lucia	Lee, attacking us...?	2																					
+13	11		301								Lucia	Liv, find out the reason. I'll restrict his movements.	2																					
+14	12		301								Liv	Other Corrupted are surrounding us.	1																					
+15	13		301		1		AniZhuanchangBegin				Lucia	Keep the commandant safe.	2																					

@@ -1,0 +1,153 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	37																							
+3	3		301			DialogEnable						Storytellers always say, do the right thing and go the right way.																						
+4	4		301				AniZhuanchangBegin					What comes around goes around. The only thing that is constant is change.																						
+5	5		101							Assets/Product/Texture/Image/BgStory/BgStory553.jpg																								
+6	6		401							1	205																							
+7	7		301			AniZhuanchangEnd						One sunny day, the peaceful street is disturbed by some unpleasant noises.																						
+8	8		301								???	Screw you! I don't care who you are. Nobody is going to stop us today.																						
+9	9		301									The masked speaker spits on the mottled pillar.																						
+10	10		201							1	500456																							
+11	11		301							1	???	Look at this martial arts club, so run down, with only two members. We only charge a small fee to protect this place. You won't find this due anywhere!	1																					
+12	12		201							1	500445																							
+13	13		301							1	Pulao	Um... I think it's "deal," right? Master once taught me that word.	1																					
+14	14		201							1	500456																							
+15	15		301							1	???	**** you! I say it's due, then due it is!	1																					
+16	16		203							1	0.25	-450																						
+17	17		201							2	500441		450																					
+18	18		301							1	??	Demon Bane said it! Don't you d-d-dare...	2																					
+19	19		301								??	Mess with us!	2																					
+20	20		202							1	2				1																			
+21	21		201							1	500445	1																						
+22	22		301							1	Pulao	Master and I are more than enough to protect ourselves. But thanks for your offer anyway.	1																					
+23	23		202							1					1																			
+24	24		201							1	500456																							
+25	25		301							1	Demon Bane	Tsk. Lucky Dog, Ding Gold, have I not made myself clear?	1																					
+26	26		202							1					1																			
+27	27		201							1	500464		-450																					
+28	28		201							2	500441		450																					
+29	29		301							1	Lucky Dog	I don't think so, Demon Bane. Other shops were already paying before we finished our lines.	1																					
+30	30		301								Ding Gold	This girl doesn't look too familiar. I'm a-a-afraid...	2																					
+31	31		301								Lucky Dog	What are you afraid of? Don't you dare let the Gung-hoer's name down.	1																					
+32	32		301								Ding Gold	I'm afraid that she's new here!	2																					
+33	33		202							1	2				1																			
+34	34		201							1	500445	2																						
+35	35		301							1	Pulao	Wow, you guys are smart. I didn't have to tell you.	1																					
+36	36		204							1	1																							
+37	37		301								Pulao	I'm pretty new here. I came at...	1																					
+38	38		202							1					1																			
+39	39		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+40	40		301				AniZhuanchangBegin					Wait, when did I come here?																						
+41	41		101							Assets/Product/Texture/Image/BgStory/BgStory553.jpg																								
+42	42		301			AniZhuanchangEnd						She is about to answer, but hesitates at the end.																						
+43	43		301									She looks at the quiet club, antique streets, walls shrouded in mist, and listens to the humming of machines from afar.																						
+44	44		301									It all looks so familiar, but Pulao is feeling a little strange.																						
+45	45		301									But the man with a purple mohawk—the other guy calls him "Demon Bane"—obviously can't sense it. He sits on a chair and crosses his legs.																						
+46	46		201							1	500456																							
+47	47		301							1	Demon Bane	Hmph, no wonder you have no clue.	1																					
+48	48		301								Demon Bane	Whoever wants to make a living here must seek permission from us Gung-hoers first.	1																					
+49	49		301								Demon Bane	You're in luck today, because we are in a good mood. Fine, I'll give you an official introduction.	1																					
+50	50		502							DialogDisable																								
+51	51		202							1					1																			
+52	52		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+53	53		201						500	3	500464				-300	1																		
+54	54		401							2	559																							
+55	55		203						500	3	0.25	500																						
+56	56		502							RImgBg1Shake																								
+57	57		501						100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+58	58		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+59	59		201						1000	2	500441				-300	1																		
+60	60		401							2	559																							
+61	61		203						1000	2	0.25	-500																						
+62	62		502							RImgBg1Shake																								
+63	63		501						100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+64	64		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+65	65		201						1500	1	500456				-300	1																		
+66	66		401							2	559																							
+67	67		203						1500	1	0.25																							
+68	68		502							RImgBg1Shake																								
+69	69		501						100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+70	70		301			DialogEnable						Lucky Dog and Ding Gold immediately kneel down putting their hands up. Demon Bane kicks the chair away, then quickly steps on their back and leaps off their hands, grabbing the beam of the house and, with a double twist 4.5 somersault in a tucked position, landing firmly on the ground.																						
+71	71		301									With his back facing Pulao, Demon Bane puts his hands together and runs them over his mohawk, then turns around and points at her.																						
+72	72		201							1	500456																							
+73	73		301			RImgBg1Shake				1	Demon Bane	We are the Gung-hoers!	1																					
+74	74		202							1	2	3			1																			
+75	75		201							1	500445																							
+76	76		301							1	Pulao	...?	1																					
+77	77		202							1					1																			
+78	78		301									Pulao looks puzzled. Demon Bane has to repeat his gesture.																						
+79	79		201							1	500456		-450																					
+80	80		201							2	500445		450																					
+81	81		301							1	Demon Bane	We are the Gung-hoers!	1																					
+82	82		301								Pulao	...	2																					
+83	83		301								Demon Bane	...	1																					
+84	84		301								Pulao	Sorry, what's your name again?	2																					
+85	85		301								Demon Bane	"Gung-ho"ers!	1																					
+86	86		301								Demon Bane	Tales of our misdeeds are told from aged care services to kindergartens. We are the darkness of this land and will bow to no one.	1																					
+87	87		301								Demon Bane	We are the "Gung-ho"ers, the greatest dark kings of this street!	1																					
+88	88		202							1	2				1																			
+89	89		201							1	500464		-450																					
+90	90		201							2	500441		450																					
+91	91		301							1	Lucky Dog	Demon Bane, you're so cool!	1																					
+92	92		301								Ding Gold	T-that's it, bro!	2																					
+93	93		202							1	2				1																			
+94	94		201							1	500445																							
+95	95		301							1	Pulao	But why does it sound so random to me? Like whoever picked the name wasn't even thinking.	1																					
+96	96		201							1	500441																							
+97	97		301							1	Ding Gold	T-that's it, bro!	1																					
+98	98		202							1	2				1																			
+99	99		201							1	500464		-450																					
+100	100		201							2	500456		450																					
+101	101		301							1	Demon Bane & Lucky Dog	Huh?	1	2																				
+102	102		202							1	2				1																			
+103	103		201							1	500441																							
+104	104		301							1	Ding Gold	No! I didn't mean it!	1																					
+105	105		201							1	500455																							
+106	106		301							1	???	I hear a lot of chatting. What's going on?	1																					
+107	107		201							1	500445	1																						
+108	108		301							1	Pulao	Here you are, Master!	1																					
+109	109		201							1	500456		-450																					
+110	110		201							2	500455		450																					
+111	111		301							1	Demon Bane	Master? So you are the boss of this pathetic place.	1																					
+112	112		301								Master	I am just a nobody who decided to stay behind and take care of the club.	2																					
+113	113		301								Demon Bane	Whatever. I don't care.	1																					
+114	114		301								Demon Bane	Nobody can walk away until you pay your share.	1																					
+115	115		301								Master	Our priority has always been to serve humans. How about we all take a seat and talk about it?	2																					
+116	116		202							1	2				1																			
+117	117		301				RImgBg1Shake					Master brings a few more chairs, but Lucky Dog and Ding Gold just kick them away.																						
+118	118		401						750	2	657																							
+119	119		201							1	500441		-450																					
+120	120		201							2	500464		450																					
+121	121		301							1	Ding Gold	We d-don't sit.	1																					
+122	122		301								Lucky Dog	We were only asking for a small fee, but this little girl really pissed off Demon Bane. Now you're in for a big compensation.	2																					
+123	123		202							1	2				1																			
+124	124		201							1	500456		-450																					
+125	125		201							2	500455		450																					
+126	126		301							1	Master	But...	2																					
+127	127		301								Demon Bane	****, you could have walked away easily. Now you are forcing me to use violence.	1																					
+128	128		203							1	0.25				1																			
+129	129		301									No longer able to contain his rage, Demon Bane starts to pull Master toward him.																						
+130	130		203							1	0.1	-50																						
+131	131		203					100		1	0.25																							
+132	132		301									To his surprise, the ordinary-looking Master has not moved a single inch.																						
+133	133		301								Demon Bane	Hmph.	1																					
+134	134		203							1	0.25	-2000																						
+135	135		301			RImgBg1Shake						But Demon Bane is obviously "experienced" in this sort of situation. He suddenly groans in pain and waves his arms in an exaggerated way, falling back on the wooden floor of the martial arts club and sliding meters back.																						
+136	136		202							1	2				1																			
+137	137		201							1	500441		-450																					
+138	138		201							2	500464		450																					
+139	139		301							1	Lucky Dog & Ding Gold	Demon Bane!	1	2																				
+140	140		202							1	2				1																			
+141	141		201							1	500456																							
+142	142		301							1	Demon Bane	I gave you a chance. You've got some real guts fighting us Gung-hoers.	1																					
+143	143		201							1	500455		-450																					
+144	144		201							2	500445	5	450																					
+145	145		301							1	Master	Huh?	1																					
+146	146		301								Pulao	You fell on your own. Master didn't do anything!	2																					
+147	147		202							1	2				1																			
+148	148		201							1	500456																							
+149	149		301							1	Demon Bane	See, you just won't admit what you did.	1																					
+150	150		301								Demon Bane	I must teach you a lesson today.	1																					
+151	151		201							1	500445	5																						
+152	152		301		1		AniZhuanchangBegin			1	Pulao	How dare you!	1																					

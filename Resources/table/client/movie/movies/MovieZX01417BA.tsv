@@ -1,0 +1,18 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory224.png																								
+2	2		401							1	10																							
+3	3		301			DialogEnable				1		——																						
+4	4		301									After Rosetta's final blow, Amberia is completely engulfed by the explosion. The cave begins to collapse from the aftermath.																						
+5	1000		201							1	500214																							
+6	1001		302								Let's get out of here.	5	Are you okay, Rosetta?	6																				
+7	5	7	301							1	Rosetta	Yeah. Commandant, you might want to lighten up your mech.	1																					
+8	6	7	301								Rosetta	I can still move. I think we should get going though, Commandant.	1																					
+9	7		301									You discard the useless equipment to reduce the weight of the Polar Soldier. Rosetta also rearms her shield.																						
+10	8		301								Rosetta	Commandant, we probably can't leave through the way we came. Remember the closed doors on our way here?	1																					
+11	1002		302								Yes.	9	Think there's an exit?	10																				
+12	9	11	301								Rosetta	Those doors might lead us elsewhere, or they might even be an emergency exit.	1																					
+13	10	11	301								Rosetta	I hope so.	1																					
+14	11		301								Rosetta	In any case, it should be safer through those doors than being in this place. The cave is about to collapse. With you here, Commandant, I'm sure we'll find a way out.	1																					
+15	12		301									With the next course of action decided, Rosetta turns to look at the wreckage from the battle before evacuating.																						
+16	1003		204							1	14																							
+17	13		301		1		AniZhuanchangBegin				Rosetta	Farewell... "Sinner."	1																					

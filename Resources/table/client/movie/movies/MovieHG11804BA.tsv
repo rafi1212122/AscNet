@@ -1,0 +1,113 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+2	2		401							1	210																							
+3	3		301			DialogEnable						When you wake up, you are already in a medical room on Babylonia. You cannot believe that you had fallen asleep while waiting for rescue, but the Support Team claims that Wanshi had been awake until they arrived.																						
+4	4		201							1	500116																							
+5	5		301							1	Doctor	Anyway, there's nothing serious but some scratches. Remember to keep your wounds away from water.	1																					
+6	6		301									The medic in the Star of Life uniform before you flips through your medical record projected in the air, instructing you in a serious manner.																						
+7	7		302								Excuse me, where are the Gray Ravens?	8																						
+8	8		301								Doctor	Eh... the Gray Ravens? I've heard about them, but I don't know who the members are...	1																					
+9	9		301								Doctor	But a few people did come to visit you before you woke up. Are you talking about those three who came together?	1																					
+10	10		302								That's right.	11	Why, is there someone else?	12																				
+11	11		301								Doctor	They did come to check on you before you woke up, but it seemed like they had an ad hoc mission, so they left.	1																					
+12	12		301								Doctor	There was also a male Construct that came by himself...	1																					
+13	13		302								Wanshi?	14	How long did he stay?	15																				
+14	14	16	301								Doctor	No idea.	1																					
+15	15		301								Doctor	He just sat here for a while... perhaps five or six minutes.	1																					
+16	16		301								Doctor	I've sent you a list of things to keep an eye on. Feel free to leave if there are no other problems.	1																					
+17	17		202							1					1																			
+18	18		301				AniZhuanchangBegin					The doctor soon leaves after this.																						
+19	19		101							Assets/Product/Texture/Image/BgStory/BgStory17.jpg																								
+20	20		301			AniZhuanchangEnd						The corridor is filled with medics and Constructs coming and going. Everyone seems busy.	I should have asked about the Red Robins earlier...																					
+21	21		302								I should have asked about the Red Robins earlier...	22																						
+22	22		301								Unknown Construct	They are dead.																						
+23	23		301									You hear a voice nearby.																						
+24	24		302								Dead?	25	You are?	25																				
+25	25		301									It is a gloomy-looking Construct with her long hair tied in a messy knot. She glances at you after hearing your question, but then she heads toward the end of the corridor without saying anything.																						
+26	26		301									You happen to see the name written on the tag on her chest during that brief moment.																						
+27	27		301				AniZhuanchangBegin					Paloma... she's the teammate they mentioned.																						
+28	28		101							Assets/Product/Texture/Image/BgStory/Bgstory264.png																								
+29	29		301			AniZhuanchangEnd						You hear the sound of children chasing each other not far away as a rolling football stops at your feet.																						
+30	30		301								Unknown Boy	Hey—																						
+31	31		301									A boy waves at you as if asking you to throw the ball back at him.	(Throw it)																					
+32	32		301									He catches it and kicks, missing, and the ball hits the goalpost. The other children let out a kindly tease as he sticks his tongue out. Another kid enters to replace him, and he runs toward the rest area where you are.																						
+33	33		201							1	500164																							
+34	34		301							1	Unknown Boy	Thanks for the pass.	1																					
+35	35		302								Sure.	36																						
+36	36		301								Unknown Boy	What are you doing here? I don't think I've seen you before.	1																					
+37	37		302								I'm looking for someone.	38																						
+38	38		301									You are hoping to find Wanshi. After asking Kamui, you know that he may be resting somewhere in the academy.																						
+39	39		301								Unknown Boy	Who?	1																					
+40	40		302								A Construct with white hair...	41																						
+41	41		301									You answer him despite not thinking there is any hope.																						
+42	42		301								Unknown Boy	Eh? You mean Wanshi?																						
+43	43		302								Do you know him?	44																						
+44	44		301								Unknown Boy	Wanshi has hogged our unused classroom!	1																					
+45	45		301								Unknown Boy	There used to be another blond guy coming for him as well. Since you helped me with the ball earlier... he's in 2-31A by the corridor on the second floor.	1																					
+46	46		301									The boy winks slyly.																						
+47	47		301				AniZhuanchangBegin				Unknown Boy	Don't tell Wanshi that I told you this!	1																					
+48	48		202							1					1																			
+49	49		101							Assets/Product/Texture/Image/BgStory/Bgstory146.png																								
+50	50		401							1	204																							
+51	51		301			AniZhuanchangEnd						As you push the door open, a figure comes into your sight in the corner of the classroom.																						
+52	52		301									Wanshi really is lying on a "bed" made of two desks pushed together. The way his hands and feet curl up makes you feel sorry.																						
+53	53		301									A note that reads "Wanshi's Resting Place" is taped on the desk where he is lying, which seems to be written by children.																						
+54	54		301									You can hardly believe that he can fall asleep in a place like this, especially with all the noises from the kids outside.																						
+55	55		301								Wanshi	It's the second time.																						
+56	56		302								Huh?	57	Did I wake you up?	57																				
+57	57		301								Wanshi	It's the second time you've broken into where I sleep.																						
+58	58		302								...I'm sorry?	59																						
+59	59		401							2	1516																							
+60	60		301									Though he is talking to you, you are not used to talking when you cannot see the other person, so you cannot help but walk inside the room.																						
+61	61		301									You can see the scene outside the window, where children are still playing sports with laughter. It is hard to look away from such a lively scene.																						
+62	62		301									As if the war is taking place in another world.																						
+63	63		301									But...																						
+64	64		302								Is it really possible to fall asleep with all these noises?	65	How did you bribe those kids?	69																				
+65	65		301								Wanshi	...Noises? Well, I'm not afraid of noises...																						
+66	66		302								But when we were in the shooting range...	67																						
+67	67		301								Wanshi	Well... I didn't mean to say you were noisy.																						
+68	68	73	301								Wanshi	Just wanted to talk to you then.																						
+69	69		301								Wanshi	Well... the Wanshi special candy.																						
+70	70		302								Is that a real thing?	71	So are you really a "Wish Machine"?	72																				
+71	71	73	301								Wanshi	Do you want to give it a try?																						
+72	72		301								Wanshi	"Wish Machine"... How much did Kamui tell you, huh?																						
+73	73		201							1	500273				1																			
+74	74		301							1		His voice has suddenly gotten closer. You turn around to find Wanshi having stood up at some point, half leaning on the wall, and his sight goes past you into the world outside the window.																						
+75	75		301									Beside him is the memory foam pillow you gave him. You have not expected that he would bring it here.																						
+76	76		302								...Did I interrupt you?	77																						
+77	77		301								Wanshi	Don't mind it.	1																					
+78	78		301									The artificial sunlight of Eden shines through the windows, leaving dim spots of light on the metallic walls.																						
+79	79		301									Wanshi sits cross-legged on the desk, his short silver hair sticking up from his sleep. His eyes are calm, and he looks like a hawk in the twilight, soaked from a sudden downpour.																						
+80	80		302								Feeling blue?	81	(Remain quiet)	81																				
+81	81		301								Wanshi	The place reminds me of when I was studying here. I was so busy at that time... studying day and night to get good grades.	1																					
+82	82		301								Wanshi	The only time I'd feel happy was when I passed out from being exhausted and fell asleep on the desk.	1																					
+83	83		301									Wanshi whispers as if he is talking in his sleep, and a gust of wind through the window would scatter his words.																						
+84	84		301								Wanshi	Well... I'm not really happy.	1																					
+85	85		302								Because of the Red Robins?	86																						
+86	86		301								Wanshi	Aha, it's because one of my favorite sleeping spots is taken...	1																					
+87	87		301								Wanshi	Seems that the Gray Ravens are having a meeting about some mission in the tactical conference room...	1																					
+88	88		302								I don't think it's a good idea to sleep in a conference room.	89																						
+89	89		301								Wanshi	But the chairs in the conference room are so comfortable...	1																					
+90	90		301								Wanshi	Gray Raven Commandant... You're a commandant, so you must have been through a lot of wars, right?	1																					
+91	91		301								Wanshi	What do you think... is the meaning of wars?	1																					
+92	92		302								Taking back the Earth.	93	Protecting the people around us.	94	Right there.	99																		
+93	93	102	301								Wanshi	With such an ambitious dream while protecting those around...	1																					
+94	94		301								Wanshi	Is it? That includes me, right?	1																					
+95	95		301									Wanshi points to himself and falls over your way after finishing the sentence.																						
+96	96		302								Stay awake!	97																						
+97	97		301								Wanshi	I'm counting on you as the lookout, Gray Raven Commandant.	1																					
+98	98	102	301								Wanshi	If Kamui comes over... Yawn... Please stop him no matter what...	1																					
+99	99		301									As you point out the window, the children downstairs shout out, their energy shining brighter than the sun.																						
+100	100		301									The boy running through the field seems to notice you and waves in excitement.																						
+101	101		301								Wanshi	...Is that... so? This is what it means.	1																					
+102	102		301									Wanshi buries his head between his arms, and his voice becomes dull.																						
+103	103		301								Wanshi	After "that time," I thought you were like Captain Chrome.	1																					
+104	104		302								What does that mean?																							
+105	105		301								Wanshi	...I meant it in a good way.	1																					
+106	106		301								Wanshi	But after getting to know you... it seems that you are more like Kamui.	1																					
+107	107		302								And now?	108																						
+108	108		204							1	8																							
+109	109		301								Wanshi	Now? You...	1																					
+110	110		301								Wanshi	You're... just you.	1																					
+111	111		202							1					1																			
+112	112		301		1		AniZhuanchangBegin					Wanshi murmurs, and even you are affected by the calmness of it all.																						

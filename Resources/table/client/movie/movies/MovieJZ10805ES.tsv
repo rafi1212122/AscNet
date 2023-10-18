@@ -1,0 +1,40 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory100.png																								
+2	1000		401							1	211																							
+3	2		301			DialogEnable	AniZhuanchangBegin				AWACS	Dagger 1, Babylonia has taken back the launch center of Airforce Base 28. Do you copy? I repeat. Do you copy?																						
+4	3		101							Assets/Product/Texture/Image/BgCg/Cgqz1103.jpg																								
+5	4		301			AniZhuanchangEnd						Watanabe and Cyril's frames clash, then separate.																						
+6	5		301									A duel between elite soldiers doesn't always require a spectacle of flashy skills or intricately woven vapor trails in the azure sky. Sometimes, the difference between life and death is decided in a single stroke.																						
+7	6		301									The moment they clash, Cyril hears a rupturing sound from behind—knowing it was the precursor to missile shrapnel piercing his skin.																						
+8	7		301				AniZhuanchangBegin					He knew it was already over.																						
+9	8		101							Assets/Product/Texture/Image/BgStory/Bgstory100.png																								
+10	9		201							1	500106																							
+11	10		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+12	11		301			AniZhuanchangEnd					Cyril	Hmm...	1																					
+13	12		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+14	13		201							1	500080																							
+15	14		301							1	Watanabe	!!	1																					
+16	15		201							1	500106																							
+17	16		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+18	17		301								Cyril	Hehe, how's Bruce's performance in the military?	1																					
+19	18		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+20	19		201							1	500080																							
+21	20		301							1	Watanabe	...He's always the front of the pack.	1																					
+22	21		201							1	500106																							
+23	22		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+24	23		301								Cyril	Well, if he's doing better than you... I guess I can relax.	1																					
+25	24		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+26	25		201							1	500080																							
+27	26		301							1	Watanabe	Cyril! Eject! Don't—	1																					
+28	27		201							1	500106																							
+29	28		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+30	29		301								Cyril	Believe what you choose to believe and stick to your guns.	1																					
+31	30		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+32	31		201							1	500080																							
+33	32		301							1	Watanabe	Cyril!!	1																					
+34	33		201							1	500106																							
+35	34		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+36	35		301			RImgBg1Disable					Cyril	I still can't forgive... But... Maybe I just can't forgive myself...	1																					
+37	36		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+38	37		301								Cyril	Go home, kid... Someone's gotta keep us in their heart...	1																					
+39	38		301		1		AniZhuanchangBegin				Cyril	Don't let the world... forget what we fought for...	1																					

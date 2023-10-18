@@ -1,0 +1,50 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory285.png																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						Seeking a way to cross the bridge, you have returned to the city ruins outside, where the Support Force has established a temporary base of operation.																						
+4	4		201							1	500167																							
+5	5		301							1	Bridget	Oh, that was quick?	1																					
+6	6		302								We ran into some troubles.	7																						
+7	7		301								Bridget	Do you need help?	1																					
+8	8		302								So...	9																						
+9	9		301									You inform Bridget about what went down at the bridge...																						
+10	10		204							1	4																							
+11	11		301								Bridget	So you got dumped on the other end of it?	1																					
+12	12		302								Yeah.	13																						
+13	13		301								Bridget	That bridge you mentioned, what does it look like? How far is it from one side to the other?	1																					
+14	14		201							1	1031001																							
+15	15		301							1	Liv	It's about...	1																					
+16	16		301									Liv holds onto Bridget's hand and sends her the last recorded images.																						
+17	17		201							1	500167																							
+18	19		301							1	Bridget	That distance is quite tricky indeed.	1																					
+19	20		301								Bridget	How about flying?	1																					
+20	21		302								Flying?	22																						
+21	22		301								Bridget	I've got here with me a few short-range jet engines. They aren't what's usually equipped on Constructs as they come with much more power and much less stability, and its suitability... Well...	1																					
+22	23		302								Is it dangerous?	24																						
+23	24		301								Bridget	Can't say for sure. I may be able to endorse it based on the models of your frames, but for humans, you won't know it until you've tested it.	1																					
+24	25		301								Bridget	As you can see, we're quite busy up here. You'll have to do the testing yourselves.	1																					
+25	26		201							1	1031001																							
+26	27		301							1	Liv	Commandant, let me take care of this.	1																					
+27	28		202							1					1																			
+28	29		301									After numerous tests, you finally manage to find a suitable flight device.																						
+29	30		201							1	500026																							
+30	31		301							1	Lee	Now we can cross the drawn bridge.	1																					
+31	32		202							1					1																			
+32	33		302								Prepare to move out.	34																						
+33	34		201							1	500167				1																			
+34	35		301							1	Bridget	Hold on, the place you're heading is much further below. The return trip's gonna be difficult.	1																					
+35	36		301								Bridget	So take more supplies with you. Gears and consumables, everything. Just in case.	1																					
+36	37		301									Bridget leads you to a heap of Supply Crates.																						
+37	38		301								Bridget	I told the folks to grab the most suitable resources for y'all. They're all equipment that suits your frames, so grab as many things as you can!	1																					
+38	39		302								Thank you.	40																						
+39	40		202							1					1																			
+40	41		301				AniZhuanchangBegin					You all go Supply-Crates-diving in front of Bridget's watchful gaze.																						
+41	42		201							1	500026		400																					
+42	43		201							2	1031001	1	-400																					
+43	44		301			AniZhuanchangEnd				1	Liv	Alright, medical supplies are stocked.	2																					
+44	45		301								Lee	I'm also ready.	1																					
+45	46		202							1	2				1																			
+46	47		201							1	500166	1																						
+47	48		301							1	Lucia	...So am I.	1																					
+48	49		301									Lucia smiles, hiding a familiar-looking weapon.																						
+49	50		301		1		AniZhuanchangBegin				Lucia	Let's go.	1																					

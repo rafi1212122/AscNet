@@ -1,0 +1,16 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory19.jpg																								
+2	1000		401							1	206																							
+3	2		201							1	500015																							
+4	3		301			DialogEnable				1	Tifa	What... is this place...?	1																					
+5	4		301								Tifa	I... my body...	1																					
+6	5		203							1	0.25	-400																						
+7	6		201							2	500008		400																					
+8	7		301							1	Roland	You have been successfully modified, Miss Tifa.	2																					
+9	8		301								Roland	How does it feel? Still a much more humane process than turning a human into a Construct, don't you agree? The pain... that will pass soon.	2																					
+10	9		301								Tifa	Roland... You lied to me...	1																					
+11	10		301								Roland	Oh?	2																					
+12	11		301								Tifa	I did not grow stronger... and now you turned me into this...	1																					
+13	12		301								Roland	Indeed, you're still very weak, but... the Punishing Virus is strong.	2																					
+14	13		301								Roland	You need only familiarize yourself with the power of the virus. Trust me, you will very quickly grow to like your new body...	2																					
+15	14		301		1		AniZhuanchangBegin				Roland	But I have to tell you, in this place... you are not the only special one...	2																					

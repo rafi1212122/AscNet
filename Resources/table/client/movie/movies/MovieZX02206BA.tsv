@@ -1,0 +1,65 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		401							1	66																							
+2	2		102							Evernight Beat	Chapter 16	Assets/Product/Texture/Atlas/CommonLogo/BgLogo1.png																						
+3	3		502							ThemeEnable																								
+4	4		101			AniZhuanchangEnd		3000		Assets/Product/Texture/Image/BgStory/Bgstory431.jpg																								
+5	5		401						1000	1	36																							
+6	6		401							1	60																							
+7	7		301			DialogEnable						The transport craft drags its light-blue flaming tail across the sky. You have finally returned to the frontline.																						
+8	8		301									Your exposed skin, uncovered by the exoskeleton, can feel the moisture in the air, meaning there is sufficient rain in the area, which explains why the Pulia Forest Park Ruins could last on the barren earth until now.																						
+9	9		301									There is no time to rest after the transport craft lands. Orders are issued to gather everyone together.																						
+10	10		301									Hans, like an unyielding oak, stands in the middle of the field, watching the Construct teams before him with the eyes of a hawk.																						
+11	11		201							1	500286																							
+12	12		301							1	Hans	Soldiers.	1																					
+13	13		301									Hans is not very loud, but his voice is firm enough to reach every one of your ears, making you all stand straight.																						
+14	14		301								Hans	I'm sure you've read the briefs. I'm Hans, commander of the ground forces in this mission. No matter your valor in the past, your job now is to follow orders. My judgment takes precedence in unexpected scenarios.	1																					
+15	15		301								Hans	Understood?	1																					
+16	16		302								Understood.	17																						
+17	17		202							1					1																			
+18	18		201							1	500019		-600																					
+19	19		201							2	500019		600																					
+20	20		201							3	500019																							
+21	21		301							1	Soldiers	Understood.	1	2	3																			
+22	22		301									After the familiar introduction, Hans cuts straight to the chase.																						
+23	23		202							1	2	3			1																			
+24	24		201							1	500286																							
+25	25		301							1	Hans	I won't repeat how important this operation is.	1																					
+26	26		301								Hans	Based on Woodcock's initial reconnaissance, the advanced Hetero-Hive Mother is located inside the yet-to-reclaim CPF 040 at the center of the Pulia Forest Park Ruins.	1																					
+27	27		301								Hans	That one single team could not continue their investigation under the threat of the Hetero-Sapiens, so that duty is now on the elite commandants here and your squads.	1																					
+28	28		301								Hans	We have two objectives.	1																					
+29	29		202							1					1																			
+30	30		301									A Construct passes a bit domain node to each commandant at Hans' order.																						
+31	31		301									Holding the bit domain node once more, you cannot help but remember the fight with Wanshi against Siren.																						
+32	32		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+33	33		504							0.7																								
+34	34		101							Assets/Product/Texture/Image/BgStory/Bgstory339.png																								
+35	35		201							1	500287																							
+36	36		301							1		Time seems to rewind back to the moment Selena and your eyes met.																						
+37	37		504							0																								
+38	38		202							1					1																			
+39	39		101							Assets/Product/Texture/Image/BgStory/Bgstory431.jpg																								
+40	40		201							1	500286																							
+41	41		301							1	Hans	First.	1																					
+42	42		301									Your haze is interrupted by Hans' voice. With his hands behind him, Hans looks at CPF 040 at the center of the Forest Park Ruins.																						
+43	43		301								Hans	Locate and defeat the Hetero-Hive Mother that is hiding inside CPF 040, and allow Gray Raven, with their specialized frame, to retrieve samples from it.	1																					
+44	44		301								Hans	When I decide that it's no longer feasible to retrieve the samples or the mission to retrieve them has failed, I'll issue commands to install the bit domain nodes so we can guide the Longinus Arsenal and take out our enemies once and for all.	1																					
+45	45		301								Hans	Second, to save as many surviving Scavengers we find on our way as possible.	1																					
+46	46		204							1	3																							
+47	47		301									Hans pauses when he says it.																						
+48	48		204							1																								
+49	49		301								Hans	Of course, that's the best-case scenario.	1																					
+50	50		301								Hans	You've read the intel on Hetero-Sapiens.	1																					
+51	51		301								Hans	But I want you to remember what their appearances imply.	1																					
+52	52		301								Hans	The Punishing Virus has evolved beyond our understanding in the blink of an eye. Who knows how they will change after we enter the Forest Park?	1																					
+53	53		301								Hans	When the situation goes beyond our control, and neither of our objectives is feasible...	1																					
+54	54		301								Hans	We will prioritize installing the nodes in order to guide the Longinus Arsenal.	1																					
+55	55		301								Hans	If not, Babylonia will carry out broad orbital strikes with the Longinus Arsenal on the Forest Park Ruins. Everything in the park, whether it is the Hetero-Hive Mother, the Scavengers, or us, will all turn to dust.	1																					
+56	56		301								Hans	As soldiers, we can't rely on miracles. Everyone must prepare for the worst-case scenario.	1																					
+57	57		202							1					1																			
+58	58		201							1	500019		-600																					
+59	59		201							2	500019		600																					
+60	60		201							3	500019																							
+61	61		301							1	Soldiers	Yes, sir!	1	2	3																			
+62	62		202							1	2	3			1																			
+63	63		201							1	500286																							
+64	64		301		1		AniZhuanchangBegin			1	Hans	All teams, start preparing and get to know each other. The mission starts in ten minutes.	1																					

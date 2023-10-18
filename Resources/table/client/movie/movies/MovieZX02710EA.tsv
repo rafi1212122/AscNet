@@ -1,0 +1,123 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory287.png																								
+2	2		401							1	201																							
+3	3		201							1	500486																							
+4	4		301			DialogEnable				1		After saving the data collected, Haicma's mission is over for now.																						
+5	5		301									Arriving where they planned, Haicma calculates the time it will take for Spooner to get there—she has accidentally come into contact with a small amount of Red Tide. Luckily, there is no noticeable sign of infection yet.																						
+6	6		204							1	10																							
+7	7		301				AniZhuanchangBegin					Haicma closes her eyes.																						
+8	8		202			DialogDisable				1					1																			
+9	9		401							2	1515																							
+10	10		304			AniZhuanchangEnd				SYSTEM MAINTENANCE IN PROGRESS	ffffff		Assets/Product/Texture/Image/BgStory/BgStory538.png		1																			
+11	11		304							NEURAL LOGIC CIRCUIT: OPERATIONAL	ffffff		Assets/Product/Texture/Image/BgStory/BgStory538.png		1																			
+12	12		304							MEMORY DRIVE STATUS: NORMAL	ffffff		Assets/Product/Texture/Image/BgStory/BgStory538.png		1																			
+13	13		304							EMOTION SIMULATOR STATUS: OFFLINE	ffffff		Assets/Product/Texture/Image/BgStory/BgStory538.png		1																			
+14	14		304							ENVIRONMENT MONITOR STATUS: NORMAL	ffffff		Assets/Product/Texture/Image/BgStory/BgStory538.png		1																			
+15	15		304							REMOVING EXCESS DATA	ffffff		Assets/Product/Texture/Image/BgStory/BgStory538.png					1																
+16	16		101							Assets/Product/Texture/Image/BgStory/BgStory538.png																								
+17	17		301			DialogEnable						It has been a while since Haicma joined the Church of Machina. As an organized, militarized group of machines, each church member performs their role adequately and diligently.																						
+18	18		301									However, Haicma slowly realizes that... information is not entirely transparent between church members. More precisely, "Mother" is the only one who knows what the Church of Machina is doing and where it is heading.																						
+19	19		301									Similar to "Gear", the Church of Machina's army, Haicma is just another cog of this machine.																						
+20	20		301									Many things have changed during her role as a cog: "Chariot" fell, the Punishing Virus evolved, and the Church suffered greatly. Simply recording and analyzing the data has taken most of Haicma's processing power.																						
+21	21		301									—It must have been a long time since she last observed nature this seriously.																						
+22	22		301									The sights before her now are so different from the scenery in her memory data.																						
+23	23		301									...What would Nanami paint if she saw this?																						
+24	24		301									This question pops up in Haicma's programming out of nowhere.																						
+25	25		401			DialogDisable				2	1515																							
+26	26		304							REROUTING COMPUTING POWER	ffffff		Assets/Product/Texture/Image/BgStory/BgStory538.png		1																			
+27	27		304							LAUNCHING SIMULATION SEQUENCE	ffffff		Assets/Product/Texture/Image/BgStory/BgStory538.png		1																			
+28	28		304							RETRIEVING DATA	ffffff		Assets/Product/Texture/Image/BgStory/BgStory538.png		1																			
+29	29		304							SIMULATION IN PROGRESS...	ffffff		Assets/Product/Texture/Image/BgStory/BgStory538.png					1																
+30	30		101							Assets/Product/Texture/Image/BgStory/BgStory538.png																								
+31	31		301			DialogEnable						...																						
+32	32		301									ANSWER UNKNOWN																						
+33	33		401							1	36																							
+34	34		401							2	966																							
+35	35		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	3																							
+36	36		301								??	...icm... Haicma!	1																					
+37	37		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+38	38		301				AniZhuanchangBegin					A quiet voice interrupts Haicma's self-test.																						
+39	39		101			DialogDisable	AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/Bgstory287.png																								
+40	40		401							1	60																							
+41	41		201							1	500039																							
+42	42		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab	2	1																						
+43	43		301			DialogEnable				1		Haicma opens her eyes and notices a mist brewing upon the Red Tide beneath her, within which a small figure appears.																						
+44	44		203							1	0.25	-400																						
+45	45		201							2	500486	7	400																					
+46	46		301							1	Haicma	...Nanami?	2																					
+47	47		301								"Nanami"?	Nanami's here... Haicma, Nanami's painted a lot of pictures! Come here and I'll show them to you...!	1																					
+48	48		204							2	3																							
+49	49		301								Haicma	Why... is Nanami inside the Red Tide?	2																					
+50	50		301									Her program logic suggests that this is impossible. Haicma last confirmed Nanami's location 118 hours, 86 minutes, and 32 seconds ago. Nanami does not have any reason or enough time to arrive here.																						
+51	51		301									Not to mention that the Nanami before her is still equipped with her original frame.																						
+52	52		301									Nanami chuckles, playing in the Red Tide as if playing in a swimming pool. Haicma remembers Nanami doing the same when her frame was submerged in maintenance fluid for inspection.																						
+53	53		301									Who is that? Can she be Nanami? What... should Haicma do?																						
+54	54		301								"Nanami"?	Do you want to know what I've seen, Haicma?	1																					
+55	55		204							2	7																							
+56	56		301								Haicma	You remember me?	2																					
+57	57		301								"Nanami"?	Of course I do! Haicma is Nanami's first friend, and Nanami is Haicma's first.	1																					
+58	58		204							2																								
+59	59		301								"Nanami"?	Nanami has seen so many interesting things in her journey. I want to tell you all about it, Haicma—	1																					
+60	60		301									The girl reaches out toward Haicma as if asking for a hug.																						
+61	61		301								"Nanami"?	Come on, Haicma, my dearest friend! Jump down... Let Nanami tell you everything you want to know...	1																					
+62	62		401							2	966																							
+63	63		402					500		966																								
+64	64		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryBianHong.prefab	2																							
+65	65		301									A faint alarm goes off, but there seems to be some problem with Haicma's audio module, so she cannot say for sure.																						
+66	66		301									There was a time when Haicma did not have a body when she wanted to respond to Nanami's extended arms.																						
+67	67		301									And now...																						
+68	68		203							2	1	250																						
+69	69		401							2	1543																							
+70	70		301								"Nanami"?	Come on, Haicma...																						
+71	71		203							2	0.7	100																						
+72	72		401							2	1543																							
+73	73		301								"Nanami"?	Come...																						
+74	74		401							1	36																							
+75	75		401							2	608																							
+76	76		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																					
+77	77		502							RImgBg1Shake																								
+78	78		202							1					1																			
+79	79		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab																							
+80	80		204							2	7																							
+81	81		301								???	Don't!																						
+82	82		301									Haicma is jolted awake.																						
+83	83		203							2	0.25	400																						
+84	84		401							1	42																							
+85	85		201							1	500491		-400																					
+86	86		301							1	Spooner	What the hell were you doing?	1																					
+87	87		204							2	3																							
+88	88		301								Haicma	I...	2																					
+89	89		204							2	7																							
+90	90		301									Haicma realizes that she is a step from entering the Red Tide, her arms extended. The scarlet waves slap against the earth by her feet before dispersing like blood as if feeling disgruntled.																						
+91	91		301									And there is nothing above the Red Tide. Everything Haicma saw appeared to be an error on her visual module.																						
+92	92		204							2																								
+93	93		301								Haicma	There may be a bug in my programs. I require immediate inspection.	2																					
+94	94		301									Haicma retracts her hands.																						
+95	95		301								Spooner	That's wild. Does this Red Tide have some strange power that even you were distracted during a mission?	1																					
+96	96		301								Haicma	...Perhaps you're right.	2																					
+97	97		301								Spooner	...What happened?	1																					
+98	98		301									Haicma looks down at her hands that almost touched the Red Tide.																						
+99	99		401							1	36																							
+100	100		301				AniZhuanchangBegin				Haicma	I just realized something suddenly...	2																					
+101	101		202			DialogDisable				1	2				1																			
+102	102		401							1	142																							
+103	103		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgCg/Cg2701_02.jpg																								
+104	104		301			DialogEnable						Despite having performed her duty as an observer perfectly, something has gone wrong with Haicma.																						
+105	105		301									She can no longer observe, record, and analyze as she did to calculate Nanami's behaviors and motivations.																						
+106	106		301									Haicma knows where Nanami is and what she is doing, but the reasons Nanami does them are incomprehensible.																						
+107	107		301									If the sky is no longer blue and the flowers no longer bloom... if the land is overwhelmed with the scent of death and blood... would the girl still be happy? Would she be sad or maybe angry?																						
+108	108		301									Has something gone wrong with Haicma's programs?																						
+109	109		301									Or are her programs insufficient to support her duty?																						
+110	110		301									Haicma wants—																						
+111	111		301									For the first time in her life since she was activated, Haicma wants to do something—																						
+112	112		301									She wants to know why she feels she is "off course."																						
+113	113		301									She wants to know where this strange sensation comes from.																						
+114	114		301									She wants to know what went wrong.																						
+115	115		301									Discovering, investigating, analyzing, and solving problems—																						
+116	116		301									That is how Haicma keeps her programs running.																						
+117	117		301									Is this the effect of the Red Tide?																						
+118	118		301				AniZhuanchangBegin					For the first time, Haicma cannot decipher where the problem comes from.																						
+119	119		101			DialogDisable				Assets/Product/Texture/Image/BgStory/Bgstory287.png																								
+120	120		201				AniZhuanchangEnd			1	500486																							
+121	121		301			DialogEnable				1	Haicma	...Bring the data back and ask Arcana to analyze it.	1																					
+122	122		301		1		AniZhuanchangBegin				Haicma	The Red Tide is not as simple as we thought.	1																					

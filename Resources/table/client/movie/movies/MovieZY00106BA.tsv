@@ -1,0 +1,77 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory81.jpg																								
+2	2		401							1	206																							
+3	3		201							1	500142		400																					
+4	1001		201							2	500142		-400																					
+5	4		301			DialogEnable				1	Mechanoid A	So powerful... so impressive!	1																					
+6	5		301								Mechanoid B	Those are the outsiders, aren't they? This is my first time seeing one!	2																					
+7	6		301									After passing all the trials, you arrive at an open space with barely any decorations, and in the center is a familiar-looking crate.																						
+8	7		301									Surrounding it is a crowd of audiences sitting in a circle, waiting.																						
+9	1002		202							1	2																							
+10	1003		201							1	500166																							
+11	8		301							1	Lucia	...What is this?	1																					
+12	1004		202							1																								
+13	1005		201							1	500142		400																					
+14	1006		201							2	500142		-400																					
+15	9		301							1	Mechanoid A	Taoist!	1																					
+16	10		301								Mechanoid B	Taoist! Fist of the Taoist!	2																					
+17	11		301									The chatter among the mechanoids in the audience gradually grows into cheers.																						
+18	1007		202							1	2																							
+19	1008		201							1	500018																							
+20	12		301							1	Foreman	I can't believe someone's passed all the trials and arrived at this place! The way you tackle them and hunt those ghosts... Ain't never seen anything like that!	1																					
+21	13		301								Foreman	Ought to have a human as the Taoist, oughtn't we?	1																					
+22	1009		302								That crate...	14	Have you been watching?	15																				
+23	14	16	301								Foreman	Right, of course. Take it back! We haven't touched a single thing inside.	1																					
+24	15	16	301								Foreman	I've been monitoring the whole place through those recon drones above you.	1																					
+25	16		301									With that, Foreman turns around and gestures dramatically like a Master of Ceremonies.																						
+26	17		301								Foreman	As you can see, this group called Gray Raven has passed all of our trials, and is the first to set foot in this place!	1																					
+27	18		301								Foreman	Therefore, it is my honor to announce that Gray Raven is the winner of this year's Fist of the Taoist, and their commandant, 【kuroname】, shall be crowned the Taoist Supreme!	1																					
+28	1010		203							1	0.25	400																						
+29	1011		201							2	500166		-400																					
+30	19		301							1	Lucia	What is a Taoist Supreme?	2																					
+31	20		301								Foreman	Just somebody really cool is what it is! Sounds terrific when we add "Supreme" to the title, ain't it?	1																					
+32	1012		201							1	1031001		400																					
+33	1013		201							2	500026		-400																					
+34	21		301							1	Lee	Is that... Kamui's logic?	2																					
+35	22		301								Liv	But there's something that still concerns me... Mr. Foreman.	1																					
+36	1014		201							2	500018		-400																					
+37	23		301							1	Foreman	I'll answer what I can... and Foreman is fine.	2																					
+38	24		301								Liv	In that case, Foreman... We found out during our trial that this place was originally a factory, and you... Are you all mechanoids that weren't evacuated?	1																					
+39	25		301								Foreman	Probably. I remember the chief foreman, who, y'know, was the foreman in charge, telling all the humans to evacuate immediately, so those folks all followed him and left.	2																					
+40	26		301								Liv	And... you all stayed behind because the evacuation order didn't include you...	1																					
+41	27		301								Foreman	That's right, and we've been wandering in this place ever since.	2																					
+42	1015		202							1	2																							
+43	1016		201							1	500026		400																					
+44	1017		201							2	500166		-400																					
+45	28		301							1	Lee	I thought you only gather here on specific dates... but you've been staying here since then, haven't you?	1																					
+46	29		301								Lucia	There must be Corrupted around, however few there are... Were you ever in danger?	2																					
+47	7000		201							2	500018		-400																					
+48	30		301							1	Foreman	Of course we did! And we learned a painful lesson for sure.	2																					
+49	1019		201							1	1031001		400																					
+50	31		301							1	Liv	Will you consider relocating after this? Babylonia has set up several bases on the surface...	1																					
+51	32		301								Foreman	No, I don't think so. I think we will stay.	2																					
+52	33		301								Liv	Even when it's dangerous?	1																					
+53	34		301								Foreman	Because this place is filled with our memories of the ol' days. We've been commemorating the chief foreman and the humans even when it isn't the Ghost Festival.	2																					
+54	1020		401							2	1509																							
+55	35		301									——																						
+56	7001		201							1	500026		400																					
+57	36		301							1	Lee	One more thing. The "Generals" and the other mechanoids aren't how mechanoids in a factory should look like. What exactly...	1																					
+58	134545		301							1	Lee	What's happening to the recon drones... What's that noise?	1																					
+59	37		301				AniZhuanchangBegin				Foreman	It's time.	2																					
+60	1021		202							1	2	3																						
+61	1022		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+62	38		301			AniZhuanchangEnd					Lucia	It's time?																						
+63	39		301									As Lucia speaks, a ray of blinding light shines from above, showering all of you like rain, completely swallowing you in its radiance.																						
+64	40		301								Lucia	What's with the light?																						
+65	41		301								Lee	It's the drones! Liv, protect Commandant!																						
+66	42		301								Liv	Copy!																						
+67	43		301									Lucia and Lee believe the light to be a sign of danger, and they immediately draw their weapons while Liv watches the surroundings.																						
+68	44		301				AniZhuanchangBegin					And you cannot help but close your eyes.																						
+69	1023		101							Assets/Product/Texture/Image/BgStory/BgStory81.jpg																								
+70	45		301			AniZhuanchangEnd						——																						
+71	1024		201							1	500166																							
+72	46		301							1	Lucia	What... happened?	1																					
+73	1025		202							1																								
+74	47		301									As the light fades, all that is left next to you is the supply crate. Every one of the mechanoids has vanished into thin air.																						
+75	48		301									In your shock, you slowly recall the voice you heard when you were showered in light.																						
+76	49		301		1		AniZhuanchangBegin				???	Ain't it been a while since we've found a human who'd play with us? Thank you, 【kuroname】.																						

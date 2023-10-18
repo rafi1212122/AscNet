@@ -1,0 +1,274 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	36																							
+3	3		301			DialogEnable	AniZhuanchangBegin					On the surface outside of the development zone of City 075, during the emergency evacuation from Operation Red Tide—																						
+4	4		101							Assets/Product/Texture/Image/BgStory/Bgstory139.png																								
+5	6		301			AniZhuanchangEnd						A wave of golden yellow dust whirls in the air on the barren desert, followed immediately by deafening rock music and bursts of angry shouts.																						
+6	300		401							2	885																							
+7	7		301									A folding truck, tilted, is trekking forward in an S-shaped path with only two of its wheels speedily while maintaining physics-defying balance, a feat that would have Archimedes risen from his grave and clapped.																						
+8	5		401							1	205																							
+9	8		301			RImgBg1Shake					???	Hey! Who taught you to drive like this?!																						
+10	9		301								??	Nobody.																						
+11	10		301								???	Who the hell let the idiot take the wheel? Vera? Vera! Help!																						
+12	11		301								Vera	...																						
+13	12		301								Vera	...																						
+14	13		401							2	10002001																							
+15	14		301								Vera	Enough, the two of you!																						
+16	15		301								??	Capt., please don't unsheathe your sword in the car. It's dangerous.																						
+17	16		301								???	What's more dangerous than what you're doing?! Step on the brake, now!																						
+18	17		301								??	That's what I've been doing.																						
+19	18		301								???	—That's the gas pedal, not the brakes!																						
+20	19		301								???	Do something, Vera—w-wait, why are you opening the door?																						
+21	20		301			RImgBg1Shake					Vera	All of you, out!																						
+22	21		301									The door on the side in the air is slammed open as a red-haired female Construct jumps out, her arms bracing her head, and she rolls and lands deftly onto the ground.																						
+23	22		301									Immediately afterward, one of the car windows is cranked down, and out hops the round Co-Bot, followed by a white figure who lands softly next to it.																						
+24	23		201							1	500328																							
+25	24		301							1	No. 21	Roger.	1																					
+26	25		202							1					1																			
+27	26		301								???	What are you guys—?!																						
+28	27		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	2																							
+29	29		401							2	884																							
+30	30		301			RImgBg1Shake						Before he can finish, the ear-piercing sound of grinding overwhelms his voice as the car finally stops, crashing into a rock. An unpleasant whine can be heard underneath the hood, and black smoke rises with a "Poof!"																						
+31	31		301								???	C-cough...																						
+32	32		301									A few moments later, a barely intact door opens up, and a figure appears amidst the black smoke. A masculine male Construct walks out and coughs, his hand waving, trying to clear the smoke away.																						
+33	33		401							2	1506																							
+34	34		301									—BOOM!																						
+35	35		201							1	500336	4																						
+36	36		301							1	???	...Aargh.	1																					
+37	37		202							1					1																			
+38	38		301									The Construct looks down at the door handle in his hand and the broken car door still attached to the other end.																						
+39	39		301									He shrugs and throws the door aside. Looking back up, he finds the blinding flashes of a blade before him, and he raises his hands in panic.																						
+40	40		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab																							
+41	41		201							1	500168		-450																					
+42	42		201							2	500336	4	450																					
+43	43		301							1	???	...C'mon, Vera, I wasn't even the one driving! Let's... let's talk about it, yeah? Put the sword away, man! You know how much trouble it is to fix up my frame!	2																					
+44	44		202							1	2				1																			
+45	45		201							1	500328																							
+46	46		301							1	No. 21	Noctis played his music too loud. It distracted me from driving.	1																					
+47	47		202							1					1																			
+48	48		201							1	500168		-450																					
+49	49		201							2	500336	4	450																					
+50	50		301							1	Vera	Do you think we're heading for Woodstock? We're on a mission here! Keep your stupid in check because you're testing my limits!	1																					
+51	51		301								Noctis	How can an evacuation count as a mission?	2																					
+52	52		301								Vera	I'm the Captain here! I decide what counts as one. Who do you think you are?	1																					
+53	53		301								Noctis	But 21 is the reason we crashed! The one time we got assigned a folding truck...	2																					
+54	54		202							1	2				1																			
+55	55		201							1	500328																							
+56	56		301							1	No. 21	Noctis is shifting blame.	1																					
+57	57		202							1	2				1																			
+58	58		201							1	500168		-450																					
+59	59		201							2	500336	4	450																					
+60	60		301							1	Vera	Did you forget that you were the idiot who forced 21 to drive?	1																					
+61	61		301									Vera teases him as she withdraws her blade.																						
+62	62		301								Vera	21, report the crash and note that it was Noctis' fault. We're not far from our destination now, so collect yourselves and we'll start walking.	1																					
+63	63		204							2	4																							
+64	64		301								Noctis	Hey!	2																					
+65	65		202							1	2				1																			
+66	66		201							1	500328																							
+67	67		301							1	No. 21	Copy.	1																					
+68	68		202							1					1																			
+69	69		401							2	1515																							
+70	70		301				AniZhuanchangBegin					No. 21 opens her terminal and walks toward the nasty crash site as she brings up the comms.																						
+71	72		401							1	201																							
+72	71		301			AniZhuanchangEnd						The chunky red-headed Construct sits on a rock, his hands pulling his hair.																						
+73	73		201							1	500168		-450																					
+74	74		201							2	500336	4	450																					
+75	75		301							1	Noctis	...Why do we have to evacuate so suddenly? Aren't the Strike Birds in terrible danger? Are the higher-ups underestimating us?	2																					
+76	76		301								Vera	It's Strike Hawk, you fool.	1																					
+77	77		301								Noctis	And we're retreating for no reason! Our mission directory got cleared, and all of our jobs got assigned to those copycats in Hellhound!	2																					
+78	78		301								Noctis	I bet their Captain must be so goddamn thrilled right now, breakdancing in the war room.	2																					
+79	79		301								Noctis	I'm going to tear his throat out the next time I catch that guy...	2																					
+80	80		301								Vera	I don't care what you do in your spare time... but you do as I say when we're out on a mission, is that understood?	1																					
+81	81		301								Noctis	Aren't you mad, Vera? Don't you hate getting your stuff taken right underneath your nose?	2																					
+82	82		204							1	1																							
+83	83		301								Vera	What is there to be mad about? If it's a job that those idiots can do, then it isn't something that's worth my time to begin with.	1																					
+84	84		202							1	2				1																			
+85	85		301									Vera narrows her eyes and stays silent for a moment after saying that.																						
+86	86		201							1	500168	13	-450																					
+87	87		201							2	500336	4	450																					
+88	88		301							1	Vera	Plus... this might be the calm before the storm.	1																					
+89	89		301								Noctis	Storm? Is it going to rain? The sun's still out, from what I can tell.	2																					
+90	90		204							1																								
+91	91		301								Vera	Shush.	1																					
+92	92		202							1	2				1																			
+93	93		301									Vera stops Noctis from babbling. There seems to be an incoming call as Vera has stood up, her finger tapping on her ear. Her flaming red hair flows in the wind, hiding her expression.																						
+94	94		301								Vera	...																						
+95	95		301				AniZhuanchangBegin				Vera	...Nikola?... I see.																						
+96	97		101							Assets/Product/Texture/Image/BgStory/Bgstory317.png																								
+97	99		201							1	500019					1																		
+98	100		301			AniZhuanchangEnd					Support Force	Cerberus?	1																					
+99	101		301							1		The tired figure in the Support Force uniform before them looks up before pointing to the transport craft to the side.																						
+100	102		301								Support Force	That one.	1																					
+101	103		301								Support Force	The crashed vehicle you reported will be recycled after the battle. Just get going for now.	1																					
+102	104		301									It seems that the Support Force members in the back are also exhausted by the intense battles on the frontline.																						
+103	105		201							1	500336	4																						
+104	106		301							1	Noctis	Seriously? We're the only squad that's retreating?	1																					
+105	107		201							1	500019																							
+106	108		301							1	Support Force	We're just following orders. Hurry up if possible; we're short on transportation, and we still have to pick up a bunch of squads who are finishing their operations.	1																					
+107	109		201							1	500336	4																						
+108	110		301							1	Noctis	Tsk.	1																					
+109	111		201							1	500168																							
+110	112		301							1	Vera	Enough, Noctis.	1																					
+111	113		204							1	13																							
+112	114		301								Vera	...Hah, survival of the fittest, is that so?	1																					
+113	115		301									No one knows who Vera was talking to—if anything, she appears to be talking to herself. No. 21, however, seems to have noticed something and looks up.																						
+114	116		201							1	500328																							
+115	117		301							1	No. 21	...?	1																					
+116	118		201							1	500336	4																						
+117	119		301							1	Noctis	Hey, what's that? Are you saying I'm not fit...	1																					
+118	120		202							1					1																			
+119	121		301				AniZhuanchangBegin					Vera gives No. 21 a look as Noctis protests in the background. Without another word, she steps into the transport craft heading back to Babylonia.																						
+120	122		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+121	123		301			AniZhuanchangEnd						Survival of the fittest...																						
+122	124		301									No. 21 recognizes the phrase—the winners live, and the losers die. Her captain has once used it to describe a place... somewhere they have both stayed before.																						
+123	125		301									The "scent" that Vera has just given off... No. 21 can smell danger.																						
+124	126		301									Was that a hint? Or was that just a random thing her captain said?																						
+125	128		301									Kurono—a name that No. 21 no longer associates with. After getting transferred away, she has no longer heard it spoken in Babylonia. All traces of Kurono have just vanished from her life entirely.																						
+126	129		301				AniZhuanchangBegin					...Not entirely, perhaps.																						
+127	777		101							Assets/Product/Texture/Image/BgStory/Bgstory317.png																								
+128	778		201							1	500328	4				1																		
+129	779		301			AniZhuanchangEnd	AniZhuanchangBegin					No. 21 follows Vera and enters the transport craft without a word.																						
+130	780		202							1																								
+131	781		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+132	131		301			AniZhuanchangEnd	AniZhuanchangBegin					Inside Collins' office, a few days after the emergency evacuation from Operation Red Tide—																						
+133	132		101							Assets/Product/Texture/Image/BgStory/Bgstory101.png																								
+134	133		201							1	500319		450																					
+135	134		201							2	500337	4	-450																					
+136	136		301			AniZhuanchangEnd				1	???	And I'm doing it this time because—?	2																					
+137	137		301								Collins	Seriously? Do you know how many favors I've had to trade in order to get the authority to employ that squad and their commandant?	1																					
+138	138		204							1	5																							
+139	139		301								Collins	The Parliament doesn't want to make a fuss in front of the public—a Chief Commandant getting taken by an unknown force? It's a slap in their face, and it risks exposing us to the public.	1																					
+140	140		301								Collins	Frankly, I'm not interested in playing house with those Parliament folks... but now's not the best time for us to stand in the limelight.	1																					
+141	141		204							1																								
+142	142		301								Collins	Therefore, you and your whole shtick... dearest Miss Popular? Better you do it this time instead of Kurono.	1																					
+143	143		204							2																								
+144	144		301									The sweet-looking woman before Collins smiles and fixes her hair.																						
+145	145		301								???	I understand. My resume is "clean" on the surface, at the very least.	2																					
+146	146		301								Collins	Haha, "clean" my ass... A resume's no good apart from tricking those naive babies anyway. Whatever—intentionally revealing a flaw of ours might get them wary instead.	1																					
+147	147		301								???	Anyhow, you're asking me to be the face of the operation, is that so?	2																					
+148	148		301								Collins	On the surface, sure. But you know your actual job description is going to be so much longer.	1																					
+149	149		301								Collins	Ever since what happened, I've been studying what's happening with the commandant. Memory replays from a corrupted Mind Beacon... the data suggests that this condition can't be actively controlled.	1																					
+150	998		301								Collins	Which means it could happen again as long as the commandant exists.	1																					
+151	150		204							1	5																							
+152	151		301								Collins	I'm sure that little brain must be hiding even more secrets. I have a hunch... a strong hunch that the commandant is what I've been looking for.	1																					
+153	152		204							2	4																							
+154	153		301								???	You're sure that you can find what you want in that commandant's brain?	2																					
+155	154		204							1																								
+156	155		301								Collins	Ha, of course not! My hypothesis is baseless! But if we only act with absolute certainty, humans would still be nose-picking monkeys and long extinct. Everything beautiful and true is accidental.	1																					
+157	156		301								???	Humans don't evolve from monkeys. It's apes if anything.	2																					
+158	157		204							1	14																							
+159	158		301								Collins	Thank you for your correction, Rebecca. Of course I know that.	1																					
+160	159		204							1																								
+161	160		301								Collins	I've got two pieces of the puzzle now—a corrupted Mind Beacon from entering an Ascendant's M.I.N.D. and the memory replays from its chain reactions. What an accident! Will the pieces match? What pattern will they make?	1																					
+162	161		301								Rebecca	Collins...	2																					
+163	162		204							1	5																							
+164	163		301								Collins	Finding a commandant that can resist a M.I.N.D. corruption and catching an Ascendant... we've successfully taken our first step into a new era of R&D.	1																					
+165	164		301								Collins	The first and the most important step.	1																					
+166	165		301								Rebecca	Collins, sir, please be careful—	2																					
+167	166		204							1	7																							
+168	167		301								Collins	Huh?	1																					
+169	168		301								Rebecca	I'm certain that the things you said involve top Kurono secrets, and I'm sure it was an accident that you revealed them. I'll pretend I haven't heard any of them. Don't worry.	2																					
+170	169		204							1																								
+171	170		301								Collins	No, you don't have to worry. This place isn't bugged or anything.	1																					
+172	171		301								Rebecca	You're a high-ranking Kurono officer, and I'm just the middleman between you and the Parliament who doesn't benefit from it all. I don't want my position altered unknowingly.	2																					
+173	172		301									Having gotten disrupted by her strong and unwavering words, Collins does not appear to be displeased. Instead, he laughs.																						
+174	173		301								Collins	Whatever! If you'd have betrayed us, you'd have done it by now—likewise, you wouldn't be here if Kurono wanted you gone. If I've decided to tell you the truth, it means that, at the very least, I trust you.	1																					
+175	174		301								Rebecca	Why does that sound more like a threat...	2																					
+176	175		204							2																								
+177	176		301								Rebecca	Fine, leave it to me. I don't run away from a mission for the higher-ups.	2																					
+178	177		301								Collins	That's the attitude! I picked you precisely because of that confidence... I look forward to your work. Let's scour every last inch of that commandant's brain for all the secrets hidden inside!	1																					
+179	178		204							2	4																							
+180	179		301								Rebecca	Sir...	2																					
+181	180		301								Collins	Alright. I've made myself pretty clear.	1																					
+182	181		301								Rebecca	Clear... "enough."	2																					
+183	182		204							1	14																							
+184	183		301								Collins	Go, Rebecca. I'm excited to see you shine.	1																					
+185	184		301								Rebecca	Don't exaggerate. Have you sent the brief to my terminal? Which Task Force am I getting?	2																					
+186	185		202							1	2				1																			
+187	186		301									Collins crosses his arm in front of his chest and gives Rebecca a gaze.																						
+188	187		201							1	500319																							
+189	188		301				AniZhuanchangBegin			1	Collins	You'll find out soon enough. I "handpicked" them, after all. It's our best card in this game.	1																					
+190	189		202							1	2				1																			
+191	190		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+192	997		401							1	36																							
+193	191		301			AniZhuanchangEnd					Collins	Hehe... You're most definitely going to love them.																						
+194	193		301				AniZhuanchangBegin					World Government Operation Logistics Center, meanwhile—																						
+195	192		401							1	55																							
+196	194		101							Assets/Product/Texture/Image/BgStory/Bgstory284.jpg																								
+197	195		301			AniZhuanchangEnd						There is no noise except for quiet whispers and keyboards clicking. Advisors and sergeants walk between terminals, holo-maps, and battle simulations.																						
+198	196		301									Infinite intel, analysis, and estimations go through this place every day, processed by the brains here before turning into orders and reports on the different Task Forces and those in charge of the conservation areas.																						
+199	197		301									—The same thing is happening today.																						
+200	198		301							1	Operation Leader	Operation command... Clearance... XX001A... Assigned to... Cerberus.																						
+201	199		301								Chief Advisor	Cerberus? We have a team called Cerberus?																						
+202	200		301								Operation Leader	Missions for Cerberus are usually issued by the Chief Commander through direct channels. This... I've honestly no idea what's going on.																						
+203	201		301								Chief Advisor	I see... But their recent mission logs have all been cleared, and all their operation statuses are marked "transferred." It can't be...?																						
+204	202		301								Operation Leader	Don't ask about things we shouldn't know. Even I only know that they're related to the experimental remote connections... I've never seen their "commandant." If they're getting assigned through us instead...																						
+205	203		301								Operation Leader	Anyway, if the operation is assigned through us, then it's our job. Give me the status of Cerberus.																						
+206	204		301								Chief Advisor	One sec.																						
+207	205		401							2	1515																							
+208	206		301									The Advisor taps on the keyboard in front of his terminal, his fingers jumping between keys, as rows of search results are listed on the holo-screen.																						
+209	207		301								Chief Advisor	Cerberus, status: standing by at the base.																						
+210	208		301								Operation Leader	Move the mission directly to the assignment terminal at the forward operating base. Set the priority to the highest.																						
+211	209		301								Chief Advisor	Copy.																						
+212	210		301								Operation Leader	Good. That's the easiest part of our day sorted.																						
+213	211		301								Chief Advisor	The easiest part?																						
+214	212		301									The operation leader takes out a black folder hidden in his coat, the cover marked with "Clearance: Omega-7".																						
+215	213		301				AniZhuanchangBegin				Operation Leader	Get me a deployment officer with high clearance and two logistics officers... as well as a field commander from the Task Force.																						
+216	214		301			AniZhuanchangEnd						His order is quickly issued, and within moments, the operation leader and the chief advisor are joined by people in different uniforms, all looking ready and prepared.																						
+217	215		301								Operation Leader	Deployment officer, you're... going to distribute the units and supplies I'm about to mention in a reasonable fashion among the usual mission assign sequence. I don't want anyone outside of those here to notice anything.																						
+218	216		201							1	500303																							
+219	217		301							1	Deployment Officer	Roger.	1																					
+220	218		202							1					1																			
+221	219		301								Operation Leader	Logistics? You're going to figure out how to procure a set of scouting equipment and non-lethal weapons from the logistic pipeline for "training needs." I'll ask the Task Force to give you the details later.																						
+222	220		201							1	500005																							
+223	221		301							1	Field Commander	Sir, may I ask—what operation is this, exactly?	1																					
+224	222		301								Operation Leader	We're tracing a bio-signal, confirming the target's exact coordinates and maintaining observation if possible. Watch out for possible resistance, but control the impact—it's a direct order from the "highest ups."																						
+225	223		301									The operation leader waves his black folder at the field commander.																						
+226	224		301								Field Commander	...Whose bio-signal?	1																					
+227	225		301								Operation Leader	...【kuroname】, the commandant of Gray Raven from Babylonia.																						
+228	226		301								Field Commander	The target of the deployment...	1																					
+229	227		301								Operation Leader	—Is the exact same commandant. You can read up on the details yourself.																						
+230	228		301				AniZhuanchangBegin					The operation leader throws the folder into the commander's arms.																						
+231	229		202							1	2				1																			
+232	230		101							Assets/Product/Texture/Image/BgStory/Bgstory261.png																								
+233	231		401							1	208																							
+234	232		301			AniZhuanchangEnd						Parliament Square, Babylonia.																						
+235	233		301									Today is the first day Cerberus is assigned a mission since they have been evacuated from supporting Strike Hawk and remained on standby.																						
+236	234		301									As their captain, Vera was called to confirm the mission details two hours ago. Noctis, having been breakdancing in their lounge room and picking on Hellhound, is also off to "upgrade" his gears enthusiastically.																						
+237	235		401							2	1515																							
+238	236		301								Vera	21, meet us at the war room in ten minutes.																						
+239	237		301									Meanwhile, No. 21 is heading to the war room by herself.																						
+240	238		201							1	500328																							
+241	239		301							1	No. 21	...	1																					
+242	240		202							1					1																			
+243	241		301									The artificial sun on Eden is warm today.																						
+244	242		301									Dust swirls and floats in the sunlight. No. 21 has observed a great many things—ants walking in dirt, patterns on leaves, fine furs on animals... but this is the first time she notices dust in the light.																						
+245	243		301									She holds up her hand, and the rays of slightly blinding light shine through the gaps between her fingers, tangling. She cannot catch them, but she can feel their heat—this is the first time she has experienced this.																						
+246	244		301				AniZhuanchangBegin					Sunlight, dust, birds... humans.																						
+247	246		101							Assets/Product/Texture/Image/BgCg/Cg2001_9.jpg																								
+248	999		401							2	1516																							
+249	247		301			AniZhuanchangEnd						A few human figures walk past her from behind. Their gloomy, oppressive presence sticks out like a dark cloud under the sun.																						
+250	248		301									Her animalistic sensitivity makes her turn her head.																						
+251	249		301									She can smell the humans' scents clearly, and how they are different from the way other humans usually smell. She catches hints of fragrance from their soap, from their food... Scents that reassure and comfort her.																						
+252	250		401							1	201																							
+253	251		301									But No. 21 also notices the pills, the chains, and the oil used to polish firearms. They remind her of the research institute where she stayed... as well as "that place." They all signify danger, unknown, and darkness.																						
+254	252		301									Among the black-clad figures, the human in a long-sleeved windbreaker seems to notice No. 21's inquisitive gaze, looking up to meet it.																						
+255	253		301									No. 21's eyes open wide, showing no intention to avoid the human's stare. The sense of danger does not come from the human but the black-clad figures around.																						
+256	254		301									With one look, No. 21 recognizes that the tense figures in black have weapons hidden among their briefcases. The sense of familiarity further grabs ahold of her, digging up the word "Kurono" from her repressed memories.																						
+257	255		301									She remembers her last mission months ago and how the scent of "Kurono" has been lingering in her M.I.N.D.																						
+258	256		301									Does this human know of the danger? Or perhaps the human is their leader?																						
+259	257		301									With her almost animalistic instinct, No. 21 quickly makes multiple assessments of the situation, only to have them rebutted by more questions.																						
+260	258		301									The human looks away after a quiet glance.																						
+261	259		301								No. 21	...																						
+262	260		301									That one glance has No. 21 relax her alerted, tensed body.																						
+263	261		301									Whatever danger there is, that human has shown no fear. She can tell from those eyes that things are still in control.																						
+264	262		301									This is Babylonia, not the research institute or Kurono. There are no unexpected menaces or experiments on her path that would put her on a leash.																						
+265	263		401							2	1515																							
+266	264		301				AniZhuanchangBegin				Vera	...21? You done spacing out?																						
+267	265		101							Assets/Product/Texture/Image/BgStory/Bgstory261.png																								
+268	267		301			AniZhuanchangEnd						No. 21 retracts her gaze. The sense of security is back.																						
+269	268		201							1	500328																							
+270	269		301							1	No. 21	Yes, Capt.	1																					
+271	270		301									She replies in the comms. Her body is alerted by the uncertainty, but she is no longer afraid nor lost the way she was.																						
+272	271		301									Whatever lies ahead, No. 21 does not run away. She confronts them.																						
+273	272		301		1		AniZhuanchangBegin				No. 21	No. 21 is ready. Awaiting orders.	1																					

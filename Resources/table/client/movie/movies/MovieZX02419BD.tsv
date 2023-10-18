@@ -1,0 +1,45 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory537.jpg																								
+2	2		401							1	201																							
+3	3		201							1	500139																							
+4	4		301			DialogEnable				1	Sailor	So long as the boat doesn't founder on a rock or hit a storm... or meet a dragon, we'll make it to the port in less than a day.	1																					
+5	5		301									The tall, strong sailor keeps watch all night. The look on his wrinkled face shows no fatigue. He stands on one side of the boat and looks into the distance.																						
+6	6		302								I thought we wouldn't run into a dragon at sea.	7																						
+7	7		201							1	500139																							
+8	8		301							1	Sailor	It is less likely than running into a dragon on land, but it is still possible.	1																					
+9	9		301									The sailor whispers.																						
+10	10		301									Above the deck, some seagulls fly low. The morning mist hasn't faded, and the children are still sleeping soundly.																						
+11	11		301									The captain operates a rod and commands the helmsman to steer in another direction.																						
+12	12		301									The sailors look lively as they become vigilant.																						
+13	13		301				AniZhuanchangBegin					Once we make it across this sea, we will arrive at our final destination.																						
+14	14		101						3000	Assets/Product/Texture/Image/BgStory/Bgstory537.jpg																								
+15	15		301			AniZhuanchangEnd						Things don't happen without a sign. The tower-shaped clouds are visible in the sky, and the air is getting more humid. The helmsman has his eyebrows furrowed as the other sailors gather beneath the mast. Holding a rope firmly in his hand, the leader is ready to lift the flag at any time.																						
+16	16		301									You can clearly smell in the air that a storm is coming. You tell the children on the deck to gather around. Slightly nervous, they are hand in hand as they line up very quickly as if they have been trained to do this. You lead them into a room one by one.																						
+17	17		301									The sailor who took the night shift is standing guard in front of the room. He tells you to go inside and stay there with the children.																						
+18	18		201							1	500139																							
+19	19		301							1	Sailor	A storm is coming.	1																					
+20	20		302								We are ready to lift the flag. Have we dropped the anchor?	21	We must secure the objects on the deck.	22	Is there a land nearby for us to seek shelter for a while?	23																		
+21	21	24	301									The sailor looks at you with a serious face and proceeds to tell the people inside the room, asking them to secure every object and make sure to stay put. Then, he closes the door and lets you join in on the crew's task.																						
+22	22	25	301									The sailor looks at you with a serious face and proceeds to tell the people inside the room, asking them to secure every object and make sure to stay put. Then, he closes the door and lets you join in on the crew's task.																						
+23	23	26	301									The sailor looks at you with a serious face and proceeds to tell the people inside the room, asking them to secure every object and make sure to stay put. Then, he closes the door and lets you join in on the crew's task.																						
+24	24	27	301									The anchor is ready to be dropped.																						
+25	25	27	301									We have asked our people to secure the objects on the deck.																						
+26	26		301									It is too foggy. We cannot know for sure if there is land anywhere nearby.																						
+27	27		301				AniZhuanchangBegin				Sailor	We decide to stop sailing for now. So long as we don't run into that dragon and last until...	1																					
+28	28		202							1					1																			
+29	29		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+30	30		401							1	201																							
+31	31		401						1750	2	905																							
+32	32		402							905																								
+33	33		301			AniZhuanchangEnd						The ocean only takes a second to change to something completely different. Is the first sound lightning or a dragon roar?																						
+34	34		301									We don't have time to think.																						
+35	35		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+36	36		401						1750	2	905																							
+37	37		402							905																								
+38	38		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiRainNew.prefab	2																							
+39	39		101							Assets/Product/Texture/Image/BgStory/Bgstory535.jpg																								
+40	40		301									At first, it is a tornado above the ocean that comes from the south.																						
+41	41		301									The tides are like a beast that has just awakened from its hibernation and is now full of energy. It straightens its back and unleashes all its might.																						
+42	42		301									The raging storm is so powerful that all the people who once lived on the land panic. The howling wind drowns people's shouting and screaming.																						
+43	43		301									The gray currents are like a giant serpent that is hostile, unrelenting, and deadly. It strikes the boat.																						
+44	44		301		1		AniZhuanchangBegin					As for us, we are caught in the middle of the vortex. No one is safe.																						

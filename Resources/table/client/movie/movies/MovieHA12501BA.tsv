@@ -1,0 +1,121 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+2	2		401							1	204																							
+3	3		301			DialogEnable						"—Be emptier and cry like reed instruments cry. Emptier, write secrets with the reed pen."																						
+4	4		301									...【kuroname】...																						
+5	5		301									...I... I... want...																						
+6	6		301									...I want to see you right now.																						
+7	7		301				AniZhuanchangBegin					...																						
+8	8		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+9	9		401							1	36																							
+10	10		301			AniZhuanchangEnd						It all starts with a loud but vague sound, as if falling to the bottom of the sea.																						
+11	11		301									A golden finger appears from darkness and points to a place far away. You look in that direction.																						
+12	12		301									Not far away, the lights and shadows slowly turn into a familiar scene. You see dozens of stage lights going down as the curtain falls after a performance.																						
+13	13		301									More objects begin to come into vision. It's a theater with a magnificent dome. None of the crimson, velvet-covered seats is empty, and you find yourself among the audience.																						
+14	14		301									You look back at the only light remaining on the stage. There is a familiar but strange silhouette standing inside.																						
+15	15		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+16	16		201						500	1	500430																							
+17	17		401							2	613																							
+18	18		501						500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+19	19		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+20	20		402				AniZhuanchangBegin			613																								
+21	27		101							Assets/Product/Texture/Image/BgStory/Bgstory528.jpg																								
+22	23		201							1	500108																							
+23	28		301			AniZhuanchangEnd						The curtain falls, and she hears thunderous applause.																						
+24	29		301				AniZhuanchangBegin					The young opera singer strolls up the stage. Her eyes glance across the audience, then stop at a corner in the front row. She has to constantly remind herself not to place too much attention there during the performance.																						
+25	30		301			AniZhuanchangEnd						Among the well-groomed audience is a person wearing a neat military uniform, who is standing up and looking toward the center of the stage.																						
+26	31		301									She sees that person's gentle, kind eyes across the flying gold confetti and blazing stage lights.																						
+27	32		301									Just staring at those soothing eyes momentarily has gradually cast away the fear and confusion that haunted her since the start of the opera.																						
+28	33		301									Putting the mixed emotions aside, Selena takes a breath in, then bows to the audience.																						
+29	34		301				AniZhuanchangBegin					Until the lights go off, and all the audience have left.																						
+30	35		101							Assets/Product/Texture/Image/BgStory/BgStory15.jpg																								
+31	36		202							1					1																			
+32	37		301			AniZhuanchangEnd						She rushes to the backstage, holding her skirt in her hands.																						
+33	38		301									The members of WGAA and journalists have crowded in with all sorts of bionic flowers. The backstage is filled with the same applause that is heard in the audience. All she hears are praises and congratulations on the perfect performance.																						
+34	39		301									She nods to everyone with a well-mannered smile, but her violet eyes peek through the flower leaves and crowd at the door now and then, as if there is someone she has been waiting for.																						
+35	40		301									When the crowd has finally left, she quickly walks out of the door.																						
+36	41		301									But the hall is all empty and quiet. No one is staying around.																						
+37	42		301									She feels a little lost and anxious. When she sees a staff member packing up the props, she could not care about the etiquette and almost stops her abruptly.																						
+38	43		401							1	208																							
+39	44		301								Selena	Excuse me... Was there...																						
+40	45		201							1	500108	4																						
+41	46		301							1	Selena	...Was there someone waiting for me just now?	1																					
+42	47		203							1	0.25	400																						
+43	48		201							2	500163		-400																					
+44	49		301							1	Staff Member	Hmm...? The journalists should all have left... Oh!	2																					
+45	50		301									The staff member tilts her head in confusion. She then puts her hands together, enlightened.																						
+46	51		301								Staff Member	One moment, please.	2																					
+47	52		203							2	0.25	-600																						
+48	53		202							2					1																			
+49	54		203							1	0.25																							
+50	55		301									She walks into a small room near the dressing room and takes out a flower box.																						
+51	56		201							2	500163		-600																					
+52	57		203							2	0.25	-400																						
+53	58		201							1	500108	4	400																					
+54	59		301							1	Staff Member	It's quite special, so I didn't put it together with other gifts...	2																					
+55	60		301									Right. Unlike any other bouquets or gifts in the backstage.																						
+56	61		301								Selena	What are they...	1																					
+57	62		301									She sees a unique bouquet of iris flowers.																						
+58	63		301									She knows Babylonia rarely wastes resources on cultivating ornamental flowers. The "flowers" that most use for decorating are actually easy-to-preserve bionic flowers.																						
+59	64		301									But the lush green leaves and violet buds in front of her are blooming with life. There are even crystal water drops on the soft petals.																						
+60	65		301									For one instant, she is almost lost in the lively vigor. This beauty of nature is supposed to only exist on that blue planet too far from her.																						
+61	66		301									It is too surreal to be here.																						
+62	67		301								Selena	...	1																					
+63	68		301								Staff Member	We received this during the curtain call. Never thought you even had fans among the army commandants.	2																					
+64	69		301									The staff makes a playful wink.																						
+65	70		301								Staff Member	The commandant had an emergency mission coming and asked me to give this gift to you instead.	2																					
+66	71		301									The staff handed the bouquet over. Selena carefully takes it and rests it in her arms.																						
+67	72		301									The flower roots aren't removed, but are connected to a basic cultivation device. Selena can replant them anywhere.																						
+68	73		301									Instead of cutting them off for a one-off celebration, the sender wishes they will stay and watch her.																						
+69	74		301									She wonders what great view it would be if such flowers can spread over the meadows and hills, as described in the poems?																						
+70	75		301								Staff Member	How beautiful. I have a pleasant feeling just looking at them. The bionic ones are just as pretty, but real flowers leave a totally different impression.	2																					
+71	76		301								Staff Member	It really is a very precious gift.	2																					
+72	77		204							1																								
+73	78		301									Selena holds the bouquet slightly firmer.																						
+74	79		301									The light fragrance gently lingers in the air like a voiceless encouragement.																						
+75	80		301								Staff Member	Um, is there something between you and... that commandant...?	2																					
+76	81		301								Staff Member	...Oh, sorry. That was very inappropriate.	2																					
+77	82		301									She quickly cuts off her curiosity. It is indeed very inappropriate to ask a lady who she does not know well such a question.																						
+78	83		301								Selena	It's alright.	1																					
+79	84		301									She shakes her head gently, her eyes smiling.																						
+80	85		301				AniZhuanchangBegin					She has not realized it, but it's that kind of relaxed, genuine smile that has rarely been seen on her ever since the beginning of the opera rehearsal.																						
+81	86		202							1	2				1																			
+82	87		201							1	500108																							
+83	88		301			AniZhuanchangEnd				1		There is a card hiding in the leaves, with very familiar handwriting on it.																						
+84	89		301									"Dear Iris,"																						
+85	90		301									The following writing looks slightly rushed, as if the writer didn't have much time.																						
+86	91		301									"I have seen the light in you."																						
+87	92		301									"Find yourself through your works and creation. There may be confusion and fear, but I trust you will find your own answer."																						
+88	93		301									"You probably have heard of a famous quote: It is the same with man as with the tree. The more he seeks to rise into the height and light, the more vigorously do his roots struggle earthward."																						
+89	94		301									"Please, do not rush. Take your steps firmly forward."																						
+90	95		301									The letter was written in a rush, but the writing still looks crisp and firm.																						
+91	96		301									She hears steady footsteps coming from behind. They sound like those of a soldier.																						
+92	97		401							1	201																							
+93	98		204							1	4																							
+94	99		301									Selena's heart starts to beat fast. She slowly turns around.																						
+95	100		203							1	0.25	450																						
+96	101		201							2	500019		-450																					
+97	102		301							1	???	...	2																					
+98	103		301									It is an ordinary Construct wearing standard Construct uniform. There is anger and gloom yet to be disguised on his face.																						
+99	104		301									Selena recognizes him immediately. He was one of the Construct soldiers who received her free tickets. But she has never seen such emotions on any audience who has just finished watching her opera.																						
+100	105		301									Through his emotions, she realizes where her fear and anxiety come from all along.																						
+101	106		301									The young opera singer takes a step back subconsciously, but she soon walks up again.																						
+102	107		301								Selena	Hello... What can I do for you?	1																					
+103	108		301								Construct	Hah. Someone told me that you were willing to listen to us Constructs.	2																					
+104	109		301									The Construct soldier's chest visibly moves up and down, as if he is trying to hold back his emotion.																						
+105	110		204							1	7																							
+106	111		301								Construct	It's about the opera I just watched.	2																					
+107	112		301								Construct	I'll be frank. It is the most ridiculous thing I have ever seen.	2																					
+108	113		301								Construct	You had your rights to "express your thoughts" in your work. In exchange, there's also something that I must say.	2																					
+109	114		301								Construct	Because I just simply cannot stand it anymore. While we are risking our lives, the people high above are depicting my fallen comrades with such pale, nonsensical imagination, and even bragging about their ignorance!	2																					
+110	115		301								Construct	In the eyes of the residents of Babylonia, our sacrifice is like a child's play.	2																					
+111	116		301								Construct	Hah... Feel free to walk away if you cannot stand my rudeness.	2																					
+112	117		301									The accusation is made with an aggressive, almost taunt-like tone. But Selena feels pain and disappointment soaked in blood from the Construct's words.																						
+113	118		301									He could have turned away after the opera. Still, he came all the way here to tell her his anger frankly.																						
+114	119		301									"The more he seeks to rise into the height and light, the more vigorously do his roots struggle earthward."																						
+115	120		301									That person wanted to point out her mistakes in a more gentle way, but she knows she must not avoid the criticism that she should accept.																						
+116	121		301									It is a judgement that she must face.																						
+117	122		301									Selena nods and looks at him in the eyes. Her hands are crossed in front of her body, trying to keep her body from trembling.																						
+118	123		204							1	4																							
+119	124		301								Selena	No... Please continue.	1																					
+120	125		301		1		AniZhuanchangBegin				Selena	Please tell me more about it.	1																					

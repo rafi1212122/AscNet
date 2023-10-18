@@ -1,0 +1,38 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgCg/Cgqz704.png																								
+2	1001		401							1	103																							
+3	2		301			DialogEnable					Bianca	Is everyone ready? Hold your neighbors tight and keep the children close. We're moving now to the Southern Diocese.																						
+4	3		301								Bianca	If we do not live within God's reach, then I will bring us all to where God can see us.																						
+5	4		301								Bianca	Even if our prayers are unheard, and salvation never comes, I do not intend to merely sit and wait—																						
+6	5		301								Bianca	Everyone will be saved... I'll protect you all, until the end.																						
+7	6		301								Bianca	So, let us move.																						
+8	7		301				AniZhuanchangBegin				Bianca	(Please wait for me, Father Snow, I will bring them all to the eastern diocese, then I'll be returning to the church...)																						
+9	8		101							Assets/Product/Texture/Image/BgStory/Bgstory54.jpg																								
+10	9		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySnowNew.prefab	1																							
+11	10		301			AniZhuanchangEnd						...																						
+12	11		301									On the hazy snowy horizon, the outline of the travelers could be seen getting closer and closer, only leaving a trail of footsteps behind them.																						
+13	12		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySnowNew.prefab																							
+14	13		201							1	500024																							
+15	14		301							1	Bianca	Stay together, everyone! Let me know if anyone is feeling unwell.	1																					
+16	15		301								Bianca	Careful!	1																					
+17	16		202							1					1																			
+18	17		301								Child	Sister! Is that... the army?																						
+19	18		301								(Commotion)	It is! It's the army! We're saved! Thank God we're saved!																						
+20	19		301								Commotion	What's that in the back?! A Corrupted?! How could this be?!																						
+21	20		201							1	500005																							
+22	21		301							1	Soldier	Civilians sighted! There are Corrupted behind! Stay in formation! Protect the civilians!	1																					
+23	22		202							1					1																			
+24	23		301								(Commotion)	Quick, everyone! Run toward the army!																						
+25	24		201							1	500013																							
+26	1002		401							1	1508																							
+27	25		301							1	Corrupted	—!—!	1																					
+28	26		202							1					1																			
+29	27		201							1	500024	17	-450																					
+30	28		201							2	500062		450																					
+31	29		301							1	Bianca	... Please lend me a weapon.	1																					
+32	30		301								Bruce	... This... nun?	2																					
+33	31		301								Bruce	You're... A nun? I suppose you've never held a gun before, then... You'll be safer if you just stay in the back...	2																					
+34	32		301								Bianca	... Please lend me a weapon.	1																					
+35	33		301								Bruce	Alright! Here! A gun!	2																					
+36	34		301								Bianca	God, I ask for your forgiveness for the sins I am about to commit...	1																					
+37	35		301		1		AniZhuanchangBegin				Bianca	Be prepared to atone for your sins, for I shall be your judgment!	1																					

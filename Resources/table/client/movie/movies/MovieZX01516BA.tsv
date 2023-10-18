@@ -1,0 +1,114 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory240.png																								
+2	2		401							1	12																							
+3	3		301			DialogEnable						Dead silence hangs over the road, only punctuated by the sound of footsteps moving forward and the occasional explosions in the distance.																						
+4	4		301									The smell of oil and rust fills the air. The world seems to have been frozen in place.																						
+5	5		201							1	500231																							
+6	6		301							1	HNB1	It's so empty here...	1																					
+7	7		203							1	0.25	400																						
+8	8		201							2	500233		-400																					
+9	9		301							1	HBG3	All of the large machineries were removed.	2																					
+10	10		301								HNB1	Look over there.	1																					
+11	11		202							1	2				1																			
+12	12		301									A wall by the road has been spray-painted with rudimentary images of robots, circled in red and crossed with an ominous "X".																						
+13	13		201							1	500231		400																					
+14	14		201							2	500233		-400																					
+15	15		301							1	HNB1	Is that... us?	1																					
+16	16		301								HBG3	There is only a 14% match in similarity, but I calculate an 84% chance that they are supposed to depict Tai'E units.	2																					
+17	951		401							1	208																							
+18	17		301								HNB1	Well, that does me no justice at all. I'll show them who's the artist here!	1																					
+19	18		202							1	2				1																			
+20	19		201							3	500219	1																						
+21	20		301							1	Little Girl	Me too, I wanna try!	3																					
+22	21		201							3	500233																							
+23	22		301							1	HBG3	I don't think we have the time for that...	3																					
+24	23		202							3					1																			
+25	24		301									Before HBG3 could stop them, HNB1 and the girl pick up the spray can on the ground.																						
+26	25		201							2	500233	10																						
+27	26		301							1	HBG3	...	2																					
+28	27		202							2					1																			
+29	28		301									——																						
+30	29		301									A few minutes later, the two Tai'E on the wall have been expertly redesigned into cowboys with cowboy hats, with the red X modified into a heart symbol. On the bottom right, there is a stick figure with pigtails.																						
+31	30		301									The girl sitting on HNB1's shoulders smiles.																						
+32	31		401							2	10007502																							
+33	32		301			RImgBg1Shake						Boom—																						
+34	33		301									A muffled explosion can be heard in the distance.																						
+35	34		201							1	500231																							
+36	654		401							1	201																							
+37	35		301							1	HNB1	...	1																					
+38	36		202							1					1																			
+39	37		301									Their brief playtime is silenced by the rumbling of explosions.																						
+40	38		201							1	500233																							
+41	39		301							1	HBG3	We need to hurry.	1																					
+42	41		201							1	500231																							
+43	43		301							1	HNB1	You're right. Sorry.	1																					
+44	1000		201							1	500219																							
+45	44		301							1	Little Girl	...	1																					
+46	1001		201							1	500231																							
+47	45		301							1	HNB1	Hey, do you see that? There's a car up ahead!	1																					
+48	1002		201							1	500219																							
+49	46		301							1	Little Girl	Yeah! It looks like Daddy's car!	1																					
+50	47		202							1	3				1																			
+51	48		201							1	500233																							
+52	49		301							1	HBG3	Wait up...	1																					
+53	51		201							1	500231	1																						
+54	52		301				AniZhuanchangBegin			1	HNB1	Alright, we need to get going!	1																					
+55	53		202							1					1																			
+56	54		101							Assets/Product/Texture/Image/BgStory/Bgstory248.png																								
+57	55		301			AniZhuanchangEnd						The vehicle weaves throughout the lower city area and speeds out. Kowloong appears pale and hostile in the pallid sunlight.																						
+58	56		301									Passing through the open industrial area, lofty towers reach out to the sky like giant fingers.																						
+59	57		301									The sky gradually darkens... As they approach the city, the devastation and signs of war become more apparent.																						
+60	58		301									Several fires are raging in the distant city, with plumes of smoke rising and radiating red from the flames. Arcs of electricity occasionally flash by, causing the smoke to ripple in blue.																						
+61	59		301				AniZhuanchangBegin					Suddenly, the black plumes of smoke and the entire city all plunge into darkness from a blackout. Only the skyscrapers from afar can be seen fading in and out, illuminated by the flames of war.																						
+62	61		101							Assets/Product/Texture/Image/BgStory/Bgstory242.png																								
+63	62		301			AniZhuanchangEnd						Moving further, they stop as the army's defensive line appears before them.																						
+64	63		201							2	500233																							
+65	64		301							1	HBG3	Looks like a battle was fought here.	2																					
+66	65		203							2	0.25	-400																						
+67	66		201							1	500231		400																					
+68	67		301							1	HNB1	Should we just go to the evacuation point from here?	1																					
+69	68		301								HBG3	There's no need to tell her the truth. Honesty with emotional animals isn't the best option, nor is it the safest form of communication.	2																					
+70	69		301								HBG3	Based on our current info, entering the war zone indicates an 89% mortality rate for her, with her father's survival rate being at 3%. Most importantly, I have already obtained the coordinates for the evacuation point.	2																					
+71	70		301								HNB1	Alright, looks like this is our only choice.	1																					
+72	71		301								HNB1	Then it's bye-bye to this fella. What a pity, I liked the music in the car. The owner must have been a man of good taste.	1																					
+73	72		202							1	2				1																			
+74	73		301									HNB1 remains quiet a moment, possibly thinking of the missing car owner.																						
+75	74		201							1	500231		400																					
+76	75		201							2	500233		-400																					
+77	76		301							1	HNB1	Wake her up. She's already slept for several hours. She must have been exhausted.	1																					
+78	77		301								HBG3	Stop the car. I'll take her out.	2																					
+79	78		202							1	2				1																			
+80	79		201							3	500219																							
+81	80		301							1	Little Girl	Huh... Are we... there yet?	3																					
+82	81		201							3	500233																							
+83	82		301							1	HBG3	The road is blocked up ahead. We have to walk from here.	3																					
+84	83		202							3					1																			
+85	84		401							2	1508																							
+86	85		301								???	(Rustling noises)																						
+87	86		301									At the end of the bridge... They catch a glimpse of the monsters. Their eyes shine with sanguine light.																						
+88	87		201							1	500239		-600																					
+89	88		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																						
+90	89		401							2	1508																							
+91	90		301							1	Unknown Corrupted	(Rustling noises)	1																					
+92	91		301									Less than 100 meters away, a hulking mechanoid twists its body and crawls on the ground, as if trying to claw its way out of hell. It lets out an uncanny screech.	1																					
+93	92		301									HNB1 looks straight at the monster. The shadowy abomination on the cliff charges forward. An inferno rises behind it, illuminating their faces.	1																					
+94	93		301									That thing is—was—a Tai'E.	1																					
+95	94		301			PanelActor1Shake						Its outline seems to blur, like two shadows clumsily stacked over each other; one being a Tai'E, the other a screeching monster, roaring murderously.	1																					
+96	96		201							2	500233		600																					
+97	97		301							1	HBG3	Come here!	2																					
+98	1080		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																					
+99	98		202							1	2				1																			
+100	99		301									HNB1 recovers from its brief shock.																						
+101	100		201							1	500233																							
+102	101		301							1	HBG3	We need to push on through.	1																					
+103	102		201							1	500231																							
+104	103		301							1	HNB1	That thing, that's...	1																					
+105	104		201							1	500219	4																						
+106	105		301							1	Little Girl	Grown-ups call them "Corrupted".	1																					
+107	106		301								Little Girl	They're... They're the ones attacking people.	1																					
+108	107		201							1	500233																							
+109	108		301							1	HBG3	We must quickly get through this place before more of those things appear. I'll go first, you take her and follow me.	1																					
+110	109		201							1	500219	4																						
+111	110		301							1	Little Girl	If they see us, we're finished.	1																					
+112	111		201							1	500231																							
+113	112		301		1		AniZhuanchangBegin			1	HNB1	I know.	1																					

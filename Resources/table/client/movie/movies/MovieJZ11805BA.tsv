@@ -1,0 +1,125 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory5.jpg																								
+2	2		401							1	33																							
+3	3		201							1	1081001																							
+4	4		301			DialogEnable				1	Kamui	Well, we're about to enter the CPF area. You can take off the protective mask now.	1																					
+5	5		201							1	500289																							
+6	6		301							1	Wanshi	...	1																					
+7	7		202							1					1																			
+8	8		301									Wanshi takes off the protective mask that Kamui handed over to him earlier. The air pours into his nose while the wind high above sweeps across Wanshi.																						
+9	9		301									It is different from the artificial touch of the simulation experience hall in Babylonia, but a brand new element from the Earth that he has never experienced before.																						
+10	10		301									Wanshi steps into a city under reconstruction with Kamui. Most of the buildings are dilapidated, but the CPF has started running again. Several teams of Constructs move beneath the CPF working on reconstruction.																						
+11	11		201							1	500289		-400																					
+12	12		201							2	1081001	1	400																					
+13	13		301							1	Kamui	How are you feeling?	2																					
+14	14		301								Wanshi	Well... it's a fresh experience, but nothing special.	1																					
+15	15		301								Kamui	At least it's better than being stuck in the same place.	2																					
+16	16		301								Kamui	Haha, it's rare for them to send humans to the ground. Make good use of it.	2																					
+17	17		202							2																								
+18	500		203							1	0.25																							
+19	18		301									Kamui smiled and jumped down.																						
+20	19		301								Wanshi	What? Wait...	1																					
+21	20		202						300	1					1																			
+22	21		201							1	1081001	1																						
+23	22		301							1	Kamui	Just jump down, I'll catch you.	1																					
+24	23		201							1	500289																							
+25	24		301							1	Wanshi	...No need. I'll do it myself.	1																					
+26	25		301				AniZhuanchangBegin					Wanshi stands there and sighs, looking for the right landing spot on the wall and slowly moves toward the ground.																						
+27	26		101							Assets/Product/Texture/Image/BgStory/Bgstory4.jpg																								
+28	27		201							1	1081001	1																						
+29	28		301			AniZhuanchangEnd				1	Kamui	Sorry to keep you waiting. I'm back.	1																					
+30	29		203							1	0.25	-400																						
+31	30		201							2	500028		400																					
+32	31		301							1	Old Construct	Well, get ready for the next battle.	2																					
+33	32		301								Old Construct	...Huh? Why is there a human behind you?	2																					
+34	33		301								Kamui	Ah, it's Wanshi, the authorities send him here to help us.	1																					
+35	34		301								Kamui	He's not just any doctor, but a pretty good one.	1																					
+36	35		301								Kamui	He fixed me even though I was severely injured back then.	1																					
+37	36		301									The slightly older Construct looks at the smirking Kamui, then turns to the nervous Wanshi.																						
+38	37		301								Old Construct	Wanshi... so you're the student of that professor.	2																					
+39	38		202							1	2				1																			
+40	39		201							1	500289	7																						
+41	40		301							1	Wanshi	Do you... know him?	1																					
+42	41		203							1	0.25	-400																						
+43	42		201							2	500028		400																					
+44	43		301							1	Old Construct	Well, he spoke highly and had high hopes for you.	2																					
+45	44		301								Old Construct	But I never thought he'd eventually die of overwork. You must be quite stressed in the Star of Life.	2																					
+46	45		301								Wanshi	Die of overwork...	1																					
+47	46		301								Old Construct	Enough of that. The defense of City 157 nearby is about to be broken through. The Corrupted could reach us at any time.	2																					
+48	47		301								Old Construct	Wanshi, if City 157 falls, you should hide in the shelter around the CPF...	2																					
+49	48		202							1	2				1																			
+50	49		401							2	10007502																							
+51	1001		401							1	203																							
+52	50		301									The old Construct's words are covered by a huge explosion from the south. Then a Construct hurries to him and reports the situation.																						
+53	51		201							1	500019		-400																					
+54	52		201							2	500019		400																					
+55	53		301							1	Construct D	Captain, the autonomous turret at the entrance of the South City was blown up.	1																					
+56	54		301								Construct E	So was the autonomous mines in the East City.	2																					
+57	55		202							1	2				1																			
+58	56		201							1	500028																							
+59	57		301							1	Old Construct	Speak of the devil...	1																					
+60	58		201							1	1081001	4																						
+61	59		301							1	Kamui	Hmph, I won't make the same mistake this time.	1																					
+62	60		201							1	500028																							
+63	61		301							1	Old Construct	Set up the defense and do your own duties, the city must not fall!	1																					
+64	62		201							1	500019		-400																					
+65	63		201							2	500019		400																					
+66	64		301							1	Constructs	Roger!	1	2																				
+67	65		202							1	2				1																			
+68	66		201							1	500028																							
+69	67		301							1	Old Construct	Doctor, do as I just told you. You, go cover the doctor.	1																					
+70	68		201							1	500019																							
+71	69		301							1	Construct D	Roger!	1																					
+72	70		301									Constructs that have received the orders immediately go into action. A Construct drags Wanshi toward the CPF quickly and pushes him into a relatively solid building.																						
+73	71		301								Construct D	Doctor, just stay here.	1																					
+74	72		202							1					1																			
+75	73		301									After that, the Construct pats Wanshi on the shoulder. Then he takes out the weapon and runs toward the front of the defense line.																						
+76	74		301									The sounds of explosion from time to time soon turns into a noisy and turbulent firefight.																						
+77	75		301									Several Corrupted have even crossed the defense line deployed earlier and enter the street near the CPF.																						
+78	76		201							1	500289	7																						
+79	77		301							1	Wanshi	So this is the surface... the battlefield where the Constructs fight in...	1																					
+80	78		202							1					1																			
+81	505		401							1	45																							
+82	1002		401							2	10007502																							
+83	79		301			RImgBg1Shake						A grenade flies out of the crowd of the Corrupted and explodes at the foot of the CPF.																						
+84	80		301									The impact knocks Wanshi to the ground.																						
+85	81		301									Wanshi has only heard the description of dying from the wounded soldiers. Now everything is happening right here.																						
+86	82		301									The towering building collapses under fire, burying the Constructs and Corrupted underneath it.																						
+87	83		301									One of the Construct's ankle sinks into the cracked ground. A moment's pause leaves him under siege from a large number of Corrupted around. The Construct beside him comes to support, only to be caught in the crowd of the Corrupted.																						
+88	84		301									Fire and explosions are everywhere. Vital fluid is mixed with oil, flowing between the craters on the ground.																						
+89	85		301									Smoke pours into Wanshi's airway, the intense physical discomfort making him cough violently.																						
+90	86		201							1	500290																							
+91	87		301							1	Wanshi	Cough—cough—	1																					
+92	88		202							1					1																			
+93	89		301									The remains of the Corrupted keeps piling up in the areas where the Constructs passed. But more Corrupted continue to flood in from the horizon.																						
+94	90		301									Endless despair fills the battleground. Humans created the Constructs and used wars to proclaim sovereignty over Earth. Yet most human beings do not even understand what war means, just like Wanshi in the past.																						
+95	91		301									Wanshi wipes the smoke and dust that has filled his eyes with his hand. A Construct is standing in front him, pulling the debris of the grenade from his body and throwing them to the ground.																						
+96	92		301									Wanshi can vaguely recognize the mark of Support Construct through his torn armband.																						
+97	93		201							1	500289	7	-400																					
+98	94		201							2	500019		400																					
+99	95		301							1	Wanshi	!	1																					
+100	96		301								Support Construct A	It's a pity. I've just fixed my artificial skin.	2																					
+101	97		301								Support Construct A	But it would be no joke if the grenade hit a human.	2																					
+102	98		301								Wanshi	Aren't you a Support Construct? Why would you push yourself this far?	1																					
+103	99		301								Support Construct A	It's true I'm an ordinary Support Construct. But I'm not just a doctor, I'm a warrior.	2																					
+104	100		301								Support Construct A	Here, take this.	2																					
+105	101		301									The Support Construct in front of Wanshi throws a standard pistol to his side.																						
+106	102		301								Support Construct A	The battlefield is filled with changes.	2																					
+107	103		301								Support Construct A	No one can stand by their partners all the time, providing support for each other.	2																					
+108	104		301								Support Construct A	It's better to rely on yourself rather than others.	2																					
+109	105		301								Wanshi	What are you talking about?	1																					
+110	106		301								Support Construct A	It's not that hard to pull the bolt and aim at the Corrupted.	2																					
+111	107		202							1	2				1																			
+112	108		201							1	500028																							
+113	109		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+114	110		301							1	Old Construct	Thompson, back up the defense in the east.	1																					
+115	111		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+116	112		201							1	500019																							
+117	113		301							1	Thompson	Roger!	1																					
+118	114		301								Thompson	I've gotta go.	1																					
+119	115		202							1					1																			
+120	116		301									The Construct called Thompson takes out another pistol after saying this. He runs toward the east of the CPF while firing at the Corrupted.																						
+121	117		201							1	500289																							
+122	118		301							1	Wanshi	Doctor... Warrior...	1																					
+123	119		202							1					1																			
+124	120		301		1		AniZhuanchangBegin					Wanshi freezes in place holding the pistol in hand. The roar of Kamui from the distance gradually drowns out the clamor of the Corrupted and reaches his ears.																						

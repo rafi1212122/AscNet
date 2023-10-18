@@ -1,0 +1,139 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory545.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						The representatives gave their answer in the World Government's emergency meeting, approving Karenina's decision and giving her the right to destroy the zero-point engine.																						
+4	4		301									Still, it will inevitably cause a series of problems... The lunar base, the reactor, the ground battlefield, Kurono...																						
+5	5		301									The biggest problem is that the comms to the lunar base are still not restored. Babylonia is unable to confirm whether Karenina and her team have successfully destroyed the engine, or whether they can safely return.																						
+6	6		301									What if Karenina and her team are injured... Or cannot finish the mission at all...																						
+7	7		201							1	1091001	4																						
+8	8		301							1	Bianca	Commander Nikola! Please, let me go. I can help the lunar base... and Karenina.	1																					
+9	9		301									Nikola has actually thought about this option. When it comes to searching for lost targets in an unfamiliar environment, nobody can do the job better than the Purifying Force—although they are hunting the target most of the time.																						
+10	10		203							1	0.25	-400																						
+11	11		201							2	500012		400																					
+12	12		301							1	Nikola	No... This is the second time I'm saying this.	2																					
+13	13		301									Nikola shakes his head and gives back Bianca's application.																						
+14	14		301								Nikola	As the captain of the Purifying Force, as a soldier, you should know your duty is to obey orders.	2																					
+15	15		301									The other female Construct in the room also walks up and salutes Nikola.																						
+16	16		202							2					1																			
+17	17		201							1	500498																							
+18	18		301							1	Chiko	Commander Nikola... One Construct is more than enough to investigate the traitors. I can do this. Captain Bianca doesn't need to be involved.	1																					
+19	19		301									Although respectful, the female Construct named Chiko has not backed down in the slightest. She is also a member of the Purifying Force.																						
+20	20		203							1	0.25	400																						
+21	21		201							2	1091001		-400																					
+22	22		301							1	Bianca	Chiko...	2																					
+23	23		301									Bianca looks at Chiko. She has gone to Earth multiple times for this dangerous mission, but no progress is made.																						
+24	24		301									Although the Engineering Force's new engine has made shuttles more secure, going from Babylonia to the ground is still a dangerous trip.																						
+25	25		301									Even after a successful landing, the supplies from the Support Force are nowhere enough for combat consumption in the adverse environment. Chiko couldn't even maintain her frame properly; the color of her black long hair had faded, but she simply had no time to restore it.																						
+26	26		202							2					1																			
+27	27		201							1	500012																							
+28	28		301							1	Nikola	There were traces of Ascendant found during the investigation. The HQ decided to up the danger level of this mission, and we now have two locations to investigate. That's why I'm sending you both.	1																					
+29	29		301								Nikola	The mission locations are also reassigned based on their danger levels. Chiko, Bianca will take over City 006 from you. There is a new location named City 015, and I want you to take charge.	1																					
+30	30		201							1	500498	4																						
+31	31		301								Chiko	But...	1																					
+32	32		301									The mission instructions suggest City 006 has a higher danger potential... So it makes perfect sense to assign it to Bianca, given that she is the captain. Unable to find any excuse, Chiko can only remain silent.																						
+33	33		201							1	500012																							
+34	34		301							1		Nikola pauses and looks at Bianca. She seems to have something to say.																						
+35	35		301								Nikola	We are just as worried about Karenina and the lunar base as you are. That's why I have already sent the entire Mountain Vulture squad in a space fighter.	1																					
+36	36		202						100	1					1																			
+37	37		201							1	1091001		400																					
+38	38		201							2	500498		-400																					
+39	39		401							2	1543																							
+40	40		301							1		Bianca and Chiko have no words to say. They can only salute in silence.																						
+41	41		301								Bianca	I have only one request. If there is any news about Karenina... Please let me know immediately.	1																					
+42	42		202							2					1																			
+43	43		201							1	500012																							
+44	44		301							1	Nikola	Hmph... You don't need to worry about that. Any news about her will be the biggest news.	1																					
+45	45		401							2	1516																							
+46	46		301									After the two Purifying Force Constructs left, Nikola once again picks up the mission requests to investigate the traitors. They came from many departments, but only the change of location was provided by the Control Court.																						
+47	47		204							1	5																							
+48	48		301								Nikola	I know the Control Court manages a lot of things, but why would they pay particular attention to this one out of all missions...	1																					
+49	49		204							1																								
+50	50		301								Nikola	Despite suffering heavy damage, Gray Raven still applied to return to the battlefield multiple times. I had to stop them with the Star of Life. But maybe I can send them to the less dangerous City 015 for an investigation mission...	1																					
+51	51		401					300		2	1515																							
+52	52		301									His thoughts are interrupted by an incoming comms request.																						
+53	53		301								Nikola	Speaking...	1																					
+54	54		203							1	0.25	-400																						
+55	55		201							2	500001	4	400																					
+56	56		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab	2	2																						
+57	57		301							1	Celica	It's from the captain of Mountain Vulture, Commander Nikola.	2																					
+58	58		301								Nikola	Have we found the Engineering Force? What are the coordinates...?	1																					
+59	59		301									Celica sounds embarrassed as she hesitates a little.																						
+60	60		301				AniZhuanchangBegin				Celica	Um... No. They seem to have encountered an enemy!	2																					
+61	61		202			DialogDisable				1	2				1																			
+62	62		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+63	63		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/Bgstory211.png																								
+64	64		301			DialogEnable						A transport shuttle is flying in space. The Moon has become quite small behind it.																						
+65	65		201							1	500494	13	400																					
+66	66		201							2	500495	4	-400																					
+67	67		301							1	Teddy	That monster who merged with the zero-point engine... How did it get on the Moon?	2																					
+68	68		301								Karenina	I don't know... But it probably wasn't there in the beginning.	1																					
+69	69		301									Karenina takes out the cassette recorder she found in the zero-point reactor core—she has already learned about its content.																						
+70	70		204							2	13																							
+71	71		301								Teddy	Hmm...? This is quite an antique audio player. Never thought you could have this taste—I guess listening to music can more or less help you change your barbarian way of thinking.	2																					
+72	72		301									Karenina replied with a "tsk" and ignored her. She stares at the starry universe outside.																						
+73	73		301									The root cause of the lunar base incident could be traced to the past. The consequence of the "necessary sacrifice" made back then is still posting a threat to all humans today, and it may well last into the future.																						
+74	74		301									Fortunately, humans may finally have enough power to change that future...																						
+75	75		301								Karenina	So how did you find this spaceship...? I don't recall seeing any record of spacecraft staying in the lunar base.	1																					
+76	76		204							2																								
+77	77		301								Teddy	No idea. This is quite an old ship. Probably served in the Post-Pandemic Age... It was made in Kurono, but is currently registered under Babylonia.	2																					
+78	78		301								Karenina	Could it be that the spaceship picking us up had departed earlier? We are pretty lucky.	1																					
+79	79		502						400	RImgBg1Shake																								
+80	80		505							RImgBg1Shake																								
+81	81		401							1	205																							
+82	82		201							2	500499	2	-300	-150																				
+83	83		301							1	Yarha	Excuse me, I hate to interrupt you, but... Karenina, your hand is on my head.	2																					
+84	84		301								Karenina	Oops... Sorry...	1																					
+85	85		201							1	500495	5	200																					
+86	86		301							1	Teddy	Hmph... If we are lucky, we wouldn't have to face this just hours before retreat...	1																					
+87	87		502						400	RImgBg1Shake																								
+88	88		505							RImgBg1Shake																								
+89	89		301								Yarha	Um... Sorry again, but you are stepping on my abdomen, Teddy...	2																					
+90	90		204							1	13																							
+91	91		301								Teddy	No wonder it feels soft... Yarha, don't you think you need some exercise?	1																					
+92	92		301								Yarha	Ahaha... P-please stop it...	2																					
+93	93		202							2					1																			
+94	94		201							1	500494	6																						
+95	95		301							1	Karenina	Aaargh! Why are we all cramped up in such a tiny pod!	1																					
+96	96		201							1	500303																							
+97	97		201							2	500059		300																					
+98	98		201							3	500361		-300																					
+99	99		201							4	500122		600	-150																				
+100	100		201							5	500249		-600																					
+101	101		301							1		The Engineering Force, Kurono scientists, along with some fainted soldiers... Tens of people are squeezed inside the little life pod like a sardine can.																						
+102	102		202						200	1	2	3	4	5	1																			
+103	103		201							1	500495	5																						
+104	104		301							1	Teddy	Well, we are lucky that we are still alive. We should think about how we can restore that zero-point engine after we go back.	1																					
+105	105		203							1	0.25	-400																						
+106	106		201							2	500494	13	400																					
+107	107		301							1	Karenina	Wouldn't that be an easy task with all the information you bring back?	2																					
+108	108		301								Teddy	It better be... We almost died for it. The entire Engineering Force won't forgive you if you screw it up.	1																					
+109	109		204							2	4																							
+110	110		301								Karenina	Just wait and see... You can start thinking of a name for the new engine.	2																					
+111	111		204					500		2	8																							
+112	112		301								???	Haha, how about "DeLorean"? It comes from an old classic movie.																						
+113	113		204							2	12																							
+114	114		301									A male voice comes from the ship's internal broadcast. He probably is the pilot.																						
+115	115		301									He saved everyone after all, so Karenina couldn't blame him for the awkward conversation. Besides, he must have also heard her complaints on the limited cabin space.																						
+116	116		301								Karenina	Um... That's actually not bad...	2																					
+117	117		204							1	4																							
+118	118		301								Teddy	Um, excuse me...	1																					
+119	119		301								???	Just call me Rolmo... Captain Rolmo. Has a nice ring to it, doesn't it?																						
+120	120		301								Teddy	Captain Rolmo... How long will it take for this ship to arrive at Babylonia?	1																					
+121	121		301								"Rolmo"	Well... I'm not so sure. Maybe it will take a day, or 8 hours, or 10 minutes.																						
+122	122		301									His bizarre estimate makes Karenina and Teddy even more confused.																						
+123	123		301								Karenina	Hey, Teddy, why do I find his voice a little familiar...?	2																					
+124	124		401							2	595																							
+125	125		301			RImgBg1Shake						A sudden turbulence interrupts Karenina. It does not feel like the ship has hit a meteorite or space debris...																						
+126	126		301								Teddy	Did something happen?	1																					
+127	127		301								"Rolmo"	Oops, haha. Don't worry, we are just under attack by Babylonia's space fighters.																						
+128	128		204							1	5																							
+129	129		204							2	4																							
+130	130		301								Karenina	What?! Why is Babylonia attacking us?	2																					
+131	131		301								"Rolmo"	Didn't take long for them to find out that I jacked the ship...																						
+132	132		204							2	5																							
+133	133		301								Karenina	What?! Did you jack the ship..? ****! Who the heck are you?!	2																					
+134	134		301									Karenina searches her memories and finally recalls this annoying voice she heard in the past.																						
+135	135		301								"Rolmo"	Sigh, you invited yourselves to my ship and still dare to be picky. That's why I don't like humans.																						
+136	136		301									The pilot who calls himself Rolmo lets out a sigh, but soon changes into a cheerful tone.																						
+137	137		301								"Rolmo"	Alrighty, dear passengers, our trip is coming to an end. I wish you a pleasant and safe journey. Time to say goodbye. Ciao!																						
+138	138		301		1	RImgBg1Shake	AniZhuanchangBegin					After a slight shock, the safety lock of the life pod is disengaged. In Karenina's high-pitch swearing, "Captain Rolmo" ejects the life pod into space, then accelerates toward the Earth.																						

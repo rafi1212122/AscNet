@@ -1,0 +1,47 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable					System	Warning, high concentration of Punishing Virus detected—																						
+4	4		301								System	Gray Raven Base, initiating Level 2 alert.																						
+5	5		201							1	1021001																							
+6	6		301							1	Lucia	Commandant, there are Corrupted outside our base...	1																					
+7	7		301								Lucia	I got to go for a while...	1																					
+8	8		202							1					1																			
+9	9		301									Lucia has a hesitant look on her face before leaving the room.																						
+10	10		302							1000	What is it?	13	I'll stay here, don't worry.	15																				
+11	11		201							1	1021001																							
+12	12		303							1000																								
+13	13		301							1	Lucia	About your relationship with...	1																					
+14	14	17	301								Lucia	Nothing...	1																					
+15	15		301							1	Lucia	Oh, I didn't mean it like that, Commandant.	1																					
+16	16		301								Lucia	It's only your relationship with… Never mind, nothing.	1																					
+17	17		301								Lucia	I'm... leaving.	1																					
+18	18		202							1					1																			
+19	19		301									When Lucia left the isolation room, as expected...																						
+20	20		301									Forced connection succeeded—																						
+21	21		201							1	500100																							
+22	22		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+23	23		301							1	α	...	1																					
+24	24		202							1					1																			
+25	25		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+26	26		301									She seems to have a habit of greeting in silence.																						
+27	27		302								You shouldn't be part of this attack, no?	28																						
+28	28		201							1	500100																							
+29	29		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+30	30		301							1	α	Indeed, I'd never do something so petty.	1																					
+31	31		301								α	...How did you know, though.	1																					
+32	32		302								The sounds of engines.	33																						
+33	33		301								α	Heh, good ear.	1																					
+34	34		301									Alpha deliberately revs up her engine louder.																						
+35	35		302								What are you planning to do?																							
+36	36		301								α	Hunting.	1																					
+37	37		301								α	...You curious?	1																					
+38	38		302								Not at all.	39	Just a bit.	40																				
+39	39	42	301								α	Right, so—	1																					
+40	40		301								α	So let me give you some hints—it's a creature.	1																					
+41	41		301								α	But for more, though...	1																					
+42	42		202							1					1																			
+43	43		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+44	44		301									Alpha disconnects.																						
+45	45		301									It seems that the connection is merely about some minor topics.																						
+46	46		301		1		AniZhuanchangBegin					So what is her purpose for the forced connection?																						

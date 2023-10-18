@@ -1,0 +1,26 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		401							1	202																							
+2	2		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory75.jpg																								
+3	3		201							2	1021001		-400																					
+4	4		201							3	1101001		400																					
+5	5		301			DialogEnable				1	Lucia	...A defensive wall?	2																					
+6	6		301							1	Watanabe	And not just one.	3																					
+7	7		301							1		This part is just the light refraction layer... around 20 centimeters thick.																						
+8	8		302								W-wait...	9																						
+9	9		302								20... centimeters?	10																						
+10	10		202							2																								
+11	11		201							2	1011001		-400																					
+12	12		301							1	Lee & Watanabe	Yeah, to prevent direct penetration from railguns or other similar ordnance.	2																					
+13	13		301							1	Lee & Watanabe	...?	2																					
+14	14		301							1	Lee	There's more: the armor layer, blast-proof layer, second armor layer, utility layer, reactive armor, auxiliary blast-proof layer, aux reactive armor...	2																					
+15	15		301							1	Watanabe	The actual core compartment would probably be... some 20 meters below.	3																					
+16	17		302								So...	18																						
+17	18		302								Please tell me...	19																						
+18	19		302								...we're not digging our way down.	20																						
+19	20		301							1	Watanabe	I'm not sure what led you to this conclusion, but the elevator is right there.	3																					
+20	21		301							1	Watanabe	If the elevator doesn't work, we can just go down via the maintenance staircase.	3																					
+21	22		302								Well don't I feel better...	23																						
+22	23		202							2	3																							
+23	24		201							1	1111001																							
+24	25		301							1		Well, if we want to use the elevator—or even the stairs—	1																					
+25	26		301		1		AniZhuanchangBegin			1		We'll have to get through those things first.	1																					

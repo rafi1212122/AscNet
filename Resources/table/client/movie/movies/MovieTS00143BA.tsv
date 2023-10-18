@@ -1,0 +1,45 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory38.jpg																								
+2	2		401							1	202																							
+3	3		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	2																							
+4	4		201							2	1041001																							
+5	5		301			DialogEnable				1	Nanami	(Reaches the top of the building) We're finally out... huh?	2																					
+6	6		301								Nanami	The guards are still after us.	2																					
+7	7		203							2	0.25	400																						
+8	8		201							1	500008		-400																					
+9	9		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		1																						
+10	10		301							1	Roland	Nat isn't going to... let me go so easily...	1																					
+11	11		301									(Roland concentrates the Punishing Virus to his right arm) ...																						
+12	12		301								Nanami	...Roland?!	2																					
+13	13		301								Roland	(Breaks away from Nanami's control) If I can't beat you...	1																					
+14	14		301			PanelActor2Shake				1	Nanami	(Dashes toward Roland) ...!	2																					
+15	15		301			PanelActor1Shake				1	Roland	(Jumps backward) I'll leave it to "destiny"...	1																					
+16	16		301									Roland jumps off from up high, and the golden guards leap toward him like hungry beasts...																						
+17	17		202							1					1																			
+18	18		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		1																					
+19	19		203							2	0.25																							
+20	20		301								Nanami	(Jumps after Roland) He'll get torn into pieces...	2																					
+21	21		301									...																						
+22	22		301								Nanami	Nanami was careless...	2																					
+23	23		301								Nanami	(Battles the guards) Shouldn't have given him the opportunity to act freely.	2																					
+24	24		203							2	0.25	600																						
+25	25		201							1	500008																							
+26	26		201							3	500013		-600																					
+27	27		401							2	1508																							
+28	28		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		1																						
+29	29		301							1		Nanami enters a deadly battle with the guards for Roland...																						
+30	30		202							2	3				1																			
+31	31		301							1	Roland	(Concentrates the Punishing Virus on his arm) All of you... move...!	1																					
+32	32		301									Although his frame is severely damaged, Roland still manages to throw off the guards and dashes toward the golden light beam...																						
+33	33		301								Roland	(Leaps toward the golden light) I've been watching... If I take advantage of its force, I might be able to thrown out of here...	1																					
+34	34		301								Roland	Even though my body will probably be crushed by the impact...	1																					
+35	35		301								Roland	(The light beam is right ahead) As long as my M.I.N.D. device gets carried far enough from the antigen above the desert... I can still summon enough Corrupted here to drag me away...	1																					
+36	36		301			RImgBg1Shake						A slashing tornado appears behind Roland's back...																						
+37	37		301			PanelActor1Shake				1	Roland	...What?!	1																					
+38	38		301			RImgBg1Shake						After a wave of slashes, the whole floor begins to collapse... Before Roland can jump into the beam, he is hit by a fallen metal plate and falls into the depths...																						
+39	39		301			PanelActor1Shake				1	Roland	(His body keeps getting hit by fallen objects) ...!	1																					
+40	40		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		1																					
+41	41		201							1	1041001																							
+42	42		301							1		Among the debris, Nanami is holding on to a torn cable, hanging above the gulf...																						
+43	43		301								Nanami	That was so, so close...	1																					
+44	44		301		1		AniZhuanchangBegin				Nanami	Roland, wait for me! Nanami's coming to get you.	1																					

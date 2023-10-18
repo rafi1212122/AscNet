@@ -1,0 +1,170 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						08:41 AM																						
+4	4		301									There is a commotion outside the book storage room. Noan flips open the vent cover to find over thirty upper-level guards charging into the Commoner Carriage and blocking the narrow passageways, causing many to groan and complain.																						
+5	5		201							1	500511																							
+6	6		301							1	Noan	(What's happening...)	1																					
+7	7		301									Crawling inside the air duct toward where most guards have gathered, Noan begins to see a trail of blood as if someone was dragged across the floor. Then he sees Assad's blood-soaked clothes.																						
+8	8		204							1	4																							
+9	9		301								Noan	...!	1																					
+10	10		202							1					1																			
+11	11		301									Assad's broken bones are exposed in the air and coated in dried blood, piercing through his flesh and skin. Part of his head is missing—his toothless mouth is silently bemoaning the pain he suffered before his death.																						
+12	12		301									Tight ropes used to tie Assad up are twisting his body unnaturally. The guards around him seem to be displaying the cruel scene on purpose, showcasing how Assad was killed.																						
+13	13		201							1	500197		-400																					
+14	14		201							2	500197		400																					
+15	15		301							1	Upper-Level Guard 1	Stay silent all you want, but the rest of the core members of the Cargo Crew are next! You'll witness how they're all dragged to their deaths on the train track!	2																					
+16	16		301								Upper-Level Guard 1	Tell us where you've hidden the things if you don't want that to happen!	2																					
+17	17		202							1	2				1																			
+18	18		201							1	500515	5																						
+19	19		301							1	Rachel	...	1																					
+20	20		202							1					1																			
+21	21		201							1	500197		-400																					
+22	22		201							2	500197		400																					
+23	23		301							1	Upper-Level Guard 2	Rachel, this isn't like one of the little brawls in the past. We could take them at face value and only punish those on the scene.	2																					
+24	24		301								Upper-Level Guard 2	But this time, it's threatening all of us. Your silence is only going to escalate things. Our boss will send us to our deaths if we don't have it all sorted out today.	2																					
+25	25		202							1	2				1																			
+26	26		201							1	500515	5																						
+27	27		301							1	Rachel	Escalate things? The aristocrats upstairs have pushed our folks to their deaths! Does that not escalate things? Or the times when desperate people take their own lives? When you lot beat up and kill whoever you want?	1																					
+28	28		202							1					1																			
+29	29		201							1	500197		-400																					
+30	30		201							2	500197		400																					
+31	31		301							1	Upper-Level Guard 3	Do you think your little stunt here is going to solve anything?	1																					
+32	32		301								Upper-Level Guard 2	We don't want to make it difficult for you. There's no need for us to make a scene here—we're "all" working for the people upstairs. Just hand over the things, and no one else gets hurt.	2																					
+33	33		301									Rachel sneers without answering. Instead, she turns and looks at the entrance to the vents.																						
+34	34		202							1	2				1																			
+35	35		201							1	500511																							
+36	36		301							1	Noan	...	1																					
+37	37		301									Noan knows that Rachel is looking for him.																						
+38	38		301									Shel needs to receive a signal that confirms Noan's presence before she can take action—but he must take advantage of the dark air ducts right now without making a sound.																						
+39	39		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBeginHei.prefab	3																							
+40	40		504							0.7																								
+41	41		101							Assets/Product/Texture/Image/BgStory/BgStory602.jpg																								
+42	42		201							1	500515	1																						
+43	43		301							1	Rachel	...You know, sometimes I really wish you'd stick that firefly on your shoulder.	1																					
+44	44		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBeginHei.prefab	3																							
+45	45		504							0																								
+46	46		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+47	47		201							1	500511																							
+48	48		301							1		Quietly, Noan takes out his clockwork firefly and turns on the little light bulb on its tail, gently waving it by the vent.																						
+49	49		202							1					1																			
+50	50		201							1	500515																							
+51	51		301							1	Rachel	...	1																					
+52	52		203							1	0.25	-400																						
+53	53		201							2	500197		400																					
+54	54		301							1	Upper-Level Guard 2	You're stalling, aren't you? Waiting for somebody?	2																					
+55	55		301								Noan	...																						
+56	56		301								Upper-Level Guard 2	If you're waiting for the squad you sent out, I can tell you that they're already dead.	2																					
+57	57		301									The guard takes out his terminal and shows Rachel a recording.																						
+58	58		301								Upper-Level Guard 2	Thanks to this coward, the upper level is killing two birds with one stone today.	1																					
+59	59		301									He kicks Assad's body, laughing.																						
+60	60		301								Rachel	Fine, I'll go with you.	1																					
+61	61		202							2					1																			
+62	62		201							1	500093																							
+63	63		301							1	Crew Captain Niino	Rachel! You can't—	1																					
+64	64		401						200	2	1510																							
+65	65		401							2	1510																							
+66	66		301			RImgBg1Shake						Before he can finish, two shots from two different guards graze his shoulder, hitting a young man standing behind him. The young man falls down as the people burst into screams and protests.																						
+67	67		202							1					1																			
+68	68		101						400	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+69	69		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+70	70		201							1	500511					1																		
+71	71		301							1	Noan	(I have to act now!)	1																					
+72	72		202							1					1																			
+73	73		101						350	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+74	74		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+75	75		201							1	500197					1																		
+76	76		301							1	Upper-Level Guard 2	Look at you all huddling together. How many do you think will go down with just one grenade?	1																					
+77	77		202							1					1																			
+78	78		101						300	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+79	79		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+80	80		201							1	500093					1																		
+81	81		301							1	Crew Captain Niino	You ******* monsters!	1																					
+82	82		202							1					1																			
+83	83		101						250	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+84	84		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+85	85		201							1	500515	5				1																		
+86	86		301							1	Rachel	Enough! Niinon! How many defenseless people are here?! Do you want to get them all killed?!	1																					
+87	87		202							1					1																			
+88	88		101						200	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+89	89		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+90	90		201							1	500454					1																		
+91	91		301							1	Crew Member Weyland	Boss! We can't let you—	1																					
+92	92		401						50	2	1510																							
+93	93		401							2	10002001																							
+94	94		202							1					1																			
+95	95		101						20	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+96	96		401							2	2559																							
+97	97		301									Another gunshot interrupts him. Taking advantage of the erupted chaos, Noan throws the short sword in his hand at the light on the ceiling. Darkness and shattered glass befall the carriage instantly.																						
+98	98		101						100	Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+99	99		101						100	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+100	100		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+101	101		201							1	500197					1																		
+102	102		301							1	Upper-Level Guard 2	Sound the alarm!	1																					
+103	103		401							2	2601																							
+104	104		202							1					1																			
+105	105		101						100	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+106	106		101						100	Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+107	107		201							1	500515					1																		
+108	108		101						80	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+109	109		101						80	Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+110	110		201							1	500197					1																		
+111	111		101						60	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+112	112		101						60	Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+113	113		201							1	500511					1																		
+114	114		101						40	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+115	115		101						40	Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+116	116		101						1500	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+117	117		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+118	118		201							1	500398					1																		
+119	119		301							1	Cargo Member Shauna	Move!	1																					
+120	120		401							2	1510																							
+121	121		202							1					1																			
+122	122		101						50	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+123	123		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+124	124		201							1	500427		400			1																		
+125	125		201							2	500427		-400			1																		
+126	126		301							1		The Cargo Crew members do not hesitate upon receiving the signal, charging toward the nearby guards immediately.																						
+127	127		202							1	2					1																		
+128	128		101						200	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+129	129		504							0.8																								
+130	130		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+131	131		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+132	132		401							2	10002001																							
+133	133		301			RImgBg1Shake						Making use of the darkness and confusion, Noan drops down from the vent and stabs the guard with the grenade with his Expulsion Blade before grabbing the guard's spare long sword and throwing it to the teammate beside him.																						
+134	134		201							1	500093																							
+135	135		301							1	Crew Captain Niino	Nice!	1																					
+136	136		301									The guards have expected some conflicts, but they have not foreseen how determined the people are.																						
+137	137		301								Upper-Level Guard 1	Catch him... Aargh!																						
+138	138		203						150	1	0.15			-150																				
+139	139		202							1					1																			
+140	140		401						300	2	13015111																							
+141	141		402							13015111																								
+142	142		401							2	819016																							
+143	143		301			RImgBg1Shake						Niino leaps toward the still-standing guard, parrying a strike to his face. Shifting behind the guard in the dark, he pushes his blade through the guard's unarmored throat, and the gushing blood shuts the guard up.																						
+144	144		401							2	10001004																							
+145	145		401							2	1512																							
+146	146		301									Right after that, the sound of shouting and seized firearms firing blend together, almost deafening everyone in the cart.																						
+147	147		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+148	148		504							0																								
+149	149		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab																							
+150	150		301									By the time the emergency lights turn on, the thirty or so guards are now silent corpses alongside a few innocent bystanders, leaving only the blood-drenched people panting and trembling.																						
+151	151		201							1	500515																							
+152	152		301							1	Rachel	There's no turning back now that we've killed their guards.	1																					
+153	153		203							1	0.25	-400																						
+154	154		201							2	500093		400																					
+155	155		301							1	Crew Captain Niino	Good with me. I'm done waiting.	2																					
+156	156		202							1	2					1																		
+157	157		201							1	500454		-400				1																	
+158	158		201							2	500398		400																					
+159	159		301							1	Crew Member Weyland	Let's kick it off! They're just going to send more people down if we wait any longer!	1																					
+160	160		301								Cargo Member Shauna	We await your order.	2																					
+161	161		202							1	2					1																		
+162	162		201							1	500515																							
+163	163		301							1	Rachel	...Alright!	1																					
+164	164		301									Rachel steps over the pools of blood and smashes the alarm of the lower floor before slotting in her ID card as the Cargo Crew Chief Captain, stopping its earsplitting shriek.																						
+165	165		402							2601																								
+166	166		301								Rachel	Do you remember your vow when you joined the Cargo Crew?	1																					
+167	167		301									Rachel clenches her fist as the people watch her in silence. Her hands are covered in the blood of their enemies.																						
+168	168		301								Crew Member Weyland	We'll free everyone from oppression! We'll lay the dead to rest ourselves and let them know their sacrifices are not for naught!																						
+169	169		301		1		AniZhuanchangBegin				Rachel	Now's the time to fulfill your promise...!	1																					

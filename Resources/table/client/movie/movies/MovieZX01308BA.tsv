@@ -1,0 +1,72 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory188.png																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						Right when you are about to lose your patience, Camu finally contacts you.																						
+4	4		201							1	500175																							
+5	5		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+6	6		301							1	Camu	I found the control room. The connection underground is very unstable. I just found a place where I have signal.	1																					
+7	7		201							1	500004																							
+8	8		301							1	Asimov	Good. 【kuroname】, transfer the visuals over. I'll run the analysis right away.	1																					
+9	9		201							1	500175																							
+10	10		301							1	Camu	Hey, tech guy, hurry up. This place ain't all flowers and daisies even for me.	1																					
+11	11		201							1	500004																							
+12	12		301				AniZhuanchangBegin			1	Asimov	Don't rush me. The more you rush, the slower it gets.	1																					
+13	13		202							1					1																			
+14	14		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+15	15		101							Assets/Product/Texture/Image/BgStory/Bgstory194.png																								
+16	16		201							1	500008																							
+17	17		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+18	18		301			AniZhuanchangEnd				1	Roland	Ahem... That's basically what happened.	1																					
+19	19		301								Roland	There was a trip-up due to unexpected company, but the situation is still under our control.	1																					
+20	20		203							1	0.25	-400																						
+21	21		201							2	500105		400																					
+22	22		301							1	Luna	Is that so?	2																					
+23	23		301								Luna	So where is our main dish?	2																					
+24	24		301								Roland	...	1																					
+25	25		301								Roland	He is now wandering in the center of the auto-building structure. It will take him quite a while to squirm out of that place.	1																					
+26	26		301								Roland	Long enough that the others can get our plans on the surface sorted out.	1																					
+27	27		301								Luna	...	2																					
+28	28		301								Roland	Please do not worry, Miss Luna. He can't do anything in this hunting ground of ours.	1																					
+29	29		301								Roland	Of course, you need only will it, and I can arrange for the Corrupted to dispose of him—in advance, to prevent future problems.	1																					
+30	30		301								Roland	He, and the data he holds, will pose no threat to you, milady.	1																					
+31	31		301								Luna	No. Act according to plan.	2																					
+32	32		301								Luna	I decide what to do with him. Not you.	2																					
+33	33		301								Roland	...	1																					
+34	34		204							2	13																							
+35	35		301								Luna	Roland, do you find my decision disagreeable?	2																					
+36	36		301								Roland	...No. I would never.	1																					
+37	85		301				AniZhuanchangBegin					...																						
+38	37		202							1	2				1																			
+39	38		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+40	54		101							Assets/Product/Texture/Image/BgStory/Bgstory192.png																								
+41	55		201							1	500008																							
+42	56		301			AniZhuanchangEnd				1	Roland	Hm-hmm... Miss Luna, the deeper you hide your true purpose, the greater my curiosity grows.	1																					
+43	86		502						1500	AniZhuanchangBegin																								
+44	84		202							1																								
+45	57		101							Assets/Product/Texture/Image/BgStory/Bgstory188.png																								
+46	58		201							1	500004																							
+47	59		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+48	60		301			AniZhuanchangEnd				1	Asimov	Scan complete.	1																					
+49	61		301								Asimov	Looks like this panel is linked to the passages in various parts of the park.	1																					
+50	62		301								Asimov	As for the other one... It's probably the park's power management switch. Still looking into it.	1																					
+51	63		301								Asimov	You might want to get a move on. Pressing the wrong button shouldn't be that much trouble. I'll contact you when I make progress.	1																					
+52	64		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+53	65		201							1	500026																							
+54	66		301							1	Lee	Then the only thing that's left, is...	1																					
+55	67		201							1	500175																							
+56	68		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+57	69		301				AniZhuanchangBegin			1	Camu	【kuroname】, I'll just press all the buttons and pull all the levers. The floor's yours after that.	1																					
+58	70		202							1					1																			
+59	71		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+60	72		101							Assets/Product/Texture/Image/BgStory/Bgstory191.png																								
+61	73		201							1	500168																							
+62	74		301			AniZhuanchangEnd				1	Vera	A theme park, huh... Just not a Vera place.	1																					
+63	75		301								Vera	But, good enough as long as there's a battlefield for me to dance. Nothing else matters.	1																					
+64	76		301								Vera	21.	1																					
+65	77		301								No. 21	Ready. Awaiting orders.																						
+66	78		301								Vera	Noctis.	1																					
+67	79		301								Noctis	Yeah, yeah, ready since time immemorial. Y'know them ravens and hawks seem to be in the same mission area. You sure that's okay?																						
+68	80		301								Vera	Who cares about them? We have our own mission.	1																					
+69	81		301								Noctis	Yeah, but you and that Commandant... Wazzat-face? 【kuroname】? Ain't ya drummed up about 'em?																						
+70	82		301								Vera	Say one more word. I'll cut your head off, bring it back to Babylonia, and sew it on a service robot.	1																					
+71	83		301		1		AniZhuanchangBegin				Noctis	Fiiiiine fine... Guess we just do our job as usual.																						

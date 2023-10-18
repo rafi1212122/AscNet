@@ -1,0 +1,284 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory27.jpg																								
+2	2		401							1	210																							
+3	3		201							1	500166																							
+4	4		301							1	Lucia	Commandant, we'll have to stay overnight here for our mission. Is that alright?	1																					
+5	5		302								Sure.	6	I could really use a soft, warm bed...	7																				
+6	6	12	301								Lucia	Then I'll go prepare our camp with Lee and Liv.	1																					
+7	7		301								Lucia	It's been a few days of long travels, hasn't it? I can't provide a mattress, but maybe you can rest more comfortably if you rest your head on my legs...	1																					
+8	8		201							1	500026	10																						
+9	9		301							1	Lee	Commandant was just joking. No need to be too serious about it.	1																					
+10	10		201							1	500166																							
+11	11		301							1	Lucia	It was a joke?	1																					
+12	12		203							1	0.25	-400																						
+13	13		201							2	1031001		400																					
+14	14		301							1	Liv	But it really has gotten colder. Isn't today Christmas Eve?	2																					
+15	15		301									As you talk, Liv looks up at the night sky from your empty, quiet campsite, slightly saddened.																						
+16	16		301								Liv	I thought that this Christmas would be the one where everyone can get together, but...	2																					
+17	17		301								Lucia	The situation has gotten more critical after all, and everyone has been sent on their respective mission. We wouldn't have time to celebrate even if we wanted to.	1																					
+18	18		302								I'm sorry about it as well.	19	I'm sure we'll get together next time.	20																				
+19	19	21	301								Liv	Our mission continues regardless... I was just lamenting, Commandant. Let's carry on tomorrow.	2																					
+20	20		301								Lucia	Commandant is right. If we put in more effort, we'll be able to meet again in the future.	1																					
+21	21		201							2	500026		400																					
+22	22		301								Lee	Perhaps we don't have to wait to see what the future holds.	2																					
+23	23		301								Lucia	Lee?	1																					
+24	24		301									As he speaks, Lee reveals a crafty smile and a projector in his hand.																						
+25	25		302								What's that?	26																						
+26	26		301								Lee	This is the Christmas gift I've prepared for Commandant, Lucia, Liv, and myself.	2																					
+27	27		301								Lucia	A Christmas gift... When did you prepare it?	1																					
+28	28		301								Lee	About a week ago. None of you said anything, but I've got a feeling that you've all been looking forward to Christmas. Especially you, Commandant.	2																					
+29	29		302								No, I'm not!	30	I've been looking forward to it!	31																				
+30	30	32	301								Lee	Sure, if you say so.	2																					
+31	31		301								Lee	Then, at least I know this is worth the effort I spent.	2																					
+32	32		301								Lucia	What is the present?	1																					
+33	33		301								Lee	It's "everyone."	2																					
+34	34		201							2	1031001	6	400																					
+35	35		301								Liv	...Everyone?	2																					
+36	36		202							1	2				1																			
+37	37		301									Neither Lucia nor Liv understands what Lee is saying, and he does not bother explaining either. He just goes ahead and connects his Entropy frame with the satellites.																						
+38	38		301									And then, he directs the information feed from the satellites to the projector.																						
+39	39		401							1	216																							
+40	40		201							1	1081001	1	-400																					
+41	41		201							2	500155		400																					
+42	42		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+43	43		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+44	44		301							1	Kamui	Connecting to the satellite!	1																					
+45	45		301								Chrome	Wait—did you hear a word I just said?	2																					
+46	46		301									Kamui and Chrome suddenly appear in the projection. You can see Kamui sticking his face right in front of the monitor, with Chrome trying to drag him away.																						
+47	47		301								Chrome	Why are you covering the whole screen?	2																					
+48	48		301								Kamui	I'm just making sure this thing's running. Hey, Gray Raven, can you hear me?	1																					
+49	49		301								Chrome	I told you this isn't a live video call—wait... It's recording already! Kamui, say something!	2																					
+50	50		301								Kamui	You're the captain, Chrome. I really should let you speak first.	1																					
+51	51		301								Chrome	So now you're treating me like a captain?	2																					
+52	52		301									Although he looks a little tired, Chrome still promptly strengthens his posture and adjusts his tone before turning to face the camera.																						
+53	852		204							2	1																							
+54	53		301								Chrome	I'm Chrome, the leader of Strike Hawk.	2																					
+55	54		301								Chrome	I don't know what mission you are currently performing, nor do I know if it's going well. But if you manage to find the time on Christmas Eve to view this message...	2																					
+56	55		301								Chrome	I suppose that means everything is going according to plan on your end. So is our task here, obviously.	2																					
+57	56		301								Chrome	A lot has happened, but I'm glad that we're still alive, still fighting tenaciously for our dream.	2																					
+58	57		301								Kamui	Capt, are you going to be this polite the whole time?	1																					
+59	853		204							2																								
+60	58		301								Chrome	Being respectful is a basic manner, Kamui... How else would you do it?	2																					
+61	59		301								Kamui	Seriously? Watch me—	1																					
+62	60		204							1	2																							
+63	61		301								Kamui	Hey there, Gray Raven! Merry Christmas! We can't see each other this time, but I've prepared a great Christmas gift for y'all!	1																					
+64	62		301								Kamui	We should get everyone together when you're back in Babylonia, and we'll do a gift exchange then! Just so you know, I want the newest video game console!	1																					
+65	63		301								Chrome	...Sigh, what else was I expecting? Alright, this device isn't going to run any longer.	2																					
+66	854		204							2	1																							
+67	64		301								Chrome	I'll also prepare a present for you, Gray Raven. Let's finish our missions first, and I'll see you in Babylonia.	2																					
+68	65		202							1	2				1																			
+69	66		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+70	67		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+71	68		201							1	1031001	7																						
+72	69		301							1	Liv	This message is...	1																					
+73	70		301									Liv is looking quite surprised after watching the video message from Strike Hawk.																						
+74	71		302							500	Is this pre-recorded?	74	It's... everyone.	77																				
+75	72		201							1	500026																							
+76	73		303							500																								
+77	74		301							1	Lee	Of course. I did say my present is "everyone."	1																					
+78	75		301								Lee	I sent out a mail before this operation, asking everyone who received it to record a word or two.	1																					
+79	76	79	301								Lee	Well, let's keep playing.	1																					
+80	77		301							1	Lee	Of course the commandant would understand what my gift is.	1																					
+81	79		202							1					1																			
+82	80		301								Watanabe	So, this is Watanabe...																						
+83	81		301									While everyone is still shocked by the revelation, the next message from Watanabe begins to play.																						
+84	82		201							1	1101001																							
+85	83		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+86	84		301							1	Watanabe	Not sure what I should say, given that this request came out of nowhere. Merry Christmas, I suppose.	1																					
+87	85		301								Watanabe	As you can probably tell, I'm in one of the Forsaken hideouts currently. Because of its geographical location, it's still scorching hot here in December.	1																					
+88	86		301								Watanabe	So nothing too festive is happening with us. Although I did just receive this bunch of flowers from some kids, who said it's an early Christmas gift.	1																					
+89	87		301								Watanabe	Look, here it is... Oh, sorry, I just went off on a tangent there.	1																					
+90	88		203							1	0.25	-400																						
+91	89		201							2	500005		400																					
+92	90		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+93	91		301							1	Forsaken Member	Sir, did you start the call without me? I haven't put on your makeup yet!	2																					
+94	92		301								Watanabe	Dammit, why are you back already? And what's that dress you're holding—I'm not wearing that!	1																					
+95	93		301								Forsaken Member	This is the most formal costume we can prepare!	2																					
+96	94		301								Watanabe	You have very questionable taste!	1																					
+97	95		202							2					1																			
+98	96		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+99	97		203							1	0.25	0																						
+100	855		204							1	1																							
+101	98		301								Watanabe	Cough... As you can hear, I need to get my men off my back asap. And my face, apparently.	1																					
+102	99		301								Watanabe	So pardon me for ending this call with another "Merry Christmas"!	1																					
+103	856		204							1																								
+104	100		301								Watanabe	Merry Christmas—Wait, what are the kids doing here? Don't you dare—	1																					
+105	101		202							1					1																			
+106	102		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+107	103		201							1	500166	1	-400																					
+108	104		201							2	1031001		400																					
+109	105		301							1	Liv	...	2																					
+110	106		301								Lucia	...I wonder what the dress looks like?	1																					
+111	107		202							1	2				1																			
+112	108		201							1	500026																							
+113	109		301							1	Lee	It seems that even the Forsaken get to relax and enjoy themselves around the holiday.	1																					
+114	110		201							1	500127		-600																					
+115	111		201							2	500124	1	600																					
+116	112		201							3	500145																							
+117	113		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+118	114		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+119	115		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																						
+120	116		301							1	Changyu	We should be next.	2																					
+121	117		301								Pulao	Next? To what?	3																					
+122	118		301								Sophia	Seeing how much time we've wasted, we probably aren't the first group to upload our message.	1																					
+123	119		301								Pulao	Now that you've mentioned it, what took you so long? And didn't you say you'd be performing?	3																					
+124	120		301								Sophia	Not enough time to perform.	1																					
+125	121		301								Changyu	That's right, so we scraped the performance after we were done preparing.	2																					
+126	122		301								Pulao	...How dumb are you two?	3																					
+127	123		301								Changyu	Dumb, clever—two sides of the same coin, just like this one...	2																					
+128	124		301								Pulao	Aren't both sides of your coin identical?	3																					
+129	125		204							2	5																							
+130	126		301								Changyu	...How dare a puny Construct like you—	2																					
+131	127		204							3	5																							
+132	128		301								Pulao	What do you mean by "puny"? I'm not puny!	3																					
+133	129		204							1	10																							
+134	130		301								Sophia	I think we're running out of time.	1																					
+135	131		204							2	20																							
+136	132		204							3																								
+137	133		301								Changyu	Ah! Sigh—	2																					
+138	134		301								Pulao	Hold on, hold on, I forgot we've been connecting the whole time! Time's almost over!	3																					
+139	135		204							2	5																							
+140	136		301								Changyu	Dang it. What should we do?	2																					
+141	137		301								Sophia	Let's just skip to the end. On one, three—two—one—	1																					
+142	138		204							1																								
+143	139		204							2	1																							
+144	140		204							3	1																							
+145	141		301								Sophia & Pulao & Changyu	Merry Christmas!	1	2	3																			
+146	142		202							1	2	3			1																			
+147	143		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+148	144		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+149	145		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																					
+150	146		201							1	500026	10																						
+151	147		301							1	Lee	I wasn't expecting the videos I received to be this chaotic. I guess they would've forgotten what the call was for if not for Sophia.	1																					
+152	148		201							1	1031001	1																						
+153	149		301							1	Liv	But they do look happy.	1																					
+154	150		201							1	500166	1																						
+155	151		301							1	Lucia	That's right. And I'm still thinking about the performance Changyu mentioned.	1																					
+156	152		302								Let's see it next time.	153																						
+157	153		201							1	500026																							
+158	154		301							1	Lee	Like what Commandant said. We can see it next time we're there.	1																					
+159	155		202							1					1																			
+160	156		301									And then Lee switches to the next message.																						
+161	157		201							1	1091001		-400																					
+162	158		201							2	1111001	1	400																					
+163	159		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+164	160		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+165	161		301							1	Bianca	Merry Christmas, Gray Raven.	1																					
+166	162		301								Karenina	Gray Raven Co—cough, Merry Christmas.	2																					
+167	163		301								Bianca	I don't know when our message will play compared to the others, but I imagine you've heard quite a few greetings and regards already.	1																					
+168	164		301								Bianca	That's why I've prepared for you... a Christmas gift from Karenina.	1																					
+169	165		204							2																								
+170	166		301								Karenina	What?! Where did you find this, Bianca?	2																					
+171	168		301								Bianca	In your room. You really should keep your door closed and locked.	1																					
+172	169		301								Karenina	It doesn't mean you can just take my stuff!	2																					
+173	170		301									Bianca is holding a framed puzzle of the photo you all took together last Christmas.																						
+174	171		204							2	5																							
+175	172		301								Karenina	Give it back, Bianca!	2																					
+176	173		301									Despite Karenina's protests, Bianca just stands there, calm and unconcerned, and takes out an envelope from behind the frame.																						
+177	175		301								Bianca	Alongside the puzzle is a letter written by Karenina herself. It might not be a good time to give it to you later, which is why I'm going to read it to you right now.	1																					
+178	176		301								Karenina	Bianca, you can't be serious... Argh...	2																					
+179	177		301								Karenina	...You leave me no choice!	2																					
+180	179		301								Bianca	Karenina, why are you pointing your gun at the camera?	1																					
+181	180		301								Karenina	Get blown to smithereens!	2																					
+182	181		202							1	2				1																			
+183	182		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+184	183		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+185	184		401							2	10007501																							
+186	185		301									—	Explosion.																					
+187	186		201							1	500026																							
+188	187		301							1	Lee	Did she just... blow up the camera?	1																					
+189	188		201							1	500166		-400																					
+190	189		201							2	1031001		400																					
+191	190		301							1	Liv	I hope it didn't cause too much damage.	2																					
+192	191		301								Lucia	It's probably fine with Bianca there... probably.	1																					
+193	192		202							1	2				1																			
+194	193		201							1	500026																							
+195	194		301							1	Lee	And now, our last message.	1																					
+196	195		302								The last one already?	196	I miss them already.	197																				
+197	196	198	301								Lee	That's all the messages I've received at this point. I imagine the people who couldn't reply must be occupied somewhere.	1																					
+198	197		301								Lee	You can go visit them later if you miss them, Commandant.	1																					
+199	198		301								Lee	Regardless, this is the final one...	1																					
+200	199		201							1	500110	1																						
+201	200		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+202	201		301							1	Ayla	I've specifically requested Lee to let us be the grand finale!	1																					
+203	202		201							1	500011																							
+204	203		301							1	Hassen	Are we grand enough for the finale, though?	1																					
+205	204		201							1	500110																							
+206	205		301							1	Ayla	Are you kidding? We've got the President, the head of the Tech Department, and the cutest, loveliest assistant Celica here, haven't we?	1																					
+207	206		201							1	500001																							
+208	207		301							1	Celica	You're going to make me blush with that compliment. By the way, who should start first?	1																					
+209	208		201							1	500004																							
+210	209		301							1	Asimov	I should...	1																					
+211	210		301									Asimov answers Celica's question voluntarily and walks to the front of the screen.																						
+212	211		301								Asimov	Gray Raven Commandant and its members, you have been providing me with many excellent data. I hope you'll continue to work hard in the future.	1																					
+213	212		202							1					1																			
+214	213		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+215	214		301									And then he leaves.																						
+216	215		201							1	500110																							
+217	216		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+218	217		301							1	Ayla	Hey, wait! That's it?!	1																					
+219	218		201							1	500001																							
+220	219		301							1	Celica	He's not coming back...	1																					
+221	220		203							1	0.25	-400																						
+222	221		201							2	500011		400																					
+223	222		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+224	223		301							1	Hassen	That's Asimov for you. Now, as the President, I should go next.	2																					
+225	224		301								Celica	No, I should go next! If you go first, you're going to say everything we want to say!	1																					
+226	225		301								Hassen	I-is that so...?	2																					
+227	226		301								Celica	Hmph. I'm making the call this time.	1																					
+228	227		203							1	0.25	-600																						
+229	228		203							2	0.25	0																						
+230	229		201							3	500110		600																					
+231	4543		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																						
+232	230		301							1	Ayla	Although you aren't here, we have all prepared a Christmas tree for your squad!	3																					
+233	231		301								Ayla	And everyone has helped decorate it!	3																					
+234	232		301								Celica	That explains all the weird ornaments. It's Gray Raven's Christmas tree, of course.	1																					
+235	233		301								Ayla	There's nothing weird about them!	3																					
+236	234		301								Hassen	Stop chatting among yourselves. Didn't you say we should face the camera?	2																					
+237	235		301								Celica	You're right... I had the staff move the Christmas tree to your office. Remember to check it out when you're back!	1																					
+238	236		301								Ayla	In that case, let's put a nice bow on this message, Celica!	3																					
+239	237		301								Ayla & Celica	Gray Raven, Merry Christmas!	1	3																				
+240	238		202							1	3				1																			
+241	239		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+242	240		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																					
+243	241		301							1	Hassen	...What about me?	2																					
+244	242		202							2					1																			
+245	243		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+246	244		201							1	500026																							
+247	245		301							1	Lee	That's all.	1																					
+248	246		302								In the end, President Hassen...																							
+249	247		301								Lee	A little tragic, I agree. But I guess the President isn't someone who would mind.	1																					
+250	248		201							1	500166	1																						
+251	249		301							1	Lucia	What to say... I wasn't expecting you to prepare such a special gift, Lee.	1																					
+252	250		201							1	500026																							
+253	251		301							1	Lee	As a member of this squad, I just wanted to do something for everyone here.	1																					
+254	252		301								Lee	And just like how Liv has always wanted to celebrate Christmas, it's also something I've always wanted to do.	1																					
+255	253		201							1	1031001	1																						
+256	254		301							1	Liv	Is this a dream of yours?	1																					
+257	255		201							1	500026																							
+258	256		301							1	Lee	Not really a dream. Just a nice thought.	1																					
+259	257		301								Lee	I've forgotten the name of the book, but when I was studying, I read a line that goes like this:	1																					
+260	258		301								Lee	"Do not fear, for all spirits converge in the sky, and we... We are all connected."	1																					
+261	259		301								Lee	I was just trying to continue that idea.	1																					
+262	260		301								Lee	I sent out the mail, so everyone who had to stay apart could record a message—	1																					
+263	261		301								Lee	All their thoughts and wishes would be channeled through the satellites, crossing time and space, and we would meet here today.	1																					
+264	262		301								Lee	I think... it's a romantic idea.	1																					
+265	263		302								I think so too.	264	Thank you, Lee.	265																				
+266	264	268	301								Lee	It seems that Commandant would also enjoy that book. I'll find it for you when we're back.	1																					
+267	265		204							1	6																							
+268	266		301								Lee	...Say that behind my back next time. I'm still not used to it.	1																					
+269	267		202							1					1																			
+270	268		301									After Lee's confession, everyone looks up at the night sky and finds countless stars blinking. You are all looking for the satellites that carry the "spirits."																						
+271	269		301									And you all point them out, the sparks you believe you have connected.																						
+272	270		301									You know there is no way to be certain, but you still reach out and look toward that shining light.																						
+273	271		201							1	500026																							
+274	272		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySnowNew.prefab	2																							
+275	273		301							1	Lee	It's snowing.	1																					
+276	274		202							1					1																			
+277	275		301									Snow falls from the sky unexpectedly, covering the whole place. But none of you look away.																						
+278	276		301									And the Gray Ravens say to you:																						
+279	277		201							1	1031001	1	-600																					
+280	278		201							2	500166	1																						
+281	279		201							3	500026		600																					
+282	280		301							1	The Gray Ravens	Merry Christmas, Commandant.	1	2	3																			
+283	281		302		1		AniZhuanchangBegin				Merry Christmas.																							

@@ -1,0 +1,62 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory119.png																								
+2	1000		401							1	201																							
+3	2		201							1	500101																							
+4	3		301			DialogEnable				1	Gabriel	I'm out, Miss Luna.	1																					
+5	4		202							1					1																			
+6	5		301			RImgBg1Shake						Boom—																						
+7	1001		401							2	10007502																							
+8	6		301			RImgBg1Shake						Boom—																						
+9	1002		401							2	10007502																							
+10	7		301									As Gabriel reports to Luna, he continues to bombard the cabin walls of the space station with a hand cannon.																						
+11	8		201							1	500101																							
+12	9		301			DialogEnable				1	Gabriel	Target signal clear. I'm moving in a straight line.	1																					
+13	10		201							1	500105																							
+14	11		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+15	12		301							1	Luna	Very well.	1																					
+16	13		301								Luna	Those people are also in the space station, but they are not our mission target. Avoid contact if possible.	1																					
+17	14		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+18	15		201							1	500101																							
+19	16		301							1	Gabriel	Understood. I'll try to make it quick.	1																					
+20	17		201							1	500105																							
+21	18		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+22	19		301							1	Luna	Once the mission is complete, send me the signal immediately.	1																					
+23	20		301								Luna	...I'll pick you up in person.	1																					
+24	21		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+25	22		201							1	500101																							
+26	23		301							1	Gabriel	Understood.	1																					
+27	24		202							1					1																			
+28	25		301			RImgBg1Shake						Boom—																						
+29	26		201							1	500101																							
+30	27		301							1	Gabriel	Hm?	1																					
+31	28		202							1					1																			
+32	29		301									The entire space station starts trembling vigorously. The connecting joints between compartments slowly disintegrate, layer by layer.																						
+33	30		201							1	500101																							
+34	31		301				AniZhuanchangBegin			1	Gabriel	Is this place disintegrating...?	1																					
+35	32		202							1					1																			
+36	33		101							Assets/Product/Texture/Image/BgStory/Bgstory118.png																								
+37	46546		301			AniZhuanchangEnd					Broadcast	Dear children, we are now demonstrating how the immune system of the human body works—																						
+38	34		301								Broadcast	Cells infected by bacteria or viruses will be... destroyed and discarded...																						
+39	35		201							1	1031001																							
+40	36		301							1	Liv	The broadcast... Does it mean the space station is self-destructing?	1																					
+41	37		302								It's the self-defense mechanism.	38	I think so.	38																				
+42	38		202							1					1																			
+43	39		301									After a lot of trembling, you look out from the window. Many compartments have already been tossed into space...																						
+44	40		301									Some compartments do not have the time to release pressure, and are pushed away instead by their content, including air and Babylonia troops...																						
+45	41		201							1	500080																							
+46	42		301							1	Watanabe	Like it said, the immune system of the space station was triggered.	1																					
+47	43		201							1	1021001																							
+48	44		301							1	Lucia	Immune? You mean the immune system of the Corrupted... against humans?	1																					
+49	45		201							1	500080																							
+50	46		301							1	Watanabe	If I'm not wrong...	1																					
+51	47		301								Watanabe	You destroyed the space station's observation room and weapon control system, which was akin to disabling its attack and defense functions.	1																					
+52	48		301								Watanabe	Now that your troops start to land, they have triggered the immune system "within" the space station.	1																					
+53	49		201							1	1011001																							
+54	50		301							1	Lee	To it, a temporary disintegration doesn't necessarily mean destruction...	1																					
+55	51		301								Lee	Because as long as the gravity core still exists, it can attract and restructure nearby matters like it did in the past...	1																					
+56	52		301								Lee	But the integration surely is devastating to us.	1																					
+57	53		201							1	500080																							
+58	54		301							1	Watanabe	...If we don't do anything, we will probably end up expunged.	1																					
+59	55		302								I'm ready.	56	We're not just gonna sit here and wait.	56																				
+60	56		201							1	1021001																							
+61	57		301		1		AniZhuanchangBegin			1	Lucia	Understood, Commandant.	1																					

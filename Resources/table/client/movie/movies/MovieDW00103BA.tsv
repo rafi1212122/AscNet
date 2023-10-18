@@ -1,0 +1,65 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory71.jpg																								
+2	2		401							1	102																							
+3	3		201							1	1101001	5	-400																					
+4	4		201							2	500124		400																					
+5	5		301			DialogEnable				1	Watanabe	Hey, Akdelik kid, come here.	1																					
+6	6		301								Changyu	What's going on?	2																					
+7	7		301									One of the containers on your truck is open, and there's clearly something missing.																						
+8	8		301								Changyu	What is this? Damage like this wasn't caused by collision.	2																					
+9	9		302								Corrupted	10	It's the attack from earlier	11																				
+10	10	12	301								Changyu	The Corrupted... why are they doing this?	2																					
+11	11		301								Changyu	The Corrupted attacked us for our food? That's weird!	2																					
+12	12		301								Watanabe	Doesn't matter why. What matters is the cargo is lost.	1																					
+13	13		302								What did we lose?	14																						
+14	14		301									Changyu checks the damaged container thoroughly.																						
+15	15		301								Changyu	Oh no, the lotus leaves are all gone...	2																					
+16	16		202							1	2				1																			
+17	17		201							1	500166	6																						
+18	18		301							1	Lucia	Lotus leaves? What is that?	1																					
+19	19		201							1	500026																							
+20	20		301							1	Lee	To my knowledge, it is the external wrapping for a Zong. The leaves are inedible. If the aim is to open consume the Zong, then the leaves are of no consequence.	1																					
+21	21		201							1	1101001	5																						
+22	22		301							1	Watanabe	Hmph, what is a Zong without its lotus leaf wrapping?	1																					
+23	23		201							1	500124																							
+24	24		301							1	Changyu	Right! Then it'll just be steamed rice!	1																					
+25	25		201							1	500026																							
+26	26		301							1	Lee	We Constructs have no need for food, and have no way of obtaining energy necessary to us from food. Must we insist on this item?	1																					
+27	27		201							1	1101001																							
+28	28		301							1	Watanabe	It is because of this, that the act of eating is most vital.	1																					
+29	100		201							1	1031001	7																						
+30	101		301							1	Liv	It is true that Constructs do not need to eat, so much so that even our sense of taste is extrapolated through data simulation. But that doesn't mean that we can forget what food tastes like!	1																					
+31	102		201							1	500124	1																						
+32	103		301							1	Changyu	We can't forget what it was like to taste food... when we were human...	1																					
+33	29		201							1	1031001	6																						
+34	125		301							1	Liv	It also aids in stabilizing the M.I.N.D.!	1																					
+35	199		204							1	14																							
+36	30		301								Liv	But I calculate that it will take a whole day, maybe more, for you to retrace your steps and attempt to recover the missing cargo...	1																					
+37	31		201							1	1101001																							
+38	32		301							1	Watanabe	We'll just have to replace it with other leaves.	1																					
+39	33		201							1	500124																							
+40	34		301							1	Changyu	Would that even work?	1																					
+41	35		201							1	1101001																							
+42	36		301							1	Watanabe	There was never a rule about what leaves we had to use for Zongs. I recall that a suitable plant grows not far from here—though the Corrupted congregate there.	1																					
+43	37		201							1	1031001	1																						
+44	38		301							1	Liv	Let us help, Watanabe-San!	1																					
+45	39		201							1	1101001																							
+46	40		301							1	Watanabe	No, this concerns the Forsaken alone. We don't need Babylonia's interference.	1																					
+47	41		201							1	500124																							
+48	42		301							1	Changyu	No, this is bigger than the Forsaken... I must assist in recovering the cargo, to restore the ACA's reputation.	1																					
+49	43		301								Changyu	And I wish to enlist the members of Gray Raven to assist me.	1																					
+50	44		201							1	500026																							
+51	45		301							1	Lee	Gray Raven cannot be engaged in any capacity by civilian or individual elements...	1																					
+52	46		201							1	1031001	1																						
+53	47		301							1	Liv	But helping people against the Corrupted is our duty. Let's lend a hand, Commandant!	1																					
+54	48		302								(Agree to assist)	49	(Inquire Lee and Lucia)	53																				
+55	49		201							1	500026																							
+56	50		301							1	Lee	Though if it is Commandant's decision, we will render assistance.	1																					
+57	51		201							1	500166	1																						
+58	52	57	301							1	Lucia	Yes, Commandant, please let us help them.	1																					
+59	53		201							1	500166	1																						
+60	54		301							1	Lucia	I agree with Liv... I think... that this act... is meaningful.	1																					
+61	55		201							1	500026																							
+62	56		301							1	Lee	You will take on this illegal contract whether I agree or not, so I have no choice but to follow along.	1																					
+63	57		201							1	1101001																							
+64	58		301		1		AniZhuanchangBegin			1	Watanabe	Sigh... as you wish, as long as you don't slow me down.	1																					

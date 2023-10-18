@@ -1,0 +1,87 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory68.jpg																								
+2	2		401							1	210																							
+3	3		201							1	1031001		600																					
+4	1001		201							2	500166																							
+5	1002		201							3	500026		-600																					
+6	4		301			DialogEnable				1	Liv	This area is bigger than I thought, now that we've got a map from Foreman...	1																					
+7	5		301								Lucia	It's also divided into clearly-defined zones. I wonder how many mechanoids have gathered here.	2																					
+8	6		301								Lee	My initial estimation is over a thousand of them. After all, maintaining a hologram of this scale must involve an enormous amount of recon drones.	3																					
+9	7		302								Who organizes this?	8	Can't believe there's so many mechanoid here.	10																				
+10	8	9	301								Lee	It could be Foreman, it could be others, but from my experience, a convention of this nature is usually run collectively by the fans.	3																					
+11	9	1003	301								Liv	Foreman did say they all enjoy Ghost Expert here.	1																					
+12	1353		301								Lee	Even with the results from our database, it's still difficult to determine what this Ghost Expert is...																						
+13	10	1003	301								Lee	Anyway, we should definitely look into a group this size. We might just get our hands on some useful intel.	3																					
+14	1003		202							1	2	3																						
+15	1004		201							1	500142		400																					
+16	1005		201							2	500142		-400																					
+17	11		301							1	Mechanoid A	Ugh, why is the first trial so damn difficult already? What the hell?	1																					
+18	12		301								Mechanoid B	We can always give it another go later. Let's try the other trials first to liven things up.	2																					
+19	13		301								Mechanoid A	I'm gonna give that East General a taste of my fist after the event's over. Just you wait!	1																					
+20	1006		201							1	1031001	7	400																					
+21	1007		201							2	500166		-400																					
+22	14		301							1	Liv	Those mechanoids...	2																					
+23	15		301								Lucia	Looks like they're contestants who did the trial before us. Should we ask them how it went, Commandant?	2																					
+24	1008		302								That's not necessary.	16	Let's ask them.	17																				
+25	16	1013	301								Lucia	Copy. Then let's keep going.	2																					
+26	17	18	301								Lucia	Understood.	2																					
+27	18	1009	301									Lucia walks up to the two mechanoids as you instructed and greets them.																						
+28	1009	1010	202							1	2																							
+29	1010	1011	201							1	500166		-600																					
+30	1011	1012	201							2	500142		600																					
+31	1012	19	201							3	500142																							
+32	19	20	301							1	Mechanoid A	Babylonia... Nah, never heard of it. What can I do for you?	2																					
+33	20	21	301								Lucia	We're also participants in this competition. We're just wondering if you can tell us a little bit about the content of the trial?	1																					
+34	21	22	301								Mechanoid A	Won't hurt to tell you what it is, I suppose. Basically, it's a game of riddles.	2																					
+35	22	23	301								Lucia	Are they riddles that challenge our knowledge base?	1																					
+36	23	24	301								Mechanoid A	It's a challenge on how well you know your companions. Speaking of which—how the hell did you not notice that guy's a fake?	2																					
+37	24	25	301								Mechanoid B	Hey, stop hitting me!	3																					
+38	25	26	301									Halfway through your conversation, one of the mechanoids starts smacking the other one, and you feel like this is as much information as you can get from them.																						
+39	26	1013	301				AniZhuanchangBegin				Lucia	How well we know our companions, is it...?	1																					
+40	1013		202							1	2	3																						
+41	1014		101							Assets/Product/Texture/Image/BgStory/BgStory68.jpg																								
+42	1015		201							1	500170																							
+43	27		301			AniZhuanchangEnd				1		——																						
+44	28		301								East General	So you're the Babylonian contestants Foreman mentioned, aren't you? I'm East General, the guardian of the Eastern trial!	1																					
+45	1016		203							1	0.25	400																						
+46	1017		201							2	500166		-400																					
+47	29		301							1	Lucia	Did Foreman mention us specifically?	2																					
+48	30		301								East General	This ghost-hunting event is for fun, after all. We wouldn't want bad eggs among us, would we?	1																					
+49	31		301									Despite how silly this event is, this East General in front of you seems to be quite a knowledgeable individual.																						
+50	1018		202							2																								
+51	1019		203							1	0.25	0																						
+52	32		301								East General	Regardless, I should provide you with a little more information before you begin.	1																					
+53	33		301								East General	Apart from the Northern trial, all the other trials only permit one participant each time, and those who have taken part in a previous trial cannot join another one.	1																					
+54	34		301								East General	Considering that you're a group of Constructs with a commandant, I'll allow your commandant to assist you through your comms.	1																					
+55	1020		302								Thanks.	35	Wouldn't that be unfair?	36																				
+56	35	1023	301								East General	Sure.	1																					
+57	36	1021	301								East General	Given that you Constructs only work well with a commandant and that you're all new to this... Consider this a newcomer gift.	1																					
+58	1021	1022	203							1	0.25	400																						
+59	1022	37	201							2	500026	10	-400																					
+60	37	1023	301							1	Lee	Newcomers... So you've hosted this event here multiple times...	2																					
+61	1023		202							1	2																							
+62	1024		201							1	500170																							
+63	38		301							1	East General	Now, onto the instruction of the trial itself. As contestants, you must know that ghosts are inclined to disguise themselves as others to trick innocent people.	1																					
+64	39		301								East General	But you certainly won't be fooled by such trickery as outstanding Taoists yourselves! Therefore, I, East General, shall test your perception!	1																					
+65	40		301								East General	So, send in the one who knows your group best!	1																					
+66	5000		203							1	0.25	400																						
+67	5001		201							2	500166		-400																					
+68	41		301							1	Lucia	The one who knows us best... Commandant, who should we send?	2																					
+69	1025		302								How about me?	42	Any one of you will do, right?	5002																				
+70	42	1026	301								East General	Better keep the human out of this, I reckon. Unexpected dangers lurk within!	1																					
+71	5002	4000	202							1	2																							
+72	4000	43	201							1	500166	1																						
+73	43	1026	301							1	Lucia	Right. Any one of us would easily pass this trial.	1																					
+74	1026		202							1																								
+75	1027		201							1	1031001	1																						
+76	44		301							1	Liv	In that case... can I do it?	1																					
+77	45		301									As you wrestle with deciding who to send in, Liv raises her hand, her cheeks slightly blushing.																						
+78	46		301								Liv	It's always been Lucia or Lee who leads the charge in the past, therefore... if I could...	1																					
+79	47		301								Liv	And I've always been watching over everyone on the battlefield! That's why I won't fail when it comes to knowing my companions!	1																					
+80	1028		203							1	0.25	400																						
+81	1029		201							2	500166	1	-400																					
+82	48		301							1	Lucia	I don't see why not, Commandant. Let's send Liv in.	2																					
+83	1030		302								(Nod)	1031	Let's do it!	1031																				
+84	1031		202							1	2																							
+85	1032		201							1	500170																							
+86	49		301		1		AniZhuanchangBegin			1	East General	Very well... Let the trial begin! Scene change!	1																					

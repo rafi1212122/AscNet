@@ -1,0 +1,178 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory431.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						Although Hans has given everyone ten minutes to ready up and get to know one another, the oppressiveness around the camp has made it hard for any of you to begin introducing yourselves.																						
+4	4		301									Each of you knows what enemies you will face inside the Forest Park Ruins. A single mistake now in preparing your equipment can mean losing your life to the Hetero-Sapiens later.																						
+5	5		301									Lucia takes Lee and Liv to the edge of the forest to scout. You sit on a rock in the distance, checking the weapon in your hand.																						
+6	6		301									At that moment, you feel a sense of pressure coming for the side of your neck.																						
+7	7		302								(Dodge)	8																						
+8	8		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+9	9		401							2	10002001																							
+10	10		301									You dodge back slightly, and a combat knife slides along your neck, just missing it.																						
+11	11		302								(Retaliate)	12																						
+12	12		301									Before you can see the face of your assailant, your body instinctively reacts.																						
+13	13		301									One of your hands strikes at the wrist that holds the combat knife, disarming him; your feet sweep across his legs as he stands there shocked, and he falls to the ground.																						
+14	14		301								???	Eh?!																						
+15	15		301									He tries to stand up, but before he can, you grab both of his hands and press him down.																						
+16	16		301								???	Ah! I give up, I give up! That combat knife is not sharpened! The Chief's reaction speed is indeed as fast as Simon said.																						
+17	17		302								Simon?	18																						
+18	18		301									A man's voice rises from underneath you. That is when you notice that he is also wearing the uniform of a Babylonia commandant.																						
+19	19		301								???	Spit—spit—																						
+20	20		301									He turns around, trying to spit out the mud and grass he accidentally swallowed when he fell to the ground.																						
+21	21		301									That is how you finally see his face clearly. He is none other than Harley Jo, the Woodcock Commandant you saw in the video footage.																						
+22	22		201							1	500372																							
+23	23		301							1	Harley Jo	This is the first time we meet, yeah?	1																					
+24	24		301								??	I told you what would happen, and you still did it. Are you just a fool?																						
+25	25		301								Harley Jo	It's rare to get an opportunity to train with the Chief one-on-one.	1																					
+26	26		301									You hear a female voice nearby, the mechanical arms behind her back lifting along with her two arms. Those arms might be mechanical, but instead of looking rugged, they gracefully perform the give-up gesture like real arms.																						
+27	27		202							1					1																			
+28	28		201							1	500374	20																						
+29	29		301							1	??	I give up. Can you let the fool go?	1																					
+30	30		302								(Refuse)	31	(Let go)	34																				
+31	31		301									You have no idea that she was there before she raised her voice. If she wanted, the man underneath you would have been free a while ago.																						
+32	32		301									Speaking up before intercepting is a token of respect. Not letting him go in this situation would be unwise.																						
+33	33		302								(Let go)																							
+34	34		301									As you move away from the man, the woman extends a mechanical arm to grab his uniform and lifts him up.																						
+35	35		301								Yata	I'm Yata from Scarab, my commandant being Valeria. But I've been assigned as a temporary squad member working with commandant Harley Jo.	1																					
+36	36		301								Yata	Harley Jo is the name of this fool.	1																					
+37	37		301									Yata points at him as she speaks, and Harley Jo grins brightly.																						
+38	38		201							1	500372																							
+39	39		301							1	Harley Jo	C'mon, can't you say my name right?	1																					
+40	40		201							1	500374	20																						
+41	41		301							1	Yata	I can't. "Fool" fits you more, weirdo.	1																					
+42	42		201							1	500372																							
+43	43		301								Harley Jo	Fine. Nicknames are a sign of trust. I'll consider that you accepting me as your temporary commandant, Yata.	1																					
+44	44		201							1	500374	20																						
+45	45		301							1	Yata	??	1																					
+46	46		302								So, why are you here?	47																						
+47	47		201							1	500372																							
+48	48		301								Harley Jo	I can barely breathe with how oppressive the camp feels. If the commander is giving us time, I'm going to use it.	1																					
+49	49		301								Harley Jo	Let me introduce myself properly. I'm Harley Jo, a commandant from your year like Simon.	1																					
+50	50		302								I'm 【kuroname】.	51																						
+51	51		301								Harley Jo	Yeah, yeah, I know. Simon doesn't stop talking about you.	1																					
+52	52		202							1					1																			
+53	53		301									Harley Jo wipes off the dirt on him and walks toward you. Yata walks to the side, observing the surroundings, alerted.																						
+54	54		201							1	500372																							
+55	55		301							1	Harley Jo	I suppose you must have seen the footage we Woodcock sent back. Most of my team was hurt during that encounter, and are all getting treated at the nearest conservation area.	1																					
+56	56		302								Aren't you worried about them?	57	Why are you back by yourself?	59																				
+57	57		301								Harley Jo	Of course I am, but none of them were seriously wounded.	1																					
+58	58		302								Why are you back by yourself?	59																						
+59	59		204							1	4																							
+60	60		301								Harley Jo	Instead of simply worrying by my companions' sides, I'd rather teach the Hetero-Sapiens who hurt them a lesson.	1																					
+61	61		204							1																								
+62	62		301								Harley Jo	Which was why I applied to return here, being only slightly hurt. That's how I'm back in a temporary team with Yata.	1																					
+63	63		302								Aren't you scared?	64	Aren't you nervous?	64																				
+64	64		301								Harley Jo	Regarding the Hetero-Sapiens?	1																					
+65	65		204							1	4																							
+66	66		301								Harley Jo	The truth is I'm scared shitless. You can feel it yourself.	1																					
+67	67		301									He grabs your hand and lays it on top of his wrist.																						
+68	68		301									His intense pulse confirms his story, and the whispery tone he takes when he talks about the Hetero-Sapiens suggests the same thing.																						
+69	69		301								Harley Jo	As a soldier, I thought I'd seen my share of powerful enemies, and I'd long forgotten what fear feels like.	1																					
+70	70		301								Harley Jo	The Hetero-Sapiens don't look scary, and they aren't particularly powerful. The fear they cause stems from how little we know about the Punishing Virus...	1																					
+71	71		301								Harley Jo	I feel like the Punishing Virus is adapting to Earth's environment more and more.	1																					
+72	72		301								Harley Jo	It's evolved into the humanoid Hetero-Sapiens in such a short period of time.	1																					
+73	73		301								Harley Jo	What is it after next? To replace humans and rule Earth as an entirely new lifeform?	1																					
+74	74		302								...	75																						
+75	75		301								Harley Jo	It's scary to think about, isn't it?	1																					
+76	76		301								Harley Jo	Of course I have to be back to prevent that from happening.	1																					
+77	77		301								Harley Jo	This is Earth. If anything should get kicked out, it is the Punishing Virus.	1																					
+78	78		301								Harley Jo	Not to mention that conquering our fear, defeating the enemy, and acquiring victory are what we soldier folks do.	1																					
+79	79		301								Harley Jo	If we don't stand on the frontline, who will? Civilians?	1																					
+80	80		301								Harley Jo	I don't want what happened to me to happen to more people.	1																					
+81	81		302								What?	82																						
+82	82		204							1																								
+83	83		301								Harley Jo	Oh, haha, nothing! Nothing. Forget that.	1																					
+84	84		301								Harley Jo	By the way, we don't want to be too nervous.	1																					
+85	85		301								Harley Jo	A tense bowstring will make the bow snap quicker. I guess that was why the commander was asking us to introduce ourselves.	1																					
+86	86		301								Harley Jo	Therefore, I deem the vibe in the camp extremely unhealthy. I shall remedy that.	1																					
+87	87		301								Harley Jo	Oh? Yata, why are you standing farther and farther away?	1																					
+88	88		401							1	210																							
+89	89		201							1	500374	20																						
+90	90		301							1	Yata	Both of you are not vigilant enough. You should put some distance between you the first time you meet, not chatting the way you did.	1																					
+91	91		302								Speaking of which...	92	Where is Simon?	92																				
+92	92		202							1					1																			
+93	93		201							1	500201	10																						
+94	94		301							1	???	Mmm... (Throws up) Are you... looking for me...?	1																					
+95	95		301									You hear Simon's voice at the mention of him, and you see him leaning on the Construct next to him, wiping the corner of his mouth clean with his hand weakly.																						
+96	96		201							2	500372		-400																					
+97	97		301							1		Harley Jo immediately walks up and holds him steady with the Construct when he sees Simon.																						
+98	98		301								Harley Jo	Uh, Simon, are you okay?	2																					
+99	99		301								Simon	Mmm... I'm still not used to the transport craft...	1																					
+100	100		301								Harley Jo	You looked fine when we gathered earlier.	2																					
+101	101		301								Simon	Because Hans looked scary...	1																					
+102	102		301								Harley Jo	Whoa, repressing your physical discomfort with sheer fear, huh?	2																					
+103	103		202							1	2				1																			
+104	104		201							1	500166																							
+105	105		301							1	Lucia	Erm, Commandant, they are...?	1																					
+106	106		301									As you talk, Lucia and others return from the edge of the forest, confused at the sight of the multiple unfamiliar squads.																						
+107	107		201							1	500372		-400																					
+108	108		201							2	500201	10																						
+109	109		301							1	Harley Jo	I'm Harley Jo, and this is my good buddy Yata.	1																					
+110	110		202							1	2				1																			
+111	111		201							1	500374	20																						
+112	112		301							1	Yata	Tsk. Don't say that. We're not that close.	1																					
+113	113		301								Yata	Just a temporary squad member and her temporary commandant.	1																					
+114	114		202							1					1																			
+115	115		201							1	500372		-400																					
+116	116		201							2	500201	10																						
+117	117		301							1	Harley Jo	This is Simon, and this is his teammate...	1																					
+118	118		301									Harley Jo completely ignores Yata's correction and continues to introduce everyone.																						
+119	119		301								Hans	Ten minutes are over. Gather up! We're heading into the Forest Park.																						
+120	120		301			RImgBg1Shake				1	Simon	EhhhhaaaAAAAHHHH?!	2																					
+121	121		301									Hans' voice shows up near Simon out of nowhere. He jumps up dramatically away from Harley Jo and the Construct holding him.																						
+122	122		202							1	2				1																			
+123	123		401							1	55																							
+124	124		201							1	500286																							
+125	125		301							1	Hans	Silence.	1																					
+126	126		301								Hans	Before we know more about the Hetero-Sapiens, we can't rule out that loud noises would attract them.	1																					
+127	127		202							1					1																			
+128	128		401							2	1504																							
+129	129		301									Hans gives Simon a deadly stare before waving his hand, and his teammates immediately spread out, preparing for attacks from the Hetero-Sapiens.																						
+130	130		301									Egret, led by Vanessa, also walks up from the side and stands next to you.																						
+131	131		201							1	500286																							
+132	132		301							1	Hans	Found anything during preparation?	1																					
+133	133		201							1	500372																							
+134	134		301							1	Harley Jo	I picked up some plants and, eh, gave them a taste.	1																					
+135	135		301								Harley Jo	Analyzing them now.	1																					
+136	136		201							1	500286																							
+137	137		301							1	Hans	What about the Hetero-Sapiens?	1																					
+138	138		201							1	500372	4																						
+139	139		301							1	Harley Jo	Erm... nothing about them.	1																					
+140	140		301								Harley Jo	But there is some information about this park we didn't record.	1																					
+141	141		301								Harley Jo	Woodcock tried to clear out the plants in our way to quickly approach CPF 040, but the red-glowing trees spilled out some strange liquid and raised the Punishing Virus concentration in the nearby area by 2%.	1																					
+142	142		301								Harley Jo	Undamaged plants didn't do anything similar. It might be related to the Hetero-Plants adhering to their surfaces.	1																					
+143	143		301								Harley Jo	Oh, and I named the plants with characteristics of the Hetero-Creatures "Hetero-Plants".	1																					
+144	144		301								Harley Jo	Clearing the plants without damaging the red matter is quite difficult.	1																					
+145	145		301								Harley Jo	So my educated guess is that mass destruction of Hetero-Plants will result in irreversible damage to the Pulia Forest Park Ruins and the surrounding areas.	1																					
+146	146		301								Harley Jo	To avoid an unnecessary rise in infection rate, I feel like it's best I report this before we enter the park.	1																					
+147	147		202							1					1																			
+148	148		201							1	500293																							
+149	149		301							1	Vanessa	Tsk, how annoying. I was expecting something more useful.	1																					
+150	150		202							1					1																			
+151	151		301									Vanessa groans, no longer looking at Harley Jo.																						
+152	152		201							1	500372																							
+153	153		301							1	Harley Jo	Eh? What is this hostility?	1																					
+154	154		201							1	500286																							
+155	155		301							1	Hans	What's Egret's progress?	1																					
+156	156		201							1	500293																							
+157	157		301							1	Vanessa	We tried the sky. Didn't work.	1																					
+158	158		301								Vanessa	Short-distance flights across the trees were immediately met with surface-to-air attacks.	1																					
+159	159		201							1	500201																							
+160	160		301							1	Simon	Isn't this a forest? What surface-to-air weapons are there?	1																					
+161	161		302								That wouldn't be a human defense system.	162																						
+162	162		302								Those had to be attacks from the Hetero-Creatures.	163																						
+163	163		201							1	500293																							
+164	164		301							1	Vanessa	That's what it was. They turned themselves into cannons, hovering mid-air, and when they encountered us, they launched themselves at extremely high speed in a suicide attack.	1																					
+165	165		201							1	500201																							
+166	166		301							1	Simon	Have the Hetero-Creatures developed this kind of tactics already?	1																					
+167	167		201							1	500286																							
+168	168		301							1	Hans	Not a good sign.	1																					
+169	169		201							1	500293																							
+170	170		301							1	Vanessa	Not at all, and they were smart.	1																					
+171	171		301								Vanessa	They only attacked targets in the air that approached the giant tree. The closer we were, the more frequent their attacks were.	1																					
+172	172		201							1	500201																							
+173	173		301								Simon	That might be why our transport craft wasn't attacked, having landed at the outskirt.	1																					
+174	174		201							1	500286																							
+175	175		301							1	Hans	I see.	1																					
+176	176		301								Hans	In that case, the less encumbered Harley Jo and Yata will take the flank. Everyone else takes a line formation and watches each other's back. Gray Raven, stay in the middle and reserve your strength. Alert others of incoming attacks from the air.	1																					
+177	177		301		1		AniZhuanchangBegin				Hans	Fire freely when you encounter Hetero-Sapiens. Continue advancing. Don't break formation.	1																					

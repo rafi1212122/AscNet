@@ -1,0 +1,68 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory240.png																								
+2	2		401							1	202																							
+3	3		301			DialogEnable						————																						
+4	4		201							1	500220	9																						
+5	5		301							1	Qu	All enemies clear on line III to VIII. Calling all survivors in all districts. You copy?	1																					
+6	6		301								Qu	...Is it too late already?	1																					
+7	7		301								Qu	I knew it'd end like this from the beginning. But to see it with my own eyes...	1																					
+8	8		301				AniZhuanchangBegin				Qu	In this case, we shall do what we can.	1																					
+9	9		202							1																								
+10	10		401							1	22																							
+11	11		304			AniZhuanchangEnd				Cut. Slash. Rend.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+12	12		304							I keep hacking away in the darkness.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+13	13		304							I have long forgotten how many enemies I killed, but I know that as long as there is even one Corrupted in front of me, I cannot stop.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+14	14		304							How long has the battle been going on for? Ten days? Half a month? It does not matter.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+15	15		304							Time means nothing. All I need is to keep hacking away to ensure the activation of Tabula Akasha.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+16	16		304							This is the only way that humanity can live forever—the only way that I, who has always been just a spectator, can become human.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+17	17		304							Yes. I may have a human body and human memory, but I have never felt like I was truly human.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+18	18		304							How quaint, Yin and Villier were probably right. After all, I was not born as a human being. I was born a monster.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+19	19		304							But over the many years, I have found my calling. I found my value as a human being.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+20	20		304							...	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+21	21		304							My companions continue to die around me. My vocal cords no longer resemble that of a human from all of my screaming.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+22	22		304							No. I cannot fall now. I have to stay here to my very last breath.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png																					
+23	23		304				AniZhuanchangBegin			This is my purpose being born as the head of Kowloong.	ffffffff	1	Assets/Product/Texture/Image/BgStory/BgStory0.png					1																
+24	24		101							Assets/Product/Texture/Image/BgStory/Bgstory246.png																								
+25	601		201							1	500244																							
+26	701		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+27	25		301			AniZhuanchangEnd				1	Heng Ji	Lady Qu, the minds of all the people in the city have been backed up.	1																					
+28	702		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+29	26		201							1	500220	9																						
+30	27		301							1	Qu	Aah... Good.	1																					
+31	28		202							1																								
+32	29		301									Heng Ji's voice travels over the communication channel. Qu knows that her mission is complete, and humanity has survived.																						
+33	30		301									Relief causes Qu to crumble and kneel down on the battlefield. Her blade has long since become dull from killing so many Corrupted. Countless human corpses and Corrupted debris pile around her.																						
+34	31		201							1	500067																							
+35	32		401							2	1508																							
+36	33		301							1	Corrupted	—!	1																					
+37	34		301									The Corrupted roar and charge at Qu, but she merely closes her eyes.																						
+38	35		201							1	500220	9																						
+39	36		301							1	Qu	?	1																					
+40	37		401							2	1506																							
+41	38		301									Death does not come, she instead hears the sound of machinery being crushed.																						
+42	39		401							1	103																							
+43	40		201							1	500170																							
+44	41		301							1	Phecda	It's not over yet.	1																					
+45	42		201							1	500169																							
+46	43		301							1	Prime	We'll handle the rest of it.	1																					
+47	44		201							1	500220	9																						
+48	45		301							1	Qu	You...?! How...	1																					
+49	602		201							1	500244																							
+50	46		301							1	Heng Ji	Sorry, I couldn't stop them.	1																					
+51	47		301									Qu turns to see Heng Ji coming from the city gate. Phecda and Prime units follow quickly behind him, running past Qu to engage with the Corrupted.																						
+52	48		301								Heng Ji	Once they found out about the tech, they insisted that I modify them.	1																					
+53	603		201							1	500220	9																						
+54	49		301							1	Qu	But...	1																					
+55	50		201							1	500170																							
+56	51		301							1	Phecda	We know the price we paid. Our frames may be the same, but we have different hearts. And what binds our different hearts, is a common bond.	1																					
+57	52		201							1	500169																							
+58	53		301							1	Prime	You and the others in Kowloong are willing to sacrifice your lives to protect Kowloong. Our willingness to risk modification pales in comparison.	1																					
+59	54		201							1	500220	9	-400																					
+60	604		201							2	500244		400																					
+61	55		301							1	Qu	...	1																					
+62	56		301								Heng Ji	The war between mankind and the Punishing Virus may not end during our lifetimes, but Kowloong should not fight this war with mankind alone.	2																					
+63	57		301								Heng Ji	With the support of Constructs, a new Kowloong Crew is born.	2																					
+64	58		301								Qu	I see...	1																					
+65	59		301								Heng Ji	Yes. And as the creator of the Tabula Akasha initiative, your path mustn't end here.	2																					
+66	60		301								Qu	You're right... The completion of the data backup is only the beginning of the Tabula Akasha.	1																					
+67	61		301		1		AniZhuanchangBegin				Qu	Our history will not end like this.	1																					

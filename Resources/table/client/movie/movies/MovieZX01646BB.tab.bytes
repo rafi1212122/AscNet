@@ -1,36 +1,0 @@
-y<€Â&¬×UËÉ–Žæöõb¹N!º-a@q°…¢tèÑy¿#¯ý
-bWà)#}rùØŽlmXË{‰¤Pöa\Š!»ßh¯Ö\§,$Åòë¼^IHÇ8.ùdÚ°må“M:óùWÞæÜGžj—‹?>)n8Ru{çwÏ¼“Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
-1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory279.png																								
-2	2		401							1	201																							
-3	3		301			DialogEnable						As you look for a way in, Murray happens to come through in your comms.																						
-4	4		201							1	500146																							
-5	5		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
-6	6		301							1	Murray	Signal's finally back. What's your status?	1																					
-7	7		203							1	0.25	400																						
-8	8		201							2	500026		-400																					
-9	9		301							1	Lee	...?	2																					
-10	500		201							2	1031001	14	-400																					
-11	10		301							1	Liv	We've discovered a colossal creature here. We're unsure how to get near it yet.	2																					
-12	11		301								Murray	No worries. There should be a transport pod from the old factories where you guys are. You can give that a shot.	1																					
-13	501		302								A transport pod?	502																						
-14	502		201							2	500026		-400																					
-15	503		301							1	Lee	Murray, you seem to be very familiar with the layout of this place.	2																					
-16	12		204							1	1																							
-17	13		301								Murray	I just found a map of this underground city, so I've marked a concealed entry for you guys.	1																					
-18	14		301								Murray	Hold on. Something came up that I've got to handle. Talk soon.	1																					
-19	15		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
-20	16		202							1	2				1																			
-21	17		301									Murray smiles as he disconnects. Lee frowns, being lost in thought.																						
-22	18		201							1	500026																							
-23	19		301				AniZhuanchangBegin			1	Lee	Liv, analyze the background noises in our call with Murray.	1																					
-24	21		201							1	500026		-400																					
-25	22		201							2	1031001	7	400																					
-26	23		301			AniZhuanchangEnd				1	Liv	Analysis complete. There were two faint sounds in the background during the call.	2																					
-27	24		301								Liv	One came from the cries of Hetero-Creatures, the other the sound of the wind.	2																					
-28	25		301								Lee	I see. That Murray was indeed an imposter.	1																					
-29	26		302								I knew something was wrong.	27																						
-30	27		301								Lee	The transport pod is quite possibly just another trap.	1																					
-31	28		301								Liv	If it was not Murray, who is it?	2																					
-32	29		301								Liv	I remember Commandant mentioning an Ascendant who can turn invisible and shapeshift...	2																					
-33	30		302								Lamia.	31																						
-34	31		301		1		AniZhuanchangBegin				Lee	"Murry" will call again soon. This time we have to track her down.	1																					

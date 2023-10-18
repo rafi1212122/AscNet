@@ -1,0 +1,29 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory587.jpg																								
+2	2		401							1	203																							
+3	3		201							1	500499																							
+4	4		301			DialogEnable				1	Yarha	What now? I sent the message, but there's no reply... Shall we wait for Babylonia's decision?	1																					
+5	5		203							1	0.25	-400																						
+6	6		201							2	500495		400	-80																				
+7	7		301							1	Teddy	No way they can make it so fast... We must go now if we are to destroy the zero-point engine.	2																					
+8	8		203							2	0.25	400																						
+9	9		301									Teddy gets up on her feet and folds the portable terminal, but Karenina stops her.																						
+10	10		201							1	500494	13	-400																					
+11	11		301							1	Karenina	I want you and the Engineering Force members put on protective suits and take the wounded personnel to stay as far as possible from the gravitational waves. Find a safe place, wait for the comms to restore, then send Babylonia a message and wait for rescue.	1																					
+12	12		204							1	1																							
+13	13		301									Karenina puts the Blast Hammer on her back and gives a confident smile.																						
+14	14		301								Karenina	Tch, I can destroy that zero-point engine all by myself. You are only going to be my burden.	1																					
+15	15		204					400		2	5																							
+16	16		301									Teddy looks at Karenina and sighs after a short silence.																						
+17	17		301								Teddy	You're right, and there is no need for us to die with you. If I stand next to you in the queue to the underworld, I'll probably end up fighting with you before I even reach the destination.	2																					
+18	18		301								Karenina	Tsk... Just get lost then.	1																					
+19	19		301								Teddy	Let's go, Yarha... Take your crew with us.	2																					
+20	20		202							2					1																			
+21	21		201							1	500499	7																						
+22	22		301							1	Yarha	Huh...?	1																					
+23	23		203					700	70	1	0.14	100																						
+24	24		202							1																								
+25	25		301									Teddy has left without even looking back. Yarha hesitates for a few seconds but ends up leaving with her.																						
+26	26		201							1	500494	4																						
+27	27		301							1	Karenina	Alright... There's another place I must go before blowing the zero-point engine up!	1																					
+28	28		301		1		AniZhuanchangBegin					Karenina grasps her weapon, nods to herself, and heads out again.																						

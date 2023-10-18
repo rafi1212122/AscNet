@@ -1,0 +1,17 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+2	2		401							1	208																							
+3	3		201							1	500328																							
+4	4		301			DialogEnable				1	No. 21	Sniff. It doesn't smell suspicious. Should be safe.	1																					
+5	5		302								It's safe!																							
+6	6		301								No. 21	Noctis gave me a box last time. It exploded when I opened it and covered my face with grease.	1																					
+7	7		301								No. 21	He also gave me a box the time before that. My hands were stuck to the box with glue when I opened it.	1																					
+8	8		301								No. 21	And the time before that time...	1																					
+9	9		302								It's the person that's suspicious, not the box!	10																						
+10	10		301								No. 21	So you're suspicious, Commandant?	1																					
+11	11		203							1	0.25			-80																				
+12	12		301									No. 21 puts down the gift and walks toward you. You instinctively take a step back, but not before she grabs you by the collar and starts sniffing you.																						
+13	13		301								No. 21	Sniff. You don't smell suspicious. The commandant should be safe.	1																					
+14	14		302								Can we open it now?	15																						
+15	15		204							1	3																							
+16	16		301		1		AniZhuanchangBegin				No. 21	No. I'm keeping this box. I'll come back to sniff you the next time I find it suspicious, Commandant.	1																					

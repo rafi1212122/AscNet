@@ -1,0 +1,32 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory32.jpg																								
+2	2		401							1	208																							
+3	3		201							1	500091																							
+4	4		301			DialogEnable				1	Scavenger A	Pant... pant... Finally, there you are!																						
+5	5		204							1	1																							
+6	6		301							1	Nanami	Hm? Did you need Nanami for something?	1																					
+7	7		301								Scavenger A	The leader says there are results from the investigation! Some scavengers found traces of Constructs, come with us!																						
+8	8		301								Nanami	Ah, okay! I'll just go tell Amy about this first!	1																					
+9	9		301								Scavenger B	Um, didn't you want to finish the mission quickly?																						
+10	10		301								Scavenger B	Amy... Amy still needs to scavenge with us, you both have missions to complete!																						
+11	11		301								Scavenger B	Just... wait until it's over, then you can talk it out, alright?																						
+12	12		301								Nanami	Mhm, you have a point! Nanami will wait until it's over then!	1																					
+13	13		201							1	500093																							
+14	14		301							1	Garrison	Jazroc tunnel, southern foundation pit. A scavenger saw a Construct there a few days ago.	1																					
+15	15		301				AniZhuanchangBegin				Garrison	The pit is connected to the surface, and so the viral density is higher than underground by a large margin. I can only have someone bring you near the entrance.	1																					
+16	16		202							1					1																			
+17	17		101							Assets/Product/Texture/Image/BgStory/BgStory68.jpg																								
+18	18		301			AniZhuanchangEnd						——!																						
+19	19		201							1	500091																							
+20	20		301							1	Scavenger B	It's here! Ah, wait... I need to wear a helmet first!																						
+21	21		301								Nanami	Even though the detection signal's not working, Nanami still smells something fishy here!	1																					
+22	22		301								Nanami	Mhm... and it's a bit of a party... You better hurry back! And be careful!	1																					
+23	23		301								Scavenger A	You... have you... found out...?																						
+24	24		204							1	1																							
+25	25		301								Nanami	Just leave it to Nanami!	1																					
+26	26		301								Nanami	Nanami! Blasting off!	1																					
+27	27		202							1					1																			
+28	28		301								Scavenger A	...																						
+29	29		301								Scavenger B	...Block off the entrance now?																						
+30	30		301								Scavenger A	...																						
+31	31		301		1		AniZhuanchangBegin				Scavenger A	Do it.																						

@@ -1,0 +1,525 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		501			AniZhuanchangEnd				Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab	2																							
+2	2		101							Assets/Product/Texture/Image/BgStory/Bgstory464.jpg																								
+3	3		401							1	12																							
+4	4		301			DialogEnable						Countless spikes rise from the crimson sea and pierce through the limping egret that has been following Liv. The white bird screeches, blood flowing from its chest.																						
+5	5		301									It sings the most euphonious and mournful dying song, like a nightingale that crimsons the rose with its heart's blood.																						
+6	6		301									As the egret struggles, its blood-soaked plumes begin to fall.																						
+7	7		401							2	759																							
+8	8		301									Moments later, the egret loses all its plumes. From the tip of the thorn, a swift raven is reborn.																						
+9	9		301									The raven hovers in the air, chirping loudly. It flaps its wings to create a vortex in the Red Tide, its feathers flying in the sky.																						
+10	10		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+11	11		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+12	12		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab																							
+13	13		101							Assets/Product/Texture/Image/BgStory/Bgstory459.jpg																								
+14	14		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+15	15		401							1	36																							
+16	16		301									The raven feathers pull Liv down from the beautiful garden into another data torrent. She finds herself standing in the night.																						
+17	17		502							RImgBg1BlowUp																								
+18	18		301									The raven continues to fly forward, pausing every now and then as if it is guiding Liv along. It stops at a bench at the end of the corridor.																						
+19	19		401							2	1516																							
+20	20		301									She cannot help but follow the raven, until she sees someone sitting on the bench.																						
+21	21		201							1	500400																							
+22	22		301							1	Liv	...	1																					
+23	23		301								Liv	Hello. What are you doing here?	1																					
+24	24		401							1	33																							
+25	25		301								Narrator	Hello. I'm looking for someone very important to me... Maybe she has lost her way.																						
+26	26		301								Liv	I see... If you are worried, why don't you try to look for her?	1																					
+27	27		301								Narrator	It doesn't work. That's why I'm worried. She has to find her own direction.																						
+28	28		301								Liv	Are you worried that she may not come back?	1																					
+29	29		301								Narrator	I'm worried that she cannot make a choice that reflects what she really wants. I'm afraid that she may end up going in the wrong direction which contradicts her will.																						
+30	30		301								Narrator	We are very regretful right now, because there are lots of things we haven't told her yet.																						
+31	31		204							1	14																							
+32	32		301									Liv is touched by the emotion hidden under the human's peaceful look. She cannot help but start asking.																						
+33	33		301								Liv	What kind of person are you looking for? I'd like to help if I could.	1																					
+34	34		301									The human only gazes at her, neither accepting nor rejecting the offer.																						
+35	35		202							1					1																			
+36	36		301									Soon, the human stands up. The hovering raven lands on their shoulder.																						
+37	37		301								Narrator	If you wish to know...																						
+38	38		301				AniZhuanchangBegin					The human walks forward, guiding Liv along. The views around them have also changed.																						
+39	39		504							1																								
+40	40		401							2	1516																							
+41	41		502							RImgBg1BlowUp																								
+42	42		401							2	1516																							
+43	43		101			AniZhuanchangEnd	AniZhuanchangBegin		500	Assets/Product/Texture/Image/BgStory/Bgstory38.jpg																								
+44	44		401							2	1516																							
+45	45		101			AniZhuanchangEnd	AniZhuanchangBegin		500	Assets/Product/Texture/Image/BgStory/BgStory26.jpg																								
+46	46		401							2	1516																							
+47	47		101			AniZhuanchangEnd	AniZhuanchangBegin		500	Assets/Product/Texture/Image/BgStory/BgStory32.jpg																								
+48	48		502							RImgBg1BlowUp																								
+49	49		401							2	1516																							
+50	50		101			AniZhuanchangEnd	AniZhuanchangBegin		500	Assets/Product/Texture/Image/BgStory/BgStory24.jpg																								
+51	51		401							2	1516																							
+52	52		101			AniZhuanchangEnd	AniZhuanchangBegin		500	Assets/Product/Texture/Image/BgStory/BgStory19.jpg																								
+53	53		401							2	1516																							
+54	54		101			AniZhuanchangEnd	AniZhuanchangBegin		500	Assets/Product/Texture/Image/BgStory/Bgstory12.jpg																								
+55	55		401							2	1516																							
+56	56		101			AniZhuanchangEnd			500	Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+57	57		301									It's a clean and tidy meeting room. Pale sunlight shines through the windows. There is no warmth within.																						
+58	58		301									A young girl and a young man stand in the center of the room. They look lost.																						
+59	59		201							1	1021001	3	-450																					
+60	60		201							2	1011001		450																					
+61	61		301							1	???	...	1																					
+62	62		301								??	...	2																					
+63	63		202							1	2				1																			
+64	64		301									Everything looks like old photos. Quiet and melancholic.																						
+65	65		504							0	3																							
+66	66		201							1	1021001	3	600																					
+67	67		201							2	1011001		250																					
+68	68		201							3	500400		-600																					
+69	69		301							1	Narrator	This is where we met. She made a shy self-introduction. We founded our squad.																						
+70	70		301								Narrator	I didn't find her here.																						
+71	71		301								Liv	So there were four members in your squad...? It's amazing how fate brought you together...	3																					
+72	72		301									Liv imagines the shy person that was originally here. It must be a pleasant experience meeting her important ones. Was she anxious, or looking forward to it?																						
+73	73		301				AniZhuanchangBegin					But now there are only two members left. A surge of sadness strikes Liv.																						
+74	74		202							1	2	3			1																			
+75	75		401							2	1516																							
+76	76		101							Assets/Product/Texture/Image/BgStory/BgStory19.jpg																								
+77	77		301			AniZhuanchangEnd						The human continues walking forward. Now they are standing in a ruin.																						
+78	78		301									The girl and young man she saw just now are standing with stern looks, confronting another short-haired disdainful female.																						
+79	79		504							1																								
+80	80		201							1	500029	5	-600																					
+81	81		201							2	1011001		-250																					
+82	82		201							3	500293		600																					
+83	83		301							1	???	...	1																					
+84	84		301								??	...	2																					
+85	85		301								???	...	3																					
+86	86		202							1	2	3			1																			
+87	87		301									There are strands of white hair on the ground. It seems someone was shielding the human behind... But nobody is there now.																						
+88	88		504							0	3																							
+89	89		201							1	500029	5	250																					
+90	90		201							2	1011001		600																					
+91	91		201							3	500400		-600																					
+92	92		301							1	Narrator	This is our first time taking part in a large-scale mission.																						
+93	93		301								Liv	Did you... have an argument with someone?	3																					
+94	94		301								Narrator	We met her former commandant.																						
+95	95		301								Liv	You mean that short-haired lady? No matter what, I don't think it's appropriate to engage in an argument with allies during a mission...	3																					
+96	96		301								Liv	Perhaps they had a complicated past?	3																					
+97	97		301								Narrator	She never talked about it.																						
+98	98		301								Liv	I think she likes to take things on her own shoulders...	3																					
+99	99		301								Liv	But you mentioned she was shy on your first meet. Now that she could stand out to face the person she didn't want to... Maybe she's quite brave too...	3																					
+100	100		301				AniZhuanchangBegin				Narrator	This is where we formed a true team. But I couldn't find her here either.																						
+101	101		202							1	2	3			1																			
+102	102		101							Assets/Product/Texture/Image/BgStory/Bgstory307.png																								
+103	103		504							0	1																							
+104	104		201							1	500400		-450																					
+105	105		201							2	1021001	3	450																					
+106	106		301			AniZhuanchangEnd				1		The black-haired girl squats on the ground of the deserted shopping mall, holding a frog doll. She looks up, slightly low-spirited.																						
+107	107		301									It looks like someone was handing over the frog doll to her. But there is only a dirty sheep doll left on the ground now.																						
+108	108		301								Narrator	She picked up her favorite toy here.																						
+109	109		301								Liv	Did she?	1																					
+110	110		301								Liv	That's a little childish... I wonder if she can live up to the duty of a soldier...?	1																					
+111	111		301				AniZhuanchangBegin				Narrator	She's not here either.																						
+112	112		202							1	2				1																			
+113	113		101							Assets/Product/Texture/Image/BgStory/Bgstory172.png																								
+114	114		504							1																								
+115	115		301			AniZhuanchangEnd						The next scene is a high-rise metropolis. The black-haired girl and young man are standing side by side with their hands reaching out.																						
+116	116		301									The human also reveals the hand. On the back of all the hands are marker scribbles. It takes some time for Liv to recognize the pattern is a smiley face, but with one part missing.																						
+117	117		502							RImgBg1BlowUp																								
+118	118		301				AniZhuanchangBegin					The human and raven take her through many places, with the former explaining to her what happened there. The doll, the smiley face on the hands, the Christmas tree with strange decorations, and many other things... All those scenes in the past are restored, but they are all missing a piece.																						
+119	119		401							2	1516																							
+120	120		101			AniZhuanchangEnd	AniZhuanchangBegin		500	Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+121	121		401							2	1516																							
+122	122		101			AniZhuanchangEnd	AniZhuanchangBegin		500	Assets/Product/Texture/Image/BgStory/Bgstory100.png																								
+123	123		401							2	1516																							
+124	124		101			AniZhuanchangEnd	AniZhuanchangBegin		500	Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+125	125		401							2	1516																							
+126	126		502							RImgBg1BlowUp																								
+127	127		101			AniZhuanchangEnd	AniZhuanchangBegin		500	Assets/Product/Texture/Image/BgStory/Bgstory121.png																								
+128	128		401							2	1516																							
+129	129		101			AniZhuanchangEnd	AniZhuanchangBegin		500	Assets/Product/Texture/Image/BgStory/Bgstory181.png																								
+130	130		401							2	1516																							
+131	131		101							Assets/Product/Texture/Image/BgStory/Bgstory264.png																								
+132	132		301			AniZhuanchangEnd						From what the human said, Liv is able to put together the image of a lost girl. She is frail and naive. She can be very brave, but often gets sentimental.																						
+133	133		504							0	1																							
+134	134		201							1	500400																							
+135	135		301							1	Liv	I think now I have a better understanding of this person you are looking for...	1																					
+136	136		301								Liv	She seems to always try to make everyone happy... But often ignores herself.	1																					
+137	137		301								Liv	From what you told me, I can feel she really cherishes this team and treats it with great care... She must fear losing any member of the team, but she would never reveal this emotion. Instead, she would take their hands and encourage them.	1																					
+138	138		301								Liv	If a teammate is hurt, she will be greatly saddened and blame herself...	1																					
+139	139		301								Liv	But what if she gets hurt herself? Will the other people be tired of her pushing herself too hard...?	1																					
+140	140		301								Liv	She finds her own happiness in other people's happiness... Is that a good thing or a bad thing for her?	1																					
+141	141		301									The human only shakes their head in silence.																						
+142	142		301								Narrator	Just like what you said.																						
+143	143		301								Narrator	She has a soft heart, but she has never shown any fear on the battlefield... As the Commandant myself, I was protected by her numerous times.																						
+144	144		301								Narrator	She cherishes everybody that fights by her side.																						
+145	145		301								Narrator	And every member of the team knows that. In every battle, we are responsible for the wellbeing of one another.																						
+146	146		301								Narrator	This time, next time, every time. We always give our best to survive the battle and reunite.																						
+147	147		301								Narrator	She is always concerned about the team's emotions, but never talks about her own sadness.																						
+148	148		301								Narrator	Despite knowing the situation better than anyone else, she never brings negative emotions to us, but inspires us with kind words instead.																						
+149	149		301								Narrator	She is our treasure.																						
+150	150		301								Narrator	That's why I hope she can grow well even when I'm away.																						
+151	151		301								Narrator	I'll be with her no matter what she becomes or what decision she makes. But if she is lost, I will do everything I can to find her. If she is hurt, no matter where she is, I will be there to protect her.																						
+152	152		301								Narrator	That's why I'm worried... If she is lost and we can't find her, I don't know if she can find the way that she wants to take.																						
+153	153		301								Liv	I see... I understand.	1																					
+154	154		301								Liv	She must be very important to you. I'll help you to find her.	1																					
+155	155		301								Narrator	Before that, can I ask you one more question?																						
+156	156		301								Liv	What is it?	1																					
+157	157		301								Narrator	If you ever find her... What do you want to tell her?																						
+158	158		301								Liv	Hmm... I want to...	1																					
+159	159		301								Liv	I hope she can have her wish come true.	1																					
+160	160		301									For the first time, the human smiles, but with great grief.																						
+161	161		301								Narrator	Making other's wishes come true... doesn't mean you have to give up your own.																						
+162	162		301								Liv	...?	1																					
+163	163		202							1					1																			
+164	164		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+165	165		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+166	166		504							1																								
+167	167		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+168	168		201							1	500166	5	-450																					
+169	169		201							2	500026		450																					
+170	170		301							1	???	—Back... to us...	1																					
+171	171		301								??	...Don't... put it all... on yourself...	2																					
+172	172		202							1	2				1																			
+173	173		301									Liv seems to have seen some disjointed but familiar scenes.																						
+174	174		504							0	1																							
+175	175		201							1	500400	14																						
+176	176		301							1	Liv	...	1																					
+177	177		301									Shocked by the dissonance, Liv's eyes widened. She is deeply confused.																						
+178	178		301								Liv	That person... Who is she?	1																					
+179	179		302								It's you, Liv.	180																						
+180	180		202							1					1																			
+181	181		401							1	36																							
+182	182		401							2	825																							
+183	183		501						150	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+184	184		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+185	185		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+186	186		101						150	Assets/Product/Texture/Image/BgCg/Cgqz1502.jpg																								
+187	187		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+188	188		101							Assets/Product/Texture/Image/BgStory/Bgstory264.png																								
+189	189		201							1	500400	14																						
+190	190		301							1	Liv	...	1																					
+191	191		202							1					1																			
+192	192		401							2	825																							
+193	193		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+194	194		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+195	195		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+196	196		101						300	Assets/Product/Texture/Image/BgCg/Cg1801_4.jpg																								
+197	197		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+198	198		101							Assets/Product/Texture/Image/BgStory/Bgstory264.png																								
+199	199		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryShuju.prefab	2																							
+200	200		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryShuju.prefab																							
+201	201		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+202	202		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+203	203		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab	2																							
+204	204		505							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab																								
+205	205		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+206	206		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+207	207		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+208	208		504							1																								
+209	209		401							2	952																							
+210	210		101						50	Assets/Product/Texture/Image/BgCg/Cg1701_1.jpg																								
+211	211		401							2	952																							
+212	212		101						50	Assets/Product/Texture/Image/BgCg/Cgqz204.png																								
+213	213		401							2	952																							
+214	214		101						50	Assets/Product/Texture/Image/BgCg/Cgqz206.png																								
+215	215		401							2	952																							
+216	216		101						50	Assets/Product/Texture/Image/BgCg/Cgsd001.jpg																								
+217	217		401							2	952																							
+218	218		101						50	Assets/Product/Texture/Image/BgCg/Cgqz1502.jpg																								
+219	219		401							2	952																							
+220	220		101						50	Assets/Product/Texture/Image/BgCg/Cg002_1.jpg																								
+221	221		401							2	952																							
+222	222		101						50	Assets/Product/Texture/Image/BgCg/Cgqz204.png																								
+223	223		401							2	952																							
+224	224		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_4.jpg																								
+225	225		401							2	952																							
+226	226		101						50	Assets/Product/Texture/Image/BgCg/Cg116_1.jpg																								
+227	227		401							2	952																							
+228	228		101						50	Assets/Product/Texture/Image/BgCg/Cg215_1.jpg																								
+229	229		401							2	952																							
+230	230		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+231	231		401							2	952																							
+232	232		101						50	Assets/Product/Texture/Image/BgCg/Cgsd001.jpg																								
+233	233		401							2	952																							
+234	234		101						50	Assets/Product/Texture/Image/BgCg/Cg901_2.jpg																								
+235	235		401							2	952																							
+236	236		101						50	Assets/Product/Texture/Image/BgCg/Cg901_3.jpg																								
+237	237		401							2	952																							
+238	238		101						50	Assets/Product/Texture/Image/BgCg/Cg901_2.jpg																								
+239	239		401							2	952																							
+240	240		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_2.jpg																								
+241	241		401							2	952																							
+242	242		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+243	243		401							2	952																							
+244	244		101						50	Assets/Product/Texture/Image/BgCg/Cg1601_3.jpg																								
+245	245		401							2	952																							
+246	246		101						50	Assets/Product/Texture/Image/BgCg/Cg002_4.jpg																								
+247	247		401							2	952																							
+248	248		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+249	249		401							2	952																							
+250	250		101						50	Assets/Product/Texture/Image/BgCg/Cgqz204.png																								
+251	251		504						50	0.9																								
+252	252		401							2	952																							
+253	253		101						50	Assets/Product/Texture/Image/BgCg/Cgqz2801.jpg																								
+254	254		401							2	952																							
+255	255		101						50	Assets/Product/Texture/Image/BgCg/Cgqz204.png																								
+256	256		401							2	952																							
+257	257		101						50	Assets/Product/Texture/Image/BgCg/Cgqz206.png																								
+258	258		401							2	952																							
+259	259		101						50	Assets/Product/Texture/Image/BgCg/Cgqz2801.jpg																								
+260	260		401							2	952																							
+261	261		101						50	Assets/Product/Texture/Image/BgCg/Cgqz1502.jpg																								
+262	262		401							2	952																							
+263	263		101						50	Assets/Product/Texture/Image/BgCg/Cg002_1.jpg																								
+264	264		401							2	952																							
+265	265		101						50	Assets/Product/Texture/Image/BgCg/Cg109_2.jpg																								
+266	266		401							2	952																							
+267	267		101						50	Assets/Product/Texture/Image/BgCg/Cg002_4.jpg																								
+268	268		401							2	952																							
+269	269		101						50	Assets/Product/Texture/Image/BgCg/Cg116_1.jpg																								
+270	270		401							2	952																							
+271	271		101						50	Assets/Product/Texture/Image/BgCg/Cg215_1.jpg																								
+272	272		401							2	952																							
+273	273		101						50	Assets/Product/Texture/Image/BgCg/Cg516_1.jpg																								
+274	274		401							2	952																							
+275	275		101						50	Assets/Product/Texture/Image/BgCg/Cgsd001.jpg																								
+276	276		401							2	952																							
+277	277		101						50	Assets/Product/Texture/Image/BgCg/Cg901_2.jpg																								
+278	278		401							2	952																							
+279	279		101						50	Assets/Product/Texture/Image/BgCg/Cg901_3.jpg																								
+280	280		401							2	952																							
+281	281		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_4.jpg																								
+282	282		401							2	952																							
+283	283		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_2.jpg																								
+284	284		401							2	952																							
+285	285		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+286	286		401							2	952																							
+287	287		101						50	Assets/Product/Texture/Image/BgCg/Cg516_1.jpg																								
+288	288		401							2	952																							
+289	289		101						50	Assets/Product/Texture/Image/BgCg/Cgqz204.png																								
+290	290		504						50	0.8																								
+291	291		401							2	952																							
+292	292		101						50	Assets/Product/Texture/Image/BgCg/Cgqz206.png																								
+293	293		401							2	952																							
+294	294		101						50	Assets/Product/Texture/Image/BgCg/Cg002_1.jpg																								
+295	295		401							2	952																							
+296	296		101						50	Assets/Product/Texture/Image/BgCg/Cgqz1502.jpg																								
+297	297		401							2	952																							
+298	298		101						50	Assets/Product/Texture/Image/BgCg/Cg002_1.jpg																								
+299	299		401							2	952																							
+300	300		101						50	Assets/Product/Texture/Image/BgCg/Cgqz204.png																								
+301	301		401							2	952																							
+302	302		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_4.jpg																								
+303	303		401							2	952																							
+304	304		101						50	Assets/Product/Texture/Image/BgCg/Cg116_1.jpg																								
+305	305		401							2	952																							
+306	306		101						50	Assets/Product/Texture/Image/BgCg/Cg215_1.jpg																								
+307	307		401							2	952																							
+308	308		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+309	309		401							2	952																							
+310	310		101						50	Assets/Product/Texture/Image/BgCg/Cgsd001.jpg																								
+311	311		401							2	952																							
+312	312		101						50	Assets/Product/Texture/Image/BgCg/Cg901_2.jpg																								
+313	313		401							2	952																							
+314	314		101						50	Assets/Product/Texture/Image/BgCg/Cg901_3.jpg																								
+315	315		401							2	952																							
+316	316		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_4.jpg																								
+317	317		401							2	952																							
+318	318		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_2.jpg																								
+319	319		401							2	952																							
+320	320		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+321	321		504						50	0.7																								
+322	322		401							2	952																							
+323	323		101						50	Assets/Product/Texture/Image/BgCg/Cgsd001.jpg																								
+324	324		401							2	952																							
+325	325		101						50	Assets/Product/Texture/Image/BgCg/Cg901_2.jpg																								
+326	326		401							2	952																							
+327	327		101						50	Assets/Product/Texture/Image/BgCg/Cg901_3.jpg																								
+328	328		401							2	952																							
+329	329		101						50	Assets/Product/Texture/Image/BgCg/Cg901_2.jpg																								
+330	330		401							2	952																							
+331	331		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_2.jpg																								
+332	332		401							2	952																							
+333	333		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+334	334		401							2	952																							
+335	335		101						50	Assets/Product/Texture/Image/BgCg/Cg1601_3.jpg																								
+336	336		401							2	952																							
+337	337		101						50	Assets/Product/Texture/Image/BgCg/Cg002_4.jpg																								
+338	338		401							2	952																							
+339	339		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+340	340		401							2	952																							
+341	341		101						50	Assets/Product/Texture/Image/BgCg/Cgqz204.png																								
+342	342		401							2	952																							
+343	343		101						50	Assets/Product/Texture/Image/BgCg/Cg901_3.jpg																								
+344	344		401							2	952																							
+345	345		101						50	Assets/Product/Texture/Image/BgCg/Cg901_2.jpg																								
+346	346		401							2	952																							
+347	347		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_2.jpg																								
+348	348		504						50	0.6																								
+349	349		401							2	952																							
+350	350		101						50	Assets/Product/Texture/Image/BgCg/Cgqz2801.jpg																								
+351	351		401							2	952																							
+352	352		101						50	Assets/Product/Texture/Image/BgCg/Cgqz204.png																								
+353	353		401							2	952																							
+354	354		101						50	Assets/Product/Texture/Image/BgCg/Cgqz206.png																								
+355	355		401							2	952																							
+356	356		101						50	Assets/Product/Texture/Image/BgCg/Cgqz2801.jpg																								
+357	357		401							2	952																							
+358	358		101						50	Assets/Product/Texture/Image/BgCg/Cgqz1502.jpg																								
+359	359		401							2	952																							
+360	360		101						50	Assets/Product/Texture/Image/BgCg/Cg002_1.jpg																								
+361	361		401							2	952																							
+362	362		101						50	Assets/Product/Texture/Image/BgCg/Cg109_2.jpg																								
+363	363		401							2	952																							
+364	364		101						50	Assets/Product/Texture/Image/BgCg/Cg002_4.jpg																								
+365	365		401							2	952																							
+366	366		101						50	Assets/Product/Texture/Image/BgCg/Cg116_1.jpg																								
+367	367		401							2	952																							
+368	368		101						50	Assets/Product/Texture/Image/BgCg/Cg215_1.jpg																								
+369	369		401							2	952																							
+370	370		101						50	Assets/Product/Texture/Image/BgCg/Cg516_1.jpg																								
+371	371		401							2	952																							
+372	372		101						50	Assets/Product/Texture/Image/BgCg/Cgsd001.jpg																								
+373	373		401							2	952																							
+374	374		101						50	Assets/Product/Texture/Image/BgCg/Cg901_2.jpg																								
+375	375		401							2	952																							
+376	376		101						50	Assets/Product/Texture/Image/BgCg/Cg901_3.jpg																								
+377	377		505						50		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab																							
+378	378		504						50	0.5																								
+379	379		401							2	952																							
+380	380		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_4.jpg																								
+381	381		401							2	952																							
+382	382		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_2.jpg																								
+383	383		401							2	952																							
+384	384		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+385	385		401							2	952																							
+386	386		101						50	Assets/Product/Texture/Image/BgCg/Cg1601_3.jpg																								
+387	387		401							2	952																							
+388	388		101						50	Assets/Product/Texture/Image/BgCg/Cg1701_1.jpg																								
+389	389		401							2	952																							
+390	390		101						50	Assets/Product/Texture/Image/BgCg/Cg1801_1.jpg																								
+391	391		401							2	952																							
+392	392		101						50	Assets/Product/Texture/Image/BgCg/Cgqz2801.jpg																								
+393	393		401							2	952																							
+394	394		101						50	Assets/Product/Texture/Image/BgCg/Cgqz1502.jpg																								
+395	395		401							2	952																							
+396	396		101						50	Assets/Product/Texture/Image/BgCg/Cg002_1.jpg																								
+397	397		401							2	952																							
+398	398		101						50	Assets/Product/Texture/Image/BgCg/Cg109_2.jpg																								
+399	399		401							2	952																							
+400	400		101						50	Assets/Product/Texture/Image/BgCg/Cg002_4.jpg																								
+401	401		504						50	0.4																								
+402	402		401							2	952																							
+403	403		101						50	Assets/Product/Texture/Image/BgCg/Cgsd001.jpg																								
+404	404		401							2	952																							
+405	405		101						50	Assets/Product/Texture/Image/BgCg/Cg901_2.jpg																								
+406	406		401							2	952																							
+407	407		101						50	Assets/Product/Texture/Image/BgCg/Cg901_3.jpg																								
+408	408		401							2	952																							
+409	409		101						50	Assets/Product/Texture/Image/BgCg/Cg901_2.jpg																								
+410	410		401							2	952																							
+411	411		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_2.jpg																								
+412	412		401							2	952																							
+413	413		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+414	414		401							2	952																							
+415	415		101						50	Assets/Product/Texture/Image/BgCg/Cg1601_3.jpg																								
+416	416		401							2	952																							
+417	417		101						50	Assets/Product/Texture/Image/BgCg/Cg002_4.jpg																								
+418	418		401							2	952																							
+419	419		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+420	420		401							2	952																							
+421	421		101						50	Assets/Product/Texture/Image/BgCg/Cgqz204.png																								
+422	422		401							2	952																							
+423	423		101						50	Assets/Product/Texture/Image/BgCg/Cg901_3.jpg																								
+424	424		504						50	0.3																								
+425	425		401							2	952																							
+426	426		101						50	Assets/Product/Texture/Image/BgCg/Cgqz2801.jpg																								
+427	427		401							2	952																							
+428	428		101						50	Assets/Product/Texture/Image/BgCg/Cgqz204.png																								
+429	429		401							2	952																							
+430	430		101						50	Assets/Product/Texture/Image/BgCg/Cgqz206.png																								
+431	431		401							2	952																							
+432	432		101						50	Assets/Product/Texture/Image/BgCg/Cgqz2801.jpg																								
+433	433		401							2	952																							
+434	434		101						50	Assets/Product/Texture/Image/BgCg/Cgqz1502.jpg																								
+435	435		401							2	952																							
+436	436		101						50	Assets/Product/Texture/Image/BgCg/Cg002_1.jpg																								
+437	437		401							2	952																							
+438	438		101						50	Assets/Product/Texture/Image/BgCg/Cg109_2.jpg																								
+439	439		401							2	952																							
+440	440		101						50	Assets/Product/Texture/Image/BgCg/Cg002_4.jpg																								
+441	441		401							2	952																							
+442	442		101						50	Assets/Product/Texture/Image/BgCg/Cg116_1.jpg																								
+443	443		401							2	952																							
+444	444		101						50	Assets/Product/Texture/Image/BgCg/Cg215_1.jpg																								
+445	445		401							2	952																							
+446	446		101						50	Assets/Product/Texture/Image/BgCg/Cg516_1.jpg																								
+447	447		504						50	0.2																								
+448	448		401							2	952																							
+449	449		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_4.jpg																								
+450	450		401							2	952																							
+451	451		101						50	Assets/Product/Texture/Image/BgCg/Cg1201_2.jpg																								
+452	452		401							2	952																							
+453	453		101						50	Assets/Product/Texture/Image/BgCg/Cg1301_4.jpg																								
+454	454		401							2	952																							
+455	455		101						50	Assets/Product/Texture/Image/BgCg/Cg1601_3.jpg																								
+456	456		401							2	952																							
+457	457		101						50	Assets/Product/Texture/Image/BgCg/Cg1701_1.jpg																								
+458	458		401							2	952																							
+459	459		101						50	Assets/Product/Texture/Image/BgCg/Cg1801_1.jpg																								
+460	460		401							2	952																							
+461	461		101						50	Assets/Product/Texture/Image/BgCg/Cgqz2801.jpg																								
+462	462		401							2	952																							
+463	463		101						50	Assets/Product/Texture/Image/BgCg/Cgqz1502.jpg																								
+464	464		401							2	952																							
+465	465		101						50	Assets/Product/Texture/Image/BgCg/Cg002_1.jpg																								
+466	466		401							2	952																							
+467	467		101						50	Assets/Product/Texture/Image/BgCg/Cg109_2.jpg																								
+468	468		504						50	0.1																								
+469	469		401							2	952																							
+470	470		101						50	Assets/Product/Texture/Image/BgCg/Cgqz2801.jpg																								
+471	471		401							2	952																							
+472	472		101						50	Assets/Product/Texture/Image/BgCg/Cgqz204.png																								
+473	473		401							2	952																							
+474	474		101						50	Assets/Product/Texture/Image/BgCg/Cgqz206.png																								
+475	475		401							2	952																							
+476	476		101						50	Assets/Product/Texture/Image/BgCg/Cgqz2801.jpg																								
+477	477		401							2	952																							
+478	478		101						50	Assets/Product/Texture/Image/BgCg/Cgqz1502.jpg																								
+479	479		401							2	952																							
+480	480		101						50	Assets/Product/Texture/Image/BgCg/Cg002_1.jpg																								
+481	481		401							2	952																							
+482	482		101						50	Assets/Product/Texture/Image/BgCg/Cg109_2.jpg																								
+483	483		401							2	952																							
+484	484		101						350	Assets/Product/Texture/Image/BgCg/Cg002_4.jpg																								
+485	485		401							2	952																							
+486	486		101						350	Assets/Product/Texture/Image/BgCg/Cg116_1.jpg																								
+487	487		401							2	952																							
+488	488		101						350	Assets/Product/Texture/Image/BgCg/Cg215_1.jpg																								
+489	489		504							0																								
+490	490		401							2	952																							
+491	491		101						500	Assets/Product/Texture/Image/BgCg/Cg1801_4.jpg																								
+492	492		401							2	952																							
+493	493		101						1000	Assets/Product/Texture/Image/BgCg/Cg1201_4.jpg																								
+494	494		401							2	952																							
+495	495		101							Assets/Product/Texture/Image/BgCg/Cg1201_2.jpg																								
+496	496		401							1	77																							
+497	497		301									Liv, you made many wishes come true for Gray Raven, for your friends, and for all the humans on the earth... Now, can you listen to your own voice for once?																						
+498	498		302								Can you hear it?	499																						
+499	499		301									Don't hurt her anymore—																						
+500	500		301									Let her go—																						
+501	501		301									Give her back—																						
+502	502		301									The familiar voices get louder.																						
+503	503		301									Are they calling her?																						
+504	504		301									The white-haired girl is struck by confusion. Tears well up in her eyes like sparkles on the ocean, then roll down her cheeks. The white wings and dress disappear as she returns to her original look.																						
+505	505		301								Liv	Comman... dant...?																						
+506	506		301								Liv	...Commandant ... Everybody...																						
+507	507		301									She can hear it.																						
+508	508		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+509	509		101							Assets/Product/Texture/Image/BgCg/Cg516_1.jpg																								
+510	510		301								Lucia	Give Liv back to us!!																						
+511	511		301									This is Lucia... The black-haired girl is like her elder sister who is always there to protect her. Despite the heavy burden of destiny she has to carry, she has never stopped venturing forward.																						
+512	512		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+513	513		101							Assets/Product/Texture/Image/BgCg/Cg215_1.jpg																								
+514	514		301								Lee	Don't decide for us! Don't put it all on yourself!																						
+515	515		301									Lee... He's not good at expressing himself, but deep in his heart, he cares about everybody more than anyone else. He always does things for us without telling anyone.																						
+516	516		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+517	517		101							Assets/Product/Texture/Image/BgCg/Cg1801_4.jpg																								
+518	518		301								【kuroname】	That person is you, Liv.																						
+519	519		301									It's the commandant... The human who never hesitates to help her whenever she is in need. Brilliant as the sun and calm as the moon, this person can be reckless at times, but always creates a road forward for everyone in crisis.																						
+520	520		301				AniZhuanchangBegin					At this very moment, she feels their thoughts, resentment, and pain. All caused by the loss of her.																						
+521	521		401							1	36																							
+522	522		401							2	759																							
+523	523		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+524	524		301		1	AniZhuanchangEnd	AniZhuanchangBegin					The ravens fly away and the human starts to disappear. She reaches out her hand, but cannot grab anything. There is only darkness.																						

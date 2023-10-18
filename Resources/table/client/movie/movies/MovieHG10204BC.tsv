@@ -1,0 +1,36 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+2	2		401							1	208																							
+3	3		201							1	1021001																							
+4	4		301			DialogEnable				1	Lucia	Commandant, I'm here to see you.	1																					
+5	5		301								Lucia	Is everything... okay?	1																					
+6	6		302								Just, too much time on my hands.	7																						
+7	7		301								Lucia	Yeah... I hope your isolation ends soon.	1																					
+8	8		301								Lucia	The Gray Ravens are awaiting your return.	1																					
+9	9		202							1					1																			
+10	10		301				DialogDisable				System	Virtual visiting time over. The isolated patient should now follow their assigned schedule.																						
+11	11		302								(Still virtual visits, huh...)	12																						
+12	12		302								(All of a sudden I feel like I'm some zoo animal...)	13																						
+13	13		401							1	201																							
+14	14		301			DialogEnable						Familiar engine rumblings blast through a connection channel.																						
+15	15		302								Is your hunt over?																							
+16	16		201							1	500100																							
+17	17		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+18	18		301							1	α	If that's the answer you seek, then yes.	1																					
+19	19		302								How was the hunt?	20																						
+20	20		301								α	Interesting.	1																					
+21	21		301								α	You probably want to know.	1																					
+22	22		302								Will you tell me?	23																						
+23	23		301								α	...	1																					
+24	24		302								Looks like it wasn't that good.	25																						
+25	25		301								α	You got some good intuition. How's that Construct on your team doing?	1																					
+26	26		302								Lucia?	27	I don't know what you're talking about.	28																				
+27	27	31	301								α	...	1																					
+28	28		301									The sound of engines became louder in the channel, like it is protesting against something.																						
+29	29		302								She's asking about you a lot, though.	30																						
+30	30		301								α	So?	1																					
+31	31		301								α	She wants another go at it?	1																					
+32	32		301								α	It won't make any difference.	1																					
+33	33		202							1					1																			
+34	34		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+35	35		301		1		AniZhuanchangBegin					Alpha disconnects...																						

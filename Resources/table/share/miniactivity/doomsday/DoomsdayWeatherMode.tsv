@@ -1,0 +1,33 @@
+Id	Name	DayCount	WeatherId[0]	WeatherId[1]	WeatherId[2]	WeatherId[3]	WeatherId[4]	WeatherId[5]	WeatherId[6]	WeatherId[7]	WeatherId[8]	WeatherId[9]	WeatherId[10]	WeatherId[11]	WeatherId[12]	WeatherId[13]	WeatherId[14]
+101	Stage 1 Mode 1	15	101	101	101	101	102	102	102	101	102	102	103	103	103	103	102
+102	Stage 1 Mode 2	15	101	101	101	102	102	101	101	102	102	103	103	103	102	102	101
+201	Stage 2 Mode 1	7	201	201	201	202	202	202	201								
+202	Stage 2 Mode 2	7	201	201	202	202	201	202	202								
+203	Stage 2 Mode 3	7	202	202	202	203	203	203	202								
+204	Stage 2 Mode 4	7	202	202	202	203	203	202	203								
+205	Stage 2 Mode 5	9	202	204	203	203	202	202	204	202	202						
+206	Stage 2 Mode 6	9	203	204	203	202	202	204	202	202	202						
+30001	Stage 3 Initial Weather Mode	5	303	304	303	305	304										
+30002	Stage 3 Ending 1 Weather Trigger Mode	5	301	301	302	302	302										
+30003	Stage 3 Mid Phase Weather Mode	5	305	305	305	305	305										
+40001	Stage 4 Initial Weather Mode	5	402	402	403	404	403										
+40002	Stage 4 Phase 2 Mode	5	403	404	403	403	404										
+40003	Stage 4 Ending Mode	5	401	401	402	401	402										
+50011	Stage 5 Phase 1 Weather Mode 1	5	502	502	502	502	502										
+50012	Stage 5 Phase 1 Weather Mode 2	5	502	502	502	503	503										
+50013	Stage 5 Phase 1 Weather Mode 3	5	502	502	503	502	502										
+50021	Stage 5 Phase 2 Weather Mode 1	5	503	503	503	503	503										
+50031	Stage 5 Phase 3 Weather Mode 1	5	503	503	504	503	503										
+50032	Stage 5 Phase 3 Weather Mode 2	5	503	504	503	504	503										
+50033	Stage 5 Phase 3 Weather Mode 3	5	504	503	503	504	503										
+50034	Stage 5 Phase 3 Weather Mode 4	5	503	504	503	503	504										
+50041	Stage 5 Phase 4 Weather Mode 1	5	501	501	505	501	505										
+50042	Stage 5 Phase 4 Weather Mode 2	5	505	501	501	505	505										
+50043	Stage 5 Phase 4 Weather Mode 3	5	501	505	505	505	501										
+50051	Stage 5 Phase 5 Weather Mode 1	5	501	501	501	501	501										
+601	Stage 6 Day 1 - 5 Weather	10	601	601	601	602	602	602	602	602	602	603					
+602	Stage 6 Day 6 - 10 Weather	10	602	602	602	602	603	602	603	602	603	603					
+603	Stage 6 Day 11 - 15 Weather	10	602	603	602	603	603	603	603	603	603	603					
+604	Stage 6 Over 15 Days Weather	10	603	603	603	603	603	603	603	603	603	603					
+607	Stage 6 Event Weather	5	604	604	602	602	603										
+608	Stage 6 Event Weather	5	605	605	605	605	605										

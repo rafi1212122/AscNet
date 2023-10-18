@@ -1,0 +1,65 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory154.png																								
+2	2		401							1	18																							
+3	3		201							1	1021001		-400																					
+4	4		201							2	500026		400																					
+5	5		301			DialogEnable				1	Lee	No guards at the entrance, nor any other restrictions.	2																					
+6	6		301								Lee	But a lot of humans...	2																					
+7	7		301								Lucia	Let's go.	1																					
+8	8		202							1	2																							
+9	9		301				AniZhuanchangBegin					Lucia leads the way cautiously at a quick pace, while Lee is observing the surroundings closely. Liv follows, her curiosity piqued by the place.																						
+10	10		101							Assets/Product/Texture/Image/BgStory/Bgstory159.png																								
+11	14		301			AniZhuanchangEnd					Peddling Voices	Canned pupa! Three grubs a can!																						
+12	15		301								Peddling Voices	Virus-free oxygen tanks! Long shelf life! Buy one get one free! Buy two get two free!																						
+13	16		301								Peddling Voices	—Ayyyy Razor Honey anyone?! Practically priceless, now at a fair price!!!																						
+14	11		201							1	1021001																							
+15	12		201							2	1031001		-600																					
+16	13		201							3	500026		600																					
+17	17		301							1	Liv	What's that?	2																					
+18	18		301								Lee	...No related information found. But an overall analysis of the conversations taking place here suggests that this is a market.	3																					
+19	19		301								Lucia	A market? In this time and age?	1																					
+20	20		301								Liv	Similar to ACA?	2																					
+21	21		301								Lee	Only in the sense that they both engage in organized trade, but other than that...	3																					
+22	22		301								Lee	...Liv?	3																					
+23	23		202							1	2	3			1																			
+24	24		301									In a dark alley around a corner, Liv stops in her tracks before a shabby stall.																						
+25	25		201							1	1031001		-400																					
+26	26		201							2	500148		400																					
+27	27		301							1	Stall Keeper	...	2																					
+28	28		301				AniZhuanchangBegin				Liv	You don't look well. Do you need help?	1																					
+29	29		202							1	2				1																			
+30	990		401							1	202																							
+31	30		101							Assets/Product/Texture/Image/BgCg/Cg1101_1.jpg																								
+32	31		301			AniZhuanchangEnd					Stall Keeper	...Ah.																						
+33	32		301									The voice is coarse and fuzzy, as if coming from damaged vocal cords.																						
+34	33		301								Stall Keeper	...B-buy... Buy?																						
+35	34		301									The stall keeper searches his cloak with a shaky hand, then presents Liv with a hermetic bag.																						
+36	35		301									He curls up his lips, trying to squeeze out a friendly smile.																						
+37	36		301								Stall Keeper	Freshly... harvested.																						
+38	37		301								Stall Keeper	Perfectly... healthy.																						
+39	38		301									Greyish murky organs are floating within the bag, as if thrown in there on a whim.																						
+40	39		301								Liv	You need immediate treatment! Let me run a check on...																						
+41	40		301								Stall Keeper	Only 286 miles to go... Only 286...																						
+42	41		301								Stall Keeper	Then I can go home... Can you pay in miles? I'll even give you a discount. H-how's that...?																						
+43	42		301								Stall Keeper	Buy... Please... Buy...!																						
+44	111		502							RImgBg1BlowUp																								
+45	43		301								Stall Keeper	I just have to get through tonight... Then once I earn enough grubs...																						
+46	44		301								Liv	Your heart rate is off the charts. Stay calm. I'll treat you immediately!																						
+47	112		502							RImgBg1Shake																								
+48	45		301									The stall keeper grabs Liv by the arm and tries to pull her close, only to send himself lurching forward.																						
+49	46		301								Stall Keeper	You're not human...																						
+50	47		301								Stall Keeper	Those horns... R-right, outsider Constructs have receptor horns... You're a Construct!																						
+51	48		301								Stall Keeper	The most valuable merchandise!																						
+52	49		301								Stall Keeper	A Construct that isn't the Kowloong Crew!																						
+53	50		301								Stall Keeper	I found you! You're mine! Pulao crew! Pulao crew! I have—																						
+54	991		302				AniZhuanchangBegin				Liv!	51	Unhand that fair maiden!	51																				
+55	51		101							Assets/Product/Texture/Image/BgStory/Bgstory159.png																								
+56	52		301			AniZhuanchangEnd						You step in front of Liv to put some distance between her and the stall keeper.																						
+57	53		201							1	1021001																							
+58	54		401							2	1513																							
+59	55		301							1	Lucia	Liv!	1																					
+60	992		302								Lucia, I'm back.	56	A successful reunion.	56																				
+61	56		301								Lucia	...Commandant.	1																					
+62	993		302								Onward, Gray Raven!	994	Let's deal with the enemies first.	994																				
+63	130		204							1	1																							
+64	994		301		1		AniZhuanchangBegin				Lucia	Yes, Commandant.	1																					

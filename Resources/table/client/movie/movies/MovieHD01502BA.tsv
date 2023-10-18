@@ -1,0 +1,173 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	204																							
+3	3		201							1	500110	8																						
+4	4		301			DialogEnable				1	Ayla	The warm wind has brought you a message. Across the rain, in the hidden Realm of Dragons...	1																					
+5	5		301								Ayla	Once sealed, the Ancient Triangle is now lost...	1																					
+6	8		301									Lee turns on his terminal to simulate tactics and take record.																						
+7	11		301								Ayla	...As adventurers, you have embarked on a journey to the hidden realm to retrieve the lost artifact.	1																					
+8	14		301									While Lucia is using her terminal to assign different stages of the mission...																						
+9	15		301								Ayla	...	1																					
+10	600		204							1																								
+11	19		301								Ayla	Hey, this isn't a mission briefing. It's an adventure! Just relax and enjoy it.	1																					
+12	20		301								Ayla	This is the second story I drafted. I asked Changyu for some key elements about Kowloong's Dragon Boat Festival and incorporated them into this script.	1																					
+13	21		301								Ayla	But I really want you to enjoy it rather than think of the script. Just leave the performance part to me.	1																					
+14	22		301								Ayla	I mean, we hardly get to sit together and play games like this.	1																					
+15	23		203							1	0.25	-400																						
+16	24		201							3	500026		400																					
+17	25		301							1	Lee	So what are the rules this time, Ayla?	3																					
+18	26		301								Ayla	Rules? Just do whatever you like. You don't have to stick to role playing this time.	1																					
+19	27		302								In other words, we will be playing ourselves.	28																						
+20	28		202							1					1																			
+21	29		201							2	500166		-400																					
+22	30		301							1	Lucia	Playing ourselves... Hmm...	2																					
+23	31		204							3	10																							
+24	32		301								Lee	Considering the personalities I rolled last time were... cheerful, gentle, and lovely... Honestly, I think I did my best.	3																					
+25	33		302								Time to pick our starting location.	34																						
+26	34		202							2	3				1																			
+27	35		201							1	1031001	1																						
+28	36		301							1	Liv	Port, city, wilderness... Which one shall we choose?	1																					
+29	37		203							1	0.25	-400																						
+30	38		201							2	500026		400																					
+31	39		301							1	Lee	From an information gathering perspective, I suggest we pick the city, for there should be a library or academy inside.	2																					
+32	40		202							1					1																			
+33	41		201							1	500166	1	-400																					
+34	42		301							1	Lucia	We can also find more supplies.	1																					
+35	43		301									After seeking approval from everyone, you reach out and tap the icon marked with "city."																						
+36	44		401							2	558																							
+37	45		302								Hmm?	46																						
+38	46		301									Before you can touch the option, its frame becomes grayed out.																						
+39	47		202							1	2				1																			
+40	48		201							1	500110																							
+41	49		301							1	Ayla	One moment, please...	1																					
+42	50		301									Ayla opens the control panel to check the game's status.																						
+43	51		301								Ayla	Synchronized gameplay on. No connection error. Player quantity... Ah, found it.	1																					
+44	52		301								Ayla	Someone else had joined the game. They were so quick! I only just published the game script. Must be veteran players.	1																					
+45	53		203							1	0.25	-400																						
+46	54		201							2	500026		400																					
+47	55		301							1	Lee	It seems we can only choose the port now.	2																					
+48	56		302								As long as it's not the wilderness.	57																						
+49	57		301									Better make the decision before the system throws you into some unknown corner.																						
+50	58		302								Starting location: Southern Port	59																						
+51	59		301				AniZhuanchangBegin					The guide screen disappears completely. The slowly expanding graphics have wrapped everyone's mind, gradually descending in the world sketched by Ayla.																						
+52	60		401							1	36																							
+53	61		202			DialogDisable				1	2				1																			
+54	62		101							Assets/Product/Texture/Image/BgStory/Bgstory533.jpg																								
+55	63		104				AniZhuanchangEnd			0|-150|-150	0																							
+56	64		401							2	903																							
+57	65		401					400		2	904																							
+58	66		301			DialogEnable						...																						
+59	67		301									Relentless waves struck the shore, bringing a cool scent.																						
+60	68		301									It's the middle of the day. Masts are swaying in the distance under the hot sun.																						
+61	69		301									Seagulls spread their wings, roaming and gliding freely along the never-ending coastline.																						
+62	70		301									Definitely a peaceful and beautiful beach view... If only one can enjoy it from a normal angle.																						
+63	71		302								...	72																						
+64	72		301									If the terminal screen is working properly, we are currently in the air.																						
+65	73		402							903																								
+66	74		402							904																								
+67	75		401							1	205																							
+68	76		104							0|0|0	0.5																							
+69	77		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFallNew.prefab	2																							
+70	78		301									Clouds and birds fly past your vision. The ground is rapidly increasing in size—a hint that you are descending at a dangerously high speed.																						
+71	79		201							1	500026	7																						
+72	80		301							1	Lee	I've never seen anyone land like this.	1																					
+73	81		301								Lee	Oh, parachute. Ayla—no, DM, I want to find my parachute as soon as possible.	1																					
+74	82		301								Ayla	Sorry, but such service is not provided on this flight.																						
+75	83		202							1					1																			
+76	84		201							1	500166	5																						
+77	85		301							1	Lucia	Protect Commandant first. We are Constructs. We should be alright to land on the sea surface...	1																					
+78	86		301								Ayla	Oops, what are you talking about? Novice Lucia from a swordsman family?																						
+79	87		202							1					1																			
+80	88		201							1	1031001	7																						
+81	89		301							1	Liv	There's a... village under us! Watch out!	1																					
+82	90		301									Liv's voice is torn apart by the howling wind. A group of villagers are gathering right underneath.																						
+83	91		202							1					1																			
+84	92		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFallNew.prefab																							
+85	93		301									But to Gray Raven's surprise, before they crash to the ground, an invisible force has gently held them up mid-air.																						
+86	94		301									The team lands safely after a little hovering, only to find themselves overwhelmed by the cheering of the crowd.																						
+87	95		302								???	96																						
+88	96		201							1	500434		600																					
+89	97		201							2	500410																							
+90	98		201							3	500527		-600																					
+91	99		301							1		They try to find out what is going on, but all they can hear are irrelevant phrases like "heroes", "savior" or "crisis."																						
+92	100		203							2	0.2			-40																				
+93	101		301									A man walks forward and bows to Gray Raven. He seems to be the leader.																						
+94	102		301								???	Greetings, heroes. Thank you for responding to my call.	2																					
+95	103		202							1	3																							
+96	104		301								???	I am a Travelling Wizard. When I came past this village, I noticed the villagers here were in dire need of help, so I made a summoning toward the sky.	2																					
+97	105		301									The man who claims to be a Travelling Wizard then turns around and stretches out his arms.																						
+98	106		301								Travelling Wizard	Ladies and gentlemen!	2																					
+99	107		301								Travelling Wizard	Behold, the heroes who have responded to my summoning! They have come to help... AWW!	2																					
+100	108		202							2																								
+101	109		301									Before he can finish, the impatient villagers have already swarmed forward, pushing him to the ground.																						
+102	110		201							1	500434		400																					
+103	111		201							2	500527		-400																					
+104	112		301							1	Villager	Please help us, heroes!	1	2																				
+105	113		301								Villager	Heroes! Mighty heroes!	1	2																				
+106	114		301									...																						
+107	115		301									You push through the crowd and run away. Fortunately, everyone in Gray Raven has decent stamina.																						
+108	116		301				AniZhuanchangBegin					The Travelling Wizard becomes exhausted, but after rolling a dice, you are able to carry him to another place.																						
+109	117		401						200	1	36																							
+110	118		401							1	210																							
+111	119		101			DialogDisable				Assets/Product/Texture/Image/BgStory/Bgstory530.jpg																								
+112	120		202				AniZhuanchangEnd			1	2				1																			
+113	121		301			DialogEnable						Inside the room, squirrels are running up table legs with tea cups on their heads. They put the drinks in front of the guests, then each takes a candy from the jar.																						
+114	122		301									The four Gray Raven members are sitting around the table, watching the Travelling Wizard wiping something off his hood—a large shoe print, to be precise.																						
+115	123		201							1	500166																							
+116	124		301							1	Lucia	So what would you like us to do?	1																					
+117	125		203							1	0.25	-400																						
+118	126		201							2	500410		400																					
+119	127		301							1	Travelling Wizard	I haven't really thought about it. I mean, I haven't been so lucky for a long time.	2																					
+120	128		302								Lucky?	129																						
+121	129		301								Travelling Wizard	I mean, every summoning is like a lucky draw. Getting four heroes at once is an extremely rare event.	2																					
+122	130		301								Travelling Wizard	Legendary—!	2																					
+123	131		301									The Travelling Wizard makes an exaggerated, croaky exclamation. He seems delighted.																						
+124	132		302								Then why did you summon us here?	133																						
+125	133		301								Travelling Wizard	Oh, um, if there weren't many heroes that responded, I was thinking about asking them to run errands like collecting firewood, picking up deliveries, or clearing a clogged toilet in the neighboring village.	2																					
+126	134		302								...	135																						
+127	135		202							1					1																			
+128	136		201							1	500026	10	-400																					
+129	137		301							1	Lee	People don't often ask others to perform these tasks...	1																					
+130	138		301								Travelling Wizard	True. Only fools would do those jobs.	2																					
+131	139		301								Travelling Wizard	But you are the famed heroes.	2																					
+132	140		301								Lee	You weren't serious, were you? I don't mean to offend, but could you prove your identity as the summoner of heroes?	1																					
+133	141		202							1					1																			
+134	142		203							2	0.25																							
+135	143		301								Travelling Wizard	In the name of gods, please trust me. I mean, I was there to greet you in the first place. I stand by justice and integrity.	2																					
+136	144		301								Travelling Wizard	I changed my mind after seeing this large team of heroes.																						
+137	145		301								Travelling Wizard	I want you to save the world.	2																					
+138	146		401							1	36																							
+139	147		301									Even the squirrels have stopped making noise. Time seems to have frozen.																						
+140	148		202							2					1																			
+141	149		201							1	500026	7	500																					
+142	150		201							2	500166																							
+143	151		201							3	1031001	7	-500																					
+144	152		301							1		Everything has gone static, until a breeze moves the curtain.																						
+145	153		401							1	204																							
+146	154		202							1	2	3			1																			
+147	155		201							1	500410																							
+148	156		301							1	Travelling Wizard	...	1																					
+149	157		301								Travelling Wizard	Can I have some responses...?	1																					
+150	158		203							1	0.25	-400																						
+151	159		201							2	500026		400																					
+152	160		301							1	Lee	Yes? I'm listening. Keep going. Mission objective: to save the world.	2																					
+153	161		202							2					1																			
+154	162		201							2	1031001	3	400																					
+155	163		301							1	Liv	Save the world... But how?	2																					
+156	164		301								Travelling Wizard	You need to find the legendary "Ancient Triangle", of course.	1																					
+157	165		301								Travelling Wizard	As you saw earlier, the villagers came to me for the same reason.	1																					
+158	166		301								Travelling Wizard	Before the Ancient Triangle appeared, monsters often attacked the villages until heroes brought back the replicas of the Ancient Triangle from the Real of Dragons. But all the replicas have gone missing now...	1																					
+159	167		302								Would you like us to go to the Realm of Dragons to retrieve new replicas?	168																						
+160	168		301								Travelling Wizard	Only to put them on the graves of this village? What a brilliant idea.	1																					
+161	169		301								Travelling Wizard	I mean, there's no way you can make it in time. You may as well... just collect the materials required to make them.	1																					
+162	170		301								Travelling Wizard	I can make them a new replica as long as I have enough materials.	1																					
+163	171		202							2					1																			
+164	172		201							2	500166		400																					
+165	173		301							1	Lucia	One moment please, I need to jot it down. Materials... to craft a new one... Is there any chance of failure when you make this replica?	2																					
+166	174		301								Travelling Wizard	Um... I don't quite know, but I have tried many times in my journey. It's as reliable as it can be.	1																					
+167	175		301								Lucia	So there is still a possible chance to fail, isn't it?	2																					
+168	176		301								Travelling Wizard	Ahem, nobody is perfect.	1																					
+169	177		301								Lucia	Recommended to prepare three times... No, four times the materials required... Just in case. Okay, what's next?	2																					
+170	178		301									Lucia's serious attitude makes the Travelling Wizard give up the drama and finish his speech as soon as possible.																						
+171	179		301								Travelling Wizard	The replica consists of three parts. The first is "Twin Souls", which can only be brought out from the Realm of Dragons, but worry not—I have already borrowed one from the nearby town. The next is "Flawless Rope". I got some from the black market, but there is only one left.	1																					
+172	180		301		1		AniZhuanchangBegin				Travelling Wizard	As for "Soulless Body", I have nothing left. Fortunately, we can find the material to make it nearby... Ordinary people won't be able to get close, but you are heroes...	1																					

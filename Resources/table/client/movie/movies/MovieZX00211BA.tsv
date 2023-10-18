@@ -1,0 +1,31 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory19.jpg																								
+2	1000		401							1	203																							
+3	2		201							1	500015																							
+4	3		301			DialogEnable				1	Tifa	AHAHAHA—	1																					
+5	4		301									The "Iron Maiden" Tifa lightly trailed out of the darkness, a Construct lay unmoving on one of her spikes.																						
+6	5		301									The Construct was then thrown aside like trash. The body let off a dull thud as it hit the ground, causing a cloud of dust to rise.																						
+7	6		201							1	1011001																							
+8	7		301							1	Lee	That's... a Cerberus member...?	1																					
+9	8		203							1	0.25	-400																						
+10	9		201							2	500002		400																					
+11	10		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+12	11		301							1	Lee	Hey! Vera, what's the situation on your end? We just saw a corpse of your squad.	1																					
+13	12		301								Vera	We almost... had her...	2																					
+14	13		301								Vera	But she had something up her sleeve... Tch!	2																					
+15	14		301								Vera	I'll give you one last piece of advice, this "maiden" before you isn't of sound mind, beware...	2																					
+16	15		301								Lee	Are you not worried about your squad member?	1																					
+17	16		301								Vera	Just a dead piece of trash. Nothing but himself to blame.	2																					
+18	17		301								Vera	Augh! Al... right, I'll need a little break.	2																					
+19	18		301								Lee	Vera, you—	1																					
+20	19		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+21	20		202							2					1																			
+22	21		203							1	0.25																							
+23	22		301								Lee	Those reckless fools...	1																					
+24	23		201							1	500015																							
+25	24		301							1	Tifa	Overconfidence is a vice.	1																					
+26	25		301								Tifa	Humanity will never defeat the Punishing Virus. How much more pain do you need to understand this plain simple fact?	1																					
+27	26		301								Tifa	Because of your naivety, this hell was unleashed upon us...	1																					
+28	27		301								Tifa	And cost me my... most precious... commandant...	1																					
+29	28		301								Tifa	But now, I have the power of the Ascension-Network on my side.	1																					
+30	29		301		1		AniZhuanchangBegin				Tifa	And with this power, I will fulfill the last wish of my commandant...	1																					

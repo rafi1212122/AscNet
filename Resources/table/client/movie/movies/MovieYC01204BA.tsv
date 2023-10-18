@@ -1,0 +1,117 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory173.png																								
+2	2		401							1	202																							
+3	3		201							1	500008																							
+4	4		301			DialogEnable				1	Roland	Quite the stubborn bunch, you are. Or even, obstinate.	1																					
+5	5		202							1					1																			
+6	6		201							1	500168																							
+7	7		301							1	Vera	Tch...	1																					
+8	8		301									Vera, bruised and battered, staggers toward Roland. But for every step she takes forward, he takes one back—																						
+9	9		301									Babylonia seems to have achieved its goal of intercepting the Ascendants, but this feeling of being lured into a trap is giving Vera physical discomfort.																						
+10	10		301								Vera	This doesn't reflect the projections from the data... Roland, what did you do...	1																					
+11	11		203							1	0.25	-400																						
+12	12		201							2	500008	13	400																					
+13	13		301							1	Roland	Data... The little videos and photos the Gray Raven took? Bold of you to think good Roland would be so predictable.	2																					
+14	14		301								Vera	Well, well, guess you aren't...	1																					
+15	15		301								Roland	Cerberus, I wonder how the Gray Raven would react when they see dead puppies. Don't worry, I'll send your corpses over with the nice and shiny kind of packaging.	2																					
+16	301		202							1					1																			
+17	666		203							2	0.25	0																						
+18	16		301									Roland draws his chain blade. The blade unravels in the air to become a long, sharp whip.																						
+19	17		301								Roland	Become dog meat!	2																					
+20	18		401							2	10007502																							
+21	19		301			RImgBg1Shake						—																						
+22	20		202							2					1																			
+23	21		201							1	500013																							
+24	22		201							2	500013		600																					
+25	23		201							3	500013		-600																					
+26	400		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryRedSmokeNew.prefab		1																						
+27	401		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryRedSmokeNew.prefab		2																						
+28	402		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryRedSmokeNew.prefab		3																						
+29	24		301							1	Corrupted	Uuuurgh!	1	2	3																			
+30	28		202							1	2	3			1																			
+31	403		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryRedSmokeNew.prefab		1																					
+32	404		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryRedSmokeNew.prefab		2																					
+33	405		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryRedSmokeNew.prefab		3																					
+34	29		201							1	500008																							
+35	30		301							1	Roland	What...?!	1																					
+36	31		301									A shell suddenly explodes behind Roland. The blast wave sends the Corrupted flying, interrupting the trajectory of his chain sword. Roland and Vera both find their sights drawn in the direction of the explosion.																						
+37	32		202							1					1																			
+38	33		201							1	500125	2																						
+39	34		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+40	300		401							1	103																							
+41	35		301								Jamilah	Hello. Your ID denotes that you are a squad from Babylonia. We are the Akdilek Commercial Alliance, and we will be providing artillery support.	1																					
+42	36		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+43	37		201							1	500168																							
+44	38		301							1	Vera	You from that choo-choo afar?	1																					
+45	39		202							1					1																			
+46	40		201							1	500125	2																						
+47	41		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+48	42		301							1	Jamilah	Indeed.	1																					
+49	43		201							2	500124		-600																					
+50	44		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+51	45		301							1	Changyu	Y'know, Boss, we should have them withdraw first. Shells don't have eyes.	2																					
+52	46		201							3	500127		600																					
+53	47		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																						
+54	48		301							1	Sophia	Agreed.	3																					
+55	49		202							1	2	3			1																			
+56	200		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+57	201		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+58	202		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																					
+59	50		201							1	500168																							
+60	51		301			PanelActor1Shake				1	Vera	No—Thank—You—We aren't leaving just yet... Tch!	1																					
+61	205		202							1																								
+62	52		301									Cut short by Roland continuing his assault without regard, Vera is forced back into battle. The arrival of the reinforcements only made dealing with the current situation even more urgent.																						
+63	53		301									——Or at least, Roland so assumes.																						
+64	54		201							1	500125	2																						
+65	55		201							2	500124		600																					
+66	56		201							3	500127		-600																					
+67	57		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+68	58		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+69	59		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																						
+70	60		301							1	Jamilah	Looks like there is no other way. We're not here for charity and humanitarian acts, after all. Sophia, Changyu, prepare to open fire.	1																					
+71	61		301								Sophia	I'll go down. Changyu, you shoot.	3																					
+72	62		301								Changyu	Welp, alright.	2																					
+73	63		202							1	2	3																						
+74	203		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+75	204		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+76	984		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																					
+77	64		301								No. 21	You'll be smith-Vera-eens if you don't fall back. Boss, you should retreat.																						
+78	65		201							1	500168																							
+79	66		301							1	Vera	21, No is NO... We can't leave without at least capturing him!	1																					
+80	67		301								Noctis	HAH, course ya ain't running. You dare bail with your tail behind your legs, chief, I'm gonna get ya in the scruff of ya neck.																						
+81	68		301								Vera	You rabid little mutt... If you've got time to trash talk, why don't you haul your ass over here?	1																					
+82	69		203							1	0.25	-400																						
+83	70		201							2	500004		400																					
+84	71		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+85	72		301								Asimov	I knew you folks wouldn't stay put.	2																					
+86	73		301								Vera	Asimov... Don't tell me...	1																					
+87	74		301								Asimov	Your commandant is in the link chamber. ID code is 0000.	2																					
+88	75		301								Vera	Cute number. You pick that one yourself?	1																					
+89	76		301								Asimov	It's simply a system requirement.	2																					
+90	77		301								Noctis	Ah whatev', as long as it's usable. Come on, girl, get the ID-ing going...																						
+91	999		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+92	78		202							1	2				1																			
+93	79		201							1	500008																							
+94	80		301								Roland	Toils and troubles... always coming double, double...	1																					
+95	81		301									Though Roland is unaware of what Cerberus is planning, instinct tells him to stop Vera at once.																						
+96	82		301								System	Memory link—Commencing.																						
+97	83		301								Roland	What's this?	1																					
+98	5621		202							1																								
+99	785		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	3																							
+100	215151		401							2	10002001																							
+101	84		301									His blade does not connect with the target as expected. Vera, eyes suddenly aglow, has lowered her core and taken on an almost canine stance. His blade flits by, cutting nothing.																						
+102	85		401							2	1513																							
+103	86		301									And then, Vera charges at Roland head-on. In an attempt to dissuade Vera's advance, Roland pivots on one leg and whirls around, building up force enough to part the ground before the two with his weapon.																						
+104	243643		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+105	755322		401							2	10002001																							
+106	2142566		201							1	500008																							
+107	87		301			RImgBg1Shake				1	Roland	Sit?	1																					
+108	601		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab																							
+109	88		301								Noctis	Oi girl, ya gettin' rusty or rusty...?!																						
+110	89		301									Though not present to see it with his own eyes, Noctis exclaims in surprise. Vera's attack was unsuccessful.																						
+111	90		203							1		400																						
+112	91		201							2	500168	13	-400																					
+113	92		301							1	Vera	Warm-up, sweetie. He needs it. We need it.	2																					
+114	93		301								Roland	Interesting... You're like a completely different person. What did you do?	1																					
+115	94		301								Vera	I now have another one to share my pain with. Though not like you'd understand what that means.	2																					
+116	95		301		1		AniZhuanchangBegin				Roland	Hmph.	1																					

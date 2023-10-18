@@ -1,0 +1,77 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory103.png																								
+2	2		401							1	101																							
+3	3		301			DialogEnable						PheeEEeeeewWWW—																						
+4	4		301									(The frigid wind continues to howl outside.)																						
+5	5		201							1	1111001	5																						
+6	6		301							1	Karenina	Why do those guys get to spend Christmas happily in the warm cabin? I'm stuck out in the ice and cold dealing with these weak Corrupted!!	1																					
+7	7		301								Karenina	I'm not even breaking a sweat...!	1																					
+8	1000		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab	2																							
+9	8		204							1																								
+10	9		301				RImgBg1Shake					(A Corrupted goes flying into the air.)																						
+11	1001		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab																							
+12	10		204							1	5																							
+13	11		301								Karenina	But I can't even have a rest...!	1																					
+14	12		204							1																								
+15	13		301				RImgBg1Shake					(She smashes another Corrupted.)																						
+16	14		204							1	5																							
+17	15		301								Karenina	One after another. Wave after wave. They're showing no signs of stopping!	1																					
+18	16		201							1	500013																							
+19	17		401							2	1508																							
+20	18		301							1	Corrupted	Rgh—! Grawrrr—!	1																					
+21	19		201							1	1111001																							
+22	20		301							1	Karenina	Stupid, stupid Corrupted! You're gonna blow out my eardrums!	1																					
+23	21		301								Karenina	If I have to battle an Ascendant, that'll get my blood pumping.	1																					
+24	22		301								Karenina	But I'm bored out of my mind fighting these weaklings!	1																					
+25	23		301								Karenina	If Lucia hadn't practically begged me for help, only an idiot would come to a place like this in the middle of the night.	1																					
+26	24		201							1	500013																							
+27	25		401							2	1508																							
+28	26		301							1	Corrupted	Grrgghh—Rarrghhh—	1																					
+29	27		201							1	1111001																							
+30	28		301							1	Karenina	Finally afraid, eh? Good. Saves me the effort.	1																					
+31	29		301								Karenina	Looks like I can finally see the silhouette of the clock from here. Hallelujah!	1																					
+32	30		301								Karenina	Damn... I'd kill to go back and stretch out in the warm cabin...	1																					
+33	31		301								Karenina	But as long as I ring that old bell and shoot into the sky, I'll get some brownie points with the commandant!	1																					
+34	32		301								Karenina	And that means I'll beat Lucia for a change. Then again...	1																					
+35	33		204							1	5																							
+36	34		301								Karenina	When Lucia told me she wanted to throw a Christmas party with everyone and needed my help, I had absolutely no desire to...	1																					
+37	35		301								Karenina	...I'd have rather stuck a needle in my eye!	1																					
+38	36		202							1					1																			
+39	37		301									(Static)																						
+40	38		201							1	1111001																							
+41	39		301							1	Karenina	But I eavesdropped on her conversation with Lee just to make sure they didn't do anything stupid.	1																					
+42	40		301								Karenina	When I heard her say something about "Operation Celebrate Christmas to Cheer Up Liv", I about laughed my *** off!	1																					
+43	41		301								Karenina	What a stupid and boring plan!	1																					
+44	42		203							1	0.25	400																						
+45	43		201							2	1021001	4	-400																					
+46	44		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+47	45		301							1	Lucia	...Karen... Karenina...	2																					
+48	46		301								Karenina	If Lucia hadn't sounded so pathetic, I could've been warm and cozy in Babylonia's war room right now.	1																					
+49	47		301								Karenina	...But seeing as Liv is a friend, I guess it doesn't hurt to make an exception every now and then.	1																					
+50	48		301								Karenina	This sorta grunt work is best left to Lucia, but she's just trying to pull the strings. She really pisses me off!	1																					
+51	49		301				RImgBg1Shake				Lucia	...Karen—!	2																					
+52	50		204							2																								
+53	51		204							1	5																							
+54	52		301								Karenina	AH! L-L-L-LUCIA—?!	1																					
+55	53		204							2	4																							
+56	54		301								Lucia	You've been mumbling to yourself.	2																					
+57	55		204							1																								
+58	56		204							2																								
+59	57		301								Karenina	W-what? How long have you been on the channel?!	1																					
+60	58		301								Lucia	I've been calling your name for the past few minutes.	2																					
+61	59		204							1	5																							
+62	60		301								Karenina	Do you get off on eavesdropping or something?!	1																					
+63	61		204							1																								
+64	62		301								Lucia	...Hey... The signal is cut... Karen... Hurry up... It's almost...	2																					
+65	63		204							1	5																							
+66	64		301								Karenina	Alright, alright. You're gonna make me go deaf.	1																					
+67	65		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+68	66		202							1	2				1																			
+69	67		301									Beep—																						
+70	68		201							1	1111001																							
+71	69		301							1	Karenina	...	1																					
+72	70		204							1	5																							
+73	71		301								Karenina	...Well, everything I said was true. Who cares if Lucia hears it!	1																					
+74	72		204							1																								
+75	73		301								Karenina	...	1																					
+76	74		301		1		AniZhuanchangBegin				Karenina	Anyway... I need to get to the top of the clock tower...	1																					

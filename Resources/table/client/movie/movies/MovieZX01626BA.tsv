@@ -1,0 +1,87 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory285.png																								
+2	2		401							1	102																							
+3	3		201							1	1031001	7																						
+4	4		301			DialogEnable				1	Liv	This is...	1																					
+5	5		302								(Inspect the floor)	6																						
+6	6		301								Liv	Look here, Commandant.	1																					
+7	7		301									Looking in the direction Liv is pointing, you see dilapidated high-rises around you. But then...																						
+8	8		204							1																								
+9	9		301								Liv	I noticed some peculiar residue on the ground bearing a resemblance to the Red Tide.	1																					
+10	10		302								...Something was devoured?	11	Are these signs left by the Red Tide?	11																				
+11	11		201							1	500026		400																					
+12	12		201							2	500166		-400																					
+13	13		301							1	Lucia	We thought the Red Tide hadn't reached here. Looks like we were wrong.	2																					
+14	14		301								Lee	By the look of this, it appears that the Red Tide has already been through here.	1																					
+15	15		202							1	2				1																			
+16	16		301									The residue means that you can follow it. Since it is the only clue you have at present, which leaves you one option...																						
+17	17		302								Liv, confirm the extent of the Red Tide's expansion.	18																						
+18	18		201							1	1031001																							
+19	19		301							1	Liv	I'll try... Maybe we can find the source of the Red Tide.	1																					
+20	20		302				AniZhuanchangBegin				I'll leave it to you then.	21																						
+21	21		202							1					1																			
+22	22		101							Assets/Product/Texture/Image/BgStory/Bgstory285.png																								
+23	23		301			AniZhuanchangEnd						Following the residue of the Red Tide all the way to the south of the city, you finally stop in front of a large shopping mall.																						
+24	24		301									Looking through a broken window, you see that the mall is vacant. Most shops in the abandoned city preserve the moment of disaster. Goods have been looted, shelves have collapsed, and the glass shattered.																						
+25	25		301									However, this mall is eerily empty—no shelves, no entertainment facilities, and no traces of looting. There is only residue from the Red Tide, indicating what has happened.																						
+26	26		201							1	500026		400																					
+27	27		201							2	1031001		-400																					
+28	28		301							1	Lee 	The Red Tide's residue starts here. It appears that it was stored in one place until it circulated underground through the water distribution system before breaking out onto the ground level.	1																					
+29	29		301								Lee 	For people on the surface, it had to have been like a rising tide from an unknown source.	1																					
+30	30		301								Liv	You mean, this is the source of the Red Tide?	2																					
+31	31		301								Lee	We can't determine if all of the Red Tide started here, but it's at least one of the sources.	1																					
+32	32		302				AniZhuanchangBegin				Let's go check underground.	33																						
+33	33		202							1	2				1																			
+34	34		101							Assets/Product/Texture/Image/BgStory/BgStory68.jpg																								
+35	35		301			AniZhuanchangEnd						You all descend a set of stairs leading to the dilapidated parking garage two levels underneath the mall. The emergency indicators are still on, leading to a corner of the garage like a silent guide.																						
+36	36		201							1	500166																							
+37	37		301							1	Lucia	Found it.	1																					
+38	38		201							1	500026		400																					
+39	39		201							2	1031001		-400																					
+40	40		301							1	Liv	It looks like an ordinary entrance to a bomb shelter.	2																					
+41	41		301								Lee	But we need special authorization to open the lock. Seems like it's no ordinary shelter.	1																					
+42	42		302								The authentication mechanism looks obsolete.	43	Looks like we can open it with brute force.	48																				
+43	43		202							2					1																			
+44	44		203							1	0.25																							
+45	45		301								Lee	Correct. It appears to be a primitive lock made during the Post-Pandemic Age. Give me five minutes.	1																					
+46	46		301								Lee	And... done.	1																					
+47	47	56	202							1					1																			
+48	48		202							1	2				1																			
+49	49		201							1	500166																							
+50	50		301							1	Lucia	Here's the breaching charge Bridget said we might be able to "put to good use." She gave it to us before we left.	1																					
+51	51		302								I didn't think we'd need it...	52	Let's get this over with then.	52																				
+52	52		301								Lucia	Breaching the door, Commandant. Stand clear.	1																					
+53	53		202							1					1																			
+54	54		401							2	1503																							
+55	55		301			RImgBg1Shake						...																						
+56	56		301									You hear the sound of gears turning, then the door slowly opens.																						
+57	57		301									You see a seemingly ordinary bomb shelter corridor extending into the dark unknown.																						
+58	58		302								Prepare to enter.	59	What's the Punishing Virus concentration?	63																				
+59	59		201							1	500026																							
+60	60		301							1	Lee	Wait.	1																					
+61	61		301									Lee raises his hand to stop you, then looks at Liv.																						
+62	62		301								Lee	Liv, what's the Punishing Virus concentration down below?	1																					
+63	63		201							1	1031001	7																						
+64	64		301							1	Liv	Readings indicate that the concentration is the same as the surface. We can handle it with our enhanced Inver-Devices.	1																					
+65	65		301								Liv	Actually... it's even slightly lower than above ground. If the concentration is at this level, there should be no problem for the commandant to enter.	1																					
+66	66		203							1	0.25	-400																						
+67	67		204							1																								
+68	68		201							2	500026		400																					
+69	69		301							1	Lee	Well, that's unexpected.	2																					
+70	70		202							1	2				1																			
+71	71		201							1	500166																							
+72	72		301							1	Lucia	I don't know why... but it seems like they've rolled out the red carpet for us.	1																					
+73	73		201							1	1031001																							
+74	74		301							1	Liv	However, I detected a burst of abnormal energy underground... It was just for a split second, but it was incredibly strong.	1																					
+75	75		302								Was it Huaxu?	76	Was it an Ascendant?	78																				
+76	76		201							1	500026																							
+77	77	80	301							1	Lee	No... The Huaxu Luna got is only a key. There's no way it would contain such a huge amount of energy.	1																					
+78	78		201							1	1031001																							
+79	79		301							1	Liv	This reaction... is closer to the Hetero-Creatures we encountered in the city ruins, but it's on a whole new level.	1																					
+80	80		201							1	500166																							
+81	81		301							1	Lucia	You mean, there might be a giant Hetero-Creature down there...?	1																					
+82	82		201							1	500026		400																					
+83	83		201							2	1031001		-400																					
+84	84		301							1	Liv	Correct. Be careful, everyone... especially you, Commandant. Don't take off your protective equipment. Do you have enough serums?	2																					
+85	85		302								Yes, we're stocked up.	86																						
+86	86		301		1		AniZhuanchangBegin				Lee	Alright, then. Proceed with caution.	1																					

@@ -1,0 +1,41 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory180.png																								
+2	2		401							1	202																							
+3	3		301			DialogEnable					Huaxu	The Babylonia members and the Ascendants have both arrived near the Observatory. Dispatching guards now...																						
+4	4		201							1	500150																							
+5	5		301							1	Qu	Send guards to clean out the Corrupted before they damage the relics.	1																					
+6	6		301								Huaxu	That course of action will lower our chances of victory.																						
+7	7		301								Qu	Those relics are a precious part of Kowloong. Go and give the orders, Huaxu.	1																					
+8	8		301								Huaxu	Understood.																						
+9	9		301								Qu	If they want to climb up here to the Observatory, let them.	1																					
+10	10		301								Qu	In this very yard...	1																					
+11	11		301				AniZhuanchangBegin				Qu	I will destroy them all.	1																					
+12	12		202							1					1																			
+13	13		101							Assets/Product/Texture/Image/BgStory/Bgstory176.png																								
+14	14		201							1	500101																							
+15	15		301			AniZhuanchangEnd				1	Gabriel	...This leads up to the Observatory.	1																					
+16	16		202							1																								
+17	17		301									After a long trek, Gabriel finally arrives at the base of the Observatory. Here inside the light wall, free of the flames of war, Gabriel is almost like a theater actor waiting for the audience.																						
+18	18		201							1	500101																							
+19	19		301							1	Gabriel	The Corrupted I've brought should create enough of a diversion. This tower should hold what I seek.	1																					
+20	20		202							1																								
+21	21		301									The Gestalt-like creation must be inside, but the tower will certainly be littered with traps.																						
+22	22		301									Direct confrontation does not concern Gabriel, but unforeseen circumstances—the prospect of disappointing Luna—does.																						
+23	23		301				AniZhuanchangBegin					And so, he hides.																						
+24	24		201							1	1031001																							
+25	25		301			AniZhuanchangEnd				1	Liv	Commandant, we're not far from the tower's base now.	1																					
+26	26		201							1	500110	4																						
+27	27		301							1	Ayla	No guards... Are they welcoming us in?	1																					
+28	28		201							1	500026																							
+29	29		301							1	Lee	More like a display of arrogance.	1																					
+30	30		201							1	500169																							
+31	31		301							1	Prime	Stop right there, invaders!	1																					
+32	32		201							1	500110	4																						
+33	33		301							1	Ayla	Still tailing us, huh... Commandant, if we go in like this, we'll get sandwiched!	1																					
+34	34		302								Defeat the enemies first!	35	Gotta get in the tower now.	37																				
+35	35		201							1	500026																							
+36	36		301							1	Lee	We've left most of them behind already. Now let's take care of the rest here!	1																					
+37	37		201							1	1031001																							
+38	38		301							1	Liv	Can't afford to get stalled... I think I just caught a glimpse of Gabriel.	1																					
+39	39		201							1	500110																							
+40	40		301		1		AniZhuanchangBegin			1	Ayla	Okay, I'll be the decoy, Lee and Liv can get rid of them.	1																					

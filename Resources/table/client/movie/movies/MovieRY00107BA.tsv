@@ -1,0 +1,32 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	36																							
+3	3		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie1New.prefab	2																							
+4	4		401							2	1509																							
+5	5		301			DialogEnable	AniZhuanchangBegin				System	Connected.																						
+6	6		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie1New.prefab																							
+7	7		101							Assets/Product/Texture/Image/BgStory/BgStory42.jpg																								
+8	8		301			AniZhuanchangEnd						...																						
+9	9		401							1	205																							
+10	10		201							1	1041001																							
+11	11		301							1	Nanami	—Tsk. You connected to me after all.	1																					
+12	12		301								Nanami	Hmph. Still alive, aren't you?	1																					
+13	13		302								I'm still alive.	14	So you already know about the situation?	15																				
+14	14	16	301								Nanami	Good. Oh, and there's no need to explain the situation, others already told me about it.	1																					
+15	15		301								Nanami	I heard from ■■■■■. You were kidnapped, right?	1																					
+16	16		301								Nanami	Those guys must have some guts to kidnap a commandant of Babylonia. Hey, do you really have no idea who they are?	1																					
+17	17		302								None at all.	18	Their leader is a woman.	19																				
+18	18	20	301								Nanami	How useless. Fine.	1																					
+19	19		301								Nanami	You've met so many organizations with female leaders. Some helpful info this is.	1																					
+20	20		301								Nanami	...Hmph. By the way, who do I look like to you?	1																					
+21	21		302								Nanami.	22																						
+22	22		301								Nanami	Nanami? Not that weird kid! Oh, I get it—	1																					
+23	23		301								Nanami	You must be a sicko, aren't you?!	1																					
+24	24		301								Nanami	Dammit, I don't want to hear your explanation. Bianca once said that if I stay spend too much time with *******, I'll become a ****** myself!	1																					
+25	25		202							1					1																			
+26	26		301								System	Connection ending soon...																						
+27	27		201							1	1041001																							
+28	28		301								Nanami	Don't tell me this connection is already ending! The duration is even shorter than…! Can't you last a little longer?!	1																					
+29	29		301								Nanami	Dammit, Gray Raven. You better make it up to me later...	1																					
+30	30		202							1					1																			
+31	31		301		1		AniZhuanchangBegin				System	Connection ended.																						

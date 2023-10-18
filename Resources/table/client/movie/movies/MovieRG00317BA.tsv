@@ -1,0 +1,50 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	12																							
+3	3		301			DialogEnable				1	???	Commandant.	1																					
+4	4		301								???	Commandant!!!																						
+5	5		301				AniZhuanchangBegin					I heard a voice in the dark, so I opened my eyes.																						
+6	6		101							Assets/Product/Texture/Image/BgStory/Bgstory189.png																								
+7	7		301			AniZhuanchangEnd						——																						
+8	8		302								Where is this place?	9	(Look around)	10																				
+9	1000	9	201							1	500166	1																						
+10	9	1001	301							1	Lucia	We are underneath the Demon General's Castle. I'm so glad that you are awake, Commandant.	1																					
+11	10	1001	301									This place looked like an underground facility. Lucia and others looked happy and relieved.																						
+12	1001		201							1	1081001	1																						
+13	11		301							1	Kamui	Hehe, I was so scared just now. Didn't expect this game to have the bleeding feature. You wouldn't have survived without Karenina's recovery potions.	1																					
+14	1002		302								Karenina?	12	The potions they collected all along...	13																				
+15	12	1003	301								Kamui	Yeah, two of you dropped from above. Don't you remember?	1																					
+16	13	1003	301								Kamui	So you really were collecting the potions... The villagers thought we were bad guys because of that.	1																					
+17	1003		201							1	500180																							
+18	14		301							1	Karenina	Whatever, now that the Commandant of Gray Raven is awake, can we leave this place already?	1																					
+19	15		301									Karenina walked out of darkness and looked at Lucia. She seemed to be quite upset.																						
+20	1004		203							1	0.25	400																						
+21	1005		201							2	500166		-400																					
+22	16		301							1	Lucia	Before taking action, we need to at least explain the situation to Commandant, like why we were here, and what happened.	2																					
+23	17		301								Karenina	What a hassle.	1																					
+24	18		301								Lucia	Commandant, you just woke up, so you may feel a little weak. You only need to listen.	2																					
+25	19		301								Lucia	First of all, just like you expected, we had a fight with the King.	2																					
+26	20		301								Lucia	But somehow our attacks didn't work at all. At the most crucial moment, we saw two of you falling down from the castle.	2																					
+27	21		301								Lucia	...As well as some bombs left by Camu and Vera.	2																					
+28	22		301								Karenina	Those two would do anything just to win...	1																					
+29	1006		201							2	1081001		-400																					
+30	23		301							1	Kamui	And you said you wanted to finish us off at the spawn point! You aren't any different!	2																					
+31	24		301								Karenina	I don't do cheap shots!	1																					
+32	1007		202							1	2																							
+33	1008		201							1	500173																							
+34	25		301							1	Lee	Those bombs seemed to be taken off Demons. Anyway, they landed before the King's attack, so the land blocks all collapsed, and we ended up here.	1																					
+35	26		301								Lee	The bleeding was also from falling. But now you should be fine.	1																					
+36	2001		302								Did anyone come after us?	27	What were Vera and Camu thinking...	28																				
+37	27	29	301								Lee	Not yet, but the King probably knows we are here. We can't stay long.	1																					
+38	2002		201							1	500180	5																						
+39	28	29	301							1	Karenina	Who knows what those two maniacs were thinking? I'm so going to beat them up next time I see them.	1																					
+40	2003		201							1	500166																							
+41	29		301							1	Lucia	Anyway, a lot of things are still unknown. Commandant, we may belong to different teams, but I think we should move together.	1																					
+42	2004		302								Yeah.	30	Let's move.	30																				
+43	30		301								System	【kuroname】 has joined the team.																						
+44	2005		201							1	500173		600																					
+45	31		301							1	Lee	What?	1																					
+46	2006		201							2	1081001		-600																					
+47	2007		301							1	Kamui	What?	2																					
+48	2008		201							3	500180																							
+49	2009		301		1		AniZhuanchangBegin			1	Karenina	What!???	3																					

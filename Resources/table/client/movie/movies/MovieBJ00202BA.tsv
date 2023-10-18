@@ -1,0 +1,73 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		401							1	201																							
+2	2		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory39.jpg																								
+3	3		201							2	500166		-400																					
+4	4		201							3	1031001		400																					
+5	5		301							1	Lucia	Commandant.	2																					
+6	6		302								How is the girl?	7																						
+7	7		301							1	Liv	She's on the table. Hopefully in time...	3																					
+8	8		202							2	3																							
+9	9		302								Good. Come here, Lee.	10																						
+10	10		201							1	500026																							
+11	11		301							1	Lee	?	1																					
+12	12		302								Look at this.	13																						
+13	13		301								Lee	Judging from the depth of the footprints and the tracks of the rickshaw...	1																					
+14	14		301									"They can't be too far off"?																						
+15	15		302								Looks like it.	16																						
+16	16		301								Lee	...Babylonia, Babylonia, this is Gray Raven.	1																					
+17	17		203							1	0.25	400																						
+18	18		201							2	500001		-400																					
+19	19		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+20	20		301							1	Celica	Gray Raven, Babylonia. Quite rare for you call on a direct line. What is it?	2																					
+21	21		301								Lee	We're hoping you could retask a high-definition long-range telescope to this area.	1																					
+22	22		301								Lee	Map coordinates uploaded.	1																					
+23	23		301								Celica	What are you looking for?	2																					
+24	24		301								Lee	Heat signals and biological signals of uninfected beings or groups.	1																					
+25	25		301								Celica	Calibrating...	2																					
+26	26		301								Celica	Strange... the biological signals' coordinates are right on top of your own.	2																					
+27	27		301									...?																						
+28	28		302								Alert!	29																						
+29	29		301								Everyone	!	1	2																				
+30	30		301									We may not know their exact position, but one thing's for sure: they have us surrounded.																						
+31	31		301									With our Constructs, we can fight our way out, but that also means making enemies.																						
+32	32		302								(Speak up about the little girl)	33																						
+33	33		301									After a while, a figure appears from the shadows.																						
+34	34		301								???	...Who exactly are you?																						
+35	35		302								(Identify yourself)	36																						
+36	36		301								???	So the CPF... hasn't been reactivated yet?																						
+37	37		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+38	38		202							2																								
+39	39		203							1	0.25																							
+40	40		301								Lee	Not yet.	1																					
+41	41		301								???	Has the downtime been extended again...? [Beep]!																						
+42	42		301									The man, clad in a tattered worker's outfit, slams a fist on the tiles nearby. If it were a human fist, it would definitely have hurt.																						
+43	43		301								???	Ly—I mean, the little girl... How is she?																						
+44	44		203							1	0.25	400																						
+45	45		201							2	1031001		-400																					
+46	46		301								Liv	Don't worry, I just spoke with the base. She survived the operation.	2																					
+47	47		301								???	Operation?																						
+48	48		301								Liv	The amputation. It's the only option for those infected by the Punishing Virus.	2																					
+49	49		301								???	...																						
+50	50		301								Liv	We're very sorry. We didn't have a choice...	2																					
+51	51		301								???	I can accept that. It's a better outcome than death.																						
+52	52		301								???	I've seen them... Those who died from the Punishing Virus.																						
+53	53		302								...	54																						
+54	54		301								???	...																						
+55	55		301								Lee	Can you explain more about that "reactivation" you mentioned?	1																					
+56	56		301								???	Sure. No loss to me anyway.																						
+57	57		301								???	As you can tell, we lived in that gigantic structure where you found Ly—I mean, the girl. Unfortunately the CPF there was often out of order.																						
+58	58		301								???	When the CPF did its job, we worked hard transporting rations and weapons out of the warehouse. Whenever it shut down, we'd have to face swarms of the Corrupted.																						
+59	59		301								???	The most recent downtime period lasted especially long. So one day, my daughter, Lyrie... she snuck into the buildings to look for food.																						
+60	60		301								???	On that very day, the Corrupted broke through our lines. We'd run out of ammo, so we had to leave everything and run...																						
+61	61		301								???	If you were telling the truth about the CPF not yet reactivating...																						
+62	62		301								???	All we could do was abandon all hope of returning, and carve out a living somewhere else before more of us starved.																						
+63	63		302								(Explain your objective)	64																						
+64	64		301								???	...Really?																						
+65	65		302								Once we reactivate the CPF...	66																						
+66	66		302								...We'll contact you.	67																						
+67	67		202							1	2																							
+68	68		201							1	1111001																							
+69	69		301							1	Karenina	Yeah. Your daughter is still with us, so don't go anywhere!	1																					
+70	70		301								Karenina	She already lost a leg. She can't lose her dad too.	1																					
+71	71		302								Let's move out.	72																						
+72	72		301		1		AniZhuanchangBegin				???	...																						

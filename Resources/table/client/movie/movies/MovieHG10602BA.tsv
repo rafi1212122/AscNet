@@ -1,0 +1,52 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	208																							
+3	3		201							1	1031001		450																					
+4	4		201							2	1021001		-450																					
+5	5		301			DialogEnable				1	Lucia	The mission's over. The damage taken was less than expected.	2																					
+6	6		204							1	1																							
+7	7		301								Liv	I'm glad the mission wasn't too hard. It's good to have everyone back safe and sound.	1																					
+8	8		202							1	2				1																			
+9	9		201							1	1011001																							
+10	10		301							1	Lee	Still, we need to rest up and debrief.	1																					
+11	11		204							1	10																							
+12	12		301								Lee	We can't be slacking on our maintenance. Just like infections in humans, they will grow to be lethal if left untreated for too long.	1																					
+13	13		201							1	1021001	1																						
+14	14		301							1	Lucia	Lee is always so strict on maintenance.	1																					
+15	15		201							1	1011001																							
+16	16		301							1	Lee	Not for nothing. I'm doing this for your "health."	1																					
+17	17		301								Lee	Especially you, Lucia. You always push yourself too far.	1																					
+18	18		201							1	1021001	6																						
+19	19		301							1	Lucia	Oh. Sorry about that.	1																					
+20	20		302								Lee is so strict!	21																						
+21	21		201							1	1011001	10																						
+22	22		301							1	Lee	You too, Commandant. You should treat this more seriously as well.	1																					
+23	23		302								Right, right...	24																						
+24	24		204							1																								
+25	25		301								Lee	I'm not kidding.	1																					
+26	26		201							1	1081001																							
+27	27		301							1	Kamui	Look what I found! Lee is being a meany to his own commandant!	1																					
+28	28		201							1	1011001																							
+29	29		301							1	Lee	...	1																					
+30	30		203							1	0.25	-450																						
+31	31		201							2	1081001	1	450																					
+32	32		301							1	Kamui	Fear not, Commandant! I'm here to rescue you!	2																					
+33	33		302								Welcome back.	34																						
+34	34		204							2	2																							
+35	35		301								Kamui	Of course! I did promise you I'd stay safe, didn't I?	2																					
+36	36		204							2	1																							
+37	37		301								Kamui	Now that I'm here, you can't bully the commandant like that anymore!	2																					
+38	38		301								Lee	...Just how dumb are you?	1																					
+39	39		204							2																								
+40	40		301								Kamui	Hey! Why are you always nagging me?!	2																					
+41	41		301								Lee	I don't want to talk to stupid people.	1																					
+42	42		301								Kamui	And I don't want to talk to you!	2																					
+43	43		202							1	2				1																			
+44	44		201							1	1021001	1																						
+45	45		301							1	Lucia	What a friendly banter.	1																					
+46	46		201							1	1011001		-450																					
+47	47		201							2	1081001		450																					
+48	48		301							1	Lee & Kamui	No, it wasn't!	1	2																				
+49	49		202							1	2				1																			
+50	50		201							1	1031001	1																						
+51	51		301		1		AniZhuanchangBegin			1	Liv	Lee, Kamui, what a great friendship you've got!	1																					

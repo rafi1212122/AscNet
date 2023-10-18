@@ -1,0 +1,83 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory105.png																								
+2	2		401							1	202																							
+3	3		201							1	500208																							
+4	4		301			DialogEnable				1	Bionic Machine	Rargh! Ga—!	1																					
+5	5		203				PanelActor1Shake			1	1		-300																					
+6	6		203				RImgBg1Shake			1	1		-1080																					
+7	7		201							1	500210																							
+8	8		301							1		Rosetta thrusts her spear into the bionic's power connectors, destroying it completely.	1																					
+9	9		301									However, she seems to have mistaken the size of the tide. An almost endless horde of bionics are still charging out of the snowy forest.	1																					
+10	10		301								Rosetta	No... I have to tell those girls to get out of there, now!	1																					
+11	11		301				AniZhuanchangBegin					Rosetta shoves aside a bionic in the way and scurries out of the forest.																						
+12	12		202							1					1																			
+13	13		101							Assets/Product/Texture/Image/BgStory/Bgstory216.png																								
+14	14		301			AniZhuanchangEnd						As expected, the girls are having a snowball fight on the mountain, completely unaware of the situation.																						
+15	15		301									Rosetta runs over and shouts at the girls anxiously. No time to care about Pfaff's orders.																						
+16	16		201							1	500210																							
+17	17		301							1	Rosetta	Run away! The tide is coming!	1																					
+18	18		301									The girl grabbed by Rosetta stares at her curiously. The other frolicking girls also pause and stare at Rosetta in interest.	1																					
+19	19		301								Girl	Wait, what's going on? Who are you...																						
+20	20		301									Anxious, Rosetta turns with the girl in hand, attempting to pull her out of this place by force.	1																					
+21	21		301									But she pauses at the sight behind her—the forest is still and silent, without any sound of bionics, as if the tide itself had never happened.	1																					
+22	22		401							1	204																							
+23	23		301								Girl	Are you... the girl who lives in the forest we've heard rumors about?!																						
+24	2301		204							1	6																							
+25	24		301								Rosetta	Uh, yeah... No, I'm serious! But the bionics, where have they...	1																					
+26	25		301									The girl, overjoyed, takes Rosetta's hand to show her friends.	1																					
+27	26		301								Girl	Hah! Whaddaya say? I told you the "girl in the forest" wasn't just a rumor! That's what you get for laughing at me!																						
+28	27		301									The other girls gather around Rosetta, looking at her curiously.																						
+29	28		301								Girl	I'm Lisa. What's your name?																						
+30	29		301								Rosetta	Rosetta...	1																					
+31	30		301				AniZhuanchangBegin				Lisa	Hi, Rosetta! Now that we know each other's names, that makes us friends! Come on! Let's play!																						
+32	31		202							1					1																			
+33	32		101							Assets/Product/Texture/Image/BgCg/Cgqz1801.jpg																								
+34	33		301			AniZhuanchangEnd						Having never talked to anyone before, Rosetta did not know how to say no. In a state of confusion, she allows Lisa to drag her and join the other girls.																						
+35	34		301				AniZhuanchangBegin					It was a completely new world to Rosetta. She never thought she would be so happy just talking aimlessly with other girls or playing silly games.																						
+36	35		101							Assets/Product/Texture/Image/BgStory/Bgstory216.png																								
+37	36		301			AniZhuanchangEnd					Lisa	Rosetta, thanks for playing with us for so long and telling us so much about the forest!																						
+38	37		201							1	500210	6																						
+39	38		301							1	Rosetta	No, it's... Yeah, I had a lot of fun...	1																					
+40	39		301								Lisa	Great! But I guess you gotta get home. Looks like your grandpa is here to pick you up.																						
+41	40		201							1	500200																							
+42	41		301							1		Rosetta turns in surprise and sees Pfaff nearby looking at them.	1																					
+43	42		201							1	500210																							
+44	43		301							1	Rosetta	Grandpa! Sorry... I was worried that the bionics were going to attack the girls. So I had to warn them... I won't do it again!	1																					
+45	44		201							1	500200																							
+46	45		301									To Rosetta's surprise, Pfaff did not seem to be angry. Instead, he politely waves at the girls.	1																					
+47	46		301							1	Pfaff	Rosetta, don't forget to wave and say goodbye to your friends. You don't want to be rude, do you?	1																					
+48	47		201							1	500210	6																						
+49	48		301							1	Rosetta	B-bye...	1																					
+50	49		301								Lisa	Bye! Let's play together again sometime!																						
+51	50		202							1																								
+52	51		201							1	500210		400																					
+53	52		201							2	500200		-400																					
+54	53		301							1	Rosetta	Grandpa...	1																					
+55	54		301								Pfaff	Rosetta, has living in the forest been lonely?	2																					
+56	55		301									Rosetta's eyes jut wide open at Pfaff's question, but she then quickly shakes her head.																						
+57	56		301								Rosetta	Nope, not at all... I have you and the animals in the forest, Grandpa... And there's the Guardian Spirit. Everything is fine just the way it is.	1																					
+58	57		202							1	2																							
+59	58		301									Pfaff laughs, a hint of resolution in his chuckle. He takes Rosetta by the hand and places the carving knife he bought on her palm.																						
+60	59		201							1	500210		400																					
+61	60		201							2	500200		-400																					
+62	61		301							1	Pfaff	I'm getting old, Rosetta. Can't keep running around. Starting tomorrow, you'll have to buy supplies at the port for us in my stead.	2																					
+63	62		301								Rosetta	But why, Grandpa?! And the tide, too...	1																					
+64	63		301								Pfaff	Don't worry. The Guardian Spirit has returned, and the tide will be gone soon.	2																					
+65	64		301				AniZhuanchangBegin					Pfaff puts two fingers to his lips and blows a long and loud whistle. Rosetta runs excitedly to the side of the mountain, taking in the view of the sea—																						
+66	65		202							1	2																							
+67	66		101							Assets/Product/Texture/Image/BgStory/Bgstory86.png																								
+68	67		301			AniZhuanchangEnd					Narwhal	——▄——▆▁——▃																						
+69	68		301				AniZhuanchangBegin					All of a sudden, a mechanical narwhal leaps out of the sea with a splash. The girls stop their snowball fight and cheer in awe.																						
+70	69		101							Assets/Product/Texture/Image/BgStory/Bgstory216.png																								
+71	70		201							1	500205																							
+72	71		401							1	207																							
+73	72		301			AniZhuanchangEnd				1		In the shade of the forest, Temia silently watches over the girls in play.	1																					
+74	73		203							1	0.5	400																						
+75	74		201							2	500204		-400																					
+76	75		301							1	Forest Guard	Could we have been like them, had it not been for that accursed experiment...?	2																					
+77	76		204							1	5																							
+78	77		301								Temia	The past is in the past. We are the Forest Guard—we are sinners with nothing but our duty.	1																					
+79	78		301								Forest Guard	Captain...	2																					
+80	79		204							1	1																							
+81	80		301								Temia	Let's move out, Forest Guards. We must destroy the remaining bionics before nightfall.	1																					
+82	81		301		1		AniZhuanchangBegin				Forest Guard	Roger!	2																					

@@ -1,0 +1,60 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		305							2	59																							
+2	2		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory279.png																								
+3	3		401							1	201																							
+4	4		201							1	500165																							
+5	5		301			DialogEnable				1	Lamia	Stop it... I surrender...	1																					
+6	6		301									Lamia barely resists, surrendering immediately after being discovered.																						
+7	7		201							1	500026	10																						
+8	8		301							1	Lee	Are you... really an Ascendant?	1																					
+9	9		201							1	500165																							
+10	10		301							1	Lamia	What's the alternative? I'm not the fighting type... I'll probably hurt myself if I try.	1																					
+11	11		201							1	500166																							
+12	12		301							1	Lucia	If you're surrendering, then tell us the way through the chasm.	1																					
+13	13		201							1	500165	1																						
+14	14		301							1	Lamia	Heh... Isn't going after the Polyphage... more terrifying than death?	1																					
+15	15		201							1	500026	10																						
+16	16		301							1	Lee	You can let me know after you die here.	1																					
+17	17		201							1	500165																							
+18	18		301							1	Lamia	Come on! I'm just joking—joking! Can you please, just please don't go toting your gun around, please...	1																					
+19	19		301								Lamia	It won't help if I tell you anyway. The blockade here can only be disabled by an Ascendant, which means I'm coming with you!	1																					
+20	20		201							1	500166																							
+21	21		301							1	Lucia	From what Strike Hawk reported, not only can she disguise herself, she can also turn invisible using optical camouflage, and vanish when we're distracted.	1																					
+22	22		201							1	500165	1																						
+23	23		301							1	Lamia	I'm not going to run... Definitely not...	1																					
+24	24		203							1	0.25	-400																						
+25	25		201							2	500026		400																					
+26	26		301							1	Lee	And I definitely trust you. Liv, don't we have the mountaineering steel wire from the Support Force?	2																					
+27	27		204							1																								
+28	28		301				AniZhuanchangBegin				Lamia	...Hey! What is this—	1																					
+29	29		202							2					1																			
+30	30		203							1																								
+31	31		301			AniZhuanchangEnd					Lamia	It hurts! That's my tailfin! Have you Babylonians never learned how to properly tie up a mermaid?!	1																					
+32	32		201							1	1031001	6	-400																					
+33	33		201							2	500026		400																					
+34	34		301							1	Liv	I-I'm sorry... This is the first time I've seen a mermaid...	1																					
+35	35		301								Lee	Don't apologize. Here, tighter.	2																					
+36	36		202							1	2				1																			
+37	37		201							1	500146	8																						
+38	38		301							1	Lamia	Oh dear brother, it hurts so much... Please, let me go!	1																					
+39	39		201							1	500026																							
+40	40		301							1	Lee	...	1																					
+41	41		201							1	500146	1																						
+42	42		301							1	Lamia	Ouch! Ouch! OUCH! Why is it getting tighter, my brother—	1																					
+43	43		203							1	0.25	-400																						
+44	44		201							2	500026	10	400																					
+45	45		301							1	Lee	I'll remove all your scales if you pretend to be Murray again.	2																					
+46	46		201							1	500165		-400																					
+47	47		301							1	Lamia	F-fine... Sorry.	1																					
+48	48		202							1	2				1																			
+49	49		301									After you finally tie Lamia up, you hear another massive quake coming from the underground cavern.																						
+50	50		201							1	500165																							
+51	51		301							1	Lamia	Seems like... you didn't make it in time. Oops...	1																					
+52	52		201							1	500166		400																					
+53	53		201							2	500026		-400																					
+54	54		301							1	Lucia	Is that... Luna?!	1																					
+55	55		301								Lee	Let's investigate the epicenter of that quake. Liv, stay in the back and keep your eyes on Lamia. Get moving, mermaid.	2																					
+56	56		202							1	2				1																			
+57	57		201							1	500165																							
+58	58		301		1		AniZhuanchangBegin			1	Lamia	I'm moving, I'm moving! Gentler, please!	1																					
+59	59		502		1					AniZhuanchangBegin																								

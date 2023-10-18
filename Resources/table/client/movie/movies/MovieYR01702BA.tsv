@@ -1,0 +1,118 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory26.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						As the Lunar New Year approaches, frigid winter wind blows dust and rocks across the desert wasteland. But to Constructs, it poses no issue if only the occasional inconvenience of clearing the dust out of their ventilation systems.																						
+4	4		301									As for the Forsaken soldiers, the frigid wind bites at the exposed skin of their tightly bundled up faces. Even so, no one dares to risk adjusting their collars.																						
+5	5		201							1	1101001																							
+6	6		301							1	Watanabe	Squads, report in... Starting with the patrol.	1																					
+7	7		202							1					1																			
+8	8		301									Watanabe's voice is not loud, but it stood out clearly in the strong wind, obviously indicating that he was in a foul mood.																						
+9	9		201							1	500005																							
+10	10		301							1	Patrol Leader	All the remaining personnel have been patrolling within a 7-kilometer radius of the base since yesterday—all except for the teams that were dispatched on missions, sir.	1																					
+11	11		201							1	1101001																							
+12	12		301							1	Watanabe	Any findings during the patrol?	1																					
+13	13		203							1	0.25	400																						
+14	14		201							2	500005		-400																					
+15	15		301							1	Patrol Leader	Yes, sir. The patrol encountered three medium-sized groups of Corrupted, roughly fifteen to thirty enemies each. All enemies were exterminated with zero casualties... We were very thorough.	2																					
+16	16		301									Watanabe nods, hiding a sigh of relief. No one wishes to receive bad news, let alone so close to New Year's.																						
+17	17		301								Watanabe	Are camp defenses underway?	1																					
+18	18		202							1	2				1																			
+19	19		201							1	500005																							
+20	20		301							1	Guard Leader	Yes, sir! The 6th to 8th regiments are responsible for clearing the camp of all danger. We are urgently working on dismantling and shielding against Corrupted traps and fortifications. All that is left is the area northwest of the camp.	1																					
+21	21		301								Guard Leader	Additionally, we have left equipment for each Forsaken soldier and handed over the stockpile of firearms and ammunition to the logistics squad, which should be stored in the warehouse by now…	1																					
+22	22		201							1	1101001		400																					
+23	23		201							2	500005		-400																					
+24	24		301							1	Watanabe	Should...?	1																					
+25	25		301									Watanabe interrupts the guard leader, startling him. Luckily, the soldier beside him speaks up on his behalf.																						
+26	26		301								Patrol Leader	He means that we are awaiting confirmation from the logistics leader, sir. Correct?	2																					
+27	27		202							1	2				1																			
+28	28		201							1	500005																							
+29	29		301							1	Guard Leader	Ah... Haha, r-right!	1																					
+30	30		202							1					1																			
+31	31		301									The guard leader elbows the Forsaken soldier standing behind him. Unlike the others, he has a nametag with "Zong" on his chest for no apparent reason.																						
+32	32		201							1	500172																							
+33	33		301							1	Zong	?	1																					
+34	34		301									The guard leader lowers his voice and maintains a stiff smile, saying to the confused soldier behind him—																						
+35	35		203							1	0.25	400																						
+36	36		201							2	500005		-400																					
+37	37		301							1	Guard Leader	"Zong"... Have you confirmed the munitions transfer?	2																					
+38	38		301								Zong	Um, well... We haven't had time, but that's not our fault, sir.	1																					
+39	39		202							1	2				1																			
+40	40		201							1	1101001																							
+41	41		301							1	Watanabe	And why is that?	1																					
+42	42		201							1	500172																							
+43	43		301							1	Zong	Sir. We have been debating over an important issue...	1																					
+44	44		301									Watanabe rarely saw this guy look so serious. As such, he stifles his anger and awaits an explanation.																						
+45	45		301								Zong	Why don't we have rice dumplings on New Year's? I mean...	1																					
+46	46		202							1					1																			
+47	47		201							1	1101001																							
+48	48		301							1	Watanabe	What was that?	1																					
+49	49		301									Fortunately, a strong gust of wind obscures his voice. Several soldiers next to him immediately cover his mouth.																						
+50	50		301								Watanabe	What are you guys doing?	1																					
+51	51		201							1	500005																							
+52	52		301							1	Patrol Leader	Nothing, sir. Zong was just saying that we have been too busy preparing for New Year's, so we haven't had time to confirm with logistics.	1																					
+53	53		201							1	500172		400																					
+54	54		201							2	500005		-400																					
+55	55		301							1	Guard Leader	Y-yeah, that's right. We were just reminding him to follow up with logistics, sir.	2																					
+56	56		301									Zong shakes himself from their tight grip and gasps for air after nearly suffocating.																						
+57	57		301								Zong	Munition collection has reached the quota according to the plan three days ago, sir. Much earlier than last year...	1																					
+58	58		301									Hearing this, Watanabe's expression appears to relax a little.																						
+59	59		301								Zong	However, food consumption has increased marginally in an attempt to create new dishes, sir. But that's unavoidable...	1																					
+60	60		202							1	2				1																			
+61	61		201							1	1101001																							
+62	62		301							1	Watanabe	Understood, Zong. Then you will have no problem living off rationed water during New Year's. Record that, if he drinks more than one extra drop of water, he will be court martialed by the Forsaken.	1																					
+63	63		201							1	500172																							
+64	64		301							1	Zong	Really?! You gotta be joking?!	1																					
+65	65		202							1					1																			
+66	66		301									The patrol leader shrugs his shoulders helplessly, then writes "Dead man walking" in his notebook.																						
+67	67		301									The sound of Zong's lamentation is joined by the sound of a military ATV convoy approaching over the rolling yellow sand and stopping in front of the Forsaken base.																						
+68	68		301				AniZhuanchangBegin					All of the Forsaken soldiers pause, including Watanabe, and assemble at the gate.																						
+69	69		101							Assets/Product/Texture/Image/BgStory/BgStory31.jpg																								
+70	70		301			AniZhuanchangEnd					Forsaken Rookie	What's this... Looks worse than the previous Corrupted horde…																						
+71	71		301								Forsaken Veteran	You must be new here.																						
+72	72		301									The recruit nods uncertainly. Even though he was in fact still a recruit, considering how many battles he had already fought in, what sort of dire situation had he not already seen before?																						
+73	73		301								Forsaken Veteran	It's worse than a Corrupted attack... Monsters that fear neither bullets nor blades. Attacks are useless—you'll only end up hurting yourself.																						
+74	74		301								Forsaken Veteran	Defense lines are useless in stemming the tide. They have left nothing but devastation... and despair in their wake!																						
+75	75		301									The recruit gulps, following the veteran's gaze looking out at the trucks.																						
+76	76		301								Forsaken Veteran	Watch out! Here they come!																						
+77	77		401							1	205																							
+78	78		301									The car doors open, unleashing dozens of children gleefully running into the Forsaken base.																						
+79	79		301									The Forsaken soldiers try to corral the children, but they are heavily outnumbered, causing the scene to devolve into chaos.																						
+80	80		301									Some climb onto the soldiers to touch their weapons, some pull down tents arduously erected in the strong wind, some try climbing over the walls to escape from the base... Indeed, this is far worse than any Corrupted attack.																						
+81	81		301								Forsaken Rookie	Who are these devil children?!																						
+82	82		301								Forsaken Veteran	These are the children scattered throughout the various Forsaken camps. They come here to celebrate the Lunar New Year.																						
+83	83		301									Although many of the younger children are wreaking havoc throughout the camp, most of the older children gather around Watanabe obediently. This does not seem to be the first time they are at the Forsaken base.																						
+84	84		201							1	1101001																							
+85	85		301							1	Watanabe	This year you are not here to play, but to start training in the Forsaken reserve and learn the skills necessary to protect yourself in this world.	1																					
+86	86		301									Although they are still very young, the children shout "Yes, sir" in unison.																						
+87	87		204							1	1																							
+88	88		301							1	Watanabe	But let's save training for another day... Today, you're free to play.	1																					
+89	89		301									Seeing as kids will always be kids, they all take off running after hearing the word "play"—all but the three oldest, that is.																						
+90	90		204							1																								
+91	91		301								Watanabe	If I remember correctly... You must be Xiuyong, Annie and Deckard.	1																					
+92	92		201							1	500279																							
+93	93		201							2	500279		600																					
+94	94		201							3	500280		-600																					
+95	95		301							1	Xiuyong	Uncle Watanabe still remembers us! Pay up, Deckard!	1																					
+96	96		301									Watanabe ruffles their hair, grinning.																						
+97	97		202							1	2	3			1																			
+98	98		201							1	1101001																							
+99	99		301							1	Watanabe	What's that? Learn to bet now, have we?	1																					
+100	100		201							1	500279																							
+101	101		201							2	500279		600																					
+102	102		201							3	500280		-600																					
+103	103		301							1	Annie	Will you have time to play with us while we're here, Uncle Watanabe?	3																					
+104	104		301								Deckard	Or training works, too. As long as you let me hold your gun...	2																					
+105	105		202							1	2	3			1																			
+106	106		301									Watanabe thinks for a moment, then shakes his head regretfully.																						
+107	107		201							1	1101001																							
+108	108		301							1	Watanabe	Unfortunately, I don't think I'll have much time to spend with you all.	1																					
+109	109		201							2	500279		-600																					
+110	110		301							1	Xiuyong	WHAT?! Why...	2																					
+111	111		301								Watanabe	We received a survey mission from Babylonia... So I probably won't be spending much time in the base until the mission is over.	1																					
+112	112		201							3	500279		600																					
+113	113		301							1	Deckard	Why?! Those Babylonian scumbags abandoned us! Why are you doing missions for them, Uncle Watanabe...	3																					
+114	114		301									Watanabe pats Deckard on the head. He does not want to answer, but seeing that the other two children are equally curious, he answers helplessly.																						
+115	115		204							1	1																							
+116	116		301								Watanabe	Even though the world is a disaster, there are still festivals worth celebrating...	1																					
+117	117		301		1		AniZhuanchangBegin				Watanabe	Babylonia seems to have changed a lot... At the very least, it's worth trying to be on good terms.	1																					

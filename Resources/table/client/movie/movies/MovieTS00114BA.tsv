@@ -1,0 +1,49 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory28.jpg																								
+2	2		401							1	201																							
+3	3		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	2																							
+4	4		201							1	1031001																							
+5	5		301			DialogEnable				1	Liv	I'm safe! Luckily I detonated the weapon in time...	1																					
+6	6		301							1	Liv	Browning...?	1																					
+7	7		201							1	500028																							
+8	100		401							2	1515																							
+9	8		301							1	Browning	...	1																					
+10	9		201							1	1031001																							
+11	10		301							1	Liv	There's only his head left...	1																					
+12	11		301								Liv	This is all a trap... What's happening to Lucia and the rest of them?!	1																					
+13	12		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab		1																						
+14	13		301							1		Comms request.	1																					
+15	14		301							1	Liv	Lucia! Something's gone really wrong with Browning! There's no distractor! It's all a setup! Don't approach the Golden Vortex building, you're all in danger!	1																					
+16	15		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab		1																					
+17	16		201							1	1091001																							
+18	17		301							1	Bianca	The comms of all the teams sent by Babylonia are getting interfered with, including the Gray Ravens'.	1																					
+19	18		203							1	0.25	400																						
+20	19		201							2	1031001		-400																					
+21	20		301							1	Liv	Bianca!	2																					
+22	21		301								Bianca	You've made a mess of yourself again. You shouldn't continue the mission in your current state.	1																					
+23	22		301								Liv	I...	2																					
+24	23		204							2	14																							
+25	24		301							1	Liv	I'm sorry.	2																					
+26	25		204							2																								
+27	26		301							1	Liv	Why is Babylonia sending in the Purifying Force? Does it mean that... there's a Construct in that building?!	2																					
+28	27		301								Bianca	That's not it. My target's not inside the Golden Vortex.	1																					
+29	28		301								Bianca	We've set up a temporary base inside the desert—here are the coordinates. I hope you can get yourself fixed up when you get there.	1																					
+30	29		301								Liv	Please don't say something like that to me! I can still fight!	2																					
+31	30		301								Liv	Even though... even though my weapon is destroyed, I can still help out in other ways...	2																					
+32	31		301								Liv	I can follow you and protect you! I can do it, I promise!	2																					
+33	32		301								Bianca	Liv, you and I belong to different teams. I have no authority over what you do, but as a fellow warrior of Babylonia, I hope you'll grow—not just stronger...	1																					
+34	33		301								Bianca	But wiser as well. If you insist on operating in this state, not only will you hurt yourself, you'll endanger other squads as well.	1																					
+35	34		204							1	4																							
+36	35		301								Bianca	So consider what I said, alright?	1																					
+37	36		204							1																								
+38	37		301								Liv	...I understand now. I'll head to the base immediately...	2																					
+39	38		301								Bianca	Liv...	1																					
+40	39		301								Liv	Yes?	2																					
+41	40		301								Bianca	Don't forget to check your Inver-Device when you get there.	1																					
+42	41		301								Liv	I won't forget it! Thanks.	2																					
+43	42		202							2					1																			
+44	43		203							1	0.25																							
+45	44		401							2	1516																							
+46	45		301							1	Bianca	(Turns and leaves)...	1																					
+47	46		301								Bianca	Better keep it to myself.	1																					
+48	47		301		1		AniZhuanchangBegin				Bianca	If she knew I'm here to save her commandant, she would have followed me no matter how hurt she was.	1																					

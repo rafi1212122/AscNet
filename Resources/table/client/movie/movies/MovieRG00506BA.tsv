@@ -1,0 +1,44 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory78.jpg																								
+2	2		401							1	201																							
+3	3		301								Narration	You have almost walked around the entire town, but it looks just as peaceful.																						
+4	4		201							1	500110		-400																					
+5	5		201							2	1081001		400																					
+6	6		301							1	Ayla	Speaking of which, Kamui, are you familiar with this movie? Anything worth noting?		1																				
+7	7		301							1	Kamui	Not really... If a movie is always so peaceful, I'll get bored really soon... Wait, what's that?		2																				
+8	8		301									Kamui is pointing to a footprint trail that leads to the north of the town.																						
+9	9		302								Found it.	10																						
+10	10		201							1	500026		-400																					
+11	11		301							1	Lee	Let's go then.	1																					
+12	12		301				AniZhuanchangBegin				Kamui	Feels like we are those typical bold young people in horror movies... Hey, wait for me!	2																					
+13	13		101							Assets/Product/Texture/Image/BgStory/Bgstory96.png																								
+14	14		201							1	500198		-400																					
+15	15		201							2	500199		400																					
+16	16		301			AniZhuanchangEnd				1	Shop Owner	ia! ia!	2																					
+17	17		301							1	Tom	ia! ia!	1																					
+18	18		301									A white rocky ground in the dark forest catches everyone's eye.																						
+19	19		301									The moonlight only makes it more disturbingly bright.																						
+20	20		301									There is a group of people in the center of the rocky ground. Tom and the grocery shop owner are there too.																						
+21	21		301								Shop Owner	F'fhalma... Geb! Geb!	2																					
+22	22		301								Tom	F'gnaiih... Geb! Geb!	1																					
+23	23		301								Everyone	hai!hai!hupadgh hai!																						
+24	24		301								Everyone	hai!hai!hupadgh hai!																						
+25	25		201							1	500166		-400																					
+26	26		201							2	500026		400																					
+27	27		301							1	Lucia	...What are they doing?	1																					
+28	28		301								Lee	Whatever they are doing, it doesn't look good.	2																					
+29	29		201							1	500110		-400																					
+30	30		301							1	Ayla	I think I have seen similar things in the database...	1																					
+31	31		201							2	1081001		400																					
+32	32		301							1	Kamui	Oh! Wanshi told me about this movie!	2																					
+33	33		301								Kamui	It was about a group of people trying to summon something horrible... Something like that.	2																					
+34	34		301								Kamui	But I watched it for twenty minutes and it was all peaceful daily life of the town. So I turned it off.	2																					
+35	36		201							1	500166		-400																					
+36	37		201							2	500026		400																					
+37	38		301							1	Lee	...	2																					
+38	39		301								Lucia	...	1																					
+39	40		202							2					1																			
+40	41		201							1	1081001																							
+41	42		301							1	Kamui	Screw it. It's just a summon ritual, right? Let's just smash everything!	1																					
+42	43		301									Kamui picks up his greatsword and charges out again.																						
+43	44		302		1		AniZhuanchangBegin				...Whatever.	45																						

@@ -1,0 +1,90 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	1001		401							1	201																							
+3	2		301			DialogEnable						It was eerily quiet.																						
+4	3		301									A moment later...																						
+5	4		301								Gabriel	Miss Luna, I'm going to open it, please take a step back.																						
+6	5		301								Luna	Be quick.																						
+7	6		301				DialogDisable					Snap—La—																						
+8	7		101			RImgBg1Enable				Assets/Product/Texture/Image/BgCg/Cgqz111.jpg																								
+9	8		301			DialogEnable					Roland	Hmph...																						
+10	9		301								Gabriel	Seems to be unconscious still.																						
+11	10		301								Lucia	...																						
+12	11		301								Roland	How can we wake her up then?																						
+13	12		301									Looking at the unconscious Lucia, Luna walked to the surgery pod and slowly raised her right hand to Lucia's face. The red electric currents started running up and down her fingertips.																						
+14	13		301				AniZhuanchangBegin				Luna	Lucia...																						
+15	14		101							Assets/Product/Texture/Image/BgStory/Bgstory13.jpg																								
+16	15		301			AniZhuanchangEnd						As Luna touches Lucia ever so lightly, the scarlet Punishing Virus spreads from Luna to the entire operating pod.																						
+17	16		301									The virus invaded Lucia from different angles, and after such strong stimulation, Lucia opened her eyes.																						
+18	17		201							1	1021001	9																						
+19	18		301							1	Lucia	Ugh!	1																					
+20	19		301								Lucia	...	1																					
+21	20		202							1					1																			
+22	21		301									——																						
+23	22		301									Awake, Lucia looks around at the scarlet electric currents and becomes alerted.																						
+24	23		201							1	1021001																							
+25	24		301							1	Lucia	Corrupted!	1																					
+26	25		202							1					1																			
+27	26		201							1	500105		-450																					
+28	27		201							2	500101		450																					
+29	28		301							1	Luna	!	1																					
+30	29		301								Gabriel	Be careful, Miss Luna.	2																					
+31	30		202							1	2				1																			
+32	31		301									Lucia broke free of Luna's power and Gabriel came between them just in time.																						
+33	32		301									Lucia took advantage of the situation and sprang out of the gap between the three, then rolled on the ground to pick up the weapon next to the pilot's body.																						
+34	33		201							1	500008																							
+35	34		301							1	Roland	You haven't fully regained your consciousness. Are you able to go into combat mode as you are?	1																					
+36	35		202							1					1																			
+37	36		301									Gabriel moves his arm away from Luna and walks toward the now violent Lucia.																						
+38	37		301									Lucia steadies herself with her weapon and slashes at Gabriel without no hesitation.																						
+39	38		201							1	1021001																							
+40	39		301							1	Lucia	Argh!	1																					
+41	40		202							1					1																			
+42	41		301									In the face of Lucia's powerful slashes, Gabriel calmly raised his right arm and the blade made a crisp sound of metal clashing as it reached Gabriel's right arm.																						
+43	42		301									What shocked Lucia is that no matter how hard she tried, she could not move her blade an inch forward.																						
+44	43		201							1	500101																							
+45	44		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab		1																						
+46	45		301							1	Gabriel	Hmph.	1																					
+47	46		201							1	1021001																							
+48	47		301							1	Lucia	It's hard!	1																					
+49	48		201							1	500101																							
+50	49		301							1	Gabriel	Put down your weapon!	1																					
+51	50		202							1					1																			
+52	51		301									As he spoke, Gabriel clenched his left hand and threw a punch at Lucia.																						
+53	52		301									Lucia quickly pulled her blade back and parried the attack, but the punch still sent Lucia flying.																						
+54	53		201							1	1021001		-450																					
+55	54		201							2	500105		450																					
+56	55		301							1	Lucia	Urgh...	1																					
+57	56		301								Luna	Stop, Gabriel!	2																					
+58	57		202							1	2				1																			
+59	58		201							1	500101																							
+60	59		301							1		Gabriel then stopped to attack and hid his steel arm back under his cloak.	1																					
+61	60		201							1	1021001		-450																					
+62	61		201							2	500105		450																					
+63	62		301							1	Luna	Lucia!	2																					
+64	63		301								Luna	Lucia... Sis…	2																					
+65	64		301								Lucia	Lu... na...	1																					
+66	65		202							1	2				1																			
+67	66		301									A smile flashed across Lucia's face, but...																						
+68	67		201							1	1021001		-450																					
+69	68		201							2	500105		450																					
+70	69		301							1	Lucia	No, that was... You are Corrupted!	1																					
+71	70		301								Luna	I...	2																					
+72	71		301								Lucia	The transformation of Luna failed, so she... was abandoned by humans!	1																					
+73	72		301								Luna	I... am that Luna...	2																					
+74	73		301								Lucia	It's impossible! The goddamned Corrupted... and Punishing Virus!	1																					
+75	74		202							1	2				1																			
+76	75		301									Lucia kept holding her blade and moved slowly to the left.																						
+77	76		301									She moved a few steps, rolled over a broken wall, then ran toward the preset spot.																						
+78	77		301									The three watched Lucia from a distance in silence.																						
+79	78		201							1	500101		-450																					
+80	79		201							2	500105		450																					
+81	80		301							1	Gabriel	Miss Luna, she's running out of the capturing area.	1																					
+82	81		301								Luna	...I know.	2																					
+83	82		202							1	2				1																			
+84	83		301									Luna fell silent as she watched Lucia leaving, then turned at Roland to give him a new order.																						
+85	84		201							1	500008		-450																					
+86	85		201							2	500105		450																					
+87	86		301							1	Luna	Roland, help me to... bring Lucia back.	2																					
+88	87		204							1	4																							
+89	88		301		1		AniZhuanchangBegin				Roland	Roger...	1																					

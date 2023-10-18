@@ -1,0 +1,44 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory18.jpg																								
+2	2		401							1	102																							
+3	3		201							1	500019																							
+4	4		301			DialogEnable				1	Construct	Ugh... Cough...	1																					
+5	5		201							1	500168	1																						
+6	6		301							1	Vera	A total wipeout, huh.	1																					
+7	7		201							1	500015																							
+8	8		301							1	Tifa	Your turn, Captain?	1																					
+9	9		201							1	500168	13																						
+10	10		301							1	Vera	Nope. No, thanks. We're just temporary acquaintances.	1																					
+11	11		201							1	500015																							
+12	12		301							1	Tifa	I don't care!	1																					
+13	13		202							1																								
+14	14		301									The dark subway station is paved with bodies. Standing in front of a Corrupted, as if mocking it, is a redheaded girl.																						
+15	15		301									The Corrupted charges towards Vera. The spikes on the ground shoot out like bullets, forcing Vera to back up into a run-down wall.																						
+16	16		201							1	500168	13																						
+17	17		301							1	Vera	I could simply end you here... but I know a better way to torture you.	1																					
+18	18		301				AniZhuanchangBegin				Vera	Gray Raven... You'll be perfect for this. Heh.	1																					
+19	19		101							Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+20	101		204							1																								
+21	20		401							1	211																							
+22	21		301			AniZhuanchangEnd					Vera	I'll set you down here.	1																					
+23	22		301								Vera	That ravenling sure is birdbrained, saying that I can have the body right after they're done with their investigation.	1																					
+24	102		204							1	1																							
+25	23		301								Vera	Is it out of naivety? Or something ulterior? Well, interesting either way.	1																					
+26	103		202							1																								
+27	24		301									Vera unloads the preservation pod holding the Corrupted Tifa in a corridor. Without a thought to any repercussions, she connects Tifa to power.																						
+28	25		301									With her brain damaged, the only place she can show her bewilderment is through the screen on top of the pod. Tifa's battered form is now no more than a coffin imprisoning her consciousness.																						
+29	26		301									On the screen, Tifa exhibits panic and regret. Through the connection established by Gray Raven, she is forced to remember all that happened between her and her Commandant.																						
+30	27		301									And understand what she did wrong.																						
+31	28		301				DialogDisable					Vera strokes Tifa's cheek, as if comforting her.																						
+32	29		202				RImgBg1Disable			1																								
+33	30		101			RImgBg1Enable				Assets/Product/Texture/Image/BgCg/Cgqz1703.jpg																								
+34	100		502							RImgBg1BlowUp																								
+35	31		301			DialogEnable					Tifa	I... I... Just what—																						
+36	32		301								Vera	I know you're crying, Tifa. Now that you've regained your humanity, you can feel pain.																						
+37	33		301								Tifa	Commandant... Why... Why do they have a Commandant while my... my Commandant...																						
+38	34		301								Vera	Those who don't feel pain are not actually alive. Without pain, you can't prove that you exist.																						
+39	35		301								Vera	My mission is to kill Tifa. And Tifa, you exist right here, right now.																						
+40	36		301									Vera places a gentle hand on Tifa's cheek comfortingly.																						
+41	37		301								Vera	And that's why I'll give you a way out. Leave all your pain to me—just like how everyone else did.																						
+42	38		301								Vera	That's all I can do for you, Tifa.																						
+43	39		301		1		AniZhuanchangBegin					—And then Vera raises her hand. She punches straight through Tifa's brain and the pod, crushing it all.																						

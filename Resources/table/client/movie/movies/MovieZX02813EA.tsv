@@ -1,0 +1,72 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory587.jpg																								
+2	2		401							1	202																							
+3	3		301			DialogEnable						When Karenina gets back to the propulsion lab, she sees many Engineering Force crew along with the uninjured Kurono researchers.																						
+4	4		301									Yarha is standing by the side and taking care of the wounded crew. His eyes light up when he sees Karenina.																						
+5	5		201							1	500499	7																						
+6	6		301							1	Yarha	Karenina? We have treated the injured crew. There are still Corrupted...	1																					
+7	7		301									Before Yarha can finish, Karenina grabs his sleeve and pulls him away.																						
+8	8		203							1	0.25	-400																						
+9	9		201							2	500494	5	400																					
+10	10		301							1	Karenina	Great, you're here. Come with me! There's an emergency.	2																					
+11	11		301									Karenina quickly heads to the control station, only to find another person already rapidly examining the data on the display.																						
+12	12		201							1	500494	4	-400																					
+13	13		201							2	500495	4	400																					
+14	14		301							1	Teddy	Hey, Karenina, what's going on...?	2																					
+15	15		301								Karenina	The zero-point engine's gone haywire, right? I knew it. So? Are you able to shut it down remotely?	1																					
+16	16		301									Teddy shakes her head and projects the control panel onto a screen.																						
+17	17		301								Teddy	The relay program has rejected all the requests from the control panel. It's probably already infected by the Punishing Virus. At this stage, no one can possibly cut off the reactor's power with programs.	2																					
+18	18		301								Karenina	Not even you?	1																					
+19	19		204							2	5																							
+20	20		301								Teddy	Nope... I hate to say it, but I'm no wizard. If it can't be done, it can't be done...	2																					
+21	21		204							2																								
+22	22		301									Teddy sighs as she tries to think of other solutions.																						
+23	23		301								Teddy	How about we try to shut it down manually?	2																					
+24	24		301								Karenina	I tried already... That thing is surrounded by extremely intense gravitational waves. Nobody can even get close, let alone shut it down.	1																					
+25	25		204							2	13																							
+26	26		301								Teddy	Not even you?	2																					
+27	27		204							1	6																							
+28	28		301								Karenina	I can try to toss you over from outside. Then you'll be able to shut it down manually—as long as you aren't crushed into a pile of dirt on the ground.	1																					
+29	29		201							1	500494	4				1																		
+30	30		201							2	500499	7	-600			1																		
+31	31		201							3	500495	4	600			1																		
+32	32		301							1	Yarha	What exactly are you talking about...?	2																					
+33	33		204							1	4																							
+34	34		301								Karenina	Basically, the control center of the zero-point reactor was infected by the Punishing Virus and is now out of control. It keeps pumping zero-point energy into the engine, causing it to go haywire. The gravitational waves can blow up the lunar base at any time.	1																					
+35	35		204							2	19																							
+36	36		301									Yarha lets out a gasp. He too knows very well what would happen to the people here if the situation continues to deteriorate.																						
+37	37		301								Karenina	Speaking of which, Yarha, do you know any way to bypass the relay and shut down the zero-point engine directly?	1																					
+38	38		301								Yarha	No way... The reactor has top-level security. There are no other ways to cut its power.	2																					
+39	39		301								Karenina	Teddy, how long will it take for the gravitational waves to reach here?	1																					
+40	40		301								Teddy	They aren't expanding. Instead, they have been contracting—	3																					
+41	41		204							1	12																							
+42	42		301									Teddy's reply gives Karenina temporary relief, but she does not seem delighted at all—instead, she gets even more serious.																						
+43	43		204							3	14																							
+44	44		301								Teddy	Don't be too optimistic. The waves are contracting because of the increasing density. The energy supply to the reactor is still going up non-stop.	3																					
+45	45		301								Teddy	It's not difficult to understand. With increased power, the reactor will produce more Punishing Virus... which will then infect more control centers and cause more reactor arrays to malfunction, until all the reactors are overloaded.	3																					
+46	46		204							1	4																							
+47	47		301								Karenina	Which means... the engine is going to get even more out of control...	1																					
+48	48		301								Teddy	According to my calculations, the gravity oscillation generated by the engine will even have the strength to cause a small part of the Moon to implode and decompose... The debris would have an enormous mass and reach the Earth at an incredibly high velocity.	3																					
+49	49		301									Karenina cannot imagine how desperate it will be for the people on the ground. They have survived so many disasters only to face the rain of doom falling from above.																						
+50	50		204							2	7																							
+51	51		301								Yarha	What... about us?	2																					
+52	52		204							3	13																							
+53	53		301								Teddy	Ha... Do you even need to ask?	3																					
+54	54		204							3	4																							
+55	55		204							2	19																							
+56	56		301									Yarha gulps. It is not hard to imagine how everyone here would turn into space dust in a split second.																						
+57	57		301								Teddy	We cannot stop the reactor, but there is still one last chance... Before the zero-point engine finally blows up, the gravitational waves will continue to contract. We may be able to find an extremely short window to approach it...	3																					
+58	58		301								Karenina	If we can destroy the engine at that time... We can shut down the gravitational waves.	1																					
+59	59		301								Teddy	It still cannot guarantee to negate all the existing gravitational waves, but that is the best option available.	3																					
+60	60		204							2	7																							
+61	61		301								Yarha	But... are we really going to destroy the zero-point engine...?!	2																					
+62	62		301									Karenina remains silent. She knows she must destroy the engine for herself, for the people here as well as the innocent humans on the surface...																						
+63	63		301									But it was once the symbol and hope of humanity toward space navigation and the pinnacle of technology during the Golden Age... Is she really qualified to destroy it?																						
+64	64		301								Karenina	Yarha, can we call Babylonia from here?	1																					
+65	65		204							2	19																							
+66	66		301								Yarha	Technically, we can. The ID card I just gave you should be able to connect to Babylonia. But when I tried to do so earlier, there were tons of interference...	2																					
+67	67		301								Teddy	I'm afraid the Punishing Virus has also contaminated the signal station, thus the interference.	3																					
+68	68		301								Karenina	It should be better if we just send a one-way message... Teddy, make a report of everything happening right now.	1																					
+69	69		301								Teddy	Already did it... but you better be fast. The signals are almost cut off.	3																					
+70	70		401							2	1099																							
+71	71		301		1		AniZhuanchangBegin					Karenina makes up her mind. She nods at Yarha and Teddy, then sends a comms request to Babylonia.																						

@@ -1,0 +1,67 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory9.jpg																								
+2	1000		401							1	203																							
+3	2		301			DialogEnable					Suzaku Squad Construct	Urgh...																						
+4	3		201							1	1021001		-400																					
+5	4		201							2	1031001	14	400																					
+6	5		301							1	Liv	His body structure is compromised all over, I'll have to perform emergency treatment...	2																					
+7	6		204							1	3																							
+8	7		301								Lucia	After you're done, put him near the Iso-Device. If he can't recover his memory... You can only hope that he can hold on until the Purifying Force arrives.	1																					
+9	8		301								Liv	Hopefully...	2																					
+10	9		202							1	2				1																			
+11	10		201							1	500006																							
+12	11		301							1	Suzaku Squad Construct	...	1																					
+13	12		201							1	1031001																							
+14	13		301							1	Liv	I'm sorry, but we can't stay by your side.	1																					
+15	14		301								Liv	So please, do not leave the Iso-Device field.	1																					
+16	15		201							1	1011001																							
+17	16		301							1	Lee	Wait. Those Corrupted ahead are behaving... strangely...	1																					
+18	17		201							1	500013																							
+19	1005		401							2	10002001																							
+20	18		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2	1																						
+21	19		301							1	Strange Corrupted	Urgh—	1																					
+22	1001		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab		1																					
+23	20		201							1	1021001																							
+24	21		301							1	Lucia	What?	1																					
+25	22		202							2					1																			
+26	23		201							1	1011001		-400																					
+27	24		201							2	1031001		400																					
+28	25		301							1	Lee	Even if the Corrupted here are stronger than those outside, they should still be susceptible to damage.	1																					
+29	26		301								Liv	There are... strange devices inside these Corrupted...	2																					
+30	27		301								Lee	That's... the core modules of Iso-Devices...	1																					
+31	28		202							1	2				1																			
+32	29		201							1	1021001																							
+33	30		301							1	Lucia	So you mean, they gained new abilities by corrupting the Iso-Devices?	1																					
+34	31		201							1	1011001																							
+35	32		301							1	Lee	This is severe. Iso-Device corruption... HQ didn't mention any of this.	1																					
+36	33		301								Lee	So that's why the Iso-Devices were sealed off before we arrived.	1																					
+37	34		201							1	1031001																							
+38	35		301							1	Liv	But then, how should we deal with these new Corrupted?	1																					
+39	36		202							1					1																			
+40	37		301								System	Connecting—																						
+41	38		201							1	1011001		-400																					
+42	39		201							2	500002		400																					
+43	40		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+44	41		301							1	Vera	Hi, hi! Gray Ravens!	2																					
+45	42		301								Lee	You again?	1																					
+46	43		301								Vera	Just a kind little reminder—	2																					
+47	44		301								Vera	There are several... tricky folks heading toward your way.	2																					
+48	45		301								Lee	What a timely reminder—those "tricky folks" are already right here.	1																					
+49	46		301								Vera	So you don't need a little tip then?	2																					
+50	47		301								Lee	...	1																					
+51	48		301								Vera	Hmph. Their shields can be neutralized by the Iso-Devices. If you want to destroy them, you'll need to do it within the Iso-Device fields.	2																					
+52	49		301								Lee	Stop with the act. You left them for us intentionally.	1																					
+53	50		301								Vera	Oh my... You caught me. After all, dealing with these things would slow us down tremendously.	2																					
+54	51		301								Vera	Well then, give it your best! I'll be seeing you!	2																					
+55	52		301								Lee	Hold on. Don't you have anything else to add?	1																					
+56	53		301								Vera	Hmph. Since when did you become so fussy... That won't make you very popular with the ladies.	2																					
+57	54		301								Lee	Sorry, but that's none of your concern.	1																					
+58	55		301								Vera	Al-right, I'll give you a little something in return. A "wish ticket" from Cerberus whenever you need help or something.	2																					
+59	56		301								Lee	Don't even try this. Don't expect us to clean up your mess for an empty promise.	1																					
+60	57		301								Lee	I was naive to even think that you'd feel apologetic for anything—your actions are going in the mission report.	1																					
+61	58		301								Vera	Aha, that's even less trouble for us—Tifa's getting a little bit out of hand and just slipped through our fingers, so I'll have to go. I'll miss chatting with you, dear. So lo-ong.	2																					
+62	59		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+63	60		202							2					1																			
+64	61		203							1	0.25																							
+65	62		301								System	Disconnected—																						
+66	63		301		1		AniZhuanchangBegin				Lee	Sigh...	1																					

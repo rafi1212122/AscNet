@@ -1,0 +1,48 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory153.png																								
+2	2		401							1	102																							
+3	3		201							1	500180																							
+4	4		301			DialogEnable				1		After defeating the enemies, we quickly ran up the stairs and went through many battle scenes that didn't really match the background settings.																						
+5	5		301							1	Karenina	These scenes have nothing to do with our main plot!	1																					
+6	1001		201							1	500176																							
+7	6		301							1	Camu	I guess Celica only had access to these materials. We're lucky that we aren't stuck. When I watched Kamui play other games...	1																					
+8	1002		302								You are always talking about Kamui.	7	Who's better at playing games, you or Kamui?	8																				
+9	7	9	301								Camu	Ahem... Not at all. I just happen to inherit all the game-related topics from his memory!	1																					
+10	8	9	301								Camu	Isn't it obvious? I will never lose to that fool in anything.	1																					
+11	9		301				AniZhuanchangBegin					Eventually, we jumped across a staircase (broken for no reason) and arrived at a special room.																						
+12	1003		202							1																								
+13	1004		101							Assets/Product/Texture/Image/BgStory/Bgstory170.png																								
+14	1005		201							1	500142																							
+15	10		301			AniZhuanchangEnd				1	???	I have been watching you since you approached the castle... You took a long time to get here, heroes.	1																					
+16	11		301									Apart from some enemies that we previously encountered, there was one figure that gave a very different feel.																						
+17	1006		203							1	0.25	-400																						
+18	1007		201							2	500180		400																					
+19	12		301							1	Karenina	Hey, you are the Demon General, aren't you?	2																					
+20	13		301									Vera and Camu were ready to start fighting, but Karenina walked forward and triggered the dialogue.																						
+21	14		301									It wasn't because she liked to follow orders, but because she preferred to ask the enemies' names before beating them.																						
+22	15		301									Either way, the enemy would still be beaten up, but at least it felt better than straight-forward violence. 																						
+23	16		301							1	Zanzibaron	Right. I am Demon General Zanzibaron.	1																					
+24	17		301									Zanzibaron—I had no clue where that name came from—moved one step forward, dragging his gigantic body.																						
+25	18		301							1	Zanzibaron	You must be the heroes in the revelation. I knew you were coming, but I didn't expect you to come so fast.	1																					
+26	1008		302								What are "heroes in the revelation"?	19	Did you know we were coming since the beginning?	22																				
+27	19	20	301								Zanzibaron	How can you be heroes but not know the legend of the revelation? How did you even get here?	1																					
+28	20	21	301								Karenina	Because we skipped the story.	2																					
+29	21	25	301								Zanzibaron	In the Goddess' revelation, there would be heroes...	1																					
+30	22	23	301								Zanzibaron	Aye, we Demons rely on our perception to survive...	1																					
+31	23	24	301								Zanzibaron	"Survive"? You say it like you are on the brink of extinction.	1																					
+32	24	25	301								Zanzibaron	Right, because...	1																					
+33	25		301								Karenina	Stop. I wasn't interested in your story, and I will not listen to it. Learning your name is more than enough!	2																					
+34	1009		401							1	111																							
+35	1010		401							2	10007001																							
+36	26		301			PanelActor1Shake				1	Zanzibaron	!?	1																					
+37	27		301									Well, Karenina was only following her own rules. She forced to start the battle when Zanzibaron was still trying to explain the background settings.																						
+38	28		301									Fusion Dragon smashed on Zanzibaron's face like a giant club.																						
+39	3000		202							1	2																							
+40	1011		201							1	500176		400																					
+41	1012		201							2	500181		-400																					
+42	29		301							1	Vera	Camu, are sneak attacks like that allowed in the game?	2																					
+43	30		301								Camu	"I don't see any problems. That looked like a compulsory battle to me. 【kuroname】, we are about to engage in multiple battles. I assume you will give orders, right?"	1																					
+44	1013		302								I thought you didn't need me.	32	Of course!	32																				
+45	31	33	301								Camu	We can easily tackle the minions, but Boss fight can be very demanding. You do the thinking, we do the action.	1																					
+46	32	33	301								Camu	Hmph, good to know. It's a Boss after all, we need all the available resources!	1																					
+47	33		301		1		AniZhuanchangBegin				Camu	Let's do it then!	1																					

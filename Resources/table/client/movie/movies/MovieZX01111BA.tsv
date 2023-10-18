@@ -1,0 +1,84 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory161.png																								
+2	2		401							1	208																							
+3	3		301			DialogEnable						The ship is a total mess. When the people aboard learn of the disappearance of Huaxu and Qu, they burst into tears and laughter.																						
+4	100		201							1	500026																							
+5	5		301							1	Lee	Is it... finally over?	1																					
+6	6		302								I feel like there are still many unsolved mysteries.	7	Yep.	7																				
+7	7		301				AniZhuanchangBegin				Lee	The ship became free when Huaxu disappeared. Luckily, Lucia gained partial authority because of the mind transfer process.	1																					
+8	101		202							1					1																			
+9	8		504							0.7																								
+10	9		101							Assets/Product/Texture/Image/BgStory/Bgstory167.jpg																								
+11	500		502							RImgBg1BlowUp																								
+12	10		301			AniZhuanchangEnd	AniZhuanchangBegin			1	Lee	About the two intel reports found in that nearly unused terminal...																						
+13	11		101							Assets/Product/Texture/Image/BgStory/Bgstory161.png																								
+14	501		505							RImgBg1BlowUp																								
+15	12		504							0																								
+16	102		201							1	500026																							
+17	13		301			AniZhuanchangEnd				1	Lee	Two proposals, to be more exact. One is about the Nighter ship, and the other about "Kowloong Corp", signed with two names respectively.	1																					
+18	14		301								Lee	Villier... and... Qu.	1																					
+19	103		201							1	1031001	14																						
+20	15		301							1	Liv	So Villier is Qu's real name? Then where is KCC's real leader?	1																					
+21	16		302								One mystery after another.	104	Still many puzzles to solve...	104																				
+22	104		201							1	500151																							
+23	17		301								Lucia	As long as we have Commandant around, we'll sort it out eventually.	1																					
+24	105		201							1	1031001	1																						
+25	18		301								Liv	Lucia is starting to feel like Commandant, somehow...	1																					
+26	106		201							1	500026																							
+27	19		301								Lee	Commandant, for reasons I've already explained, it's best that we avoid missions like this from now on.	1																					
+28	107		202							1					1																			
+29	20		301									The ship drifts. Everyone trains their sights upon the sea's surface, an azure painting glittering under the morning sun.																						
+30	108		201							1	500155	1																						
+31	21		301							1	Chrome	Commandant of Gray Raven, and everyone else. Good to see you all in one piece.	1																					
+32	22		302								Did you engage in combat inside Huaxu's M.I.N.D. too?	23	Where's Kamui?	24																				
+33	23	109	301								Chrome	Yes, we fought somewhere else. You guys wrapped up faster than we did. Gray Raven speed, I guess.	1																					
+34	24		301								Chrome	He's on his way. Probably held up by something.	1																					
+35	109		204							1																								
+36	25		301								Chrome	I'm not sure why you got here in the first place, but we uncovered some unsettling intel. I take it that you've learned something too?	1																					
+37	26		302								(Talk about Qu's identity)	27	(Talk about Kowloong Corp)	110																				
+38	27		301								Chrome	So the leader on the ship is not the real "Qu", and this place is not the real Kowloong?	1																					
+39	28	111	301								Chrome	Does that mean there are other similar ships or bases?	1																					
+40	110		201							1	500151																							
+41	29		301								Lucia	A place is mentioned in the other one of the two vaguely worded proposals. It could be where the real Kowloong is located.	1																					
+42	9494		201							1	500155																							
+43	30		301							1	Chrome	But how are we supposed to go there...?	1																					
+44	111		201							1	1031001																							
+45	31		301								Liv	According to the memories of Pulao and the others on the ship, the place they left is similar to the sketch in the second plan...	1																					
+46	112		201							1	500026																							
+47	32		301								Lee	Based on everyone's intel and descriptions, Lucia has positioned the Nighter to the location where we first set sail.	1																					
+48	113		201							1	1031001	1																						
+49	33		301								Liv	Well... I'm going to take everyone home safely.	1																					
+50	114		201							1	500155	5																						
+51	34		301								Chrome	Oh, and one more thing. I tracked down the signal of that ship, and I detected some Ascendants.	1																					
+52	115		201							1	500026																							
+53	35		301								Lee	Any idea what that might be?	1																					
+54	116		201							1	500155	5																						
+55	36		301								Chrome	There are several possibilities... but I'm afraid it will take time to explain. We'll settle down before we get to that.	1																					
+56	117		202							1					1																			
+57	37		301							1	Kamui	Hey, Captain, everyone... Ah!																						
+58	333		401							2	1513																							
+59	38		301									Kamui rushes over. For some reason, there is a joyful smile on his face. Completely unaware of the mess on the floor, he trips right after he starts running.																						
+60	39		301									Kamui doesn't have any strength left to regain his balance, perhaps because he is too relaxed now that the combat is over. Yelling and approaching the others, he seems like he is going to fall at any moment.																						
+61	40		301									The first person to dodge him is Chrome. Then, Liv gets out of his way as well. As for Lucia, she gets in front of me to protect me.																						
+62	118		201							1	1081001	2																						
+63	41		301							1	Kamui	Lee, catch me. Please, brother!	1																					
+64	119		201							1	500026	6																						
+65	42		301				RImgBg1Shake				Lee	I'm not your brother!	1																					
+66	120		202							1					1																			
+67	43		301									Just like that, Lee does a roundhouse kick and pushKamui into the ocean with a loud plop... except that doesn't happen because, at the very last possible moment, Kamui grabs the railing of the ship and comes right back on the deck.																						
+68	121		201							1	1081001	2																						
+69	44		301							1	Kamui	Phew... That was too close for comfort.	1																					
+70	45		302								That is what I was about to say.	122	Are you okay?	48																				
+71	122		201							1	500155	5																						
+72	46		301							1	Chrome	Be more careful next time, Kamui.	1																					
+73	123		201							1	1081001	2																						
+74	47	124	301							1	Kamui	Okay. I will.	1																					
+75	48		301								Kamui	Hehe. Don't worry about it, Commandant!	1																					
+76	124		202			AniZhuanchangBegin				1					1																			
+77	222		401							1	18																							
+78	125		101							Assets/Product/Texture/Image/BgCg/Cg1101_5.jpg																								
+79	49		502							RImgBg1BlowUp																								
+80	50		301			AniZhuanchangEnd						They stand on the deck as the ship continues forward. After a while, the fog starts to lift. Then...																						
+81	51		301									Something with an iridescence suddenly comes into view. It is a very tall tower surrounded by glowing buildings.																						
+82	52		301								Lucia	Commandant, I think that's it...																						
+83	53		301		1		AniZhuanchangBegin					The real Kowloong.																						

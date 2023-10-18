@@ -1,0 +1,78 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	5																							
+3	3		201							1	1041001	2	0																					
+4	4		301			DialogEnable				1	Nanami	Our second date will be in Professor Nanami's lab!	1																					
+5	5		302								Professor?	6	This is a lab?	7																				
+6	6	9	301								Nanami	Because Nanami is the person in charge for this room!	1																					
+7	7		204							1																								
+8	8		301								Nanami	It is if Nanami says so!	1																					
+9	9		204							1	1																							
+10	10		301								Nanami	Anyway, this is what we're going to do in the lab.	1																					
+11	11		301									As she speaks, Nanami brings over an uncanny-looking mannequin from a dark corner of the room.	1																					
+12	12		302								You want to learn about the human anatomy?	13	What are you going to do with Mr. Mannequin...	16																				
+13	13	16	301								Nanami	Dissection is the last step, even though Nanami has collected information on human anatomy.	1																					
+14	14		301								Nanami	Mhmm, to pick up where we left off, of course!																						
+15	15		204							1	2		1																					
+16	16		301								Nanami	This is Nanami's Reverse Harem Experience!	1																					
+17	17		302								Where did you find out about stuff like this?	18	Do you even know what Reverse Harem means?	20																				
+18	18		204							1	1																							
+19	19	22	301								Nanami	Liv's room! She has loads of books on it in her locker.	1																					
+20	20		204							1	1																							
+21	21		301								Nanami	Hmph... don't you underestimate Nanami's comprehension powers. A Reverse Harem is a situation where multiple males pursue one female, correct?	1																					
+22	22		301								Nanami	And since I couldn't invite anyone else on such short notice, Mr. Mannequin will stand, and Commandant will facilitate the Reverse Harem Experience!	1																					
+23	23		302								What did you have in mind?	24	I'm a little tired...	26																				
+24	24		204							1	2																							
+25	25	28	301								Nanami	Hmph, you're helping Nanami? Why thanks, Commandant.	1																					
+26	26		204							1																								
+27	27		301								Nanami	If Commandant were to walk away, Nanami might just... shatter the base on accident?	1																					
+28	28		204							1	1																							
+29	29		301								Nanami	First, we put one of Mr. Mannequin's hands on his hip, like so, and the other on the wall, like so. Commandant, you'll have to pretend to barge in by accident, stumbling on some male cornering your girlfriend or something.	1																					
+30	30		302								Quite a detailed setting...	31	This Reverse Harem doesn't feel too right.	33																				
+31	31		204							1	2																							
+32	32	34	301								Nanami	Hehe, it's Nanami's favorite scenario!	1																					
+33	33		301								Nanami	Really? I think it's quite fun!	1																					
+34	34		204							1																								
+35	35		301								Nanami	Say, this mannequin is not that... flexible.	1																					
+36	36		301								Nanami	Hmph! Relax your stupid fingers!	1																					
+37	37		301									With brute force, Nanami bends Mr. Mannequin's fingers in a way that they're not supposed to bend, reaching an approximation of the cornering pose.	1																					
+38	38		204							1	2																							
+39	381	39	401							1	205																							
+40	39		301				AniZhuanchangBegin				Nanami	Okay, that should do it. Next, Commandant needs to go behind the door. Chop chop!	1																					
+41	40		202							1					1																			
+42	41		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+43	42		301			AniZhuanchangEnd						Her scene complete, Nanami pushes you into the storage closet. You see nothing in the pitch black.																						
+44	43		301								Nanami	Nanami is ready. Come on in, Commandant!																						
+45	44		302								(Open the door)	45	(No way)	46																				
+46	45	48	301				AniZhuanchangBegin					You push open the door like Nanami told you.																						
+47	46		301								Nanami	Nanami is ready. Come on in, Commandant!																						
+48	47	44	301									Looks like she will just keep saying it if you don't open the door.																						
+49	48		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	3																							
+50	49		101							Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+51	50		201							1	1041001	0	400																					
+52	51		301			AniZhuanchangEnd				1	Nanami	Oh... what are you doing?	1																					
+53	52		203							1	0.25	-400																						
+54	53		204							1	2																							
+55	54		301								Mannequin	Such a fine young lady. How 'bout I take you to the bar, show you a good time?	1																					
+56	55		203							1	0.5	0																						
+57	56		301									Classic theater ensues: Nanami shifts from playing the cornered girl to voicing the mannequin cornering her.	1																					
+58	57		301									Girl-Nanami flashes you a helpless look.	1																					
+59	58		302								Let. Her. Go!	59	Do go on.	65																				
+60	59		204							1																								
+61	60		301								Nanami	Hey...Who ARE you?	1																					
+62	61		301									Mr. Mannequin (voiced by hers truly) whirls around at the sound of your voice and, with some help from hers truly, rushes over to you.	1																					
+63	62		204							1	2																							
+64	63		301								Nanami	Stop! Don't fight over me!	1																					
+65	64	70	301				AniZhuanchangBegin					Having neglected to think through the rest of the script in her head, Nanami nonetheless soldiers on, reciting lines that make no sense—	1																					
+66	65		204							1																								
+67	66		301								Nanami	Oh... Okay...	1																					
+68	67		301									The mannequin (voiced by Nanami) looks flustered, and mutters something like "watch your back" before returning to script: cornering the girl.	1																					
+69	68		301								Nanami	Wait! Commandant, you're supposed to swoop to Nanami's rescue!	1																					
+70	69		301				AniZhuanchangBegin					Nanami scoops up the mannequin and rushes over, intent on playing out her scene.	1																					
+71	70		401			RImgBg1Shake				2	1506																							
+72	71		401			RImgBg1Shake				3	105004																							
+73	72		401							2	1503																							
+74	73		101							Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+75	74		301			AniZhuanchangEnd						The scene quickly devolves into chaos. Dents start appearing all over the room from Nanami's forceful stage management, and sometime along the way, Mr. Mannequin loses all of his facial features except one hanging eye. Hearing the commotion, someone opens the door.	1																					
+76	75		201							1	1011001	10																						
+77	76		301		1		AniZhuanchangBegin			1	Lee	Commandant... what are you two up to?	1																					

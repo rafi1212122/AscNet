@@ -1,0 +1,34 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	201																							
+3	3		201							1	500021																							
+4	4		301			DialogEnable				1	Liv	Commandant, I've already logged and updated today's agenda. Please follow it strictly as scheduled.	1																					
+5	5		302								U-understood.	6	Did something happen, Liv?	7																				
+6	6	8	301								Liv	You don't have to repeat yourself, Commandant.	1																					
+7	7		301								Liv	Did something happen? What a weird question, Commandant.	1																					
+8	8		301								Liv	I'll be waiting for you at the entrance then. Please come over once you're ready.	1																					
+9	9		201							1	1011001																							
+10	10		301							1	Lee	Another packed day, Commandant?	1																					
+11	11		302								So very packed...	12	Does Liv hate me?	13																				
+12	12	14	301								Lee	This is inhumanely intensive...	1																					
+13	13		301								Lee	You'll have to ask her yourself.	1																					
+14	14		203							1	0.25	400																						
+15	15		201							2	1021001		-400																					
+16	16		301							1	Lucia	Liv does seem quite different recently, especially when it comes to her personality... Did it begin when she changed to the Lux frame?	2																					
+17	17		301								Lee	Switching frames doesn't alter our personality, though. You know that, Lucia.	1																					
+18	18		301								Lucia	Which is why I'm as perplexed as the commandant regarding why Liv is acting the way she is now.	2																					
+19	19		302								She feels like how Lucia used to be.	20	Can't be puberty, can it?	22																				
+20	20		301								Lucia	How I used to be?	2																					
+21	21	24	301								Lee	The way you were meticulous and diligent, I suppose. And maybe a little inapproachable.	1																					
+22	22		301								Lee	Puberty? What do you think we are? Kids?	1																					
+23	23		301								Lee	I don't think we'll go through that kind of mental transition.	1																					
+24	24		202							1	2				1																			
+25	25		201							1	500021																							
+26	26		301							1	Liv	Commandant, I've been waiting outside the base for ten minutes. It's time for the mission to begin.	1																					
+27	27		301								Liv	I thought you must have received an urgent mission.	1																					
+28	28		301								Liv	As much as I agree with the importance of communicating with your teammates, I don't think it's worth delaying a mission.	1																					
+29	29		301								Liv	You can understand, can't you?	1																					
+30	30		302								I understand...	31	Liv, there's something I want to discuss with you.	31																				
+31	31		201							1	1021001																							
+32	32		301							1	Lucia	Commandant, let's just go on the mission with Liv for now.	1																					
+33	33		301		1		AniZhuanchangBegin				Lucia	We'll pay more attention to her behavior in the process. I'm sure we'll find out why she's changed.	1																					

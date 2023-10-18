@@ -1,0 +1,103 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	456		102							Inver-Collapse	Chapter 7	Assets/Product/Texture/Atlas/CommonLogo/BgLogo1.png																						
+2	457		502							ThemeEnable																								
+3	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory26.jpg																								
+4	2		401							1	201																							
+5	3		201							1	1091001		-400																					
+6	4		201							3	500007		400																					
+7	5		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																						
+8	6		301			DialogEnable				1	Bianca	I think we need an evaluation of the current status, but that's not something I can decide.	1																					
+9	7		301								Chrome	Give me some time, I'll handle the talking.	3																					
+10	8		202							1					1																			
+11	9		201							2	1021001	4	-400																					
+12	10		301							1	Lucia	Chrome, the one he needs the most right now is you.	2																					
+13	11		301								Chrome	I understand, but I have more important things to handle.	3																					
+14	12		301								Chrome	It's about Kamui and "Tenebrion"—I have to report to the council.	3																					
+15	13		202							2					1																			
+16	14		201							2	1111001		-400																					
+17	15		301							1	Karenina	Bianca, our mission is to clean up any corrupted and defected Constructs!	2																					
+18	16		301								Chrome	Kamui did not betray us!	3																					
+19	17		301								Karenina	Those are only your words! He's already corrupted by the virus, it's an insurmountable fact!	2																					
+20	18		301								Karenina	I don't have time to waste down here!	2																					
+21	19		301								Chrome	Kamui already has a solution. He hasn't shown signs of corruption, and has kept his rationality and consciousness intact. No signs of aggression were displayed as well.	3																					
+22	20		301								Chrome	As the leader of the Strike Hawk squad, I choose to believe him.	3																					
+23	21		301								Karenina	Bianca, if we keep dawdling, the other target's gonna be lost!	2																					
+24	22		202							2					1																			
+25	23		201							1	1091001		-400																					
+26	24		301							1	Bianca	You have until we catch up to him, Chrome.	1																					
+27	25		202							1					1																			
+28	26		201							2	1111001	5	-400																					
+29	27		301							1	Karenina	We only have to follow the mission instructions, Bianca. This is asking for trouble.	2																					
+30	28		301								Karenina	We might be disciplined for this!	2																					
+31	29		204							2																								
+32	30		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																					
+33	31		202							3					1																			
+34	32		201							1	1091001		400																					
+35	33		301							1	Bianca	I know, that's why I'm not fully giving him the pass... But as a leader, I know I'd do the same thing as Chrome.	1																					
+36	34		202							2					1																			
+37	35		201							3	500007		-400																					
+38	36		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																						
+39	37		301							1	Chrome	Thank you, Bianca.	3																					
+40	38		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																					
+41	39		202							3					1																			
+42	40		201							2	1111001	5	-400																					
+43	41		301							1	Karenina	Tsk—	2																					
+44	42		204							2																								
+45	43		301								Bianca	According to the geo signals, Kamui went far into the desert. We don't have much time, Karenina. Let's go.	1																					
+46	44		202							2					1																			
+47	45		201							2	1021001		-400																					
+48	46		301							1	Lucia	The Purifying Force has geo info of all Constructs?	2																					
+49	47		301								Bianca	I understand your opinions on the Purifying Force—I know we're called "hyenas who hunt their own" behind our back. But we never touch Constructs who do not pose a threat.	1																					
+50	48		301								Bianca	And, we do not normally have the authority to access locational signal data. Though it would make our missions a lot easier if we did.	1																					
+51	49		301								Bianca	Only in absolute necessity are we allowed access to such data.	1																					
+52	50		301								Bianca	No time to waste. I'll take full responsibility for Kamui's case. Gray Raven squad, you may leave now.	1																					
+53	51		302								No, we're coming with you.	52																						
+54	52		202							2					1																			
+55	53		201							2	1031001		-400																					
+56	54		301							1	Liv	Commandant?!	2																					
+57	55		302								Kamui is our friend.	56																						
+58	56		202							2					1																			
+59	57		201							2	1021001	4	-400																					
+60	58		301							1	Lucia	Indeed. I worry for Kamui as well.	2																					
+61	59		202							2					1																			
+62	60		201							2	1011001	10	-400																					
+63	61		301							1	Lee	The guy might be an annoying airhead, but his absence is all the more audible.	2																					
+64	62		202							2					1																			
+65	63		201							2	1031001	1	-400																					
+66	64		301							1	Liv	And in the mission against "Tifa", Kamui helped us out a lot as well. This is our turn to repay him.	2																					
+67	65		202							2					1																			
+68	66		201							2	1111001	5	-400																					
+69	67		301							1	Karenina	Hey Gray Ravens, don't create extra work for us!	2																					
+70	68		202							2					1																			
+71	69		201							3	500007		-400																					
+72	70		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																						
+73	71		301							1	Chrome	Gray Ravens, I'll ask for your cooperation as well.	3																					
+74	72		301								Bianca	You don't need to do this. I've already made a reasonable compromise. I will keep my end of the promise.	1																					
+75	73		301								Chrome	No, it's not that I don't trust you. But considering the part about the unknown energy, support in the scale of the Gray Raven squad is necessary.	3																					
+76	74		301								Bianca	Very well. We don't have the time for a debate anyway. Follow us if you're coming.	1																					
+77	75		301								Bianca	Karenina, let's go.	1																					
+78	76		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																					
+79	77		202							3					1																			
+80	78		201							2	1111001		-400																					
+81	79		301							1	Karenina	Wait, Bianca, you...!	2																					
+82	80		202							2					1																			
+83	81		201							2	1021001		-400																					
+84	82		301							1	Lucia	Let's follow, then.	2																					
+85	83		202							2					1																			
+86	84		201							2	1031001		-400																					
+87	85		301							1	Liv	Commandant, we have a sufficient supply of serums now. It should be enough for the road ahead.	2																					
+88	86		202							2					1																			
+89	87		302								Let's go then!	88																						
+90	88		202							1	2				1																			
+91	89		201							2	1021001		-400																					
+92	90		201							3	500007		400																					
+93	91		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																						
+94	92		301				AniZhuanchangBegin			1	Chrome	All in all. I'll be counting on you.	3																					
+95	93		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																					
+96	94		202							2	3				1																			
+97	95		101							Assets/Product/Texture/Image/BgStory/BgStory31.jpg																								
+98	96		201							1	1091001		400																					
+99	97		201							2	1021001		-400																					
+100	98		301			AniZhuanchangEnd				1	Bianca	This looks like some sort of concentration zone for a certain kind of building.	1																					
+101	99		301								Bianca	There will likely be scavengers wandering around here.	1																					
+102	100		301		1		AniZhuanchangBegin				Bianca	If possible, we can give them a heads up. Just in case they might cause trouble for our mission.	1																					

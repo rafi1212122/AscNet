@@ -1,0 +1,25 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory271.png																								
+2	2		401							1	201																							
+3	3		201							1	500026		-400																					
+4	4		201							2	500166	5	400																					
+5	5		301			DialogEnable				1	Lucia	The connecting bridge ahead is the only route connecting this sector to the next.	2																					
+6	6		301								Lee	The Core Area is on the other side of the bridge. It's highly likely that Huaxu is stored there.	1																					
+7	7		202							1	2				1																			
+8	8		201							1	1031001																							
+9	9		301							1	Liv	But the blockade... Seems like the front end of the bridge is blocked.	1																					
+10	10		302								Is it possible to unlock the blockade command?	11																						
+11	11		201							1	500026		-400																					
+12	12		201							2	500166		400																					
+13	13		301							1	Lee	The mechanism of this blockade seems to be the same as the other ones we've seen before. I can give it a try.	1																					
+14	14		301								Lucia	The bearings also seem to be breakable.	2																					
+15	15		301				DialogDisable				Lee	How should we do this?	1																					
+16	16		305							17	24																							
+17	17		202							1	2				1																			
+18	18		201							1	1031001	7																						
+19	19		301			DialogEnable				1	Liv	The passage is clear!	1																					
+20	20		201							1	500026		-400																					
+21	21		201							2	500166		400																					
+22	22		301							1	Lucia	Let's keep moving	1																					
+23	23		301		1		AniZhuanchangBegin				Lee	Our destination is right up ahead.	2																					
+24	24		202		1		AniZhuanchangBegin			1	2				1																			

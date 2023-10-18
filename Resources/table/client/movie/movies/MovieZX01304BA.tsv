@@ -1,0 +1,126 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory192.png																								
+2	2		401							1	102																							
+3	3		301			DialogEnable				1		The hurried pace, the footprints without a care for direction, the beach decorations that the person must have ran into...																						
+4	4		301									These are all signs that the Construct under pursuit knows nothing about counter-tracking.																						
+5	5		301									For someone to run in so flustered a fashion, they must, at the very least, be worth chasing.																						
+6	6		302								Lee.	7																						
+7	7		201							1	500026																							
+8	8		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+9	9		301							1	Lee	Here.	1																					
+10	10		302								Take Gray Raven and go up ahead.	11																						
+11	11		302								Chrome.	12																						
+12	12		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+13	13		201							1	500155																							
+14	15		301							1	Chrome	Ready anytime. Strike Hawk will fully cooperate.	1																					
+15	16		302								Take Kamui and circle left.	17																						
+16	17		302								I'll go right.	18																						
+17	18		301								Chrome	Got it.	1																					
+18	20		202							1					1																			
+19	21		301									The vital fluid footprints branch left and right curtly, but then eventually regroup. The regrouped trail tumbles toward the gate of the theme park in the distance.																						
+20	22		301									You do not find any signs of a battle, or rather, this person seems completely incapable of fighting.																						
+21	23		302								Lee, report.	24																						
+22	24		201							1	500026																							
+23	25		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+24	26		301							1	Lee	Humanoid, male, Easterner-looking. He's stopped at the entrance of the theme park.	1																					
+25	27		301								Lee	We're still just monitoring. Should we subdue the target now?	1																					
+26	28		302								Move in.	29																						
+27	29		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+28	30		202							1																								
+29	31		301									As imagined.																						
+30	32		301									Looks like this Construct is not only completely oblivious to counter-tracking techniques, but is also heavily wounded.																						
+31	33		301									Before prying any information out of his mouth, he will at least require emergency repairs.																						
+32	34		302								Everyone, surround him.	35																						
+33	35		301				AniZhuanchangBegin				Everyone	Roger!																						
+34	36		101							Assets/Product/Texture/Image/BgStory/Bgstory192.png																								
+35	37		401							1	201																							
+36	38		301			AniZhuanchangEnd						The person being restrained by Lee is a man wearing a black trench coat.																						
+37	39		301									He is restrained, but only so Liv can perform emergency treatment on him.																						
+38	40		301									The Construct does not seem to be equipped with a functional Inver-Device. Even the frame design seems to be dated, harking back to the designs of Operation Acadia.																						
+39	41		301									...Could this be Daedalus technology? But the Purifying Force is out on a mission right now, so it is impossible to confirm with Bianca.																						
+40	42		201							1	500184																							
+41	43		301							1	???	...	1																					
+42	44		302								Who are you?	45																						
+43	45		301								???	...	1																					
+44	46		202							1					1																			
+45	47		301									There is no response.																						
+46	48		301									Which is expected.																						
+47	49		301									Seems like external help might be required to identify this person.																						
+48	50		301									Since this Construct's frame screams Operation Acadia period from up to down, someone in Babylonia might know his background.																						
+49	51		301									It is still a crapshoot, but it should not hurt to ask.																						
+50	52		302								(Connect to public channel)	53																						
+51	53		301									...Someone might be able to help on Babylonia's public channel.																						
+52	54		201							1	500004																							
+53	55		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+54	56		301							1	Asimov	Oh? Aren't you folks on a vacation... Never mind.	1																					
+55	57		301								Asimov	What is it?	1																					
+56	58		302								A little help scanning a Construct, Asimov?	59																						
+57	59		301								Asimov	Sec.	1																					
+58	60		301									...																						
+59	61		301								Asimov	What the—How did this frame withstand Corrupted attacks?	1																					
+60	62		302								Doesn't seem like he can fight.	63																						
+61	63		301								Asimov	You've piqued my curiosity. Is Liv doing emergency repairs on him?	1																					
+62	64		302								Yes.	65																						
+63	65		301								Asimov	I'll need Liv's Inver-Device for a short while to run a more comprehensive scan... Aaand, got it.	1																					
+64	66		301								Asimov	...It's the Ascension-Network.	1																					
+65	67		302								He's an Ascendant?	68																						
+66	68		301								Asimov	That would have been a solid "yes" in the past, but after that Qu in Kowloong, I can't say for sure that he's the sort of Ascendant we know about.	1																					
+67	69		301								Asimov	I'm going to need the speaker on your terminal.	1																					
+68	70		302								Go ahead.	71																						
+69	71		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+70	72		201							1	500184																							
+71	73		301							1	???	...	1																					
+72	74		203							1	0.25	400																						
+73	75		201							2	500004		-400																					
+74	76		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+75	77		301							1	Asimov	Heh. I know you're listening.	2																					
+76	78		301								Asimov	I've already found definite traces of Ascension-Network signals on you. But what is that hidden unknown function installed in your frame?	2																					
+77	79		302								Hidden function?	80																						
+78	80		301								???	...Just kill me. The contents within will self-destruct when I die.	1																					
+79	81		301								???	Then that "Miss Luna" will never get it.	1																					
+80	82		301								???	After all, you're all just expendable underlings like me, yes? I'm not saying a thing.	1																					
+81	83		301								Asimov	This is related to that "Miss Luna"?	2																					
+82	84		301								???	...Cut the act.	1																					
+83	85		301								Asimov	The people in front of you are the task force of Babylonia, not sent by that "Miss Luna" you mentioned.	2																					
+84	86		301								Asimov	【kuroname】, prove it.	2																					
+85	87		302								(Show unique ID code)	88																						
+86	88		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+87	89		202							2					1																			
+88	90		203							1	0.25	0																						
+89	91		301								???	...Why is Babylonia here?	1																					
+90	92		302								Ahem, just happened to be here, really.	93																						
+91	93		301									The mysterious man eyes you strangely, then doubtfully surveys the Constructs around him.																						
+92	94		301								???	You people have nothing to do with the Ascendants?	1																					
+93	95		302								Nope.	96																						
+94	96		301								???	...If you are indeed unaffiliated with the Ascendants, then perhaps...	1																					
+95	97		202							1					1																			
+96	98		401							2	1503																							
+97	99		401							1	102																							
+98	100		301				RImgBg1Shake					Right at that moment, a black figure plummets from above your heads and lands, kicking up a cloud of dust.																						
+99	101		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	1																							
+100	102		302								Spread out!	103																						
+101	103		201							1	500166	5																						
+102	104		301				PanelActor1Shake			1	Lucia	Commandant!	1																					
+103	105		401							2	1509																							
+104	106		301									Lucia grabs the handle on the back of your exoskeleton armor, then activates the jetpack behind her to carry you out of the billowing dust.																						
+105	107		301									The others scatter as the dust clears, and the figure in the center of the dust cloud reveals himself.																						
+106	108		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab																							
+107	109		201							1	500008					1																		
+108	65424		301									It is a familiar face—Roland, the Ascendant. He lands between you and the mysterious man, who took the blunt of the impact and is knocked down onto the gravel once again.																						
+109	65425		301									Roland lifts the man handily, then flings him to two Corrupted who followed his landing. They immediately pin the man to the ground.																						
+110	65426		301									Then he turns. He surveys your group on the beach with his usual bemused expression.																						
+111	110		301							1	Roland	Hola amigos.	1																					
+112	111		301								Roland	Nothing makes me happier than seeing you all alive and kicking.	1																					
+113	112		301								Roland	After all, t'would be a shame if you died before I got to destroy you one by one... Wouldn't it?	1																					
+114	113		302								...You.	114																						
+115	114		301								Roland	Indeed. It's a me.	1																					
+116	115		301								Roland	Why are you the one surprised? Try being me, seeing you here for some reason.	1																					
+117	116		302								What are you doing here?	117																						
+118	117		301								Roland	Ah-ah-ah. No, no, that's not how it goes. No explanations for you. Because we, the Ascendants, are the masters, the host, here today.	1																					
+119	118		301								Roland	And the master need not explain to the guest their presence. 'Tis the other way round, the guests are the ones to explain their reason of visit.	1																					
+120	119		201							1	500026																							
+121	120		301							1	Lee	Cut the crap. Now that you're here, you're never getting away.	1																					
+122	121		201							1	500008																							
+123	122		301							1	Roland	Oh, you animal! Bad! What a bad houseguest you make!	1																					
+124	123		301								Roland	How fortunate you are though—I just have a thing for bad guests.	1																					
+125	124		301		1		AniZhuanchangBegin				Roland	So. Let's play a game.	1																					

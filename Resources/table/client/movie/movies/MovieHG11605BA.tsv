@@ -1,0 +1,148 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory98.png																								
+2	2		401							1	202																							
+3	3		301			DialogEnable						Your mind wanders in the dark. As you slowly regain consciousness, the voices around you trickle into your ears, gradually and sparingly, like raindrops dripping down the eaves.																						
+4	4		201							1	500226																							
+5	5		301							1	Gravelly Male Voice	Akdilek must be very shorthanded to send a child like you.	1																					
+6	6		201							1	500225																							
+7	7		301							1	Changyu	It's gonna cost you, judging a book by its cover.	1																					
+8	8		201							1	500226																							
+9	9		301							1	Gravelly Male Voice	Watch it. I'll let it slide this time, but only because you've brought me my mark.	1																					
+10	10		302								(His mark?)	11	(Does he mean me?)	11																				
+11	11		202							1					1																			
+12	12		301									It does not matter for now. You are treading on a tightrope—better keep up the unconscious act and observe quietly.																						
+13	13		401							2	1516																							
+14	14		301									Right then, you hear footsteps closing in, and with them a sense of hostility that further weighs down your heavy breaths.																						
+15	15		201							1	500225																							
+16	16		301							1	Changyu	Hey, hands off the goods! 【kuroname】 is not yours yet. How about your part of the deal?	1																					
+17	17		301									Changyu's protest is followed by the sound of a connected hit, and the hostile presence stumbles away from you.																						
+18	18		302				DialogDisable				(Changyu...)	19	(Right, what was that he said...)	19																				
+19	19		202				RImgBg1Disable			1					1																			
+20	20		101			RImgBg1Enable				Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+21	21		301			DialogEnable				1	Changyu	Hm? Relax, the drug I gave you wasn't that powerful to begin with. You'll wake up in no time.	1																					
+22	22		502				RImgBg1Disable			DialogDisable																								
+23	23		101			RImgBg1Enable				Assets/Product/Texture/Image/BgStory/Bgstory98.png																								
+24	24		302								(Did he know I'll be awake by now?)	25																						
+25	25		301			DialogEnable					Serious Female Voice	What are you doing?!																						
+26	26		201							1	500225																							
+27	27		301							1	Changyu	Reminding you of the terms of our deal. No one benefits if you violate 'em.	1																					
+28	28		301								Changyu	Or maybe you do want to fight a Construct?	1																					
+29	29		301								Changyu	My left wrist comes with a special little trinket today. Perhaps y'all want a demonstration?	1																					
+30	30		302								(Left wrist?)	32	(Is he talking about...)	32																				
+31	31		202							1					1																			
+32	32		301									Taking Changyu's hint, you stealthily twist your left arm under the cover of the wall, activating the beacon in your bracelet.																						
+33	33		301								Serious Female Voice	Trinket? What are you talking about?																						
+34	34		301									Changyu only answers with a disdainful grunt.																						
+35	35		201							1	500226																							
+36	36		301							1	Gravelly Male Voice	Just show him the thing.	1																					
+37	37		401							2	1509																							
+38	38		301									You hear the sound of a suitcase unlocking.																						
+39	39		301								Gravelly Male Voice	Take a look.	1																					
+40	40		301									Changyu takes a few steps and stops nearby.																						
+41	41		201							1	500225	1																						
+42	42		301							1	Changyu	Yep, looks good. This device'll help us sort out the knockoffs.	1																					
+43	43		202							1					1																			
+44	44		301								Calm Female Voice	If everyone's happy with their merchandise, let's move on and pay your... "deposits."																						
+45	45		301								Calm Female Voice	Once we've sealed our deal, Akdilek will remove our enemies for us; in exchange, we will no longer adulterate your products. Perhaps that's enough to salvage your name, or whatever's left of it.																						
+46	46		302								(I see...)	47	(So that's what Changyu's after...)	47																				
+47	47		301								Calm Female Voice	However, in the event of a breach of contract...																						
+48	48		201							1	500225	13																						
+49	49		301							1	Changyu	You'll go kaboom with your inside men on our train?	1																					
+50	50		202							1					1																			
+51	51		401							2	1516																							
+52	52		301									Changyu sneers in the far corner of the room. He turns around, the sound of his footsteps heading toward you.																						
+53	53		302								(Carefully open your eyes)																							
+54	54		301									In your hazy vision, you can see Changyu approaching and flexing his wrists. He, however, is brimming with satisfaction, without a trace of his mocking sneer.																						
+55	55		201							1	500225	1																						
+56	56		301							1	Changyu	Hey, you awake?	1																					
+57	57		302								What's going on?	58	...Didn't you already know?	59																				
+58	58	61	301								Changyu	I'm really sorry. I promise I'll make it up to you in a sec.	1																					
+59	59		301								Changyu	Yeah... Truth is, I don't think I can handle this by myself.	1																					
+60	60		204							1																								
+61	61		301									Quiet as you two may be, you have alerted the others in the room.																						
+62	62		201							1	500226																							
+63	63		301							1	Gravelly Male Voice	That piece of trash's awake?	1																					
+64	64		201							1	500225																							
+65	65		301							1	Changyu	I'll explain later. Prepare to bolt—	1																					
+66	66		301									Before he can finish, the female guard leaps onto Changyu with her weapon in hand, only to receive a kick from him square in the stomach that sends her flying.																						
+67	67		201							1	500226																							
+68	68		301							1	Gravelly Male Voice	You dare?! Everyone, charge! Kill the Babylonian first, we'll settle the boy's debt later!	1																					
+69	69		302							1000	...!	72	...Changyu!	73																				
+70	70		201							1	500225	1																						
+71	71		303							1000																								
+72	72	75	301							1	Changyu	In your dreams, you old coot.	1																					
+73	73		301							1	Changyu	Easy, I'm right here.	1																					
+74	74		202							1																								
+75	6450		401							2	1512																							
+76	75		301									Changyu dodges the attacks coming from the front, and he sends the attackers reeling on the floor with a well-placed uppercut. A dash—and he is right next to the suitcase he is after. He picks it up and throws it backward.																						
+77	76		302								(Catch the suitcase)	77																						
+78	77		201							1	500225	1																						
+79	78		301							1	Changyu	Nice catch! Now GO!	1																					
+80	79		401							2	1502																							
+81	80		301									Seeing his human followers are no match to a Construct, the leader sounds the alarm, and the place is immediately swarmed with mechanoid guards.																						
+82	81		204							1	3																							
+83	82		301								Changyu	Well... Shit.	1																					
+84	83		202							1					1																			
+85	84		401							2	10002001																							
+86	85		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+87	86		301									Out of nowhere, a flurry of blades tear apart the front door, alongside the mechanoid guards that were flooding in—and as the dust settles, there stand the three members of Gray Raven.																						
+88	87		201							1	500166																							
+89	88		301							1	Lucia	Commandant! Are you alright?!	1																					
+90	89		302								I'm fine.	90	I don't think so...	92																				
+91	90		201							1	1031001	6																						
+92	91		301							1	Liv	You don't look fine...	1																					
+93	92		201							1	500026	10																						
+94	93		301							1	Lee	You better have a good explanation on what the hell is happening—	1																					
+95	94		201							1	500225	14																						
+96	95		301							1	Changyu	Oh shut it, just run!	1																					
+97	96		201							1	500226																							
+98	97		301							1	Gravelly Male Voice	Stop! Do you have any idea what you're doing?! Do you understand what this transgression would cost Akdilek?!	1																					
+99	98		201							1	500225	1																						
+100	99		301							1	Changyu	Oh, I'm afraid you're the one in the dark. When was the last time you heard from your guy?	1																					
+101	100		201							1	500226																							
+102	101		301							1	Gravelly Male Voice	Enough with your bullshit! I've just heard from him!	1																					
+103	102		201							1	500225	1																						
+104	103		301							1	Changyu	You mean you've heard this?	1																					
+105	104		301									Changyu takes out a small cubic apparatus from his pocket, and with a tap comes a familiar voice.																						
+106	105		301									"All is good, bossman. No need to worry."																						
+107	106		204							1																								
+108	107		301								Changyu	He kept following me around, so I decided to record everything he said... The trick is to hide the cuts with some static, y'know? As for the trash you placed on our train... I haven't heard from them, have ya?	1																					
+109	108		302								That's what you meant by "cleaning"?	110																						
+110	109		204							1	2																							
+111	110		301								Changyu	That's right, with the time you bought me.	1																					
+112	111		201							1	500226																							
+113	112		301							1	Gravelly Male Voice	Kill them!	1																					
+114	113		401							2	1509																							
+115	114		201							1	500142		-600																					
+116	115		201							2	500142		0																					
+117	116		201							3	500142		600																					
+118	117		301							1		At the sound of his howl, all the mechanoid guards burst in the house through the broken door, the smashed windows, even the torn down air ducts—and surround the group in a swirl of chaos.	1	2	3																			
+119	118		302								(Raise your gun)	119																						
+120	119		202							1	2	3			1																			
+121	120		201							1	500225																							
+122	121		301							1	Changyu	Follow me!	1																					
+123	122		202							1					1																			
+124	123		301									The incoming mechanoid guards keep shoving each other into the confined space, causing more and more mayhem.																						
+125	124		301									Fortunately, each fallen mechanoid guard becomes another brick of a metal wall that shields you. Unfortunately, the more they fall, the more your escape route is clogged.																						
+126	125		301									You cannot reach the three Gray Ravens at the door, and you are getting further away from Changyu, as the two of you are slowly forced to the two sides of the room.																						
+127	126		201							1	500225	3																						
+128	127		301							1	Changyu	Hey, shouldn't we be retreating?	1																					
+129	128		302								The best-laid plans go astray.	129	Hey, dream, meet reality.	129																				
+130	129		301									Taking a step away from this metal wall of fallen machines means an open season for the rest of them.																						
+131	130		302								Humans are kind of fragile!	131	I'm not a Construct!	131																				
+132	131		301									Changyu lets out a sigh. The fight is straining on him, but he manages to turn around; with his punches leading the way, he moves toward you, one mechanoid at a time.																						
+133	132		301									Suddenly, the faint sound of a ticking clock catches his attention.																						
+134	133		204							1	5																							
+135	134		301							1	Changyu	No! 【kuroname】!	1																					
+136	135		302								?	136																						
+137	136		301									Changyu's moves become frantic, his fists swinging wildly—but none of it matters, as he still fails to breach the walls of mechanoids and fallen machines.																						
+138	137		301								Changyu	—GET OUT OF MY WAY!!!	1																					
+139	138		202							1					1																			
+140	139		301			RImgBg1Shake						Changyu's cry rings with a thunderous quake, shattering a wall nearby and the mechanoid guards in his way—but then—																						
+141	140		301									"Tick—"																						
+142	141		401							2	1503																							
+143	142		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+144	143		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+145	144		301									A blinding white light coats your vision; a deafening buzz pierces your eardrums. You are deprived of your senses—and yet, amid this pulsating chaos, a voice, almost heartbreaking in its desperation, reaches you.																						
+146	145		301								Changyu	【kuroname】!																						
+147	146		301		1		AniZhuanchangBegin					...Chang Yu, did he manage to reach you?																						

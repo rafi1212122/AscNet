@@ -1,0 +1,222 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+2	2		401							1	209																							
+3	3		301									...																						
+4	4		301									Whine—																						
+5	5		301									A deafening whine pierces through your eardrums and slithers deep into your mind.																						
+6	6		302								What is this place?	7																						
+7	7		301									Your mind feels like mush. Colors seem to mix together, and the air is stagnant with the smell of vital fluid and a certain metallic tang. You see nothing but whiteness.																						
+8	8		302								What is happening?																							
+9	9		301									A sudden voice, misty and dreamlike, seeps over from afar.																						
+10	10		301								???	...Commandant...																						
+11	11		301								???	...Link... Stabilizer...																						
+12	12		302								Huh?	13																						
+13	13		301									You try to ask the voice, but nothing comes out of your mouth. Only the cold, rusty air floods in, bringing with it a displeasing dampness.																						
+14	14		302				AniZhuanchangBegin			1000	(Stabilize Mind Beacon)	17	(Check M.I.N.D. connection)	19																				
+15	15		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+16	16		303							1000																								
+17	17		301			AniZhuanchangEnd						...																						
+18	18	20	301									After a short while, your vision finally returns to normal.																						
+19	19		301			AniZhuanchangEnd						Your Mind Beacon seems to be strongly connected to something...																						
+20	20		502				RImgBg1Disable			DialogDisable																								
+21	21		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	3																							
+22	22		101			RImgBg1Enable				Assets/Product/Texture/Image/BgStory/Bgstory268.png																								
+23	23		301			DialogEnable	DialogDisable					The whiteness disperses, and a gray ceiling enters your eyes. A metallic floor then follows. The sight is both a familiar, and foreign one.																						
+24	24		302								This is...	25																						
+25	25		302								The underground cave in City 075.	26	This must be a dream.	39																				
+26	26		301			DialogEnable						Indeed. This place looks the same as the secret base of the Ascendants, or at least, as you remember it. But then, why would you be here?																						
+27	27		302								Ugh...	28																						
+28	28		301			RImgBg1Shake						A sudden headache bites away at you, disturbing your thoughts.																						
+29	29		401							1	203																							
+30	30		401							2	1508																							
+31	31		201							1	500013																							
+32	32		301							1	???	Urgh—!	1																					
+33	33		302								The Corrupted?	34																						
+34	34		203							1	0.25	-400																						
+35	35		201							2	500013		400																					
+36	36		401							2	1508																							
+37	37		301				DialogDisable			1	???	Urgh!!!	1	2																				
+38	38		302								This looks bad...	53																						
+39	39		401							1	205																							
+40	40		301			DialogEnable						Yep. This must be a dream. In the morning, Celica is going to wake you up with a half-meter tall stack of reports and a billion phone calls, like usual.																						
+41	41		401							2	1508																							
+42	42		201							1	500013																							
+43	43		301							1	???	Urgh—!	1																					
+44	44		302								Not that unusual seeing Corrupted in dreams.	45	What did I do to deserve this in my dreams?	45																				
+45	45		203							1	0.25	-400																						
+46	46		201							2	500013		400																					
+47	47		401							2	1508																							
+48	48		301							1	???	Urgh—!	1	2																				
+49	49		302								They're getting closer and closer...	50	Trying to scare me in my dreams? No chance.	50																				
+50	50		301								???	—!!	1	2																				
+51	51		301				DialogDisable					The Corrupted approach in a most inhuman fashion, their appendages even flicking gravel up at you. A spurt of gravel strikes your skin with a realistic scrunch.																						
+52	52		302								...	53																						
+53	53		302								This looks real bad...	54																						
+54	54		401							2	1508																							
+55	55		301			DialogEnable					???	URGH!	1	2																				
+56	56		202							1	2				1																			
+57	999		401							1	203																							
+58	57		302								Gotta run!	58	(Retaliate)	59																				
+59	58	62	301									Before the Corrupted could land a hit on you, you take a mighty leap and run for your life.																						
+60	59		301									You subconsciously reach for your pistol, only to find nothing.																						
+61	60		302								...I'm completely unarmed.	61																						
+62	61		301									And so, before the Corrupted could land a hit on you, you take a mighty leap and run for your life.																						
+63	62		401							2	1513																							
+64	63		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab	2																							
+65	64		301									All thanks to the physical training in F.O.S., you manage to quickly lose the Corrupted.																						
+66	65		301				AniZhuanchangBegin					As you run, memories flash past your eyes...																						
+67	66		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab																							
+68	67		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+69	68		401							1	201																							
+70	69		301			AniZhuanchangEnd					???	Commandant... Are you sure?																						
+71	70		301								???	I'll keep monitoring the stability of your mind.																						
+72	71		301				AniZhuanchangBegin				???	If anything bad happens, disconnect immediately... But well, you know that already.																						
+73	72		101							Assets/Product/Texture/Image/BgStory/Bgstory273.png																								
+74	73		301			AniZhuanchangEnd						Memories converge, like leaves caught in a stream.																						
+75	74		301									You linked your mind to an Ascendant...																						
+76	75		301									Her hair, long and pristine. The skin, pallid and almost translucent. And that gaze, ever so mysterious.																						
+77	76		302								I... linked with Luna.	77																						
+78	77		301									"Commandant, connecting with an Ascendant is extremely dangerous. We don't know what might happen."																						
+79	78		301									"I know, but we've been doing fine so far. Let's cross that bridge when we come to it."																						
+80	79		302								Yes...	80																						
+81	80		301									"Commandant..."																						
+82	81		301									"Leave this to me."																						
+83	82		301									"...Okay!"																						
+84	83		302								What happened after that?	84																						
+85	84		301				DialogDisable					You only remember a hazy whiteness, then pain, and darkness.																						
+86	85		302								...Nope, can't remember anything else.	86																						
+87	86		302								(Look around)	87																						
+88	87		301			DialogEnable						You come to the same conclusion as before. This is indeed the underground cave in City 075. Yet something is amiss—like how the ground is rumbling as if something is moving beneath...																						
+89	88		301									Why did you wake up here, after you connected with Luna?																						
+90	89		301									Not to mention how your Mind Beacon is still strongly connected to a certain unknown signal.																						
+91	90		302								Am I connected to Luna?	92	Am I connected to the Gray Ravens?	92																				
+92	92		401							2	1508																							
+93	93		201							1	500013																							
+94	94		301							1	Corrupted	—!	1																					
+95	95		302								They're here again...!	96																						
+96	96		201							2	500013		600																					
+97	97		201							3	500013		-600																					
+98	98		301							1		A horde of Corrupted slowly pour out of a building not so far away. They are somehow shambling toward you with pinpoint accuracy, as if installed with radars.	1	2	3																			
+99	99		302								Looks like this is a new group of Corrupted.	100	Can't handle them all. Better run.	100																				
+100	100		202							1	2	3			1																			
+101	101		201							1	500066																							
+102	102		301							1	???	...	1																					
+103	103		301									Suddenly, a ghostly shadow slides out of the darkness and blocks your path.																						
+104	104		302								α!?	105																						
+105	105		201							1	500100																							
+106	106		301							1	α	...	1																					
+107	107		301									The Alpha before you is silent, her gaze taking on an iciness magnitudes above her usual self... Or, more accurately, her eyes seem to be unfocused.																						
+108	108		301								α	...	1																					
+109	109		302								Who are you?	110	What are you trying to do?	110																				
+110	110		301									Alpha ignores your question. She draws her weapon and mechanically trudges forward. The Corrupted behind her also seem to have multiplied in numbers like magic.																						
+111	111		302								Where did they come from...?	112	This makes no sense at all...	112																				
+112	112		202							1					1																			
+113	113		301									Right as Alpha raises her blade, the answer to this series of strange events finally strikes you.																						
+114	114		302								This isn't the real world!	115																						
+115	115		201							1	500100																							
+116	116		301							1	α?	...	1																					
+117	117		302								Ngh!	118																						
+118	118		202						500	1					1																			
+119	119		401							2	10002001																							
+120	120		501				RImgBg1Shake			Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+121	121		301									You take a step back, barely dodging the attack. The wind from the cut still scratches you like a whip.																						
+122	122		302								Sure hurts like reality, though...	123																						
+123	123		201							1	500100																							
+124	124		301							1	α?	...	1																					
+125	125		202						500	1					1																			
+126	126		401							2	10002001																							
+127	127		501				RImgBg1Shake			Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+128	128		301									The Alpha-looking someone is not over yet. She attacks you once more.																						
+129	129		302								If only I had a weapon...	130	I can't handle her head on.	131																				
+130	130	132	301									Dodging the attack, you scan around for a makeshift weapon.																						
+131	131		301									Dodging the attack, you scan around for a quick route of escape.																						
+132	132		301									...And you discover a white figure about ten meters away from you, just around a corner.																						
+133	133		302								That's...	134	Luna?	134																				
+134	134		201							1	500100																							
+135	135		301							1	α?	...?	1																					
+136	136		301									Hearing what you just said, "Alpha" finally gives a reaction. She stops attacking to turn and look behind her.																						
+137	137		302								(Now!)	138																						
+138	138		202							1					1																			
+139	139		301									Knowing full well that your fragile human body cannot keep up with a Construct, you quickly come up with an ingenious plan, worthy of your top graduate spot in commandant school...																						
+140	140		302								Run!	141	RUN!	141																				
+141	141		401							2	1513																							
+142	142		201							1	500100																							
+143	143		301							1	α?	...	1																					
+144	144		301									To this strange Alpha, the Luna around the corner is evidently more interesting to her than you are. She simply ignores you and sheathes her blade, slowly approaching Luna.																						
+145	145		202							1					1																			
+146	146		401							2	1508																							
+147	147		301				DialogDisable					The Corrupted nearby, as if following the same command, also move toward Luna. Their eyes glow in a sanguine redness, brighter than before.																						
+148	148		302								This isn't right...	149																						
+149	149		302								They seem to be...	150																						
+150	150		301			DialogEnable						The Luna hiding in the corner shuffles. She seems to have noticed the wave of Corrupted headed for her.																						
+151	151		301									Luna covers her mouth and takes a few steps back. She then pivots and bolts into the darkness, her tiny frame quickly dissolving into nothing.																						
+152	152		302								They're attacking Luna?	153																						
+153	153		301									At the very least, "Alpha" and the Corrupted are still going after her. You should be safe, for now.																						
+154	154		301									You slowly jog to a halt as you reach a hiding place and finally catch a breath. Making good use of this opening, you get your thoughts in order.																						
+155	155		302								I connected to Luna.	156																						
+156	156		301									Indeed, there was no other way.																						
+157	157		302								And then I woke up in this place.	158																						
+158	158		301									...Everything here makes no sense.																						
+159	159		302								...That "Alpha" going after her sister.	160	...That Luna running away.	161																				
+160	160	162	301									"Alpha" was brimming with hostility. The real Alpha would never do that to her sister... So this "Alpha" must not be the real one.																						
+161	161		301									"Alpha" was brimming with hostility for her sister. And Luna herself seems to be targeted by the Corrupted as well...																						
+162	162		301									Based on all that has happened, plus the fact that this cannot be the real world, this leaves only one option...																						
+163	163		302								This is a M.I.N.D.	164																						
+164	164		301									This is the only plausible explanation.																						
+165	165		301									Since M.I.N.D.s are highly incompatible with other consciousnesses, some M.I.N.D.s would activate a self-defense mechanism during a mind link and attack any consciousnesses within... Or so you have heard from Asimov.																						
+166	166		302								If it's Luna, then this is possible.	167	Asimov must be happy with a new case study.	167																				
+167	167		301				DialogDisable					Surveying your surroundings once more, you find it to be deathly quiet. Nothing obvious comes to your attention.																						
+168	168		302								...	169																						
+169	169		302				AniZhuanchangBegin				I can't sit here and do nothing.	170																						
+170	170		502							DialogEnable																								
+171	998		101							Assets/Product/Texture/Image/BgStory/BgStory80.jpg																								
+172	171		301			AniZhuanchangEnd						Footsteps ring out in a long and narrow path.																						
+173	172		301									A hint of fear shows up on the lone maiden's face, looking completely lost. Air distorts around her as she passes, materializing into cubes of data. They crumble as quickly as they appear.																						
+174	173		301									Hearing the mechanical thumps from behind and around her, she becomes disoriented, more and more.																						
+175	174		301									Run... Dead end... Turn... Dead end... Turn again... Another dead end—the paths all begin to blur together.																						
+176	175		301								???	Ah... Hah...																						
+177	176		301									The sounds behind her too, begin to merge into clear footsteps, edging ever closer.																						
+178	177		301								???	...																						
+179	178		301									Angst—how foreign this feeling must be to her. She runs, headed toward a destination she does not even know of.																						
+180	179		401							2	1508																							
+181	180		201							1	500013																							
+182	181		301							1	Corrupted	—	1																					
+183	182		301									The enemies behind her approach with malice that is almost palpable. Ice-cold fear creeps up the back of her neck.																						
+184	183		401							2	1508																							
+185	184		301								Corrupted	Urgh—!	1																					
+186	185		202							1					1																			
+187	186		301								???	...!																						
+188	187		301									Running out of breath, she turns apprehensively to face the enemies... only to see a headless mechanoid with its lower torso torn off, a few strands of wire dangling from the carcass.																						
+189	188		302								...	189																						
+190	189		301									You take a deep breath, and chuck the mechanoid head away.																						
+191	190		302								...Here's to hoping serum works in a M.I.N.D.	191																						
+192	191		301									She stares at you widely, looking very afraid.																						
+193	192		201							1	500238	6																						
+194	193		301							1	Luna	Y-you...	1																					
+195	194		301								Luna	...	1																					
+196	195		302								...	196																						
+197	196		301								Luna	...	1																					
+198	197		302								...	997																						
+199	997		204							1	4																							
+200	198		301									The girl, the Construct, before you freezes. Her fearful look melts into a daze. She stands there, petrified like a rock.																						
+201	199		302								That was just a basic non-combat mechanoid.	200	What's with the look on your face...?	200																				
+202	200		301									This is just downright uncanny.																						
+203	201		301									The leader of the Ascendants, a most fearsome enemy, now standing dumbfounded before you like some innocent little girl. Looking at her, you find yourself dumbfounded as well—her confusion must be contagious.																						
+204	202		302								(Should I say something...?)	203	(Is this really Luna?)	203																				
+205	203		204							1	5																							
+206	204		301								Luna	Who are you...?	1																					
+207	205		301								Luna	...	1																					
+208	206		302								You don't know who I am?	207	Are you Luna?	208																				
+209	207	210	301								Luna	You're not a... baddie?	1																					
+210	208		301								Luna	I-I'm... Luna. You...	1																					
+211	209		301								Luna	You're not a... baddie?	1																					
+212	210		302								Baddie?	211																						
+213	211		302								(...She just said "baddie"?)	996	(This can't be Luna.)	996																				
+214	996		204							1	6																							
+215	212		301								Luna	Stay away from me...	1																					
+216	213		301									This Luna is a lot more expressive than the one you know.																						
+217	214		302								Wait...	215																						
+218	215		202							1					1																			
+219	216		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryShuju.prefab	2																							
+220	217		301									And she skirts away, immediately. You reach for her hand, but only her fluttering hair brushes past. Before you could even react, the world before you spins around like a whirlpool.																						
+221	218		301		1		AniZhuanchangBegin					The ground curls up like a canvas, and Luna lets out a small yelp of surprise. Like a leaf, she is almost instantaneously drawn into the center of the whirlpool, disappearing into the warped space.																						

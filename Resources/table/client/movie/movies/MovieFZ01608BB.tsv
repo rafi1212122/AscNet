@@ -1,0 +1,89 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory286.png																								
+2	2		401							1	203																							
+3	3		301			DialogEnable						Having prepared yourselves sufficiently, you re-enter the area that the Red Tide has invaded.																						
+4	4		301									Tinted bloody red by the Red Tide, the place is like a wound cut open.																						
+5	5		301									A female Construct is wandering amidst the red puddles, seemingly looking for something.																						
+6	6		201							1	1031001																							
+7	7		301							1	Liv	She matches the image data we received. Target confirmed. She's severely infected, though...	1																					
+8	8		201							1	500166	5																						
+9	9		301							1	Lucia	She must have already enhanced her Inver-Device.	1																					
+10	10		302								But she is way too close to the Red Tide.	11																						
+11	11		301								Lucia	Let's stay quiet for now. We'll close in on her and ask Commandant to speak with her.	1																					
+12	12		301								Lucia	We will only proceed with the next step if communication is impossible.	1																					
+13	13		202							1					1																			
+14	14		301									The Gray Raven spreads out and closes in on the target without a sound. Then, Lucia can be heard speaking over the transceiver.																						
+15	15		201							1	500166																							
+16	16		301							1	Lucia	On standby. Commandant, you may engage the target.	1																					
+17	17		202							1					1																			
+18	18		301									(...With a soft expression on your face, you're approaching Ruolin.)																						
+19	19		302								Ruolin?	20																						
+20	20		201							1	500250																							
+21	21		301							1	Ruolin	Who are you...? From the uniform you're wearing, I'm guessing you're a commandant?	1																					
+22	22		302								I'm the Gray Raven Commandant.	23																						
+23	23		301								Ruolin	THE Gray Raven? My commandant talked about you a lot...	1																					
+24	24		301									Her expression softens, but she quickkly becomes alerted as if she has noticed something.																						
+25	25		301								Ruolin	Did you come here to bring me back? Where is the rest of your team?	1																					
+26	26		302								Yes, but I wanted to have a talk with you.	27																						
+27	27		301								Ruolin	A talk? About what?	1																					
+28	28		302								Have your found your commandant?	29																						
+29	29		301								Ruolin	Not yet... But I believe he's still alive!	1																					
+30	30		302								Have you ever seen a "Rising Tide"?	31																						
+31	31		301								Ruolin	Never... Do you have any information on the Red Tide?	1																					
+32	32		302								(If she knows anything about the Red Tide...)	33	(The projection will tempt her to go after the Red Tide itself...)	33																				
+33	33		202							1					1																			
+34	34		301									You show Ruolin partial information on the Red Tide, having decided to exclude the part about the Red Tide projection. She now looks dubious.																						
+35	35		201							1	500250																							
+36	36		301							1	Ruolin	This is pretty much the same as what I've heard from the Support Force, although your information is more detailed.	1																					
+37	37		301								Ruolin	But I just don't believe that he'd leave me all alone and die like that!	1																					
+38	38		301									Ruolin looks away from the information, her voice wavering.																						
+39	39		302								You trust him a lot, don't you...	40	It seems like you two were very close.	40																				
+40	40		301								Ruolin	Of course. We are childhood friends and grew up together.	1																					
+41	41		301				AniZhuanchangBegin					Staring at the puddles left behind by the Red Tide, Ruolin starts recounting their past...																						
+42	42		202							1					1																			
+43	43		504							1																								
+44	44		101							Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+45	996		401							1	207																							
+46	46		301			AniZhuanchangEnd						...I can't even begin to tell you how much we've been through together. My family and friends left me one after another.																						
+47	47		301									He's the only one who stayed by my side.																						
+48	49		301								Ruolin	He would always smile at me, and his smile always makes me feel safe.																						
+49	50		301								Ruolin	Our good times lasted for a while... Until I was diagnosed with an incurable disease.																						
+50	51		301								Ruolin	The Punishing Virus is virtually the most severe of diseases of our time, so much so that people have forgotten about the other diseases.																						
+51	52		301								Ruolin	But that doesn't make them disappear, and they're as terrifying as ever.																						
+52	53		301								Ruolin	For someone like me who works in the logistics, the disease would have cost me an arm and a leg to treat.																						
+53	54		301								Ruolin	Just right when I was about to give up, the medical department made him a suggestion...																						
+54	55		302								They suggested to have you turned into a Construct, didn't they?	56																						
+55	56		301								Ruolin	That's right.																						
+56	57		301								Ruolin	The single biggest concern I had about being turned into a Construct was time.																						
+57	58		301								Ruolin	A Construct can live on and on, and eventually I'd have to see him die.																						
+58	59		301								Ruolin	But then he said...																						
+59	60		301								Silk Worm Commandant	I can't become a Construct the same way you can because I'm not compatible with copolymers.																						
+60	61		301								Silk Worm Commandant	But technology never stops improving, and there will be hope so long as we're still alive.																						
+61	62		301								Ruolin	But you don't need to become a Construct...																						
+62	63		301								Silk Worm Commandant	I don't want to leave you all alone, so I'm going to apply for it as soon as technology has made it possible for me.																						
+63	64		301								Ruolin	...What if that day never comes?																						
+64	65		301								Silk Worm Commandant	If that's the case, Ruolin, I want you to live on.																						
+65	66		301				AniZhuanchangBegin				Silk Worm Commandant	This may sound selfish of me, but I hope to always have you right by my side during my mortal life.																						
+66	67		101							Assets/Product/Texture/Image/BgStory/Bgstory286.png																								
+67	68		504							0																								
+68	69		201							1	500250																							
+69	70		301			AniZhuanchangEnd				1	Ruolin	I only accepted the suggestion so I could be with him...	1																					
+70	71		301								Ruolin	How could he just leave me all alone...	1																					
+71	72		302								(She knows perfectly well that her commandant has died...)	73	(She's only in denial...)	73																				
+72	73		301								Ruolin	Commandant, you're the person he had the most respect for. Please tell me... What should I do? What can I do to find him?	1																					
+73	74		302								He's still with you.	75																						
+74	75		301								Ruolin	I can't see him...	1																					
+75	76		302								He wants you to stay alive.	77																						
+76	77		202							1					1																			
+77	78		301									The times they have spent together will not cease to exist simply because one of them has parted first. The fact that Ruolin is still here is proof enough that the Silk Worm Commandant's will is still with her.																						
+78	79		301									After hearing these words from you, Ruolin slumps to the ground and starts sobbing, awash in sadness.																						
+79	80		301									Seeing the scene, the rest of the team quietly comes closer to comfort Ruolin.																						
+80	81		301				AniZhuanchangBegin					Ruolin's expression softens with everyone's kind word.																						
+81	82		201							1	500166	1	600																					
+82	83		201							2	500250																							
+83	84		201							3	1031001	1	-600																					
+84	85		301			AniZhuanchangEnd				1	Ruolin	Thank you so much... I still feel devastated, but I will try my best to accept the truth and live on, because this is something he's hoped for.	2																					
+85	86		301								Ruolin	Being able to meet people he's mentioned to me... Is probably a gift he's left behind.	2																					
+86	87		302								The pleasure is ours. Shall we go home?	88																						
+87	88		301								Ruolin	Yes, let's go. I'm sorry for all the trouble I caused. I owe you an apology... Punishment is inevitable, I suppose.	2																					
+88	89		301		1		AniZhuanchangBegin				Ruolin	I'm still finding it difficult, but I'll learn to accept it.	2																					

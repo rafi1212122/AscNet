@@ -1,0 +1,15 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory260.png																								
+2	2		401							1	201																							
+3	3		201							1	1031001		-600																					
+4	4		201							2	500026		600																					
+5	5		201							3	500166																							
+6	6		301			DialogEnable				1	System Notice	Security Line Code E-02-00436, Security Lock L2...2...2...（HN（）PT_（^T VVO BI*TY}_{""&^ 																						
+7	7		301									The security key is showing some bizarre codes.																						
+8	8		301								Lee	Did they... hijack the security lock, too?	2																					
+9	9		302								Is there anything we can do?	10																						
+10	10		301								Lee	Its entry module is damaged beyond repair. There really isn't anything we can do with it even with the authorization password...	2																					
+11	11		301								Lucia	So we'll just have to open it with brute force.	3																					
+12	12		301				DialogDisable				Lee	...Can't really think of a better way.	2																					
+13	13		305							14	14																							
+14	14		202		1		AniZhuanchangBegin			1	2	3			1																			

@@ -1,0 +1,55 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	456		102							Forgotten Sand	Chapter 4	Assets/Product/Texture/Atlas/CommonLogo/BgLogo1.png																						
+2	457		502							ThemeEnable																								
+3	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+4	100		401							1	202																							
+5	2		301			DialogEnable					Lucia	Kamui!																						
+6	3		101			RImgBg1Enable				Assets/Product/Texture/Image/BgStory/BgStory24.jpg																								
+7	4		201							1	1021001		-400																					
+8	5		301							1	Lucia	Kamui... Wake up! The floor's about to collapse!	1																					
+9	6		201							2	1081001	5	400																					
+10	7		301							1	Kamui	Lu... cia...	2																					
+11	8		204							2																								
+12	9		301			PanelActor2Shake					Kamui	Wait! Roland... Where is he? He just... I...	2																					
+13	10		301								Lucia	Roland already vanished before we broke through and found you... We just detected high Punishing Virus activity, what did he do to you?	1																					
+14	11		301								Kamui	I don't know... but I faded out back then... I don't feel anything strange though.	2																					
+15	12		202							1	2				1																			
+16	101		401							2	10007502																							
+17	13		301			RImgBg1Shake						The infrastructure begins to fall apart as swarms of Corrupted crawl through the seams.																						
+18	14		201							1	1021001																							
+19	15		301							1	Lucia	...Are you really okay? Though it is true that you currently show no signs of corruption.	1																					
+20	16		202							1					1																			
+21	17		201							1	1011001		-400																					
+22	18		201							2	1081001		400																					
+23	19		301							1	Lee	If your corruption threshold goes over, Liv can detect it before you can even tell it yourself.	1																					
+24	20		301				AniZhuanchangBegin				Kamui	（…………）	2																					
+25	21		202							1	2				1																			
+26	22		101							Assets/Product/Texture/Image/BgStory/Bgstory6.jpg																								
+27	23		201							1	1031001																							
+28	24		301			AniZhuanchangEnd				1	Liv	Everyone, the last withdrawal route is also blocked by Corrupted.	1																					
+29	25		201							1	1011001		-400																					
+30	26		301							1	Lee	Corrupted will also evade the collapsed areas. This will only increase their density in our path.	1																					
+31	27		201							2	1081001		400																					
+32	28		301							1	Kamui	If there's no path, then we'll just have to break through and make a path!	2																					
+33	29		202							1	2				1																			
+34	30		201							1	1021001																							
+35	31		301							1	Lucia	Even if we do manage to break through, we still won't know where to go.	1																					
+36	32		202							1					1																			
+37	33		201							1	1081001		400																					
+38	34		301							1	Kamui	Where to go... Lucia, that reminds me! I might have a plan!	1																					
+39	35		201							2	1011001		-400																					
+40	36		301							1	Lee	Just say it, we don't have time...	2																					
+41	37		301								Kamui	Strike Hawks are professional scouts, so to gather intel, we always plant monitoring devices on our mission paths.	1																					
+42	38		301								Kamui	These devices collect high-precision geo-data of the surroundings. If they are still intact, then the mapping should be done by now.	1																					
+43	39		301								Lee	Calculating a route from high precision geo-data mapping... Liv, is that doable?	2																					
+44	40		202							1	2				1																			
+45	41		201							1	1031001																							
+46	42		301							1	Liv	Yes, if the data is precise enough, then with my computing power, it should be doable!	1																					
+47	43		202							1					1																			
+48	44		201							1	1081001		400																					
+49	45		301							1	Kamui	Alrighty, let's go retrieve the nearby devices then!	1																					
+50	46		201							2	1021001		-400																					
+51	47		301							1	Lucia	You just barely recovered from the fight with Roland, are you going to be okay?	2																					
+52	48		204							1	2																							
+53	49		301								Kamui	No problem, ma'am! Just a mere scratch! It's so unlike you though, Lucia, caring about others, haha!	1																					
+54	50		301		1		AniZhuanchangBegin				Lucia	I... I didn't care about others before...?	2																					

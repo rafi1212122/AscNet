@@ -1,0 +1,269 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory191.png																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						As Chrome begins calling for a transport fleet from Babylonia, Kamui stirs awake.																						
+4	4		201							1	1081001	5																						
+5	5		301							1	Kamui	You people...	1																					
+6	6		301									Kamui hops and takes on a combat stance in one motion, wielding his greatsword and pointing it at you.																						
+7	7		302								...What's going on?	8																						
+8	8		301								Kamui	Why is my M.I.N.D. projection looking like this?	1																					
+9	9		301								Kamui	...Well, not like it matters. Fighting's all the same.	1																					
+10	10		302								...?	11																						
+11	11		301									...Something is not right.																						
+12	12		301									You have a feeling that this Kamui in front of you is not the Kamui you know.																						
+13	13		302								Where is Kamui?	14																						
+14	14		301								???	I should be the one asking you.	1																					
+15	15		301								???	Where has Kamui gone? Why can't I talk to him?	1																					
+16	16		201							1	500155																							
+17	17		301							1	Chrome	Could it be...	1																					
+18	18		201							1	500026																							
+19	19		301							1	Lee	Quite likely.	1																					
+20	20		301								Lee	You must be Camu, right?	1																					
+21	21		201							1	1081001																							
+22	22		301							1	Camu	...You aren't virus embodiments?	1																					
+23	23		302								We are real.	24																						
+24	24		301									Camu freezes with his greatsword still raised. He seems to have noticed his appearance.																						
+25	25		301								Camu	...What's going on here?	1																					
+26	27		301									After spacing out shortly, Camu swerves his greatsword, pointing it at you and the others.																						
+27	28		204							1	5																							
+28	29		301								Camu	Explain.	1																					
+29	30		302								It's a long story...	31																						
+30	31		301				AniZhuanchangBegin				Camu	Then make it short.	1																					
+31	32		301			AniZhuanchangEnd					Camu	So I'm stuck in this state, because of that Roland?	1																					
+32	33		201							1	500155																							
+33	34		301							1	Chrome	That's right.	1																					
+34	35		201							1	1081001																							
+35	36		301							1	Camu	And if we don't get this fixed in time, Kamui's consciousness might disappear?	1																					
+36	37		201							1	500026																							
+37	38		301							1	Lee	At least, according to Asimov.	1																					
+38	39		201							1	1081001																							
+39	40		301							1	Camu	I'm not going back to Babylonia and letting that gloomy nerd experiment on me. Looks like there's only one choice left.	1																					
+40	41		302								Are you going to try and eliminate the culprit?	42																						
+41	42		301								Camu	From what you just said, he's a pushover anyway.	1																					
+42	43		301				PanelActor1Shake				Camu	If I can just... j-just...	1																					
+43	44		301									Kamui—or Camu—trembles and spasms. His greatsword gives a dull thud as it falls on the beach.																						
+44	45		401							1	102																							
+45	46		301								Camu	I'm...	1																					
+46	47		301									Camu's body tenses, as if trying to resist something.																						
+47	48		204							1	5																							
+48	49		301			PanelActor1Shake				1	Camu	—Vegvisir…	1																					
+49	50		201							1	500196																							
+50	51		301				RImgBg1Shake			1	Karenina	Commandant! Careful!	1																					
+51	52		202							1					1																			
+52	53		401							2	10006001																							
+53	54		301									Like a spring being uncoiled, Camu's body shoots out like an arrow. With his greatsword in hand, he cuts a wide sweep aside.																						
+54	55		301									If it were not for Karenina pushing you to the ground, the blade would have slit your throat.																						
+55	56		201							1	500166	5																						
+56	57		301							1	Lucia	Commandant!	1																					
+57	58		201							1	1081001	17																						
+58	59		301							1	Camu	Hah... Uugh... Arghhhh!	1																					
+59	60		201							1	1031001	7																						
+60	61		301							1	Liv	The viral density near Kamui's frame is rising rapidly! He needs emergency buffers, NOW!	1																					
+61	62		201							1	1081001	5																						
+62	64		301			PanelActor1Shake				1	Camu	—Vegvisir…	1																					
+63	65		301								Camu	—Asgishjalmur! Asgishjalmur!!	1																					
+64	67		201							1	500026																							
+65	68		301							1	Lee	Tsk, looks like he's not listening!	1																					
+66	69		201							1	500196																							
+67	70		301							1	Karenina	Then we'll have to do it the hard way!	1																					
+68	71		401							2	10007001																							
+69	72		301			RImgBg1Shake						Karenina swings her bazooka to deter the advances of Camu. Using the explosive thrust of the bazooka, she forcefully knocks Camu over and buries him into the soft sand.																						
+70	73		201							1	500166	5																						
+71	74		301							1	Lucia	Liv! Now!	1																					
+72	75		202							1					1																			
+73	76		301									Lucia and Lee combine efforts to pin Camu's upper body down before he come to. Camu's flailing limbs send spurts of sand flying.																						
+74	77		301									Seeing an opening, Liv hurriedly links a primed buffer to the back of Camu's neck.																						
+75	78		401							2	1509																							
+76	79		201							1	1031001																							
+77	80		301							1	Liv	M.I.N.D. buffer, at max output!	1																					
+78	81		201							1	1081001																							
+79	82		301			PanelActor1Shake				1	Camu	...Ugh—Ahhh!	1																					
+80	83		202				AniZhuanchangBegin			1																								
+81	84		401							1	201																							
+82	85		201							1	1081001																							
+83	86		301			AniZhuanchangEnd				1	Camu	...	1																					
+84	87		301								Camu	What... What happened... just now?	1																					
+85	88		201							1	1031001																							
+86	89		301							1	Liv	I limited your power output to 5% of your original through a buffer. We'll try to figure out a solution before the buffer fails.	1																					
+87	90		201							1	1081001																							
+88	91		301							1	Camu	...No. What I want to know is why did I suddenly take control of Kamui's body? And why is this body getting out of control in my hands?	1																					
+89	92		201							1	1031001																							
+90	93		301							1	Liv	The energy control system in your body isn't functioning properly, likely because the M.I.N.D. of your frame is severed...	1																					
+91	94		301								Liv	I can't perform high-precision repairs alone. We might need help from Babylonia...	1																					
+92	95		301									Once again. Asimov time.																						
+93	96		201							1	500004																							
+94	97		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+95	98		301							1	Asimov	What is it this time? I just went for a coffee break, and you got in trouble, again?	1																					
+96	99		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+97	100		201							1	1081001	5																						
+98	101		301							1	Camu	Cut the crap, just tell me what to do!	1																					
+99	102		201							1	500004																							
+100	103		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+101	104		301							1	Asimov	That's Kamui? How did he wake up?	1																					
+102	105		302								No...	106																						
+103	106		302								It's not Kamui that woke up.	107																						
+104	107		301								Asimov	...Ah. In that case. Nice to meet you?	1																					
+105	108		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+106	109		201							1	1081001	5																						
+107	110		301							1	Camu	Let's do away with greetings. Never liked them.	1																					
+108	111		201							1	500004																							
+109	112		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+110	113		301							1	Asimov	No, I'm just trying to be nice, because I'll be taking a spin in your M.I.N.D. next...	1																					
+111	114		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+112	115		201							1	1081001	5																						
+113	116		301							1	Camu	What?!	1																					
+114	117		201							1	500004																							
+115	118		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+116	119		301							1	Asimov	Yep. Literally.	1																					
+117	120		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+118	121		201							1	1081001	5																						
+119	122		301							1	Camu	I have no idea what you're spouting, but you're doing a real good job of pissing me off.	1																					
+120	123		201							1	500004																							
+121	124		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+122	125		301							1	Asimov	If you find it weird, or have questions, I can give you a short primer.	1																					
+123	126		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+124	127		201							1	1081001	5																						
+125	128		301							1	Camu	...Fine. Guess I can crush that comms terminal after I hear you explain.	1																					
+126	129		201							1	500004																							
+127	130		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+128	131		301							1	Asimov	...Okay. Then I'll begin.	1																					
+129	132		301								Asimov	As you should already know, the M.I.N.D. is a system designed to maintain human consciousness for Constructs...	1																					
+130	133		301								Asimov	And for some reason, someone added in a set of general-purpose computer I/O terminals to the virtual human brain neural array structure...	1																					
+131	134		301								Asimov	...Wait. I think I was that very someone. Well, whatever.	1																					
+132	135		301								Asimov	In a nutshell, if the M.I.N.D. can't find the corresponding solution in its error library, the GPC part will endlessly try to open a door that doesn't exist.	1																					
+133	136		301								Asimov	Because it only remembers that door.	1																					
+134	137		301								Asimov	Even if you, the owner, have moved away from home, kicked it, or if you're head-banging to heavy metal, it'll still keep looking for you. In short, it'll keep looking for the designated doorway until it finds it.	1																					
+135	138		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+136	139		201							1	1081001	5																						
+137	140		301							1	Camu	So what's that gotta do with me?	1																					
+138	141		201							1	500004																							
+139	142		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+140	143		301							1	Asimov	If you're just another average Construct, then it wouldn't matter. But you're not.	1																					
+141	144		301								Asimov	Your signals are a hodgepodge, but there are characteristic signals of the Ascension-Network in your Inver-Device echoes.	1																					
+142	145		301								Asimov	This means that, though you're not an Ascendant, you're still similar to one.	1																					
+143	146		301								Everyone	!!!																						
+144	147		301								Asimov	Based on 【kuroname】's description of the situation earlier, I have decided to classify these Ascendant-like beings with special characteristics like you as "Transcendants."	1																					
+145	148		302								Transcendant?	149																						
+146	149		301								Asimov	Yes, a Transcendant. Because of the Ascendant nature of Camu from what you have described, and the in-between state of them being on the "the other side" of a Construct, but not to the point of being an Ascendant.	1																					
+147	150		301								Asimov	For now, all we know is that Camu's "transcendence" is the work of Roland. Roland has granted him Ascendant characteristics somehow.	1																					
+148	999001		301								Asimov	Comparing it with previous cases, we can see that Camu's case bears a high degree of similarity to the Kowloong leader Qu.	1																					
+149	151		302								...Huh.	152																						
+150	152		301								Asimov	And, Camu's appearance has essentially confirmed a hypothesis I reached with President Hassen before: There are more Ascendants than the ones that we know of.	1																					
+151	153		301								Asimov	There are likely Ascendants with other purposes in mind, or even Ascendants who are willing to work with us.	1																					
+152	154		301								Asimov	Ah, I seem to have gone off topic. Let's continue.	1																					
+153	155		301								Asimov	Let's return to the door metaphor. "Camu", you are the one who moved houses, making the control system in your body unable to find the door home. That is what happened.	1																					
+154	156		301								Asimov	If you are indeed the Camu from the Kurono data I have, you have transferred the I/O terminal ownership to Kamui in the past to let him take charge.	1																					
+155	157		301								Asimov	In other words, your consciousness does not have the authority to access or use most of the terminals on this frame.	1																					
+156	158		301								Asimov	Action module terminals keep no locks—you feed them any signals and they'll move. But your energy-related terminals require additional plug-ins and authentication...	1																					
+157	159		301								Asimov	When the superuser consciousness enters a lockdown for some reason, other consciousnesses can do nothing about the energy system going out of control.	1																					
+158	160		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+159	161		201							1	1081001	5																						
+160	162		301							1	Camu	...Just tell me the solution.	1																					
+161	163		201							1	500004																							
+162	164		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+163	165		301							1	Asimov	Return to Babylonia for maintenance and repairs. We'll completely separate you from Kamui and plug your consciousness to another frame.	1																					
+164	166		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+165	167		201							1	1081001	5																						
+166	168		301							1	Camu	...	1																					
+167	169		201							1	500004																							
+168	170		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+169	171		301							1	Asimov	Of course, because of the unknown factor of Tenebrion, even if we separate you from Kamui... We can't guarantee that Kamui will recover.	1																					
+170	172		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+171	173		201							1	1081001																							
+172	174		301							1	Camu	...	1																					
+173	175		201							1	500004																							
+174	176		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+175	177		301							1	Asimov	But this should be able to buy both you and us the necessary time to solve the problem, at least.	1																					
+176	178		301								Asimov	【kuroname】, before you went on your vacation, I remember giving you a special tech prototype...	1																					
+177	179		301								Asimov	It's a little something I made after getting ideas from the collars on the Nighter. It's essentially a necklace-sized remote connection pod.	1																					
+178	180		302								...	181																						
+179	181		301								Asimov	What are you waiting for? Finding it weird that it's so small? Hurry up and whip it out.	1																					
+180	182		302								(Whip out prototype necklace)	183																						
+181	183		301								Asimov	Put it on. Then I'll explain.	1																					
+182	184		302								...I demand an explanation first.	185	(Put on the necklace)	190																				
+183	185		301								Asimov	It's pretty much the same thing as from April Fools' Day.	1																					
+184	186		301								Asimov	But I remade it into a system-on-a-chip, and then had the WGAA make me a shell.	1																					
+185	187		301								Asimov	Then I wrote a masking algorithm that reduces the consciousness stress to 0.27% of the original, even with the same power output.	1																					
+186	188	189	301								Asimov	And then some more tech magic, and it's done.	1																					
+187	189		302								(Put on the necklace)	190																						
+188	190		301								Asimov	Okay, caught the signal. Camu, I want you to get as close to 【kuroname】 as you can.	1																					
+189	191		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+190	192		201							1	1081001																							
+191	193		301							1	Camu	?	1																					
+192	194		301									Camu walks over with a doubtful expression.																						
+193	195		201							1	500004																							
+194	196		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+195	197		301							1	Asimov	Liv, how long can the buffer last?	1																					
+196	198		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+197	199		201							1	1031001																							
+198	200		301							1	Liv	The effect will start to fade after ten minutes.	1																					
+199	201		201							1	500004																							
+200	202		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+201	203		301							1	Asimov	More than enough for me to redirect the gateway.	1																					
+202	204		202				AniZhuanchangBegin			1																								
+203	205		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+204	206		201							1	500004																							
+205	207		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+206	208		301			AniZhuanchangEnd				1	Asimov	Okay, beginning access.	1																					
+207	209		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+208	210		201							1	1081001																							
+209	211		301							1	Camu	?	1																					
+210	212		201							1	500004																							
+211	213		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+212	214		301				AniZhuanchangBegin			1	Asimov	A little warning—it might tickle.	1																					
+213	215		202							1					1																			
+214	216		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+215	217		101							Assets/Product/Texture/Image/BgStory/BgStory51.jpg																								
+216	218		401							1	210																							
+217	220		201							1	500004																							
+218	221		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+219	222		301			AniZhuanchangEnd				1	Asimov	...Okay. I'm in.	1																					
+220	223		301								Asimov	Hm? What's with this visual interface...?	1																					
+221	224		301								Asimov	Oh. Never mind.	1																					
+222	225		301								Asimov	Camu, your energy output should be back to normal. You can try... Well, try moving around a little.	1																					
+223	226		302								Where am I?	227																						
+224	227		301								Asimov	Oh, forgot about you. It's okay. You're now seeing the visual interpretation of Camu's M.I.N.D.—in other words, Camu's cognition.	1																					
+225	228		301								Asimov	Too much trouble rewriting a visual interface for a Transcendant. Camu will be the one doing the fighting anyway, not you. So I redirected your visuals to his M.I.N.D. instead of the frame.	1																					
+226	229		301								Asimov	You'll be fine as long as you have access to the energy modules and tactical authority. Which is why I'm keeping everything simple.	1																					
+227	230		301								Asimov	Transcendants might require a completely different system at the root level... It might take some time to create a full set of compatible terminals. The frame will also have to be redesigned the way Nikola intended...	1																					
+228	231		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+229	232		201							1	500175																							
+230	233		301							1	Camu	I just tried it out. Everything's going smooth.	1																					
+231	234		301								Camu	...Guess you do know your cogs and gears, eh.	1																					
+232	235		201							1	500004																							
+233	236		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+234	237		301							1	Asimov	Okay! Then it's sorted. You can stop worrying about the small stuff. I'll provide 【kuroname】 with a signal reference for visual support. You should head towards Roland with the others.	1																					
+235	238		301								Asimov	I found traces of his signal a little further ahead of you. Looks like he's still keeping a close eye on your condition.	1																					
+236	239		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+237	240		201							1	500175																							
+238	241		301							1	Camu	...	1																					
+239	242		301								Camu	...Let me get this straight—I still don't fully trust you.	1																					
+240	243		301				AniZhuanchangBegin				Camu	But to get Kamui back to normal, I'll leave my "half" in your hands for now.	1																					
+241	244		202							1																								
+242	245		101							Assets/Product/Texture/Image/BgStory/BgStory51.jpg																								
+243	246		401							1	102																							
+244	247		201							1	500008																							
+245	248		301			AniZhuanchangEnd				1	Roland	Oh my. Who do we have here?	1																					
+246	249		301								Roland	Such a bad, bad boy—squirming through the filtering this way.	1																					
+247	250		301								Roland	Did you know? Most converted Constructs become zealots of hatred and despair, when those emotions are merely amplified by the filtering...	1																					
+248	251		301								Roland	Of course, past that point of no return, it's a fare-thee-well to their souls.	1																					
+249	252		201							1	500175																							
+250	253		301							1	Camu	Whatever. Just tell me how to get Kamui back.	1																					
+251	254		201							1	500008																							
+252	255		301							1	Roland	Heh... As the true master of your mind, is that all you want? How revolting.	1																					
+253	256		301								Roland	Did that phantom of a Kamui weave some dream so sweet that you can't pull yourself out of?	1																					
+254	257		201							1	500175	5																						
+255	258		301							1	Camu	I'm not here to make small talk...	1																					
+256	259		301								Camu	I'm stuck here in this outdated frame, just to make you spit out what I want.	1																					
+257	260		301								Camu	I'm mad, so prepare to pay.	1																					
+258	261		301								Camu	Got it?	1																					
+259	262		201							1	500008																							
+260	263		301							1	Roland	...Hahaha.	1																					
+261	264		301								Roland	...Hahahahaha.	1																					
+262	265		301			PanelActor1Shake					Roland	...Ahahahahahaha!	1																					
+263	266		301								Roland	My hero, MY! Looks like you truly did escape the "trial" in some way...	1																					
+264	267		301								Roland	Humans... and you lesser-than-human thing! You're all the same!	1																					
+265	268		301								Roland	The network chose you! But you always let the network down!	1																					
+266	269		301								Roland	Fine. Come on.	1																					
+267	270		301								Roland	Time for a good whipping, my bad, bad boy.	1																					
+268	271		301		1		AniZhuanchangBegin				Roland	After all, it's the teacher responsibility when a vile little rascal doesn't grow into a proper, functional "human" being.	1																					

@@ -1,0 +1,354 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory122.png																								
+2	2		401							1	33																							
+3	3		201							1	500365	17																						
+4	4		301			DialogEnable				1	Roland	(Gasps for breath)	1																					
+5	5		301								Roland	It's been a long time since this conference room has seen any use. It's covered in dust. The prop team always fails to clean up the place. Cough.	1																					
+6	6		204							1	4																							
+7	7		301								Roland	Least I managed to avoid those mechanoids. I need a rest. Phew...	1																					
+8	8		301								Roland	It'd be safer to barricade myself in here, but I don't know what's going on. Can't believe my EMP baton broke at a time like this.	1																					
+9	9		301								Roland	This is... so strange. Did hackers attack the park? Or is there some new virus that forces machines to attack humans?	1																					
+10	10		301								Roland	I don't know enough to even know where to start. I should sever the connection to the park first. If it's a virus or hackers, that should cut their connection.	1																					
+11	11		401							2	1515																							
+12	12		301								Roland	I need to get in touch with the outside world... A phone... Grr, I can't get through.	1																					
+13	13		301								Roland	Can't say I'm surprised. Whether it's hackers or a virus, of course they'd cut off external communication if they can control so many mechanoids.	1																					
+14	14		301								Roland	Backup plan. I need a backup plan. Let's see. There should be a bunch of terminals lying around here somewhere...	1																					
+15	15		301									The emergency phone in the drawer... Doesn't work. The fire safety line in the basement... Damaged. Walkie-talkies in the cabinet... Scrapped.																						
+16	16		301									Audience communication terminal under the clown masks hanging on the wall...																						
+17	17		204							1	1																							
+18	18		301								Roland	It's ringing. Heh, guess the big man upstairs is throwin' me a bone... If only it was a different occasion.	1																					
+19	19		204							1																								
+20	20		301								Roland	Current viewers... Great, there are still people online.	1																					
+21	21		301								Roland	Need to hurry. First, I'll screen out all unstable signals, then call the last caller... Got one, viewer 6875.	1																					
+22	22		301								Roland	Oh, it's that overbearing woman. Whatever. It's an emergency. Now's not the time to care.	1																					
+23	23		301									Or is it? Roland hangs his hand on the terminal and hesitates.																						
+24	24		301									Directly talking with a viewer like this will ruin the show and expose the truth to the world.																						
+25	25		301								Roland	The director's going to yell at me.	1																					
+26	26		204							1	1																							
+27	27		301								Roland	...Bahahah! Go right ahead. The fee for breaking the contract can't be more than my life.	1																					
+28	28		301									Roland smiles bitterly and shakes his head. Still worried about something like that when his own life is in danger... It really is hard to take off the mask after wearing it for so long.																						
+29	29		301								Roland	I just hope Mom and Dad won't be angry.	1																					
+30	30		401							2	1515																							
+31	31		301									Roland inputs several commands and submits the request. A woman's face appears on the holo-screen.																						
+32	32		401							2	613																							
+33	33		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+34	34		402							613																								
+35	35		203							1	0.01	-450																						
+36	36		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+37	37		201							2	500163		450																					
+38	38		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+39	39		301							1	Viewer	Hello? WHAT?! Am I dreaming?!	2																					
+40	40		301								Viewer	Oh, gosh! It's Roland! Roland called me?!	2																					
+41	41		204							1	2																							
+42	42		301								Roland	Hello, miss.	1																					
+43	43		301									Her shrill voice causes Roland to wince, but he has no choice. Everything is riding on her.																						
+44	44		301								Roland	Uh, yes... Miss, actually... I...	1																					
+45	45		301								Viewer	Shh, Roland. You don't have to say another word! Call the police, right? Got it!	2																					
+46	46		204							1	4																							
+47	47		301								Roland	Huh? Miss, you know...	1																					
+48	48		301								Viewer	Of course, I do. First, the screen went black. After that, the cameras kept changing, but I saw everything.	2																					
+49	49		301								Viewer	You running and looking for a place to hide, then ending up in that conference room. I saw the whole crisis!	2																					
+50	50		301								Roland	Oh, haha. Thanks for being such a loyal viewer... Anyway, please call the police ASAP.	1																					
+51	51		301								Viewer	Alrighty, you got it!	2																					
+52	52		301								Roland	Phew...	1																					
+53	53		301									With a sigh of relief, Roland's mind finally has the spare strength to assess the situation with the others.																						
+54	54		301								Roland	...The camera was filming me? Was the show recording everything I had just gone through automatically?	1																					
+55	55		301								Roland	Oh, that must've been the screenwriter... Thanks. I hope we all get out of here alive.	1																					
+56	56		301									(Clenches fist) We will. We just need to call the police. Everyone'll be saved once they get here. They'll put an end to the haywire mechanoids here in the park. After that, Mandy can be fixed up in no time...																						
+57	57		301								Viewer	—Ok, well have a nice day now! I've got other stuff to do.	2																					
+58	58		301								Viewer	I gotta say, this attempt at boosting audience participation is a bit ham-fisted... If I hadn't watched you so much, I would've actually called the police.	2																					
+59	59		204							1	7																							
+60	60		301								Roland	...Huh?	1																					
+61	61		301								Viewer	I knew it right from the start. Adventure shows get old quick. The acting's over the top and the product placement feels forced. And the script? Not good. Plot holes everywhere. A post-apocalyptic spinoff will make for a better sequel.	2																					
+62	62		301								Viewer	The crew's ditching the lead actor and they aren't even bothering to hide it, are they? But with you as the lead, I've got my hopes set high. Good luck on the sequel!	2																					
+63	63		301								Roland	W-what? Miss, are you...	1																					
+64	64		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+65	65		202							1	2				1																			
+66	66		401							2	613																							
+67	67		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+68	68		402							613																								
+69	69		201							1	500365	7																						
+70	70		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+71	71		301							1		Click. Right as she hangs up, Roland's holo-screen goes blank.																						
+72	72		301								Roland	...Is she crazy?	1																					
+73	73		204							1	17																							
+74	74		301								Roland	Sigh. Guess I shouldn't have gotten my hopes up. I need to hurry and find someone else to call...	1																					
+75	75		301									Seems this show just attracts viewers with an over-active imagination. Roland shakes his head and forgets everything she said just now.																						
+76	76		301									He returns to the contact select screen and starts dialing each number within range.																						
+77	77		204							1	4																							
+78	78		401							2	1515																							
+79	79		301								Roland	Viewer 2986, no connection. Viewer 4689, busy...	1																					
+80	80		301								Roland	Damn it. Not many people are watching now. Let's see if I can reach the main control room. Hopefully, someone there has a way of contacting to someone on the outside.	1																					
+81	81		301								Roland	Viewer & ^%? Why are there random codes here? Forget it. No point in beating a dead horse.	1																					
+82	82		301								Roland	...It connected?!	1																					
+83	83		401							2	1515																							
+84	84		301									Surprised, Roland turns on the screen and begins to think of what to say. Maybe he was too relaxed when calling for help just now. Maybe he should show some tears. That'll get them to call the police quickly.																						
+85	85		301									However, as the person appears on the holo-screen, Roland is rendered speechless.																						
+86	86		201							1	500365	7																						
+87	87		301							1	Roland	Rolmo?! What are you doing there?	1																					
+88	88		401							2	613																							
+89	89		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+90	90		402							613																								
+91	91		201							1	500279																							
+92	92		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+93	93		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+94	94		301							1	Rolmo	...	1																					
+95	95		301								Rolmo	Rococo's personality simulation program activated. Please set the personality mode sector to start personality simulation.	1																					
+96	96		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+97	97		201							1	500365	4																						
+98	98		301								Roland	Personality simulation? What the heck? Anyway, you picked up. Call the police!	1																					
+99	99		201							1	500279																							
+100	100		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+101	101		301							1	Rolmo	If no selection is made within the designated timeframe, default mode will be executed. Simulation object: Rolmo. Target No. 78111114: Continue to strengthen Roland's dependence on the park.	1																					
+102	102		301								Rolmo	Hey, bro! Long time no see.	1																					
+103	103		301								Rolmo	Detecting a fluctuation in Roland's mood parameters...	1																					
+104	104		301								Rolmo	Why do you look so nervous, bro? Tired from the show?	1																					
+105	105		301								Rolmo	Don't worry, everyone in the family supports you very much. They...	1																					
+106	106		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryError.prefab	2																							
+107	107		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+108	108		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+109	109		201							1	500279		-30			1																		
+110	110		401							2	613																							
+111	111		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+112	112		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+113	113		201							1	500279		50			1																		
+114	114		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+115	115		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+116	116		402							613																								
+117	117		201							1	500279					1																		
+118	118		301							1	Rolmo	T-they... T-HeyY... Eyy...	1																					
+119	119		501						500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+120	120		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+121	121		201							1	500279		-120			1																		
+122	122		501						100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+123	123		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+124	124		401						500	2	613																							
+125	125		201							1	500279		250			1																		
+126	126		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+127	127		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+128	128		201							1	500279					1																		
+129	129		402							613																								
+130	130		301							1	Rolmo	...Material data error, existing data collection failed. Database failure expected. Please resubmit your command.	1																					
+131	131		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryError.prefab																							
+132	132		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+133	133		201							1	500365	1																						
+134	134		301							1	Roland	...	1																					
+135	135		301								Roland	Come on, twerp... Is... this a joke?	1																					
+136	136		301								Roland	Is this a prank? You created an AI to simulate you. You're playing a prank, right?	1																					
+137	137		301								Roland	Knock it off. Hehe... heh. Come on, bro. I'm in danger.	1																					
+138	138		201							1	500279																							
+139	139		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+140	140		401							2	1515																							
+141	141		301							1	Rolmo	Database reconnection not detected. Please resubmit your command.	1																					
+142	142		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+143	143		201							1	500365	7																						
+144	144		301							1	Roland	...	1																					
+145	145		401							2	1515																							
+146	146		401						500	2	1515																							
+147	147		401						400	2	1515																							
+148	148		401						300	2	1515																							
+149	149		401						200	2	1515																							
+150	150		401						100	2	1515																							
+151	151		301									Roland reconnects and tries again several times.																						
+152	152		201							1	500279																							
+153	153		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+154	154		401							2	1515																							
+155	155		504							0.2																								
+156	156		301								Rolmo	Please resubmit your command.	1																					
+157	157		504							0.5																								
+158	158		301								Rolmo	Please resubmit your command.	1																					
+159	159		504							0.7																								
+160	160		301								Rolmo	Please resubmit your command.	1																					
+161	161		301								Roland	Heh... hehe... What sort of joke is this...																						
+162	162		401							2	1506																							
+163	163		401							2	613																							
+164	164		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+165	165		504							0																								
+166	166		402							613																								
+167	167		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+168	168		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+169	169		201							1	500365	1																						
+170	170		301							1		BANG! Roland slams his fist on the control panel. The familiar face turns into a chaotic array of code and disappears.																						
+171	171		301								Roland	I've been speaking with that AI for so long. Did I really think of it as my brother...?	1																					
+172	172		301								Roland	Was this the park's plan all along? Heh... Ridiculous...	1																					
+173	173		204							1	4																							
+174	174		301								Roland	...Damn it. But now's not the time to think about this...	1																					
+175	175		301								Roland	Living is the most important thing right now...	1																					
+176	176		301								 	Yes, it's no big deal. Living is the most important thing. Only by living can we continue to pursue what we want.																						
+177	177		301								Roland	I can't give up now... I still have a wish to make come true...	1																					
+178	178		301								Roland	Hurry, think. What else can I do? What else can I do? Oh, right... Social media. I can log into the official account and send for help. Who cares what happens to the account. To hell with it.	1																					
+179	179		301								Roland	Rerouting network, dialing connection... Connected. Looks like doing it the old way still works. Now I just gotta hurry up and log in.	1																					
+180	180		301								Roland	Website doesn't exist? How's that possible? Guess I'll try again... Still nothing.	1																					
+181	181		301								Roland	...The website wasn't simulated by the AI, too, was it?	1																					
+182	182		301				AniZhuanchangBegin				Roland	A simulation... I got the domain name from Rolmo's AI. I can't believe it's not—	1																					
+183	183		204							1	1																							
+184	184		301			AniZhuanchangEnd					Roland	—Fine. Guess I have to whether I like it or not.	1																					
+185	185		301								Roland	What's the big idea with the park? Would they really fake a website just to fool everyone?	1																					
+186	186		204							1	4																							
+187	187		301								Roland	...I gotta get help first. I'll check Rococo Entertainment's official website.	1																					
+188	188		301								Program	Account detected. Connecting to account URL... Default advertisement detected.																						
+189	189		301								Program	Playing advertisement: "Hologram Actor's Camp". Runtime: 30 seconds.																						
+190	190		204							1	7																							
+191	191		301								Roland	...An ad?	1																					
+192	192		401							2	613																							
+193	193		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+194	194		202							1	2				1																			
+195	195		101							Assets/Product/Texture/Image/BgCg/Cgqz2704.jpg																								
+196	196		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+197	197		402							613																								
+198	198		401							1	205																							
+199	199		301								???	—Hola, amigo!																						
+200	200		301								???	In this golden age, are you tired of watching mechanoid performances without any tension? Are you tired of watching stand-ins give lack-luster performances? Look no further! The performance here is so genuine, it's real!																						
+201	201		301								???	No over-the-top stunts, no smoke and mirrors, no editing magic. This broadcast is live in real-time! Watch our human protagonist's genuine, nail-biting reactions to a witty and humorous world of film.																						
+202	202		301								Roland	That voice...																						
+203	203		301								Roland	Neferti...?																						
+204	204		301									Barely able to recognize the deep voice in the ad, Neferti appears on the holo-screen with an unfamiliar expression.																						
+205	205		201							1	500382																							
+206	206		301							1	Neferti On-screen	Yo! Yo! Welcome to our reality show. It's me, the one and only—Neferti!	1																					
+207	207		301								Neferti On-screen	As you all know, I am just an ordinary mechanoid. Even as I speak to you now, we are all coded to perform according to our programming. In other words, a puppet at the whims of the puppeteer.	1																					
+208	208		301								Neferti On-screen	But do you really know what 'real' is?	1																					
+209	209		301								Neferti On-screen	—The answer is, of course, our dear Roland!	1																					
+210	210		301								Neferti On-screen	Our reality show, "Hologram Actor's Camp" is celebrating its anniversary! Such a huge studio with only the protagonist Roland alone! No other human influence! From a child star to a superstar! Roland's growth as an actor for many years right before your own eyes!	1																					
+211	211		301								Neferti On-screen	After all these years, Roland, who is now worried about truth and falsehood, is about to embark on the road to becoming a superstar! As his most loyal colleague, I, Neferti, will guide him on his journey! How will Roland's career change from now on? I bet you all are on the edge of your seats!	1																					
+212	212		301								Neferti On-screen	Enjoy exciting stories, genuine experiences and answers to life's toughest questions! This is our reality show! This absolutely true story is a masterpiece of this era!	1																					
+213	213		301								Neferti On-screen	Damas y caballeros (Ladies and gentlemen), the show is about to begin!	1																					
+214	214		202							1					1																			
+215	215		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+216	216		101							Assets/Product/Texture/Image/BgCg/Cgqz2702.jpg																								
+217	217		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+218	218		401							1	33																							
+219	219		301								Roland	Ah... ah... ahhh...																						
+220	220		301								Neferti On-screen	Lastly, a word from our sponsor. "Take a break and spice up your life." Starting next week, entertainment leader...																						
+221	221		301									Watching the advertisement, Neferi's over-enthusiastic and familiar lines are like an ice-cold waterfall pouring on Roland's head.																						
+222	222		301									The water slowly rises from the bottom of his feet up to his neck.																						
+223	223		301									His body is freezing.																						
+224	224		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+225	225		301								Roland	(Vomits)																						
+226	226		301									The cold dizziness pulls at his stomach without giving him time to process it, causing him to vomit profusely.																						
+227	227		301									He was long acquainted with this feeling. Every time he had to reboot Mandhasti, he had to endure intense nausea.																						
+228	228		101							Assets/Product/Texture/Image/BgCg/Cgqz2702.jpg																								
+229	229		301									As the advertisement draws to an end, a flood of comments suddenly passes by the screen. Right at that moment, Roland sees several familiar IDs.																						
+230	230		301									Praise, envy, expectation and worry. The stream of comments, carrying countless emotions, washes toward Roland. Similar content, similar tone, but its point is no longer the illusory Roland.																						
+231	231		301									Indeed. Building such a large studio with the intent of keeping a human caged in it for decades without them realizing it is obviously impossible.																						
+232	232		301									However, if that person thinks that they are the one deceiving others, it is more likely for them to think that those ubiquitous cameras are not pointed at them, and that the audience is not watching them either. That makes things much easier.																						
+233	233		301									Overwork them, distract their mind with complex thoughts, then set up some things disguised as "the outside world" so that they won't have any clue that they are really the star.																						
+234	234		101							Assets/Product/Texture/Image/BgStory/Bgstory122.png																								
+235	235		201							1	500365	7																						
+236	236		301							1	Roland	W-why...	1																					
+237	237		301									A few seconds later, the advertisement ends with cheers from the audience. Regaining control over his limbs, Roland discovers it is his fingers that begin to move first.																						
+238	238		204							1	4																							
+239	239		301								Roland	No, no, it's okay. Doesn't matter that I've been deceived this whole time. Now, I just need to think about how to survive...	1																					
+240	240		301								Roland	Yes, even if it's all fake, it's all of those bastards in the park that did this to me. To hell with them. My parents and Rolmo are still waiting for me outside. As long as I live, I'll be able to see them.	1																					
+241	241		301								Roland	Considering the situation now, I won't be able to log into the official account. But the advertisement said that I was the only human in the park, my contract must be somewhere in the database. I should be able to get my family's contact info on it.	1																					
+242	242		301								Roland	Contract, contract. If I'm the only human, it should be easy to find... Hack the park's encrypted firewall, and I'll find it in no time... I'm coming, twerp.	1																					
+243	243		301								Roland	I've been working hard to maintain this life... I've put in so much blood, sweat, and tears... How can it all be fake...	1																					
+244	244		301								Roland	Please... Anyone... Just tell me this is all a part of the rewrite. Tell me that if I leave, it'll all be over...	1																					
+245	245		401							2	1515																							
+246	246		301								Program	Firewall disabled. Large-scale decryption initiated... Unidentified user access granted.																						
+247	247		301								Roland	Presto.	1																					
+248	248		401							2	510																							
+249	249		301								Program	Encrypted file found.																						
+250	250		401							2	510																							
+251	251		301								Program	Decrypted. Open?																						
+252	252		401							2	510																							
+253	253		301								Program	Decryption confirmed $con^%&^Ttg798F&^. Opening^N78b																						
+254	254		301								Program	"Employment Contract for 'Hologram Actor's Camp' - Project Roland"																						
+255	255		301								Program	Party A: Rococo Entertainment (Full name: Rococo^%*^DFC^&hc&%YCT67FDC)																						
+256	256		301								Roland	Party B... Party B...	1																					
+257	257		204							1	1																							
+258	258		301								Roland	Ha-HA! Why didn't I think of this...	1																					
+259	259		401							2	561																							
+260	260		301			RImgBg1Shake						Suddenly, something crashes into the door behind him, knocking over a pile of heavy objects stacked in the doorway.																						
+261	261		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	2																							
+262	262		301									Looking back, a hole is busted into the base of the door. Even though it is too small for someone to fit through, it is still big enough for Roland to see numerous mechanoids shouting as they attempt to squeeze through the door.																						
+263	263		301									Even though their faces are destroyed and their eyes shining red, Roland could recognize his colleagues in the surging sea of mechanoids.																						
+264	264		301								Roland	Neferti... Omi... The screenwriter...	1																					
+265	265		301								Roland	Hahahah! Of course. All of you who kept me company, cared about me, and deceived me—of course, you're all mechanoids. You guys didn't happen to do that twerp's AI, too? Haha!	1																					
+266	266		301								Roland	Not only that, but so far, the things I like, the things I hate, the things I stick to, the things I look forward to are all fakes made by you, right? Hahahaha...	1																					
+267	267		301									Turning off the terminal, Roland doesn't immediately run away from the door. Rather, he courteously gestures to the door with his arms gently raised and his feet apart like a noble knight greeting guests from afar.																						
+268	268		301								Roland	I see. The things in your hands look dangerous. Those aren't props. This time it's for real, isn't it?	1																					
+269	269		301								Roland	Alrighty then. Show me what you've got...	1																					
+270	270		301								Roland	If nothing is left, no name, no experiences, no past—everything is fake—wouldn't it be better just to get this boring life over and done with? Being here with you all now, yes, I wouldn't have it any other way.	1																					
+271	271		201							1	500379		600																					
+272	272		201							2	500379																							
+273	273		201							3	500379		-600																					
+274	274		301							1		The hole in the door bursts open. Roland watches as the first mechanoid crawls in through the hole. Perhaps it's a glitch, but he seems to be able to hear them mumbling to themselves.																						
+275	275		201							3	500013		-600																					
+276	276		301							1	Omi	No, no, no! Roland, you've got the intonation wrong! You need to speak from your gut!		3																				
+277	277		301									Omi said this when she was training him to act. She was holding a rolled-up script as she prodded his abdomen and scolded him. Now, that iron bar in her hand would sure pierce right through him.																						
+278	278		201							1	500013		600																					
+279	279		301							1	Screenwriter	Roland, scene HZZ... Come on, chop, chop!	1																					
+280	280		301									Every time the director urged Roland to go to a scene, he would always speak in a hurry. It sounded like two knives stabbing into his ears from his earpiece. Now it liked like he actually wanted to stab him in the ears with those two sharp knives in his hands.																						
+281	281		201							2	500013																							
+282	282		301							1	Neferti	I hope you... can get some... proper shuteye...	2																					
+283	283		202							1	2	3			1																			
+284	284		201							1	500365	1																						
+285	285		301							1	Roland	Haha, Neferti... Everyone's going on about work. You're the only one being kind.	1																					
+286	286		301								Roland	It's almost like you really remember me...	1																					
+287	287		301									Neferti is only holding a crude blade. He looks like his muscles are about to tear his clothes to shreds. But based on the damaged frame, he is just a simple, hollow shell.																						
+288	288		301									Maybe he only has enough strength to lift that knife. What a joke.																						
+289	289		202							1					1																			
+290	290		301									Roland thinks a moment, then closes his eyes and takes a step toward his colleagues—																						
+291	291		301			RImgBg1Shake						—But he is then pushed aside by a shadowy figure.																						
+292	292		201							1	500365	17																						
+293	293		301							1	Roland	Rgh...	1																					
+294	294		301									Roland crashes into the wall, and his shoulders feel like a chunk is missing from them. But there is no doubt that he is still alive.																						
+295	295		204							1	7																							
+296	296		301								Roland	...Mandy?	1																					
+297	297		301									Looking back, the mechanoid officer stands in his place. His side appears to be pierced by a sharp weapon, exposing his familiar mechanical insides.																						
+298	298		204							1	1																							
+299	299		301								Roland	Haha. Mandy, it's not like you to join the battlefield. But now that you're here, don't hold back...	1																					
+300	300		201							1	500378																							
+301	301		301							1	Mandhasti	When a knight. In trouble. Is the King's duty. To help.	1																					
+302	302		301								Mandhasti	Remember... Memory. Health, Must. Preserve.	1																					
+303	303		201							1	500365	7																						
+304	304		301							1	Roland	...?	1																					
+305	305		201							1	500378																							
+306	306		301							1	Mandhasti	Protect. Roland's. Everything.	1																					
+307	307		301								Mandhasti	Mandhasti's. Main. Objective.	1																					
+308	308		301								Roland	...																						
+309	309		301								Mandhasti	Hurry. Run...	1																					
+310	310		301								Mandhasti	My. Knight...	1																					
+311	311		201							1	500365	4																						
+312	312		301							1	Roland	Hmph.	1																					
+313	313		301									One step back, two steps back. Roland suddenly turns around and bumps into the shelf beside him. A shelf full of prop goods falls over, blocking the small hole.																						
+314	314		301				AniZhuanchangBegin					He doesn't bother to check on the mechanoids behind him. Instead, he turns to run out of the other exit.																						
+315	315		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab																							
+316	316		101							Assets/Product/Texture/Image/BgStory/Bgstory424.jpg																								
+317	317		301			AniZhuanchangEnd					Roland	R-run...?	1																					
+318	318		301									Where is he going? He doesn't know where in the park is still safe, nor if he could still survive this.																						
+319	319		301									There is no direction, no goal, just running like a bat out of hell. Every step he takes, he wants to take back. Every time he accelerates, he feels something slow him down.																						
+320	320		301									Roland does not even feel that he is running. He feels like he is just tormenting himself with the ultimate goal of exhausting every ounce remaining of his strength.																						
+321	321		301									His legs gradually fill with the burn of lactic acid. Yet the pain clears up his sense of logic and reason.																						
+322	322		301									The brief scene and fragmented sentences gradually come together to make sense in his head.																						
+323	323		202							1					1																			
+324	324		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+325	325		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab																							
+326	326		101							Assets/Product/Texture/Image/BgStory/Bgstory213.png																								
+327	327		301									"Party A agrees to pay Party B a monthly..."																						
+328	328		301									"Party B acknowledges and promises that during the effective period of this contract, Party B shall not have any contact with Roland (hereby referred to as 'the Product')."																						
+329	329		301									"During the effective period of this contract, Party B shall not be involved in any matter concerning the Product."																						
+330	330		301									"When necessary, Party B is obliged to provide corresponding materials for AI-simulated personality training to ensure the stability of the Product."																						
+331	331		301									Under various terms, Party B's signature can be easily recognized even if he has not seen it for many years.																						
+332	332		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+333	333		101							Assets/Product/Texture/Image/BgStory/Bgstory424.jpg																								
+334	334		201							1	500365	1																						
+335	335		301							1	Roland	Dad... Mom... Rolmo...	1																					
+336	336		301								Roland	AI-simulated personality, holograms, voice changers... Imitating family members when speaking with them and playing recordings when necessary... It's too easy to fabricate the illusion of family. Real family members can also enjoy a life of leisure and watch all this on TV from a distance.	1																					
+337	337		301								Roland	I wonder if they got a good price out of me. Are their lives any better because of it?	1																					
+338	338		301								Roland	What do they think when they watch my performance?	1																					
+339	339		301								Roland	Hah... I'm sure they'd get a kick out of it.	1																					
+340	340		301								Roland	A knight? An actor? Or that so-called process of pursuing whatever that gives me a sense of really being alive?	1																					
+341	341		301								Roland	In the end, everything I pursued was a lie. Just a clown in makeup mocked and laughed at by others.	1																					
+342	342		301								Roland	Good show... Jolly good show...	1																					
+343	343		301								Roland	How can you not laugh at such a wonderful performance?	1																					
+344	344		301									Roland laughs out loud and continues to run.																						
+345	345		202							1					1																			
+346	346		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBeginHei.prefab	2																							
+347	347		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+348	348		301									He does not know how long he has run. His steps begin to falter, and his arms seem to swing off his body...																						
+349	349		301									Breathing can no longer support the strenuous exercise. Each breath is like swallowing an inflated balloon. Every time he steps, the lactic acid makes his muscles feel like they're being pulled apart.																						
+350	350		301			PanelActor1Shake					Roland	(Gasps for breath)																						
+351	351		301									Finally, he stumbles and falls to the ground, too weak and exhausted to get up again.																						
+352	352		401							2	1507																							
+353	353		301		1		AniZhuanchangBegin					He hears the rustling of mechanoids approach him from behind.																						

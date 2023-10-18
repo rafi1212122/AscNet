@@ -1,0 +1,17 @@
+Key	Comment	Value
+MoveCostEnergy	Movement consumes Stamina	1
+ProgressWarnAfterStart	The time of sending a progress warning mail after a round starts. (in hours) (6 days)	144
+AddEnergy	The amount of Stamina added every night at 20:00.	70
+AutoSetDifficultyDelay	(Abandoned) The latest time of auto setting of difficulty after a round starts. (in hours)	3
+MaxEnergy	Max Stamina	210
+ActivityPointItemId	Event Stamina ID	96114
+NodeRewardMailId	Night Node Reward Mail ID	0
+RoundRewardMailId	Round Reward Mail ID	0
+EntryBgPath	Entrance Picture Address	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarBtn04.png
+AssistCountSupply	Supply per Support	30
+AssistTimeSupply	"Time Supply, Amount per 10 min"	1
+AssistCountSupplyLimit	Max Supply per Round	600
+AssistTimeSupplyLimit	Max Time Supply per Round	576
+UseAssistCharacterCd	Use Support Character CD. Unit: Second (1h)	3600
+AssistMaxDisplayCount	Max number of support characters in display. To avoid too much data.	40
+AssistLogMaxCount	Max Support Logs	35

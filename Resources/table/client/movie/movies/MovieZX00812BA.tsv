@@ -1,0 +1,42 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory52.jpg																								
+2	1000		401							1	103																							
+3	2		201							1	1031001		400																					
+4	3		201							2	500029		-400																					
+5	4		301			DialogEnable				1	Liv	The chamber is open!	1																					
+6	5		301								Lucia	Liv, monitor Kamui's condition.	2																					
+7	6		301								Liv	The energy inside the chamber is... being absorbed by Kamui! His M.I.N.D. is overheating!	1																					
+8	7		301								Liv	No, this is too dangerous!	1																					
+9	8		301								Lucia	Bianca, wait!	2																					
+10	9		201							1	1091001		400																					
+11	10		301							1	Bianca	Karen's situation might happen again if this continues! The Tenebrion he's consuming is too powerful—we have to remove the threat before it gets out of hand!	1																					
+12	11		302								I think there's still hope...	12																						
+13	12		301								Lucia	Indeed. Just like Karen's case, we might be able to save Kamui with the same method.	2																					
+14	13		201							1	1031001		400																					
+15	14		301							1	Liv	I'll try my best to—	1																					
+16	15		201							1	1091001		400																					
+17	16		301							1	Bianca	No, I won't let you go through with that. This risk is far greater than Karenina's condition.	1																					
+18	101		201							2	500029		-400																					
+19	17		301								Lucia	But it's still worth a try... Kamui, he is our companion.	2																					
+20	18		201							1	1031001	7	400																					
+21	19		301							1	Liv	R-report! The viral density inside Kamui is shrinking rapidly!	1																					
+22	1001		204							1																								
+23	20		301								Lucia	Please, Bianca.	2																					
+24	21		202							1	2																							
+25	22		201							1	1091001		400																					
+26	23		201							2	1011001		-400																					
+27	24		301							1	Lee	I'm afraid our lives will be much more boring in the future without this guy lightening the mood.	2																					
+28	25		301								Lee	But most importantly, I dislike farewells just as much as I hate fighting my own companions.	2																					
+29	26		201							2	1031001	14	-400																					
+30	27		301							1	Liv	I don't like them as well. I was afraid of Lee's situation just now and... s-so, if the same thing happened again... Bianca, please, wait for a bit more.	2																					
+31	100		204							2																								
+32	28		302								Please, Bianca!	29																						
+33	29		301								Bianca	You...	1																					
+34	30		301								Liv	The viral density has nearly dropped to zero! There won't be a corruption risk if we establish a connection now!	2																					
+35	31		301								Bianca	I understand. Then let me join you and see this through to the end.	1																					
+36	32		302								Thank you.	33																						
+37	33		301								Bianca	No, I'll stay on guard duty. I'll pray for your success.	1																					
+38	34		201							2	500029		-400																					
+39	35		301				DialogDisable			1	Lucia	Commandant, your orders!	2																					
+40	36		302								Everyone, prepare for the final battle.	37																						
+41	37		302		1		AniZhuanchangBegin				Let's go bring Kamui back!	38																						

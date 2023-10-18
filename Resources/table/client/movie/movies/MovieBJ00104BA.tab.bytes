@@ -1,45 +1,0 @@
-[HGo~ÙÑ¸K6½ŒÅá°„»|7á¾
-”–úñåJqRÇ[^§0ìŒ3ï_ÐUû<Õbû?ÈÕ¤JQkÊ=&S¶‘‹ÖÇ¨ÈfæôÿÖÅéáo­m|YF™áÞ¢AOÏSI:©GÉ"XÏÈc"O©ÃC¡W„vÍòcId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
-1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory155.png																								
-2	2		401							1	18																							
-3	3		301			DialogEnable						Incessant chatter fills the transport aircraft. Conversations from the ATC channel burrow into your ears through your personal terminal.																						
-4	4		201							1	500019																							
-5	5		301							1	Pilot	Mother Swan-6 to Babylonia Control. Now approaching route 3-3-4. New area up ahead. Request confirmation of route validity.	1																					
-6	6		201							1	500001																							
-7	7		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
-8	8		301								Celica	Babylonia Control to Mother Swan-6. Route 3-3-4 and airspace ahead are both clear. Drop cargo at point Papa-Sierra-14.	1																					
-9	9		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
-10	10		201							1	500019																							
-11	11		301							1	Pilot	Copy. Drop cargo at point Papa-Sierra-14.	1																					
-12	12		202							1																								
-13	13		301									...																						
-14	14		302								Are we there?	15																						
-15	15		201							1	500019																							
-16	16		301							1	Pilot	Almost. This airspace isn't our usual AO, so we had to double-confirm.	1																					
-17	17		301							1	Pilot	We're near KCC's backyard. Scuttlebutt is they got a few Thunderstorm emplacements back in the Golden Age up and running.	1																					
-18	18		302								...	19																						
-19	19		301							1	Pilot	Don't worry, though. Babylonia pre-screened our flight path. It'll be alright.	1																					
-20	20		301							1	Pilot	We're above the target area. Starting descent.	1																					
-21	21		301							1	Pilot	Mother Swan-6 to Babylonia Control. Reached point Papa-Sierra-14. Following protocol 01 for vertical landing.	1																					
-22	22		201							1	500001																							
-23	23		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
-24	24		301							1	Celica	Babylonia Control to Mother Swan-6. Copy. Relaying channel to Forsaken Stronghold Zulu-Tango-8.	1																					
-25	25		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
-26	26		201							1	500154																							
-27	27		301							1	Forsaken	This is Zulu-Tango-8, independent Forsaken battle group. We'll guide you in.	1																					
-28	28		301				AniZhuanchangBegin			1	Forsaken	Please proceed along the 3D-marked path and make your landing at...	1																					
-29	29		203							1	0.25	-400																						
-30	30		201							2	1021001		400																					
-31	31		301			AniZhuanchangEnd				1	Lucia	Babylonia is rebuilding a... theater?	2																					
-32	32		301							1	Forsaken	Yep. The Glazed Arch Theater. Basically takes up the entire coast.	1																					
-33	33		301							1	Forsaken	In the old days, you couldn't even come close to the doorstep without a Swiss bank account. The best Thespioids, with M.I.N.D.s copied from the real deal, played all the classics here.	1																					
-34	34		301							1	Forsaken	'Course. When the punishing happened, all them 'crats abandoned the place like it's the plague.	1																					
-35	35		301							1	Forsaken	Now, all that's left around here are the servants.	1																					
-36	36		202							1	2																							
-37	37		301									The Forsaken soldier gestures for you to look, but you can already guess what he means.																						
-38	38		301									Corrupted service mechanoids still walk the rows after all these years. Some are even carrying fruit platters and hot towelsâ€”now rotten and coldâ€”with them.																						
-39	39		201							1	1011001		-400																					
-40	40		201							2	1111001		400																					
-41	41		301							1	Lee	The irony.	1																					
-42	42		301							1	Karenina	Ditto.	2																					
-43	43		301		1		AniZhuanchangBegin			1	Karenina	A stage without an audience... Let's draw the curtains.	2																					

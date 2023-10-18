@@ -1,0 +1,76 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory287.png																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						Standing at a vantage point, Gabriel looks at a map of the city. Red dots seem to be moving toward the city from every direction.																						
+4	4		201							1	500101																							
+5	5		301							1	Gabriel	Not only does it not work, it has also attracted vermins...	1																					
+6	6		301								Gabriel	The signal jammer is functioning well. This underground facility is holding up better than I expected.	1																					
+7	7		301								Gabriel	Now that you have come this far, you might as well stay here for good.	1																					
+8	8		301									The ground quivers as Gabriel speaks. The Red Tide breaks through the sewers and erupts out of the ground.																						
+9	9		301									As the Red Tide rushes to the distance, Gabriel turns around and walks down the stairs.																						
+10	10		301				AniZhuanchangBegin				Gabriel	Next... the final step.	1																					
+11	258		202							1					1																			
+12	11		101							Assets/Product/Texture/Image/BgStory/Bgstory285.png																								
+13	12		301			AniZhuanchangEnd						Outskirts of City 075 ruins.																						
+14	13		201							1	500155																							
+15	14		301							1	Chrome	This is Strike Hawk. We have arrived at the outskirts of City 075.	1																					
+16	15		301								Chrome	The area looks clear at the moment. No sign of the Corrupted or Red Tide. We will begin searching for Huaxu's signal along the planned route.	1																					
+17	16		301									Chrome keeps a finger on his comms device and gives a status report to Babylonia while reading the information on the screen.																						
+18	17		203							1	0.25	-400																						
+19	18		201							2	1081001		400																					
+20	19		301							1	Kamui	Capt, how does it look?	2																					
+21	20		301								Chrome	Communication has been unstable since we arrived. The closer we are to the city center, the stronger the interference gets. It's advisable to finish all preparations before we commence the mission.	1																					
+22	21		204							2	1																							
+23	22		301								Kamui	Speaking of which, Gray Raven should be in the area too, right?	2																					
+24	23		301								Chrome	Well, Gray Raven entered from the east while we came in from the west of the city. Since we can only narrow down Huaxu's location to a 5-10km radius, there may still be some distance between us.	1																					
+25	24		301								Kamui	The other airborne units are also looking for Huaxu, right? I mean the Support Force, the Mountain Owls, and the Cerberus...	2																					
+26	25		301								Chrome	Yeah. They all came in the city from different directions.	1																					
+27	26		204							2	2																							
+28	27		301								Kamui	Then we can't let them beat us!	2																					
+29	28		301								Kamui	I know we're no match for Liv, but the Strike Hawk's radar is still outstanding, isn't it, Captain?	2																					
+30	29		301									Chrome does not even raise an eyebrow at Kamui's sudden enthusiasm.																						
+31	30		301								Chrome	This isn't a game. Focus on the mission.	1																					
+32	31		204							2	1																							
+33	32		301								Kamui	I know. I always treat my missions with utmost sincerity!	2																					
+34	33		301								Chrome	Besides, Huaxu isn't the top priority for the Strike Hawk. Our first and foremost task is figuring out the Red Tide's source and collecting samples.	1																					
+35	34		202							2					1																			
+36	35		203							1	0.25																							
+37	36		301									Chrome takes out a cylinder shaped airtight device.																						
+38	37		301								Chrome	With this, we can extract Red Tide samples at a safe distance. Let's locate its source first.	1																					
+39	38		301									A transmission rings on the comms.																						
+40	39		301								???	Strike... Hawk... Do... you... copy...																						
+41	40		301								Chrome	Copy. This is Strike Hawk. Is it President Hassen?	1																					
+42	41		203							1	0.25	-400																						
+43	42		201							2	500011		400																					
+44	43		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+45	44		301							1	Hassen	...What's the situation now?	2																					
+46	45		301									Hassen's signal is choppy but finally stabilizes at a recognizable level.																						
+47	46		301								Chrome	We are trying to locate the Red Tide and Huaxu along the planned route.	1																					
+48	47		301								Hassen	You have a new mission objective. From now on, locating Gray Raven is your priority.	2																					
+49	48		201							1	1081001		-400																					
+50	49		301							1	Kamui	Gray Raven? What happened to them?	1																					
+51	50		301								Hassen	...That's the problem. We have absolutely no way to find out their current status. A few minutes ago we lost all communication with them.	2																					
+52	51		201							1	500155		-400																					
+53	52		301							1	Chrome	Hmm...	1																					
+54	53		301								Hassen	They may have encountered unexpected situations or even danger.	2																					
+55	54		301								Hassen	Or—they may have already found their target, but interference is too strong around that area for them to reach out.	2																					
+56	55		301								Hassen	Considering the actual condition of this place and Gray Raven's capability, I think the latter is more probable.	2																					
+57	56		301								Chrome	We shouldn't be more than 20km from the Gray Ravens. Try contacting them via shortwave communication.	1																					
+58	57		202							1	2				1																			
+59	58		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+60	59		201							1	1081001	4																						
+61	60		301							1	Kamui	Nothing... No answer at all. I called each of their channels, even the backup comms.	1																					
+62	61		301								Kamui	No one answered.	1																					
+63	62		201							1	500011																							
+64	63		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+65	64		301							1	Hassen	I guess you'll have to look for them yourselves.	1																					
+66	65		301								Hassen	Whatever situation they're in, Gray Raven could probably use our help.	1																					
+67	66		301								Hassen	I've sent you their last known coordinates before we lost contact. We'll be counting on you.	1																					
+68	67		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+69	68		201							1	500155																							
+70	69		301							1	Chrome	Understood.	1																					
+71	70		203							1	0.25	-400																						
+72	71		201							2	1081001		400																					
+73	72		301							1	Kamui	We need to rendezvous with them ASAP... Wait, those coordinates... I remember that the Support Force headed that way, too!	2																					
+74	73		301								Chrome	Let's find the Support Force first and see what they know.	1																					
+75	74		301		1		AniZhuanchangBegin				Chrome	Strike Hawk, move out.	1																					

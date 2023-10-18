@@ -1,0 +1,43 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory9.jpg																								
+2	2		401							1	203																							
+3	3		201							1	1091001																							
+4	4		301			DialogEnable				1	Bianca	While we're still capable to keep fighting, I'd advise retreating for now, Commandant.	1																					
+5	5		202							1					1																			
+6	6		301								???	H-help...																						
+7	7		302								What's happening there?	8	Let's head that way, Bianca!	9																				
+8	8	11	201							1	1091001																							
+9	9		201							1	1091001																							
+10	10		301							1	Bianca	Understood, Commandant.	1																					
+11	11		301							1	Bianca	It looks like a fight. It appears that the Support Force is fighting against...	1																					
+12	12		202							1					1																			
+13	13		201							1	500019		-400																					
+14	14		201							2	500005		400																					
+15	15		301							1	Construct	We didn't do anything, I swear... Why are you attacking us?	1																					
+16	16		302								Stop it, now!	19	Bianca, stop them.	17																				
+17	17		201							1	1091001		-400																					
+18	18		301							1	Bianca	I'll keep them away with my arrows.	1																					
+19	19		301								Purifying Force Member	Your ID... You're the one from Gray Raven, aren't you? And the Construct with you... is that Bianca?	2																					
+20	20		201							1	1091001		-400																					
+21	21		301							1	Purifying Force Member	What are you doing here?	2																					
+22	22		301								Bianca	I should be the one asking you. Why are you attacking the Support Force?	1																					
+23	23		301								Purifying Force Member	Because they looked terrified the moment they saw us and started running away.	2																					
+24	24		201							1	500019		-400																					
+25	25		301							1	Construct	That was because you guys all unholster your weapons... I thought you were going to...	1																					
+26	27		201							1	1091001		-400																					
+27	26		301								Purifying Force Member	To what?!	2																					
+28	28		301							1	Bianca	Enough! Isn't this the reason why the other Constructs are so terrified of the Purifying Force?	1																					
+29	29		301								Purifying Force Member	So what? We're now suspecting deserters in the Support Force, so get out of my face.	2																					
+30	30		302								Ignore them, Bianca.	31	Is everyone from the Purifying Force as impulsive as you?	31																				
+31	31		301								Purifying Force Member	This isn't your jurisdiction, Gray Raven Commandant.	2																					
+32	32		301								Bianca	But it is. These people from the Support Force are on a joint operation with Gray Raven, so they're very much affiliated with the Gray Raven Commandant.	1																					
+33	33		301								Purifying Force Member	You're not letting Gray Raven challenge the Purifying Force, are you, Bianca?	2																					
+34	34		301								Bianca	Of course not, seeing that I'm also part of the Purifying Force. We can give it a shot right now—Purifying Force versus Purifying Force.	1																					
+35	35		301								Purifying Force Member	...	2																					
+36	36		301								Purifying Force Member	...Tch. Goddamn fence sitter.	2																					
+37	37		301								Purifying Force Member	That's why you're on a regular Task Force instead of fully here with us, isn't it? Fence sitter.	2																					
+38	38		302								Take it back.	39	Do you feel proud attacking one of your own?	39																				
+39	39		202							2					1																			
+40	40		203							1	0.25																							
+41	41		301								Bianca	That's alright, Commandant. They're not going to do anything after we clarify the Purifying Force's stance.	1																					
+42	42		301		1		AniZhuanchangBegin				Bianca	So please follow my lead and be patient.	1																					

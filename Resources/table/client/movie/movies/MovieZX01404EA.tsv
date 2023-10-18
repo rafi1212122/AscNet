@@ -1,0 +1,76 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory214.png																								
+2	2		401							1	209																							
+3	1001		201							1	500086																							
+4	3		301			DialogEnable				1	Fisher A	Cough... Cough...	1																					
+5	1002		201							1	500214																							
+6	4		301							1	Rosetta	Are you guys all right?	1																					
+7	1003		202							1																								
+8	1004		201							1	500086		400																					
+9	1005		201							2	500087		-400																					
+10	5		301							1	Fisher A	We don't need no sympathy from ya sinners.	1																					
+11	6		301								Fisher A	And 's not like 'em bionics...	1																					
+12	7		301								Fisher B	Shhh, dun bring it up, ya dolt.	2																					
+13	8		301									After the battle, Rosetta approaches the rescued ARU members, offering help.																						
+14	9		301									But her extended hand is met with the same hostility as before.																						
+15	1006		302								We rescued you.	10	Why are you so hostile to the Forest Guards?	11																				
+16	10	1007	301								Fisher A	Y'all just repayin' yer debts.	1																					
+17	11	1007	301								Fisher A	The Capt. had ye over, aye... Yeah, yeah, thanks n' all, but this's ARU matter, not yers.	1																					
+18	1007		202							1	2																							
+19	1008		401							2	1514																							
+20	12		301									And with that, they struggle to their feet, hobbling toward the facilities with their weapons as a crutch.																						
+21	1009		201							1	500088																							
+22	13		301							1	Diana	...They should be able to get this place up and running like before in no time. But anyway, I never thought the reinforcements from Babylonia would be 【kuroname】 and you, Rosetta.	1																					
+23	14		301									Confirming the safety of the surroundings, Diana approaches you. She seems relieved at seeing you once again.																						
+24	1010		203							1	0.25	-400																						
+25	1011		201							2	500214	1	400																					
+26	15		301							1	Rosetta	I'm only temporarily staying at Babylonia. So if the ARU requires help, I'd naturally be the most appropriate candidate.	2																					
+27	16		301								Diana	What about you, 【kuroname】?	1																					
+28	1012		302								At the behest of our dear Rosetta.	17	Thanks for your help in Kowloong.	19																				
+29	17	18	301								Diana	Huh, I see... So Constructs in Babylonia get to appoint their commandants? If 【kuroname】 is on the menu, then color me intrigued.	1																					
+30	18	23	301								Rosetta	This is only a temporary arrangement. 【kuroname】 is still the commandant for the Gray Ravens.	2																					
+31	19	20	301								Diana	Oh... You found out? And here I was, hoping to be a hero behind the scenes.	1																					
+32	20	21	301								Rosetta	Don't try something that dangerous again, Diana. Especially with my kind of luck.	2																					
+33	21	22	301								Diana	Sigh, here you go with the luck stuff again, Rosetta.	1																					
+34	22	23	301								Rosetta	...	2																					
+35	23		301								Diana	Anyway, 【kuroname】... Did Rosetta make you wear this?	1																					
+36	1013		302								A big plump robot I am...	24	Yes.	25																				
+37	24	26	301								Rosetta	It's bulky, but it has the defensive capability to match. And if you activate its built-in acceleration system, you might just be able to keep up with us for a few seconds.	1																					
+38	25	26	301								Diana	That means she cares about you.	1																					
+39	26		301								Diana	These Polar Soldier units just feel so nice and smooth. I've seen all sorts of piloted models, but somehow this one gives me warm and fuzzy feelings inside...	1																					
+40	27		301									From gentle head-scritches of your Polar Soldier unit, Diana's hand gradually quickens into rambunctious rubbing. The paint above your head is definitely thinning.																						
+41	28		301								Rosetta	Diana... Now's not the time for that. Do you have info on the current situation?	2																					
+42	29		301								Diana	Yep. We received intel of the Babylonia reinforcements leaving the base and rushed over. Now, we're ready to recover the lost territory.	1																					
+43	1014		302								You should be able to handle the bionics.	30	What were you guys doing before?	33																				
+44	30	31	301								Diana	True, but we're shorthanded. If we want to hold a region, we'll have to station too many of our forces.	1																					
+45	31	32	301								Diana	And if we don't do so, no matter how many areas we recover, they'll likely be recaptured again.	1																					
+46	32	1015	301								Diana	That's why we were engaging in guerrilla warfare up until this point.	1																					
+47	33	1015	301								Diana	We were conducting guerrilla warfare. The enemy has us outnumbered, so we have to resort to picking off the enemies trying to attack the main base.	1																					
+48	1015		202							1	2																							
+49	1016		201							1	500201	1	400																					
+50	1017		201							2	500206	1	-400																					
+51	1018		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab	2	1																						
+52	1019		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab	2	2																						
+53	34		301							1	Simon	Boss, Rosetta—you hear me?	1																					
+54	35		301								Atiel	Oh, the Forest Guards too! It sure is nice seeing everyone all safe and sound!	2																					
+55	36		301									Looks like Simon has completed his mission.																						
+56	1020		202							2																								
+57	1021		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+58	1022		201							2	500088		-400																					
+59	37		301							1	Diana	Atiel, you are as energetic as ever. So what's the news?	2																					
+60	38		301								Simon	Boss, I want to confirm the status on the regions recovery. We've managed to retake the resource pipeline. What about the hub facilities on your end?	1																					
+61	1023		302								Done and done.	39	Are you guys okay?	40																				
+62	39	42	301								Simon	I knew you'd kill it, Boss. Now, things can finally get moving.	1																					
+63	40	4001	301								Simon	We're okay, but Atiel...	1																					
+64	4001	4002	203							1	0.25	600																						
+65	4002	1024	203							2	0.25	-600																						
+66	1024	1025	201							3	500206																							
+67	1025	41	501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab	2	3																						
+68	41	42	301							1	Atiel	I'm okay—just a little scratch! I'm good to keep fighting.	3																					
+69	42		301								Simon	In short, I intend to continue dispersing forces to deal with areas where the enemy's defenses are weakest. Boss, can you rendezvous with us at this position?	1																					
+70	1026		201							2	500214		-400																					
+71	500		202							3																								
+72	501		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		3																					
+73	43		301							1	Rosetta	That place...	2																					
+74	44		301								Simon	Yeah, a residential region. It occupies a larger area, so there are several times the bionics defending it.	1																					
+75	45		301		1		AniZhuanchangBegin				Rosetta	So, we've got our work cut out for us, huh...	2																					

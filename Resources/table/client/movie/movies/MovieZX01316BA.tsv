@@ -1,0 +1,94 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory199.png																								
+2	2		401							1	111																							
+3	3		201							1	500101																							
+4	4		301			DialogEnable				1	Gabriel	I've been waiting for you.	1																					
+5	5		301							1	Gabriel	I apologize for hindering you from achieving your purpose.	1																					
+6	6		301							1	Gabriel	Miss Luna wishes for this, so please understand.	1																					
+7	7		202							1																								
+8	8		201							2	500166																							
+9	9		301							1	Lucia	We are not the same as we were in Kowloong.	2																					
+10	10		301							1	Lucia	You might not be able to stop us this time.	2																					
+11	11		202							1																								
+12	12		201							2	500101																							
+13	13		301							1	Gabriel	Is that so? Regrettably, I, am not the same as well.	2																					
+14	14		301							1	Gabriel	—Laguz	2																					
+15	15		202							2																								
+16	16		301									Like Roland, Gabriel's words echo and distort in everyone's communication channel.																						
+17	17		301									Only, Gabriel's words are more potent than Roland's, and the whispers—accompanied by howls—echo in everyone's M.I.N.D.																						
+18	18		301									Unable to bear the noise of info flooding out of the channel, everyone can do nothing but stabilize themselves.																						
+19	19		301									Gabriel moves. Camu recovers due to his previous experience and reacts to Gabriel, but it was already too late.																						
+20	20		301									Gabriel captures you.																						
+21	21		401							1	112																							
+22	22		201							2	500101																							
+23	23		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryRedSmoke.prefab		2																						
+24	24		301							1	Gabriel	What folly. Humankind is forever bringing about its own destruction.	2																					
+25	25		301								Gabriel	Even if you eradicate the Punishing Virus in the foreseeable future, these Constructs, your shieldbearers, will still be discarded like pairs of worn-out shoes.	2																					
+26	26		301								Gabriel	This is Miss Luna's will, so please understand.	2																					
+27	27		301								Gabriel	Humans are the epitome of absurdity. You do not even realize what the Punishing Virus really is.	2																					
+28	28		301									You begin to suffocate. Everything begins turning black and white.																						
+29	999002		504							0.3																								
+30	29		301								Gabriel	Of course, I bear no innate hatred for humans themselves.	2																					
+31	30		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryRedSmoke.prefab		2																					
+32	31		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryBlackSmoke.prefab		2																						
+33	32		301							1	Gabriel	You are pitiful beings to be eliminated by the Punishing Virus sooner or later.	2																					
+34	33		301							1	Gabriel	When the dust settles... Only those... under the protection of the Ascension-Network... will survive...	2																					
+35	34		301									Darkness begins to eat away your field of vision, and even Gabriel's words, spoken right before you, begin to sound distant.																						
+36	999001		504							0.6																								
+37	35		301									This is... your end...																						
+38	36		202				AniZhuanchangBegin			2																								
+39	37		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+40	999003		504							0																								
+41	38		301			AniZhuanchangEnd						...?																						
+42	39		301								???	Hah, you look pretty miserable.																						
+43	40		301								Gabriel	?																						
+44	41		301								???	Do it like we planned.																						
+45	42		301									Four grenades explode above Gabriel's head.																						
+46	43		401							2	10007502																							
+47	44		301								Gabriel	Pathetic!																						
+48	45		301								???	Wasn't targeting you! Dumbass!																						
+49	46		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHit.prefab	1																							
+50	47		301									A flash cuts past you, bringing light into your world.																						
+51	48		301				AniZhuanchangBegin					Even the echoes in your ears dissipate.																						
+52	49		101							Assets/Product/Texture/Image/BgStory/Bgstory199.png																								
+53	999004		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryBlackSmoke.prefab		2																					
+54	50		201			AniZhuanchangEnd				1	500168																							
+55	51		301							1	???	Can you get yourself up?	1																					
+56	52		301									You try to respond by standing up, but your arms and legs are unresponsive, as if they were stripped of their bones.																						
+57	53		301							1	???	Tch, humans. So fragile.	1																					
+58	54		301									The shadow in front of you leans down and flips you over.																						
+59	55		301							1	???	You might not feel any pain just yet, but, a word of warning—Get ready. You will, now.	1																					
+60	56		301				AniZhuanchangBegin					The shadow pulls out a rod-like object and stabs you hard in the chest.																						
+61	57		202							1					1																			
+62	59		401							1	101																							
+63	60		101							Assets/Product/Texture/Image/BgStory/Bgstory199.png																								
+64	61		201			AniZhuanchangEnd				1	500026																							
+65	62		301							1	Lee	Vera!	1																					
+66	63		203							1	0.25	400																						
+67	64		201							2	500168		-400																					
+68	65		301							1	Vera	Enough noise. Hurry up and get your medics here to clean up the mess.	2																					
+69	66		301								Vera	I jabbed the Commandant with a shot of standard adrenaline. Else, 【kuroname】 would have been dead in ten minutes.	2																					
+70	67		301								Vera	Your medics have CPR devices, yeah? You go get 【kuroname】 breathing.	2																					
+71	68		202							1	2																							
+72	69		201							1	500026																							
+73	70		301							1	Lee	...?	1																					
+74	72		201							1	500168																							
+75	73		301							1	Vera	Hello? I don't have human-use CPR devices on me. I'm not kidding.	1																					
+76	75		201							1	1031001																							
+77	76		301							1	Liv	C-Coming!	1																					
+78	78		201							1	500166																							
+79	79		301							1	Lucia	...Why did you help us?	1																					
+80	81		201							1	500168																							
+81	82		301							1	Vera	Why did I help 【kuroname】? That was just a side dish.	1																					
+82	83		301								Vera	This one here... is our main course.	1																					
+83	84		202				AniZhuanchangBegin			1																								
+84	85		101							Assets/Product/Texture/Image/BgCg/Cg1301_1.jpg																								
+85	86		301			AniZhuanchangEnd						Vera pulls out her blade and points it at Gabriel, who has already recovered from the shockwave of the grenades.																						
+86	87		301								Vera	Sorry, big guy. I know it's your boss lady's orders. But I've got a job to do as well, boyo—and that's sending you to hell.																						
+87	88		301								Gabriel	...Fool.																						
+88	89		301								Vera	Alright, then. Guess you're okay with me doing my job.																						
+89	90		301								Vera	Just a warning, but try making a move on another one around here, and I'll cut your head off from behind.																						
+90	91		301								Vera	Ah, and no need to thank me. I'm a good executioner.																						
+91	92		301								Gabriel	...																						
+92	93		301									Wordlessly, Gabriel moves along with Vera, and the two slowly edge into battle.																						
+93	94		301		1		AniZhuanchangBegin				Vera	Good. Thank you for your cooperation. Happy killing.																						

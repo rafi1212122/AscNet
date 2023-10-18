@@ -1,0 +1,141 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory7.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						Climbing up the long and narrow steps, you come upon a relatively safe area, finally allowing you to unload the heavy mods and empty air cylinder.																						
+4	4		301									You search all the accessible floors but find no one. Only the rooms lying in ruins remain unsearched.																						
+5	5		302								We need to think of a way in.	6																						
+6	6		201							1	1031001		-600																					
+7	7		201							2	500166																							
+8	8		201							3	500026		600																					
+9	9		301							1	Liv	But there aren't any signs of activities in these rooms.	1																					
+10	10		301								Lucia	No signs of activities?	2																					
+11	11		301								Liv	Correct. Maybe the person that cried for help is already...	1																					
+12	1011		301								Lucia	I can't reach Bridget. And we can't get away from the Red Tide...	2																					
+13	12		302								Well, let's still check them out then.	13																						
+14	13		301									The wreckage in front of you looks like they were once a pile of furniture intentionally placed there to block the entrance, before being blown to pieces.																						
+15	14		301								Lee	Let's clean up the debris first.	3																					
+16	16		202							1	2	3			1																			
+17	15		301				AniZhuanchangBegin					The four of you use improvised shovels to clear out the debris in the corridor.																						
+18	17		101							Assets/Product/Texture/Image/BgStory/BgStory83.jpg																								
+19	18		301			AniZhuanchangEnd						Opening the doors, you find what appears to be similar storage rooms one after another.																						
+20	1018		301									In the last room, old daily necessities are littered throughout, accompanied by stacks of storage boxes. Several work uniforms discarded in the corner have grown moldy over time.																						
+21	19		301									An old polymer screen that seems to separate a changing area for the employees stands resolutely in place on the other side of the room.																						
+22	20		301									Lee steps over the scattered objects and pulls the screen away.																						
+23	21		201							1	500026																							
+24	22		301							1	Lee	...?!	1																					
+25	23		302								What is it?	24																						
+26	24		201							2	1031001		-600																					
+27	25		201							3	500166	5	600																					
+28	26		201							1	500026																							
+29	27		301							1		Seeing his odd expression, the rest of you rush over to him.		2	3																			
+30	28		301									Behind the screen, you see a Construct and a human in commandant uniform.		2	3																			
+31	29		204							2	7																							
+32	30		301								Liv	What's a Construct squad from Babylonia doing here?	2																					
+33	31		302								They weren't the ones calling for help... were they?	32																						
+34	32		204							2	14																							
+35	33		301								Liv	Looks like... the commandant must have been dead for over a week.	2																					
+36	34		301								Lucia	I heard from another squad leader that a squad came here on a mission but never returned.	3																					
+37	35		301								Liv	Is this them? Do you think there are any others...?	2																					
+38	36		302								Can we recover the virtual projection?	37																						
+39	37		301								Lee	Yes, but we're already out of range from the security terminal. We should set up another one here to boost the signal.	1																					
+40	38		302								Alright, it should be safe here.	39																						
+41	39		301								Liv	We'll leave it to you, Lee.	2																					
+42	40		301									Lee nods, then he pulls out a security terminal from his bag.																						
+43	41		302								Oh, right. Any response from Asimov?	43																						
+44	43		301								Liv	Not yet. There's a lot of signal fluctuation here. We'll have to wait.	2																					
+45	44		301									You nod to Liv and quietly watch Lee operate the delicate security terminal.																						
+46	45		301								Spear of F.O.S.	Security terminal operational. Select an area to retrieve data.																						
+47	46		301								Lee	Just retrieve data from the last day they were alive.	1																					
+48	47		202							1	2	3			1																			
+49	48		301								Spear of F.O.S.	Acquiring target data [>>>>>>>>] Complete.																						
+50	49		301				DialogDisable				Spear of F.O.S.	Generating image from data [>>>>>>>>>>>>>>>>>>>] Complete.																						
+51	50		202							1					1																			
+52	51		501						1500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+53	52		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+54	53		504							0.8																								
+55	54		101							Assets/Product/Texture/Image/BgStory/BgStory83.jpg																								
+56	55		401							1	201																							
+57	56		201							1	500028		-400																					
+58	57		201							2	500019		400																					
+59	58		301			DialogEnable				1		Under the influence of the Spear of F.O.S., you see two Constructs and a human commandant appearing in the room.																						
+60	59		301									They lean wearily against the wall and place the holo-screens from their terminals in front of them.																						
+61	60		302								There were three of them?	61																						
+62	61		301								Lucia	Looks like the other one wasn't here by the end.																						
+63	62		301								The Dead Commandant	Relay our coordinates to Coco. Have her meet us here.																						
+64	63		301								Chatty Male Construct	She'll be able to find us anyway. Why don't we just let her figure it out?	2																					
+65	64		301								Stern Male Construct	Quit being stupid.	1																					
+66	65		504							0																								
+67	66		201							1	1031001		-400																					
+68	67		201							2	500166		400																					
+69	68		301							1	Liv	His voice sounds familiar.	1																					
+70	69		301								Lucia	Where have I heard it before?	2																					
+71	70		202							1	2				1																			
+72	71		301									The commandant ignores their bickering and continues organizing the data, seemingly long familiar with their squabble.																						
+73	72		301								The Dead Commandant	Let's organize the data we've collected. We'll prepare to head out once Coco returns.																						
+74	73		301									The stern male Construct furrows his brows and nods, then begins opening up the mess of data on his holo-screen.																						
+75	74		504							0.8																								
+76	75		201							1	500028																							
+77	76		301							1	Stern Male Construct	The blood-like liquid Rowler and I discovered nearby... It's showing signs of the Punishing Virus evolving biologically.	1																					
+78	77		301								Stern Male Construct	The last recon team investigating it is still missing. Maybe they've been absorbed into it.	1																					
+79	78		202							1					1																			
+80	79		504							0																								
+81	80		201							1	1031001		-400																					
+82	81		301							1	Liv	The Punishing Virus... evolving...	1																					
+83	82		201							2	500166		400																					
+84	83		301							1	Lucia	And another squad is missing...	2																					
+85	84		203							1	0.25	-600																						
+86	85		203							2	0.25	600																						
+87	86		201							3	500026																							
+88	87		301							1	Lee	Absorbed into it?	3																					
+89	88		301									The information from this one sentence is enough to fill the four of you with the same dismay as the three people in the projection.																						
+90	89		202							1	2	3			1																			
+91	90		504							0.8																								
+92	91		201							1	500028		-400																					
+93	92		201							2	500019		400																					
+94	93		301							1	Stern Male Construct	We sampled that liquid just a few days ago, but it's now three times the size. It can cover an entire block now when it gushes out of the ground.	1																					
+95	94		301								The Dead Commandant	Gushes? Does it still recede like the tide?																						
+96	95		301								Rowler	I think calling it a fountain is a bit more accurate!	2																					
+97	96		301								Stern Male Construct	That may have been true a few days ago, but now it's turning into a tide.	1																					
+98	97		301								Stern Male Construct	It takes longer and causes larger cracks to the surface, but it still recedes into the ground.	1																					
+99	98		301								Stern Male Construct	We must inform Babylonia of this news. The evolving Punishing Virus is a bad omen. Not to mention that it keeps expanding.	1																					
+100	99		504							0																								
+101	100		201							1	1031001		-400																					
+102	101		201							2	500166		400																					
+103	102		301								Liv	So, the Red Tide was originally hiding underground?	1																					
+104	103		301								Liv	No wonder it's gone undetected by Babylonia.	1																					
+105	104		301								Liv	He had already uncovered so much. If only he had returned safely...	1																					
+106	105		302								It's not too late. We've found it, too.	106	We've already submitted the data to Asimov.	106																				
+107	106		301								Liv	Good thing we've reported it. I thought my survey equipment was malfunctioning...	1																					
+108	107		301								Lucia	We've always been able to count on you, Liv. You should have more faith in yourself.	2																					
+109	108		301								Lucia	However, if a team had already gone missing here, the following team sent here should have been far more equipped...	2																					
+110	109		301								Lucia	And if that team also went missing...	2																					
+111	110		504							0.8																								
+112	111		201							1	500028		-400																					
+113	112		201							2	500019		400																					
+114	113		301							1	The Dead Commandant	The signal is unstable here. We'll have to wait until we're back to Babylonia. Do you know how it's expanding?																						
+115	114		301								Rowler	It's unclear, but I'm sure it has something to do with the dissolved remains.	2																					
+116	115		301									The male Construct, Rowler, raises his hand to cover a haphazard yawn.																						
+117	116		301								The Dead Commandant	Dissolved...																						
+118	117		301								Stern Male Construct	That's right.	1																					
+119	118		301									As he says "That's right," the projection freezes in place as if it is buffering.																						
+120	120		301								The Dead Commandant	The signal is being jammed here. We need to return to Babylonia ASAP.																						
+121	24111		202								1	2			1																			
+122	121		301									When the projection resumes, the two Constructs at the table stand up and prepare to leave per their commandant's order.																						
+123	122		301									However, a blurry shadow stands in the doorway, suddenly charging at them with a lightning-fast slash.																						
+124	1115		502							RImgBg1Shake																								
+125	123		301								The Dead Commandant	Coco! You—!																						
+126	124		301									He opens his eyes wide in horror as he looks at the dark figures before him, then falls to the ground, limp.																						
+127	125		504							0																								
+128	126		201							1	1031001	7	-400																					
+129	127		201							2	500166	5	400																					
+130	128		302							1	...?	129																						
+131	129		301									After losing their commandant, the other two Constructs attempt to fight the dark figure, but their efforts are in vain.																						
+132	130		204							1																								
+133	131		301								Lucia	Did that Construct, Coco, betray them?	2																					
+134	132		301								Lucia	Looks like the squad didn't exactly work well together.	2																					
+135	133		301								Liv	No, I think something's wrong with the recording.	1																					
+136	134		301								Lucia	You mean when it was buffering for a moment?	2																					
+137	135		301								Liv	Yeah, but... We can't prove anything without looking for more clues.	1																					
+138	136		301								Lucia	Want to keep searching, Commandant?	2																					
+139	137		302								Just in case?	138	I trust Liv's intuition.	138																				
+140	138		301		1		AniZhuanchangBegin				Liv	Alright, let's keep looking!	1																					

@@ -1,0 +1,31 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory61.jpg																								
+2	2		401							1	203																							
+3	3		201							1	1031001	6																						
+4	4		301			DialogEnable				1	Liv	...	1																					
+5	5		302								What is it?	6	Liv?	6																				
+6	6		201							1	1021001																							
+7	7		301							1	Lucia	Did you detect the enemy attack?	1																					
+8	8		201							1	1031001																							
+9	9		301							1	Liv	No... no new Corrupted activity detected.	1																					
+10	10		201							1	1031001																							
+11	11		301							1	Liv	Commandant, did you hear someone... singing?	1																					
+12	12		204							1	6																							
+13	13		301								Liv	It's such a beautiful voice... I was totally attracted and couldn't help but slow down...	1																					
+14	14		302								I didn't hear anything...	15	I didn't notice...	15																				
+15	15		204							1	14																							
+16	16		301								Liv	Is that so...	1																					
+17	17		201							1	1011001		400																					
+18	18		201							2	1021001		-400																					
+19	19		301							1	Lucia	I didn't receive sound waves with a fixed frequency similar to songs.	2																					
+20	20		301								Lee	...Are you sure it's the sound of singing? Is a place like this?	1																					
+21	21		202							2					1																			
+22	22		203							1	0.25																							
+23	23		301								Lee	It doesn't matter whether what Liv heard was the sound of singing. An abnormal sound fluctuation was detected and we need to pay attention.	1																					
+24	24		301								Lee	Let's clear the Corrupted nearby and check the cause of the abnormality step by step.	1																					
+25	25		201							1	1021001																							
+26	26		301							1	Lucia	Request permission for battle, Commandant.	1																					
+27	27		302								Let's go up together.	28	Let's begin!	28																				
+28	28		201							2	1011001		-400																					
+29	29		201							3	1031001		400																					
+30	30		301		1		AniZhuanchangBegin			1	Lucia & Lee & Liv	...OK!	1	2	3																			

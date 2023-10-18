@@ -1,0 +1,339 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	55																							
+3	3		301			DialogEnable						Earth, two hours after Cerberus' mission is abruptly terminated.																						
+4	4		301				AniZhuanchangBegin					Canines prefer to move in packs. Once separated, their survivability and strength are greatly diminished.																						
+5	5		101							Assets/Product/Texture/Image/BgStory/Bgstory360.png																								
+6	6		301			AniZhuanchangEnd						Right now, Kurono is treating Cerberus as if they are real dogs.																						
+7	7		301									Worried that they would make a mess together or collude with one another, Kurono has separated the three Cerberus members for interrogation after setting up the quarantine zone.																						
+8	8		301									Crossing her arms, Vera does not change her response regardless of how the interrogator questions her.																						
+9	9		201							1	500168		-400																					
+10	10		201							2	500019		400																					
+11	11		301							1	Vera	I told you, we don't know who our mindless attacker is.	1																					
+12	12		301								Vera	It called itself "Voodoo", and it kept mumbling about a guy named Vonnegut. It first attacked the Ascendant Roland before coming after us.	1																					
+13	13		301								Vera	That's all I got. Ask me however you want, but that's all I can tell you... What else are you expecting? A lecture on its behavior pattern? How the hell would I know what the Punishing Virus has done to it?	1																					
+14	14		301								Kurono Construct	Based on the mission logs, you had disengaged the remote connection for a time not long after the mission began.	2																					
+15	15		301								Kurono Construct	Your tracks deviated from your planned route quite extensively afterward.	2																					
+16	16		301								Vera	Hah.	1																					
+17	17		202							1	2				1																			
+18	18		301									Vera sneers.																						
+19	19		201							1	500168	1																						
+20	20		301							1	Vera	Planned route? What on earth is that? Our mission was to investigate what appeared to be Luna's M.I.N.D. activities and locate her.	1																					
+21	21		301								Vera	If there was a planned route, why the hell would we need to "locate" her?	1																					
+22	22		202							1					1																			
+23	23		301									Vera narrows her eyes.																						
+24	24		201							1	500168	1																						
+25	25		301							1	Vera	Cerberus accepted your assignment due to the Chief Commander's order, but that window closes when the mission ends.	1																					
+26	26		301								Vera	Now that you've terminated our mission—our mission has ended, so you have no authority over us anymore, given the terms of our arrangement. We don't even have to sit here and get grilled by you.	1																					
+27	27		301								Vera	Understand this—we're staying here listening to your macho crap because we're in a "good mood," not because we're afraid. I know your type, so don't think for a second that your scare tactics will work on us.	1																					
+28	28		202							1					1																			
+29	29		301									The hostility in her voice has all the Kurono soldiers raise their weapons.																						
+30	30		301									The red-haired Construct stands amidst them proudly like a rose above its thorns. She has shown no signs of aggression; her fingertips have not even moved an inch toward the hilt by her waist.																						
+31	31		301									Still, the threat she poses just standing there can nonetheless make one shiver with fear.																						
+32	32		301								Kurono Construct	The redheaded Death...																						
+33	33		301									Someone whispers.																						
+34	34		301									Vera tilts her head toward whoever muttered her old nickname. She grins from ear to ear, almost in a teasing way.																						
+35	35		201							1	500168	13																						
+36	36		301							1	Vera	Ha! I haven't heard that name in a very long time. How "nostalgic"...	1																					
+37	37		301									Vera raises her hand, and all the soldiers hold their breaths just from this one simple motion.																						
+38	38		301									Everyone is expecting her to draw her sword, but she does not. Instead, she slides a finger across her neck in front of the soldiers tauntingly.																						
+39	39		301								Vera	Do you want me to cut you down?	1																					
+40	40		301									Her tone is cold, unlike her expression.																						
+41	41		301									The Kurono Constructs interrogating her take a look at each other.																						
+42	42		301									This conversation is going nowhere. Continuing any further will only fan the flame.																						
+43	43		301									A Kurono soldier in charge steps forward.																						
+44	44		203							1	0.25	-400																						
+45	45		201							2	500028		400																					
+46	46		301							1	Kurono Construct	We have a grasp on the situation, more or less. A transport craft will pick you up soon. You'll have to make a detailed report back on Babylonia.	2																					
+47	47		204							1																								
+48	48		301								Vera	I want to see my team.	1																					
+49	49		301								Kurono Construct	Our report shows that a member of your team, designation BPH-22, has shown abnormal fluctuation in her M.I.N.D. during the operation. This might be connected to the hostile force's abilities.	2																					
+50	50		301								Kurono Construct	We'll need to quarantine her in isolation and inspect her frame. Before we can confirm she is stable, we cannot end our observation in case something goes wrong.	2																					
+51	51		301								Kurono Construct	Given that all three of you have come into contact with a new enemy type, we cannot eliminate the possibility that you are all potential risks.	2																					
+52	52		301								Kurono Construct	Each of you will be retrieved separately, and you will regain your freedom after we make sure everything checks out.	2																					
+53	53		202							1	2				1																			
+54	54		401							2	570																							
+55	55		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+56	56		201							1	500168																							
+57	57		201						500	2	500028		400																					
+58	59		202						25	1	2				1																			
+59	58		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+60	60		201							1	500168		-400																					
+61	61		201							2	500028		400																					
+62	62		301							1		Right as he finishes speaking, a blade that cuts metal like butter has already slid across his cheek.																						
+63	63		301									No one can react in time. The female Construct is so fast that no one caught the moment she drew her blade. Despite being a Support-type Construct, her movement is as swift as an Attacker.																						
+64	64		301									By the time vital fluid drips down the soldier's cheek to his shoulder, the Kurono Constructs around Vera aim their guns at her as if they have just been snapped awake.																						
+65	65		301									With their fingers on the triggers, they are prepared to fire.																						
+66	66		301									Vera's blade does not shift a bit.																						
+67	67		301								Vera	As I've mentioned, don't attempt to treat us the way you treat Gray Raven. No one understands you more than I do—your bogus claims might work on those birdies, but you aren't fooling me. I know what you're planning.	1																					
+68	68		301								Kurono Construct	Lower your weapon, BPN-13. I repeat, lower your weapon, BPN-13.	2																					
+69	69		301									Unfazed, Vera just stares at him.																						
+70	70		301									At the same time, No. 21's beast-like growl can be heard dozens of feet away from them on the other end of the quarantine zone.																						
+71	71		301								No. 21	I... want to see my captain.																						
+72	72		301								No. 21	Do not... come near me.																						
+73	73		401							2	561																							
+74	74		301									Her growls spread to Vera's end sporadically. It is then followed by loud clashes and Noctis' yelling immediately afterward.																						
+75	75		401							2	561																							
+76	76		301								Noctis	Hey! I have no idea what any of your words mean! I said I wanted to see my boss, do you hear me?																						
+77	77		301								Noctis	Oh? You're trying to stop me, is that it?																						
+78	78		301									It seems that Kurono has given her teammates the same speech.																						
+79	79		204							1	1																							
+80	80		301									Vera's furrowed brows relax.																						
+81	81		301									Vera turns out to be the "calmest" one of them all—this thought makes her chuckle.																						
+82	82		301									But then—																						
+83	83		401							2	1515																							
+84	84		204							1																								
+85	85		301									A voice in her ear stops her from smiling.																						
+86	86		301									This is not a voice her audio module picks up from the surroundings. This is a message directly transmitted to her audio-visual module.																						
+87	87		202							1	2				1																			
+88	88		304							Encrypted channel connection identification confirmed. Mission ID: 961211. Data transmitted to Construct BPN-13's data bank.	ffffffff	1	Assets/Product/Texture/Image/BgStory/Bgstory422.png			4																		
+89	89		304							                       O (Your location)	718EA3FF	0.01	Assets/Product/Texture/Image/BgStory/Bgstory422.png			7																		
+90	90		304							                                                                                                                                               X (Destination: 4.63 km away)	718EA3FF	0.01	Assets/Product/Texture/Image/BgStory/Bgstory422.png					1																
+91	91		301									Two sets of coordinates appear on Vera's visual module. One of them points to a location fairly far away, while the other is less than five kilometers away from where she is.																						
+92	92		301									A field not far away from the outskirts of the town.																						
+93	93		301									As the captain of the Task Force directly under the Chief Commander, Vera has an encrypted communication channel with Nikola, who owns the only key.																						
+94	94		301									Hounds are tools that help the hunter hunt. She needs not ask nor think—her only duty when an objective arrives is to make haste to the destination, retrieve the object, and bring it back to the target location.																						
+95	95		301									This is an order only she can hear, coordinates only she can see... a solo mission for Vera and Vera only.																						
+96	96		301									She understands immediately.																						
+97	97		301				AniZhuanchangBegin					She sheaths her blade and makes a circle with her thumb and index finger, placing it next to her lips, and she whistles. The sound penetrates and echoes throughout the quarantine zone.																						
+98	98		101							Assets/Product/Texture/Image/BgStory/Bgstory359.png																								
+99	99		401							1	10																							
+100	100		201							1	500328																							
+101	101		301			AniZhuanchangEnd				1	No. 21	Captain...	1																					
+102	102		301									No. 21 has her back arched like a trapped beast, her body tense, growling, ready to strike the surrounding Kurono troop any second.																						
+103	103		301									Upon hearing Vera's whistle, however, she slowly puts down her hands, lowering her head like a tamed puppy.																						
+104	104		301								No. 21	I... will listen.	1																					
+105	105		202							1					1																			
+106	106		301									This is a signal Cerberus rarely uses. Seldom would people on the battlefield use such a loud and obvious signal.																						
+107	107		301									In fact, it does not entail any strategy at all. Cerberus never thinks about tactics or plans... this signal of theirs is simply used to issue a simple command—																						
+108	108		301									"Sit. Good doggy."																						
+109	109		301									Cerberus is often ruthless on the field. Left unchecked, they will kill nonstop, usually resulting in matters getting out of hand.																						
+110	110		301				AniZhuanchangBegin					This is why Vera has designed this signal to command them to stop. If anything, it is more akin to a leash that holds back the rabid dogs.																						
+111	111		301			AniZhuanchangEnd						Noctis also hears her whistle from where he is.																						
+112	112		301									He hisses before throwing the Kurono soldier in his grasp aside.																						
+113	113		201							1	500336	4																						
+114	114		301				AniZhuanchangBegin			1	Noctis	Why won't you let us act?! What are you doing, Vera?!	1																					
+115	115		202							1					1																			
+116	116		101							Assets/Product/Texture/Image/BgStory/Bgstory360.png																								
+117	117		301			AniZhuanchangEnd						The transport crafts carrying No. 21 and Noctis have departed.																						
+118	118		301									Seeing them flying away, Vera turns her gaze to the rest of the soldiers casually.																						
+119	119		301									The soldier behind her pokes her with the muzzle of his gun, urging her to enter her transport craft.																						
+120	120		401							1	55																							
+121	121		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+122	122		401							2	637																							
+123	123		301									But in a flash of an eye, Vera spins around and slashes his gun in half.																						
+124	124		201							1	500168	13																						
+125	125		301				AniZhuanchangBegin			1	Vera	Who knows how long it'll take if I do this by the book? If you're assigning me this operation, it's only fair that I get to call the shots on how I execute it.	1																					
+126	126		202							1					1																			
+127	127		101							Assets/Product/Texture/Image/BgCg/Cg2001_7.jpg																								
+128	128		301			AniZhuanchangEnd						A breeze blows past your face. It carries the earthy smell of fresh soil.																						
+129	129		301									Your nose scrunches. You might be imagining it, but ever since you connected with the pale, beast-like Construct, your sense of smell seems to have enhanced.																						
+130	130		301									You are smelling the scent of dirt freshly watered.																						
+131	131		301									This is not a scent you would smell on Babylonia, a metal-plated fortress.																						
+132	132		301									Confused, you suddenly find the Constructs outside the blast-resistant glass raising their weapons.																						
+133	133		301									But you have not done anything this time. Curiously, they are not aiming at you either. Instead...																						
+134	134		401							2	561																							
+135	135		301			RImgBg1Shake						—First, you hear a loud crash.																						
+136	136		401							2	589																							
+137	137		301						1500			You hear a piercing "SLASH" after that. The sound of the flesh and bones of the metal box housing you being slit.																						
+138	138		402							589																								
+139	139		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+140	140		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+141	141		301									An opening appears on the black box around you. Bright light immediately floods in.																						
+142	142		401							2	10002001																							
+143	143		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab	2																							
+144	144		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab																							
+145	145		301									Within the blinding light, you see a burst of violent red.																						
+146	146		401							2	10002001																							
+147	147		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab	2																							
+148	148		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab																							
+149	149		401							2	10002001																							
+150	150		501					200	200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab	2																							
+151	151		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab																							
+152	152		301									Your eyes have adjusted to the dark for so long that they are not prepared for this burst of brightness. Your vision and mind go blank for a second.																						
+153	153		401							2	1543																							
+154	154		501					200	200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab	2																							
+155	155		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab																							
+156	156		301									In that brief moment, that rosy red rushes to your side like a gush of wind.																						
+157	157		401							2	830																							
+158	158		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+159	159		501					200	200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab	2																							
+160	160		505						200		Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab																							
+161	161		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+162	162		301									Slippery like a fish and quick like lightning, she swings her blade unceasingly. The cold hue of her blade blossoms into a blooming flower in the air.																						
+163	163		401							2	10002001																							
+164	164		501						50	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+165	165		401							2	10002001																							
+166	166		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+167	167		301						1000			A strike immediately follows another. Her move is so fast that her blade leaves behind a continuous trail of light.																						
+168	168		401							2	10002001																							
+169	169		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+170	170		401							2	10002001																							
+171	171		501					200	200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab	2																							
+172	172		505						200		Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab																							
+173	173		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+174	174		301						1000			Everywhere this flash of thunderbolt touches, a Kurono soldier falls. But her blade does not stop as it slashes across the room—																						
+175	175		301									Toward the person bounded on a chair—none other than you!																						
+176	176		401							2	10002001																							
+177	177		301									The stream of wind it carries reaches you before its blade.																						
+178	178		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+179	179		401							2	561																							
+180	180		301						1000			You close your eyes subconsciously, expecting the pain to hit, but it does not. Instead, you hear a loud "CLANG!", the sound of metal hitting metal.																						
+181	181		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+182	182		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	2																							
+183	183		301									Slowly you open your eyes, your vision finally adjusting to the brightness.																						
+184	184		301									The first thing you see is the iron chain attached to your legs cut into two. Then you notice the blade that separates it is still pinned in front of you.																						
+185	185		401							2	561																							
+186	186		301									The blade wielder's force is so strong that its point is buried deep into the ground. The sword is still rattling, its hum lingering in the air.																						
+187	187		201							1	500168	1																						
+188	188		301							1		You follow the sword and look up... and you find a familiar figure standing before you.																						
+189	189		301									You cannot help yourself but utter her name.																						
+190	190		302								Vera.	191																						
+191	191		301									Vera, facing away from the light, stands there, the corner of her mouth gently raised.																						
+192	192		301								Vera	Hello there, Gray Raven Commandant. It's been a while.	1																					
+193	193		301									Her tone is calm as if you are greeting after running into each other on a lazy afternoon.																						
+194	194		301									—As long as you can ignore the unconscious Kurono Constructs under her feet.																						
+195	195		301									Her tone soon shifts back to the aggressive hostility you are familiar with.																						
+196	196		301								Vera	What's wrong? Did I make you piss your pants?	1																					
+197	197		202							1					1																			
+198	198		301									Before you can answer, she is already tossing the Constructs outside the opening one by one with a sneer.																						
+199	199		301									A hound on a mission does not relax until all her objectives are fulfilled.																						
+200	200		302								Where are we exactly?	201	Why are you here?	201																				
+201	201		301									Having "emptied" the room, Vera pauses for a second.																						
+202	202		301									Slowly she turns her head toward you, seemingly about to answer your question.																						
+203	203		301									But then, the loud crackling of engines in the distance causes her expression to shift drastically. She stops smiling.																						
+204	204		201							1	500168																							
+205	205		301							1	Vera	Sometimes it's amazing how dense you are.	1																					
+206	206		202							1					1																			
+207	207		301									She walks toward you as she speaks. Swiftly she retrieves the blade nailed to the ground before cutting open another metal wall of the room.																						
+208	208		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+209	209		101							Assets/Product/Texture/Image/BgStory/Bgstory232.png																								
+210	210		301									You find the cabin of a transport craft on the other side of the opening.																						
+211	211		302				AniZhuanchangBegin				This is...	212																						
+212	212		101							Assets/Product/Texture/Image/BgStory/Bgstory373.png																								
+213	213		301			AniZhuanchangEnd						You look back at the forest bathed under moonlight outside the walls. The branches of the trees rattle in the wind.																						
+214	214		301									Babylonia would never waste that many resources on green spaces, not to mention simulating natural wind.																						
+215	215		301									Everything you are seeing points to one fact—																						
+216	216		301									You are on Earth.																						
+217	217		301									But why?																						
+218	218		301									You were on Babylonia before the remote connection. How are you inside a transport craft on Earth all of a sudden?																						
+219	219		301									Instantly, the sense of dissonance you have been ignoring finally adds up.																						
+220	220		504							0.7																								
+221	221		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+222	222		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+223	223		301									The perplexing remote connection that took longer than usual.																						
+224	224		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+225	225		101							Assets/Product/Texture/Image/BgCg/Cg2001_7.jpg																								
+226	226		201							1	500337																							
+227	227		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+228	228		301							1		The fact that Rebecca was contacting you with comms after your first face-to-face meeting.																						
+229	229		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab																								
+230	230		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+231	231		202							1					1																			
+232	232		502						200	RImgBg1Shake																								
+233	233		505					100		RImgBg1Shake																								
+234	234		502						200	RImgBg1Shake																								
+235	235		505					100		RImgBg1Shake																								
+236	236		301									And the intermittent quakes beneath your feet.																						
+237	237		504							0																								
+238	238		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+239	239		101							Assets/Product/Texture/Image/BgStory/Bgstory373.png																								
+240	240		301									Noticing your look of epiphany, Vera shows you a look of disgust.																						
+241	241		201							1	500168																							
+242	242		301							1	Vera	Only now do you notice it? Come on, Gray Raven Commandant.	1																					
+243	243		301									You have been transported to Earth since your first remote connection.																						
+244	244		301									They have replicated the dark room they caged you on this transport craft to create the illusion that you were not moved.																						
+245	245		301								Vera	I've taken down most of the Kurono Constructs on my way here, but their reinforcement will arrive soon.	1																					
+246	246		301								Vera	Go close the rear door. I've only torn apart this room, not the craft itself.	1																					
+247	247		301								Vera	I'm going to fly the plane now. Time to bolt.	1																					
+248	248		202							1					1																			
+249	249		301									With that, she steps inside the cockpit, no longer communicating with you.																						
+250	250		301				AniZhuanchangBegin					The red-haired Construct has been blazing around you like a fire. Only until she disappears from your side that you can finally smell the scent of crossing swords she has left behind.																						
+251	251		101							Assets/Product/Texture/Image/BgStory/Bgstory423.jpg																								
+252	252		401							1	201																							
+253	253		301			AniZhuanchangEnd						The door to the study opens.																						
+254	254		301									All Collins does is raise his eyebrows.																						
+255	255		301									Despite his guest arriving unprompted, Collins knows that his address is only known to a selected few, accessible to fewer. He is not worried about his safety. Someone who can arrive safely must be one of his.																						
+256	256		301									Indeed. It is Rebecca at his door.																						
+257	257		301									Her chest rises and falls from her heavy breaths, her usually elegant appearance slightly unkempt. It is apparent that she was in a hurry and unable to bother with how she looked.																						
+258	258		301									This is unusual for Rebecca. Someone like her cares for how she presents herself.																						
+259	259		301									Unless things are so dire that she cannot afford to do so.																						
+260	260		301									Collins straightens himself while Rebecca has already arrived before him, her high heel shoes clicking.																						
+261	261		201							1	500337	4	-400																					
+262	262		201							2	500319	7	400																					
+263	263		301							1	Rebecca	What was that you got from the Chief Commander? The Gray Raven Commandant just got rescued by the Cerberus captain! Your plan to sneak the commandant away has backfired!	1																					
+264	264		301									Collins pauses for a second before he starts laughing.																						
+265	265		204							2																								
+266	266		301								Collins	Ahahaha... I can't believe it! Nicky actually did it...	2																					
+267	267		301									Stupefied, Rebecca stares at the man before her, who laughs so hard he almost runs out of breath, and she stands there, confused.																						
+268	268		301								Collins	At least our socialite here has stopped pretending to be neutral.	2																					
+269	269		301									Rebecca instantly understands that he is mocking how she has been playing both sides.																						
+270	270		301									She takes another deep breath and continues.																						
+271	271		301								Rebecca	The only good news is that we have detained the other two Cerberus members. One of them was connected with the commandant for a long period of time, and her M.I.N.D. showed unusual activities during the mission.	1																					
+272	272		301								Rebecca	As long as we retrieve her and analyze her M.I.N.D., our mission is not a total failure... Why the hell are you not nervous at all?!	1																					
+273	273		301									Collins answers her with a question.																						
+274	274		301								Collins	What was the objective of this operation?	2																					
+275	275		301									This time, it is Rebecca who pauses.																						
+276	276		301									The objective? She ponders. On the surface, it was to utilize the Gray Raven Commandant to investigate what appeared to be Luna's M.I.N.D. activities and locate her.																						
+277	277		301									That was what she thought as well, in the beginning.																						
+278	278		301									But things apparently are not what they seem. Collins promised to return the Gray Raven Commandant to the Parliament, yet he tried to move the commandant behind their back, meaning he wanted to hold on to this asset.																						
+279	279		301									Kurono is not known for leniency. Rebecca even thought that Collins would come up with more ways to counter the Parliament after the mission.																						
+280	280		301									The reason he has his eyes on the Gray Raven Commandant is simply that the commandant has the potential to connect to an agent without getting their consciousness corrupted.																						
+281	281		301									Of course the Parliament would not believe him, but what is done is done. There is nothing they could do.																						
+282	282		301									Having organized her thoughts, Rebecca almost thinks that the whole operation was set up to test and capture the Gray Raven Commandant.																						
+283	283		301								Rebecca	We were trying to track down the agent "Luna."	1																					
+284	284		301									Having said it out loud, a slight hint of inconsistency rings in the back of her mind.																						
+285	285		301									She knows very well that all Collins has cared about is that agent. Everything that has driven him so far is connected to the agent.																						
+286	286		301									The reason he has his eyes on the Gray Raven Commandant is simply that the commandant has the potential to connect to an agent without a corrupted consciousness.																						
+287	287		301									But she suddenly realizes one thing—																						
+288	288		301									She has the priority wrong.																						
+289	289		301									As important as that commandant is, Collins still cares about the agent more. But, right now, he is ready to move heaven and earth just to keep the commandant in his grasp...																						
+290	290		301									Sure, the more cards they hold in their hand, the better. But if they had to pick one over the other, they would have chosen the agent.																						
+291	291		301									And yet, Collins is in no hurry to track down Luna, the agent, even when her M.I.N.D. activity was discovered in that town. All they did was send a squad to the surface to investigate.																						
+292	292		301									Almost as if he cares not about finding the agent and instead the commandant's ability to "sniff out" an agent's tracks.																						
+293	293		301									That cannot be right—the agent's whereabouts should be the most important thing, unless... Unless—																						
+294	294		301									Suddenly, Rebecca connects the dots.																						
+295	295		301									She raises her head, frightened, and looks at the smirking Collins. His smile is still comical, but she can see the vileness behind it.																						
+296	296		301								Collins	Have you figured it out, our dear socialite?	2																					
+297	297		301									She tries to speak, and that is when she discovers her throat is dry from her realization.																						
+298	298		301								Collins	I chose to tell you the truth in the past because, personally, I believed you.	2																					
+299	299		301								Collins	Well, not that I believed you not to reveal our secrets to the Parliament. I believed that it wouldn't matter even if you did.	2																					
+300	300		301									Collins repeats to her their past conversation, word-for-word.																						
+301	301		301								Collins	As for the rest, don't think about it. Just keep up your appearance and play your part as the one that dances between Kurono and the Parliament. It'll be beneficial to both of us.	2																					
+302	302		301									Rebecca nods tentatively.																						
+303	303		301									Collins sighs.																						
+304	305		301								Collins	I knew Nicky had something planned. I just wasn't expecting him to burn this bridge of ours to get what he wants.	2																					
+305	306		301								Collins	This makes me even more curious. Doing so means they've gotten what they wanted, something so important that they think it's okay to mess with us.	2																					
+306	307		301								Collins	What is it, Nicky? Does it have something to do with that intel?	2																					
+307	308		301									Collins is mumbling to himself while simultaneously looking like he is talking to Nikola across time and space.																						
+308	309		301									Rebecca, finally having her voice back, interrupts him abruptly.																						
+309	310		301								Rebecca	Then what is your... our next move?	1																					
+310	311		301								Collins	Track the transport craft. Intercept it if we can, let them go if we can't.	2																					
+311	312		301								Rebecca	We're just going to let them leave?	1																					
+312	313		301								Collins	Say you have the key to a treasure chest but not its location, and out of nowhere, someone shows up with its location but not the key...	2																					
+313	315		301								Collins	Why be selfish and hold onto the key?	2																					
+314	316		202							1	2				1																			
+315	317		301									Collins stands up and straightens the collars of his shirt, preparing to head out.																						
+316	318		301									Before he leaves, he looks back at Rebecca.																						
+317	319		201							1	500319																							
+318	320		301				AniZhuanchangBegin			1	Collins	And when they unlock the treasure chest and bring it back, we'll just... take it. Yeah?	1																					
+319	321		202							1					1																			
+320	322		101							Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+321	323		201							1	500011		-400																					
+322	324		201							2	500001	4	400																					
+323	325		301			AniZhuanchangEnd				1	Celica	Your message is recorded. It'll be delivered alongside the supplies during the routine airdrop.	2																					
+324	326		301								Celica	But we don't have a forward operating base there. Dropping supplies at entirely new coordinates could catch "some" people's attention. I've tried to conceal it with other operations as much as possible.	2																					
+325	327		301								Hassen	Thank you, Celica.	1																					
+326	328		301									Instead of joking about overtime pay like she usually does, Celica just looks tired.																						
+327	329		301									Rather, everyone in the conference room looks tired.																						
+328	330		301								Hassen	Go rest, Celica.	1																					
+329	331		301									Celica opens her mouth, wanting to say she is fine.																						
+330	332		202							1	2				1																			
+331	333		301									But seeing Hassen's look, she instead says nothing, departing the room quietly, leaving Hassen and Nikola by themselves.																						
+332	334		201							1	500011		-400																					
+333	335		201							2	500012		400																					
+334	336		301							1	Nikola	Transferring Cerberus has caused Murray's suspicion already. He was the one who retrieved the first part of that intel. Knowing him, he must have had a backup made. Aren't you worried that he'd give it to Kurono?	2																					
+335	337		301								Hassen	He's a smart kid. He knows what's okay and what isn't.	1																					
+336	338		301								Hassen	He won't take risks for something nonbeneficial. He's a merchant, not a dishonorable traitor.	1																					
+337	339		301									Nikola frowns.																						
+338	340		301		1		AniZhuanchangBegin				Nikola	I hope you're right.	2																					

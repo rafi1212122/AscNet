@@ -1,0 +1,16 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory24.jpg																								
+2	100		401							1	201																							
+3	2		201							1	1021001																							
+4	3		301			DialogEnable				1	Lucia	Liv, did you succeed?	1																					
+5	4		201							1	1031001																							
+6	5		301							1	Liv	Yes. Connection established. The corruption status isn't severe.	1																					
+7	6		201							1	1081001																							
+8	7		301							1	Kamui	This big fella's quite amazing.	1																					
+9	8		201							1	1021001																							
+10	9		301							1	Lucia	If possible, we'll read part of its memories and try to find info worth reporting.	1																					
+11	10		201							1	1031001																							
+12	11		301							1	Liv	Yes.	1																					
+13	12		202							1					1																			
+14	13		301									Data loaded...																						
+15	14		301		1		AniZhuanchangBegin					Rendering image signals...																						

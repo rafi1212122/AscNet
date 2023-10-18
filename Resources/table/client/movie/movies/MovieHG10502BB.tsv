@@ -1,0 +1,68 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory199.png																								
+2	2		401							1	204																							
+3	3		201							1	1041001		0																					
+4	4		204							1	1																							
+5	5		301			DialogEnable				1	Nanami	Hey! Hey, Commandant! Here, here!	1																					
+6	6		302								Why a theme park?	7	So, is this where we start our date?	9																				
+7	7		204							1	2																							
+8	8	11	301								Nanami	It doesn't count as a date if we remain at the base.	1																					
+9	9		204							1	2																							
+10	10		301								Nanami	That's right! It's our first date!	1																					
+11	11		203							1	0.75	-1460																						
+12	12		301									True to herself, Nanami sprints up, down, and around the amusement park with manic energy. First, to the left, knocking on a ticket machine long out of service.	1																					
+13	13		203							1	1	1460																						
+14	14		301									Then she runs off to the right, pulling at an ominous-looking statue...	1																					
+15	141		203				PanelActor1Shake			1	1	0																						
+16	15		301									...Off the pedestal.	1																					
+17	16		203							1	0.1	50	-50																					
+18	17		204							1	2																							
+19	18		301								Nanami	Ah!	1																					
+20	19		203			PanelActor1Shake				1	0.25		-1080																					
+21	20		502							RImgBg1Shake																								
+22	21		401							2	1512		0																					
+23	22		301									As the statue's arm cracks and breaks, Nanami drops to the ground, still clutching the severed appendage. Luckily, for Constructs, such falls are no big deal.	1																					
+24	23		201							1	1041001																							
+25	24		301									She quickly picks herself up and skips her way back to you.	1																					
+26	25		204							1	1																							
+27	26		301							1	Nanami	Let's conduct research on humans and date at the same time!	1																					
+28	27		302								What even is this "research on humans"?	28	Too close!	29																				
+29	28	32	301								Nanami	Exactly what it says on the tin! I want to know everything about humans.	1																					
+30	29		301									Without you noticing, Nanami comes in close enough to kiss, if either of you takes one more step.																						
+31	30		204							1	2																							
+32	31		301								Nanami	Too close? Relaaax, Nanami doesn't explode.	1																					
+33	32		204							1	1																							
+34	33		301								Nanami	In short, Nanami should take advantage of today's date to collect data on real human emotions. Don't forget to help her, Commandant!	1																					
+35	34		302								How can I help?	35	I'll do my best.	36																				
+36	35	37	301								Nanami	You can help by going on every single ride with Nanami!	1																					
+37	36		301				AniZhuanchangBegin				Nanami	Let's start our theme park date!	1																					
+38	37		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory196.png																								
+39	38		204							1	1																							
+40	39		301								Nanami	First stop: the carousel! I heard that if you ride it long enough, you'll lift off!	1																					
+41	40		301				AniZhuanchangBegin				Nanami	Commandant, are you ready to flyyyyy...? Oh... did the flight mechanism break?	1																					
+42	41		101							Assets/Product/Texture/Image/BgStory/Bgstory188.png		Hahahaha! That ghost has a funny face!																						
+43	42		301			AniZhuanchangEnd					Nanami	No worries, we'll be moving on to stop number two, the haunted house! But things like ghosts aren't realistic at all...	1																					
+44	43		204							1	2																							
+45	44		301				AniZhuanchangBegin				Nanami	Hahahaha! That ghost looks funny!	1																					
+46	45		101							Assets/Product/Texture/Image/BgStory/Bgstory194.png																								
+47	46		301			AniZhuanchangEnd					Nanami	Next stop is the roller coaster. The rail would break in the middle to make it more exciting!	1																					
+48	47		204							1																								
+49	48		301				AniZhuanchangBegin				Nanami	Wah! We're fallinggg!!	1																					
+50	49		101							Assets/Product/Texture/Image/BgStory/Bgstory199.png																								
+51	50		204							1	2																							
+52	51		301			AniZhuanchangEnd					Nanami	They were all so fun even though they broke down halfway!	1																					
+53	52		302								Eh, it's alright.	53	I think this is an abandoned amusement park.	55																				
+54	53		204							1																								
+55	54	57	301								Nanami	...Are you bored?	1																					
+56	55		204							1																								
+57	56		301								Nanami	Commandant just doesn't look excited. Is it boring?	1																					
+58	57		301								Nanami	Hmm, looks like I do need to do more research before the date.	1																					
+59	58		302								You prepared this?	59	Why don't we try collecting data another way?	61																				
+60	59		204							1	1																							
+61	60	64	301								Nanami	Yeah, I came early to sweep the grounds of Corrupted and then asked Lucia and the gang for help with repairs.	1																					
+62	61		204							1	1																							
+63	62		301								Nanami	Another way? Nah, this is the only way.	1																					
+64	63		204							1	2																							
+65	64		301								Nanami	A-ny-way, Nanami will not be disheartened! Look forward to our next date, Commandant!	1																					
+66	65		302								Yep.	66	I can hardly wait.	66																				
+67	66		202		1		AniZhuanchangBegin			1																								

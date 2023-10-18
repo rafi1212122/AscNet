@@ -1,0 +1,213 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101							Assets/Product/Texture/Image/BgStory/Bgstory194.png																								
+2	2		401							1	205																							
+3	3		301			DialogEnable						Once again, here at a new episode of "Endless Eight Corridor".																						
+4	4		201							1	500127																							
+5	5		301							1	Sophia	Question.	1																					
+6	6		203							1	0.25	-400																						
+7	7		201							2	500091		400																					
+8	8		301							1	Nanami	?	2																					
+9	9		301								Sophia	I have a question.	1																					
+10	10		204							2	2																							
+11	11		301								Nanami	Okay! Fire away, little Sophia!	2																					
+12	12		301								Sophia	Why swimsuits?	1																					
+13	13		204							2	1																							
+14	14		301								Nanami	Huh? Didn't I write up that entire bit about the genesis and...	2																					
+15	15		301								Sophia	"The three swimsuits became the light of the world, the summer seas, and hope for all that is good."	1																					
+16	16		301								Sophia	But why? And, there are more than three swimsuits already.	1																					
+17	17		301								Nanami	They call them the elite four, but you fight five dudes in the end anyways! That's just how things are!	2																					
+18	18		301								Sophia	…………………………?	1																					
+19	19		301								Nanami	Oh, Sophia, you just don't get it!	2																					
+20	20		204							2	2																							
+21	21		301				AniZhuanchangBegin				Nanami	I wanted to do a 2nd OP, but now, we can't fit enough lines in, so it'll have to be skipped...	2																					
+22	22		202							1	2																							
+23	23		101							Assets/Product/Texture/Image/BgStory/Bgstory188.png																								
+24	24		401							1	208																							
+25	25		201							1	500186																							
+26	26		301			AniZhuanchangEnd				1	"Lucia"	This must be the place Liv mentioned...	1																					
+27	27		201							1	500176																							
+28	28		301							1		Someone is standing before the entrance...	1																					
+29	29		301								Guard	...	1																					
+30	30		203							1	0.25	-400																						
+31	31		201							2	500186		400																					
+32	32		301							1	"Lucia"	Who are you?	2																					
+33	33		301								Guard	Just a poor swimsuit-less gatekeeper.	1																					
+34	34		301								"Lucia"	...I want to go inside.	2																					
+35	35		301								Guard	Poor little swimsuit-less gatekeeper has to keep watch here. Nobody gets to go inside.	1																					
+36	36		301								"Lucia"	What do I have to do to go inside?	2																					
+37	37		301								Guard	Poor little swimsuit-less gatekeeper has to keep watch here. Nobody gets to go inside.	1																					
+38	38		301								"Lucia"	So if I want in, what do I have to do?	2																					
+39	39		301								Guard	...	1																					
+40	40		301								"Lucia"	...Say something, won't you?	2																					
+41	41		301								Guard	Currently checking through the Gatekeeper's Guide to the Waterpark for how to deal with nagging white-haired swimsuit wearers. Now at article 19800.	1																					
+42	42		301								"Lucia"	...How many more articles do you have left?	2																					
+43	43		301								Guard	107365 articles left.	1																					
+44	44		301								"Lucia"	Why the hell would you need a novel-length guide for guarding a door? All you literally do is stand in front of it!	2																					
+45	45		301								Guard	...You know. That makes a lot of sense. Why didn't anyone tell me that?	1																					
+46	46		301								"Lucia"	...Do you even get people coming through this place?	2																					
+47	47		301								Guard	Not really. You're the second one.	1																					
+48	48		301								"Lucia"	...So is there something from your guide that lets you leave?	2																					
+49	49		301								Guard	There is. In the emergency that the gate is destroyed, the gatekeeper must extract from the premises immediately.	1																					
+50	50		202							1	2																							
+51	51		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	1																							
+52	52		401							2	10002001																							
+53	53		301									And so Lucia goes swoosh and chops the gate apart.																						
+54	54		201							1	500176																							
+55	55		301							1	Guard	Gotta follow the orders. Gatekeeper leaving now.	1																					
+56	56		201							1	500191																							
+57	57		301							1	"Leviathan"	Wow, he just straight-up left...	1																					
+58	58		201							1	500186																							
+59	59		301				AniZhuanchangBegin			1	"Lucia"	...Not in the mood to answer. Let's just go in...	1																					
+60	60		202							1																								
+61	61		101							Assets/Product/Texture/Image/BgStory/Bgstory196.png																								
+62	62		201							1	500181																							
+63	63		301			AniZhuanchangEnd				1	???	Oi, you over there.	1																					
+64	64		201							1	500186																							
+65	65		301							1	"Lucia"	?	1																					
+66	66		203							1	0.25	-400																						
+67	67		201							2	500181		400																					
+68	68		301							1	???	You come in search of the "answer" too?	2																					
+69	69		301								"Lucia"	The "answer"?	1																					
+70	70		301								???	You know nothing, huh?	2																					
+71	71		301								???	Agh, what the hell. Who's chuckin' people over without even giving them proper exposition?	2																					
+72	72		301								"Lucia"	...	1																					
+73	73		301								???	...Oh, whatever. I'm Vera.	2																					
+74	74		301								Vera	Much like you, I am a "Seeker", here in search of truth.	2																					
+75	75		301								"Lucia"	A "Seeker"? How convoluted do you want the plot to be?	1																					
+76	76		301								Vera	...Hey, I'm not the script writer.	2																					
+77	77		301								Vera	Anyways, what are you trying to find an answer for?	2																					
+78	78		301				AniZhuanchangBegin				"Lucia"	...	1																					
+79	79		101							Assets/Product/Texture/Image/BgStory/Bgstory192.png																								
+80	80		201							1	500186		-400																					
+81	81		201							2	500181		400																					
+82	82		301			AniZhuanchangEnd				1	Vera	What? Candies?	2																					
+83	83		301								Vera	...Well, guess I'm not in a position to laugh at you though.	2																					
+84	84		301								"Lucia"	...So what are you asking?	1																					
+85	85		301								Vera	Which feels the sickest to play—guitars with four strings, six, eight, or nine?	2																					
+86	86		201							1	500191		-400																					
+87	87		301							1	"Leviathan"	...Wow, pot and kettle indeed.	1																					
+88	88		301								Vera	What the hell, your bathers be spitting!	2																					
+89	89		301								"Leviathan"	Don't call me a bather!	1																					
+90	90		301								"Leviathan"	The correct category! Is! A K.A.M.U.I.! A Kinematically Adaptive Midsummer-Use Instrument!	1																					
+91	91		201							1	500186		-400																					
+92	92		301							1	"Lucia"	First time I'm hearing of this backstory of yours.	1																					
+93	93		201							1	500191		-400																					
+94	94		301							1	"Leviathan"	Hmm... My memories... seem to be recovering in this place.	1																					
+95	95		201							1	500186		-400																					
+96	96		301							1	"Lucia"	That's nice.	1																					
+97	97		301								Vera	Before I break my suspension of disbelief in a world with loquacious and amnesiac bathers...	2																					
+98	98		301								Vera	——Let's just go forward.	2																					
+99	99		301							1		...	1	2																				
+100	100		301									......	1	2																				
+101	101		202							1	2				1																			
+102	102		301									.........																						
+103	103		201							1	500177																							
+104	104		301							1	???	Rawr.	1																					
+105	105		301								???	Gingerbread. Yum. Rawr.	1																					
+106	106		201							1	500186																							
+107	107		301							1	"Lucia"	...	1																					
+108	108		201							1	500181																							
+109	109		301							1	Vera	...	1																					
+110	110		201							1	500191																							
+111	111		301							1	"Leviathan"	...What is this thing?	1																					
+112	112		201							1	500177																							
+113	113		301							1	???	Whoa-rawr! These bathers be spitting!	1																					
+114	114		203							1	0.25	-400																						
+115	115		201							2	500191		400																					
+116	116		301							1	"Leviathan"	Is this going to become a thing?	2																					
+117	117		301								"Leviathan"	And why would you be surprised at ME? You are literally a talking shark in a raincoat eating who-knows-what!	2																					
+118	118		301								???	Aw, rude! This isn't who-knows-what! I'm eating gingerbread man cookies! And they're the good stuff too!	1																					
+119	119		301								???	Gawr, some fell outta my mouth... Rawr, munch... Gulp.	1																					
+120	120		301								???	Who are you people anyways?! Why are you barging into my place?!	1																					
+121	121		201							2	500186		400																					
+122	122		301							1	"Lucia"	Your place?	2																					
+123	123		201							1	500181		-400																					
+124	124		301							1	Vera	That ain't lining up with what the gatekeeper said.	1																					
+125	125		301								Vera	He said something about this place being "a data center for a bionic supercomputer with Rawr as the code name."	1																					
+126	126		201							2	500186		400																					
+127	127		301							1	"Lucia"	Why would he tell you that? How?	2																					
+128	128		201							1	500181	1	-400																					
+129	129		301							1	Vera	Moved by my rhymes, probably.	1																					
+130	130		201							2	500191		400																					
+131	131		301							1	"Leviathan"	...I doubt it.	2																					
+132	132		201							1	500177		-400																					
+133	133		301							1	???	Rawr? That's me! I'm Rawr.	1																					
+134	134		301								Rawr	So, you're here to ask Rawr things?	1																					
+135	135		201							2	500181		400																					
+136	136		301							1	Vera	It's actually you...?	2																					
+137	137		201							2	500186		400																					
+138	138		301							1	"Lucia"	...You're actually a bionic supercomputer?	2																					
+139	139		301								Rawr	Yup yup. Let's see... when was the last time my brain went brrr again...? Ahah, right, it was working out that answer to the grand unified theory of life and universe and everything or whatever!	1																					
+140	140		201							2	500181		400																					
+141	141		301							1	Vera	What? YOU did that?	2																					
+142	142		301								Vera	YOU made my ol' pops 'n ma 'n bro 'n sis all just drop their boffin research and go rock 'n rollin'? YOU came up with the answer of 44.3?	2																					
+143	143		301								Rawr	Rawr rawr... Yup yup I did! My haberhaft hate bhirty eels—Cough, cough! Bleugh, I nearly choked! I mean, I ate thirty million gingerbread cookies to get that number!	1																					
+144	144		301								Rawr	But then those greedy humans, they weren't satisfied! They asked Rawr "Why is it 44.3?"...	1																					
+145	145		301								Rawr	If Rawr has to explain that... I'll need three trillion... No, three hundred bazillion gingerbread cookies to do so.	1																					
+146	146		301								Rawr	So the humans left crying and sobbing. And then they just left me here. Rawr.	1																					
+147	147		201							2	500186		400																					
+148	148		301							1	"Lucia"	...Let's put that aside for now.	2																					
+149	149		301				AniZhuanchangBegin				"Lucia"	We'll find our answers first.	2																					
+150	150		202							1	2				1																			
+151	151		101							Assets/Product/Texture/Image/BgStory/Bgstory192.png																								
+152	152		201							1	500177																							
+153	153		301			AniZhuanchangEnd				1	Rawr	Rawr rawr. Yarr, got it. Rawr rawr.	1																					
+154	154		201							1	500191																							
+155	155		301							1	"Leviathan"	Is this shark-head even listening? Guy's just munching his own business!	1																					
+156	156		201							1	500178																							
+157	157		301							1	Rawr	——Rawr are you saying?——	1																					
+158	158		201							1	500191																							
+159	159		301							1	"Leviathan"	...Nothing. Enjoy your cookies.	1																					
+160	160		201							1	500177																							
+161	161		301							1	Rawr	Rawr rawr... Okay. I get it now.	1																					
+162	162		301								Rawr	First off! Vera!	1																					
+163	163		201							1	500181																							
+164	164		301							1	Vera	?	1																					
+165	165		201							1	500177																							
+166	166		301							1	Rawr	——Your heart is the most important!	1																					
+167	167		203							1	0.25	-400																						
+168	168		201							2	500181		400																					
+169	169		301							1	Vera	...???	2																					
+170	170		301								Rawr	——Your wholehearted love for the guitar is your mojo!	1																					
+171	171		301								Vera	What? The hell you on about?	2																					
+172	172		301								Rawr	That's right! You won't know how many circles of hell I'm operating behind! Now go! You'll know when the time comes!	1																					
+173	173		301								Vera	...	2																					
+174	174		201							1	500178		-400																					
+175	175		301							1	Rawr	——Or, do you also want to become——	1																					
+176	176		301								Vera	...Fine. I'll be taking my leave.	2																					
+177	177		301								Rawr	Rawrumph, good girl. Good girl.	1																					
+178	178		202							1	2																							
+179	179		201							1	500186																							
+180	180		301							1	"Lucia"	What about my question?	1																					
+181	181		201							1	500178																							
+182	182		301							1	Rawr	Your question? That one's way easier... A-hem, rawr...	1																					
+183	183		201							1	500177																							
+184	184		301							1	X	I'm X.	1																					
+185	185		201							1	500186																							
+186	186		301				AniZhuanchangBegin			1	"Lucia"	...!!!	1																					
+187	187		202							1	2																							
+188	188		101							Assets/Product/Texture/Image/BgStory/Bgstory194.png																								
+189	189		401							1	205																							
+190	190		301			AniZhuanchangEnd						What a turn of events! What a twist! Lucia meets again with X!																						
+191	191		301									How will it all turn out? Tune in next week at 8am!																						
+192	192		301									"Endless Eight Corridor"! Final! Episode! Don't miss it!!!																						
+193	193		201							1	500127																							
+194	194		301							1	Sophia	I have a question.	1																					
+195	195		203							1	0.25	-400																						
+196	196		201							2	500091		400																					
+197	197		301							1	Nanami	?	2																					
+198	198		301								Sophia	Where did those gingerbread cookies come from? The ones that Rawr was munching on.	1																					
+199	199		204							2	2																							
+200	200		301								Nanami	Ah... I can't spell it out...	2																					
+201	201		301								Nanami	If I do so... We'll all be yeeted to the late night anime slots...	2																					
+202	202		301				AniZhuanchangBegin				Sophia	Late night anime?	1																					
+203	203		202							1	2				1																			
+204	204		101							Assets/Product/Texture/Image/BgStory/Bgstory184.png																								
+205	205		201							1	500180																							
+206	206		301			AniZhuanchangEnd				1	Karenina	Wha—These weird-ass graffiti are all over the place, AGAIN! And I just scrubbed them off yesterday!	1																					
+207	207		301								Karenina	Swimsuit guardians? Leviathan? ME?	1																					
+208	208		204							1	5																							
+209	209		301								Karenina	...WHAT?!	1																					
+210	210		301								Karenina	Listen up, engies!!!	1																					
+211	211		301								Karenina	Triple your shifts! And send out triple the camera drones!	1																					
+212	212		301		1		AniZhuanchangBegin				Karenina	Whoever it is that drew me like this! They're going to PAY!	1																					

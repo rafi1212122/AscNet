@@ -1,0 +1,29 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+2	2		401							1	5																							
+3	3		201							1	500091		-400																					
+4	4		201							2	1021001		400																					
+5	5		301			DialogEnable				1	Nanami	Lucia, do you know where Nanami can find the things I just mentioned?	1																					
+6	6		301								Lucia	I don't think this area has what you're searching for, and even if there were, the quality wouldn't be up to par.	2																					
+7	7		301								Lucia	But... You may be able to find something suitable in the area reclaimed before.	2																					
+8	8		301								Nanami	Oh, is that so? Then Nanami is taking a few days off!	1																					
+9	9		302								What are you talking about?	10	You're going on leave?!	10																				
+10	10		202							2					1																			
+11	11		203							1	0.25																							
+12	12		301							1	Nanami	It's Commandant! But Nanami doesn't have time right now, let's talk another time!	1																					
+13	13		201							1	1021001																							
+14	14		301							1	Lucia	I think Nanami's in a hurry to find some sort of metal. She just suddenly came over and asked me its source.	1																					
+15	15		301								Lucia	It's nothing rare, just that it's useless as a material so we never collected it.	1																					
+16	16		302								Do you know what she's using it for?	17	What kind of metal is it?	18																				
+17	17	19	301								Lucia	She didn't tell me, but she looked... happy.	1																					
+18	18		301								Lucia	It's an alloy called B2. It's not hard in the first place and was used in the production of fragmentation grenades in the past.	1																					
+19	19		302								Feels dangerous...	20	Well, as long as she's happy...	21																				
+20	20	22	301								Lucia	You don't need to worry too much, Commandant.	1																					
+21	21		301								Lucia	You're right, Commandant.	1																					
+22	22		301								Lucia	And I think both Nanami and I have changed a lot ever since we met Commandant.	1																					
+23	23		204							1	3																							
+24	24		301								Lucia	When we first met Nanami, I could only feel danger from her.	1																					
+25	25		302								Wasn't she always this happy?	26	That's true...	26																				
+26	26		204							1	1																							
+27	27		301								Lucia	But we changed after meeting you, both me and Nanami.	1																					
+28	28		301		1		AniZhuanchangBegin				Lucia	Anyway, we still have a mission to finish. Let's go, Commandant.	1																					

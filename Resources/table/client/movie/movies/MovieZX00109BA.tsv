@@ -1,0 +1,23 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory11.jpg																								
+2	2		401							1	201																							
+3	3		201							2	1021001	4																						
+4	4		301			DialogEnable				1	Lucia	We have breached the Corrupted frontlines. The Nozzle model is in sight!	2																					
+5	5		202							2					1																			
+6	6		201							1	1031001		-400																					
+7	7		201							3	1011001		400																					
+8	8		301							1	Liv	Its coordinates show that it's been here for some time now... Is it painting again?	1																					
+9	9		301								Lee	There are quite a few Corrupted protecting it. They're probably its followers—We'd better brace for combat.	3																					
+10	10		204							3	10																							
+11	11		301								Lee	These graffiti surprisingly captivated a lot of these Corrupted, but it still doesn't change the fact that they look horrid.	3																					
+12	12		204							3																								
+13	13		204							1	7																							
+14	14		301								Liv	(Lee holds grudges in strange places...)	1																					
+15	15		202							1	3				1																			
+16	16		201							2	1021001	4																						
+17	17		301							1	Lucia	Nothing left but to get ready for a full-frontal assault now.	2																					
+18	18		301								Lucia	We'll adopt a close formation. Commandant, please follow closely.	2																					
+19	19		302								(Nod)	20	(Load gun)	21																				
+20	20		301	22							Lucia	(Nods)	2																					
+21	21		301									Lucia breaths deeply.	2																					
+22	22		301		1		AniZhuanchangBegin				Lucia	Let's move out.	2																					

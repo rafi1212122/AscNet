@@ -1,0 +1,81 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgCg/Cg116_2.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						...																						
+4	4		301								Liv	It went silent...																						
+5	5		301								Liv	I don't know why, but... I feel sad...																						
+6	6		301								Lucia	We've completed our mission, there's no use in thinking about other things.																						
+7	7		301				AniZhuanchangBegin				Lee	……																						
+8	8		101							Assets/Product/Texture/Image/BgStory/BgStory20.jpg																								
+9	9		201							3	1011001																							
+10	10		301			AniZhuanchangEnd				1	Lee	In short, now we have to extract its memory.	3																					
+11	11		301							1	Lee	Let's begin.	3																					
+12	12		202							3					1																			
+13	13		301									Connecting—																						
+14	14		201							1	500001																							
+15	15		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+16	16		301							1	Celica	Gray Raven.	1																					
+17	17		301								Celica	President Hassen is ordering that you put a temporary stop to your mission.	1																					
+18	18		301								Celica	We've deployed a nearby transport craft to your location.	1																					
+19	19		301								Celica	Once the transport craft arrives, please return to Babylonia immediately.	1																					
+20	20		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+21	21		202							1					1																			
+22	22		201							1	1031001	7																						
+23	23		301							1	Liv	This is an order from President Hassen?	1																					
+24	24		202							1					1																			
+25	25		201							2	1021001																							
+26	26		301				AniZhuanchangBegin			1	Lucia	Return... to Babylonia...	2																					
+27	27		202							2					1																			
+28	28		401							1	5																							
+29	29		101							Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+30	30		201							1	500004																							
+31	31		301			AniZhuanchangEnd				1	Asimov	What's wrong? What are you doing here?	1																					
+32	32		302								How's Lucia doing?	33	Am I not allowed to be here?	34																				
+33	33	35	301								Asimov	There's no need to operate. Don't worry.	1																					
+34	34		301								Asimov	This isn't a place you can just waltz right in, Commandant. But, no matter. I just haven't seen a commandant care so much about Constructs.	1																					
+35	35		301								Asimov	I just hope you aren't as reckless in battle.	1																					
+36	36		301								Asimov	The abnormality... she encountered during the battle is indeed a very special situation, but I have no specific details to comment on.	1																					
+37	37		301								Asimov	After all, it's top-secret.	1																					
+38	38		302								Do I not have high enough clearance?	39	What's your clearance level?	40																				
+39	39	41	301								Asimov	You're just a commandant assigned to Gray Raven from the commandant division.	1																					
+40	40		301								Asimov	I am the Science Council's CTO for humanity's front. My crowning research achievement is the development of the Mind Beacon. There is an introduction about me on the title page of the operation tutorial. Haven't you seen the tutorial?	1																					
+41	41		301								Asimov	This is the Science Council's highly classified experiment area. Only scientists and the higher-ups are allowed to enter. Soldiers only need to be responsible for standing guard outside.	1																					
+42	42		301								Asimov	However, if it's "that" person who is simultaneously a soldier, scientist and leader that I've admired since childhood, exceptions can be made.	1																					
+43	43		301								Asimov	Too bad that person and I won't meet—at least in the physical sense. Considering we live almost a whole era apart, it seems highly unlike this person is still alive.	1																					
+44	44		301								Asimov	Apologies, I got sidetracked. Lucia's memory will be online again in five minutes. Now, please kindly get out of the way.	1																					
+45	45		302								(Remain in place)	46	(Move)	47																				
+46	46	48	301								Asimov	Huh? Brute strength may work some places, but not everywhere. That's why I can't stand soldiers. Don't make me file a complaint against you.	1																					
+47	47		301				AniZhuanchangBegin				Asimov	Hmph.	1																					
+48	48		202							1					1																			
+49	49		101							Assets/Product/Texture/Image/BgStory/BgStory17.jpg																								
+50	50		301									...																						
+51	51		201							1	500012																							
+52	52		301			AniZhuanchangEnd				1	???	Wait, Asimov. I need to talk to you about Lucia and that Construct...	1																					
+53	53		301									A tall, stern man appears at the exit of the experiment area.																						
+54	54		301								Nikola	Oh?	1																					
+55	55		301								Nikola	Shouldn't you salute your commander?	1																					
+56	56		302								(Salute)	57	...	57																				
+57	57		301								Nikola	Forget it. I don't have time to educate young people on military conventions. Write a report with your superior and hand it in later.	1																					
+58	58		301				AniZhuanchangBegin				Nikola	Well, get going. This is no place for you to dawdle.	1																					
+59	59		202							1					1																			
+60	60		101							Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+61	61		201							1	500001																							
+62	62		301			AniZhuanchangEnd				1	Celica	Hello, Gray Raven Commandant. We finally meet.	1																					
+63	63		301								Celica	What's the matter? Not used to seeing me in the flesh?	1																					
+64	64		203							1		400																						
+65	65		201							2	500011		-400																					
+66	66		301							1	Hassen	Enough, Celica. I didn't summon the Gray Raven Commandant for you to play games.	2																					
+67	67		301								Celica	Yes, President Hassen.	1																					
+68	68		301								Hassen	Heh... Don't play games in front of my subordinates either. You know I don't like such stuffy titles.	2																					
+69	69		301								Celica	(Giggles) Yes, Mr. Hassen.	1																					
+70	70		202							1					1																			
+71	71		203							2		0																						
+72	72		301								Hassen	We've been keeping a close watch on Gray Raven.	2																					
+73	73		301								Hassen	You've performed well. Seems like I made the right choice entrusting Gray Raven to you.	2																					
+74	74		301								Hassen	But I'm not at liberty to discuss some things with you for the time being. As I told you in the beginning, Gray Raven is no ordinary team.	2																					
+75	75		301								Hassen	Only when you have passed enough tests and have formed a solid trust with each other will you be able to handle certain "things" without shaking the bond between you.	2																					
+76	76		301								Hassen	Many more tests await you in the future. You must never forget that you and the others share the fate of humanity.	2																					
+77	77		301								Hassen	Well, let's talk about those things you found in Nozzle's memory.	2																					
+78	78		202							2					1																			
+79	79		201							1	500001																							
+80	80		301		1		AniZhuanchangBegin			1	Celica	Well then, come right this way, you two...	1																					

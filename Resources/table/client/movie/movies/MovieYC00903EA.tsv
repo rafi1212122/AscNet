@@ -1,0 +1,86 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory110.png																								
+2	1000		401							1	203																							
+3	2		301			DialogEnable						Ayla informs Gray Raven the gravity room's mechanism. At that moment...																						
+4	3		301									Bang—																						
+5	4		201							1	500101																							
+6	5		301							1	Gabriel	Target sighted. Recycling now.	1																					
+7	6		201							1	500110	4																						
+8	7		301							1	Ayla	Wait... What's that?	1																					
+9	8		201							1	500101																							
+10	9		301							1		Ayla notices the extremely high corruption level of the tall enemy, and realizes what was happening.																						
+11	10		301									But just when she starts to attack, Selena is already ripped off the terminal—																						
+12	11		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab		1																						
+13	13		301			PanelActor1Shake						The enemy then turns around and takes Ayla's strike with his broad shoulders.																						
+14	14		201							1	500110	4																						
+15	15		301							1	Ayla	What?	1																					
+16	16		201							1	500101																							
+17	17		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab		1																						
+18	18		301			PanelActor1Shake				1		Ayla does not hesitate for one second. She unleashes numerous attacks with her scythe.																						
+19	19		301									Strangely, the enemy does not want to engage in the fight. Instead, he keeps moving back.																						
+20	20		301				AniZhuanchangBegin					Once he reaches the cabin door, he leaps toward the gravity room's core area...																						
+21	21		202							1					1																			
+22	22		101							Assets/Product/Texture/Image/BgStory/Bgstory112.png																								
+23	23		301			AniZhuanchangEnd						After bumping into Gray Raven in the gravity room, Ayla follows Gabriel to a shattered floating platform—																						
+24	24		401							2	10007502																							
+25	25		301			RImgBg1Shake						Boom—																						
+26	26		201							1	500101																							
+27	27		301							1		Gabriel flips over and fires a shot. He uses the counterforce to jump through the opening on the wall, which is a result of the previous blast.																						
+28	28		201							1	500110	4																						
+29	29		301							1	Ayla	Ugh—!	1																					
+30	30		301									After the heat from the explosion dissipates...																						
+31	31		301								Ayla	Oh no...	1																					
+32	32		301								Ayla	Before he gets away, I must...	1																					
+33	33		301									Just when Ayla is about to follow him, a mechanic claw protrudes from the edge of the platform.																						
+34	34		301								Ayla	?	1																					
+35	35		201							1	500119																							
+36	36		301							1		The claw continues to climb toward the platform surface, finally revealing itself.																						
+37	37		301								Korolev	Humans... must be... destroyed...	1																					
+38	38		301									It is Korolev. After the battle with Gray Raven, it fell into the vacuum turbulence, but somehow managed to survive space.																						
+39	39		301								Korolev	Destroy...	1																					
+40	40		201							1	500110	4																						
+41	41		301							1	Ayla	Now of all times!	1																					
+42	42		201							1	500119																							
+43	43		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab		1																						
+44	44		301								Ayla	Hah—!																						
+45	45		301									Before Korolev could attack again, Ayla cuts its remaining structure in half, completely annihilating it.																						
+46	46		301									However, she has also wasted precious time.																						
+47	47		201							1	500110	4																						
+48	48		301							1		Ayla looks at the opening to space—																						
+49	49		301								Ayla	I must hurry...	1																					
+50	50		202							1					1																			
+51	51		301				AniZhuanchangBegin					Right at this time—																						
+52	53		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+53	54		301			AniZhuanchangEnd	AniZhuanchangBegin					A huge beam goes through the opening and hits the Punishing Heteromer directly.																						
+54	56		101							Assets/Product/Texture/Image/BgStory/Bgstory112.png																								
+55	57		301			AniZhuanchangEnd						The gravity room is a mess...																						
+56	58		201							1	500110	4																						
+57	59		301							1		Ayla struggles to maintain balance on the floating platform. She keeps telling herself one thing.																						
+58	60		301								Ayla	I mustn't stop. Otherwise, Selena would...	1																					
+59	61		202							1					1																			
+60	62		301									One by one, she keeps leaping toward the next floating platform.																						
+61	63		301				AniZhuanchangBegin					Jumping, dodging, spinning, and slashing through anything in her way.																						
+62	64		202							1					1																			
+63	65		101							Assets/Product/Texture/Image/BgCg/Cg901_5.jpg																								
+64	1001		401							1	202																							
+65	66		201							1	500110	4																						
+66	67		301			AniZhuanchangEnd				1		Step after step, Ayla finally makes it out of the space station.																						
+67	68		202							1					1																			
+68	69		301									There are huge explosions on the low Earth orbit in the distance. But Ayla has no attention to spare—																						
+69	70		201							1	500110	4																						
+70	71		301							1	Ayla	Selena!	1																					
+71	72		301									Still, she is one step too late...																						
+72	73		202							1					1																			
+73	74		301									The door of the capsule, where Gabriel and Selena are in, has closed. The launch procedure has been initiated...																						
+74	75		201							1	500110	4																						
+75	76		301							1	Ayla	Wait... Selena!	1																					
+76	77		301									Ayla runs with all her might on the outer surface of the space station.																						
+77	78		301									But the capsule has already taken off. No matter what she does, it only moves further away...																						
+78	79		301									Only the heat from the capsule's exhaust flames remains, scorching Ayla's body.																						
+79	80		301								Ayla	...	1																					
+80	81		301									All she can do is to silently watch the capsule as it flies toward Earth.																						
+81	82		301								Ayla	Earth...	1																					
+82	83		301									Ayla mumbles to herself. She already knows her next step.																						
+83	84		204							1																								
+84	85		301								Ayla	There's still a chance... There must be...	1																					
+85	86		301		1		AniZhuanchangBegin				Ayla	Selena, wait for me...	1																					

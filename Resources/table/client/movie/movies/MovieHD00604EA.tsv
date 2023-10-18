@@ -1,0 +1,60 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory302.png																								
+2	2		401							1	201																							
+3	3		401							2	1512																							
+4	4		301			DialogEnable						No longer able to support its own weight, the broken mechanoid collapses onto the ground, incapacitated.																						
+5	5		302								How's Lucia doing?																							
+6	6		201							1	1011001																							
+7	7		301							1	Lee	Lucia! We've immobilized the red faction's "leader"!	1																					
+8	8		203							1	0.25	-400																						
+9	9		201							2	500029		400																					
+10	10		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+11	11		301							1	Lucia	The blue faction's "leader" has been immobilized, too!	2																					
+12	12		401							1	203																							
+13	13		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab	2																							
+14	14		401							2	1501																							
+15	15		301									Right as Lucia gives the all-clear, the deafening sound of air sirens begins to ring.																						
+16	16		301				AniZhuanchangBegin				Lee	What's going on?!	1																					
+17	17		202							1	2				1																			
+18	18		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+19	19		101							Assets/Product/Texture/Image/BgStory/Bgstory306.png																								
+20	20		301			AniZhuanchangEnd					Alarm	Vital signs for both faction leaders have been terminated.																						
+21	21		301								Alarm	Cycle of War #*（）——+& results: null.																						
+22	22		301								Alarm	Initiating removal procedure according to Directive Number 2 of the "Naraka Bastille Protocol" enacted by the School of Sapienism.																						
+23	23		301								Alarm	Humans and mechanoids in target areas, please evacuate the facility before the removal procedure is executed in your area.																						
+24	24		301								Alarm	All glory to homo sapiens. May the next "war" determine a champion.																						
+25	25		401							2	1503																							
+26	26		201							1	500029																							
+27	27		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+28	28		301			RImgBg1Shake				1	Lucia	The entire area is beginning to shake... What happened?	1																					
+29	29		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+30	30		201							1	1011001																							
+31	31		301							1	Lee	The entire cave is beginning to restructure... Wait, no! It's not a cave! It's one gigantic machine!	1																					
+32	32		302								Let's report this to Babylonia first.	33																						
+33	33		301								Lee	Understood...?	1																					
+34	34		302								What is it?	35																						
+35	35		301								Lee	Unable to connect via long-ranged transmission with Babylonia. The cave seems to be jamming our signal.	1																					
+36	36		302								...We have no other choice then.	37																						
+37	37		302								Let's regroup, then continue to work our way inward.	38																						
+38	38		301				AniZhuanchangBegin				Lee	Roger. The restructuring appears to be working its way inward... Maybe if we reach further inside, we'll find an answer.	1																					
+39	39		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab																							
+40	40		202							1					1																			
+41	41		101							Assets/Product/Texture/Image/BgStory/Bgstory284.jpg																								
+42	42		401							1	208																							
+43	43		201							1	500011		-450																					
+44	44		201							2	500001	4	450																					
+45	45		301			AniZhuanchangEnd				1	Hassen	...You've been sitting in front of the terminal for half an hour. Did you find anything?	1																					
+46	46		301								Celica	I think you should come and see for yourself.	2																					
+47	47		301									Hassen walks up to Celica's terminal and finds more than a dozen files pulled up on her terminal screen.																						
+48	48		301									From newspaper clippings during the Golden Age to ground intel shared by the Forsaken.																						
+49	49		301									All of which share a single commonality—the circular logo of the School.																						
+50	50		301								Hassen	What's this?	1																					
+51	51		301								Celica	Even though the World Government was unable to catch any of its members, it did find many hidden facilities belonging to the School all over the world.	2																					
+52	52		301								Hassen	Lagerman Royal Arsenal... A warehouse in Port Bian'an...	1																					
+53	53		301								Hassen	Putting all this information together, it seems that the scope of the School far exceeds our expectations.	1																					
+54	54		301								Celica	However, when troops entered the facilities, they found that the facilities had been emptied—no materials, no products.	2																					
+55	55		301								Celica	But according to logistics data, the raw materials in circulation there would be enough to make both light and heavy equipment for a small army.	2																					
+56	56		301								Celica	But whatever they made with these materials had disappeared along with them.	2																					
+57	57		301								Hassen	What could they have made with raw materials and machinery of this scale?	1																					
+58	58		301								Hassen	It seems like they've been long gone, but I still have a sneaking suspicion that...	1																					
+59	59		301		1		AniZhuanchangBegin				Hassen	...Maybe it's only just a suspicion.	1																					

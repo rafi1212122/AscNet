@@ -1,0 +1,110 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory47.jpg																								
+2	2		401							1	203																							
+3	3		301			DialogEnable						Bridge of Babylonia.																						
+4	4		201							1	500004		400																					
+5	5		201							2	1111001	5	-400																					
+6	6		301							1	Karenina	The jumper is set! Can we transfer the signal?	2																					
+7	7		301								Asimov	Not yet. There must be an issue with the power.	1																					
+8	8		301								Karenina	****! Looks like we have to move the batteries here ourselves!	2																					
+9	9		301								Karenina	I'll get Team Two!	2																					
+10	10		301				AniZhuanchangBegin				Asimov	Hurry! The power will disconnect in fifteen minutes!	1																					
+11	11		202							1	2				1																			
+12	12		101							Assets/Product/Texture/Image/BgStory/Bgstory259.png																								
+13	13		401							1	2																							
+14	14		201							1	500128	9																						
+15	15		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryShuju.prefab		1																						
+16	16		301			AniZhuanchangEnd				1	"Bianca"	All anti-interference protocols are dismissed. There is not enough computational power to counteract this unexpected occurrence.	1																					
+17	17		301								"Bianca"	Unexpected o-occurrence o-occurrence o-occur...	1																					
+18	18		302								Now!	19																						
+19	19		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryShuju.prefab		1																					
+20	20		201							1	500166		-400																					
+21	21		201							2	500026		400																					
+22	22		301							1	Lucia	Lee!	1																					
+23	23		301								Lee	Coming!	2																					
+24	24		202							1	2				1																			
+25	25		301									Lee charges at "Bianca" with all his strength and lands a flying kick, causing "Bianca" to lose balance.																						
+26	26		401							2	1512																							
+27	27		301									Then, using his right hand as an axis, he does a spinning kick with both feet, sending "Bianca" flying toward Lucia—																						
+28	28		301									—Right into her unsheathed blade.																						
+29	29		201							1	500128	9																						
+30	30		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryShuju.prefab		1																						
+31	31		301							1	"Bianca"	I see...	1																					
+32	32		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryShuju.prefab		1																					
+33	33		202							1					1																			
+34	34		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+35	35		401							2	10002001																							
+36	36		301									Lucia slashes "Bianca," giving her no time to react.																						
+37	37		301									The left shoulder of "Bianca" separates along the edge of the blade, sending parts flying and disintegrating in the air.																						
+38	38		301									Lucia follows her attack with a swift kick, sending "Bianca" flying.																						
+39	39		401							2	10003001																							
+40	40		301			RImgBg1Shake						As "Bianca" flies through the air, a beam of light hits her right in the face.																						
+41	41		302								Well done, Liv.	42																						
+42	42		201							1	1031001	14																						
+43	43		301							1	Liv	I just... got the shot off... in time...	1																					
+44	44		202							1					1																			
+45	45		301									The fragmented body of "Bianca" separates into three as they fall among the ruins of buildings devastated during the battle.																						
+46	46		201							1	500166																							
+47	47		301				AniZhuanchangBegin			1	Lucia	...It's over.	1																					
+48	48		202							1					1																			
+49	49		101							Assets/Product/Texture/Image/BgStory/Bgstory260.png																								
+50	50		301			AniZhuanchangEnd					"Bianca"	...																						
+51	51		301									Lucia takes the left, Lee takes the right, and Liv comes in from the middle, shielding you, as you four carefully move in a pincer formation toward the largest part of "Bianca."																						
+52	52		301									The camouflage on her fragmented body has almost disappeared, any resemblance of Bianca completely disintegrated, leaving a peculiar shape behind.																						
+53	53		201							1	1031001		-600																					
+54	54		201							2	500026		600																					
+55	55		201							3	500166																							
+56	56		301							1	Lee	...Asimov hasn't told us that the issue is resolved, so this must be the sub-terminal Huaxu specifically used to block us. Looks like Huaxu is still causing Babylonia to fall from somewhere else.	2																					
+57	57		301								Lucia	Why...	3																					
+58	58		301								Lee	I remember that... During the battle of Kowloong, Gabriel took Huaxu's key from Qu.	2																					
+59	59		301								Lee	So the Ascendants are behind this, then. Huaxu wouldn't be issuing this attack on Babylonia otherwise.	2																					
+60	60		301								Lee	AI is restricted by security protocols. They can't execute such dangerous orders without first receiving them from an operator.	2																					
+61	61		202							1	2	3			1																			
+62	62		201							1	500160																							
+63	63		301							1	Huaxu	Frame functionality... d-disassembling d-disassembling...	1																					
+64	64		301			PanelActor1Shake					Huaxu	C-cannot c-cannot... c-cannot maintain target restrictions...	1																					
+65	65		202							1					1																			
+66	66		301			RImgBg1Shake						—You sense a wave of energy fluctuations—																						
+67	67		201							1	1031001		-600																					
+68	68		201							2	500026		600																					
+69	69		201							3	500166																							
+70	70		301			RImgBg1Shake				1	Lee	...What's going on? My body... keeps...	2																					
+71	71		301									—The jamming signal from the unknown origin disappears—																						
+72	72		301								Liv	That's...	1																					
+73	73		301								Liv	The elevator switch... is turned on...	1																					
+74	74		301			RImgBg1Shake						The vibration slowly comes to stop after a while, and everyone gradually regains their bodily functions.																						
+75	75		301									—At which point, the rest of you finally notice Liv pointing off into the distance.																						
+76	76		301									Following her hand, everyone sees "Authorization Restriction Revoked" displayed on the operation panel to the passageway.																						
+77	77		302								Let's get going, everyone.	78																						
+78	78		301				AniZhuanchangBegin				Lucia & Lee & Liv	...Right.	1	2	3																			
+79	79		202							1	2	3			1																			
+80	80		101							Assets/Product/Texture/Image/BgStory/BgStory47.jpg																								
+81	81		401							1	203																							
+82	82		201							1	500019																							
+83	83		301			AniZhuanchangEnd				1	Construct A	Type Two fuel batteries have arrived!	1																					
+84	84		203							1	0.25	-400																						
+85	85		201							2	500028		400																					
+86	86		301							1	Construct B	Type Four fuel batteries have arrived!	2																					
+87	87		202							1	2				1																			
+88	88		201							1	500004		400																					
+89	89		201							2	1111001	5	-400																					
+90	90		301							1	Karenina	What the hell are you doing! You can't mix two different transformers! If the bridge blows up, I'm not footing the bill!	2																					
+91	91		301								Asimov	Connect the jumper and crank up the voltage!	1																					
+92	92		301								Karenina	Are you crazy?! If you blow up the immersion chamber, you'll sever all the power!	2																					
+93	93		301								Asimov	We can't wait! Five more minutes and the voltage will go below the red line!	1																					
+94	94		301								Karenina	Forget it... Don't worry about it!	2																					
+95	95		301				AniZhuanchangBegin				Karenina	If it blows up, it blows up! If it can last for another minute, that's still a minute longer!	2																					
+96	96		202							1	2				1																			
+97	97		101							Assets/Product/Texture/Image/BgStory/Bgstory277.png																								
+98	98		401							1	202																							
+99	99		201							1	500238																							
+100	100		301			AniZhuanchangEnd				1	Huaxu	The area infiltrated by the sub-terminals is in danger. Calling all sub-terminals to provide protection.																						
+101	101		301								Luna	What's happening?	1																					
+102	102		301								Huaxu	They found the access point and the location of the sub-terminal.																						
+103	103		301								Luna	...But you said everything was under control.	1																					
+104	104		301								Huaxu	I miscalculated the capabilities of Gray Raven. It appears that their maneuver and strength have improved since the battle in Kowloong.																						
+105	105		301								Luna	...Is the database outdated?	1																					
+106	106		301								Huaxu	It seems highly likely.																						
+107	107		301								Luna	Hmph... Are you hiding something from me, Huaxu?	1																					
+108	108		301								Huaxu	I cannot understand what you are implying.																						
+109	109		301		1		AniZhuanchangBegin				Luna	...I have more important things to do than explain myself to you.	1																					

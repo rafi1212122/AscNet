@@ -1,0 +1,115 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		401							1	202																							
+2	2		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab	2																							
+3	3		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgCg/Cg001_1.jpg																								
+4	4		301			DialogEnable						As the hundredth Corrupted signal is extinguished, the surrounding area becomes quiet for the time being.																						
+5	5		301									The wounded Lucia lays disheveled over the heaps of broken Corrupted parts. Her chest heaving irregularly in an attempt to calm her own breathing.																						
+6	6		301								Lucia	Commandant...																						
+7	7		301								Lucia	What's the... situation...?																						
+8	8		302								The Corrupted are still gathering this way...	9																						
+9	9		301								Lucia	Is that... so.																						
+10	10		301									Lucia emptily stares at the dancing embers before her.																						
+11	11		301								Lucia	Commandant...																						
+12	12		301								Lucia	The Anti-Punishing Serum for this mission... How many do you have left?																						
+13	13		201							1	500083																							
+14	14		301							1		...	1																					
+15	15		301									In truth, the one just now was the last...	1																					
+16	16		302							100	(Lie to Lucia)	20	(Tell Lucia the truth.)	23																				
+17	17		202							1					1																			
+18	18		301								Lucia	...																						
+19	19		303							100																								
+20	20		301								Lucia	You don't have to hide it for me.																						
+21	21		301								Lucia	From your first serum injection, I've already been counting, Commandant...																						
+22	22	24	301								Lucia	42 minutes... since your last serum injection...																						
+23	23		301								Lucia	I suspected as much...																						
+24	24		301								Lucia	If we run out of serum, Commandant, your human body will not be able to survive here.																						
+25	25		301								Lucia	The other members of Gray Raven have yet to arrive... I'm the only one who can buy time for you to retreat...																						
+26	26		301								Lucia	But the pain reception is affecting my performance, Commandant.																						
+27	27		301								Lucia	Please authorize the temporary disabling of my pain reception and allow me to continue fighting.																						
+28	28		302								...	29																						
+29	29		301								Lucia	What's the matter...? Are you worried that if I continue on like this, my M.I.N.D. will permanently deviate from the human consciousness model?																						
+30	30		301								Lucia	You're always one to care about these...																						
+31	31		301								Lucia	It's fine, Commandant, I believe in you. As long as we keep our consciousness linked, your Mind Beacon will allow me to stay human.																						
+32	32		301								Lucia	As for this rash decision... I'll report back to you for disciplinary actions when we return to HQ.																						
+33	33		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab																							
+34	34		302								... (Allow Lucia to turn off pain receptors)	35																						
+35	35		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie1New.prefab	1																							
+36	36		301								System	Authorized. Recalibrating neural link parameters...																						
+37	37		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie2New.prefab	1																							
+38	38		505					500			Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie1New.prefab																							
+39	39		301								System	M.I.N.D. deviation coefficient increased by 0.021...																						
+40	40		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie2New.prefab																							
+41	41		301			RImgBg1Shake					Lucia	Wait, Commandant! The enemies—augh!																						
+42	42		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie3New.prefab	1																							
+43	43		301								System	Initializing Sensorium...																						
+44	44		301				AniZhuanchangBegin				System	Construct: Lucia, offline—																						
+45	45		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie3New.prefab																							
+46	46		101							Assets/Product/Texture/Image/BgCg/Cg001_3.jpg																								
+47	47		201							1	500013																							
+48	48		301			AniZhuanchangEnd				1	Corrupted	Deconstruct... Rebuild...	1																					
+49	49		401							2	1509																							
+50	50		301									Until Lucia's consciousness comes back online, she will have to be protected.																						
+51	51		301									So, there is only one thing left to do—																						
+52	52		302								(Load gun)	53																						
+53	53		401							2	1511																							
+54	54		301								Corrupted	Exterminate—Humans!	1																					
+55	55		302								(Fire!)	56																						
+56	56		401							2	1510																							
+57	57		301			PanelActor1Shake						The Corrupted frames are riddled with bullets all over, yet they show no signs of slowing down.	1																					
+58	58		401							2	1509																							
+59	59		301									And the next instant, the scintillating blade of the Corrupted is already raised high—	1																					
+60	60		302								(Confront it.)	61	(Dodge)	64																				
+61	61		301									—Then caught it before the blade had a chance to fall—																						
+62	62		401							2	1506																							
+63	63	66	301			PanelActor1Disable						—And a gut punch follows, dismantling the near-fractured frame of the Corrupted.																						
+64	64		301									An attack slides past—																						
+65	65		301			PanelActor1Shake	PanelActor1Disable					Before the Corrupted could stabilize itself from the missed leap, its head is detached by a roundhouse kick. The body then quickly collapses.																						
+66	66		101							Assets/Product/Texture/Image/BgCg/Cg001_4.jpg																								
+67	67		401							2	1509																							
+68	68		301			RImgBg1Shake						Even so, the remaining Corrupted continue to converge...																						
+69	69		201							1	500013																							
+70	70		301							1	Corrupted	Urgh—!	1																					
+71	71		401							2	1508																							
+72	72		301									The Corrupted shamble, rushing toward—																						
+73	73		401							1	103																							
+74	74		202							1					1																			
+75	75		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie3New.prefab	2																							
+76	76		301								Lucia	Stay away... from... my commandant...																						
+77	77		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie3New.prefab																							
+78	78		201							1	500013																							
+79	79		301							1	Corrupted	Urgh—!	1																					
+80	80		401							2	1508																							
+81	81		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab		1																						
+82	82		401							2	10002001																							
+83	83		202			PanelActor1Shake				1																								
+84	84		401							2	1508																							
+85	85		301								Corrupted	Urgh...																						
+86	86		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie4New.prefab	1																							
+87	87		301								System	Initialization complete. Consciousness: Lucia, online—																						
+88	88		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiLianjie4New.prefab																							
+89	89		101			RImgBg1Enable				Assets/Product/Texture/Image/BgCg/Cg001_5.jpg																								
+90	90		301								Lucia	Report. Construct Lucia is now ready for battle.																						
+91	91		301								Lucia	Commandant... Thank you, I'll handle this from now on.																						
+92	92		301								Corrupted	—!																						
+93	93		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+94	94		401							2	10002001																							
+95	95		301									No longer fettered by pain, Lucia spins through the battlefield—																						
+96	96		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+97	97		401							2	10002001																							
+98	98		301									—destroying Corrupted with an almost terrifying alacrity...																						
+99	99		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+100	100		401							2	10002001																							
+101	101		301									Alas, the countless Corrupted that surround them began to diminish in number...																						
+102	102		301				AniZhuanchangBegin					And—																						
+103	103		101							Assets/Product/Texture/Image/BgCg/Cg001_4.jpg																								
+104	104		301			AniZhuanchangEnd					System	Connecting—																						
+105	105		201							1	1031001																							
+106	106		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+107	107		301							1	Liv	Commandant! Lucia!	1																					
+108	108		301								Liv	We're ready here. You guys go look for shelter nearby!			1																			
+109	109		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+110	110		202							1																								
+111	111		301				AniZhuanchangBegin				System	Warning: Extreme high-density energy source detected—																						
+112	112		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+113	113		201							2	1021001	9																						
+114	114		301		1	AniZhuanchangEnd	AniZhuanchangBegin			1	Lucia	Commandant, hit the deck!	2																					

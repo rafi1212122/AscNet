@@ -1,0 +1,36 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory20.jpg																								
+2	2		401							1	101																							
+3	3		201							1	1021001																							
+4	4		301			DialogEnable				1	Lucia	Commandant, target Corrupted is making a run for it.	1																					
+5	5		302								Don't let it go!	6	Estimate its trajectory!	7																				
+6	6	9	301								Lucia	Roger, Commandant.	1																					
+7	7		201							1	1031001																							
+8	8		301							1	Liv	The radar isn't looking good...	1																					
+9	9		401							2	1508																							
+10	10		201							1	500013																							
+11	11		301							1	Corrupted	—!	1																					
+12	12		201							1	1021001																							
+13	13		301							1	Lucia	What's wrong, Commandant? If we keep chasing it, we'll be charging right into enemy territory.	1																					
+14	14		203							1	0.25	-400																						
+15	15		201							2	1011001		400																					
+16	16		301							1	Lee	If you enter enemy territory, the mission will...	2																					
+17	17		202							1	2				1																			
+18	18		201							1	500196																							
+19	19		301							1	Karenina	Then don't let it in!	1																					
+20	20		201							1	1021001																							
+21	21		301							1	Lucia	Karen, what are you doing?	1																					
+22	22		201							1	500196																							
+23	23		301							1	Karenina	Doing what I do best!	1																					
+24	24		201							1	1011001																							
+25	25		301							1	Lee	Wait, the border is a minefield! If you blow it up...	1																					
+26	26		201							1	500196																							
+27	27		301							1	Karenina	I'll just avoid the blast!	1																					
+28	28		301								Karenina	We'll blow up a ravine so it can't climb out!	1																					
+29	29		302								Don't be so reckless, Karenina!	30	Everyone, brace yourselves!	31																				
+30	30	33	301								Karenina	Everything will be fine, Commandant.	1																					
+31	31		201							1	1011001																							
+32	32		301							1	Lee	Hey, Commandant! Think of a way to stop her!	1																					
+33	33		202							1					1																			
+34	34		401							2	10007502																							
+35	35		301		1	RImgBg1Shake	AniZhuanchangBegin					——————																						

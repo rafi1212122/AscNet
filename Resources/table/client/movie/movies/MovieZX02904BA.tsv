@@ -1,0 +1,101 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgCg/Cg2301_10.jpg																								
+2	2		401							1	119																							
+3	3		301			DialogEnable						Realizing that none of this is purely coincidental, the young man spends a good ten minutes trying to find out if Lillian saw anyone when she picked up the toy.																						
+4	4		201							1	500335	19																						
+5	5		301							1	Lillian	Look, I've said this already... It was just out there, and I thought it belonged to one of the kids around. I was going to fix it and just leave it here, but you can totally have it if you think it's yours.	1																					
+6	6		204							1																								
+7	7		301								Lillian	But for what's worth, don't you think you're a little too... old for a toy like this?	1																					
+8	8		201							1	500506	11																						
+9	9		301							1	Young Man A	I don't know. It's probably just something that I kept around... as a reminder of my dreams as a child.	1																					
+10	10		204							1																								
+11	11		301									Unable to get to the bottom of his question, the young man resorts to writing down a message on the piece of paper he got the night before.																						
+12	12		301									The driver in the transport vehicle out there is honking impatiently by the time he finishes folding up the paper and leaves it with one of the Constructs guarding the base.																						
+13	13		204							1	10																							
+14	14		301									"At least I'm making headway here," he tells himself.																						
+15	15		204							1																								
+16	16		301									And it's true that he's made headway.																						
+17	17		202							1					1																			
+18	18		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+19	19		101							Assets/Product/Texture/Image/BgStory/BgStory538.png																								
+20	20		201							1	500313																							
+21	21		301							1		But just exactly who is that person he can't remember the face of?																						
+22	22		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+23	23		201							1	500512					1																		
+24	24		205							1		0.5	0.5	0																				
+25	25		301							1		And who's that boy that pops up in his mind with the melody?																						
+26	26		202							1					1																			
+27	27		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+28	28		201							1	500518		400																					
+29	29		201							2	500515		-400				1																	
+30	30		301							1		Where are his mother and Rachel now?																						
+31	31		202							1	2				1																			
+32	32		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+33	33		301				AniZhuanchangBegin					"Could they just be waiting for me somewhere as I wander across the world a lost soul?"																						
+34	35		101							Assets/Product/Texture/Image/BgStory/Bgstory211.png																								
+35	36		201						2000	1	500506	10																						
+36	37		301			AniZhuanchangEnd				1	Young Man A	No, I can't stop just yet...	1																					
+37	38		204							1																								
+38	39		301									I will never be able to get to the bottom of these if I don't get my memory back...																						
+39	40		202							1					1																			
+40	41		301									Calming himself down, the young man shifts his focus back to the conversation the Constructs are having.																						
+41	42		201							1	500019		-600																					
+42	43		201							2	500019																							
+43	44		201							3	500019		600																					
+44	45		301							1	Construct Soldier 1	Where is the Chief Commandant?	1																					
+45	46		301								Construct Soldier 2	Gray Raven left in the middle of the night because they got a bit of a situation going on.	2																					
+46	47		301								Construct Soldier 3	What happened?	3																					
+47	48		301								Construct Soldier 2	Not sure, but apparently some of the guys guarding the place defected, and God only knows where they went.	2																					
+48	49		301								Construct Soldier 1	...All these disasters over the past few months are pretty disconcerting. Say, do you think they're hanging out with Ascendants now?	1																					
+49	50		301								Construct Soldier 2	Ascendants? No way...	2																					
+50	51		301								Construct Soldier 1	Oh, yes way. Who wouldn't want to be immune to the virus, right? I mean, not everyone can be, but better giving it a try than waiting around.	1																					
+51	52		301								Construct Soldier 3	C'mon, you're talking out of your ass.	3																					
+52	53		301								Construct Soldier 1	I'm not. See, people have been talking about this. They think there is no end to all this fighting, so they'd rather keep their options open—for example, by joining the ranks of Ascendants and see if they get lucky.	1																					
+53	54		301								Construct Soldier 2	And that's why the higher-ups decided to send the Purifying Force out, right?	2																					
+54	55		202							1	2	3			1																			
+55	56		201							1	500405																							
+56	57		301							1	Construct Soldier 4	Man. Best we drop this topic now and do what we're supposed to do.	1																					
+57	58		202							1					1																			
+58	59		301									Their sighs fade into the lasting silence that shrouds the car—until one of them decides he's had enough and starts talking about Lillian, who sits in the corner.																						
+59	60		201							1	500335	19	-400																					
+60	61		201							2	500019		400																					
+61	62		301							1	Construct Soldier 5	What's with the long face, Lillian?	2																					
+62	63		301								Lillian	I lost touch with Talbot from the squad, and I haven't been able to get hold of him yet.	1																					
+63	64		301								Construct Soldier 5	What? You should have brought this up earlier.	2																					
+64	65		301								Lillian	Well, he was still on the line until just now...	1																					
+65	66		202							2					1																			
+66	67		201							2	500405		400																					
+67	68		301							1	Construct Soldier 4	You gotta keep an eye out for the guy. He kind of lost it after what happened to Anna, and I wouldn't be surprised at all if he decides to defect somewhere down the road.	2																					
+68	69		301				AniZhuanchangBegin				Lillian	...	1																					
+69	70		202							1	2				1																			
+70	71		101							Assets/Product/Texture/Image/BgStory/Bgstory362.png																								
+71	72		301			AniZhuanchangEnd						A few moments later, the transport vehicle stops at a fork. All the Constructs get off.																						
+72	73		301									The young man and Lillian head toward Medical Center 09 together as they chat about what's been happening lately—until her device starts ringing.																						
+73	74		401							1	36																							
+74	75		401							2	1099																							
+75	76		509							Assets/Product/Texture/Image/BgStory/Bgstory361.png	2																							
+76	77		201							1	500335		-400																					
+77	78		201							2	500506		-800																					
+78	79		201							13	500517		600																					
+79	80		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		13																						
+80	81		301							1	Talbot	Lillian! Are you in the Medzone now?	13																					
+81	82		401							1	202																							
+82	83		301								Bird CUB	Help! Help!	13																					
+83	84		301								Lillian	I'm almost there. What's going on?	1																					
+84	85		301								Talbot	I'm surrounded by a bunch of Corrupted! I need help!	13																					
+85	86		301								Bird CUB	Wait, I thought you were supposed to be there to help people!	13																					
+86	87		301								Talbot	Shut up, Blush!	13																					
+87	88		301								Young Man A	Blush?	2																					
+88	89		301								Blush	Help! Blush is calling for help!	13																					
+89	90		301								Talbot	This thing is a CUB based on a weero, which is why I call it "Blush". I mean, it's lost its colors so much that you can't really tell what it... Wait, why am I telling you all this now?!	13																					
+90	91		301								Talbot	I just sent our coordinates your way. Just come and help us now!	13																					
+91	92		301								Blush	Please!	13																					
+92	93		301								Lillian	...	1																					
+93	94		204							1	19																							
+94	95		301								Lillian	H-hey, John...	1																					
+95	96		204							2	9																							
+96	97		301									The young man almost chokes when Lillian calls him that, but still manages to keep a straight face.																						
+97	98		204							2	4																							
+98	99		301								Young Man A	Heard it all. Let's go and help.	2																					
+99	100		204							1	1																							
+100	101		301		1		AniZhuanchangBegin				Lillian	...Right, thank you. Let's go!	1																					

@@ -1,0 +1,303 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory618.jpg																								
+2	2		401							1	36																							
+3	3		401							2	2637																							
+4	4		401							2	584																							
+5	5		301								Broadcast	Dear esteemed guests, the undersea tunnel to the lower second floor has been repaired. Please enter in an orderly manner.																						
+6	6		301								Broadcast	You can find restaurants, entertainment facilities, and 24-hour dolphin performances on the lower second floor.																						
+7	7		301								Broadcast	Copperfield Aquarium wishes you a wonderful day.																						
+8	8		402							584																								
+9	9		401							2	9330010																							
+10	10		502							RImgBg1DisableSlow																								
+11	11		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/BgStory633.jpg																								
+12	12		301									As the water curtain lifts, the tunnel to the lower second floor appears before you.																						
+13	13		402							9330010																								
+14	14		401							1	155																							
+15	15		201							1	500166	5																						
+16	16		301							1	Lucia	The Punishing Virus concentration in the air is increasing!	1																					
+17	17		202							1					1																			
+18	18		401							2	1105																							
+19	19		301									Your protective suit warns you at the same time as Lucia. Fortunately, the risen concentration is still within an acceptable level.																						
+20	20		301									You smell a rotten scent different from the Red Tide through the tunnel. All of you cannot help but turn and stare at the fire alarm box covered in children's graffiti at the end of it.																						
+21	21		301									Dried red-and-black matters cover the decorative illustrations like splashed ink. Dark red slime oozes out from underneath as if the rotten scent is made physical.																						
+22	22		401							2	2598																							
+23	23		301									"Squelch... yech... screech..."																						
+24	24		301									You also hear jumbled, heinous whispers.																						
+25	25		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+26	26		401							2	819004																							
+27	27		301			RImgBg1Shake						You swing with your assigned blade, removing the door to the alarm box entirely...																						
+28	28		401							2	1505																							
+29	29		301									"Splat... slosh..."																						
+30	30		301									...And the thing inside "drips" onto the floor in consecutive globs, forming a cake of meat that is about two arms wide.																						
+31	31		401							2	571																							
+32	32		301									This is an ooze-like substance without a concrete form. Newly grown muscle tissues and lumps join together by splintered metal, and fresh organic matters submerge in slime.																						
+33	33		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+34	34		105							Assets/Product/Ui/Spine/UiSpine/UiMovieSpine/UiMovieBianka/UiMovieBianka03/UiMovieBianka03.prefab																								
+35	35		301									But Bianca can see countless figures through the Phantom Tracer. Their faces are blurred, their identities unrecognizable; the most she can do is identify if they are male or female-presenting.																						
+36	36		401							2	2645																							
+37	37		301									"Wah..."																						
+38	38		301									The organic matter rises and falls with its breath, and plump cysts bubble to its surface one after another. They quickly burst, splashing the foul substance within them onto the surrounding floor.																						
+39	39		401							2	571																							
+40	40		301									The "ooze" cries every time a cyst bursts. That is when you can vaguely recognize a few twisted faces on its lump-covered surface.																						
+41	41		105																															
+42	42		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+43	43		101						500	Assets/Product/Texture/Image/BgCg/Cg3002_14.jpg																								
+44	44		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+45	45		105							Assets/Product/Ui/Spine/UiSpine/UiMovieSpine/UiMovieBianka/UiMovieBianka03/UiMovieBianka03.prefab																								
+46	46		301									Their eyes are squinching as if they are ecstatic, but their mouths are twisted in all kinds of ways, whispering and murmuring painfully.																						
+47	47		401							2	571																							
+48	48		301									The ooze wriggles its lumps, struggling to crawl toward the spilled filth. The sharp, splintered metal cuts open its pink skin, and blood spills out, leaving a trail on the floor.																						
+49	49		301									"Hehe... waha... la..."																						
+50	50		301				AniZhuanchangBegin					What makes you shudder is how the mouths mutter joyfully as the ooze loses more blood.																						
+51	51		105																															
+52	52		101							Assets/Product/Texture/Image/BgStory/BgStory633.jpg																								
+53	53		201							1	500019																							
+54	54		301			AniZhuanchangEnd				1	Purifying Force Member	I'll end their suffering.	1																					
+55	55		202							1					1																			
+56	56		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+57	57		401							2	1226																							
+58	58		402							2598																								
+59	59		301									One of the Purifying Force members takes out a flamethrower and wipes away the cursed filth before you with a 2800-degree fire.																						
+60	60		301									As it is burned into char, the metal hidden underneath the lumps is revealed.																						
+61	61		201							1	500533	5																						
+62	62		301							1	Bianca	What is that?	1																					
+63	63		301									Bianca picks up a metal plate with the end of her Swordstaff from the burning body.																						
+64	64		301									It looks like a tag of a Construct. Wiping away the material clinging to the metal, Bianca sees a name.																						
+65	65		301				AniZhuanchangBegin				Bianca	Dela... poer?	1																					
+66	66		402							2598																								
+67	67		101							Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+68	68		201							1	500028																							
+69	69		401							1	160																							
+70	70		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryMovieFilm.prefab	2																							
+71	71		301			AniZhuanchangEnd				1	Delapoer	...Who's calling me?	1																					
+72	72		301									Delapoer looks up from the cold, hard floor, looking for the voice that was just calling him.																						
+73	73		301									He is inside a regular lounge room. Apart from the usual furniture, there are all kinds of terminals here; there is even a medium-sized personal computer from the Golden Age.																						
+74	74		301									Delapoer takes some time to sit up as he discerns how stiff his body is.																						
+75	75		301								Delapoer	I haven't rested for a while, have I?	1																					
+76	76		301								Delapoer	Whatever. I should go.	1																					
+77	77		202							1																								
+78	78		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab	2																							
+79	79		104							0|0|-100	0.8																							
+80	80		205							999	Assets/Product/Texture/Image/BgStory/Bgstory623.jpg	0	1	1																				
+81	81		401						800	2	754																							
+82	82		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab																							
+83	83		301									Delapoer opens the door and falls.																						
+84	84		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab	1																							
+85	85		401							2	1513																							
+86	86		201							1	500006																							
+87	87		301							1	Norris	Dammit. How did the Ascendant get here from so far away?	1																					
+88	88		301									Norris is running inside the tunnel as quickly as he can. Signs of infection, vital fluids of different colors, and charred wounds cover his body.																						
+89	89		301									Norris' squad finally escaped the Ascendant's pursuit after a suicidal bombing. In return, everyone but Norris is now buried underneath the crumbled aquarium.																						
+90	90		301									Norris only managed to escape because he was lucky enough to not be caught by the mechanical arm.																						
+91	91		301								Norris	Comms is busted as well. I've gotta get out of here to inform the others.	1																					
+92	92		301									Recalling the hellish scene on the lower third floor, even someone like Norris cannot help but shiver.																						
+93	93		301								Norris	Dammit! I was supposed to be on the frontline! Why was a specialist like you rushing in?!	1																					
+94	94		301									Norris clutches the broken tag in his hand, his anguish turning into his motivation to move forward. The empty aquarium is filled with the echoes of his curses.																						
+95	95		202							1					1																			
+96	96		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab																							
+97	97		401							2	1543																							
+98	98		301									His experienced sensors detect a faint grating sound.																						
+99	99		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+100	100		401							2	10001004																							
+101	101		301									"Bang! Bang! Bang!"																						
+102	102		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab	1																							
+103	103		104						800	0|0|-200	0.8																							
+104	104		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+105	105		401							2	819004																							
+106	106		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab																							
+107	107		301									Norris empties his clip at a dark corner without hesitation before rushing up and striking with his standard knife.																						
+108	108		301									He can feel his blade cutting through a tofu-like texture before smashing into the hard floor.																						
+109	109		201							1	500006																							
+110	110		301							1	Norris	What the hell?!	1																					
+111	111		202							1					1																			
+112	112		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+113	113		205							999		1	1	0																				
+114	114		101							Assets/Product/Texture/Image/BgStory/Bgstory122.png																								
+115	115		401						100	2	1510																							
+116	116		401						100	2	1510																							
+117	117		401						100	2	1510																							
+118	118		301									"Slop..."																						
+119	119		301								AI	Off target. Zero points.																						
+120	120		301									Delapoer fires at the target ahead of him expressionlessly, accompanied by the flat announcements of the AI.																						
+121	121		301									The rings on the upper-body-shaped target are spotless. The arm outside of the rings, however, is adorned with a few bullet holes.																						
+122	122		301								AI	9.5 points!																						
+123	123		301									The AI makes another announcement, and an intentionally-woeful voice coming from beside Delapoer follows.																						
+124	124		301								???	Sigh. Guess I'm not doing too well today.																						
+125	125		301									Although Delapoer cannot immediately remember the person's name, he still responds automatically.																						
+126	126		201							1	500028																							
+127	127		301							1	Delapoer	That's enough. Wasn't your previous best score 8.7?	1																					
+128	128		301								???	Hey! Don't get mad at me for your poor performance.																						
+129	129		301								Delapoer	...	1																					
+130	130		202							1					1																			
+131	131		301								???	C'mon, sourpuss. Our enemies on the surface might not be humanoid, right?																						
+132	132		301								???	And think of it this way: the enemies can't hold their weapons if you hit their arms, right? It's better than not hitting them at all... Hmm... That said, I think you actually hit closer to their legs there...																						
+133	133		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+134	134		101							Assets/Product/Texture/Image/BgStory/Bgstory623.jpg																								
+135	135		201							1	500006			-100		1																		
+136	136		502							PanelActor1Shake																								
+137	137		301							1	Norris	Ah! AAAAGGHHH!	1																					
+138	138		301									His enemy is not fast—the slow-crawling creature even stops sometimes.																						
+139	139		301									But Norris no longer has hands to fight back or legs to run away...																						
+140	140		401							2	1505																							
+141	141		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																						
+142	142		301									The slime shot from the monster immediately melts away Norris' Tantalum-made limbs, and the highly concentrated Punishing Virus it carries proceeds to infect him.																						
+143	143		301									Norris cannot do anything but lie on the floor as he watches the monster crawl ever so slightly closer.																						
+144	144		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+145	145		101							Assets/Product/Texture/Image/BgStory/Bgstory262.png																								
+146	146		202							1					1																			
+147	147		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																					
+148	148		301								???	Hungry...																						
+149	149		201							1	500028																							
+150	150		301							1	Delapoer	Constructs don't get hungry... And don't you think it looks a bit too creepy?	1																					
+151	151		202							1					1																			
+152	152		301								???	Whatever. It's free, anyway.																						
+153	153		301								???	Those guys from WGAA love to host weird functions like this.																						
+154	154		301									Delapoer is holding a robot-shaped cookie, its strawberry jam eyes glowing an eerie red.																						
+155	155		301									Delapoer still cannot remember the chatty Construct's name. They know each other so well, so they must be good friends, right?																						
+156	156		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+157	157		101						1000	Assets/Product/Texture/Image/BgCg/Cg3002_39.jpg																								
+158	158		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+159	159		101							Assets/Product/Texture/Image/BgStory/Bgstory262.png																								
+160	160		301									Delapoer feels empty inside as if something is missing.																						
+161	161		301								???	Give it a taste.																						
+162	162		301									Will the hole inside him be filled once he accepts this gift?																						
+163	163		201							1	500028																							
+164	164		301							1	Delapoer	...	1																					
+165	165		202							1					1																			
+166	166		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+167	167		101						1000	Assets/Product/Texture/Image/BgCg/Cg3002_36.jpg																								
+168	168		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+169	169		101							Assets/Product/Texture/Image/BgStory/Bgstory262.png																								
+170	170		301									Delapoer gently takes a bite.																						
+171	171		401							2	2593																							
+172	172		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+173	173		101						1000	Assets/Product/Texture/Image/BgCg/Cg3002_03.jpg																								
+174	174		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+175	175		101							Assets/Product/Texture/Image/BgStory/Bgstory262.png																								
+176	176		301									"Clang—squeak..."																						
+177	177		509						500	Assets/Product/Texture/Image/BgStory/Bgstory623.jpg	2																							
+178	178		201							1	500297																							
+179	179		301							1		The chatty Construct...																						
+180	180		203							1	0.25		-500																					
+181	181		202							1																								
+182	182		401							2	3077																							
+183	183		301									...quiets down.																						
+184	184		510							1	Assets/Product/Texture/Image/BgStory/Bgstory262.png																							
+185	185		401							2	1505																							
+186	186		301							1		"Crunch..."																						
+187	187		401						100	2	1505																							
+188	188		401						100	2	1505																							
+189	189		401						100	2	1505																							
+190	190		301				AniZhuanchangBegin					"Crunch—crunch—crunch—crunch..."																						
+191	191		510						500	2																								
+192	192		101							Assets/Product/Texture/Image/BgStory/Bgstory262.png																								
+193	193		201							1	500028					1																		
+194	194		301			AniZhuanchangEnd				1	Delapoer (?)	It tastes alright. What do you think... Norris?	1																					
+195	195		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+196	196		101							Assets/Product/Texture/Image/BgStory/BgStory633.jpg																								
+197	197		202							1					1																			
+198	198		401							2	2598																							
+199	199		301									As prepared as she might be, Bianca still cannot calmly observe what is unveiling before her.																						
+200	200		301									The ooze crawls around on the floor, searching for something and failing before returning to the fire alarm box as if the little dark space is the only shelter it trusts.																						
+201	201		301									"Wah... squelch... yech..."																						
+202	202		301									Bianca hears sobbing inside there where she cannot see.																						
+203	203		201							1	500548			-120	200																			
+204	204		301							1	???	Come on, get closer. Let me take a good look at you.	1																					
+205	205		104							0|0|-200	10																							
+206	206		301									Bianca walks toward the voice, compelled.																						
+207	207		401							2	613																							
+208	208		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+209	209		203							1	0		-50	100																				
+210	210		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+211	211		402							613																								
+212	212		301								???	That's it. There are so many of us here...	1																					
+213	213		401							2	613																							
+214	214		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+215	215		203							1	0																							
+216	216		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+217	217		402							613																								
+218	218		201							2	500514		200			1																		
+219	219		205							2		0	0.5	2																				
+220	220		301							1	Overlapping Voice	Come closer, and you'll see them...	1																					
+221	221		205					2000		2		0	0	0																				
+222	222		202							2					1																			
+223	223		402							2598																								
+224	224		401							1	36																							
+225	225		401							2	613																							
+226	226		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+227	227		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+228	228		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+229	229		402							613																								
+230	230		201							1	500498	4																						
+231	231		301							1	Chiko	The quickest way to death is wishing you could see the dead again.	1																					
+232	232		202							1					1																			
+233	233		401							1	148																							
+234	234		401							2	613																							
+235	235		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+236	236		202							2					1																			
+237	237		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+238	238		101							Assets/Product/Texture/Image/BgStory/Bgstory220.png																								
+239	239		104							0|0|0	0																							
+240	240		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySnowNew.prefab	2																							
+241	241		402							613																								
+242	242		301									A chilling fright drags Bianca back from her disoriented mind, and she finds herself in a snowing field somehow.																						
+243	243		301								Chiko	Why did you come here?																						
+244	244		201							1	500533	5																						
+245	245		301							1	Bianca	To save people.	1																					
+246	246		301									Hearing the voices behind her, Bianca fights not to look back.																						
+247	247		301								Bianca	Is this... my memory...?	1																					
+248	248		301								Chiko	Do you like snow?																						
+249	249		204							1	8																							
+250	250		301								Bianca	...																						
+251	251		202							1					1																			
+252	252		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+253	253		101							Assets/Product/Texture/Image/BgCg/Cgqz603.jpg																								
+254	254		104							100|200|-300	0																							
+255	255		301									...																						
+256	256		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+257	257		101							Assets/Product/Texture/Image/BgStory/Bgstory220.png																								
+258	258		104							0|0|0	0																							
+259	259		301								Chiko	Our attachment to the living clouds our judgment, resulting in irreparable loss.																						
+260	260		301								Chiko	Our feelings for the dead make us weak, be they fear or longing.																						
+261	261		301								Chiko	Only if we are indifferent to death can we stand against those fearless monsters.																						
+262	262		201							1	500533	8																						
+263	263		301							1	Bianca	But we will become monsters ourselves.	1																					
+264	264		301								Chiko	Only monsters can defeat monsters.																						
+265	265		204							1	5																							
+266	266		301								Bianca	There have to be other ways.	1																					
+267	267		202							1					1																			
+268	268		301								Chiko	...Bianca.																						
+269	269		301									Chiko's tone is uncharacteristically gentle. Bianca suddenly realizes that Chiko and the rest of the Purifying Force have seemingly stopped calling her a fence sitter after some particular event.																						
+270	270		301								Chiko	We're meant to be accustomed to goodbyes.																						
+271	271		301								Chiko	No matter what happens next. No matter whose life you take.																						
+272	272		201							1	500533	5																						
+273	273		301							1	Bianca	Even yours?	1																					
+274	274		202							1					1																			
+275	275		301								Chiko	That's right. Feel free to mock me if I become a Corrupted one day. Loudly.																						
+276	276		401							2	2599																							
+277	277		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab	2																							
+278	278		104							0|0|-100	0.8																							
+279	279		205							999	Assets/Product/Texture/Image/BgStory/BgStory575.jpg	0	1	1																				
+280	280		401							2	1543																							
+281	281		505						800		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab																							
+282	282		205							999		1	1	0																				
+283	283		101							Assets/Product/Texture/Image/BgStory/BgStory575.jpg																								
+284	284		301									Something pushes Bianca from behind, and she falls into the blizzard, the snow clouding her vision.																						
+285	285		205							999	Assets/Product/Texture/Image/BgStory/BgStory0.png	0	1	10																				
+286	286		301								Chiko	Please...																						
+287	287		301				AniZhuanchangBegin					And the snow muffles Chiko's last words.																						
+288	288		402							2599																								
+289	289		104							0|0|0	0																							
+290	290		205							999		1	1	0																				
+291	291		101							Assets/Product/Texture/Image/BgStory/Bgstory620.jpg																								
+292	292		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySnowNew.prefab																							
+293	293		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryMovieFilm.prefab																							
+294	294		201							1	500166	5																						
+295	295		401							1	209																							
+296	296		301			AniZhuanchangEnd				1	Lucia	How are you feeling, Bianca?	1																					
+297	297		201							1	500533	8																						
+298	298		301							1		The hallucinated coldness begins to fade as Bianca's consciousness returns to reality.																						
+299	299		204							1																								
+300	300		301								Bianca	I'm fine now.	1																					
+301	301		301									She turns her gaze toward you.																						
+302	302		301		1		AniZhuanchangBegin				Bianca	Commandant, there is something we have to report right now.	1																					

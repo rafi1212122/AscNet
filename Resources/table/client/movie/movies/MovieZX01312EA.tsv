@@ -1,0 +1,72 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory196.png																								
+2	2		401							1	202																							
+3	201		401							2	10007502																							
+4	3		201							1	500166	5																						
+5	4		301			DialogEnable				1	Lucia	Explosions! All members, be on the alert!	1																					
+6	5		302								Scan for the source!	7																						
+7	6		201							1	1031001																							
+8	7		301							1	Liv	I've located where the detonation signal came from!	1																					
+9	8		301								Liv	We can make it in time if we surround them now!	1																					
+10	11		201							1	500166																							
+11	12		301				AniZhuanchangBegin			1	Lucia	Let's do this!	1																					
+12	1201		202							1																								
+13	13		101							Assets/Product/Texture/Image/BgStory/Bgstory195.png																								
+14	14		201							1	500168																							
+15	15		301			AniZhuanchangEnd				1		With the residue heat from the faraway explosions still palpable in the air, Vera stands in front of the entrance to the aquarium corridor.	1																					
+16	16		301							1	Noctis	We cool being this up front about it?																						
+17	17		301								Noctis	Them Gray Ravens might take this the wrong way, yeah?																						
+18	18		204							1	1																							
+19	19		301								Vera	You make it sound like a bad thing. I'll get more toys this way, right?	1																					
+20	20		301								No. 21	Successfully blocked two possible routes. Target should be contained for thirty minutes.																						
+21	21		301								Vera	That's more than enough. Let's begin.	1																					
+22	22		301								Noctis	Oh, wait, situation update.																						
+23	23		301								Noctis	The birds are flying faster than we thought they could.																						
+24	24		301									The footsteps of you and your companions announce your arrival. You and the others surround Vera from two ends.																						
+25	25		203							1	0.5	-400																						
+26	26		201							2	500026		400																					
+27	27		301							1	Lee	You!	2																					
+28	28		204							1																								
+29	29		301								Vera	...	1																					
+30	30		301								Lee	Why are you here?!	2																					
+31	31		204							1	13																							
+32	32		301								Vera	Hah. What does that have to do with you?	1																					
+33	33		301								Lee	If you're here... Then that means Commander Nikola is...	2																					
+34	34		301								Vera	Yeah? What's it got to do with you, then, Kurono deserter?	1																					
+35	35		301								Lee	...!	2																					
+36	36		301								Vera	Don't get me wrong, there are times when I envy you.	1																					
+37	37		301								Vera	At least your little birdcage seems to be giving you some inner peace.	1																					
+38	38		301								Noctis	Hey! Vera! I knew it, you caught their attention on purpose!																						
+39	39		301								Vera	Stop being a muck-head and get me outta this.	1																					
+40	40		202							1																								
+41	41		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+42	4101		401							2	10007502																							
+43	42		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab																							
+44	43		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab	3																							
+45	44		301									A grenade explodes by Lee's feet, sending up light and smoke.																						
+46	45		301								Noctis	I ain't reminding y'all on the public channel next time, yeah?																						
+47	46		301								Noctis	And it won't be these smokers next time round!																						
+48	47		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab																							
+49	48		301									After you finally get rid of the smoke, Vera is already nowhere to be found.																						
+50	49		201							1	500013		-400																					
+51	50		201							2	500013		400																					
+52	51		301									The nearby Corrupted seem to be drawn by the explosion and light, and slowly surround you.																						
+53	5101		202							1	2																							
+54	5102		201							1	500026																							
+55	52		301				AniZhuanchangBegin			1	Lee	Tsk, the same as before. Just makes a mess and never cleans up!	1																					
+56	53		101							Assets/Product/Texture/Image/BgStory/Bgstory192.png																								
+57	54		202							1	2	3																						
+58	55		401							1	201																							
+59	56		201							1	500168					1																		
+60	999001		301			AniZhuanchangEnd						Twenty minutes later...																						
+61	57		301								Noctis	Oi, you're feelin' kinda different, girl.																						
+62	58		301							1	Vera	...Is it just me, or are you being extra annoying today?	1																					
+63	59		301								Noctis	I mean... ya ain't thinking they might be a chance for you to change... or sumthin'?																						
+64	60		301								Vera	21, wring his neck.	1																					
+65	61		301								No. 21	Aight.																						
+66	62		204							1	13																							
+67	63		301							1	Vera	On second thoughts, don't wring it off entirely—guy's still useful.	1																					
+68	64		301								No. 21	Aight.																						
+69	65		301								Noctis	Hey! Was just kidding, mam! Hey, you devil! Don't come closer!																						
+70	66		301								Vera	Alright, enough of this nonsense. Blow up all the scheduled sites, and move over to the next target location.	1																					
+71	67		301		1		AniZhuanchangBegin				Noctis	Alright! Blast sites two to sixteen! A full course of dee-na-mee-tay, coming right up!																						

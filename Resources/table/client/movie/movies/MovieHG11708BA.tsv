@@ -1,0 +1,184 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	3		301			DialogEnable					Unknown Song	"..."																						
+3	4		301								Unknown Song	"Let us sing, for all will be well."																						
+4	5		301								Unknown Song	"Blossoming flowers and sea-washed sand castles, milk and warm bread and birch tinder that crackles."																						
+5	6		301								Unknown Song	"...Let us prepare, for all will go foul."																						
+6	7		301								Unknown Song	"Mire-sunken conflicts and steps made in struggle, blood and hot iron and heads burnt in puddles."																						
+7	8		301								Far Voice	...【kuroname】...																						
+8	9		302								...Luna?	10																						
+9	10		301								Far Voice	If I'd met you instead back then...																						
+10	11		302								Where are you?	12																						
+11	12		301									You see Luna devoured by the Polyphage through its translucent maw, looking like an embryo caged within an artificial womb.																						
+12	13		301								Far Voice	...【kuroname】, connect to me.																						
+13	14		302								No, I—	15																						
+14	15		301								Approaching Voice	...You must be tired.																						
+15	16		301								Approaching Voice	Commandant?																						
+16	17		502				RImgBg1Disable			DialogDisable																								
+17	22		201							1	1031001	14																						
+18	18		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	2																							
+19	19		101			RImgBg1Enable				Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+20	20		401							1	201																							
+21	21		302								Hm?	23	Sorry. Just spacing out.	23																				
+22	23		301			DialogEnable				1	Liv	Commandant... After all that, you must be very tired. Sorry for disturbing you...	1																					
+23	24		302								It's okay.	25	I'm ready for work.	25																				
+24	25		201							1	500026																							
+25	26		301							1	Lee	I recovered the data we sent through the terminal. We can now determine that the signal within the Red Tide is indeed Luna's.	1																					
+26	27		301									The teenage figure near the window glances at you from the files in his hands.																						
+27	28		301								Lee	I've virtually double-reconstructed the data through the Spear of F.O.S., but I didn't experience it myself after all. There might still be discrepancies between the reconstructed data and what you went through.	1																					
+28	29		301								Lee	You can begin to work on this after you are fully recovered. I'll tell Asimov about it.	1																					
+29	30		302								I'm fully recovered already.	31	Thanks, Lee.	31																				
+30	31		301								Lee	...	1																					
+31	32		301									You deny Lee's kind offer for a little more time off, but find that he is still staring at you.																						
+32	33		302								?	34	Do I have something on my face?	34																				
+33	34		301								Lee	...It's nothing. If you're ready, then that's fine by me as well.	1																					
+34	35		301								Lee	Now, we just need you to go through and confirm the relevant data on Luna we found in the Red Tide.	1																					
+35	36		302								Understood...																							
+36	37		201							1	1031001	1																						
+37	38		301							1	Liv	(Giggles)	1																					
+38	39		302								?	40																						
+39	40		301								Liv	Commandant, your face... it's half-red.	1																					
+40	41		302								What do you mean?	999																						
+41	999		204							1	6																							
+42	42		301								Liv	Oops, sorry! It must've been because you were sleeping sideways! It's nothing, it'll go away in a minute...	1																					
+43	43		202							1					1																			
+44	44		301									You check your cheeks and do find it a little uneven and warm. It must have gone red.																						
+45	45		301				AniZhuanchangBegin					Turning around, you examine your figure on the glass window. The sight of you touching your cheeks suddenly reminds you of a scene in your memories.																						
+46	47		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+47	48		504							1																								
+48	49		201							1	500238	4																						
+49	50		301			AniZhuanchangEnd	AniZhuanchangBegin			1	Luna	So, you too... Are you part of my dreams?	1																					
+50	51		202			DialogDisable				1					1																			
+51	52		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+52	53		504							0																								
+53	54		201							1	500026																							
+54	46		302			AniZhuanchangEnd					...Data on Luna, huh.	55																						
+55	55		301			DialogEnable				1	Lee	Yeah. From our current observations, the Red Tide only consumes consciousnesses going through near-death experiences within it.	1																					
+56	56		301				AniZhuanchangBegin				Lee	Human or Construct, when they face death, their deepest emotions hidden inside their memories become bare. This also matches with the consciousness data that we've seen in the Red Tide.	1																					
+57	57		202							1					1																			
+58	59		101							Assets/Product/Texture/Image/BgStory/Bgstory256.png																								
+59	58		301			AniZhuanchangEnd						Going through a retinal scan, the two of you enter Asimov's lab.																						
+60	60		201							1	500004																							
+61	61		301							1	Asimov	Don't make unapproved conclusions without me.	1																					
+62	62		301								Asimov	The sample size is too small. We can't say for sure yet.	1																					
+63	63		301								Asimov	But, I know we'll get to the bottom of it.	1																					
+64	64		302								You sound pretty invested in this, Asimov.	65	Atta, Asimov!	65																				
+65	65		301								Asimov	First things first, though, you'll have to fully cooperate, Gray Raven Commandant.	1																					
+66	66		302								Sure.	67	I've been fully cooperative all the time.	67																				
+67	67		301								Asimov	You are the only commandant to have connected to Luna's M.I.N.D, and I presume it's not just once.	1																					
+68	68		203							1	0.25	400																						
+69	69		201							2	500026		-400																					
+70	70		301							1	Lee	What are you—	2																					
+71	71		301								Asimov	Chillax. I'm not here to prosecute your commandant. This is just a mere deductive guess.	1																					
+72	72		301								Lee	I never knew the chief technician had a say in our tactical decisions—	2																					
+73	73		302								Yeah, get him, Lee.	74	Lee, it's okay.	74																				
+74	74		301								Asimov	You're right. Do whatever you want on the field, I couldn't care less. I just want data, so you know what to do.	1																					
+75	75		302								Yeah.	76	I know.	76																				
+76	76		202							2					1																			
+77	77		203							1	0.25	0																						
+78	78		301								Asimov	Put this on. It's installed with Luna's consciousness data found inside the Red Tide.	1																					
+79	79		301								Asimov	This will simulate the situation of Luna's consciousness sample reacting with the observation target of Lucia.	1																					
+80	80		301								Asimov	You are Lucia's commandant, and have also linked with Luna without much emotional influence. You are the best candidate for an observer.	1																					
+81	81		302								Alright.	998																						
+82	998		301				AniZhuanchangBegin				Asimov	Well then, let's go.	1																					
+83	82		202							1					1																			
+84	83		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+85	84		301			AniZhuanchangEnd	AniZhuanchangBegin					Loading<<<<Consciousness link detected<<<<																						
+86	85		101							Assets/Product/Texture/Image/BgStory/Bgstory59.jpg																								
+87	86		401							1	209																							
+88	87		504							1																								
+89	88		301			AniZhuanchangEnd						You open your eyes to find yourself in a long corridor.																						
+90	997		201							1	500031																							
+91	89		301							1	???	Sis, what are you doing?	1																					
+92	90		301									A small blonde girl materializes out of thin air next to you. She raises her head, looking at you and beaming with a warm smile.																						
+93	91		302								...Luna?	92																						
+94	92		301								Asimov	The "consciousnesses" consumed and rebuilt by the Red Tide are not the "consciousness beings" themselves—these are only bait used by the Red Tide.																						
+95	93		301								Asimov	Which is why they take on the appearance and form that can most affect the related subjects.																						
+96	94		302								I see.	996																						
+97	996		202							1																								
+98	95		301									Walking further onward, the "Luna" behind dissipates like fog. A new "Luna" appears before you.																						
+99	96		201							1	500031																							
+100	97		301							1	"Luna"	Sister, look what I found! It's canned meat, and still edible...! Did I do good?	1																					
+101	98		302								...	100																						
+102	99		202							1					1																			
+103	100		301								Asimov	Don't respond.																						
+104	101		302								Okay.	103																						
+105	102		201							1	500031																							
+106	103		301							1	"Luna"	Sister, it's snowing outside! Let's go build a snowman together!	1																					
+107	104		301								"Luna"	Sister—achoo! Ehehe, it's kinda cold... Sister, your hand is so warm... Let's hold hands!	1																					
+108	105		202							1																								
+109	106		301									Myriad "Luna" figures fade in and out around you.																						
+110	107		301									Innocent, cheerful, and frisky. These must have been the happiest memories in Luna's mind.																						
+111	108		301									You know deep down that these are illusions created by the Red Tide. You try your best to ignore these shades and move forward.																						
+112	109		201							1	500031																							
+113	110		301							1	"Luna"	Wow! I love this present!	1																					
+114	111		301								"Luna"	My hands are cold... Can we hold hands...?	1																					
+115	995		204							1	14																							
+116	112		301								"Luna"	Why are you ignoring me...?	1																					
+117	113		301									A "Luna" stays behind you this time instead of fading away. She looks dejectedly at you.																						
+118	114		301								"Luna"	Is it because I wasn't good enough...? Sorry... I'll try harder... I'll grow stronger... Don't leave me behind...	1																					
+119	115		302								...	116	I get why people are lured by the Red Tide now.	116																				
+120	116		301								"Luna"	Didn't you say you'd... change everything for me...?	1																					
+121	118		302								...?	117																						
+122	117		202							1																								
+123	119		301				AniZhuanchangBegin				Asimov	Focus.																						
+124	120		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+125	121		301			AniZhuanchangEnd						You reach the end of the corridor and find yourself surrounded by complete darkness. Only a pitch black door can be seen.																						
+126	122		302								(Open the door)	123																						
+127	123		301									Creak——																						
+128	124		301									Warm light spills out of the door crack. You find a simple, but somewhat worn out children's room.																						
+129	125		502				RImgBg1Disable			DialogDisable																								
+130	126		101			RImgBg1Enable				Assets/Product/Texture/Image/BgStory/Bgstory56.jpg																								
+131	127		302								That's...!	128	Luna's room in her childhood?	129																				
+132	128	130	301			DialogEnable					Asimov	What?																						
+133	129		301			DialogEnable					Asimov	I guess. So what?																						
+134	130		302								...Nothing.	131																						
+135	131		301									You walk inside and see Luna sleeping on the bed.																						
+136	132		302								...!	133																						
+137	133		301									But not the Luna shades you have been seeing. This is the grown-up Luna, the Ascendant. Somehow, the word "safe" springs into your mind when you see her hair sprawled on her cheeks and on the bed.																						
+138	134		301								Asimov	Your heart rate is rising. What's the matter?																						
+139	135		302								...	136																						
+140	136		302								Do you remember when you told me about...	137																						
+141	137		302								The self-defense mechanism of a M.I.N.D.?	138																						
+142	138		301								Asimov	...You mean the drowner effect? What's wrong?																						
+143	139		302								Drowner effect?	140																						
+144	140		301								Asimov	Something from an earlier age when Construct tech wasn't that mature. If a commandant's Mind Beacon with a Construct isn't stable enough, or if they aren't compatible, the M.I.N.D. will try to get rid of the intruder.																						
+145	141		302								What happens then?	142	Is this why "remote link" was discontinued?	143																				
+146	142	144	301								Asimov	Let's imagine the M.I.N.D. as an ocean. A Construct is like someone that's drowning, so they'll instinctively grab at anything they can.																						
+147	143		301								Asimov	That's part of the reason. But mostly, it's because remote link back then can cause irreparable psychological damage to a commandant.																						
+148	144		301								Asimov	But that's nothing to worry about now. The compatibility of our modern Constructs blows the earlier models out of the water. You can be rest assured that the drowner effect won't happen.																						
+149	994		301								Asimov	After all, if this happens even once, we'd lose precious commandant personnel. We don't have that many to spare.																						
+150	145		302								...	146	Yay for science.	146																				
+151	146		301								Asimov	Why are you asking me this all of a sudden?																						
+152	147		302								Just remembering something...	148																						
+153	148		302								Do drowned Constructs remember anything?	149																						
+154	149		301								Asimov	In their M.I.N.D.? Theoretically, they should. But it's been ages since I've done research on that topic, you got some ideas you wanna share?																						
+155	150		302								Nah, not really.	151	I'll tell you if I think of any.	151																				
+156	151		301									Asimov snorts over the channel and falls silent.																						
+157	152		301									You carefully scan the room... Such a warm and quiet room this is.																						
+158	153		301									This is the deepest, safest place in Luna's M.I.N.D.																						
+159	154		301									She spent her childhood here with Lucia. This must be the memories she treasure the most.																						
+160	155		301								Asimov	...So, any findings?																						
+161	156		302								...Nothing, really.	157																						
+162	157		301								Asimov	That's what Lucia said as well. She said that these memories should be Luna's... ah, what was it again—most precious moments?																						
+163	158		301				AniZhuanchangBegin				Asimov	Well then, let's get you outta here.																						
+164	159		301									<<<<<<<<<<<<<<<<<<<<<																						
+165	160		101							Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+166	161		504							0																								
+167	162		301			AniZhuanchangEnd						Lee and Liv have to help out in Asimov's lab. So you decide to leave on your own.																						
+168	163		302								...	164																						
+169	164		301				AniZhuanchangBegin					The sights you saw through the shades and the experiences in Luna's M.I.N.D. seem to have strangely matched up.																						
+170	165		101							Assets/Product/Texture/Image/BgStory/Bgstory57.jpg																								
+171	166		401							1	207																							
+172	167		201							1	500266					1																		
+173	168		301			AniZhuanchangEnd				1		In the Red Tide projections, you clearly saw... a reddish night light next to her bed. You would never forget the shape of it.																						
+174	169		301									What happened deep in her M.I.N.D. was not just a mere dream. It might not have been pointless.																						
+175	170		301				AniZhuanchangBegin					Maybe everything is going differently than the way you thought it would. Maybe some things are really changing.																						
+176	993		101							Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+177	992		202							1					1																			
+178	171		301			AniZhuanchangEnd						Pausing at the bridge, you see an old friend, the pale blue planet, rotating silently in the vast expanse of space.	1																					
+179	172		301									And this half-broken planet, is where that snow-like Construct—where she—came from.	1																					
+180	173		301									...Is she still on there?																						
+181	174		302								Perhaps...	175																						
+182	175		302								If we meet again...	176																						
+183	176		302		1		AniZhuanchangBegin				I'll ask her myself.																							

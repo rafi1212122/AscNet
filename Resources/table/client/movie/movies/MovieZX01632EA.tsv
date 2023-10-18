@@ -1,0 +1,144 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory271.png																								
+2	2		401							1	103																							
+3	3		201							1	500166																							
+4	4		301			DialogEnable				1	Lucia	Commandant!	1																					
+5	5		202							1					1																			
+6	6		401							2	10007502																							
+7	7		301									A bomb explodes less than five meters away from you. Liv immediately opens a Protective Field.																						
+8	8		301									Roland takes this opportunity to fall back further to the entrance of the Core Area. Despite the unrelenting attacks from the Gray Ravens, his reaction has been nothing short of a walk in the park.																						
+9	9		201							1	500026																							
+10	10		301							1	Lee	This guy... has been hiding his true strength.	1																					
+11	11		201							1	500008																							
+12	12		301							1	Roland	I'm flattered. I always believe that being environmentally friendly is a virtue, so it's important to win fuel-efficiently.	1																					
+13	13		204							1	2																							
+14	14		301								Roland	Now, you're all treasured guests of Miss Luna. I can't just let you kick it before she achieves her goals.	1																					
+15	15		301								Roland	So until our actual protagonist arrives, how about a little chat?	1																					
+16	17		301								Roland	Say, Lucia, your swordplay is nothing but nostalgic. Have you finally remembered your past?	1																					
+17	500		201							1	500166																							
+18	501		301							1	Lucia	?	1																					
+19	502		201							1	500008	2																						
+20	18		301								Roland	Ah, doesn't look like it. How about I tell you the story of what Babylonia did to you?	1																					
+21	19		301								Roland	And Lee, you were a Kurono, weren't you? Then you should know how the technology behind Constructs was developed.	1																					
+22	20		301								Roland	The bloodshed behind the curtains, the endless lies, the corpses threw away like trash when their experiments failed. Lucia... they never treated her as a "human" when they abandoned your sister.	1																					
+23	21		204							1	4																							
+24	22		301								Roland	Can you say for certain that the commandant standing next to you won't do the same thing?	1																					
+25	23		301								Roland	Can you say for certain that, when all's said and done and you're no longer of any use, you won't suffer the same fate as those corpses, ruined and forsaken?	1																					
+26	24		201							1	500166	5																						
+27	25		301							1	Lucia	Don't talk about Commandant like that! You never—	1																					
+28	26		201							1	500008																							
+29	27		301							1	Roland	As long as humans are still their arrogant selves, they will never accept Constructs as one of them. You... will never be anything but tools.	1																					
+30	28		301								Roland	After all...	1																					
+31	29		301									Roland's gaze stays on Liv for a second before sighing with a regretful expression.																						
+32	30		301								Roland	Humans will even happily trade their families away as wares. What chance do the non-human "others" have?	1																					
+33	31		302								No.	32																						
+34	32		302								Humans and Constructs are the same.	33	Not all humans are so despicable.	34																				
+35	33	35	301								Roland	You mean, Constructs are really just humans, right?	1																					
+36	34		301								Roland	You mean, "you" are different, and these Constructs are your buddies, right?	1																					
+37	35		301								Roland	Oh, humans... You just love to run your mouth about sunshine and rainbows to have us sacrifice ourselves. What's the big deal, right? When you can just wipe our memories, and here we go again, wigging our tails.	1																					
+38	36		301								Roland	All your pretty words, simply because these Constructs are still useful to you.	1																					
+39	37		301								Roland	To us Ascendants, everything's fair and honest. We only serve absolute power, and when we unite, we'll create a world where humans are the ones who go extinct.	1																					
+40	38		201							1	500166	5																						
+41	39		301							1	Lucia	Enough with that!	1																					
+42	40		201							1	500008																							
+43	41		301							1	Roland	Fine, fine. I know you won't listen.	1																					
+44	42		301								Roland	But if your commandant asks you to kill your sister now, will you be able to do it?	1																					
+45	43		301								Roland	Can you really put that blade of yours in Luna's heart?	1																					
+46	44		201							1	500166	5																						
+47	45		301							1	Lucia	I...	1																					
+48	46		301									Despite his mocking tone, Roland's eyes fixate on Lucia, his gaze unwavering, as if he is indeed waiting for her answer.																						
+49	47		301								Lucia	...	1																					
+50	48		301									Lucia turns away, ignoring his question, before raising her katana toward him again.																						
+51	49		201							1	500008	4																						
+52	50		301							1	Roland	Is that so?	1																					
+53	51		301								Roland	Let me rephrase.	1																					
+54	52		301								Roland	Facing your closest family, who stands opposite you, her hands soaking in blood, do you—	1																					
+55	53		202							1					1																			
+56	54		401							2	1503																							
+57	55		301			RImgBg1Shake						Roland's piercing words are suddenly interrupted by a deafening noise. The bridge immediately sways from an enormous quake, seemingly originating from a massive explosion.																						
+58	56		401							2	10007502																							
+59	57		301			RImgBg1Shake						The noises and the quakes do not stop. Instead, they come in waves, accompanied by blinding white light from the Core Area.																						
+60	58		201							1	500166																							
+61	59		301							1	Lucia	What just happened?!	1																					
+62	60		201							1	1031001	7																						
+63	61		301							1	Liv	It's from the Core... A huge spike in energy wave motion and Punishing Virus reaction!	1																					
+64	62		201							1	500026																							
+65	63		301							1	Lee	Protect the commandant!	1																					
+66	64		201							1	500008	4																						
+67	65		301							1	Roland	Gabriel...	1																					
+68	66		301									Roland's expression briefly shifts for a second. Then he turns and bows to you all.																						
+69	67		204							1																								
+70	68		301							1	Roland	Our friendly conversation must be cut short, apparently. We'll speak again, Commandant.	1																					
+71	69		202							1					1																			
+72	70		301									He throws a stun grenade at you, before swiping the operation terminal of the bridge.																						
+73	71		301									The bridge slowly raises behind him, pulling back toward the Core Area.																						
+74	72		201							1	500026																							
+75	73		301							1	Lee	We'll never get through if the bridge fully rises! Leave Roland to me. Lucia, Liv, take Commandant to the other side!	1																					
+76	74		302								Jump onto the bridge before it is raised!	75	Attack Roland!	75																				
+77	75		201							1	500008																							
+78	76		301							1	Roland	Sorry, I can't let you through.	1																					
+79	77		202							1					1																			
+80	78		301									Lucia draws her katana and swings at Roland, only to be blocked by his chain blade. Liv shields you from his bullets, before shooting the axle bearing of the bridge with her Levi-Gun, but that still fails to stop the bridge from drawing back.																						
+81	79		301									Before the bridge is fully withdrawn, Roland utilizes the tension from his chain blade to launch himself into the Core.																						
+82	80		201							1	500026		400																					
+83	81		201							2	1031001		-400																					
+84	82		301							1	Lee	Dammit... He got away again.	1																					
+85	83		301								Liv	Based on what Roland just said... Luna really is in the Core Area.	2																					
+86	84		202							1	2				1																			
+87	85		201							1	500166																							
+88	86		301				AniZhuanchangBegin			1	Lucia	...	1																					
+89	87		202							1					1																			
+90	88		101							Assets/Product/Texture/Image/BgStory/Bgstory275.png																								
+91	89		401							1	203																							
+92	90		301			AniZhuanchangEnd						On the other side of the bridge—																						
+93	91		301									Rushing further into the Core Area, Roland looks gnawing as he sprints in haste.																						
+94	92		201							1	500008	5																						
+95	93		301							1	Roland	...Dammit, Gabriel, why are you proceeding already? Have you figured it out?	1																					
+96	94		301								Roland	He's probably not gonna do anything to Luna, but I might've just underestimated how crazy he's gotten.	1																					
+97	95		203							1	0.25	-400																						
+98	96		204							1	4																							
+99	97		201							2	500100		400																					
+100	98		301							1	α	Where are you heading?	2																					
+101	99		301								Roland	...To find Luna.	1																					
+102	100		301								α	Why did you let the Gray Ravens go?	2																					
+103	101		301								α	Roland, who are you actually loyal to?	2																					
+104	102		301								α	What's your actual intention?	2																					
+105	103		204							1	4																							
+106	104		301								Roland	My intention... has been pretty obvious since the beginning.	1																					
+107	105		204							2	8																							
+108	106		301									Alpha narrows her eyes to Roland's ambiguous answer.																						
+109	107		301								α	You've lost Luna's trust. I won't let you near her again, and once I've dealt with her troubles, I'll deal with you.	2																					
+110	108		202							1	2				1																			
+111	109		301									With that, Alpha turns and sets off in the direction of the explosion. Instead of catching up to her, Roland just stands there and laughs.																						
+112	110		201							1	500008																							
+113	111		301							1	Roland	Hahahahaha...	1																					
+114	112		201							1	500100																							
+115	113		301							1	α	Are you mad?	1																					
+116	114		201							1	500008																							
+117	115		301							1	Roland	Sigh... You're her sister, and still, you have no clue what she wants.	1																					
+118	116		301								Roland	Have you even tried to understand who your sister is nowadays?	1																					
+119	117		301								Roland	Like, has she mentioned anything that you haven't paid attention to?	1																					
+120	118		301								Roland	And have you considered what the true nature of the Ascension-Network is?	1																					
+121	119		201							1	500100																							
+122	120		301							1	α	...What are you trying to say?	1																					
+123	121		201							1	500008																							
+124	122		301							1	Roland	You know that I'm bad at the guessing game, and Luna isn't exactly chatty.	1																					
+125	123		301								Roland	She's definitely not as patient with me as she is with you. Oh, how I've suffered.	1																					
+126	124		301								Roland	That's why it's imperative for me to figure out what my boss needs, and work my butt off to achieve that.	1																					
+127	125		301								Roland	Whatever she wants, I'll get it.	1																					
+128	126		301								Roland	So. Her intent is my intent.	1																					
+129	127		202							1					1																			
+130	128		301									Alpha sneers in the face of Roland's unrelenting speech.																						
+131	129		201							1	500100	13																						
+132	130		301							1	α	Be careful, Roland. Your smugness will take its toll.	1																					
+133	131		201							1	500008																							
+134	132		301							1	Roland	...Aha.	1																					
+135	133		201							1	500100																							
+136	134		301							1	α	For me, Luna is Luna. Nothing else matters.	1																					
+137	135		301								α	I'll be by her side and give her whatever she wants.	1																					
+138	136		201							1	500008																							
+139	137		301							1	Roland	(Chuckles) Do you truly know what she wants?	1																					
+140	138		301								Roland	...Maybe she doesn't even know it herself?	1																					
+141	139		201							1	500100																							
+142	140		301							1	α	...	1																					
+143	141		301		1		AniZhuanchangBegin					Silently, Alpha draws her blade, and strikes toward Roland.																						

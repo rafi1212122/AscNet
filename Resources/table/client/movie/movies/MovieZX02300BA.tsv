@@ -1,0 +1,217 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101							Assets/Product/Texture/Image/BgStory/Bgstory460.jpg																								
+2	2		401							1	33																							
+3	3		304			AniZhuanchangEnd				Some people say that life is born from a mother's suffering, then grows up in the accompaniment of torture and is extinguished in sorrow.	eaeaeaff		Assets/Product/Texture/Image/BgStory/Bgstory460.jpg		1																			
+4	4		304							You simply cannot grow up without sorrow.	eaeaeaff		Assets/Product/Texture/Image/BgStory/Bgstory460.jpg		1																			
+5	5		304							Because the gifts of fate are hidden on both sides of the road of suffering. If you wish to receive such gifts, you must first step on this road.	eaeaeaff		Assets/Product/Texture/Image/BgStory/Bgstory460.jpg		1																			
+6	6		304							...Alas, that is only what some people say.	eaeaeaff		Assets/Product/Texture/Image/BgStory/Bgstory460.jpg		1		1																	
+7	7		304							If you were a baby about to be born or someone on the verge of death...	eaeaeaff		Assets/Product/Texture/Image/BgStory/Bgstory460.jpg		1																			
+8	8		304							Faced with what was to come or back turned to what had already transpired...	eaeaeaff		Assets/Product/Texture/Image/BgStory/Bgstory460.jpg		1																			
+9	9		304							What would fill the depths of your heart? Excitement... or fear?	eaeaeaff		Assets/Product/Texture/Image/BgStory/Bgstory460.jpg		1																			
+10	10		304							If you could start over...	eaeaeaff		Assets/Product/Texture/Image/BgStory/Bgstory460.jpg		1																			
+11	11		304							...	eaeaeaff		Assets/Product/Texture/Image/BgStory/Bgstory460.jpg		1																			
+12	12		304				AniZhuanchangBegin			Would you choose this life?	eaeaeaff		Assets/Product/Texture/Image/BgStory/Bgstory460.jpg		1			1																
+13	13		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+14	14		502							DialogEnable																								
+15	15		301			AniZhuanchangEnd					???	What? Is this your first time meeting a stranger who wants a conversation for no reason?																						
+16	16		301								???	No, I've never thought about that. I'm just saying you look like someone who thinks about that.																						
+17	17		301								???	If so...																						
+18	18		301				AniZhuanchangBegin				???	I hope you would not regret this decision.																						
+19	19		401							1	36																							
+20	20		101						4000	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+21	21		401							1	102																							
+22	22		301			AniZhuanchangEnd					???	You will regret this!																						
+23	23		401							2	10007502																							
+24	24		401							2	10007502																							
+25	25		401							2	915																							
+26	26		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+27	27		101							Assets/Product/Texture/Image/BgStory/Bgstory294.png																								
+28	28		301			RImgBg1Shake						06:20 p.m.																						
+29	29		301									The last transport craft here for a rescue mission crashes and causes a massive explosion.																						
+30	30		301									A horde of Hetero-Creatures rushes out from the dense smoke declaring their victory and humanity's loss of air superiority.																						
+31	31		101							Assets/Product/Texture/Image/BgStory/Bgstory338.jpg																								
+32	32		301									In the wilderness, with Lee's help, a survivor drags his broken leg as he struggles to escape their capture.																						
+33	33		201							1	500019		-200																					
+34	34		201							2	500026		200																					
+35	35		301							1	Construct Soldier	Are you nuts? You shouldn't have come here to rescue people...!	1																					
+36	36		301								Lee	Save your breath and pick up the pace.	2																					
+37	37		203							1	0.25																							
+38	38		202							1					1																			
+39	39		203						100	2	0.25																							
+40	40		401						100	2	10011001																							
+41	41		401							2	10011001																							
+42	42		301									Though he is being verbally harsh, he does stop for a while to let his companion catch up and seizes that chance to fire bullets at the Hetero-Creatures coming from the sky.																						
+43	43		301									It's been over a month since the disaster that happened in the Pulia Forest Park Ruins. The humans trapped on the surface still have to rely on this method to survive.																						
+44	44		203							2	0.25	200																						
+45	45		201							1	500019		-400																					
+46	46		203							1	0.25	-200																						
+47	47		301							1	Construct Soldier	...The escape plan you proposed is crazy. There is almost no chance for us to... (panting)	1																					
+48	48		301									He seems still in shock as he talks to Lee while trembling.																						
+49	49		301								Construct Soldier	Letting Lucia use that external thruster to take care of the paratroopers... This is just…	1																					
+50	50		401							2	1515																							
+51	51		401							2	10011004																							
+52	52		301									He gets interrupted by a beep from Lee's terminal, but Lee doesn't look down to check that device. Instead, he remains vigilant and continues to hunt down the Hetero-Creatures that try to get close.																						
+53	53		301								Lee	Lucia has found a transport vehicle. She's on her way here.	2																					
+54	54		301								Construct Soldier	How do you know? You didn't even look at it... What if it's a distress signal?	1																					
+55	55		301								Lee	She's the captain of Gray Raven.	2																					
+56	56		301								Construct Soldier	...	1																					
+57	57		301								Construct Soldier	Forget it. After all, if she could survive a battle like that...	1																					
+58	58		301								Construct Soldier	Alright, then... Let's proceed onward and rendezvous with her.	1																					
+59	59		203							1	0.25	-200	-20																					
+60	60		301									He sighs, then appears to relax ever so slightly.																						
+61	61		301									Lee doesn't answer. He focuses his attention on the Hetero-Creatures flying in the sky and continues in the same direction.																						
+62	62		301								Lee	We need to get them off our tails before we enter the conservation area.	2																					
+63	63		301								Construct Soldier	...Cough—t-they're... still coming this way?	1																					
+64	64		301								Lee	Of course.	2																					
+65	65		301								Construct Soldier	...You really shouldn't just go charging into the crash site to save people.	1																					
+66	66		301								Construct Soldier	Now those bastards around the transport crafts... are going straight for you…	1																					
+67	67		301								Lee	You're the reinforcements sent by Babylonia. You're our comrades.	2																					
+68	68		301									He sighs helplessly for having to state the obvious.																						
+69	69		204							2	10																							
+70	70		301								Lee	These were Lucia's exact words.	2																					
+71	71		204							2																								
+72	72		301								Lee	If our commandant was still consciousness, the same would surely be said.	2																					
+73	73		301								Lee	So, I won't leave you behind either.	2																					
+74	74		301								Construct Soldier	...But I heard there aren't enough medical supplies to treat all the wounded in the conservation area.	1																					
+75	75		301								Construct Soldier	Before we set out, we had already prepared to sacrifice ourselves and recall...	1																					
+76	76		401							2	1516																							
+77	77		401					200		2	1516																							
+78	78		301									Lee stops talking, lets his companion lean on him, and makes haste.																						
+79	79		301								Construct Soldier	If we spend too many medical supplies, eventually most slightly injured people won't be able to recover...	1																					
+80	80		301								Construct Soldier	If the rescue falters, more people would die on the battlefield!	1																					
+81	81		301								Construct Soldier	We... We didn't come all this way from Babylonia just to be a liability for bases here on the surface!	1																					
+82	82		301								Lee	That's not for you to worry about.	2																					
+83	83		301								Lee	We will take you and the other casualty Lucia brought back to the conservation area for a professional evaluation to assess the necessary provisions.	2																					
+84	84		301								Construct Soldier	You mean... that other member from Gray Raven? Liv? She didn't come here with you?	1																					
+85	85		301								Lee	She is staying in the conservation area to help tend to the wounded. She's the only qualified medic there now.	2																					
+86	86		301								Construct Soldier	...	1																					
+87	87		301								Lee	We weren't able to get a lot of supplies, but we'll at least be able to hold out for a few more days.	2																					
+88	88		301								Lee	Had we not saved you, we wouldn't have gotten the supplies secured.	2																					
+89	89		301								Lee	People in the conservation area are still waiting for good news from Babylonian reinforcements. Not to mention, saving lives isn't something that requires hesitation.	2																					
+90	90		301				AniZhuanchangBegin				Construct Soldier	But our surface reinforcement plan...	1																					
+91	91		202							1	2				1																			
+92	92		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+93	93		301			AniZhuanchangEnd	AniZhuanchangBegin				Construct Soldier	Has failed once again…																						
+94	94		202							1	2				1																			
+95	95		401							1	36																							
+96	96		401					1000		1	70																							
+97	97		101					2000		Assets/Product/Texture/Image/BgStory/Bgstory467.jpg																								
+98	98		301			AniZhuanchangEnd						The "prologue" of our nightmare finally concludes as the cry of the Hetero-Hive Mother echoed through the Pulia Forest Park Ruins.																						
+99	99		301				AniZhuanchangBegin					The explosion blew the highly concentrated Punishing Virus around that Mother everywhere, covering the entire Forest Park in the ashes of death.																						
+100	100		101							Assets/Product/Texture/Image/BgStory/Bgstory468.jpg																								
+101	101		301			AniZhuanchangEnd						When the magnificent light from the Longinus Arsenal finally dissipated, only the charred remains of the Hetero-Hive Mother and all those Hetero-Sapiens lurking in the forest were left.																						
+102	102		301				AniZhuanchangBegin					But the Punishing Virus didn't just disappear like that. And the great fire didn't stop the violent Hetero-Creatures and Hetero-Sapiens from running rampant.																						
+103	103		101							Assets/Product/Texture/Image/BgStory/Bgstory475.jpg																								
+104	104		301			AniZhuanchangEnd						With the CPF 040 destroyed, the tower no longer purified the air of the Punishing Virus and those things took to the air, fanning the flames of an already dire situation.																						
+105	105		301									Calamity spread like wildfire, and the Punishing Virus filled the air.																						
+106	106		401							2	613																							
+107	107		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+108	108		101							Assets/Product/Texture/Image/BgStory/Bgstory427.jpg																								
+109	109		402							613																								
+110	110		504							0.7																								
+111	111		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab	2																							
+112	112		201							1	500011																							
+113	113		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+114	114		301							1	Hassen	To restore life on Earth, we hope the tragedy of the Great Evacuation won't happen a second time. We shall exhaust all our manpower and transportation capacity to get the victims of this disaster to a safe area farther away from here.	1																					
+115	115		301								Hassen	The Babylonia citizens have cast their votes, and we decided to go with this decision. Time is of the essence if we are to save lives. Strike Hawk and Cerberus will lead this rescue operation and deal with the hostile Hetero-Creatures coming from the sky. Move out, team.	1																					
+116	116		401							2	613																							
+117	117		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+118	118		202							1					1																			
+119	119		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab																							
+120	120		101							Assets/Product/Texture/Image/BgStory/Bgstory263.png																								
+121	121		402							613																								
+122	122		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+123	123		301									The first few rescue operations went well. Most Babylonia citizens didn't expect they would have so many strangers here, but quite some lucky ones made it to this place safely.																						
+124	124		301				AniZhuanchangBegin					However, calamity ensued shortly afterward.																						
+125	125		101							Assets/Product/Texture/Image/BgStory/Bgstory346.jpg																								
+126	126		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab	2																							
+127	127		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab	2																							
+128	128		201							1	500006																							
+129	129		301			AniZhuanchangEnd				1	Construct Soldier	We... failed...	1																					
+130	130		301								Construct Soldier	Many teams reported this last month... They said they saw some Hetero-Creatures with wings that learned how to fly with the help of highly concentrated Punishing Virus.	1																					
+131	131		301								Construct Soldier	Now... Those things swarmed together and attacked our transport craft.	1																					
+132	132		301								Construct Soldier	This was our last mission report... We lost contact with the elite squad on the other transport craft...	1																					
+133	133		301								Construct Soldier	...	1																					
+134	134		301								Construct Soldier	Heh...	1																					
+135	135		301								Construct Soldier	When the residents of Babylonia finally decided to cast aside their worries and accept life on the ground...	1																					
+136	136		301								Construct Soldier	The sky isn't safe anymore...	1																					
+137	137		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab																							
+138	138		202							1					1																			
+139	139		301									The path is cut off. Where can people run to?																						
+140	140		301				AniZhuanchangBegin					There's no way back now. If they request backup, they'll only repeat our mistake. The elite team, trapped on the surface, volunteers to protect the conservation area and hunt down the Hetero-Creatures and Hetero-Sapiens.																						
+141	141		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab																							
+142	142		504							0																								
+143	143		101							Assets/Product/Texture/Image/BgStory/Bgstory287.png																								
+144	144		201							1	500336	4																						
+145	145		301			AniZhuanchangEnd				1	Noctis	Boss, I've dealt with the areas I was asked to clean up.	1																					
+146	146		301								Noctis	But look at this.	1																					
+147	147		202							1	2				1																			
+148	148		301									Noctis furrows his brows in the mission recording and points to the Red Tide behind him.																						
+149	149		301									The Hetero-Creatures are coming back to life in the raging Red Tide.																						
+150	150		201							1	500168																							
+151	151		301							1	Vera	Then we'll vaporize the Red Tide too.	1																					
+152	152		401							2	1515																							
+153	153		301									The three figures in the recording raise their weapons and approach the Red Tide. However, another signal stops them in their tracks.																						
+154	154		203							1	0.25	-500																						
+155	155		201							13	500004		400																					
+156	156		101							Assets/Product/Texture/Image/BgStory/Bgstory287.png																								
+157	157		509							Assets/Product/Texture/Image/BgStory/Bgstory256.png	2																							
+158	158		301							1	Asimov	This notification is for all the Task Force members.	13																					
+159	159		301								Asimov	Judging by the data we've collected, the Red Tide shows no signs of stopping.	13																					
+160	160		203							13	0.25																							
+161	161		202							1					1																			
+162	162		510							1	Assets/Product/Texture/Image/BgStory/Bgstory287.png																							
+163	163		301								Asimov	Even if we make the Red Tide evaporate, the Punishing Virus will remain in the air.	13																					
+164	164		301								Asimov	When the Punishing Virus strikes again and corrupts human bodies, the festered flesh will slowly converge and form a new Red Tide, similar to the liquids those Hetero-Sapiens secrete.	13																					
+165	165		301								Asimov	Be careful not to let the Red Tide converge. Otherwise, we'll have another disaster on our hands.	13																					
+166	166		301								Asimov	But no need to waste time on tributaries that haven't converged yet. These will continue to generate so long as there are casualties in the presence of the Punishing Virus.	13																					
+167	167		203							13	0.25	400																						
+168	168		201							11	1081001	4	-500																					
+169	169		509							Assets/Product/Texture/Image/BgStory/Bgstory319.png	1																							
+170	170		301							1	Kamui	Asimov, do you think we are cleaning the Red Tide or the dead that became part of it?	11																					
+171	171		204							13	8																							
+172	172		301				AniZhuanchangBegin				Asimov	...	13																					
+173	173		202							11	13				1																			
+174	174		510							1																								
+175	175		509							Assets/Product/Texture/Image/BgStory/Bgstory319.png	2																							
+176	176		510						500	2																								
+177	177		101						500	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+178	178		301			AniZhuanchangEnd	AniZhuanchangBegin					No one can answer this question.																						
+179	179		101						2000	Assets/Product/Texture/Image/BgStory/Bgstory460.jpg																								
+180	180		301			AniZhuanchangEnd						This disaster is dragging us slowly into Hell. No place to hide. No path to flee.																						
+181	181		301									After the fire in the Forest Park Ruins goes out, hordes of Hetero-Creatures emerge worldwide. Overwhelming and unstoppable, they slaughter all living beings that stand in their way.																						
+182	182		301									Under cascading death, the harm caused by the Unidentified Twins is actually negligible.																						
+183	183		301									A tide of Hetero-Creatures wanders aimlessly through the wilderness, spreading footprints of grief and death through this rotten land.																						
+184	184		301									The twins left among the ashes walk toward the west coast, robbing language and knowledge from dead humans and Constructs along the way.																						
+185	185		301									After arriving at the west coast, instead of crossing the sea, they continue to move northward along the coast.																						
+186	186		301									They join the barrage of Hetero-Creatures in the battle against humans and Constructs stationed in the defense zone, resulting in the destruction of the conservation areas in 37 cities and leaving no survivors.																						
+187	187		301									When the garrison sensed that there was no chance of victory, they had no choice but to resort to avoidance tactics, predicting their action trajectory and withdrawing in advance.																						
+188	188		301									These predictions are not always accurate. The enemy sometimes acts separately or stays in the same area for a long period of time.																						
+189	189		301									But most of the time, the twins and the barrage of Hetero-Creatures "explore" one city for up to one to three days before proceeding to the next city.																						
+190	190		301									In order to avoid getting ravaged and devastated by the approaching barrage, residents from adjacent cities flee in advance.																						
+191	191		301									If the residents couldn't flee in time, they had no choice but to leave their future up to fate to decide.																						
+192	192		301									If people choose to leave early because of fear, they will fall into the dilemma of competing for resources with residents of other cities.																						
+193	193		301									These Hetero-Creatures are a barrage in every sense of the word, bringing death to the land wherever they inundate.																						
+194	194		301									Under such a catastrophe, only one conservation area where the "twins" passed managed to survive. Only by retreating underground, had they not drawn the twins' attention.																						
+195	195		301									However, when the garrison in the next conservation area attempted to adopt this tactic, they were instead burned to death underground.																						
+196	196		301									These creatures grow in wisdom and learn how to use tools—evolving little by little.																						
+197	197		301									However, no one can make a conclusive decision as to whether they have feelings and temperament in the biological sense.																						
+198	198		301									Just as humans treat vegetation, they regard humans as a natural resource here on Earth.																						
+199	199		301									They pick up lone humans, like cherishing the seeds, and return them to the crowd.																						
+200	200		301									Although these humans would die of severe infection after coming into contact with the Punishing Virus, some people had witnessed the twins' "harmless" appearance.																						
+201	201		301									Like appreciating flowers, the twins also "insert" the damaged and broken Constructs into the dense Red Tide and tell them with their chilling voices to become whole again.																						
+202	202		301									Before they truly understand feelings and benevolence, humans cannot rely on communication. They can only escape the twins' tracks before being plundered.																						
+203	203		301									At first, in order to avoid the high concentration of Punishing Virus on the surface, people planned to migrate to the Arctic Route Union, but these creatures began to venture northward.																						
+204	204		301									With the barrage of the twins and the migrating Hetero-Creatures bringing danger to the northwest, people turned to the southeast for refuge.																						
+205	205		301									With surface buildings in the conservation area lacking air-tight ventilation, CPFs can no longer ensure safety in such a high concentration of the Punishing Virus.																						
+206	206		301									Most human beings live in the enclosed basement of the conservation area, leaving the resource collection and rescue operations to the Constructs.																						
+207	207		301									Even if Scavengers are fitted with full sets of protective suits, their movements are still hindered by the threat of Hetero-Creatures.																						
+208	208		301									When all the land outside the conservation area becomes entrenched with hidden dangers, supply consumption becomes a new problem.																						
+209	209		301									People are in urgent need of rescue, but the transport crafts originally used for rescue only end up turning into fuel time and again.																						
+210	210		301									We are forced to step into the eternal night of death, and with different language and bodies, roar as one in the afterburn of dawn.																						
+211	211		301				AniZhuanchangBegin					—In order to retain the few motes of light that remain in this darkness.																						
+212	212		401							1	36																							
+213	213		502							DialogDisable																								
+214	214		401					2000		1	68																							
+215	215		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory473.png																								
+216	216		502		1			4000		AniZhuanchangBegin																								

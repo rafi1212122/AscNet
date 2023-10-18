@@ -1,0 +1,90 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory245.png																								
+2	2		401							1	205																							
+3	3		301			DialogEnable					Dungeon Master Ayla	There's a crossing ahead...																						
+4	4		201							1	500495																							
+5	5		301							1	Teddy	We take a left turn, then turn to the right and move forward all the way till the end of the square.	1																					
+6	6		201							1	1081001																							
+7	7		301							1	Kamui	I no longer see any soldiers. Have you already scouted this place?	1																					
+8	8		201							1	500495																							
+9	9		301							1	Teddy	No way, I didn't have time. I just remembered the order when DM was describing the directions.	1																					
+10	10		202							1					1																			
+11	11		502			DialogDisable				RImgBg1DisableSlow																								
+12	12		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/Bgstory241.png																								
+13	13		301			DialogEnable					Dungeon Master Ayla	You have come to an unknown, quiet alley. The road in front of you splits into two ways. You need to decide whether you want to go left or right.																						
+14	14		201							1	500495																							
+15	15		301							1	Teddy	DM, will we need abilities related to "hearing" if we go to the right?	1																					
+16	16		301								Dungeon Master Ayla	No.																						
+17	17		301								Teddy	Alright, we'll head to the right.	1																					
+18	18		201							1	500494	13																						
+19	19		301							1	Karenina	...	1																					
+20	20		301								Karenina	Using the Help system's bug to detect if there are enemies ahead? How smart.	1																					
+21	21		202							1					1																			
+22	22		301								Dungeon Master Ayla	Keyword detected. Adjusting the Help system.																						
+23	23		201							1	500495	5			1																			
+24	24		301							1	Teddy	...Tch, don't say it out. Haven't you realized Ayla is just an AI here?	1																					
+25	25		202							1					1																			
+26	26		502			DialogDisable				RImgBg1DisableSlow																								
+27	27		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/Bgstory238.png																								
+28	28		301			DialogEnable						The team quickly moves into the narrow alley, going through crossroads after crossroads with ease.																						
+29	29		502			DialogDisable				RImgBg1DisableSlow																								
+30	30		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/Bgstory246.png																								
+31	31		301			DialogEnable						When they finally get to an empty ground with no buildings, they find themselves already on the other side of the city.																						
+32	32		301									Teddy throws some fabric to the three rescued members, covering their faces.																						
+33	33		201							1	500495	4			1																			
+34	34		301							1	Teddy	Hurry up, let's go before the chaos spreads to here. They'll paste our wanted orders all over the city.	1																					
+35	35		202							1					1																			
+36	36		301									The three Strike Hawk members put fabric on their heads as hoods, but a pedestrian happens to notice them.																						
+37	37		301									Before the situation worsens, Kamui pulls down his hood and puts his hands together. He approaches the pedestrian with a brilliant smile.																						
+38	38		201							1	1081001	2																						
+39	39		301							1	Kamui	Oh dear friend, are you interested to learn about the Church of Flying Ramen?	1																					
+40	40		201							1	500454				-100																			
+41	41		203						500	1	0.2																							
+42	42		203							1	0.3	800																						
+43	43		202							1																								
+44	44		301				AniZhuanchangBegin			1		The pedestrian looks shocked as he has never heard of any church like that. He quickly moves back, then sideways after bumping into a wall, staying away from Strike Hawk as much as possible.																						
+45	45		202							1					1																			
+46	46		101							Assets/Product/Texture/Image/BgStory/BgStory539.jpg																								
+47	47		301			AniZhuanchangEnd						In a forest about four to five towns away, Gray Raven is marching forward in a great struggle.																						
+48	48		301									Through the Heroes' Journal, they were able to find the home of an ex-hero. After spending almost everything they had, the sage finally agreed to dispel the magic that turned them into children.																						
+49	49		201							1	500049		-600																					
+50	50		201							2	500032																							
+51	51		201							3	500026		600																					
+52	52		301							1	Lee	Finally back to myself...	3																					
+53	53		301								Dungeon Master Ayla	Lucia rolls a... success.																						
+54	54		202							2																								
+55	55		201							2	500166																							
+56	56		301							1	Lucia	I want to move the blade sheath from my shoulder back to my waist.	2																					
+57	57		301								Dungeon Master Ayla	Liv rolls a... success.																						
+58	58		202							1																								
+59	59		201							1	1031001		-600																					
+60	60		301							1	Liv	Commandant, you're next.	1																					
+61	61		202							1	2	3			1																			
+62	62		301								Dungeon Master Ayla	Commandant rolls a... failure.																						
+63	63		302								???	64																						
+64	64		302								Will something bad happen?	65																						
+65	65		301								Dungeon Master Ayla	It wasn't a critical failure, so nothing happened.																						
+66	66		302								Good. Hurry, I need to roll again.	67																						
+67	67		201							1	500384																							
+68	68		301							1	Nameless Sage	Um...	1																					
+69	69		301								Nameless Sage	I can only cast high-level spells 8 times a day... And I just used up all of them.	1																					
+70	70		302								...	71																						
+71	71		201							1	1031001		-600																					
+72	72		201							2	500166																							
+73	73		201							3	500026		600																					
+74	74		301							1		Silence quickly spreads in the hall. Lee, Lucia, and Liv all look down, staring at you coincidentally.																						
+75	75		301								Lucia	Shall we... just keep going like this?	2																					
+76	76		302								No...	77																						
+77	77		302								I can't go to the capital like this...	78																						
+78	78		204							1	1																							
+79	79		301								Liv	But there's nothing we can do right now.	1																					
+80	80		301									Liv even squats down to the same height as you. She gently pats your head.																						
+81	81		301								Lee	Maybe I can carry Commandant on my back. You just need to concentrate on the tactics.	3																					
+82	82		302								Can we have something normal?	83																						
+83	83		202							1	2	3			1																			
+84	84		201							1	500384																							
+85	85		301							1	Nameless Sage	Actually...	1																					
+86	86		301									Wait! Surely something can be done!																						
+87	87		302								Please, Mr. Sage!	88																						
+88	88		301								Nameless Sage	I can cast a "Fast Growth" spell on you, then you can grow back yourself.	1																					
+89	89		301		1		AniZhuanchangBegin					...																						

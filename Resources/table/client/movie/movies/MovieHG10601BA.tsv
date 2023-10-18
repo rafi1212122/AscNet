@@ -1,0 +1,52 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	208																							
+3	3		201							1	1021001																							
+4	4		301			DialogEnable				1	Lucia	Battle preparations are completed, Commandant. We can go anytime.	1																					
+5	5		203							1	0.25	-450																						
+6	6		201							2	1031001	1	450																					
+7	7		301							1	Liv	It seems that most squads have been sent out for this mission.	2																					
+8	8		301								Liv	Maybe we'll be collaborating with others on our objectives!	2																					
+9	9		201							1	1011001		-450																					
+10	10		301							1	Lee	As long as it's not someone who doesn't know how to work in a team...	1																					
+11	11		202							1	2				1																			
+12	12		301								???	Yo! I knew you guys would still be here!																						
+13	13		201							1	1081001	1																						
+14	14		301							1	Kamui	It's been a while, Lucia! Liv! Lee!	1																					
+15	15		204							1	2																							
+16	16		301								Kamui	—And Commandant!	1																					
+17	17		302								Hi, Kamui.	18																						
+18	18		204							1																								
+19	19		203							1	0.25	450																						
+20	20		201							2	1011001	10	-450																					
+21	21		301							1	Lee	What a loud buffoon...	2																					
+22	22		204							2																								
+23	23		301								Kamui	Who's a buffoon, huh?!	1																					
+24	24		201							1	1031001		450																					
+25	25		201							2	1021001		-450																					
+26	26		301							1	Liv	S-stop fighting... At least it's not someone who doesn't know how to work in a team like Lee said...	1																					
+27	27		301								Lucia	Was that a fight? I thought that was very brotherly!	2																					
+28	28		204							1	7																							
+29	29		301								Liv	Oh? I-is that what it was?	1																					
+30	30		201							1	1011001		-450																					
+31	31		201							2	1081001		450																					
+32	32		301							1	Lee & Kamui	Hell no!	1	2																				
+33	33		201							1	1031001		450																					
+34	34		201							2	1021001		-450																					
+35	35		301							1	Lucia	Look at your chemistry!	2																					
+36	36		201							1	1011001		-450																					
+37	37		201							2	1081001		450																					
+38	38		301							1	Lee & Kamui	That's not what that was!	1	2																				
+39	39		201							1	1031001	1	450																					
+40	40		201							2	1021001		-450																					
+41	41		301							1	Liv	Ahahaha...	1																					
+42	42		202							1	2				1																			
+43	43		201							1	500007																							
+44	44		301							1	Chrome	What are you doing here, Kamui? Why aren't you back?	1																					
+45	45		201							1	1081001	1																						
+46	46		301							1	Kamui	Oops, crap. I sneaked out and forgot the time!	1																					
+47	47		204							1	1																							
+48	48		301								Kamui	Goodbye, goodbye, Gray Ravens! I'll see you later!	1																					
+49	49		302								Stay safe. Godspeed.	50																						
+50	50		204							1	2																							
+51	51		301		1		AniZhuanchangBegin				Kamui	Haha, roger! Commandant's still the one who cares about me the most!	1																					

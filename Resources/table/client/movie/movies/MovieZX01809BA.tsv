@@ -1,0 +1,285 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101							Assets/Product/Texture/Image/BgStory/Bgstory317.png																								
+2	2		401							1	36																							
+3	3		504				AniZhuanchangEnd			0.7																								
+4	4		301			DialogEnable						A few hours ago...																						
+5	5		201							1	500286																							
+6	6		401							2	1515																							
+7	7		301							1	Hans	Babylonia, come in.	1																					
+8	8		203							1	0.25	450																						
+9	9		201							2	500001		-450																					
+10	10		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+11	11		301							1	Celica	Who shall I connect you to, Commander Hans?	2																					
+12	12		301								Hans	Connect me to President Hassen. I have a status report.	1																					
+13	13		301								Celica	Transferring comms.	2																					
+14	14		201							2	500011		-450																					
+15	15		301							1	Hassen	What is it, Hans?	2																					
+16	16		301								Hans	We have found a number of refugees in the attack zone.	1																					
+17	17		301								Hassen	Understood.	2																					
+18	18		301								Hans	...	1																					
+19	19		301								Hassen	Anything else?	2																					
+20	20		301								Hans	Shall we proceed according to the plan?	1																					
+21	21		301								Hassen	What do you suggest?	2																					
+22	22		301								Hans	The other two calibration teams are still en route, but according to visual estimates, the Red Tide is spreading faster than expected. Teams will have to adjust their node positions accordingly to expand the blast area.	1																					
+23	23		301								Hans	We can only rely on hand-held devices for surveying and mapping, which significantly delays the time in which we can execute the plan.	1																					
+24	24		301								Hans	Considering the time required to change orbit and for Babylonia to charge the arsenal, combined with the terrain nearby and the mobility speed of the troops, it will take at least ten hours to ensure that all nodes are deployed.	1																					
+25	25		301								Hans	By that time, the Red Tide will inevitably spread to an area less than ten kilometers away from the refugee camp.	1																					
+26	26		301								Hans	To be on the safe side, I don't suggest relocating the nodes. Otherwise, I can't guarantee that the attack range will completely cover the Red Tide.	1																					
+27	27		301								Hans	We have issued an emergency evacuation order to the refugees, but they are unwilling to vacate the area.	1																					
+28	28		301								Hassen	How do you wish to proceed?	2																					
+29	29		204							1	3																							
+30	30		301								Hans	Although the World Government Parliament has been relocated to space with the Eden-class Babylonia, the people on the surface are still our comrades.	1																					
+31	31		301								Hans	We are all citizens of the World Government. Citizens must fulfill their basic obligations, including cooperating with the army in emergency asylum.	1																					
+32	32		301								Hans	According to the instructions of Article 21 of "The World Government Disaster Relief and Emergency Assistance Act"—If civilians are found while executing a mission, they must be notified and evacuated to safety.	1																					
+33	33		204							1																								
+34	34		301								Hans	Unfortunately, it appears that they are unwilling to evacuate.	1																					
+35	35		301								Hans	According to the instructions of Article 22 of "The World Government Disaster Relief and Emergency Assistance Act"—If civilians insist on remaining within the boundaries of an operation, military forces are authorized to forcefully remove all civilians.	1																					
+36	36		301								Hassen	You know quite well.	2																					
+37	37		301								Hans	I have committed all of the rules and regulations to memory, even if they are no longer applicable in this era.	1																					
+38	38		301								Hans	Please allow me to evacuate these refugees under the pretense of successfully deploying the domain nodes— with or without force.	1																					
+39	39		301								Hassen	Request granted. Evacuate the civilians by any means necessary.	2																					
+40	40		301								Hassen	But remember, Babylonia will only initiate the attack once node deployment has been authenticated, regardless if the evacuation is a success or not.	2																					
+41	41		301								Hassen	We have only one chance. This is for all of humanity.	2																					
+42	42		301								Hans	Understood.	1																					
+43	43		301								Hassen	Any other issues?	2																					
+44	44		301								Hans	No, sir. Report complete, Mr. President.	1																					
+45	45		301								Hassen	Wait.	2																					
+46	46		301								Hans	What is it, Mr. President?	1																					
+47	47		301								Hassen	...	2																					
+48	48		301								Hassen	Hans, you experienced the Great Evacuation first hand. You're one of the most experienced soldiers in active service.	2																					
+49	49		301								Hassen	You should know why I entrusted you to be the commander of this operation instead of handing over the task to the younger generation.	2																					
+50	50		301								Hassen	For example, the up-and-coming Gray Raven Commandant.	2																					
+51	51		301								Hans	I don't, Mr. President.	1																					
+52	52		301								Hans	My duty is to obey orders. Soldiers don't need to speculate on any factors other than their mission.	1																					
+53	53		301								Hassen	Is that really how you feel, Hans?	2																					
+54	54		301								Hans	...	1																					
+55	55		301								Hassen	A soldier is not only a member of the army, but also a member of humanity.	2																					
+56	56		301								Hassen	Young soldiers tend to forget the former due to the latter.	2																					
+57	57		301								Hassen	Only after refining themselves over a lengthy military career will they steel their judgement.	2																					
+58	58		301								Hans	So you have tasked me with this mission because I have the necessary experience, and you trust my judgment.	1																					
+59	59		301								Hassen	Not only that.	2																					
+60	60		301								Hassen	Judgment entails responsibility. When passing judgment, you must bear the full weight of its consequences.	2																					
+61	61		301								Hassen	Night is too heavy for the dawn of a new era.	2																					
+62	62		301								Hassen	I don't doubt their fearlessness in the fight against the Corrupted, but they have yet to awaken to a higher calling.	2																					
+63	63		301								Hans	Yes, I understand. The responsibility of our generation should not fall on the next generation.	1																					
+64	64		301								Hassen	The atrocities committed by our generation should not be repaid by future generations.	2																					
+65	65		301								Hassen	Hans, I know the cruelty I ask of you.	2																					
+66	66		301								Hassen	But the blood of the youth has not been cooled over many long years. Such is the same for their passion.	2																					
+67	67		301								Hassen	I don't want them to lose this passion so early.	2																					
+68	68		301								Hassen	So I must play the judge, and you the executioner.	2																					
+69	69		204							1	3																							
+70	70		301								Hans	As you wish, Mr. President.	1																					
+71	71		301								Hans	When I accepted my appointment, I was ready for the worst. The current situation is within my expectations.	1																					
+72	72		301								Hans	Moreover, I didn't think I would have a chance to return to the surface ever again. Thank you for giving me this opportunity.	1																					
+73	73		204							1																								
+74	74		301								Hassen	Such gratitude is unnecessary.	2																					
+75	75		301								Hassen	Humanity may have emotions, but the universe does not.	2																					
+76	76		301								Hassen	Babylonia is the scale that balances the past and future of humanity.	2																					
+77	77		301								Hassen	The fulcrum between the two is a steel wire hanging over the abyss. We are the people who walk the steel wire.	2																					
+78	78		301				AniZhuanchangBegin				Hassen	Hans, I'm sure you know what to do.	2																					
+79	79		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+80	80		504							0																								
+81	81		401							1	12																							
+82	82		202							1	2				1																			
+83	83		101							Assets/Product/Texture/Image/BgStory/Bgstory317.png																								
+84	84		201							1	500286	3	450																					
+85	85		201							2	500028		-450																					
+86	86		301			AniZhuanchangEnd				1	Hans	I know... what to do?	1																					
+87	87		204							1	8																							
+88	88		301								Hans	...	1																					
+89	89		301								Hans	...	1																					
+90	90		204							1																								
+91	91		301								Hans	Is it almost time?	1																					
+92	92		301								Construct Captain	Yes, Chief Commander, almost ready. Do you want to authenticate and activate the bit domain nodes now?	2																					
+93	93		301								Hans	...	1																					
+94	94		204							1																								
+95	95		301								Hans	Wait.	1																					
+96	96		301								Construct Captain	Chief Commander?	2																					
+97	97		301								Hans	I asked the other two teams to verify that their domain nodes are functioning properly.	1																					
+98	98		301								Hans	After the second verification, I can safely activate the nodes and request Babylonia to launch the attack.	1																					
+99	99		301				AniZhuanchangBegin				Construct Captain	Roger!	2																					
+100	100		202							1	2				1																			
+101	101		101							Assets/Product/Texture/Image/BgStory/Bgstory322.png																								
+102	102		301			AniZhuanchangEnd						After walking for who knows how long, you have lost all feeling in your legs.																						
+103	103		301									At first, you could still maintain contact with Lee, but after crossing a certain node, even your comms are now completely cut off.																						
+104	104		301									The desolate desert outstretches in a monotonous and dreary expanse toward the horizon.																						
+105	600		401							2	855																							
+106	105		301								???	——▄——▆▁——▃																						
+107	106		301				AniZhuanchangBegin					The whale song begins again, causing the Red Tide to continue expanding. Your consciousness floats along with the serene melody.																						
+108	107		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+109	108		401							1	36																							
+110	109		504							0.7																								
+111	110		201							1	500110																							
+112	111		301			AniZhuanchangEnd				1	Ayla	What else have we discussed... Let me see.	1																					
+113	112		301								Ayla	Oh, right! Have you heard what whales sound like?	1																					
+114	113		301				AniZhuanchangBegin				Ayla	She... I don't know why she's crazy about them.	1																					
+115	114		202							1					1																			
+116	115		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+117	116		301			AniZhuanchangEnd					???	Ayla, do you think there are still whales on Earth?																						
+118	117		301								???	I only read about them in books. Apparently they are the largest mammal on Earth.																						
+119	118		301				AniZhuanchangBegin				???	How big of a pool would you need to accommodate such a beautiful creation?																						
+120	119		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+121	120		201							1	500110																							
+122	121		301			AniZhuanchangEnd				1	Ayla	What do you think? 【kuroname】, how big of a pool would you need?	1																					
+123	122		302								I think it would need an ocean.	123																						
+124	123		301				AniZhuanchangBegin				Ayla	That's what I said.	1																					
+125	124		202							1					1																			
+126	125		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+127	126		301			AniZhuanchangEnd					Ayla	A creature that big would only fit in the ocean.																						
+128	127		301								???	The ocean... You mean the blue stuff on the model?																						
+129	128		301								Ayla	Yep. Exactly.																						
+130	129		301								???	Water on Earth is blue?																						
+131	130		301				AniZhuanchangBegin				???	Why is the water in Babylonia colorless? What turned it into such a beautiful color on the surface?																						
+132	131		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+133	132		201							1	500110																							
+134	133		301			AniZhuanchangEnd				1	Ayla	Why is the water in Babylonia colorless? What turned it into such a beautiful color on the surface?	1																					
+135	134		301									Ayla calmly repeats the question posed by her unnamed friend.																						
+136	135		301				DialogDisable					In an instant, you feel transported across time and space as you talk to the veiled girl in the depths of time.																						
+137	136		302								Because there is enough water.	137																						
+138	137		302								It absorbs low-frequency light.	138																						
+139	138		302								It reflects high-frequency light.	139																						
+140	139		302								That's why it is blue.	140																						
+141	140		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+142	141		201							1	500110																							
+143	142		301			DialogEnable	AniZhuanchangBegin			1	Ayla	That's quite a rational answer. If she heard it, I'm sure she would be disappointed... Luckily, that's not what I said.	1																					
+144	143		202							1					1																			
+145	144		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+146	145		301			AniZhuanchangEnd					Ayla	I don't know why, but it's not important!																						
+147	146		301								???	Alright, enough about that. Back to whales...																						
+148	147		301								???	If that's the case, whales are the bards of the ocean.																						
+149	148		301								???	Their voices must be far-reaching and long-lasting since the ocean is so vast.																						
+150	149		301				RImgBg1Disable				???	Must be lonely not getting a response.																						
+151	150		504				DialogDisable			0																								
+152	151		202							1	2	3			1																			
+153	152		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	3																							
+154	153		101			RImgBg1Enable				Assets/Product/Texture/Image/BgStory/Bgstory322.png																								
+155	154		401							1	10																							
+156	155		301			DialogEnable						You notice something waving in front of your eyes.																						
+157	156		201							1	500273																							
+158	157		301							1	Wanshi	Zone out again?	1																					
+159	158		301									Wanshi brings his hand back.																						
+160	159		302								Sorry.	160																						
+161	160		301								Wanshi	You were out for quite some time.	1																					
+162	161		302								I was just thinking about something that happened a long time ago.	162																						
+163	162		202							1					1																			
+164	163		301									You hear the "whale song" again.																						
+165	601		401							2	855																							
+166	164		301									——▆——▃——▆▇																						
+167	165		301									This intricate web of tributaries spreads like slime mold. The source of which is unknown.																						
+168	166		302								Wanshi.	167																						
+169	167		201							1	500273																							
+170	168		301							1	Wanshi	Hmm?	1																					
+171	169		302								What do you think of this sound?	170																						
+172	170		301								Wanshi	You think it sounds like a whale song, but the refugees call it the "siren's call."	1																					
+173	171		302								"Siren's call"?	172																						
+174	172		301								Wanshi	Documents leftover from the Golden Age say that sirens were monsters that lived in the ocean who lured sailors with songs.	1																					
+175	173		301								Wanshi	Sailors would become entranced by their songs and crash their ships into the reefs.	1																					
+176	174		301								Wanshi	It's not difficult to understand why it's garnered such a negative reputation. After all, the sound and Red Tide coincide with death.	1																					
+177	175		302								But...	176																						
+178	176		301								Wanshi	...It is. It's bound to the Red Tide, so we can always rely on the sound to predict the rise and fall of the Red Tide.	1																					
+179	177		301								Wanshi	Ironically, it isn't so much an alluring sound that puts people in a trance, but rather... It seems to be a reminder of the approaching Red Tide.	1																					
+180	178		302								Think we could follow the sound to the source?	179																						
+181	179		301								Wanshi	Doesn't seem like a problem.	1																					
+182	180		301								Wanshi	But... Um... Got any ideas?	1																					
+183	181		302								I just have a hunch.	182																						
+184	182		302								Maybe it's a cry for help.	183																						
+185	183		301								Wanshi	The siren's call is actually a cry for help.	1																					
+186	184		301								Wanshi	Heh... You and our member Kamui... sure would get along, huh?	1																					
+187	185		301				AniZhuanchangBegin				Wanshi	Speaking of which, the spectrogram of this voice... Forget it. It's nothing.	1																					
+188	186		202							1					1																			
+189	187		101							Assets/Product/Texture/Image/BgStory/Bgstory333.png																								
+190	188		301			AniZhuanchangEnd						Going upstream, you follow the sound for quite some time.																						
+191	189		301									The web of tributaries becomes more densely woven. The yellow sand has now turned black and gray.																						
+192	190		301									Hetero-Creatures on the shore of the Red Tide are writhing through the sand, stone and soil. The rustling sound is like the footsteps of death.																						
+193	191		301									Wanshi's lethargy was now in full restraint, leaving only seriousness and solemnity.																						
+194	192		201							1	500273	4																						
+195	193		301							1	Wanshi	The sound is getting closer and closer.	1																					
+196	194		301									No longer dragging out his words, his speech has become rapid and precise as if worried about some unknown entity.																						
+197	195		301								Wanshi	Are you receiving any alerts from your protective equipment?	1																					
+198	196		302								No.	197	What about you?	198																				
+199	197	199	301								Wanshi	We have enough serum to last us a while longer.	1																					
+200	198		301								Wanshi	My Inver-Device was enhanced by the Support Force. I should be fine for now.	1																					
+201	199		301								Wanshi	Now we can rely on the sound to judge the rise and fall of the Red Tide to avoid it. If we proceed any further, we may have no other choice but to get up close and personal with those things.	1																					
+202	200		301								Wanshi	Punishing concentration is one thing, but those Hetero-Creatures are another thing entirely. Are you sure you want to continue?	1																					
+203	201		302								We've already made it this far.	202																						
+204	202		301								Wanshi	Good point.	1																					
+205	203		202							1					1																			
+206	602		401							2	855																							
+207	204		301								???	————▅▄!																						
+208	205		301									You hear the sound again.																						
+209	206		401							1	36																							
+210	207		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+211	208		504							0.7																								
+212	209		201							1	500110																							
+213	210		301			AniZhuanchangEnd				1	Ayla	"A whale must be lonely if it doesn't get a response." This was the only thing going through her mind.	1																					
+214	211		301								Ayla	Hard to imagine, huh?	1																					
+215	212		302								You think whales get lonely?	213																						
+216	213		301								Ayla	Huh? Why are you thinking about that, too?	1																					
+217	214		301								Ayla	I didn't think the Gray Raven Commandant was so romantic!	1																					
+218	215		301				AniZhuanchangBegin				Ayla	I asked her the same thing.	1																					
+219	216		202							1					1																			
+220	217		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+221	218		301			AniZhuanchangEnd					Ayla	Do you think whales get lonely?																						
+222	219		301				AniZhuanchangBegin				???	I think they get really lonely.																						
+223	220		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+224	221		201							1	500110																							
+225	222		301			AniZhuanchangEnd				1	Ayla	Then she sang me a song. She has always been like this. Once she has inspiration, she will practice it immediately.	1																					
+226	223		301								Ayla	I saved the recording. Wanna hear it?	1																					
+227	224		302								(Nod)	225																						
+228	225		202							1					1																			
+229	226		401							2	1546																							
+230	227		401							1	51																							
+231	228		301									Ayla activates the terminal.																						
+232	229		301									You hear someone singing an adagio aria.																						
+233	230		301									This is the most beautiful sound you have ever heard.																						
+234	231		301									The tone ebbs and flows as it rises higher. Suddenly, a vast ocean seems to appear before your very eyes.																						
+235	232		301									The female voice does not fully imitate the sound of a real whale, but conveys the same expression in the melody.																						
+236	233		301									—A lonely blue whale is swinging its tail fin and cruising in the sea. It sings again and again. The song echoes throughout the ocean depths, but there is no response.																						
+237	234		401							1	36																							
+238	235		301									The singing stopped, but the song had no ending, because the lonely whale never found its herd.																						
+239	236		302								Sounds like the song isn't finished.	237																						
+240	237		201							1	500110	4																						
+241	238		301							1	Ayla	You're right.	1																					
+242	239		301								Ayla	She said that she hadn't thought of an ending yet because she hasn't seen the ocean with her own eyes.	1																					
+243	240		301								Ayla	She'll write the second half of the song when she sees the real ocean.	1																					
+244	241		301				AniZhuanchangBegin				Ayla	That's what she said at least.	1																					
+245	242		202							1					1																			
+246	243		504							0																								
+247	244		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+248	245		401							2	1513																							
+249	246		301			AniZhuanchangEnd					Wanshi	...?!																						
+250	247		301								Wanshi	【kuroname】.																						
+251	248		301									Someone pats your shoulder forcefully.																						
+252	249		101							Assets/Product/Texture/Image/BgStory/Bgstory336.png																								
+253	250		401							1	12																							
+254	251		301			AniZhuanchangEnd						You return to your senses and look around. Only then do you realize that you have entered a hostile area.																						
+255	252		201							1	500273	4																						
+256	253		301							1	Wanshi	You just started sprinting for some reason.	1																					
+257	254		301								Wanshi	I thought you were going to jump into the Red Tide.	1																					
+258	255		301								Wanshi	What the hell is...	1																					
+259	256		202							1					1																			
+260	603		401							2	855																							
+261	257		301								???	——▆▂——▄█▆——!!																						
+262	258		301									The sound interrupts Wanshi.																						
+263	259		301									Unlike before, you hear the sound nearby.																						
+264	260		301									Both of you turn to look toward the sound.																						
+265	261		302				AniZhuanchangBegin				Where is this...	262																						
+266	262		202							1					1																			
+267	263		101							Assets/Product/Texture/Image/BgStory/Bgstory336.png																								
+268	264		301			AniZhuanchangEnd						You hear a thunderous buzzing in the air, but the whirlwind of sand suddenly stops.																						
+269	265		301									Under the gray clouds, the sanguine Red Tide merges into a lake.																						
+270	266		301									Here the tide is tranquil, reflecting like a giant mirror.																						
+271	267		301									Or more accurately, it's like the calm before the storm.																						
+272	268		201							1	500273																							
+273	269		301							1	Wanshi	...I didn't think we'd actually find it.	1																					
+274	270		301									Wanshi mutters to himself.																						
+275	271		202							1					1																			
+276	272		301									In the middle of the tide stands a humanoid monster resembling a skeleton.																						
+277	273		301									Several steel forks of condensed Punishing Virus nail it to the center of the lake.																						
+278	274		301									If it were not for this hellscape, it would seem as if it was the crucified son of God.																						
+279	275		302								What's that?	276																						
+280	276		301									The question seems to rouse the monster in the middle of the Red Tide. It struggles to raise its head and unleashes a dense but serene "song."																						
+281	604		401							2	855																							
+282	277		301								???	——▆▂——▄▆█——																						
+283	278		301									This was the "siren's call" that you had been hearing.																						
+284	279		301		1		AniZhuanchangBegin					Then, it suddenly turns its head and looks this way. The tranquil Red Tide seems to suddenly take on life as it gradually inundates the surrounding land.																						

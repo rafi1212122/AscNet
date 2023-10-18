@@ -1,0 +1,48 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	5																							
+3	3		301								Puppy	Woof!																						
+4	4		201							1	1031001																							
+5	5		301			DialogEnable				1	Liv	Wait, don't run around inside the base!	1																					
+6	6		302								Looks like it has mostly recovered.	7	You're the only one looking after it, Liv?	8																				
+7	7	9	301								Liv	It's all thanks to Lucia getting the medicine from the city, but...	1																					
+8	8		301								Liv	It's just my turn today, usually, it's Lucia's who's looking after it, but...	1																					
+9	9		201							1	1021001																							
+10	10		301							1	Lucia	Commandant, we're currently connected so let's talk about today's mission.	1																					
+11	11		302								Lucia, the puppy's awake.	12	Lucia, I heard you're the one mainly looking after it.	13																				
+12	12	14	301								Lucia	Commandant... About the puppy we rescued...	1																					
+13	13		301								Lucia	It? You mean the puppy?	1																					
+14	14		202							1					1																			
+15	15		301								Puppy	Woof!																						
+16	16		201							2	1031001		-400																					
+17	17		201							1	1021001		400																					
+18	18		301							1	Liv	Lucia, it's full of energy today. Do you want to try again?	2																					
+19	19		302								Try what?	20																						
+20	20		202							1	2				1																			
+21	21		301								Puppy	Woof...																						
+22	22		201							1	1021001																							
+23	23		301							1	Lucia	...	1																					
+24	24		202							1					1																			
+25	25		301								Puppy	...																						
+26	26		201							1	1021001	4																						
+27	27		301							1	Lucia	...	1																					
+28	28		202							1					1																			
+29	29		301								Puppy	Ruff—																						
+30	30		302								It ran?!	31																						
+31	31		201							1	1021001	3																						
+32	32		301							1	Lucia	I guess it's just scared of me.	1																					
+33	33		302								Scared of Lucia?	34	Did you do something to it?	34																				
+34	34		201							1	1031001		-400																					
+35	35		201							2	1011001		400																					
+36	36		301							1	Liv	Yeah, it's still fine with me and Lee, but every time Lucia tries to get closer, the puppy will be on its guard...	1																					
+37	37		204							2	10																							
+38	38		301								Lee	I think it's because of your murderous aura and poker face. It's a shame since Commandant's here too.	2																					
+39	39		204							2																								
+40	40		301								Lee	Why don't you help Lucia with her emotions training, Commandant?	2																					
+41	41		302								Emotions training?	42	That's not really necessary.	43																				
+42	42	44	301								Lee	For example, like your expression. The Support Force has told me before that my team's leader looks a bit scary.	2																					
+43	43		301								Liv	I think so too... You're fine the way you are, Lucia...	1																					
+44	44		202							1	2				1																			
+45	45		201							1	1021001	4																						
+46	46		301							1	Lucia	I... I wish to carry out this type of training.	1																					
+47	47		301		1		AniZhuanchangBegin				Lucia	...If Commandant can teach me.	1																					

@@ -1,0 +1,71 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		401							1	208																							
+2	2		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory71.jpg																								
+3	3		201							1	500005					1																		
+4	4		301			DialogEnable				1	Forsaken Soldier	Hey! Watanabe-San is back!	1																					
+5	5		203							1	0.25	400																						
+6	6		201							2	500172		-400			1																		
+7	7		301								Zong	I'm back, too! And the food!	2																					
+8	8		202							1	2				1																			
+9	9		301									Cheers erupt among the Forsaken as they help Zong unload the food and settle into the wrapping process.																						
+10	10		201							1	500166	6				1																		
+11	11		301							1	Lucia	Looks interesting, Commandant. Could Liv and I try our hand at wrapping one?	1																					
+12	12		302								Of course	13	Go on	13																				
+13	13		201							1	1031001	1				1																		
+14	14		301							1	Liv	You coming, Lee?	1																					
+15	15		201							1	500026					1																		
+16	16		301							1	Lee	No, you go on ahead...	1																					
+17	17		202							1					1																			
+18	18		301									Halfway there, Lucia turns back, hesitant.																						
+19	19		201							1	500166	6				1																		
+20	20		301							1	Lucia	Commandant... if I manage to make a Zong, would you try one?	1																					
+21	100		302								Let me think about it	105	Can't wait	106																				
+22	105		204							1	5																							
+23	21		301								Lucia	I see... I'm not that good at cooking, anyway...	1																					
+24	101		302								Just joking	23																						
+25	106		204							1	1																							
+26	22		301								Lucia	Really? Okay, I'll give it a try.	1																					
+27	23		201							1	500124	1				1																		
+28	24		301							1	Changyu	We used to wrap Zongs together on the Nighter, from time to time.	1																					
+29	25		301								Changyu	Not many good memories on that ship, but a few do come by every once in a while.	1																					
+30	26		201							1	1101001	1				1																		
+31	27		301							1	Watanabe	True. No matter how dark our world gets, there are always a few things that shine bright.	1																					
+32	28		202							1					1																			
+33	29		301									Changyu bites into a steamed Zong, and his face turns.																						
+34	30		401							1	205																							
+35	31		201							1	500124	5				1																		
+36	32		301							1	Changyu	Hey, you! Forsaken! Care to explain why this Zong is sweet?	1																					
+37	33		203							1	0.25	400																						
+38	34		201							2	1101001	5	-400			1																		
+39	35		301							1	Watanabe	What are you on about? Zongs are made to be sweet.	2																					
+40	36		301								Changyu	Zongs are supposed to be savory, with meat in the filling! This is a dessert!	1																					
+41	37		202							1	2				1																			
+42	38		201							1	500172					1																		
+43	39		301							1	Zong	Hey, kid! You got a problem with our Zongs, you come talk to Zong!	1																					
+44	40		202							1					1																			
+45	41		301									Spirited disagreement on the nature of Zongs notwithstanding, the bond between Changyu and the Forsaken seems to be stronger than ever.																						
+46	42		201							1	500124	5				1																		
+47	43		301							1	Changyu	You tell them, Commandant!	1																					
+48	44		201							1	500166					1																		
+49	45		301							1	Lucia	We've finishing wrapping ours too, Commandant. Please have a taste.	1																					
+50	102		302								Zongs really are better sweet	200	Zongs are better off savory	200																				
+51	200		502							AniZhuanchangBegin																								
+52	120		202							1					1																			
+53	46		101							Assets/Product/Texture/Image/BgStory/Bgstory126.png																								
+54	48		301			AniZhuanchangEnd						— A few days later, on board the Eternal Engine, Changyu debriefs Jamilah on recent events.																						
+55	49		201							1	500124					1																		
+56	50		301							1	Changyu	Sure wasn't easy, but at least we closed the Forsaken deal.	1																					
+57	51		201							1	500125					1																		
+58	52		301							1	Jamilah	So these are the fabled Zongs of the Forsaken? Not bad. Easy to manufacture, and at a reasonable cost.	1																					
+59	53		201							1	500127					1																		
+60	54		301							1	Sophia	Slightly sweet. Not bad.	1																					
+61	55		201							1	500125	1				1																		
+62	56		301							1	Jamilah	Maybe we can host a festival like Duanwu on the train... or better yet, promote it everywhere along our route.	1																					
+63	110		204							1	2																							
+64	57		301								Jamilah	Such a festival would involve every rung of society, encourage spending... there's money to be made here.	1																					
+65	58		201							1	500124					1																		
+66	59		301							1	Changyu	That's a swell idea, Boss, but I do disagree on one point.	1																					
+67	60		201							1	500125	4				1																		
+68	61		301							1	Jamilah	Oh? Enlighten me.	1																					
+69	62		201							1	500124	5				1																		
+70	63		301		1		AniZhuanchangBegin			1	Changyu	Zongs are supposed to be savory, not sweet!	1																					

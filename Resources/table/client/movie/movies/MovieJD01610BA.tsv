@@ -1,0 +1,22 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory260.png																								
+2	2		401							1	203																							
+3	3		201							1	1031001		-600																					
+4	4		201							2	500026		600																					
+5	5		201							3	500166																							
+6	6		301			DialogEnable				1		A group of disorderly Program Ghosts are attacking one another, blocking your way.																						
+7	7		301								Lee	The Program Ghosts that fought us before are killing one another now...	2																					
+8	8		301								Lucia	We can't move forth with them blocking our way, and we've still got more Program Ghosts behind us...	3																					
+9	9		301								Liv	Guess we'll have to force our way through here...	1																					
+10	10		301								Lee	That's the only logical thing to do now. We can't afford to waste time here.	2																					
+11	11		302								Let's go, then.	12																						
+12	12		301				DialogDisable				Lucia & Lee & Liv	Understood!	1	2	3																			
+13	13		305							14	21																							
+14	14		301			DialogEnable					Lucia	This is it! We've broken our way through!	3																					
+15	15		301								Liv	Commandant, over here!	1																					
+16	16		301								Lee	Let's go!	2																					
+17	17		301									Working together, the four of you make it past the Program Ghosts and arrive at a safer location.																						
+18	18		301								Lucia	Who knows if we'll need to fight again up ahead, but we have no choice except to keep moving.	3																					
+19	19		301								Liv	"Bianca" is most likely... just right up ahead.	1																					
+20	20		301		1		AniZhuanchangBegin				Lucia	Let's go. Brace yourself. I've got a feeling that it's not going to be the smoothest ride.	3																					
+21	21		202		1		AniZhuanchangBegin			1	2	3			1																			

@@ -1,0 +1,40 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory12.jpg																								
+2	2		401							1	201																							
+3	3		201							1	1031001	7																						
+4	4		301			DialogEnable				1	Liv	Everyone, we've reached the coordinates of the weapon supplies—ah, this is...	1																					
+5	5		202							1					1																			
+6	6		201							2	1021001	3																						
+7	7		301							1	Lucia	Such an eerie sight.	2																					
+8	8		301								Lucia	The Constructs here are all blown to pieces, and paint is all over their body parts.	2																					
+9	9		202							2					1																			
+10	10		201							1	500061																							
+11	11		301							1	Voice in the dark	Those... detestable... humans...	1																					
+12	12		301								Voice in the dark	Have... they come to... destroy my... work again...?	1																					
+13	13		202							1					1																			
+14	14		201							3	1011001																							
+15	15		301							1	Lee	...	3																					
+16	16		301									Lee kneels, then touches and checks the graffiti with his fingers.																						
+17	17		301								Lee	Composes mostly of Construct vital fluids... with a mixture of industrial coloring, fluorescent agents, and mixed coolants.	3																					
+18	18		301								Lee	...Looks like they aren't using Construct fluids just to paint these horrid-looking graffiti, but also as a weapon.	3																					
+19	19		202							3					1																			
+20	20		201							1	500061																							
+21	21		301							1	Voice in the dark	H-horrid...? That imbecile... He's saying my work is... horrid...	1																					
+22	22		202							1					1																			
+23	23		201							1	1031001																							
+24	24		301							1	Liv	A weapon?	1																					
+25	25		202							1					1																			
+26	26		201							3	1011001																							
+27	27		301							1	Lee	Yes, a weapon. What blew up these Constructs is likely a bomb made from pressurized paint.	3																					
+28	28		301								Lee	These bombs would cause an almost instantaneous drop in temperature after its explosion, slowing down the affected targets.	3																					
+29	29		302								Seems like it's learning and evolving.	30	What a monster.	32																				
+30	30		204							3	10																							
+31	31	33	301								Lee	Indeed. They go to such disgusting lengths to fight against humanity.	3																					
+32	32		301								Lee	Agreed.	3																					
+33	33		202							3					1																			
+34	34		201							2	1021001	4																						
+35	35		301							1	Lucia	You really cannot expect even an ounce of conscience in the Corrupted...	2																					
+36	36		301								Lucia	There's no peace to be made between us... Liv, is the area scan complete?	2																					
+37	37		202							2					1																			
+38	38		201							1	1031001																							
+39	39		301		1		AniZhuanchangBegin			1	Liv	Yes! The Levi-Gun parts the supply squad mentioned is nearby.	1																					

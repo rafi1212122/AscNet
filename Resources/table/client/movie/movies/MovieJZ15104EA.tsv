@@ -1,0 +1,41 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory39.jpg																								
+2	3		401							1	102																							
+3	4		201							1	500189																							
+4	5		301			DialogEnable				1	Camu	Where's everyone? Say something if you hear me!	1																					
+5	6		401							2	10007502																							
+6	7		301			RImgBg1Shake						—																						
+7	8		301									Bombs continue to fall, and yet the intended targets are unharmed.																						
+8	9		301								Camu	Hey! You guys up there, you hear me? What do you think you're doing?	1																					
+9	10		301								Camu	What about our people? We haven't retreated yet!	1																					
+10	11		203							1	0.25	-400																						
+11	12		201							2	500005		400																					
+12	13		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab	2	2																						
+13	14		301							1	Pilot	So there are survivors, huh? Scan for their location immediately.	2																					
+14	15		301								Camu	So... you want us dead, huh?	1																					
+15	16		301								Pilot	The orders in the very beginning were to destroy you and your flawed comrades. Surrender, Corrupted!	2																					
+16	17		202							1	2																							
+17	100		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+18	19		401			RImgBg1Shake				2	10007502																							
+19	20		301									More booms, even louder, sound from outside the city. Though Camu is too far to witness the event, he knows that it is the sound of their mobile base being bombed.																						
+20	21		301									They sent Camu's squad into the city and started bombing them... even destroyed their vehicle so they could not leave.																						
+21	22		301									"Destroy everything—Don't leave even a speck of dust behind. Headquarters' orders."																						
+22	23		201							1	500189																							
+23	24		301							1	Camu	So that was what Master meant, huh...	1																					
+24	25		301									Everything makes sense now. Kurono has always had a shady reputation, but Camu never imagined that it would come to this.																						
+25	26		301									What did he do wrong? What did the others do wrong? Why does this have to happen?																						
+26	27		301									Did they mess up on any missions? Or did he do something unacceptable at the gate?																						
+27	28		301									No. None of those are the main reason.																						
+28	29		301								Camu	That squad member...	1																					
+29	30		301									Camu remembers his first squadmate to pass away in an "accident." He was completely unscathed in battle, yet died right afterward.																						
+30	31		301									After that happened, several others perished in similar ways. Camu tried to ask the officials about it each time—																						
+31	32		301									Yet all he got was silence.																						
+32	33		301								Camu	Dammit, I'm not dying here!	1																					
+33	34		301									Camu grips his greatsword tight and rushes toward his confused squadmates. He slices his way through the obstacles and grabs their hands.																						
+34	35		202							1																								
+35	36		201							1	500197																							
+36	37		301							1	Soldier	What—	1																					
+37	38		202							1																								
+38	39		201							1	500189	5																						
+39	40		301							1	Camu	Come with me! Are you just gonna roll over and die or what?	1																					
+40	41		301		1		AniZhuanchangBegin			1	Camu	Anyone who can still run, follow me! We get into the subway station and leave following the tracks. Move! Move!	1																					

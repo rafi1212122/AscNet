@@ -1,0 +1,145 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory527.png																								
+2	2		401							1	204																							
+3	3		301			DialogEnable						Although this is only one small goal: win a commemoration award and then stop...																						
+4	4		301									But even then, you managed to get third place.																						
+5	5		301									After having so much fun with Liv and Ellie, you hardly realize that the event is about to end.																						
+6	6		302								This time we need to win a commemoration award.	7																						
+7	7		201							1	500492																							
+8	8		301							1	Liv	Alright, but this game...	1																					
+9	9		301									Liv feels apprehensive about a two-player game by the name of "Rough Seas".																						
+10	10		301									Two players must remain balanced on a shaking platform for a designated time. If either player falls, the game is over.																						
+11	11		301									Players can only use a rope ring for leverage to balance on the narrow platform.																						
+12	12		301									Considering the need for safety in the game, only two adults are allowed to participate. Because of that, everyone seemed to avoid it.																						
+13	13		301								Liv	Looks like no has beaten this game...	1																					
+14	14		302								Isn't that a good thing?	15																						
+15	15		302								Anyway, it's just a commemoration award, right?	16																						
+16	16		204							1	1																							
+17	17		301								Liv	Yeah.	1																					
+18	18		301								Liv	Wait for us here, Ellie. Okay?	1																					
+19	19		201							1	500260																							
+20	20		301							1	Ellie	You got it!	1																					
+21	21		301				AniZhuanchangBegin					She nods earnestly and watches you two walk away.																						
+22	22		202			DialogDisable				1					1																			
+23	23		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory310.png																								
+24	24		301			DialogEnable						After signing up for the challenge, you and Liv stand on the platform.																						
+25	25		301									Just as you are about to grab the rope ring, your hands touch Liv's.																						
+26	26		201							1	500492	6																						
+27	27		301							1	Liv	...	1																					
+28	28		301									She doesn't say anything, but her expression is clear.																						
+29	29		302								Come a little closer.	30																						
+30	30		203							1	0.25			-100																				
+31	31		301								Liv	Hmm...	1																					
+32	32		301									Liv shyly steps closer.																						
+33	33		301								Liv	It's just a commemorative award. Shouldn't we just fail on purpose?	1																					
+34	34		302								We don't want to worry Ellie.	35	No fun in losing on purpose.	36																				
+35	35	37	301									Liv looks back at Ellie standing outside the challenge area. Just like you said, she looks nervously at the platform under your feet as if worried something dangerous could happen.																						
+36	36		301									Liv looks back at the staff member beside her checking the stability, worrying that the difficulty was too high since no one had won.																						
+37	37		301								Staff Member	Alright, get ready!																						
+38	38		302								Hold on to me tight, Liv!	39	Pardon me.	40																				
+39	39	41	301								Liv	O-okay...	1																					
+40	40		301									You smile and put an arm around Liv's waist.																						
+41	41		301									Liv blushes as you two get closer.																						
+42	600		203							1	0.25			-160																				
+43	42		301									But right as the machine starts, she grabs onto you tightly out of reflex.																						
+44	43		301									The platform begins to sway slowly like gentle waves, gradually increasing to the strength of a typhoon. However, Liv quickly gets into the rhythm.																						
+45	44		301									Her posture remains firm, and her hands show no sign of letting go.																						
+46	45		301								Liv	Commandant...	1																					
+47	46		302								What is it?	47																						
+48	47		301								Liv	Sorry for troubling you on a holiday...	1																					
+49	48		302								Don't worry.	49																						
+50	49		302								I like seeing you happy, Liv.	50	We're like family.	51																				
+51	50	52	301								Liv	...Yeah... Thank you...	1																					
+52	51		301								Liv	...Like family...	1																					
+53	52		301									The girl lowers her head and covers her face as if on the verge of tears.																						
+54	53		301									Right at that moment, the indicator light next to you sounds an alarm indicating an increase in amplitude.																						
+55	54		204							1																								
+56	55		301								Liv	Careful, Commandant!	1																					
+57	56		302								Why don't we just fall?	57	We'll miss the award if we hold on any longer.	57																				
+58	57		301								Liv	Okay...	1																					
+59	58		302								Ready...	59																						
+60	59		302								One, two...	60																						
+61	60		301									Holding on to you tightly, you both let go right as the platform starts to sway to the right—																						
+62	61		202							1					1																			
+63	62		502							RImgBg1Shake																								
+64	63		301									—And fall into the ball pit below.																						
+65	64		301								Staff Member	Challenge failed!																						
+66	65		301								Staff Member	What happened...? Maybe we shouldn't have this game next time...																						
+67	66		301									The staff member groans to the console and stops the shaking platform.																						
+68	67		302								...	68																						
+69	68		201							1	500492	1																						
+70	69		301							1	Liv	C-Commandant...	1																					
+71	70		301									The soft voice in his arms is trembling. She casts a concerned and inquiring look at you.																						
+72	71		302								I'm fine.	72																						
+73	72		302								Liv?	73																						
+74	73		301								Liv	Good thing we fell into this ball pit...	1																					
+75	74		302								Yeah, you're right. Let's get up.																							
+76	75		301								Liv	Hmm...	1																					
+77	76		301									Liv seems distracted as if she hadn't recovered from the fall just now.																						
+78	77		203							1	0.25	400																						
+79	78		201							2	500260		-400																					
+80	79		301							1	Ellie	Are you two alright?	2																					
+81	80		301									As the barrier to the challenge area opens, Ellie rushes in. She doesn't even bother to take the commemoration award.																						
+82	81		302								We're okay. Let's grab the reward.	82																						
+83	82		301								Ellie	Okay!	2																					
+84	83		301									She lets out a big sigh of relief.																						
+85	84		301								Ellie	Granny, look!	2																					
+86	85		202							1	2				1																			
+87	86		301									Looking in the direction she's pointing to, a middle-aged woman finishes talking to the staff and walks over with a smile.																						
+88	87		201							1	500268																							
+89	88		301							1	Lady	Hello, everyone.	1																					
+90	89		203							1	0.25	-400																						
+91	90		201							2	500492		400																					
+92	91		301							1	Liv	Hello, miss.	2																					
+93	92		301								Lady	Here, take these Star Tickets. And here is a "commemoration reward."	1																					
+94	93		301								Liv	Thank you. It was nothing.	2																					
+95	94		301								Lady	These activities themselves are meant to involve children, but you still deserve the reward for your efforts.	1																					
+96	95		302								Thank you...	96																						
+97	96		301								Lady	You're welcome. Ellie, have a biscuit and play here for a while. I want to talk with this young lady.	1																					
+98	97		202							2					1																			
+99	98		201							1	500260																							
+100	99		301							1	Ellie	Okay, Granny.	1																					
+101	100		203							2	0.25		800																					
+102	101		202						200	2																								
+103	102		201							1	500268																							
+104	103		301							1		Seeing Ellie leave, the lady sighs somberly.																						
+105	104		301								Lady	...Thank you for playing with her.	1																					
+106	105		302								Ellie's parents...	106																						
+107	106		301								Lady	You must've already sensed it by now. This sort of thing isn't anything new in this day and age.	1																					
+108	107		302								She still doesn't know about her parents?	108																						
+109	108		301								Lady	I'm sure she has some idea...	1																					
+110	109		301								Lady	They're still so young, but it's just as I've said. Who can turn a blind eye to it in this day and age?	1																					
+111	110		301								Lady	But I don't want to crush her hopes until she finally recovers from her pain.	1																					
+112	111		301								Lady	Something can only be taken one step at a time.	1																					
+113	112		301									She bows slightly to both of you.																						
+114	113		301								Lady	So I also want to thank you for accompanying her along the way rather than making her face this cruel reality.	1																					
+115	114		203							1	0.25	-400																						
+116	115		201							2	500492	1	400																					
+117	116		301							1	Liv	You're welcome. She also gave us some beautiful memories.	2																					
+118	117		302								Yeah.	118																						
+119	118		301								Lady	That's all I could ask for.	1																					
+120	119		202							1	2																							
+121	120		301									She nods and turns to leave.																						
+122	121		301									Off in the distance, Ellie looks at her straw bracelet and smiles brightly.																						
+123	122		201							1	500492	1																						
+124	123		301							1	Liv	If only the children here could keep laughing and smiling like this.	1																					
+125	124		302								Well, that's what we're fighting for.	126																						
+126	125		302								That's our common goal, Liv.	128																						
+127	126		204							1	8																							
+128	127	130	301								Liv	You're right... For future peace and a smile on everyone's face.																						
+129	128		204							1	8																							
+130	129		301								Liv	But also... for you to be... happy... and safe with everyone... I will...																						
+131	130		302								That's okay.																							
+132	131		204							1	3																							
+133	132		301								Liv	Huh?	1																					
+134	133		302								I just want to know if you're happy today, Liv.	134																						
+135	134		204							1	1																							
+136	135		301								Liv	...Yes, I am.	1																					
+137	136		302								That's enough.	137	Then so am I.	137																				
+138	137		204							1	6																							
+139	138		301								Liv	...Commandant...	1																					
+140	139		302								Let's go back.	140																						
+141	140		302								Lucia and Lee are probably waiting for us.	141																						
+142	141		204							1	1																							
+143	142		301								Liv	Yes. Let's go.	1																					
+144	143		301		1		AniZhuanchangBegin					She looks up and smiles a warm smile of genuine "happiness."																						

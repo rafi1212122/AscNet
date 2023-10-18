@@ -1,0 +1,34 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory71.jpg																								
+2	2		401							1	202																							
+3	3		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	2																							
+4	4		201							1	1091001																							
+5	5		301			DialogEnable				1	Bianca	Even with the roaring engine from the main building...	1																					
+6	6		301								Bianca	...I can still hear your every move.	1																					
+7	7		204							1	4																							
+8	8		301							1	Bianca	(Turns and draws her bow) You've come so far already. About time we meet face-to-face, don't you think?	1																					
+9	9		201							1	1101001																							
+10	10		301							1	Watanabe	...	1																					
+11	11		203							1	0.25	400																						
+12	12		201							2	1091001		-400																					
+13	13		301							1	Watanabe	No wonder you were taking turns and vaulting over walls... I've been noticed all this time...	1																					
+14	14		301								Watanabe	I'm not going to say something cliche like "we meet again" this time around.	1																					
+15	15		301								Bianca	Why are you following me? Trying to ambush the Purifying Force again?	2																					
+16	16		204							1	5																							
+17	17		301								Watanabe	Save your questions.	1																					
+18	18		301								Watanabe	I have my reason to be here.	1																					
+19	19		204							1																								
+20	20		301								Bianca	If your "reason" is to take down my team, then I can't let you leave here alive.	2																					
+21	21		204							1	5																							
+22	22		301								Watanabe	Do you think you can stop me?	1																					
+23	23		204							1																								
+24	24		301								Bianca	...Stubborn as ever, I see.	2																					
+25	25		301								Watanabe	Listen—I'm here today for something more than taking down the Purifying Force. I've been following you so that I can achieve what I'm here for.	1																					
+26	26		301								Watanabe	If you care about your team, then let them know—let all of Nikola's minions know...	1																					
+27	27		204							1	5																							
+28	28		301								Watanabe	Stay out of my way...	1																					
+29	29		301			PanelActor1Shake				1	Watanabe	Or stay six feet under.	1																					
+30	30		204							1																								
+31	31		204							2	4																							
+32	32		301								Bianca	So... you've decided to withhold the truth...	2																					
+33	33		301		1		AniZhuanchangBegin				Bianca	So... like the old days?	2																					

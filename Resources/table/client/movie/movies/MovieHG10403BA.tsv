@@ -1,0 +1,26 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory78.jpg																								
+2	1000		401							1	208																							
+3	2		201							1	1091001																							
+4	3		301			DialogEnable				1	Bianca	Commandant, our mission today is to join the other squads for a joint operation, right?	1																					
+5	4		302								Is that okay?	5	I'll count on you.	7																				
+6	5		301								Bianca	Are you asking... because of what happened with the Support Force earlier?	1																					
+7	6	8	301								Bianca	Don't worry, Commandant. It'll be fine.	1																					
+8	7		301								Bianca	I'll do my best, Commandant.	1																					
+9	8		203							1	0.25	450																						
+10	9		201							2	500028		-450																					
+11	100		401							2	1502																							
+12	10		301							1	Construct	Your ID's saying you're from Gray Raven... Nice to meet you.	2																					
+13	11		301								Bianca	At your service.	1																					
+14	12		302								They're behaving very differently from the Support Force...	13																						
+15	13		202							2					1																			
+16	14		203							1	0.25																							
+17	15		301								Bianca	The Purifying Force might not be some secret stowed away in the attic...	1																					
+18	16		301								Bianca	But due to how we operate, most squads never come into contact with us.	1																					
+19	17		301								Bianca	The only ones who know about our existence are the Constructs who have served for a long time.	1																					
+20	18		301								Bianca	Like those from the Support Force who have seen very little combat and have never been rebooted.	1																					
+21	19		301								Bianca	If the Task Force is the light, the Purifying Force is the shadow.	1																					
+22	20		301								Bianca	Once the war is over and things return to normal, those of us in the Purifying Force will be rebooted as well, I think.	1																					
+23	21		302								I'm not going to let them reboot you.	22	Is that really alright, Bianca?	23																				
+24	22		301		1		AniZhuanchangBegin				Bianca	Thank you, Commandant.	1																					
+25	23		301		1		AniZhuanchangBegin				Bianca	(Nods) That is alright.	1																					

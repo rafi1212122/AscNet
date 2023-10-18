@@ -1,0 +1,148 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+2	2		401							1	210																							
+3	3		301			DialogEnable						The research laboratory is as deserted as ever, save for the cold, uncaring glow of a small display, where digits skip and change in the corner of the room.																						
+4	4		301									In front of the display is Asimov, his head in his arms on the table. Next to him is a cup of cold coffee and a sandwich untouched for way too long.																						
+5	5		301									"New Year" is approaching, according to the traditional lunar calendar.																						
+6	6		301									The room would have been fittingly lonely if not for Asimov's slow, heavy breaths.																						
+7	7		201							1	1031001																							
+8	8		301							1	Liv	Asimov?	1																					
+9	9		301								Liv	Asimov, sir... Please wake up.	1																					
+10	10		201							1	500004																							
+11	11		301			PanelActor1Shake				1	Asimov	What did I... Huh, I fell asleep.	1																					
+12	12		201							1	1031001																							
+13	13		301							1	Liv	Sorry to disturb your rest. I'm here to deliver Gray Raven's data on our session in the battle simulation.	1																					
+14	14		202							1					1																			
+15	15		301									The four of you stare as Asimov gulps down his cold coffee with furrowed brows, and he does not look at you until he has settled himself.																						
+16	16		201							1	500004																							
+17	17		301							1	Asimov	...How many times have you run the sim? Have you gotten the hang of the "Combat Unit Booster", or are you still...	1																					
+18	18		201							1	500026																							
+19	19		301							1	Lee	47 times. We've more or less grasped how to make use of this mechanoid.	1																					
+20	20		301								Lee	Overall speaking, there doesn't seem to be any issues, functionality-wise. But given the differences between our frames, you should probably focus on the battle data of Lucia and me.	1																					
+21	21		301								Lee	Although... "Combat Unit Booster" is quite a mouthful, isn't it?	1																					
+22	22		201							1	500004																							
+23	23		301							1	Asimov	Just call it a CUB.	1																					
+24	24		201							1	1031001																							
+25	25		301							1	Liv	...CUB? That does seem pretty fitting, and it sounds... it sounds cute...	1																					
+26	26		201							1	500004																							
+27	27		301							1	Asimov	I've been asleep for...	1																					
+28	28		301									Asimov takes a look at the digits on the display.																						
+29	29		301								Asimov	75 minutes. Based on your past data and my projections, you should have been able to complete 4 to 5 runs during this timespan.	1																					
+30	30		301								Asimov	I hope you didn't slow down just to give me a more diverse set of data. You know how deeply I care about your test results.	1																					
+31	31		201							1	500166																							
+32	32		301							1	Lucia	Don't worry, Asimov. Commandant has also participated in the simulation...	1																					
+33	33		201							1	500004																							
+34	34		301							1	Asimov	I didn't realize you're here as well, 【kuroname】... and I don't remember asking for your involvement if I'm being honest.	1																					
+35	35		301									Asimov turns his chair toward you, his fingers crossed under his chin.																						
+36	36		302								My team's mission is my mission.	37	Whoa, the bags under your eyes have gotten worse!	38																				
+37	37	39	301								Asimov	Save it.	1																					
+38	38		301								Asimov	Mind your own business!	1																					
+39	39		301								Asimov	Forget it. Now that you're here, I'll save myself the legwork and explain the project to you altogether.	1																					
+40	40		301									He sighs, trying to figure out how to phrase his explanation in layman's terms.																						
+41	41		301								Asimov	First, just to clarify, I wasn't stealing your team behind your back... It's just that the drones we're developing this time are not your conventional mechanoids.	1																					
+42	42		301								Asimov	They can connect to the M.I.N.D. and behave according to a Construct's thoughts.	1																					
+43	43		301								Asimov	But they're not controlled by the Constructs. They function with their own AI systems—they're designed to be combat "partners" of a Construct squad.	1																					
+44	44		203							1	0.25	400																						
+45	45		201							2	500166		-400																					
+46	46		301							1	Lucia	..."Partners"? Aren't they just armed drones?	2																					
+47	47		301								Asimov	Compared to their combat capability, we wanted to focus more on CUBs' abilities to stabilize the M.I.N.D., which is why we designed them in the form of animal companions.	1																					
+48	48		201							1	500026		400																					
+49	49		201							2	1031001		-400																					
+50	50		301							1	Lee	Would that actually work...?	1																					
+51	51		301								Liv	Theoretically, it would. Pets are human companions, after all! With them by our side, we would naturally feel calmer...	2																					
+52	52		301								Lee	Are they "pets," though? They look more like the monsters in the ancient texts found in Kowloong.	1																					
+53	53		202							1	2				1																			
+54	54		201							1	500004																							
+55	55		301							1	Asimov	We commissioned Leonie from the WGAA to design their appearances, so their looks are heavily influenced by her artistic sensibilities. If you have complaints, she's the one you're looking for.	1																					
+56	56		203							1	0.25	400																						
+57	57		201							2	500026		-400																					
+58	58		301							1	Lee	It's fine. I'm not that obsessed with appearances...	2																					
+59	59		301								Asimov	Anyway, these CUBs are created to help Constructs maintain their human cognitions—a sense of security, belonging, protective instincts... These can all stabilize your M.I.N.D.	1																					
+60	60		302								Sounds like the role of a commandant.	61																						
+61	61		301								Asimov	True, but not every squad comes with a commandant as reliable as you are, do they? Given how much it takes to develop a commandant and the rate we're losing them... We have to find a suitable alternative.	1																					
+62	62		301								Asimov	And that is why the data with a commandant's involvement would be inaccurate.	1																					
+63	63		302								That's why you didn't ask me to participate in the simulations.	64																						
+64	64		301								Lee	If you're hoping to test a team-support model, you'd need to make sure it's compatible with different types of Constructs. You can't do that only with simulations on Babylonia.	2																					
+65	65		301								Asimov	Therefore, I've also requested other... "tests." Speaking of which, it should be time—	1																					
+66	66		202							1	2				1																			
+67	67		301									An animated firework pops up on Asimov's comms interface with the word "Happy New Year!", seemingly anticipating his responses. But Asimov simply ignores it and enters the comms channel straight away.																						
+68	68		301								System	Incoming transmission—																						
+69	69		401							1	204																							
+70	70		201							1	500001																							
+71	71		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+72	72		301							1	Celica	Sorry for the interruption—	1																					
+73	73		302								I have a bad feeling about this...	74	Are you working overtime?	74																				
+74	74		301								Celica	Sorry to interrupt your conversation, but Asimov asked, so here I am after proper working hours.	1																					
+75	75		301								Celica	I assume our heartless researcher hasn't even raised a brow when I criticized him in his face, has he?	1																					
+76	76		202							1					1																			
+77	77		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+78	78		201							1	500004																							
+79	79		301							1	Asimov	I'll say it again—I personally do not believe that holidays should be allowed in the field of scientific research.	1																					
+80	80		201							1	500001																							
+81	81		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+82	82		301							1	Celica	Of course—I'm sorry we have to ask Gray Raven to crunch again. And Asimov, I know you meant it, but I'm still hoping that you'll pay attention to your work-life balance.	1																					
+83	83		203							1	0.25	400																						
+84	84		201							2	500011		-400																					
+85	85		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+86	86		301							1	Hassen	Is it my turn, Celica? Hello, Gray Raven, thank you for your work.	2																					
+87	87		301								Hassen	Based on what we discussed with Asimov earlier and his applications, 【kuroname】, we have to ask you to leave on your own.	2																					
+88	88		302								On my own...	90	What did I do?	89																				
+89	89		301								Hassen	Nothing! We literally need you to leave for a one-person journey.	2																					
+90	90		301								Hassen	Simply put—Asimov, maybe you should do the briefing instead. It's your request, after all. You'll probably explain the mission details better.	2																					
+91	91		202							1	2				1																			
+92	92		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+93	93		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+94	94		201							1	500004																							
+95	95		301							1	Asimov	To support the development of CUBs, I require as many sets of data as possible. Among them is a group that requires my extra attention, but whose data is fairly inaccessible—the older models of Constructs.	1																					
+96	96		201							1	500026																							
+97	97		301							1	Lee	Older models? From what I know, they've all been decommissioned...	1																					
+98	98		202							1					1																			
+99	99		201							1	500011																							
+100	100		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+101	101		301							1	Hassen	Commandant, I assume you also have an inkling of the people who would fit all Asimov's strict criteria—	1																					
+102	102		302								...	103	Could it be...?	103																				
+103	103		301								Hassen	That's right! I'm glad the Gray Ravens didn't antagonize the Forsaken in your previous encounters.	1																					
+104	104		301								Hassen	...You didn't, did you?	1																					
+105	105		302								I don't think so...	106	I have the right to remain silent.	111																				
+106	106		201							1	500004																							
+107	107		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+108	108		301							1	Asimov	That's alright. We'll stick with the accounts on your reports.	1																					
+109	109		201							1	500011																							
+110	110	112	501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+111	111		301								Hassen	Very wise of you. As long as you know where you stand.	1																					
+112	112		301								Hassen	I understand, I do. As one of the decision-makers in Babylonia, I wouldn't have sent my best soldier to work with a third party unless it's absolutely necessary—	1																					
+113	113		301								Hassen	"Unless." Asimov should probably be the one to elaborate.	1																					
+114	114		201							1	500004																							
+115	115		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+116	116		301								Asimov	It's simple—let the Forsaken participate in the trial and send their data back. I need as many sets as possible, including but not limited to the two teams we sent earlier and... the others on the surface.	1																					
+117	117		201							1	500011																							
+118	118		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+119	119		301							1	Hassen	As to how you actually get the data...	1																					
+120	120		301								Hassen	The good news is that the Forsaken has agreed to work with us. We're providing them with supplies and a recycling arrangement, both of which they find very agreeable during the winter—or so it seems.	1																					
+121	121		301								Hassen	The bad news is that we can only send one person to the surface. On your own, literally, and no Constructs allowed.	1																					
+122	122		302								So you already have an arrangement.	123	So it can only be me.	123																				
+123	123		301								Hassen	That's right. We can only send in one person for the transfer with the Forsaken and handle the data retrieval, and our best candidate is none other than you, 【kuroname】.	1																					
+124	124		301								Hassen	It's nearing the end of the year, so the Forsaken campsite is going to look a little strange. But, they have guaranteed to protect you at all costs.	1																					
+125	125		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+126	126		201							1	500166		-400																					
+127	127		201							2	500004		400																					
+128	128		301							1	Lucia	...Hold on, are you saying that Commandant has to carry out this mission alone?	1																					
+129	129		301								Asimov	The three of you still have to stay and carry out more tests. As to Hassen, you should know the way he does things better than I do.	2																					
+130	130		202							1	2				1																			
+131	131		201							1	500011																							
+132	132		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+133	133		301							1	Hassen	We've arranged for you a specific vehicle and real-time tracking. According to the plan, you'll be transferring the supplies at the outposts along the way.	1																					
+134	134		301								Hassen	The correspondence team and the extraction team have already landed. You will be assigned to the supply convoy in the corresponding areas so we can coordinate more easily.	1																					
+135	135		301								Hassen	Well, that's all for the small talk.	1																					
+136	136		301								Hassen	【kuroname】, you have two hours to prepare. See you on the bridge.	1																					
+137	137		302								I understand...	138																						
+138	138		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+139	139		201							1	500166		-400																					
+140	140		201							2	500004		400																					
+141	141		301							1	Asimov	Alright, the meeting's over. Go get ready, Commandant. Gray Raven, you're staying for more tests.	2																					
+142	142		301								Lucia	Commandant, please stay safe!	1																					
+143	143		302								Don't worry.	144																						
+144	144		202							1					1																			
+145	145		203							2	0.25																							
+146	146		301									Asimov fixes his messy hair from his earlier nap, looking fidgety due to lack of sleep.																						
+147	147		301		1		AniZhuanchangBegin				Asimov	And 【kuroname】... Safe travels.	2																					

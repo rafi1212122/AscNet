@@ -1,0 +1,221 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory47.jpg																								
+2	2		401							1	203																							
+3	3		301			DialogEnable						Ten minutes after the Gray Ravens have left the immersion frame...																						
+4	4		302								President.	5																						
+5	5		201							1	500011																							
+6	6		301							1	Hassen	Considering the sudden nature of the occurrence, I'll keep this briefing short.	1																					
+7	7		301								Hassen	Huaxu's intrusion was connected to multiple access points. Even Asimov couldn't determine the actual location of Huaxu in such a short time.	1																					
+8	8		301								Hassen	But the coordinates you acquired may be an important lead.	1																					
+9	9		201							1	500166																							
+10	10		301							1	Lucia	You mean...	1																					
+11	11		201							1	500011																							
+12	12		301							1	Hassen	It's time to take the offensive.	1																					
+13	13		302								Understood.	22	Is this data... reliable?	14																				
+14	14		301								Hassen	Good question. We've been thinking about whether or not they've set another trap.	1																					
+15	15		301								Hassen	After referencing the local data, we've found that the coordinates left by Huaxu are consistent with the possible base of several Ascendants we checked earlier.	1																					
+16	16		301								Hassen	Even if these coordinates aren't where Huaxu is located, they may still be... the...	1																					
+17	17		201							1	500004																							
+18	18		301							1	Asimov	Key bridge access point.	1																					
+19	19		201							1	500011																							
+20	20		301							1	Hassen	That's right. Key bridge access point.	1																					
+21	21		301								Hassen	Regardless, even if it's just an empty husk, it is still heavily associated with the Ascendants.	1																					
+22	22		301								Hassen	This does pose some risk, but it's a risk we have to take.	1																					
+23	23		301								Hassen	With this opportunity, we've never been closer to the Ascendants than we are now. Even if we can't eliminate them, we can at least clear up the mystery surrounding them.	1																					
+24	24		301								Hassen	As for the potential risks, we can minimize it with a swift and efficient operation.	1																					
+25	25		301								Hassen	We'll strike them before they even have time to react and complete our mission.	1																					
+26	26		201							1	500166																							
+27	27		301							1	Lucia	President, in the virtual space... We ran into...	1																					
+28	28		201							1	500011																							
+29	29		301							1	Hassen	Huaxu, correct? Although that was most likely just one of Huaxu's sub-terminals.	1																					
+30	30		301								Hassen	You've all seen what the Ascendants are capable of. You saw them steal Huaxu's key during the battle in Kowloong.	1																					
+31	31		301								Hassen	After that, Luna successfully launched an attack on New Murmansk.	1																					
+32	32		301								Hassen	Although we've already tried our best to save as many survivors as we could with the Forsaken and the Forest Guard...	1																					
+33	33		301								Hassen	The ARU still suffered considerable damage. She decimated a large area around the Research Institute.	1																					
+34	34		302								...																							
+35	35		201							1	1031001	14																						
+36	36		301							1	Liv	...How can that be?	1																					
+37	37		201							1	500011																							
+38	38		301							1	Hassen	The Forest Guard that arrived on the scene provided us with a report of the situation.	1																					
+39	39		301								Hassen	According to the damage and the statement from Staessen before he passed out in the ICU, the Ascendants stole the "experimental high-energy antenna cluster" from the ruins, just as we suspected.	1																					
+40	40		201							1	500026																							
+41	41		301							1	Lee	The experimental high-energy antenna cluster?	1																					
+42	42		201							1	500011																							
+43	43		301							1	Hassen	We couldn't get any more information out of Staessen. After all... even the doctor doesn't know if he'll ever wake up again.	1																					
+44	44		203							1	0.25	-400																						
+45	45		201							2	500004		400																					
+46	46		301							1	Asimov	Judging from what happened to you, the reason why Huaxu can invade Gestalt probably has to do with the antenna cluster taken by the Ascendants.	2																					
+47	47		302								Is Huaxu working for the Ascendants?	48																						
+48	48		301								Hassen	At the very least, the order to infiltrate Gestalt comes from them.	1																					
+49	49		301								Asimov	Oh, by the way—Gestalt has returned to normal. I slightly modified the computing power and adjusted the parts the Spear of F.O.S. can use.	2																					
+50	50		202							2					1																			
+51	51		203							1	0.25																							
+52	52		301								Hassen	In conclusion, we know what the Ascendants were after this time. It has also provided us with decisive intel.	1																					
+53	53		301								Hassen	—That is, the coordinates you obtained.	1																					
+54	54		301								Hassen	The coordinates point near City 075.	1																					
+55	55		201							1	500026																							
+56	56		301							1	Lee	City 075? Isn't that...	1																					
+57	57		201							1	500011																							
+58	58		301							1	Hassen	It's not exactly next to it, but you're right. It's the ruins of the zero-point reactor.	1																					
+59	59		301								Hassen	We'll take care of Gestalt. You, on the other hand, are tasked with investigating the coordinates.	1																					
+60	60		301								Hassen	Even if it doesn't lead to the Ascendants, it will at least point us in the right direction.	1																					
+61	61		301								Hassen	So this time, we'll be sending all the available forces to support you.	1																					
+62	62		203							1	0.25	-400																						
+63	63		201							2	500012		400																					
+64	64		301							1	Nikola	We've already assembled the Support Force and Task Force. They're awaiting your orders.	2																					
+65	65		302								Commander Nikola?	66																						
+66	66		301								Nikola	It's about time. We can't just be amassing forces.	2																					
+67	67		301								Nikola	We need to strike when it's time to strike.	2																					
+68	68		301								Hassen	We can't let this opportunity slip through our fingers. Advocating peace doesn't mean giving up the fight.	1																					
+69	69		301								Hassen	It's also time for all of Babylonia to realize what we're up against.	1																					
+70	70		301								Nikola	In short, all of Babylonia is ready.	2																					
+71	71		301				AniZhuanchangBegin				Hassen	...Then, let's begin.	1																					
+72	72		202							1	2				1																			
+73	73		101							Assets/Product/Texture/Image/BgStory/BgStory47.jpg																								
+74	74		401							1	201																							
+75	75		301			AniZhuanchangEnd						After Hassen gives his orders to everyone, they proceed to their posts.																						
+76	76		201							1	500166																							
+77	77		301							1	Lucia	President, we're going to begin our preparations.	1																					
+78	78		201							1	500011																							
+79	79		301							1	Hassen	Go ahead, but 【kuroname】, stay for a second.	1																					
+80	80		302								?	81																						
+81	81		301								Hassen	I should let you know something before the mission starts.	1																					
+82	82		302								Understood.	83																						
+83	83		201							1	500166																							
+84	84		301							1	Lucia	Should we stay here?	1																					
+85	85		201							1	500011																							
+86	86		301							1	Hassen	...I'm not sending 【kuroname】 away on another mission. There's just something... I need to tell your commandant.	1																					
+87	87		302								Will you give us a moment?	88																						
+88	88		201							1	500166																							
+89	89		301							1	Lucia	...Understood.	1																					
+90	90		202							1					1																			
+91	91		301									The three Gray Ravens give a brief but firm nod, then turn to leave.																						
+92	92		301									Hassen does not immediately start talking. Instead, he looks at Lucia as she walks off, lost in thought.																						
+93	93		301									It is not until the three Gray Ravens have exited the bridge does Hassen turn to face you.																						
+94	94		201							1	500011																							
+95	95		301							1	Hassen	Looks like my hunch was correct...	1																					
+96	96		302								?	97																						
+97	97		301								Hassen	Remember the thing I sent you to do alone?	1																					
+98	98		301								Hassen	I gave you some temporary clearance for the sake of training and other considerations.	1																					
+99	99		301								Hassen	It gave you access to something you shouldn't have found out.	1																					
+100	100		302								...	101																						
+101	101		301								Hassen	As you know, there is too much information in Babylonia that could not be brought to light.	1																					
+102	102		301								Hassen	But on a battlefield, the lack of crucial information can cause irreparable consequences.	1																					
+103	103		301								Hassen	...	1																					
+104	104		301									Hassen stops and closes his eyes for a long time. His frown alludes to the struggle inside him.																						
+105	105		301									Finally, Hassen's deliberation ends with a sigh.																						
+106	106		201							1	500004																							
+107	107		301							1	Asimov	Are you sure you still want to do this?	1																					
+108	108		301									When Hassen sighs, Asimov slowly walks out of the corner, understanding the implication of his sigh.																						
+109	109		201							1	500011																							
+110	110		301							1	Hassen	Yes. They were the first to show their hand, so we should also be fully prepared. This incident is likely to be an important point of progress for us in this war.	1																					
+111	111		301								Hassen	Asimov, it's time to give it to 【kuroname】.	1																					
+112	112		302								What do you want to give me?	113																						
+113	113		201							1	500004																							
+114	114		301							1	Asimov	A "double-edged sword." It will either be your key to victory, or it will be the thing that destroys the Gray Ravens.	1																					
+115	115		302								Is it about her?	116																						
+116	116		201							1	500011																							
+117	117		301							1	Hassen	...Yes.	1																					
+118	118		301				AniZhuanchangBegin				Hassen	Since her frame is...	1																					
+119	119		202							1					1																			
+120	120		101							Assets/Product/Texture/Image/BgStory/Bgstory263.png																								
+121	121		401							1	102																							
+122	122		301			AniZhuanchangEnd						Intelligence Agency Archives.																						
+123	123		301									Sweating profusely, Murray rips the sweat-soaked mask terminal from his face.																						
+124	124		201							1	500146																							
+125	125		301							1	Murray	Phew... Good thing I made it.	1																					
+126	126		301									He removes the memory drive from the terminal and pockets it.																						
+127	127		301								Murray	That was a rare sight to see... Time to make my getaway.	1																					
+128	128		301								Murray	I have to get out of here before the intelligence department has time to react.	1																					
+129	129		301									Murray kicks the scattered terminals into the gaps between the equipment with his heel, straightens his collar, and walks out of the archives.																						
+130	130		301									Outside of the archives, he is surprised to see someone waiting for him.																						
+131	131		301								Valeria	...																						
+132	132		301								Murray	Scarab... What a coincidence. Do you have a mission here as well?	1																					
+133	133		301								Valeria	Hand it over.																						
+134	134		301								Murray	Ok.	1																					
+135	135		301									Murray takes out the memory drive from his coat and hands it to Valeria.																						
+136	136		301								Valeria	Commander Nikola thanks you for your cooperation.																						
+137	137		204							1	1																							
+138	138		301								Murray	I would be happier if he conveyed it personally.	1																					
+139	139		301								Valeria	That's not my problem.																						
+140	140		204							1																								
+141	141		301								Murray	...It must be hard for you to obey the commander in such capacity, huh?	1																					
+142	142		301								Valeria	...																						
+143	143		301									Four invisible indentations instantly appear on Murray's neck.																						
+144	144		204							1	1																							
+145	145		301								Murray	Don't get me wrong. After all, I'm also working for the man. Now, would you please remove Yata's invisible tentacles from my neck?	1																					
+146	146		301								Valeria	Yata.																						
+147	147		301								???	What a bore... When can I kill the funny guy?																						
+148	148		301								Valeria	You'll have your chance. Release him.																						
+149	149		301									The indentations on Murray's neck fade away, revealing the camouflaged tentacles.																						
+150	150		301									A peculiar-looking Construct appears along with them.																						
+151	151		301								Yata	In that case, shall we go and find some other unlucky vermin to kill, Captain?																						
+152	152		301								Yata	I have no interest in those I'm not allowed to kill.																						
+153	153		301								Valeria	Fine. But first, we must complete our delivery.																						
+154	154		301								Yata	Hmph.																						
+155	155		301									Yata releases the tentacles around Murray's neck, then turns to leave the archives with Valeria.																						
+156	156		204							1																								
+157	157		301									After watching them leave, Murray touches the suction marks on his neck, then clears his expression.																						
+158	158		301								Murray	That wasn't exactly how I pictured it ending...	1																					
+159	159		301				AniZhuanchangBegin				Murray	But... that counts as completing my objective, I suppose.	1																					
+160	160		101							Assets/Product/Texture/Image/BgStory/Bgstory277.png																								
+161	161		401							1	202																							
+162	162		201							1	500238		-500																					
+163	163		201							2	500100		500																					
+164	164		301			AniZhuanchangEnd				1	α	We're back.	2																					
+165	165		301								Luna	Prepare our defenses.	1																					
+166	166		301								α	...Is that necessary?	2																					
+167	167		301								Luna	Just take it as a precaution. That said—since our operation failed...	1																					
+168	168		301				AniZhuanchangBegin				Luna	Our enemy surely won't just leave us be.	1																					
+169	169		202							1	2				1																			
+170	170		101							Assets/Product/Texture/Image/BgStory/Bgstory277.png																								
+171	171		301			AniZhuanchangEnd					Huaxu	I... have successfully relayed... the information.																						
+172	172		301				AniZhuanchangBegin				Huaxu	Next, I will begin simulating Babylonia's operation after they receive the data.																						
+173	173		101							Assets/Product/Texture/Image/BgStory/Bgstory284.jpg																								
+174	174		401							1	203																							
+175	175		301			AniZhuanchangEnd						An hour later...																						
+176	176		301								Airspace Control AI	Order from the President with the highest clearance.																						
+177	177		301								Airspace Control AI	From now on, all inbound and outbound routes for Babylonia are under emergency takeover.																						
+178	178		301								Airspace Control AI	Deck control team, please arrive at your stations within fifteen minutes. First outbound flight: T-minus twenty minutes.																						
+179	179		301								Airspace Control AI	This is not a drill. Repeat, this is not a drill.																						
+180	180		301									...																						
+181	181		301									A massive transport craft is lifted out of the basement by an equally massive elevator. As it reaches the deck, a tow truck at the ready attaches to the front of the landing gear.																						
+182	182		301								Tow Truck Driver	Attachment complete!																						
+183	183		301									The tow truck shuttles the transport craft along the fluorescent indicators on the deck to the launch point. After releasing the tow hook, it turns left 90 degrees and accelerates to leave the site.																						
+184	184		301								Airspace Control AI	Mother Goose-1, testing communication link.																						
+185	185		301								Pilot	Loud and clear. Communication link functional.																						
+186	186		301								Airspace Control AI	Mother Goose-1, take Runway 37 right, turn 167.43 upon departure. Maintain communication. Godspeed.																						
+187	187		301								Pilot	Mother Goose-1, Roger that. Taking Runway 37 right, turning 167.43 upon departure. Maintaining communication. Tailwind is at our backs.																						
+188	188		301								Co-pilot	Serious question: do tailwind and headwind even matter in low Earth orbit?																						
+189	189		301								Pilot	Cut it. Who wants to hear that "we're facing headwind and flying through an air pocket"? Time for takeoff.																						
+190	190		301									The pilot forcefully pushes down the throttle, causing the engine to roar as the massive aircraft accelerates down the runway.																						
+191	191		301								Airspace Control AI	Mother Goose-1, departing with Gray Raven operatives in transport.																						
+192	192		301								Airspace Control AI	Assemble the deck control team and prepare for the next departure in five minutes.																						
+193	193		301									...																						
+194	194		301									While the deck is busy with inbound and outbound flights, the launchers below the deck also remain at the ready.																						
+195	195		301								Fighter Pilot	Ranger-1 to Ranger-16 prepared for launch.																						
+196	196		301								Airspace Control AI	Copy. Launch after Mother Goose-1 has cleared the deck. T-minus two minutes.																						
+197	197		301								Fighter Pilot	Roger. What's the situation in the target airspace?																						
+198	198		301								Airspace Control AI	Situation unclear. Please be prepared for all possibilities.																						
+199	199		301								Fighter Pilot	I knew it. They wouldn't send the Rangers into battle otherwise. We're the best Fenrir fighter pilots around.																						
+200	200		301								Fighter Pilot	This is the kind of mission for the Rangers!																						
+201	201		301								Airspace Control AI	If you encounter enemies, avoid unnecessary confrontation. Your top priority is to escort the transport craft.																						
+202	202		301								Fighter Pilot	Got it, got it...																						
+203	203		301								Airspace Control AI	Takeoff is a go. Ranger-1 to Ranger-16, prepare for launch.																						
+204	204		301								Fighter Pilot	Alright, boys. It's showtime!																						
+205	205		301				AniZhuanchangBegin					...																						
+206	206		101							Assets/Product/Texture/Image/BgStory/BgStory47.jpg																								
+207	207		401							1	202																							
+208	208		201							1	500011		-400																					
+209	209		201							2	500004		400																					
+210	210		301			AniZhuanchangEnd				1	Asimov	...	2																					
+211	211		301								Hassen	What is it?	1																					
+212	212		301								Asimov	They disengaged from immersion too quickly. Which means...	2																					
+213	213		301								Hassen	?	1																					
+214	214		301								Asimov	Their perception of reality may still be affected by the virtual space.	2																					
+215	215		301								Asimov	While there should be no problem when they're in the transport craft, the moment they reach the ground...	2																					
+216	216		301								Hassen	Get to the point, Asimov.	1																					
+217	217		301								Asimov	We should consider temporarily uploading the Spear of F.O.S. to their command links.	2																					
+218	218		301								Asimov	In that way, they can at least deal with the situation unhindered. Moreover, as long as they can connect to Babylonia, they can also use the additional functions of the Spear of F.O.S. through Gestalt.	2																					
+219	219		301								Hassen	Do as you see fit.	1																					
+220	220		301		1		AniZhuanchangBegin				Hassen	I'll prepare a liaison officer for you.	1																					

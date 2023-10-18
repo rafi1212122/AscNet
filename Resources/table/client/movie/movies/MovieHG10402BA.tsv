@@ -1,0 +1,33 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory20.jpg																								
+2	1000		401							1	201																							
+3	2		201							1	1091001																							
+4	3		301			DialogEnable				1	Bianca	You wanted to know more about the Purifying Force, Commandant?	1																					
+5	4		302								Can you tell me?	5	I wanted to know more about you, actually.	11																				
+6	5		301								Bianca	As you know, the Purifying Force is the task force that specializes in purifying Constructs.	1																					
+7	6		301								Bianca	Although we do fight Corrupted sometimes, our main duty is to hunt down defected Constructs.	1																					
+8	7		301								Bianca	...Deserters such as Watanabe.	1																					
+9	8		301								Bianca	I'm sure they all have their reasons. But in an army, unity is the most important thing.	1																					
+10	9		301								Bianca	If we allow Constructs to desert or abandon their missions, any task force could crumble at any second.	1																					
+11	10	18	301								Bianca	That is why the Purifying Force is established, to prevent that from happening.	1																					
+12	11		301								Bianca	I see... I'm sure I've asked you to treat me as a tool.	1																					
+13	12		301								Bianca	But if your objective is to better implement me on the battlefield... then I'll comply.	1																					
+14	13		301								Bianca	That said, there's not much to know about me. As you're aware, I'm Bianca, one of the team captains of the Purifying Force.	1																					
+15	14		301								Bianca	My main duty is to hunt down and destroy defected or corrupted Constructs. My specialty is archery.	1																					
+16	15		301								Bianca	While I perform well in melee combat, I believe it is a captain's role to know the battlefield inside out.	1																					
+17	16		301								Bianca	Which is why I picked a bow as my weapon of choice...	1																					
+18	17		301								Bianca	As for the other data regarding my frame, I'm sure you can look them up on the system. I'll save you the lecture.	1																					
+19	18		301								Bianca	Are you satisfied with my answer, Commandant?	1																					
+20	19		301								Bianca	In that case, I think that's enough chitchat for the day. Our job today is to collect military supplies from the Support Force.	1																					
+21	20		201							1	500019																							
+22	21		301							1	Support Construct	I-it's the Purifying Force!	1																					
+23	22		201							1	1091001																							
+24	23		301							1	Bianca	Hm?	1																					
+25	24		201							1	500019																							
+26	25		301							1	Support Construct	Hold on, w-we haven't done anything! We're innocent!	1																					
+27	26		302								What are you talking about?	27	Bianca wasn't going to do anything to you.	27																				
+28	27		401							2	1513																							
+29	28		301								Support Construct	Ahh... Wahhhh!	1																					
+30	29		201							1	1091001																							
+31	30		301							1	Bianca	...	1																					
+32	31		301		1		AniZhuanchangBegin				Bianca	Don't blame them, Commandant. It's only natural to be scared of the Purifying Force... to be scared of me.	1																					

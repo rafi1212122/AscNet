@@ -1,52 +1,0 @@
-LÏ-–'/·À+tWoýÖôw4ÁbÉF.EÏÊñxÄ!]¨¦…ÄzÛáÎ0=:ªÕj·™­BÆ‚5ÛÁùE&:/:Ãa+YÄkÚÚ<øõñ§›{LÈ]¡Ì÷áÛ<TœW|„å´Îœ_â»7Å’æUê…[´Îÿ—Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
-1	100		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory84.jpg																								
-2	2		401							1	10																							
-3	124		201							1	1011001		-400																					
-4	125		201							2	500127		400																					
-5	126		301			DialogEnable				1	Lee	I see the tower!	1																					
-6	127		301							1	Sophia	Start the reboot sequence!	2																					
-7	128		202							1	2				1																			
-8	129		301									...																						
-9	130		201							1	500127					1																		
-10	131		301							1	Sophia	Purifying rod is... still usable. Functionality is at... 37%. That's more than enough.	1																					
-11	132		301							1	Sophia	All systems green. Rebooting filter now!	1																					
-12	133		202							1																								
-13	134		301									...																						
-14	135		301									...Did it work?																						
-15	136		301									Aside from the residual hums within the central purification filter chamber, you do not feel any differences.																						
-16	137		201							1	1031001																							
-17	138		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
-18	139		301							1	Liv	The Corrupted are retreating... Did it work, Commandant?	1																					
-19	140		302								Yep. The filter is online.	141																						
-20	141		202							1		Now then, only one thing left to do...																						
-21	142		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
-22	143		301				AniZhuanchangBegin					Now then, only one thing left to do...																						
-23	144		201							1	1111001																							
-24	145		301			AniZhuanchangEnd				1	Karenina	The mainframe of the control center is here.	1																					
-25	146		301							1	Karenina	If the engies are renovating this place, this kid'll have to be shut off first.	1																					
-26	147		202							1					1																			
-27	148		301								Control Terminal	Cosmos Industries MSC-43B. In service for â– â– â– â– â–  days.																						
-28	149		301								Control Terminal	Log: â– â– /â– â– /â– â– â– â– . Registered large quantities of unidentified hostile entities. Modified functions to protect evacuating humans.																						
-29	150		301								Control Terminal	Log: â– â– /â– â– /â– â– â– â– . Partial withdrawal of unidentified hostile entities due to high-frequency signal broadcast from coordinates: â– â– â– .																						
-30	151		301								Control Terminal	Log: â– â– /â– â– /â– â– â– â– . To sustain current functionality, Emergency Protocol 331A has been executed. All external ports disconnected.																						
-31	152		201							1	1111001					1																		
-32	153		301							1	Karenina	What a champ... Even popping 331A...	1																					
-33	154		202							1																								
-34	155		301								Control Terminal	Control Logs: This terminal has been running â– â– â– â– â–  days past standard operation limits.																						
-35	156		201							1	1111001					1																		
-36	157		301							1	Karenina	The logs are overflowin' too... Commandant, shut it down already.	1																					
-37	158		301							1	Karenina	Even machines need rest. And this boyo deserves one more than any other.	1																					
-38	159		302								Turn off the terminal	160																						
-39	160		202							1																								
-40	161		301								Control Terminal	System shutdown... confirmed.																						
-41	162		301								Control Terminal	Cosmos Industries... Excellence and reliability in design...																						
-42	163		301								Control Terminal	...																						
-43	164		201							1	1111001																							
-44	165		301							1	Karenina	Man, they need to pay you more for this. "Reliability in design", huh... Guess that's not just sales talk.	1																					
-45	166		301							1	Karenina	That's one hell of an overtime... Sleep tight, sweet prince.	1																					
-46	167		202							1					1																			
-47	168		201							2	500001					1																		
-48	169		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
-49	170		301							1	Celica	Hello? Do you copy? According to the reports from the nearby task force squads, most of the Corrupted around the filter chamber should be exterminated.	2																					
-50	171		301							1	Celica	Engineering and Support Forces are en route.	2																					
-51	172		301		1		AniZhuanchangBegin			1	Celica	Good work, everyone. Take five. We'll send you the intel for the next area later.	2																					

@@ -1,0 +1,52 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		401			AniZhuanchangEnd				1	201																							
+2	2		101							Assets/Product/Texture/Image/BgStory/Bgstory172.png																								
+3	3		201							1	500167	4																						
+4	4		301							1	Bridget	Her wounds... Get her in the truck. We'll handle the rest.	1																					
+5	5		301									On your way back to the city, you run into the traveling Support Force agents. You follow their instructions and put Lucia in the transport truck.																						
+6	6	8	301								Lucia	...																						
+7	8	10	203							1	0.25	400																						
+8	10		201							2	1031001	14	-400																					
+9	11		301							1	Liv	Lucia...	2																					
+10	12		301								Bridget	She's in pretty bad shape. What on earth happened...?	1																					
+11	13		302								The Ascendants happened.	14	Is she gonna be okay?	17																				
+12	14		301								Bridget	The Ascendants...? Then you guys must be Gray Raven. It's incredible you made it here alive. Elite squad indeed.	1																					
+13	15		301								Liv	But we didn't even get anything done. Worse, we...	2																					
+14	16	18	301								Bridget	Just the fact that you're all alive is something.	1																					
+15	17		301								Bridget	Yes, as long as we can keep her M.I.N.D. alive. But she's not returning to the battlefield any time soon.	1																					
+16	18		301								Bridget	Anyway, first things first, we gotta bring her back to our base. You guys go ahead and return to battle.	1																					
+17	19		301									With that, Bridget motions the driver to start the truck and hops on the back.																						
+18	20		202							1	2	3																						
+19	21		201							1	500026																							
+20	22		301							1	Lee	Lucia should be fine with the SF people. Now we need to figure out our next move...	1																					
+21	23		203							1	0.25	400																						
+22	24		201							2	500110		-400																					
+23	25		301							1	Ayla	Then from here on out, let me assist Gray Raven!	2																					
+24	26		301									A cheerful voice from a scythe-wielding Construct dispels the gloom—Ayla. Like always, she is in that painterly frame of hers, looking out of place in a battlefield.																						
+25	27		302								What are you doing here, Ayla?	28	Assist...?	29																				
+26	28	30	301								Ayla	President Hassen issued a call to arms. I'm not a combatant, but I know I gotta be a part of this!	2																					
+27	29		301								Ayla	I rushed over as soon as I learned what happened to Lucia. So let me help out, Commandant!	2																					
+28	30		301								Ayla	And besides...	2																					
+29	31		301									Ayla pauses and fishes through her decorative backpack, then displays a strangely shaped device.																						
+30	32		202							2																								
+31	33		301								Lee	What's this...?	1																					
+32	34		201							2	500011		-400																					
+33	35		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+34	36		301							1	Hassen	Good, now we can talk. Gray Raven, how am I sounding?	2																					
+35	37		302								Mr. President?	38	Why this device?	40																				
+36	38		301								Hassen	...You must be wondering why I'm speaking to you via Ayla's connection device.	2																					
+37	39	41	301								Lee	Must be the scrambler waves from Kowloong. Not sure if it's effective against the Ascendants, but it sure messed up our comms systems.	1																					
+38	40		301								Hassen	Kowloong is broadcasting a scrambling signal. This is the only way I can contact you from outside the city.	2																					
+39	41		301								Hassen	We're already at work fixing the connection, but I'm afraid it's gonna take a while, so I had this comms device sent to you.	2																					
+40	42		301								Lee	You have new orders for us, I take it?	1																					
+41	43		301								Hassen	Originally, several, yes. But there's been a change of plans. One of the Ascendants, Gabriel, launched a surprise assault, so now I need you to go there and stop him.	2																					
+42	44		301								Hassen	Of course, I've sent other squads too. And let me repeat this—the Ascendants are after the Gestalt-grade terminal within the light wall.	2																					
+43	45		301								Hassen	Stop them at all costs. I'm counting on you.	2																					
+44	46		302								Understood.	47	Can we really defeat the Ascendants?	48																				
+45	47	49	301								Hassen	Good. Now take Ayla with you and go.	2																					
+46	48		301								Hassen	Not like we can just surrender. But you know that already, 【kuroname】.	2																					
+47	49		201							1	1031001	6	400																					
+48	50		301							1	Liv	Oh, and President Hassen!	1																					
+49	51		301								Hassen	Yes?	2																					
+50	52		301								Liv	Who was it that saved us on the bridge?	1																					
+51	53		301		1		AniZhuanchangBegin				Hassen	They... are the fruits of our labor.	2																					

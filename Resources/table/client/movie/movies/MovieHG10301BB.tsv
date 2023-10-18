@@ -1,0 +1,53 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory1.jpg																								
+2	2		401							1	202																							
+3	3		201							1	1021001																							
+4	4		301			DialogEnable				1	Lucia	Our only target is that Corrupted!	1																					
+5	5		401							2	1508																							
+6	6		201							1	500013																							
+7	7		301							1	Corrupted	—!	1																					
+8	8		201							1	1011001																							
+9	9		301							1	Lee	You're not getting away.	1																					
+10	10		201							1	1021001																							
+11	11		301							1	Lucia	We'll split up once Liv arrives at the designated point, understood?	1																					
+12	12		201							1	1011001																							
+13	13		301							1	Lee	Understood.	1																					
+14	14		201							1	1031001																							
+15	15		301							1	Liv	This is the designated point according to the path prediction... All I have to do now is point and shoot.	1																					
+16	16		302								Relax.	18	Seems pretty straightforward.	17																				
+17	17		301								Liv	I'm sure it's going to be very easy... with you here by my side, Commandant.	1																					
+18	18		201							1	1021001																							
+19	19		301							1	Lucia	The Corrupted is heading to the commandant as we predicted. Are you ready?	1																					
+20	20		302								I'm good.	21	Are we sure we're just going to leave it to Liv?	21																				
+21	21		201							1	1031001																							
+22	22		301							1	Liv	Hold on, I have to move forward a little bit to hit the target.	1																					
+23	23		201							1	1011001																							
+24	24		301							1	Lee	Wait, Liv! It'll discover you if you move!	1																					
+25	25		201							1	1031001																							
+26	26		301							1	Liv	Firing!	1																					
+27	27		201							1	500013																							
+28	28		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHuijinNew.prefab	2																							
+29	29		301							1	Corrupted	—!	1																					
+30	30		302								We missed...	31	We're discovered?!	31																				
+31	31		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHuijinNew.prefab																							
+32	32		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackSmokeNew.prefab	1																							
+33	33		301								Corrupted	—! —!	1																					
+34	34		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackSmokeNew.prefab		1																					
+35	35		301								Corrupted	—!!!	1																					
+36	36		201							1	1011001																							
+37	37		301							1	Lee	This operation has failed...	1																					
+38	38		201							1	1031001	14																						
+39	39		301							1	Liv	...	1																					
+40	40		302								There's always next time, Liv.	41	I guess it's time for another review report.	42																				
+41	41	43	301								Liv	We can't just wait for the next mission...	1																					
+42	42		301								Liv	It was because of me that...	1																					
+43	43		301								Liv	I must do my best to prove myself worthwhile to the Gray Ravens and Commandant as quickly as possible.	1																					
+44	44		201							1	1021001																							
+45	45		301							1	Lucia	What if the commandant conducts special training with you, Liv?	1																					
+46	46		302								Me?	47	Special training?	49																				
+47	47		201							1	1031001	14																						
+48	48	52	301							1	Liv	(Nods) I'm certain you would give me constructive advice, Commandant.	1																					
+49	49		201							1	1011001																							
+50	50		301							1	Lee	Liv's combat experience is relatively lacking compared to the other Constructs'. How about you just accompany her with whatever she wants to do for now?	1																					
+51	51		201							1	1031001	14																						
+52	52		301		1		AniZhuanchangBegin			1	Liv	In that case... I'll count on you, Commandant.	1																					

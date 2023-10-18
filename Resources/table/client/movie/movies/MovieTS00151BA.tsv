@@ -1,0 +1,34 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory83.jpg																								
+2	2		401							1	203																							
+3	3		201							1	500019																							
+4	4		301			DialogEnable				1	Guard	Power supply damaged... Insufficient power in weather engine Group B...	1																					
+5	5		201							1	1091001																							
+6	6		301							1	Bianca	(Nails the guard to the wall with an arrow) That's weird... It's broadcasting the warning about the power supply, but Nat's not here, and it's the only guard present...	1																					
+7	7		301								Bianca	What's its motive?	1																					
+8	8		301								Bianca	That can't be Nat's design...	1																					
+9	9		201							1	500019																							
+10	10		301							1	Guard	Insufficient power in weather engine Group C... Insufficient power in cooling systems Group D, Group E, Group F...	1																					
+11	11		201							1	1091001																							
+12	12		301							1	Bianca	(Checks the alarm receiver inside the guard's head) It hasn't turned on the alarm receiver, which means it's just broadcasting the warning itself...?	1																					
+13	13		201							1	500019																							
+14	14		301							1	Guard	Temperature of weather engine rising... 20 minutes until danger threshold... Correction—correcting projection...	1																					
+15	15		301								Guard	11 minutes until danger threshold... Correction—correcting projection...	1																					
+16	16		301								Guard	6 minutes until danger threshold... Correction—correcting projection...	1																					
+17	17		301								Guard	1 minute until danger threshold... Correction—correcting projection...	1																					
+18	18		201							1	1091001																							
+19	19		301							1	Bianca	...?	1																					
+20	20		201							1	500019																							
+21	21		301							1	Guard	Temperature of weather engine... has reached the danger threshold... I repeat... Danger threshold reached...	1																					
+22	22		201							1	1091001	4																						
+23	23		301							1	Bianca	(Realizes the severity) If this continues... the Golden Vortex is going to...	1																					
+24	24		401							2	1515																							
+25	25		301								Bianca	Establishing communications... Keep trying until I'm connected... Ignore all warnings!	1																					
+26	26		301								Bianca	(Leaves in a hurry) I have to find Karenina before returning to the commandant.	1																					
+27	27		201							1	500019																							
+28	28		301							1		After Bianca leaves...																						
+29	29		202							1					1																			
+30	30		301							1		The eyes of the motionless guard suddenly flash red...																						
+31	31		201							1	500006																							
+32	32		401							2	1508																							
+33	33		301		1		AniZhuanchangBegin			1	Guard	(Removes Bianca's arrow) ...!	1																					

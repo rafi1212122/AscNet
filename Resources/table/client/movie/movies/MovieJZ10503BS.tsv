@@ -1,0 +1,79 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory32.jpg																								
+2	2		401							1	204																							
+3	3		201							1	500091	1	400																					
+4	4		201							2	500092		-400																					
+5	5		301			DialogEnable				1	Nanami	Amy Amy, I'm Nanami!	1																					
+6	6		204							1																								
+7	7		301								Amy	...	2																					
+8	8		301								Nanami	Hm...? Why isn't Amy talking to Nanami?	1																					
+9	9		301								Amy	...Don't talk to me.	2																					
+10	10		204							1	1																							
+11	11		301								Nanami	Hm... but you can't install a beta lamp this way, let Nanami help you!	1																					
+12	12		204							1																								
+13	13		301								Amy	...	2																					
+14	14		301								Amy	...Thank you.	2																					
+15	15		204							1	1																							
+16	16		301								Nanami	Alright! Anything else you need help with? Nanami will help you solve it!	1																					
+17	17		301								Amy	Wait, I can't throw you all my... Why are you helping me?	2																					
+18	18		301								Nanami	Because we're friends!	1																					
+19	19		204							2	11																							
+20	20		301								Amy	Get over yourself, I'm not your friend!	2																					
+21	21		204							2																								
+22	22		204							1																								
+23	23		301								Nanami	Umm... But that ol' pops said Nanami's everyone's new friend! I thought you all agreed so you stayed silent.	1																					
+24	24		204							1	1																							
+25	25		301								Nanami	And, Commandant said that friends should help each other out!	1																					
+26	26		204							1																								
+27	27		301								Amy	...	2																					
+28	28		301								Amy	I don't need friends, let alone a Construct friend.	2																					
+29	29		301								Amy	...I don't want to force myself to forget someone again.	2																					
+30	30		204							1	1																							
+31	31		301								Nanami	Wow! Amy, you can clear your memory data without doing a system reset?	1																					
+32	32		204							2	11																							
+33	33		301								Amy	I don't mean it like that, it's...!	2																					
+34	34		204							1																								
+35	35		301								Nanami	If you can't reset it, then you can't forget it, right?	1																					
+36	36		204							2																								
+37	37		301								Amy	...	2																					
+38	38		301								Amy	No, I can't...	2																					
+39	39		301								Amy	Shove off, I have to handle the equipment for tomorrow.	2																					
+40	40		201							3	500094																							
+41	41		301							1	Nanami	Hm...? What's this?	1																					
+42	42		202							3					1																			
+43	43		204							2	7																							
+44	44		301								Amy	!	2																					
+45	45		301								Amy	Give it back!	2																					
+46	46		204							2																								
+47	47		301								Nanami	Nanami's scanning system activates automatically. The music box was broken long before Nanami touched it.	1																					
+48	48		301								Nanami	The comb in the music box is stuck, that's why it's not making any sound.	1																					
+49	49		301								Amy	...Can you...	2																					
+50	50		301								Amy	Can you fix it?	2																					
+51	51		204							1	1																							
+52	52		301								Nanami	Haha! You asked the right person! It's Nanami's time to shine!	1																					
+53	53		204							1																								
+54	54		301								Nanami	But, who's Robert?	1																					
+55	55		204							2	7																							
+56	56		301								Amy	How did you know this name?	2																					
+57	57		204							2																								
+58	58		301								Nanami	Um... If you read the comb teeth from their directional order in machine language...	1																					
+59	59		301								Nanami	It says "Amy and Robert are friends forever."	1																					
+60	60		204							1	1																							
+61	61		301								Nanami	So, this music box has been singing "Amy and Robert are friends forever..."	1																					
+62	62		204							1																								
+63	63		301								Nanami	Until it got stuck!	1																					
+64	64		301								Nanami	To make a music box comb with such precision, hmmm... Is Robert also a Construct?	1																					
+65	65		301								Amy	...	2																					
+66	66		301								Nanami	And... a little bit of this... and... done!	1																					
+67	67		401							2	1509																							
+68	68		301									(Clank Clong)	1																					
+69	69		201							3	500095																							
+70	70		301							1	Nanami	...	1																					
+71	71		202							3					1																			
+72	72		204							2	7																							
+73	73		301				AniZhuanchangBegin				Amy	This...	2																					
+74	74		202							1	2				1																			
+75	75		101							Assets/Product/Texture/Image/BgCg/Cgqz801.jpg																								
+76	76		301			AniZhuanchangEnd					Nanami	Well... since I don't know what Robert looks like, Nanami will just have to stand in for a while! Be friends forever with Robert!																						
+77	77		301								Nanami	And Nanami too! Nanami will be friends forever with Amy!																						
+78	78		301		1		AniZhuanchangBegin				Amy	Friends...																						

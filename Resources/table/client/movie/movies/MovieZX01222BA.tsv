@@ -1,0 +1,49 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory177.png																								
+2	2		401							1	102																							
+3	3		201							1	500110	4	-400																					
+4	4		201							2	1031001	7	400																					
+5	100		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryGoldDustBrokenLightWall.prefab	2																							
+6	5		301			DialogEnable				1	Ayla	Wow...	1																					
+7	6		301								Liv	...Did we make it through?	2																					
+8	7		202							1	2																							
+9	101		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryGoldDustBrokenLightWall.prefab																							
+10	8		301									By the time you reach the light wall as instructed by the president, Gabriel is nowhere to be seen. Only a strange rift is torn in the wall.																						
+11	102		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryGoldDustLightWall.prefab	2																							
+12	9		301									Liv first suggested saving the comrades lying around first, but that was when the light wall begins to regenerate. Reaching curt agreement, everyone decides to enter and go after Gabriel.																						
+13	10		201							1	500110		-400																					
+14	11		201							2	500026		400																					
+15	12		301							1	Ayla	Glad everyone's okay. Though... the buildings look exactly the same as they do from outside the walls.	1																					
+16	13		301								Lee	These buildings aren't important. It's the...	2																					
+17	14		301								Ayla	...The tower, huh... Something important must be hiding in there.	1																					
+18	15		302								Like Qu.	16	Like Huaxu.	19																				
+19	16		301								Ayla	Makes sense. People with power live in high places.	1																					
+20	17		201							2	1031001	14	400																					
+21	18	20	301							1	Liv	If that's the case, the Gestalt system should be up there too. After all, it's safer to keep it close by.	2																					
+22	19		301								Lee	Normally I'd consider this tower too conspicuous of a hiding place, but given how egomaniacal that Qu was earlier, I'd say there's a pretty good chance Huaxu is up there too.	2																					
+23	20		202							1	2				1																			
+24	21		201							1	500026																							
+25	22		301							1	Lee	Okay then, since we have no idea where Gabriel ran off to, we might as well check out that tower first.	1																					
+26	23		301								Lee	Let's go meet Qu or Huaxu first. We'll think about the next step after.	1																					
+27	24		201							1	500110	4																						
+28	25		301							1	Ayla	Would she ever listen to us? I mean, I don't know about Huaxu, but Qu has been hostile to us...	1																					
+29	26		201							1	500026																							
+30	27		301							1	Lee	Doubt she would listen, but we're stuck here anyway.	1																					
+31	28		202							1																								
+32	29		301									Lee glances at the restored light wall. From the havoc outside, it goes without saying that the only way to open the wall is through a high-energy collision.																						
+33	30		201							1	1031001	14																						
+34	31		301							1	Liv	I agree. That's what Lucia would have done too...	1																					
+35	32		302								All right, let's do this.	33	We'll gift Lucia with the news of our victory.	35																				
+36	33		201							1	500110																							
+37	34	39	301							1	Ayla	So, first step, I guess—We get rid of these terracottas, right?	1																					
+38	35		201							1	500026																							
+39	36		301							1	Lee	Great idea, Commandant.	1																					
+40	37		201							1	500110																							
+41	38		301							1	Ayla	How nice, I wish I had teammates like Gray Raven too... Huh?	1																					
+42	39		202							1																								
+43	40		301									After deciding what to do, Ayla readies her scythe and fixes her gaze on the road ahead.																						
+44	41		301									Sounds of machinery fill the space, followed by the entry of a Construct built like a dharmapala. He holds a weapon in one hand, and a mangled Corrupted in the other.																						
+45	42		301									More Constructs of the same design follow after him. Together, they march to fewer than ten meters away from you. The leading Construct then discards the Corrupted remains in his hand as a display of strength.																						
+46	43		201							1	500169																							
+47	44		301							1	Prime	We are Primes, the pinnacle of Constructs guarding Kowloong.	1																					
+48	45		301		1		AniZhuanchangBegin				Prime	We come on Lady Qu's order to eliminate invaders!	1																					

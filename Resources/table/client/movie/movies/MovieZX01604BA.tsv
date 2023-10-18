@@ -1,0 +1,65 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory261.png																								
+2	2		401							1	203																							
+3	3		201							1	500011		-400																					
+4	4		201							2	500004		400																					
+5	5		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+6	6		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+7	7		301			DialogEnable				1	Hassen	...What?	1																					
+8	8		302								I was very clear in my report.	9																						
+9	9		301								Asimov	A comprehensive data camouflage... How is that possible?!	2																					
+10	10		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+11	11		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+12	12		202							1	2				1																			
+13	13		201							1	500026																							
+14	14		301							1	Lee	We aren't sure. We can only guess that Huaxu is capable of such power.	1																					
+15	15		202							1					1																			
+16	16		201							1	500011		-400																					
+17	17		201							2	500004		400																					
+18	18		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+19	19		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+20	20		301							1	Asimov	That doesn't make sense. If Huaxu is capable of this degree of data camouflage, then 'she' could have just...	2																					
+21	21		301									Asimov stops talking mid-sentence on the comms.																						
+22	22		301								Hassen	I warned you not to forget that possibility.	1																					
+23	23		301								Asimov	You were right. I'll get going.	2																					
+24	24		202							2					1																			
+25	25		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+26	26		302								What's happening?	27																						
+27	27		301								Hassen	We'll clarify later. Right now, you have a more urgent mission.	1																					
+28	28		302								Catch Bianca... I mean, Huaxu?	29																						
+29	29		301								Hassen	Since Huaxu took the initiative to appear before us, we obviously can't let this opportunity slip out of our grasp.	1																					
+30	30		301								Hassen	No matter where "she" goes, Huaxu will eventually find a way to complete the core objective... Or return to the mother terminal.	1																					
+31	31		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+32	32		202							1					1																			
+33	33		201							1	500166																							
+34	34		301				AniZhuanchangBegin			1	Lucia	I see. In short, as long as we can find the location of that program, we can find hints on where to proceed from there.	1																					
+35	35		202							1					1																			
+36	36		101							Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+37	37		401							1	201																							
+38	38		301			AniZhuanchangEnd						A few days ago.																						
+39	39		201							1	500146																							
+40	40		301							1	Murray	Alright, so...	1																					
+41	41		202							1					1																			
+42	42		301									Holding the cold coffee, Murray got up to leave the conference room before bumping into Celica, who opened the door.																						
+43	43		201							1	500146		-400																					
+44	44		201							2	500001	4	400																					
+45	45		301							1	Murray	...Miss Celica?	1																					
+46	46		204							1	1																							
+47	47		301								Murray	Did President Hassen forget to explain something?	1																					
+48	48		301								Celica	...	2																					
+49	49		301									Celica blankly handed Murray an ID card.																						
+50	50		301								Celica	Commander Nikola asked me to give this to you. Otherwise, I wouldn't be talking to you.	2																					
+51	51		301								Celica	As for your mission... I don't want to get involved.	2																					
+52	52		202							2					1																			
+53	53		203							1	0.25																							
+54	54		301									With that, Celica turned and left the conference room.																						
+55	55		204							1																								
+56	56		301								Murray	...	1																					
+57	57		301									Murray looked down to confirm the logo on the ID card and gave a wry smile.																						
+58	58		301								Murray	"Ouroborus", "Scarab", "Cerberus", and "Caribou"... Which of the black ops teams would be the Commander's backup plan?	1																					
+59	59		301								Murray	As for me... How much do you know about me?	1																					
+60	60		301								Murray	Looks like... I have the upper hand with the information I know right now.	1																					
+61	61		301								Murray	This will eat into some of my resources, but this risk... is worth taking.	1																					
+62	62		202							1					1																			
+63	63		301									Playing around with the ID card in his hand, Murray opened the door and left the conference room.																						
+64	64		301		1		AniZhuanchangBegin					After he left, the only light that remained in the room was the quiet blinking from the bug in the holo-projector.																						

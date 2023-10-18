@@ -1,0 +1,61 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+2	2		401							1	203																							
+3	990		301			DialogEnable					Kamui	Cap...																						
+4	2000		502							RImgBg1Shake																								
+5	991		301				AniZhuanchangBegin				Kamui	Captain.																						
+6	5		201							1	1081001	2	400																					
+7	6		201							2	500155		-400																					
+8	992		101							Assets/Product/Texture/Image/BgStory/BgStory83.jpg																								
+9	4		301			AniZhuanchangEnd				1	Kamui	Captain! Captain!	1																					
+10	7		301								Chrome	I...	2																					
+11	8		301									Kamui's pestering snaps Chrome out of his deep thoughts. The destination of this mission now lies right before Chrome's eyes.																						
+12	9		301								Chrome	The objective of this mission is to occupy this Corrupted spawning ground. Strike Hawk and the other teams will stay behind in Zone C to attract and contain any and all hostile entities.	2																					
+13	10		301								Chrome	(This other team is... actually...)	2																					
+14	11		301								Kamui	You've briefed me on the mission countless times, remember?	1																					
+15	12		301								Chrome	Countless times, you say?	2																					
+16	13		301								Kamui	You've been saying the same thing over and over since we got on the aircraft. Oh, and you also said: "If anything happens, you get out of here. I'll take care of the rest."	1																					
+17	14		301								Chrome	...I said that? Well, in that case, this command...	2																					
+18	15		301								Kamui	I wasn't going to follow it anyway.	1																					
+19	16		301								Chrome	...Where are the others? Why are their signals outside this area?	2																					
+20	17		301								Kamui	For Smith, one sidekick is enough.	1																					
+21	18		301								Chrome	You—	2																					
+22	19		301									Chrome realizes from this conversation that Kamui noticed his concern and figured out his plan for the day, but he doesn't know when.																						
+23	20		301									He instantly feels something—not nervousness, not animosity. Chrome can't really tell what it is. It's something he hasn't ever experienced before... something that seems to have burst his bubble.																						
+24	21		301								Chrome	What do you want?	2																					
+25	22		301								Kamui	I just hate to see...	1																					
+26	23		301									Kamui slowly softens his tone.																						
+27	24		301									I mean, I'm just trying to get that frown off your face.																						
+28	25		202							1	2				1																			
+29	26		201							1	500155					1																		
+30	27		301							1	Chrome	Did I frown?	1																					
+31	28		202							1					1																			
+32	29		201							2	1081001	2				1																		
+33	31		301							1	Kamui	That looks like it's all scrunched up with paper and wrinkles... The one you're making right now, chief. You aren't aware?	2																					
+34	32		202							2					1																			
+35	33		201							3	500013					1																		
+36	34		301							1	Corrupted	—! —!	3																					
+37	35		202							3					1																			
+38	36		201							2	1081001	2				1																		
+39	37		301							1	Kamui	Ah, they're on the move. I'll go take 'em down.	2																					
+40	38		301									Before Chrome can say anything, Kamui has already rushed off towards the Corrupted. He's about to pull out his weapon when he turns around, as if suddenly reminded of something.																						
+41	39		301								Kamui	Captain Smith! Well, you're not Smith yet, but I'll call you that for now anyway. Captain Smith! sit tight for my good news!	2																					
+42	40		201							2	500155	1	-400																					
+43	41		201							1	500149		400																					
+44	43		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+45	42		301							1	Chrome	...	2																					
+46	44		301								John	Looks like the battle's already started. Chrome, I'll arrange for the support forces to pick you up at a location nearby. Retreat immediately.	1																					
+47	47		301								Chrome	And then I'll become Smith?	2																					
+48	50		301								John	I'll have to climb to the position I need first. But you did carry out the responsibility of "Smith". Soon, I believe, you'll become Smith, like you wanted. Now, retreat.	1																					
+49	53		301								Chrome	Do I want to become Smith?	2																					
+50	56		301								John	Hm?	1																					
+51	59		301								Chrome	No, Smith... No, father.	2																					
+52	60		301								Chrome	It's not that I want to become Smith, but I NEED to...	2																					
+53	63		301								John	Isn't it the same thing?	1																					
+54	66		301								Chrome	No. I've always followed your orders. The reason my goal is to become Smith is because I have no other choice.	2																					
+55	67		301								Chrome	Every action of mine is determined by your will...	2																					
+56	70		301								John	That is the price of your existence. What's the point of bringing it up now?	1																					
+57	73		301								Chrome	I'm bringing it up because I want my autonomy back.	2																					
+58	74		301								Chrome	"Once the shell called the body is abandoned, what does the human leave behind?"	2																					
+59	75		301								Chrome	The part that's left behind in me is Chrome. Not Langston. And certainly not Smith!	2																					
+60	76		301		1		AniZhuanchangBegin				Chrome	I'll meet up with the other squad members that departed early. After that, we'll defend the place until our very last breaths!	2																					

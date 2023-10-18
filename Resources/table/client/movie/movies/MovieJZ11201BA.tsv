@@ -1,0 +1,107 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory12.jpg																								
+2	990		401							1	204																							
+3	2		201							2	1081001	2	-400																					
+4	3		201							3	500155	1	400																					
+5	4		301			DialogEnable				1	Kamui	What ponderance pondereth thee, Captain?	2																					
+6	5		301								Chrome	...	3																					
+7	6		301									When Chrome is deep in thought, Kamui is always the one to interrupt him. It's been like this ever since Chrome first took over his current position.																						
+8	7		301									The squad "Strike Hawk" is as outstanding as rumors have it. Each member has their own specialties and they work excellently alone.																						
+9	8		301								Chrome	Kamui, didn't I tell you to return to your position after 30 minutes of preparation?	3																					
+10	9		301								Kamui	But what's the point of taking apart the weapons and putting them back again?	2																					
+11	10		301								Chrome	Understanding your equipment, down to the last nut and bolt, then using them to their fullest potential... That's what Smith would have done.	3																					
+12	11		301								Kamui	Smith... That name again. But you're Captain Chrome, not Captain Smith, now are you?	2																					
+13	12		301									Chrome's finger pauses on the screen. He looks up at Kamui.																						
+14	13		301								Chrome	I'm trying to become him.	3																					
+15	14		301								Kamui	Really...? If that's what you wish, I'll try to help you fulfill it.	2																					
+16	15		301								Chrome	You'll help me?	3																					
+17	16		301								Kamui	Yeah. We're pals, right?	2																					
+18	17		301									In the end, Chrome forces Kamui to return to his position (he's the leader, after all), and goes back to leafing through the mission details from "Smith".																						
+19	18		301									"In this operation, Strike Hawk will act as bait. Once the designated spot is reached, you can move back, Chrome."																						
+20	19		301								Chrome	...	3																					
+21	20		301				AniZhuanchangBegin					Chrome closes his eyes.																						
+22	21		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	1																							
+23	22		202							2	3				1																			
+24	23		101					1000		Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+25	24		301			AniZhuanchangEnd						"Nothing compares to mechanical inventions."																						
+26	25		301				AniZhuanchangBegin					"We are a people of wonders, living in an age of wonders."																						
+27	26		101							Assets/Product/Texture/Image/BgCg/Cgqz1401.jpg																								
+28	27		301			AniZhuanchangEnd		1000				Babylonia, F.O.S. Military Command College, 7:30 AM																						
+29	994		401							2	1515																							
+30	997		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab	2																							
+31	28		301								Course System	Langston Smith.																						
+32	29		301								Course System	Question one: From a military standpoint, please briefly describe the current status of the connection technology used in the "Construct + Commandant" combat system.																						
+33	30		301									Gestalt course random selection system operating.																						
+34	996		401							2	1515																							
+35	31		301								Course System	Chosen: Langston Smith.																						
+36	32		301								Course System	Please stand up when answering a question.																						
+37	998		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab																							
+38	33		301								Langston	Understood.																						
+39	34		301								Langston	According to the latest research report from the Science Council, there are currently two types of connection technology used in the military.																						
+40	991		301								Langston	One type is the Connection Chamber, which allows Commandants to connect to the M.I.N.D. of Constructs without the restrictions of distance. Commandants will be able to sync up with the Constructs and command them directly. This is the most commonly employed connection combat method currently.																						
+41	35		301								Langston	The other is commandants fighting alongside the Constructs, using Inver-Devices and human Mind Beacons for short-distance connection and positioning. Yet this is rarely employed nowadays due to its many restrictions.																						
+42	999		401							2	1515																							
+43	1000		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab	2																							
+44	36		301								Course System	Please wait for the system to assign a score, then answer the next question.																						
+45	37		301								Course System	Question two: Please perform a brief analysis on the principles of application of the connection technology for Commandants and Military Constructs.																						
+46	1001		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab																							
+47	38		301								Langston	After the "Gestalt" system became widely applied in the public sphere, human knowledge was continually uploaded, making highly efficient and fully objective decisions possible.																						
+48	992		301								Langston	Studies related to the human brain have been filed as special secret research projects by the Science Council due to how complicated they are.																						
+49	39		301								Langston	According to the accessible early research data, each human brain contains about 100 billion neurons, capable of forming over 100 trillion connections.																						
+50	993		301								Langston	The neurons in human brains can output electric signals via dendrites. Which means that—																						
+51	40		301								Whispering	Is that... Langston Smith?																						
+52	41		301								Whispering	The current student representative?																						
+53	42		301								Whispering	Smith... Someone with this last name... Should probably be related to Officer Smith, hm?																						
+54	43		301								Whispering	Son of an officer, student representative, a true genius... He's even got a pretty face... Ugh, some people really have everything!																						
+55	44		301								Langston	...Meanwhile, Commandant can better stabilize the abnormal fluctuations in the Construct's M.I.N.D. via the consciousness connection technology.																						
+56	1002		401							2	1515																							
+57	1003		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab	2																							
+58	45		301								Course System	Please wait for the system to assign a score, then answer the next question.																						
+59	46		301								Course System	Question three: If you're commanding Constructs on a groundside combat mission in an area of which you possess insufficient data, how do you prepare in advance?																						
+60	1004		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab																							
+61	47		301								Langston	Collect as much information as possible and analyze it. As the density of Punishing Virus is related to certain geographical elements, I may perhaps use a Gauss–Krüger projection to determine—																						
+62	48		301								Whispering	As expected from our top student. I heard there are only three slots for the Reserve Commandant Draft at the end of the month... Guess he's definitely gonna take one of the slots.																						
+63	1005		401							2	1515																							
+64	1006		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab	2																							
+65	49		301								Course System	Tallying scores. Please wait...																						
+66	50		301								Course System	Langston Smith, total score 4.721 out of 5. Certain mismatches with the answer database were identified.																						
+67	1007		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab																							
+68	51		301								Whispering	This must be the highest score anyone's gotten in our school's history.																						
+69	52		301								Whispering	It's not a perfect score, but it's pretty much the same thing.																						
+70	53		301				AniZhuanchangBegin				Langston	...Not the same thing at all.																						
+71	54		101							Assets/Product/Texture/Image/BgStory/Bgstory146.png																								
+72	55		301			AniZhuanchangEnd		1000				The genius's murmurs remain unheard. Under the desk, his fist clenches, followed by the sound of something being crushed.																						
+73	56		301								Student A	Well, that's done, at least! Langston! Want to come hang out with us?																						
+74	57		301								Student B	What are you inviting him for?																						
+75	58		301								Student A	We're all classmates, aren't we?																						
+76	59		301								Student A	We ain't on the same level with a genius like him. Sorry, Langston. We're not gonna get in the way of your studies.																						
+77	1008		201							1	500153	5																						
+78	60		301				AniZhuanchangBegin			1	Langston	...	1																					
+79	61		101							Assets/Product/Texture/Image/BgCg/Cgqz1402.jpg																								
+80	1009		202							1					1																			
+81	1010		401							1	211																							
+82	62		301			AniZhuanchangEnd		1000				As time ticks away, artificial night falls upon the skies of Babylonia.																						
+83	63		301								Langston	Babylonia, F.O.S. Military Command College, 12:30 AM																						
+84	64		301								Langston	The human memory is about as powerful as 100 trillion synapses.																						
+85	65		301								Langston	The brain is capable of altering the strength of the connection between neurons based on the current status and past experience.																						
+86	66		301								Langston	Repeated training can optimize the neuron connections, highly increasing memory speed and accuracy.																						
+87	67		301									Repetition is key. Repetition is all one needs.																						
+88	68		301				AniZhuanchangBegin					On the always-lit screen of the ranking system, Langston Smith's name sits securely in the first place spot.																						
+89	69		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+90	70		301			AniZhuanchangEnd		1000				"Fight like that of a hero—!"																						
+91	71		301									"Astonishing courage—! Everlasting fame—!"																						
+92	1011		201							1	500153	9																						
+93	72		301				AniZhuanchangBegin			1	Langston	If I can't be perfect...	1																					
+94	73		101							Assets/Product/Texture/Image/BgCg/Cgqz1402.jpg																								
+95	1012		202							1					1																			
+96	74		301			AniZhuanchangEnd		1000				Langston remains frozen in the same position, hungry eyes trained on the courses he'll be taking today, tomorrow, as if he could devour them all.																						
+97	75		301								Langston	...																						
+98	76		301									Langston closes his eyes and pushes a sharp object he prepared into his skin. The sudden pain wakes his body and consciousness up immediately.																						
+99	1013		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab	2																							
+100	77		301								Langston	Uh...																						
+101	78		301									Once he gets used to the pulsating pain, it's less unbearable.																						
+102	1014		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab																							
+103	79		301								Langston	...I need to increase the pain level.																						
+104	80		301								Langston	A toolkit that would slip through the alarm system undetected... and easy to build...																						
+105	81		301								Langston	...Genius.																						
+106	82		301		1		AniZhuanchangBegin					From somewhere, faint snickers could be heard.																						

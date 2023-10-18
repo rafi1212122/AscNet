@@ -1,0 +1,53 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory117.png																								
+2	2		401							1	12																							
+3	3		301			DialogEnable						Until the Construct she is holding in her arms is no longer emitting activity signals. Selena lays him down gently, then leaves the room of dead bodies without looking back.																						
+4	4		401							2	1516																							
+5	5		301									She has to survive.																						
+6	6		301									No matter what happened, she has to survive.																						
+7	7		301									Even if Babylonia has raised its orbital altitude to avoid contact with the space station, there will still be a period of a longitudinal intersection when a comms connection is possible.																						
+8	8		301									If she can find the space station's communications room and input her own signal into the disruptive white noise constantly being emitted by the space station...																						
+9	9		301									Someone is bound to notice her distress signal one day and come to her rescue.																						
+10	10		301									There are still people waiting for her back home. Her parents, her best friend...																						
+11	11		301									She still has a lot of unfinished business. There is no way she can wither and die alone in a place like this.																						
+12	12		301									She cannot lose hope. She has to turn in this intelligence report.																						
+13	13		301									From the moment her comrades sacrificed their lives to pave her way forward, her life is no longer hers alone.																						
+14	14		301				AniZhuanchangBegin					She is now a vessel containing the legacy of everyone in the Advance Force.																						
+15	15		101							Assets/Product/Texture/Image/BgStory/Bgstory108.png																								
+16	16		301			AniZhuanchangEnd						She walks to the outer part of the space station.																						
+17	17		401							2	1516																							
+18	18		201							1	500283																							
+19	19		301							1	Selena	Soon...	1																					
+20	20		202							1																								
+21	21		301									The Advance Force passed through this area while exploring deeper into the station, and she vaguely recalls that the communications room is somewhere nearby.																						
+22	22		301									Before her stands a locked automatic door.																						
+23	23		301									This must be one of the important doors of the space station. A very high level of authority is needed to access it.																						
+24	24		301									Selena makes several attempts to crack the code on the lock, an action she has done many times before, but finds that she does not possess sufficient computing power after several attempts.																						
+25	25		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+26	26		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+27	27		401							2	10007001																							
+28	28		301									After confirming she is strong enough to destroy it, Selena swings her weapon at it.																						
+29	29		401							2	1506																							
+30	30		301									An iron gate slams down with a loud bang and instantly, a broadcast is made throughout the entire space station.																						
+31	31		301								Broadcast	Korolev would like to issue a gentle reminder to children visiting the space station. Please follow the rules and regulations and listen to your guide.																						
+32	32		201							1	500283																							
+33	33		301							1	Selena	What is... Korolev?	1																					
+34	34		202							1					1																			
+35	35		301								Broadcast	Please take care of public facilities—																						
+36	36		301									Selena is shocked by what she is hearing.																						
+37	37		301								Broadcast	Children who vandalize and destroy space station facilities will be punished.																						
+38	38		301								Broadcast	Serious offenders will be separated from their parents for one week and placed in a correctional facility.																						
+39	39		401							2	1507																							
+40	40		301						3000			From behind her came the sudden sound of mechanical limbs hitting the ground. The broadcast echoing throughout the space station has an actual source after all.																						
+41	41		301									Selena turns to the source of the sound.																						
+42	42		201							1	500119																							
+43	43		301							1	Korolev	Dear children, we are now demonstrating how the immune system of the human body works—	1																					
+44	44		301								Korolev	Viruses that enter...	1																					
+45	45		202							1					1																			
+46	46		301									A giant spherical Corrupted appears behind Selena.																						
+47	47		301									With just a glance, Selena has already ascertained the huge difference in power between her and the enemy.																						
+48	48		301									This is a Corrupted she cannot hope to defeat alone.																						
+49	49		401							2	1513																							
+50	50		301									Every circuit in Selena's body screams at her to flee, and flee she does.																						
+51	51		201							1	500119																							
+52	52		301		1		AniZhuanchangBegin			1	Korolev	This is what will happen to it — captured and destroyed by immune cells!	1																					

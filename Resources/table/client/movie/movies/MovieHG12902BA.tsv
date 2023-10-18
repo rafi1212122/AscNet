@@ -1,0 +1,136 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory544.jpg																								
+2	2		401							1	201																							
+3	3		201							1	500494	12																						
+4	4		301			DialogEnable				1		Surrounded by the residents, Karenina does not look like she is going to back down.	12																					
+5	5		301								Karenina	I'm not kicking you out, but this building is no longer suitable to stay. Demolishing it now is our best option.	1																					
+6	6		301								Karenina	The Engineering Force will be in charge of rebuilding this afterward...	1																					
+7	7		202						1	1					1																			
+8	8		201							1	500139																							
+9	9		301							1	Scavenger	Stop joking! That's easy for you to say... Where are we going to live if you bring this place down?	1																					
+10	10		301								Scavenger	We've been living here since we retook this neighborhood, and there has never been anything dangerous about living here! Do you expect us to just take your word for it?	1																					
+11	11		301								Scavenger	Look outside... Do you think this conservation area has any place else for us?	1																					
+12	12		301									A haggard Scavenger stands up from his makeshift bed.																						
+13	13		202						1	1					1																			
+14	14		201							1	500494	4																						
+15	15		301							1	Karenina	We'll coordinate with the supervisor here and arrange a place for you all.	1																					
+16	16		202						1	1					1																			
+17	17		201							1	500454																							
+18	18		301							1	Resident	We wouldn't be here... if there's somewhere else to stay...	1																					
+19	19		301								Resident	Babylonia said they'd save us, but their shuttles have come and gone, always taking other folks. When will it be our turn?	1																					
+20	20		301								Resident	Has Babylonia given up on us...?	1																					
+21	21		301									As if casting a stone, that short line has caused a ripple, and voices of doubt and distrusts quickly echo throughout the room.																						
+22	22		203							1	0.25	400																						
+23	23		201							2	500139		-400																					
+24	24		301							1	Scavenger	I heard the hospital has taken in a lot of wounded lately... but the supplies from Babylonia never arrived...	2																					
+25	25		301								Scavenger	Only one Construct arrived when they said they'd send a team from the Engineering Force. How would that work...	2																					
+26	26		202						1	1	2				1																			
+27	27		201							1	500494	5																						
+28	28		301							1		Karenina grits her teeth, clenching her fists.																						
+29	29		401							1	36																							
+30	30		301			RImgBg1Shake					Karenina	******* ****! Were you listening at all?!	1																					
+31	31		401							1	201																							
+32	32		301								Karenina	I wouldn't be here if Babylonia gave up on you!	1																					
+33	33		301									Karenina pushes through the crowd and walks to a corner. Looking at where she points, you can see a crack the width of a finger spreading from the exterior to the interior, blocked by a rack filled with household items.																						
+34	34		301								Karenina	This building was impacted in the fight with the Hetero-Creatures. Its structure was damaged.	1																					
+35	35		301								Karenina	And you guys still went and took down the load-bearing wall.	1																					
+36	36		202						1	1					1																			
+37	37		201							1	500454																							
+38	38		301							1	Resident	We were trying to take in as many people as we could...	1																					
+39	39		202						1	1					1																			
+40	40		201							1	500494	4																						
+41	41		301							1	Karenina	But it means that this ******* building is going to collapse any minute! You're going to be buried underneath all this concrete!	1																					
+42	42		301								Karenina	You're only still breathing because you're ******* lucky! Don't you see?!	1																					
+43	43		202						1	1					1																			
+44	44		201							1	500454																							
+45	45		301							1	Resident	...	1																					
+46	46		301								Resident	Then... where should we go...	1																					
+47	47		302								Babylonia won't give up on anyone.	48																						
+48	48		301								Resident	Who are you?																						
+49	49		302								I'm a commandant from Babylonia.	50																						
+50	50		301									You walk up, standing next to Karenina.																						
+51	51		302								Don't worry. We'll arrange new quarters for you all.	52																						
+52	52		302								We don't give up on people.	53																						
+53	53		301									You have just confirmed with the supervisor that the other members of the Engineering Force are also on their way to this conservation area.																						
+54	54		202							1																								
+55	55		301									The catastrophe has taken its toll in the past few months. Babylonia could not receive all affected citizens, and communication with the surface was heavily disrupted.																						
+56	56		301									With the lack of supplies and the threat of losing their home at any given moment, it is no surprise that fear and doubt has taken root among the people.																						
+57	57		301									Karenina must be working so hard because she realizes this as well.																						
+58	58		201							1	500494	4																						
+59	59		301							1	Karenina	...That's right.	1																					
+60	60		301									She takes a deep breath and looks around, her gaze meeting everyone who is looking back.																						
+61	61		301								Karenina	The reconstruction team of the Engineering Force exists so that each of you has a home to return to. We won't give up, and we can't give up on our duty.	1																					
+62	62		301								Karenina	There's no reason to fix a building that could collapse at any point. It's much faster to demolish it and rebuild it.	1																					
+63	63		301								Karenina	In order to give everyone here a safe place to stay as fast as possible, I won't change my mind.	1																					
+64	64		301									Everyone remains silent, no longer objecting. After a while, an old, trembling Scavenger stands up.																						
+65	65		203							1	0.25	400																						
+66	66		201							2	500294		-400																					
+67	67		301				AniZhuanchangBegin			1	Old Scavenger	Cough... We'll do as the young lady said. Start packing.	2																					
+68	68		202			DialogDisable				1	2				1																			
+69	69		401						500	1	36																							
+70	70		401							1	208																							
+71	71		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/BgStory544.jpg																								
+72	72		301			DialogEnable						Aided by the staff from the conservation area, the residents do not take long before moving all their belongings out.																						
+73	73		301									Most of the residents are Scavengers who are accustomed to moving around in the doomsday. They are used to packing on short notice and leaving a place that is no longer habitable.																						
+74	74		301									Verifying the residents with the supervisor, you arrange temporary shelters for them in different parts of the conservation area. Patients that require secluded wards are moved to the military tent you brought with you.																						
+75	75		301									A spotted corner of the room displays a mural of unknown flowers done with chalk in youthful strokes. Next to it are marks that tally the days, while a smudged prayer sits on top.																						
+76	76		201							1	500494	1																						
+77	77		301							1	Karenina	What are you looking at?	1																					
+78	78		302								Marks left behind by the lives that lived here.	79	Nothing.	79																				
+79	79		301								Karenina	...Right.	1																					
+80	80		301									Karenina dusts off her hands and walks toward you, looking at the same marks, her head tilted.																						
+81	81		301									And so, the two of you just crouch by the wall next to each other quietly.																						
+82	82		204							1	13																							
+83	83		301								Karenina	...	1																					
+84	84		301								Karenina	So. Why are you here?	1																					
+85	85		302								Doing my mission.	86																						
+86	86		301								Karenina	You were barely alive on a bed just a while ago, and no one could wake you up...	1																					
+87	87		302								It's been quite a while...	88	Did you visit?	89																				
+88	88	91	301								Karenina	Oh? Is that so? I guess it left quite an impression. I still remember it.	1																					
+89	89		204							1	4																							
+90	90		301								Karenina	Not me! I was busy! It's just what I heard!	1																					
+91	91		302								I'm standing here, aren't I? It means I'm fine.	92																						
+92	92		204							1	4																							
+93	93		301								Karenina	Hmph... You better be.	1																					
+94	94		204							1	13																							
+95	95		301								Karenina	By the way... thank you for speaking up earlier.	1																					
+96	96		302								I didn't do anything.	97	It was all you.	97																				
+97	97		204							1	14																							
+98	98		301								Karenina	Is that so...?	1																					
+99	99		301								Karenina	...Did I do the right thing?	1																					
+100	101		301									She is almost whispering. Before you can answer, she shakes her head and gently slaps herself in the face.																						
+101	102		204							1	6																							
+102	103		301								Karenina	Aargh! It's not like me to be so indecisive!	1																					
+103	104		204							1	4																							
+104	105		301								Karenina	I'm leaving! I've got so much work to do!	1																					
+105	106		202							1																								
+106	107		401						500	2	1516																							
+107	108		402							1516																								
+108	109		301									She gets up and heads toward the door, but she stops halfway as if remembering something.																						
+109	110		201							1	500494	4																						
+110	111		301							1	Karenina	Hey. Didn't you give your tent to the other residents?	1																					
+111	112		302								(Nod)	113																						
+112	113		204							1	8																							
+113	114		301								Karenina	Then where are you going to stay?	1																					
+114	115		302								That branch looks sturdy.	116	I can sleep on the street.	116																				
+115	116		204							1	6																							
+116	117		301			RImgBg1Shake					Karenina	How stupid are you?!	1																					
+117	118		301									You are not surprised to hear her shouting at you.																						
+118	119		302								I'm just kidding.	120																						
+119	120		302								It's fine. I've stayed in worse.	121																						
+120	121		302								Supplies from Babylonia will arrive in a few days.	122																						
+121	122		204							1	5																							
+122	123		301				AniZhuanchangBegin				Karenina	You... Forget it. Follow me.	1																					
+123	124		204							1	4																							
+124	125		101			DialogDisable	AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/Bgstory12.jpg																								
+125	126		301			DialogEnable						You follow Karenina to a corner east of the conservation area and see a small military tent.																						
+126	127		302								This is...?	128																						
+127	128		301								Karenina	...My tent. You can stay here for now if you have nowhere else to go.	1																					
+128	129		301								Karenina	Don't overthink it. I just don't want anything to happen to you when I'm in charge.	1																					
+129	130		302								Thanks, Karenina.	131																						
+130	131		301									But then you remember that conservation areas usually have sleeping pods reserved for Constructs. You are not sure why there is only a tent before you.																						
+131	132		302								Where's your sleeping pod?	133																						
+132	133		204							1	12																							
+133	134		301								Karenina	I lent it to some sick kids. All the hospital beds are full right now. At least the sleeping pod is more comfortable.	1																					
+134	135		302								...	136																						
+135	136		301		1		AniZhuanchangBegin					Who was she calling stupid again?																						

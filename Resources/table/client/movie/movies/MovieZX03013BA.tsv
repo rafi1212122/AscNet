@@ -1,0 +1,157 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory614.jpg																								
+2	2		401							1	102																							
+3	3		301			DialogEnable						When the lifeless Lithos falls to the sea surface, a lot of Corrupted suddenly show up in the water, stopping Bianca from retrieving Lithos' frame.																						
+4	4		301									At the same time, the Omega Weapons are running at their maximum power in the entire battle. The Red Tide that once spread the entire sea surface has been properly contained.																						
+5	5		301									Sieged by humans, the giant Hetero-Humanoid on the sea surface is also showing signs of fatigue.																						
+6	6		201							1	500494	5																						
+7	7		301							1	Karenina	We are running out of Omega Weapons. Somebody give that thing a final blow!	1																					
+8	8		301									Karenina rants furiously.																						
+9	9		202							1					1																			
+10	10		201							1	500532	4																						
+11	11		301							1	Bianca	Leave it to me, Karenina.	1																					
+12	12		301									Bianca replies after returning from the battle on the ocean surface.																						
+13	13		201							1	500494	4																						
+14	14		301							1	Karenina	Bianca...! Are you hurt? You were lost at the bottom of the sea for days! What happened?!	1																					
+15	15		202							1					1																			
+16	16		301									A young male soaked in rain and vital fluid walks forward with the remaining Purifying Force members behind. He nods at Bianca.																						
+17	17		301								Arssarius	Captain... I knew you would be fine. You are strong.	2																					
+18	18		201							1	500532																							
+19	19		301							1	Bianca	Don't worry. I'm fine.	1																					
+20	20		204							1	4																							
+21	21		301									Bianca looks around at the remaining members of the Purifying Force, who had suffered a substantial loss after engaging in battles with Hetero-Creatures for days. This young kid is still quite new, but he was forced to take up the role of the temporary captain.																						
+22	22		301									Bianca grabs her Swordstaff as she gazes at the giant humanoid in front. Its distorted body has almost inflated to the height of a building.																						
+23	23		302								What is that giant humanoid?	24																						
+24	24		301								Bianca	The Ascendant has blended Chiko's consciousness with the Hetero-Humanoid's body... In other words, she also forms part of that monster.	1																					
+25	25		302								Chiko...	26																						
+26	26		301									She was the Vice-Captain of the Purifying Force team lost at the bottom of the sea.																						
+27	27		204							1	4																							
+28	28		301								Bianca	Yes. She protected me after Copperfield Aquarium collapsed.	1																					
+29	29		203							1	0.25	400																						
+30	30		201							2	500494	4	-400																					
+31	31		301							1	Karenina	Are you talking about that monst... I mean, Hetero-Humanoid on the sea?	2																					
+32	32		202							2					1																			
+33	33		203							1	0.25																							
+34	34		301								Bianca	Chiko fought till the last moment before she was killed by the Ascendant.	1																					
+35	35		301									With unprecedented might, Bianca gazes at all the Purifying Force members as they gather around in awe. They have never respected and feared their captain so much.																						
+36	36		301								Bianca	Vonnegut used Chiko as part of his Hetero-Humanoid experiment, but she was not simply consumed by that monster. Her mind still lives within—	1																					
+37	37		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+38	38		306							1																								
+39	39		504							0.7																								
+40	40		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryMovieFilm.prefab	3																							
+41	41		101							Assets/Product/Texture/Image/BgStory/Bgstory615.jpg																								
+42	42		201							1	500513	2																						
+43	43		301								Lithos	You want to eliminate Chiko?	1																					
+44	44		301								Lithos	You... shouldn't hold your weapon against your friend...	1																					
+45	45		301								Lithos	Didn't you hear her calling for help?	1																					
+46	46		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+47	47		504							0																								
+48	48		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryMovieFilm.prefab																							
+49	49		306																															
+50	50		101							Assets/Product/Texture/Image/BgStory/Bgstory614.jpg																								
+51	51		201							1	500532	4																						
+52	52		301							1	Bianca	Her consciousness was crumbled into pieces. She could only express her will in a fragmented manner.	1																					
+53	53		301								Bianca	—Still, her remaining consciousness had been trying to protect us.	1																					
+54	54		202							1					1																			
+55	55		301								Arssarius	That ever-expanding monster... is Vice-Captain Chiko...?																						
+56	56		502							DialogDisable																								
+57	57		302								Has she been devouring the Hetero-Creatures that spawned in the sea...	58																						
+58	58		302								To buy more time for humans?	59																						
+59	59		201							1	500532	4																						
+60	60		301			DialogEnable				1	Bianca	...I don't know. Perhaps it was just the instinct of the Hetero-Humanoid during its evolution. But I prefer to believe... that she is helping us.	1																					
+61	61		301								Bianca	Like I said, her shattered consciousness still lives in that monster...	1																					
+62	62		301								Bianca	It feels more like... She is struggling to end her life now.	1																					
+63	63		201							1	500373	4																						
+64	64		301							1	Harley Jo	Are you saying that monster is actually helping us?	1																					
+65	65		302								Whether she is intentional or not.	66																						
+66	66		302								We are benefiting from the fact that she is devouring the Punishing Virus and Hetero-Creatures.	67																						
+67	67		201							1	500532	4																						
+68	68		301							1		Bianca's terminal has received a comms request... It is a message from Babylonia. She frowns when she sees the name of the sender.																						
+69	69		203							1	0.25	-400																						
+70	70		201							2	500542		400																					
+71	71		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab	2	2																						
+72	72		301							1	Vesalius	Stigmata... Have you finally made up your mind to become a witch?	2																					
+73	73		301								Bianca	Maybe just like what you said, "Witch" forms part of me... It is just a necessary chain of my life.	1																					
+74	74		301								Bianca	But it doesn't mean I will be constricted by this identity... This sword is here to prove my determination.	1																					
+75	75		204							2	13																							
+76	76		301								Vesalius	Hah... Go for it then. We are also very interested in the subject's own preference.	2																					
+77	77		204							2																								
+78	78		301								Vesalius	I asked the Science Council to develop the frame exclusively for you. Take it as a gift. I'll be looking at you.	2																					
+79	79		202							2					1																			
+80	80		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+81	81		203							1	0.25																							
+82	82		301									Vesalius hangs up abruptly. Teddy starts to dig through the files of devices in the camp as if she has recalled something.																						
+83	83		202							1					1																			
+84	84		201							1	500495																							
+85	85		301							1	Teddy	Right... Bianca, before the Engineering Force came to the surface, the Science Council asked us to bring your equipment. That woman said you would definitely make use of it.	1																					
+86	86		203							1	0.25	400																						
+87	87		201							2	500494	4	-400																					
+88	88		301							1	Karenina	When was that...? Why was I not aware of it...?	2																					
+89	89		204							1	13																							
+90	90		301								Teddy	Hah... She was probably concerned that your violence might break it, given it was highly complicated.	1																					
+91	91		204							1																								
+92	92		401							2	1511																							
+93	93		301									Teddy locates the container she was asked to bring along. To her surprise, there is a man in a white shirt curled up inside.																						
+94	94		202							1	2				1																			
+95	95		301								???	Ahhhhhhhh!																						
+96	96		201							1	500494	5																						
+97	97		301							1	Karenina	Ahhhhhhhh!	1																					
+98	98		301									The screaming inside the container has also shocked Karenina when she tries to open it.																						
+99	99		202							1					1																			
+100	100		201							1	500495																							
+101	101		301							1	Teddy	Yarha...? Why are you here...?	1																					
+102	102		203							1	0.25	-400																						
+103	103		201							2	500499	2	400																					
+104	104		301							1		He is a scientist working for Kurono. Back in the lunar base, he spent some time with the Engineering Force duo and helped them.																						
+105	105		301								Yarha	You almost scared me to death... I thought the Corrupted had pried open this container.	2																					
+106	106		301									It only takes Teddy a few seconds to figure out why.																						
+107	107		204							1	13																							
+108	108		301								Teddy	Hah... I get it. That woman must be your boss. She must be punishing you for helping us out in the lunar base earlier.	1																					
+109	109		301								Yarha	Haha... She said, "Since you broke the zero-point engine, you should serve as a shock absorber to protect this gift." So...	2																					
+110	110		301									Looks like Yarha's data of the zero-point engine saved his life. Otherwise, considering Kurono's way of doing things, the man named "Yarha" would have disappeared from the world.																						
+111	111		204							1	4																							
+112	112		301								Teddy	So where is the "gift" she mentioned?	1																					
+113	113		204							2																								
+114	114		301									Yarha nods and takes out a machine.																						
+115	115		201							1	500494	4	-400																					
+116	116		301							1	Karenina	Is this a... CUB? It has been configured to fit Bianca's Stigmata.	1																					
+117	117		301								Yarha	Yep. When expanded, this CUB can let Stigmata ride on it to achieve high-speed maneuver on water surface and low-attitude airspace.	2																					
+118	118		202							1	2				1																			
+119	119		201							1	500532	4																						
+120	120		301							1	Bianca	Now I can get close to Chiko...	1																					
+121	121		301								Bianca	Commandant, let us engage in a deep M.I.N.D. connection.	1																					
+122	122		301								Bianca	Chiko's final wish was to let me end her suffering. That wish is also mine.	1																					
+123	123		301								Bianca	...I promised her.	1																					
+124	124		301									You look into Bianca's genuine eyes. Her emotion is so strong that you cannot turn her down.																						
+125	125		202							1					1																			
+126	126		201							1	500416	5																						
+127	127		201							2	500417		600																					
+128	128		201							3	1031001	17	-600																					
+129	129		301							1		You then look back at other Gray Raven members. Liv has a serious look on her face. Lee also presses his lips together, but you can tell he is not objecting. Lucia just nods to you in all seriousness.																						
+130	130		301								Lee	The Science Council used the tissues of the Hetero-Hive Mother to develop this device. I must admit, Bianca's new frame is more powerful than most of the Constructs here.	2																					
+131	131		301								Lucia	I will cover you with the rest of us!	1																					
+132	132		301								Liv	Don't worry, Bianca. Commandant, I will constantly monitor your status... To ensure the stability of the deep connection.	3																					
+133	133		202							1	2	3			1																			
+134	134		301								Arssarius	Nobody knows Vice-Captain better than you, Captain... Still, you must be careful.																						
+135	135		201							1	500494	5																						
+136	136		301							1	Karenina	Dammit... We are sending you alone once again, Bianca...	1																					
+137	137		201							1	500532	1																						
+138	138		301							1	Bianca	I'm not fighting alone.	1																					
+139	139		204							1	4																							
+140	140		301								Bianca	I have everyone on the coastline behind my back.	1																					
+141	141		201							1	500374	9																						
+142	142		301							1	Yata	Looks like you have figured out what to do. Time to give an order!	1																					
+143	143		201							1	500506	1																						
+144	144		301							1	Noan	Yes. We are all ready.	1																					
+145	145		201							1	500522																							
+146	146		301							1	Palma	Godspeed, C-a-p-t-a-i-n.	1																					
+147	147		201							1	500532	1																						
+148	148		301							1		Bianca looks at Palma and nods with a smile. Her smile looks nothing different from the past. The look of her frame no longer matters, for everyone understands it clearly at this moment—that Bianca is still Bianca, or rather, she is more determined than ever.																						
+149	149		302								Let's roll. All combatants, get into position. Cover Bianca!	150																						
+150	150		201							1	500494	4																						
+151	151		301							1	Karenina	Alright... Teddy! Let's go!	1																					
+152	152		301									Karenina screams at her terminal.																						
+153	153		301								Karenina	Make sure you come back safe and sound, Bianca! I haven't even had a proper look at your new frame!	1																					
+154	154		201							1	500532	4																						
+155	155		301							1	Bianca	I will.	1																					
+156	156		301		1		AniZhuanchangBegin					— She used to stop Chiko from taking her own life, but this time... she will help her do it.																						

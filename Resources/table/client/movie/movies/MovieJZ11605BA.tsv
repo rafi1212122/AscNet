@@ -1,0 +1,80 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	12																							
+3	3		301			DialogEnable						The theater was a magnificent building, donned with emerald-tiled roofs and ruby-colored walls. It saw a long line of guests and ushers in front of its gate, who filled the air with greetings and shouts.																						
+4	4		301								Singing From Nowhere	～With righteous anger are heroes born...～																						
+5	5		301								Singing From Nowhere	～Aloof to pain, to death, one's just deserts～																						
+6	6		301								???	Changyu... you'll lead a good troupe someday.																						
+7	7		301								???	C-Changyu... r-remember to c-come home s-soon.																						
+8	8		301									Home? What home?																						
+9	9		301								???	Kowloongers do not fear war, because war cannot break the will of Kowloong...																						
+10	10		301								???	Changyu... Take care of the theater and your troupe...																						
+11	11		301									Who's... talking?																						
+12	12		301									It's so familiar... But I can't...																						
+13	13		301								???	Maybe people should just get to live?																						
+14	14		301								???	What if we weren't supposed to sell our souls only for a shot at life?!																						
+15	15		301									Is that so?																						
+16	2541		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHuijinNew.prefab	3																							
+17	16		301									In those glimpses of memories, Changyu could see numerous blazing fireballs falling from the sky into the heart of the city.																						
+18	17		301									The scared folks in front of the theater were screaming.																						
+19	18		301									Dark silhouettes with scarlet-tinted eyes emerged from the flame. What were they? Changyu tried to look through the scorching fire, desperate to figure out what they were—																						
+20	19		301								???	Wake up... Changyu...																						
+21	20		301				DialogDisable				???	...WAKE UP!																						
+22	2589		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHuijinNew.prefab																							
+23	100		401							1	102																							
+24	21		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	2																							
+25	22		101						1500	Assets/Product/Texture/Image/BgStory/Bgstory235.png																								
+26	23		301			DialogEnable						Changyu opens his eyes and finds himself in total darkness. His heart is beating frantically, his fingertips numb from dread, as the frightful dullness spreads from his hand to his spine to his brain—																						
+27	24		301									Someone is standing by his bed.																						
+28	25		301									It is not Huainan. His breaths would have been calmer, his presence less malignant, even if he has mystified Changyu at times. To Changyu, Huainan is an owl on the hunt in the dead of night, silent and alert.																						
+29	26		301									Changyu steadies his breaths. With his muscles tense and his fists tighten, Changyu's body is ready and primed, like a panther by its prey.																						
+30	27		301									The man leans closer, and Changyu springs to action—he averts the man's approach with one hand, then violently grips his throat with another. In the blink of an eye, the man is at Changyu's mercy.																						
+31	28		201							1	500240																							
+32	29		301							1	???	!!!	1																					
+33	30		202							1																								
+34	32		101							Assets/Product/Texture/Image/BgStory/Bgstory234.png																								
+35	353		401							2	1503																							
+36	32300		502							RImgBg1Shake																								
+37	33		301									Changyu has the man restrained. Their brief clash echos loudly in the small, confined space. Somehow the table lamp by the bed got switched on, its gears turning loudly.																						
+38	34		301								Service Bot	Good—evening, the time now is eight—twenty-five—forty-six seconds.																						
+39	35		201							1	500228																							
+40	36		301							1	???	...	1																					
+41	37		301									Changyu's eyes widen. He never forgets a face, and the face in front of him belongs to none other than the tycoon he encountered that fateful night.																						
+42	38		201							1	500216	5																						
+43	39		301							1	Changyu	You... of all people? Where is Huainan?	1																					
+44	40		203							1	0.25	400																						
+45	41		201							2	500228		-400																					
+46	42		301							1	Tycoon	(Chuckles) I wasn't expecting a skilled fighter. That's on me.	2																					
+47	43		301								Changyu	Answer my question!	1																					
+48	44		301									Changyu tightens his grip, almost bending the man's head backward. He should be running out of breath, and yet he looks remarkably calm and unfazed, the opposite of the gluttonous man Changyu remembers him as.																						
+49	45		301								Tycoon	This is just business, kid. I've no intention of getting involved with what's going on between the two of you. And seeing that I've failed and probably won't get paid, this isn't even business anymore.	2																					
+50	46		301								Tycoon	You should probably leave your questions to the one actually involved.	2																					
+51	47		301								Changyu	What are you going on about?! Did Akdilek send you, or did... Where is Huainan?! What did you do to him?!	1																					
+52	48		301								Tycoon	Do you mean your friend? He's already heading to the Trade Fair.	2																					
+53	49		301								Changyu	On his own? It's not even opening until tomorrow night...	1																					
+54	50		301								Tycoon	Don't you know how long you've been sleeping?	2																					
+55	51		301									Changyu looks outside the window and finds the streets bustling with crowds and chants. The Trade Fair has already begun.																						
+56	52		301								Changyu	I... slept the whole day?!	1																					
+57	99		401							2	1512																							
+58	53		203			PanelActor2Shake			2000	2	0.25	-400	-1000																					
+59	54		202							2					1																			
+60	55		301									Changyu pins the tycoon to the ground with his foot, then ties him up with torn-up bedsheets.																						
+61	56		203							1	0.25	0																						
+62	57		301									After making sure the knots are secured, Changyu immediately goes over the bag he placed on the table.																						
+63	654		301									Everything inside, including the data on Akdilek, the plan of the Nighter, and the data chip that proves Changyu's Tantalum-193 affinity... All gone.																						
+64	58		301								Changyu	GODDAMMIT!	1																					
+65	59		301								Changyu	What was he thinking?!	1																					
+66	60		301									Whether it is his conflicting emotions or the nightmare that just haunted him, something is giving Changyu a crushing migraine. He is getting hasty.																						
+67	61		301								Changyu	He's... pretending to be me at the Fair? He can't fight at all! If somebody finds out...	1																					
+68	62		202							1					1																			
+69	63		301									There is no time to hesitate. Changyu grabs his bag and throws everything remaining on the desk inside.																						
+70	64		301									No matter his reasons, Changyu needs to know. He would not have allowed it if Huainan was risking his life for him. What is he up to—what has he planned for Akdilek at the Trade Fair?																						
+71	65		301								Tycoon	Hey. I would stay here if I were you.																						
+72	66		301									Says the man tied up on the ground, unprompted.																						
+73	67		301									Changyu would have ignored him, but he pauses after hearing what the man says next.																						
+74	68		301								Tycoon	Ignorance is bliss... There are things better left unknown. There is virtue in being a nobody, isn't there? Is that not acceptable to you?																						
+75	69		201							1	500216	5																						
+76	70		301							1	Changyu	You don't get it. This is my choice.	1																					
+77	71		301								Changyu	Be it lies, or even betrayals...	1																					
+78	72		301									Changyu tightens his fists and walks out the door, leaving the man behind.																						
+79	73		301		1		AniZhuanchangBegin				Changyu	...He will tell me himself.	1																					

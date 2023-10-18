@@ -1,0 +1,43 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		102							Chapter 3	Weavers Of Destiny	Assets/Product/Texture/Atlas/CommonLogo/BgLogo1.png																						
+2	2		502							ThemeEnable																								
+3	3		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory28.jpg																								
+4	4		401							1	206																							
+5	5		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	2																							
+6	6		201							1	1111001																							
+7	7		301			DialogEnable				1	Karenina	...This is the Golden Vortex, isn't it?	1																					
+8	8		401							2	1515																							
+9	9		301							1	Karenina	(Sends message) This is Karenina. I'm in position.	1																					
+10	10		401							2	1515																							
+11	11		301							1	Karenina	(Sends message) So I just have to find this antigen, right? Hey... Hello? Anyone?!	1																					
+12	12		204							1	5																							
+13	13		301							1	Karenina	Say something!	1																					
+14	14		201							1	1041001	2																						
+15	15		301							1	Nanami	"Telepathy" doesn't work here! Nanami tried!	1																					
+16	16		202							1					1																			
+17	17		201							1	1111001	5	-400																					
+18	18		301			PanelActor1Shake				1	Karenina	Stop appearing out of nowhere!	1																					
+19	19		204							1																								
+20	20		201							2	1041001		400																					
+21	21		301							1	Nanami	Stop yelling at Nanami...	2																					
+22	22		301								Karenina	Why the hell are you here? You weren't on the list of the Joint Task Force!	1																					
+23	23		301								Karenina	(Grumbles) I'm not even sure if you belong to any task force.	1																					
+24	24		301								Nanami	Nanami didn't want to be left behind! I want to hang out with my friends!	2																					
+25	25		301								Karenina	...Can't get you to stay away if we try.	1																					
+26	26		301								Karenina	You better help out if you're coming with me! Don't let me catch you slacking!	1																					
+27	27		204							2	2																							
+28	28		301								Nanami	Okey-dokey! Nanami will help—a lot!	2																					
+29	29		202							1	2				1																			
+30	30		201							1	500013		-600																					
+31	31		201							2	500013																							
+32	32		201							3	500013		600																					
+33	33		401							2	1508																							
+34	34		301							1		A large wave of mechanoid guards appears through the mirage in the distance...	2																					
+35	35		202							1	2	3			1																			
+36	36		201							1	1111001		-400																					
+37	37		201							2	1041001		400																					
+38	38		301							1	Karenina	Time to prove yourself...	1																					
+39	39		301								Karenina	Let's go, Nanami!	1																					
+40	40		202							1					1																			
+41	41		204							2	2																							
+42	42		301		1	PanelActor2Shake	AniZhuanchangBegin			1	Nanami	OH～YEAH!!!	2																					

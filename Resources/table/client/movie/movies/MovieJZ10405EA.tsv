@@ -1,0 +1,24 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory54.jpg																								
+2	100		401							1	103																							
+3	2		201							1	500013																							
+4	101		401							2	1510																							
+5	3		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackSmokeNew.prefab		1																						
+6	4		301			DialogEnable				1	Corrupted	——!!————!!	1																					
+7	5		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackSmokeNew.prefab		1																					
+8	6		202							1					1																			
+9	7		201							1	500024		-450																					
+10	8		201							2	500062		450																					
+11	9		301							1	Bruce	...A headshot.	2																					
+12	10		301								Bruce	Sister, we will take care of the rest of them.	2																					
+13	11		301								Bruce	Please escort the others to the crossroad up ahead. My team is stationed there and it should be safe.	2																					
+14	12		301								Bianca	Understood, I will safely lead everyone—	1																					
+15	13		301								Bianca	Oh right, if you see a soldier with his hair tied up, tell him that he's in charge of leading team Oasis now.	2																					
+16	14		301								Bruce	...I won't deliver these kinds of messages! If you have something to tell him, come back alive and tell him yourself!	1																					
+17	15		301								Bianca	Hah, you're a tough one, Sister.	2																					
+18	16		202							1	2				1																			
+19	17		201							1	500013																							
+20	102		401							2	1508																							
+21	18		301							1	Corrupted	——!!————!!	1																					
+22	19		201							1	500062																							
+23	20		301		1		AniZhuanchangBegin			1	Bruce	(Ugh, they keep increasing in numbers... This is getting a bit out of hand...)	1																					

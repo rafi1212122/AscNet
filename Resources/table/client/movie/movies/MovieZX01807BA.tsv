@@ -1,0 +1,144 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	500		504							0.7	6																							
+2	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory324.png																								
+3	2		401							1	12																							
+4	3		301			DialogEnable						The outline of the refugee camp gradually fades into the distance and the temperature begins to drop rapidly.																						
+5	4		301									Unlike the wilderness, the few refugees scattered throughout the camp were enough to dispel the cold from their breath alone.																						
+6	5		301									But now, the cold wind holds you in its frigid embrace.																						
+7	6		301									The heat from your breath condenses into a white fog. The thought of potentially freezing to death spurs you on as you follow the scout's white figure onward.																						
+8	7		301									Wanshi's familiarity with the surrounding terrain allows him to adeptly find the most efficient route for conserving strength while also avoiding the Red Tide.																						
+9	8		301									That being said, the trek is still no easy feat for a human.																						
+10	9		201							1	500273																							
+11	10		301							1	Wanshi	Why didn't you put on a thermal suit?	1																					
+12	11		302								It's too heavy and hinders movement.	12																						
+13	12		301								Wanshi	Why are you willing to throw your life away for someone you just met? You really are somethin' else...	1																					
+14	13		301								Wanshi	Let's stop for some water. I remember the terrain up ahead. As long as he didn't jump into the Red Tide, we should be right on him.	1																					
+15	14		302								I'm good.	15	Thank you.	17																				
+16	15		301								Wanshi	Hmph... No, you're not. Based on how little you've drunk since we left, you need to hydrate.	1																					
+17	16	18	301								Wanshi	We may be in a hurry, but if you pass out, then this'll be a lost cause.	1																					
+18	17		301								Wanshi	Don't mention it...	1																					
+19	18		202							1					1																			
+20	19		301									You stop next to a rock formation and rest.																						
+21	20		201							1	500273																							
+22	21		301							1	Wanshi	Your intermittent daydreaming hasn't been acting up recently, has it?	1																					
+23	22		302								How could you tell?	23																						
+24	23		301								Wanshi	I used to be in the medical corps. I've still got an eye for that sorta stuff.	1																					
+25	24		301								Wanshi	It happens frequently and without warning. The symptoms don't correspond to any disease I recall.	1																					
+26	25		301								Wanshi	What's wrong?	1																					
+27	26		302								...	27	Don't worry about it.	28																				
+28	27	29	301								Wanshi	Hmph... Forget I asked. Not like I'm trying to prod you for anything.	1																					
+29	28		301								Wanshi	Alright... If that's the case, I'll stop bugging you about it.	1																					
+30	29		301				DialogDisable				Wanshi	Anyway, I already know about your condition. I won't let it happen when everything is on the line again.	1																					
+31	30		302								Why did you bring me out here?	31																						
+32	31		302								Did you say all of that to me on purpose?	32																						
+33	32		302								Not just me. It's for Lee as well.	33																						
+34	33		301			DialogEnable					Wanshi	Heh... Clever.	1																					
+35	34		301								Wanshi	I'm starting to see why my Captain thinks of Gray Raven so highly.	1																					
+36	35		204							1	4																							
+37	36		301									Wanshi's dull expression suddenly turns sharp. His voice no longer carries the same apathetic tone.																						
+38	37		301								Wanshi	Correct. I could have easily found this child by myself.	1																					
+39	38		301								Wanshi	Constructs move faster without having to drag a human along.	1																					
+40	39		302								But you did anyway.	40																						
+41	40		301								Wanshi	Because I was curious.	1																					
+42	41		301								Wanshi	Curious about what caused the Red Tide and the evolution of the Punishing Virus.	1																					
+43	42		302								(Remain quiet)	43																						
+44	43		202							1					1																			
+45	44		301									Even though you remain quiet, you can't help but think of that colossal nightmare.																						
+46	45		301				AniZhuanchangBegin					The Hetero-Creature known as Polyphages—the same creatures that nearly spelled doom for Gray Raven.																						
+47	46		101							Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+48	47		401							1	36																							
+49	48		504							0.7																								
+50	49		201							1	500004																							
+51	50		301			AniZhuanchangEnd				1	Asimov	This is a monster bred by the Ascendants—the Polyphage. It's similar to the Rail Heterozygotes we have encountered before. After preliminary analysis, we've determined that it's also driven by Hetero-Core fragments.	1																					
+52	51		301								Asimov	However, the situation is fundamentally different from that on Akdilek. Even though both are driven by Hetero-Core fragments, the Polyphage is far more complex than the Rail Heterozygote.	1																					
+53	52		301								Asimov	It's not a Heterozygote, but rather a new type of Punishing creature that simulates organisms on Earth through evolution. In other words, it's a Hetero-Creature.	1																					
+54	53		301								Asimov	Although there is no conclusive evidence, we reasonably suspect that the Hetero-Core fragments within it not only serve as the power source for its own existence, but also triggers the Red Tide.	1																					
+55	54		301								Asimov	Otherwise, the timing of the two would be too coincidental.	1																					
+56	55		301								Asimov	It's about the battle with the Ascendants. Information on the Polyphage has been released, but the fact that they contain Hetero-Core fragments is still top-secret.	1																					
+57	56		202							1					1																			
+58	57		201							1	500011		-450																					
+59	58		201							2	500012		450																					
+60	59		301							1	Hassen	【kuroname】, I hope that you can keep the events of what happened underground that day confidential.	1																					
+61	60		301				AniZhuanchangBegin				Nikola	Of course, be sure to pass on this message to your team word for word.	2																					
+62	61		202							1	2				1																			
+63	62		504							0																								
+64	63		101							Assets/Product/Texture/Image/BgStory/Bgstory324.png																								
+65	650		504							0.7	6																							
+66	64		401							1	102																							
+67	65		201							1	500273	4																						
+68	66		301			AniZhuanchangEnd				1	Wanshi	Everyone has been silent about what happened that day...	1																					
+69	67		301								Wanshi	But we're scouts. It's not hard for us to piece together the clues.	1																					
+70	68		301								Wanshi	Not long after we received reports of the victory on the front line...	1																					
+71	69		301								Wanshi	The surging Red Tide suddenly went "inert."	1																					
+72	70		302								I beg your pardon?	71																						
+73	71		301								Wanshi	You guessed it.	1																					
+74	72		301								Wanshi	Even with the recent surging of the Red Tide, it's become far less turbulent than what it once was.	1																					
+75	73		301								Wanshi	Even at high tide, the Punishing concentration is far lower that what it once was.	1																					
+76	74		301								Wanshi	In other words, the Red Tide has weakened.	1																					
+77	75		301								Wanshi	What did you do to cause this?	1																					
+78	76		202							1					1																			
+79	77		301									Your vision fills with the image of the Polyphage completely disintegrating among the radiant glow.																						
+80	78		302								We didn't do anything.	79	(Shake head)	81																				
+81	79		201							1	500273	4																						
+82	80	83	301							1	Wanshi	Looks like you aren't trying to hide something.	1																					
+83	81		201							1	500273	4																						
+84	82		301							1	Wanshi	You still need to keep quiet?	1																					
+85	83		301								Wanshi	No matter. Your answer won't have any bearing on my conclusion anyway.	1																					
+86	84		301								Wanshi	Even if Babylonia isn't willing to disclose any information, there's one similarity with our current situation.	1																					
+87	85		301								Wanshi	Based on their pure concentration of the Punishing Virus, these things are essentially the same as the Hetero-Core encountered in the space station.	1																					
+88	86		301								Wanshi	Is the fragment that hit Asslam the only Hetero-Core fragment that fell from the space station?	1																					
+89	87		301								Wanshi	Alright, never mind. I can tell by the look on your face.	1																					
+90	88		301								Wanshi	The once inert Red Tide has begun to surge once more into a tributary.	1																					
+91	89		301								Wanshi	We can't use conventional rules and logic to infer something like the Red Tide. That being said, we can't completely ignore the underlying meaning, can we?	1																					
+92	90		301									Wanshi turns his head and looks to the west.																						
+93	91		301									The intricate web of tributaries stretches out to the horizon.																						
+94	92		301								Wanshi	Looking across these tributaries, what do you think we would see at the end of it?	1																					
+95	93		301								Wanshi	At the time, Babylonia concentrated all its energy on the prism and hit the Hetero-Core with pinpoint precision. Even then, they failed to completely destroy it.	1																					
+96	94		301								Wanshi	What makes them so confident that a wide-spread attack on the surface will finally put an end to this?	1																					
+97	95		301								Wanshi	A wider blast means that the damage output to any single target is drastically reduced.	1																					
+98	96		301								Wanshi	But what if—and I mean what if—	1																					
+99	97		301								Wanshi	The Red Tide has a source?	1																					
+100	98		301								Wanshi	Destroying the source of the Red Tide wouldn't cause it to disappear, but it wouldn't be able to surge relentlessly.	1																					
+101	99		301								Wanshi	Then we would just have to figure out an effective method to combat the Red Tide. We'll eliminate it sooner or later. It's only a matter of time.	1																					
+102	100		301								Wanshi	That's why I need you.	1																					
+103	101		301								Wanshi	Only commandants have the authority to deploy the bit domain node. Right?	1																					
+104	102		301								Wanshi	Your team member, Lee, senses this too.	1																					
+105	103		302								You're far more daring than what I imagined.	104																						
+106	104		301								Wanshi	Ah, that's because my Captain told me about something that is written in your student manuals.	1																					
+107	105		301								Wanshi	As a valedictorian of F.O.S. College, I'm sure you know it.	1																					
+108	106		301								Wanshi	Exceptions prove the rule...	1																					
+109	107		302								And destroy the battle plan.	108																						
+110	108		204							1	1																							
+111	109		301								Wanshi	...Oorah.	1																					
+112	110		302								So Chrome has heard that saying, too.	111																						
+113	111		301								Wanshi	He is indeed a top student. That's why he is required to know everything.	1																					
+114	112		301								Wanshi	But if Kamui didn't pester him, he wouldn't have made this an interesting story.	1																					
+115	113		301								Wanshi	After all, I'm a sniper.	1																					
+116	114		301								Wanshi	The sniper's motto is: reach out and touch someone.	1																					
+117	115		302								I thought you were more indifferent to these things.	116																						
+118	116		204							1																								
+119	117		301								Wanshi	You're right.	1																					
+120	118		301								Wanshi	I don't care about what you're tangled up in.	1																					
+121	119		301								Wanshi	Whether that be with them or with Chief Commander Hans, those poor people are just caught up in the universal values of the past.	1																					
+122	120		302								Then why get involved?	121																						
+123	121		301								Wanshi	...	1																					
+124	122		204							1	8																							
+125	123		301								Wanshi	No reason really.	1																					
+126	124		204							1																								
+127	125		301								Wanshi	I know a man who was kind to me, but I couldn't repay him. Until now.	1																					
+128	126		302								Who?	128																						
+129	127		204							1	7																							
+130	128		301									Wanshi's face turns blank as if gazing at an old friend across time and space rather than at the present situation.																						
+131	129		301								Wanshi	Just an outsider from the Golden Age. That being said, he's far more interesting than someone who drowned in the glory of the Golden Age.	1																					
+132	130		204							1	8																							
+133	131		301						2000			Wanshi closes his eyes.																						
+134	132		204							1																								
+135	133		301									Upon opening his eyes, all of his emotions have been swept away.																						
+136	134		301								Wanshi	Hmph, enough about this.	1																					
+137	135		301								Wanshi	There is a solution to everything. Even if it might not be common practice, I just want to use my method to see if it can solve this crisis.	1																					
+138	136		301								Wanshi	I just want all of this to end quickly so I can get some proper shut-eye without having to worry about anything.	1																					
+139	137		301				DialogDisable				Wanshi	What about you? Why do you want to get involved.	1																					
+140	138		302								I just think that...	139																						
+141	139		302								We should never give up hope.	140																						
+142	140		301			DialogEnable					Wanshi	...Is that so?	1																					
+143	141		301		1		AniZhuanchangBegin				Wanshi	I see. Well, enough about this. Our top priority now is to find the kid.	1																					

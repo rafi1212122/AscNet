@@ -1,0 +1,30 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory93.png																								
+2	2		401							1	10																							
+3	3		301			DialogEnable						You arrive in the frigid Port District...																						
+4	4		301									This place reminds you of Murmansk somehow...																						
+5	5		201							1	1031001	7	-600																					
+6	6		201							2	500001																							
+7	7		201							3	500127		600																					
+8	8		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+9	9		301							1	Sophia	I dislike the cold, but Miss Celica requested my deployment.	3																					
+10	10		301							1	Celica	The intel says that the freight logistic system here is highly automated. Command assigned you Sophia just in case.	2																					
+11	11		301							1	Celica	And, just for your information, this is near Murmansk—you're in Kyaranta. Though, only the port is still intact.	2																					
+12	12		301							1	Liv	?	1																					
+13	13		201							1	1011001		-600																					
+14	14		301							1	Lee	We're that close to ARU, huh.	1																					
+15	15		301				AniZhuanchangBegin			2	Celica	Babylonia decided to reactivate the purification filter here to accommodate some ARU refugees. When you're done here, you could even hitch a ride to Murmansk.	2																					
+16	16		201							3	1031001		600																					
+17	17		301			AniZhuanchangEnd				1	Lee	The facilities here look good as new. Doesn't look like the Corrupted have gotten their hands on it.	1																					
+18	18		301							1	Celica	Indeed. From our records...	2																					
+19	19		301							1	Celica	When the Corrupted invaded this place, a high-frequency echo drew them all away.	2																					
+20	20		301							1	Celica	No clues as to the source of the echo, but the facilities survived because of that.	2																					
+21	21		301							1	Liv	What luck...	3																					
+22	22		301							1	Lee	Wait, something is off.	1																					
+23	23		202							1	2	3			1																			
+24	24		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+25	25		201							1	500013					1																		
+26	26		401							2	1508																							
+27	27		301							1	Corrupted	■■■■■!	1																					
+28	28		201							1	1101001																							
+29	29		301		1		AniZhuanchangBegin			1	Watanabe	Not all of them were drawn away, it seems.	1																					

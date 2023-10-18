@@ -1,0 +1,34 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory20.jpg																								
+2	2		401							1	202																							
+3	3		201							1	1081001																							
+4	4		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab	2																							
+5	5		301			DialogEnable				1	Kamui	Ha... Ha...	1																					
+6	6		301								Kamui	There are too many... enemies...	1																					
+7	7		301								Kamui	They keep coming out... It seems they won't stop at all...	1																					
+8	8		301								Kamui	We can't go on like this.	1																					
+9	9		203							1	0.25	450																						
+10	10		201							2	1021001		-450																					
+11	11		301							1	Lucia	Continue.	2																					
+12	12		301								Kamui	Wha...!?	1																					
+13	13		301								Kamui	Wait, Lucia, you're injured!	1																					
+14	14		301								Kamui	Your vital fluid is leaking. Are you okay?	1																					
+15	15		301								Lucia	The Inver-Device is still intact, I can continue to fight.	2																					
+16	16		301								Kamui	I now see why they say you have a high affinity for combat. You practically throw your life out there.	1																					
+17	17		301								Lucia	I don't understand.	2																					
+18	18		301								Lucia	"Life" isn't an apt description for us Constructs.	2																					
+19	19		301								Lucia	Even if the frame is damaged, after repairs and maintenance, we can continue on after a reboot.	2																					
+20	20		301								Kamui	Ye... yeah, I mean, just reboot...	1																					
+21	21		301								Kamui	It's always been this way. But even so... is it really enough to make you put your life on the line...	1																					
+22	22		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab																							
+23	23		202							1	2				1																			
+24	24		301									(Slither, slither...)																						
+25	25		201							1	1081001		450																					
+26	26		201							2	500027		-450																					
+27	27		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+28	28		301							1	Koya	Kamui... Ka... mui...	2																					
+29	29		301								Kamui	Koya?!	1																					
+30	30		301								Koya	Kamui, we're desperate... for help... need... support...	2																					
+31	31		301								Kamui	Give me your coordinate! I'll be right there!	1																					
+32	32		301								Kamui	Wait for me!	1																					
+33	33		301		1		AniZhuanchangBegin				Koya	Hang on... everyone...	2																					

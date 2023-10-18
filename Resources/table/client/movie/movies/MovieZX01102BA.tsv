@@ -1,0 +1,56 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	3		101							Assets/Product/Texture/Image/BgStory/Bgstory168.jpg																								
+2	4		401							1	201																							
+3	5		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	3																							
+4	6		301									It's a familiar feeling.																						
+5	7		301				AniZhuanchangBegin					You open your eyes, and what greets your eyes is neither a familiar ceiling nor a narrow one-man capsule.																						
+6	200		504							0.7																								
+7	112		101							Assets/Product/Texture/Image/BgStory/Bgstory121.png																								
+8	113		201							1	500011																							
+9	114		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+10	115		301			AniZhuanchangEnd				1	Hassen	...And that's everything about this mission. Given your excellent solo combat ability, I believe you're the best person for the job.	1																					
+11	116		301								Hassen	This is a covert mission, and the enemy might make a move any time. Please keep this confidential, even from your Constructs.	1																					
+12	117		302								Understood.	118	Why?	119																				
+13	118	120	301								Hassen	...Thought you'd be questioning why you're going solo.	1																					
+14	119		301								Hassen	It's not that I don't trust your team members. It's just that for this specific mission, "going with the flow" will save you a lot of trouble.	1																					
+15	120		301								Hassen	But worry not, you and your teammates won't be separated for long.	1																					
+16	121		302				AniZhuanchangBegin				I know.	122	We'll regroup soon.	122																				
+17	122		202							1					1																			
+18	123		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+19	124		101							Assets/Product/Texture/Image/BgStory/Bgstory168.jpg																								
+20	125		504							0																								
+21	126		301			AniZhuanchangEnd						You snap out of your daze.																						
+22	127		302								(Check your connection)	128	(Check your condition)	128																				
+23	128		301									Your connection to Lucia and the others is very weak.																						
+24	129		301									You're not physically restrained.																						
+25	9		301									The connection is very weak. You feel something on your neck and reach out to touch it. It feels cold, like some kind of collar made of some special material.																						
+26	10		302								What's this thing?	11	(Try to remove it)	11																				
+27	11		301				AniZhuanchangBegin					The moment you touch the collar, your Mind Beacon registers a reaction. This might be because of your previous experience with connection chambers.																						
+28	12		101							Assets/Product/Texture/Image/BgStory/Bgstory164.png																								
+29	13		301			AniZhuanchangEnd					【kuroname】	Is this...?																						
+30	14		301								【kuroname】	Kinda looks like...																						
+31	15		302				AniZhuanchangBegin				A M.I.N.D.	16	A virtual M.I.N.D.	18																				
+32	16		101							Assets/Product/Texture/Image/BgStory/Bgstory168.jpg																								
+33	17	20	301			AniZhuanchangEnd						It feels like an elementary M.I.N.D.																						
+34	18		101							Assets/Product/Texture/Image/BgStory/Bgstory168.jpg																								
+35	19	20	301			AniZhuanchangEnd						It feels like a virtual M.I.N.D. simulated based on reality.																						
+36	20		301								【kuroname】	...																						
+37	21		301									To confirm this.																						
+38	22		302								(Stand up to check your surroundings)	23																						
+39	23		301									It's a sealed compartment. You feel slight tremors beneath your feet.																						
+40	24		302								Still aboard Asslam?	25	I don't think I'm on the train any more.	25																				
+41	25		301									You look out through the narrow cabin window.																						
+42	26		301									A vast, cerulean expanse usurps your sight. You seem to be at sea.																						
+43	27		302								(Try to knock on the window)	28	(Look around)	29																				
+44	28	30	301									It does not budge.																						
+45	29	30	301									The layout of the compartment suggests that the place might be a storage room. The door is locked from outside and cannot be opened.																						
+46	30		301									You listen closely, and hear the familiar sound of mechanoids shuffling their feet.																						
+47	31		302								The Corrupted?	32	Guards?	33																				
+48	32	34	301									Listening more closely, the footsteps seem to be steady and rhythmic, unlike the kind made by the Corrupted.																						
+49	33	34	301									...																						
+50	34		301									If your intuition is to be trusted, this collar-like thing on you serves a related purpose to a connection chamber, and likely has something to do with the virtual M.I.N.D. you felt earlier.																						
+51	35		301									Perhaps you can use that to your advantage.																						
+52	36		302				AniZhuanchangBegin				(Try to connect to Lucia)	37	(Try to connect to a mechanoid)	37																				
+53	37		101							Assets/Product/Texture/Image/BgStory/Bgstory164.png																								
+54	400		502							AniZhuanchangEnd																								
+55	38		301		1		AniZhuanchangBegin					You feel a novel sensation and connect to something.																						

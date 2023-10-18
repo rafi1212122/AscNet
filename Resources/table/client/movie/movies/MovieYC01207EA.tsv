@@ -1,0 +1,50 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory180.png																								
+2	2		401							1	112																							
+3	3		201							1	500101																							
+4	4		301			DialogEnable				1	Gabriel	This is the end, Gray Raven!	1																					
+5	101		302								All units, withdraw!	5	All units, brace for what's to come!	5																				
+6	5		301			RImgBg1Shake						Gabriel knocks Ayla away violently, then spreads his hand, amassing a ball of energy.																						
+7	102		203							1		400																						
+8	103		201							2	500026		-400																					
+9	6		301							1	Lee	Too late.	2																					
+10	7		301							1	Gabriel	What?!	1																					
+11	104		401							2	10007501																							
+12	105		501			RImgBg1Shake				Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHuijinNew.prefab	3																							
+13	8		301									But, in the middle of the charging up, a pillar of energy burns through the air from the sky, detonating the ball of energy, causing Gabriel's arm to explode from the chain reaction. Smokes surrounds Gabriel in an instant.																						
+14	9		301								Gabriel	Death from above... So this is what you've been hiding?	1																					
+15	10		301								Lee	If it makes you feel better, sure. Just a satellite attack. Took a while to get it connected.	2																					
+16	106		302								Is this what you needed us to buy time for?	11	Good job, Lee!	12																				
+17	107		202							1																								
+18	108		203							2		0																						
+19	11	13	301								Lee	Yeah, and the signal jamming from Kowloong was messing things up... but good thing it launched in time.	2																					
+20	12	13	301								Lee	Naturally. Just stand back and watch, Commandant!	2																					
+21	109		401							2	10007501																							
+22	13		301									Lee talks while advancing and suppressing Gabriel, pushing him back through the continuous orbital attacks. Under the onslaught, Gabriel can no longer dodge all the attacks, but is forced to defend and block as well.																						
+23	110		202							2																								
+24	111		201							1	500101																							
+25	14		301							1	Gabriel	A commendable attempt. But once the interval and the range of the attack is laid bare, that orbital attack becomes a mere toy. I'll finish you now!	1																					
+26	112		202							1																								
+27	5288		201							1	500026																							
+28	16		301							1	Lee	I won't let you take another step closer.	1																					
+29	116		401							2	1509																							
+30	17		301									Lee activates his holographic targeting display. One, two, four, more and more beams rain down from the sky.																						
+31	18		301								Lee	Dodge this.	1																					
+32	117		401			RImgBg1Shake				2	10007501																							
+33	19		301									The beams multiply in numbers, falling in sheets, cutting off Gabriel's escape.																						
+34	118		202							1																								
+35	119		201							1	500101																							
+36	20		301							1	Gabriel	To increase your coverage, you have lowered its output. Foolish, Gray Raven gunsman!	1																					
+37	120		202							1																								
+38	121		201							1	500026																							
+39	21		301							1	Lee	Wasn't targeting you in the first place, Gabriel.	1																					
+40	123		202							1																								
+41	124		201							1	500101																							
+42	22		301				AniZhuanchangBegin			1	Gabriel	You...!	1																					
+43	125		202							1																								
+44	126		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+45	127		401							2	10007501																							
+46	23		301			AniZhuanchangEnd						The scattered beams of light drizzle like rain into the chamber. The flower petals around become torn and soar from the impact of the energy. Dust clouds billow, obscuring everyone's vision.																						
+47	24		301								Gabriel	...I had thought Roland's pride led to his downfall. But it appears I was gravely mistaken.																						
+48	25		301								Gabriel	Gray Raven, this key must be given to Miss Luna intact... A battle to the death will have to wait for another day.																						
+49	26		301		1		AniZhuanchangBegin					Amidst the light, Gabriel bids his farewell.																						

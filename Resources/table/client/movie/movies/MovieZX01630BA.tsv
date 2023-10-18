@@ -1,0 +1,36 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory268.png																								
+2	2		401							1	102																							
+3	3		201							1	500026																							
+4	4		301			DialogEnable				1	Lee	This ring-shaped underground facility consists of different sectors that serve different purposes, including the Living Area, the Armament Area, and the Industrial Area.	1																					
+5	5		301								Lee	All of them were built encircling the Core Area, and from what the blueprint told us, each of them consists of a pathway to the Core.	1																					
+6	6		301								Lee	We've entered through Area B, which is designated as the Industrial Area.	1																					
+7	7		301								Lee	The underground center of the Core Area is in charge of all the operations in this facility, including power, production, defense, and signal disguises...	1																					
+8	8		301								Lee	Which means...	1																					
+9	9		302								Huaxu is probably in the Core Area.	11																						
+10	10		201							1	500166																							
+11	11		301							1	Lucia	Then the question now is how do we get there.	1																					
+12	12		202							1					1																			
+13	13		301									Following Lucia's gaze, you find the Industrial Area in front of you obstructed by multiple platforms, each requiring unlocking a connecting passage before you can reach the bridge that takes you to the Core.																						
+14	14		302								Lee, any thoughts?	15																						
+15	15		301									Lee does not answer. Instead, he tries to activate the operation console on the platform.																						
+16	16		201							1	500026																							
+17	17		301							1	Lee	...Of course it doesn't work. It requires a special identification for platform management.	1																					
+18	18		301								Lee	We can always try to brute force the decryption, but that will cost us a lot of time.	1																					
+19	19		301								Lee	Huaxu's message might be gibberish, but it was sent adhering to Babylonia's guide on rescue requests on the emergency frequency. It can't be a coincidence.	1																					
+20	20		301								Lee	If the message was a clue left for us, and it was unauthorized by Luna, having not heard from Huaxu for such a long time means Luna has discovered what's going on.	1																					
+21	21		201							1	500166																							
+22	22		301							1	Lucia	...We're running out of time.	1																					
+23	23		201							1	500146																							
+24	24		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+25	25		301							1	Murray	Lee, Commandant, please listen to me.	1																					
+26	26		301								Murray	If we use the Spear of F.O.S. to examine the access history of these operation consoles, maybe we can find a way to open the passages.	1																					
+27	27		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+28	28		201							1	500026																							
+29	29		301							1	Lee	Asimov never mentioned that it's capable of that.	1																					
+30	30		201							1	500146																							
+31	31		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+32	32		301							1	Murray	It's a restricted function only available to the highest clearance level, but I'm unlocking it for you temporarily.	1																					
+33	33		302								You have the highest clearance level?	34																						
+34	34		301								Murray	Ugh... As my brother said, this isn't time for protocols. I'm sure Hassen will understand.	1																					
+35	35		301		1		AniZhuanchangBegin				Murray	Just leave it to me.	1																					

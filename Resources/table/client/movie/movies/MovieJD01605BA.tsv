@@ -1,0 +1,18 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory261.png																								
+2	2		401							1	201																							
+3	3		201							1	1031001		-600																					
+4	4		201							2	500026		600																					
+5	5		201							3	500166																							
+6	6		301			DialogEnable				1		Following the route shown in the data, you arrive at a ruin with fragments of Program Ghosts all over the place.																						
+7	7		301								Liv	What... what happened...	1																					
+8	8		301									Broken remains and fragments of Program Ghosts can be seen everywhere near you.																						
+9	9		301								Lucia	"Bianca" is trying to confuse us with multiple bridging...	3																					
+10	10		301								Lee	With that many bridges, 'Bianca" is bound to slip up on how she's operating.	2																					
+11	11		301				DialogDisable				Lee	Let me try to see if there is pattern to it.	2																					
+12	12		302								Please do, Lee.	13																						
+13	13		305							14	17																							
+14	14		301			DialogEnable					Lee	...Calculation completed.	2																					
+15	15		301								Lee	The tracks merge around here. It seems like "Bianca" didn't have enough time to get too far away.	2																					
+16	16		301		1		AniZhuanchangBegin				Lucia	Let's get moving.	3																					
+17	17		202		1		AniZhuanchangBegin																											

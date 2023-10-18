@@ -1,0 +1,20 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory52.jpg																								
+2	2		401							1	209																							
+3	3		201							1	500026																							
+4	4		301			DialogEnable				1	Lee	We're here.	1																					
+5	5		302								I never knew a place like this existed in Babylonia.	6	How did you find out about this place, Lee?	6																				
+6	6		301								Lee	It's a supply depot for ordering military-grade machine parts. It's off the beaten path, so only a few people know about it.	1																					
+7	7		301								Lee	As for how I found this place...	1																					
+8	8		301								Lee	Most machine parts in the workshop are uniformly rationed, but a few special parts need to go through an application process.	1																					
+9	9		301								Lee	Parts are then sent anonymously to headquarters.	1																					
+10	10		301								Lee	Even though there isn't an address listed on the orders, each order has a Diophantine equation and an irregular arc hidden on it.	1																					
+11	11		301								Lee	After solving the equation, I got a set of coordinates.	1																					
+12	12		301								Lee	I compared the curve with the terrain, then calculated Eden's trajectory to accurately pinpoint its location.	1																					
+13	13		301								Lee	After that, I took some time while we were preparing for a mission to investigate the area, and I found it.	1																					
+14	14		302								I have no idea what the heck you're saying, but it sounds impressive...	15	You're always quietly observing every little detail.	15																				
+15	15		204							1	6																							
+16	16		301								Lee	...Anyway, we should be able to find a core chip for the tiny robot here.	1																					
+17	17		302								What kind of chip is it?	18																						
+18	18		204							1																								
+19	19		301		1		AniZhuanchangBegin				Lee	It's a special chip. There's no set ID code to identify it. Just stay here, and I'll go look for it.	1																					

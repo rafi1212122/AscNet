@@ -1,0 +1,32 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory68.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						Now ready, you enter the underground tunnel. Lucia walks in the forefront, her katana in hand, with Liv by your side monitoring the concentration of the Punishing Virus in the area ahead.																						
+4	4		301									Your footsteps echo down the tunnel, your searchlights the only source of light in sight.																						
+5	5		201							1	1031001																							
+6	6		301							1	Liv	It looks like an ordinary entrance to a bomb shelter, but...	1																					
+7	7		302								There are too many Corrupted remains here.	8																						
+8	8		201							1	500026																							
+9	9		301							1	Lee	If this place was indeed built in preparation of war, then it makes sense to find a military plant here.	1																					
+10	10		301								Lee	If the production line has been hijacked, it's highly likely that the plant is still pumping out Corrupted.	1																					
+11	11		202							1					1																			
+12	12		401							2	1508																							
+13	13		301									As if in response, you hear mechanical sounds ahead of you as a dark shadow approaches.																						
+14	14		201							1	500166																							
+15	15		301							1	Lucia	Ready to engage!	1																					
+16	16		201							1	1031001																							
+17	17		301							1	Liv	Wait... What's this?	1																					
+18	18		301									A severely damaged Corrupted crawls toward you, its damaged speaker making incomprehensible noises that echo down the tunnel.																						
+19	19		301								Liv	Its identification code... This is a Construct from Babylonia! Why is it here, though...?	1																					
+20	20		201							1	500026		-400																					
+21	21		201							2	500166		400																					
+22	22		301							1	Lee	The Punishing Virus has damaged its neural circuit. It's too late for us to do anything now...	1																					
+23	23		301				DialogDisable				Lucia	Commandant...	2																					
+24	24		305							25	31																							
+25	25		301			DialogEnable					Lee	This Construct belongs to the Task Force, but as far as I know, Babylonia hasn't assigned any Constructs to this area.	1																					
+26	26		301								Lucia	So how did it get here? And how did it end up being locked up underground...	2																					
+27	27		302								We can only find out if we keep moving.	28																						
+28	28		202							1	2				1																			
+29	29		201							1	1031001																							
+30	30		301		1		AniZhuanchangBegin			1	Liv	Commandant, you are right. Let's keep going.	1																					
+31	31		202		1		AniZhuanchangBegin			1	2				1																			

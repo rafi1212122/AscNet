@@ -1,0 +1,88 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+2	2		401							1	209																							
+3	3		201							1	1021001																							
+4	4		301			DialogEnable				1		All of you, including Lucia, gather around the monitor in the cabin...																						
+5	5		301							1		You watch the Golden Vortex, this majestic architectural wonder in the middle of the desert, collapses and falls.																						
+6	6		301							1	Lucia	Pilot, keep circling the area.	1																					
+7	7		201							1	1011001		-400																					
+8	8		301							1	Lee	Are we trying to rescue Nat?	1																					
+9	9		201							1	1021001	4																						
+10	10		301							1	Lucia	Bianca was right. Nat holds a lot of intel that would be advantageous to us.	1																					
+11	11		201							1	1111001		400																					
+12	12		301							1	Karenina	I don't see her...	1																					
+13	13		301								Karenina	I'm seeing a lot of Corrupted, though. Without the antigen, this place is completely taken over.	1																					
+14	14		201							1	1091001	4	-400																					
+15	15		401							2	1515																							
+16	16		301							1	Bianca	The Punishing Virus concentration has crossed the safety threshold within seconds.	1																					
+17	17		401							2	1515																							
+18	18		301							1	Bianca	And it's still rising...	1																					
+19	19		201							1	1011001		-400																					
+20	20		301							1	Lee	We shouldn't stay here...	1																					
+21	21		201							1	1021001	4																						
+22	22		301							1	Lucia	The Corrupted that's climbing out of the ruin... they're all guards we took down.	1																					
+23	23		201							1	1091001	4	-400																					
+24	24		301							1	Bianca	Lucia. This is war.	1																					
+25	25		301								Bianca	There was no other way.	1																					
+26	26		201							1	1021001	3																						
+27	27		301							1	Lucia	Really? Can you say for certain that we made no mistake...?	1																					
+28	28		301								Lucia	Couldn't we have come up with a better plan? When we took down Nat, have we thought about...	1																					
+29	29		301								Lucia	...About how she could have stopped the Punishing Virus if we hadn't weakened the Golden Vortex's defense?	1																					
+30	30		301								Lucia	She had suppressed the virus for such a long time...	1																					
+31	31		201							1	1091001	4	-400																					
+32	32		301							1	Bianca	Lucia...	1																					
+33	33		201							1	1011001		-400																					
+34	34		301							1		Lee gives Bianca a pat on the shoulder, and she steps to the side. You stand in front of Lucia...																						
+35	35		302								Lucia, don't overthink it.	36																						
+36	36		201							1	1021001	3																						
+37	37		301							1	Lucia	I... Understood, Commandant.	1																					
+38	38		201							1	1041001	2																						
+39	39		301							1	Nanami	(Sticks her face to the window) Wah! Those guards look like they're reborn... Nanami is so moved...	1																					
+40	40		201							1	1021001	1																						
+41	41		301							1	Lucia	...	1																					
+42	42		201							1	1081001		-400																					
+43	43		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+44	44		301							1	Kamui	That was quite a commotion! I can feel the quakes all the way here at the quarantine zone!	1																					
+45	45		301								Kamui	I'm fine, everyone! Sorry to have you all worried!	1																					
+46	46		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+47	47		201							1	1111001	5	400																					
+48	48		301							1	Karenina	(Shakes her head) No one was worried.	1																					
+49	49		201							1	1081001	2	-400																					
+50	50		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+51	51		301							1	Kamui	(Laughs) You won't admit it because you're embarrassed! I've sent you the coordinates of the QZ. Get over here quickly! Liv is worried.	1																					
+52	52		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+53	53		201							1	1031001	7	400																					
+54	54		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+55	55		301							1	Liv	No, I'm not!	1																					
+56	56		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+57	57		201							1	1021001	4																						
+58	58		301							1	Lucia	Please notify the teams in the QZ that the Golden Vortex ruin is now a dead zone with a huge number of Corrupted...	1																					
+59	59		201							1	1081001	4	-400																					
+60	60		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+61	61		301							1	Kamui	Noted. We'll take care of them.	1																					
+62	62		301								Kamui	Our newest order is to establish quarantine zones around the Golden Vortex and hunt down the infected guards.	1																					
+63	63		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+64	64		201							1	1021001	4																						
+65	65		301							1	Lucia	Nat, the Golden Construct, is also buried in the ruins. She might be infected already, but we need to make sure her frame is intact.	1																					
+66	66		201							1	1081001	4	-400																					
+67	67		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+68	68		301							1	Kamui	We can ask to whitelist her, but the authority to do so lies in the Strategic Intelligence Unit...	1																					
+69	69		301				AniZhuanchangBegin				Kamui	Anyway, get to the QZ first, and we can discuss all of that later.	1																					
+70	70		202							1					1																			
+71	71		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+72	72		101							Assets/Product/Texture/Image/BgStory/BgStory26.jpg																								
+73	73		201							1	500013																							
+74	74		301			AniZhuanchangEnd				1		——!! ——!!	1																					
+75	75		401							2	1508																							
+76	76		202							1					1																			
+77	77		301							1	???	(Pushes away the infected mechanoid) ...!																						
+78	78		201							1	500013																							
+79	79		301			PanelActor1Shake				1		The Corrupted struggles with its dying breath, but there is nothing it can do...																						
+80	80		202							1					1																			
+81	81		301							1	???	They're all infected...																						
+82	82		301							1	???	(Observes the Corrupted crawling out of the ruin) How annoying... I guess there wasn't another way...																						
+83	83		201							1	500013		-600																					
+84	84		201							2	500013																							
+85	85		201							3	500013		600																					
+86	86		401							2	1508																							
+87	87		301		1		AniZhuanchangBegin			1		The highly concentrated Punishing Virus covers the ruin with a red glow. Inside it stand countless figures of the menacing Corrupted...																						

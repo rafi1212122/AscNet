@@ -1,0 +1,25 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory1.jpg																								
+2	2		401							1	201																							
+3	3		201							1	1011001		-400																					
+4	4		201							2	1021001		400																					
+5	5		301			DialogEnable				1	Lucia	These have been taken care of, we can start retrieving resources now.	2																					
+6	6		301								Lee	Okay, I'll leave you to secure the perimeter.	1																					
+7	7		201							1	1031001		-400																					
+8	8		301							1	Liv	I'm going to search that area and ensure that it's safe!	1																					
+9	9		203						500	1	0.5	-1000																						
+10	10		202							1					1																			
+11	11		203							2	0.25																							
+12	12		301								Lucia	Alright, move out, Ravens.	2																					
+13	13		302							100	We're not really struggling yet.	16	We spent too much time on retrieving.	17																				
+14	14		201							2	1011001																							
+15	15		303							100																								
+16	16	18	301							1	Lee	Retrieving and recycling resources has always been an important process.	2																					
+17	17		301							1	Lee	Resources are scarce now, unlike when humanity peaked.	2																					
+18	18		302								That's not what I meant.	19	...	19																				
+19	19		301								Lee	Alright, I know you didn't really mean it.	2																					
+20	20		301								Lee	Could you lend me a hand if you don't mind? If you don't know if something can be recycled or not, just show it to me.	2																					
+21	21		302								You really know a lot, Lee.	22	How are you so good at this, Lee?	22																				
+22	22		301								Lee	I would like to dissect single-celled Constructs like Kamui if the opportunity arises, and see why in the world is his performance so bad.	2																					
+23	23		302								I fear for my own safety.	24	Lee, what's with that glint in your eyes...																					
+24	24		301		1		AniZhuanchangBegin				Lee	I currently have no interest in dissecting humans...	2																					

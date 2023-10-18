@@ -1,0 +1,130 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory213.png																								
+2	2		401							1	201																							
+3	3		401							2	1515																							
+4	4		301			DialogEnable				1		...																						
+5	5		301								Commandant A	Zone C 1st to 13th Street: 32% clear.																						
+6	6		301									...																						
+7	7		301								Commandant B	Zone A 57th to 65th Street: 45% clear.																						
+8	8		301								Commandant C	Zone A 20th to 34th Street: 29% clear.																						
+9	9		302								Zone B 35th to 42th Street: 17% clear.	10																						
+10	10		301								Vanessa	Zone D 1st to 45th Street: 83% clear.																						
+11	11		301								Vanessa	Pathetic. That's all we got on our first day of battle?																						
+12	12		301				AniZhuanchangBegin				Vanessa	Teams that are lagging behind will need to crank it up a notch.																						
+13	13		202							1					1																			
+14	14		101							Assets/Product/Texture/Image/BgStory/Bgstory60.jpg																								
+15	15		401							1	12																							
+16	16		301			AniZhuanchangEnd						At night, the city finally ushered in a brief calm. However, occasional gunfire can still be heard in the distant streets. With the Gray Ravens' efforts, the team finds a safe building in Zone B to be used as a temporary resting point.																						
+17	17		301									After reporting the progress of the first day of operation, you enter the rest point from the corridor to find Lee already waiting on the other side of the door.																						
+18	18		201							1	1011001																							
+19	19		301							1	Lee	Finished reporting in?	1																					
+20	20		302								Yes.	21																						
+21	21		301								Lee	Come take a look at this.	1																					
+22	22		401							2	1515																							
+23	23		301									Lee gently swipes his hand, causing a file to appear midair.																						
+24	24		302								What's this?	25																						
+25	25		301								Lee	I deciphered it from the terminal in the city today.	1																					
+26	26		301								Lee	The document explains why outsiders can't find any information on the city.	1																					
+27	27		301								Lee	Because this was an evacuation point for one of the Acadia Operations.	1																					
+28	28		302								Which one?	29																						
+29	29		301								Lee	I can't recover any specific data, so I can't say for sure which one.	1																					
+30	30		301								Lee	Based on the results, the evacuation operation failed and Corrupted occupied the entire city.	1																					
+31	31		301								Lee	Resources, materials and manpower reserves, all of which were buried when this city was besieged. In the present era, it looks like others have even gone through and erased records.	1																					
+32	32		301								Lee	Only until recently have we been able to return to this city, but everything was left in disarray.	1																					
+33	33		301									The records fragments are exactly as Lee describes. Vague words recorded at the beginning of the retreat; the sudden attack from the Corrupted; and the last words of humans that chose to stay within the city.																						
+34	34		401							2	1515																							
+35	35		301									After reading the file, Lee gently taps a corner of the file, and it disappears without a trace.																						
+36	36		301								Lee	Alright, I'm going to destroy it if you're finished reading it.	1																					
+37	37		301								Lee	After all, the powers that be don't want anyone else finding any clues about the city.	1																					
+38	38		301								Lee	Lucia take watch up top. I'll continue to patrol the streets down below. Rest up, Commandant. Another tough battle awaits us tomorrow.	1																					
+39	39		202							1					1																			
+40	40		401							2	1516																							
+41	41		301									As he finishes speaking, Lee walks past you and follows the corridor downstairs.																						
+42	42		302								(Prepare to rest)	43																						
+43	43		301									After deciding what to do next, you walk toward a shabby sofa in the rest point. It is the only piece of furniture on the whole floor. Lucia has moved it from who-knows-where.																						
+44	44		301									The walls are pockmarked with bullet holes. The French windows on the south side were damaged during the evacuation, leaving only shards of glass in the grooves above and below the windows. Unobstructed beams of moonlight shine through the windows, bringing dim light into the dark interior.																						
+45	45		301									Sitting on the sofa, your tight nerves from such an intense day can finally enjoy a moment of respite.																						
+46	46		301								Liv	Commandant?																						
+47	47		301									Liv's voice can be heard from behind the sofa. Turning your head, you see Liv walk over toward you.																						
+48	48		201							1	500292																							
+49	49		301							1	Liv	Are you taking a break?	1																					
+50	50		302								I just sat down.	51																						
+51	51		301								Liv	Ah... Are your hands feeling any better?	1																					
+52	52		302								I can't feel anything.	53	A bit better.	58																				
+53	53		204							1	7																							
+54	54		301								Liv	Huh?! Let me check your wounds!	1																					
+55	55		302								I was just joking.	56																						
+56	56		301								Liv	Not funny...	1																					
+57	57		302								How do you feel?	60																						
+58	58		301								Liv	Good to know.	1																					
+59	59		302								How do you feel?	61																						
+60	60		204							1																								
+61	61		301								Liv	I feel a lot better. I've fully regained control of my Levi-Gun.	1																					
+62	62		302								I wasn't talking about your frame.	63																						
+63	63		301								Liv	Huh?	1																					
+64	64		302								I was talking about being in the Gray Ravens.	66																						
+65	65		204							1	6																							
+66	66		301								Liv	Um...	1																					
+67	67		204							1	1																							
+68	68		301								Liv	I think there's a huge difference between the Gray Ravens and Egret.	1																					
+69	69		302								I've heard stories of Vanessa's tactics.	70																						
+70	70		301								Liv	I'm not talking about tactics. I mean... dynamic.	1																					
+71	71		301								Liv	I'm sure everyone else has only ever heard of Egret's successes. Vanessa single-handedly kept all issues with the team's dynamic from ever seeing the light of day.	1																					
+72	72		302								So, is that why Vanesa was so confrontational with you?	500																						
+73	500		204							1	5																							
+74	73		301				DialogDisable				Liv	Yeah... I think she believes that my joining Gray Raven is an act of defiance to her authority.	1																					
+75	74		302								...	75																						
+76	75		302								I'm sorry for everything you've been through.	76																						
+77	76		204							1	6																							
+78	77		301			DialogEnable					Liv	Hmm? No, it's nothing. Don't be sorry.	1																					
+79	78		301								Liv	...	1																					
+80	79		301								Liv	You're a lot different than Vanessa.	1																					
+81	80		301								Liv	With our time together, I've gradually come to realize why Lucia was so persistent in the training room.	1																					
+82	81		302								Persistent?	83	Training room?	83																				
+83	83		301								Liv	Hmm? You don't know, Commandant?	1																					
+84	84		301								Liv	Err... I've said too much.	1																					
+85	85		302								?	86																						
+86	86		301								Liv	Uh, never mind. It's no big deal. Maybe Lucia will tell you when the time is right.	1																					
+87	87		302								Got it.	88																						
+88	88		301								Liv	...	1																					
+89	89		301								Liv	That's what makes you so special, 【kuroname】.	1																					
+90	90		302								How so?	91																						
+91	91		301								Liv	Well... I think it's the respect and trust you give Constructs.	1																					
+92	92		301								Liv	You never push anyone to talk about or do something they don't want to.	1																					
+93	93		301								Liv	Every Construct at your side has freedom and the right to choose. We can all do as we please. We're not just weapons and tools...	1																					
+94	94		302								Am I really that different...?	95																						
+95	95		301								Liv	Of course!	1																					
+96	96		301								Liv	But your unpredictability still makes us worried.	1																					
+97	97		301								Liv	I hope you'll pay more attention to yourself next time. Don't be so careless.	1																					
+98	98		302								I'll do better next time.	99	I will.	99																				
+99	99		301								Liv	...	1																					
+100	100		301								Liv	As for Lee, even though he isn't great at expressing himself, he worries about others to the point of being overbearing.	1																					
+101	101		301								Liv	As for Lucia, her judgement may be clouded on occasion, but she still presses onward.	1																					
+102	102		204							1	1																							
+103	103		301								Liv	Overall, I think every member of the Gray Ravens is truly wonderful.	1																					
+104	104		202							1					1																			
+105	105		301									As if a little abashed for what she had just said, Liv stands before you with her head held low trying to hide her expression from you.																						
+106	106		302								I hope you keep watching out for us.	107	Thanks.	107																				
+107	107		201							1	500292	6																						
+108	108		301				AniZhuanchangBegin			1	Liv	Commandant...	1																					
+109	109		101							Assets/Product/Texture/Image/BgStory/Bgstory98.png																								
+110	110		201							1	1011001																							
+111	111		301			AniZhuanchangEnd					Lee	How am I overbearing and unable to express myself...	1																					
+112	112		203							1	0.25	-400																						
+113	113		201							2	500029		400																					
+114	114		301							1	Lucia	Lee, why don't you go in?	2																					
+115	115		401							2	1516																							
+116	116		301									Standing in the corridor and leaning against the door to the rest point, Lee suddenly sees Lucia walk down the corridor.																						
+117	117		301								Lee	It's nothing.	1																					
+118	118		301								Lucia	Really?	2																					
+119	600		204							2	3																							
+120	119		301									Lucia tilts her head slightly in confusion and continues to approach the rest point. Reaching the door, she puts her hand on the door handle.																						
+121	120		301								Lee	Lucia.	1																					
+122	121		301								Lucia	What is it?	2																					
+123	122		301								Lee	I found some things while patrolling the streets. I need to you come retrieve it with me.	1																					
+124	601		204							2	5																							
+125	123		301								Lucia	Understood.	2																					
+126	124		301								Lee	Thanks. It won't take long.	1																					
+127	125		202							1	2				1																			
+128	126		301									Lucia nods and turns to leave. Seeing her go downstairs, Lee sighs and follows her.																						
+129	127		301		1		AniZhuanchangBegin					Unbeknownst to others, Lee looks back at the door to the rest point before leaving. No one notices that Lee's eyebrows, which have been firmly knit since the start of the mission, have finally relaxed for a moment.																						

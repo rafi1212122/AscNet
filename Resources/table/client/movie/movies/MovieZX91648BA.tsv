@@ -1,0 +1,13 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	2		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory278.png																								
+2	3		401							1	203																							
+3	4		301			DialogEnable						Following the tracks left behind by Lamia, the four of you soon reach a platform in an open area.																						
+4	5		201							1	500026																							
+5	6		301							1	Lee	Is Lamia here?	1																					
+6	7		201							1	1031001																							
+7	8		301							1	Liv	Something isn't quite right...	1																					
+8	9		202							1					1																			
+9	10		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab	2																							
+10	11		301									Suddenly, smoke emerges everywhere and engulfs the platform.																						
+11	12		201							1	500166	5																						
+12	13		301		1		AniZhuanchangBegin			1	Lucia	It's a trap! Retreat!	1																					

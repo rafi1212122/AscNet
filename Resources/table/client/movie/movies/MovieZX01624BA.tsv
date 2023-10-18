@@ -1,0 +1,85 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		501						1500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+2	2		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+3	3		504							0.8																								
+4	4		101							Assets/Product/Texture/Image/BgStory/Bgstory1.jpg																								
+5	5		401							1	211																							
+6	6		301			DialogEnable						The riot in front of you lets out a strange roar, then turns into remains like before.																						
+7	7		201							1	1021001																							
+8	8		301							1	Lucia's Projection	It's abnormal for Commandant to not respond. Murol, Xun, we're pulling out.	1																					
+9	9		202							1					1																			
+10	10		504							0																								
+11	11		201							1	500166																							
+12	12		301							1	Lucia	...I remember saying that before, but...	1																					
+13	13		202							1					1																			
+14	14		301									The projections then fill in the blanks in Lucia's memory.																						
+15	15		504							0.8																								
+16	16		201							1	500019		-600																					
+17	17		201							2	500019		600																					
+18	18		201							3	1021001																							
+19	19		301							1	Murol's Projection	Lucia... Go...	1																					
+20	20		301								Xun's Projection	I'm worried... the commandant is also... in danger... A-after all, we only just escaped.	2																					
+21	21		301								Lucia's Projection	How could I leave you here?!	3																					
+22	22		301									She goes to Murol and Xun, trying her best to carry one of them first. At that moment, the long-disconnected former commandant finally contacts her.																						
+23	23		301								Former Commandant	...Lucia!																						
+24	24		301									He gasps for air as if he has just been through an arduous battle.																						
+25	25		301								Lucia's Projection	Commandant! Murol and Xun are seriously wounded. I need support!	3																					
+26	26		301								Former Commandant	We can't! I know it's cruel to say this, but leave them there.																						
+27	27		301								Former Commandant	I've been ambushed! Get over here and provide backup!																						
+28	28		301								Lucia's Projection	I can't abandon our comrades!	3																					
+29	29		301								Murol's Projection	Don't worry about us... Xun and I can transfer our memories... We'll see you again... in no time.	1																					
+30	30		301								Lucia's Projection	Memory transfer? But that technology is still...	3																					
+31	31		301								Xun's Projection	Don't worry... We might lose some memories, but... we'll be fine.	2																					
+32	32		301									Xun forces a smile under unbearable pain.																						
+33	33		301								Former Commandant	LUCIA!!! Get back here ASAP! We don't have much time!																						
+34	34		301									Lucia's projection grits her teeth, showing a sign of reluctance as she leaves her fallen comrades.																						
+35	35		301								Xun's Projection	D-don't look so dismal... We'll see each other... in our new frames.	2																					
+36	36		301								Lucia's Projection	Okay... Don't break your promise!	3																					
+37	37		202							3					1																			
+38	38		301									The two of them on the ground struggle to give her a thumbs up, watching Lucia leave.																						
+39	39		301								Murol's Projection	If we keep laying here... we'll become Corrupted... won't we?	1																					
+40	40		301								Xun's Projection	Memory transfer takes time... Hold on a little longer.	2																					
+41	41		301				DialogDisable					Panting, their projections fade overr time, finally disappearing where they lie.																						
+42	42		202							1	2				1																			
+43	43		501						1500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+44	44		504							0																								
+45	45		101							Assets/Product/Texture/Image/BgStory/Bgstory287.png																								
+46	46		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+47	47		201							1	500166																							
+48	48		301			DialogEnable				1	Lucia	...	1																					
+49	49		302								Remember anything?	50																						
+50	50		301									Lucia shakes her head. Even though she saw her projection, she still cannot recall any relevant memory data in her M.I.N.D.																						
+51	51		301								Lucia	But seeing them there confirms what the commandant said about the incident. It really did happen here.	1																					
+52	52		302				AniZhuanchangBegin				(Hassen said...)	53																						
+53	53		202							1					1																			
+54	54		504							1																								
+55	55		101							Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+56	56		201							1	500011																							
+57	57		301			AniZhuanchangEnd				1	Hassen	Now that her frame contains data from Alpha, maybe it's time she has her full memories back.	1																					
+58	58		301								Hassen	Nikola withheld part of it at first out of concerns. He believed doing so would benefit our ongoing fight.	1																					
+59	59		301								Hassen	But that only solves our immediate problem. The longer it's held back, the easier Lucia gets lost in confusion and doubt.	1																					
+60	60		301								Hassen	I believe her bond with the Gray Ravens can keep her from crossing that line.	1																					
+61	61		203							1	0.25	-400																						
+62	62		201							2	500004		400																					
+63	63		301							1	Asimov	I've sent an access key to your terminal. It'll allow you to use the Spear of F.O.S. to access Lucia's Deep M.I.N.D.	2																					
+64	64		301								Hassen	That's where Alpha's memories are locked. You should know what that means.	1																					
+65	65		301				AniZhuanchangBegin				Hassen	It's up to you to decide when to use it.	1																					
+66	66		202							1	2				1																			
+67	67		504							0																								
+68	68		101							Assets/Product/Texture/Image/BgStory/Bgstory287.png																								
+69	69		301			AniZhuanchangEnd						Now that Lucia has accepted the first half of this memory, maybe you can give her permission now?																						
+70	70		302								Lucia, you...	71		71																				
+71	71		301									Just as you try to persuade her, you receive an emergency notification on your comms.																						
+72	72		201							1	500146	1																						
+73	73		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+74	74		301							1	Murray	Any issues?	1																					
+75	75		302								Nothing so far.	76																						
+76	76		301								Murray	I noticed that you've been in the same location for a while now. I was worried you were in danger.	1																					
+77	77		302								We're just having a rest.	78																						
+78	78		301								Murray	Alright, but time is of the essence. The Red Tide is incoming.	1																					
+79	79		302								?!	80																						
+80	80		301								Murray	Evacuate the premises immediately. Bridget should be nearby, she should be able to give you a ride.	1																					
+81	81		302								(Now's not the right time)	82	(Tell her next time)	82																				
+82	82		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+83	83		202							1					1																			
+84	84		301		1		AniZhuanchangBegin					After receiving this information, without further ado, you terminate the call and quickly proceed to the designated entrance—																						

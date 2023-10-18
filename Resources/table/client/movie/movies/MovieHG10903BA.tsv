@@ -1,0 +1,34 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory101.png																								
+2	2		401							1	204																							
+3	3		301			DialogEnable						And so, you accompany Ayla to the modern art exhibition upon her invitation...																						
+4	4		201							1	500110																							
+5	5		301							1	Ayla	My piece won't be displayed here until later, but we can at least look at others' artwork and get hyped for the event.	1																					
+6	6		301				AniZhuanchangBegin				Ayla	Commandant, let go on in.	1																					
+7	7		301			AniZhuanchangEnd					Ayla	Commandant, have you heard about the life of Eugene Nakahara?	1																					
+8	8		301								Ayla	Look! It's Lina Ono's "Magenta Wave"!	1																					
+9	9		202							1					1																			
+10	10		301									After taking a big lap around the exhibition hall, Ayla is now filled with excitement...																						
+11	11		301				AniZhuanchangBegin					Full of energy at a time like this, no one would have guessed that she works late into the night...																						
+12	12		301			AniZhuanchangEnd						...																						
+13	13		301									Ayla stops in front of a picture titled "Early Spring".																						
+14	14		301									She seems full of regret... but why?																						
+15	15		302								What is it?	16																						
+16	16		201							1	500110																							
+17	17		301							1	Ayla	Hey...	1																					
+18	18		301								Ayla	This paint... is an old piece of mine. Maybe it's here as a replacement for the original exhibit.	1																					
+19	19		301								Ayla	It's not my best work... It's too constrained and pays too much attention on expressing "objective existence."	1																					
+20	20		301								Ayla	But looking at it now... it seems as if this is a reminder not to be constrained to such a simple "form"...	1																					
+21	21		301								Ayla	...	1																					
+22	22		302								...	23																						
+23	23		202							1					1																			
+24	24		301									The exhibition is closing...																						
+25	25		201							1	500110																							
+26	26		301							1	Ayla	Sorry for making you be with me all day.	1																					
+27	27		302								No worries.	28																						
+28	28		301								Ayla	So... How did you know that the question mark could be filled in?	1																					
+29	29		302								Um...	30																						
+30	30		301								Ayla	Regardless of how you did it...	1																					
+31	31		302								?	32																						
+32	32		301								Ayla	I think I got some inspiration.	1																					
+33	33		301		1		AniZhuanchangBegin				Ayla	Think I can trouble you for a bit tomorrow?	1																					

@@ -1,0 +1,19 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+2	2		401							1	12																							
+3	3		201							1	500004																							
+4	4		301			DialogEnable				1	Asimov	Oh, you're here... I'll leave this week's test to you.	1																					
+5	5		301								Asimov	Nikola isn't here this time. I think he's got to handle some application procedures for the "Virtual Horizon" system.	1																					
+6	6		301								Asimov	Don't know why he's all worked up about it, but getting to continue development on a worthwhile system is a-okay with me.	1																					
+7	7		301								Asimov	The test this time will primarily evaluate Constructs not used in the previous missions. Pay attention to the reminders before completing the missions.	1																					
+8	8		302								Alright, got it.	9																						
+9	9		301								Asimov	Well then, you know the drill. Put on your headset just like last time... I'm not sure what's wrong with the AI prompt, but the voice is getting more and more garbled. Pay no mind, though...	1																					
+10	10		202							1																								
+11	11		401							2	1509																							
+12	12		301									Once the system starts, you find your headset blasting you with the noise of static, but you can still make out the feminine electronic voice.																						
+13	13		301								-AI-	Pardon me... Are you the user from last week?																						
+14	14		302								Huh? Uh, yes.	15																						
+15	15		301								-AI-	I see! Accessing data for Commandant 【kuroname】—Complete.																						
+16	16		301								-AI-	Construct data upload—complete.																						
+17	17		301								-AI-	Tactical framework simulation generation—complete.																						
+18	18		301		1		AniZhuanchangBegin				-AI-	"Virtual Horizon" loaded. Welcome back, Commandant.																						

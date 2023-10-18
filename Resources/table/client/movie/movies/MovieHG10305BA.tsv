@@ -1,0 +1,42 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory5.jpg																								
+2	2		401							1	201																							
+3	3		201							1	1021001																							
+4	4		301			DialogEnable				1	Lucia	Commandant, is our mission today to track the special Corrupted?	1																					
+5	5		302								That's right.	6	We can just terminate it as well.	10																				
+6	6		203							1	0.25	-400																						
+7	7		201							2	1011001		400																					
+8	8		301							1	Lee	But it surely is difficult to track something without its waveform signatures.	2																					
+9	9	14	301								Lee	Liv, does anything show up on the radar?	2																					
+10	10		203							1	0.25	-400																						
+11	11		201							2	1011001		400																					
+12	12		301							1	Lucia	In that case... we might want to call in reinforcement during battle, depending on how powerful it is.	1																					
+13	13		301								Lucia	Liv, can you try to send out a reinforcement request in the area?	1																					
+14	14		202							1	2				1																			
+15	15		201							1	500021																							
+16	16		301							1	Liv	...	1																					
+17	17		203							1	0.25	400																						
+18	18		201							2	1021001		-400																					
+19	19		301							1	Lucia	Liv?	2																					
+20	20		202							2					1																			
+21	21		203							1	0.25																							
+22	22		301								Liv	Ah... Sorry, were you talking to me?	1																					
+23	23		201							1	1011001																							
+24	24		301							1	Lee	Of course we were. You've been acting like this since we left the base. Is something wrong with your frame?	1																					
+25	25		201							1	500021																							
+26	26		301							1	Liv	No, nothing's wrong. My frame is functioning properly.	1																					
+27	27		302								How about you go back to the base first?	28	Are you sure?	29																				
+28	28	30	301								Liv	I can still carry out the mission, so...	1																					
+29	29		301								Liv	...	1																					
+30	30		201							1	1021001																							
+31	31		301							1	Lucia	Liv?!	1																					
+32	32		201							1	1011001																							
+33	33		301							1	Lee	I knew it.	1																					
+34	34		301								Lee	Liv's M.I.N.D. is in disarray. Data caching is exceeding the threshold!	1																					
+35	35		302								Data caching?	36	We'll prioritize Liv first.	37																				
+36	36	40	301								Lee	Although we don't have to rest, our M.I.N.D.s still need to process excessive data regularly.	1																					
+37	37		201							1	1021001																							
+38	38		301							1	Lucia	Understood.	1																					
+39	39		201							1	1011001																							
+40	40		301							1	Lee	A small amount of cache is fine, but in excess, it could throw the M.I.N.D. into disarray... Like fevers to humans.	1																					
+41	41		301		1		AniZhuanchangBegin				Lee	Anyway, let's bring her back to the base for now.	1																					

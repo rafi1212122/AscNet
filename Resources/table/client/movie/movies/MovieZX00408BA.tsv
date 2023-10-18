@@ -1,0 +1,46 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory26.jpg																								
+2	100		401							1	201																							
+3	2		201							2	1021001		400																					
+4	3		201							1	1101001		-400																					
+5	4		301			DialogEnable				1	Watanabe	The sandstorm's weakening, but it's going to return in 30 minutes.	1																					
+6	5		301								Lucia	Do your people have a weather system of your own?	2																					
+7	6		301								Watanabe	Since your grand retreat, even Babylonia has not succeeded in deploying a single satellite. Do you think we could have one ourselves?	1																					
+8	7		301								Lucia	Then—	2																					
+9	8		301								Watanabe	Eyes.	1																					
+10	9		301								Watanabe	Live here long enough and you can tell the patterns.	1																					
+11	10		301								Watanabe	Alright, let's bid our farewells here. Next time we meet, we'll be enemies.	1																					
+12	11		301								Lucia	Um, Watanabe?	2																					
+13	12		301								Watanabe	?	1																					
+14	13		301								Lucia	From your personal judgment, could you share with us a nearby location suitable for resupply or a safe retreat?	2																					
+15	14		301								Watanabe	...	1																					
+16	15		301								Watanabe	There are no safe spots nearby.	1																					
+17	16		301								Lucia	If that's the case, thank you anyway...	2																					
+18	17		301								Watanabe	But we do have a temporary surveying point somewhere near, of course, only if you're willing to come.	1																					
+19	18		301								Lucia	But your people would not welcome our visit.	2																					
+20	19		301								Watanabe	Indeed. We'd only welcome Babylonian transport crafts with anti-air missiles.	1																					
+21	20		301								Lucia	...	2																					
+22	21		201							1	1011001		-400																					
+23	22		301							1	Lee	Lucia, just knowing this is enough.	1																					
+24	23		301								Lucia	Lee?	2																					
+25	24		301								Lee	Commandant's supplies are running low. We have no more options, and—	1																					
+26	25		301								Lee	We have good odds.	1																					
+27	26		301								Lucia	You mean...	2																					
+28	27		301								Lee	First, Watanabe is in our hands. Second, if we manage to get this info up to Babylonia, we'll get firepower support.	1																					
+29	28		301								Lee	Enough to balance out a threat.	1																					
+30	29		202							1	2				1																			
+31	30		201							1	1081001																							
+32	31		301							1	Kamui	Man, you are one cruel dude Lee, doing something like this to someone you just met?	1																					
+33	32		201							1	1011001	10																						
+34	33		301							1	Lee	I don't want a word from you.	1																					
+35	34		204							1																								
+36	35		301				AniZhuanchangBegin				Lee	Lucia, Commandant, please decide.	1																					
+37	36		202							1					1																			
+38	37		101							Assets/Product/Texture/Image/BgStory/Bgstory63.jpg																								
+39	38		201							1	1101001		-400																					
+40	39		201							2	1081001		400																					
+41	40		301			AniZhuanchangEnd				1	Watanabe	We're here.	1																					
+42	41		301								Kamui	But it's chock full of Corrupted!	2																					
+43	42		301								Watanabe	We're just here to survey.	1																					
+44	43		301								Watanabe	And unlike your soldiers and Constructs, we don't have that many resources to waste. Pointless sacrifices aren't our motto.	1																					
+45	44		301		1		AniZhuanchangBegin				Kamui	Alright, so be it then.	2																					

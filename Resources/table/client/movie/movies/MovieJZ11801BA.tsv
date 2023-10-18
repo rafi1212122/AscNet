@@ -1,0 +1,175 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgCg/Cgqz2201.jpg																								
+2	2		401							1	203																							
+3	3		301			DialogEnable					Wanshi	Hook up the artificial heart, use the suction device to suck the vital fluid away, block the local pain signals, and transfer the feedback to the external terminal.																						
+4	4		301								Assistant A & B	Understood.																						
+5	5		301									The assistants help prepare the Construct on the maintenance bed according to Wanshi's instructions. Wanshi changes into dustproof clothes and stands in the center of the maintenance room. An assistant approaches him at that moment.																						
+6	6		301								Assistant A	Doctor Wanshi, a Construct was taken to maintenance room 13.																						
+7	7		301								Wanshi	Turn on data projection.																						
+8	8		301									Wanshi nods as he looks at the scan of the Construct in maintenance room 13 and says to the assistant.																						
+9	9		301								Wanshi	The auxiliary circulatory system of the lower chamber is damaged. Help me start the remote maintenance kit in maintenance room 13.																						
+10	10		301								Assistant A	Huh, but that would take a huge toll on your mind.																						
+11	11		301									Wanshi takes several connecting wires from the kit terminal aside and attaches them to his head, ignoring the assistant's persuasion.																						
+12	12		301								Wanshi	Testing connection.																						
+13	13		301									The view of maintenance room 13 is revealed by the kit terminal, several robotic arms lifting the maintenance tools in turn under Wanshi's control. The damaged parts of the Construct are magnified through the microscope, and the gathered data is displayed on the dials of the robotic arms.																						
+14	14		301				AniZhuanchangBegin				Wanshi	That's alright. We'll fix them at the same time.																						
+15	15		101							Assets/Product/Texture/Image/BgStory/Bgstory109.png																								
+16	16		401							1	201																							
+17	17		201							1	500289	1																						
+18	18		301			AniZhuanchangEnd				1	Wanshi	Maintenance over. I'll leave the module "stitiching" to you.	1																					
+19	19		301									Wanshi pushes the maintenance tools aside. The robotic arms slowly lower in the projection of the terminal, putting an end to the work in maintenance room 13.																						
+20	20		201							1	500058				1																			
+21	21		301							1	Assistant B	Yes, Doctor.	1																					
+22	22		202							1					1																			
+23	23		301									The assistant takes a step forward and takes over the maintenance tool after hearing this. Wanshi stretches out and steps back to make room for the assistant.																						
+24	333		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+25	334		401							1	36																							
+26	24		301									However, when Wanshi is stepping back, he suddenly stumbles on his feet. Everything in the maintenance room seems illusory and distant to him. He reaches out to the left, and the touch of the wall brings him back to reality. He keeps his footing by holding onto the wall.																						
+27	335		101							Assets/Product/Texture/Image/BgStory/Bgstory109.png																								
+28	1000		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	3																							
+29	25		201							1	500058				1																			
+30	336		401							1	201																							
+31	26		301							1	Assistant B	Doctor!	1																					
+32	27		202							1					1																			
+33	28		301									Wanshi leans against the wall and takes a few deep breaths. He gets back on his feet again and takes a few pills.																						
+34	29		201							1	500289	1	400																					
+35	30		201							2	500058		-400																					
+36	31		301							1	Wanshi	I'm... I'm okay.	1																					
+37	32		301								Assistant B	It seems that you are much more serious when it comes to maintenance, Doctor.	2																					
+38	33		301								Wanshi	Is that so... I didn't feel any different.	1																					
+39	34		301								Wanshi	Constructs can feel pain just as well as humans. Isn't it a doctor's job to ease their pain?	1																					
+40	35		301								Assistant B	We could just turn off their pain module or use recalling after the frame is fixed.	2																					
+41	2000		204							1																								
+42	36		301								Wanshi	We only advise them to do so when they're suffering unbearable pain.	1																					
+43	37		301								Wanshi	Besides, making a new frame is much more difficult than maintaining it... Otherwise, our work would be meaningless.	1																					
+44	38		301								Assistant B	Speaking of which, I often heard you use recalling to comfort the Constructs during the adjustment.	2																					
+45	39		301								Wanshi	Well... it's part of our duty to help them return to the battlefield.	1																					
+46	40		202							1	2				1																			
+47	41		201							1	500116																							
+48	42		301							1	Assistant A	Yeah, right, you get all talkative about such topics.	1																					
+49	43		203							1	0.25	-400																						
+50	44		201							2	500058		400																					
+51	45		301							1	Assistant B	Right, but it's hard for us to understand it anyway. They're just machines, aren't they?	2																					
+52	46		301								Assistant A	Exactly.	1																					
+53	47		202							1	2				1																			
+54	48		201							1	500289																							
+55	49		301							1	Wanshi	Well...	1																					
+56	50		201							1	500116																							
+57	51		301							1	Assistant A	Enough of that. Doctor, it's almost time for the follow-up adjustment of the Construct, right?	1																					
+58	52		201							1	500289																							
+59	53		301							1	Wanshi	It seems so. I'll get going then.	1																					
+60	54		202							1					1																			
+61	1004		401							2	1516																							
+62	55		301				AniZhuanchangBegin					Wanshi says it as he hangs up the dustproof clothing in the closet of the maintenance room and walks outside.																						
+63	56		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+64	57		401							1	36																							
+65	58		301			AniZhuanchangEnd						Lies are everywhere in human society.																						
+66	59		301									Lies are around each of us from the moment we come into this world. And everyone will come into contact with them as part of the social network.																						
+67	60		301									Lies, ill-intended or not, are alterations to reality.																						
+68	61		301									The moment you see beyond the lies and find reality, a certain string will begin to tighten... or snap.																						
+69	62		301				AniZhuanchangBegin					And what might have sounded inconsequential in daily life may turn deadly dangerous after the wall of lies is breached.																						
+70	63		101							Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+71	64		401							1	201																							
+72	65		301			AniZhuanchangEnd						The confusion caused by the shocking news from the professor makes Wanshi forget when he was called into the office and when did the topic come up.																						
+73	66		301									Wanshi, frozen in place, swallows hard, trying to suppress the shock and find the words.																						
+74	67		201							1	500290		-400																					
+75	68		201							2	500270		400																					
+76	69		301							1	Wanshi	Professor, what you just said...	1																					
+77	70		301								Professor	Yes, some lives are more equal than others in the Star of Life, a place that is supposed to save all lives.	2																					
+78	71		301								Professor	Our Construct Maintenance Department, which was established by the military and the Science Council, is basically a slaughterhouse covered with lies.	2																					
+79	72		301								Wanshi	Then the so-called recalling...	1																					
+80	73		301								Professor	The Constructs known to the public that have been recalled and returned to the battlefields are nothing more than exceptions shaped by the military to be inspirations.	2																					
+81	74		301								Professor	They weren't using recalls, but an arduous operation that extracted the Constructs' memories. By controlling the time difference, they created an illusion of a recall.	2																					
+82	200		301				AniZhuanchangBegin				Professor	This means that not every Construct is immortal. Their demise on the fields also spells their farewell to this world.	2																					
+83	75		202							1	2				1																			
+84	76		401							1	211																							
+85	77		504							0.7																								
+86	500		101							Assets/Product/Texture/Image/BgStory/Bgstory109.png																								
+87	78		201							1	500058																							
+88	79		301			AniZhuanchangEnd	AniZhuanchangBegin			1	Assistant B	Speaking of which, I often heard you use recalling to comfort the Constructs during the adjustment.	1																					
+89	504		504							0.7																								
+90	501		101							Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+91	80		202							1					1																			
+92	81		301			AniZhuanchangEnd						Stop it...																						
+93	82		301									If it's a lie, then what I did before...																						
+94	83		504							0																								
+95	84		201							1	500290		-400																					
+96	85		201							2	500270		400																					
+97	86		301							1	Wanshi	...	1																					
+98	87		301								Professor	The memory extraction operation is different from the frame replacement one, which is done with precise instruments and professional assistance.	2																					
+99	88		301								Professor	It's a dangerous and complicated technique to perform memory extractions on the battlefield and strip the M.I.N.D. from the frame, which might even result in the loss of memory data.	2																					
+100	89		301								Professor	And what is recalling known for?	2																					
+101	1001		301								Professor	That we could quickly activate it on the verge of death and safely transfer the Constructs' memories to Babylonia at the cost of a slight deviation in their M.I.N.D.s.	2																					
+102	1002		301								Professor	If it's so easy to achieve the same effect as a memory extraction, why would we continue to delve into the mysteries of the M.I.N.D. to improve the success rate of those operations?	2																					
+103	1003		301								Professor	Recall... has been a trick for the Constructs from the very beginning.	2																					
+104	90		202							1	2				1																			
+105	301		504							0.7																								
+106	91		301									Stop it.																						
+107	92		301									Perhaps it's just that we don't have enough clearance to know the higher-up's intentions...																						
+108	302		504							0																								
+109	93		201							1	500290		-400																					
+110	94		201							2	500270		400																					
+111	95		301							1	Wanshi	It can't be... the Science Council, the military, the Parliament members—they must have some ways to make recalling possible that they can't share with us...	1																					
+112	96		301								Professor	Take a look at this data.	2																					
+113	97		301								Wanshi	This is...	1																					
+114	98		301								Professor	It's a list of Constructs that have enabled recalling. It also records the flow of data shortly after that.	2																					
+115	99		301								Wanshi	How could it be... All those memories were...	1																					
+116	100		301								Professor	Exactly. All of them were led into a void. They couldn't feel anything in the outside world, like a computer being shut down.	2																					
+117	101		301								Professor	They thought their minds were freed, and one day someone outside will turn them on again.	2																					
+118	102		301				AniZhuanchangBegin				Professor	But the truth is that their memories were never separated from reality—they were also shattered by this war along with their fallen frames.	2																					
+119	103		202							1	2				1																			
+120	104		504							0.7																								
+121	502		101							Assets/Product/Texture/Image/BgStory/Bgstory109.png																								
+122	105		201							1	500289																							
+123	106		301			AniZhuanchangEnd	AniZhuanchangBegin			1	Wanshi	Constructs can feel pain just as well as humans. Isn't it a doctor's job to ease their pain?	1																					
+124	107		202							1					1																			
+125	505		504							0.7																								
+126	503		101							Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+127	108		301			AniZhuanchangEnd						This can't be real.																						
+128	109		301									Professor, please tell me this is a bad joke. Or else I...																						
+129	110		504							0																								
+130	111		201							1	500290		-400																					
+131	112		201							2	500270		400																					
+132	113		301							1	Wanshi	...	1																					
+133	114		301								Wanshi	If it's a lie, why are you telling me?	1																					
+134	115		301								Wanshi	Aren't you afraid that I'll tell the Constructs the truth?	1																					
+135	116		301								Professor	Will you?	2																					
+136	117		301								Wanshi	I...	1																					
+137	118		301								Professor	You won't.	2																					
+138	119		202							1	2				1																			
+139	303		504							1																								
+140	120		301									Stop it.																						
+141	304		504							0																								
+142	121		201							1	500270																							
+143	122		301							1	Professor	To let them step into battles with false hopes, or to let them know the truth, to face the harsh reality and confront their end in pain...	1																					
+144	123		301								Professor	...I know what your choice would be just by the look on your face when you were helping those Constructs.	1																					
+145	124		301								Professor	It is the same choice as the one I made before...	1																					
+146	125		202							1					1																			
+147	305		504							0.7																								
+148	126		301									Stop it...																						
+149	127		301									...How should I respond to the weight of your trust?																						
+150	306		504							0																								
+151	128		201							1	500290																							
+152	129		301							1	Wanshi	That's selfish of you.	1																					
+153	130		201							1	500270																							
+154	131		301							1	Professor	Selfish? Perhaps...	1																					
+155	133		301								Professor	Maybe I'm just a jester that couldn't hold it together on my own anymore. Maybe I just want to find someone to talk to.	1																					
+156	134		301								Professor	The blood-soaked facts won't be changed by individuals. Our department has compromised with their lies due to so many factors, which is probably my sin, this cowardice.	1																					
+157	135		202							1					1																			
+158	307		504							0.7																								
+159	136		301									Stop it.																						
+160	137		301									Wanshi's hands clench tightly in agony as he feels the warmth of blood oozing from his palms.																						
+161	138		301									He wants to question, to scold, and to get rid of the past.																						
+162	139		301									He slowly raises his hands, trying to do something, only to see the sad and haggard face of the professor when looking up.																						
+163	140		301									The professor who brought him into the Star of Life has already grown so old already.																						
+164	141		301									The hands in the air finally freeze before his chest.																						
+165	308		504							0																								
+166	142		201							1	500290																							
+167	143		301							1	Wanshi	...	1																					
+168	144		301								Wanshi	This is no excuse to keep lying to the Constructs.	1																					
+169	145		201							1	500270																							
+170	146		301							1	Professor	I didn't mean to coerce you by telling you the truth. I... wish that you'd find a different answer...	1																					
+171	147		201							1	500290																							
+172	148		301							1	Wanshi	I... I'll never end up like you, telling lies in the name of salvation.	1																					
+173	149		202							1					1																			
+174	150		301		1		AniZhuanchangBegin					Wanshi tears off the badge of the Star of Life and drops it on the professor's desk with the sole wish of leaving this suffocating room as soon as possible without looking at him again.																						

@@ -1,0 +1,94 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory56.jpg																								
+2	2		401							1	209																							
+3	3		301									Darkness slowly fades away, and you find yourself inside a house of Golden Age style. Someone is knocking on the door.																						
+4	4		302								(Open the door)	5																						
+5	5		201							1	500198																							
+6	6		301							1	Child	Trick or treat!	1																					
+7	7		302								...Evan?																							
+8	8		301								Child	What Evan? I ain't no Evan!	1																					
+9	9		302								I'm sorry, you look like someone I know.	10	What's your name then?	11																				
+10	10	12	301								Child	It's okay. My name is Tom!	1																					
+11	11		301								Child	My name is Tom!	1																					
+12	12		301								Tom	Alright, trick or treat!	1																					
+13	13		301								Narration	The kid said the same line again in a natural and childish way.																						
+14	14		301								Narration	Looks like he won't easily give up if you don't give him some candy.																						
+15	15		302								Alright, you wait right here.	16	How about I give you 5 Black Cards, and you buy it yourself?	17																				
+16	16	18	301								Tom	Okay.	1																					
+17	17		301								Tom	What's that "Black Card" thingy? I want real money!	1																					
+18	19		301								Narration	You feel a little strange, but right now... You can only get some candies to send the kid away.																						
+19	18		202							1					1																			
+20	20		301								Narration	You searched in the house, but there was no candy.																						
+21	21		301								Narration	The knocking has started again. Looks like Ev... Tom is getting impatient.																						
+22	22		302								(Keep searching)	23	(Open the door)	24																				
+23	23	22	301								Narration	You looked through every corner of the room, but still had no luck.																						
+24	24		301									Before you push the door open, you suddenly hear a voice from behind.																						
+25	25		301									"Don't open the door."																						
+26	26		301								Narration	But it's too late. The door is already open.																						
+27	27		301								Narration	Outside the door is a creepy, gigantic shadow. It is so large that it can cover the entire door.																						
+28	85858		201							1	500061																							
+29	28		301							1	Black Figure	...	1																					
+30	29		302								(Prepare for self defense)	30	Cosplay nowadays looks really good, huh?	37																				
+31	30		301								Narration	The shadow walks toward you, mumbling something that you cannot understand. You can't help but take a few steps back.																						
+32	31		301								Narration	The shadow follows you into the room. You don't have much space left.																						
+33	32		302								(Try to throw something at it)	33	(Keep moving back)	33																				
+34	33		301									Your action is futile. You have no choice.																						
+35	34		201							1	1081001	2																						
+36	35		301							1	Kamui	Here you are, Commandant... Wow, this costume is so cool!	1																					
+37	36		302								Costume?	38																						
+38	95959		201							1	500061																							
+39	38		301							1	Tom	Oh c'mon, I only want some candies. Why so much trouble?	1																					
+40	37		201							1	500198					1																		
+41	39		301							1		Someone inside the shadow pushes its head away. You see Ev... Tom's head.																						
+42	40		301									The shadow suddenly shrinks, revealing Tom's body.																						
+43	41		301								Tom	So where are my candies?	1																					
+44	42		302				AniZhuanchangBegin				...																							
+45	43		101							Assets/Product/Texture/Image/BgStory/BgStory78.jpg																								
+46	44		202							1					1																			
+47	45		301			AniZhuanchangEnd						After discussing with others, you end up taking Tom to a grocery store not far away, so you can buy him some candies while checking the surroundings.																						
+48	46		301									Seeing that Lee just happens to have some "collection" of old notes and coins.																						
+49	48		201							1	500198		-400																					
+50	222		201							2	500199		400																					
+51	47		301							1	Shop Owner	Here you are, licorice and twisters.	2																					
+52	49		301							1	Tom	Thank you!	1																					
+53	50		301								Shop Owner	Hey you, young man! The one in blue!	2																					
+54	51		201							1	500026		-400																					
+55	53		301							1	Lee	?	1																					
+56	54		301								Shop Owner	You should treat your money nicely. Look at this note. It's horrible!	2																					
+57	55		301								Lee	What...? Oh, I see.	1																					
+58	56		301								Shop Owner	You're lucky that you can still use it. Otherwise, Lil' Tom won't get his candies.	2																					
+59	57		301								Shop Owner	Hey, Lil' Tom!	2																					
+60	333		201							1	500198		-400																					
+61	58		301							1	Tom	What's up?	1																					
+62	59		301								Shop Owner	Curfew's coming soon. Go home after eating your candies! Don't let your mom worry.	2																					
+63	60		301								Shop Owner	If I ever see you hanging around before curfew, I'll tell your sheriff dad!	2																					
+64	61		302								What curfew?	62																						
+65	62		301									After hearing the question, the shop owner—who looks a lot like Staessen—looks at you suspiciously.																						
+66	63		301								Shop Owner	You guys... aren't local, are you? Where are you from?	2																					
+67	64		201							1	500110	1	-400																					
+68	65		301							1	Ayla	Um, we are... University students from another place. We're here for Halloween... Haha...	1																					
+69	66		301								Shop Owner	Youngsters... Alright. The curfew in this town starts from 10pm until 6am next morning. Nobody is allowed to leave home during this time.	2																					
+70	67		201							1	1031001	1	-400																					
+71	68		301							1	Liv	We just walked around the town, I thought this place was fairly safe?	1																					
+72	69		301								Shop Owner	Better listen to the old man. Last year, there was also a group of uni students...	2																					
+73	70		301									The shop owner suddenly realizes something and does not finish the line.																						
+74	444		201							1	500026		-400																					
+75	71		301								Lee	Ok, there was a group of students last year. What happened to them?	1																					
+76	72		301								Shop Owner	...Well, just stay inside the house during curfew. Life is beautiful, you know what I mean?	2																					
+77	73		301								Lee	...Are you saying that...	1																					
+78	74		201							1	500110	1	-400																					
+79	75		301				DialogDisable			1	Ayla	Thanks, we got it. We'll go back right now!	1																					
+80	76		202							1	2	3			1																			
+81	77		301				AniZhuanchangBegin				Narration	You bid farewell to Lil' Tom and left the grocery store.																						
+82	78		302			AniZhuanchangEnd					(Where have you been?)	79																						
+83	79		201							1	500166		-600																					
+84	80		201							2	500110																							
+85	81		201							3	500026		600																					
+86	82		301			DialogEnable				1	Lucia	We were dropped in the nearby mountain. We had to use our built-in GPS to find one another.	1																					
+87	83		301								Ayla	After gathering, we realized Commandant wasn't with us, so we searched along the road until we got here.	2																					
+88	84		301								Lee	Let's get back to the topic...	3																					
+89	85		301								Lee	Something isn't right with this town.	3																					
+90	86		301								Ayla	I think so too. Why don't we explore this place before the curfew starts?	2																					
+91	87		202							1	3				1																			
+92	88		201							2	1081001	2																						
+93	89		301		1		AniZhuanchangBegin			1	Kamui	Who cares about the curfew? We just need to run to the mountain, no way they can catch us!	2																					

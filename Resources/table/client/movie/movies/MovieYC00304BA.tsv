@@ -1,0 +1,11 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory15.jpg																								
+2	100		401							1	201																							
+3	2		201							1	500028																							
+4	3		301			DialogEnable				1	Construct Leader	Ascendant trails extended all the way here!	1																					
+5	4		203							1	0.25	-400																						
+6	5		201							2	500019		400																					
+7	6		301							1	Construct Soldier	Leader, is it really okay for us to go in this deep?	2																					
+8	7		301								Construct Leader	This is our mission. If we don't manage to provide intel, then our already scarce military cannot be deployed effectively.	1																					
+9	8		301								Construct Leader	If there are any dangers, I'll be the last to recall my consciousness, and I'll keep you all safe!	1																					
+10	9		301		1		AniZhuanchangBegin				Construct Soldier	Understood! Leader!	2																					

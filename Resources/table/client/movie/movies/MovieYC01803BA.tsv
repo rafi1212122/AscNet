@@ -1,0 +1,139 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory329.png																								
+2	2		401							1	102																							
+3	3		301			DialogEnable						Lee's blue figure passes through the dilapidated buildings. As he advances, each Corrupted on his way, without exception, is shot precisely through their memory shells by him.																						
+4	4		201							1	1011001		-400																					
+5	5		201							2	500029		400																					
+6	6		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+7	7		301							1	Lucia	Lee, you're moving too fast. The commandant and Liv don't have the same mobility as Attacker Constructs.	2																					
+8	8		301								Lee	Don't overdo yourself if you can't keep up.	1																					
+9	9		301								Lucia	But if you run into trouble, we won't be able to provide you with support.	2																					
+10	10		301								Lee	Lucia, haven't you noticed that we're making faster progress than on previous missions?	1																					
+11	11		301								Lucia	?	2																					
+12	12		301								Lee	This isn't the first time the two of us Attacker Constructs are in each other's way on a mission together.	1																					
+13	500		204							2	3																							
+14	13		301								Lucia	Um...	2																					
+15	14		301									Hearing Lucia on the comm link, Lee shows no sign of slowing down. Instead, he keeps his finger on the trigger. Lee flies among the Corrupted, leaving a trail of mechanical debris.																						
+16	15		301								Lee	I'm merely stating the facts. I have no malicious intent.	1																					
+17	16		301								Lee	And by the time you guys had reported in, I had already finished gathering intel on the enemy here on the streets.	1																					
+18	17		301								Lee	One Attacker Construct was all it took to wipe out the Corrupted around here.	1																					
+19	18		301								Lee	There's still a lot we don't know about the city. Assume echelon formation and alternate as point man. This will conserve energy consumption for each member.	1																					
+20	19		301								Lucia	But...	2																					
+21	20		301								Lee	No buts. You haven't thought of a better solution. Have you?	1																					
+22	21		301				AniZhuanchangBegin				Lee	So, I'll be the first to take point...	1																					
+23	22		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+24	23		202							1	2				1																			
+25	24		101							Assets/Product/Texture/Image/BgStory/Bgstory327.png																								
+26	25		301			AniZhuanchangEnd						Lee's voice suddenly cuts out. Only static crackles over the comm link.																						
+27	26		201							2	500029																							
+28	27		301							1	Lucia	Lee?!	2																					
+29	28		203							2	0.25	400																						
+30	29		201							1	500292	5	-400																					
+31	30		301							1	Liv	I've lost Lee's signal.	1																					
+32	31		302								Prioritize clearing out enemies along the way to Lee's position.	32																						
+33	32		301				AniZhuanchangBegin				Lucia	Roger.	2																					
+34	33		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+35	34		101							Assets/Product/Texture/Image/BgStory/Bgstory329.png																								
+36	35		202							1	2				1																			
+37	36		301			AniZhuanchangEnd						Everyone arrives at Lee's last known location, but Lee is still missing. Instead, you see a circular pit.																						
+38	37		201							2	500029																							
+39	38		301							1	Lucia	Lee?	2																					
+40	39		202							2					1																			
+41	40		301							1	Lee	Cough. Over here.																						
+42	41		301									Lee's voice comes out from within the hole. As you approach, you see Lee lying there motionless.																						
+43	42		201							1	500029																							
+44	43		301							1	Lucia	Wait, I'll get you out of here.	1																					
+45	44		301									Lucia extends her hand into the hole, but upon touching the edge of the pit, she suddenly retracts her hand as a dazzling electric light runs between the hole and Lucia's fingers.																						
+46	45		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		2																						
+47	501		204							1	5																							
+48	46		301			PanelActor2Shake				1	Lucia	This is...	1																					
+49	47		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		2																					
+50	48		203							1	0.25	-400																						
+51	49		201							2	500292	5	400																					
+52	50		301							1	Liv	It's an EMP trap. Ground forces used these against Corrupted.	2																					
+53	51		301								Liv	But they were later banned due to their inefficiency.	2																					
+54	52		301								Lee	Exactly. The traps don't kill the enemy. Instead, the Corrupted can just overwhelm them with shear numbers.																						
+55	53		301								Lee	Hmph. Humanities defenses are now hindering their own attack.																						
+56	54		301								Lee	How foolish.																						
+57	55		301								Liv	Commandant, we've overstayed our welcome. A horde of Corrupted are advancing on our position.	2																					
+58	502		204							1	3																							
+59	56		301									Hearing this, Lucia tightens her grip on the katana, the pain of indecision tearing at her heart.																						
+60	57		301								Lee	Go on. I can handle myself.																						
+61	58		301								Lee	I can't move my frame, but they won't break it so easily.																						
+62	59		302								What do you think, Liv?	60																						
+63	60		301								Liv	Evacuating is our best option. Minimizing losses would be more beneficial overall.	2																					
+64	61		301								Liv	This is the secret to Egret's repeated victories.	2																					
+65	62		302								But we're the Gray Ravens.	63																						
+66	63		301								Liv	...	2																					
+67	64		302								...	65																						
+68	65		301								Liv	Huh? Commandant, what are you doing?	2																					
+69	66		301									You pull out a tactical knife from your waistband and rope from your backpack. You fasten one end of the rope to the edge of the pit.																						
+70	67		301									You tie the other end of the rope around your waist.																						
+71	68		302								Doing my job.	503																						
+72	503		204							1	5																							
+73	69		301								Lucia	Got it.	1																					
+74	70		301									Lucia nods, then readies her katana and prepares for battle.																						
+75	71		203							1	0.25	-400																						
+76	72		201							2	500292	6	400																					
+77	73		301								Liv	Lucia?	2																					
+78	74		302								We're the Gray Ravens. Do as you see fit.	75																						
+79	75		301								Liv	...	2																					
+80	76		301								Lee	What's the hold up? According to my calculations, Corrupted will arrive in 30 seconds.																						
+81	77		301									After fixing the rope, you reach into the pit. Unlike Lucia, touching the edge has no effect on you.																						
+82	78		301								Lee	...																						
+83	79		302								Seems like it's ineffective against humans.	80																						
+84	80		301				AniZhuanchangBegin					Ensuring that there was no hindrance, you climb into the pit.																						
+85	81		202							1	2				1																			
+86	82		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+87	83		401							1	203																							
+88	84		201							1	1011001	9																						
+89	85		301			AniZhuanchangEnd				1	Lee	What are you doing?	1																					
+90	86		401							2	1516																							
+91	87		301									Ignoring Lee's questioning, you rappel down the pit. Your army boots thud against the wall, echoing throughout the pit. A few moments later, you reach Lee lying there motionless at the bottom.																						
+92	88		401							2	10002001																							
+93	89		401							2	10003001																							
+94	90		301									As you reach the bottom, you hear the clanging of a katana and buzzing electricity overhead.																						
+95	91		302								Looks like they've engaged the enemy.	92																						
+96	92		301									Kneeling down, you help Lee up and fasten him to your back with the rope.																						
+97	93		301								Lee	Why are you being so foolish and reckless?	1																					
+98	94		302								You're in no condition to help yourself.	95																						
+99	95		301								Lee	Laugh it up. No need to act like you're concerned. I've seen enough as is.	1																					
+100	96		302								Looks like this trap can also temporarily short-circuit Constructs.	97																						
+101	97		301				DialogDisable				Lee	...	1																					
+102	98		302								Good thing I was the first one into the pit and not a Corrupted.	99																						
+103	99		302								Otherwise, you'd have been in trouble, Lee.	100																						
+104	100		301			DialogEnable						With Lee on your back, you tug on the rope to check that it is securely fastened and begin to slowly climb your way back up.																						
+105	101		301									Severed Corrupted limbs fall into the pit as they become enveloped in blue static and crash into the bottom of the pit with a heavy thud.																						
+106	102		301				DialogDisable				Lee	But now everyone is in danger because of me.	1																					
+107	103		302								We've already made up our minds.	104																						
+108	104		302								There will always come a time when you need someone's help.	105																						
+109	105		302								Just like I said earlier. You should give it a try.	106																						
+110	106		301			DialogEnable					Lee	...When I get back, the first thing I'm doing is give this frame EMP resistance.	1																					
+111	107		302				AniZhuanchangBegin				Alright, alright.	108																						
+112	108		101							Assets/Product/Texture/Image/BgStory/Bgstory329.png																								
+113	109		202							1	2	3			1																			
+114	110		301			AniZhuanchangEnd						Climbing out of the pit with Lee on your back, you see Lucia with her katana standing among Corrupted remains. The worn coating on her legs shows signs of an arduous fight defending this position.																						
+115	111		301									Liv is sitting on the ground, struggling to catch her breath. Even her Levi-Gun lays motionless on the ground.																						
+116	112		201							1	500029	5	-400																					
+117	113		201							2	500292		400																					
+118	114		301							1	Lucia	Commandant, Lee.	1																					
+119	115		301								Liv	Thank goodness you're both alright.	2																					
+120	116		302								Good thing we made it back.	117																						
+121	117		203							1	0.25																							
+122	118		203							2	0.25	600																						
+123	119		201							3	1011001	6	-600																					
+124	120		301							1	Lee	What a weird commandant.	3																					
+125	121		301								Lucia	Hey, Lee, why's your face turning red?	1																					
+126	122		301								Lee	Hm?	3																					
+127	123		301									Hearing this, Lee can't help but touch his cheeks. He quickly turns his head to look the other way.																						
+128	124		301								Lee	The frame's heat dispersal is malfunctioning! Don't worry about it!	3																					
+129	510		204							1	5																							
+130	125		301								Lucia	Malfunctioning heat dissipation may cause issues down the line. Liv, help out Lee...	1																					
+131	126		204							2																								
+132	127		301								Lee	That won't be necessary!	3																					
+133	128		301								Lucia	But...	1																					
+134	129		302								Heh.	130																						
+135	130		301								Liv	Heh.	2																					
+136	131		301								Lee	...	3																					
+137	511		204							1	3																							
+138	132		301		1		AniZhuanchangBegin				Lucia	?	1																					

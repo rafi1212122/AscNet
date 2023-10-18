@@ -1,0 +1,408 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory347.jpg																								
+2	2		401							1	211																							
+3	3		301			DialogEnable						Alpha stands on the barren scorched earth, taking in the chaos around her.																						
+4	4		301									Since that incident, she has been running around subterranean city number 075.																						
+5	5		301									She has left no stone unturned in her search, going through the hidden corners and paths, through the ruins that only they knew about, and has even checked on the Constructs that were swarming the place.																						
+6	6		301									But she does not find even the slightest trace of Luna.																						
+7	7		301									There is only one possible conclusion. Luna is not here.																						
+8	8		301									With the answer staring her right in the face, Alpha ponders where she should go next.																						
+9	9		201							1	500100																							
+10	10		301							1	α	...Where are you?	1																					
+11	11		202							1					1																			
+12	12		301									As she turns the question over in her head, countless memories of Luna surface.																						
+13	13		301									The clearest memory is of the moment when she leapt through the darkness, her hand outstretched.																						
+14	14		301									There was a girl standing atop the white snow.																						
+15	15		201							1	500316																							
+16	16		301							1	Roland?	The series of campaigns was called the Project Winter. It seemed that the task of naming it was dumped on the Executor.	1																					
+17	17		301								Roland?	But if the Executors can come up with such methods, I should say they really do deserve naming rights.	1																					
+18	18		201							1	500100																							
+19	19		301							1	α	Roland?	1																					
+20	20		202							1					1																			
+21	21		301									Noise and memories were jumbled together, flashing through her M.I.N.D.																						
+22	22		201							1	500100	8																						
+23	23		301							1	α	No, this is just noise.	1																					
+24	24		301									Since Luna disappeared, these muffled voices have been ceaselessly haunting her.																						
+25	6001		204							1																								
+26	25		301				AniZhuanchangBegin					She looks at the wide expanse of yellow sand before her, and her thoughts return to the past yet again.																						
+27	26		504							0.7																								
+28	27		101							Assets/Product/Texture/Image/BgStory/BgStory18.jpg																								
+29	28		201							1	500238		450																					
+30	29		201							2	500100		-450																					
+31	30		301			AniZhuanchangEnd				1	α	You're saying that when you became an agent, you heard a great deal of noise?	2																					
+32	31		301								Luna	That's right.	1																					
+33	32		301								α	What is it?	2																					
+34	33		301								Luna	Think of it as a catalyst.	1																					
+35	34		301								Luna	When I first became an agent... I didn't understand its true nature and thought the voices were telling the truth.	1																					
+36	35		202							1	2				1																			
+37	36		301									Luna stopped hovering and landed between the ruins.																						
+38	37		201							1	500238		450																					
+39	38		201							2	500100		-450																					
+40	39		301							1	α	So, this originates from Ascnet?	2																					
+41	40		301								Luna	No, but I can't say for sure.	1																					
+42	41		301								Luna	They're a symptom that emerges when the M.I.N.D. has been damaged.	1																					
+43	42		301								Luna	Of course, this is just a simplified analogy. It's actually more complicated than that.	1																					
+44	43		301								Luna	There have also been many Constructs recently who opt to simulate an injury like this to temporarily augment their power.	1																					
+45	44		301								Luna	Perhaps when you become an agent, you'll be able to fully comprehend it.	1																					
+46	45		204							2	5																							
+47	46		301								α	That's no joking matter. You know I don't want to become an agent.	2																					
+48	47		301								Luna	Oh? Perhaps I wanted to confirm that for myself.	1																					
+49	48		301								α	Then let me be frank with you. I have no interest.	2																					
+50	49		301								α	You're already burdened by the heavy responsibility of Ascnet. If I become an agent too, who else will there be to help you?	2																					
+51	50		204							1	1																							
+52	51		301								Luna	Thanks, Sister.	1																					
+53	52		204							2																								
+54	53		301								α	But you said that only by becoming an agent will I be able to comprehend that?	2																					
+55	54		204							1																								
+56	55		301								Luna	Ascnet imparts some knowledge that only it possesses, including long-lost historical records.	1																					
+57	56		301								α	And it happens when one becomes an agent?	2																					
+58	57		301								Luna	That's right.	1																					
+59	62		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+60	63		202							1	2				1																			
+61	64		301									The memory starts to flicker...																						
+62	65		201							1	500265																							
+63	66		301				AniZhuanchangBegin			1	Luna	But there are things that one would still know without Ascnet's knowledge.	1																					
+64	67		202							1					1																			
+65	68		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+66	69		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+67	70		301			AniZhuanchangEnd					???	Such as how the humans of this planet are a disease more terrifying than the Punishing Virus.																						
+68	71		301								α	...																						
+69	72		301								???	Why do you think like that?																						
+70	73		301									The noise rings incessantly in her M.I.N.D. like an alarm clock going off in the wee hours of the morning.																						
+71	74		301								???	Because of that incident that caused you to leave Babylonia or because of Luna becoming an agent?																						
+72	75		301								α	No, these incidents were just the starting point.																						
+73	76		301								???	...The starting point.																						
+74	77		301				AniZhuanchangBegin					The noise sighs as if expressing regret.																						
+75	78		101							Assets/Product/Texture/Image/BgStory/Bgstory10.jpg																								
+76	79		201							1	500238																							
+77	80		301			AniZhuanchangEnd				1	Luna	That's enough, Gabriel.	1																					
+78	81		301								Luna	Even if you slaughter all these humans and Constructs, there is no one among them that can pass the filtering.	1																					
+79	82		201							1	500101																							
+80	83		301							1	Gabriel	But they'll become a threat.	1																					
+81	84		201							1	500238																							
+82	85		301							1	Luna	As long as the source remains, they won't give up, no matter how many of them you kill.	1																					
+83	86		301								Luna	All we have to do is find "the seeds" and guard this place.	1																					
+84	87		201							1	500101																							
+85	88		301							1	Gabriel	Understood.	1																					
+86	89		202							1																								
+87	90		301									Gabriel bows respectfully and vanishes into the horizon.																						
+88	91		201							1	500238		450																					
+89	92		201							2	500100		-450																					
+90	93		301							1	Luna	Something you wanted to comment on, Sister?	1																					
+91	94		301								α	...	2																					
+92	95		301									Alpha has not opened her mouth, but Luna smiles as if she knows what she was about to say.																						
+93	96		204							1	1																							
+94	97		301								Luna	Do you remember the fairytale you used to tell me?	1																					
+95	98		301								α	I've told you many fairytales. Which one are you talking about?	2																					
+96	99		301								Luna	The Evil King and the Elixir of Life.	1																					
+97	100		301								α	...	2																					
+98	101		301								Luna	I still believe what I did then—That it's the only way forward, Sister.	1																					
+99	102		204							1	7																							
+100	103		301								Luna	Drinking the evil king's elixir may kill you, but this is the path of evolution and selection. With this, one can safeguard life from complete annihilation.	1																					
+101	104		301								Luna	Of course, that person will become a monster, just like the evil king, but so what?	1																					
+102	105		301								Luna	"Monster" is but a term defined by human standards. If seeing the filtering through means I'll be called a monster, I'll treat it as my crowning glory.	1																					
+103	106		301								α	Will you want others to survive?	2																					
+104	107		301								Luna	Of course.	1																					
+105	108		204							1																								
+106	109		301								Luna	Even if I become a nefarious villain in the eyes of the humans, a villain needs people to be subjected to their villainous deeds.	1																					
+107	110		301								Luna	Not only is this wish mine, but it's also the very purpose behind Ascnet's filtering process. That's why I have to complete Ascnet's mission.	1																					
+108	111		301								Luna	But the humans who are still flesh and blood, with their deep-seated prejudice, aren't able to even pass the preliminary filtering process by the Punishing Virus.	1																					
+109	112		202							1	2				1																			
+110	113		301									Luna turns around and gazes at the fiery-red clouds in the distance. After a long time, she gently shuts her eyes.																						
+111	114		201							1	500238	3																						
+112	115		301							1	Luna	Perhaps...	1																					
+113	116		301								Luna	It's because I hold the same beliefs as Ascnet that I was chosen to become an agent.	1																					
+114	117		202							1					1																			
+115	118		301									Even as an agent, Luna does not think highly of humanity.																						
+116	119		301									But originally, her intention to move the filtering forward was simply to "let those deserving to live continue living."																						
+117	120		301									Even though she had her own reasons for doing it, it was not born out of hatred and chaos.																						
+118	121		301									At least in the beginning, that was how it was...																						
+119	122		101							Assets/Product/Texture/Image/BgStory/Bgstory276.png																								
+120	123		201							1	500008	17	-600																					
+121	124		201							2	500101																							
+122	125		201							3	500165		600																					
+123	126		301							1	Lamia	Woah... Are you alright?	3																					
+124	127		301								Roland	...Relax, fate has too much in store for me to let me die so quickly.	1																					
+125	128		301								Gabriel	For someone like you to be talking about fate... What exactly happened?	2																					
+126	129		301								Roland	Heh, someone taught me a lesson.	1																					
+127	130		202							1	2	3			1																			
+128	131		201							1	500238	5																						
+129	132		301							1	Luna	...	1																					
+130	133		202							1					1																			
+131	134		201							1	500008	4	-600																					
+132	135		201							2	500101																							
+133	136		201							3	500165		600																					
+134	137		301							1	Roland	This time it was a Construct who brought a "gift."	1																					
+135	138		301								Roland	They hid it really well, I have to give them that. Those humans are also constantly changing up their tactics.	1																					
+136	139		301								Lamia	They had their comrade blow himself up?	3																					
+137	140		301								Roland	That's right. And he didn't know what he had on him. Otherwise, I'd have been able to sense that something wasn't right.	1																					
+138	141		301								Lamia	...You survived the encounter, but what about him?	3																					
+139	142		301								Roland	Dead as a doornail. I only survived because I was far away.	1																					
+140	143		202							1	2	3			1																			
+141	144		201							1	500100																							
+142	145		301							1	α	...	1																					
+143	146		202							1					1																			
+144	147		201							1	500008	4	-600																					
+145	148		201							2	500101																							
+146	149		201							3	500165		600																					
+147	150		301							1	Lamia	That guy was who Roland was working on recruiting, wasn't he? It wasn't easy getting him on board.	3																					
+148	151		301								Gabriel	Even after sustaining such huge losses last time, the humans still aren't giving up on trying to get a glimpse of the secrets of the Ascension-Network.	2																					
+149	152		301								Gabriel	What are they really after?	2																					
+150	153		301								Roland	Perhaps they wish to make their Constructs immune to the Punishing Virus and instead, have their bodies augmented by it, just like an Ascendant? Or maybe they simply want to be able to control an Ascendant, or even an agent...	1																					
+151	154		301								Roland	There is so much they can gain from it. They are the puppet masters, having their underlings kill one another while they reap the benefits. That's their modus operandi.	1																					
+152	155		301								Roland	Although I still don't know what exactly they want, or how close they are to their goal. But things seem to be going according to plan, aren't they?	1																					
+153	156		202							1	2	3			1																			
+154	157		201							1	500238	5																						
+155	158		301							1	Luna	It's precisely because of this that we have to keep moving the filtering process forward.	1																					
+156	159		202							1					1																			
+157	160		201							1	500008	4	-600																					
+158	161		201							2	500101																							
+159	162		201							3	500165		600																					
+160	163		301							1	Lamia	However, they have been obstructing our progress. People die without us knowing how. How can we even hope to offer up anyone for filtering...?	3																					
+161	164		301								Gabriel	Miss Luna wants us to keep increasing our numbers to deal with the losses.	2																					
+162	165		301								Gabriel	Appropriate seeds must be found as soon as possible. For those who aren't yet aware or don't have the necessary conditions to pass the filtering, we'll have to create those conditions.	2																					
+163	166		301								Gabriel	If we can get ultimate power that is impervious to these despicable ploys, there won't be any more humans standing in the way of the Network's mission.	2																					
+164	167		204							3	8																							
+165	168		301								Lamia	Yeah... yeah... Call me when you find that sort of power.	3																					
+166	169		301								Gabriel	...	2																					
+167	170		202							1	2	3			1																			
+168	171		301									Such things have become a normal part of their daily lives.																						
+169	172		301									The humans' offensives last too long, just like the winds blowing through the abyss, and just as relentless.																						
+170	173		301									In comparison, being betrayed and abandoned back then was but the first step into the abyss.																						
+171	174		301									And the hatred that inundated them was born from being hunted down and rounded up. Even more so from unexpected traps and conspiracies. Each drop of hate pooling together until it formed a river that flowed into the bottom of the abyss.																						
+172	175		301									At first, it was just the usual ambushes and raids.																						
+173	176		301									But soon, there was a chance of "gifts" being hidden close to the seeds they approached.																						
+174	177		301									In this battle of wits, every attempt to throw the humans off their trail unintentionally provides them with ideas for improvement.																						
+175	178		301									As a result, their methods have become more subtle and nastier with each iteration.																						
+176	179		301									But for the Ascendants and those on a similar path, the memories hidden within their M.I.N.D. are filled with this torment.																						
+177	180		301									These experiences are like layers of wounds inflicted on top of one another.																						
+178	181		301									Single out any one of them, and it is simply a scar that poses no threat, a mark not forgotten with time.																						
+179	182		301				AniZhuanchangBegin					But now they have been accumulating for a long time, patiently waiting for the moment that will soon arrive—the straw that breaks the camel's back.																						
+180	183		101							Assets/Product/Texture/Image/BgStory/Bgstory95.png																								
+181	7001		401							1	33																							
+182	184		201							1	500100																							
+183	185		301			AniZhuanchangEnd				1	α	Looks like this is the place.	1																					
+184	186		202							1					1																			
+185	187		301									In a bid to save the new recruits who have just passed the filtering, everyone steps onto the ice-covered plains.																						
+186	188		301									Fresh blood stains the snowy white plains red. Researchers lay fallen all around, and a transport vehicle was torn apart in the attack.																						
+187	189		201							1	500008	4																						
+188	190		301							1	Roland	Oh, it looks like we were too late.	1																					
+189	191		202							1					1																			
+190	192		301									Roland climbs onto the torn compartment and sees a comrade lying in a huge restraining device.																						
+191	193		301									Going by the traces left at the scene, he was killed by the restraining device just as he finally broke free.																						
+192	194		201							1	500165																							
+193	195		301							1	Lamia	How have the humans been able to come up with such a terrifying device?	1																					
+194	196		202							1					1																			
+195	197		201							1	500238		450																					
+196	198		201							2	500100		-450																					
+197	199		301							1	α	This's due to what he's capable of.	2																					
+198	200		301								Luna	I was interested in seeing how he would develop over time, but given the current environment... he didn't even get that chance.	1																					
+199	201		202							1	2				1																			
+200	202		301									A brief silence falls over the group. Suddenly, a hulking figure lands beside them.																						
+201	203		201							1	500101																							
+202	204		301							1	Gabriel	Miss Luna.	1																					
+203	205		201							1	500238																							
+204	206		301							1	Luna	You've returned. How was the investigation?	1																					
+205	207		201							1	500101																							
+206	208		301							1	Gabriel	This device was brought over from the Arctic Route Union.	1																					
+207	209		301								Gabriel	A new military post's been set up to the east. It's very well-hidden and there are similar devices within. There are also a few researchers stationed there.	1																					
+208	210		201							1	500100																							
+209	211		301							1	α	A military post? To the east?	1																					
+210	212		201							1	500008	4																						
+211	213		301							1	Roland	I previously carried out reconnaissance when Alpha came for the Narwhal, but I didn't see any military posts then.	1																					
+212	214		301								Roland	Besides, the people outside are ordinary folk, so why would they suddenly possess such a device?	1																					
+213	215		201							1	500100																							
+214	216		301							1	α	Either they had been deliberately hiding something, or someone has shared the devices and technology with them.	1																					
+215	217		301								α	But there's a greater likelihood that it was a combination of the two.	1																					
+216	218		301								α	The local residents may not be aware of this, but there is a secret hidden beneath this snowfield.	1																					
+217	219		301								α	And it's because they are inherently capable that they've received visitors who want to share their technology and devices with them.	1																					
+218	220		201							1	500008	4																						
+219	221		301							1	Roland	In other words, the Arctic Route Union is working with that group from before?	1																					
+220	222		201							1	500100																							
+221	223		301							1	α	That's right.	1																					
+222	224		201							1	500165																							
+223	225		301							1	Lamia	Don't those people fish for a living? What's there to gain from working with them?	1																					
+224	226		201							1	500100																							
+225	227		301							1	α	A large number of Corrupted emerged from the sea some time back, and the Forest Guard lack the power to hold them back. As a result, they sustained some losses.	1																					
+226	228		301								α	I'd hazard a guess and say they agreed to work together in exchange for materials.	1																					
+227	229		301								α	There aren't many large human bases on Earth these days, and even fewer are willing to take part in a plan against the Ascendants.	1																					
+228	230		301								α	They must be hiding something we don't know about. They wouldn't take such a huge risk otherwise, no matter how generous the reward.	1																					
+229	231		201							1	500008																							
+230	232		301							1	Roland	The military post seems to be merely a symbol of their cooperation. There must be another hidden facility.	1																					
+231	233		301								Roland	We should investigate that facility. Otherwise, even if we destroy the military post, another more hidden post will only be built in its place.	1																					
+232	234		201							1	500238																							
+233	235		301							1	Luna	Could it be that simple?	1																					
+234	236		201							1	500008	3																						
+235	237		301							1	Roland	What do you mean, Luna?	1																					
+236	238		201							1	500238	3																						
+237	239		301							1	Luna	I can only guess, based on the Gray Raven's... no, based on my sister's investigation of that incident with Ravenge, that they may have started collaborating well before setting up the military post.	1																					
+238	240		301								Luna	The incident and that military post were merely newly run tests. The foundations were already in place.	1																					
+239	241		201							1	500100																							
+240	242		301							1	α	That's right, the harsh environment plays a huge part in all of this. There's nothing but fish and a handful of local products. They've always faced a shortage of materials.	1																					
+241	243		201							1	500008																							
+242	244		301							1	Roland	If they're really jointly doing research, what should we do?	1																					
+243	245		201							1	500101																							
+244	246		301							1	Gabriel	Annihilate everyone here of course, and nip the problem in the bud.	1																					
+245	247		201							1	500100																							
+246	248		301							1	α	There is no need to go that far. The vast majority are just fishermen, and are working with Kurono in exchange for the materials they need to survive.	1																					
+247	249		301								α	All we have to do is destroy the research facility.	1																					
+248	250		201							1	500101																							
+249	251		301							1	Gabriel	Forgive me for saying this, but it was because they joined forces that we lost many good candidates.	1																					
+250	252		301								Gabriel	Those who can pass the filtering are few and far between. If these people are not completely annihilated, they will still pose a threat.	1																					
+251	253		201							1	500100	8																						
+252	254		301							1	α	...	1																					
+253	255		301									Alpha closed her eyes and thought of the humanoid-hybrid constructs she had met on this vast snow field who had gone through experiences similar to hers. She thought of how they carried themselves in the face of the humans' fear and prejudice, and...																						
+254	256		204							1																								
+255	257		301								α	I see great potential in the Forest Guards. With enough opportunities, there will definitely be some among them who can pass the filtering.	1																					
+256	258		201							1	500101																							
+257	259		301							1	Gabriel	...	1																					
+258	260		201							1	500238																							
+259	261		301							1	Luna	Sister's right. You will continue with the previous mission.	1																					
+260	262		202							1					1																			
+261	263		301									Everyone salutes Luna and hurriedly disperse, leaving only Alpha and Luna on the silent snowfield.																						
+262	264		201							1	500238	1	450																					
+263	265		201							2	500100		-450																					
+264	266		301							1	Luna	Sister.	1																					
+265	267		301									She turns around and gives Alpha a knowing smile.																						
+266	4001		204							1																								
+267	268		301								α	I know what you want to say.	2																					
+268	269		301									Luna hovers beside Alpha, looking at the snow and messy scene close by, and does not say anything more about it.																						
+269	270		301								Luna	Sister, did you meet "Lucia"?	1																					
+270	271		301								α	Yes.	2																					
+271	272		301								Luna	What do you think about her?	1																					
+272	273		301								α	Nothing in particular.	2																					
+273	274		301								α	She hasn't lost hope.	2																					
+274	275		301								α	That commandant looks pretty special too.	2																					
+275	276		301								α	Well, let her continue dreaming for a bit, at least until that day comes.	2																					
+276	277		301								Luna	Alright then.	1																					
+277	278		202							1	2				1																			
+278	279		301									The howling, frigid wind sends Luna's flowing locks flying behind her, and her petite figure sways in the wind.																						
+279	280		301									Alpha closes the gap and takes Luna's arm.																						
+280	281		201							1	500238		300																					
+281	282		201							2	500100		-300																					
+282	283		301				AniZhuanchangBegin			1	α	We found the military post. Next up is the task of finding the other hidden facility. Leave this to me, will you?	2																					
+283	284		202							1	2				1																			
+284	285		101							Assets/Product/Texture/Image/BgStory/Bgstory105.png																								
+285	286		301			AniZhuanchangEnd						While investigating clues near the military post, she has a surprising encounter in the snow.																						
+286	287		201							1	500019		-450																					
+287	288		201							2	500019		450																					
+288	289		301							1	Murol	Lucia, you're still alive!	1																					
+289	290		301								Xun	Wait, no! Such concentration of the Punishing Virus... Has she become Corrupted?	2																					
+290	291		202							1	2				1																			
+291	292		201							1	500100																							
+292	293		301							1	α	Murol! Xun!																						
+293	294		202							1					1																			
+294	295		201							1	500019		-450																					
+295	296		201							2	500019		450																					
+296	297		301							1	Murol	The Corrupted spoke?!	1																					
+297	298		202							1	2				1																			
+298	299		201							1	500100																							
+299	300		301							1	α	...It's a long story. And don't get too close to me, or you'll be infected too.	1																					
+300	4002		301								α	She is secretly suppressing the Punishing Virus within her body while warning them, trying to prevent the virus from spreading to the two of them.	1																					
+301	301		301								α	Why are you here?	1																					
+302	302		202							1					1																			
+303	303		201							1	500019		-450																					
+304	304		201							2	500019		450																					
+305	305		301							1	Murol	They said there was something strange with the Corrupted numbers here and sent us to find out what the problem was and return after obtaining clues.	1																					
+306	306		301								Xun	Lucia, do you want to return to Babylonia with us?	2																					
+307	307		202							1	2				1																			
+308	308		201							1	500100																							
+309	309		301							1	α	No, I have no place there anymore.	1																					
+310	310		301								α	There was no news for a long time after you said you wanted to be recalled. I thought you were already...	1																					
+311	311		202							1					1																			
+312	312		201							1	500019		-450																					
+313	313		201							2	500019		450																					
+314	314		301							1	Murol	Haha! There were some technical issues, I heard.	1																					
+315	315		301									Murol scratches his head, slightly embarrassed, but unable to hide the mirth in his voice.																						
+316	316		301								Murol	There have been a lot of casualties recently. It's getting very hard to create custom frames, and there are version issues as well.	1																					
+317	317		301								Murol	But the higher-ups said that they had to activate us at all costs so as to investigate what happened then.	1																					
+318	318		301								Murol	However, they haven't been able to solve version issue, and with the lack of manpower, they had no choice but to sign some contract with the humans on Earth and rope them in to help.	1																					
+319	319		202							1	2				1																			
+320	320		201							1	500100																							
+321	321		301							1	α	Contract? Do you mean to say there are people here who are able to support the research on Babylonia?	1																					
+322	322		301									Hearing what could be a clue, Alpha tightens her grip on her weapon and her voice takes on a serious tone.																						
+323	323		202							1					1																			
+324	324		201							1	500019		-450																					
+325	325		201							2	500019		450																					
+326	326		301							1	Murol	I don't know much about the research technology, but I did wake up in the military post over there.	1																					
+327	327		301								Murol	Agreeing on a contract and awakening us... Those are things we've heard from the researchers inside.	1																					
+328	328		301								Murol	They also had us stay temporarily in the military post for tests and to work with them on some simple missions.	1																					
+329	329		202							1	2				1																			
+330	330		201							1	500100																							
+331	331		301							1	α	(Murol and Xun don't know much about this either...)	1																					
+332	332		301									Looking at the good-natured smile that Murol always has on, Alpha releases her grip on the hilt of her katana.																						
+333	333		202							1					1																			
+334	334		201							1	500019		-450																					
+335	335		201							2	500019		450																					
+336	336		301							1	Xun	It's great that we're able to wake up again, but we still don't have any clues about what the boss wanted us to investigate.	2																					
+337	337		301								Murol	Yeah, we were attacked during recalling, and the data transfer was incomplete. We can't fully remember what happened during the incident.	1																					
+338	338		301								Xun	Do you remember what happened back then? If you can't go back to Babylonia, at least tell us what really happened then.	2																					
+339	339		202							1	2				1																			
+340	340		201							1	500100																							
+341	341		301							1	α	...Alright.	1																					
+342	342		202							1					1																			
+343	343		301				AniZhuanchangBegin					She suppresses the joy in her heart as she shares the buried pieces of her memory with her long-lost comrades.																						
+344	344		201							1	500019		-450																					
+345	345		201							2	500019		450																					
+346	346		301			AniZhuanchangEnd				1	Murol	...To think that something like this actually happened.	1																					
+347	347		202							1	2				1																			
+348	348		201							1	500100																							
+349	349		301							1	α	They also made a copy of 'Lucia' before I left, so you might see her if you go back to Babylonia.	1																					
+350	350		202							1					1																			
+351	351		201							1	500019		-450																					
+352	352		201							2	500019		450																					
+353	353		301							1	Murol	Another Lucia...?	1																					
+354	354		301								Xun	Anyway Lucia, you're a really sentimental person, aren't you?	2																					
+355	355		301									He chuckles as he puts his hands behind his head and relaxes. Seeing that familiar action, Alpha cannot help feeling a tinge of nostalgia.																						
+356	356		301									She still remembers how Xun was severely reprimanded during a military inspection for not standing up straight.																						
+357	357		301								Xun	Those things around your neck... Are those our name tags?	2																					
+358	358		202							1	2				1																			
+359	359		201							1	500100																							
+360	360		301							1	α	Hmm?	1																					
+361	361		202							1					1																			
+362	362		201							1	500019		-450																					
+363	363		201							2	500019		450																					
+364	364		301							1	Xun	And the coating... the team insignia on the back has worn away!	1																					
+365	365		202							1	2				1																			
+366	366		201							1	500100																							
+367	367		301							1	α	Sentimental? No...	1																					
+368	368		204							1	5																							
+369	369		301								α	This was just to remind me never to forget what happened.	1																					
+370	370		202							1					1																			
+371	371		301									Xun was unfazed despite the hateful tone in her words, and kept his good humor.																						
+372	372		201							1	500019		-450																					
+373	373		201							2	500019		450																					
+374	374		301							1	Xun	Oh, really? That sounds like sentimentality to me!	2																					
+375	375		301								Xun	By the way, can I have a look at my old tag? I'm feeling a little sentimental, heh...	2																					
+376	376		301									He chuckles as he removes his current name tag and walks toward Alpha as if to make an exchange.																						
+377	377		202							1	2				1																			
+378	378		201							1	500100																							
+379	379		301							1	α	You're getting close. Aren't you afraid of getting infected?	1																					
+380	380		202							1					1																			
+381	381		201							1	500019		-450																					
+382	382		201							2	500019		450																					
+383	383		301							1	Xun	Don't be a stranger now. It's just for a bit.	2																					
+384	384		301								Xun	Murol, you want to see it too, don't you?	2																					
+385	385		301								Murol	Yeah.	1																					
+386	386		202							1	2				1																			
+387	387		301									The two approached Alpha with complete trust, reaching out to take their name tags from her extended hand.																						
+388	388		301			RImgBg1Shake						But it was then that Alpha fell into a despicable trap.																						
+389	389		301									The joy in reuniting with her comrades was merely an illusion.																						
+390	390		301									Recalling is but false hope implanted to convince troops to keep advancing bravely. But just like a stone thrown into a deep lake, there has not been any sign from the other side.																						
+391	391		301									The two teammates standing before her was merely an AI hologram recording—a program that has existed since the Golden Age, when people used it to remember those who have passed on.																						
+392	392		301									As the illusions fell to pieces, so too did Alpha's euphoria, and all that was eventually left was the multiple force fields binding her.																						
+393	393		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+394	394		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryGoldDustLightWall.prefab	2																							
+395	395		201							1	500116		400																					
+396	396		201							2	500058		-400																					
+397	397		301							1	Researcher A's Voice	...Is it really okay to do this?	2																					
+398	398		301								Researcher A's Voice	Everyone said that these guys are basically Corrupted that possess some level of intelligence, so there's no need for us to sympathize with them.	2																					
+399	399		301								Researcher B's Voice	I honestly felt the director's plan was foolish when he first came up with it. How can a Corrupted be sentimental?	1																					
+400	400		301								Researcher B's Voice	Sigh... If someone deceives me using my dead friends, I'll definitely...	1																					
+401	401		301								Young, strict voice	Take your bleeding hearts and stuff them somewhere else!																						
+402	402		301								Researcher B's Voice	Aah! When did you get here?	1																					
+403	403		301								Young, strict voice	These monsters are our enemies, just like the Corrupted and the Punishing Virus! Whether they have feelings or not doesn't matter.																						
+404	404		301								Young, strict voice	In order to survive, we must continue our research with these methods.																						
+405	405		301								Young, strict voice	If we are to live to see the next daylight, sacrifices are unavoidable. Instead of sympathizing with the enemy, why don't you have a look at your material reserves for next month.																						
+406	406		301								Researcher B's Voice	Sorry, Director Kaplan...	1																					
+407	407		301		1		AniZhuanchangBegin				Kaplan	Continue your work, it's too late to turn back now.																						

@@ -1,0 +1,97 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+2	2		401							1	208																							
+3	3		201							1	500011																							
+4	4		301			DialogEnable				1	Hassen	【kuroname】, I know you just came back from your previous mission, but you've been assigned on another mission.	1																					
+5	5		301								Hassen	It's the ARU. They need support.	1																					
+6	6		302								Is it the bionics again...	7	Is Amberia back again...	8																				
+7	7	9	301								Hassen	Yes. Everything appears to be normal, but our recent observations have picked up an abnormal signal.	1																					
+8	8	9	301								Hassen	We can confirm that Amberia has been stopped, but our recent observations have picked up an abnormal signal.	1																					
+9	9		301								Hassen	The Forest Guards have now joined forces with Babylonia, and their relationship with the ARU has stabilized. So we should resolve any anomalies as soon as possible so as to not stir up tension.	1																					
+10	10		301								Hassen	The ARU will fill you in on the specifics. We'll be sending another task force with you. Move out when you're ready.	1																					
+11	11		301								Hassen	In addition, don't forget the remote access link. You always have it on you, correct?	1																					
+12	12		302				AniZhuanchangBegin				Understood.	13																						
+13	13		101							Assets/Product/Texture/Image/BgStory/Bgstory88.png																								
+14	14		202							1					1																			
+15	15		301			AniZhuanchangEnd						The transport craft has landed outside the ARU base. Babylonia Constructs are awaiting you outside, among which you see a familiar face.																						
+16	16		201							1	500201	1																						
+17	17		301							1	Simon	Hey! Boss, you finally made it! I've been waiting for you!	1																					
+18	18		302								You feeling okay?	19	Oh, you're here as well?	106																				
+19	19		204							1	10																							
+20	20	21	301								Simon	Don't worry. I'm feeling fine now.	1																					
+21	21	105	301									Simon scratches his head dejectedly as if remembering the last time he vomited and collapsed in the polar region.																						
+22	106	22	204							1																								
+23	22	101	301								Simon	It's okay, I got what I asked for.	1																					
+24	101		301									Simon revealed a faint look of agony.																						
+25	102		301									Unlike their last meeting, he isn't accompanied by a blonde Construct. Needless to say, his reason for coming was obvious.																						
+26	103		301								Simon	If only I paid more attention to her... No, even if I did, I wouldn't be able to...	1																					
+27	104		301									Simon shook his head as if trying to rid himself of distractions.																						
+28	105		204							1																								
+29	25		301				AniZhuanchangBegin				Simon	Come on, Staessen is waiting for us.	1																					
+30	26		101							Assets/Product/Texture/Image/BgStory/Bgstory89.png																								
+31	27		401							1	201																							
+32	271		202							1					1																			
+33	28		301			AniZhuanchangEnd						Upon entering the base, you see Staessen looking at a map with his eyebrows furrowed. Noticing you approach, he raises his head and nods to you.																						
+34	29		201							1	500199																							
+35	30		301							1	Staessen	You're here... Sorry, there's no welcome party at time like this. Let's cut to the chase.	1																					
+36	31		301									He turns on the projector terminal and begins explaining as he points at the connected symbols.																						
+37	32		301								Staessen	We found an abnormal signal while we were monitoring the bionics' behavior this month.	1																					
+38	33		301								Staessen	We regarded it as insignificant at first, but this sentient being has been constantly learning and becoming more intelligent with each day.	1																					
+39	34		301								Staessen	We notified Babylonia and, after analyzing bionic minds, we found a sentient bionic signal identified as Amberia in their transmissions.	1																					
+40	35		302								Amberia?!	36	Is Amberia still...	36																				
+41	36		301								Staessen	Obviously, it isn't the real Amberia.	1																					
+42	37		301								Staessen	It's a pseudo-consciousness integrated and reconstructed out of data fragments that she left in the bionic transmission... It's closer to a bionic or AI than it is to a Construct.	1																					
+43	38		301								Staessen	The bionics that roam the polar region are sub-systems of Amberia, but even though they are no longer integrated with her, Amberia's fragmented data still remains deeply rooted in them.	1																					
+44	39		301								Staessen	Various signs show that some bionics are spontaneously collecting data fragments in the transmission in an attempt to reconstruct Amberia.	1																					
+45	40		301								Staessen	They want to create a new "Amberia".	1																					
+46	41		201							1	1031001																							
+47	42		301							1	Liv	A human bionic created by bionics...	1																					
+48	43		301									Liv subconsciously puts her hand on her heart and whispers to herself in thought. Staessen glances at Liv, then continues.																						
+49	44		201							1	500199																							
+50	45		301							1	Staessen	As a result, no one knows what this new "Amberia" is capable of or how it well affect the bionics.	1																					
+51	46		301									Will she order the remaining bionics to attack the ARU and the surrounding areas? But most importantly, there is no code to control her.																						
+52	47		301								Staessen	A considerable number of bionics have connected with Amberia as a new host, which has intensified their desire to attack.	1																					
+53	48		301								Staessen	You need to connect to the bionics' Virtual M.I.N.D. in order to annihilate the remaining data fragments of Amberia and find her location. You must eliminate her before she completely integrates her consciousness.	1																					
+54	49		301								Staessen	In layman's terms, enter Amberia's fragment dream and destroy her.	1																					
+55	50		301								Staessen	It's more efficient to remove the problem at its source rather than destroy the bionics one-by-one. Got it?	1																					
+56	51		201							1	500201																							
+57	52		301							1	Simon	I can't maintain M.I.N.D. stability for Constructs that are in deep dive. So, I'll need your help,【kuroname】.	1																					
+58	53		301								Simon	That'll be a cakewalk for you, right, Boss?	1																					
+59	54		302								...That's a lot of Constructs.	55	Am I the only commandant?	57																				
+60	55		301								Simon	I don't need you to connect to every Construct. Just command the Gray Ravens.	1																					
+61	56	58	301								Simon	The Gray Ravens will act as a scout team to explore the bionics' Virtual M.I.N.D. to determine the location of the Amberia.	1																					
+62	57	58	301								Simon	According to President Hassan, you are the only commandant who has a small remote link device and the corresponding rights to use it.	1																					
+63	58		301								Simon	The situation is getting dire. The bionics' Virtual M.I.N.D. network only serves as an access point for Constructs. So, you'll need to use the remote link device to access it and lead the team.	1																					
+64	59		301								Simon	I heard remote memory links are used specifically to explore dead zones... But our knowledge on virtual M.I.N.D.s are limited, so we need you present. That's why President Hassen made the decision to use the mind link.	1																					
+65	60		302								What about you?	61																						
+66	61		301								Simon	Bionics are causing havoc everywhere. There aren't that many right now, but they're growing. My mission is to destroy all of the malfunctioning ones with the Forest Guards, so we can prevent them from attacking the base.	1																					
+67	62		301								Simon	Babylonia also supplied us with a special M.I.N.D. stabilizer, which must be given to Constructs before initiating a deep dive. But if the stabilizers don't do their job... You'll need to take the lead.	1																					
+68	63		401							2	1515																							
+69	64		301									At that moment, you receive a transmission on your comms.																						
+70	65		201							1	500004																							
+71	66		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+72	67		301							1	Asimov	Done with the explanations? Now that you're up to speed, I won't have to waste my breath.	1																					
+73	68		301								Asimov	【kuroname】, I'll be analyzing the bionics' Virtual M.I.N.D. network while you explore. I'll try to land you near the coordinates where the abnormal signals came from.	1																					
+74	69		301								Asimov	We'll need your combat data to locate Amberia's consciousness. I'll notify you once we find it.	1																					
+75	70		301								Asimov	That's it. The access port has been relayed to Liv, and I'll provide you with technical support. You'll be in charge, 【kuroname】.	1																					
+76	71		302								Why me?	72																						
+77	72		301								Asimov	Because we still need to join forces with the ARU and the Forest Guards. So there's no better commandant to act as an intermediary between them.	1																					
+78	73		301								Asimov	I wish you all the best.	1																					
+79	74		301								Asimov	Go put an end to our Sleeping Beauty's nightmare.	1																					
+80	75		202							1					1																			
+81	76		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+82	77		201							1	500026																							
+83	78		301							1	Lee	Sleeping Beauty...? Someone has a twisted sense of humor.	1																					
+84	79		201							1	500199																							
+85	80		301							1	Staessen	Here's the situation: I'll help you dive into the Virtual M.I.N.D., and the rest is up to you.	1																					
+86	81		301								Staessen	...Let's put an end to this nightmare.	1																					
+87	82		201							1	500166																							
+88	83		301							1	Lucia	Commandant, the Gray Ravens are ready. Awaiting your orders.	1																					
+89	84		302								Gray Ravens, move out.	85																						
+90	85		201							1	1031001																							
+91	86		301							1	Liv	Activating the Deep Dive Virtual M.I.N.D. System. Beginning synchronization—	1																					
+92	87		301									>>>Injecting stabilizer																						
+93	88		301									>>>Calibrating M.I.N.D. deviation……80%——90%——99.8%——																						
+94	89		301									……Virtual avatar created.																						
+95	90		302								(Activate remote link)	91																						
+96	91		301		1		AniZhuanchangBegin					Commencing deep dive.																						

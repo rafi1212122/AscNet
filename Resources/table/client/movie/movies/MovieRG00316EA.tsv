@@ -1,0 +1,54 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory170.png																								
+2	2		401							1	211																							
+3	3		201							1	500097																							
+4	4		301			DialogEnable				1	Granton	Ouch... No, not the artifact...	1																					
+5	2000		201							1	500176																							
+6	5		301							1	Camu	Cut the nonsense.	1																					
+7	2001		401			RImgBg1Shake				2	1512																							
+8	6		301									Granton finally passed out after a heavy kick from Camu, who also took the artifact.	1																					
+9	7		301								Camu	【kuroname】, you take this one.	1																					
+10	8		301									I thought Camu would put this artifact in his bag, but he only carefully examined it and tossed it to me.																						
+11	2002		302								Aren't you going to take it?	9	I don't think it's safe in my hands. Are you sure?	10																				
+12	9	11	301								Camu	I already have a piece. I need you to hold this one.	1																					
+13	10	11	301								Camu	This thing will never be safe no matter where we keep it.	1																					
+14	11		301			RImgBg1Shake						————																						
+15	2003		201							1	500180																							
+16	12		301							1	Karenina	Wait. Was that an earthquake?	1																					
+17	2004		203							1	0.25	400																						
+18	2005		201							2	500181	1	-400																					
+19	13		301							1	Vera	No need to ask, Karenina. It was an earthquake indeed.	2																					
+20	14		301								Karenina	Hey, Gray Raven. Lucia said they were going to search for Liv down there, didn't she? Could this have anything to do with them...	1																					
+21	2006		302								Lucia's team is in danger.	15	It could just be a normal earthquake.	16																				
+22	15	17	301								Karenina	Let's go check them out!	1																					
+23	16	17	301								Karenina	Are you dumb? No way that was normal! Let's go down and check what happened!	1																					
+24	17		301								Vera	【kuroname】 can go alone. Your strength is needed elsewhere, Karenina.	2																					
+25	18		301								Karenina	Vera?	1																					
+26	19		301								Vera	...Don't you understand? It's the King. He was hiding his power so we could collect the artifact for him.	2																					
+27	20		301								Vera	We agreed, so nothing happened to us. But Lucia must have rejected. I'm sure she even said things like "I'll stop your evil plan".	2																					
+28	21		301								Karenina	That just gives me more reason to go!	1																					
+29	2007		203							1	0.25	600																						
+30	2008		203							2	0.25	-600																						
+31	2009		201							3	500176																							
+32	22		301							1	Camu	What can you possibly do? We can't kill an enemy without HP bar in this game.	3																					
+33	23		301								Camu	...Plus, he's the King. It will be impossible to kill him unless some special mechanism is triggered.	3																					
+34	24		301								Vera	Before we entered the game, Kamui also said players could not kill important NPCs...	2																					
+35	25		301								Vera	The right option is to just let the King beat them, so victory will be ours.	2																					
+36	26		301								Karenina	Do you still care so much?	1																					
+37	27		301								Vera	Didn't you also play this game because you wanted to win?	2																					
+38	28		301								Camu	Vera, we're running out of time.	3																					
+39	29		301								Vera	I know.	2																					
+40	2010		202							1	2	3																						
+41	2011		201							1	500181																							
+42	30		301							1	Vera	I kind of saw this coming. Fine, just hold 【kuroname】's hand and get down there together!	1																					
+43	2012		302								What!?	1000	(Hold Karenina in my arms)	1001																				
+44	1000	31	202							1																								
+45	31	2013	301									Before I realized, Vera's attack landed on me, as well as Karenina. 																						
+46	1001	32	201							1	500180	6																						
+47	32	33	301							1	Karenina	Hey, Gray Raven! What are you doing?!	1																					
+48	33	2013	301				AniZhuanchangBegin					Karenina thought I was going to do something... But I was only trying to protect us from Vera's attack.																						
+49	2013		202							1																								
+50	2014		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+51	34		301			AniZhuanchangEnd						As we fell off the high platform, I saw Lucia's team confronting the King.																						
+52	35		301								Vera	Use as many potions as you have. Don't die, 【kuroname】.																						
+53	36		301		1		AniZhuanchangBegin					This was the last line I heard before passing out.																						

@@ -1,0 +1,22 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory275.png																								
+2	2		401							1	201																							
+3	3		201							1	1031001		-600																					
+4	4		201							2	500026		600																					
+5	5		201							3	500166																							
+6	6		301			DialogEnable				1		Countless supply boxes are standing in the way...																						
+7	7		301								Lee	Why are there so many supply boxes here?	2																					
+8	8		301								Liv	Most of them are empty but very heavy...	1																					
+9	9		301								Lucia	The walls in the plant are really hard, too. We're probably going to draw the Corrupted our way if we're too loud. Let's just clear these supply boxes out of the way first.	3																					
+10	10		301				DialogDisable				Liv	Agree. We just might come across some supplies.	1																					
+11	11		202							1	2	3																						
+12	12		305							13	21																							
+13	13		201							1	1031001																							
+14	14		301			DialogEnable				1	Liv	We can pass if we cling to the wall. The supply boxes at the top are still very dangerous, though, so don't touch them.	1																					
+15	15		204							1	1																							
+16	16		301								Liv	Be careful, Commandant. Do you need to hold on to my hand?	1																					
+17	17		302								Of course!	18	That won't be necessary.	19																				
+18	18		301		1		AniZhuanchangBegin					You hold on to Liv with your left hand and try to carefully pass through the place...																						
+19	19		204							1	14																							
+20	20		301		1		AniZhuanchangBegin					Liv looks at you with a worried expression. She only comes after you when you have made it past the supply boxes.																						
+21	21		202		1		AniZhuanchangBegin			1					1																			

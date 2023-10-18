@@ -1,0 +1,159 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory285.png																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						With your combined efforts, you have defeated the last of them. However, among their familiar mechanical bodies, you find some unfamiliar Corrupted.																						
+4	4		201							1	1031001		-600																					
+5	5		201							2	500166		0																					
+6	6		201							3	500026		600																					
+7	7		301							1	Liv	What are these things?	1																					
+8	8		301								Lucia	Looks like the fused Corrupted on the train.	2																					
+9	9		302								Does this have anything to do with the Red Tide?	10																						
+10	10		301								Liv	We still don't have enough intel. Lee, can you use the Spear of F.O.S. to restore their memory?	1																					
+11	11		301								Lee	I'm trying.	3																					
+12	12		301								Lee	I can pick up their data, but it can't be deciphered.	3																					
+13	13		302								Are there any other clues?	14																						
+14	14		301								Lucia	Once we've watched the final segment, this area will be clear.	2																					
+15	15		302								Let's proceed to the next area.	16																						
+16	16		202							1	2	3			1																			
+17	17		301									At that point, your comms indicator flashes again.																						
+18	18		201							1	500146	1																						
+19	19		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+20	20		301							1	Murray	Finally, I've reached you. Are you alright?	1																					
+21	21		302								We're fine.	22																						
+22	22		301								Murray	I received Bridget's report. We really should prioritize tracking the Ascendants.	1																					
+23	23		301								Murray	Is there anything else to report?	1																					
+24	24		203							1	0.25	-400																						
+25	25		201							2	500004		400																					
+26	26		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+27	27		301							1	Asimov	Get out of here. You're distracting me from my work.	2																					
+28	28		301								Murray	Sorry, I'll be leaving shortly.	1																					
+29	29		302								Why are you two together?	30																						
+30	30		301								Murray	We lost contact for so long, I was starting to get worried.	1																					
+31	31		301								Murray	I noticed you sent a report to Asimov through the survey channel, so I thought I'd come here to see how it's going.	1																					
+32	32		302								Asimov, we've collected some new samples.	33																						
+33	33		301								Asimov	Good, send them to me.	2																					
+34	34		302								We also found some new Corrupted.	35																						
+35	35		301								Asimov	New Corrupted?	2																					
+36	36		302								If you don't mind, Liv.	37																						
+37	37		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+38	38		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+39	39		202							1	2				1																			
+40	40		201							1	1031001																							
+41	41		301							1	Liv	Not at all.	1																					
+42	42		202							1		3			1																			
+43	43		301									After receiving the sample data from Liv, Asimov furrows his eyebrows in contemplation, revealing an expression you have never seen before.																						
+44	44		301									He stands up suddenly and runs to the other side of the lab as if searching for something. Then you hear the sound of a cup overturning.																						
+45	45		201							1	500166																							
+46	46		301							1	Lucia	I've never seen him this flustered.	1																					
+47	47		302								Looks like it's serious.	48																						
+48	48		202							1					1																			
+49	49		301									After waiting for a moment in silence, Asimov returns to the comms with his brows still furrowed.																						
+50	50		201							2	500004																							
+51	51		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+52	52		301							1	Asimov	...	2																					
+53	53		302								What's happening?	54	Are you okay?	54																				
+54	54		301								Asimov	These bodies... They're starting to show biological signs never before seen in Corrupted.	2																					
+55	55		301								Asimov	Perhaps we should no longer call them Corrupted. Based on their composition, it would be more appropriate to call them "Hetero-Creatures".	2																					
+56	56		302								They're evolving biologically?	57																						
+57	57		301								Asimov	Correct. However, based on the intel you sent back, there are still a lot of unknowns.	2																					
+58	58		301								Asimov	But after breaking down the components of the Red Tide by their functions, we can determine that it closely resembles the primordial ocean on Earth.	2																					
+59	59		302								So, the Hetero-Creatures are born from the Red Tide?	60																						
+60	60		301								Asimov	We still can't say conclusively. But given how related they are, it is highly possible.	2																					
+61	61		301								Asimov	How large is the Red Tide now?	2																					
+62	62		203							2	0.25	400																						
+63	63		201							1	500166		-400																					
+64	64		301							1	Lucia	It can already cover an entire city block. We've also used the Spear of F.O.S. to uncover records of a missing squad. We've only just sent their discoveries back because of the signal issues.	1																					
+65	65		301								Lucia	According to them, the Red Tide was more like a red fountain previously, and it was hiding underground. But in just a short amount of time, it turned into a rising tide that could submerge an entire block.	1																					
+66	66		301									Asimov lowers his head and shifts his glance from the report on Hetero-Creature to the information on the missing team.																						
+67	67		301								Asimov	The rate of expansion...	2																					
+68	68		302								You worry that it might cover the entire planet?	69	Will Hetero-Creatures replace humankind?	69																				
+69	69		301								Asimov	...	2																					
+70	70		301								Asimov	We can't rule out that possibility, but we also can't panic just because it's possible.	2																					
+71	71		301								Asimov	We must investigate further. Aside from this report, do you have any new information on the Red Tide?	2																					
+72	72		302								There's only one more thing.	73																						
+73	73		201							2	500146	1	400																					
+74	74		301							1	Murray	Well, tell us.	2																					
+75	75		301								Lucia	While investigating the missing team, we also found out that the Red Tide can retain the consciousness of the dead.	1																					
+76	76		201							2	500004		400																					
+77	77		301							1	Asimov	Yes, I saw this information in the report.	2																					
+78	78		301								Asimov	Whether the Red Tide is imitating the dead, or it really does retain their consciousness, the situation looks bleak.	2																					
+79	79		301								Asimov	It means that it can lure unwitting people into the Red Tide.	2																					
+80	80		302								...Lure people into it.	81																						
+81	81		301								Asimov	Also, it may be able to use the data it collects from their consciousness to evolve its own consciousness... and become a real living organism.	2																					
+82	82		301								Lucia	...It's still expanding. It even actively moves to places where Corrupted gather to devour them, growing even further.	1																					
+83	83		301								Asimov	Predatory behavior...	2																					
+84	84		201							1	1031001		-400																					
+85	85		301							1	Liv	However, the Corrupted don't completely dissolve. Rather, they're... dismantled in the Red Tide.	1																					
+86	86		301								Liv	They become parts.	1																					
+87	87		201							1	500166		-400																					
+88	88		301							1	Lucia	If the Red Tide crashes into humans, they will be hit and maybe even killed by these scraps before they drown.	1																					
+89	89		301								Asimov	Dismantled... into parts? Is it because they can't be dissolved, or...	2																					
+90	90		301									Asimov keeps his unproven speculation to himself before throwing out a question.																						
+91	91		301								Asimov	What do you think the Red Tide will evolve into?	2																					
+92	92		301								Lucia	It'll accelerate the spread of the Punishing Virus while continuing to expand.	1																					
+93	93		201							2	500146		400																					
+94	95		301							1	Murray	Is that all?	2																					
+95	96		302								Is that... "all"?	97																						
+96	97		301									Murray nods. Asimov stops his work and turns to see him smiling by his side.																						
+97	98		301								Murray	I just received a report from another team. They were stationed further away, and they hadn't had direct contact with the Red Tide, but they spoke with the scavengers nearby.	2																					
+98	99		301								Murray	Recently, a large number of Corrupted have been gathering in the ruins, where there have been reports of unused supplies.	2																					
+99	100		301								Murray	However, no one that ventured into the ruins has ever returned. Who do you think is responsible for this?	2																					
+100	101		302								Could it be the Ascendants?	102																						
+101	102		301								Murray	It's highly likely. The scavengers gave a vague description, but early accounts seem to share some resemblance.	2																					
+102	103		301								Murray	At this rate, even if Huaxu didn't lead us here, we would've investigated this area due to the rumors or the sheer number of teams that would have gone missing here.	2																					
+103	104		201							1	500026		-400																					
+104	105		301							1	Lee	This means they have a trump card in their hand. Once it matures, they will have something as powerful, if not more, than the Ascendants.	1																					
+105	106		201							1	500166		-400																					
+106	107		301							1	Lucia	Matures?	1																					
+107	108		201							1	500026		-400																					
+108	109		301							1	Lee	They needed to keep it a secret in the past, but now they're no longer afraid of people spreading rumors or our squads going missing. That can only mean that their trump card is almost ready to be deployed.	1																					
+109	110		301								Lee	In other words, although the Red Tide and Hetero-Creatures pose a threat, they can't overpower us any time soon. And yet they still carry out their plan, which means there must be an even greater threat.	1																					
+110	111		201							2	500004		400																					
+111	112		301							1	Asimov	I think so too. Now that we have obtained this information, we need to destroy this immature trump card before they can play it.	2																					
+112	113		201							2	500146	1	400																					
+113	114		301							1	Murray	Of course it didn't take you long to figure it out, Lee.	2																					
+114	115		301								Lee	Anyone would have come to the same conclusion with this information.	1																					
+115	116		301								Murray	But we don't have enough intel yet. Commandant, Lee, please report back if you have any new information.	2																					
+116	118		201							1	500004		-400																					
+117	119		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+118	120		301							1	Asimov	Can you leave my lab first?	1																					
+119	122		301								Murray	Alright, alright. No problem.	2																					
+120	123		301								Murray	I was just here because you looked anxious from all the news on the Red Tide, so I wanted to coordinate with you on the new information as soon as possible. Sorry, I didn't mean to disturb you.	2																					
+121	124		301								Asimov	...	1																					
+122	125		301								Asimov	I appreciate the gesture, but you can sort out the information later and give it to me then.	1																					
+123	126		301								Murray	Alright, I'll be going now.	2																					
+124	127		301									Murray nods to Asimov, then waves to the camera.																						
+125	128		301								Murray	Be careful, everyone. Especially you, Lee. Don't get carried away.	2																					
+126	129		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+127	130		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+128	131		202							1	2				1																			
+129	132		201							1	1031001		-600																					
+130	133		201							2	500166		0																					
+131	134		201							3	500026	10	600																					
+132	135		301							1	Lee	...Got it.	3																					
+133	136		301									Murray smiles and terminates the call. But right after that, you see a familiar projection flashes by.																						
+134	137		302								...?!	138																						
+135	138		204							3																								
+136	139		301								Lucia	What is it, Commandant?	2																					
+137	140		302								I think I just saw Roland.	141																						
+138	141		302				AniZhuanchangBegin				He was chasing a boy.	142																						
+139	142		101							Assets/Product/Texture/Image/BgStory/Bgstory285.png																								
+140	143		202							1	2	3			1																			
+141	144		201							1	500008		-400																					
+142	145		201							2	500164		400																					
+143	146		501						1500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+144	147		504							0.8																								
+145	148		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+146	149		301			AniZhuanchangEnd				1		Following the direction of the projection leaving, you see Roland smiling as usual while talking with a boy.																						
+147	150		301								Lucia	Who's the boy?																						
+148	151		301									The four of you look at the boy, who stares at Roland angrily and appears slightly injured.																						
+149	152		302								They don't look like they're companions.	153																						
+150	153		301									Perhaps because they have distanced themselves from the Corrupted at the scene, you only see them gesturing in conversation without hearing what they are saying.																						
+151	154		301									Suddenly, the boy angrily smashes his fist against the wall, forming a crack in the projected wall.																						
+152	155		302								This strength...	156																						
+153	156		301								Lucia	Looks like the boy is a Construct, too.																						
+154	157		301									Their conversation does not appear to be a pleasant one. Despite Roland's dissuasion, the boy runs to the end of the street out of sight of the onlooking Corrupted. At this point, the projections disappear.																						
+155	158		202							1	2				1																			
+156	159		504							0																								
+157	160		201							1	500166	5																						
+158	161		301		1		AniZhuanchangBegin			1	Lucia	Let's go, Commandant!	1																					

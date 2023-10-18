@@ -1,0 +1,148 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	1600		401							1	12																							
+3	2		201							1	500190																							
+4	3		301			DialogEnable				1		Hello there, friend.	1																					
+5	4		301									Yes, I know. How foolish it is, to imagine a friend for myself, isn't it?	1																					
+6	5		301									But, foolish though I may be, I'm willing to believe that you are good, or at least, one that is trustworthy.	1																					
+7	6		301									After all, you are my imagination. I can't betray myself, now, can't I?	1																					
+8	7		202							1																								
+9	8		301									There are some things that I must, and can only, tell you.																						
+10	9		301									I don't know if I can even live until tomorrow.																						
+11	10		301									Anyway, it's foolish. Pure, distilled foolishness.																						
+12	11		301									But still, please listen to what I have to say.																						
+13	12		301									About the truth... and what we've just realized about this world.																						
+14	13		301									About... things that might go poof—without a trace—after today. About things that might change what common sense means.																						
+15	14		301									Before the real "battle" begins, a myriad of events will take place.																						
+16	15		301									You do hear me, do you? You are not ignoring these seemingly meaningless words of mine, are you?																						
+17	16		301				AniZhuanchangBegin					My friend.																						
+18	17		101							Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+19	1601		401							1	208																							
+20	18		301			AniZhuanchangEnd						【kuroname】...																						
+21	19		302								...	20																						
+22	20		301							1		【kuroname】!	1																					
+23	21		302								...?	22																						
+24	22		201							1	500001	4																						
+25	23		301							1		【kuroname】!!!	1																					
+26	24		301								Celica	Oh you. How can you fall asleep at a regular briefing?	1																					
+27	144		204							1	1																							
+28	26		301								Celica	...Well, you did get it rough in Kowloong. I guess you do need a little rest, maybe?	1																					
+29	27		302								Speaking of...	28	...This still feels a little surreal.	29																				
+30	28		301								Celica	What's the matter?	1																					
+31	29		202							1																								
+32	30		301				AniZhuanchangBegin					Lucia...																						
+33	141		101							Assets/Product/Texture/Image/BgCg/Cg1201_5.jpg																								
+34	31		301			AniZhuanchangEnd						Memories flash past you. You seem to still feel Lucia leaning on your back.																						
+35	32		301				AniZhuanchangBegin					The scent, the smell of vital fluid, the lingering warmth of her heat ventilation... Could the briefing before you be but a dream? Are you perhaps still in Kowloong, with Lucia still leaning against you...?																						
+36	142		101							Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+37	33		201							1	500001																							
+38	34		301			AniZhuanchangEnd				1	Celica	【kuroname】!	1																					
+39	35		301									The feeling of Celica lightly smacking your head brings everything sharply back to reality.	1																					
+40	36		302								Sorry, was just spacing out.	37	It's okay. Nothing to worry about.	38																				
+41	37		301							1	Celica	...This is the flimsiest response for daydreaming that I've ever seen.	1																					
+42	38		203							1	0.25	-400																						
+43	39		201							2	500011		400																					
+44	40		301							1	Hassen	What's wrong? 【kuroname】 did great work in Kowloong. There's no need to be so harsh, aye?	2																					
+45	41		301								Celica	I am just reminding 【kuroname】 to rest.	1																					
+46	42		301								Hassen	...Come to think of it. You've all been crammed with missions after missions.	2																					
+47	43		301								Hassen	Even with your excellent performance, we might've been overworking you all.	2																					
+48	44		301								Hassen	How about this, why don't I give you—no, you folks a vacation? Now that a few safe zones have been established on the surface, this should be doable.	2																					
+49	45		301								Celica	In that case, can I join them? President, see, I've basically been working seven days a week for a while now...	1																					
+50	46		301								Hassen	Here's the thing, I'd love to say yes, but...	2																					
+51	47		301								Celica	Okay, what's the reason this time?	1																					
+52	48		301								Hassen	I need someone to help me chair the reconstruction of Kowloong Metropolis, Wuming City, and K-44. And, we have to arrange local intelligence officers for infiltration recon of the Monastery of Purity...	2																					
+53	49		301									Seeing Celica slowly rolling her eyes to Hassen's chatter, you feel a chuckle building up within you.																						
+54	50		301								Hassen	...Anyhow, sorry, but please understand. If I get the chance to arrange a vacation for you, I will. Definitely.	2																					
+55	51		301								Celica	...Overtime pay. Double.	1																					
+56	52		301								Hassen	Deal.	2																					
+57	53		301								Hassen	Okay. Back to the topic. Since it's a vacation, let's also get the other squads that came back from Kowloong.	2																					
+58	54		302								Which means...	55																						
+59	55		301								Hassen	Yep. Gray Raven, Strike Hawk, and the others that helped out.	2																					
+60	56		301								Hassen	In that case, hmm, what to do with the location...	2																					
+61	57		201							2	500012		400																					
+62	58		301							1	Nikola	What are you talking about? Why are you all gathered around 【kuroname】?	2																					
+63	59		301								Celica	President Hassen is suggesting that we send the returning squads from Kowloong to a safe zone for a vacation.	1																					
+64	60		301								Nikola	In that case, I know a place.	2																					
+65	61		201							2	500011		400																					
+66	62		301							1	Hassen & Celica	?	1	2																				
+67	63		202							1	2				1																			
+68	65		201							1	500012																							
+69	66		301							1	Nikola	Caribbean Sea, Area D. It was a famous beach area until Operation Acadia.	1																					
+70	67		301								Nikola	Now, plagued with not even a single tourist, it's a better-than-ever vacation spot.	1																					
+71	68		201							1	500001																							
+72	69		301							1	Celica	But we don't have that many forces stationed in that area...	1																					
+73	70		201							1	500012																							
+74	71		301							1	Nikola	That's because the viral density there is very low, and the garrisons there are just to keep an eye out.	1																					
+75	72		301								Nikola	Besides, with the reconstruction teams working away in the other safe zones, our vacation-goers won't get any peace and quiet, yeah?	1																					
+76	73		203							1	0.25	-400																						
+77	74		201							2	500011		400																					
+78	75		301							1	Hassen	...I see. You do have a point.	2																					
+79	76		201							1	500001		-400																					
+80	77		301							1	Celica	President?	1																					
+81	78		301								Hassen	Area D should be a good choice. It used to be the center of some integration plan of the World Government.	2																					
+82	79		301								Hassen	It had the best-of-the-best entertainment from before po-pan, all in this one place.	2																					
+83	80		302								Sounds nice.	81	Looks like I don't have much of a choice.	81																				
+84	81		301								Celica	Bottling it all up can mess with you. Gotta let your stress out from time to time.	1																					
+85	82		301								Celica	Oh, how nice it must be. I also wanted to go to the beach with you guys...	1																					
+86	83		301								Celica	It's not a common occasion. You should use it to get to know your teammates better.	1																					
+87	137		202				AniZhuanchangBegin			1	2																							
+88	84		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+89	1602		401							1	207																							
+90	85		201							1	500166																							
+91	86		301			AniZhuanchangEnd				1	Lucia	...	1																					
+92	87		302								...Lucia?	88																						
+93	88		301								Lucia	...What's wrong, Commandant?	1																					
+94	89		302								...Nothing.	90																						
+95	90		301								Lucia	...Commandant, your expression doesn't seem like it's "nothing."	1																					
+96	91		302								...	95	Feeling okay?	92																				
+97	92		301								Lucia	I feel like I went through a lot. I might need some time to fully recover and return to my previous condition.	1																					
+98	93		301								Lucia	But Asimov and President Hassen told me that I'll have the time to do so.	1																					
+99	94		301								Lucia	After I recover, I can be your blade again, just like before.	1																					
+100	95		301									...You tell Lucia about the vacation.	1																					
+101	96		301								Lucia	...A vacation? Sure.	1																					
+102	97		301								Lucia	It's also a good opportunity to reacquaint with everyone, right?	1																					
+103	98		302								Yeah.	99	There's no need to reacquaint, right?	104																				
+104	99		301								Lucia	Let me see...	1																					
+105	100		301								Lucia	That one's Liv... That's Lee... That's Ayla...	1																					
+106	101		301								Lucia	Okay. Ready.	1																					
+107	102		302								Let's go tell the others, shall we?	107																						
+108	103	108	301								Lucia	Is that so...	1																					
+109	104		301								Lucia	Indeed... We've all known each other for quite some time.	1																					
+110	105		301								Lucia	Then let's take this opportunity to relax.	1																					
+111	106		302								Let's go tell the others, shall we?	107																						
+112	107		301								Lucia	Yeah!	1																					
+113	147		204							1	6																							
+114	108		301				AniZhuanchangBegin					Lucia takes your hand and drags you out.																						
+115	109		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+116	110		301			AniZhuanchangEnd					Lucia	Am I acting based on my intuitions, or memories? Or... am I just being the Lucia that Commandant wants me to be?	1																					
+117	111		301								Lucia	...I am who I am.	1																					
+118	149		204							1	1																							
+119	112		301				AniZhuanchangBegin				Lucia	...No matter what happens, I will stay by Commandant's side. I am the leader of Gray Raven, Lucia. This will never change.	1																					
+120	143		202							1																								
+121	113		101							Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+122	1603		401							1	201																							
+123	114		201							1	500011		-400																					
+124	115		201							2	500012		400																					
+125	116		301			AniZhuanchangEnd				1	Hassen	...What plans are you hatching?	1																					
+126	117		301								Nikola	You needed help. I gave it.	2																					
+127	118		301								Hassen	You're not the type to recommend vacation spots. And may I remind you that Lucia's frame—	1																					
+128	119		301								Nikola	—The problem about her memory data hindering her combat performance? There are enough combatants going with her. There shouldn't be any issues.	2																					
+129	120		301								Hassen	Then why Area D?	1																					
+130	121		301								Nikola	You'll know why when it's over.	2																					
+131	122		301								Hassen	...Looks like they'll need a vacation extension after this one.	1																					
+132	123		301								Hassen	Never mind, I'll get it sorted out. One last thing—what did you send Cerberus to do? They went dark on our surveillance system.	1																					
+133	124		301								Nikola	...I might be obliged to tell you, but I would prefer not to.	2																					
+134	125		301								Hassen	Very well. In that case, I'll get Asimov to give a little something to Gray Raven's commandant.	1																					
+135	126		301								Nikola	A little something?	2																					
+136	999001		301								Hassen	To make sure it all goes well, I think your plan needs the help of that thing.	1																					
+137	139		202				AniZhuanchangBegin			1	2																							
+138	127		101							Assets/Product/Texture/Image/BgStory/Bgstory139.png																								
+139	128		301			AniZhuanchangEnd						In the vast and endless sea of sand, three figures trudge...																						
+140	129		301								???	Argh! Why do we hafta hop there on foot from the frontlines HQ?!																						
+141	130		301								???	We blew it with the Forsakens. They ain't lending us their wheelies.																						
+142	131		301								???	C'mon, man. At least get Babylonia to airdrop us some of em' self-folding cars or something...																						
+143	132		201							1	500168																							
+144	133		301							1	Vera	Can you two stuff it?	1																					
+145	134		301								Vera	Keep that up and I'll just turn you two off, then tow you both to the mission site.	1																					
+146	135		301								Noctis	You hear that, Blackjack? No more noise.																						
+147	136		301		1		AniZhuanchangBegin				No. 21	Bog off, you.																						

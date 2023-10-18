@@ -1,0 +1,88 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory105.png																								
+2	2		401							1	201																							
+3	3		201							1	500214																							
+4	4		301			DialogEnable				1	Rosetta	Halt.	1																					
+5	5		301									Rosetta raises her spear, and the squad comes to a halt.																						
+6	6		201							1	500026																							
+7	7		301								Lee	What's wrong?	1																					
+8	8		201							1	500088																							
+9	9		301							1	Diana	We're being followed.	1																					
+10	10		201							1	500214																							
+11	11		301							1	Rosetta	Looks like they don't have any ill intent.	1																					
+12	12		201							1	500198	2																						
+13	13		401							1	208																							
+14	14		301							1	???	Duh! Of course, not!	1																					
+15	15		301							1	Evan	Why would I wanna hurt you guys?!	1																					
+16	16		201							1	500214																							
+17	17		301							1	Rosetta	...?	1																					
+18	18		201							1	500088	4																						
+19	19		301							1	Diana	...Evan? You snuck out again, didn't you?	1																					
+20	20		201							1	500198																							
+21	21		301							1	Evan	Did not! I came here to get you guys!	1																					
+22	22		201							1	500088																							
+23	23		301							1	Diana	Did Auntie Mariana give you permission?	1																					
+24	24		201							1	500198																							
+25	25		301							1	Evan	...No.	1																					
+26	26		301									Rosetta and Diana look at each other. Rosetta sighs, then picks up Evan and carries him on her shoulder.																						
+27	27		201							1	500214	1																						
+28	28		301								Rosetta	Okay, caught a naughty boy sneaking out. Now let's get him back to the settlement.	1																					
+29	29		201							1	500198																							
+30	30		301							1	Evan	What! I didn't sneak out! I went out the front gate!	1																					
+31	31		201							1	1031001	1																						
+32	32		301								Liv	Pff...	1																					
+33	33		301				AniZhuanchangBegin					Everyone bursts out laughing, relieving the fatigue and tension of the long march.																						
+34	34		202							1					1																			
+35	35		101							Assets/Product/Texture/Image/BgStory/Bgstory93.png																								
+36	36		301			AniZhuanchangEnd						Upon arrival, you see that the two huge icebreakers have already been moored at the dock.																						
+37	37		201							1	500199																							
+38	38		301							1	Staessen	You made it. That had to have been quite the journey!	1																					
+39	39		201							1	500087																							
+40	40		301							1	Sergey	Let me also express my gratitude.	1																					
+41	41		201							1	500214																							
+42	42		301							1	Rosetta	That won't be necessary. We're towards a common goal.	1																					
+43	43		201							1	500199																							
+44	44		301							1	Staessen	Well, before you leave, we need to name the new settlement.	1																					
+45	45		201							1	500087		-400																					
+46	46		201							2	500086		400																					
+47	47		301							1	Sergey & Antonov	?	1	2																				
+48	48		202							1	2				1																			
+49	49		201							1	500199																							
+50	50		301							1	Staessen	Once you move to the new settlement, you will be regarded as equals to other settlements as well.		1																				
+51	51		301								Staessen	Materials that had to be transferred through Kyaranta will now be delivered directly to you.		1																				
+52	52		301								Staessen	So, we need to give the settlement a new name.		1																				
+53	53		201							1	500087		-400																					
+54	54		201							2	500086		400																					
+55	55		301							1	Sergey	How about "New Sophia"?	1																					
+56	56		301								Antonov	New Sophia...? Not bad!	2																					
+57	57		202							1	2				1																			
+58	58		201							1	1031001	7																						
+59	59		301							1	Liv	...Sophia?	1																					
+60	60		201							1	500087		-400																					
+61	61		201							2	500086		400																					
+62	62		301							1	Antonov	Yes, we traveled from the capital city of Sophia to the Arctic region before finally ending up here.	2																					
+63	63		301								Antonov	One of the few things we still remember, is the meaning of our capital, "Sophia".	2																					
+64	64		301								Sergey	—It means "Gift from Heaven".	1																					
+65	65		301									You and Sergey say it at almost the same time.																						
+66	66		301								Sergey	...How do you know?	1																					
+67	67		301								Antonov	Could it be...	2																					
+68	68		302								Well...	69																						
+69	69		302								I'll introduce her when the occasion arises.	70																						
+70	70		301								Sergey & Antonov	?	1	2																				
+71	71		202							1	2				1																			
+72	72		201							1	500214																							
+73	73		301							1	Rosetta	The Forest Guards have already pitched your tents and prepared the campfire.	1	1																				
+74	74		301								Rosetta	You can have a good rest tonight.	1	1																				
+75	75		201							1	500086																							
+76	76		301							1	Antonov	Okay! We also got some freshly brewed kvass. Drinks are on us tonight!	1																					
+77	77		201							1	500199																							
+78	78		301							1	Staessen	Considering the last banquet... I don't think my stomach can take much more.	1																					
+79	79		201							1	500087																							
+80	80		301							1	Sergey	Pah, you live in the Arctic and can't handle a few more drinks?!	1		1																			
+81	81		202							1					1																			
+82	82		301									...																						
+83	83		301									Festive jubilation spreads throughout the crowd as the campfire and music fade outwards from the settlement.																						
+84	84		301									The problems of the world will not be resolved from this small victory. But, at least, for tonight, the light from the campfire is joined by the sound of people singing.																						
+85	85		301									Among the malt aroma of kvass and the merry singing, you seem to hear the faint sounds of cracking coming from the distant snowfield.																						
+86	86		301									The cracking snowfield is said to symbolize the end of winter. Live through another cold snap, and the snow will melt, spring beginning anew.																						
+87	87		301		1		AniZhuanchangBegin					Although you have never seen a snowfield in spring, you know that it—will soon come.																						

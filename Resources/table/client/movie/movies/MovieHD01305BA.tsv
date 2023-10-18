@@ -1,0 +1,129 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory102.png																								
+2	2		401							1	5																							
+3	3		201							1	500492																							
+4	4		301			DialogEnable				1	Liv	Where to next, Commandant?	1																					
+5	5		302								Want to go somewhere together, Liv?	6	I'm not sure.	500																				
+6	6		204							1	1																							
+7	7	9	301								Liv	Okay. We haven't done anything together in a while, Commandant.	1																					
+8	500		204							1	1																							
+9	8		301								Liv	Want to go walk around?	1																					
+10	9		302								Sure.	10																						
+11	10		301									As soon as you leave, you see a small figure curled up in the chair behind you—the girl who was listening to Liv's story earlier.																						
+12	11		301									She fell asleep on the chair. Her face has a red mark from the arm of the chair, but she's still sound asleep.																						
+13	12		302								Where's her family?	13																						
+14	13		204							1	3																							
+15	14		301								Liv	Um... She told me she was all by herself when we first met. No friends or family.	1																					
+16	15		302								Wake her up.	16	How about we wake her up, Liv?	24																				
+17	16		302								It's too cold to sleep here.	17																						
+18	17		204							1	1																							
+19	18		301									You gently tap the arm of the chair she's resting her head on. Awoken by the strange sound, she yawns softly and stretches like a tired kitten.																						
+20	19		301									She opens her eyes and, a few moments later, looks at the strangers standing before her.																						
+21	20		203							1	0.25	400																						
+22	21		201							2	500260		-400																					
+23	22		301							1	Girl	Who...?	2																					
+24	23	32	301								Girl	...Huh? You're that dancing robot... And the robot telling stories!	2																					
+25	24		204							1	1																							
+26	25		301									Liv kneels down and gently strokes the girl's hair.																						
+27	26		301								Liv	Time to wake up. You'll catch a cold if you keep sleeping on the chair.	1																					
+28	27		301									Resting her head on the arm of the chair, the tired "kitten" hears the strange sound, yawns softly, and stretches.																						
+29	28		203							1	0.25	400																						
+30	29		201							2	500260		-400																					
+31	30		301								Girl	Oh! You're the robot telling stories!	2																					
+32	31		301								Girl	Huh... Who's that? Oh, the dancing robot...	2																					
+33	32		302								Yeah.	33																						
+34	33		302								Why are you here all by yourself?	34																						
+35	34		301								Girl	I'm waiting for my mommy and daddy.	2																					
+36	35		204							1	3																							
+37	36		301								Girl	But I've waited so long... And they're still not back. They don't want me anymore. Do they?	2																					
+38	37		301									Hearing this, Liv looks at you gloomily, as if to confirm whether they all thought the same thing.																						
+39	38		302								(Nod to Liv)	39																						
+40	39		204							1																								
+41	40		301									Whether or not they know the answer to this question, most of the children left in the conservation area had lost their parents...																						
+42	41		301									Unfortunately, this child doesn't seem to be the exception.																						
+43	42		301									But who can bring themselves to shatter her hope?																						
+44	43		302								What's your name?	44																						
+45	44		301								Ellie	My name's Ellie.	2																					
+46	45		204							1	1																							
+47	46		301								Liv	Want to go play with friends?	1																					
+48	47		301								Ellie	...	2																					
+49	48		301									The girl hesitates a moment and looks at the crowd off in the distance.																						
+50	49		301								Ellie	I haven't made any friends here yet. Mommy and Daddy aren't back either...	2																					
+51	50		302								Want to come and play with us?	51																						
+52	51		301								Ellie	Is that okay?	2																					
+53	52		301									Her dark eyes suddenly burst into light. Seems like she had been waiting for someone to invite her for quite some time.																						
+54	53		301								Liv	Of course! We're going to try out some of the activities here.	1																					
+55	54		301								Ellie	The ones for collecting Star Tickets?	2																					
+56	55		302								Got that right.	56																						
+57	56		301								Ellie	Oh, I know those. You just need to join the events, and you can ask the old lady for Star Tickets.	2																					
+58	57		302								Let's go together!	58																						
+59	58		301								Ellie	Okay!	2																					
+60	59		301								Liv	Which one do you wanna do first?	1																					
+61	60		302								Hmm...	61																						
+62	61		301								Ellie	Can we try that out?	2																					
+63	62		301									She points to an area beside the convention hall.																						
+64	63		302								"Four-legged Race"?	64																						
+65	64		301								Liv	The one where three people tie their legs together and race?	1																					
+66	65		302								Won't that be hard for Ellie to do with us?	66																						
+67	66		301								Liv	She's not as tall as us, but we can run at her speed.	1																					
+68	67		302				AniZhuanchangBegin				Then it's settled!																							
+69	68		202			DialogDisable				1	2				1																			
+70	69		401							1	29																							
+71	70		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory544.jpg																								
+72	71		301			DialogEnable						You go with Ellie and Liv to the track.																						
+73	72		301									You adjust the bandage tying you and Ellie's legs together. Even though the bandage is wrapped around your foot, it comes up to Ellie's calf.																						
+74	73		301									As long as you and Liv hold her up in the air and let her feet move with your legs, you can avoid tripping over each other due to such a large difference in your strides.																						
+75	74		302								Ready, Liv?	75																						
+76	75		201							1	500492																							
+77	76		301							1	Liv	(Nods)	1																					
+78	77		301									Supporting Ellie with your arms, you and Liv can run together one foot after another.																						
+79	78		302								We need to say "left, right, left right" together.																							
+80	79		203							1	0.25	400																						
+81	80		201							2	500260		-400																					
+82	81		301							1	Ellie	Okie-dokie!	2																					
+83	82		301								Staff Member	Ready?																						
+84	83		401							2	657																							
+85	84		301									"Left, right, left, right..."																						
+86	85		301									"Left, right, left, right..."																						
+87	86		301									"Left, right, left, right..."																						
+88	501		502							PanelActor1Shake																								
+89	502		502							PanelActor2Shake																								
+90	87		301								Ellie	Ah!	2																					
+91	88		301									Ellie screams with excitement as the three of you stumble across the finish line.																						
+92	89		302								Ellie!	90	Liv!	91																				
+93	90		301								Ellie	S-sorry.	2																					
+94	91		204							1	3																							
+95	92		301								Liv	Commandant?! Are you okay?	1																					
+96	93		302								I'm okay.	94																						
+97	94		301								Ellie	S-sorry... I...	2																					
+98	95		302								Why are you sorry?	96																						
+99	96		401							1	5																							
+100	97		204							1																								
+101	98		301								Staff Member	Congratulations, you three!																						
+102	99		301								Staff Member	Even though you fell right at the end, you still managed to cross the finish line. Also...																						
+103	100		301									She looks at the time.																						
+104	101		301								Staff Member	You three are the fastest with a child in the race. Here is the prize for first place.																						
+105	102		302								We got first place?	103																						
+106	103		301								Staff Member	It's hard enough with three people as it is, let alone with a child.																						
+107	104		301								Liv	...	1																					
+108	105		301									The staff member smiles and waves.																						
+109	106		301								Staff Member	Thank you for doing it with Ellie.																						
+110	107		302								...	108																						
+111	108		301								Staff Member	Here's your reward. The first place prize is candy and chocolate.																						
+112	109		301								Ellie	Chocolate...	2																					
+113	110		301								Liv	You don't like chocolate, Ellie?	1																					
+114	111		301									The little girl shakes her head like crazy.																						
+115	112		301								Ellie	I love chocolate! Especially winning it with you two. But...	2																					
+116	113		301									She fixes her gaze on her straw bracelet, which was a commemoration award for anyone who failed to place in a game.																						
+117	114		302								Do you like that more?	115																						
+118	115		301								Ellie	Yeah... Mommy made one for me. But it was ruined after all the rain...	2																					
+119	116		204							1	1																							
+120	117		301								Liv	Okay, we'll go do another event and bring you the prize. How's that sound?	1																					
+121	118		301								Ellie	Really? I don't wanna trouble you...	2																					
+122	119		301								Liv	Is that okay, Commandant?	1																					
+123	120		302								Well, we still need more Star Tickets.	121	As long as it's with you, Liv.	122																				
+124	121		301		1		AniZhuanchangBegin				Liv	Alright, Ellie. Let's go.	1																					
+125	122		204							1	6																							
+126	123		301								Liv	C-Commandant...	1																					
+127	124		301									Liv lowers her head shyly.																						
+128	125		301		1		AniZhuanchangBegin				Liv	I... think so, too...	1																					

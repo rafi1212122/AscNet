@@ -1,0 +1,56 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory170.png																								
+2	2		401							1	16																							
+3	3		201							1	500097																							
+4	4		301			DialogEnable				1	Granton	Never thought I, Granton, would be so embarrassed by heroes.	1																					
+5	5		301									Thanks to the recovery potions, we blasted through the castle with ease and finally reached the second Demon General, Granton.																						
+6	6		301								Granton	I don't know about the first two heroes, but... Do you two really believe what the King said?	1																					
+7	7		301									As Camu and Vera defeated Granton's minions, he looked over, hands on his wounds.																						
+8	2001		203							1	0.25	400																						
+9	2002		201							2	500180		-400																					
+10	8		301							1	Karenina	Do you mean me and the Commandant of Gray Raven?	2																					
+11	9		301								Granton	Correct. From what I heard, you already knew that King was plotting something.	1																					
+12	10		301								Granton	Why are you still doing this if you already doubt him!?	1																					
+13	11		302								Because this is the main quest.	12	Do you know what the King is really up to then?	13																				
+14	12	14	301								Granton	Main...what!? Just like the last generation, you heroes always say weird things.	1																					
+15	13	14	301								Granton	Of course I do...	1																					
+16	14		301								Granton	Anyway, that King is the real monster. He wants to take the artifact from us and control this world.	1																					
+17	2003		202							1	2																							
+18	2004		201							1	500176																							
+19	15		301							1	Camu	With this stone alone?	1																					
+20	16		301									Camu took out the jade after hearing Granton. The latter gnashed his teeth...																						
+21	2005		201							1	500097																							
+22	17		301							1	Granton	Right, this is it. The artifact was originally given to us Demons by the Goddess as an order to keep the Demons alive.	1																					
+23	2006		302								An order?	18	Who is the Goddess?	19																				
+24	18	20	301								Granton	Yeah. Because of this artifact, we Demons have greater strength than humans.	1																					
+25	19	20	301								Granton	She is... No, there is a spell on her name. We are unable to write or read it out.	1																					
+26	20		301								Granton	The power of the artifact allowed us to summon the Demon King in the last war. The Goddess originally wanted to balance the power of both sides to reduce casualty.	1																					
+27	21		301								Granton	But the Demon King escalated the war without discussing with us. Eventually, the heroes of the revelation arrived and destroyed us. 	1																					
+28	2007		202							1	2																							
+29	2008		201							1	500176		400																					
+30	2009		201							2	500181		-400																					
+31	22		301							1	Vera	Speaking of which, what exactly does the "hero of the revelation" mean?	2																					
+32	23		301								Camu	The revelation means the main quest. This is probably how the last generation of heroes called it.	1																					
+33	3001		202							1	2																							
+34	3002		201							1	500097																							
+35	24		301							1	Granton	Right... They felt sorry to us, but said they had no choice but to follow the revelation in order to win this game.	1																					
+36	25		301								Granton	We saw it as the Goddess' punishment and didn't want to take it back to them. But the humans soon retaliated and wanted to take the artifact away from us.	1																					
+37	26		301								Granton	We could have summoned the Demon King again with the artifact. But we only created four sanctuaries with it and sealed them against all humans.	1																					
+38	3003		203							1	0.25	400																						
+39	3004		201							2	500181		-400																					
+40	27		301							1	Vera	You sealed them... But why are we standing right here?	2																					
+41	28		301								Granton	Because you are heroes. Only the heroes can ignore the rules set by the Goddess.	1																					
+42	29		301								Vera	Aha... No wonder he couldn't do this himself.	2																					
+43	30		301								Granton	That's why you must stop working for the King. If you really are the heroes, you should do what's best for the world. We can promise to never attack humans again.	1																					
+44	31		301								Granton	And... Please also go back and ask the King to leave us alone.	1																					
+45	3005		302								I'll try.	1001	No, I don't think we can.	33																				
+46	1001	1002	202							1	2																							
+47	1002	32	201							1	500176																							
+48	32	1003	301							1	Camu	I met many people like him. Even if you threaten his life, it still won't work.	1																					
+49	33	34	301								Granton	What...!?	1																					
+50	34	1003	301								Vera	Just use your brain. Do you think that King will listen to "heroes" like us?	2																					
+51	1003		202							1	2																							
+52	3006		201							1	500097																							
+53	35		301							1	Granton	I'll take that as a no.	1																					
+54	3007		201							1	500176																							
+55	36		301		1		AniZhuanchangBegin			1	Camu	Because we are also the "heroes of the revelation." Give us the artifact now!	1																					

@@ -1,0 +1,309 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory574.jpg																								
+2	2		401							1	208																							
+3	3		201							1	500472	7																						
+4	4		301			DialogEnable				1	Nanami	Look, there's something strange on this machine.	1																					
+5	5		301									Nanami jumps off the mech and kneels down next to the frozen "traveler" on the roadside, poking at the fabrics on it.																						
+6	6		204							1																								
+7	7		301								Nanami	He seems to be carrying a bag...	1																					
+8	8		201							1	500470			-350	600																			
+9	9		301							1	Sniper	I don't think you should eat food from unknown source, Nanami.	1																					
+10	10		301									Sniper-PK43 tries to stop Nanami as she takes out an unknown object from the backpack and puts it in her mouth.																						
+11	11		201							1	500472																							
+12	12		301								Nanami	Munch munch... Hmm, it tastes a little weird...	1																					
+13	13		201							1	500470			-350	600																			
+14	14		301							1	Sniper	I told you not to eat it.	1																					
+15	15		201							1	500472	1																						
+16	16		301								Nanami	But it tastes like human food indeed! I should take some for Commandant.	1																					
+17	17		201							1	500470			-350	600																			
+18	18		301								Sniper	I'm starting to worry for that human.	1																					
+19	19		201							1	500472	1																						
+20	20		301							1	Nanami	Let's go this way!	1																					
+21	21		301								Nanami	Corrupted will never bring food with them. Maybe this mechanoid went out for this bag of food, but it never made it back... Other humans could be waiting for it to go home.	1																					
+22	22		301									The black backpack has become ragged from battle. Nanami puts its dirty fabric next to her face.																						
+23	23		204							1	2																							
+24	24		301								Nanami	...I can feel someone's thoughts in this.	1																					
+25	25		201							1	500470			-350	600																			
+26	26		301							1	Sniper	In human words, you are just being superstitious.	1																					
+27	27		201							1	500472	5																						
+28	28		301							1	Nanami	Enough already! You've just kept roasting me!	1																					
+29	29		201							1	500470			-350	600																			
+30	30		301							1	Sniper	The human who made me was quite lonely, so he configured me to be rather talkative.	1																					
+31	31		201							1	500473																							
+32	32		301				AniZhuanchangBegin			1	Nanami	Anyway, I can smell something fishy. Let's investigate!	1																					
+33	33		202							1					1																			
+34	34		101							Assets/Product/Texture/Image/BgStory/Bgstory54.jpg																								
+35	35		301			AniZhuanchangEnd						Nanami and Sniper-PK43 continue to search around and find more clues on the snow nearby.																						
+36	36		301									They find some children's toys and candy wraps buried not too deep in the snow.																						
+37	37		301									Tracing them, Nanami controls Power to lift up the roof of a collapsed building. They see a short, dark staircase.																						
+38	38		201							1	500472																							
+39	39		301							1	Nanami	Wow...	1																					
+40	40		301								Nanami	You can't come in, Power!	1																					
+41	41		301									Nanami parks Power. The stairs are so narrow that she and Sniper-PK43 cannot walk side by side. There is a door at the end of the stairs.																						
+42	42		201							1	500470			-350	600																			
+43	43		301							1	Sniper	Are we just going in like this?	1																					
+44	44		301									Nanami puts a finger next to her mouth, making a "shh" gesture. She knocks on the door lightly.																						
+45	45		201							1	500472	1																						
+46	46		301							1	Nanami	Hello there? It's Nanami. I'm not a bad guy. I'm coming in if I don't hear any answer.	1																					
+47	47		201							1	500470			-350	600																			
+48	48		301								Sniper	Nobody is answering. Just go in.	1																					
+49	49		202							1					1																			
+50	50		401							2	754																							
+51	51		301				AniZhuanchangBegin					There is a lock on the door, but Nanami easily opens it. She pushes the door open and steps inside.																						
+52	52		101							Assets/Product/Texture/Image/BgStory/Bgstory69.jpg																								
+53	53		201							1	500472																							
+54	54		301			AniZhuanchangEnd				1	Nanami	This place looks like an underground nursery...	1																					
+55	55		301									The poorly lit room has just the basic facilities, including several steel beds. It is cramped and dark, but quite clean.																						
+56	56		301								Nanami	Someone must have cleaned here not long ago.	1																					
+57	57		204							1	1																							
+58	58		203							1	0.5	-600																						
+59	59		301								Nanami	Hello—? Is—anybody—in?	1																					
+60	60		203							1	0.5	600																						
+61	61		301									Nanami starts to sing a strange song and wanders around the room.																						
+62	62		201							1	500470			-350	600																			
+63	63		301							1	Sniper	If there is anybody around, you would have scared them away.	1																					
+64	64		301									Sniper follows Nanami into the room and activates the thermal imager. The room isn't very big, and he soon discovers a few weak heat sources in the corner.																						
+65	65		301								Sniper	Nanami, I found something...	1																					
+66	66		201							1	500472			-100																				
+67	67		203							1	0.25	200	0																					
+68	68		204							1	7																							
+69	69		301							1	Nanami	Hide-and-seek? Nanami's—the—best! Eek!	1																					
+70	70		203							1	0.25																							
+71	71		301									Nanami walks behind a steel bed and suddenly jumps up, patting herself on the chest.																						
+72	72		301								Nanami	That was scary... I almost broke my new clothes!	1																					
+73	73		201							1	500470			-350	600																			
+74	74		301							1	Sniper	...Right in front of you.	1																					
+75	75		202							1					1																			
+76	76		301									Sniper-PK43 quickly walks up and finds a mechanoid with the looks of a female human. She has collapsed to the ground, holding a rusty kitchen knife in her hands and looking at Nanami and Sniper-PK43 with fear in her eyes.																						
+77	77		301									Sniper-PK43 quickly searches for the mechanoid in his database, but the database is never updated, nor it is connected to the network. All he can find is a robot nanny produced in the Golden Age with a similar model number.																						
+78	78		201							1	500472	2	400																					
+79	79		201							2	500483		-400	-100																				
+80	80		301							1	Nanami	Phew... It's okay, don't be scared. Nanami isn't angry.	1																					
+81	81		204							1	1																							
+82	82		203							1	0.25	300	-100																					
+83	83		301									Nanami bends over and reaches out for the stranger mechanoid. Worried that she may alert the mechanoid, she just gently pats on her head.																						
+84	84		203							1	0.25	400																						
+85	85		301									It actually seems to work. Still shivering, the mechanoid gradually puts down the knife. She keeps looking between Nanami and Sniper-PK43.																						
+86	86		203							2	0.25	-400																						
+87	87		301			PanelActor2Shake				1	Stranger Mechanoid	Who... are you...	2																					
+88	88		301								Nanami	My name is Nanami, and this is Snipey behind me. I'm looking for a human. Have you seen any humans nearby?	1																					
+89	89		301								Stranger Mechanoid	...Hu-man?	2																					
+90	90		301								Stranger Mechanoid	Right... my child... Can you also help him...?	2																					
+91	91		301								Nanami	Huh, is there a child around? Why am I not seeing any?	1																					
+92	92		301									Sniper-PK43 shakes his "head." He has not detected any trace of human activities.																						
+93	93		301									When talking about her "child", the mechanoid's expression becomes loving but sad.																						
+94	94		301								Stranger Mechanoid	I hid him away. It's too cold out there, let alone the Corrupted... I had to do it to protect him.	2																					
+95	95		301								Stranger Mechanoid	Maria was supposed to go out and find food for him... But she never came back on that day. I couldn't just leave him alone... He kept telling me he was cold. I must stay with him...	2																					
+96	96		301								Nanami	Is this yours?	1																					
+97	97		301									Nanami takes out the backpack she found on the Corrupted earlier and shows it to the mechanoid.																						
+98	98		301								Stranger Mechanoid	Right... This is it! Maria left with this bag! Where is she? Where is food?	2																					
+99	99		204							1	14																							
+100	100		301								Nanami	Your friend Maria had left... But there is food inside this backpack! Maria worked very hard for it... You can have it back now.	1																					
+101	101		204							1																								
+102	102		301									The stranger mechanoid's knife drops to the ground. She takes the backpack with trembling hands and digs out the remaining food.																						
+103	103		301								Nanami	Um, I accidentally took a bite of that... But it should be fine!	1																					
+104	104		301								Stranger Mechanoid	T-thank... Thank you.	2																					
+105	105		301									The mechanoid gets back on her feet. She looks as if she is going to cry, but mechanoids have no tears.																						
+106	106		301								Nanami	You're welcome... Can you take us to your child now?	1																					
+107	107		301								Stranger Mechanoid	Sure. He is probably still napping... We don't have much food left. If you hadn't come, I would have gone out to look for food myself.	2																					
+108	108		202							1	2				1																			
+109	109		401							1	36																							
+110	110		301									The mechanoid wipes her hand on her apron like a real housewife before taking Nanami and Sniper-PK43 to a corner of the room, where she has built a small tent from fabrics and branches. She carefully lifts open the yellowed fabric, revealing the interior.																						
+111	111		301									There is a cot with someone who seems significantly larger than the cot curled up inside, covered by a large, thick military-green coat.																						
+112	112		201							1	500470			-350	600																			
+113	113		301							1	Sniper	...!	1																					
+114	114		401							1	66																							
+115	115		301									Before Sniper-PK43 speaks, Nanami has gently lifted up the fabric on the face.																						
+116	116		301									But what they are seeing has completely shocked them.																						
+117	117		201							1	500472	14																						
+118	118		301							1	Nanami	Arrgh...!	1																					
+119	119		301									Nanami's hand shakes after seeing the human corpse under. The scarf and coat both slide away, exposing a male body strangely curled up inside the cot.																						
+120	120		301								Nanami	What's... this...	1																					
+121	121		201							1	500483																							
+122	122		301							1	Stranger Mechanoid	Shh. He's sleeping.	1																					
+123	123		201							1	500472	7																						
+124	124		301							1	Nanami	This... is not a kid!	1																					
+125	125		301									Nanami turns to the mechanoid in shock. She has but a loving look on her face.																						
+126	126		202							1					1																			
+127	127		401							2	685																							
+128	128		301									Sniper-PK43 immediately activates his attack mode, which he has not used for a long time. He points his gun at the stranger mechanoid. Her face is no different from that of a female human, which makes it even more horrifying.																						
+129	129		201							1	500470			-350	600																			
+130	130		301			PanelActor1Shake				1	Sniper	What have you done? Did you kill him?	1																					
+131	131		203							1	0.25	-400	-350	600																				
+132	132		201							2	500483		400																					
+133	133		301							1	Stranger Mechanoid	What are you talking about... He's all good, isn't he? I can still detect his life signals...	2																					
+134	134		301									A twisted confusion climbs up the mechanoid's face. She removes the coat on the cot, revealing a few nestlings lying quietly in the cold, dead body's arms.																						
+135	135		301								Stranger Mechanoid	His heart is still beating. He told me that he felt very cold not long ago... So I found him lots of warm clothing...	2																					
+136	136		201							1	500470		-400	-350	600																			
+137	137		301							1	Sniper	How long is "not long ago"?	1																					
+138	138		402							1	36																							
+139	139		301								Stranger Mechanoid	I... don't know...	2																					
+140	140		202							1	2				1																			
+141	141		301									The "woman" looks lost as if nobody has told her the truth before. She stares at the cot that she has put so much effort to protect, trying to figure out what has happened.																						
+142	142		201							1	500483																							
+143	143		401							1	211																							
+144	144		301							1	Stranger Mechanoid	What did I do...? He arrived on a very dark night... I heard him knocking on the door. I had not seen a human for so long... He was badly injured, so Maria and I had been taking care of him...	1																					
+145	145		301								Stranger Mechanoid	What happened after? I was able to take good care of kids. I could have taken care of him. But the next evening, he suddenly said he was cold, but his body temperature was very high.	1																					
+146	146		301								Stranger Mechanoid	I could not find medicine anywhere... He said he was getting sleepy, so I hugged him for the night. But his heart stopped beating the next morning.	1																					
+147	147		301									The mechanoid stares at her hands, completely lost.																						
+148	148		301								Stranger Mechanoid	What have I done...? I want him to come back. Why couldn't I take care of him? I was supposed to help him. He was so young and fragile.	1																					
+149	149		301									The mechanoid starts to make a twisted, painful crying sound. It could very well be her first time. "Crying" is not loaded in her program, so she can only imitate humans using her instinct, making a hoarse, obnoxious howl.																						
+150	150		301								Stranger Mechanoid	I didn't know what to do. I put him in my arms and waited at the window. I lost track of time. Without him, I lost my purpose.	1																					
+151	151		301								Stranger Mechanoid	But I once again detected life signals in his body...	1																					
+152	152		301									It could be a bird lost in the snow storm. Exhausted, it accidentally broke into the nursery and landed on the warm fabrics covering the body. It made a nest.																						
+153	153		301								Stranger Mechanoid	I feel confused...	1																					
+154	154		301			PanelActor1Shake						The "woman" helplessly grasps her chest. She keeps asking and pounding herself, as if she wants to beat a soul out of her mechanical body.																						
+155	155		301								Stranger Mechanoid	What have I done...? Why...? What's this feeling...?	1																					
+156	156		201							1	500470			-350	600																			
+157	157		301							1	Sniper	...So this is what happened.	1																					
+158	158		301									His maker did not die after falling off the building, but managed to get here. This dark, cramped nursery witnessed the human's final moment.																						
+159	159		201							1	500472	14																						
+160	160		301							1	Nanami	...	1																					
+161	161		301									Nanami wipes the tears away from her cheeks.																						
+162	162		301								Nanami	I see...	1																					
+163	163		301									Nanami moves closer to the mechanoid on the ground. This time, she puts her hand on the mechanoid's shoulder, gently patting her.																						
+164	164		301								Nanami	...	1																					
+165	165		401							2	910																							
+166	166		204							1																								
+167	167		301									The silver-haired girl picks up a gravel from the ground and draws on the wall.																						
+168	168		201							1	500470			-350	600																			
+169	169		301							1	Sniper	What are you doing?	1																					
+170	170		402							910																								
+171	171		202							1					1																			
+172	172		301									Nanami does not answer but keeps drawing. Moments later, there is a pattern made up of incomprehensible symbols on the wall.																						
+173	173		201							1	500470			-350	600																			
+174	174		301							1	Sniper	What is this?	1																					
+175	175		202							1					1																			
+176	176		301									The mechanoid also raises her head, looking at the drawing in confusion.																						
+177	177		201							1	500472		400																					
+178	178		201							2	500483		-400																					
+179	179		301							1	Nanami	It shows how the human turns into a bird and flies away.	1																					
+180	180		301									Nanami holds the mechanoid's hands, wiping away her invisible tears.																						
+181	181		301								Nanami	He was worried about you, so he turned into a bird and came back to check on you... That's why you should stop locking yourself up here.	1																					
+182	182		301								Stranger Mechanoid	But what should I do...?	2																					
+183	183		301								Nanami	Do what you want to do.	1																					
+184	184		301								Stranger Mechanoid	There's nothing that I want to do. My only duty is to take care of these children.	2																					
+185	185		301								Nanami	No... Touch your heart.	1																					
+186	186		301									Nanami grabs the mechanoid's hand and puts it on her chest.																						
+187	187		204							1	2																							
+188	188		301								Nanami	I feel sorrow here... Just like how you are feeling sad right now, you will be able to feel happiness, excitement, and affection. There must be something in the world that is worth seeking for you, just like how you cherished that human.	1																					
+189	189		301									The mechanoid's eyes follow Nanami's hand. They seem to be getting watery, as if she has received a "revelation."																						
+190	190		204							1	1																							
+191	191		301				AniZhuanchangBegin				Nanami	Go look for it. Set yourself free.	1																					
+192	192		401							1	36																							
+193	193		202							1	2				1																			
+194	194		301			AniZhuanchangEnd						Birds are chirping in the quiet basement. The female mechanoid begins to sing a song.																						
+195	195		301							1	Stranger Mechanoid	"Over the shifting desert plains... Across mountains all in flames..."	1																					
+196	196		301				AniZhuanchangBegin				Stranger Mechanoid	"Through howling winds and driving rains... To be by your side."	1																					
+197	197		101							Assets/Product/Texture/Image/BgStory/Bgstory105.png																								
+198	198		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySnowNew.prefab	1																							
+199	199		401							2	968																							
+200	200		301			AniZhuanchangEnd						The snow quietly gets heavy again. The pale sky shatters into pieces that fiercely fall to the ground, covering everything.																						
+201	201		301									Nanami stands in the snow. The mech's bulky body is right under her feet, but she still feels incredibly small in the vast, overwhelming environment. She listens again but cannot hear any more heart beats.																						
+202	202		301									Only wind is howling around them.																						
+203	203		201							1	500470			-350	600																			
+204	204		401							1	120																							
+205	205		301							1	Sniper	Nanami...	1																					
+206	206		301							1	Sniper	We found him indeed no matter what.	1																					
+207	207		202							1					1																			
+208	208		301									Nanami jumps off the mech and brings up a recorder. Before they left the nursery, the mechanoid gave it to her and told her that the human had been carrying it with him. She looks Sniper-PK43 calmly in the eyes.																						
+209	209		201							1	500472																							
+210	210		301							1	Nanami	There should be some information stored inside... Do you want to hear it?	1																					
+211	211		402							968																								
+212	212		401							2	1016																							
+213	213		301									Sniper-PK43 does not object. Nanami presses the play button.																						
+214	214		202							1					1																			
+215	215		301								Message	Um... This is Ozaki speaking.																						
+216	216		301									It's a young, male voice.																						
+217	217		401							2	584																							
+218	218		301								Message	Ah... Um, it's been... (Static)... 21 days since... (Static) squad arrived at... site. I'm trying to keep some journals.																						
+219	219		301									The message can only be heard intermittently as his voice is significantly distorted by the static noise.																						
+220	220		301								Message	...The wide spread of extreme cold weather has brought an unprecedented winter all over the globe... Fortunately, the adverse weather and environment also seem to cause a reduction in Punishing infection... Mankind is still looking for hope.																						
+221	221		402							584																								
+222	222		301									The first message has ended. The screen of the recorder shows there is 12:37:21 remaining.																						
+223	223		401							2	1016																							
+224	224		301				AniZhuanchangBegin					Nanami presses the button again.																						
+225	225		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySnowNew.prefab																							
+226	226		101							Assets/Product/Texture/Image/BgStory/BgStory573.jpg																								
+227	227		504							0.7																								
+228	228		401							2	584																							
+229	229		301			AniZhuanchangEnd					Message	Day 26. Nothing happened. There was no trace of Corrupted. I found a... (Static)... At the end of the street. Not sure if I can fix it or not.																						
+230	230		301									Sniper-PK43 realizes it hasn't been long before he appeared in the human's message.																						
+231	231		301				AniZhuanchangBegin					Out of nowhere, a wave of infinite melancholy has taken him as he tries to match the exhausted voice in the recorder to the voice stored in his database.																						
+232	232		101							Assets/Product/Texture/Image/BgStory/Bgstory93.png																								
+233	233		301			AniZhuanchangEnd					Message	Day 35.																						
+234	234		301								Message	I saw a building collapse today. Perhaps the concrete underwent some chemical reaction due to the temperature change. I was... (Static)... patrolling aimlessly when I heard the sound of glass shattering. Not long after that, a window wall snapped and dropped vertically onto the pavement.																						
+235	235		301								Message	Afterward, there was like a gentle push from a pair of invisible hands, and the building fell like a domino. I was terrified. It was so difficult to run wearing a protective suit. Shards spattered everywhere, carried by a gust of wind. Fortunately, I was safe.																						
+236	236		301				AniZhuanchangBegin				Message	I suddenly wondered how long it took the people who lived there to build this towering structure. Nature reclaimed it in but a second. Ashes to ashes. Dust to dust.																						
+237	237		101							Assets/Product/Texture/Image/BgStory/Bgstory69.jpg																								
+238	238		301			AniZhuanchangEnd					Message	I found a nursery from the Golden Age today. You could tell that kids used to sleep and rest here. Now it's empty. I tried to find some supplies for Hank, but had no luck. Still, I found something else...																						
+239	239		301								Message	The windows were broken, but the room wasn't without its dwellers. I saw two nests on the windowsill. There seemed to be birds landing there. They brought food and fur, leaving behind bones and feathers. The room still felt slightly alive.																						
+240	240		301								Message	Chirp—																						
+241	241		301									The birds are chirping loudly.																						
+242	242		301				AniZhuanchangBegin				Message	Alright, good birdie. I will come back again. Maybe next time I'll bring some leftover soup from the cans.																						
+243	243		101							Assets/Product/Texture/Image/BgStory/BgStory575.jpg																								
+244	244		301			AniZhuanchangEnd					Message	Thanks to Zavier, I managed to fix that bulky machine.																						
+245	245		301								Message	For some personal reasons... I asked Zavier to install a personality simulation program on it. The way it speaks now kinda reminds me of Nana. Haha... Not entirely though. Well, I'll just pretend that Nana's with me.																						
+246	246		301								Message	I plan to put it on the east side of our site, so it can watch out for wandering Corrupted for us.																						
+247	247		301				AniZhuanchangBegin				Message	Hank's situation is getting worse day by day. Maybe he should return to Babylonia, at least Star of Life can take care of him up there.																						
+248	248		101							Assets/Product/Texture/Image/BgStory/Bgstory458.jpg																								
+249	249		301			AniZhuanchangEnd					Message	Hank didn't make it. I'm sad. Really sad.																						
+250	250		301				AniZhuanchangBegin				Message	Zavier wants to leave too. What about the refugees here? What will they do? Rumor has it that Punishing creatures are already getting used to the climate. The war is getting more intense at the frontline. Perhaps I should also apply to be relocated to the area most impacted by the extreme cold weather.																						
+251	251		101							Assets/Product/Texture/Image/BgStory/Bgstory105.png																								
+252	252		504							0																								
+253	253		401							2	1016																							
+254	254		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySnowNew.prefab	1																							
+255	255		301			AniZhuanchangEnd						There is a lengthy gap in between filled with random, intermittent static noise. Nanami fast-forwards the message, then pauses and rewinds it when she hears some almost incomprehensible, hoarse sound. It's a few lines of lyrics.																						
+256	256		301								Message	"Across the oceans, across the seas..."																						
+257	257		301								Message	"Over forests of blackened trees..."																						
+258	258		301								Message	"Valleys so still we dare not breathe..."																						
+259	259		301				AniZhuanchangBegin				Message	"To be by your side..."																						
+260	260		301			AniZhuanchangEnd					Message	...																						
+261	261		301								Message	...Earlier on, I got a message from the frontline. My senior died in battle, and the body was not taken back to Babylonia, but left on Earth forever.																						
+262	262		301								Message	I have seen how a civilization collapses over the days on Earth.																						
+263	263		301								Message	Birds are migrating. Wild animals start to appear in the abandoned cities. They are slowly getting used to these environments, despite the real culprit being us. The disaster left by humankind has turned into a scab on the earth while nature is repairing everything... Humans once thought they had control over nature, but it was just a naive fantasy.																						
+264	264		301								Message	A professor back in F.O.S. said... Scientists in the Golden Age predicted that our culture and history would live on and spread to the edge of the universe through radio waves and broadcasting. One day intelligent life on other planets would find our message: "We're here. This is our civilization."																						
+265	265		301								Message	But as the technology develops, scientists in the council have calculated that such radio waves will turn into but noises forever after traveling 2 light years. If their calculation is correct, our message cannot even reach the nearest nova in the Solar System.																						
+266	266		301								Message	Ten thousand years later, what can prove that we once lived on this planet and created a great civilization? Steel will rust, concrete will shatter, and books will decay.																						
+267	267		301								Message	【kuroname】 once told me that there were always two sides to every story.																						
+268	268		301								Message	"Life is more elastic than we think. One day, I may be no longer able to fight, but hope still lives on. All things will rise and fall, including mankind. The path of life shall continue even when I'm gone."																						
+269	269		301								Message	...																						
+270	270		301								Message	Babylonia has made the decision to evacuate Earth as it is no longer fit for humans to live. But I decided to stay. I decided to expand the path of life on this planet.																						
+271	271		301								Message	—I leave no trace of wings in the air, but I am glad I have had my flight.																						
+272	272		301				AniZhuanchangBegin					Time remaining: 00:00:00.																						
+273	273		301			AniZhuanchangEnd						The recording has ended, leaving only the static noise behind that silently marks the end of a fairy tale.																						
+274	274		402							584																								
+275	275		301									The setting sun is reduced to a purple semi-circle on the edge of the city crawling on the frozen plain.																						
+276	276		301									The sky is getting dark. Something has pulled Nanami down with ease, shattering her fantasy with cold reality.																						
+277	277		301								Nanami	...【kuroname】...?																						
+278	278		301									She mumbles the name that only appeared once in the message. Sniper-PK43 cannot see her face and is unable to detect her mood.																						
+279	279		201							1	500470			-350	600																			
+280	280		301							1	Sniper	I have gathered all available information. Thank you, Nanami.	1																					
+281	281		301								Sniper	We are already free. Without humans, we have no more purpose. She was right.	1																					
+282	282		301									The machine who has been traveling with her now turns away.																						
+283	283		201							1	500472	14																						
+284	284		301							1	Nanami	Where are you going?	1																					
+285	285		301									Nanami tries to grab him. Two of them stand at the intersection, face to face. The snowstorm howls between them like an icy gorge.																						
+286	286		201							1	500470			-350	600																			
+287	287		301							1	Sniper	I have already found the ending of my maker. There is no other human related to me in this world. Our cooperation can terminate now.	1																					
+288	288		201							1	500472	14																						
+289	289		301							1	Nanami	Are you leaving me here?	1																					
+290	290		201							1	500470			-350	600																			
+291	291		301								Sniper	I'm going back to my watch.	1																					
+292	292		201							1	500472	14																						
+293	293		301								Nanami	Why would you still do that...	1																					
+294	294		201							1	500470			-350	600																			
+295	295		301							1	Sniper	We cannot change anything. Humans are gone.	1																					
+296	296		301								Sniper	The only thing I can do now...	1																					
+297	297		301								Sniper	Is to carry on the orders that humans set for me.	1																					
+298	298		301								Sniper	If there is something you still want to do, you will have to do it yourself.	1																					
+299	299		201							1	500472	14																						
+300	300		301							1	Nanami	I-if that's true... Even...	1																					
+301	301		301									The girl wipes her eyes and raises her head. Looking in her eyes, Sniper-PK43 realizes that she knows his entire life story, but he has no idea about hers.																						
+302	302		204							1	4																							
+303	303		301								Nanami	There's still something I can do.	1																					
+304	304		201							1	500470			-350	600																			
+305	305		301								Sniper	...I hope your story is a good one.	1																					
+306	306		202							1																								
+307	307		401							2	1514																							
+308	308		301		1		AniZhuanchangBegin					Sniper-PK43 no longer replies. He turns away and walks toward the distant horizon.																						

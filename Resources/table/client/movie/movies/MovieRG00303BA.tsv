@@ -1,0 +1,27 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory79.jpg																								
+2	2		401							1	209																							
+3	3		301			DialogEnable					System	"This way to the palace."																						
+4	4		301									There was a wooden sign on the side of the road. The direction on the sign pointed to a castle-like building.																						
+5	1001		201							1	500181	1																						
+6	5		301							1	Vera	So are we going there to find the King and pick up quests from him?	1																					
+7	1002		201							2	500176		600																					
+8	6		301							1	Camu	So much hassle. Why don't they just tell me who to kill.	2																					
+9	1003		201							3	500180		-600																					
+10	7		301							1	Karenina	I agree.	3																					
+11	8		302								Perhaps we don't have to kill anyone.	9	Perhaps there will be some enemy we can't beat.	10																				
+12	9	11	301								Camu	I'm going to kill the King if he gives us those weird errands quests.	2																					
+13	10	11	301								Vera	Oh really? I'm keen to meet that enemy.	1																					
+14	11		301									No matter what, all three of them seemed to be the "bold" type.																						
+15	12		301								Vera	Why are you sighing? Are you tired, 【kuroname】?	1																					
+16	13		301									Vera turned to me, pretending to be caring. But I still saw that same mocking smile on her face.																						
+17	14		301								Vera	"If 【kuroname】 is tired, we'll just leave you. The system never forced us to move together."	1																					
+18	15		301								Karenina	Oh, right. I went quite far away when I was scouting on my own.	3																					
+19	16		301									I hadn't said anything, but they were already thinking of abandoning their teammates.																						
+20	1004		302								Wait, I can walk!	17	Don't you know teammates are extremely important in role-playing games?	19																				
+21	17	18	301								Vera	Good. I don't want to lose such a good shield yet.	1																					
+22	18	21	301									She said shield, but I decided to just pretend as if I heard nothing.																						
+23	19	20	301								Camu	Teammates? Do you mean yourself, or the other two useless Constructs?	2																					
+24	20	21	301									I wanted to argue back, but Camu was right. This team was just too imbalanced.																						
+25	21		301								Vera	Anyway, 【kuroname】 seems to be in good spirits. Let's get to the palace before night comes.	1																					
+26	22		301		1		AniZhuanchangBegin				Camu	I agree. Let's go, hmph.	2																					

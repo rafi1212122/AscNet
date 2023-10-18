@@ -1,0 +1,32 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+2	2		401							1	208																							
+3	100		201							1	500012																							
+4	3		301			DialogEnable				1	Nikola	It's 16:33. You're late by three minutes.	1																					
+5	101		302								Sorry, Chief...	4																						
+6	4		301								Nikola	Hah... Maybe I should make an appointment the next time I want to see you, hmm?	1																					
+7	5		301								Nikola	Forget it. Let's make haste. Asimov, are the equipment ready?	1																					
+8	102		203							1	0.25	400																						
+9	103		201							2	500004		-400																					
+10	6		301							1	Asimov	Well, the energy system and safety release valves are slightly different from Babylonia standards, but they're all based off of our tech, so it wasn't that hard to fix.	2																					
+11	7		301								Nikola	Just give me your conclusions.	1																					
+12	8		301								Asimov	It's ready for use. It just needs to be tested for us to know for sure.	2																					
+13	9		301								Nikola	I'm sure you know why you're summoned here. You're here today to test the team formation system developed by the ARU.	1																					
+14	104		302								Why me?	10	Team formation system?	11																				
+15	10	13	301								Nikola	You're the F.O.S. top graduate. You're the most ideal candidate for testing the system's limits. That's all.	1																					
+16	11	12	301								Asimov	We found a program framework located in the Niflheim labs in the Arctic. It's old stuff, but the design direction is revolutionary and of great reference value.	2																					
+17	12	13	301								Asimov	After all, when it comes to war, people at that time were much more experienced than us.	2																					
+18	13		301								Nikola	Enough chit-chat. Any other questions?	1																					
+19	105		302								Nope... Not that the moment.	14																						
+20	14		301								Asimov	Alright. Then come here and put on this headset.	2																					
+21	15		301								Nikola	It's not a deep dive kinda deal?	1																					
+22	16		301								Asimov	The ARU didn't have that sorta tech back then. This is just an audiovisual simulation program.	2																					
+23	17		301								Nikola	It doesn't matter. Or maybe we can test your true mettle more accurately this way. Let's begin.	1																					
+24	18		301								Asimov	Okay. Here goes...	2																					
+25	19		301				AniZhuanchangBegin					As Asimov presses the start button, you hear the unstable electronic voice of a female AI.																						
+26	106		202							1	2																							
+27	107		401							2	1515																							
+28	108		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+29	20		301			AniZhuanchangEnd					-AI-	Construct data upload—complete.																						
+30	21		301								-AI-	Tactical framework simulation generation—complete.																						
+31	22		301		1		AniZhuanchangBegin				-AI-	"Virtual Horizon" loaded. Welcome, Commandant.																						

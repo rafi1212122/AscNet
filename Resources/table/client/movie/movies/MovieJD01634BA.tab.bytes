@@ -1,15 +1,0 @@
-}Õ´âí	/½á›¥•ÉOÂ^¡—HS\D è[|Ï*å­maÈ±6	«äÁ,â±ÌF"äôùÎÅ3†½Lmh¥şÜÊ×ï˜	òö‡o×1å„å@WDÊÍFÎş·Ovòäü1ŠÓmUØ¦«rŸÍ†e”©Õ:7qªÒÂId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
-1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory275.png																								
-2	2		401							1	201																							
-3	3		201							1	500166																							
-4	4		301			DialogEnable				1		You are now approaching the chemical plant's exit. Lucia is looking around and seems absent-minded.																						
-5	5		302								Lucia, are you okay?	6																						
-6	6		301								Lucia	I'm sorry. This place seems very familiar, but I just don't remember it.	1																					
-7	7		302								Let's look for clues here.	8																						
-8	8		301								Lucia	It's my personal issue. I can't make the rest of the team do this.	1																					
-9	9		302								It might also lead us to clues about the Ascendants.	10																						
-10	10		301				DialogDisable				Lucia	...Well, if you say so.	1																					
-11	11		305							12	14																							
-12	12		301			DialogEnable					Lucia	Luna...?	1																					
-13	13		302		1		AniZhuanchangBegin				Let's check it out, Lucia.																							
-14	14		202		1		AniZhuanchangBegin			1					1																			

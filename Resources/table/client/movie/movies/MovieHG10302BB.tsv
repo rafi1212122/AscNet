@@ -1,0 +1,24 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	201																							
+3	3		201							1	1031001																							
+4	4		301			DialogEnable				1	Liv	I'll do my best to complete the special training, Commandant!	1																					
+5	5		302								What exactly are we doing?	6	I'll also do my best to help you.	6																				
+6	6		301								Liv	I've compiled several training programs after analyzing the data... but there's something I want to ask you first, Commandant.	1																					
+7	7		302								Sure.	8	Why don't we just do what the programs say?	9																				
+8	8	10	301								Liv	Wonderful! I knew you'd help me, Commandant.	1																					
+9	9		301								Liv	It'll take quite a long time if we do all of them, so I thought it's best if you decide which one we should do, Commandant.	1																					
+10	10		301								Liv	I'm uncertain about what criteria we should be using to select our training program. Commandant, what kind of Construct is the most helpful to you?	1																					
+11	11		302								As long as they're helpful in combat.	12	Constructs that are helpful outside combat as well.	13																				
+12	12	14	301								Liv	Combat is of course our top priority, isn't it?	1																					
+13	13		301								Liv	Outside combat? Like being able to handle other duties?	1																					
+14	14		301								Liv	Another question, then. What kind of personality do you think is good for a Construct?	1																					
+15	15		301								Liv	For example, whose personality would you prefer: Lucia or Nanami?	1																					
+16	16		302								They're on two ends of a spectrum, aren't they?	17	I don't know how to answer that out of the blue.	18																				
+17	17	19	301								Liv	Two ends, are they... but I can't think of a better pair to compare...	1																					
+18	18		301								Liv	I'm sorry, Commandant! Did that question make you uncomfortable?	1																					
+19	19		301								Liv	Then... my last question, Commandant... Do you...	1																					
+20	20		301								Liv	Do you...	1																					
+21	21		302								What is it?	22	Yes?	22																				
+22	22		301								Liv	No, forget it.	1																					
+23	23		301		1		AniZhuanchangBegin				Liv	Anyway, I understand what you're looking for in a Construct now, Commandant. I'll compile the data and present you with a new training program!	1																					

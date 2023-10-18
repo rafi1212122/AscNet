@@ -1,0 +1,78 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory533.jpg																								
+2	2		401							1	36																							
+3	3		401							2	2634																							
+4	4		301			DialogEnable						Your memories start from the moment you were washed ashore.																						
+5	5		301									You do not remember anything before that, and you do not know how you got here.																						
+6	6		301									A few Scavengers found you by the coast and saved you, and you have lived here ever since.																						
+7	7		301									The old mechanic in the town needs an apprentice, and you are the obvious choice.																						
+8	8		301									It is not a particularly difficult craft. It does not take you long before you start fixing up some simple things by yourself.																						
+9	9		301									Days begin to pass quickly once you no longer have to worry about making a living.																						
+10	10		301									And you spend less and less time wondering about your past.																						
+11	11		301									Why did the sea take you here?																						
+12	12		301									The answer to that question becomes less important once you are used to the sea breeze and the pace of the small town.																						
+13	13		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+14	14		504							0.7																								
+15	15		101							Assets/Product/Texture/Image/BgStory/Bgstory366.png																								
+16	16		201							1	500545																							
+17	17		301							1	???	You are more concerned about figuring out the "how" before the "why."	1																					
+18	18		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+19	19		101							Assets/Product/Texture/Image/BgStory/Bgstory533.jpg																								
+20	20		504							0																								
+21	21		202							1					1																			
+22	22		301									—Someone seemed to have said something similar to you once.																						
+23	23		301				AniZhuanchangBegin					You no longer remember who that person was, but you find those words valuable still.																						
+24	24		402							2634																								
+25	25		401							1	120																							
+26	26		502							DialogDisable																								
+27	27		101							Assets/Product/Texture/Image/BgStory/BgStory41.jpg																								
+28	28		302			AniZhuanchangEnd					Today's order is...	29																						
+29	29		301			DialogEnable						You roll up the shutter to the workshop and take the notebook hanging by the sign. When the townsfolks require a mechanic, they write down their requests for your mentor and you to sort out the next day.																						
+30	30		201							1	500139																							
+31	31		301							1	Mechanic	They are yours today. I'll stay and watch the shop.	1																					
+32	32		302								Got it.	33																						
+33	33		202							1					1																			
+34	34		301									You prepare your tools and leave the workshop.																						
+35	35		502							RImgBg1DisableSlow																								
+36	36		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/Bgstory361.png																								
+37	37		301									Your first destination is a courtyard in the countryside.																						
+38	38		301									The place is said to be abandoned for a long time. A rich family recently bought the land, and they made a huge deal about fixing up the estate.																						
+39	39		502							RImgBg1DisableSlow																								
+40	40		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/Bgstory366.png																								
+41	41		301									You spot the pointy tower of the estate at the other end of the forest after about ten minutes of walk. Before it is a large courtyard.																						
+42	42		301									Standing in front of the fence, you are about to call for someone to open the gate before you notice someone from the corner of your eye.																						
+43	43		301									There is a small and old cemetery by the courtyard—the rich family has had a long argument with the mayor about tearing down the "unsightly" place.																						
+44	44		201							1	500540	8																						
+45	45		301							1		A hooded girl is kneeling before a gravestone, her head lowered and her palms clasped as if she is praying.																						
+46	46		301									The family will certainly kick her out if they discover what she is doing.																						
+47	47		302								What are you doing here?	48																						
+48	48		301									Before you realize it, you have already approached the girl and asked her your question.																						
+49	49		301									Most of the people buried here were dead for centuries. You cannot imagine a girl this young would be here for any of them.																						
+50	50		204							1																								
+51	51		301								???	Ah...	1																					
+52	52		301								???	Nothing.	1																					
+53	53		301									Hearing you, the girl slowly stands up and turns around to face you, smiling.																						
+54	54		302								If the people living here see you...	55																						
+55	55		204							1	8																							
+56	56		301								???	That's okay. My task here is complete.	1																					
+57	57		301									She interrupts you as if she knows what is about to come.																						
+58	58		204							1																								
+59	59		301								???	I was simply saying goodbye.	1																					
+60	60		302								...?																							
+61	61		301								???	By the way, are you happy? With your time here?																						
+62	62		302								Fifty-fifty.	63	I'm quite happy.	64																				
+63	63	66	301								???	Is that so?	1																					
+64	64		204							1	2																							
+65	65		301								???	I'm glad to hear that.	1																					
+66	66		301									You are not sure why she asked. That said, you getting saved by the townsfolks caused quite a stir back then. She must have recognized you from that.																						
+67	67		301									That also explains why you do not remember her.																						
+68	68		204							1																								
+69	69		301								???	It's my time to go, then.	1																					
+70	70		301								???	Until we meet again.	1																					
+71	71		302								...Again?	72																						
+72	72		301									You want to bid her farewell, but a strange feeling suddenly overwhelms you.																						
+73	73		302								Have I seen her before?	74																						
+74	74		202							1																								
+75	75		301									You watch silently as the girl walks farther and farther away until she disappears from your sight.																						
+76	76		302								Never mind.	77																						
+77	77		301		1		AniZhuanchangBegin					You must be imagining things.																						

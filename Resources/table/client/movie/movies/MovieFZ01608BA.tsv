@@ -1,0 +1,26 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory287.png																								
+2	2		401							1	201																							
+3	3		201							1	500167																							
+4	4		301			DialogEnable				1	Bridget	Hey, you guys arrive at the right time.	1																					
+5	5		301								Bridget	I'm caught up in all these rescue missions here and I'm in over my head. Would you be able to help?	1																					
+6	6		302								No thanks...	7	Sure.	8																				
+7	7	2301	301								Bridget	Come on. It's got to do with the Red Tide, and we can't really ask the newbies for help. I'm sure Gray Raven is a lot more experienced.	1																					
+8	8		301								Bridget	I knew I could count on the Gray Ravens.	1																					
+9	2301		204							1	4																							
+10	9		301								Bridget	So here's the deal: the Silk Worm Commandant and a Construct member have been engulfed by the rising tide. We've lost all contact with them.	1																					
+11	10		301								Bridget	I think it might be too late to do anything now...	1																					
+12	11		301								Bridget	One of the two remaining Constructs in their team has been assigned to a different group.	1																					
+13	12		301								Bridget	Things are a little more complicated with the other one. She wasn't there with them when their commandant was attacked, because she had been under treatment for severe injury.	1																					
+14	13		301								Bridget	She regretted not being able to save their commandant, and firmly believes that he is just too injured to contact us and that he's waiting to be rescued.	1																					
+15	14		301								Bridget	So she refused to be assigned to a different team and later escaped at night. She's also somehow blocked location tracking.	1																					
+16	15		301								Bridget	I would have asked a technician to track her down any other day, but we really need to do it ourselves now.	1																					
+17	16		301								Bridget	So? Would you be able to help?	1																					
+18	17		302								...Very well.	2302																						
+19	2302		204							1	1																							
+20	18		301								Bridget	Wonderful! Well, let me send her information to your terminal.	1																					
+21	19		301								Bridget	She's probably looking for their commandant where the Red Tide has been. Look for her in the ruins.	1																					
+22	20		201							1	500166																							
+23	21		301							1	Lucia	Ruolin, frame name Antler, Attacker Construct.	1																					
+24	22		201							1	500167																							
+25	23		301		1		AniZhuanchangBegin				Bridget	Yes, that's her. I'll leave the job to you.	1																					

@@ -1,0 +1,17 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory12.jpg																								
+2	2		401							1	201																							
+3	3		201							3	1011001																							
+4	4		301			DialogEnable				1	Lee	The Nozzle model has been transported to a safe place.	3																					
+5	5		301								Lee	Before we return to Babylonia from the transports, we'll have to extract its full memory. We need to be quick.	3																					
+6	6		301								Lee	But it's too heavily damaged... we'll have to repair it a little first.	3																					
+7	7		301								Lee	If it's just to extract a portion of it, then we should still have enough time.	3																					
+8	8		202							3					1																			
+9	9		201							1	1031001																							
+10	10		301							1	Liv	What do we do next?	1																					
+11	11		202							1					1																			
+12	12		201							2	1021001																							
+13	13		301							1	Lucia	Start by... collecting its memory chips, right?	2																					
+14	14		202							2					1																			
+15	15		201							3	1011001																							
+16	16		301		1		AniZhuanchangBegin			1	Lee	Right. Find the intact ones and reinstall them, then reboot.	3																					

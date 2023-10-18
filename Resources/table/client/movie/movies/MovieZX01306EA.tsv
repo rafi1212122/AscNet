@@ -1,0 +1,56 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory188.png																								
+2	2		401							1	201																							
+3	999001		201							1	500026																							
+4	999002		301							1	Lee	...What a long detour. Looks like Roland deliberately laid those trails to mislead us.	1																					
+5	999003		301								Lee	But no matter what, his trails vanished here. That's for sure.	1																					
+6	999004		202							1																								
+7	3		201							1	500166																							
+8	4		301			DialogEnable				1	Lucia	There's a... hatch, hidden on the foundation wall...?	1																					
+9	5		301									The trail ends before a hidden hatch on the foundation wall. Looks like Roland went through the hatch.																						
+10	6		302								Lee.	7																						
+11	7		201							1	500026																							
+12	8		301							1	Lee	Got it. Cracking it open, now.	1																					
+13	9		302								Liv, run a full scan.	10																						
+14	10		201							1	1031001																							
+15	11		301							1	Liv	Roger.	1																					
+16	12		201							1	500026																							
+17	13		301							1	Lee	Just a common industrial grade airlock. Door's open.	1																					
+18	14		201							1	1031001	7																						
+19	15		301							1	Liv	Wait! Lee! Don't move!	1																					
+20	16		301									Liv gives a startled cry, and Lee immediately stops the movement of his hands.																						
+21	17		302								What's the matter?	18																						
+22	18		301								Liv	Commandant... Every meter down the hatch, the viral density spirals exponentially.	1																					
+23	19		301								Liv	It's already at dead zone levels. If we open the door now, Commandant, you will die from the virus within five minutes.	1																					
+24	20		201							1	500196																							
+25	21		301							1	Karenina	****! How in the blazes can the viral density differ so much above and below ground?!	1																					
+26	22		301								Karenina	Did they lay this entire freakin' place with partition tiles?! Talk about burning money!	1																					
+27	23		203							1	0.25	-400																						
+28	24		201							2	500127		400																					
+29	25		301							1	Sophia	Now scanning... It's just like what Karenina said.	2																					
+30	26		204							1																								
+31	27		301								Karenina	You wot?	1																					
+32	28		202							1	2				1																			
+33	29		201							1	500166																							
+34	30		301							1	Lucia	Can Constructs withstand this level of density?	1																					
+35	31		201							1	1031001																							
+36	32		301							1	Liv	No, I'm already reading higher density levels than most dead zones. It's not something an Inver-Device can offset!	1																					
+37	33		301								Liv	It's almost... as if someone had maliciously concentrated all the nearby virus underground.	1																					
+38	34		201							1	500155																							
+39	35		301							1	Chrome	Just like that fishy Ascendant in Kowloong...?	1																					
+40	36		302								Lamia?	37																						
+41	37		301								Chrome	Yeah. The Ascendant who can freely control the viral density near her. Quite the hassle to deal with...	1																					
+42	38		201							1	500026																							
+43	39		301							1	Lee	If that's the case, we can't do anything about it...	1																					
+44	40		201							1	500175																							
+45	41		301							1	Camu	Hey, forgetting someone?	1																					
+46	42		302								?	43																						
+47	43		301								Camu	That nerd... Asimov told me something before the operation—what Roland buried in the deepest recesses of my mind is something like an Ascnet terminal.	1																					
+48	44		301								Camu	Which means that, I should be able to move freely even in high viral density areas, just like them.	1																					
+49	45		201							1	1031001																							
+50	46		301							1	Liv	...That, might indeed work.	1																					
+51	47		201							1	500175																							
+52	48		301							1	Camu	To make sure Kamui's safe. Our interests are aligned, temporarily.	1																					
+53	49		301								Camu	You owe me one for this.	1																					
+54	50		302								Thanks.	51																						
+55	51		301		1		AniZhuanchangBegin				Camu	Hmph, thank me when it's all over.	1																					

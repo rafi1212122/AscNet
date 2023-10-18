@@ -1,0 +1,117 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101							Assets/Product/Texture/Image/BgStory/Bgstory172.png																								
+2	2		401							1	102																							
+3	3		201							1	500028																							
+4	4		301							1	Coordinating Officer	All teams from C to H head to the west entrance. Remember, do not enter Kowloong's security area, or you'll be attacked.	1																					
+5	5		203							1	0.4	400																						
+6	6		201							2	500019		-400																					
+7	7		301							1	Construct	What about the Support Force?	2																					
+8	8		301								Coordinating Officer	The supply line needs to be flexible. Every squad will have a Support Force agent acting as a go-between. Any more questions?	1																					
+9	9		202							1	2																							
+10	10		201							1	1031001																							
+11	11		301							1	Liv	Everyone seems nervous...	1																					
+12	12		203							1	0.4	0																						
+13	13		302								Me too.	9914	Are you nervous?	9917																				
+14	9914		202							1																								
+15	9915		201							1	1021001																							
+16	9916	18	301							1	Lucia	Take deep breaths, Commandant. That'll help, I think.	1																					
+17	9917		301								Liv	To be honest, I'm a little afraid. But I'm not going to let it show in front of you and the others!	1																					
+18	18		202							1																								
+19	19		301									As time passes, more and more Construct squads land in the area in response to President Hassen's call to arms. Meanwhile, all sorts of combat facilities are being set up near the port.																						
+20	20		301									Though battle-hardened, none have been in a war of such a scale. A mix of nervousness and excitement quickens everyone's steps.																						
+21	21		201							1	500026																							
+22	22		301							1	Lee	We're up against not regular Corrupted or just one Ascendant, but a well-disciplined army. We would stand a better chance if Kowloong agreed to ally with us.	1																					
+23	23		203							1	0.4	400																						
+24	24		201							2	500143		-400																					
+25	25		301							1	Yazi	Let's give it another shot at convincing Lady Qu. Make her see our side of things...	2																					
+26	26		301								Lee	You know full well that's not possible. I suggest you stick to the plan and defend our rear.	1																					
+27	27		202							1																								
+28	28		201							1	1021001		400																					
+29	29		301							1	Lucia	The area behind us is covered with field operation facilities, and so is unlikely to become a battlefield. Still, there's no telling what will happen.	1																					
+30	30		301								Yazi	...But this is our home. We should be the ones fighting at the front lines.	2																					
+31	31		302								The rear lines matter as much as the front lines.	32	You don't trust us?	33																				
+32	32	34	301								Yazi	...Thank you. If that's the case, then we shall follow it. You can count on us to keep the rear safe.	2																					
+33	33		301								Yazi	Of course I trust you... We'll do our best to defend the rear.	2																					
+34	34		202							1	2																							
+35	35		201							1	500028																							
+36	36		301							1	Coordinating Officer	Gray Raven, right? You're Squad R. Please head to the east entrance when you're ready.	1																					
+37	37		302								Understood.	9938	What's the situation now?	9939																				
+38	9938	40	301								Coordinating Officer	Thank you. Elite squad indeed. Very cooperative.	1																					
+39	9939		301								Coordinating Officer	All the squads are in position. Now all we need to do is to build as many defense facilities as possible before the enemy gets here.	1																					
+40	40		203							1	0.4	400																						
+41	41		201							2	500026		-400																					
+42	42		301							1	Lee	Do you think we stand a chance?	2																					
+43	43		301								Coordinating Officer	I think we do, otherwise the president wouldn't have summoned all of us here. Plus, Kowloong seems to still be hiding a lot of Constructs. We should have the upper hand against the Corrupted.	1																					
+44	44		202							2																								
+45	45		201							2	1021001		-400																					
+46	46		301							1	Lucia	So the key hinges on us defeating the Ascendants...	2																					
+47	47		301								Coordinating Officer	Anyway, I've sent the route map to your commandant. Check it for yourself.	1																					
+48	48		202							1	2																							
+49	50		301				DialogDisable				Vera	Oh... there you are.	1																					
+50	49		201							1	500168	1																						
+51	1000		301			DialogEnable				1		Vera, dressed differently than usual, suddenly shows up amid the crowd. From the ID and the design, the outfit seems to be her actual combat frame.	1																					
+52	51		203							1	0.4	400																						
+53	52		201							2	500026		-400																					
+54	53		301							1	Lee	Vera?!	2																					
+55	54		202							2																								
+56	55		201							2	1021001		-400																					
+57	56		301							1	Lucia	What are you up to this time?	2																					
+58	57		301								Vera	Nothing. I'm just checking on you after I saw the dangerous thing Asimov prepared for you on his plane.	1																					
+59	58		301								Vera	...Oh? No reaction? I see, so you don't know. Guess that little toy remains just a little toy. Shame.	1																					
+60	59		202							2																								
+61	60		201							2	500026		-400																					
+62	61		301							1	Lee	Vera, get to the point!	2																					
+63	62		301								Vera	Maybe I'll tell you if you live through this.	1																					
+64	63		202								1																							
+65	64		203							2	0.4	0																						
+66	65		301								Lee	Tch, get lost.	2																					
+67	66		301								Lee	I can't wait to meet the other Cerberus members, how do they stomach this woman?	2																					
+68	67		202							2																								
+69	68		201							2	1021001																							
+70	69		301							1	Lucia	Well, at least she left, peacefully... Commandant, let's leave and get to our destination.	2																					
+71	70		302								Yep, get along with everyone.	71	Right, focus on the war against the Ascendants.	74																				
+72	71		202							1	2																							
+73	72		201							1	500026																							
+74	73	77	301							1	Lee	Better leave this place before Vera changes her mind and comes back.	1																					
+75	74		202							1	2																							
+76	75		201							1	500026																							
+77	76		301							1	Lee	If only Vera could direct her hostility toward our common enemy.	1																					
+78	77		202							1	2																							
+79	78		201							1	1031001																							
+80	79		301							1	Liv	Hold on, just one thing before we go!	1																					
+81	80		203							1	0.4	400																						
+82	81		201							2	1021001		-400																					
+83	82		301							1	Lucia	Did we miss something?	2																					
+84	83		301								Liv	No, nothing like that... Guys, can you extend your hand like this?	1																					
+85	84		302								Okay.	85	Why?	86																				
+86	85	87	301								Liv	Thank you. Lucia, Lee, can you do that too and line our hands up together?	1																					
+87	86		301				AniZhuanchangBegin				Liv	I'll explain shortly. Hold out your hand and let's form a circle. Could you do that for me?	1																					
+88	87		202				DialogDisable			1	2																							
+89	88		401							1	208																							
+90	89		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgCg/Cg1201_4.jpg																								
+91	90		301			DialogEnable					Lucia	Like this?																						
+92	91		301								Lee	Either hand is fine, right?																						
+93	92		301								Liv	Yes, that'll do.																						
+94	93		301									At Liv's request, everyone holds out their hand, forming the shape of a four-leaf clover.																						
+95	94		301								Liv	I've never tried this before too, so... please stay still, everyone.																						
+96	95		301									Then Liv takes a marker out of her medical bag and slowly draws a strange pattern on the back of everyone's hands.																						
+97	96		101							Assets/Product/Texture/Image/BgCg/Cg1201_2.jpg																								
+98	97		301			AniZhuanchangEnd					Lucia	This is...																						
+99	98		302								A smiley face?	99	Eldritch signs?	100																				
+100	99	101	301								Liv	The lines might be a bit shaky, but you can tell what it is.																						
+101	100		301				AniZhuanchangBegin				Liv	Hey, I know I'm not good at this, but it's not that bad, right? It's a smiley face!																						
+102	101		101				DialogDisable			Assets/Product/Texture/Image/BgStory/Bgstory172.png																								
+103	102		201							1	1031001	1																						
+104	520		502							AniZhuanchangEnd																								
+105	103		301			DialogEnable				1	Liv	This smiley face represents our belief that we will always be together no matter what happens. It's a symbol that...	1																					
+106	104		204							1	7																							
+107	105		502							RImgBg1Shake																								
+108	106		401							2	10007502																							
+109	107		401							1	102																							
+110	108		301								Liv	H-huh?!	1																					
+111	109		301									—!																						
+112	110		202							1																								
+113	111		201							1	1021001																							
+114	112		301							1	Lucia	Sound of explosions... from every direction. Commandant, Liv, Lee, we gotta hurry and get to our destination!	1																					
+115	113		301									——And the war begins, heralded by the sounds of explosions. Who fired first? Who marched first? They no longer matter.																						
+116	114		301		1		AniZhuanchangBegin					All that matters is that the war has begun.																						

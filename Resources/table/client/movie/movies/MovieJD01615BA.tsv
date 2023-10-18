@@ -1,0 +1,21 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory284.jpg																								
+2	2		401							1	201																							
+3	3		201							1	1031001		-600																					
+4	4		201							2	500026		600																					
+5	5		201							3	500166																							
+6	6		301			DialogEnable				1		You all dash into the bridge, only to find no enemy to fight.																						
+7	7		301									But the four of you seem to start losing your perception ability...																						
+8	8		301								Lee	Area scan... Argh! It's the interfering nodes! If we let them stay where they are, they're going to keep affecting our perception ability!	2																					
+9	9		301								Lee	Liv, scan for their locations!	2																					
+10	10		301								Liv	I've uploaded some possible locations to the command link!	1																					
+11	11		301				DialogDisable				Lee	We have one immediately around us... That's why the disruption is so strong!	2																					
+12	12		305							13	20																							
+13	13		301			DialogEnable					Lee	So they installed this interfering node on the pre-existing program module...	2																					
+14	14		301								Liv	No. Aside from the interfering node, there is a data stream that goes beyond the program module... Can it be...	1																					
+15	15		301								Lee	Is the communication between Huaxu and the ground also integrated with this interference module? Such a high degree of aggregation is a reasonable guess considering that the intrusion took place so suddenly.	2																					
+16	16		301								Lucia	Which means if we destroy the interfering node, we'll also be able to sever Huaxu's connection with the ground server?	3																					
+17	17		301								Lee	Correct, and when that happens, I imagine Huaxu's sub-terminals will be critically hurt.	2																					
+18	18		302								Let's do it.	19																						
+19	19		301		1		AniZhuanchangBegin				Lucia & Lee & Liv	Understood!	1	2	3																			
+20	20		202		1		AniZhuanchangBegin			1	2	3			1																			

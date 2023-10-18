@@ -1,0 +1,55 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory270.png																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						After searching for a moment, Vera uncovers a secret door behind a huge bookcase.																						
+4	4		301									They quickly break down the bookcase and open the access point.																						
+5	5		301									A mildewy odor of rotting paper comes out from the depths of the corridor. No. 21 sniffs the odor... then sneezes quietly.																						
+6	6		201							1	500168	13																						
+7	7		301							1	Vera	Looks like we've found our target, eh? Pup?	1																					
+8	8		202							1					1																			
+9	9		301				AniZhuanchangBegin					Vera jokes. To distract herself from what has just happened, No. 21 forces herself to focus on the task at hand and nods sternly.																						
+10	10		101							Assets/Product/Texture/Image/BgStory/Bgstory299.png																								
+11	11		301			AniZhuanchangEnd						The two of them proceed along the corridor into the underground archive.																						
+12	12		201							1	500168		-450																					
+13	13		201							2	500328		450																					
+14	14		301							1	Vera	All the files here are kept on paper... Watch your step. Don't break anything.	1																					
+15	15		301								No. 21	Okay.	2																					
+16	16		202							1	2				1																			
+17	17		301									The underground archive is considerably more cramped than the upper level. Stacks of sallow documents are piled on the ground, smelling of mildew.																						
+18	18		301									No. 21 wrinkles her nose, sniffing the odor in an attempt to remember this peculiar smell.																						
+19	19		201							1	500168																							
+20	20		301							1	Vera	Here.	1																					
+21	21		202							1					1																			
+22	22		401						1000	2	10002001																							
+23	23		401							2	1506																							
+24	24		301									Vera goes straight to the safe in the middle of the archive. She jams her blade into the lock and, after wiggling it several times, hears a satisfying click as it opens. She opens the safe and takes out a stack of documents from within.																						
+25	25		301									Her eyes shift to the "TOP SECRET" written in bold red on a file and checks the date on one of the corners.																						
+26	26		301									After confirming the other documents, she takes the entire stack and stuffs them into a sealed waterproof pouch.																						
+27	27		201							1	500168																							
+28	28		301							1	Vera	Data secured.	1																					
+29	29		301								Vera	No. 21, what are you doing?	1																					
+30	30		202							1					1																			
+31	31		301								No. 21	...There's a bug.																						
+32	32		301									No. 21 is huddled over a dead spider lying on its back, trying to sniff it.																						
+33	33		201							1	500168																							
+34	34		301							1	Vera	First off, that's not a bug. And if you like it so much, there's a billion others in our basement back at HQ. You can spend the night there if you want...	1																					
+35	35		202							1					1																			
+36	36		301								No. 21	Really? Okay.																						
+37	37		201							1	500168																							
+38	38		301							1	Vera	...Anyway, mission complete. Let's get out of here.	1																					
+39	39		201							1	500328																							
+40	40		301							1	No. 21	Roger.	1																					
+41	41		202							1					1																			
+42	42		401						100	2	1501																							
+43	43		401							2	1503																							
+44	44		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab	2																							
+45	45		301									No. 21 stands up. The two walk toward the exit, but right as the pouch containing the documents crosses the threshold, an ear-piercing alarm begins to buzz. Suddenly, the floor beneath them begins to rumble faintly.																						
+46	46		401							1	54																							
+47	47		201							1	500168		-450																					
+48	48		201							2	500328		450																					
+49	49		301			RImgBg1Shake				1	No. 21	?!	2																					
+50	50		301									Vera lifts up the pouch and looks up to see a faint optical scanner at the exit.																						
+51	51		301								Vera	...Damn it! It's a trap!	1																					
+52	52		301								No. 21	What should we do?	2																					
+53	53		301								Vera	Run as fast you can! We need to get the hell outta here—!	1																					
+54	54		301		1		AniZhuanchangBegin				Vera	The room's caving in!	1																					

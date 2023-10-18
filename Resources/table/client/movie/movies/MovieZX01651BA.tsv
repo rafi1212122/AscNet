@@ -1,0 +1,80 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory280.png																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						Once again using the mountaineering wire from the Support Force, you successfully capture the Hetero-Creature.																						
+4	4		201							1	500026		-400																					
+5	5		201							2	500165		400																					
+6	6		301							1	Lamia	I'm still tied, so...	2																					
+7	7		301									Lee loosens the steel wire around Lamia's arms while pointing his gun at her head.																						
+8	8		301								Lee	No tricks.	1																					
+9	9		301								Lamia	Alright, alright already...	2																					
+10	10		202							1	2				1																			
+11	11		301									Annoyed, Lamia wriggles her way toward the twitching creature, jabbing one of her sharp fingers into its head.																						
+12	12		301									You hear the sound of a cyst bursting, followed by the sound of swirling slime before Lamia pulls an oddly-shaped device from the creature's brain.																						
+13	13		201							1	500165	1																						
+14	14		301							1	Lamia	...What's with the face? This stuff is like the Red Tide. I'm just plucking out the part that records information.	1																					
+15	15		301									And then she tosses it to Lee.																						
+16	16		301								Lamia	Now, you just have to project that information like what you've been doing on your way here.	1																					
+17	17		302							9520	Will it work?	20	Lee, activate the spatial recreation.	21																				
+18	18		201							1	500026																							
+19	19		303							9520																								
+20	20	22	301							1	Lee	Accessing this... thing, theoretically speaking, is the same as accessing a digital mind.	1																					
+21	21		301							1	Lee	...I understand.	1																					
+22	22		202							1					1																			
+23	23		301									Analyzing target data [>>>>>>>>] Complete.																						
+24	24		301									Generating image from data [>>>>>>>>>>>>>>>>>>>] Complete.																						
+25	25		301				DialogDisable					Projection begins.																						
+26	26		501						1500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+27	27		101							Assets/Product/Texture/Image/BgStory/Bgstory279.png																								
+28	28		401							1	202																							
+29	29		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+30	30		201							1	500238																							
+31	31		301			DialogEnable				1	Luna	This... is what you've created?	1																					
+32	32		202							1					1																			
+33	33		301									A monster the size of a titan stands before her, its body radiating unnerving red lights like the Hetero-Creatures.																						
+34	34		201							1	500101																							
+35	35		301							1	Gabriel	It is the Punishing Virus manifested, the nightmare of humankind—I have brought its ultimate form to fruition. "Polyphage", I call it.	1																					
+36	36		301								Gabriel	It can devour everything before it and transform them into its own body. It will take over every land it crosses by releasing the Red Tide.	1																					
+37	37		301								Gabriel	And we, the Ascendants, will rule this land.	1																					
+38	38		301								Gabriel	Its existence will be our mightiest weapon in claiming Earth...	1																					
+39	39		202							1					1																			
+40	40		301									Luna closes her eyes and extends a hand toward the Polyphage, then quickly shakes her head.																						
+41	41		201							1	500238	5																						
+42	42		301							1	Luna	And yet... it's just an empty vessel right now, albeit a little bit bigger.	1																					
+43	43		203							1	0.25	-500																						
+44	44		201							2	500101		500																					
+45	45		301							1	Gabriel	That is true. It still requires one crucial component—a part called "Ascendant".	2																					
+46	46		301								Luna	If you're trying to waste my time with a joke...	1																					
+47	47		301								Gabriel	Miss Luna, you have no idea what the Polyphage is actually capable of...	2																					
+48	48		202							1	2				1																			
+49	49		301									Gabriel's eyes are veiled in madness as he explains his plan to Luna.																						
+50	50		301									Luna listens quietly at first until she hears Alpha's name in Gabriel's plan. Her pupils constrict as she raises her hand, and blades formed of the Punishing Virus shoot toward Gabriel.																						
+51	51		201							1	500238	5	-500																					
+52	52		201							2	500101		500																					
+53	53		301								Luna	What did you just say?!	1																					
+54	54		301									Witnessing Luna's reactions, Gabriel looks even madder. He looks up and stares at Luna, not even bothering to dodge the hovering spikes in front of him.																						
+55	55		301								Gabriel	All Ascendants are obligated to sacrifice for the Ascension-Network. I hope Miss Luna is able to let go of her attachment for the grander scheme of things.	2																					
+56	56		301								Luna	This empty vessel is no answer to anything. I will not sacrifice anything for this fruitless attempt.	1																					
+57	57		301								Luna	As an agent of the Ascension-Network, even I'm not going to offer my sister to achieve our goals.	1																					
+58	58		301								Gabriel	This is the only way... Your sister is nothing compared to what we want to accomplish.	2																					
+59	59		301								Luna	If you try to hurt her—	1																					
+60	60		203			PanelActor2Shake				2	0.5	500	-150																					
+61	61		301									Gabriel is forced to kneel under unsurmountable pressure from Luna's wordless gaze.																						
+62	62		301								Luna	The point of Ascension-Network is selection.	1																					
+63	63		301								Luna	Once we finish filtering this world, it'll become our paradise... With no hindrance from the past, this planet will be eternal.	1																					
+64	64		301									Luna signals Gabriel to stand with her eyes, but he remains kneeling on one knee.																						
+65	65		301								Gabriel	The bodies of Ascendants are merely tools for our goal. Miss Luna, as our superior, you should not be... preoccupied with these sentiments.	2																					
+66	66		301								Luna	Preoccupied... Are you suggesting these creatures born from the Punishing Virus are capable of replacing us?	1																					
+67	67		301									Luna speaks slowly, but even her smile carries alarming weight.																						
+68	68		301								Luna	Even... replacing an agent like me?	1																					
+69	69		203			PanelActor2Shake				2	0.5	500																						
+70	70		301									Gabriel does not budge. He struggles but stands tall against the force from Luna, showing an unusual sense of rapture in his eyes.																						
+71	71		301				AniZhuanchangBegin				Gabriel	Maybe Miss Luna should not come to a conclusion so soon...	2																					
+72	72		202							1	2				1																			
+73	73		101							Assets/Product/Texture/Image/BgCg/Cg1601_1.jpg																								
+74	74		301			AniZhuanchangEnd						Looking at the Polyphage's head, Luna finds an ashen figure slowly descending. She can sense the unique and potent power signature coming from it without Gabriel explaining.																						
+75	75		301								Gabriel	This is the result of the evolution of the creatures born from the Red Tide. As the terminal of the Polyphage, controlling it means controlling the Polyphage—a power no less impressive than an agent's.																						
+76	76		301									The ashen Hetero-Creature lands before Luna, mimicking Gabriel's actions and bowing its head.																						
+77	77		301									Luna cannot tell if it is acting out of compliance, or... threat, or neither, simply imitating what has been demonstrated.																						
+78	78		301								Luna	I see. That explains your confidence. Then, allow me to test the so-called mightiest Hetero-Creature.																						
+79	79		301		1		AniZhuanchangBegin				Gabriel	Of course. Once Miss Luna has experienced its might, you will understand that it is more than meets the eye.																						

@@ -1,0 +1,965 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory539.jpg																								
+2	2		401							1	208																							
+3	3		301			DialogEnable						Holding on to a dandelion, you and Liv made it across the bubbling swamp...																						
+4	4		502							RImgBg1DisableSlow																								
+5	5		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/BgStory555.jpg																								
+6	6		301									Making it through the grass maze was almost too easy with Liv's scanning radar...																						
+7	7		502							RImgBg1DisableSlow																								
+8	8		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/BgStory557.jpg																								
+9	9		301									Crossing the rushing river was a breeze, too, with a river crab carrying you on its back...																						
+10	10		502							RImgBg1DisableSlow																								
+11	11		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/BgStory539.jpg																								
+12	12		301									You and Liv came the entire way without breaking so much as a sweat...																						
+13	13		302								These are true eye-openers, Liv...	14																						
+14	14		301									The views around you seem to grow wilder still...																						
+15	15		301									The further into the forest you and Liv travel.																						
+16	16		201							1	500524	6																						
+17	17		301							1	Liv	P-please just stop...	1														100000516							
+18	18		301									With the views unfurling around both of you, Liv appears more embarrassed than nostalgic.																						
+19	19		301									She covers her now blushing face—yet her equally red ears give her away.																						
+20	20		202							1					1																			
+21	21		301									When you and Liv reach an empty ground in the forest, you see a line of sheep lying on their side.																						
+22	22		301									So furry that their bodies take the shape of a ball, they are, to your surprise, amazingly agile.																						
+23	23		301									Right in the middle of the sheep is a saddle—and right when one of the sheep hops over the saddle...																						
+24	24		401						680	2	100000680																							
+25	25		402							100000680																								
+26	26		301								Sheep	Baa!																						
+27	27		301									Then comes the next sheep...																						
+28	28		401						2000	2	100000680																							
+29	29		402							100000680																								
+30	30		301								Sheep	Baa! Baa!																						
+31	31		301									Then comes a third one...																						
+32	32		401							2	100000680																							
+33	33		301								Sheep	Baa! Baa! Baa!																						
+34	34		301									Eventually, all the baas turn into a light, rhythmic lullaby.																						
+35	35		302								I see you counted sheep in bed as a kid, huh?	36																						
+36	36		201							1	500524	10																						
+37	37		301							1	Liv	Y-yes, I did...	1														100000517							
+38	38		301									Liv slowly regains her composure as she looks nostalgically at the sheep.																						
+39	39		204							1	2																							
+40	40		301								Liv	I'd count them one at a time when I couldn't fall asleep.	1														100000518							
+41	41		301									Liv says with a smile as she recalls her childhood.																						
+42	42		204							1	8																							
+43	43		301								Liv	And sometimes I'd end up having even more trouble sleeping because I was so focused on counting them.	1														100000519							
+44	44		204							1	2																							
+45	45		301								Liv	Have you ever experienced it?	1														100000520							
+46	46		302								Never.	47	Yes.	49																				
+47	47		301									As a kid, you never had to do anything to have a good night's sleep because you always slept quite well.																						
+48	48	51	301									But as an adult, you now spend more time trying to not fall asleep than coming up with ways to help yourself sleep.																						
+49	49		301									You actually did have to count to help yourself fall asleep as a kid, what with all the pent-up energy in you.																						
+50	50		301									But as an adult, you now spend more time trying to not fall asleep than coming up with ways to help yourself sleep.																						
+51	51		302								Why sheep, though?	52																						
+52	52		301									Everyone counts goats, no?																						
+53	53		204							1	5																							
+54	54		301								Liv	Because sheep are cute.	1														100000521							
+55	55		204						200	1	8																							
+56	56		204							1	6																							
+57	57		301								Liv	I... actually am a big fan of sheep, and we even had sheep back home when I was a kid.	1														100000522							
+58	58		301									You turn your gaze at the line of sheep—which stretches as far out as it possibly can along the horizon all the way from the west to the east.																						
+59	59		302								(A real big fan... with a burning passion, too.)	60																						
+60	60		301									You decide to keep these words to yourself so Liv wouldn't overheat from blushing.																						
+61	61		202							1					1																			
+62	62		301									You try to herd the sheep somewhere else—yet judging from the fact that none of them even bats an eye, you know your efforts are proving futile.																						
+63	63		301									Unfortunately, it doesn't seem like you can move forward until you've figured out a different path.																						
+64	64		302								And just look at this...	65																						
+65	65		301									Looking up, you see that the skies have gone from their previous white and blue to their current tangerine—a telltale sign that nightfall is fast approaching.																						
+66	66		201							1	500524	2																						
+67	67		301							1	Liv	Should we find a place to rest for the day, Commandant?	1														100000523							
+68	68		301									While everything happening so far has taken place within the projection of a M.I.N.D. shard, you feel every bit as worn out as though you've been going through the day in the real world.																						
+69	69		301				DialogDisable					There is, in fact, another reason to your making this decision.																						
+70	70		302								Well, it's not just because the sun is setting, though. See...	71																						
+71	71		302				AniZhuanchangBegin				I'm sure you heard a lot of spooky stories as a kid, right?	72																						
+72	72		101							Assets/Product/Texture/Image/BgStory/Bgstory536.jpg																								
+73	73		401							1	36																							
+74	74		202						3000	1					1																			
+75	75		401							1	51																							
+76	76		201							1	500525																							
+77	77		502							DialogEnable																								
+78	78		301			AniZhuanchangEnd				1		It listens, it chases, and it preys...																						
+79	79		301									It's the most feared predator in the dark forest, ready to prey on all souls alive.																						
+80	80		301									Listen—as its drool burns through the ground, having fallen from a mouth so big that it takes up over half of the monster's body.																						
+81	81		301									Look—it will never let you go once it has its murderous eyes upon you.																						
+82	82		301									So run. Run as far as you can...																						
+83	83		301									Until you've reached a place that can shelter you...																						
+84	84		401							1	208																							
+85	85		202							1					1																			
+86	86		201							1	500177																							
+87	87		301							1	???	I'm going to eat every last kid that refuses to sleep. Owooooo...!	1														100000675							
+88	88		302								(I thought it'd be something scarier.)	89	(Holy, that's creepy with a capital C!)	89																				
+89	89		301									To your surprise, however, the "predator" isn't some terrifying monster—rather, it's an adorable plushie.																						
+90	90		301								???	I'm not scary at all, but I still eat kids who refuse to go to sleep. Owoooo...!	1														100000676							
+91	91		202							1																								
+92	92		301									Seeing the shark plushie leaving, you and Liv poke your heads out of the bushes.																						
+93	93		302								Was that something that scared you when you were a kid?	94																						
+94	94		201							1	500524	5																						
+95	95		301							1	Liv	Wait, did that happen to you, too?	1														100000524							
+96	96		302								Well, sort of.	97	I've heard stories like that.	97																				
+97	97		204							1																								
+98	98		301									Monsters that claim to eat you up if you don't go to sleep on time, huh...																						
+99	99		301									Seems like it's an all-time classic.																						
+100	100		301									The only difference is that a scary monster is what you usually get in these stories rather than an adorable plushie.																						
+101	101		301									You approached it because it seemed harmless enough—except it put on a hostile front the moment it sensed your presence.																						
+102	102		302								It wasn't scary at all, though.	103																						
+103	103		301								Liv	Are you talking about the plushie just now?	1														100000525							
+104	104		301									Nodding your head, you start telling Liv about all the tricks the grown-ups used to fool you around with from when you were a kid.																						
+105	105		302								(Green octopus with a menacing face)	106	(Ball of fire that burns on and on)	106	(Muddy monster with eyes all over it)	106																		
+106	106		301								Liv	Did you ever feel scared?	1														100000526							
+107	107		302								I'd hide away under a blanket.	108	I always felt okay when I turned on the light.	108	They ain't got nothing on me.	108																		
+108	108		202							1					1																			
+109	109		401							1	36																							
+110	110		301									Right then, you hear a voice coming from behind you—a voice that you know.																						
+111	111		301								???	There you are! Kids who refuse to go to sleep!															100000677							
+112	112		302								Run!	113																						
+113	113		401							1	203																							
+114	114		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab	1																							
+115	115		301									There is no point in turning around—because you know exactly where it is from its footsteps and shouts.																						
+116	116		201							1	500524	3																						
+117	117		301							1	Liv	I think we should split up, Commandant...	1														100000527							
+118	118		301									Running away from the shark plushie, Liv once again makes the same suggestion.																						
+119	119		302								No.	120																						
+120	120		301									And once again, you turn down her suggestion.																						
+121	121		204							1	19																							
+122	122		301								Liv	But I'm only dragging you down the way I am now.	1														100000528							
+123	123		301									And you know exactly what Liv is talking about—her wings, with the fluorescence, make it almost too easy for the plushie to spot them in the dark.																						
+124	124		302								We can't just keep running, though...	125																						
+125	125		301									Right then, something lands on your shoulder with a squeak.																						
+126	126		302								The chipmunk from before?	127																						
+127	127		301									About to flick it off, you stop just in time. With the fluorescence coming off Liv's wings, you take a good look at the chipmunk.																						
+128	128		301									And that's when you see yet another chipmunk on Liv's shoulder.																						
+129	129		204							1	7																							
+130	130		301								Liv	Hurry up and hide yourselves... Where are you trying to take us?	1														100000529							
+131	131		301									One of the chipmunks points its claw in a certain direction.																						
+132	132		202							1																								
+133	133		502							RImgBg1BlowUp																								
+134	134		401							2	1513																							
+135	135		301				AniZhuanchangBegin		800			Nodding at each other, you and Liv run in the direction the chipmunk just pointed.																						
+136	136		401							1	36																							
+137	137		101						1000	Assets/Product/Texture/Image/BgStory/Bgstory300.png																								
+138	138		505							RImgBg1BlowUp																								
+139	139		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab																							
+140	140		401							2	2623																							
+141	141		301			AniZhuanchangEnd					???	Gone... They're gone... Owoooo...!															100000678							
+142	142		301									Passing you by, the cry of the shark plushie disappears into the distance.																						
+143	143		401							1	208																							
+144	144		302								This place seems safe.	145																						
+145	145		201							1	500524																							
+146	146		301							1		When you open the "door" of the shelter, Liv pokes her head out from the other side. You are now hiding with Liv inside two gigantic pea pods.																						
+147	147		301								Liv	How did the chipmunks find us, though?	1														100000530							
+148	148		302								I... think they probably found us with the fluorescence coming off your wings.	149																						
+149	149		301									You point at the chipmunks, which are now chasing fireflies.																						
+150	150		301									The fluorescence might be what's catching all the monsters' eyes in the dark, but it also stands as an inviting beacon to friends.																						
+151	151		301								Liv	What would you have done, though, if they had never shown up?	1														100000531							
+152	152		302								I would have come up with something before we tired ourselves out.	153	I've got plan B.	153	I would have fought back.	153																		
+153	153		204							1	9																							
+154	154		301								Liv	...	1														100000532							
+155	155		301									Without saying anything, Liv changes the subject somewhat awkwardly.																						
+156	156		301								Liv	This place seems perfect for rest.	1														100000533							
+157	157		302								Yup. You should get some rest, too, Liv.	158																						
+158	158		204							1																								
+159	159		301								Liv	Oh, I think I'll just...	1														100000534							
+160	160		302								Correct me if I'm wrong, but...	161																						
+161	161		302								You're supposed to rest on time as part of the rehabilitation process for your M.I.N.D., right?	162																						
+162	162		301									You cut Liv off before she finishes speaking.																						
+163	163		301								Liv	I can't just rest whenever I want to inside my M.I.N.D...	1														100000535							
+164	164		301									The opening on the pea pod that Liv is in faces that of yours. Lying down, she meets you in the eye.																						
+165	165		204							1	2																							
+166	166		301								Liv	But I'll still try to get some sleep, Commandant.	1														100000536							
+167	167		301									The moonlight is cold and anything but bright, but it shows you perfectly in Liv's eyes.																						
+168	168		302								...	169																						
+169	169		302								(Refuse to look away)	170	(Close eyes)	195																				
+170	170		301									You don't want to look away—because you know that the moment you do, you lose this "game."																						
+171	171		301									Besides, you and Liv are already used to being around each other, having been through all that you've been through together over the years.																						
+172	172		301								Liv	Having a hard time falling asleep, Commandant?	1														100000537							
+173	173		302								Never had an easy time falling asleep away from home.	174																						
+174	174		301								Liv	But you fell asleep in the crater in that mission we went on together.	1														100000538							
+175	175		302								Oh, I remember that mission...	176																						
+176	176		202							1					1																			
+177	177		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+178	178		504							0.7																								
+179	179		101							Assets/Product/Texture/Image/BgStory/Bgstory60.jpg																								
+180	180		301									You actually don't usually get to sleep in your own bed because of all sorts of accidents.																						
+181	181		301									Ruins that can only block off the wind, tight craters, and abandoned cars—these are the kind of places you usually find yourself sleeping at.																						
+182	182		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+183	183		504							0																								
+184	184		101							Assets/Product/Texture/Image/BgStory/Bgstory300.png																								
+185	185		201							1	500524					1																		
+186	186		301				DialogDisable			1		The pea pod you're in proves to be a lot more comfortable, except...																						
+187	187		302								It's got nothing to do with this place.	188																						
+188	188		302								And you? Still trying to get used to this place?	189																						
+189	189		301			DialogEnable					Liv	I haven't recalled a thing, but I find this place familiar and am very used to it.	1														100000539							
+190	190		302								That's fine. I'm sure you'll remember everything...	191																						
+191	191		302								When we find the M.I.N.D. shard.	192																						
+192	192		204							1	2																							
+193	193		301								Liv	Yup... So, what was your childhood like, Commandant?	1														100000540							
+194	194	210	301									Following the course of the subject, Liv asks you curiously.																						
+195	195		301				DialogDisable					Her eyes are as gentle as they've always been—yet at this very moment, you can feel a certain feeling bubbling up from deep within you.																						
+196	196		302								Ahem, look, Liv...	197																						
+197	197		302								You need to close your eyes before you can fall asleep.	198																						
+198	198		204						100	1																								
+199	199		204							1	8																							
+200	200		301			DialogEnable					Liv	Alright, then.	1														100000541							
+201	201		301									Apparently picking up on your uneasiness, Liv closes her eyes like a good kid. With her stare gone, all that's left around you is the quiet air.																						
+202	202		301									Then, a few moments later, Liv asks you quietly.																						
+203	203		204						100	1	8																							
+204	204		204							1																								
+205	205		301								Liv	Having a hard time falling asleep, Commandant?	1														100000542							
+206	206		302								I have never for the life of me dreamed of sleeping in the forest of a fairytale.	207																						
+207	207		204							1	2																							
+208	208		301								Liv	The forest of a fairytale, huh... So, what was your childhood like, Commandant?	1														100000543							
+209	209		301									Liv's curious voice lingers by your ears.																						
+210	210		302								(Tell her everything about your childhood)	211	(Tell her about part of your child)	212	(Make something up)	213																		
+211	211	214	301									You don't remember ever telling anyone about your childhood since you rarely ever even talk about your life before coming to Gray Raven. You decide to take advantage of this chance to have a good chat with Liv.																						
+212	212	214	301									You can't be 100% sure whether all the things you believe are part of your childhood are really part of your childhood, so you decide to go with what you're more certain of.																						
+213	213		301									You wouldn't really classify yourself as a well-behaved child... Wanting to maintain your image, you decide to make something up.																						
+214	214		301									Liv listens quietly for the most part, but she would still raise questions every now and then—which, to your surprise, actually helps you recall a big chunk of your long-forgotten memory.																						
+215	215		301									And with it, the conversation went from a monologue to a dialogue, with no end in sight.																						
+216	216		401							1	36																							
+217	217		301									Your surroundings fall quieter still as time passes. The cries of the insects—loud and clear until just moments ago—have all died down, too. The two of you grow sleepy as you carry on chitchatting in the dark.																						
+218	218		301									Time goes by a mile a second as you laugh and chat away—and you know you both are feeling the right amount of sleepiness to sleep now.																						
+219	219		204						100	1	2																							
+220	220		204							1	8																							
+221	221		301								Liv	I'd love to learn more about you, Commandant... but I guess it's time for bed.	1														100000544							
+222	222		301									Liv's voice grows distant as you grow drowsy.																						
+223	223		302								Tell me about yourself next time, Liv.	224																						
+224	224		301									The words coming out of your mouth are garbled up.																						
+225	225		204						100	1	8																							
+226	226		204							1	10																							
+227	227		301								Liv	Me...? I barely remember anything, though, and the things I do still remember... probably aren't too interesting at all.	1														100000545							
+228	228		302								Well, everything we've seen so far in here...	229																						
+229	229		301									You need no further proof—because the place you're about to fall asleep at is none other than Liv's childhood itself.																						
+230	230		302								Seems to say otherwise...	231																						
+231	231		202							1																								
+232	232		205							999	Assets/Product/Texture/Image/BgStory/BgStory0.png	0	1	5																				
+233	233		301									"I'll make sure to find it for you. Tell me more about yourself when I've found it."																						
+234	234		301				AniZhuanchangBegin					You don't remember if you actually said these words before falling asleep.																						
+235	235		402							2623																								
+236	236		205							999		1	1	0																				
+237	237		101							Assets/Product/Texture/Image/BgStory/BgStory539.jpg																								
+238	238		401							1	210																							
+239	239		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryMovieFilm.prefab	2																							
+240	240		301			AniZhuanchangEnd						What happened during the day seems to be spicing up your dream.																						
+241	241		502							RImgBg1DisableSlow																								
+242	242		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/Bgstory531.jpg																								
+243	243		301									Following a group of migrating sheep, you arrive at a spire—that for which you set out on the journey in the first place.																						
+244	244		301									Looking up and seeing the tip of the spire thoroughly drenched in scarlet, you feel drawn to it.																						
+245	245		301									You take a step forward and over the mud on the grass.																						
+246	246		401							1	160																							
+247	247		401							2	613																							
+248	248		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+249	249		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+250	250		402							613																								
+251	251		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab	2																							
+252	252		301									Then, with a sharp pain across your forehead, the world as you see it turns blood-red.																						
+253	253		201							1	500013		-800			1	1																	
+254	254		201							2	500013		-400	-200		1	1																	
+255	255		201							4	500013		800			1																		
+256	256		201							5	500013		400	-200		1																		
+257	257		401							2	1508																							
+258	258		201							3	500386					1																		
+259	259		205							3		0	1	3																				
+260	260		205						3000	999	Assets/Product/Texture/Image/BgStory/Bgstory523.jpg	0	1	3																				
+261	261		401							2	613																							
+262	262		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab																							
+263	263		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+264	264		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+265	265		402							613																								
+266	266		301							1		The wool on the sheep tears away to reveal the Corrupted underneath, while the spire collapses into a crimson figure.	1	2	3	4	5																	
+267	267		301							1		This is your memory from the last rescue mission.	1	2	3	4	5																	
+268	268		104							0|0|-100	2																							
+269	269		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab	2																							
+270	270		203							3	0.25			-200																				
+271	271		401							2	10113601																							
+272	272		202						250	3																								
+273	273		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+274	274		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab																							
+275	275		502							RImgBg1Shake																								
+276	276		301							1		You tried to make your way up through the sea of the Corrupted, but the crimson figure slashed right through you.	1	2	4	5																		
+277	277		202							1	2	4	5		1																			
+278	278		401							2	613																							
+279	279		104							0|-200|-300	0																							
+280	280		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+281	281		205							999		1	1	0																				
+282	282		101							Assets/Product/Texture/Image/BgCg/Cgqz2804.jpg																								
+283	283		104							0|0|-300	10																							
+284	284		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+285	285		402							613																								
+286	286		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+287	287		301									Before chaos tore you apart, the only thing you saw in the world that blurred away was a little white bird.																						
+288	288		401							2	613																							
+289	289		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+290	290		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+291	291		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+292	292		402							613																								
+293	293		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+294	294		301									Reliving the memory, you notice something different.																						
+295	295		301									You feel like you're missing something—something that lies just right beyond where your eyes and the light can reach...																						
+296	296		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+297	297		104							0|0|0	0																							
+298	298		205							999		1	1	0																				
+299	299		101							Assets/Product/Texture/Image/BgStory/Bgstory523.jpg																								
+300	300		301									When did the blood-soaked longsword leave your body?																						
+301	301		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+302	302		201						1000	3	500386																							
+303	303		202							3																								
+304	304		301									Where did the crimson figure go?																						
+305	305		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+306	306		101							Assets/Product/Texture/Image/BgCg/Cgqz2803.jpg																								
+307	307		301									Is there something behind you, behind the white bird?																						
+308	308		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+309	309		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+310	310		301									Turning around, there is nothing but pitch darkness...																						
+311	311		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+312	312		201							1	500547			-10	30	1																		
+313	313		205							1		0.8	0.8	0																				
+314	314		301							1		...	1																					
+315	315		202							1					1																			
+316	316		502							DialogDisable																								
+317	317		202							1					1																			
+318	318		501				AniZhuanchangBegin		2000	Assets/Product/Effect/Prefab/FxTongyong/FxUiGuanbixiaoshi.prefab	2		1																					
+319	319		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryMovieFilm.prefab																							
+320	320		401							1	36																							
+321	321		502							DialogEnable																								
+322	322		301			AniZhuanchangEnd						All the years of waking up naturally with your biological clock have made an alarm clock a dispensable item to you.																						
+323	323		401							2	1543																							
+324	324		301									As you sit up and rub your temple, the blanket takes the course of gravity and falls off.																						
+325	325		301									Wait, a blanket?																						
+326	326		101							Assets/Product/Texture/Image/BgStory/Bgstory514.jpg																								
+327	327		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	3																							
+328	328		301			AniZhuanchangEnd						When you open up your eyes, it hits you that, instead of a pea pod, you're now in a cozy room.																						
+329	329		401							1	50																							
+330	330		302								Liv?	331																						
+331	331		301									The room is minimally decorated, and Liv is nowhere to be seen.																						
+332	332		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab	2																							
+333	333		104							0|0|-100	0.8																							
+334	334		205							999	Assets/Product/Texture/Image/BgStory/Bgstory384.png	0	1	1																				
+335	335		401						800	2	754																							
+336	336		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab																							
+337	337		301									Taking not even a single moment to survey the room or think about how you got here in the first place, you open the door and start looking for Liv...																						
+338	338		201							1	500543																							
+339	339		301							1	???	Hey... Good morning. Did you have some quality rest?	1														100000681							
+340	340		301									A woman you've never seen before stands in the hallway with a wooden tray. Initially caught by surprise, she quickly regains her gentle smile.																						
+341	341		301									Your hunch is that she doesn't intend to hurt you—and hunches are often the most reliable in M.I.N.D.																						
+342	342		302								Hi. What's your name?	343																						
+343	343		301								???	Call me Cinderella.	1														100000682							
+344	344		302								I was with a friend just now...	345																						
+345	345		302								Does she happen to be here, too?	346																						
+346	346		301								Cinderella	The young lady, right? She's in the room right across.	1														100000683							
+347	347		401							2	2626																							
+348	348		301									Cinderella knocks on the door but receives no response.																						
+349	349		302								Liv, are you in there?	350																						
+350	350		401							2	2626																							
+351	351		301									Cinderella knocks on the door harder still but still gets no response.																						
+352	352		301				DialogDisable				Cinderella	Is she the type that struggles to wake up?	1														100000684							
+353	353		302								(Shake head)	354																						
+354	354		202							1					1																			
+355	355		401							2	754																							
+356	356		205							999		0	0	0																				
+357	357		101						800	Assets/Product/Texture/Image/BgStory/Bgstory384.png																								
+358	358		205							999	Assets/Product/Texture/Image/BgStory/Bgstory514.jpg	0	1	1																				
+359	359		301			DialogEnable						Seeing you shake your head, Cinderella hesitates for a moment before she opens the door.																						
+360	360		301									The set-up of the room is basically the same as the one you woke up in. Liv lies in the bed with her back facing you, apparently still asleep.																						
+361	361		301								Liv	Uhm...															127091							
+362	362		301									You can't see her face, but you can just tell from the groan that she's in pain.																						
+363	363		302								Liv!	364																						
+364	364		301									You're no stranger to what's happening—this is a symptom of Liv's migraine. Out of habit, you want to take out your connecting cable for Deep M.I.N.D. connection, but it hits you that you already are in Liv's M.I.N.D.																						
+365	365		301									Setting her tray on the table, Cinderella dashes up to Liv's bed.																						
+366	366		301									She holds Liv's face with her hands as she presses her head against Liv's, all the while mumbling something unintelligible.																						
+367	367		401							1	36																							
+368	368		401						1000	2	2632																							
+369	369		402							2632																								
+370	370		301									And with it, as a faint fluorescence envelopes them, Liv's face softens.																						
+371	371		301									A few moments later, Cinderella puts Liv's head back on the pillow ever so gently.																						
+372	372		401							1	208																							
+373	373		201							1	500543	14		-80																				
+374	374		301							1	Cinderella	She's fine now.	1														100000685							
+375	375		203							1	0.25																							
+376	376		301									Cinderella stands up, looking slightly out of it.																						
+377	377		302								Are you okay?	378																						
+378	378		204							1																								
+379	379		301								Cinderella	I'm fine. I was just a bit out of it.	1														100000686							
+380	380		301									Cinderella quickly regains her composure. Then, you see Liv slowly sit up.																						
+381	381		202							1					1																			
+382	382		201							1	500524	3	-400																					
+383	383		201							2	500543		400																					
+384	384		301							1	Liv	Commandant... Who's this?	1														100000546							
+385	385		204							1	14																							
+386	386		301								Cinderella	Feel free to call me Cinderella, Liv.	2														100000687							
+387	387		301									Cinderella is now looking at you and Liv with her gentle eyes—eyes that now seem even more loving than they did before.																						
+388	388		301									You quickly fill Liv in on what happened just now.																						
+389	389		204							1	10																							
+390	390		301								Liv	Thank you so much, Ms. Cinderella.	1														100000547							
+391	391		204							2	2																							
+392	392		301								Cinderella	Don't mention it, and feel free to just call me Cinderella.	2														100000688							
+393	393		204						100	1	8																							
+394	394		204							1	5																							
+395	395		301								Liv	O-of course.	1														100000548							
+396	396		202							1	2				1																			
+397	397		201							1	500543	2																						
+398	398		301							1		With a gentle, accepting smile, Cinderella turns this way.																						
+399	399		301								Cinderella	You're both now safe, and I bet you must be hungry. How about a bowl of bean soup?	1														100000689							
+400	400		301									Pointing at the tray sitting on the table, she seems to be waiting for a favorable response.																						
+401	401		301									The steaming creamy green soup has diced onions, carrots, and round peas floating on its surface.																						
+402	402		301									The fresh veggies and the aroma of butter make for a temptation impossible to resist.																						
+403	403		302								Yes, of course!	404	No, I'm actually not...	409																				
+404	404		301									Given that she just helped stabilize Liv, you don't think there is anything to worry about the food she's prepared.																						
+405	405		301									And from her eyes, you're sensing a very special quality...																						
+406	406		301									That you'd probably describe as "motherliness."																						
+407	407	418	301									Which is why you don't think it's a good idea to turn her down.																						
+408	408		204							1																								
+409	409		301								Cinderella	Right, you probably still have trouble eating on your own, right?	1														100000690							
+410	410		204							1	2																							
+411	411		301								Cinderella	Let me feed you, then.	1														100000691							
+412	412		203							1	0.25			-80																				
+413	413		301									And with it, she approaches you with the bowl and spoon. She's still gentle and all, but it doesn't seem like she's going to take no for an answer.																						
+414	414		301									To sum up what's going on, she just wants you fed because she thinks you need to be.																						
+415	415		302								...I think I can do it myself.	416																						
+416	416		201							1	500524	10																						
+417	417		301							1	Liv	S-same here...	1														100000549							
+418	418		202							1					1																			
+419	419		301									Each with a wooden spoon, you and Liv scoop up the soup and move it up to your mouths. With its aroma filling the air now, you can now smell the diced onions and black pepper in it.																						
+420	420		301									Shoving the spoon into your mouth, you're instantly hit with a creamy explosion that takes place across your taste buds.																						
+421	421		301									The freshness of the veggies is the first to hit, followed by the rich and fresh taste of butter that helps the onions stand out.																						
+422	422		301									The hot soup makes its way down your food pipe with the black pepper in it, warming up your body through and through.																						
+423	423		301									Much to your surprise, the soup comes with a minty taste, too.																						
+424	424		201							1	500543	2																						
+425	425		301							1	Cinderella	Pretty good, right?	1														100000692							
+426	426		301									Propping her face with both her hands, Cinderella looks awash in happiness.																						
+427	427		202							1					1																			
+428	428		301									When you've finished the soup, it finally hits you that you're starving from consuming nothing at all for the entire day. Having been warmed up, your tummy is now protesting for more.																						
+429	429		302								I... think I can actually use more of...	430																						
+430	430		201							1	500524	8																						
+431	431		301							1	Liv	Whew...	1														100000550							
+432	432		301									The satisfied sigh coming from beside you cuts you short.																						
+433	433		302								...	434																						
+434	434		204							1	6																							
+435	435		301								Liv	...	1														100000551							
+436	436		301									You look away. It seems as though Liv has the same thought as you.																						
+437	437		302								May I have some more?	438	Could you give us each one more serving?	444																				
+438	438		201							1	500543	2																						
+439	439		301							1	Cinderella	Of course. You can have as many as you please.	1														100000693							
+440	440		301									Cinderella refill both your bowls with the bean soup.																						
+441	441		301								Cinderella	I know you didn't ask for it, but you were about to, right?	1														100000694							
+442	442		201							1	500524	6																						
+443	443	447	301							1	Liv	T-thank you.	1														100000552							
+444	444		201							1	500543	2																						
+445	445		301							1	Cinderella	Of course. You can have as many as you please.	1														100000695							
+446	446		301									Cinderella refill both your bowls with the bean soup.																						
+447	447		201							1	500543	2																						
+448	448		301							1	Cinderella	Glad to see you both enjoy the soup!	1														100000696							
+449	449		301								Cinderella	I picked these veggies early in the morning, and that's when I found both of you.	1														100000697							
+450	450		301								Cinderella	Oh, yeah!	1														100000698							
+451	451		301								Cinderella	And the soup has the pea pods you stayed in yesterday. How do you like them?	1														100000699							
+452	452		201							1	500524	5																						
+453	453		301							1		You stop dead in your tracks.																						
+454	454		201							1	500543																							
+455	455		301							1	Cinderella	Pff.	1														100000700							
+456	456		301									Seeing both you and Liv freeze, Cinderella covers her mouth, trembling from laughing as her laughter comes out through her fingers.																						
+457	457		301								Cinderella	My bad. You're both so cute and I just couldn't help but wanted to see you shocked.	1														100000701							
+458	458		301								Cinderella	Don't worry about the pea pods, though. They're safe and sound in my backyard.	1														100000702							
+459	459		301								Cinderella	Do you see the peas in the soup? They seem about the right size, right?	1														100000703							
+460	460		301									Rubbing the tears away from the corner of her eyes, Cinderella regains her composure.																						
+461	461		301								Cinderella	Apologies. It's been such a long time since I last met anyone.	1														100000704							
+462	462		301				AniZhuanchangBegin		2000		Cinderella	Welcome to Wonderland.	1														100000705							
+463	463		301			AniZhuanchangEnd				1		When you finish the fourth bowl, Cinderella, seemingly overly excited, once again stirs the apparently bottomless soup pot with her ladle.																						
+464	464		301								Cinderella	Want some more?	1														100000706							
+465	465		302								I think I'm fine.	466																						
+466	466		301								Cinderella	Uhm... Are you sure?	1														100000707							
+467	467		302								Yes, absolutely positive.	468																						
+468	468		301									Feeling fuller than ever, you say to her in your most appreciative tone.																						
+469	469		301								Cinderella	And you, Liv...	1														100000708							
+470	470		201							1	500524	9																						
+471	471		301							1	Liv	No... Thank you so much, but I think I'm okay, too.	1														100000553							
+472	472		301									Having gone through just as many bowls as you, Liv waves her hand in a panic as she expresses her appreciation apologetically.																						
+473	473		201							1	500543																							
+474	474		401							2	1546																							
+475	475		301							1		Nodding with a somewhat disappointed face, she hits the pot with her ladle—and with it, the soup inside goes poof.																						
+476	476		301								Cinderella	I'm going to start cleaning up, then.	1														100000709							
+477	477		302								Please let us.	478																						
+478	478		302								(This makes for a good chance to speak privately with Liv.)	479																						
+479	479		301								Cinderella	But you are my guests. I can't just...	1														100000710							
+480	480		201							1	500524																							
+481	481		301							1		But Liv has already put the tableware away and is picking the tray up.																						
+482	482		301								Liv	No, we insist. This is the least we can do.	1														100000554							
+483	483		201							1	500543	2																						
+484	484		301							1		Relenting with a smile on her face, Cinderella says adoringly.																						
+485	485		301								Cinderella	Alright, then. Let me get you guys some tea and snacks. There is a river in the back for you to do the dishes.	1														100000711							
+486	486		301				AniZhuanchangBegin				Cinderella	Watch out, though.	1														100000712							
+487	487		205							999		1	1	0																				
+488	488		101							Assets/Product/Texture/Image/BgStory/BgStory557.jpg																								
+489	489		202							1					1																			
+490	490		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlinkNew.prefab	3																							
+491	491		301			AniZhuanchangEnd						As you watch carefully your own steps to avoid another nasty fall...																						
+492	492		302								So, what do you think, Liv?	493																						
+493	493		201							1	500524																							
+494	494		301							1	Liv	Uhm... I have the same take as you, Commandant. She's unique, but I don't think she's the M.I.N.D. shard we're looking for.	1														100000555							
+495	495		302								But she seems to know a lot of things.	496																						
+496	496		301								Liv	And she's such a friendly soul. I think we just might be able to learn about this place from her.	1														100000556							
+497	497		302								Let's talk to her in a bit.	498																						
+498	498		204							1	10																							
+499	499		301								Liv	Oh... by the way, are you over here, Commandant?	1														100000557							
+500	500		302								Wait, I thought you were here.	501																						
+501	501		301								Liv	...	1														100000558							
+502	502		204						100	1	8																							
+503	503		204							1	9																							
+504	504		301								Liv	Guess we'll just have to wait for the bubbles to go away, then.	1														100000559							
+505	505		302								I know... and I've lost count of how many times we missed each other.	506																						
+506	506		202							1					1																			
+507	507		301									Looking at all the colorful bubbles, you feel completely lost in the kaleidoscopic views around you.																						
+508	508		301									Out in the back, you see a shallow stream that seems knee-high at best.																						
+509	509		301									The stream seems harmless enough.																						
+510	510		301									But you're never going to forget what happens when you put the tableware into it...																						
+511	511		302								Boy, was it a real sight...	512																						
+512	512		301									Instead of splashes of water, the river spits up bubbles—in an amount that shrouds you completely.																						
+513	513		301									You can't see anything and, feeling the ground slippery, you try taking a step forward...																						
+514	514		302								Oh cr...	515																						
+515	515		401							2	2533																							
+516	516		301			RImgBg1Shake						You fall into the water with a thud, sending bubbles flying up in each and every way.																						
+517	517		401							2	2533																							
+518	518		301									Liv wastes no time jumping in and starts looking for you, but neither of you can tell where the other person is with all the bubbles around.																						
+519	519		301									There are several times when you sense Liv right around you—only to realize that it's all wishful thinking when you reach your hand out.																						
+520	520		301								Liv	Commandant? Are you still there?															100000560							
+521	521		302								Yes. Let's just stay where we are for now.	522																						
+522	522		301									You say as you look at all the bubbles that are now slowly disappearing.																						
+523	523		301									Then, you hear a sigh.																						
+524	524		301								Liv	Let's just keep talking. It makes me a little nervous if we don't...															100000561							
+525	525		302								Sure. What do you want to talk about?	526																						
+526	526		301								Liv	Well... I'm curious about why you decided to go to F.O.S.															100000562							
+527	527		301								Liv	It's a common choice among people from Babylonia, but it's never the only choice.															100000563							
+528	528		302								I did it to pursue a dream.	529	I did it for Earth.	533	I didn't give it too much thought.	536																		
+529	529		301								Liv	A dream, huh... That's exactly what I had in mind when I asked to be relocated...															100000564							
+530	530		302								What did you just say?	531																						
+531	531		301									You can barely hear Liv over all the bubbles.																						
+532	532	538	301								Liv	O-oh, it's nothing!															100000565							
+533	533		301								Liv	That sounds like something President Hassen would say.															100000566							
+534	534		302								C'mon, do I really sound that lame?!	535																						
+535	535	538	301								Liv	It's a very brave choice, though.															100000567							
+536	536		301								Liv	Oh, is that so?															100000568							
+537	537		301									Liv sounds surprised.																						
+538	538		302			DialogDisable					But I'm never going to give up...	539																						
+539	539		302								Because I have a dream, and I'm going to make it come true.	540																						
+540	540		301			DialogEnable					Liv	A dream, eh...															100000569							
+541	541		302								Yup, although my instructor would always just tell me to stop daydreaming...	542																						
+542	542		301									Embarrassed, you scratch your head.																						
+543	543		301								Liv	But that's something you've always been holding on to, right?															100000570							
+544	544		302								That's only because I haven't made it come true, though.	545																						
+545	545		301								Liv	...															100000571							
+546	546		301								Liv	Wait, what exactly...															100000572							
+547	547		401							1	36																							
+548	548		401						1000	2	2608																							
+549	549		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlinkNew.prefab																							
+550	550		402							2608																								
+551	551		201							1	500524	5																						
+552	552		301							1		A few moments of silence later, Liv's voice grows hurried—and right then, a gust of wind disperses all the bubbles.																						
+553	553		201							1	500543																							
+554	554		301							1	Cinderella	My bad. I actually meant to ask you to keep an eye out for these bubbles when I said "watch out" back there.	1														100000713							
+555	555		302								...																							
+556	556		201							1	500524	6																						
+557	557		301							1	Liv	...	1														100000573							
+558	558		201							1	500543																							
+559	559		301							1	Cinderella	Oops, am I being intrusive?	1														100000714							
+560	560		301									Cinderella asks as she looks at Liv and you.																						
+561	561		301				DialogDisable				Cinderella	Right, why don't I... bring the bubbles back for you guys, then?	1														100000715							
+562	562		302								Ahem... I think we're fine.	563																						
+563	563		302				AniZhuanchangBegin				We just so happen to have some questions for you, actually.	564																						
+564	564		101							Assets/Product/Texture/Image/BgStory/Bgstory514.jpg																								
+565	565		401							1	208																							
+566	566		502							DialogEnable																								
+567	567		301			AniZhuanchangEnd					Cinderella	Here, I've got some tea for you... So, how can I help?	1														100000716							
+568	568		301									With your clothes dry, you're back in the room from earlier.																						
+569	569		302								Right.	570																						
+570	570		301									Whatever the cost, you need to make it through all that stands in your way now.																						
+571	571		302								We want to go to the spire in the middle of the forest.	572																						
+572	572		301								Cinderella	The spire in the middle of the forest, you said?	1														100000717							
+573	573		301									Cinderella sounds shocked.																						
+574	574		301									Looking back and forth between you and Liv, Cinderella finally returns her gaze to you with wide eyes and an open mouth.																						
+575	575		201							1	500524																							
+576	576		301							1	Liv	What's the matter?	1														100000574							
+577	577		201							1	500543																							
+578	578		301							1	Cinderella	Oh, well, I was just trying to have something worked out in my head...	1														100000718							
+579	579		301								Cinderella	See, I thought you came from the spire—but I see that's where you're going now.	1														100000719							
+580	580		301								Cinderella	You're from outside the forest, aren't you?	1														100000720							
+581	581		302								What makes you think so?	582																						
+582	582		301								Cinderella	Because the spire is off-limits to everything living in the forest.	1														100000721							
+583	583		301								Cinderella	Some animals wander off into the spire every now and then, and that would be the last anyone sees of them.	1														100000722							
+584	584		301								Cinderella	Which is why everyone and everything living here knows better than to get close to the spire.	1														100000723							
+585	585		202							1					1																			
+586	586		201							1	500524		-400																					
+587	587		201							2	500543		400																					
+588	588		301							1	Liv	Yes—we're indeed from outside the forest, as you said.	1														100000575							
+589	589		301								Cinderella	What's the world like outside the forest, though?	2														100000724							
+590	590		301									Cinderella is dripping with curiosity.																						
+591	591		204						100	1																								
+592	592		204							1	3																							
+593	593		301								Liv	Well...	1														100000576							
+594	594		204							1	14																							
+595	595		301									Liv seems to be measuring her words—there really is no easy way to tell Cinderella that they came from the real world, and that she herself is but a projection inside Liv's M.I.N.D. shard.																						
+596	596		301									And there is no telling what's going to happen if Liv tells her all that.																						
+597	597		301								Cinderella	Uhm... Must be a heck of a world for you to put in simple words, yeah?	2														100000725							
+598	598		204							1	3																							
+599	599		301								Liv	Sorry...	1														100000577							
+600	600		204							1	14																							
+601	601		301								Cinderella	It's fine. I'm sure it's something you'd rather not tell me to keep my sanity.	2														100000726							
+602	602		204						100	1	17																							
+603	603		204							1	7																							
+604	604		301								Liv	...	1														100000578							
+605	605		301								Cinderella	C'mon, I can just tell—your faces said it all.	2														100000727							
+606	606		204							1	19																							
+607	607		204							2	14																							
+608	608		301								Cinderella	Although I'd really love to get to know your world, too...	2														100000728							
+609	609		204							2																								
+610	610		301									Stroking her teacup, Cinderella quickly regains her smile.																						
+611	611		301								Cinderella	So, the spire, right?	2														100000729							
+612	612		301								Cinderella	You were camping out there in the forest last night because you'd been traveling through the forest during the day, right?	2														100000730							
+613	613		204							1	3																							
+614	614		301								Liv	Yes, and there were... things that stood in our way.	1														100000579							
+615	615		204							1	14																							
+616	616		301									Stammering, Liv is reminded of the line of sheep that ran the length of the horizon.																						
+617	617		204							1	3																							
+618	618		301								Liv	And we have no idea where we are now.	1														100000580							
+619	619		204							1																								
+620	620		301								Liv	Would you happen to know how to get to the spire?	1														100000581							
+621	621		301								Cinderella	Uhm... Unfortunately, I don't.	2														100000731							
+622	622		301								Cinderella	Well, I guess I should say there doesn't exist a single path that can take you there.	2														100000732							
+623	623		204							1	5																							
+624	624		301								Liv	Is it because there are places in between you just can't get across?	1														100000582							
+625	625		301								Cinderella	No, it's not that.	2														100000733							
+626	626		301								Cinderella	Here, let me show you something.	2														100000734							
+627	627		202							1	2																							
+628	628		301									Cinderella stands up and proceeds to open the window.																						
+629	629		201							1	500543	2																						
+630	630		301							1	Cinderella	You'll see why.	1														100000735							
+631	631		202							1					1																			
+632	632		301									Beyond the window, you see the crowns of the trees in the forest.																						
+633	633		301									Cinderella seems to be living up on a hill.																						
+634	634		301									The spire, however, is nowhere to be seen.																						
+635	635		201							1	500543																							
+636	636		301							1	Cinderella	It's about to start.	1														100000736							
+637	637		301									Following Cinderella's finger, you and Liv look outside the window at where she's pointing...																						
+638	638		201							1	500524	7																						
+639	639		301							1	Liv	Are they moving?	1														100000583							
+640	640		301									Slowly but surely, the forest is moving in a random fashion—and so, too, is the ground in which they're rooted.																						
+641	641		204							1	3																							
+642	642		301								Liv	I didn't even know this was happening...	1														100000584							
+643	643		201							1	500543																							
+644	644		301							1	Cinderella	To those living in the forest, the very ground you stand on isn't what changes—but your location.	1														100000737							
+645	645		301								Cinderella	See, our location is changing as we speak.	1														100000738							
+646	646		202							1																								
+647	647		301									Sitting back down, Cinderella says slowly.																						
+648	648		201							1	500524	14	-400																					
+649	649		201							2	500543		400																					
+650	650		301							1	Cinderella	Which is why it's impossible for you to get to the spire.	2														100000739							
+651	651		301								Liv	...	1														100000585							
+652	652		301								Cinderella	But you aren't just going to give up, right?	2														100000740							
+653	653		204						100	1	17																							
+654	654		204							1	4																							
+655	655		301								Liv	Yes, and it's because we can't.	1														100000586							
+656	656		301								Cinderella	And I don't suppose you're going to tell me why, yeah?	2														100000741							
+657	657		204							1	14																							
+658	658		301								Liv	...	1														100000587							
+659	659		301								Cinderella	Hey, what's with the long face? I'm sure the forest brought you both to me for a reason. Who knows, right?	2														100000742							
+660	660		301								Cinderella	Now, since you're trying to get to the spire, let me tell you about how it came about...	2														100000743							
+661	661		301				AniZhuanchangBegin				Cinderella	And what it used to be.	2														100000744							
+662	662		202							1	2				1																			
+663	663		101							Assets/Product/Texture/Image/BgStory/Bgstory530.jpg																								
+664	664		401							1	207																							
+665	665		301			AniZhuanchangEnd						Unable to find her way back, she's lost in the sea of trees.																						
+666	666		301									Or—deep down inside, maybe she doesn't want to go back...																						
+667	667		301								Little Girl	Where am I?															100000588							
+668	668		301									Lost and looking around, she can see a tower with a pointed tip standing in the distance, on this land she's never set foot on.																						
+669	669		401							2	2626																							
+670	670		301									Upon reaching the tower, she gives the wooden door a gentle knock.																						
+671	671		301								???	I don't recognize you, kid. How can I help you?															100000745							
+672	672		301									The door creaks open—but the voice that's speaking to her comes from behind her.																						
+673	673		301								Little Girl	Ahh! I-I'm just lost... Who are you?															100000589							
+674	674		301								???	Me? I'm the master of this spire, a fairy that can make all dreams come true.															100000746							
+675	675		301								Little Girl	Dreams...?															100000590							
+676	676		301								???	Yes—dreams are wonderful, and people can't lavish enough praise on them.															100000747							
+677	677		301								???	Now, let me take you home.															100000748							
+678	678		301								Little Girl	Wait!															100000591							
+679	679		301								???	Oh, I see you don't want to go home just yet.															100000749							
+680	680		301									The fairy turns around and, with a gentle look, waits patiently for the girl to say her next word.																						
+681	681		301								Little Girl	I-I want a lot of friends... My sister and brother just wouldn't hang out with me... Can you make that come true?															100000592							
+682	682		301									Like a deflating balloon, the little girl quickly loses the confidence she's just worked up.																						
+683	683		301								???	Easy peasy lemon squeezy, but... are you ready to pay for it?															100000750							
+684	684		301								Little Girl	P-pay? With that?															100000593							
+685	685		301									She sounds a little scared.																						
+686	686		301								???	With...															100000751							
+687	687		301				AniZhuanchangBegin					When the fairy reaches her hand this way, the girl shuts her eyes nervously.																						
+688	688		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+689	689		301			AniZhuanchangEnd						The fairy puts her hand on the girl's head. Then, with a few strokes...																						
+690	690		401							2	1543																							
+691	691		301									The fairy straightens the girl's hair—which was a complete mess from her traveling across the forest.																						
+692	692		101							Assets/Product/Texture/Image/BgStory/Bgstory530.jpg																								
+693	693		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	1																							
+694	694		301			AniZhuanchangEnd					???	With that.															100000752							
+695	695		301									The fairy sounds pleased.																						
+696	696		301								Little Girl	Wait, that's it?															100000594							
+697	697		301									Without answering the girl's question, the fairy produces a colorful scepter. She gives it a little tap in the air with a mumble.																						
+698	698		301								???	bibbidi-bobbidi-boo!															100000753							
+699	699		401						500	2	2632																							
+700	700		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+701	701		301									Swoosh—a flash of light swishes past, but she can't tell if anything actually happened.																						
+702	702		301								???	Try clapping three times.															100000754							
+703	703		301								Little Girl	1... 2... 3. Are you... Oh, dear!															100000595							
+704	704		301									Surrounded by a bunch of chipmunks, the girl shrieks in surprise.																						
+705	705		301								???	How do you like these adorable furballs? Oh, right, I wanted to give you something else, too.															100000755							
+706	706		301									With another tap of the fairy's scepter on the ground, a pumpkin carriage "grows out" of the soil.																						
+707	707		301				AniZhuanchangBegin				???	Take this home so you won't get lost.															100000756							
+708	708		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+709	709		401							1	36																							
+710	710		201							1	500543																							
+711	711		301			AniZhuanchangEnd				1	Cinderella	Becoming friends with the fairy, the girl keeps making wishes for the fairy to make happen in the forest.	1														100000757							
+712	712		301								Cinderella	Floating jellyfish that drives the darkness away, sheep you can never finish counting when you can't fall asleep, and peas so big that a single one can make you full...	1														100000758							
+713	713		301								Cinderella	As time goes by, the little girl grows up.	1														100000759							
+714	714		204							1	14																							
+715	715		301				AniZhuanchangBegin				Cinderella	Something happens down the road that leaves her with no choice but to leave home.															100000760							
+716	716		202							1					1																			
+717	717		101							Assets/Product/Texture/Image/BgStory/Bgstory530.jpg																								
+718	718		401							1	207																							
+719	719		301			AniZhuanchangEnd					Girl	...															100000596							
+720	720		301								???	It's been such a long time. How have you been?															100000761							
+721	721		301								Girl	Something happened and I have to leave.															100000597							
+722	722		301								???	...															100000762							
+723	723		301									The fairy slowly opens her mouth to speak.																						
+724	724		301								???	The world out there is one far beyond my reach.															100000763							
+725	725		301								???	And you won't be able to leave with anything from the forest.															100000764							
+726	726		301								???	Are you sure about this?															100000765							
+727	727		301								Girl	Yes, I am.															100000598							
+728	728		301									Looking into the girl's eyes and seeing her determination, the fairy sees that there is no point in trying to make the girl stay.																						
+729	729		301								???	Just remember... to drop by sometime...															100000766							
+730	730		401							2	647																							
+731	731		301				AniZhuanchangBegin		2000			With the heavy locks lifted, the door of the "shelter" opens up, allowing the girl to exit on her own.																						
+732	732		402							647																								
+733	733		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+734	734		401							1	36																							
+735	735		201							1	500543																							
+736	736		301			AniZhuanchangEnd				1	Cinderella	With reality standing in her way, she has been looking away and giving up on her dreams only too many times.	1														100000767							
+737	737		301								Cinderella	Because dreams are for the childish, and all she can do is steal glances at them every now and then.	1														100000768							
+738	738		301								Cinderella	What the girl never knows, though, is that her dreams are all kept safe and sound by the fairy.	1														100000769							
+739	739		301								Cinderella	Until that fateful day, that is...	1														100000770							
+740	740		204							1	14																							
+741	741		301				AniZhuanchangBegin				Cinderella	The ground starts spitting out scarlet flames, tearing the world into pieces.	1														100000771							
+742	742		101							Assets/Product/Texture/Image/BgStory/Bgstory530.jpg																								
+743	743		202							1					1																			
+744	744		401							1	76																							
+745	745		301			AniZhuanchangEnd					???	Hey, look at you all grown-up.															100000772							
+746	746		301									She says nostalgically.																						
+747	747		301								Girl	Sorry...															100000599							
+748	748		301								???	No, don't say that. I'm very happy to see you again...															100000773							
+749	749		301								???	What's your wish this time?															100000774							
+750	750		301								Girl	I...															100000600							
+751	751		301									The girl says her wish—to which the fairy falls into what seems like an eternity of silence.																						
+752	752		301								Girl	I guess that means a no?															100000601							
+753	753		301								???	It's a little difficult for me, but... are you ready to pay for it?															100000775							
+754	754		301								Girl	With?															100000602							
+755	755		301									With your freedom. You'd be trapped in a cage where you can't see the light of day...																						
+756	756		301									The girl nods.																						
+757	757		301									You'll have absolutely nothing by your side save for pain...																						
+758	758		301									The girl nods.																						
+759	759		301									And you'll be eaten away, until you're polluted all over and burned to ashes with the forest.																						
+760	760		301									A few moments of silence later, the girl nods as she looks at the fairy's apologetic eyes.																						
+761	761		301								Girl	What should I do?															100000603							
+762	762		301									The girl doesn't change her mind.																						
+763	763		301									Her last dream—a pair of wings that can take her through the skies.																						
+764	764		301									Wings that are meant to eventually crash and burn.																						
+765	765		401							2	2632																							
+766	766		301									Giving in to the girl's request, Cinderella casts on her an old but still familiar spell. With a shower of green light, the girl transforms into a butterfly with vibrant colors.																						
+767	767		301				AniZhuanchangBegin					Her wings are thin and appear almost feeble, but against the evil crimson, they stand strong.																						
+768	768		101							Assets/Product/Texture/Image/BgCg/Cg2301_4.jpg																								
+769	769		104							0|200|-300	0																							
+770	770		104							0|-200|-300	5																							
+771	771		301			AniZhuanchangEnd						Against the sea of the Corrupted, the white bird flies alongside humanity as it guides them forward, and the black butterfly keeps the evil behind the humans where they can't see it.																						
+772	772		301						3000			None of the miracles is a coincidence. She put her bargaining chips on the table even before it all began.																						
+773	773		104							0|200|-300	2																							
+774	774		501						2000	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFallNew.prefab	2																							
+775	775		104							0|0|0	0																							
+776	776		101							Assets/Product/Texture/Image/BgStory/Bgstory531.jpg																								
+777	777		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+778	778		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFallNew.prefab																							
+779	779		301			RImgBg1Shake						At last, she falls through the sky along with the red figures and crashes into the spire—which has now become a cage from which they can't escape.																						
+780	780		301									Before the door to the spire closes, the fairy asks.																						
+781	781		301								???	Do you have any other wishes?															100000776							
+782	782		301								???	Liv.															100000777							
+783	783		201							1	500531	12																						
+784	784		301							1	Liv	...	1														100000604							
+785	785		204						100	1	12																							
+786	786		204							1	8																							
+787	787		301								Liv	No, and thank you for everything, Cinderella.	1														100000605							
+788	788		301									It's only with their inevitable goodbye so imminent now that Cinderella now has what it takes to bid Liv farewell.																						
+789	789		201							1	500543	14																						
+790	790		301				AniZhuanchangBegin			1	Cinderella	I see. Goodbye, then...	1														100000778							
+791	791		101						2000	Assets/Product/Texture/Image/BgStory/Bgstory514.jpg																								
+792	792		401							1	79																							
+793	793		204							1																								
+794	794		301			AniZhuanchangEnd					Cinderella	After that, I let all your dreams out and came up with this forest with them.	1														100000779							
+795	795		301									Cinderella holds up her teacup and patiently waits for you and Liv to digest everything you just heard.																						
+796	796		301									With everything Cinderella just said, you've finally figured out how this M.I.N.D. shard came into being.																						
+797	797		301									It's not a piece of item that carries Liv's imagination, nor is it something that holds her memory.																						
+798	798		301									Everything you've seen along the way—so out of the realm of reality yet all came with a tinge of the real world...																						
+799	799		201							1	500524	3																						
+800	800		301							1	Liv	All these... are the dreams I used to have.	1														100000606							
+801	801		201							1	500543																							
+802	802		301							1	Cinderella	Yes, everything here came from you.	1														100000780							
+803	803		301								Cinderella	Some of these are wishes you made when you were reading fairytales...	1														100000781							
+804	804		301								Cinderella	And there is one you made thinking about the sheep in the garden at night when everyone else was sleeping.	1														100000782							
+805	805		301								Cinderella	And this other one...	1														100000783							
+806	806		204							1	2																							
+807	807		301									Apparently remembering something funny, Cinderella puts on a gentle laugh.																						
+808	808		301								Cinderella	You made this other wish when you were scared soulless alone under the blanket...	1														100000784							
+809	809		301								Cinderella	With the hope that the monster that eats up kids that don't go to bed would be a little more adorable.	1														100000785							
+810	810		301								Cinderella	You never wanted to see it, though, and you wouldn't believe how sad that made it feel.	1														100000786							
+811	811		301									Cinderella returns her gentle gaze to Liv.																						
+812	812		301								Cinderella	These are all the dreams you forgot.	1														100000787							
+813	813		301								Cinderella	I remembered everything the moment I saw you.	1														100000788							
+814	814		301								Cinderella	I thought you broke free of your confinement from the spire and were on your way to leave the forest...	1														100000789							
+815	815		301								Cinderella	But now I see that's where you're headed.	1														100000790							
+816	816		301								Cinderella	You're not the caged butterfly, Liv—but the white bird that soars with its wings.	1														100000791							
+817	817		301								Cinderella	I'd very much love to help you however I can like I did before...	1														100000792							
+818	818		301								Cinderella	But I wanted to hear you out, because I'm as much a part of this dream as everything else is here.	1														100000793							
+819	819		201							1	500524	3																						
+820	820		301							1	Liv	Actually, I...	1														100000607							
+821	821		201							1	500543																							
+822	822		301							1	Cinderella	You outgrew your dreams. Is that what you were going to say?	1														100000794							
+823	823		301									Apparently seeing right through Liv, Cinderella cuts her off. Shaking her head, she carries on.																						
+824	824		301								Cinderella	But what about the dreams you had? If you've outgrown them, why are you still holding on to those dreams?	1														100000795							
+825	825		301								Cinderella	Do you still think those dreams are only for the childish?	1														100000796							
+826	826		301								Cinderella	Are you still going to give up on them and forget them the same way you did?	1														100000797							
+827	827		301								Cinderella	Is it how you'd like to keep growing as a person?	1														100000798							
+828	828		301									Said in a calm yet firm tone, Cinderella's questions don't sound intimidating in the slightest—they're, if anything, reassuring.																						
+829	829		201							1	500524	14																						
+830	830		301							1	Liv	...	1														100000608							
+831	831		204							1	3																							
+832	832		301								Liv	Yes, these dreams are childish...	1														100000609							
+833	833		204							1	9																							
+834	834		301								Liv	I'd even call them far-fetched and unrealistic...	1														100000610							
+835	835		204							1	8																							
+836	836		301									Apparently unaware of what she's doing, Liv touches her wings with the faint scars...																						
+837	837		301									The very wings that, whilst unable to take her through the skies, shine through all the same in the dark.																						
+838	838		204							1																								
+839	839		301								Liv	But they're worth pursuing, so long as we still long for them.	1														100000611							
+840	840		201							1	500543																							
+841	841		301							1	Cinderella	Knowing what you do, are you still going to try to make them come true?	1														100000799							
+842	842		201							1	500524																							
+843	843		301							1	Liv	That's something I'll work toward.	1														100000612							
+844	844		204						100	1																								
+845	845		204							1	8																							
+846	846		301								Liv	It matters more that a dream is made true than when it's made true.	1														100000613							
+847	847		204						100	1	8																							
+848	848		204							1																								
+849	849		301								Liv	My dreams might be childish, and they were probably just what I came up with on a whim...	1														100000614							
+850	850		301								Liv	But I can take my time to make them come true, because they have and always will be part of me.	1														100000615							
+851	851		201							1	500543	2																						
+852	852		301							1	Cinderella	So you want to take your time, huh... That sounds like an excuse to me, though.	1														100000800							
+853	853		301									Says Cinderella with a smile that's ever so gentle on her face.																						
+854	854		201							1	500524	8																						
+855	855		301							1		Liv shakes her head.																						
+856	856		204							1																								
+857	857		301								Liv	We're still pursuing them precisely because we haven't made them come true.	1														100000616							
+858	858		301								Liv	We're keeping it in the future precisely because we don't want to run away from it anymore or see it as a luxury.	1														100000617							
+859	859		301								Liv	People never get lost going after seemingly far-fetched dreams.	1														100000618							
+860	860		301								Liv	Because these dreams are like beacons on the shore or the stars in the skies—they guide you along the way.	1														100000619							
+861	861		301									Liv looks at you before she looks firmly into Cinderella's blue eyes.																						
+862	862		204						100	1	8																							
+863	863		204							1	4																							
+864	864		301								Liv	A person can't possibly grow by throwing away what they have or forgetting who they are.	1														100000620							
+865	865		301								Liv	Holding on to what you have and never letting go is the only thing that will help you move forward.	1														100000621							
+866	866		201							1	500543																							
+867	867		301							1	Cinderella	...	1														100000801							
+868	868		301								Cinderella	I see there is nothing more I need to worry about.	1														100000802							
+869	869		301									Looking away from Liv, Cinderella turns to look at you with her gentle yet shrewd blue eyes.																						
+870	870		301								Cinderella	Are you still willing to save "her," then?	1														100000803							
+871	871		302								That's why I came in the first place.	872																						
+872	872		301								Cinderella	Even if that means putting yourself in harm's way?	1														100000804							
+873	873		302								Of course.	874																						
+874	874		301								Cinderella	Even if that means putting yourself in harm's way is something Liv never wants to see?	1														100000805							
+875	875		302								...	876																						
+876	876		201							1	500524	19																						
+877	877		301							1		You exchange a look with Liv—there are worries and fear in her eyes, but you see no objection whatsoever.																						
+878	878		202							1					1																			
+879	879		302								We never want to see each other put in harm's way.	880																						
+880	880		301									And taking the risk ourselves is probably the only choice that will ever make us feel okay.																						
+881	881		302								But it's never my job to protect her or the other way around.	882																						
+882	882		301									We have each other's back—and it's only when we have each other's back that we'll be able to travel far down the path together.																						
+883	883		301									Alone, we might struggle—but together, we are strong.																						
+884	884		302								Which is why if one of us ever falls...	885																						
+885	885		301									We should respect their choice all the same and soldier on with their torch in hand.																						
+886	886		201							1	500543																							
+887	887		301							1	Cinderella	Very well. I'm trusting you with "her," then.	1														100000806							
+888	888		401							2	754																							
+889	889		301									Cinderella stands up and proceeds to open the door.																						
+890	890		301				AniZhuanchangBegin				Cinderella	Follow me. I'll show you how to get to the spire.	1														100000807							
+891	891		101							Assets/Product/Texture/Image/BgStory/Bgstory609.jpg																								
+892	892		202							1					1																			
+893	893		301			AniZhuanchangEnd						Parked around the edge of the forest is an enormous pumpkin carriage—with its decorations discolored, cobwebs dangling off its rusty wheels, bearings broken, and its horses gone.																						
+894	894		301									It doesn't seem like it still works, though.																						
+895	895		201							1	500543																							
+896	896		301							1	Cinderella	This is what's going to take you to the spire.	1														100000808							
+897	897		301								Cinderella	This pumpkin carriage will take you there even without a route.	1														100000809							
+898	898		201							1	500524	9																						
+899	899		301							1	Liv	But it doesn't seem like it's ever going to run again...	1														100000622							
+900	900		201							1	500543																							
+901	901		301							1	Cinderella	All you need is a little magic sometimes.	1														100000810							
+902	902		204							1	2																							
+903	903		301									With a wink, Cinderella looks impish for the first time.																						
+904	904		301									She picks up her now dusty scepter from beside the wheel.																						
+905	905		301								Cinderella	bibbidi-bobbidi-boo!	1														100000811							
+906	906		202							1					1																			
+907	907		401							2	2632																							
+908	908		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+909	909		301									With her spell, a rainbow shrouds the carriage.																						
+910	910		301									The crystals and glasses are glistening again, the rust is removed, the cracks are patched, and the silver paintwork is gleaming in the sun.																						
+911	911		301									Then, you hear gallop coming from the woods.																						
+912	912		401						680	2	100000680																							
+913	913		402							100000680																								
+914	914		301								Sheep	Baaaaa!																						
+915	915		301									But it isn't white horses that show up—but a bunch of equally white but fluffy sheep.																						
+916	916		201							1	500543	2																						
+917	917		301							1	Cinderella	Oops, I never said this carriage would be drawn by "horses," did I?	1														100000812							
+918	918		301									With the sheep saddled, the carriage's door opens to reveal its magnificent interior.																						
+919	919		301									Cinderella passes her scepter to Liv.																						
+920	920		201							1	500524	5																						
+921	921		301							1	Liv	Wait, what?	1														100000623							
+922	922		201							1	500543																							
+923	923		301							1	Cinderella	"She" is at the bottom of the spire and that's where your friend needs to go.	1														100000813							
+924	924		301								Cinderella	You, Liv, need to go to the tip—where the monster is kept locked up.	1														100000814							
+925	925		301								Cinderella	And given that you've run away from it once...	1														100000815							
+926	926		301									Cinderella turns around to look at you as she speaks in a serious tone.																						
+927	927		301								Cinderella	I'm sure it'll do everything in its power to get you.	1														100000816							
+928	928		301								Cinderella	Someone needs to destroy it before it destroys the spire.	1														100000817							
+929	929		301								Cinderella	Which is why, Liv, you need this scepter more than I do.	1														100000818							
+930	930		204							1	2																							
+931	931		301								Cinderella	And... see, I won't be needing it anymore.	1														100000819							
+932	932		301									Cinderella puts on a sad smile.																						
+933	933		201							1	500524	10																						
+934	934		301							1	Liv	...Thanks again.	1														100000624							
+935	935		202							1																								
+936	936		301									Cinderella carries on speaking as she helps Liv get inside the carriage.																						
+937	937		201							1	500543																							
+938	938		301							1	Cinderella	This place is made of dreams and my power doesn't go beyond the forest...	1														100000820							
+939	939		203							1	0.25			-80																				
+940	940		301									Holding out her hand, Cinderella helps you get inside the carriage, too.																						
+941	941		301								Cinderella	But you now have what it takes to press forward with your dreams and walk out of this shelter—not to mention that you have someone right next to you who's willing to go through it with you, too.	1														100000821							
+942	942		203							1	0.25																							
+943	943		301									Closing the door, Cinderella takes a step back.																						
+944	944		401							1	36																							
+945	945		202							1																								
+946	946		401						680	2	100000680																							
+947	947		402							100000680																								
+948	948		301				AniZhuanchangBegin				Sheep	Baaaaa!																						
+949	949		101							Assets/Product/Texture/Image/BgCg/Cg3001_02.jpg																								
+950	950		104							0|0|-300	0																							
+951	951		104							0|0|0	30																							
+952	952		401							1	162																							
+953	953		301			AniZhuanchangEnd						Bit by bit, Cinderella grows distant as the carriage pulls away.																						
+954	954		301									She knows this is their last farewell as the carriage makes its way into the distance.																						
+955	955		301									She thought she was ready for this day right when she first saw Liv at the spire...																						
+956	956		301									She thought she'd be able to play it cool when the day finally came...																						
+957	957		301									She thought she'd feel happy for Liv—for not having to count on her anymore...																						
+958	958		301									And she thought...																						
+959	959		301									She thought Liv would be able to stay around for just a little longer...																						
+960	960		301								Cinderella	Liv...															100000822							
+961	961		301									Through the window, you can see Cinderella waving at you and Liv with a pained look on her face.																						
+962	962		301								Cinderella	Don't ever stop chasing your dream and fear all the good things the world has to offer just because reality chooses to rough you up.															100000823							
+963	963		301									With the sunlight shining through the haze, she bids the fearless fledgling bird with her last word of advice.																						
+964	964		301		1		AniZhuanchangBegin				Cinderella	So long as your memory still exists, so, too, will the magic with which you can make your dreams come true.															100000824							

@@ -1,0 +1,139 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory264.png																								
+2	2		401							1	209																							
+3	3		201							1	500166																							
+4	4		301			DialogEnable				1	Lucia	...Something's off.	1																					
+5	5		202							1					1																			
+6	6		301									After completing the immersion process and removing the obstructive data wall, the four of you arrive at Parliament Square in the virtual space.																						
+7	7		301									Have you not remembered being pushed into the frame, you would have felt as if you were "teleported" to Parliament Square directly from the bridge.																						
+8	8		301									...But, for some reason, something does not feel the same.																						
+9	11111111		201							1	500004																							
+10	9		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+11	10		301							1	Asimov	What's wrong?	1																					
+12	11		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+13	12		202							1					1																			
+14	13		502						3000	RImgBg1BlowUp																								
+15	14		302								...What's that?	15																						
+16	15		201							1	500166		-400																					
+17	16		201							2	500026		400																					
+18	17		301							1	Lucia	It looks like... some things have formed a wall.	1																					
+19	18		301								Lee	Strange... I can't use my sensor to detect what the "wall" is made out of.	2																					
+20	19		202							1	2				1																			
+21	20		201							1	500004																							
+22	21		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+23	22		301							1	Asimov	...It's data. It's a flowing wall of white-noise-like data.	1																					
+24	23		301								Asimov	You can understand it as a wall formed from the data stream. It's one of the anti-interference protocols.	1																					
+25	24		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+26	25		202							1					1																			
+27	26		201							1	500026																							
+28	27		301							1	Lee	Looks like it really has been infiltrated...	1																					
+29	28		201							1	500004																							
+30	29		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+31	30		301							1	Asimov	I'm afraid so. We can only find a way to close or go through it once the immersion process is complete.	1																					
+32	31		302								...How do we do that?	32																						
+33	32		301								Asimov	Like I just said... We have to "find" a way.	1																					
+34	33		302				AniZhuanchangBegin				...	34																						
+35	34		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+36	35		202							1					1																			
+37	36		101							Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+38	37		401							1	201																							
+39	38		301			AniZhuanchangEnd						A few days ago.																						
+40	39		301									A young man with blonde hair stood before the doorway to the conference room. Seeing that the door was ajar, he softly took a breath, then knocked on the door.																						
+41	40		301								???	Come in.																						
+42	41		201							1	500146																							
+43	42		301							1	Murray	Commander Nikola, is there something... Oh, President Hassen. Seems like you've been quite busy recently. I haven't had a chance to speak with you.	1																					
+44	43		201							1	500011																							
+45	44		301							1	Hassen	...Have a seat.	1																					
+46	45		202							1					1																			
+47	46		301									Hassen refrained from responding to Murray. Instead, he motioned Murray to take a seat on the other side of the table.																						
+48	47		301									Murray sat opposite to Hassen, with a cup of coffee placed in front of him.																						
+49	48		301									Murray looked at Hassen through the steam coming from the coffee, then blinked awkwardly.																						
+50	49		201							1	500011																							
+51	50		301							1	Hassen	There's no need to be nervous. Celica brewed the coffee herself.	1																					
+52	51		201							1	500146	1																						
+53	52		301							1		Hearing this, Murray smiled and took a sip of the coffee.																						
+54	53		301								Murray	Thank you. Tastes... good.	1																					
+55	54		202							1					1																			
+56	55		301									Standing off to the side, Nikola put down his now empty cup, then turned on the holo-screen.																						
+57	56		201							1	500012																							
+58	57		301							1	Nikola	I told you, Hassen. He's fine.	1																					
+59	58		301								Nikola	Let's get down to business.	1																					
+60	59		202							1					1																			
+61	60		301									Following Nikola's gesture, Murray shifted his gaze to the content on the holo-screen.																						
+62	61		201							1	500146																							
+63	62		301							1	Murray	This... this is the report I submitted to you. Is President Hassen here with you because there is an issue with it?	1																					
+64	63		202							1					1																			
+65	64		201							1	500011		-400																					
+66	65		201							2	500012		400																					
+67	66		301							1	Hassen	Not with the information itself. What concerns me is how you got it.	1																					
+68	67		301									Holding the coffee cup, Murray came to a halt and stayed silent.																						
+69	68		301								Nikola	Still not willing to tell us how you got your hands on this information?	2																					
+70	69		202							1	2				1																			
+71	70		201							1	500146																							
+72	71		301							1	Murray	Well... I'd like to live a little longer.	1																					
+73	72		301									Murray answered softly with a slightly apologetic tone. However, Hassen understood that the young man would not come clean.																						
+74	73		202							1					1																			
+75	74		201							1	500011		-400																					
+76	75		201							2	500012		400																					
+77	76		301							1	Hassen	In that case, why don't you transfer back? It would be better for someone in your condition.	1																					
+78	77		202							1	2				1																			
+79	78		201							1	500146																							
+80	79		301							1	Murray	Thank you for your concern, Mr. President. But I'm happy with my current job. I'm not considering a transfer right now.	1																					
+81	80		301								Murray	My intelligence work is just a way for me to accumulate combat experience. After all, my physical condition... doesn't allow me to become a commandant with boots on the ground.	1																					
+82	81		202							1					1																			
+83	82		201							1	500011		-400																					
+84	83		201							2	500012		400																					
+85	84		301							1	Nikola	In some ways, I'm happy with the work you produce, and I don't intend to transfer you elsewhere. You're also the only person besides the Gray Raven Commandant who passes the test currently.	2																					
+86	85		301									So you should understand that, even if the source of your intel violates our rules, we won't sentence you to death for this.	2																					
+87	86		202							1	2				1																			
+88	87		301									Murray looked down at his reflection in the coffee cup, obscuring his expression from the two men sitting opposite him.																						
+89	88		301									He quickly raised his head again, then the corners of his mouth curled into a gentle, peculiar smile.																						
+90	89		201							1	500146	1																						
+91	90		301							1	Murray	Sir, I was given a mission, and I completed it. That's all.	1																					
+92	91		301								Murray	Just as I won't ask you how you will use this information, you won't have to inquire the details on how I obtain information.	1																					
+93	92		202							1					1																			
+94	93		201							1	500011		-400																					
+95	94		201							2	500012		400																					
+96	95		301							1	Nikola	You wouldn't have the authority to ask.	2																					
+97	96		202							1	2				1																			
+98	97		201							1	500146	1																						
+99	98		301							1	Murray	You're right.	1																					
+100	99		202							1					1																			
+101	100		201							1	500011		-400																					
+102	101		201							2	500012		400																					
+103	102		301							1	Hassen	We know that what you're doing, at least in terms of results, are still for the benefit of Babylonia.	1																					
+104	103		301								Hassen	We seek a common goal. However...	1																					
+105	104		301								Hassen	Murray, no matter how many moves you can make behind the scenes, don't you think they can remain hidden forever.	1																					
+106	105		301								Hassen	I think you can gauge where the lines are, at least for the time being.	1																					
+107	106		202							1	2				1																			
+108	107		201							1	500146	1																						
+109	108		301							1	Murray	Thank you to both of you for your trust.	1																					
+110	109		202							1					1																			
+111	110		201							1	500011		-400																					
+112	111		201							2	500012		400																					
+113	112		301							1	Nikola	You've worked under me for quite some time, but I must admit—I still haven't had you figured out.	2																					
+114	113		301									Nikola took out a black folder from a briefcase under the table and pushed it across to Murray.																						
+115	114		301								Nikola	If you're unwilling to divulge the source of your intel, the least you can do is be of use.	2																					
+116	115		202							1	2				1																			
+117	116		201							1	500146	1																						
+118	117		301							1	Murray	What do you want me to do?	1																					
+119	118		202							1					1																			
+120	119		201							1	500011		-400																					
+121	120		201							2	500012		400																					
+122	121		301							1	Nikola	As always, what you do best.	2																					
+123	122		202							1	2				1																			
+124	123		301									Murray immediately noticed the logo on the file. He let out an apparent smile, then looked up at Nikola.																						
+125	124		201							1	500146																							
+126	125		301							1	Murray	...I'm not your only bet in this game, am I?	1																					
+127	126		202							1					1																			
+128	127		201							1	500011		-400																					
+129	128		201							2	500012		400																					
+130	129		301							1	Nikola	Just make sure you get the job done.	2																					
+131	130		301								Nikola	We just want to see results that benefit Babylonia. That's all.	2																					
+132	131		301								Hassen	You can put down your cup of coffee now. You don't have to keep holding it if it isn't to your liking.	1																					
+133	132		202							1	2				1																			
+134	133		301									After that, Hassen and Nikola stood up and left the conference room, leaving Murray with his coffee, unsure whether or not to drink it.																						
+135	134		201							1	500146																							
+136	135		301							1	Murray	...	1																					
+137	136		301									After quite some time, he finally took a deep breath and smiled bitterly as if being relieved of a heavy burden.																						
+138	137		301		1		AniZhuanchangBegin				Murray	That... wasn't very pleasant at all.	1																					

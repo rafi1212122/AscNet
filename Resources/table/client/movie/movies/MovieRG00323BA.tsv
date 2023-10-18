@@ -1,0 +1,48 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory170.png																								
+2	2		401							1	17																							
+3	3		201							1	500101																							
+4	4		301			DialogEnable				1	???	I must give you credits for making it all the way here, heroes of the revelation.	1																					
+5	5		301								Golden Jegan	And in front of you is Golden Jegan, one of the four Demon Generals.	1																					
+6	3001		201							1	500180	5																						
+7	6		301							1	Karenina	The last two guys had unusual names, but yours is just way too weird.	1																					
+8	3002		201							1	500101																							
+9	7		301							1	Golden Jegan	You are no one to criticize me! Look at what you are wearing!	1																					
+10	8		301									Golden Jegan pointed to Lee and Karenina. Their so-called "Coating" looked completely out of place.																						
+11	9		301								Golden Jegan	You heroes never change. The last generation also looked like clowns. Isn't it common sense to wear something formal and proper before fighting someone?	1																					
+12	3003		302								Were you there in the last war?	10	But we don't have anything else to wear.	11																				
+13	10	3004	301								Golden Jegan	Of course. I was the only Demon General who fought alongside His Majesty.	1																					
+14	11	3004	301								Golden Jegan	Oh c'mon. You heroes are way too wild.	1																					
+15	3004		203							1	0.25	400																						
+16	3005		201							2	1081001		-400																					
+17	12		301							1	Kamui	A nice outfit would be nice before a Boss fight, but people often end up with a strange combination because they want best stats and skills.	2																					
+18	13		301								Kamui	For example, wearing only one helmet and a gigantic sword because of load capacity...	2																					
+19	14		301								Golden Jegan	Hmm... Can't fault them if it's for stats.	1																					
+20	15		301								Kamui	I know right? You can't beat the enemy without stats.	2																					
+21	3006		202							1	2																							
+22	3007		201							1	500166																							
+23	16		301							1	Lucia	Whatever... We have more important things to ask. Um, can I call you Demon General Golden Jegan?	1																					
+24	3008		203							1	0.25	-400																						
+25	3009		201							2	500101		400																					
+26	17		301							1	Golden Jegan	Oh, you are a polite one. You can call me anything. Anyway, what do you want?	2																					
+27	3010		302								We want the artifact.	18	We are looking for Liv.	21																				
+28	18	19	301								Golden Jegan	The Goddess' artifact... I saw this day coming ever since this castle was built.	2																					
+29	19	20	301								Golden Jegan	But I, Golden Jegan, will never let anyone take the artifact easily, let alone the heroes of revelation!	2																					
+30	20	27	301								Golden Jegan	You are our eternal enemies!	2																					
+31	21	22	301								Golden Jegan	Who is Liv...?	2																					
+32	22	23	301								Lucia	It's a girl with pink hair. Like these two, she is probably wearing something light.	1																					
+33	23	24	301								Golden Jegan	Pink... And strange outfit. I see. So you are looking for her.	2																					
+34	24	25	301								Lucia	Do you know anything? She's our friend...	1																					
+35	25	26	301								Golden Jegan	She may also be a hero of the revelation, but she's our Holy Maiden! I will never tell you anything about her!	2																					
+36	26	27	301								Lucia	Holy Maiden!?	1																					
+37	27		301								Golden Jegan	Roarrrr!	2																					
+38	28		301			RImgBg1Shake						Golden Jegan's attitude suddenly changed. His body started to expand, as if it was going to fill the entire space. 																						
+39	29		301								Lucia	Wait! I really don't want to resolve this with violence!	1																					
+40	3011		202							1	2																							
+41	3012		201							1	500180	5																						
+42	30		301								Karenina	Just let your fist do the talking!	1																					
+43	31		301									Lucia wanted to continue the negotiation, but Karenina just charged in.																						
+44	3013		401							2	1508																							
+45	32		301									Golden Jegan's body suddenly expanded again, transforming the nearby space into a new maze with Demon monsters inside.																						
+46	33		301		1		AniZhuanchangBegin					He had escaped to somewhere deep inside the maze.																						
+47	34		301								Karenina	Interesting. I'll crush you all into pieces!	1																					

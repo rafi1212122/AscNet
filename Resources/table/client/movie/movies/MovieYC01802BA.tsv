@@ -1,0 +1,150 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory4.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						You stand at the landing zone and watch the transport craft take off.																						
+4	4		301									In the FOB erected by the vanguard forces, numerous teams are moving about the base, strengthening fortifications and adjusting comm lines.																						
+5	5		301									Corrupted remains piled outside of the base allude to a small conflict while the base was being erected. A tall Construct is throwing debris on either side of the street to clear a passageway for personnel and vehicles.																						
+6	6		301									This area had been engulfed in the flames of war like most human cities on the Earth's surface, now standing in silence as the surface falls into desolation.																						
+7	7		301									Corrupted intermittently scurry down the street toward the base only to be immediately blown to pieces by the defense turrets.																						
+8	8		201							1	500029	5																						
+9	9		301							1	Lucia	Corrupted.	1																					
+10	10		302								Hold up.	11																						
+11	11		201							1	1011001																							
+12	12		301							1	Lee	The base's defenses are sufficient enough to fight off the few Corrupted wandering outside the city.	1																					
+13	13		201							1	500292																							
+14	14		301							1	Liv	Actually, a horde of Corrupted are making their way to the city center. That's our target for this mission.	1																					
+15	15		302								Let's report for duty first.	16																						
+16	16		201							1	500029																							
+17	17		301							1	Lucia	Right, the temp HQ should be... Ah, over there.	1																					
+18	18		301									Lucia checks her surroundings, then fixes her eyes on a makeshift building in the center of the base. The white flowers and pink ribbons on the exterior of the temporary headquarters serve as a stark contrast with the surrounding charred city ruins.																						
+19	19		203							1	0.25	-400																						
+20	20		201							2	1011001		400																					
+21	21		301							1	Lee	Someone's sure got a strange taste.	2																					
+22	22		301								Lucia	Don't assume, Lee. Maybe they serve a special purpose.	1																					
+23	23		301								Lee	Perhaps.	2																					
+24	24		301								Lee	Alright, go report for duty. I'm going to scout the surrounding area.	2																					
+25	25		301								Lucia	Alright. We'll leave the reconnaissance to you then.	1																					
+26	26		401							2	1516																							
+27	27		301									Before Lucia could finish speaking, Lee had already turned to leave the base.																						
+28	28		202							1	2				1																			
+29	29		201							1	500292	6																						
+30	30		301							1	Liv	...	1																					
+31	31		302								Liv? What's going on?	32																						
+32	32		301				AniZhuanchangBegin				Liv	Uh... It's nothing... Let's go report in...	1																					
+33	33		202							1					1																			
+34	34		101							Assets/Product/Texture/Image/BgStory/Bgstory256.png																								
+35	35		401							1	202																							
+36	36		301			AniZhuanchangEnd						The HQ's interior is far more spacious than expected. A woman is in the center of numerous display panels. A hologram of the city fills the space outside of the screens.																						
+37	37		401							2	1515																							
+38	38		301									The woman furiously taps the screens, displaying various data on the city hologram, such as Corrupted distribution, weapon deployment and material allocation with each tap.																						
+39	39		201							1	500029																							
+40	40		301							1	Lucia	Gray Raven, reporting for duty.	1																					
+41	41		301									Lucia, who was walking in front, speaks first. Hearing Lucia, the woman stops tapping the screens with both hands.																						
+42	42		201							1	500293																							
+43	43		301							1	???	Gray Raven?	1																					
+44	44		301									She speaks as she pushes aside the display panel in front of her. Her eyes fall directly on the Gray Ravens walking into the HQ.																						
+45	45		301								???	Oh, THOSE Gray Ravens! Looks like you really are on the roster for this mission.	1																					
+46	46		301								???	It's been a while, 【kuroname】.	1																					
+47	47		201							1	500029																							
+48	48		301							1	Lucia	You know each other, Commandant?	1																					
+49	49		302								No clue.	50	It's you...	57																				
+50	50		201							1	500293																							
+51	51		301							1	???	BAHAHA! I guess that's to be expected from you, Chief.	1																					
+52	52		301								???	Why would you care about those who can't keep up?	1																					
+53	53		201							1	500029																							
+54	54		301								Lucia	What do you mean?	1																					
+55	55		201							1	500293																							
+56	56	63	301								???	Nothing. Maybe this'll jog your memory.	1																					
+57	57		201							1	500293																							
+58	58		301								???	Should I be honored that you remember me?	1																					
+59	59		201							1	500029																							
+60	60		301								Lucia	What do you mean?	1																					
+61	61		201							1	500293																							
+62	62		301								???	Nothing. I was just remembering a few things during our time at F.O.S.	1																					
+63	63		301								Vanessa	Let me re-introduce myself. My name is Vanessa, commandant of Egret and chief commander of this operation.	1																					
+64	64		301								Vanessa	Regardless of your past accolades, Commandant, you better follow my orders as the chief commander.	1																					
+65	65		201							1	500029																							
+66	66		301								Lucia	Egret... Isn't that—?	1																					
+67	67		401							2	1516																							
+68	68		301									Vanessa rises from her seat, crosses the city hologram suspended in mid-air, and slowly approaches the Gray Ravens.																						
+69	69		201							1	500293																							
+70	70		301							1	Vanessa	Yes... The team Liv used to be a part of.	1																					
+71	71		203							1	0.25	-400																						
+72	72		201							2	500292	6	400																					
+73	73		301							1	Liv	Vanessa...	2																					
+74	74		301								Vanessa	Seems you're still using the frame I had recalibrated for you.	1																					
+75	75		301								Vanessa	Why appear before me as Lux? Miss me that much?	1																					
+76	76		301								Liv	That's not the reason.	2																					
+77	77		301								Vanessa	Pfff, didn't I teach you to keep your mouth shut?	1																					
+78	78		204							1	13																							
+79	79		301								Vanessa	【kuroname】, the Constructs on your team aren't all this insubordinate. Are they?	1																					
+80	80		301									Saying this, Vanessa slowly lifts her hand as if to touch Liv.																						
+81	81		302								(Stop her)	84	(Stay silent)	86																				
+82	82		202							2					1																			
+83	83		203							1	0.25																							
+84	84		301									Noticing Vanessa's intent, you take a step forward and catch Vanessa by the wrist.																						
+85	85		302								Chief, discuss the mission at hand.	89	...	91																				
+86	86		201							2	500029	5	400																					
+87	87		301									Also sensing Vanessa's intent, Lucia prepares to draw the blade sheathed on her arm at any moment and lunge forward. However, you step forward and catch Vanessa by the wrist.																						
+88	88		302								Chief, discuss the mission at hand.	89	...	91																				
+89	89		204							1	13																							
+90	90	92	301								Vanessa	Heh. I don't know why, but I sure get a kick out of hearing the commandant call me that!	1																					
+91	91		301								Vanessa	Oh? Can't even bring yourself to have a little chit-chat with me?	1																					
+92	92		302								Focus on the mission, please.	93																						
+93	93		204							1	13																							
+94	94		301								Vanessa	Hmph. I see you're still as boring as always.	1																					
+95	95		202							2					1																			
+96	96		203							1	0.25																							
+97	97		301							1	Vanessa	Regardless, shouldn't a doll be punished for disobeying their master?	1																					
+98	98		302								They are my comrades. There is no such thing as a "master."	99																						
+99	99		301								Vanessa	Comrades? You really haven't changed a bit.	1																					
+100	100		301								Vanessa	But if that's how you view them, I have no interest in getting involved. After all, they're your playthings anyway.	1																					
+101	101		302								Constructs aren't "playthings" built to serve.	102																						
+102	102		301								Vanessa	Comrades to you, toys to me. Family to him, tools to her. It's irrelevant. Each team interacts differently.	1																					
+103	103		301								Vanessa	At any rate, the powers that be only care about completing the mission.	1																					
+104	104		301								Vanessa	But there's still one thing I'd like to say...	1																					
+105	105		301									Vanessa leans in and whispers into your ear.																						
+106	106		301								Vanessa	Don't worry, you can cut the act.	1																					
+107	107		301								Vanessa	You can kick 'em to the curb whenever you've had your fun.	1																					
+108	108		301								Vanessa	Even the most beautiful of toys is worthless if it refuses to listen.	1																					
+109	109		301								Vanessa	Compared to such an exquisite dollhouse, they belong in the dump. Do they not?	1																					
+110	110		201							1	500292	6																						
+111	111		301							1	Liv	Vaness... Chief, please focus on the mission.	1																					
+112	112		301									Liv suddenly steps in between you and Vanessa. Looking outside the headquarters, she signals you with her gaze.																						
+113	113		202							1					1																			
+114	114		301									The confrontation had already stirred up quite the audience of onlookers.																						
+115	115		302								...	116																						
+116	116		201							1	500293	13																						
+117	117		301							1	Vanessa	Hmph, why let go so easily? Hold on a little longer if you'd like. After all, it'd give others a chance to see another side of you, Chief.	1																					
+118	118		301									Vanessa gently rubs her wrist, smiling at you and Liv.																						
+119	119		201							1	500029	5																						
+120	120		301							1	Lucia	Chief, the Gray Ravens await your orders.	1																					
+121	121		301									Lucia's loud voice suddenly comes from behind Vanessa. Vanessa scowls and turns to reprimand Lucia.																						
+122	122		203							1	0.25	-400																						
+123	123		201							2	500293		400																					
+124	124		301							1	Vanessa	Did I give you permission to interrupt?	2																					
+125	125		301								Lucia	Apologies for interrupting you, but the Corrupted threat still hasn't been alleviated. We must focus our efforts on the mission.	1																					
+126	126		301								Lucia	Neglecting one's duty may be detrimental to the success of the mission. If the higher-ups want to point fingers, you'll be shouldering the blame as the chief commander.	1																					
+127	127		301								Vanessa	...Hmph.	2																					
+128	128		301									Vanessa quietly sighs, then returns to her seat surrounded by screens.																						
+129	129		401							2	1515																							
+130	130		301									With a gentle tap of the screen, the Gray Raven symbol appears above the hologram of the city.																						
+131	131		204							2	13																							
+132	132		301								Vanessa	Gray Ravens, breach 35th to 42nd Street in Zone B.	2																					
+133	133		301								Vanessa	There are far more Corrupted concentrated in this area than the surroundings. But, I'm sure that won't be an issue for your team. Right, Chief?	2																					
+134	600		204							1																								
+135	134		301								Lucia	Understood.	1																					
+136	135		301				DialogDisable				Vanessa	Good. Don't disappoint me, Gray Ravens.	2																					
+137	136		302								...	137																						
+138	137		302								Gray Ravens, move out.	138																						
+139	138		203							1	0.25	-400																						
+140	139		201							2	500292	5	400																					
+141	140		301			DialogEnable	AniZhuanchangBegin			1	Lucia and Liv	Roger.	1	2																				
+142	141		202							1	2				1																			
+143	142		401							1	201																							
+144	143		101							Assets/Product/Texture/Image/BgStory/Bgstory256.png																								
+145	144		301			AniZhuanchangEnd						As the Gray Ravens depart, the other teams originally gathered outside of the headquarters return to their respective posts.																						
+146	145		401							2	1515																							
+147	146		301									Vanessa types on a screen as she watches the Gray Ravens leave.																						
+148	147		201							1	500293	13																						
+149	148		301		1		AniZhuanchangBegin			1	Vanessa	【kuroname】, how long do you think you can live out this naive fantasy of yours?	1																					

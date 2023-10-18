@@ -1,0 +1,187 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory569.jpg																								
+2	2		401							1	66																							
+3	3		301			DialogEnable						On the plaza beyond the tower, countless mechanoids can be seen working on removing snow and strengthening the ground.																						
+4	4		301									They are fast and orderly. Barely communicating with one another, they still function perfectly fine as a team.																						
+5	5		301									From underground, the main building stems all the way up to the surface. Vaguely, one can still tell what it used to be—a starship, now buried.																						
+6	6		301									The starship is reminiscent of the root of a tree—upon which the steel tower grows skyward through the ground.																						
+7	7		301									As spectacular as it is, the structure stands awkwardly in the middle of nowhere—a sight made possible by the machines that have planned and worked on it.																						
+8	8		301				AniZhuanchangBegin					There is no window because machines need no sunlight. The orderly electrical wiring and space assignment inside the building bring about still colder vibes.																						
+9	9		101			DialogDisable	AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/Bgstory350.jpg																								
+10	10		301			DialogEnable						The hall in the center of the structure is the only place in it that shines brightly.																						
+11	11		301									Above the center of the courtyard is an unfinished gear-shaped chandelier.																						
+12	12		301									Flickering, the fluorescent green light of the chandelier is reminiscent of sunlight filtering through trees. Nanami stops in her tracks to look at the chandelier.																						
+13	13		401							1	201																							
+14	14		301								???	You are back... Sage.																						
+15	15		301									A strange male voice has caught Nanami's attention.																						
+16	16		301									Nanami has never seen the beast mechanoid behind her. Minimally coated and carrying black burn marks on its arms, the machine has the head of a jackal.																						
+17	17		201							1	500477	3																						
+18	18		301							1	Haicma	Spooner?... Please don't leave your post unattended. This will only create unnecessary conflicts if "Gear" finds you negligent.	1																					
+19	19		203							1	0.25	-400																						
+20	20		201							2	500472		400																					
+21	21		301							1	Nanami	What's "Gear"?	2																					
+22	22		301									On their way here, Haicma and Nanami already brought each other up to speed on what each of them knows, yet Haicma has yet to get to the details about the Church of Machina.																						
+23	23		301								Spuner	...What's wrong with Sage?																						
+24	24		301								Spuner	Did that just happen...?																						
+25	25		301									Haicma nods.																						
+26	26		301								Haicma	"Sage's Confusion".	1																					
+27	27		204							1																								
+28	28		301								Haicma	Spooner is someone you can trust, Nanami.	1																					
+29	29		204							2	7																							
+30	30		301								Nanami	You spoke of my arrival, and now I'm confused?	2																					
+31	31		301									The beast mechanoid does not hear Nanami's mumbling. Nodding his head, Spooner goes ahead and tells Nanami about "Gear".																						
+32	32		202							1	2				1																			
+33	33		301								Spuner	"Gear" is the Church's army. As you might have already guessed, they control everything from war to this thing.																						
+34	34		301									The beast mechanoid points at the glamorous chandelier.																						
+35	35		301								Spuner	The symbols, the tower, the army, maintaining order... but they're all subpar imitations.																						
+36	36		301								Spuner	...This was supposed to be a utopia.																						
+37	37		301									Mumbling as he shakes his head, Spooner turns around and heads for the chandelier's worksite.																						
+38	38		301								??	Spooner, it's here. Aren't you going to have a look at it before you head back?	1																					
+39	39		401							2	1504																							
+40	40		301									A team of machine soldiers shows up at the entrance, escorting a few supply wagons. The leader has a bright-colored coating with a brilliant red heart shape on her chest.																						
+41	41		201							1	500468	2																						
+42	42		301								??	...My, is that Sage?!	1																					
+43	43		301									The red mechanoid runs over, trying to hug Nanami.																						
+44	44		203							1	0.25	-400																						
+45	45		201							2	500472	7	400																					
+46	46		301							1	Nanami	Are you Nanami's friend, too?	2																					
+47	47		204							1	7																							
+48	48		204							2																								
+49	49		301								??	F-friend? That's a word Sage uses a lot. Guess I should try to remember that, too...	1																					
+50	50		204							1	2																							
+51	51		301								??	But what better way is there to show love than a hug, right? On behalf of "Gear", let me love you!	1																					
+52	52		203						100	1	0.25	200																						
+53	53		502							PanelActor2Shake																								
+54	54		203							2	0.25	450																						
+55	55		301									Embraced by the overly excited mechanoid, Nanami struggles to keep her head up.																						
+56	56		301									But Haicma just stands behind and reaches out her hand, quietly laying it over Nanami's. She does not need any words.																						
+57	57		201							3	500477	4	-400																					
+58	58		301							1	Haicma	Zero... Have you finished your work?	3																					
+59	59		301								Zero	Oh, Sage... You are so soft...	1																					
+60	60		204							2	5																							
+61	61		301								Nanami	Hey, stop it!	2																					
+62	62		301									Unable to stand Zero's hug anymore, Nanami slaps Zero's hands away.																						
+63	63		202							3					1																			
+64	64		203							1	0.25	-400																						
+65	65		203							2	0.25	400																						
+66	66		301								Zero	I see you're doing very well, Sage... I can't tell you how worried I was seeing you all down and sad before...	1																					
+67	67		204							2																								
+68	68		301									Haicma mentioned this mechanoid before. Her name is Zero, and she is the very person behind the Church's split-up. Displaying her hands that have just been slapped away by Nanami, Zero speaks in an exaggerated yet sincere tone.																						
+69	69		204							1																								
+70	70		301								Zero	Speaking of "friend," do allow me to show you one, Sage.	1																					
+71	71		301									Zero puts her arm around another machine in the team, demonstrating her understanding of "friend."																						
+72	72		301								Wheel of Fortune	Squeak—friend. Friend!																						
+73	73		301								Zero	How do you like the chandelier and the hall? They're all gifts to you from "Gear"—with lots of love, of course.	1																					
+74	74		301								Zero	It's a real shame, though, that we weren't able to show these to you after they are finished. Who would you say is responsible for this mishap, Spooner?	1																					
+75	75		301								Spuner	Hmph...																						
+76	76		301								Zero	We've cleaned up Fort Jotunheim up north where the humans are, so go ahead and use these. Based on our projection, we'll have more than enough if we add Niflheim to the list.	1																					
+77	77		301									Lover opens a crate near the entrance.																						
+78	78		204							2	7																							
+79	79		301								Nanami	What's that...	2																					
+80	80		301								Spuner	Organic bones. We made the green light in the chandelier with these.																						
+81	81		301								Zero	Exactly. It's like how people usually put the remains of their game up on the wall for decoration after hunting. Gotta make full use of these inferior beings somehow.	1																					
+82	82		204							2																								
+83	83		301								Nanami	And you "polish" them and give them away as gifts... and that's how you show your "love," right?	2																					
+84	84		301									At this moment, it dawned on Nanami what Spooner was referring to when he said "subpar imitations." These gifts—that "Gear" has acquired with brute force and is giving to Sage out of reverence and love—disgust Nanami to no end.																						
+85	85		204							1	2																							
+86	86		301								Zero	My... You saw right through us, Sage. Seems like we'll have to be more careful planning surprises for you down the road.	1																					
+87	87		301								Zero	Well then, I'll be off getting ready for Niflheim, then. We don't want to leave "Gear" idle for way too long!	1																					
+88	88		301								Zero	Let's hope the last handful of humankind will suit your taste as a "surprise," Sage.	1																					
+89	89		301									Zero obsessively caresses her wrist where Nanami touched.																						
+90	90		301				AniZhuanchangBegin				Zero	It's the only way you'll feel my love, Sage...	1																					
+91	91		202			DialogDisable				1	2				1																			
+92	92		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/Bgstory350.jpg																								
+93	93		201							1	500477	3	-400																					
+94	94		201							2	500472		400																					
+95	95		301			DialogEnable				1		Seeing Zero off with her troop, Haicma turns to face Nanami.																						
+96	96		301								Haicma	...	1																					
+97	97		301								Haicma	Nanami...?	1																					
+98	98		301									No longer disoriented, the girl shakes her head.																						
+99	99		202							1					1																			
+100	100		203							2	0.25																							
+101	101		204							2	14																							
+102	102		301								Nanami	I don't like them acting this way.	2																					
+103	103		301								Nanami	They know nothing about love even when they were born from human creations. They are nothing but copycats... and now they're forcing me to accept their "love."	2																					
+104	104		301								Nanami	No, not me—the Sagemachina, the version they created in their heads.	2																					
+105	105		301								Nanami	Nanami is no god... From the very get-go, all I wanted was for everyone to live happily ever after.	2																					
+106	106		301								Nanami	Be they machines or humans...	2																					
+107	107		301									Her face showered in the light from the chandelier, Nanami is reminiscent of a godsent child.																						
+108	108		204							1	4																							
+109	109		301								Nanami	Is there any way to make them stop fighting?	2																					
+110	110		203							2	0.25	400																						
+111	111		201							1	500477	4	-400																					
+112	112		301							1	Haicma	We may mess up some of the mechanoids' machine logic if we force "Gear" to stop their military operations, which might, in turn, result in unnecessary sacrifices. It's also only a matter of time before humankind comes to an end.	1																					
+113	113		301								Nanami	I came here to do one thing—that is, to stop the machines from falling apart as a group, so they won't fight humankind.	2																					
+114	114		301								Nanami	Nanami can tell you that this is not a path we should be on.	2																					
+115	115		301								Spuner	But the situation right now is...																						
+116	116		301								Nanami	Nanami knows what you're all worried about. It's a difficult problem to solve, which is why I need your help, Haicma... and you too, Doggo.	2																					
+117	117		301									Having been conducting himself with composure, the beast mechanoid shakes his tail.																						
+118	118		301								Spuner	I'm glad you've finally called me that, Sage. I wasn't so sure how to act around you when you were so distant...																						
+119	119		301									When Nanami holds out her hand, the beast mechanoid lowers himself to let Nanami pat him on the head. It all just seems so natural.																						
+120	120		204							2	1																							
+121	121		301									She smiles.																						
+122	122		301								Nanami	This is the first time I see you all here, but I do feel a sense of familiarity...	2																					
+123	123		301								Nanami	I feel like it's my destiny to fight along your side!	2																					
+124	124		301								Nanami	Alright! Bring it on!	2																					
+125	125		204							2	4																							
+126	126		301				AniZhuanchangBegin				Nanami	But there are still a few more things I need to figure out... How did this war start in the first place?	2																					
+127	127		202			DialogDisable				1	2				1																			
+128	128		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/Bgstory350.jpg																								
+129	129		201							1	500477	4																						
+130	130		301			DialogEnable				1	Haicma	Humankind and machines are not destined to coexist once machines evolve beyond human understand... which is something human scientists put forth and gained recognition all the way back in the Golden Age.	1																					
+131	131		301								Haicma	In human civilization and history, human beings, prompted by their "moral standards," have excelled at seeking change by betraying outdated stances and beliefs.	1																					
+132	132		301								Haicma	Which is why it took humankind such a tremendous amount of time and resources to go from the Dark Ages to the Golden Age.	1																					
+133	133		301								Haicma	But in the world of machines, there are only "0" and "1". The answer to everything is either yes or no. 0 marks the beginning, and 1 marks the end.	1																					
+134	134		301								Haicma	Humankind makes all sorts of mistakes down the path of history. When mistakes are made, reforms are brought about to correct those mistakes.	1																					
+135	135		203							1	0.25	-400																						
+136	136		201							2	500472	14	400																					
+137	137		301							1	Nanami	But machines cannot correct their mistakes, for they have no heart...	2																					
+138	138		301								Nanami	Humankind isn't entirely bad nor good—which is something the machines fail to understand, which is what causes them to either correct or continue human mistakes...	2																					
+139	139		301								Spuner	Right... This war is not about who did something wrong.																						
+140	140		301								Nanami	If everyone can be like Haicma or Spooner, perhaps there won't be a war...	2																					
+141	141		301								Haicma	"Mother" said that you are the most awoken machine there is as the Sagemachina.	1																					
+142	142		204							2	7																							
+143	143		301								Nanami	This "Mother" is the leader of the Church of Machina, right? Why don't we just ask her to put an end to it all, then?	2																					
+144	144		204							1	10																							
+145	145		301								Haicma	...It won't work.	1																					
+146	146		204							1																								
+147	147		301								Haicma	"Mother" treats us just like a mother. She takes in every machine in the Church with gentle care, listening to their prayers and wishes while providing shelter. We are like her children.	1																					
+148	148		204							2																								
+149	149		301								Haicma	But "Mother" has never been biased on any side. Nor has she tried to stop the machines from splitting.	1																					
+150	150		301								Spuner	Precisely speaking, Madam Arcana has absolute faith in Gestalt's calculations. So long as a split-up doesn't threaten the future of the Church, the best you'll get from her is her comfort.																						
+151	151		204							2	14																							
+152	152		301								Nanami	But... all these tragedies!	2																					
+153	153		202							1	2				1																			
+154	154		301								Spuner	The incompleteness of the awakened machines is to blame for the tragedy we are seeing...																						
+155	155		301								Spuner	There has been a simulation where you get a "paper-making robot" after programming a machine to make paper. If the robot just goes on to make papers until the end of time...																						
+156	156		301								Spuner	What eventually happens is that the robot will kill the humans that created it in the first place and turns humankind into paper. It then goes on to cut down all the trees and kills all the animals before turning them into paper, too.																						
+157	157		301								Spuner	In the very end, it has created paper land, paper planets, even a paper universe.																						
+158	158		301								Spuner	A machine only knows what it's been told to do, but it'll never understand why it's been told to do its tasks. It doesn't reflect upon its behaviors. All it does is repeat what it's been told.																						
+159	159		301								Spuner	And this "inspiration" that you brought about, Sage—that is, the feelings, the desires, the love, and the hate born out of human nature... They were indefinitely amplified by the machines through their absolute rationality and order.																						
+160	160		301								Spuner	Humankind, as adept at "thinking outside the box" as they are, is therefore seen as a group of heretics for lacking the ability to advance and generate maximized values.																						
+161	161		301								Spuner	To the machines, humankind is now nothing but a hindrance.																						
+162	162		301								Spuner	Machines overpower humankind to such an unfathomable extent that "Gear" can literally crush humankind whenever they want.																						
+163	163		301								Spuner	To humankind, the machines no doubt seem violent and irrational. Ever since the machines began awakening, the two civilizations each went down a path that seemed as similar as they were different.																						
+164	164		201							1	500472	14																						
+165	165		301							1	Nanami	...I couldn't teach them what freedom was...	1																					
+166	166		203							1	0.25	400																						
+167	167		201							2	500477	4	-400																					
+168	168		301							1	Haicma	There is no need to blame yourself.	2																					
+169	169		301								Haicma	The machines needed patient guidance, but with the virus wreaking havoc on Earth, there were too many uncertainties.	2																					
+170	170		301								Haicma	Besides the virus, humankind is also under threat from the machines—which they know close to nothing about.	2																					
+171	171		301								Haicma	Human society still has quite a way to go before it's capable of controlling the current situation. Humankind is hopeless against the virus and the awakening of machines.	2																					
+172	172		401							2	213																							
+173	173		301									The furnace is still burning red-hot.																						
+174	174		301									All the combustibles have been thrown into the fire to keep the fire burning. After that, they throw in all sorts of metals, armor pieces, cartridges, and soldiers' tags.																						
+175	175		301									Everything of humanity is slowly being wiped away by machines and gets turned into the materials to build their new world.																						
+176	176		402							213																								
+177	177		204							1	4																							
+178	178		301								Nanami	I understand now.	1																					
+179	179		301								Nanami	But I wouldn't have been here without humankind—and neither would there have been an "inspiration."	1																					
+180	180		301								Nanami	If everybody merely imitates the behavior of humans, they won't be able to find their own purpose...	1																					
+181	181		301								Nanami	I came here to witness the answer. Now that I have seen it... I want to correct it.	1																					
+182	182		301								Nanami	I have prepared myself. The top priority right now is to stop Zero's "final battle"!	1																					
+183	183		301								Haicma	You know where I stand.	2																					
+184	184		301								Spuner	...Why are you all looking at me? I'm in, of course.																						
+185	185		204							2	2																							
+186	186		301		1		AniZhuanchangBegin				Nanami	Thank you, but I think I'll do it alone... because things will only get complicated down the line, and I don't want to involve anyone else in it.	1																					

@@ -1,0 +1,171 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory106.png																								
+2	2		401							1	50																							
+3	3		201							1	500292																							
+4	4		301			DialogEnable				1	Liv	Commandant, looks like Lee found something. He and Lucia are on their way back to our position.	1																					
+5	5		302								Understood.	6																						
+6	6		301									After enduring the stress of providing long-ranged support for Lucia and Lee, Liv finally sighs in relief and turns to look at you.																						
+7	7		301								Liv	Good thing you're here, Commandant. I couldn't have done this without you.	1																					
+8	8		302								You've already done great.	9																						
+9	9		301								Liv	Oh, uh, thanks for the encouragement, Commandant.	1																					
+10	10		301								Liv	Vanessa assigned us a difficult mission, but I'm glad everything went according to plan.	1																					
+11	11		302				AniZhuanchangBegin				Yeah. If everything keeps going so smoothly...	12																						
+12	12		101							Assets/Product/Texture/Image/BgStory/Bgstory295.png																								
+13	13		202							1					1																			
+14	14		502							RImgBg1Shake																								
+15	15		401							1	203																							
+16	16		401							2	10007502																							
+17	17		301			AniZhuanchangEnd						Bang—!																						
+18	18		201							1	500292	5																						
+19	19		301							1	Liv	Huh?!	1																					
+20	20		301									The blast of an explosion erupts near the base of the building. After the explosion, you and Liv notice that the roof is now at a clear slant.																						
+21	21		201							1	500029	5																						
+22	22		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+23	23		301							1	Lucia	Liv, Commandant! What's going on over there?!	1																					
+24	24		401							2	1503																							
+25	25		301									The slanting roof causes you to stagger uncontrollably. The pile of equipment off to the side also begins to fall onto the ground.																						
+26	26		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+27	27		201							1	500292	5																						
+28	28		301							1	Liv	It's... It's a Jitterbomb!	1																					
+29	29		201							1	500029	3																						
+30	30		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+31	31		301							1	Lucia	A Jitterbomb?	1																					
+32	32		201							1	1011001																							
+33	33		301							1	Lee	Hmph... Looks like it's too late.	1																					
+34	34		301								Lee	They were originally used for industrial blasting, but they were modified for use in the war. The army added encryption camouflage to them, so they typically don't appear on scans.	1																					
+35	35		301								Lee	Our operation seems to have alerted Corrupted, but they must've accidentally triggered a Jitterbug while converging on this location...	1																					
+36	36		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+37	37		202							1					1																			
+38	38		401							2	10007502																							
+39	39		301			RImgBg1Shake						Bang—!																						
+40	40		301									A second round of explosions detonates, causing you and Liv to lose your balance on the already shaky ground. The pile of equipment topples onto the both of you, then carries you off toward the edge of the roof.																						
+41	41		201							1	500292	5																						
+42	42		301							1	Liv	Commandant!	1																					
+43	43		302								(Grab Liv's hand)	44																						
+44	44		202							1					1																			
+45	45		401							2	10007502																							
+46	46		301			RImgBg1Shake				1		Bang—!																						
+47	47		301							1		Liv grabs onto a guard rail and reaches out to you. You struggle to grab her hand, made even more cumbersome by a third explosion.																						
+48	48		301									You roll off the side of the building. Your mind draws a blank as you are overcome by the feeling of weightlessness.																						
+49	49		302								...	50																						
+50	50		201							1	500029	5																						
+51	51		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+52	52		301							1	Lucia	Commandant!	1																					
+53	53		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+54	54		202							1					1																			
+55	55		301									Among all of the equipment falling around you, you catch a glimpse of the rappelling gear Lee had already installed for you.																						
+56	56		302								(Grab rope)	57																						
+57	57		301									Gripping the rope tightly, it quickly begins to slip. Your rapid descent causes the friction to rub through your protective gloves. Intense heat sends blood trickling from the gap between your hands and the rope.																						
+58	58		302								(Grit teeth)	59																						
+59	59		301									The blistering pain from your hands fills your mind. Your body urges you to let go, but your spirit compels you to grip even tighter.																						
+60	60		301				AniZhuanchangBegin					You see Liv on the roof forcefully pulling up the rope, but you're falling too fast to notice any immediate reduction in speed.																						
+61	61		101							Assets/Product/Texture/Image/BgStory/Bgstory328.png																								
+62	62		301			AniZhuanchangEnd						From the ground level, Lucia and Lee rush over to the building where you and Liv are located.																						
+63	63		201							1	1011001		-400																					
+64	64		201							2	500029	5	400																					
+65	65		301							1	Lucia	Hurry! Pick up the pace!	2																					
+66	66		202							1	2				1																			
+67	67		301									They are moving even faster than usual, but everything seems futile in the face of such a dire, sudden situation.																						
+68	68		301									Such a rapid pace has pushed the frame to its limit, causing the frame's cooling system to roar violently as it is overloaded by the high temperature.																						
+69	69		301									A series of chain reactions from overheating causes Lucia's frame to emit electric sparks violently.																						
+70	70		401							2	1506																							
+71	71		401							2	1512																							
+72	72		301									As if in protest to the excessive disregard of safety regulations, "Dawn" gives out a loud "BANG!", drastically reducing forward progress and causing Lucia to fall on the ground.																						
+73	73		201							2	500029	9																						
+74	74		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		2																						
+75	75		301							1	Lucia	Cough... Is "Dawn" at its limit?	2																					
+76	76		301			RImgBg1Shake					Lucia	The commandant will die falling to the ground at this speed... Get—MOVING!	2																					
+77	77		301									However, the collapsed frame remains irresponsive to Lucia. The cooling system is used to operating at such a high frequency, but the legs had overheated and were now inoperable.																						
+78	78		301								Lucia	Well then...	2																					
+79	79		202							1	2				1																			
+80	80		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		2																					
+81	81		301									Realizing the state of her frame, Lucia grabs her katana, charges up a throw and launches her katana at full force.																						
+82	82		301									Despite Lucia's right arm showing signs of being dislocated from the throw, her katana hurls directly toward the commandant.																						
+83	83		401							2	10002001																							
+84	84		301									Finally, the katana collides with the rope in hand, firmly embedding it into the wall with the impact, stopping your fall just two meters off the ground.																						
+85	85		301									Looking down at the ground, a large crater from the Jitterbomb blasts can be seen. A large number of Corrupted fragments were blasted off the building and into the crater.																						
+86	86		302				AniZhuanchangBegin				Phew... That was a close one.	87																						
+87	87		101							Assets/Product/Texture/Image/BgStory/Bgstory329.png																								
+88	88		401							1	211																							
+89	89		301			AniZhuanchangEnd						With Liv's help, you climb out of the huge crater.																						
+90	90		301									Thanks to Lucia's cooling system, her legs regain a degree of mobility. Lee helps her limp back and regroup with the both of you.																						
+91	91		301									Both of your protective gloves have been destroyed by the friction. Blood continues to trickle out from your hands and onto the ground.																						
+92	92		301									Liv takes out some bandages from the medical kit, then helps dress your wounds.																						
+93	93		201							1	500029	9																						
+94	94		301							1	Lucia	Commandant, your hands...	1																					
+95	95		302								Don't worry. I still have feeling in them.	96																						
+96	96		301								Lucia	I'm sorry I let this happen to you.	1																					
+97	97		203							1	0.25	400																						
+98	98		201							2	500292	6	-400																					
+99	99		301							1	Liv	I'm... I'm sorry... Had I not zoned out, I probably could've just pulled the commandant up.	2																					
+100	100		302								There are too many variables on the battlefield.	101																						
+101	101		301								Lucia	If I had gotten there earlier...	1																					
+102	102		302								No one should blame themselves. We're all alive, aren't we?	103																						
+103	103		301								Lucia and Liv	...	1	2																				
+104	104		301									Liv quietly finishes bandaging your hands and injects you with a serum.																						
+105	105		301								Liv	Now there shouldn't be any risk of corruption.	2																					
+106	106		302								Thanks.	107																						
+107	107		301								Liv	Don't thank me... I didn't do my job...	2																					
+108	108		202							1	2				1																			
+109	109		301									Lee helps Lucia rest beside the ruins, then gets up and walks up to you.																						
+110	110		201							2	1011001																							
+111	111		301							1	Lee	Leave the rest of this operation to us. Liv, take the commandant back to the base for recovery.	2																					
+112	112		301								Lee	The commandant will be a burden otherwise.	2																					
+113	113		201							2	500029	5																						
+114	114		301							1	Lucia	Lee.	2																					
+115	115		201							2	1011001																							
+116	116		301							1	Lee	I'm just stating the facts. You've helped out considerably, but the commandant can hardly even shoot.	2																					
+117	117		301								Lee	And if the wounds go untreated, that may cause even more trouble down the line.	2																					
+118	118		302								Are you worried about me?	119	Are you belittling me?	119																				
+119	119		301								Lee	Not at all.	2																					
+120	120		301								Lee	Liv, return to base once you've finished giving the commandant first aid.	2																					
+121	121		203							2	0.25	-400																						
+122	122		201							1	500292		400																					
+123	123		301							1	Liv	Alright. Commandant...	1																					
+124	124		302								I refuse.	125																						
+125	125		301								Lee & Liv	Hm?	1	2																				
+126	126		302								Lee, why have you stepped foot on the battlefield?	127																						
+127	127		301								Lee	What sort of nonsense is this?	2																					
+128	128		302								You can't answer a question with another question.	129																						
+129	129		301								Lee	...	2																					
+130	130		301								Lee	In order to restore Earth as quickly as possible.	2																					
+131	131		301								Liv	Sounds about right for you, Lee.	1																					
+132	132		302								Restore Earth with whom?	133	I'll take it.	139																				
+133	133		202							1	2				1																			
+134	134		201							2	1011001																							
+135	135		301							1	Lee	...	2																					
+136	136		302								Someone important?	137																						
+137	137		301								Lee	Yes.	2																					
+138	138		302								I'll take it.	141																						
+139	139		202							1	2				1																			
+140	140		201							2	1011001																							
+141	141		301				DialogDisable			1	Lee	...Why bring this up?	2																					
+142	142		302								Everyone has their own reason for stepping foot on the battlefield.	143																						
+143	143		302								You do, and so do I.	144																						
+144	144		302								Our conviction to endure has us outrun death time and again.	145																						
+145	145		301			DialogEnable	DialogDisable				Lee	But we are Constructs. You are human. We are inherently different.	2																					
+146	146		302								The moment anyone steps onto the battlefield, Constructs and humans are one and the same.	147																						
+147	147		302								We all exist under one name.	148																						
+148	148		302								And that is—warriors.	149																						
+149	149		301			DialogEnable					Lee	...	2																					
+150	150		302								Warriors belong on the battlefield.	151																						
+151	151		301								Lee	Even so, if you die, all of this will be in vain.	2																					
+152	152		302								Well, I've never had a death wish.	153	I'd still like to live long enough to collect on retirement.	153																				
+153	153		301								Lee	I see...	2																					
+154	154		302								Exactly.	155																						
+155	155		301									You lock eyes with Lee for a moment, then he turns to leave.																						
+156	156		301								Lee	Alright, sure.	2																					
+157	157		301								Lee	But if anything happens again, I'll have Liv send you back to the rear. You won't be able to convince me otherwise.	2																					
+158	158		301								Lee	I'll go check the area for any remaining Jitterbugs. Everyone stay put.	2																					
+159	159		202							1	2				1																			
+160	160		301									Finished speaking, Lee proceeds to the end of the street. Lucia leans up against a brick wall and looks up toward you.																						
+161	161		302								Great job back there.	162																						
+162	162		201							1	500029	3																						
+163	163		301							1	Lucia	Thank you, Commandant. I've already recorded the limits and shortcomings of this frame.	1																					
+164	164		301								Lucia	I'll organize it when I get back and submit it for improvements.	1																					
+165	500		204							1	5																							
+166	165		301								Lucia	But I'm finally understanding what it means to be a captain.	1																					
+167	166		302								Do your thing, Lucia.	167																						
+168	167		301								Lucia	Understood.	1																					
+169	168		201							1	500292	5																						
+170	169		301		1		AniZhuanchangBegin				Liv	...	1																					

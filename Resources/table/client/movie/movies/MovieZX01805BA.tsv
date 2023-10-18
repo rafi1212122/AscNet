@@ -1,0 +1,205 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		504							0.7																								
+2	2		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+3	3		401							1	36																							
+4	4		201							1	500110																							
+5	5		301			DialogEnable				1	Ayla	Really? Is that what you think?	1																					
+6	6		301								Ayla	Nothing strange about that.	1																					
+7	7		301								Ayla	But she is different. Even though she's never been to Earth herself, she's had all sorts of unrealistic fantasies about it.	1																					
+8	8		301								Ayla	When she was still around, she used to always ask me if there are any humans left on Earth.	1																					
+9	9		202							1					1																			
+10	10		301				AniZhuanchangBegin					Ayla closes her eyes.																						
+11	11		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+12	12		301			AniZhuanchangEnd					???	Our primary school teachers all said that it was the cradle of life and our birthplace.																						
+13	13		301								???	But due to the Punishing Virus, we were forced to temporarily leave its embrace and protect her from Babylonia.																						
+14	14		301								???	So, Ayla, do you think there are still people on Earth?																						
+15	15		301								Ayla	I think so. Not everyone evacuated during Operation Acadia. There's bound to still be people on the surface.																						
+16	16		301								Ayla	Don't our textbooks say that there were billions of people on the surface at one point?																						
+17	17		301								???	Billions? There's no way Babylonia could support that many people...																						
+18	18		301								Ayla	Obviously. It could probably only support a small fraction of the population.																						
+19	19		301								???	My thoughts exactly.																						
+20	20		301								???	But it's fine.																						
+21	21		301								???	One day, we will reunite with our comrades on the surface. When that time comes, we will share in the marvelous things we have seen and rejoice in song.																						
+22	22		301				AniZhuanchangBegin				???	Nothing is more romantic. Is it not?																						
+23	23		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+24	24		201							1	500110	4																						
+25	25		301			AniZhuanchangEnd				1		Ayla opens her eyes.																						
+26	26		301								Ayla	We were so naive back then. Always sharing our childish fantasies.	1																					
+27	27		301								Ayla	She told me how romantic it would be to reunite with our comrades on the surface...	1																					
+28	28		301								Ayla	We will share in the marvelous things we have seen and rejoice in song.	1																					
+29	29		301								Ayla	But we never considered at the time...	1																					
+30	30		301								Ayla	Why had those on the surface not come to Babylonia?	1																					
+31	31		301								Ayla	What sort of life would they have had on the surface?	1																					
+32	32		301				AniZhuanchangBegin				Ayla	What would people on the surface think of us?	1																					
+33	33		202							1					1																			
+34	34		504							0																								
+35	35		401							1	10																							
+36	36		101							Assets/Product/Texture/Image/BgStory/Bgstory318.png																								
+37	37		301			AniZhuanchangEnd						Your vision returns. There are no wonders to be found here. Only helpless dismay.																						
+38	38		301									Seeing you lost in thought again, Hans furrows his eyebrows.																						
+39	39		201							1	500286																							
+40	40		301							1	Hans	Gray Raven Commandant, you can't even bother to follow orders now, I take it?	1																					
+41	41		201							1	1031001																							
+42	42		301							1	Liv	No, it's not that. Commandant is...	1																					
+43	43		202							1					1																			
+44	44		301									Wanshi scans you with his peripheral vision as if in contemplation.																						
+45	45		301									Hans speaks directly—																						
+46	46		201							1	500286																							
+47	47		301							1	Hans	Enough. I don't have time for your excuses.	1																					
+48	48		301								Hans	Begin evacuating the refugees. If they aren't willing to cooperate, resort to more coercive measures.	1																					
+49	49		202							1					1																			
+50	50		301								Everyone	...!																						
+51	51		301				DialogDisable					Before the other three can respond—																						
+52	52		302								I don't agree with this.	53																						
+53	53		302								This kind of coercion ignores the will of others.	54																						
+54	54		302								It's wrong.	55																						
+55	55		201							1	500286																							
+56	56		301			DialogEnable				1	Hans	Are you defying orders, 【kuroname】?	1																					
+57	57		301								Hans	Watch your attitude and every statement you make.	1																					
+58	58		301								Hans	You don't want to get court-martialed when all of this is said and done.	1																					
+59	59		302								...	60																						
+60	60		202							1					1																			
+61	61		401							2	1516																							
+62	62		301									Lee stands in front of you.																						
+63	63		201							1	500026																							
+64	64		301							1	Lee	Understood.	1																					
+65	65		301								Lee	Please give us some more time. Not all of the nodes have been deployed yet, have they?	1																					
+66	66		201							1	500286																							
+67	67		301							1	Hans	That's right, but let me make myself clear. Once the nodes are fully deployed, Babylonia will obliterate the surrounding area.	1																					
+68	68		301								Hans	If you don't wish to be decimated along with it, I suggest you hurry up and complete your mission.	1																					
+69	69		202							1																								
+70	70		401							2	1516																							
+71	71		301									Finished speaking, Hans turns and leaves.																						
+72	72		201							1	500273																							
+73	73		301							1	Wanshi	Yawn... Well... Looks like I'm not needed here anymore.	1																					
+74	74		301				AniZhuanchangBegin				Wanshi	Catch ya later. I'm gonna recharge my batteries.	1																					
+75	75		202							1					1																			
+76	76		401							2	1516																							
+77	77		101							Assets/Product/Texture/Image/BgStory/Bgstory318.png																								
+78	78		301			AniZhuanchangEnd						Knocking open the door to the residence—																						
+79	79		201							1	1031001																							
+80	80		301							1	Liv	Sir, Babylonia is going to unleash a wide-scale attack on the surrounding area. Please gather your family and evacuate immediately.	1																					
+81	81		201							1	500136																							
+82	82		301							1	Refugee	Where do we evacuate to?	1																					
+83	83		202							1					1																			
+84	84		301									Liv bites her lip.																						
+85	85		301									Because the answer is simple—nowhere.																						
+86	86		301									Eden has no extra "tickets," and there is no place on the surface that can be called a "safe refuge."																						
+87	87		301									The conservation area has not yet been built, and there is simply no way to accommodate all the displaced people.																						
+88	88		301									At present, there is only just enough time to evacuate the refugees to an area that will not be affected by the blast.																						
+89	89		301									The refugee smiles sarcastically at Liv's silence.																						
+90	90		201							1	500136																							
+91	91		301							1	Refugee	Enough with the hypocrisy. Is this really in our best interest? Or do you just not want to see us die before your very eyes?	1																					
+92	92		301								Refugee	Look at you. Your conscience is just as repulsive as your actions.	1																					
+93	93		301								Refugee	Removing us from our homeland will make you sleep better at night, but it won't make our lives any better.	1																					
+94	94		201							1	500166	5																						
+95	95		301							1	Lucia	That's not what we intend on—	1																					
+96	96		401							2	1512																							
+97	97		301									The refugee slams the door in their faces.																						
+98	98		203							1	0.25	-450																						
+99	99		201							2	500026		450																					
+100	100		301							1	Lee	That's the fourth household.	2																					
+101	101		301								Lucia	Why are they so stubborn?	1																					
+102	102		202							1	2				1																			
+103	103		201							1	1031001																							
+104	104		301							1	Liv	The old man... seems to be their leader.	1																					
+105	105		202							1					1																			
+106	106		201							1	500166		-450																					
+107	107		201							2	500026		450																					
+108	108		301							1	Lucia	If he is willing to leave, others will probably follow.	1																					
+109	109		301				AniZhuanchangBegin				Lee	Agreed.	2																					
+110	110		202							1	2				1																			
+111	111		101							Assets/Product/Texture/Image/BgStory/Bgstory316.png																								
+112	112		301			AniZhuanchangEnd						After several more doors slam in their faces..																						
+113	113		301									A familiar face opens the door.																						
+114	114		201							1	500294																							
+115	115		301							1	Old Man	It's you.	1																					
+116	116		201							1	1031001																							
+117	117		301							1	Liv	Mister...	1																					
+118	118		201							1	500294																							
+119	119		301							1	Old Man	Ah... I know why you're here.	1																					
+120	120		301									Lucia nods.																						
+121	121		301								Old Man	Then you should know my answer. I already told you.	1																					
+122	122		203							1	0.25	450																						
+123	123		201							2	500166		-450																					
+124	124		301							1	Lucia	I still don't get it... Why? Is it because we aren't looking at this from your point of view?	2																					
+125	125		301								Old Man	I'm sure you understand, kiddo.	1																					
+126	126		301								Old Man	Our point of view isn't as different from yours as you think.	1																					
+127	127		301								Old Man	In your eyes, what is Babylonia?	1																					
+128	128		301								Lucia	It's a bastion for humanity's strongest—	2																					
+129	129		301								Old Man	No. That's not what I asked. I mean what was Babylonia before the Punishing Virus and the Great Evacuation?	1																					
+130	130		301								Lucia	It was humanity's first FTL colonization ship.	2																					
+131	131		301								Old Man	Then why hasn't it taken you all into deep space?	1																					
+132	132		301								Lucia	Because we lost Earth and want to take it back.	2																					
+133	133		301								Old Man	Why do you want to take it back?	1																					
+134	134		301								Lucia	...	2																					
+135	135		301								Lucia	Our mission is to take back humanity's homeland.	2																					
+136	136		301								Lucia	That is our mission. That is the meaning of our existence.	2																					
+137	137		301								Old Man	But this homeland is no longer of any use to you.	1																					
+138	138		301								Old Man	Cities destroyed; civilizations collapsed. Earth is now just a sea of ruins.	1																					
+139	139		301								Old Man	Babylonia floats above Earth, just like we stand here in these ruins. Why not leave?	1																					
+140	140		301								Old Man	Have you ever thought that taking back Earth might be meaningless?	1																					
+141	141		301								Old Man	Now you are a Construct, not a human being. You don't need to inherit the meaning of human existence.	1																					
+142	142		301									Lucia wavers slightly.																						
+143	143		301								Lucia	No, you're wrong. This is what we were born to do...	2																					
+144	144		301								Old Man	That may have been why you were created, but that doesn't mean it has to be why you continue to exist.	1																					
+145	145		301								Lucia	...	2																					
+146	146		301								Old Man	Much like how people should live, but they shouldn't just "live." There are far more important things than to "just live."	1																					
+147	147		301								Old Man	Do you understand now?	1																					
+148	148		202							1	2				1																			
+149	149		301									Lucia closes her eyes.																						
+150	150		201							1	500294		450																					
+151	151		201							2	500166		-450																					
+152	152		301							1	Lucia	This is the path I chose. Just like this is the path each of you has chosen.	2																					
+153	153		301									The old man smiles faintly.																						
+154	154		301								Old Man	Exactly. This is the path we chose, and this is the meaning we give our lives.	1																					
+155	155		301								Old Man	We have nothing left. Our only driving force left is our attachment to this land. It's the only thing that supports our menial existence.	1																					
+156	156		301								Old Man	Our last wish is to forever rest within its embrace.	1																					
+157	157		301								Old Man	You think we're unreasonable choosing to die rather than to leave. I think you're being equally unreasonable.	1																					
+158	158		301								Old Man	The irony of man. People can never reach a real mutual understanding.	1																					
+159	159		301								Old Man	This land is our blood, sweat and tears. Our history. Our memories. Everything we created, cherished, loved, and lost.	1																					
+160	160		301								Old Man	As I have said, if you still have an ounce of compassion, please don't deprive us of our last request.	1																					
+161	161		301								Old Man	Please respect our last will.	1																					
+162	162		202							1	2				1																			
+163	163		401							2	1516																							
+164	165		301									Lee steps forward and pats Lucia on the shoulder.																						
+165	164		201							1	500026																							
+166	166		301							1	Lee	We understand.	1																					
+167	167		301								Lee	Sorry to bother you. Goodbye.	1																					
+168	168		202							1					1																			
+169	169		301				AniZhuanchangBegin					Just as you are about to leave, you hear a commotion nearby.																						
+170	170		401							2	1513																							
+171	171		201							1	500251																							
+172	172		301			AniZhuanchangEnd				1	Woman	Don't you think it's ridiculous to tell us that we are also citizens of the World Government?!	1																					
+173	173		301								Woman	Don't you remember how you treated us when the evacuation started?!	1																					
+174	174		301								Woman	You held us at gunpoint to prevent us from boarding Eden!	1																					
+175	175		301								Woman	You left us behind like junk, now you dare to come back and "rescue" us? Are you kidding me?	1																					
+176	176		301								Woman	Get out!	1																					
+177	177		301								Woman	Get out of here! I don't need your fake compassion now!	1																					
+178	178		202							1					1																			
+179	179		301									The person she is confronting is none other than Hans.																						
+180	180		301									His starched and pressed uniform had been stained.																						
+181	181		301									Almost like someone had poured a bucket of dirty water on him.																						
+182	182		201							1	500028																							
+183	183		301							1	Construct Captain	Chief Commander Hans!	1																					
+184	184		301								Construct Captain	You—!	1																					
+185	185		202							1					1																			
+186	186		301									By the time you rush over, the two of them are about to clash.																						
+187	187		401							1	203																							
+188	188		301									Suddenly, you hear the distant serenade of the "whale song."																						
+189	600		401							2	855																							
+190	189		301								???	——▆——▃——▆▇																						
+191	190		301									The serene and resonating sound floats gracefully in the wind like a bird through the clouds.																						
+192	191		301									It sounds close yet distant.																						
+193	192		301				AniZhuanchangBegin					The sound is not grating, but Hans and the old man who had just arrived wince at the same time.																						
+194	194		201							1	500294																							
+195	195		301			AniZhuanchangEnd	AniZhuanchangBegin			1	Old Man	Not good...	1																					
+196	196		201							1	500286																							
+197	197		301			AniZhuanchangEnd	AniZhuanchangBegin			1	Hans	Attention, soldiers! Drop what you're doing and prepare for battle!	1																					
+198	198		201							1	500273	4																						
+199	199		301			AniZhuanchangEnd				1	Wanshi	Hey! Over to the west!	1																					
+200	200		301									Despite going to "recharge his batteries," Wanshi had been keeping watch this entire time. Suddenly, he jumps down from the hill.																						
+201	201		301									His laziness was now replaced with unprecedented seriousness.																						
+202	202		202							1					1																			
+203	203		301									Soon, everyone realizes the gravity of the situation.																						
+204	204		301		1		AniZhuanchangBegin					Because a large number of Punishing Hetero-Creature burst out of the yellow sand and begin to pursue him.																						

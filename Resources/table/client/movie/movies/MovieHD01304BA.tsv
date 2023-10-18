@@ -1,0 +1,322 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory308.png																								
+2	2		401							1	5																							
+3	3		301			DialogEnable						The celebration is nearing its end, but people are still brimming with excitement. The vibe in the market continues to become more lively.																						
+4	4		301									The vibrant lights along the winding streets and alleys are like fireflies along the riverside late at night, complementing the glorious sky above.																						
+5	5		301									Having been brewing all day, the atmosphere of White Day has finally reached its climax.																						
+6	6		301									Food, handicrafts, daily necessities... countless stalls are lined up row after row in a dazzling display. Although neither the quality nor the quantity holds a candle to Babylonia, their rugged and primitive nature made with a humble and genuine "attitude" is uniquely their own.																						
+7	7		301									People even earn a number of Star Tickets while shopping in the market. Organizers have gone through a painstaking effort to bring festivity to the celebration.																						
+8	8		301									Even at this time, the streets are still lined with street performers or people setting up street-side games. Of course, interacting with them or playing games will also reward Star Tickets.																						
+9	9		201							1	500236																							
+10	10		301							1	Street Magician	Come one! Come all! Don't miss the show!	1																					
+11	11		301								Street Magician	Step right up! Three balls, two bowls, and one chopstick! Just one star to put your eyes to the test!	1																					
+12	12		301									A loud hooting and hauling come from a vendor off in the distance.																						
+13	13		301									He's a man from Kowloong dressed as a street magician. There are two broken porcelain bowls, three plastic balls, and a chopstick in front of his stall. A big man stands opposite him, surrounded by a crowd of onlookers.																						
+14	14		301									The magician covers two of the balls with the porcelain bowls, grabs the chopstick, then gently taps the bowls. With a shake of his wrist, the ball in his hand disappears.																						
+15	15		201							1	500421																							
+16	16		301							1	Burly Man	Two on the right, one on the left! It must be right. I saw it!	1																					
+17	17		301									The magician lifts the bowls, revealing the exact opposite of the man's guess. There is only one ball in the right bowl, while the other two rest quietly in the left bowl.																						
+18	18		301								Burly Man	What?! How... How'd you do that...	1																					
+19	19		201							1	500236																							
+20	20		301							1	Street Magician	Unfortunately, dear customer, you guessed wrong. The Star Ticket is mine, hahaha!	1																					
+21	21		301									After that, several eager people step forward to challenge the magician, but none of them guess right.																						
+22	22		301									Everyone knows that the magician is doing tricks, but no one can catch him in the act despite such a simple game.																						
+23	23		302								I want to try.	24																						
+24	24		301									Caught up in the festive scene, you can't resist it any longer and decide to challenge the magician.																						
+25	25		301								Street Magician	Greetings, dear customer. Care to take a guess?	1																					
+26	26		302								Let's go.	27	I've got a quick eye.	28																				
+27	27	31	301								Street Magician	Very well. Don't blink!	1																					
+28	28		201							1	500489																							
+29	29		301							1		Hearing this, Lee's eyebrow twitches subconsciously.																						
+30	30		201							1	500236																							
+31	31		301							1		Once again, the magician's hands fly at lightning speed. This time, he moves his chopstick to the bowl on the left, and the ball in his hand disappears in a flash.																						
+32	32		302								Two on the left, one on the right.	33	One on the left, two on the right.	34																				
+33	33	35	301									The magician lifts the bowls. Unfortunately, you have guessed wrong. There is only one ball in the left bowl and two in the right bowl.																						
+34	34		301									The magician lifts the bowls. Unfortunately, you have guessed wrong. There are two balls in the left bowl and one in the right bowl.																						
+35	35		302								(Give one Star Ticket)																							
+36	36		301								Street Magician	Much obliged, dear customer. Care to try again?	1																					
+37	37		302				AniZhuanchangBegin				Another!	38	No, thanks...	40																				
+38	38		301			AniZhuanchangEnd					Street Magician	What a pity, dear customer. Care to watch from the side?	1																					
+39	39	41	301									Unfortunately, you lose your two remaining Star Tickets from incorrect guesses.																						
+40	40		301			AniZhuanchangEnd						Just relying on your quick eyes, you cannot see through the magician's superb sleight of hand.																						
+41	41		301									Lucky, you have a "secret weapon"...																						
+42	42		302								Can you see through his tricks, Lee?	43	I need your help!	45																				
+43	43		201							1	500489																							
+44	44	50	301							1		Lee has been quietly observing the magician up until you call upon him, and he just nods.																						
+45	45		201							1	500489																							
+46	46		301							1		He has been carefully observing the magician's movements up until you interrupted him with your "cry for help."																						
+47	47		204							1	8																							
+48	48		301								Lee	Quiet.	1																					
+49	49		204							1																								
+50	50		301								Lee	It's an ancient form of magic called "acetabula et calculi".	1																					
+51	51		301								Lee	It looks simple, but it's incredibly difficult to master—it takes years of practice to reach his level.	1																					
+52	52		302								Do you know the trick behind it?	53																						
+53	53		301								Lee	Yes... but it's a secret.	1																					
+54	54		302								Why?	55																						
+55	55		301								Lee	Magicians never reveal their secrets. This is basic etiquette among magicians.	1																					
+56	56		301								Lee	And would it still be interesting if you knew the secret?	1																					
+57	57		302								I'm not sure.	58																						
+58	58		301									After all, I've never been able to see through a magician's tricks.																						
+59	59		301								Lee	Everyone understands that magic is just smoke and mirrors.	1																					
+60	60		301								Lee	Magic is just a trick. If you look at it from a different angle, you can see through the act.	1																					
+61	61		302								But from the audience's perspective...	62																						
+62	62		302								Isn't it really magic?	63																						
+63	63		301								Lee	You're not wrong.	1																					
+64	64		301								Lee	That's the goal of a magician... That's it.	1																					
+65	65		302								Since when did you become an expert in magic, Lee?	66																						
+66	66		301								Lee	...Before I became a Construct, I would use it to hone my reaction time and concentration.	1																					
+67	67		301								Lee	I started taking more interest in it after I was getting the hang of it. I can teach you some simple techniques if you like.	1																					
+68	68		302								You'll really teach me?	69	Are you sure you haven't been practicing in secret?	72																				
+69	69		301								Lee	Why not? It's not much trouble.	1																					
+70	70		301									(But didn't you say a magician never reveals his—)																						
+71	71	76	301									Right as you're about to ask Lee this, you hear a child's voice nearby.																						
+72	72		204							1	6																							
+73	73		301								Lee	No.	1																					
+74	74		204							1																								
+75	75		301									Right as you're about to ask Lee a question, you hear a child's voice nearby.																						
+76	76		301								Child A	Hey, Mister! Aren't you the magician from earlier today?																						
+77	77		201							1	500259		400																					
+78	78		201							2	500260		-400			1																		
+79	79		301							1	Child A	It's him. It's him. He's so awesome... He can make all sorta things come out of his hat!	1																					
+80	80		301								Child B	Really?! No way... Is he really that awesome?	2																					
+81	81		202							1	2				1																			
+82	82		301									It is the child from earlier today and several new faces who must have noticed Lee when they were playing.																						
+83	83		301									They immediately swarm him with looks of adoration and anticipation.																						
+84	84		201							1	500259		400																					
+85	85		201							2	500260		-400																					
+86	86		301							1	Child C	Mister! Mister! Can you do another trick for us? I wanna see more!	1																					
+87	87		301								Child D	Yeah! Yeah! Show our friends a trick! Pretty please! They don't believe me!	2																					
+88	88		202							2					1																			
+89	89		201							1	500489																							
+90	90		301							1	Lee	But...	1																					
+91	91		201							1	500236																							
+92	92		301							1	Street Magician	Huh? A fellow magician? How fortuitous. Care to show me what you have up your sleeve?	1																					
+93	93		301									Hearing the ruckus, the street magician seems to have taken an interest in Lee's tricks as well.																						
+94	94		301									He leaves his booth and gestures with his hands in invitation.																						
+95	95		301								Street Magician	Our art brings happiness to others. You don't want to disappoint them, do you?	1																					
+96	96		302								Come on, the Great and Powerful Lee!	97	I'll give you a Star Ticket!	101																				
+97	97		201							1	500489	6																						
+98	98		301							1	Lee	Shut up!	1																					
+99	99		204							1																								
+100	100	107	301									Despite saying that, Lee has no choice but to walk up to the street magician's stall																						
+101	101		201							1	500489	8																						
+102	102		301							1	Lee	Fine...	1																					
+103	103		204							1	1																							
+104	104		301									Perhaps he has been caught up in the festive atmosphere or moved by the children's adoring eyes, his look of frustration is replaced with a soft smile.																						
+105	105		204							1																								
+106	106		301									Lee has no choice but to walk up to the street magician's stall.																						
+107	107		301								Lee	I'll need you as my assistant, Commandant.	1																					
+108	108		302								Huh? Okay.	109																						
+109	109		302								(Go along)	110	(Play it up)	137																				
+110	110		401							1	122																							
+111	111		301									You make up your mind and stand beside Lee.																						
+112	112		301								Lee	Do you have anything I can borrow, Commandant?	1																					
+113	113		302								(Take out a coin)	114																						
+114	114		301									Lee takes the coin, puts it in his palm, and shows the audience before him. He then covers the other palm of his hand and blows softly. Slowly, he opens his palm—																						
+115	115		301									But the coin remains in his palm as before.																						
+116	116		302								Did you fail?	117																						
+117	117		301									Just as you have the same look of confusion as the audience, Lee flips his palm over. Gravity takes hold of the coin, and it begins to fall—																						
+118	118		301									But it stops five centimeters away from his hand.																						
+119	119		301									The whispers around stop. Everyone stares at the coin, forming a pocket of silence in the festivities.																						
+120	120		401							2	2581																							
+121	121		401							2	212																							
+122	122		301									Suddenly, everyone bursts out in applause and cheers.																						
+123	123		201							1	500259																							
+124	124		301			RImgBg1Shake				1	Child C	Again! Again!	1																					
+125	125		201							1	500019		-600																					
+126	126		201							2	500311																							
+127	127		201							3	500236		600																					
+128	128		301			RImgBg1Shake				1	Everyone	Again! Again!	1	2	3																			
+129	129		301									The child's voice is like a bugle, and the crowd of men and women, young and old, perk up.																						
+130	130		301									The noise attracts passers-by. They stop and stand on their tiptoes, trying to peer over the wall of people.																						
+131	131		402							212																								
+132	132		301									At this stage, rejection is not an option for Lee. He puts the coin back in the palm of his hand, then presses down, signaling everyone to be quiet.																						
+133	133		202							1	2	3			1																			
+134	134		301									He turns his gaze once more, then extends his left hand toward you.																						
+135	135		201							1	500489	1																						
+136	136	170	301				AniZhuanchangBegin			1	Lee	Next, Commandant. Would you please...	1																					
+137	137		401							1	205																							
+138	138		301									Seeing the expression on your face, Lee furrows his brows faintly.																						
+139	139		204							1																								
+140	140		301								Lee	This gentleman here. Would you please inspect these cards?	1																					
+141	141		301									Lee takes out a deck of cards and hands it to the audience member. After carefully inspecting it, he confirms that it is a normal deck.																						
+142	142		301								Lee	Please shuffle the deck, Commandant.	1																					
+143	143		301									Upon receiving the cards, you see that Lee is going to perform a card-guessing trick.																						
+144	144		302								(Now's my chance!)	145																						
+145	145		301									After confirming the deck one more time, you shuffle the cards and hand them back to Lee.																						
+146	146		301									Lee places the stack of cards on the table and covers them with the palm of his hand. He pushes down, causing the cards to unfold in a perfect fan.																						
+147	147		301									He pulls out a card from the pile with his forefinger, then looks into your eyes and says:																						
+148	148		301								Lee	Name a card, Commandant.	1																					
+149	149		302								Three of hearts.	150																						
+150	150		301									Calmly, he explains that the card was determined even when the deck was still being shuffled with an expression of "as expected."																						
+151	151		301									You have chosen this card specifically because you have quietly pocketed it in your sleeve.																						
+152	152		302								(Sorry, Lee!)	153																						
+153	153		302								(Watching a performance go off the rails is fun, too...)	154																						
+154	154		302								(Take one for the team.)	155																						
+155	155		301									As you think that, your heart is filled with anticipation to see how Lee will react.																						
+156	156		301									You watch Lee's face as he slowly reveals the card—																						
+157	157		301									A three of hearts appears before your eyes.																						
+158	158		302								How's that possible?!	159																						
+159	159		301									Ignoring what might happen, you pull out the card secretly stuffed in your sleeve—																						
+160	160		301									It is an ace of hearts.																						
+161	161		204							1	1																							
+162	162		301									Looking up, you meet Lee's teasing glare.																						
+163	163		302								...	164																						
+164	164		301								Lee	No matter what you're thinking, I'm two steps ahead of you.	1																					
+165	165		301									The audience erupts into applause, obviously thinking it is a declaration of victory, but you know what he is really saying...																						
+166	166		302								(Dammit! He saw right through me!)	167																						
+167	167		301								Lee	What should I perform next?	1																					
+168	168		301									Although he still wears an approachable smile on his face, hearing the tone of his voice fills you with a tinge of regret.																						
+169	169		302				AniZhuanchangBegin				Please... Show some mercy.	170																						
+170	170		401							1	204																							
+171	171		202							1					1																			
+172	172		301			AniZhuanchangEnd						Under the mottled glow of the lanterns, Lee bows to the audience.																						
+173	173		301									People throw their Star Tickets to Lee. The glittering paper reflects the glow of twilight and lanterns, like the end of a grand celebration.																						
+174	174		301									Just like earlier, Lee lifts his hat among the rain of stars, then throws it high into the air.																						
+175	175		401							2	10001108																							
+176	176		301									"Boom!" The hat explodes.																						
+177	177		301									The flurry of pink swirls in the night sky, then slowly flutters back down.																						
+178	178		301									Looking more closely, you see that the cloud is composed of white origami roses.																						
+179	179		301									The crowd reaches out, each grabbing the white origami roses.																						
+180	180		301									Young couples gaze up at the miracle created by Lee, then proceed to gather up roses to give to their significant other.																						
+181	181		301									This marks the end of Lee's performance. While the audience is still enchanted by the rain of flowers, he quietly salutes and leaves the booth.																						
+182	182		301									Lee withdraws out of the light and into a corner so as to avoid anyone catching up to him.																						
+183	183		302								What's the rush?	184																						
+184	184		201							1	500489																							
+185	185		301							1	Lee	Just trying to avoid trouble.	1																					
+186	186		301									Recalling the wall of people just now, you nod in agreement. It's only human nature to want to explore the unknown. That's precisely what draws people to magic and stops them in their tracks.																						
+187	187		301									You think about what happened and suddenly have a boost of confidence.																						
+188	188		302								Lee.	189																						
+189	189		302								I think I know the secret to your magic.	190																						
+190	190		301								Lee	Oh? What is it?	1																					
+191	191		301									Lee raises his eyebrows in anticipation as you begin to explain his magic tricks.																						
+192	192		301									The coin seemed to be levitating, but it was just a thin piece of string that tied it to the palm of his hand.																						
+193	193		301									Guessing the card in the deck was him switching up a card he had secretly prepared.																						
+194	194		301									Bending the spoon was actually just him holding a very short handle between his forefinger and thumb.																						
+195	195		301									...																						
+196	196		302								You intended to show me the secrets behind those tricks, didn't you?	197																						
+197	197		302								Is that what he meant by "teaching you some simple tricks"?	198																						
+198	198		301									During every performance, the assistant can always see how the tricks are done.																						
+199	199		301									From the reaction of the audience, Lee adjusted the angle to a position that only you could see. This kind of precision is far more magical than magic itself.																						
+200	200		204							1	1																							
+201	201		301								Lee	Guess you're smarter than I thought.	1																					
+202	202		301								Lee	Well, do you think magic is not so magical now?	1																					
+203	203		301								Lee	After all, you can follow all the steps.	1																					
+204	204		302								No, I still think it's just as magical.	205																						
+205	205		204							1																								
+206	206		301								Lee	What makes you say so?	1																					
+207	207		302								You said it yourself...	208																						
+208	208		302								Magic takes a lot of time and effort to learn.	209																						
+209	209		301									Magic is not a cheap "trick." It is a "miracle" exchanged by magicians with hard work and time.																						
+210	210		302								So, your hands are like "miracles."	211																						
+211	211		301									You grab his silver-white hands that were conjuring items out of thin air.																						
+212	212		302								Must be pretty taxing on the finger joints.	213																						
+213	213		302								Need help with the maintenance?	214																						
+214	214		204							1	6																							
+215	215		301								Lee	Cut it out.	1																					
+216	216		204							1																								
+217	217		301									Lee takes his hands out of yours and turns his wrists slightly.																						
+218	218		301								Lee	And these hands aren't "miracles."	1																					
+219	219		301									Although he maintains his indifference as always, having known him for so long, you see the slight torment in his brows.																						
+220	220		301									Unlike normal, you notice that Lee is not so quick to end the conversation.																						
+221	221		301								Lee	Remember how I said this coating was for a banquet before joining Gray Raven?	1																					
+222	222		302								By that, you mean... Kurono?	223																						
+223	223		301									Lee nods.																						
+224	224		204							1	1																							
+225	225		301								Lee	It's often said that magicians are just "con artists." They don't create miracles. They merely deceive others with vanity.	1																					
+226	226		301									Lee laughs at himself.																						
+227	227		204							1																								
+228	228		301								Lee	This statement is closer to the original meaning of this coating.	1																					
+229	229		302								Didn't you say you made some modifications?	230																						
+230	230		301								Lee	I did...	1																					
+231	231		302								The past is in the past.	232																						
+232	232		301									Whether that be you or those around you.																						
+233	233		302								Things change. Just like the coating you're wearing now.	234																						
+234	234		301									The last time you held Lee's hands, he tried to pull away. But this time, you hold his hand tightly, giving him no chance to let go.																						
+235	235		301									Of course, with the strength of a Construct, he could easily make you let go with just a little force.																						
+236	236		301									But he chooses not to.																						
+237	237		302								His hands have helped Gray Raven overcome countless adversity.	238																						
+238	238		301									These brushes with death are not fake. They are real.																						
+239	239		301									We all know how hard you have worked.																						
+240	240		302								In my opinion, that's a real "miracle."	241																						
+241	241		302								So, Lee...	242																						
+242	242		302								Being a "magician" really suits you.	243																						
+243	243		204							1	8																							
+244	244		301								Lee	...	1																					
+245	245		204							1																								
+246	246		301								Lee	For magicians, even greater "miracles" require even more blood, sweat, and tears.	1																					
+247	247		301								Lee	In other words, "miracles" come at a "price."	1																					
+248	248		301								Lee	But even so, there are some "miracles" that magicians can't achieve in their lifetime.	1																					
+249	249		301								Lee	Even if they give their everything, they are still powerless in achieving them.	1																					
+250	250		302								Then it's time for an assistant to appear, isn't it?	251																						
+251	251		301									If the magician's power is not enough, an assistant can help make up for it.																						
+252	252		301									The price of "miracles" shouldn't be left for one person to bear the burden.																						
+253	253		204							1	8																							
+254	254		301								Lee	...	1																					
+255	255		204							1	1																							
+256	256		301								Lee	If that's what you think, I'm sure you will become an excellent magician one day... Can't say the same about dancing.	1																					
+257	257		302								Hey!	258																						
+258	258		302								Apart from the magic trick with the roses...	259																						
+259	259		302								I think I got the hang of everything else.	260																						
+260	260		301								Lee	Only that one?	1																					
+261	261		302								?	262																						
+262	262		301								Lee	Take a look at the rose.	1																					
+263	263		301									You take out the origami rose from your pocket. Lee uses this opportunity to free himself from your grasp.																						
+264	264		301									This origami rose was one of the flowers on the ground you randomly picked up.																						
+265	265		301									But it has changed completely without your notice.																						
+266	266		301									It was only just a flower bud. But now, it is in full bloom. The pure white color is now a vibrant red. In the center rests a small piece of chocolate.																						
+267	267		302								When did that...	268																						
+268	268		301								Lee	So, is that really the only trick you don't understand?	1																					
+269	269		302								Lee...	270																						
+270	270		301								Lee	What is it? Want me to teach you?	1																					
+271	271		302								When did you buy so much chocolate?	272																						
+272	272		204							1																								
+273	273		301								Lee	What do you mean...	1																					
+274	274		301									He furrows his brow more tightly than normal as if thinking of something.																						
+275	275		301								Lee	Do you think the other roses did this, too?	1																					
+276	276		302								Didn't they?	277																						
+277	277		301									I just grabbed one at random.																						
+278	278		204							1	8																							
+279	279		301								Lee	...	1																					
+280	280		301								Lee	Hah...	1																					
+281	281		301									Lee quietly rubs his temples.																						
+282	282		301									Over his shoulder, you can see a couple passing by not far behind him.																						
+283	283		301									They were holding several origami roses in their hands, smiling happily.																						
+284	284		301									The rose is still as it was before—pure white, waiting to bloom.																						
+285	285		302								...	286	!	286																				
+286	286		302								Lee.																							
+287	287		204							1																								
+288	288		301								Lee	What is it?	1																					
+289	289		301									Lee's eyebrows still remain tightly knit.																						
+290	290		302								Thank you...	291	Sorry.	292																				
+291	291	293	301									Since this is a gift meticulously prepared by Lee, you think an expression of gratitude is more appropriate than an apology.																						
+292	292		301									Since you did not realize it was a gift meticulously prepared by Lee, you feel an apology is in order.																						
+293	293		204							1	8																							
+294	294		301								Lee	...	1																					
+295	295		204							1	1																							
+296	296		301								Lee	Hah...	1																					
+297	297		301									Suddenly, Lee's smiling face is lit up.																						
+298	298		401						100	2	954																							
+299	299		401						200	2	954																							
+300	300		401						500	2	954																							
+301	301		301									Countless streams of light streak through the night sky above.																						
+302	302		401						100	2	848																							
+303	303		401						200	2	848																							
+304	304		401						500	2	848																							
+305	305		301									Like countless stars soaring into the sky, the Milky Way lights up in a constant barrage of explosions.																						
+306	306		302								Fireworks.	307																						
+307	307		301								Lee	Let's get going. I bet Lucia and Liv are waiting for us.	1																					
+308	308		301				AniZhuanchangBegin					With his back illuminated by the fireworks, he seems more at ease than usual. He appears to have put down a burden for the time being and has finally begun to enjoy the celebration.																						
+309	309		202							1					1																			
+310	310		101							Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+311	311		504							0.7																								
+312	312		301			AniZhuanchangEnd						The last time you saw him this happy...																						
+313	313		201							1	500044																							
+314	314		301				AniZhuanchangBegin			1		...was when you accidentally caught him practicing magic and origami in the base.																						
+315	315		101							Assets/Product/Texture/Image/BgStory/Bgstory308.png																								
+316	316		504							0																								
+317	317		201							1	500489																							
+318	318		301			AniZhuanchangEnd				1	Lee	Commandant, get your head out of the clouds.	1																					
+319	319		302								Coming.	320																						
+320	320		204							1	1																							
+321	321		301		1		AniZhuanchangBegin					Picking up the pace, you catch up to Lee and stand beside him.																						

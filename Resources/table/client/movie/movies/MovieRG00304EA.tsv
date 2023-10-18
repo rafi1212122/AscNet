@@ -1,0 +1,94 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory25.jpg																								
+2	2		401							1	208																							
+3	3		301			DialogEnable						After going through a lot of hardship (majority of which came from the other three teammates), we finally arrived at the palace.																						
+4	4		301									All the NPCs and enemies here seemed to be configured by Celica. In particular, the people we knew would become NPCs even if they were not actually in the game...																						
+5	5		201							1	500011																							
+6	6		301							1	King	Oh, you must be the heroes who travelled from afar. Welcome!	1																					
+7	7		301									Hassen became a king.																						
+8	8		201							1	500180																							
+9	9		201							2	500176		600																					
+10	10		201							3	500181		-600																					
+11	11		301							1	Karenina	Oh, it's Hassen. I thought Celica would put Nikola here.	1																					
+12	12		301								Vera	Hah... I really hate him. He's way too serious.	3																					
+13	13		301								Camu	Hassen... Kamui remembers him as a one-eyed mid-aged man. Yeah, one eye only.	2																					
+14	14		301									Three of them openly expressed their opinions on the King (Hassen) as he spoke, completely ignoring the guards and the King himself.																						
+15	15		202							1	2	3																						
+16	16		201							1	500005		400																					
+17	17		201							2	500005		-400																					
+18	18		301							1	Guard	...	1	2																				
+19	19		301									A few guards seemed to be upset with their words and clenched their weapons.																						
+20	2001		202							1	2																							
+21	2002		201							1	500011																							
+22	20		301							1	King	Haha, very interesting. My name is Hassen indeed, but you should always address me as the King.	1																					
+23	2003		201							1	500180																							
+24	21		301							1	Karenina	Really? You? A king?	1																					
+25	22		301									The King (Hassen) was kind enough and tried to make the situation less awkward, but Karenina's reply almost made him fall off the throne.																						
+26	23		301									The guards immediately stepped forward with a fierce look.																						
+27	2004		302								Can't you just be a bit nicer?!	24	My apologies, Your Majesty! Please forgive our rudeness. We come from a rural town.	1001																				
+28	24	1002	301								Karenina	What do you mean by "nice"? We aren't here for small talks!	1																					
+29	1001	25	201							1	500011																							
+30	25	26	301							1	King	Haha, I see. I can't blame you then.	1																					
+31	26	1002	301									The King (Hassen) perfectly understood my intention and stopped his guards.																						
+32	1002		201							1	500011																							
+33	27		301							1	King	Oh, you look like a trustworthy one. I guess you are the leader. What's your name?	1																					
+34	2005		302								(Tell him your name)	28																						
+35	28		301								King	【kuroname】. I'll remember your name, hero.	1																					
+36	2006		202							1																								
+37	2007		201							1	500180		400																					
+38	2008		201							2	500176		-400																					
+39	29		301							1	Karenina	How did Gray Raven's Commandant become our leader?	1																					
+40	30		301								Camu	Whatever, I don't care. When are you going to give us our task, Hassen?	2																					
+41	2009		202							1	2																							
+42	2010		201							1	500011																							
+43	31		301							1	King	Ahem, I didn't have the chance. But before that, I'd like to tell you the history of the Land of Overlord, and how we fought the disgusting Demons for a hundred years...	1																					
+44	2011		302								(Keep listening to him)	2012	The Land of Overlord?	32																				
+45	32	2012	301								King	Yeah, that's the name of this land. I know it's a bit awkward, haha...	1																					
+46	2012		203							1	0.25	400																						
+47	2013		201							2	500176		-400																					
+48	33		301							1	Camu	Who cares. It's always the same story, Demons invaded the land, and the people suffered. Just give me the task already!	2																					
+49	34		301								King	Um, you have a great understanding of our history. Alright, I'll skip to the quest.	1																					
+50	35		301								King	...Actually, our Princess Liv was taken away by the Demon King.	1																					
+51	36		301								Camu	Wait a sec, did you say Liv?	2																					
+52	37		301								King	Yeah, I did. Is there a problem?	1																					
+53	38		301									Camu interrupted Hassen. He looked shocked.																						
+54	2014		302								Is this normal?	39	Has she really been caught?	40																				
+55	39	41	301								Camu	No, it isn't.	2																					
+56	40	41	301								King	It's true.	1																					
+57	41		301								Camu	Celica explained this game to me and Kamui. She said there wouldn't be any NPCs that looked the same as the players.	2																					
+58	2015		201							1	500181		400																					
+59	42		301							1	Vera	Does that mean Liv has been captured by the Demon King in the game? She's even become a princess... What kind of joke is this?	1																					
+60	43		301								Camu	It sounds weird to us, but it should be a perfectly normal thing to the game NPCs.	2																					
+61	44		301								Vera	Well, Hassen, I have another question. Has any other hero, apart from us, visited this place?	1																					
+62	2016		202							1	2																							
+63	2017		201							1	500011																							
+64	45		301							1	King	No, why?	1																					
+65	46		301									According to Hassen, Lucia and other Gray Raven members had never been here... I knew it wasn't possible, but I still imagined them being caught by the Demon King.																						
+66	2018		201							1	500180																							
+67	2019		201							2	500176		600																					
+68	2020		201							3	500181		-600																					
+69	47		301							1	Vera	Commandant, you were thinking they might be caught up together, right? That would be really fun, but I don't think it's possible.	3																					
+70	48		301								Vera	"Karenina, Camu, pack up your gears. Lucia and others are probably behind us."	3																					
+71	49		301								Vera	Let's find and beat the Demon King first, so we can get Liv back and win this game.	3																					
+72	50		301								Karenina	Why are you giving orders?!	1																					
+73	51		301								Camu	Hmph, whatever. The game may be having errors, but we must win no matter what.	2																					
+74	52		301									We agreed on the objective of saving Liv, but this team didn't seem to be concerned at all that an ally was taken by the enemy.																						
+75	2021		202							1	2	3																						
+76	2022		201							1	500011																							
+77	53		301							1	King	Wait, heroes! Please take this map before you head out!	1																					
+78	3001		203							1	0.25	-400																						
+79	3002		201							2	500181		400																					
+80	54		301							1	Vera	What's this...?	2																					
+81	55		301								King	The Princess is in the Demon King's Castle. To get there, you must defeat the Demon Generals to weaken the defense. You can try to break in by force, but we don't even know the exact location of the castle before you break its defense.	1																					
+82	3003		202							1	2																							
+83	3005		201							1	500180		400																					
+84	3004		201							2	500176		-400																					
+85	56		301							1	Karenina	Such old-fashioned settings...	1																					
+86	57		301								Camu	Are you saying we have to fight some big four evil generals before going to the Demon King's Castle?	2																					
+87	3006		202							1	2																							
+88	3007		201							1	500011																							
+89	58		301							1	King	I'm glad that you have understood the situation, heroes.	1																					
+90	3008		302								Have you marked the location of Demon Generals on the map?	60	Is there anything else you haven't told us?	61																				
+91	60	62	301								King	Yes, we have marked them all.	1																					
+92	61	62	301								King	That's all we know so far.	1																					
+93	62		301		1		AniZhuanchangBegin				King	We are counting on you, heroes.	1																					

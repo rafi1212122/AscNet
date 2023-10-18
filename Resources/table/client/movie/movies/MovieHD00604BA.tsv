@@ -1,0 +1,102 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory306.png																								
+2	2		401							1	201																							
+3	3		201							1	1011001																							
+4	9522		301			DialogEnable				1	Lee	Judging from the coordinates, we're still some distance from the sources of the red and blue mechanoids.	1																					
+5	4		301								Lee	Based on our current situation, there is no evidence of a path between the sources of the two factions.	1																					
+6	5		302								So... we need to split up?	6																						
+7	6		301								Lee	That seems to be the only reasonable course of action.	1																					
+8	7		202							1					1																			
+9	8		301									So after a brief discussion, you split up into two teams: you with Lee, Lucia with Liv.																						
+10	9		301									This guarantees both teams have protective and investigative capabilities.																						
+11	10		301				AniZhuanchangBegin					After changing your comms to mid-ranged communication, the two teams of you head your separate ways.																						
+12	11		101							Assets/Product/Texture/Image/BgStory/Bgstory302.png																								
+13	12		201							1	1011001																							
+14	13		301			AniZhuanchangEnd				1	Lee	Lucia, the commandant and I have arrived at the vantage point.	1																					
+15	14		201							1	500029																							
+16	15		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+17	16		301							1	Lucia	Copy that. I'm setting up monitoring equipment here. We'll be in position shortly!	1																					
+18	17		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+19	18		201							1	1011001																							
+20	19		301							1	Lee	Looks like you're almost ready.	1																					
+21	20		302								Seems like I can count on the both of you after all.	21																						
+22	21		301								Lee	...? Isn't that obvious?	1																					
+23	22		301								Lee	Speaking of which, I've been meaning to ask you something.	1																					
+24	23		302								What is it?	24																						
+25	24		301								Lee	Commandant, what are your thoughts on Constructs?	1																					
+26	25		302								Why do you ask?	27	...	36																				
+27	26		204							1	10																							
+28	27		301								Lee	...You know what, it's not like I have anything to hide anyways.	1																					
+29	28		204							1																								
+30	29		301								Lee	Before I was transferred to Babylonia, I was a member of Kurono.	1																					
+31	30		301								Lee	Unlike the Task Force, I wasn't exactly fond of that place.	1																					
+32	31		301								Lee	I was just curious to hear your perspectives, so I could confirm whether or not I made the right choice.	1																					
+33	32		302								...	33	They are valuable companions.	34																				
+34	33	37	301								Lee	...	1																					
+35	34		301								Lee	...Really?	1																					
+36	35	37	301								Lee	I'll take your word for it... for now. I just hope that you're true to your word.	1																					
+37	36		301								Lee	...	1																					
+38	37		301								Lee	Anyways, let's get back to the mission.	1																					
+39	38		301									Lee adeptly sets up the monitoring equipment and begins to establish a holographic scan of the target area.																						
+40	39		301				AniZhuanchangBegin				Lee	There appears to be a residential street from the Golden Age on one end and a large freestanding building on the other.	1																					
+41	40		101							Assets/Product/Texture/Image/BgStory/Bgstory304.png																								
+42	41		301			AniZhuanchangEnd					Lee	Commandant... are you familiar with this type of building?	1																					
+43	42		302								Is it a church?	43	Is it an assembly hall?	45	Oh, I know! It's an arcade!	47																		
+44	43		301								Lee	Looks similar, but we won't know until we take a closer look.	1																					
+45	44	55	301								Lee	But that's en route for Lucia's team. Let's wait for a progress update.	1																					
+46	45		301								Lee	Based on the building's location and interior... You might be right.	1																					
+47	46	55	301								Lee	But that's en route for Lucia's team. Let's wait for them to report back.	1																					
+48	47		301								Lee	...?	1																					
+49	48		302								What's that look for?	49																						
+50	49		301								Lee	...Commandant, are you joking?	1																					
+51	50		302								...Am I not allowed to?																							
+52	51		204							1	10																							
+53	52		301								Lee	...If that's going to put your mind at ease, then go right ahead.	1																					
+54	53		204							1																								
+55	54		301								Lee	I wanna know what the building is used for, but that's en route for Lucia's team. Let's wait for them to report back.	1																					
+56	55		301								Lee	I've detected a large cluster of signals coming from the residential street. I'll transfer the image to your terminal.	1																					
+57	56		302				AniZhuanchangBegin				Alright.	57																						
+58	57		202							1					1																			
+59	58		101							Assets/Product/Texture/Image/BgStory/Bgstory306.png																								
+60	59		301			AniZhuanchangEnd						After pressing a few buttons, the hologram appears on the terminal in your hand.																						
+61	60		301									You see a large group of red mechanoids on the residential street.																						
+62	61		301									On the far side of the block, mechanoids are coming from various places.																						
+63	62		301									In the center of all the red mechanoids, you see a peculiar mechanoid stand out among the crowd.																						
+64	63		301									—Even though it bears some resemblance to the others, the rest of the red mechanoids seem to be keeping their distance.																						
+65	64		302								Lee.	65																						
+66	65		201							1	1011001																							
+67	66		301							1	Lee	What is it?	1																					
+68	67		302								The mechanoid in the center...	68																						
+69	68		302								What's so different about it?	69																						
+70	69		301								Lee	That one?	1																					
+71	4669		202							1					1																			
+72	70		301									Glancing at the hologram, he quickly identifies the mechanoid in question and notices other peculiarities.																						
+73	71		301									He adjusts the surveillance equipment, causing the hologram to alter slightly.																						
+74	72		301									—Numerous thin red lines extend from the middle mechanoid, connecting to some larger mechanoids nearby.																						
+75	73		301									From these larger mechanoids, additional thin red lines connect to the surrounding smaller mechanoids.																						
+76	74		302								What are those?	4670																						
+77	4670		201							1	1011001																							
+78	75		301							1	Lee	Data flow.	1																					
+79	76		301								Lee	I've extracted the data flow between the mechanoids and displayed it on the hologram.	1																					
+80	77		302								A web?	78	The mechanoids... are interconnected?	81	Is it... a binary tree?	83																		
+81	78		301								Lee	Looks like it, but that isn't the case.	1																					
+82	79		301								Lee	The data flow between the mechanoids shows that there is a chain of command between them.	1																					
+83	80	85	301								Lee	The parent node originates from that mechanoid you pointed out.	1																					
+84	81		301								Lee	The data flow between the mechanoids shows that there is a chain of command between them.	1																					
+85	82	85	301								Lee	The parent node originates from that mechanoid you pointed out.	1																					
+86	83		301								Lee	...I don't think that's an appropriate metaphor, but there's no time to explain.	1																					
+87	84		301								Lee	But yes, you can think of it as a binary tree with the central mechanoid controlling all the other mechanoids layer-by-layer.	1																					
+88	85		301								Lee	In short, the central mechanoid is the lifeblood of the red mechanoids.	1																					
+89	86		301								Lee	If we can destroy it or find an opportunity to analyze it, we should be able to uncover their plan.	1																					
+90	87		302								Sounds reasonable. Let's do it.	88																						
+91	88		301								Lee	Prepare to move out. Follow me, Commandant. I'll try my best to keep you safe.	1																					
+92	89		302								Understood.	90																						
+93	90		301								Lee	Lucia, did you get that?	1																					
+94	91		203							1	0.25	-400																						
+95	92		201							2	500029		400																					
+96	93		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+97	94		301							1	Lucia	...	2																					
+98	95		301								Lee	...Lucia? Do you copy?	1																					
+99	96		301								Lucia	Yeah, we got it. What is it?	2																					
+100	97		301								Lee	Lucia, we're moving out.	1																					
+101	98		301		1		AniZhuanchangBegin				Lucia	Copy. We'll get going, too.	2																					

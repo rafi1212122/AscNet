@@ -1,0 +1,83 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory32.jpg																								
+2	2		401							1	209																							
+3	3		201							1	500253		-500																					
+4	4		201							2	500252		500																					
+5	5		301			DialogEnable				1	Luna	As an "Ascendant", your power will be at my disposal.	1																					
+6	6		301								Roland	And what makes you say that?	2																					
+7	7		301								Luna	I created you. I am your "Creator".	1																					
+8	8		301								Roland	But you obviously didn't care before.	2																					
+9	9		301								Luna	I changed my mind. It's not like you found your "purpose," right?	1																					
+10	10		301								Roland	...Very well.	2																					
+11	11		301								Roland	But... If I find my purpose, then I will leave. I may even become your enemy. What do you have to say about that?	2																					
+12	12		301								Luna	Do what you will. I will continue with my plan. If I have to squash one more pest, then so be it.	1																					
+13	1000		204							2	1																							
+14	13		301								Roland	Hehe, you... You sure like to do as you please, miss.	2																					
+15	14		202							1	2				1																			
+16	15		301									He can't help but sigh, smiling. He stands up and kneels down on one knee toward Luna.																						
+17	16		301									He bows his head and clasps his clenched fist to his chest. His voice is solemn. As a knight, the overplayed gesture is almost comedic.																						
+18	17		201							1	500252	1																						
+19	18		301							1	Roland	Then let me pledge my allegiance until I find my "purpose."	1																					
+20	19		301								Roland	Miss Luna.	1																					
+21	20		202							1					1																			
+22	21		301									After making his oath, Roland doesn't get up for quite some time.																						
+23	22		301									Seeing Roland's sudden oath, Luna's face is devoid of all emotion. Even her eyebrows remain unflinching. She tilts her head as if thinking or, perhaps, no reason at all.																						
+24	23		201							1	500253																							
+25	24		301							1	Luna	...Is that so? Then let's get going. Rise.	1																					
+26	25		301								Luna	We have matters to attend to.	1																					
+27	26		202							1					1																			
+28	27		301									As she speaks, she turns and continues onward. She neither admits nor denies—She simply stands up and leaves. Roland silently follows suit.																						
+29	28		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+30	29		201							1	500375																							
+31	30		301							1	Roland?	Bravo, Roland. Wonderful acting skills, as always!	1																					
+32	31		202							1					1																			
+33	32		301									The tender voice recognizing his efforts comes from where Roland was just standing. He sees himself with his hair tied, standing behind him, hand raised and shouting.																						
+34	33		301									The applause is loud and the whistle is sharp, which is really the best praise for an actor onstage.																						
+35	34		301									However, the applause and whistling are harsh to his ears.																						
+36	35		201							1	500252	2																						
+37	36		301							1	Roland	Acting skills? Maybe. I've been acting all my life.	1																					
+38	37		301								Roland	The third-rate knight, the lame deputy and even the Construct soldier can only survive by acting.	1																					
+39	38		301								Roland	Anyway, there are no other advantages and no ulterior motives. What's wrong with a little improv?	1																					
+40	39		401							1	36																							
+41	40		301								Roland	I don't even want to live...	1																					
+42	41		401							1	211																							
+43	42		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+44	43		201							1	500383																							
+45	44		301							1	???	That hurts hearing you say that, Roland.	1																					
+46	45		301								???	If you don't want to live, you should've chosen to be buried with that pile of broken machinery when you learned the truth of the park, right?	1																					
+47	46		201							1	500252																							
+48	47		301							1	Roland	...	1																					
+49	48		203							1	0.25	-450																						
+50	49		201							2	500375		450																					
+51	50		301							1	Roland?	But you chose to live.	2																					
+52	51		301								Roland?	Because someone has remembered you, your name and all your experiences.	2																					
+53	52		301								Roland?	Because someone has remembered your wonderful performance as a clown. The clown should want to live... He must live!	2																					
+54	53		301								Roland	...Oh, really?	1																					
+55	54		201							2	500376		450																					
+56	55		301							1	Roland?	Yes, of course! Of course, you want to live! If you wanted to die, you've had countless opportunities. Whether that be at the park or after becoming a Construct.	2																					
+57	56		301								Roland?	The time you were sent on a solo mission to fight the Corrupted. The time your core was almost destroyed. The time you were tricked by your squad and used as bait.	2																					
+58	57		301								Roland?	Even just now, when you were being crushed by that giant Corrupted. You were trying to fool yourself into embracing death—to die this way. You thought you had made up your mind.	2																					
+59	58		301								Roland?	—But you fought to your last breath and survived.	2																					
+60	59		201							2	500377		450																					
+61	60		301							1	Roland?	Roland, Roland. You're a professional actor that can memorize a script in seconds. How can you still not see the answer?	2																					
+62	61		301								Roland?	You want to live. Go pursue your purpose!	2																					
+63	62		301								Roland?	Just surviving isn't enough. You want to find your purpose—your OWN purpose. A purpose worthy of a knight to give his life. Not something that can be thrown away so easily. It must be a real purpose that gives you a reason to live!	2																					
+64	63		301								Roland?	Anything! Even if it's cruel and dangerous—the desire to watch the world burn—anything so long as it can give you a reason.	2																					
+65	64		301				AniZhuanchangBegin				Roland?	You want... a reason to live!	2																					
+66	65		202							1	2				1																			
+67	66		101							Assets/Product/Texture/Image/BgCg/Cgqz2705.jpg																								
+68	67		301			AniZhuanchangEnd						He speaks quickly and to the point. He almost seems to be reciting an advertisement. But the tone is loud and clear, nothing ostentation about it.																						
+69	68		301									Roland even imagines looking back to see himself with his hair tied, standing by a bonfire, shoulders squared, hand up in style.																						
+70	69		301									—Or perhaps the tears are more than just a performance, despite what it looks like.																						
+71	70		301								Roland	...It was a wonderful speech, more powerful than the young politician I played. I was really convinced.																						
+72	71		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+73	72		101							Assets/Product/Texture/Image/BgCg/Cgqz2703.jpg																								
+74	73		301								Roland	Now that I'm convinced, let me correct you.																						
+75	74		301								Roland	I want to live, at least at that moment, I really do want to live. Even if there is no reason, I want to live.																						
+76	75		301								Roland	From now on, I need to find a new reason to live.																						
+77	76		301								Roland	It's not as an actor in the park. I can't continue being deceived and controlled like a clown for the amusement of others... It's not as a Construct soldier either. I can't be forced to perform daily "missions"...																						
+78	77		301								Roland	It must be my own reason. A reason that belongs only to "Roland".																						
+79	78		301									Roland clenches his fists, strides forward, and doesn't look back. The voice of little Roland disappears behind him.																						
+80	79		301								Roland	Ascnet, Ascendants, the paradise... All of these are new and unknown concepts. God knows what's ahead, but it's better than turning around and guarding those beliefs that have been crushed into the dirt.																						
+81	80		301								Roland	Anyway, there's nothing else to look forward to. Guess I'll just grasp at whatever straw I can. Not like it matters anyway.																						
+82	81		301		1		AniZhuanchangBegin				Roland	...I guess I'll make her wish come true.																						

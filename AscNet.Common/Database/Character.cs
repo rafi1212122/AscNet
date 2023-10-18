@@ -24,6 +24,7 @@ namespace AscNet.Common.Database
                 Uid = uid,
                 Characters = new()
             };
+            // Lucia havers by default
             character.AddCharacter(1021001);
 
             collection.InsertOne(character);
@@ -58,7 +59,7 @@ namespace AscNet.Common.Database
                     HeadFashionType = 0
                 }
             };
-            characterData.SkillList.AddRange(characterSkill.SkillGroupId.Take(8).Select(x => new NotifyCharacterDataList.NotifyCharacterDataListCharacterData.NotifyCharacterDataListCharacterDataSkill() 
+            characterData.SkillList.AddRange(characterSkill.SkillGroupId.Take(8).Select(x => new NotifyCharacterDataList.NotifyCharacterDataListCharacterData.NotifyCharacterDataListCharacterDataSkill()
             {
                 Id = uint.Parse(x.ToString().Take(6).ToArray()),
                 Level = 1

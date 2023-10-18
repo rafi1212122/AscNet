@@ -1,0 +1,21 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory217.png																								
+2	2		401							1	202																							
+3	3		201							1	500204																							
+4	4		301			DialogEnable				1	Forest Guards	Found her tracks. Over here!	1																					
+5	5		301									The attack may have failed, but you managed to place a tracker on Atiel.																						
+6	6		301									Leaking vital fluid and broken Construct parts are visibly scattered on the white snow. Leaving the battle, the Forest Guard have dispersed, trying to track Atiel's whereabouts.																						
+7	1000		201							1	500214		-400																					
+8	1001		201							2	500088	4	400																					
+9	7		301							1	Rosetta	Her tracks end here...	1																					
+10	8		301									After tracking her for a short while, however, her trails end abruptly.																						
+11	1002		302								Maybe she performed emergency repairs?	9	Looks like we found our place.	11																				
+12	9	10	301								Rosetta	If she could, she'd have likely done it on the move, rather than leaving us clues to follow her all the way here.	1																					
+13	10	12	301								Diana	This place is likely Atiel's destination. But where...?	2																					
+14	11	12	301								Diana	I think so too. But everything looks the same here. How are we going to find her...?	2																					
+15	12		301								Rosetta	Up ahead, I think.	1																					
+16	13		301									Following the tip of Rosetta's spear, you see a building that you never noticed in the snow before.																						
+17	14		301								Diana	What could that place be?	2																					
+18	15		301								Rosetta	I don't know, Commandant. But this likely has something to do with Atiel.	1																					
+19	1003		302								Let's go.	16																						
+20	16		301		1		AniZhuanchangBegin				Rosetta	Alright, everyone, after Commandant!	1																					

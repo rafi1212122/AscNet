@@ -1,0 +1,25 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory40.jpg																								
+2	1000		401							1	202																							
+3	2		201							1	1031001		-400																					
+4	3		201							2	1091001		400																					
+5	4		301			DialogEnable				1	Bianca	You've arrived at the right moment. The surrounding Corrupted are taking up part of the Purifying Force's attention.	2																					
+6	5		201							1	500029		-400																					
+7	6		301							1	Lucia	Where's Kamui?	1																					
+8	7		301								Bianca	His signal has stopped right ahead. Inside that enclosed energy chamber.	2																					
+9	8		301								Bianca	That should be what he was looking for.	2																					
+10	9		301								Lucia	He went inside?	1																					
+11	10		301								Bianca	If that is the same energy that caused Karen's abnormality, then Kamui's stability also comes into question.	2																					
+12	11		201							2	500002		400																					
+13	12		301							1	Vera	You hear that, Gray Raven?	2																					
+14	13		301								Lucia	Vera?	1																					
+15	14		301								Vera	It's not me breaking your promise, but orders are orders.	2																					
+16	15		301								Vera	We've made our call. Kamui is a threat that requires purifying.	2																					
+17	16		301								Lucia	No, it's still too early.	1																					
+18	17		301								Vera	How'd you guarantee that it ain't a monster coming out of that tin can?	2																					
+19	18		301								Vera	Bianca, you're the leader of the Purifying Force.	2																					
+20	19		201							1	1091001		-400																					
+21	20		301							1	Bianca	You don't need my help.	1																					
+22	21		301								Vera	Then don't come crying to me when you get a mention in my report.	2																					
+23	22		301								Bianca	You have your standards, I have mine.	1																					
+24	23		301		1		AniZhuanchangBegin				Vera	Oh, what a load of bull you spill.	2																					

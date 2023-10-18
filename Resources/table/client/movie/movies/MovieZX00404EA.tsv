@@ -1,0 +1,43 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory24.jpg																								
+2	100		401							1	203																							
+3	2		201							1	500020																							
+4	3		301			DialogEnable				1	Zack	Emma...	1																					
+5	4		202							1					1																			
+6	5		301									The heavy agriculture machine falls to the ground with a thud, its speaker keeps repeating something, as if calling out for someone, until the very end when it exhausted all its energy.																						
+7	6		201							1	500013																							
+8	101		401							2	1508																							
+9	7		301							1	Corrupted	—! —!	1																					
+10	8		201							1	1081001		400																					
+11	9		301							1	Kamui	I got its memory shell!	1																					
+12	10		201							2	1011001		-400																					
+13	11		301							1	Lee	Lucia, your orders.	2																					
+14	12		202							1	2				1																			
+15	13		201							1	1021001																							
+16	14		301				AniZhuanchangBegin			1	Lucia	Everyone, retreat!	1																					
+17	15		202							1					1																			
+18	16		101							Assets/Product/Texture/Image/BgStory/BgStory26.jpg																								
+19	102		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	2																							
+20	17		201							1	1081001	5																						
+21	18		301			AniZhuanchangEnd				1	Kamui	The last one!	1																					
+22	19		301								Kamui	Phew... We're finally finished with them! Didn't think the Corrupted would chase us so persistently.	1																					
+23	20		204							1																								
+24	21		301								Kamui	So, what now? The tunnel leading back to City 015 was destroyed by the Ascendants, are we walking all the way back?	1																					
+25	22		202							1					1																			
+26	23		201							1	1031001																							
+27	24		301							1	Liv	There should be a transport aircraft picking us up.	1																					
+28	25		301								Liv	But there's no other signal around except for the Corrupted.	1																					
+29	26		201							1	1021001																							
+30	27		301							1	Lucia	The crash site over there!	1																					
+31	28		204							1	3																							
+32	29		301								Lucia	Looks like it's...	1																					
+33	30		202							1					1																			
+34	31		201							1	1081001	5	400																					
+35	32		201							2	1011001		-400																					
+36	33		301							1	Kamui	Dammit! Must've been Roland!	1																					
+37	34		301								Lee	The consequences of letting him slip away.	2																					
+38	103		204							1																								
+39	35		301								Kamui	...!	1																					
+40	36		202							1	2				1																			
+41	37		201							1	1021001																							
+42	38		301		1		AniZhuanchangBegin			1	Lucia	Let's retrieve the pilot's dog tag and... move on.	1																					

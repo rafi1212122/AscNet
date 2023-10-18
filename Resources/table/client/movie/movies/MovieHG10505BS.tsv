@@ -1,0 +1,34 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+2	2		401							1	5																							
+3	3		201							1	500091																							
+4	4		301			DialogEnable				1	Nanami	Good morning, Commandant! Goodbye, Commandant!	1																					
+5	5		201							1	1011001																							
+6	6		301							1	Lee	Come back here, you!	1																					
+7	7		302								What happened?	8	Did Nanami take something from you, Lee?	8																				
+8	8		301								Lee	Nanami suddenly burst in and took the remote while I was sorting out the storage.	1																					
+9	9		301								Lee	It's impossible to catch up with that new frame of hers...	1																					
+10	10		302								Looks like you're having a hard time, Lee.	11	What controller did she take?	14																				
+11	11		204							1	10																							
+12	12		301								Lee	A headache can't describe all the pain she has caused.	1																					
+13	13		204							1																								
+14	14		301								Lee	The remote she took was a long-distance type T1 series.	1																					
+15	15		204							1	10																							
+16	16		301								Lee	It's hard to say what she wants to do with it since it can be used for a wide range of things.	1																					
+17	17		204							1																								
+18	18		301								Lee	Commandant, I heard she's been collecting materials recently, do you know anything about it?	1																					
+19	19		302								Reactors and metals.	20	Um... No...?	23																				
+20	20		204							1	10																							
+21	21		301								Lee	She's not planning to make a bomb... is she?	1																					
+22	22	24	204							1																								
+23	23		301								Lee	That's very suspicious, what are you hiding?	1																					
+24	24		301								Lee	But she probably wouldn't do anything to harm us.	1																					
+25	25		302								And here I thought you doubted her.	26	Yeah, Nanami is a good girl.	27																				
+26	26	30	301								Lee	Just keep an eye on her, you never know what she'll do if you let her roam free.	1																					
+27	27		204							1	10																							
+28	28		301								Lee	A good girl... She probably wouldn't be happy with that.	1																					
+29	29		204							1																								
+30	30		301								Lee	Anyway, it may not be her intention, but considering what has happened in the past, I fear that something bad may happen this time...	1																					
+31	31		301								Lee	For example, building a bomb from the materials she collected.	1																					
+32	32		204							1	10																							
+33	33		301		1		AniZhuanchangBegin				Lee	Hm... I'm probably overthinking.	1																					

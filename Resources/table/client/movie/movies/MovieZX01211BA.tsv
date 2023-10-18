@@ -1,0 +1,86 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		401			AniZhuanchangEnd				1	111																							
+2	2		101							Assets/Product/Texture/Image/BgStory/Bgstory178.png																								
+3	3		201							2	500100		-400																					
+4	4		201							3	500019		400																					
+5	5		301							1	Construct	Ugh... I... I will never f-fall!	3																					
+6	6		301							1	α	Sure.	2																					
+7	7		401							2	10002001																							
+8	5001		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHit.prefab	2																							
+9	8		301								Construct	—!!!	3																					
+10	9		202							3																								
+11	10		301									The Construct holds up his shield, but it proves useless against Alpha. Her blade sifts through the air, and the very next instant, the Construct is already in two pieces.																						
+12	11		201							3	500028		400																					
+13	12		301							1	Construct Leader	Don't panic! It's just one enemy. Circle 'round her, now!	3																					
+14	13		202							2																								
+15	14		201							2	500019		-400																					
+16	15		301							1	Construct	Roger!	2																					
+17	16		301									The sight of their fallen comrades do not dishearten the Constructs, instead, it seems to be inspiring the others.																						
+18	17		301									Heeding their leader's command, the Constructs quickly surround Alpha. This white-haired Ascendant is the target of their mission, and the Constructs are ready to do anything to defeat her.																						
+19	18		301								Construct Leader	Go!	3																					
+20	19	601	301									At their leader's cue, the Constructs ready their weapons for a concerted assault and close in on Alpha.																						
+21	601		203							2	0.25	-600																						
+22	602		203							3	0.25	600																						
+23	603	20	201							1	500019																							
+24	20		301			RImgBg1Shake				1	Construct	Die!	1	2	3																			
+25	5000		401							2	10002001																							
+26	5002		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHit.prefab	2																							
+27	21		301									Unfazed in the slightest, Alpha merely twists her blade in one minimal flourish before returning it to its sheath.																						
+28	522		401							2	10002001																							
+29	523		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab		3																						
+30	22		301								Construct Leader	...	3																					
+31	524		202							3																								
+32	525		401							2	10002001																							
+33	526		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab		2																						
+34	23		301								Construct A	...	2																					
+35	527		202							2																								
+36	528		401							2	10002001																							
+37	529		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab		1																						
+38	24		301								Construct B	...	1																					
+39	26		202							1					1																			
+40	27		201							1	500100																							
+41	28		301							1	α	...	1																					
+42	29		301									Like their comrades before them, their fate is sealed the moment they met Alpha.																						
+43	5003		401							2	1506																							
+44	30		301			RImgBg1Shake						Not a single explosion—the cut has steered clear of the volatile core components of the Constructs. Their metallic frames groan before crumbling to the ground, and life becomes matter.																						
+45	31		301									A predestined result. Chance plays no part.																						
+46	32		202							1					1																			
+47	33		201							1	1031001																							
+48	34		301							1	Liv	This... This is!?	1																					
+49	35		302								The Ascendant Alpha...	36	Any surviving squads?	37																				
+50	36	43	301								Liv	She single-handedly wiped out all the vanguard squads...	1																					
+51	37		301								Liv	Confirming now!	1																					
+52	38		202							1					1																			
+53	39		201							2	1021001	4	-400																					
+54	40		201							3	500026		400																					
+55	41		301							1	Lee	I don't think it's necessary at this point...	3																					
+56	42		301							1	Lucia	All wiped out...	2																					
+57	43		202							1	2	3																						
+58	44		301									Alpha senses the arrival of the belated guests.																						
+59	45		201							1	500100																							
+60	46		301							1	α	Gray Raven...? I was wondering if I'd ever see you again.	1																					
+61	47		203							1	0.25	400																						
+62	48		201							2	1021001	4	-400																					
+63	49		301							1	Lucia	Alpha, what do you have to gain from slaughtering your own kind?	2																					
+64	50		301								α	My own kind...? Interesting way to put it, Lucia.	1																					
+65	51		301									Lucia inches toward Alpha cautiously, blade in hand. Alpha calmly smiles off this encroaching threat.																						
+66	52		301								Lucia	Are they not? Those Constructs you cut down there, they were your comrades, our comrades! Why did you become like this?	2																					
+67	53		301								Lucia	Answer me, Lucia!	2																					
+68	54		202							1	2	3																						
+69	55		201							2	1031001		-400																					
+70	56		201							3	500026		400																					
+71	57		301							1	Liv	H-huh?	2																					
+72	58		301							1	Lee	I knew it...	3																					
+73	59		301									Lucia's exclamation answers a question that has long been hanging on everyone's mind. Some time ago, Lucia has already—																						
+74	60		301									—Realized that Alpha is another Lucia.																						
+75	61		202							2	3																							
+76	62		201							2	500100		-400																					
+77	63		201							3	1021001	4	400																					
+78	64		301							1	α	When did you find out...? And, do you ask of me, or yourself, "Lucia"?	2																					
+79	65		301							1	Lucia	During the time in the arctics, I already knew that I wasn't the real me. And fighting with you again, I realized that...	3																					
+80	66		301								Lucia	Your moves, the way you handle your blade—you are the real Lucia... aren't you?	3																					
+81	67		301								α	Heh.	2																					
+82	68		301								Lucia	...Commandant, we must stop the Corrupted here from advancing further. If we occupy this bridge, we can bottleneck their advance.	3																					
+83	69		302								Lucia... you...	70	Don't fight alone anymore.	71																				
+84	70		301		1		AniZhuanchangBegin				Lucia	Don't worry about me, Commandant. Focus on the battle.	3																					
+85	71		301		1		AniZhuanchangBegin				Lucia	I won't. Lee, Liv, ready your weapons!	3																					

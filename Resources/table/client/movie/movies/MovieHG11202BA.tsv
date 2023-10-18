@@ -1,0 +1,98 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory1.jpg																								
+2	2		401							1	201																							
+3	3		201							1	500155																							
+4	4		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+5	5		301			DialogEnable				1	Chrome	I've sent you the enemy's route.	1																					
+6	6		302								Thank you.	7	Is it really safe to stay that long in a Corrupted zone?	8																				
+7	7	12	301							1	Chrome	Don't mention it.	1																					
+8	8		301							1	Chrome	Yep. After my Inver-Device was upgraded, my Mind Beacon became less sensitive than Gray Raven's. In other words, I can operate independently for longer periods of time than other Constructs.	1																					
+9	9		302								Sounds impressive.	10	But you still need to be careful.	11																				
+10	10	12	301							1	Chrome	Just trying to better complete the mission.	1																					
+11	11	12	301							1	Chrome	As the leader, I know what I'm doing. Don't you worry about me, Commandant.	1																					
+12	12		301							1	Chrome	How's Kamui doing? Still sticking to the plan, I hope?	1																					
+13	13		302								He's doing fine.	14	For now, yes.	14																				
+14	14		301							1	Chrome	That's good then.	1																					
+15	15		301							1	Chrome	...Well, Commandant, I've got some business to take care of.	1																					
+16	16		301							1	Chrome	I'll end the connection here then.	1																					
+17	17		302								Okay.	18	Stay safe.	18																				
+18	18		202				AniZhuanchangBegin			1					1																			
+19	19		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+20	20		201							1	1021001		400			1																		
+21	21		201							2	1031001		-400			1																		
+22	23		301			AniZhuanchangEnd				1	Liv	Commandant, strong energy fluctuation at eleven o'clock!	2																					
+23	24		301							1	Lucia	Prepare for combat with the intel from Strike Hawk leader.	1																					
+24	25		302								Stick to the plan.	987																						
+25	987		202							1	2																							
+26	22		201							3	1011001					1																		
+27	26		301							1	Lee	Commandant, don't you feel like something's missing here?	3																					
+28	27		302								What?	28	Where's Kamui? He's supposed to be back from recon.	31																				
+29	28		301							1	Lee	Kamui's physical presence has become as elusive as his intellect.	3																					
+30	963		202							3																								
+31	602		201							1	1021001		400			1																		
+32	603		201							2	1031001		-400			1																		
+33	29		204							2	7																							
+34	30	32	301							1	Liv	...Oh! Where did Kamui go?	2																					
+35	605		202							1	2																							
+36	606		201							3	1011001																							
+37	31	32	301							1	Lee	I suggest we tread carefully before we find him. There's no telling where the next bullet we fire will end up.	3																					
+38	607		201							1	1021001																							
+39	32		301							1	Lucia	Commandant, can you connect with Kamui now?	1																					
+40	33		302								Let me try.	34																						
+41	34		301								???	Ha!!																						
+42	35		202							1	2	3			1																			
+43	36		401							2	1508																							
+44	37		502							RImgBg1Shake																								
+45	38		302								Looks like there's no need to look for him.	39																						
+46	39		301									A greatsword flies out from a window in a nearby building, drawing an arch in the air before planting itself deep in the ground. The next moment, a familiar-looking figure leaps down and lands steadily next to the sword.																						
+47	40		201							1	1081001	2																						
+48	41		301							1	Kamui	Commandant! Guys! There you are!	1																					
+49	42		202							1					1																			
+50	43		201							1	1031001		-400			1																		
+51	44		201							2	1011001	10	400			1																		
+52	45		301							1	Lee	...	2																					
+53	46		301							1	Liv	C-Commandant, the fluctuations in the area are gone...	1																					
+54	47		202							1	2				1																			
+55	48		201							1	1081001	2																						
+56	49		301							1	Kamui	Oh, I just took care of all of the Corrupted ahead. How about that!	1																					
+57	50		302								Great job.	51	Prepare to get an earful.	52																				
+58	51	54	301							1	Kamui	Heh heh, with Commandant backing me up, I have nothing to worry about!	1																					
+59	52		204							1	17																							
+60	53	54	301							1	Kamui	Huh?	1																					
+61	54		201							1	1011001	10				1																		
+62	55		301							1	Lee	Chrome must have nerves of tantalum to stand having Kamui in his squad.	1																					
+63	56		201							1	500155					1																		
+64	57		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+65	58		301							1	Chrome	Commandant, I just detected Kamui's signal along the enemy's route. What's going on?	1																					
+66	59		302								Ahem...	60	He took care of all of the Corrupted.	63																				
+67	60		301							1	Chrome	...Are you safe right now? Where's Kamui?	1																					
+68	61		301							1	Chrome	I'll be there in five minutes. Hold on.	1																					
+69	62		302								We're fine.	65	Kamui has dealt with the threat.	67																				
+70	63		301							1	Chrome	In a... conventional manner?	1																					
+71	64		302								You could say that.	67	Tangentially speaking.	67																				
+72	65		301							1	Chrome	Are you sure? As the commandant, you should report the situation as it is.	1																					
+73	66		302								Don't worry. Kamui has taken care of the enemies.	67																						
+74	67		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+75	68		201							1	1081001	1				1																		
+76	69		301							1	Kamui	Commandant, put in a good word for me!	1																					
+77	70		201							1	500155					1																		
+78	71		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+79	72		301							1	Chrome	Please ignore him.	1																					
+80	73		302								He fought bravely.	74	You're too hard on him.	75																				
+81	74	76	301							1	Chrome	Are you sure he acted according to the mission plan?	1																					
+82	75	76	301							1	Chrome	It's for his own good and for the good of Strike Hawk.	1																					
+83	76		301							1	Chrome	But since you put it that way, I'll give him the benefit of doubt.	1																					
+84	77		301							1	Chrome	I'll admit it. Kamui is good at handling certain situations.	1																					
+85	78		302								I agree.	79	You know your team members well.	80																				
+86	79	82	301							1	Chrome	Yes, so that I can make the best use of their talent. Given the right command, Kamui can do his job well.	1																					
+87	80		301							1	Chrome	Leadership is about getting the right people to do the right job.	1																					
+88	81	82	301							1	Chrome	And so do you, am I right?	1																					
+89	82		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+90	83		201							1	1081001	8				1																		
+91	84		301							1	Kamui	Haha! I! Rock!	1																					
+92	85		203							1	0.25	-400																						
+93	86		201							2	500155		400			1																		
+94	87		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+95	88		301							1	Chrome	Pride goes before a fall. Try to draw lessons from what happened today.	2																					
+96	89		301							1	Kamui	Don't forget your promise, leader!	1																					
+97	90		301		1		AniZhuanchangBegin			1	Chrome	I won't.	2																					

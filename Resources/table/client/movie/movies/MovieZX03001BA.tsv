@@ -1,0 +1,388 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory618.jpg																								
+2	2		401							1	36																							
+3	3		201							1	500013					1																		
+4	4		401							2	819004																							
+5	5		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab		1																						
+6	6		502							PanelActor1Shake																								
+7	7		301			DialogEnable				1	Corrupted	Rawrgh!	1																					
+8	8		202							1																								
+9	9		401							2	2603																							
+10	10		401							1	201																							
+11	11		301									As the last Corrupted falls, the blue-hued space falls silent once again. Several tropical fish stare at the uninvited "guests" through the thick glass that houses them.																						
+12	12		201							1	500394																							
+13	13		301							1	Construct A	Threats cleared. No more hostile signals detected.	1																					
+14	14		201							1	500498																							
+15	15		301							1	Chiko	How is the life detector running?	1																					
+16	16		201							1	500405																							
+17	17		301							1	Construct B	It's set to upload the scans automatically at set intervals. Look.	1																					
+18	18		201							1	500498																							
+19	19		301							1		Chiko looks down at her terminal and finds a new imaging document there.																						
+20	20		301									However, there are also multiple obstructions interfering with the signals within the detector's range. There is no way to pinpoint the location of a specific target.																						
+21	21		301									Chiko nods and continues asking.																						
+22	22		301								Chiko	How's the hacking on the surveillance authorization going?	1																					
+23	23		301									...She hears no answers, just the sound of the Purifying Force members moving around.																						
+24	24		204							1	4																							
+25	25		301								Chiko	What's the status on the cameras?	1																					
+26	26		301									Chiko raises her voice.																						
+27	27		301								???	Why are you kicking me, Norris?																						
+28	28		301									She can hear the mumbling from the back of the team.																						
+29	29		204							1	14																							
+30	30		301									Chiko sighs, frustrated by how badly her team is working together.																						
+31	31		204							1																								
+32	32		301									Almost every member of the Purifying Force is used to working alone. There has never been an operation that requires a team of more than five ever since the Purifying Force was formed.																						
+33	33		301									Not to mention that the Purifying Force has enlisted many members from other squads, as well as new recruits fresh out of school, leading to the current situation.																						
+34	34		301								???	I'm sorry. Were you asking for me, Vice-Captain?																						
+35	35		301									Chiko takes a deep breath and calms herself, asking the same question the third time.																						
+36	36		204							1	4																							
+37	37		301								Chiko	Have we gotten access to the cameras?	1																					
+38	38		201							1	500028																							
+39	39		301							1	???	C-copy that, Vice-Captain. The hacking operation hasn't been completed yet at the moment...	1																					
+40	40		301									A brief commotion of panic comes from the back. A young Construct is staring at the terminal, his fingers flying all over the keyboard.																						
+41	41		301									His name is printed on the custom terminal—Delapoer.																						
+42	42		301								Delapoer	The security system here isn't using the popular encryption method from the Golden Age. It's a bit difficult to crack it from the outside...	1																					
+43	43		301								Delapoer	But if you can give me another 15 minutes... no, 10 minutes...	1																					
+44	44		201							1	500498	14																						
+45	45		301							1		Looking at the corpses on the floor and her injured teammate, Chiko contemplates for a moment.																						
+46	46		204							1	4																							
+47	47		301								Chiko	That's longer than we can afford. We've encountered five Corrupted attacks already. Who can say when the next one's coming?	1																					
+48	48		301								Chiko	How long will it take if we hack it from an access point within the administrative room?	1																					
+49	49		201							1	500028																							
+50	50		301							1	Delapoer	Copy that, Vice-Captain... If I have access to the administrative room, I can transfer the virus directly to reset the system authorization.	1																					
+51	51		201							1	500498	4																						
+52	52		301							1	Chiko	I'm adjusting our objective. Prioritize making our way to the administrative room and access to the cameras.	1																					
+53	53		301								Chiko	And stop saying "copy that" before every sentence, rookie. We don't need your habits from boot camp in the field.	1																					
+54	54		201							1	500028																							
+55	55		301							1	Delapoer	Copy—Understood, Vice-Captain.	1																					
+56	56		201							1	500394																							
+57	57		301							1	Construct A	But our mission here is to search for the Red-Tide-worshipping cult "Scarlet Revelation" that got tricked here by the Ascendants. The higher-ups won't be happy if we get sidetracked and get them killed.	1																					
+58	58		201							1	500498	4																						
+59	59		301							1	Chiko	If they were indeed tricked here by the Ascendants as the intel said, they could be monitoring us right now.	1																					
+60	60		301								Chiko	It's already unusual that this "Copperfield Aquarium" is still running. We should at least get the security cameras on our side.	1																					
+61	61		301								Chiko	Pack up, team! Check your ammo and prepare to go.	1																					
+62	62		202							1					1																			
+63	63		201							1	500019		-600																					
+64	64		201							2	500405																							
+65	65		201							3	500028		600																					
+66	66		301							1	Purifying Force Member	Roger!	1	2	3																			
+67	67		202							1	2	3			1																			
+68	68		201							1	500028																							
+69	69		301							1	Delapoer	...	1																					
+70	70		201							2	500019		400																					
+71	71		301							1	???	Hey, stop spacing out. Get your stuff and be ready to go.	2																					
+72	72		202							1	2				1																			
+73	73		201							1	500028		-400				1																	
+74	74		201							2	500019		400																					
+75	75		301							1	Delapoer	Ah?! Don't startle me, Norris...	1																					
+76	76		301							1	Norris	Why on earth did you apply for the Purifying Force if you're so easily scared...	2																					
+77	77		301							1	Norris	And what's wrong with you today? You can usually hack into small cameras like this just with your toes! Are you getting stage fright joining a big operation for the first time?	2																					
+78	78		301							1	Norris	Or is the customized terminal I gave you not to your liking? I remember that you used to need the same pillow or you couldn't sleep well. Aren't you still using Sleeping Pod 3? Does it apply to terminals as well?	2																					
+79	79		301							1	Delapoer	My toes... Stop exaggerating...	1																					
+80	80		301							1		Delapoer shakes his head, bombarded by his terrible friend's endless questions.																						
+81	81		301							1	Delapoer	The terminal is great. Like I said, the encryption here is uncommon.	1																					
+82	82		301							1		Delapoer looks confused as he says that.																						
+83	83		301							1	Delapoer	But most assets Copperfield left on the surface use the same encryption method. This is the first time I've seen something like this.	1																					
+84	84		301							1	Norris	Maybe the guy was getting creative that day... or perhaps the Ascendants altered the encryption, haha...	2																					
+85	85		301							1		Delapoer shivers, quickly covering Norris' mouth.																						
+86	86		301							1	Delapoer	Knock on wood! I don't want to see any Ascendants today!	1																					
+87	87		301							1	Norris	You're part of the Purifying Force now. Sooner or later you'll run into them.	2																					
+88	88		301							1		Norris easily removes his hold and rests a hand on his shoulder instead, speaking to him earnestly.																						
+89	89		301							1	Norris	This is part of growing up, you know?	2																					
+90	90		301							1	Delapoer	You talk like you had met an Ascendant before...	1																					
+91	91		301							1		Delapoer knows the person before him. Had Norris survived an encounter with an Ascendant with an intact speech module, Delapoer would have had to disable his own audio module, or he would never have heard the end of it.																						
+92	92		301							1	Norris	Haha! Even though a new Ascendant pops up every other day, and many of them showed up during the Kowloong War, I still haven't met one! I'm kind of lucky, I guess.	2																					
+93	93		301							1	Norris	My luck has to continue, right?	2																					
+94	94		202							1	2				1																			
+95	95		201							1	500394																							
+96	96		301							1	Construct A	What are you still doing there, Norris?	1																					
+97	97		201							1	500019																							
+98	98		301							1	Norris	I have to go.	1																					
+99	99		301									Norris pats Delapoer on his shoulder as he walks past his friend.																						
+100	100		301								Norris	Don't you worry even if we run into Ascendants. You specialists are rare in the Purifying Force.	1																					
+101	101		301								Norris	You'll be safe with us in the front.	1																					
+102	102		301								Norris	And Vice-Captain is with us, too. Not the best reputation, sure, but her skills on the battlefield are unmatched.	1																					
+103	103		301								Norris	So stop being such a sourpuss.	1																					
+104	104		202							1					1																			
+105	105		201							1	500028						1																	
+106	106		301							1	Delapoer	...	1																					
+107	107		301							1	Delapoer	How can you tell how I feel through my mask?	1																					
+108	108		202							1					1																			
+109	109		201							1	500019																							
+110	110		301							1	Norris	Hahaha! I know how you feel even if you're an abstract piece of art—	1																					
+111	111		401							2	1510																							
+112	112		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+113	113		301			RImgBg1Shake						"BANG!"																						
+114	114		301									A bullet lands right next to where Norris is standing. The squad leader urging Norris to return to his post is pointing a gun at him, with smoke still coming out of the barrel.																						
+115	115		201							1	500394																							
+116	116		301							1	Construct A	N-O-R-R-I-S!	1																					
+117	117		201							1	500019																							
+118	118		301							1	Norris	******	1																					
+119	119		301								Norris	I'm coming!	1																					
+120	120		301								Norris	By the way, I've requested a transferal to your squad after this mission. We can watch each other's back in the future.	1																					
+121	121		202							1																								
+122	122		301									With that, Norris rushes to the front of the troop. Delapoer sighs, looking at Norris getting further and further away.																						
+123	123		201							1	500028																							
+124	124		301							1	Delapoer	Don't you jinx it.	1																					
+125	125		202							1	 																							
+126	126		301									Packing up his terminal, Delapoer looks up casually and finds the tropical fish in the tank staring at the troop of Purifying Force members.																						
+127	127		301									This antique of a facility from the Golden Age is still running without issues, even to this day.																						
+128	128		301									Out of nowhere, Delapoer suddenly wonders if the fish in there consider the humans some aliens trapped in their own glass cages.																						
+129	129		301									The members of "Scarlet Revelation" believe the dead are reborn in the Red Ttide. Since it retains their memories, data, and consciousness, the Red Tide Projections are considered echoes of their lives.																						
+130	130		301									The difference in their forms and living habitats makes it impossible for them to communicate. Just as how fish cannot understand humans, humans cannot understand the lives in the Red Tide...																						
+131	131		401							1	36																							
+132	132		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+133	133		201							1	500028																							
+134	134		301							1	"Delapoer"	(Wait a minute...)	1																					
+135	135		301								"Delapoer"	(Why is there fish in there?)	1																					
+136	136		202							1					1																			
+137	137		401							1	158																							
+138	138		301									The facility might have been running, but how could the fish survive this long without anyone to look after them?																						
+139	139		301									This is a well-maintained graveyard, but a graveyard nonetheless. There should be nothing but rotten corpses inside.																						
+140	140		502							RImgBg1BlowUp																								
+141	141		301									"Delapoer" walks away from his team, slowly walking toward the group of fish that has been staring at him. The closer he gets, the closer the fish approaches.																						
+142	142		401							1	2650																							
+143	143		301									Thousands of fish adhere to the glass on one side, their eyes forming a giant insect-like compound eye, the gaps between the eyeballs filled by their colorful bodies.																						
+144	144		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+145	145		101						1000	Assets/Product/Texture/Image/BgCg/Cg3002_28.jpg																								
+146	146		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+147	147		101							Assets/Product/Texture/Image/BgStory/Bgstory618.jpg																								
+148	148		301									The thousands of eyes slowly turn, tracing "Delapoer's" footsteps. "Delapoer's" reflections in them gradually expand, twist, and transform.																						
+149	149		201							1	500028			-10	30	1																		
+150	150		205							1		0.8	0.8	0																				
+151	151		501						800	Assets/Product/Effect/Prefab/FxTongyong/FxUiGuanbixiaoshi.prefab	2		1																					
+152	152		505								Assets/Product/Effect/Prefab/FxTongyong/FxUiGuanbixiaoshi.prefab																							
+153	153		301							1		As the water moves and surges, his "self" in their eyes begins to melt like butter, and his "bones," "blood," and "flesh" crumple away, leaving an empty sack of skin floating in the water.	1																					
+154	154		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+155	155		202							1					1																			
+156	156		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+157	157		401							2	571																							
+158	158		402							2650																								
+159	159		301									"..."																						
+160	160		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+161	161		101							Assets/Product/Texture/Image/BgStory/Bgstory618.jpg																								
+162	162		301									He cannot feel his feet anymore. The vaguely humanoid-shaped figure approaches the glass wall that separates water from the air.																						
+163	163		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+164	164		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+165	165		201						1000	1	500533	8				1																		
+166	166		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+167	167		101							Assets/Product/Texture/Image/BgStory/Bgstory618.jpg																								
+168	168		202							1					1																			
+169	169		301							1		"...ca..."	1																					
+170	170		401							2	2645																							
+171	171		104							0|0|-300	15																							
+172	172		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+173	173		101						1000	Assets/Product/Texture/Image/BgCg/Cg3002_38.jpg																								
+174	174		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+175	175		101							Assets/Product/Texture/Image/BgStory/Bgstory618.jpg																								
+176	176		301									The closer he gets, the more blissful he feels—as if every organ in his body is screaming with joy!																						
+177	177		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+178	178		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+179	179		301									"...anca..."																						
+180	180		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+181	181		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+182	182		402							613																								
+183	183		101							Assets/Product/Texture/Image/BgCg/Cg3002_40.jpg																								
+184	184		301									His consciousness will be liberated from its cage for a sky of freedom; his body will break the chains that bound him and sprout a pair of wings.																						
+185	185		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+186	186		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+187	187		402							613																								
+188	188		101							Assets/Product/Texture/Image/BgStory/Bgstory618.jpg																								
+189	189		301									Just a little bit closer...																						
+190	190		501						3000	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+191	191		401							1	36																							
+192	192		505							RImgBg1BlowUp																								
+193	193		104							0|0|0	0																							
+194	194		302				AniZhuanchangBegin				Bianca!	195																						
+195	195		101							Assets/Product/Texture/Image/BgStory/Bgstory618.jpg																								
+196	196		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+197	197		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+198	198		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab	2																							
+199	199		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	2																							
+200	200		301			AniZhuanchangEnd					Bianca	Cough...																						
+201	201		401							1	209																							
+202	202		301									Her buried consciousness slowly rises, her sense of self reestablished.																						
+203	203		301									Dust-covered corpses lie underneath her feet. The faint light from the lamp in her hand is slowly dying, and the projections in her visual module are dissolving into the air.																						
+204	204		201							1	500322																							
+205	205		301							1	???	How are you feeling, Bianca?	1																					
+206	206		301									The projections overlap with the figure before her. For a brief second, she cannot recognize who that is.																						
+207	207		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab																							
+208	208		205							1		1	0	1																				
+209	209		201							2	500166					1																		
+210	210		205							2		0	1	1																				
+211	211		301							1		Calibrating her visual module, Bianca finds Lucia standing before her. Next to Lucia is a human, while other members of this operation are standing further away, keeping watch.																						
+212	212		202					1000		1	2				1																			
+213	213		201							1	500533	3																						
+214	214		301							1	Bianca	I'm okay. Were you the one that terminated the "Phantom Tracer", Commandant?	1																					
+215	215		302								Yeah.	216																						
+216	216		204							1	5																							
+217	217		301				DialogDisable					She looks at the now-darkened lamp and frowns.																						
+218	218		302								Your M.I.N.D. was extremely unstable back then.	219																						
+219	219		302								The Deep M.I.N.D. connection might not make it in time.	220																						
+220	220		302								So I authorized to stop the tracer first.	221																						
+221	221		204							1	7																							
+222	222		301			DialogEnable						That is when Bianca realizes that her M.I.N.D. is currently connected intricately through a special network. Was her M.I.N.D. deviation so severe that she did not even notice this earlier?																						
+223	223		204							1																								
+224	224		301								Bianca	A timely assessment, Commandant.	1																					
+225	225		301								Bianca	After viewing some events that took place here through the Phantom Tracer, I began to experience hallucinations.	1																					
+226	226		301									Looking at the mere handful of bionic fish in the giant fish tank, Bianca is certain that the thousands of tropical fish she saw earlier were her hallucinations.																						
+227	227		301								Bianca	My M.I.N.D. has stabilized now. You can stop the Deep M.I.N.D. connection, Commandant.	1																					
+228	228		302								Alright.	229																						
+229	229		301									As the link is disconnected, Bianca hooks the lamp-shaped Phantom Tracer back on her belt.																						
+230	230		201							1	500166	5																						
+231	231		301							1	Lucia	Compared to the Spear of F.O.S., this tracer has a much higher risk of M.I.N.D. deviation.	1																					
+232	232		301								Lucia	You should rely on it less, Bianca.	1																					
+233	233		302								I agree with Lucia.	234																						
+234	234		201							1	500533	1																						
+235	235		301							1	Bianca	...	1																					
+236	236		301								Bianca	At least now we know what's the longest we can use the tracer.	1																					
+237	237		301								Bianca	Asimov and Vesalius have mentioned that if we can stabilize the M.I.N.D. through a Deep M.I.N.D. connection in time, there is no fear of a M.I.N.D. deviation.	1																					
+238	238		302								Don't take unnecessary risks.	239																						
+239	239		301				DialogDisable				Bianca	Don't worry. I'll use it responsibly.	1																					
+240	240		302								...	241																						
+241	241		302				AniZhuanchangBegin				This is too hasty. We're underprepared for this mission and this new frame.	242																						
+242	242		101							Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+243	243		502							DialogEnable																								
+244	244		202							1					1																			
+245	245		301			AniZhuanchangEnd						Babylonia, 09:00 AM																						
+246	246		201							1	500011																							
+247	247		301							1	Hassen	Thank you for your hard work on the last mission.	1																					
+248	248		301				DialogDisable				Hassen	You mentioned in your report that Lithos has some unique insights on the Red Tide?	1																					
+249	249		302								He seems to believe that the lives taken by the Red Tide aren't completely gone.	250																						
+250	250		302								They merely live on in another fractured form.	251																						
+251	251		301			DialogEnable					Hassen	Hmm. This seems to match what Noan said...	1																					
+252	252		301								Hassen	I suspect that the incident at Copperfield Aquarium is the work of the Ascendants.	1																					
+253	253		302								Copperfield Aquarium?	254																						
+254	254		301								Hassen	You heard me. That's where you're going next.	1																					
+255	255		301								Hassen	The truth is, the Ascendants aren't just targeting Constructs with their rumors... They have also swayed some Scavengers groups that hold similar ideals.	1																					
+256	256		401							2	1227																							
+257	257		301									The projection on the bridge suddenly displays a large amount of intel and images.																						
+258	258		402							1227																								
+259	259		302								"Scarlet Revelation"?	260																						
+260	260		301								Hassen	It is a new group that believes the Red Tide can resurrect the dead.	1																					
+261	261		301								Hassen	From the testimonials we gathered, they were a small group of 13 before gradually expanding into a group of thousands.	1																					
+262	262		301								Hassen	The original 13 that started the group call themselves the "13 Revelationists".	1																					
+263	263		302								...	264																						
+264	264		301								Hassen	They haven't done anything as fanatical as pushing or luring people into the Red Tide yet.	1																					
+265	265		301								Hassen	But, recently, the 13 Revealationists all received invitations from an unknown Ascendant one after another.	1																					
+266	266		301								Hassen	The Ascendant promised them rebirth through the Red Tide if they showed up at a specific location and passed the Ascendant's test and filtering.	1																					
+267	267		301								Hassen	Even though the 13 only considered "Rebirth through the Red Tide" a tale of solace, any comfort they could find turned into a lifeline in these desperate times.	1																					
+268	268		301								Hassen	Most of them died on their journey. The Purifying Force only found dead bodies and a handful of survivors when they arrived.	1																					
+269	269		301								Hassen	Only 1 of the 13 Revealationists survived.	1																					
+270	270		401							2	2566																							
+271	271		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+272	272		201							1	500541																							
+273	273		301							1		A picture of a woman with dark eyeshadows appears in the projection.																						
+274	274		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+275	275		201							1	500011																							
+276	276		301							1	Hassen	Grace last appeared in Copperfield Aquarium.	1																					
+277	277		302								Were the Ascendants trying to turn the people into one of them?																							
+278	278		301									Noan mentioned that it was not humans but Lithos who turned him into a Construct. You do not know how or why, but the Ascendants also seem to possess Construct technology.																						
+279	279		301								Hassen	Not really. Their situations were different from Noan's.	1																					
+280	280		301								Hassen	They all tested negative for Tantalum-193 affinity in conservation areas in the past. There was no way they could become Constructs.	1																					
+281	281		301								Hassen	And we've found that the technology used on Noan's frame was more or less identical to ours apart from the anomaly in his M.I.N.D.	1																					
+282	282		301								Hassen	In theory, even the Ascendants couldn't turn them into Constructs.	1																					
+283	283		301								Hassen	Nonetheless, we couldn't just watch as our own were sacrificed for some Ascendant conspiracies.	1																					
+284	284		301								Hassen	We sent a team of Purifying Force to investigate the aquarium, but they also disappeared.	1																					
+285	285		302								Even Chiko?	286																						
+286	286		301								Hassen	Yes.	1																					
+287	287		401							2	2566																							
+288	288		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+289	289		201							1	500498					1																		
+290	290		301							1	Chiko	This is Chiko. We're no longer detecting any Corrupted signals at the entrance and the surrounding one-kilometer area. Beginning the investigation on the Scarlet Revelation now.	1																					
+291	291		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+292	292		202							1					1																			
+293	293		201							1	500011																							
+294	294		301							1	Hassen	That is the last recording we received.	1																					
+295	295		301								Hassen	We want you to continue Chiko's mission and investigate the Scarlet Revelation and what the Ascendants are after at Copperfield Aquarium.	1																					
+296	296		301								Hassen	And try to rescue as many survivors as possible.	1																					
+297	297		302								Understood.	298																						
+298	298		301								Hassen	Any questions?	1																					
+299	299		302								I have one, but it's not mission-related.	300																						
+300	300		301								Hassen	What is it?	1																					
+301	301		302								It's about Lee...	302																						
+302	302		301									There are so many questions you want answers to that you have no idea where to begin. However, Hassen seems to know what you want to ask just at the mention of Lee.																						
+303	303		301								Hassen	I understand your worry, but I can't tell you too much yet.	1																					
+304	304		301								Hassen	But I want you to know that we're doing what we're doing to prevent another "Empyrea".	1																					
+305	305		301								Hassen	"The real hope... is the people who created all of them." Your words at the Parliament didn't just impact people's opinions on the zero-point engine on the moon.	1																					
+306	306		301				DialogDisable				Hassen	So... trust our people and give them more time.	1																					
+307	307		302								...	308																						
+308	308		302				AniZhuanchangBegin				I'll go get ready.	309																						
+309	309		101							Assets/Product/Texture/Image/BgStory/Bgstory211.png																								
+310	310		202							1					1																			
+311	311		502							DialogEnable																								
+312	312		301			AniZhuanchangEnd						The mood in the transport craft is dreary. Most members of the Purifying Force are not speaking. Rare, brief interactions quickly revert to silence.																						
+313	313		301									You recognize some faces from previous missions, but some you do not know. They seem to be new recruits who just joined the Purifying Force.																						
+314	314		301									But you are perhaps most surprised by their captain.																						
+315	315		201							1	500166																							
+316	316		301							1	Lucia	Bianca, your frame...	1																					
+317	317		202							1					1																			
+318	318		201							1	500533																							
+319	319		301							1		Bianca is here in a completely new form after being severely injured in the previous battle with the agent.																						
+320	320		301									You are not surprised to find her as the captain of the squad. You are surprised to find her using a frame you have never seen instead of the Veritas frame while the Zero frame is under repair. Even her bow has been replaced with a Swordstaff.																						
+321	321		301								Bianca	Our mission takes place indoors this time. Since a bow isn't the most optimal weapon of choice, I've been provided with alternative equipment.	1																					
+322	322		301									Noticing the confusion in your eyes, she explains the reason why she has changed her weapon.																						
+323	323		301								Bianca	By the way, Vesalius asked me to give this to you.	1																					
+324	324		301				DialogDisable					Bianca hands you a familiar-looking connection device.																						
+325	325		302								Is this the improved Deep M.I.N.D. connection device?	326																						
+326	326		302								Why do we need it?	327																						
+327	327		502							DialogEnable																								
+328	328		301				AniZhuanchangBegin				Bianca	I'll explain later. Please wear your seatbelt first, Commandant.	1																					
+329	329		502							DialogDisable																								
+330	330		302			AniZhuanchangEnd					"Phantom Tracer"?	331																						
+331	331		301			DialogEnable					Bianca	That's right. It's the new technology at the core of the Stigmata frame.	1																					
+332	332		301									According to Bianca, the lamp-shaped "Phantom Tracer" can help her reconstruct the past in a set area.																						
+333	333		301									The "Spear of F.O.S." that Gray Raven used could do the same as long as there are functional digital devices on the scene if this is all the tracer is for.																						
+334	334		301									But...																						
+335	335		301								Bianca	Unlike the Spear of F.O.S., the Phantom Tracer can read part of the data stored within the Punishing Virus before deciphering it with an enhanced version of the Spear of F.O.S.	1																					
+336	336		301								Bianca	Limited by the Construct hardware, we cannot perform the same kind of analysis and simulation as a dedicated machine. A machine like that, however, is easily infected by the Punishing Virus, which limits its mobility.	1																					
+337	337		301								Bianca	The Spear of F.O.S. Asimov invented can be used by Constructs, but it only works on the data stored inside functional digital devices.	1																					
+338	338		301								Bianca	The "Phantom Tracer" fills the gap between them. Given how the surface is filled with the Punishing Virus, we can use this tracer to figure out what happened to an area in the past.	1																					
+339	339		201							1	500166	5																						
+340	340		301							1	Lucia	So the Punishing Virus is capable of storing data... Now that I think about it, the Red Tide Projections have proven to show similar traits.	1																					
+341	341		201							1	500533																							
+342	342		301							1	Bianca	According to the researchers, they have been investigating this property of the Punishing Virus for a long time, dating back to before even the Red Tide was first discovered.	1																					
+343	343		301								Bianca	But it wasn't until Noan's recent appearance that gave them the final piece of the puzzle.	1																					
+344	344		302								Using the Phantom Tracer will lead to M.I.N.D. deviation?	345																						
+345	345		301									Although you do not understand how the Phantom Tracer works, it is clear to you that deciphering information from the Punishing Virus is not as easy as clicking open a document from a terminal.																						
+346	346		301								Bianca	Yes. If a Deep M.I.N.D. connection isn't established after running the tracer for a certain amount of time, it can lead to permanent damage and deviation to the M.I.N.D.	1																					
+347	347		301								Bianca	And given that the deciphering process involves the Punishing Virus, establishing a Deep M.I.N.D. connection while the tracer is running exacts a heavier toll on the commandant than usual.	1																					
+348	348		302								How long do we have?	349																						
+349	349		204							1	5																							
+350	350		301								Bianca	...We don't know yet.	1																					
+351	351		302								You don't know? Hold on...	352																						
+352	352		302								Bianca, has Stigmata been calibrated and tested in simulations?	353																						
+353	353		301									Noan only arrived on Babylonia a while ago. If the researchers were only able to complete the Phantom Tracer after Noan's appearance, then Stigmata must not have been made for long.																						
+354	354		204							1	8																							
+355	355		301								Bianca	...	1																					
+356	356		204							1	5																							
+357	357		301								Bianca	Given how urgent the situation is, this frame has only been briefly tested and calibrated. But we're certain that it won't damage my M.I.N.D. when we're not using the Phantom Tracer.	1																					
+358	358		301				DialogDisable				Bianca	As for the tracer itself... There wasn't a suitable testing venue on Babylonia, and it was too late to test it on the ground.	1																					
+359	359		401							1	161																							
+360	360		202							1					1																			
+361	361		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+362	362		101						1000	Assets/Product/Texture/Image/BgCg/Cgqz1503.jpg																								
+363	363		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+364	364		101						1000	Assets/Product/Texture/Image/BgCg/Cg2301_5.jpg																								
+365	365		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+366	366		101							Assets/Product/Texture/Image/BgStory/Bgstory211.png																								
+367	367		301			DialogEnable						You cannot help but clutch your fists so tight that your nails can almost pierce your palms.																						
+368	368		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+369	369		101							Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+370	370		504							0.7																								
+371	371		201							1	500011					1																		
+372	372		301							1	Hassen	"The real hope... is the people who created all of them." Your words at the Parliament didn't just impact people's opinions on the zero-point engine on the moon.	1																					
+373	373		301								Hassen	So... trust our people and give them more time.	1																					
+374	374		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+375	375		504							0																								
+376	376		101							Assets/Product/Texture/Image/BgStory/Bgstory211.png																								
+377	377		201							1	500533	5																						
+378	378		301				DialogDisable			1		You almost have to squeeze your words out through clenched teeth.																						
+379	379		302								President Hassen and Asimov wouldn't have agreed to this.	380																						
+380	380		302								Who made Stigmata, Bianca?	381																						
+381	381		204							1	8																							
+382	382		301			DialogEnable						Bianca closes her eyes and does not speak until your fists eventually relax.																						
+383	383		204							1	5																							
+384	384		301								Bianca	It was Kurono, Commandant.	1																					
+385	385		301				AniZhuanchangBegin				Bianca	They've been researching it since the Punishing Virus appeared.	1																					
+386	386		502							ThemeEnable																								
+387	387		102		1	AniZhuanchangEnd	AniZhuanchangBegin		5000	Chapter 20	Across the Ruined Sea	Assets/Product/Texture/Atlas/CommonLogo/BgLogo1.png																						

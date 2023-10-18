@@ -1,0 +1,91 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	12																							
+3	3		301			DialogEnable					???	"Once upon a time, there lived a king and queen. They were kind and wise, and the people lived happily under their rule."																						
+4	4		301								???	"But the king and queen had a problem—they were childless. So the king and queen prayed with the people to God and asked for God to give them a child."																						
+5	5		301								???	"And God responded to their wishes. One day when the queen was bathing, a frog emerged from the water and said to the queen:"																						
+6	6		301				AniZhuanchangBegin				???	"God will fulfill your wishes, and you will soon have a child."																						
+7	7		101						2000	Assets/Product/Texture/Image/BgStory/Bgstory95.png																								
+8	8		401							1	211																							
+9	9		301			AniZhuanchangEnd						With the long winter approaching, the people of Soltvara are sorting supplies from the ARU.																						
+10	10		301								Inventory Manager	Hey... Why is so much of the cargo missing this time!																						
+11	11		201							1	500087																							
+12	12		301							1	Yakov	They said that the snow chains on the truck broke and it overturned in Ladoga Lake... Pff, do they think we'll buy that?	1																					
+13	13		201							1	500086																							
+14	14		301							1	Ivan	Yuri and those bastards had to have embezzled it... The ARU keeps sending less supplies with each shipment!	1																					
+15	15		301								Inventory Manager	No way... You expect us to survive the winter with this?																						
+16	16		201							1	500087																							
+17	17		301							1	Yakov	Hey, Evgeny, you're the head of our district. Say something! If we go on like this, we'll all be finished before the Punishing Virus is eradicated!	1																					
+18	18		202							1					1																			
+19	19		301									More and more people gathered around in front of the supply crate as the first few men fought angrily.																						
+20	20		301									Daddy was surrounded by the crowd. His eyebrows were knit fiercely in an imposing look never before seen since the Punishing Virus had brought everyone to the settlement.																						
+21	21		301								Evgeny	I know... I'll talk to the person in charge of other settlements. Don't worry, we won't have less supplies.																						
+22	22		201							1	500087																							
+23	23		301			PanelActor1Shake				1	Yakov	...Talk? Do you still want to "talk" with them at this point?	1																					
+24	24		301									The man burst out laughing, and suddenly grabbed Dad by the collar.																						
+25	25		301								Amberia	Daddy...!																						
+26	26		301									Daddy stretched out his hand to keep me behind him as he gently shook his head.																						
+27	27		301								Evgeny	What are you guys gonna do?																						
+28	28		301								Yakov	If they rob us of our supplies without saying a word, we'll rob them back! Why do we have to suffer from starvation and then frigid cold while they leisurely spend the winter with our supplies?!	1																					
+29	29		301								Yakov	We've got enough weapons here in the steel mill. We can make our move tomorrow. Evgeny, you're our leader. We'll follow you.	1																					
+30	30		301								Evgeny	But...																						
+31	31		301									Yakov grinned a twisted smile and threw the checklist at Daddy.																						
+32	32		301								Yakov	We've got enough supplies to last us a month. You're the leader, you should have our best interests at heart.	1																					
+33	33		301								Yakov	If we don't strike first, then they'll be sure to kill us sooner or later. Just look at this. It's flat out highway robbery!	1																					
+34	34		301								Yakov	You guys agree, don'tcha? This is for the good of the people!	1																					
+35	35		301									Evgeny looked around at the residents. Mothers held their children; old people shook their heads and sighed. Their thin faces were full of callous despair.																						
+36	36		301								Evgeny	...I understand.																						
+37	37		202							1					1																			
+38	38		301									...																						
+39	39		301									After the crowd dispersed, Daddy turned to look at me. Exhausted, he laughed.																						
+40	40		301								Evgeny	It's okay. Everything will be all right. Daddy is in charge here. It's my responsibility to ensure everyone gets through this winter safely. Even if... I have to do something I know I shouldn't.																						
+41	41		301									Daddy looked at me, but I knew he was just talking to himself.																						
+42	42		301				AniZhuanchangBegin				Evgeny	Lia, wait at home for Daddy to come back. There's nothing to be afraid of.																						
+43	43		101						2000	Assets/Product/Texture/Image/BgStory/Bgstory56.jpg																								
+44	44		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab	2																							
+45	45		401							1	12																							
+46	46		301			AniZhuanchangEnd						The area was engulfed in flames.																						
+47	47		301									A few days ago, Daddy left with others carrying weapons to visit another settlement. But we haven't heard back from them.																						
+48	48		301									Then a group of armed thugs blew open the gate to the settlement. They frantically looted the place of its supplies, beat those in their way, and burned the houses.																						
+49	49		301									I hid in the corner of the room and watched the spreading fire approach from the window. Despite lacking fuel, the frigid house was now hotter than ever.																						
+50	50		301								Amberia	Cough... There's... Nowhere to go... Daddy, why haven't you come back?																						
+51	51		401							1	201																							
+52	52		301									Suddenly, someone burst through the door. Covered in injuries, Daddy rushed into the room.																						
+53	53		301								Amberia	Daddy! Where'd you go? You're hurt...!																						
+54	54		301								Evgeny	Lia! Thank goodness... I'm sorry. I got here too late.																						
+55	55		301									Daddy picked me up and carried me out of the room.																						
+56	56		301				DialogDisable				Evgeny	Let's get out of here first!																						
+57	57		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab																							
+58	58		502							RImgBg1DisableSlow																								
+59	59		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/Bgstory62.jpg																								
+60	60		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab	3																							
+61	61		401				RImgBg1DisableSlow			2	1504																							
+62	62		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/Bgstory55.jpg																								
+63	63		401				RImgBg1DisableSlow			2	1504																							
+64	64		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab																							
+65	65		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/BgStory68.jpg																								
+66	66		301			DialogEnable						After running for some time, we arrived at an abandoned factory. The stench and heat of the scorching flames were finally behind us.																						
+67	67		301									The abandoned factory was full of people who escaped from the settlement. Their faces were covered with blood and despair, while others suffered severe burns during their escape and laid on the ground groaning in pain.																						
+68	68		301									Seeing us, everyone fell silent. The look in their eyes was filled with something I couldn't understand.																						
+69	69		301									I didn't realize until much later, that this was—hatred.																						
+70	70		301								???	If the flames keep burning like this, I'm afraid the power station will...																						
+71	71		301									I don't know who said this, the factory fell back into dead silence.																						
+72	72		301									That's the area's last centralized power station still in operation. If it's destroyed, the people of Soltvara will be left without a shelter.																						
+73	73		301								Evgeny	There's no cause for alarm. As long as the outer fire door remains closed, the fire extinguisher system will activate before the fire reaches the core...																						
+74	74		201							1	500086																							
+75	75		301							1	Ivan	Oh, no... The main door is open!	1																					
+76	76		301								Evgeny	What?! What happened?!																						
+77	77		301									Aware of his mistake, Ivan trembled and glanced at Yakov.																						
+78	78		301								Ivan	It-it was all Yakov's idea. He said to hide...	1																					
+79	79		201							1	500087																							
+80	80		301							1	Yakov	Shut up! Now's not the time for that nonsense!	1																					
+81	801		202							1	1																							
+82	81		301								Evgeny	...I'm going to go to the power station and close the fire door.																						
+83	82		301								Evgeny	I'll be right back. Wait for me here.																						
+84	83		301									Dad reached out and patted my head, then rushed out of the factory without looking back and ran towards the power station.																						
+85	831		201							1	500087																							
+86	84		301							1	Yakov	Ivan! Let's go, too!	1																					
+87	85		202							1					1																			
+88	86		301									Yakov grabbed Ivan, who was shaking for some reason, and ran to catch up.																						
+89	87		301									Soon after, we heard an explosion in the distance.																						
+90	88		301		1		AniZhuanchangBegin					Daddy never returned after that.																						

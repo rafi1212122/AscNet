@@ -1,0 +1,124 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	1000		401							1	12																							
+3	2		301			DialogEnable						Somewhere far away, through the cold darkness, through the smoke and war, our city burns in the flames of war.																						
+4	3		301									Through my database simulation, I can feel the city bleeding. I can see blown-up bodies lying in the ruins of their homes. I can feel flags trembling in the hands of survivors.																						
+5	4		301									Souls of the dead. Souls of the dying. Souls of the living.																						
+6	5		301				AniZhuanchangBegin					Is this just an emotion simulation? Or is there an error with my programming?																						
+7	6		101							Assets/Product/Texture/Image/BgStory/Bgstory252.png																								
+8	9515		401							1	208																							
+9	7		201							1	500219																							
+10	8		301			AniZhuanchangEnd				1	Little Girl	Um... Mr. Robot, uh, I don't know what to call you... Anyway, what are you doing here?	1																					
+11	9		201							2	500231		400																					
+12	3000		203							1	0.25	-400																						
+13	10		301							1	HNB1	I'm keeping you safe through the night.	2																					
+14	11		301								HNB1	Oh, and just call me HNB1—just like how HBG3 calls me.	2																					
+15	13		301								Little Girl	That's not a name. It's just a number. Don't you two have any other names you call each other?	1																					
+16	15		301								HNB1	You mean B1 or G3? That's a name we call different Tai'E series with. Sometimes our bosses call us by nicknames to tell us apart. But that new hunk of steel doesn't like calling me that.	2																					
+17	17		301								Little Girl	Are you friends?	1																					
+18	19		301								HNB1	Well, that's a pretty tough question. I don't know if we count as friends. We're just partners—not sure if he likes me that much though, but I guess it's weird for a robot to have likes and dislikes. We just obey orders.	2																					
+19	21		301								Little Girl	But I think he actually cares about you...	1																					
+20	23		301								HNB1	Really? Did he send you over here? I thought there's just nothing but data in that brain of his...	2																					
+21	24		301								HNB1	And why are you suddenly acting like a life coach? Aren't you only eight or nine years old?	2																					
+22	25		204							1	4																							
+23	26		301								Little Girl	I'm older than that! He's just cleaning the room inside. I was just a little... a little worried about you.	1																					
+24	27		204							1																								
+25	3001		401							2	36																							
+26	28		301									HNB1 scans his system and emotion module in a few milliseconds. At present, it is loaded with Personality No.53. Through big data analysis, it is the most popular personality among Kowloong people. Everything is fine.	1																					
+27	29		301								HNB1	Something wrong with me?	2																					
+28	31		301								Little Girl	You don't seem to be yourself... You feel different from daytime.	1																					
+29	33		301				AniZhuanchangBegin				HNB1	Why's that?	2																					
+30	1001		202							1	2				1																			
+31	2000		401							1	207																							
+32	34		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+33	35		301			AniZhuanchangEnd						Why's that?																						
+34	36		301									The top priority for Tai'E units is to ensure human safety.																						
+35	37		301									He has always had a special affinity toward humans. Whether it be imitating humans on TV or doing silly things to provoke laughter...																						
+36	3010		301									He never understood why he did so. He just knew it would make others look happy—that people would surround him and focus on him.																						
+37	38		301									He never understood why this behavior makes humans happy.																						
+38	39		301									But now... For the first time, he seems to be feeling an emotion that is exclusive to humans.																						
+39	40		301				AniZhuanchangBegin					He feels...																						
+40	41		101							Assets/Product/Texture/Image/BgStory/Bgstory252.png																								
+41	42		201							1	500219																							
+42	43		301			AniZhuanchangEnd				1	Little Girl	Are you scared?	1																					
+43	44		201							1	500231																							
+44	45		301				AniZhuanchangBegin			1	HNB1	Robots can't be scared.	1																					
+45	46		202							1					1																			
+46	47		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+47	48		301			AniZhuanchangEnd						Is this... feeling... fear?																						
+48	49		301									Seeing one of his own turn into a bloodthirsty monster... Seeing what the humans—the ones who trusted and relied on him—did. He suddenly feels... afraid.																						
+49	50		301									Afraid to point of wanting to run away.																						
+50	51		301				AniZhuanchangBegin					Is this feeling a preset command, or a system error? He could not tell.																						
+51	52		101							Assets/Product/Texture/Image/BgStory/Bgstory252.png																								
+52	53		301			AniZhuanchangEnd						A sudden hand wraps around HNB1's thumb, lingering with an all-too-human warmth. Following along the hand, he raises his head to see the girl's gentle face.																						
+53	54		201							1	500219																							
+54	55		301							1	Little Girl	Does this hurt?	1																					
+55	56		203							1	0.25	-400			1																			
+56	3003		201							2	500231		400																					
+57	57		301									The girl gently strokes his arm. In order to block an attack for the girl, a part of his body was indented, the paint scraped off.																						
+58	59		301			PanelActor2Shake				1	HNB1	...Ow, that hurts!	2																					
+59	60		202							1	2																							
+60	61		301									The thought of telling her that his series of Tai'E units do not have pain receptors crosses his mind, but it came out as an exaggerated yelp of pain.																						
+61	62		301									He meant to make her laugh. But instead, she takes off one of her ribbons and carefully wraps it around the damaged part.																						
+62	63		201							1	500231																							
+63	64		301							1	HNB1	Sorry, I actually can't feel pain.	1																					
+64	65		201							1	500218																							
+65	66		301							1	Little Girl	You keep talking about how fresh your paint is... And you bandaged me up earlier too.	1																					
+66	68		301									The girl carefully wraps it up and blows on it.																						
+67	3004		203							1	0.25	-400																						
+68	69		201							2	500232		400																					
+69	70		301							1	HNB1	...Thanks.	2																					
+70	71		204							2	1																							
+71	72		301								HNB1	What about you? How are you feeling? Is everything all right?	2																					
+72	74		301								Little Girl	I... I'm not scared.	1																					
+73	3008		204							2																								
+74	76		301								HNB1	Why aren't you scared?	2																					
+75	77		204							1	4																							
+76	78		301								Little Girl	I mean, I am! It's just... I'm used to it.	1																					
+77	79		301								Little Girl	I'm scared Daddy will never find me. I'm afraid of being left behind... I'm afraid if I get on the ship, there will be no good animes anymore.	1																					
+78	81		301								HNB1	That does sound like death for an anime lover.	2																					
+79	83		301								Little Girl	What about you? Are you scared?	1																					
+80	85		301				AniZhuanchangBegin				HNB1	I...	2																					
+81	86		202							1	2				1																			
+82	87		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+83	88		301			AniZhuanchangEnd						I'm afraid of those monsters.																						
+84	89		301				AniZhuanchangBegin					I'm afraid of becoming like them. I'm afraid of losing control and killing those around me.																						
+85	90		101							Assets/Product/Texture/Image/BgStory/Bgstory252.png																								
+86	91		201							2	500232		400																					
+87	3005		201							1	500218		-400																					
+88	92		301			AniZhuanchangEnd				1	HNB1	Did you forget what I said? Robots can't get scared.	2																					
+89	93		204							1	1																							
+90	94		301							1	Little Girl	...That's nice.	1																					
+91	95		301								Little Girl	I also want to be brave. My daddy always tells me to be brave. He also said that if I learn to swim, he'll buy me another doll... I almost can swim now!	1																					
+92	97		301								HNB1	Did your father buy you this?	2																					
+93	99		301								Little Girl	Yup! Cute, huh?	1																					
+94	101		301								HNB1	Cute.	2																					
+95	103		201							1	500233		-400																					
+96	104		301							1	HBG3	What are you talking about?	1																					
+97	105		301								HNB1	Nothing.	2																					
+98	106		301								HNB1	Alright, let's go in. You need to rest up.	2																					
+99	108		201							1	500218	1	-400																					
+100	109		301							1	Little Girl	Okay!	1																					
+101	110		201							1	500233		-400																					
+102	111		301							1	HBG3	I cleaned the room up a bit. Lock the door. We'll stay on guard outside.	1																					
+103	113		301								HNB1	If something's wrong, if you think we... Run away by yourself.	2																					
+104	114		301								HNB1	Just like your father said. Stay away from mechanoids... Keep running and stay alive.	2																					
+105	115		201							1	500218		-400																					
+106	116		301							1	Little Girl	...Okay.	1																					
+107	117		301								Little Girl	Oh, yeah!	1																					
+108	119		301								HNB1	Yeah?	2																					
+109	120		204							1	1																							
+110	121		301								Little Girl	If we all make it out okay, can I give you new names?	1																					
+111	123		301								HNB1	...Alright.	2																					
+112	125		301								Little Girl	It's a deal!	1																					
+113	127		301								HNB1	Deal.	2																					
+114	129		301								Little Girl	Okay! Goodnight!	1																					
+115	131		301								HNB1	Good night.	2																					
+116	3007		401							2	1516																							
+117	132		203						2000	1	2	-1200																						
+118	2001		401							1	201																							
+119	3006		202							1	2				1																			
+120	133		201							3	500233																							
+121	134		301							1	HBG3	She's gone.	3																					
+122	135		301								HBG3	While she's sleeping, we need to gather supplies from nearby for when we leave tomorrow.	3																					
+123	136		301		1		AniZhuanchangBegin				HBG3	Also, HNB1, there's something I need you to confirm.	3																					

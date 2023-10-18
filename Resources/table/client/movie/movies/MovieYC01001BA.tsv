@@ -1,0 +1,45 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory126.png																								
+2	2		401							1	202																							
+3	3		301			DialogEnable						——																						
+4	4		301			RImgBg1Shake						The intense explosion shakes the carriage.																						
+5	5		301									Inside the noble carriage.																						
+6	6		301									Jamilah has already made a decision.																						
+7	7		201							1	500127		400																					
+8	8		201							2	500125	4	-400																					
+9	9		301							1	Jamilah	Sophia, I'm counting on you.	2																					
+10	10		301								Sophia	Understood.	1																					
+11	11		201							1	500126	8	400																					
+12	12		301							1	Aston	...Leader, I recall advising you to be careful with your actions... in front of others, at least.	1																					
+13	13		204							1																								
+14	14		201							2	500124		-400																					
+15	15		301							1	Changyu	Wait, what about me?	2																					
+16	16		301								Changyu	If that big fellow did something, then it's best to increase our battle power.	2																					
+17	17		301								Aston	You cannot follow them, we can't afford any spontaneous actions at the moment.	1																					
+18	18		301								Aston	We cannot upset the aristocrats now.	1																					
+19	19		301								Changyu	Tsk...!	2																					
+20	20		301								Changyu	So you want me to go "protect" those so-called better humans?	2																					
+21	21		204							1	8																							
+22	22		301								Aston	At least nominally, you'll need to play the part.	1																					
+23	23		204							1																								
+24	24		301								Aston	I fear that slippery old fox would take action if two of our precious battle power resources are deployed.	1																					
+25	25		301								Changyu	...Understood.	2																					
+26	26		202							1	2				1																			
+27	27		201							1	500125	13																						
+28	28		301				AniZhuanchangBegin			1	Jamilah	…………	1																					
+29	29		202							1					1																			
+30	1000		101							Assets/Product/Texture/Image/BgStory/Bgstory126.png																								
+31	31		301			AniZhuanchangEnd						On the other side.																						
+32	32		201							1	500127		-400																					
+33	33		201							2	1031001		400																					
+34	34		301							1	Sophia	Please evacuate to the rear carriages through here.	1																					
+35	35		204							2	1																							
+36	36		301								Liv	Everyone, this way. Staying in the front carriages is dangerous, please evacuate to the back immediately.	2																					
+37	37		204							2																								
+38	38		301								Sophia	...	1																					
+39	39		201							2	1021001	4	400																					
+40	40		301							1	Lucia	Heads up, the Corrupted are invading!	2																					
+41	41		201							2	1011001		400																					
+42	42		301							1	Lee	Such a stubborn bunch...!	2																					
+43	43		204							1	5																							
+44	44		301		1		AniZhuanchangBegin				Sophia	Engage and destroy.	1																					

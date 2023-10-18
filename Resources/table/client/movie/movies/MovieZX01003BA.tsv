@@ -1,0 +1,60 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory145.jpg																								
+2	2		401				RImgBg1Shake			1	111																							
+3	3		301			DialogEnable	AniZhuanchangBegin				Rail Heterozygote	——																						
+4	4		101							Assets/Product/Texture/Image/BgStory/Bgstory129.png																								
+5	5		201							1	500124	1																						
+6	6		301			AniZhuanchangEnd				1	???	Tsk, it really is here. Sophia, report to the boss immediately!	1																					
+7	7		203							1	0.25	400																						
+8	8		204							1																								
+9	9		201							2	500127		-400																					
+10	10		301							1	Sophia	The Commoner Carriage that it was attached to...	2																					
+11	11		301								???	All dead, probably... Ashlar's work, I reckon. We could've used an empty cart.	1																					
+12	12		204							2	5																							
+13	13		301								Sophia	If only I was faster...	2																					
+14	14		204							2																								
+15	15		204							1	5																							
+16	16		301								???	Stop putting blames on yourself...	1																					
+17	17		202							1					1																			
+18	18		203							2	0.25	0																						
+19	19		204							2	10																							
+20	20		301								Sophia	Movement.	2																					
+21	21		202							2					1																			
+22	22		201							1	1031001	7																						
+23	23		301							1	Liv	Hold on, there were people on that carriage?!	1																					
+24	24		202							1					1																			
+25	25		201							2	500127																							
+26	26		301							1	Sophia	Who are you?	2																					
+27	27		302								We're from Babylonia.	28	We're Gray Raven.	31																				
+28	28		202							2					1																			
+29	29		201							1	500124	20																						
+30	30	37	301							1	???	Babylonia. Just as the boss predicted.	1																					
+31	31		301								Sophia	Gray Raven?	2																					
+32	32		203							2	0.25	-400																						
+33	33		201							1	500124	20	400																					
+34	34		301							1	???	Only the Babylonians make such weird names. They seem to be the "dealers" mentioned.	1																					
+35	35		202							2					1																			
+36	36		203							1	0.25	0																						
+37	37		204							1	1																							
+38	38		301								Changyu	Then let us introduce ourselves. My name is Changyu.	1																					
+39	39		202							1					1																			
+40	40		201							2	500127																							
+41	41		301							1	Sophia	Sophia.	2																					
+42	42		301								Sophia	We're both working for the Akdilek Commercial Alliance.	2																					
+43	43		202							2					1																			
+44	44		301									Above the speeding train, two figures of similar height stand steadily amidst the roaring wind.																						
+45	45		301									You can still notice a hint of childlikeness on their faces, but their expressions reveal a deadly gravitas.																						
+46	46		301									Whether it is the massive robotic arm on her back, drastically contrasting her minuscule frame—																						
+47	47		301									—Or the severed Corrupted limb that the other boy is carrying in his hand, you can tell that these two are more than meet the eyes.																						
+48	48		201							2	1021001																							
+49	49		301							1	Lucia	Commandant, they're both Constructs.	2																					
+50	50		202							2					1																			
+51	51		201							1	500124	1																						
+52	52		301				AniZhuanchangBegin			1	Changyu	Surprised? The Construct technology is not a Babylonia exclusive.	1																					
+53	53		202							1					1																			
+54	54		101							Assets/Product/Texture/Image/BgStory/Bgstory145.jpg																								
+55	1006		502							RImgBg1Shake																								
+56	1004		301			AniZhuanchangEnd	AniZhuanchangBegin				Rail Heterozygote	—!																						
+57	55		101							Assets/Product/Texture/Image/BgStory/Bgstory129.png																								
+58	56		201							1	500124	20																						
+59	57		301		1	AniZhuanchangEnd	AniZhuanchangBegin			1	Changyu	Almost forgot about this fella. It's looking pissed!	1																					

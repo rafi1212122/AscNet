@@ -1,0 +1,37 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory556.jpg																								
+2	2		401							1	5																							
+3	3		201							1	500445	1	-400																					
+4	4		201							2	500451		400																					
+5	5		301			DialogEnable				1	Pulao	Celestial! I am back with the tear of Mr. Big Fish!	1																					
+6	6		301								Celestial!	It's good that you got the tear. But why did you also bring back so many toys and snacks... gulp.	2																					
+7	7		204							1	6																							
+8	8		301								Pulao	Um... Because I met Mr. Guide at the bottom of the mountain. I mean, he used to be a tour guide, but is running a shop now.	1																					
+9	9		301								Pulao	He just had to give me them.	1																					
+10	10		301								Celestial!	I see. Not bad... gulp.	2																					
+11	11		301				AniZhuanchangBegin				Celestial!	Without further ado, let's start making the elixir!	2																					
+12	12		101							Assets/Product/Texture/Image/BgStory/BgStory556.jpg																								
+13	13		401						400	1	36																							
+14	14		401							1	32																							
+15	15		301			AniZhuanchangEnd					Celestial!	Strychnine, senna, cocklebur and lotus seeds.	2																					
+16	16		301								Celestial!	Dioscorea, sophora, chinaberry...	2																					
+17	17		301								Pulao	Is this a spell for making the elixir? It sounds like a song.	1																					
+18	18		301								Celestial!	Not much different... gulp.	2																					
+19	19		301								Celestial!	Finally, tear of Big Fish... Ready!	2																					
+20	20		401							2	804																							
+21	21		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+22	22		202							1	2				1																			
+23	23		101							Assets/Product/Texture/Image/BgStory/Bgstory428.jpg																								
+24	24		301									The celestial makes a finger snap. The pot cooking the elixir suddenly shines brilliantly, shooting all the way to the clouds. The light lasts a few seconds before disappearing.																						
+25	25		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBaiEnd.prefab	2																							
+26	26		101							Assets/Product/Texture/Image/BgStory/BgStory556.jpg																								
+27	27		201							1	500445		-400																					
+28	28		201							2	500451		400																					
+29	29		301					500			Celestial!	Tsk, I knew I shouldn't trust the specials. This torch only lasted a few seconds.	2																					
+30	30		204							1	2																							
+31	31		301								Pulao	Is this small black ball... the elixir?	1																					
+32	32		301								Celestial!	Correct. It may not taste good, but it can heal any disease.	2																					
+33	33		204							1	1																							
+34	34		301								Pulao	Phew... Finally, I can cure Master's disease.	1																					
+35	35		301								Celestial!	Yeah. Maybe this is fate's reward for your hard work.	2																					
+36	36		301		1		AniZhuanchangBegin				Celestial!	Now, it's time for those who travel far away from home to come back.	2																					

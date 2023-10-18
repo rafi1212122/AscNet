@@ -1,0 +1,106 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory543.jpg																								
+2	2		401							1	54																							
+3	3		301			DialogEnable						Nanami has never seen a battlefield like this.																						
+4	4		301									The ground is charred black under the moonlight. The smell of sulfur spreads in the air as fires slowly burn in the ruins.																						
+5	5		301									Dead bodies of humans, Constructs, and mechanoids remain tangled in a fight. Broken mechanoids speak with their stammering voices, "Free will for machines."																						
+6	6		301									But no one here is alive. There is no sign of life.																						
+7	7		201							1	500475	4																						
+8	8		301							1	Nanami	Where... is this...	1																					
+9	9		204							1	4																							
+10	10		301									This is obviously not one of the possible futures Nanami has imagined.																						
+11	11		301									She walks speedily among the ruins, scanning every possibly useful data. Searching for a weak signal she detected, she begins to get the lay of the land.																						
+12	12		301									All structures in this area look twisted. They are built with large, uniform pyramids, and they all look odd and cold without a hint of humanity.																						
+13	13		301									As she analyzes, she finds the frontline on this battlefield retreating. Scales of engagements also seem to be reducing.																						
+14	14		301								Nanami	Message deciphered... Fort Niflheim?	1																					
+15	15		301								Unknown Construct	Warning: unknown mechanoid detected. Attack!																						
+16	16		401						10	2	660																							
+17	17		401						20	2	661																							
+18	18		401							2	662																							
+19	19		502							PanelActor1Shake																								
+20	20		204							1	5																							
+21	21		301									As Nanami finishes deciphering the message and discovers information on humans, bullets that come out of nowhere hit her in the chest.																						
+22	22		202							1					1																			
+23	23		301									Nanami looks up to see fully armed Constructs lying on a roof high above. Hearing their shouts, Nanami does not have time to rejoice before she is shot down from Power.																						
+24	24		201							1	500472	4																						
+25	25		301							1	Nanami	Why...	1																					
+26	26		301									Looking at the scratches on her chest, Nanami feels a twisted pain in her head. Humans' bullets have never caused her any real harm, but the realistic impacts and the dissonant scene are giving her a headache.																						
+27	27		202							1					1																			
+28	28		504							0.7																								
+29	29		401						20	2	558																							
+30	30		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+31	31		101							Assets/Product/Texture/Image/BgStory/Bgstory65.jpg																								
+32	32		301								Gestalt	Any damage you receive in the future will also impact your program logic.																						
+33	33		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+34	34		504							0																								
+35	35		101							Assets/Product/Texture/Image/BgStory/Bgstory543.jpg																								
+36	36		201							1	500472	4																						
+37	37		301							1	Nanami	...	1																					
+38	38		401					100		2	662																							
+39	39		401						20	2	10007502																							
+40	40		401					20		2	662																							
+41	41		401						20	2	925																							
+42	42		301									More bullets shower down. Nanami has to retreat from the assault, blocking the shots with her arm.																						
+43	43		301								Nanami	Why are you... doing this...	1																					
+44	44		401							2	915																							
+45	45		301									No one answers her. Her voice is drowned in the sound of gunfire.																						
+46	46		201							1	500296																							
+47	47		301							1	Unknown Construct	Quickly! The hostile mechanoid has left her vehicle, showing no sign to attack. Concentrate fire and take her down!	1																					
+48	48		202							1					1																			
+49	49		401							2	558																							
+50	50		504							0.7																								
+51	51		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+52	52		101							Assets/Product/Texture/Image/BgStory/Bgstory5.jpg																								
+53	53		201							1	500040					1																		
+54	54		301							1	Nanami	Everyone is... avoiding... Nanami... Why...?	1																					
+55	55		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+56	56		504							0																								
+57	57		401							2	558																							
+58	58		101							Assets/Product/Texture/Image/BgStory/Bgstory543.jpg																								
+59	59		201							1	500472	4																						
+60	60		502							PanelActor1Shake																								
+61	61		301							1	Nanami	It hurts...	1																					
+62	62		504							0																								
+63	63		401							2	558																							
+64	64		504							0.7																								
+65	65		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+66	66		101							Assets/Product/Texture/Image/BgStory/Bgstory5.jpg																								
+67	67		201							1	500040																							
+68	68		301							1	Nanami	Argh—my head hurts...	1																					
+69	69		301							1	Nanami	Everyone is... leaving me...	1																					
+70	70		504							0																								
+71	71		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+72	72		401							2	558																							
+73	73		101							Assets/Product/Texture/Image/BgStory/Bgstory543.jpg																								
+74	74		201							1	500472	4																						
+75	75		301							1		Memories and reality interweave in her head, washing over her.																						
+76	76		401							2	561																							
+77	77		301									The ground below her begins to shake and crumple, revealing a pit designed to trap large mechanoids. Power accidentally takes a wrong step and tips, now stuck.																						
+78	78		301								Nanami	No... This time, Nanami will be different...	1																					
+79	79		301									Clenching her teeth, Nanami walks forward on the collapsed ground, struggling to inform the other party she is a friend.																						
+80	80		203							1	0.25	400																						
+81	81		201							2	500469		-400																					
+82	82		401						100	2	559																							
+83	83		401							2	561																							
+84	84		301						300	1	???	Watch out!	2																					
+85	85		301									Unexpectedly, a hand drags her away.																						
+86	86		301									That person seems to have descended from heaven, breezing through the difficult terrain and dodging the gunshots, bringing Nanami behind her slanted mech. A missile brushes past the mech's armor, exploding mid-air.																						
+87	87		301									Speaking with a calm voice, that person opens his or her cloak to block the blinding searchlight from the fort, the person's face hidden in the hood.																						
+88	88		204							1	4																							
+89	89		301								Nanami	...Who are you?	1																					
+90	90		401						20	2	661																							
+91	91		401							2	662																							
+92	92		301								???	I'll explain later. In 10 seconds, the humans will empty their weapons and reload, which takes about 30 seconds. Please take this opportunity to escape.	2																					
+93	93		401							2	662																							
+94	94		301									The mechanoid repeats her suggestion, carrying Nanami to Power's cockpit before jumping down the trap and lifting Power's leg, letting it regain balance.																						
+95	95		301								???	8 seconds. This mech should be fast enough. Please make use of it.	2																					
+96	96		301								Nanami	Huh...? H-hold on! Nanami is not leaving! Nanami is asking them why they're hurting Nanami! I won't be shot at for no reason! Maybe they thought Power was going to attack them...	1																					
+97	97		301								???	5 seconds. They're not afraid because of the weapon you're piloting. They're afraid because we are machines.	2																					
+98	98		301									The suppressive fire starts to diminish as Constructs in charge of close-range battles depart the fort, blades in hand. Facing an "enemy" unscathed by bullets, the soldiers are ardent to kill her in one last stand.																						
+99	99		301								???	If you don't leave now, you will only cause more deaths.	2																					
+100	100		301								???	3, 2...	2																					
+101	101		202							2					1																			
+102	102		201							1	500475	4																						
+103	103		401							2	1511																							
+104	104		301									Decisively, Nanami pilots Power and exits the pit.																						
+105	105		301		1		AniZhuanchangBegin				Nanami	Lead the way!	1																					

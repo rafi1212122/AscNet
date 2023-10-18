@@ -1,0 +1,47 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory172.png																								
+2	2		401							1	205																							
+3	3		201							1	1081001																							
+4	4		301			DialogEnable				1	Kamui	Karenina, watch your HP. Are you sure you are okay?	1																					
+5	2001		201							1	500180	5																						
+6	5		301							1	Karenina	Hah? What's the problem?	1																					
+7	2002		202							1																								
+8	6		301									Karenina was being shot by the arrows from a triggered trap. Kamui looked very concerned.																						
+9	2003		201							1	1081001																							
+10	7		301							1	Kamui	But you are stepping on a trap, no, many traps... Watch out!	1																					
+11	8		301									Karenina ignored Kamui, who was trying to stop her, and continued walking forward. She triggered another trap just when Kamui stopped talking.																						
+12	2004		401							2	1510																							
+13	9		301									The ground quickly opened and Karenina was engulfed in flames, her HP kept dropping.																						
+14	10		301			RImgBg1Shake						She then took out the recovery potions collected previously and sprayed them on herself.																						
+15	11		301									This ultimate playstyle was so broken that it almost destroyed the game experience. It was invented by Camu, and soon adopted by Vera and Karenina.																						
+16	2005		201							1	500173																							
+17	12		301							1	Lee	I see... I never knew we could play this type of game like this.	1																					
+18	2006		201							1	1081001																							
+19	13		301							1	Kamui	Wait, this isn't the right way to play this game. It probably was Camu's idea!	1																					
+20	14		301								Kamui	But I must say it again. This is the wrong way to play!	1																					
+21	15		302								Camu said he thought of this idea while watching you play games.	16	What's the right way to play then?	17																				
+22	16	1001	301								Kamui	But I never invented this method. I knew I was clumsy at certain games, but the fun of games comes from challenging the traps with skill.	1																					
+23	17	1001	301								Kamui	To clear the traps with my wisdom and skill, of course!	1																					
+24	1001		203							1	0.25	400																						
+25	2007		201							2	500166	1	-400																					
+26	18		301							1	Lucia	Do you mean detecting the traps, or avoiding them?	2																					
+27	19		301								Kamui	Yeah, sort of.	1																					
+28	2008		203							1	0.25	600																						
+29	2009		203							2	0.25	-600																						
+30	2010		201							3	500173																							
+31	20		301							1	Lee	That sounds good, but based on your usual performance, I doubt if you really can do it.	3																					
+32	3001		202							1	2	3																						
+33	3002		201							1	500180																							
+34	21		301							1	Karenina	Hey, what are you doing? Come over here!	1																					
+35	22		301									While Kamui was still talking about his view on games, Karenina had already passed the corridor thanks to the recovery potions. She looked back and was shocked.																						
+36	3003		201							1	1081001																							
+37	23		301							1	Kamui	Hmph, I'll be there in a sec. Here I come!	1																					
+38	3004		401							2	1501																							
+39	24		301			RImgBg1Shake						The next second, Kamui triggered a trap that closed all the nearby exits.																						
+40	25		301								Kamui	Huh? What's going on!?	1																					
+41	3005		202							1																								
+42	3006		201							1	500166		400																					
+43	3007		201							2	500173		-400																					
+44	26		301							1	Lucia	He triggered the trap within an instant...	1																					
+45	27		301								Lee	I see. No wonder Camu invented that playstyle.	2																					
+46	28		301		1		AniZhuanchangBegin					Because Kamui could never detect, or avoid any traps.																						

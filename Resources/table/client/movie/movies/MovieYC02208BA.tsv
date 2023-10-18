@@ -1,0 +1,123 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory434.jpg																								
+2	2		401							1	201																							
+3	3		201							1	500140		-600																					
+4	4		201							2	500139																							
+5	5		201							3	500136		600																					
+6	6		301			DialogEnable				1	"Beardy"	Looks like... this place... should be okay...	1																					
+7	7		301								Kordes	I wonder if Rolmo's alright...	2																					
+8	8		301								"Beardy"	I don't think anyone could survive falling from that height...	1																					
+9	9		301								Zack	We've seen our fair share of death along the way, haven't we? Don't let this get to you. We're still alive. That's what matters the most.	3																					
+10	10		301								Kordes	But now the problem is... How do we get outta here...?	2																					
+11	11		301								Kordes	Those plants have completely blocked our way in, so we can't possibly go back the way we came. Now we gotta find a new way out.	2																					
+12	12		301								Zack	And those damn plants have blocked the evacuation route. The only way out is to destroy the plants from the outside.	1																					
+13	13		301								Zack	—If those things can even be called plants.	1																					
+14	14		301								"Beardy"	Let's blow those abominations straight to Hell. Normal plants can't possibly grow that fast, can they?	1																					
+15	15		301								Zack	Kordes, you're the botanist here. What do you say?	3																					
+16	16		301								Kordes	They just look like plants. But internally, they're the same as those monsters created by the Punishing Virus.	2																					
+17	17		301								Kordes	And from the way they move... they're more like appendages rather than plants.	2																					
+18	18		301								Zack	In other words... We can't just destroy them.	3																					
+19	19		301								Kordes	Correct. Damaging them will just release a high concentration of the Punishing Virus, which we're not equipped to deal with.	2																					
+20	20		301								Zack	We're also running low on ammo. We'll run out of ammo before we can even put a dent in them.	3																					
+21	21		301								"Beardy"	We haven't even managed to scrounge up supplies either, despite the number of bodies here.	1																					
+22	22		301								Zack	Ultimately, it was my decision to come here. My poor judgment got us into this mess.	3																					
+23	23		301								Zack	I'll get you guys out of here. No matter what.	3																					
+24	24		202							1	2	3			1																			
+25	25		301									Zack picks up his backpack and pulls out a worn notebook and charcoal pen.																						
+26	26		201							1	500136																							
+27	27		301							1	Zack	If the emergency exit is blocked off, we'll have to try to leave through the main entrance. Now that it's closed, we'll have to find the central control room and open it from there.	1																					
+28	28		301									He quickly draws a crude map and marks several points on it.																						
+29	29		301								Zack	If the structure of each filter tower is basically the same... The central control room is usually located in the middle of the tower. After all, it's in the name. But we can't use the elevator, so it's up to us.	1																					
+30	30		301								Zack	While we were going through the previous area, I noticed that the ladder we climbed should mean we're in the lower part of the tower.	1																					
+31	31		301								Zack	If we want to get to the stairs on the upper level, we'll have to go through this access corridor.	1																					
+32	32		301									The Scavenger draws a long line on the map across the entire tower.																						
+33	33		201							1	500140																							
+34	34		301				AniZhuanchangBegin			1	"Beardy"	Now that we have our target, let's go.	1																					
+35	35		202							1	2				1																			
+36	36		101							Assets/Product/Texture/Image/BgStory/Bgstory436.jpg																								
+37	37		301			AniZhuanchangEnd						Fish-shaped monsters with faint fluorescence roam the dark access corridor. Hiding behind the giant machinery off in the distance, the Scavengers clench their weapons instinctively.																						
+38	38		201							1	500140		400																					
+39	39		201							2	500139		-400																					
+40	40		301							1	"Beardy"	What should we do... We have to go through here to get to the other side.	1																					
+41	41		301								Kordes	But with this many of them, we've got our work cut out for us. Even if we use all we got, we'll only hold out for half a minute.	2																					
+42	42		301								"Beardy"	Wanna try forcing our way through?	1																					
+43	43		201							2	500136		-400																					
+44	44		301							1	Zack	That's gonna be tough. Our only option is to try explosives.	2																					
+45	45		301								"Beardy"	Wait... Won't that blow up the corridor, too?	1																					
+46	46		301								Zack	You underestimate the structural stability of the CPFs. It'll take a lot more than a few explosives to do that.	2																					
+47	47		301								"Beardy"	...Roger.	1																					
+48	48		202							1	2				1																			
+49	49		301									"Beardy" nods, then raises his weapon in preparation for Zack's next command. But as if suddenly thinking of something, Kordes raises his hand to stop Zack from taking out explosives from his bag.																						
+50	50		201							1	500139																							
+51	51		301							1	Kordes	Wait... It looks like some kind of deep-sea fish.	1																					
+52	52		301								Kordes	Zack, remember those Red Tide monsters we ran into from before? They have similar forms as animals and behave like them.	1																					
+53	53		301								Kordes	Those flying insects and scorpions...	1																					
+54	54		301								Kordes	We used fluorescent rods to attract their attention and escaped from the sewer!	1																					
+55	55		203							1	0.25	-400																						
+56	56		201							2	500136		400																					
+57	57		301							1		Hearing this, Zack puts the explosives back in his bag and turns to look at Kordes, who's suddenly excited by the stroke of genius.																						
+58	58		301								Zack	...So what do you suggest?	2																					
+59	59		301								Kordes	If those fish-like monsters also imitate the behavior of animals, they likely have the same habits as deep-sea fish.	1																					
+60	60		301									Kordes suppresses his excitement and lowers his voice.																						
+61	61		301								Kordes	Because there's almost no light down in the ocean depths, many deep-sea fish have abandoned their eyes through evolution. Some fish have eyes, but they no longer work!	1																					
+62	62		301								Kordes	That is to say, they're blind. They don't use their eyes to judge the position of their prey. They locate them using sound waves.	1																					
+63	63		301								Kordes	So...	1																					
+64	64		201							2	500140		400																					
+65	65		301							1	"Beardy"	As long as we can make noise to distract their attention and cover our movement, we should be able to clear a corridor this length in about 8 seconds!	2																					
+66	66		301								Kordes	You're right.	1																					
+67	67		201							2	500136		400																					
+68	68		301							1	Zack	You mean we still need this thing.	2																					
+69	69		301									Zack smirks and grabs the explosive again.																						
+70	70		301								Kordes	Yes, but we need to be careful where to throw it.	1																					
+71	71		301								Zack	How about over there?	2																					
+72	72		202							1	2				1																			
+73	73		301									Zack points to the energy pipeline at the fork. It is a little far from the corridor, so if it is detonated over there, the monsters on all three sides will be drawn to it. The chain reaction from igniting the pipeline should also give them some added time, allowing them to run to the other end of the corridor.																						
+74	74		201							1	500136																							
+75	75		301							1	Zack	Ready?	1																					
+76	76		301								Zack	On the count of three...	1																					
+77	77		301									The other two nod and prepare to make a run for it.																						
+78	78		301								Zack	3...	1																					
+79	79		301								Zack	2...	1																					
+80	80		301								Zack	1!	1																					
+81	81		202							1					1																			
+82	82		301									As soon as Zack finishes counting down, he tosses the explosive in an arc toward the predesignated location.																						
+83	83		401							2	1510																							
+84	84		301									As soon as it lands, "Beardy" shoots it with marksman precision.																						
+85	85		401							2	10007502																							
+86	86		401							1	203																							
+87	87		301			RImgBg1Shake						Then, with deafening sounds, the explosion of the energy pipeline causes a burst of soundwaves. The monsters that were still wandering aimlessly immediately rush toward the direction of the sound.																						
+88	88		201							1	500136																							
+89	89		301							1	Zack	Run!	1																					
+90	90		202							1					1																			
+91	91		301									The light from the explosion illuminates the corridor, and the Scavengers rush forward at the moment of the explosion.																						
+92	92		301									Before the end of the vibration and sound generated by the explosion, they successfully step on the platform at the other end of the corridor.																						
+93	93		301									In the embers left by the explosion, the severed vines begin to connect. Red light spots extended downward along the vines.																						
+94	95		301				AniZhuanchangBegin					Something has opened its eyes amid the chaos.																						
+95	94		401						1000	1	36																							
+96	96		101							Assets/Product/Texture/Image/BgStory/Bgstory425.jpg																								
+97	97		401							1	211																							
+98	98		201							1	500367	1																						
+99	99		301			AniZhuanchangEnd				1	Roland	Not bad.	1																					
+100	100		301									Leaning against the wall, Roland looks at the surveillance monitor and nods.																						
+101	101		301								Roland	Their seamless cooperation reminds me of teams from Babylonia.	1																					
+102	102		301								Roland	Everyone is good at some things and bad at others. But when they work together, they're more than the sum of their parts. It's enough to give you a headache.	1																					
+103	103		203							1	0.25	400																						
+104	104		201							2	500308		-400																					
+105	105		301							1	Cinderelik	The threat level of the Scavengers is minimal.	2																					
+106	106		301								Roland	Hmph... It's hard to say.	1																					
+107	107		301								Roland	You shouldn't underestimate anyone who can survive in such a hostile environment.	1																					
+108	108		301								Roland	That Meister of yours often refers to this as "humanity's potential", no?	1																					
+109	109		301								Roland	However, I didn't expect to lure in people who know so much about the relics of the Post-Pandemic Age.	1																					
+110	110		301								Roland	I'm curious. How far will they make it?	1																					
+111	111		301								Roland	What do you think, Cinderelik? Wanna make a bet?	1																					
+112	112		301								Roland	Normally, people turn against each other at this point. Lack of supplies, disagreements, fear, anxiety, suspicion, and even emotional disputes...	1																					
+113	113		204							2	8																							
+114	114		301								Cinderelik	...	2																					
+115	115		204							2																								
+116	116		301								Cinderelik	That's meaningless. I only care about the state of "Mother".	2																					
+117	117		301								Roland	Okay.	1																					
+118	118		301								Roland	I expect nothing less from Gabriel's pupil. I feel like we've had this conversation before...	1																					
+119	119		301								Roland	I thought a change of scenery would be entertaining, but it's just as boring as before.	1																					
+120	120		202							2					1																			
+121	121		203							1	0.25																							
+122	122		301		1		AniZhuanchangBegin				Roland	Show me how long you can struggle. It's not every day that I get to see you acting differently. Keep me entertained for at least a while, alright?	1																					

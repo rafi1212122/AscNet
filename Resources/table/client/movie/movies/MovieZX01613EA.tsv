@@ -1,0 +1,163 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		501						1500	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	2																							
+2	2		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+3	3		101							Assets/Product/Texture/Image/BgStory/Bgstory285.png																								
+4	4		401							1	210																							
+5	5		301			DialogEnable						After finally putting an end to the danger, Lee finishes setting up the security terminal.																						
+6	6		301								Spear of F.O.S.	Security terminal activated. Establishing connection >>>>>>>> …																						
+7	7		301									As the terminal signal reaches full strength, the virtual projections begin to become more apparent.																						
+8	8		302								(Sigh in relief)	9																						
+9	9		201							1	1031001		-400																					
+10	10		201							2	500166		400																					
+11	11		301							1	Lucia	There's a lot more Corrupted than I anticipated. Why are so many of them gathering here?	2																					
+12	12		301								Liv	Let's continue to investigate the ruins here. There may be some clues...	1																					
+13	13		204							1	7																							
+14	14		401							1	203																							
+15	15		301									Before Liv can finish, the expression on her face drops.																						
+16	16		301								Liv	I've detected a large concentration of the Punishing Virus ten kilometers away, and it's approaching quickly! With a size that big... we're going to be devoured!	1																					
+17	17		301								Lucia	Is it coming from the high viral intensity region you detected earlier?	2																					
+18	18		301								Liv	Based on its path... It appears so.	1																					
+19	19		204							1																								
+20	20		301									As Liv speaks, she quickly assembles the parts of the reinforcement mods.																						
+21	21		301								Liv	Hurry and reinforce your protective gear, Commandant! Our enhanced Inver-Devices can still hold out a little longer.	1																					
+22	22		302								Ok.	23																						
+23	23		301									Liv helps you reinforce your protective suit quickly, and a sense of suffocation weighs on your chest.																						
+24	24		301								Lucia	How long can we survive in this level of concentration with our current protective equipment?	2																					
+25	25		301								Liv	The probability of a successful retreat is 41.32%. But a high concentration of moving Punishing Virus is sure to be accompanied by something more dangerous.	1																					
+26	26		301									Liv opens the small compressed air cylinder and connects it to the protective equipment.																						
+27	27		301								Liv	This small cylinder only contains twenty minutes' worth of air. We need to hurry up and think of something...	1																					
+28	28		302								(Breathe slowly)	29																						
+29	29		302								(Try to extend the usage time)	30																						
+30	30		203							1	0.25	-600																						
+31	31		203							2	0.25	600																						
+32	32		201							3	500026																							
+33	33		301							1	Lee	Can you chart the quickest escape route?	3																					
+34	34		301								Liv	It's moving way too fast. We won't outrun it.	1																					
+35	35		301								Lucia	...What can we do? We at least need to get Commandant to safety!	2																					
+36	36		301								Lee	If we aren't fast enough, there's no way a human can get away.	3																					
+37	37		302								What the hell is it?	38																						
+38	38		301								Liv	According to the patterns observed, it doesn't appear to be following an individual, nor is it expanding outward. It's like a tide heading straight for us.	1																					
+39	39		301								Lucia	Think it might be that red liquid we saw on the street?	2																					
+40	40		301								Lee	But liquid can't flow upward. There must be something we don't know.	3																					
+41	41		302								How high off the ground is the tide?	42																						
+42	42		301								Liv	Currently, four meters, give or take.	1																					
+43	43		302								Can we evacuate to higher ground?	44																						
+44	44		301								Liv	Scanning for buildings over four meters... There is an abandoned hotel in the south with solid floors above the second level. We can still reach a safe height if we head there at full speed!	1																					
+45	45		301								Lucia	Let's go then!	2																					
+46	46		301								Liv	But a section of the ground floor has collapsed. I don't know if the stairs are still intact.	1																					
+47	47		302								It's our only shot.	48																						
+48	48		301				AniZhuanchangBegin				Lucia	Even if we can't take the stairs, we still need to get up there, even if we have to climb up the side of the building.	2																					
+49	49		202							1	2	3			1																			
+50	50		101							Assets/Product/Texture/Image/BgStory/Bgstory9.jpg																								
+51	51		301			AniZhuanchangEnd						As Liv has expected, you arrive to find the interior damaged from an explosion. The stairs and the outer walls on the first two levels have also collapsed. To no one's surprise, the elevator is out of service.																						
+52	52		302								Let's climb!	53																						
+53	53		301									You four quickly run outside and start climbing the intact side of the hotel.																						
+54	54		301				AniZhuanchangBegin					After arduously climbing to a safe height, you see a strange crimson mass appears before you even have time to take cover inside.																						
+55	55		401							1	209																							
+56	56		101							Assets/Product/Texture/Image/BgCg/Cg1601_7.jpg																								
+57	57		301			AniZhuanchangEnd					Lucia	...Is that the high concentration Punishing Virus?																						
+58	58		301								Liv	It's like... a rising tide.																						
+59	59		301								Lee	...																						
+60	60		301									The four of you look out into the distance at what appears to be a tidal wave of blinding red liquid surging toward you, flooding the entire street in an instant.																						
+61	61		301									The vicious red tide crashes outside the hotel as if it wants to climb the stone wall you are scaling. Giant waves swell upward, splashing on your backs.																						
+62	62		301								Lee	Watch out!																						
+63	63		301									Every one of you continues to climb up the building in a hurry. Even though you are all fully protected, direct contact with the red liquid still inflicts symptoms of corruption.																						
+64	64		301								Liv	This odor...																						
+65	65		301									As the scarlet liquid envelops your vision, the foul odor of coagulating blood fills your nostrils.																						
+66	66		302								Quick! Into the hotel!	67																						
+67	67		301				AniZhuanchangBegin					You climb up the wall using the exterior decorations and hoist yourselves into the hotel through a nearby corridor window.																						
+68	68		101							Assets/Product/Texture/Image/BgStory/Bgstory7.jpg																								
+69	69		202							1	2	3			1																			
+70	70		301			AniZhuanchangEnd						Looking down, you see the scarlet liquid pouring in from the damaged section of the building, filling up to the second floor.																						
+71	71		301									You have yet to stand firmly on your feet, and the alarm on your cylinder buzzes to indicate that half of the oxygen is already gone. It seems that your climb has significantly increased oxygen consumption.																						
+72	72		302								(Calm your breathing)	73																						
+73	73		201							1	1031001		-600																					
+74	74		201							2	500166																							
+75	75		201							3	500026		600																					
+76	76		301							1	Liv	The viral concentration here has returned to a level suitable for our regular equipment. Seems like the lethal concentration I detected originates from this red liquid.	1																					
+77	77		302								We should be fine as long as we don't fall into it.	78	I'll take off the enhancement mods.	78																				
+78	78		301								Liv	Leave them on for now. We still aren't sure if the concentration will increase again. Let's deal with the signs of corruption first, then head to higher ground as soon as possible. Then you can remove the mods.	1																					
+79	79		302								Ok.	80																						
+80	80		301								Lucia	Lee and I will inspect our Inver-Devices. Liv, check on the commandant.	2																					
+81	81		302								I can do it myself.	82																						
+82	82		301								Liv	The protective suit is too heavy with the mods equipped. Also, the access port is on your left side. Just let me do it.	1																					
+83	83		302								I can do it with one hand.	84																						
+84	84		301									But Liv ignores you and takes out a vial of serum. She pinches the access port to prevent the virus from entering the protective suit, then inserts the vial through the port and injects the serum.																						
+85	85		301								Lucia	No matter how many times I've seen people wearing the enhanced protective suits, I still can't help but feel that it's too heavy for humans.	2																					
+86	86		301								Lucia	Some commandants with a weaker physique can barely run with it on, requiring their team members to carry them on the road.	2																					
+87	87		301									After injecting the serum, the three of them watch as you stand up and take a few steps.																						
+88	88		301								Lucia	...Looks like that's not an issue for Commandant, though. I'd even say you climbed up to the third floor as fast as us.	2																					
+89	89		204							1	14																							
+90	90		301								Liv	We still need to evacuate to higher ground, so we can lighten Commandant's load.	1																					
+91	91		301									Liv looks at you with concern as she inspects her Inver-Device.																						
+92	92		302								Ok.	93																						
+93	93		204							1																								
+94	94		301								Lee	Hold on. Now is the opportunity to study the liquid. Give me a hand, Liv.	3																					
+95	96		301									Lee picks up a long broken pipe and stirs it intermittently from a safe distance.																						
+96	97		301							1	Lee	The liquid is thick, almost like mud. Seems to be what we just saw.	3																					
+97	98		302								We need a name for it.	99																						
+98	99		302								How about the "Red Tide"?	101																						
+99	101		301								Lee	Simple enough. Good idea.	3																					
+100	102		204							1																								
+101	103		301								Lee	It also seems to contain a large quantity of debris and remains. Looks like it swept up quite a few Corrupted on its way here. Is it "recycling" their bodies?	3																					
+102	106		301								Lucia	With that smell, I'm afraid these remains aren't just Corrupted...	2																					
+103	107		301									...But also humans.																						
+104	108		202							1	2	3			1																			
+105	109		301									Lucia stops herself, but it seems like the rest of you have already arrived at the same apparent conclusion.																						
+106	110		201							1	1031001		-600																					
+107	111		201							2	500166																							
+108	112		201							3	500026		600																					
+109	113		301							1		Liv shakes her head, trembling slightly. She looks down at the Red Tide and attempts to analyze it.																						
+110	114		301								Liv	...	1																					
+111	115		301								Lucia	What?	2																					
+112	116		301								Liv	My survey equipment appears to be malfunctioning...	1																					
+113	117		302								You can't get a reading?	118																						
+114	118		301								Liv	It's not that. My readings are exactly what everyone has said. The Red Tide contains a high concentration of the Punishing Virus and a large number of Corrupted remains.	1																					
+115	119		301								Liv	But the Punishing Virus... appears abnormal.	1																					
+116	120		301									Liv looks at the analysis terminal with a solemn expression, as if she is considering how to summarize the results.																						
+117	121		301								Liv	They're proliferating like biological viruses and exhibiting parasitic behavior.	1																					
+118	122		302								Biological viruses?	123	Proliferating and parasitic behavior?	123																				
+119	123		301								Liv	Maybe my survey equipment is just malfunctioning...	1																					
+120	124		301								Lee	And if it isn't?	3																					
+121	125		301									Upon hearing this, you all fall silent. If the Punishing Virus really is developing biological traits, who knows what will unfold next.																						
+122	126		301								Liv	It can't... It has to be an error.	1																					
+123	127		302								Liv, prepare a report.	128	Let's report the situation to Asimov.	128																				
+124	128		301									Liv hesitates, then prepares the results and sends them to Asimov.																						
+125	129		301									Lee gets rid of the iron pipe in his hand, then the four of you proceed up the intact staircase as you look down at the Red Tide that floods the streets below.																						
+126	130		301								Lucia	Why hasn't Babylonia detected such a strange phenomenon?	2																					
+127	131		301								Lee	There aren't too many ways to avoid detection. Either it was hidden too well before, or it's rapidly expanded in a short amount of time.	3																					
+128	132		301								Lee	Either way, it's outrageous.	3																					
+129	133		302								We need more leads.	134																						
+130	134		301								Lee	Another thing, if this area has gone undetected by Babylonia for so long, why would Huaxu let us find it so easily?	3																					
+131	135		301								Lucia	You mean to say, Huaxu leaked this location to us purposefully.	2																					
+132	136		301								Lee	It's possible. What's Huaxu trying to achieve?	3																					
+133	137		302								Perhaps, it's a trap.	138	Maybe Huaxu wanted us to discover the Red Tide.	138																				
+134	138		301				AniZhuanchangBegin				Lucia & Lee & Liv	...	1	2	3																			
+135	139		202							1	2	3			1																			
+136	140		101							Assets/Product/Texture/Image/BgCg/Cg1601_7.jpg																								
+137	141		301			AniZhuanchangEnd						The four of you once again shift your gazes to the Red Tide outside the window. The sunlight shines on the mysterious scarlet sea, casting a silver glow on the surging waves.																						
+138	142		301									The light glimmers on the scarlet tide, like countless fetuses opening their starry eyes in thick plasma.																						
+139	143		301									The light dissipates throughout the tide silently, tumbling in the bloody, boiling stew alongside the drowned remains.																						
+140	144		301									The four of you gaze into the red tide of life and death, just like how it gazes back.																						
+141	145		301									Following the strange gaze, a faint voice flows into your ears out of nowhere.																						
+142	146		301								???	Help...																						
+143	147		301								Liv	Who's there?																						
+144	148		301								???	Help me...																						
+145	149		301									The sound is like seafoam dissipating in the wind, drifting among the crashing waves.																						
+146	150		301									You wait with bated breath, yet you see nothing but the waves.																						
+147	151		502				DialogDisable			RImgBg1Disable																								
+148	152		101			RImgBg1Enable				Assets/Product/Texture/Image/BgStory/Bgstory7.jpg																								
+149	153		302								Liv!	154																						
+150	154		201							1	1031001		-600																					
+151	155		201							2	500166																							
+152	156		201							3	500026		600																					
+153	157		301			DialogEnable				1	Liv	Scanning the surrounding area for signs of life.	1																					
+154	158		301									Liv searches intently, but she sees nothing but the four of you.																						
+155	159		301								Liv	I haven't picked up anything... Where's it coming from?	1																					
+156	160		301									As you four are lost in thought, the faint voice disappears without a trace.																						
+157	161		301								Lucia	What was that...	2																					
+158	162		301								Lee	If the cry didn't come from within the Red Tide, maybe it—	3																					
+159	163		301									Standing by the corridor window with the rest of you, Lee shifts his gaze to the stairs.																						
+160	164		301								Lucia	You mean, it's coming from another floor of the hotel?	2																					
+161	165		302								Let's check it out.	166																						
+162	166		301		1		AniZhuanchangBegin				Lucia	On it.	2																					

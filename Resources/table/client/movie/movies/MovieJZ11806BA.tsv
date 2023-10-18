@@ -1,0 +1,147 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory12.jpg																								
+2	2		401							1	201																							
+3	11		201							1	1081001																							
+4	12		301							1	Kamui	The next round of the Corrupted attack is coming.	1																					
+5	13		201							1	500028																							
+6	14		301							1	Old Construct	Got it.	1																					
+7	15		301								Old Construct	Tell all the injured Constructs to go hide in the shelter near the CPF. Sync with all squads and push the front line further to guarantee safety around the Filter.	1																					
+8	16		201							1	1081001	1																						
+9	17		301							1	Kamui	Alright, got it.	1																					
+10	18		201							1	500028																							
+11	19		301							1	Old Construct	Doctor, please take care of the wounded for us.	1																					
+12	20		201							1	500289																							
+13	21		301							1	Wanshi	...I will.	1																					
+14	22		203							1	0.25	-400																						
+15	23		201							2	1081001	2	400																					
+16	24		301							1	Kamui	Then I'll see you later, Wanshi.	2																					
+17	25		301								Wanshi	...	1																					
+18	26		301				AniZhuanchangBegin				Kamui	Remember what I said. Don't forget the things that are more important now.	2																					
+19	27		202							1	2				1																			
+20	28		101							Assets/Product/Texture/Image/BgStory/Bgstory1.jpg																								
+21	29		301			AniZhuanchangEnd						After reinforcing the shelter for the wounded, the main troop sets off for the front line while Wanshi treats the wounded Constructs inside.																						
+22	30		201							1	500289																							
+23	31		301							1	Wanshi	Hold this end for me.	1																					
+24	32		202							1					1																			
+25	1001		401							2	1515																							
+26	33		301									Wanshi puts one end of the connecting wire into the hands of the Construct in front of him and plugs the other end into his terminal. His fingers quickly taps on it, and a weak current is transmitted along the wire to the Construct.																						
+27	34		201							1	500297																							
+28	35		301							1	Injured Construct B	Thanks.	1																					
+29	36		201							1	500289																							
+30	37		301							1	Wanshi	It's fine.	1																					
+31	38		301									As Wanshi gets up and is about to walk to the next wounded, a sudden noise comes from outside the shelter.																						
+32	39		201							1	500289		-400																					
+33	40		201							2	500019		400																					
+34	41		301							1	Wanshi	Is the battle over?	1																					
+35	42		301								Thompson	No, that's not right.	2																					
+36	43		301								Wanshi	Huh?	1																					
+37	1002		401							1	203																							
+38	44		301								Thompson	Careful, it's the Corrupted that crossed the front line with special camouflage.	2																					
+39	45		202							1	2				1																			
+40	46		301									Thompson says it as he walks over to the wall, checking the situation outside through a gap between panels.																						
+41	47		201							1	500019																							
+42	48		301							1	Thompson	No, there's no way we can handle a Corrupted of this caliber in our current state.	1																					
+43	49		301								Thompson	Wanshi, just get away through the back door. At least we Constructs can recall.	1																					
+44	50		301				AniZhuanchangBegin				Thompson	Though it will be quite a while before I can see my child.	1																					
+45	51		202							1					1																			
+46	52		101							Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+47	1003		401							1	22																							
+48	53		504							0.7																								
+49	54		201							1	500270																							
+50	55		301			AniZhuanchangEnd	AniZhuanchangBegin			1	Professor	Wanshi, you've got the courage to expose the lies. But I'm afraid it's not the right answer.	1																					
+51	56		101							Assets/Product/Texture/Image/BgStory/Bgstory275.png																								
+52	57		201							1	500019																							
+53	58		301			AniZhuanchangEnd				1	Jett	Lies and truths make no difference to Constructs like us.	1																					
+54	59		301								Jett	Yeah. We knew what the ending would be after seeing the truth beneath the lies.	1																					
+55	60		301								Jett	To die for humans is the inevitable end for Constructs.	1																					
+56	61		301								Jett	The only difference is when and where you die.	1																					
+57	62		301								Jett	This is the reality.	1																					
+58	63		301				AniZhuanchangBegin				Jett	This is... the reality.	1																					
+59	64		202							1					1																			
+60	65		101							Assets/Product/Texture/Image/BgCg/Cgqz2203.jpg																								
+61	66		301			AniZhuanchangEnd					Wanshi	The next time you can't hold on, just activate the recall, alright?																						
+62	67		301								Wanshi	Get rid of the wounded frame and let your M.I.N.D. return to Babylonia.																						
+63	68		301				AniZhuanchangBegin				Wanshi	Like returning to the state before your birth, protected and warm.																						
+64	69		101							Assets/Product/Texture/Image/BgStory/Bgstory4.jpg																								
+65	70		201							1	500297																							
+66	71		301			AniZhuanchangEnd	AniZhuanchangBegin			1	Fallen Construct	Win the war... and survive.	1																					
+67	999		201							1	500019																							
+68	72		101							Assets/Product/Texture/Image/BgStory/BgStory.png																								
+69	73		301			AniZhuanchangEnd					Thompson	Don't you think you're a lot like him in some ways? You aren't willing to talk to others when you're upset.	1																					
+70	74		301				AniZhuanchangBegin				Thompson	So instead of worrying or regretting it, I choose to do what I'm capable of first.	1																					
+71	75		101							Assets/Product/Texture/Image/BgStory/Bgstory4.jpg																								
+72	76		201							1	1081001	2																						
+73	77		301			AniZhuanchangEnd	AniZhuanchangBegin			1	Kamui	The important thing is to avoid standing still. Be yourself, and do what you want and can do.	1																					
+74	78		202							1					1																			
+75	79		504							0																								
+76	80		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+77	301		504							0.7																								
+78	81		301			AniZhuanchangEnd						Victory and the future are too far away for me.																						
+79	82		301									What am I doing for right now?																						
+80	83		301									After checking the injuries of the Constructs, I subconsciously want to treat them and ease their pain.																						
+81	86		301				AniZhuanchangBegin					I am doing this so I shall see no more suffering and separation. I am doing this for those around me, those I want to protect.																						
+82	2000		101							Assets/Product/Texture/Image/BgStory/Bgstory109.png																								
+83	2001		201							1	500289	1																						
+84	2002		301			AniZhuanchangEnd				1	Wanshi	Seeing what unfolded here made me feel like I've got to do something. That's why I started to learn about Constructs maintenance.																						
+85	87		301				AniZhuanchangBegin					These thoughts that are engraved in my heart are getting forgotten while I was obsessing over the rights and wrongs of the lies.																						
+86	302		504							0																								
+87	88		101							Assets/Product/Texture/Image/BgStory/Bgstory1.jpg																								
+88	1004		401							1	206																							
+89	89		201							1	500289																							
+90	90		301			AniZhuanchangEnd				1	Wanshi	No.	1																					
+91	93		203							1	0.25	-400																						
+92	94		201							2	500019		400																					
+93	95		301							1	Thompson	Huh?	2																					
+94	96		301								Wanshi	...	1																					
+95	97		202							1	2				1																			
+96	98		201							1	500019																							
+97	99		301							1	Support Construct B	Wanshi, what is it?	1																					
+98	100		201							1	500289																							
+99	101		301							1	Wanshi	I... will not let you recall...	1																					
+100	102		301								Wanshi	I thought I exposed the lies to help others in the past. Instead, I created more suffering.	1																					
+101	103		301								Wanshi	Since then, my life has been filled with regrets, helplessness, compromises, and torture.	1																					
+102	104		301								Wanshi	Because... I accepted the reality that such a lie needs to exist...	1																					
+103	105		301								Wanshi	But what happened here has made me realize that Constructs should never be kept in the dark and sacrificed in vain...	1																					
+104	106		301								Wanshi	If I don't reveal the truth to you here, how could I face Kamui and the others on the front line? Or Thompson's child waiting in Babylonia?	1																					
+105	900		301								Wanshi	I'm not telling the truth to help... but to protect.	1																					
+106	108		201							1	500019																							
+107	109		301							1	Thompson	Well, you finally want to talk, huh?	1																					
+108	110		201							1	500289																							
+109	111		301							1	Wanshi	...There's no such thing as... recall.	1																					
+110	112		301								Wanshi	It's all just a lie to comfort the Constructs...	1																					
+111	113		201							1	500019																							
+112	114		301							1	Support Construct C	What?	1																					
+113	115		201							1	500289																							
+114	116		301							1	Wanshi	The threat of life and death is the same for all of us.	1																					
+115	117		301								Wanshi	If I let you fight recklessly with no regard for your safety just because you are counting on recalling... that's no different from letting you commit suicide.	1																					
+116	123		301								Wanshi	So right now, instead of running away, I am going to fight with you, so none of you need to be recalled.	1																					
+117	901		301								Wanshi	Doctors should not only save people, but fight alongside them as well and protect others. We'll make it... together...	1																					
+118	124		301									Worked up, Wanshi seems a little exhausted, and he cannot stop trembling. Thompson slowly walks over to him and gently strokes his head.																						
+119	125		201							1	500019																							
+120	126		301							1	Thompson	That's courageous of you.	1																					
+121	127		201							1	500019		400																					
+122	128		201							2	500019		-400																					
+123	129		301							1	Support Construct B	That's right. Thank you for telling us the truth, Wanshi.	1																					
+124	130		301								Support Construct C	It must be hard for you to carry such a burden till now. Thank you for that.	2																					
+125	131		202							2	1				1																			
+126	132		201							1	500290																							
+127	133		301							1	Wanshi	No, that was because I've been a coward...	1																					
+128	134		201							1	500019																							
+129	135		301							1	Thompson	You're not a coward. To move forward in the painful darkness after seeing the truth is not what a coward would do. Instead, you're stronger than everyone else.	1																					
+130	136		201							1	500019		400																					
+131	137		201							2	500297		-400																					
+132	138		301							1	Injured Construct B	Can't believe we'd ever want to recall. It's no different than leaving our partners and the fate of the city behind.	2																					
+133	139		301								Slightly Injured Construct	Yeah... we promised each other to win. Wanshi, like you said, let's make it together.	1																					
+134	140		202							2	1				1																			
+135	141		201							1	500289	7																						
+136	142		301							1	Wanshi	Guys...	1																					
+137	143		201							1	500019																							
+138	144		301							1	Thompson	The "flag" will protect and guide their partners. It must not fall or retreat.	1																					
+139	150		301								Thompson	Guys, let's go.	1																					
+140	151		301									Thompson shouts out commands as he speaks. Several Constructs that can still move take out their weapons. Just as Wanshi is about to walk through the back door, Thompson throws a sniper rifle into his hands.																						
+141	152		301								Thompson	Take it.	1																					
+142	153		301								Thompson	Let those monsters outside see how indestructible a fully armed "flag" is.	1																					
+143	154		201							1	500289																							
+144	155		301							2		Meanwhile, Thompson loads the other sniper rifle in his hand. Wanshi mimics his actions and turns the weapon's safety off.																						
+145	156		401							2	1511																							
+146	157		301		1		AniZhuanchangBegin				Wanshi	Copy.	1																					

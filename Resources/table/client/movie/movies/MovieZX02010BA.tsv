@@ -1,0 +1,160 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory388.png																								
+2	2		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab	2																							
+3	3		301			DialogEnable						No, 21 rushes outside. Where the door was is now a crumpled ruin, and you hear coughs amid the smoke and broken walls.																						
+4	4		401							1	205																							
+5	5		301								??	Couldn't you make sure the measure was correct?!																						
+6	6		301								???	What's the matter as long as we can get inside? Isn't this perfect?																						
+7	7		301									Hearing the familiar voices, No. 21's eyes widen, and she dashes into smoke.																						
+8	8		301								??	You donkey! We're trying to track someone! Why don't you go ahead and announce our—huh...?!																						
+9	9		301								???	What the hell, an ambush! I knew it! Have a taste of my bomb—																						
+10	10		301								??	...Noctis! It's not an ambush.																						
+11	11		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab																							
+12	12		201							1	500336	4	-600																					
+13	13		201							2	500328																							
+14	14		201							3	500168		600																					
+15	15		301							1		The debris and smoke fade away, revealing... Vera, with one hand on her hips and another gripping her weapon. No. 21 holds Vera's leg tightly, burying her face by her waist, not saying a word.																						
+16	16		301									Standing next to them, Noctis pulls No. 21's Co-Bot down, who is holding onto his hair.																						
+17	17		204							1																								
+18	18		301								Noctis	21?! Hahaha! You're alive!	1																					
+19	19		301								Vera	You've got to be joking...	3																					
+20	20		301									Vera flings her weaponless hand around, her expression resigned.																						
+21	21		301								Vera	21, that's enough.	3																					
+22	22		301								No. 21	...Okay.	2																					
+23	23		301									No. 21 replies, dejected. She lets go of Vera and steps back, her Co-Bot also leaping down from Noctis's hand, returning to her side.																						
+24	24		204							3	1																							
+25	25		301								Vera	Ha. Don't tell me you got scared to tears following the commandant?	3																					
+26	26		301								No. 21	...Scared to tears? I don't get scared. Commandant was scared.	2																					
+27	27		302								...	28	No, I wasn't!	28																				
+28	28		301									You then realize that you are not connected to Vera and Noctis. After adjusting your comms, you have finally reestablished contacts with the remaining Cerberus members.																						
+29	29		204							1	4																							
+30	30		301								Vera	I've no idea what happened after we lost contact, but we're finally back together... Just a little bit later than planned.	3																					
+31	31		302								I won't call it "a little bit."	32	What's your progress?	36																				
+32	32		204							3	1																							
+33	33		301								Vera	It's bad to keep the girl waiting, not the other way around. Can't be that bad to wait for a girl, can it?	3																					
+34	34		302								...Fine.	35																						
+35	35		204							3																								
+36	36		301								Vera	We haven't located our mystery guest yet. We got into a small accident on the way here, which led me to believe that someone's making a fool out of us right now.	3																					
+37	37		302								Someone's making a fool out of the legendary Vera?	38																						
+38	38		301								Vera	Hmph. Anyway, Noctis and I followed those crap instructions all the way to here... but we're always one step behind.	3																					
+39	39		301								Noctis	How did you guys get here?	1																					
+40	40		302								It's a... long story.	41																						
+41	41		301				AniZhuanchangBegin				Vera	Keep it to yourself, then. Regardless, our last clue has led us here, and this time I'm going to get that guy before he bolts.	3																					
+42	42		202							1	2	3			1																			
+43	43		101							Assets/Product/Texture/Image/BgStory/Bgstory370.png																								
+44	44		201							1	500168		400																					
+45	45		201							2	500336		-400																					
+46	46		401							1	201																							
+47	47		301			AniZhuanchangEnd				1		Vera steps inside the living room as she speaks.																						
+48	48		301								Vera	So? Have you found anything?	1																					
+49	49		301								Noctis	Like, "CATCH ME" written with red paint, or an arrow made with doll heads, or that ghost on the road, or the lock on the door of this house—**** me, who the **** locks their door with something so complicated...?!	2																					
+50	50		302								Looks like you've been through some stuff as well.	51	...You mean this?	51																				
+51	51		301				AniZhuanchangBegin					Noctis' words remind you of the red graffiti you saw in the storage room in the beginning. Recalling the same thing, No. 21 and you lead the two of them there.																						
+52	52		202							1	2				1																			
+53	53		101							Assets/Product/Texture/Image/BgStory/Bgstory372.png																								
+54	54		201							1	500336	1	-600																					
+55	55		201							2	500328																							
+56	56		201							3	500168		600																					
+57	57		301			AniZhuanchangEnd				1	No. 21	Here.	2																					
+58	58		302								Looks like it's not a child's painting...	59																						
+59	59		301								Noctis	How about some originality, huh?!	1																					
+60	60		301									Seeing the patterns in the storage room, Noctis shouts angrily.																						
+61	61		301								Noctis	It's a map this time?	1																					
+62	62		302								...A topographic map.	63																						
+63	63		301								Vera	...Behind this house? Looks like this is our destination. "The Last Inferno"... I know this is the guy's whole shtick, but the cliche makes me want to laugh.	3																					
+64	64		301								Vera	Let's go, fellas.	3																					
+65	65		301									Vera's energy is so threatening that it almost makes you take a step back.																						
+66	66		204							3	13																							
+67	67		301								Vera	Let me meet the clown who's been playing hide-and-seek with me the whole day.	3																					
+68	68		301								Vera	...Oh, by the way. 21?	3																					
+69	69		301								No. 21	Yes?	2																					
+70	70		204							3	1																							
+71	71		301								Vera	Welcome back.	3																					
+72	72		204							2	4																							
+73	73		301				AniZhuanchangBegin				No. 21	No. 21 is ready. Awaiting orders.	2																					
+74	74		202							1	2	3			1																			
+75	75		101							Assets/Product/Texture/Image/BgStory/Bgstory373.png																								
+76	76		301			AniZhuanchangEnd						Behind the estate is a sparse wood. You walk through the verge of the forest, stepping on a woodland trail.																						
+77	77		301									Walking on a dried river bed, you can all feel the wind howling around you. The sound of trees shuddering in the night lingers by your ears like a whisper.																						
+78	78		301				AniZhuanchangBegin					Further in, you feel like you can hear words in the midst of the wind—just ahead of you.																						
+79	79		101							Assets/Product/Texture/Image/BgStory/Bgstory359.png																								
+80	80		301			AniZhuanchangEnd					???	Ugh...																						
+81	81		301								??	Haha—hahaha—																						
+82	82		201							1	500168																							
+83	83		301							1	Vera	...	1																					
+84	84		301								Vera	Someone's here before us.	1																					
+85	85		202							1					1																			
+86	86		301									The moonlight showers down through the leaves near the end of the trail. Vera signals her two teammates not to alert the target with a look. The three Constructs slowly and quietly sneak behind a hedge of bushes.																						
+87	87		301								??	—I'm going to kill you! I'm going to tear you apart! I'm going to rip your insides out and rub them on your face!																						
+88	88		201							1	500334	2																						
+89	89		401							2	1512																							
+90	90		301							1	???	Haha...	1																					
+91	91		202							1					1																			
+92	92		301									With a loud crash, you find a Construct before you, someone none of you have been expecting—																						
+93	93		302								Roland?	94																						
+94	94		201							1	500168																							
+95	95		301							1	Vera	That's Roland?	1																					
+96	96		301									Vera frowns, not recognizing Roland at first sight. He has disappeared from Babylonia's radar for a while, and now... he is in a new frame.																						
+97	97		203							1	0.25	-400																						
+98	98		201							2	500336	4	400																					
+99	99		301							1	Noctis	Who's fighting him?	2																					
+100	100		301									Roland steadily lands on the ground. He stands up, wiping the nonexistent dirt from his shoulder. His opponent seems to be high above, hiding inside the foliage, concealed.																						
+101	101		202							1	2				1																			
+102	102		201							1	500334	2																						
+103	103		301							1	Roland	Oh, c'mon... You spent all those effort to lure me here just to beat me up?	1																					
+104	104		301								Roland	We could have sat down and chatted if you had any complaints. Resorting to violence is not how a gentleman like me would have preferred...	1																					
+105	105		301								???	Enough with your bullshit! I've no idea what the mission is! I just want you dead!																						
+106	106		202							1					1																			
+107	107		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+108	108		401						300	2	11106008																							
+109	109		401							2	10007502																							
+110	110		301			RImgBg1Shake						With those words come even more ferocious attacks. Obscured from vision, Roland is dashing back, unable to counter.																						
+111	111		302								...	112																						
+112	112		301									For a split second, you seem to meet Roland's beaming gaze. But it disappears so quickly that you wonder if it was just an illusion.																						
+113	113		301								Roland	...	1																					
+114	114		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryJianXue.prefab	2																							
+115	115		301									Knocked back by a strike, Roland collapses to the ground, waving his hand and coughing. Vital fluid drips down from the corner of his mouth.																						
+116	116		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryJianXue.prefab																							
+117	117		301								Roland	Tsk, doesn't even care about the mission now? Why would they send a psychopath...	1																					
+118	118		301								Roland	C'mon, at least tell me why you want me dead.	1																					
+119	119		301								Roland	Did your boss not say anything?	1																					
+120	120		301								Roland	Or... cough... are you just a mercenary, hired to take my life?	1																					
+121	121		202							1					1																			
+122	122		301									Roland's words give his opponent a pause. But then something flies into the sky.																						
+123	123		201							1	500328	4																						
+124	124		301							1	No. 21	...In the sky!	1																					
+125	125		202							1					1																			
+126	126		301									You all look up from No. 21's exclamation. A metal monstrosity rises into the sky and pauses, framed by the moon, its aura spine-tingling.																						
+127	127		201							1	500326																							
+128	128		301							1	???	The thing... Mister asked me to reveal to you...	1																					
+129	129		301									The humanoid monster's eyes glimmer, and when it speaks again, its voice is quiet and hoarse, genderless.																						
+130	130		301								???	"Loki" has already done so.	1																					
+131	131		302								(The thing... revealed to him...)	132																						
+132	132		201							1	500168																							
+133	133		301							1	Vera	We've been mistaken. Those markings weren't for us.	1																					
+134	134		201							1	500326																							
+135	135		301							1	???	But, from the look of it, you don't seem to be worthy.	1																					
+136	136		301								???	So, let's end it here... hehehe...	1																					
+137	137		301									The humanoid monster laughs like a dog's howl.																						
+138	138		201							1	500336																							
+139	139		301							1	Noctis	What now, Vera? Do we join the fight?	1																					
+140	140		201							1	500168																							
+141	141		301							1	Vera	...Noctis, 21, we're retreating.	1																					
+142	142		302								Retreating?	143	But that might be a new Ascendant.	143																				
+143	143		301								Vera	It's not related to our mission.	1																					
+144	144		302								Haven't you been chasing after the Ascendant all this way?	145																						
+145	145		301								Vera	We did go after the wrong target, and it's not too late to cut our losses. You've finished your mission as well, haven't you, Commandant?	1																					
+146	146		301									There is an implication in her tone. Has Vera noticed something?																						
+147	147		204							1	1																							
+148	148		301								Vera	...Seems that way, so let's not put our foot in someone else's fight. I still want to hear the long story about the adventure you took my teammate on.	1																					
+149	149		302								At least upload the visual data.	151																						
+150	150		204							1																								
+151	151		301								Vera	It's one thing if you want to work your butt off. Me? I just want to clock out as soon as possible.	1																					
+152	152		302								Vera...	153																						
+153	153		301								Vera	You can't order me—	1																					
+154	154		302								Not that, Vera. I think we've been exposed.	155																						
+155	155		301									No. 21, who has been silent since you arrived here, is straining her body. The alertness to danger is racing through her M.I.N.D.																						
+156	156		201							1	500328	4																						
+157	157		301							1	No. 21	...I'm spotted!	1																					
+158	158		201							1	500168																							
+159	159		301		1		AniZhuanchangBegin			1	Vera	...Tsk.	1																					

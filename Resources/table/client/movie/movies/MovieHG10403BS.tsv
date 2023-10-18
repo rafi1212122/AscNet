@@ -1,0 +1,49 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	36																							
+3	3		301			DialogEnable						Commandant Dormitory, Babylonia. 11:20 am. One hour away from the date with Bianca.																						
+4	4		302								I should be there on time. Let's arrive 10 minutes early.	5	Can't keep a date waiting! I'm arriving half an hour early!	6																				
+5	5	7	301									(50 minutes later.)																						
+6	6		301				AniZhuanchangBegin					(30 minutes later.)																						
+7	7		101							Assets/Product/Texture/Image/BgStory/Bgstory3.jpg																								
+8	8		301			AniZhuanchangEnd						The air feels fresh after a brief morning rain. A scatter of people walks by the road, and you notice the tall female figure by a lamp post from afar.																						
+9	100		401							2	1513																							
+10	101		401							1	204																							
+11	9		302								Bianca!	10	Why are you here so early?	10																				
+12	10		301									Bianca turns around. She is still equipped with her usual frame, but she looks different than usual somehow.																						
+13	11		201							1	500128																							
+14	12		301							1	Bianca	Commandant...	1																					
+15	13		301								Bianca	I happen to be free today, so I arrived a little early.	1																					
+16	14		301								Bianca	The temperature is still a little cold. Based on what you usually wear, you might be a bit underdressed.	1																					
+17	15		301								Bianca	It's getting windy at night. Here, please put on this scarf in case you catch a cold...	1																					
+18	16		302								Th-thank you...	17	That's very sweet of you, Bianca...	17																				
+19	17		301								Bianca	It's what I should do.	1																					
+20	18		301								Bianca	Let's go. We're heading that way.	1																					
+21	19		302								E-eh?	20	Did you prepare something?	20																				
+22	20		202							1					1																			
+23	21		301									Bianca walks toward a lawn by the side and takes out a blanket from her bag, laying it over the damp grass.																						
+24	22		201							1	500128																							
+25	23		301							1	Bianca	You haven't had your lunch yet, right, Commandant?	1																					
+26	24		302								Not yet.	25	Now that you've mentioned it, I'm getting a little hungry.	25																				
+27	25		202							1					1																			
+28	26		301									Bianca sits on the blanket and opens the package she is carrying, revealing a series of lunchboxes filled with sizzling hot meals.																						
+29	27		201							1	500128																							
+30	28		301							1	Bianca	I wasn't sure what you liked, so I made one of every cuisine I was good at.	1																					
+31	29		302								That's impressive!	30	Did you make all of this, Bianca?!	30																				
+32	30		301								Bianca	(Nods)	1																					
+33	31		301								Bianca	My previous... job involved taking care of other people.	1																					
+34	32		301								Bianca	This is nothing out of the ordinary.	1																					
+35	33		302								Then I'll get started!	34	Thank you! They look super delicious!	34																				
+36	34		204							1	1																							
+37	102		401							3	104003																							
+38	35		301								Bianca	There's tea for digestion in this cup. Please enjoy.	1																					
+39	36		302								Bianca, you're smiling.	37	It's so rare to see you smiling, Bianca.	37																				
+40	37		204							1																								
+41	38		301								Bianca	...Did I?	1																					
+42	39		301								Bianca	I guess that's because this reminds me of the past.	1																					
+43	40		301								Bianca	It has been a long time since someone said something like this to me...	1																					
+44	41		301								Bianca	For some reason, it's oddly comforting.	1																					
+45	42		302								It comforts you making food for other people?	43	Then please keep making food for me in the future!	43																				
+46	43		301								Bianca	I-it's just... taking care of others has jogged some old memories.	1																					
+47	44		301								Bianca	But if that's what you want, Commandant...	1																					
+48	45		301		1		AniZhuanchangBegin				Bianca	I'm more than happy to comply.	1																					

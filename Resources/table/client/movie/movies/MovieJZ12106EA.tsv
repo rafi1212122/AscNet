@@ -1,0 +1,156 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401						100	1	50																							
+3	3		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHuijinNew.prefab	2																							
+4	4		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab	2																							
+5	5		401							2	1514																							
+6	6		301			DialogEnable						In the deep and dark corridor, falling rocks rain down on No. 21's back. The rocks repeatedly force her to her knees, but she gets up again and again.																						
+7	7		301									No. 21's small frame is unable to completely shelter Vera. No. 21 leans over Vera to protect her head, arms wrapping around her tightly from behind, lifting her from under her arms.																						
+8	8		301									The Co-Bot lifts Vera up by her legs. Then they proceed to arduously drag her out one step at a time.																						
+9	9		401							2	10007502																							
+10	10		301			RImgBg1Shake						No. 21's laser cannon blasts the falling boulders overhead into pieces, but the shards of rocks cut into her face.																						
+11	11		301								No. 21	(Pants) Ngh... (Pants)																						
+12	12		301									She hears the shards pelt the Co-Bot like hail. Its small mechanical arms can't support Vera's weight, causing it to lose its grip.																						
+13	13		301								No. 21	You can do it... Little...																						
+14	14		301									Having heard this word so many times, she finally understands the meaning of the word as she says it.																						
+15	15		301								No. 21	...Little buddy...																						
+16	16		301									She should give the Co-Bot a "designation" as well, so why not "Buddy"?																						
+17	17		301								No. 21	...You can do it, Buddy...																						
+18	18		301									No. 21's hands are soaked with what appears to be Vera's vital fluid. The thick, sticky ichor fills the gaps between her fingers. Each drop seems to tear at her heart.																						
+19	19		301				AniZhuanchangBegin					No. 21 is overwhelmed with pain far more agonizing than what she had felt when she had first climbed out of the corridor by herself.																						
+20	20		101							Assets/Product/Texture/Image/BgUi/BgTanchuang.png																								
+21	21		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHuijinNew.prefab																							
+22	22		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab																							
+23	23		401							2	1514																							
+24	24		301			AniZhuanchangEnd						Seeing the shimmering light of the exit up ahead, her world gradually starts to quiet down... That's where she wants to go. She compels herself onward, carrying the Red Construct toward the "outside world."																						
+25	25		502							RImgBg1BlowUp																								
+26	26		301									Why?																						
+27	27		301									She doesn't know the answer... Perhaps, that's just "what she wants to do."																						
+28	28		301				DialogDisable					Just like last time, she desperately struggles toward the light.																						
+29	29		401						10000	2	1503																							
+30	30		401							1	36																							
+31	31		101				AniZhuanchangBegin		5000	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+32	32		501			AniZhuanchangEnd				Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	2																							
+33	33		401							1	12																							
+34	34		301			DialogEnable						The drizzling rain brings Vera to her senses.																						
+35	35		301				DialogDisable					The violent impact had temporarily knocked her unconscious. She reaches up with a hand and wipes the rain off her face. Her blurry vision becomes slightly more clear.																						
+36	36		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiRainNew.prefab	2																							
+37	37		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	2																							
+38	38		101							Assets/Product/Texture/Image/BgStory/Bgstory13.jpg																								
+39	39		301			DialogEnable						Looking down, she sees that the data files within the sealed waterproof pouch are intact in her other hand. However, there is no sign of No. 21.																						
+40	40		201							1	500168																							
+41	41		301							1	Vera	21!	1																					
+42	42		202							1					1																			
+43	43		301									Vera wants to stand up, but the sharp pain in her back makes her wince. She rubs the artificial skin on her back, but the pain feels like a dozen sharp rocks grated her skin for an hour, shredding it to pieces. She's able to reach her fingertips into the broken tissue and feel her internal components.																						
+44	44		201							1	500168																							
+45	45		301							1	Vera	...Stupid idiot.	1																					
+46	46		301									Vera looks around. It's already nightfall, long past when they were scheduled to be picked up by Kurono forces from HQ. The research institute's entrance before her had been completely blocked off by collapsed rubble, turning it into a silent tomb. She hears the sound of raindrops all around her.																						
+47	47		301								Vera	...No. 21! Call out if you're still alive!	1																					
+48	48		301								Vera	...I'm going to evacuate! If you don't come out now, and I see you alive later, I'll cut you down as a defector—!	1																					
+49	49		202							1					1																			
+50	50		301									Vera's voice gradually lowers and disappears in the rain as if telling a joke for only herself to hear.																						
+51	51		201							1	500168	1																						
+52	52		301							1	Vera	...Guess I can't live down the nickname of "Death" after all.	1																					
+53	53		301									Vera laughs sarcastically. She picks up her blade off to the side and uses it to prop herself up.																						
+54	54		202							1					1																			
+55	55		401							1	36																							
+56	56		401							2	1503																							
+57	57		301									—Crumble.																						
+58	58		301									The rock pile at the entrance to the research institute shifts, causing gravel to roll down. Then, suddenly, a small explosion sends rocks flying on either side. A white head pokes out from within.																						
+59	59		201							1	500328																							
+60	60		301							1	No. 21	...	1																					
+61	61		201							1	500168																							
+62	62		301							1	Vera	...	1																					
+63	63		202							1					1																			
+64	64		401						100	2	1543																							
+65	65		401							2	1512																							
+66	66		301									No. 21 quickly rolls out of the gap in the rock pile and lands heavily on a patch of grass. She looks at Vera.																						
+67	67		201							1	500328																							
+68	68		301							1	No. 21	You're awake.	1																					
+69	69		202							1					1																			
+70	70		301									The frail Construct stands up with a limp. Vera notices something in her hand. One leg is broken, resting at an uncanny angle.																						
+71	71		301									She waddles toward Vera. That scene is shocking, but also somehow a little funny at the same time. Vera raises her eyebrows.																						
+72	72		201							1	500168																							
+73	73		401							1	208																							
+74	74		301							1	Vera	You're walking like a penguin.	1																					
+75	75		201							1	500328																							
+76	76		301							1	No. 21	A penguin?	1																					
+77	77		202							1					1																			
+78	78		301									No. 21 stands in front of Vera. Between them, there is a chunk of metal. The downpour washes away the dirt on it, revealing a vaguely written number "20" on it.																						
+79	79		201							1	500168		-450																					
+80	80		201							2	500328		450																					
+81	81		301							1	Vera	Is this the remains of a Construct?	1																					
+82	82		301									No. 21 remains quiet. She looks around and sees some white flowers growing next to Vera, who is still half-laying on the ground.																						
+83	83		301									No. 21 places the remains next to the flowers.																						
+84	84		301								Vera	Was that your friend?	1																					
+85	85		301								No. 21	...I don't know.	2																					
+86	86		301								Vera	Looks like you've got quite the eye. Daisies are for remembering the departed.	1																					
+87	87		301								No. 21	This flower... is called a daisy?	2																					
+88	88		301									No. 21 examines the flowers closely. The slender petals are crystal clear and pure white in the rain.																						
+89	89		301								No. 21	...So pretty.	2																					
+90	90		204							2	3																							
+91	91		301								No. 21	...	2																					
+92	92		204							2																								
+93	93		301								No. 21	...Let's go back.	2																					
+94	94		301								Vera	You wanna waddle your way back to Kurono?	1																					
+95	95		204							2	4																							
+96	96		301								No. 21	I can do it.	2																					
+97	97		301								Vera	Quit wasting time, silly. Come heal me up.	1																					
+98	98		204							2																								
+99	99		301								No. 21	...I can't.	2																					
+100	100		301				AniZhuanchangBegin				Vera	I'll tell you what to do.	1																					
+101	101		401							1	33																							
+102	102		202							1	2				1																			
+103	103		101							Assets/Product/Texture/Image/BgCg/Cgqz2503.jpg																								
+104	104		301			AniZhuanchangEnd						Late into the night, the barren expanse glows with a faint, desolate blue. The intermittent rain seems to stay all night, vowing to cleanse the dirt and despair from this vast land.																						
+105	105		301									Vera continues onward, supporting No. 21 like a crutch. Vera can feel vital fluid dripping from No. 21's broken leg into a hazy puddle, her frame getting heavier and heavier.																						
+106	106		301									Simple nano-patches aren't enough to repair their serious injuries. Had they not been misled about the real purpose of the mission...																						
+107	107		301									Kurono... This is what Kurono would want. Weeding out the weak.																						
+108	108		301									Vera grits her teeth and shakes No. 21 on her back.																						
+109	109		301								Vera	Hey, don't fall asleep. You're as heavy as a mule.																						
+110	110		301								No. 21	Ngh...																						
+111	111		301								Vera	...Wake up! There's something I wanted to ask you.																						
+112	112		301								No. 21	...Hmm?																						
+113	113		301								Vera	Was that man really your father?																						
+114	114		301								No. 21	...I don't know.																						
+115	115		301								No. 21	Maybe.																						
+116	116		301								Vera	Had I known that he might not be, I would've killed that coward just to shut him up.																						
+117	117		301								No. 21	...Do parents love their children?																						
+118	118		301								Vera	Don't make such a stupid generalization of the world. There is no absolute right and wrong. Nothing is black and white. They may be your parents, but that doesn't necessarily mean they deserve to be parents.																						
+119	119		301								No. 21	No. 20 was right... I'm just a heartless killing machine.																						
+120	120		301								Vera	And I'm Death. You'd better stay away from me. Don't come any closer.																						
+121	121		301								Vera	Tomorrow, I'm going to request the leader to make you someone else's problem. How about that dumb*** always lookin' for a fight? I'm sure he'd like you a lot.																						
+122	122		101							Assets/Product/Texture/Image/BgCg/Cgqz2504.jpg																								
+123	123		301								No. 21	Why?																						
+124	124		301								Vera	Like I said, I'm Death. Constructs that go on missions with me always end up dead.																						
+125	125		301								No. 21	But I'm not dead.																						
+126	126		301								Vera	What's that got to do with it? Everyone calls me that, so that's who I have to be. And you have to stay away from me.																						
+127	127		301								No. 21	...I don't understand.																						
+128	128		301								Vera	Heh, even an airhead like you thinks something's up. Huh?																						
+129	129		301								Vera	Only fools define themselves. Only fools limit themselves. And I hate fools.																						
+130	130		301								Vera	If someone tells you what you are, do you really want to do what they say?																						
+131	131		301								Vera	Those who try to order me around... They're just filled with a fear they're too oblivious to realize.																						
+132	132		301								Vera	I don't do what others say, nor do I bother trying to prove myself to others. I only do as I please.																						
+133	133		301								Vera	Ask yourself what it is you desire.																						
+134	134		301								No. 21	My desire... I want to...																						
+135	135		401							1	207																							
+136	136		301								No. 21	I want to... train with you.																						
+137	137		301				AniZhuanchangBegin				No. 21	I want...																						
+138	138		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+139	139		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiRainNew.prefab																							
+140	140		301			AniZhuanchangEnd						At 6 o'clock, No. 21 wakes up on her pure white bed. Birds are chirping outside her window.																						
+141	141		301									At 7 o'clock, she completes her routine frame inspection and maintenance. Then she trains with "Buddy".																						
+142	142		301									At 8 o'clock, she sits in the break room and learns some new things from the red Construct... some things about humans.																						
+143	143		301									At 9 o'clock, she trains with the red Construct. Her combat has a special color.																						
+144	144		301									...																						
+145	145		301				AniZhuanchangBegin					She wants to see more flowers. She wants to smell new smells. She wants to see new colors. She wants to feel that orange light and its strange warmth again.																						
+146	146		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiRainNew.prefab	2																							
+147	147		101							Assets/Product/Texture/Image/BgCg/Cgqz2503.jpg																								
+148	148		502							RImgBg1Shake																								
+149	149		301			AniZhuanchangEnd					Vera	Hey! Quit falling asleep!																						
+150	150		301								Vera	You want me to lug your corpse all the way back?																						
+151	151		301								No. 21	...I'm not.																						
+152	152		301									No. 21 clings to Vera's back. Her familiar scent puts her heart at ease.																						
+153	153		301									Perhaps—																						
+154	154		301									Even though there is a lot she doesn't understand...																						
+155	155		301		1		AniZhuanchangBegin					Perhaps—No. 21 can have a life of her own.																						

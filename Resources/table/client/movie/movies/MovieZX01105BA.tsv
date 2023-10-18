@@ -1,0 +1,48 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory161.png																								
+2	2		401							1	102																							
+3	3		201							1	1021001																							
+4	4		201							2	1031001	14	-600																					
+5	5		201							3	500026		600																					
+6	6		301			DialogEnable				1		Three drumbeats.																						
+7	7		301									"The midnight drums are beatin'! We're closing up!"																						
+8	8		301									...																						
+9	11		502							RImgBg1Shake																								
+10	12		302								What's going on?	13	The ship's moving?	13																				
+11	13		301								Liv	The ground's shaking?	2																					
+12	14		301								Lee	...The ship has left the port.	3																					
+13	15		302								Let's go check the deck.	16	Let's go investigate, Lee.	18																				
+14	16		301								Lee	The crowd is gone.	3																					
+15	17	22	301								Lee	Apart from those already headed for the boarding gate, every merchant in the market seems to be going in the same direction.	3																					
+16	18		301								Lee	...The ship is some distance away from the port now. Even without considering the waterproof function of Constructs, it's not the kind of distance a human can hold their breath for.	3																					
+17	19		302								Are you joking, Lee?	20	That's unrealistic.	21																				
+18	20	22	301								Lee	I'm serious.	3																					
+19	21	22	301								Lee	Yes, I would also advise against it.	3																					
+20	22		301								Lucia	So what do we do now, Commandant?	1																					
+21	23		302								We bide our time.	24	We follow the merchants.	27																				
+22	24		301								Lee	If this is really a night market, then by the looks of it, it's a well-organized one built on strict rules.	3																					
+23	25		301								Lee	Which means it should have fixed open and close times and the ship should follow a fixed schedule.	3																					
+24	26		302								My thoughts exactly.	28	We just have to wait until tomorrow night.	28																				
+25	27	32	301				AniZhuanchangBegin				Lucia	Yes.	1																					
+26	28		301								Lee	We need to find a place to hide on the ship.	3																					
+27	29		301								Lucia	Maybe we can catch up to the merchants aboard the ship, right Commandant?	1																					
+28	30		302				AniZhuanchangBegin				Let's go	32	Yes	32																				
+29	32		101							Assets/Product/Texture/Image/BgStory/Bgstory150.png																								
+30	33		301			AniZhuanchangEnd					Lee	This looks like a warehouse. A central warehouse.	3																					
+31	34		301								Liv	Are all the merchants' wares stored here?	2																					
+32	35		301								Lee	This doesn't seem like the Night Market on the database.	3																					
+33	36		302								I've been here before.	37	Watch out for the guards.	43																				
+34	37		301								Lee	...Who is it that kidnapped the commandant, and for what?	3																					
+35	38		301								Lee	The kidnapper has not shown up or made another move.	3																					
+36	39		301								Lucia	Regardless, I won't let Commandant out of my sight again.	1																					
+37	40		302								It's okay.	41	You don't have to watch me like that, Lucia.	42																				
+38	41	46	301								Lucia	(Nods)	1																					
+39	42	46	301								Lucia	I'm sorry, Commandant.	1																					
+40	43		301								Lee	Based on our last encounter, I've made a brief scan of the "guards" on the boat.	3																					
+41	44		301								Lee	Blubber and Ballwheel, mechanical puppet performers of the Acrobatics Series made by the General Toys Company after it was acquired during the Golden Age.	3																					
+42	45	46	301								Lee	Not only are they not infected, but they are also surprisingly well maintained.	3																					
+43	46		204							2	14																							
+44	47		301								Liv	...I haven't detected any sign of infection on all humans and mechanoids on the boat, but the responses from their bio-signals are all pretty weak. I'm concerned for their health...	2																					
+45	48		301								Lee	I feel like this boat is hiding many secrets.	3																					
+46	49		301								Lee	If only we have more data to analyze...	3																					
+47	50		301		1		AniZhuanchangBegin				Lee	Maybe we can get some useful information from these mechanical puppets.	3																					

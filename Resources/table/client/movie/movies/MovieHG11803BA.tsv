@@ -1,0 +1,187 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory283.png																								
+2	2		401							1	203																							
+3	3		401							2	1509																							
+4	4		301			DialogEnable					System	Control center dispatching reinforcements for mission R40-119. Operator: 【kuroname】, supporting: Red Robin. Mission coordinates transmitted. Please check them and set off in 5 minutes.	Copy.																					
+5	5		201							1	500166		-400																					
+6	6		201							2	500026		400																					
+7	7		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+8	8		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+9	9		301							1	Lucia	Commandant, we've sent you the route to the support location. Please be careful.	1																					
+10	10		301								Lee	We expect the mission to be completed in 18 minutes on our end. We'll meet up with you as soon as we are done here.	2																					
+11	11		302								Got it.	12	Lucia, I'll leave them to you.	12																				
+12	12		202							2					1																			
+13	13		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+14	14		203							1	0.25																							
+15	15		301				PanelActor1Shake				Lucia	Okay, then...	1																					
+16	16		204							1	5																							
+17	17		401							2	1508																							
+18	18		301									Suddenly, you see Lucia raising her katana in a defensive stance in the comms. The camera shakes for a second, and you hear the hiss of Corrupted from where she is.																						
+19	19		301								Lucia	I'll see you in a second, Commandant.	1																					
+20	20		302								(Turn off comms)	21																						
+21	21		202							1					1																			
+22	22		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+23	23		301				AniZhuanchangBegin					You were on a ground mission in a city nearby, but a support mission ordered by the higher-ups means you have to leave Lucia and the others and head off to the new location alone while waiting for the other handler.																						
+24	24		101							Assets/Product/Texture/Image/BgStory/BgStory33.jpg																								
+25	25		301			AniZhuanchangEnd						The coordinates show that your destination is underground. You hurry to the marked location following the underground tunnel.																						
+26	26		301									You hear a cry for help at the end of the tunnel. Two Constructs sitting back to back on the ground are surrounded by a swarm of Corrupted.																						
+27	27		302								(Open fire)	28																						
+28	28		401							2	1510																							
+29	29		201							1	500019		-400																					
+30	30		201							2	500019		400																					
+31	31		301							1	Construct A	Ah... It's reinforcement! Finally!	1																					
+32	32		301								Construct B	It's the commandant... Is it just... you?	2																					
+33	33		302								Can you still fight?	34	The others will be here soon.	34																				
+34	34		301								Construct A	I'm okay, but there seems to be a deviation in his M.I.N.D...	1																					
+35	35		301								Construct A	I was careless to let him touch the Red Tide.	1																					
+36	36		302								Let me connect with you.	37																						
+37	37		301			PanelActor2Shake				1	Construct B	C-connect...	2																					
+38	38		301								Construct A	Watch out!	1																					
+39	39		202							1	2				1																			
+40	40		401							2	1508																							
+41	41		301									You have been so focused on the Construct with the deviated M.I.N.D. that by the time you hear the warning and notice the Corrupted leaping toward you from behind, you are already too late.																						
+42	42		301									You raise your arms subconsciously to shield your head—a few seconds pass, and you still do not feel the impact.																						
+43	43		301									All you hear is the sound of a bullet flying by your ear at high speed.																						
+44	44		201							1	500273																							
+45	45		301							1	Wanshi	Gray Raven Commandant... we meet again.	1																					
+46	46		301								Wanshi	Don't stand still. I'm not as good a melee fighter as you are.	1																					
+47	47		302								Why are you here?	48																						
+48	48		301								Wanshi	Are you surprised? I'm also a Support-type Construct.	1																					
+49	49		301								Wanshi	...Besides, I was nearby.	1																					
+50	50		202							1					1																			
+51	51		401							2	10001004																							
+52	52		301									Wanshi has not stopped shooting as he talks.																						
+53	53		201							1	500273																							
+54	54		301							1	Wanshi	Probably better to connect with me for now.	1																					
+55	55		301									There is no commandant in Strike Hawk. As far as you know, no one from Strike Hawk has ever had their M.I.N.D. connected before, but Wanshi does not seem to care.																						
+56	56		204							1	4																							
+57	57		301								Wanshi	Once the symptoms of M.I.N.D. deviation appear, your connection could only soothe it. He needs to return to Babylonia for further treatment.	1																					
+58	58		301								Wanshi	The terrain here is unstable. It's very likely to collapse, based on what I saw on my way here. We can't stay here for long.	1																					
+59	59		301								Wanshi	Connecting with me now is the most efficient way to end the battle ASAP.	1																					
+60	60		302								...You're right.	61																						
+61	61		301								Wanshi	Let's begin.	1																					
+62	62		302								(Connect with Wanshi)	63																						
+63	63		202							1					1																			
+64	64		301									...Wanshi's M.I.N.D. is calm. If you do not force yourself to feel it, you may have forgotten that you are connected to a Construct.																						
+65	65		301				AniZhuanchangBegin					With the help of your connection, Wanshi is more efficient and deadly than ever.																						
+66	66		301			AniZhuanchangEnd						After getting rid of the Corrupted nearby, Wanshi takes off the bag he has been carrying and expertly treats the injured Constructs.																						
+67	67		401							1	201																							
+68	68		201							1	500019																							
+69	69		301							1	Construct A	Strike Hawk? That's reassuring...	1																					
+70	70		201							1	500273																							
+71	71		301							1	Wanshi	Just doing my job... Gray Raven Commandant, your hand needs to be treated as well.	1																					
+72	72		302								Alright.																							
+73	73		201							1	500019		-400			1																		
+74	74		201							2	500019		400			1																		
+75	75		301							1	Construct B	Thank you. If it weren't for you, we'd be doomed today.	2																					
+76	76		301								Construct A	Don't say that... Paloma's still waiting for us to return. Didn't we agree to go on a mission together again? Besides, worst come to worst, there is still recalling.	1																					
+77	77		302								Ouch!	78																						
+78	78		202							1	2				1																			
+79	79		301									Wanshi's hands suddenly get a little forceful. You instinctively cry out, and that is when Wanshi lets go of your hand.																						
+80	80		201							1	500273																							
+81	81		301							1	Wanshi	Alright. If you two can still move, get ready to retreat.	1																					
+82	82		301								Wanshi	Judging from the signals, more Corrupted are coming this way. Head for the supply station first—the reinforcements should be coming from there.	1																					
+83	83		201							1	500019		-400			1																		
+84	84		201							2	500019		400			1																		
+85	85		301							1	Construct A	What about you?	1																					
+86	86		202							1	2				1																			
+87	87		201							1	500273																							
+88	88		301							1	Wanshi	I'll stay behind.	1																					
+89	89		201							1	500019		-400																					
+90	90		201							2	500019		400																					
+91	91		301							1	Construct B	We'll leave it to you then...	2																					
+92	92		302								Okay, don't worry.	93																						
+93	93		202							1	2				1																			
+94	94		301									Wanshi grips the stock of his gun, then stops and looks at you.																						
+95	95		302								What is it?	96																						
+96	96		201							1	500273																							
+97	97		301							1	Wanshi	Well... you should leave as well, 【kuroname】.	1																					
+98	98		302								Can you do this on your own?	99																						
+99	99		301								Wanshi	It'd be safer to have someone escort them.	1																					
+100	100		302								I'm not used to fighting solo.	101																						
+101	101		301								Wanshi	...Very well.	1																					
+102	102		301								Wanshi	Given the emergency treatment I just gave you, your mobility should have recovered. I'll be monitoring your signals in real-time, so go retreat for now.	1																					
+103	103		201							1	500019																							
+104	104		301							1	Construct A	Roger!	1																					
+105	105		202							1					1																			
+106	106		301									With the help of his teammate, the other Construct begins to move as well.																						
+107	107		401							2	1503																							
+108	108		301			RImgBg1Shake						After escorting the Construct to the cave entrance, a violent shake comes through, and a loud quake explodes by your side as a puff of smoke rises from the ground.																						
+109	109		301									Before you can react, Wanshi has already flung himself upon you from behind. The two of you quickly crawl to the open space behind you.																						
+110	110		302								Did the cave just collapse?	111																						
+111	111		301									After the shaking has stopped and the dust has dissipated, you look up in the dim light to find the face of Wanshi right on top of you.																						
+112	112		302								That was close...	113																						
+113	113		301									With both hands on your shoulders, Wanshi lifts you up with astounding strength and steadily puts you aside.																						
+114	114		302								?	115																						
+115	115		301									As a veteran commandant, this is something you have never experienced before. But his moves have been so smooth and natural that you have not had time to object.																						
+116	116		201							1	500273																							
+117	117		301							1	Wanshi	Gray Raven Commandant.	1																					
+118	118		301									Wanshi says it so calmly before reaching out to you. It is hard for you to guess what he is intending by his expression.																						
+119	119		302								Huh?	120																						
+120	120		301								Wanshi	Your hand...	1																					
+121	121		302								What is it?	122	Do you want to hold my hand?	129																				
+122	122		301								Wanshi	Your wound is open again.	1																					
+123	123		302								It's no big deal...	124																						
+124	124		301								Wanshi	Well, consider it a personal request... I'm not used to seeing people getting hurt...	1																					
+125	125		301								Wanshi	...And not being treated.	1																					
+126	126		202							1					1																			
+127	127		301									Even though it is said in a calm and sleepy manner, his subtle "complaint" has hit you nonetheless.																						
+128	128		302								Then I'll count on you.	135																						
+129	129		301									Though you have no idea why he has made such a request, you still give him your hand.																						
+130	130		302								We're on a battlefield right now...	131																						
+131	131		301								Wanshi	I'm surprised by the kind of stuff in your head, Gray Raven Commandant... but, really, have you not felt your wound torn open?	1																					
+132	132		301									A stream of sunlight shines through the cracks in the stones blocking the exit. Wanshi wipes your wound clean with a cotton ball dipped in disinfectant, then wraps it with a bandage, his movement calm and precise.																						
+133	133		302								...Thanks.	136	Do you know how to treat humans as well?	134																				
+134	134		301								Wanshi	...Well, a little bit. Learned it before.	1																					
+135	135		201							1	500273																							
+136	136		301							1	Wanshi	And... done.	1																					
+137	137		301								Wanshi	You were on a mission before coming straight here after receiving the message requesting support, right?	1																					
+138	138		302								Yeah, I was with Gray Raven then.	139																						
+139	139		302								They're probably worried now...	140																						
+140	140		202							1					1																			
+141	141		301									As you are thinking about what to do, Wanshi stands up all of a sudden and walks over to the open space nearby to pick up a brick.																						
+142	142		302								What are you doing with that?	143																						
+143	143		301									Wanshi solemnly puts the brick on the ground, sits down, and lies down, using the brick as a pillow matter-of-factly.																						
+144	144		302								You can't use that as a pillow!	145	Are you really going to sleep right now?!	145																				
+145	145		201							1	500273																							
+146	146		401							1	207																							
+147	147		301							1	Wanshi	This is a war, after all... We'll have to make do.	1																					
+148	148		301								Wanshi	Speaking of which, the pillow you gave me last time was indeed quite comfortable.	1																					
+149	149		302								That's not the point.	150	So you know we're in the middle of a war?	150																				
+150	150		301								Wanshi	Well... there's nothing else to do anyway, right?	1																					
+151	151		301								Wanshi	Commandant, you might as well get some sleep. Perhaps we'll be saved when we wake up.	1																					
+152	152		302								It's more likely that we won't even wake up.	153																						
+153	153		301								Wanshi	That's not gonna happen.	1																					
+154	154		301								Wanshi	I've contacted Strike Hawk through our special channel, and they'll immediately inform Gray Raven of your whereabout. Given the closest support distance... the Babylonia reinforcements will arrive in about ten minutes.	1																					
+155	155		301								Wanshi	So, close your eyes and get some rest.	1																					
+156	156		301								Wanshi	The Gray Ravens will be here once you wake up.	1																					
+157	157		302								How could I possibly sleep?!	158																						
+158	158		202							1					1																			
+159	159		301									But Wanshi has already gone silent. Everything seems so quiet in the narrow space.																						
+160	160		302								...	161																						
+161	161		301									...																						
+162	162		302								Wanshi, are you asleep?	163																						
+163	163		201							1	500273	8																						
+164	164		301							1	Wanshi	Hmm, not really.	1																					
+165	165		202							1					1																			
+166	166		301									This time he answers pretty quickly. But then he falls into silence once again, and you wonder if he is still awake.																						
+167	167		302								Alright.	168																						
+168	168		301									You hear the sound of gravels falling, rustling...																						
+169	169		302								...You sleeping?	170																						
+170	170		201							1	500273	8																						
+171	171		301							1	Wanshi	Nope.	1																					
+172	172		302								Alright.	173																						
+173	173		302								...How about now?	174																						
+174	174		301								Wanshi	No.	1																					
+175	175		202							1					1																			
+176	176		301									The two of you begin this loop of purposeless conversations like children.																						
+177	177		301									Perhaps it is the medication, the wound on your arm starts giving you a searing pain, and you begin to feel dizzy.																						
+178	178		302								I wonder if the Red Robins have gotten out unscathed...	179																						
+179	179		201							1	500273	8																						
+180	180		301							1	Wanshi	...They have.	1																					
+181	181		301									It is only a short phrase, but Wanshia's voice seems to have the power to convince others.																						
+182	182		302								How would you know?	183																						
+183	183		301								Wanshi	...Well, my next dream says so...	1																					
+184	184		202							1					1																			
+185	185		301									Perhaps... he also has the power to spread sleepiness...																						
+186	186		301		1		AniZhuanchangBegin					Before you can resist it, the last trace of your consciousness slips away, and you fall into a quiet dream.																						

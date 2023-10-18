@@ -1,0 +1,33 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	208																							
+3	3		201							1	1011001																							
+4	4		301			DialogEnable				1	Lee	If humans are truly required for Nanami's wacky experiments, then it would be easiest to send her to her corresponding place in human society.	1																					
+5	5		301									With a solemn expression, Lee gathers the team and announces his plan.																						
+6	101		302								Her place in human society?	6	Are you sending Nanami away?	111																				
+7	6	8	301								Lee	Yes. I think this is best for everyone. Hear me out.	1																					
+8	111		204							1	10																							
+9	7		301								Lee	I anticipated your reaction, Commandant, but just hear me out first.	1																					
+10	112		204							1																								
+11	8		301								Lee	I plan to send Nanami to Babylonia's residential district. By her mental age, it should be possible to enroll her in school.	1																					
+12	9		201							1	1031001	7																						
+13	10		301							1	Liv	A school... Can Constructs even go to school?	1																					
+14	11		201							1	1011001																							
+15	12		301								Lee	Of course. Schools are not only for the acquisition of knowledge, but also for the formation of a social identity.	1																					
+16	13		301								Lee	Though the rules and regulations at school might tie Nanami down, they won't get in the way of her research.	1																					
+17	14		301								Lee	Whether she wants to research individuals or groups, a school will suit her needs.	1																					
+18	15		301								Lee	What do you think, Nanami?	1																					
+19	16		203							1	0.25	-400																						
+20	17		201							2	1041001		400																					
+21	18		301							1	Nanami	Hmm... Nanami knows about school, duh. But is it fun?	2																					
+22	19		301								Lee	It's not about fun. It's a place of learning. It won't be bad for you.	1																					
+23	20		301								Nanami	If it gets me a chance to research humans... what do you think, Commandant?	2																					
+24	102		302								I think this will be better.	21	If it helps Nanami...	24																				
+25	21		301								Nanami	Does Commandant want to send Nanami away?	2																					
+26	22		301								Lee	The Commandant simply agrees with me, that this is the best choice for you.	1																					
+27	23		301		1		AniZhuanchangBegin				Nanami	No problem.	2																					
+28	24		301								Lee	Of course it will help. I will apply for the transfer with Babylonia immediately. All you need to do is sign, Commandant.	1																					
+29	25		301								Nanami	W-wait!	2																					
+30	26		301								Lee	Why wait? You want to finish your research, right?	1																					
+31	27		301								Nanami	Um... yeah.	2																					
+32	28		301		1		AniZhuanchangBegin				Lee	It's settled then. Wait here for my good news.	1																					

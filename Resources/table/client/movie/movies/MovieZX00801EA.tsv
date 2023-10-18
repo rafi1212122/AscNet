@@ -1,0 +1,38 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory38.jpg																								
+2	100		401							1	203																							
+3	2		201							1	1031001		400																					
+4	3		201							2	1021001		-400																					
+5	4		301			DialogEnable				1	Lucia	Is it still intact?	2																					
+6	5		301								Liv	There's a large amount of serum inside, and a new frame.	1																					
+7	6		301								Liv	It's a frame for Lucia!	1																					
+8	7		201							2	1011001		-400																					
+9	8		301							1	Lee	How generous of HQ this time.	2																					
+10	9		302								Go on then, Lucia.	10																						
+11	10		201							2	1021001	6	-400																					
+12	11		301							1	Lucia	I... Please excuse me for a moment.	2																					
+13	12		302								What's she doing?	13																						
+14	13		201							2	1011001		-400																					
+15	14		204							1	6																							
+16	15		301							1	Liv	Commandant, you ask all these weird questions...	1																					
+17	16		204							1																								
+18	17		204							2	10																							
+19	18		301								Lee	Cough, I'd like to refrain from answering.	2																					
+20	19		201							2	1091001		-400																					
+21	20		301							1	Bianca	...	2																					
+22	21		302								???	22																						
+23	22		202							1	2				1																			
+24	23		301									One moment later.																						
+25	24		201							1	1031001		-400																					
+26	25		201							2	500029		400																					
+27	26		301							1	Liv	Are the adjustments going well?	1																					
+28	27		201							1	1011001		-400																					
+29	28		301							1	Lee	It's a good frame.	1																					
+30	29		201							1	1031001	1	-400																					
+31	30		301							1	Liv	It fits you well, Lucia—	1																					
+32	31		204							1																								
+33	32		301								Lucia	Is that... so... It's just that the appearance is... a bit...	2																					
+34	33		302								Change is good once in a while.	34																						
+35	34		201							1	1091001		-400																					
+36	35		301							1	Bianca	Sorry to interrupt, but we should continue tracking Kamui.	1																					
+37	36		301		1		AniZhuanchangBegin				Bianca	Kamui's signal hasn't moved for a while now.	1																					

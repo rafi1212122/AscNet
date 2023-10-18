@@ -1,0 +1,42 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory46.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable					???	Lucia!																						
+4	4		302								Of course she's here.	5	Who is it?	5																				
+5	5		201							1	1021001	1	-400																					
+6	6		201							2	1111001		400																					
+7	7		301							1	Lucia	Welcome, Karenina.	1																					
+8	8		204							1																								
+9	9		301								Lucia	No armed fighting in the office area of the base. Please drop your weapons.	1																					
+10	10		204							2	5																							
+11	11		301								Karenina	Was it blocked?	2																					
+12	12		301								Karenina	How could you block such a raid?	2																					
+13	13		204							1	1																							
+14	14		301								Lucia	Captain Bianca has informed us of the exact dispatch time of reinforcements in this mission.	1																					
+15	15		204							1																								
+16	16		204							2																								
+17	17		301								Karenina	Tsk, so that's why.	2																					
+18	18		204							2	5																							
+19	19		301								Karenina	Lucia, don't think you can get rid of me! As long as we work together, I'll always aim at your back!	2																					
+20	20		302								Isn't that a sneak attack?	21	Karenina...	24																				
+21	21		202							1	2				1																			
+22	22		201							1	1011001																							
+23	23	29	301							1	Lee	The commandant is right. Is there any justice in a sneak attack?	1																					
+24	24		204							2																								
+25	25		301								Karenina	Don't think I'll let you off the hook by asking the commandant for help. Be prepared to fight with me, Lucia!	2																					
+26	26		202							1	2				1																			
+27	27		201							1	1011001																							
+28	28		301							1	Lee	But is there any justice in a sneak attack?	1																					
+29	29		201							1	1021001		-400																					
+30	30		201							2	1111001	5	400																					
+31	31		301							1	Karenina	You're right. Lucia, when are you going to have a face-to-face and one-on-one fair showdown with me?!	2																					
+32	32		301								Lucia	Let's make sure the task goes well first.	1																					
+33	33		204							2																								
+34	34		301								Karenina	It's a deal then. No backing out!	2																					
+35	35		202							1					1																			
+36	36		203							2	0.25																							
+37	37		301								Karenina	Then what are you waiting for? Go get the job done!	2																					
+38	38		302								Let's get started.	40	Is it over for now?	40																				
+39	39		203							2	0.25	400																						
+40	40		201							1	1011001	10	-400																					
+41	41		301		1		AniZhuanchangEnd			1	Lee	...She's exactly the same as Bianca said.	1																					

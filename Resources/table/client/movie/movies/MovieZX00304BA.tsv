@@ -1,0 +1,33 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory19.jpg																								
+2	100		401							1	201																							
+3	2		201							1	1081001	1																						
+4	3		301			DialogEnable				1	Kamui	Helping people makes me feel good!	1																					
+5	4		201							1	1011001	10																						
+6	5		301							1	Lee	Behind you—	1																					
+7	6		201							1	1081001																							
+8	7		301							1	Kamui	Hmm? Oh, it's not dead yet?	1																					
+9	8		202							1					1																			
+10	9		301			RImgBg1Shake					Terrapod	!																						
+11	10		301			RImgBg1Shake					Terrapod	Schween—																						
+12	11		201							1	1011001	10																						
+13	12		301							1	Lee	All clear.	1																					
+14	13		204							1																								
+15	14		203							1	0.25	-400																						
+16	15		201							2	1081001	1	400																					
+17	16		301							1	Kamui	Phew, thanks again! You're pretty good!	2																					
+18	17		301								Lee	(Leaving his back open to enemies not dead checked... I can already tell we're not going to be friends.)	1																					
+19	18		301								Kamui	Gray Ravens, hello there! I'm Kamui, a Tank-type Construct, member of the Strike Hawks.	2																					
+20	19		301								Kamui	And my mission here is to track down one of the Ascendants.	2																					
+21	20		301								Lee	One of? There's more than one?	1																					
+22	21		204							2																								
+23	22		301								Kamui	Yep. According to our info, they even have something called the "Ascension-Network", and they share strength from it. The core members are the ones we call "Ascendants".	2																					
+24	23		201							1	1021001	3	-400																					
+25	24		301							1	Lucia	The one you're after, is there any more information? Is it someone with white long hair in a red outfit?	1																					
+26	25		301								Kamui	I don't know, I mean, does it matter?	2																					
+27	26		301								Lucia	...	1																					
+28	27		201							1	1011001	10	-400																					
+29	28		301							1	Lee	I think I get your work style now.	1																					
+30	29		201							1	1021001		-400																					
+31	30		301							1	Kamui	Nothing a few punches and slashes won't fix!	2																					
+32	31		301		1		AniZhuanchangBegin				Kamui	Anyway, let's go and pluck this Ascendant out!	2																					

@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using Microsoft.CodeAnalysis;
 
 namespace AscNet.Table
@@ -14,15 +12,14 @@ namespace AscNet.Table
         public void Execute(GeneratorExecutionContext context)
         {
             List<object> fails = new();
-            foreach (var table in context.AdditionalFiles.Where(x => x.Path.EndsWith(".tab.bytes")))
+            foreach (var table in context.AdditionalFiles.Where(x => x.Path.EndsWith(".tsv")))
             {
                 try
                 {
                     string ns = string.Join("", Path.GetDirectoryName(table.Path)?.Split(new string[] { "table" }, StringSplitOptions.None).Skip(1)!)
                         .Replace('\\', '/').Replace('/', '.');
 
-                    byte[] fileBytes = File.ReadAllBytes(table.Path);
-                    string fileTsv = Encoding.UTF8.GetString(fileBytes.Skip(128).ToArray());
+                    string fileTsv = table.GetText()?.ToString() ?? string.Empty;
 
                     IEnumerable<string> tsvLines = fileTsv.Split(new string[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
 
@@ -92,7 +89,7 @@ namespace AscNet.Table{ns}
 
         public override void Load() 
         {{
-            string tsvStr = global::System.Text.Encoding.UTF8.GetString(global::System.IO.File.ReadAllBytes(FilePath).Skip(128).ToArray());
+            string tsvStr = global::System.IO.File.ReadAllText(FilePath);
             string[] tsvValues = tsvStr.Split('\t');
             string[] csvValues = new string[tsvValues.Length];
             for (int i = 0; i < tsvValues.Length; i++)

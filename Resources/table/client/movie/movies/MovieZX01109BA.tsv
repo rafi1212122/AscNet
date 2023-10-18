@@ -1,0 +1,103 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory160.png																								
+2	2		401							1	17																							
+3	3		201							1	500150	14																						
+4	6		301			DialogEnable				1	Qu	What is this? Who are you people?	1																					
+5	7		302								(Introduce yourself)	8																						
+6	8		301								Qu	Gray Raven. And... Lucia.	1																					
+7	9		201							1	500151																							
+8	10		301							1	Lucia	...	1																					
+9	11		201							1	500150	14	-400																					
+10	12		201							2	500145		400																					
+11	500		301							1	Pulao	They came to help, Lady Qu. Tonight is the night we get you off this ship and free you from Huaxu.	2																					
+12	501		301								Qu	Free me... Is this what you've been up to lately, Pulao?	1																					
+13	502		301								Pulao	Yes, I've been preparing for this moment for a long time. And we only have one shot at this.	2																					
+14	503		301								Pulao	Everything that accursed AI has stolen from us, we're going to take them back!	2																					
+15	504		301								Qu	You must have worked very hard to get this far, Pulao.	1																					
+16	505		301								Qu	Do you want to go back too, Pulao? To that Kowloong...	1																					
+17	506		301								Pulao	This is the closest we've ever been to making that happen. Lady Qu, do you still have access to the main control room?	2																					
+18	507		301								Qu	Then follow me, Gray Ravens...	1																					
+19	600		202							1	2				1																			
+20	13		201							1	1031001	14																						
+21	14		301							1	Liv	...Are you okay?	1																					
+22	15		201							1	500150	14																						
+23	16		301							1	Qu	It's nothing... I'm fine...	1																					
+24	17		301								Qu	I'll take you to the main control room.	1																					
+25	18		301								Qu	...I've been waiting for this moment for so long.	1																					
+26	19		202							1																								
+27	20		201							1	1031001		-400																					
+28	21		201							2	500151		400																					
+29	22		401							2	1516																							
+30	23		301							1	Lucia	What's wrong, Liv?	2																					
+31	24		301								Liv	The status monitoring shows that Qu...	1																					
+32	25		202							1	2				1																			
+33	26		301									Liv pauses for a moment, then continues.																						
+34	27		201							1	1031001	14	-400																					
+35	28		201							2	500151		400																					
+36	29		301							1	Liv	She's in terrible condition.	1																					
+37	30		301								Liv	Her M.I.N.D. is a mess, and all her indicators are off the scale.	1																					
+38	31		301								Liv	She needs immediate...	1																					
+39	32		301				AniZhuanchangBegin				Lucia	...	2																					
+40	33		101							Assets/Product/Texture/Image/BgStory/Bgstory156.png																								
+41	34		202							1	2				1																			
+42	35		301			AniZhuanchangEnd						On the observation deck of the Nighter.																						
+43	36		201							1	500150	14																						
+44	37		301				AniZhuanchangBegin			1	Qu	This is the place.	1																					
+45	38		101							Assets/Product/Texture/Image/BgStory/Bgstory169.png																								
+46	39		201							1	500150																							
+47	999		401							2	1509																							
+48	508		302								Where's the system terminal?	43																						
+49	43		301			AniZhuanchangEnd					Qu	Huaxu is here. This place IS Huaxu.	1																					
+50	44		202							1					1																			
+51	45		301									After saying that, Qu lets go of Pulao's hand, then holds Lucia's and walks on.																						
+52	46		201							1	500152																							
+53	47		301							1	Lucia	...?	1																					
+54	48		201							1	500150	1	-400																					
+55	49		201							2	500145		400																					
+56	50		301							1	Qu	Pulao, did you say earlier that I, I mean we, have all been controlled by Huaxu?	1																					
+57	509		301								Pulao	Lady Qu?	2																					
+58	510		301								Qu	You were wrong. The master of this ship has always been me. I have the highest authority here.	1																					
+59	511		202							1	2				1																			
+60	512		201							1	500026																							
+61	513		301							1	Lee	Wait, that means... Lucia!	1																					
+62	514		201							1	500150	1																						
+63	515		301							1	Qu	Too late.	1																					
+64	516		202							1					1																			
+65	517		301									When you realize what is going on and are about to draw your gun, a few mechanical puppets that have been hanging upside down the ceiling descend to the ground.																						
+66	518		201							1	500150	1	-400																					
+67	519		201							2	500145		400																					
+68	520		301							1	Qu	I was the one who wanted a vessel. I founded the night market and trade fair. I schemed. I put collars on you.	1																					
+69	521		301								Pulao	Are you still being controlled by Huaxu? Lady Qu would never…	2																					
+70	522		301								Qu	Lady Qu would never do such things, huh? Or do you mean no human would do such things?	1																					
+71	523		301								Qu	And how can you be so sure? Machines are merely lifeless creations of mankind, devoid of emotions and thoughts.	1																					
+72	524		301								Qu	You must have forgotten that you yourself are a human-machine hybrid, Pulao. What a fool.	1																					
+73	525		301								Qu	Huaxu, she... well, she's a bleeding heart.	1																					
+74	526		301								Qu	She took in refugees and erected a protective barrier against the virus... But what did humans do in return?	1																					
+75	527		301								Qu	But none of that matters now. Anyway, thank you for this surprise gift.	1																					
+76	528		302								Let go of Lucia!	529	Ready your weapons!	610																				
+77	529	52	301								Qu	No, I won't let go of such a precious specimen.	1																					
+78	610		202							1	2				1																			
+79	531		201							1	500026																							
+80	544		301							1	Lee	Pulao, I'm afraid you need a change of plans.	1																					
+81	532		201							1	500145																							
+82	51	52	301							1	Pulao	Why... Why is this happening? Lady Qu...	1																					
+83	52		202							1	2																							
+84	533		201							1	500151	9																						
+85	534		301							1	Lucia	Ngh...	1																					
+86	535		201							1	500150	1																						
+87	53		301							1	Qu	Through different transfer experiments... I've already found the most efficient way to transfer minds.	1																					
+88	536		301								Qu	Huaxu, I've found the perfect vessel for you.	1																					
+89	537		204							1	14																							
+90	538		301								Qu	...This will be the last time.	1																					
+91	54		201							1	500151	9																						
+92	963		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryGanRanGreen.prefab		1																						
+93	55		301							1		As if being grasped by an invisible hand, Lucia floats soundlessly in the air.																						
+94	964		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryGanRanGreen.prefab		1																					
+95	966		202							1					1																			
+96	539		301									Sand painting. Rivulets.																						
+97	540		301									Qu looks at the sand painting in silence.																						
+98	541		301									Then lifts a hand, touching the painting.																						
+99	542		201							1	500155				1																			
+100	59		301							1	Chrome	What's happening... Gray Raven?!	1																					
+101	543		202							1																								
+102	60		301		1		AniZhuanchangBegin					Your mind suddenly goes blank.																						

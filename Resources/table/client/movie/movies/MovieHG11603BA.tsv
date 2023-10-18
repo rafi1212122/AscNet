@@ -1,0 +1,85 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory9.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						Having defeated the target, Lucia retrieves the ancient coin from his cloak.																						
+4	4		201							1	500166																							
+5	5		301							1	Lucia	The token is yours now.	1																					
+6	6		201							1	500026																							
+7	7		301							1	Lee	The pattern on the coin does suggest a Kowloong origin. I wonder how exactly the city connects to the black market.	1																					
+8	8		302								Perhaps he really was from the Nighter.	9	We don't have enough clues yet.	9																				
+9	9		201							1	500166																							
+10	10		301							1	Lucia	Look at his cloak. I know it seems normal, but it has hidden a microchip that works like the IDs we have.	1																					
+11	11		201							1	500225	1																						
+12	12		301							1	Changyu	Hey, how's it going?	1																					
+13	13		301									Changyu pokes his head around the corner and waves.																						
+14	14		302								We've got the token.	15																						
+15	15		204							1	20																							
+16	16		301								Changyu	Nice! And our friend here?	1																					
+17	17		203							1	0.25	-400																						
+18	18		201							2	1031001		400																					
+19	19		301							1	Liv	Just passed out.	2																					
+20	1020		204							1	14																							
+21	20		301								Changyu	Really? I didn't take y'all for the gentle and considerate type.	1																					
+22	21		201							2	500026		400																					
+23	22		301							1	Lee	Akdilek can take care of its own mess. We're just here for the token, not solving all your problems.	2																					
+24	1023		204							1	13																							
+25	23		301								Changyu	Sure—but I suppose that does leave us with a new problem, no?	1																					
+26	24		302								What now?	1024																						
+27	1024		204							1	1																							
+28	25		301								Changyu	Say, someone discovers him, or he wakes up halfway through... Come to think of it, the three of you should really stay here and keep watch. I'll just take 【kuroname】 with me.	1																					
+29	26		201							2	500166		400																					
+30	27		301							1	Lucia	We'll take him somewhere unguarded.	2																					
+31	28		201							2	1031001		400																					
+32	29		301							1	Liv	The drug we gave him will keep him unconscious for a while... without endangering his life.	2																					
+33	30		301								Changyu	Sure. I still have to ask you to stay and leave 【kuroname】 with me.	1																					
+34	31		201							2	500166		400																					
+35	32		301							1	Lucia	Why?	2																					
+36	33		301								Changyu	First of all—	1																					
+37	34		301									Changyu raises his index finger.																						
+38	35		301								Changyu	One token means one person gets to come along.	1																					
+39	36		204							1	13																							
+40	37		301									Teasingly, he raises another finger.																						
+41	38		301								Changyu	Moreover, while you three may be able to pull off a costume change, the man you just took down is a hu—man. Do you think the folks at the dock can't tell a Construct from a human under a cloak?	1																					
+42	39		204							1																								
+43	40		301								Lucia	But it's still too dangerous—	2																					
+44	41		202							2					1																			
+45	42		203							1	0.25	0																						
+46	43		301								Changyu	Last but not least—	1																					
+47	44		301									Changyu raises a third finger. He walks toward you, untethered and unafraid.																						
+48	45		204							1	1																							
+49	46		301								Changyu	I'll protect 【kuroname】.	1																					
+50	47		301									A moment of absolute silence, as every single eye focuses on Changyu.																						
+51	48		301								Changyu	If you have questions, now's the time.	1																					
+52	49		301								Changyu	I'll let you know that I didn't plan to come here and take 【kuroname】 away unprepared.	1																					
+53	50		301									Changyu's voice has gotten ever so solemn, despite him looking as impudent as ever.																						
+54	51		201							1	500166	5																						
+55	52		301							1	Lucia	Where are you taking the commandant?	1																					
+56	53		201							1	500225																							
+57	54		301							1	Changyu	To see the person in charge of the dock and have a little chat about his deal with Akdilek, just like I said.	1																					
+58	55		201							1	500166	5																						
+59	56		301							1	Lucia	What else?	1																					
+60	57		201							1	500225	1																						
+61	58		301							1	Changyu	Take it easy... Or is this how it's going to be when something concerns our dearest 【kuroname】?	1																					
+62	59		301								Changyu	Look—I only need y'all to buy me enough time by taking care of our guy here.	1																					
+63	60		301								Changyu	I'm bringing 【kuroname】 along just to get you your intel. That's me returning the favor.	1																					
+64	61		201							1	500026																							
+65	62		301							1	Lee	Do businessmen deal in favors now?	1																					
+66	63		201							1	500225	1																						
+67	64		301							1	Changyu	Of course. You spend a fortune to buy a favor, and you spend a favor to buy a fortune. Circle of a great investment, really.	1																					
+68	65		302								Fine.	66	This is the quickest way.	66																				
+69	66		201							1	500026																							
+70	67		301							1	Lee	If you insist on going, wear this on your left wrist. It's a beacon you can activate to send us a signal. Then we'll come rushing in.	1																					
+71	68		301									Lee passes you a bracelet.																						
+72	69		302								Alright.	70	(Wear the bracelet)	70																				
+73	70		201							1	1031001																							
+74	71		301							1	Liv	Maybe... I can monitor your pulse and heart rate somewhere nearby? If it gets too alarming... I can let everyone know.	1																					
+75	72		302								Of course.	73	That's not necessary.	73																				
+76	73		201							1	500026																							
+77	74		301							1	Lee	Considering that it might be tricky to set off the beacon at times, it's probably safer to go with Liv's plan as well.	1																					
+78	75		201							1	500225																							
+79	76		301							1	Changyu	Alright, we'll do that if it'll stop everyone from worrying.	1																					
+80	77		301								Changyu	Go and get prepared, 【kuroname】. We'll leave in one day.	1																					
+81	78		302								Why the wait?	79																						
+82	79		204							1	13																							
+83	80		301								Changyu	We have to give Sophia time to do some cleaning. You've dug up some dirt, after all.	1																					
+84	81		301		1		AniZhuanchangBegin					He points at the fallen man lying next to them, and he smirks.																						

@@ -1,0 +1,55 @@
+Key	Comment	Values[1]	Values[2]	Values[3]	Values[4]	Values[5]	Values[6]	Values[7]
+NodeTypeName	Node Type Entry Display Name	Unexpected Encounter	Shark-speare Sale	Emergency Crisis	Battle Engagement	Emergency Crisis		
+NodeTypeIcon	Node Type Entry Display Icon	Assets/Product/Texture/Image/UiTheatre/UiTheatreStageTypeIcon05.png	Assets/Product/Texture/Image/UiTheatre/UiTheatreStageTypeIcon06.png	Assets/Product/Texture/Image/UiTheatre/UiTheatreStageTypeIcon03.png	Assets/Product/Texture/Image/UiTheatre/UiTheatreStageTypeIcon02.png	Assets/Product/Texture/Image/UiTheatre/UiTheatreStageTypeIcon04.png		
+NodeTypeDesc	Node Type Entry Display Description	Weigh up.	Shark-speare seems to love Tinbread Cookies.	Emergency arose. Prepare to engage.	Defeat the enemies for loot.	Future Intersection		
+NodeTypeSmallIcon	Node Type Entry Display Icon	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaIconEvent01.png	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaIconEvent02.png	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaIconEvent03.png	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaIconEvent04.png	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaIconEvent05.png	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaIconEvent06.png	
+DifficultyTitleIcon	Difficulty Title Icon	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreIconDifficulty01.png	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreIconDifficulty02.png	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreIconDifficulty03.png				
+DifficultyButtonIcon	Difficulty Button Icon	Assets/Product/Texture/Atlas/UiTheatre/UiTheatreTxtDifficulty01.png	Assets/Product/Texture/Atlas/UiTheatre/UiTheatreTxtDifficulty02.png	Assets/Product/Texture/Atlas/UiTheatre/UiTheatreTxtDifficulty03.png	Assets/Product/Texture/Atlas/UiTheatre/UiTheatreTxtDifficulty04.png			
+SpecialRewardName	Special Reward Name (Skill, Level Up, Decoration Point, and Force Affection)	%s	Script	Inspiration	Cadenza			
+SpecialRewardIcon	Special Reward Icon (Skill, Level Up, Decoration Point, and Force Affection) - Pending	%s	Assets/Product/Texture/Image/IconTools/IconTheatre07.png	Assets/Product/Texture/Image/IconTools/IconTheatre04.png	Assets/Product/Texture/Image/IconTools/IconTheatre03.png			
+HelpKey	Help Key	BiancaTheatre						
+RoleDetailLevelIcon	Character Details Level Information Icon	Assets/Product/Texture/Image/IconTools/IconTheatre07.png						
+RoleDetailLevelDesc	Character Details Level Information Description	Script	All Character Level					
+RoleDetailEquipIcon	Character Details Equipment Information Icon	Assets/Product/Texture/Image/IconTools/IconTheatre07.png						
+RoleDetailEquiupDesc	Character Details Equipment Information Description	Script	Weapon & Memory Level					
+RoleDetailSkillIcon	Character Details Skill Information Icon	Assets/Product/Texture/Image/IconTools/IconTheatre06.png						
+RoleDetailSkillDesc	Character Details Skill Information Description	Chord	Skill Level					
+DifficultyButtonTextIcon	Difficulty Button Text Icon	Assets/Product/Texture/Atlas/UiTheatre/UiTheatreTxtDifficulty1.png	Assets/Product/Texture/Atlas/UiTheatre/UiTheatreTxtDifficulty2.png	Assets/Product/Texture/Atlas/UiTheatre/UiTheatreTxtDifficulty3.png	Assets/Product/Texture/Atlas/UiTheatre/UiTheatreTxtDifficulty4.png			
+FirstStoryId	First Played Cutscene ID	RG00601BA						
+BtnSelectName	Button's Text	Select						
+BtnRewardName	Button's Text	Claim						
+PercentTitle		Progress: %d%%						
+BtnFettersAsset	Resource paths for more bond buttons	Assets/Product/Ui/ComponentPrefab/UiBiancaTheatre/BtnFetters.prefab						
+GridItemAsset	Resource paths of item grids	Assets/Product/Ui/ComponentPrefab/UiBiancaTheatre/GridBiancaPopUp.prefab						
+GridFettersAsset	Resource paths of bond grids	Assets/Product/Ui/ComponentPrefab/UiBiancaTheatre/GridFettersNode.prefab						
+StrengthenCoinId	Enhanced Token ID	96118						
+SettleDataName	Data Content Name of the Total Settlement Screen	Nodes Cleared	Battle Nodes	Total Stars	Artifacts Collected	Chapters Completed		
+LevelItemId	Level Item ID	96117						
+PropUnlockPercent	Codex Unlock Progress	\n%d<color=#C4C4C4>/%d</color>						
+NotSelectTeam	The text of a pop-up message when tapping Next without selecting a squad.	Select Survey Team.						
+NotSelectRecruitTicket	The text of a pop-up message when tapping Next without selecting a recruit voucher.	Select any Stray Invitation.						
+NotSelectExReward	The text of a pop-up message when tapping Next without selecting extra rewards.	Select Artifact.						
+StrengthenBtnActiveName	Skill Details Activation Button Text	Locked	Activated	Activate				
+TextColor	Text Color	BBBBBBFF	FF0000FF					
+RewardTips	Reward Tips	No claimable rewards found	Rewards cannot be claimed when a journey is in progress.	Level limit reached				
+UnitIcon	Instruction Icon (1 Squad, 2 item)	Assets/Product/Texture/Atlas/UiBiancaTheatre/UiTheatreIconBtnFenDui.png	Assets/Product/Texture/Atlas/UiBiancaTheatre/UiTheatreIconBtnDaoJu.png					
+BtnRecruitName	Recruit Button Name	Recruit	Star Up					
+BiancaTheatreComboTips	Bond Description	Evolve Requirement: 						
+BannerProgress	Entry Progress Description	Current Level: %s/%s						
+StartViewTitle	Titles for Difficulty Selection, Squad Selection, Recruit Voucher Selection, and Battle Rewards	Select Difficulty	Establish Survey Team	Select Invitation	Claim Battle Rewards			
+QualityTextColor	Text Color Corresponding to the Quality	797979	797979	588ad6	cc68c1	C68B23	C4695B	
+RecruitTipsTitle	Recruit Pop-Up Details Title (1 Recruit, 2 Star Up)	Unlock the owned/trial character	Improve the character's all Basic Abilities.					
+NotRoles	Reminders when tapping the character list button but there are no characters available.	No characters recruited						
+StrengthenTips	Notice	Nodes cannot be activated when a journey is in progress.						
+FightRewardEndRecvTipsDesc	The text of the second pop-up when exiting without claiming all battle rewards.	Confirm to proceed? All unclaimed rewards will be lost.						
+RebootTitle	Battle Reset Title	Reset Warning						
+RebootDesc	Battle Reset Warning	You have %s *%d. Stage reset requires %s *%d. Confirm to proceed?						
+RetreatTitle	Battle Retreat Title	Battle Warning						
+RetreatDesc	Battle Retreat Description	This round of adventure will count as defeat once you leave the battle. You have %s *%d. %s can be used to revive/reset the stage. Confirm to leave and tally your results?						
+MainViewShowRewardId	Main Screen Reward Display	550050						
+SettleAnimaTime	Time for the result calculation screen to slide to the bottom (in seconds)	3						
+NotActiveQualityColor	Unactivated Quality Color	797979						
+UnusedRecruitCountDialogContent	The description of the second pop-up when tapping Next without using up all recruit attempts.	Confirm to proceed? (Unused recruit attempts will not be carried over.)						
+RoleDetailBallIconBg	In the character details brief skill panel, the background resource path of the Red, Yellow, and Blue Orbs	Assets/Product/Texture/Atlas/Common/CommonSekuai1.png						
+ReceiveExpTipsContent	Pop-Up Description When Claiming Rewards at Max Level	The Curse Queller's Path has already reached its max level. Excess Downfall Crystals will be lost. Confirm to claim?						
+MissionComplete		All mission completed						

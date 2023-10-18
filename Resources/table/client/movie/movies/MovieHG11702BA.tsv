@@ -1,0 +1,175 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	209																							
+3	3		301			DialogEnable						You feel an immense lightness enveloping you and the surroundings. Gravity seems to have gone missing in this place.																						
+4	4		301				AniZhuanchangBegin					Streams of data, taking the form of cubes, flow into the space. They quickly transform, converge, and begin to rebuild into... a floor, walls, everything.																						
+5	5		101							Assets/Product/Texture/Image/BgStory/Bgstory278.png																								
+6	6		301			AniZhuanchangEnd						When you finally feel the grasp of gravity once more and land safely on the ground, you find yourself in a new world.																						
+7	7		302								...	8	Her M.I.N.D. is rebuilding itself...?	8																				
+8	8		301									The place is deep underground—a subterranean city made up of cold steel and a giant rift.																						
+9	9		302				AniZhuanchangBegin				This is... where that battle happened.	10	Where is Luna?	10																				
+10	10		101							Assets/Product/Texture/Image/BgStory/Bgstory279.png																								
+11	11		301			AniZhuanchangEnd						Your hunch tells you that you can find her in a certain place. Groping through your memories, you manage a path to your destination in the center. On your way there, you see discarded weapons... including your pistol.																						
+12	12		302								(Pick up your pistol)	13																						
+13	13		301									At the end of the path, you see the familiar white girl again... as well as another figure, also somewhat acquainted with you.																						
+14	14		401							1	102																							
+15	15		201							1	500238	4																						
+16	16		301							1	Luna	Ga... briel?	1																					
+17	17		201							1	500179																							
+18	18		301							1	Gabriel	Miss Luna, allow me to apologize for my impudence from before.	1																					
+19	19		301								Gabriel	I assure you that, Miss Luna, I shall fulfill my duties as a chosen of the Ascension-Network to its fullest...	1																					
+20	20		301									Luna is standing at the top of the abyssal rift. Gabriel is facing her, his mechanical wings extended in full, looking like a fallen angel that has crawled out from hell.																						
+21	21		301									Under the gargantuan shade of Gabriel, Luna looks even smaller than she is.																						
+22	22		301								Gabriel	And to do so, I shall have to cleanse the world of imperfect agents.	1																					
+23	23		201							1	500238	4																						
+24	24		301							1	Luna	The power I have displayed, is it not enough to make you...	1																					
+25	25		201							1	500179																							
+26	26		301							1	Gabriel	Do you not realize? Your heart is your blemish, your emotions are your weaknesses.	1																					
+27	27		301									Gabriel raises his hand. In the cages of his bulky fingers beats a human heart, frail and powerless.																						
+28	28		201							1	500238	6																						
+29	29		301			PanelActor1Shake				1	Luna	No...!	1																					
+30	30		201							1	500179																							
+31	31		301							1	Gabriel	Ever since your sister became an Ascendant, your power as an agent has been weakening...	1																					
+32	32		301								Gabriel	You are no longer fit to be an agent... You are no longer fit to realize our ambitions!	1																					
+33	33		301									Gabriel squeezes his fingers. Blood drips between the cracks.																						
+34	34		301									...You know that this is not real, but you still find the scene terrifying.																						
+35	35		201							1	500238	6																						
+36	888		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab	3																							
+37	36		301							1	Luna	Ah... Enough...	1																					
+38	37		301									Luna moans in pain. As if in tune with the rhythm of her cries, the space around you also distorts like a television tuned to a dead channel, flaring up in static. You also flare up, as if smoldered by flames.																						
+39	38		302								Her emotions are affecting her M.I.N.D. space!	889	I have to stop Gabriel.	889																				
+40	889		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab																							
+41	39		201							1	500179																							
+42	40		301							1	Gabriel	...	1																					
+43	41		401							2	1510																							
+44	42		301									You fire a bullet at Gabriel's right chest. It would spell death for a normal human, but clearly, it is not Gabriel's weak spot.																						
+45	43		301									You seem to have achieved the equivalent of chucking a pebble at a giant. Gabriel turns and trains his gaze on the offender, namely, you.																						
+46	44		301								Gabriel	...	1																					
+47	45		302								...	46	Stop messing with her right now!	46																				
+48	46		301								Gabriel	Who do you think you are?	1																					
+49	47		302								I am a commandant of Babylonia.	48	And who do YOU think you are?	48																				
+50	48		201							1	500238	4																						
+51	49		301							1	Luna	...	1																					
+52	50		201							1	500179																							
+53	51		301				DialogDisable			1	Gabriel	I shall deal with you... after I am done with her.	1																					
+54	52		302								Let's see who's dealing with who.	53	Whatever you're trying to do...	53																				
+55	53		302								I'm getting out of this place.	54																						
+56	54		302								Which means, I need her.	55																						
+57	55		201							1	500238	4																						
+58	56		301			DialogEnable				1	Luna	...	1																					
+59	57		301									During your exchange, you slowly inch toward Luna and manage to hide her behind you.																						
+60	58		302								Try and stop me now.	59																						
+61	59		201							1	500179																							
+62	60		301							1	Gabriel	...Splendid. How splendid.	1																					
+63	61		301								Gabriel	A false "agent" coupled with a weak, pathetic, and pitiful human...	1																					
+64	62		302								...Luna.	63																						
+65	63		201							1	500238	4																						
+66	64		301							1	Luna	...	1																					
+67	65		301									Luna's eyes are wide open. She seems to have yet to recover from this nightmare.																						
+68	66		302								Such a realistic Gabriel you have here.	67	Are all your underlings like this?	67																				
+69	67		301								Luna	Wha...	1																					
+70	68		202							1					1																			
+71	69		302								(Load gun)	70																						
+72	70		401							2	1511																							
+73	71		201						1000	1	500179																							
+74	72		401							2	1510																							
+75	998		401					2		2	1510																							
+76	73		301							1		You fire several shots at Gabriel. None of them land.																						
+77	74		301								Gabriel	Pah... Enough, human. Your little show is pointless.	1																					
+78	75		301								Gabriel	Miss Luna, do you not find it disgraceful, that you are being protected by a lowly human?	1																					
+79	76		301								Gabriel	But no matter... I shall end it for...	1																					
+80	77		203							1	0.25	2000																						
+81	78		401							2	10007502																							
+82	79		301									Before Gabriel can finish, a massive clang cuts him off. You were not aiming at Gabriel, but the dangling metal plate above him.																						
+83	80		201							1	500238	4																						
+84	81		301							1	Luna	Wha...	1																					
+85	82		301									The impact of the metal plate causes Gabriel to fall, deep into the abyss. You immediately grab Luna's arm and run.																						
+86	83		302				AniZhuanchangBegin				The impact can only buy you so much time.	84																						
+87	84		101							Assets/Product/Texture/Image/BgStory/Bgstory278.png																								
+88	85		401							1	201																							
+89	86		204							1	6																							
+90	87		301			AniZhuanchangEnd					Luna	Enough... Let go...!	1																					
+91	88		301									You manage a good ten meters or so before Luna tries to wriggle out of your hold.																						
+92	89		301									Before Luna can escape, you pull her wrist, forcibly spinning her around. Quickly binding both of her arms, you press her against the wall—a classic pinning technique. You then swiftly point your gun at her temple.																						
+93	90		302								I'll let go. But only after I get what I want.	91																						
+94	91		204							1	4																							
+95	92		301								Luna	...!	1																					
+96	93		301								Luna	Do you really think you can keep me in place like this?	1																					
+97	94		302								I need an explanation first.	95																						
+98	95		301								Luna	Let go! Not with this humiliating position...!	1																					
+99	96		302								...	97	(Loosen your hold)	97																				
+100	97		301									You loosen the hold on her arms, but you still keep your gun pointed at her.																						
+101	98		301								Luna	...That's my line. I need an explanation.	1																					
+102	99		204							1																								
+103	100		301									Luna seems to have recovered a little and has returned to her usual self. Even with your gun hanging on her temple, she seems unfazed.																						
+104	101		302								You weren't like this just now...	102	Now, answer my question.	104																				
+105	102		301								Luna	...What?	1																					
+106	103		302								Nothing, just answer my question.	104																						
+107	104		301								Luna	...Ask.	1																					
+108	105		302								Do you realize that you are inside your M.I.N.D.?	106																						
+109	106		301								Luna	My... M.I.N.D.?	1																					
+110	107		301								Luna	My M.I.N.D...	1																					
+111	108		301								Luna	My... I...	1																					
+112	109		301								Luna	...I don't know what you're talking about. Gabriel betrayed me. I have to punish him.	1																					
+113	110		301								Luna	And it has nothing to do with you.	1																					
+114	111		302								(Looks like she doesn't remember the last scene.)	112	(Looks like she has no idea who I am.)	112																				
+115	112		301									As the owner of her M.I.N.D., Luna's emotions can affect her entire M.I.N.D. space. Which means that your life depends on hers here...																						
+116	113		301								Luna	Tell me something.	1																					
+117	114		302								What?	115	I can't promise I have an answer.	115																				
+118	115		301								Luna	Are you... part of my dreams?	1																					
+119	116		302								...No.	117	...Yes.	121																				
+120	117		301								Luna	...Then why are you here?	1																					
+121	118		302								I'm just temporarily trapped here.	119																						
+122	119		301								Luna	Then why did you do that just now?	1																					
+123	120		302								Because I want to get out of this place.	136																						
+124	121		301								Luna	So, you too...	1																					
+125	122		301									Luna murmurs. She extends her fingers over, as if trying to verify the truth of your existence by touching you.																						
+126	123		302								(Move aside)	124	(Stay still)	125																				
+127	124	126	301									Luna halts.																						
+128	125		301									As her fingers are about to reach you, she halts.																						
+129	126		301								Luna	...Why would I dream of this weirdo?	1																					
+130	127		302								...	128	Hey, I saved you just now.	128																				
+131	128		301								Luna	Why did you do that?	1																					
+132	129		302								To wake you from your dreams.	130																						
+133	130		301								Luna	Ah, I know... You must be a dream eater, a baku.	1																					
+134	131		302								...	132	What?	132																				
+135	132		301									Luna has a serious expression on her face.																						
+136	133		301								Luna	My sister once told me that there's a creature named baku. When you have nightmares, a baku will enter your dreams and eat them up, so you won't have them anymore.	1																					
+137	134		301									Lucia told Luna these stories in their childhood, huh...																						
+138	135		302								I'm not a baku, but you can think of me as one.	136	Well, you can treat me like one, I guess.	136																				
+139	136		301								Luna	...I see.	1																					
+140	137		301								Luna	Can you wake me from my dream?	1																					
+141	138		301								Luna	I don't know why... but... I can't wake up...	1																					
+142	139		302								Sure.	140	I can help you.	140																				
+143	140		301								Luna	...But I don't trust you.	1																					
+144	141		302								...	142	(Drop gun)	142																				
+145	142		202							1					1																			
+146	143		301									You drop your gun.																						
+147	144		301									Almost instantly, Luna half-raises a hand at you. You remember this move, if this were reality, she would have already torn apart space itself and turned you into commandant mince.																						
+148	145		301									But nothing happens, she merely keeps her hand raised.																						
+149	146		201							1	500238	6																						
+150	147		301							1	Luna	You must be like the monsters in my dreams, trying to kill me.	1																					
+151	148		301								Luna	But I'm not that easy. Even in my dreams, I don't let my guard down. Sorry to disappoint you.	1																					
+152	149		301				DialogDisable				Luna	If I don't kill you, you'll kill me. I know that. This is how my nightmares work.	1																					
+153	150		302								Before I manage to get out, I'll let you choose...	151																						
+154	151		302								You can go alone...	152																						
+155	152		302								Or you can go with me...	999																						
+156	999		204							1	5																							
+157	153		301			DialogEnable					Luna	...Why are you trusting me still?	1																					
+158	154		302								It's not my first time trusting you anyways.	155	You don't pose a threat to me.	157																				
+159	155		301				DialogDisable				Luna	You'll regret this.	1																					
+160	156		302								Maybe.	161	Thanks for the heads-up.	161																				
+161	157		301				DialogDisable				Luna	You...!	1																					
+162	158		302								If you can fend for yourself here...	159																						
+163	159		302								You wouldn't have needed my help for Gabriel.	161																						
+164	160		204							1																								
+165	161		301			DialogEnable					Luna	Insolent.	1																					
+166	162		301									Despite saying so, Luna lowers her hand.																						
+167	163		302								People call me that all the time.	164	So, what's your choice?	164																				
+168	164		301								Luna	I'll...	1																					
+169	165		301									Before Luna can finish, your surroundings begin to distort like before. Luna's lips are still moving, but her words do not travel through the broken reality, torn apart into cubes of data.																						
+170	166		202							1					1																			
+171	167		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryShuju.prefab	2																							
+172	168		301									You both levitate from the ground. A whirlpool of data floods in.																						
+173	169		302								Wait for me.	170	I'll find you.	170																				
+174	170		301		1		AniZhuanchangBegin					Did Luna catch what you said? The once Ascendant leader stares intensely at you, until the two of you are overwhelmed by the data stream.																						

@@ -1,0 +1,193 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory284.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						You arrive at the transport craft twenty minutes in advance. In addition to Lucia, who was already waiting, you see Lee and Liv also standing there.																						
+4	4		201							1	1031001	14	600																					
+5	5		201							2	500026		-600																					
+6	6		201							3	500166	5																						
+7	7		301							1	Liv	Commandant...!	1																					
+8	8		302								Why are you guys here?	9																						
+9	9		301								Liv	Because Lee and I have been worried sick about you...	1																					
+10	10		301								Lee	...	2																					
+11	11		301								Liv	Even though we aren't going on the mission together, we at least wanted to see you and make sure you're alright.	1																					
+12	12		301									She looks you over worriedly.																						
+13	13		301								Liv	You look pale.	1																					
+14	14		301								Lucia	...Commandant.	3																					
+15	15		301								Lee	...	2																					
+16	16		302								At least I'm free.	17	I'll get some rest after the mission.	17																				
+17	17		202							1	2	3			1																			
+18	18		301									After talking with everyone for a short time, Chrome arrives with Strike Hawk.																						
+19	19		301									He gives a simple greeting, then sends the intel he had prepared to your terminal.																						
+20	20		201							1	500309																							
+21	21		301							1	Chrome	With regard to the extra mission President Hassen assigned us, I've already prepared the intel and holo-map for the twenty-one target personnel we need to rescue.	1																					
+22	22		301								Chrome	In order to expedite their return to Babylonia, I've asked the liaison officer to meet with us at a pre-determined location and time on the Forgotten Streets of City 075.	1																					
+23	23		301								Chrome	If there are no further questions, let's get going.	1																					
+24	24		302								Okay.	25																						
+25	25		201							1	500273				1																			
+26	26		301							1	Wanshi	...	1																					
+27	27		302								What is it?																							
+28	28		301								Wanshi	I'm just glad you're okay.	1																					
+29	29		301									Wanshi remains quiet as he considers their current predicament.																						
+30	30		202							1					1																			
+31	31		301									Boarding the transport craft, you feel as if you are being monitored.																						
+32	32		301									Turning quietly, you see several personnel occasionally looking up from their work in your direction.																						
+33	33		201							1	500309																							
+34	34		301							1	Chrome	...	1																					
+35	35		202							1					1																			
+36	36		301									Chrome turns to look behind you, sensing their watchful eyes.																						
+37	37		301									Among the crowd, a man wearing a white lab coat grabs his attention.																						
+38	38		301									The man is slouched over like a lonely and weak middle-aged man.																						
+39	39		301									Only those dark golden eyes vaguely remind Chrome of someone he had just met.																						
+40	40		201							1	500303																							
+41	41		301							1	Worker	Mr. Kurono, please hurry up. You're going to be late for the meeting.	1																					
+42	42		302								Kurono?	43																						
+43	43		201							1	500026																							
+44	44		301							1	Lee	...Kugawa Kurono.	1																					
+45	45		302								Does he have something to do with Kurono?	46																						
+46	46		301								Lee	When I was still a member of Kurono, I accidentally came across his data file. I thought he was on the board of directors, but turns out his name is just a coincidence.	1																					
+47	47		302								Who is he?	48																						
+48	48		301								Lee	He's just a doctor who's now working for the Star of Life. But this time, his name "coincidentally" appeared on your inspection reports.	1																					
+49	49		301								Lee	But enough of that. You should get going. There's no time to waste.	1																					
+50	50		302								Right.	51																						
+51	51		202							1					1																			
+52	52		301				AniZhuanchangBegin					Ignoring the unsettling scene behind them, the group turns and boards the transport craft.																						
+53	53		101							Assets/Product/Texture/Image/BgStory/Bgstory283.png																								
+54	54		301			AniZhuanchangEnd						Riding on the cold afternoon wind, the two transport crafts land in the abandoned ruins of City 075.																						
+55	55		301									Having established contact beforehand, a large group of stranded personnel is waiting at the landing zone. While the other team members go to speak with the stranded Constructs, Camu makes a break for the underground waterway.																						
+56	56		201							1	500273																							
+57	57		301							1	Wanshi	Are there any personnel in critical condition?	1																					
+58	58		201							1	500311																							
+59	59		301							1	Female Construct	Yes, I've placed everyone on the first floor for the time being. Right this way.	1																					
+60	60		202							1					1																			
+61	61		301									Wanshi nods, then follows her.																						
+62	62		201							1	500309																							
+63	63		301							1	Chrome	The other team has arrived.	1																					
+64	64		301									Chrome looks at the notification on his terminal and relays it to the team.																						
+65	65		302								Other team?	66	Right, Hassen mentioned there will be others...	66																				
+66	66		301								Chrome	Well, according to the plan, Cerberus will also be participating in cleaning up the Red Tide, but they're acting independent of us.	1																					
+67	67		201							1	500166	5																						
+68	68		301							1	Lucia	Cerberus...	1																					
+69	69		201							1	500019																							
+70	70		301							1	Construct A	I thought you were going to come looking for us once you were finished...	1																					
+71	71		203							1	0.25	400																						
+72	72		201							2	1081001	1	-400																					
+73	73		301							1	Kamui	I thought so too, but the captain said that saving people was our top priority.	2																					
+74	74		202							1	2				1																			
+75	75		201							1	500166	5																						
+76	76		301							1	Lucia	Counting the wounded over there, how many people are gathered here?	1																					
+77	77		201							1	500028																							
+78	78		301							1	Construct Captain	Nineteen. Two are still MIA.	1																					
+79	79		301								Construct Captain	...	1																					
+80	80		301								Construct Captain	The two missing Constructs... are from my team.	1																					
+81	81		201							1	500309																							
+82	82		301							1	Chrome	Do you know which way they ended up going?	1																					
+83	83		201							1	500028																							
+84	84		301							1	Construct Captain	They went to an area that was suddenly reported as a high concentration zone.	1																					
+85	85		301								Construct Captain	But they were heading there even before we received the warning.	1																					
+86	86		301								Construct Captain	We tried to notify them, but we had already lost contact.	1																					
+87	87		203							1	0.25	400																						
+88	88		201							2	500166	5	-400																					
+89	89		301							1	Lucia	Return to Babylonia once everyone receives emergency treatment. We'll look for your missing comrades.	2																					
+90	90		301								Construct Captain	Let me go with you. They're my comrades, after all.	1																					
+91	91		301								Lucia	It's too dangerous. You should head back.	2																					
+92	92		301								Construct Captain	They're my comrades. I can't leave my team behind!	1																					
+93	93		301								Construct Captain	Our commandant is gone... I can't lose them, too! I'm begging you!	1																					
+94	94		302								Alright.	95	No, it's too dangerous.	99																				
+95	95		202							1	2				1																			
+96	96		201							1	500309																							
+97	97		301							1	Chrome	Commandant, the area is dangerous even for us. We're better off ensuring the safety of one more person if we can.	1																					
+98	98	103	301								Chrome	We can't risk losing another person.	1																					
+99	99		202							1	2				1																			
+100	100		201							1	500309																							
+101	101		301							1	Chrome	I agree with the commandant.	1																					
+102	102		301								Chrome	The area is dangerous even for us. We're better off ensuring the safety of one more person if we can.	1																					
+103	103		203							1	0.25	-400																						
+104	104		201							2	500028		400																					
+105	105		301							1	Construct Captain	You must be Chrome... I've heard about you.	2																					
+106	106		301								Construct Captain	I appreciate your concerns for my safety, but as the captain of your team, I'm sure you understand.	2																					
+107	107		301								Construct Captain	If your team members are in danger, would you abandon them for the sake of your own safety?	2																					
+108	108		301									The Construct captain's plea awakens some distant memories in Chrome's heart.																						
+109	109		301								Construct Captain	If this is the last time I see them, I'll regret it for the rest of my life!	2																					
+110	110		301								Chrome	...Regret?	1																					
+111	111		301								Construct Captain	I may be a soldier, but I'm not the property of Babylonia.	2																					
+112	112		301								Construct Captain	At least... Give me the right to decide how I die!	2																					
+113	113		301								Chrome	...	1																					
+114	114		301									Chrome hesitates for a moment.																						
+115	115		301								Chrome	I understand your feelings, but as a soldier, you can't disobey mission orders.	1																					
+116	116		301								Chrome	If your only mission here is to cooperate with the rescue and return to Babylonia...	1																					
+117	117		301								Chrome	By allowing you to accompany us, I'll be aiding in your violation of military orders.	1																					
+118	118		301									Thinking about the sense of surveillance along the way, Chrome casts a sideways glance at the transport craft behind him, hinting to the Construct.																						
+119	119		301								Construct Captain	Mission...? Oh, right! There's still one objective!	2																					
+120	120		301									The Construct quickly opens his terminal. On the mission log, one objective is still active.																						
+121	121		301								Construct Captain	Our last objective is to search for the commandant... But we still haven't found him.	2																					
+122	122		301								Construct Captain	My team and I split up to search for him.	2																					
+123	123		301								Construct Captain	But judging from the location of his disappearance and given the time... He probably...	2																					
+124	124		301								Chrome	Then continue with your mission.	1																					
+125	125		301								Construct Captain	Roger! Thank you, everyone!	2																					
+126	126		302								What's your name?	127	(Look down at the personnel data on the terminal.)	131																				
+127	127		202							1					1																			
+128	128		203							2	0.25																							
+129	129		301								Construct Captain	My name's Percy. Our two MIA comrades are Ersi and Reyna.	2																					
+130	130	136	202							2					1																			
+131	131		202							1	2				1																			
+132	132		301									Looking at the personnel data gathered by Chrome, you find detailed descriptions of the captain and his comrades.																						
+133	133		301									Captain Name: Percy. Service Time: 4 years. After transferring teams three times, he has served his most recent team the longest.																						
+134	134		301									Member Name: Ersi. Service Time: 2 years, 7 months. Ever since joining the Task Force, he has served the current commandant.																						
+135	135		301									Member Name: Reyna. Service Time: Less than 1 year. No additional data on this new recruit.																						
+136	136		302								Alright. Aside from Percy...	137																						
+137	137		302								Everyone else, board the transport craft.	138																						
+138	138		201							1	500166	5																						
+139	139		301							1	Lucia	Wait here, Commandant. I'll help the wounded board the transport craft.	1																					
+140	140		302								Need a hand?	141	Got it.	143																				
+141	141		301								Lucia	We've got a difficult mission ahead of us. Considering how long you were monitored, take this time to catch up on some rest.	1																					
+142	142		302								Lucia...	2001																						
+143	2001		204							1	2																							
+144	143		301									Lucia takes out a bottle of nutri-aid and a compressed biscuit.																						
+145	144		301								Lucia	When I asked about your condition while you were being monitored, everyone said you were kept well-fed, but I was still worried... So I brought some from our supplies.	1																					
+146	145		302								Thank you.	146	(Take nutri-aid and compressed biscuit)	146	Well-fed... That's one way to put it...	146																		
+147	146		204							1	1																							
+148	147		301								Lucia	...	1																					
+149	148		301									With a bitter smile, Lucia wants to say something, but she is worried about the watchful eyes. Instead, she quietly places the nutri-aid and compressed biscuit into your hands.																						
+150	149		201							1	1081001	1																						
+151	150		301							1	Kamui	Alright, let's go help. I bet Wanshi's almost done with emergency treatment.	1																					
+152	151		201							1	500309	1																						
+153	152		301							1	Chrome	Okay, let's go.	1																					
+154	153		202							1					1																			
+155	154		301									While everyone else is busy helping the crowd onto the plane, you have a rest until all eighteen Constructs depart as scheduled																						
+156	155		201							1	500166	5																						
+157	156		301				AniZhuanchangBegin			1	Lucia	Time to go, Commandant.	1																					
+158	157		202							1					1																			
+159	158		101							Assets/Product/Texture/Image/BgStory/Bgstory345.jpg																								
+160	159		301			AniZhuanchangEnd						Right at that moment, Cerberus jumps into the underground waterway through the blast hole.																						
+161	160		301								Noctis	That damn transport plane is crawling with micro recorders! They're like maggots!																						
+162	161		301								Noctis	Why don't we blow that **** up?																						
+163	162		201							1	500168																							
+164	163		301							1	Vera	And then what? Ride you back to Babylonia?	1																					
+165	164		202							1					1																			
+166	165		301								Noctis	Bahaha! I was just kidding. Let's blow it up when we get back.																						
+167	166		201							1	500168																							
+168	167		301							1	Vera	Looks like some people are leaving no stone unturned, considering they've bugged our transport craft, too.	1																					
+169	168		202							1					1																			
+170	169		301							1	No. 21	They've bugged Noctis' frame, too.																						
+171	170		301								Noctis	Huh?!																						
+172	171		301									Noctis grits his teeth and clenches his fists.																						
+173	172		301								Noctis	When I get back, I'm gonna blow up those pieces of ****!																						
+174	173		201							1	500168	1																						
+175	174		301							1	Vera	Use all that C4 you call a brain and think for a second. Few people would go to the lengths of bugging our support equipment. I bet it was you-know-who's henchmen.	1																					
+176	175		202							1					1																			
+177	176		301								Noctis	Pfff... So we can't just get rid of them?																						
+178	177		201							1	500168																							
+179	178		301							1	Vera	No need. We're not their target.	1																					
+180	179		301									Vera turns her head, leans over to the camera on Noctis' frame and smiles cheerfully.																						
+181	9853		204							1	14																							
+182	181		301								Vera	Isn't that right?	1																					
+183	182		202							1					1																			
+184	183		301								Noctis	Then let's get this godforsaken mission over with.																						
+185	184		301								No. 21	We have three objectives.																						
+186	185		201							1	500168																							
+187	186		301							1	Vera	First, we need to use these stupid disks to clear the Red Tide, then locate our target.	1																					
+188	187		301								Vera	Let's split up and get this over and done with.	1																					
+189	188		202							1					1																			
+190	189		301								No. 21	What about our objective to follow the Gray Raven Commandant as much as possible?																						
+191	190		201							1	500168	1																						
+192	191		301		1		AniZhuanchangBegin			1	Vera	The key word is "as much as possible." We'll do just that.	1																					

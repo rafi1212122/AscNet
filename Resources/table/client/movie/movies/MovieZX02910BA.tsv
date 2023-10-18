@@ -1,0 +1,452 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+2	2		401							1	79																							
+3	3		201							1	500512		400																					
+4	4		201							2	500521		-400																					
+5	5		301			DialogEnable				1	Field	Hey, Noan.	1																					
+6	6		301								Noan	Did your dad leave?	2																					
+7	7		301								Field	Right.	1																					
+8	8		204							2	3																							
+9	9		301								Noan	Hey, look...	2																					
+10	10		301								Field	Huh?	1																					
+11	11		301									Noan was about to tell Field what he'd just heard about Field's dad but decided to drop the topic.																						
+12	12		204							2																								
+13	13		301								Noan	What did the doctor say?	2																					
+14	14		301								Field	He said my immune system isn't working properly, which is why I come under the weather a lot more down here where it's wet and cold.	1																					
+15	15		301								Field	Boy, I can't wait for summer.	1																					
+16	16		301								Field	I won't be sick so often when summer is here... and Dad won't have to worry about me all the time.	1																					
+17	17		301									Field rubs his fingers against the vial in his hand that comes with no label.																						
+18	18		301								Field	This medicine... costs us a fortune.	1																					
+19	19		301								Noan	...Does your dad stay connected with Ashlar to keep his access to this medicine?	2																					
+20	20		301								Field	I have no idea... He refuses to tell me anything about it.	1																					
+21	21		204							1	2																							
+22	22		301								Field	Do you like summer, Noan?	1																					
+23	23		301								Noan	I don't have a favorite season because it doesn't really make a difference on the train.	2																					
+24	24		301								Noan	But I guess I just might have one when I eventually get to go out with the Cargo Crew.	2																					
+25	25		301								Field	Cool. Say, why not let's go to the forest to look for fireflies in summer?	1																					
+26	26		301								Noan	Fireflies? Why, though?	2																					
+27	27		204							1																								
+28	28		301								Field	Because... they're beautiful? Have you seen one?	1																					
+29	29		301								Noan	In the books I read, yes. And I've drawn some before.	2																					
+30	30		401							2	910																							
+31	31		301									Noan picks up a pencil and, on a makeshift sketchbook he's put together using scrap papers, draws a vertical line of circles. The circles seem like a cross between dandelions and the glowing balls that one would see reading mangas.																						
+32	32		402							910																								
+33	33		301								Field	No, Noan. Fireflies don't actually look like this.	1																					
+34	34		301									With his fingers, Field traces out a firefly.																						
+35	35		301								Field	A firefly has a pair of wings, and the only part of it that glows is its tummy.	1																					
+36	36		204							1	3																							
+37	37		301								Field	We can try to look it up in the terminal, but I'm sure it wouldn't look as pretty in the pictures as if you see one in person.	1																					
+38	38		301								Noan	Are there still any around?	2																					
+39	39		301								Field	Yes. My mom brought me to this place to see them before. We should do that, too.	1																					
+40	40		204							2	1																							
+41	41		301								Noan	Sounds great. I can go out there with the Cargo Crew after my training.	2																					
+42	42		204							2																								
+43	43		204							1																								
+44	44		301									Noan looks up and stares at the dusty lights affixed to the car's ceiling.																						
+45	45		301								Noan	Fireflies, eh...	2																					
+46	46		301								Noan	I heard a lullaby before that has to do with fireflies.	2																					
+47	47		204							1	2																							
+48	48		301								Field	A lullaby? Wait, do you mean this one?	1																					
+49	49		301									Seeing Noan looking back at him with a bewildered look, Field hums out a part of what he believes is the lullaby Noan is talking about.																						
+50	50		301								Noan	No, not this one.	2																					
+51	51		204							1																								
+52	52		301								Field	Hmm...	1																					
+53	53		204							1	2																							
+54	54		301									Thinking for a few moments, Field hums out something different.																						
+55	55		301								Noan	Yes, that's the one.	2																					
+56	56		204							1	3																							
+57	57		301								Field	I see...	1																					
+58	58		204							1																								
+59	59		301									Deep in thought, they both fall silent.																						
+60	60		202							1	2																							
+61	61		205						2000	999	Assets/Product/Texture/Image/BgStory/Bgstory300.png	0	1	2																				
+62	62		205							999		1	1	0																				
+63	63		101							Assets/Product/Texture/Image/BgStory/Bgstory300.png																								
+64	64		501							Assets/Product/Effect/Prefab/FxTongyong/FxUiYinghuochong.prefab	1																							
+65	65		301								Field	Have you heard about how people think that grass turns into fireflies when it withers and decays?																						
+66	66		301								Noan	Think I read about that somewhere, but that's just a superstition from the past, no?																						
+67	67		301								Field	Uhm, well...																						
+68	68		301								Field	My mom would always describe us as grass with our roots deep in the soil, but she never told me why she thought that...																						
+69	69		301								Field	But... I think I know why now.																						
+70	70		505								Assets/Product/Effect/Prefab/FxTongyong/FxUiYinghuochong.prefab																							
+71	71		205						2000	999	Assets/Product/Texture/Image/BgStory/BgStory600.jpg	0	1	2																				
+72	72		205							999		1	1	0																				
+73	73		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+74	74		301									Field runs his eyes through the words in the book again and again.																						
+75	75		201							1	500512	2																						
+76	76		301							1	Field	...We're as mundane as grass. See, this is what it says in the book. "Wild grass strikes no deep roots, has no beautiful flowers and leaves, yet it imbibes dew, water and the blood and flesh of the dead, all trying to rob them of life."	1																					
+77	77		301								Field	"As long as it lives, it is trampled upon and mown down, until it dies and decays."	1																					
+78	78		301								Field	...But that doesn't mean wild grass is worthless.	1																					
+79	79		301								Field	"You die because you lived, and you rot because you were. Dying weeds bear new lives, and while the skies might not be at their brightest now, the fire burning across the grassfield will light up the skies all the same."	1																					
+80	80		301								Field	It all makes sense, then, what people say about grass turning into fireflies when it withers and decays—because people can't stop missing something when it's gone, no matter how mundane it might be.	1																					
+81	81		204							1																								
+82	82		301									Field looks at Noan with a serious look on his face.																						
+83	83		202							1					1																			
+84	84		301									People tend to form their own imagination and association by reading books when they're still young—but it's entirely worth it if they can turn their imagination and association into "torches" that light up the path ahead for them.																						
+85	85		201							1	500512		400																					
+86	86		201							2	500521		-400																					
+87	87		301							1	Noan	...Why are you telling me these all of a sudden, though?	2																					
+88	88		204							1	2																							
+89	89		301								Field	Well, because I was just reading this book, and because "goodbye" keeps coming up... in that lullaby you brought up.	1																					
+90	90		301								Field	So I thought of my mom—and how she might have turned into a firefly and might just be waiting for me out there in the forest to say "goodbye" to me.	1																					
+91	91		204							1																								
+92	92		301								Noan	...	2																					
+93	93		301								Field	Does it all sound like some fantasy I made up to make myself feel better?	1																					
+94	94		301								Noan	No, it doesn't.	2																					
+95	95		301								Noan	But, see, I was just thinking... that if people do turn into fireflies when they die, then we'd never have to say goodbye to them, right?	2																					
+96	96		204							1	14																							
+97	97		301								Field	...	1																					
+98	98		301								Field	I'm just trapped in my memory and the night—and maybe I just need to bid farewell to myself.	1																					
+99	99		204							1																								
+100	100		301								Noan	Why would you have to do that, though?	2																					
+101	101		204							1	14																							
+102	102		301								Field	...I'm responsible for my mom's death...	1																					
+103	103		301								Field	She'd always encourage me to read, but we didn't have a whole lot of books at home. The terminal at the pharmaceutical factory had a lot of electronic documents in it, so she'd take me there every so often at night when there wasn't anyone around.	1																					
+104	104		301								Field	And things went terribly wrong that night...	1																					
+105	105		301									Field looks down in silence as he turns the pages in the book he's holding—and only opens his mouth to speak again after what seems like an eternity.																						
+106	106		301								Field	Since Mom died... there hasn't been a day where I didn't regret it...	1																					
+107	107		301								Field	And Dad has been living on the edge ever since to get me my medicine... all while I've been living in the melancholy of the past and been anything but helpful.	1																					
+108	108		301								Field	If I could just say goodbye to her in the forest where she died, would I be able to let it all go and have what it takes to carry on?	1																					
+109	109		204							1																								
+110	110		301									Noan shakes his head.																						
+111	111		301								Noan	She made that choice to protect you—and I'm sure she'd never want you to forget about her, and I'm also sure she'd never want to see you crippled by regret.	2																					
+112	112		204							1	14																							
+113	113		301								Field	...You're absolutely right, but I'm just too scared to face it. I can't do it.	1																					
+114	114		204							1																								
+115	115		301								Field	I just can't be like you, Noan. You've lost so much coming so far, but you've never given up.	1																					
+116	116		301								Noan	...Huh? What do you mean?	2																					
+117	117		301									Noan doesn't understand those words—because he thinks he's learned things the hard way and already come to grips with reality.																						
+118	118		301								Field	Be it your memory or what you believe in, you hold on to them both.	1																					
+119	119		301								Field	You'd never have stood up for me or lent me a hand had you already given them up.	1																					
+120	120		301									Field puts his now slightly cold hand on Noan's shoulder.																						
+121	121		301								Field	Deep down, you're deep into those heroic stories, aren't you?	1																					
+122	122		204							2	3																							
+123	123		301								Noan	...None of them is real, though.	2																					
+124	124		301								Field	That's only because you don't yet have the power to make them so, Noan, and not because you aren't determined enough.	1																					
+125	125		204							2																								
+126	126		301								Noan	What's the difference anyways?	2																					
+127	127		301								Field	Power corrupts you if power is all you have.	1																					
+128	128		301								Field	But you're different. You went out of your way to help me knowing full well you were no match for the guard... and that, Noan, is determination.	1																					
+129	129		301								Noan	Determination, huh...	2																					
+130	130		301								Noan	But I was this close to screwing everyone over back then, and Rachel asked me to swear that I'd never do it again... if I ever come across something like that.	2																					
+131	131		301								Field	Noan...	1																					
+132	132		203							1	0.25	200																						
+133	133		301									Field walks up to Noan and pats Noan's face.																						
+134	134		301								Noan	...Yes?	2																					
+135	135		204							1	2																							
+136	136		301								Field	C'mon, Noan...	1																					
+137	137		301								Field	I know you might be feeling guilty for putting everyone in harm's way, but nothing changes the fact that you saved me... and that's proof enough that you can still do what you want to do even when you don't yet have what it takes to make it perfect.	1																					
+138	138		301								Field	And I'll keep what you did for me in mind—and help people in need when I see them.	1																					
+139	139		301								Field	You might not be able to help everyone out there who's in need of help, but everyone you help will go on to help someone else. Sounds great, right?	1																					
+140	140		301								Noan	...	2																					
+141	141		301								Noan	Would you still do it if helping them means you're going to make everyone suffer?	2																					
+142	142		301								Field	Sure. I mean, kindness is a choice, and the world is to blame if it doesn't allow us to make that choice.	1																					
+143	143		301								Field	And that reminds me of what you said that day when you came up to help—"If you think I'm out of my mind for trying to help, then screw that!"	1																					
+144	144		204							2	3																							
+145	145		301								Noan	...Boy, you really need to forget that.	2																					
+146	146		204							2																								
+147	147		301								Field	Uhm? Why, though?	1																					
+148	148		204							1	3																							
+149	149		301								Field	...Wait, does it make you cringe?	1																					
+150	150		204							1																								
+151	151		204							2	3																							
+152	152		301								Noan	...	2																					
+153	153		301								Field	Bingo? Oops.	1																					
+154	154		301								Noan	Dude, just pretend I've never said any of that already...	2																					
+155	155		204							1																								
+156	156		301								Field	Hah...	1																					
+157	157		301								Field	Ok, fine. I'll stop with that, but I'm never going to forget you helped me.	1																					
+158	158		301								Field	And, see, it's really got me thinking, and I think I'm going to help people however I can once my leg gets better.	1																					
+159	159		204							2	1																							
+160	160		301								Noan	...But you're already doing that, Field. You're helping me already.	2																					
+161	161		301								Field	Uhm? Am I?	1																					
+162	162		204							2	3																							
+163	163		301								Noan	You are. See...	2																					
+164	164		301									Noan suddenly recalls all the things people have said about Field, and he can't help feeling tormented when he compares them with all the heart-warming encouragements he's heard from Field over the past few days.																						
+165	165		301									Drawing a deep breath in hesitation, Noan decides to sweep it all under the carpet with thanks.																						
+166	166		301								Noan	Thank you, Field. for telling me all this...	2																					
+167	167		204							1	3																							
+168	168		301									Not knowing why he's being thanked, the blonde boy lowers his head and laughs.																						
+169	169		204							1																								
+170	170		301								Field	What do you want to be in the future, Noan?	1																					
+171	171		301								Noan	...In the future?	2																					
+172	172		301								Field	Yeah. A dream, or a plan, or something. Something you want for yourself.	1																					
+173	173		204							2	8																							
+174	174		301									Noan closes his eyes in silence.																						
+175	175		301								Noan	...Well...	2																					
+176	176		401							1	36																							
+177	177		202							1	2				1																			
+178	178		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+179	179		101							Assets/Product/Texture/Image/BgStory/BgStory538.png																								
+180	180		201							1	500521	8																						
+181	181		301							1		He said something—but he just can't seem to recall the words that came out of his mouth.																						
+182	182		301									How in the world did he even forget something so casual?																						
+183	183		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+184	184		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+185	185		401							1	79																							
+186	186		201							1	500512		400																					
+187	187		201							2	500521		-400																					
+188	188		301							1	Noan	And you? What are you going to do?	2																					
+189	189		301								Field	I just want to get better—so I can leave the train and go to the forest to see all the fireflies, preferably with you and Dad.	1																					
+190	190		301								Field	But I'm nowhere close just yet, so I guess we'll just look forward to summer first.	1																					
+191	191		301								Noan	...You really love summer, don't you?	2																					
+192	192		301								Field	With a burning passion, too, because it's only when summer is here that I don't get sick all the time.	1																					
+193	193		301									It isn't exactly cold in the car, but Field just can't help looking forward to summer.																						
+194	194		301									Summer is warm and all, but that's probably also when Field gets to relive in all his good memories without all the worries.																						
+195	195		204							2	1																							
+196	196		301								Noan	How would you like a new name for good luck?	2																					
+197	197		301								Field	Like what?	1																					
+198	198		301								Noan	Field Lucifer Summer Hephaestus.	2																					
+199	199		204							1	14																							
+200	200		301								Field	For the love of God...	1																					
+201	201		301									Hugging himself, Field shivers from head to toe.																						
+202	202		301								Noan	Oh, how about Field Seraph von Njord Und Frau des Feuers?	2																					
+203	203		204							1																								
+204	204		301								Field	That's just a mix of everything!	1																					
+205	205		301									Field raises his voice, something he rarely ever does.																						
+206	206		301								Field	Just call me Summer. Think that should give me enough good luck.	1																					
+207	207		204							2																								
+208	208		301								Noan	Alright, Summer it is, then.	2																					
+209	209		301								Summer	Thanks!	1																					
+210	210		204							2	3																							
+211	211		301								Noan	I can totes add to it, though. Sure you're okay?	2																					
+212	212		204							1	14																							
+213	213		301				AniZhuanchangBegin				Summer	Thanks, but no thanks!	1																					
+214	214		202							1	2				1																			
+215	215		401							1	120																							
+216	216		101							Assets/Product/Texture/Image/BgStory/BgStory603.jpg																								
+217	217		301			AniZhuanchangEnd						Two months go by.																						
+218	218		301									Bancroft works day and night to make up for the lost goods—except there is no end to his team's blunders no matter how hard he works.																						
+219	219		301									He manages to stay around with his connections to the aristocrats up there, but he's been finding it increasingly difficult to stay lately, with his team messing things up again and again.																						
+220	220		301									Every so often, Noan would see Rachel give him a real piece of her mind in front of people.																						
+221	221		301									Field has run out of his medicine, and the hellhole that's the lower level is eating away at his body, putting him through low fevers again and again—yet he'd always lie to his father when he checks on him.																						
+222	222		301				AniZhuanchangBegin					When Noan trains, Field would stay in the book storage most of the time, where he would either be reading or napping in the corner.																						
+223	223		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+224	224		201							1	500512		400																					
+225	225		201							2	500521		-400																					
+226	226		301			AniZhuanchangEnd				1	Noan	Hey Summer, I'm back.	2																					
+227	227		301								Summer	Hey. Did you see my dad tonight? He was supposed to be back for a few hours today...	1																					
+228	228		301								Noan	I did, and he left after asking me a few questions about you.	2																					
+229	229		204							1	14																							
+230	230		301								Summer	...	1																					
+231	231		204							1																								
+232	232		301								Summer	Did he find the lost goods?	1																					
+233	233		301								Noan	No, not yet.	2																					
+234	234		301								Summer	What did Captain say?	1																					
+235	235		301								Noan	...Welll...	2																					
+236	236		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+237	237		101							Assets/Product/Texture/Image/BgStory/BgStory602.jpg																								
+238	238		201							1	500515	5	400																					
+239	239		201							2	500086		-400																					
+240	240		301							1	Rachel	I've personally busted some shitheads that tried to do their little things with the goods—and mind you, you're getting busted next if you pull another trick on me.	1																					
+241	241		301								Bancroft	Please, Captain, I didn't do this!	2																					
+242	242		301								Rachel	Says the man who has a record of working for the aristocrats?	1																					
+243	243		301								Bancroft	My son was in a very bad condition and he was the only one I could ask for help from!	2																					
+244	244		301								Rachel	You really gotta up your game, Bancroft.	1																					
+245	245		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+246	246		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+247	247		201							1	500512		400																					
+248	248		201							2	500521		-400																					
+249	249		301							1	Noan	...She pretty much said the same things she had before.	2																					
+250	250		301								Summer	What did people say, though? Doesn't anyone have any idea who stole the goods?	1																					
+251	251		301								Noan	...Well...	2																					
+252	252		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+253	253		101							Assets/Product/Texture/Image/BgStory/Bgstory140.png																								
+254	254		201							1	500140		400																					
+255	255		201							2	500425		-400																					
+256	256		301							1	Bumblebee Member	Bancroft, you said? Man, the man's a real thief and he's done it all... I want to be there to see him die the day he gets torn into pieces by Corrupted.	1																					
+257	257		301								Cargo Crew Member	Better stay away from his son, boy! Young boy will probably grill you up when he gets hungry!	2																					
+258	258		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+259	259		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+260	260		201							1	500512		400																					
+261	261		201							2	500521		-400																					
+262	262		301							1	Noan	They don't seem like they want to help.	2																					
+263	263		204							1	14																							
+264	264		301								Summer	...	2																					
+265	265		204							1																								
+266	266		301								Noan	I'll definitely give your dad a hand when I finish my training in two months.	2																					
+267	267		204							1	14																							
+268	268		301								Summer	No, please don't, Noan... I think I know what my dad is up to, but I can't stop him.	1																					
+269	269		301								Summer	He never passed the captain screening. He can work just fine as a crew member, but things are a disaster when he tries to play leader...	1																					
+270	270		301								Summer	He needed help because I was injured... and he only found this place after pulling some strings. And, see, it wasn't resources that the aristocrats took from him in exchange... it was info.	1																					
+271	271		301								Summer	I'm sure Dad would never have gone down this path had he still had resources to trade with the aristocrats... and I bet he wouldn't have had to go through any of these had I died back then.	1																					
+272	272		204							1																								
+273	273		301								Noan	You didn't ask to be roughed up, though—and I wouldn't have been the same without you, buddy...	2																					
+274	274		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+275	275		101							Assets/Product/Texture/Image/BgStory/BgStory603.jpg																								
+276	276		201							1	500398		400																					
+277	277		201							2	500093		-400																					
+278	278		301							1	Cargo Captain Shauna	People change, especially kids. Pretty sure our boy is gonna grow a whole lot more well-rounded the longer he hangs out with us.	1																					
+279	279		301								Cargo Captain Niino	Birds of a feather flock together, eh?	2																					
+280	280		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+281	281		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+282	282		201							1	500512		400																					
+283	283		201							2	500521	3	-400																					
+284	284		301							1	Noan	...Right, I really don't think I'd be the same person that I am today without you.	2																					
+285	285		301								Noan	And did you forget about what you said about fireflies?	2																					
+286	286		204							2																								
+287	287		204							1	14																							
+288	288		301								Summer	No, I do still remember what I said about fireflies—but I think I'm starting to have a change of mind now... knowing what happened to all those people my dad snitched on...	1																					
+289	289		301								Summer	It's been six months since we boarded the train—and fox six whole months, that's how Dad got my medicine and the resources he had to pay for the lost goods.	1																					
+290	290		301								Summer	And I'm just afraid that they're going to hurt someone close to you next—or maybe you, even...	1																					
+291	291		202							1	2				1																			
+292	292		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+293	293		201							1	500454					1																		
+294	294		101							Assets/Product/Texture/Image/BgStory/BgStory603.jpg																								
+295	295		301							1	Cargo Member Weyland	C'mon, son... You hang around Rachel all the time now and she tells you everything, and you just never know what Bancroft is gonna do when he gets crazy somewhere down the road.	1																					
+296	296		301								Cargo Member Weyland	Look, son. Just do as we say... if you don't want what happened to your mom to happen to you.	1																					
+297	297		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+298	298		101							Assets/Product/Texture/Image/BgStory/BgStory600.jpg																								
+299	299		201							1	500512	14	400																					
+300	300		201							2	500521		-400																					
+301	301		301							1	Noan	...	2																					
+302	302		301								Summer	And I don't see how that's any different from if we personally did the hurting ourselves.	1																					
+303	303		301								Noan	It's fine, as long as your dad still gets paid properly for his work. He just needs to pay for the lost goods and make sure he never loses anything again.	2																					
+304	304		301								Summer	But Dad just keeps losing them, and he hasn't even gotten what he's been working for because his pay all goes into paying for the goods lost.	1																					
+305	305		301								Summer	And they still have no idea whatsoever who stole them.	1																					
+306	306		301								Noan	I'm at the end of my training now. I'll ask Rachel to put me on your dad's delivery team so I can keep an eye out for him.	2																					
+307	307		301								Summer	No, please, Noan...	1																					
+308	308		301				AniZhuanchangBegin				Summer	Thank you for offering, but I think it's best that you stay out of this.	1																					
+309	309		202							1	2				1																			
+310	310		401							1	120																							
+311	311		301			AniZhuanchangEnd						And that was the last time Noan ever saw Field.																						
+312	312		301									Field left nothing in the book storage—except for his half-finished firefly toy and his notebook.																						
+313	313		301									The notebook comes with an instruction sheet in it on how to put together the firefly toy. The rest of the notebook is full of Field's thoughts and sentences and lines that he's copied off the books he read.																						
+314	314		301									The handwriting from the first half of the notebook is neat, and that's when Field was still writing about the changing seasons of nature—signs that he was still in a stable condition then.																						
+315	315		301									The handwriting and content from the second half, however, are the exact opposite of what they are in the first half—with stains of blood here and there on the pages.																						
+316	316		301									When Noan gets to the very last two pages, he has to read the words three times to finally understand what they say.																						
+317	317		304							"Friend, the time's close."	ffffffff		Assets/Product/Texture/Image/BgStory/BgStory0.png		1																			
+318	318		304							"I'll turn to the darkness and wander in the nothingness."	ffffffff		Assets/Product/Texture/Image/BgStory/BgStory0.png		1																			
+319	319		304							"You still expect my largesse. What can I offer you? Ceaseless, it is still darkness and void and—stop."	ffffffff		Assets/Product/Texture/Image/BgStory/BgStory0.png		1																			
+320	320		304							"But I'd like only darkness, or to vanish into your daytime; I'd only like a void that never seizes your heart."	ffffffff		Assets/Product/Texture/Image/BgStory/BgStory0.png		1																			
+321	321		304							"I'd like that, friend—"	ffffffff		Assets/Product/Texture/Image/BgStory/BgStory0.png		1																			
+322	322		304							"I travel alone—not only without you, but in darkness without other shadows."	ffffffff		Assets/Product/Texture/Image/BgStory/BgStory0.png		1																			
+323	323		304				AniZhuanchangBegin			"Only myself, submerged by darkness, in that world wholly mine."	ffffffff		Assets/Product/Texture/Image/BgStory/BgStory0.png		1			1																
+324	324		201							1	500521	14																						
+325	325		301			AniZhuanchangEnd				1	Noan	...	1																					
+326	326		202							1																								
+327	327		205						2000	999	Assets/Product/Texture/Image/BgStory/BgStory0.png	0	1	2																				
+328	328		205							999		1	1	0																				
+329	329		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+330	330		301									Noan puts down the notebook and looks around—but can't seem to see Field anywhere in the otherwise usually crowded lower-level car that now only has a handful of souls.																						
+331	331		205							999	Assets/Product/Texture/Image/BgStory/BgStory603.jpg	0	1	2																				
+332	332		301									Unable to see any further and feeling helpless, Noan starts shouting out his friend's name—among people ready for bed.																						
+333	333		201							1	500521	14																						
+334	334		301							1	Noan	Summer! Field!	1																					
+335	335		301			RImgBg1Shake					Lower-Level Citizen 1	For crying out loud, kid! Do you know what time it is?!																						
+336	336		301									Not surprisingly at all, people don't hesitate to yell at him.																						
+337	337		301								Noan	Sorry, but I'm just looking for my friend because he went missing.	1																					
+338	338		301								Lower-Level Citizen 1	He what? You sure he didn't head out with the Cargo Crew? They're supposed to head down to City 074 tonight and will be back in the morning.																						
+339	339		301									The man sits up from his dirty mattress with a yawn.																						
+340	340		301								Noan	He's about my age, and there is no way he'd have left with the Cargo Crew because he just isn't fit enough to do that.	1																					
+341	341		301								Bumblebee Member 1	Not fit enough... Wait, are you talking about Bancroft's son?																						
+342	342		301								Noan	Yes, that's him. Have you...	1																					
+343	343		202							1					1																			
+344	344		201							1	500140		-600																					
+345	345		201							2	500460																							
+346	346		201							3	500226		600																					
+347	347		401							1	202																							
+348	348		301							1	Cargo Crew Member 1	Wouldn't say a thing even if I've seen him. We're damn fed up with all Bancroft's little drama and just can't wait to see him kicked off the train.	1																					
+349	349		301								Cargo Crew Member 2	Ditto. Ain't it funny how shit happens to his team every single time?	2																					
+350	350		301								Cargo Crew Member 3	Dude just shouldn't be a captain, period. None of his men listens to him, and their goods go missing whenever they're out on a mission.	3																					
+351	351		301								Cargo Crew Member 3	I just want the guy gone ASAP so we can all have a good night's sleep.	3																					
+352	352		202							1	2	3			1																			
+353	353		201							1	500521	5																						
+354	354		301							1	Noan	You really think that's gonna put an end to the situation?	1																					
+355	355		201							1	500226																							
+356	356		301							1	Cargo Crew Member 3	Excuse me?	1																					
+357	357		201							1	500521	5																						
+358	358		301							1	Noan	There will be a second and third and more Bancrofts as long as the guards from the upper level keep their rules in place!	1																					
+359	359		301								Noan	We could choose to sit around and watch them die, but you never know who it's gonna be next.	1																					
+360	360		201							1	500460																							
+361	361		301							1	Cargo Crew Member 2	He has it coming.	1																					
+362	362		201							1	500521	5																						
+363	363		301							1	Noan	But he was only just trying to save someone!	1																					
+364	364		301								Noan	Leaking info and losing goods are what's considered wrong now according to the rules, but who's to say the rules are going to stay this way forever?	1																					
+365	365		301								Noan	Remember that "we're all heroes or we're all zeroes" rule they just put into place in the Industrial Carriage?	1																					
+366	366		301								Noan	The aristocrats would be more than happy to keep shipping someone off there that hampers the rest of the team, so long as people keep trying to single out the "bad apple"—or so Captain Rachel always says.	1																					
+367	367		301								Noan	Are all the "bad apples" to blame for all our sufferings?	1																					
+368	368		301								Noan	No, they're not—because as long as they can trade in "info" for resources, people will jump at the opportunity any day of the week.	1																					
+369	369		301								Noan	See, we've twisted the rules against ourselves when the rules are what's wrong in the first place!	1																					
+370	370		301								Noan	I'm not saying that I stand with these people, but the rules are what's wrong, and I sympathize with all the innocent people that get dragged through the mud.	1																					
+371	371		301								Noan	Why are we turning our backs on Field when he's done nothing wrong and wants to bring about changes? We hate the aristocrats' guts for treating us the way they do, but aren't we doing the exact same thing?	1																					
+372	372		201							1	500382																							
+373	373		301							1	Bumblebee Member 2	Wow, shithead. Think you know everything, huh?	1																					
+374	374		201							1	500398																							
+375	375		301							1	Cargo Captain Shauna	I like everything he said, though. Atta boy, son.	1																					
+376	376		201							1	500460																							
+377	377		301							1	Cargo Crew Member 2	Captain Shauna?!	1																					
+378	378		202							1					1																			
+379	379		201							1	500521		-400																					
+380	380		201							2	500398		400																					
+381	381		301							1	Cargo Captain Shauna	Thought I'd drop by when I heard all the buzz coming from down here. Don't worry, though. Rachel ain't around, and I won't tell her a thing.	2																					
+382	382		301								Noan	Field went missing, Shauna.	1																					
+383	383		301								Cargo Captain Shauna	Sure you've looked everywhere?	2																					
+384	384		301								Noan	I went through all the places he'd usually go to, and his notebook is the only thing I found.	1																					
+385	385		301									Noan hands the notebook over to Shauna. She quickly goes through it.																						
+386	386		301								Cargo Captain Shauna	...	2																					
+387	387		301								Cargo Captain Shauna	Let's look for him together. Kid might still be around.	2																					
+388	388		202							1																								
+389	389		201							1	500460		-400																					
+390	390		301							1	Cargo Crew Member 2	But we can't let Bancroft stick around anymore!	1																					
+391	391		301								Cargo Captain Shauna	Your sick wife, Rock's kids, and Jason's mom—these are just some of the people who are here that we should just kick off the train, and I can keep going if you want me to.	2																					
+392	392		301								Cargo Captain Shauna	Oh yeah, just FYI, I know what they're all up to.	2																					
+393	393		301								Cargo Crew Member 2	...!	1																					
+394	394		301								Cargo Captain Shauna	Y'all hate Bancroft's guts because he's been capitalizing on what y'all do, right?	2																					
+395	395		301								Cargo Captain Shauna	Desperate times call for desperate measures, and I totally get that.	2																					
+396	396		301								Cargo Captain Shauna	And y'all are damn right to say that he's got what's coming his way—but who are y'all to say you're any less guilty?	2																					
+397	397		202							1																								
+398	398		201							1	500104		-400																					
+399	399		301							1	Cargo Crew Member 3	What do you mean?	1																					
+400	400		301								Cargo Captain Shauna	Y'all let him handle the goods alone knowing that he'd lose them. Need I say more?	2																					
+401	401		301								Cargo Crew Member 3	...	1																					
+402	402		301								Cargo Captain Shauna	And boy, I would have told Rachel all these already had I heard about them earlier.	2																					
+403	403		301								Cargo Crew Member 3	Rachel doesn't know any of these?	1																					
+404	404		202							1	2				1																			
+405	405		201							1	500398																							
+406	406		301							1	Cargo Captain Shauna	Like hell she would!	1																					
+407	407		301								Cargo Captain Shauna	She's been doin' all these things to help make life better for us—while we're all busy here trying to help those scoundrels up there screw ourselves over.	1																					
+408	408		301								Cargo Captain Shauna	Does seeing Bancroft screw up over and over again make life better for any of you?	1																					
+409	409		301								Cargo Captain Shauna	Do they come down here and strangle someone you hate every time Bancroft loses his goods and snitches?	1																					
+410	410		401							2	1512																							
+411	411		301			RImgBg1Shake						Shauna throws a punch at the wall with her smile still on her face.																						
+412	412		301								Cargo Captain Shauna	Now, just answer me this—are you going to help look for Field or not?	1																					
+413	413		202							1					1																			
+414	414		301									Dead silence ensues—until someone from the Maintenance Crew speaks up.																						
+415	415		201							1	500138		400																					
+416	416		201							2	500521		-400																					
+417	417		301							1	Maintenance Member 1	I'll check out the security cameras over at the storage and send a few guys down the ventilation ducts. Those places ain't the easiest for kids to get back out once they're in there.	1																					
+418	418		301								Noan	Thank you...!	2																					
+419	419		301								Maintenance Member 1	And we need you to come with us, kid.	1																					
+420	420		301								Noan	Sure!	2																					
+421	421		202							1	2																							
+422	422		301									Noan leaves the car with the man.																						
+423	423		201							1	500398																							
+424	424		301							1	Cargo Captain Shauna	And what's it gonna be for the rest of you?	1																					
+425	425		201							1	500425		600																					
+426	426		201							2	500463																							
+427	427		201							3	500140		-600																					
+428	428		301							1	Bumblebee Member 1	I'll look around.																						
+429	429		301								Bumblebee Member 2	...I'll go with you.																						
+430	430		301								Cargo Crew Member 4	Should we double-check with Rachel to see if the kid is out with the team?																						
+431	431		202							1	2	3			1																			
+432	432		201							1	500398																							
+433	433		301							1	Cargo Captain Shauna	Right. I'll do that with my terminal.	1																					
+434	434		202							1					1																			
+435	435		201							1	500226		600																					
+436	436		201							2	500104																							
+437	437		201							3	500270		-600																					
+438	438		301							1	Cargo Crew Member 3	Tsk...!	2																					
+439	439		301								Cargo Crew Member 5	Stay here if you want, but tag along if you can lend us a hand.	3																					
+440	440		301								Cargo Crew Member 2	...	1																					
+441	441		202							1	2	3			1																			
+442	442		201							1	500342		400																					
+443	443		201							2	500260		-400																					
+444	444		301							1	Cargo Crew Member 6	Lucy, do us a favor and check out where you and the kids usually play hide-and-seek.	1																					
+445	445		301								Girl	On it!	2																					
+446	446		202							1	2																							
+447	447		301									And with it, people start forming search teams. There are still people who are either unwilling to help or unable to help, but things are already looking a lot better than if Noan had to do it on his own.																						
+448	448		301									This single event isn't going to erase all the hard feelings that are already there—but Noan can just feel that they've just made a dent in the tip of the iceberg.																						
+449	449		201							1	500521																							
+450	450		301							1	Noan	...Field, where are you?	1																					
+451	451		301		1		AniZhuanchangBegin					The boy calls out his friend's name as the sun begins to slowly show its face to the world for the day.																						

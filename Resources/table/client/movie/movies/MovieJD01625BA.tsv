@@ -1,0 +1,34 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory285.png																								
+2	2		401							1	201																							
+3	3		201							1	1031001		-600																					
+4	4		201							2	500026		600																					
+5	5		201							3	500166																							
+6	6		301			DialogEnable				1		You have traveled for a while without running into any surprises while having also gathered quite a bit of data.																						
+7	7		302								Let's sort out all the key information first.	8																						
+8	8		301								Liv	Alright, I've laid out all the known information on the Ascendants and Huaxu. I can use this database to screen for useful intel.	1																					
+9	9		301				DialogDisable				Lucia	It looks like a daunting task. Let's do it!	3																					
+10	10		305							11	33																							
+11	11		202							1	2	3			1																			
+12	12		301			DialogEnable						You reconvene after investigating for quite some time.																						
+13	13		201							1	1031001		-600																					
+14	14		201							2	500026		600																					
+15	15		201							3	500166																							
+16	16		301							1	Lucia	I haven't found anything that matches the keywords.	3																					
+17	17		301								Lee	...All I see is the Corrupted going about their boring routine.	2																					
+18	18		302								What about Liv?	19																						
+19	19		301								Liv	I didn't find any useful clues matching the keywords, but I came across a letter... A farewell letter, rather.	1																					
+20	20		301								Lucia	A farewell letter?	3																					
+21	21		301								Liv	Well, a torn farewell letter. It's only the first half of the page. I was able to find it because it contains the word "Huaxu".	1																					
+22	22		302								Huaxu?	23																						
+23	23		301								Liv	Correct. It says: "I found a way to fight the Punishing Virus. I wanted to use it to create the legendary Huaxu Utopia. But it has cost all of my possessions, and it appears that I will die before its completion..."	1																					
+24	24		301								Liv	"If you are reading this letter, please look for it at the location below..."	1																					
+25	25		301								Liv	The last part is missing.	1																					
+26	26		301								Lucia	A method to fight the Punishing Virus?	3																					
+27	27		301								Lee	It's probably either a ruse or just nonsense.	2																					
+28	28		301								Lucia	You're right. We can't confirm it without the last part. But it shouldn't go ignored.	3																					
+29	29		302								Let's look for the last part of the letter.	30																						
+30	30		301								Liv	Alright. We'll keep an eye out. Let's keep going, Commandant.	1																					
+31	31		301								Liv	The Corrupted up ahead are all on the left. The path on the right seems to be safer.	1																					
+32	32		301		1		AniZhuanchangBegin					Left or right?																						
+33	33		202		1		AniZhuanchangBegin			1	2	3			1																			

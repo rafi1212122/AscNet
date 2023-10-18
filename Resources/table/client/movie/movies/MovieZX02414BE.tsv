@@ -1,0 +1,29 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory533.jpg																								
+2	2		401							1	81																							
+3	3		301			DialogEnable						It is not Prince Ferdinand stranded on a lone island. The ugly Caliban is nowhere to be found on the island. It is not Robinson drifting at sea. And the loyal, foolish Friday is not saved.																						
+4	4		301									It always ends the same way. So, you stop wasting your time looking into the horizon and hoping for a rescue that will never come.																						
+5	5		301									Weave a fishing net, catch fish, and live a life... The endless cycle of memories makes you a master of dealing with accidents and surviving the harsh environment.																						
+6	6		301									You carve on the stone wall and count the time in your mind.																						
+7	7		301				AniZhuanchangBegin					The dragon doesn't arrive as expected. The storyline slightly changed. You have indeed reached the end of the world.																						
+8	8		502			DialogDisable				AniZhuanchangEnd																								
+9	9		101						750	Assets/Product/Texture/Image/BgStory/Bgstory535.jpg																								
+10	11		201						250	1	500437	1																						
+11	999		203							1	0.25	150																						
+12	12		301			DialogEnable				1		Back then, you hit the dragon's eye.	1																					
+13	13		203						1000	1	1	150	200																					
+14	14		203						500	1	0.5	150	1200																					
+15	15		202							1					1																			
+16	16		301									The strike was right on target, and the dragon started twisting and turning due to the pain. It was no longer nimble and balanced. At that moment, the tilted boat sailed forward, its hull shaking. Inertia dragged the dragon down to the sea, and you went down with it, still holding the oar in your hand.																						
+17	17		401							2	721																							
+18	18		301				AniZhuanchangBegin					Submerged, you felt the water come pouring into your body through your nostrils and mouth. You look up and hold on tight to your oar. The dragon sent waves underwater and pushed you away.																						
+19	19		401							1	36																							
+20	20		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+21	21		301			AniZhuanchangEnd						Suffocation. Weightlessness. Your senses and consciousness drifted.																						
+22	22		501			DialogDisable				Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	2																							
+23	23		101							Assets/Product/Texture/Image/BgStory/Bgstory533.jpg																								
+24	24		401							1	209																							
+25	25		301			DialogEnable						You wake up on a sand beach and open your eyes to see the same view. You push yourself up.																						
+26	26		301									The way this world changes and the story develops affects the character, whose feelings and actions will, in return, change the course of the story.																						
+27	27		301									It is like an intertwined web. Everything is interconnected.																						
+28	28		301		1		AniZhuanchangBegin					The story nodes won't disappear. And you are ready for the worst.																						

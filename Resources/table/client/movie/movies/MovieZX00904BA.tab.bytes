@@ -1,49 +1,0 @@
-rx0O/7üÆ7-˛?/ü∞Ì…«ãª K1ÁÓ˝ÌÿSçCzi@¢°bŒL»Õ¡®Ùÿá·^È¨]»íå˜˛«üÆ9|†¯‹íXòGbMèjãúfB7|`â⁄b
-,w%t∫u†6•˚Ãı∑ƒ∂ÿId	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
-1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory118.png																								
-2	1000		401							1	201																							
-3	2		201							1	1031001																							
-4	3		301			DialogEnable				1	Liv	If we want to go to the control center next, we need to take the main passage. But...	1																					
-5	4		201							1	1011001																							
-6	5		301							1	Lee	Darn. That AI shut the airtight valve...	1																					
-7	6		201							1	1021001																							
-8	7		301							1	Lucia	Is there no other way?	1																					
-9	8		302								Breakthrough by force?	9	Let me think.	9																				
-10	9		201							1	1011001																							
-11	10		301							1	Lee	All terminals nearby are covered in that thick, black matter. We don't have enough firepower to force open this airtight valve...	1																					
-12	11		302								If there was...	12	Tsk.	12																				
-13	12		202							1					1																			
-14	13		301									Connecting‚Äî																						
-15	14		201							1	500080																							
-16	15		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
-17	16		301							1	Watanabe	I knew it was you... Leave immediately.	1																					
-18	17		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
-19	18		201							1	1031001	7																						
-20	19		301							1	Liv	Watanabe! Why are you here?	1																					
-21	20		201							1	1011001																							
-22	21		301							1	Lee	Watanabe? If we can receive his comms, he must be not far away...	1																					
-23	22		201							1	500080																							
-24	23		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
-25	24		301							1	Watanabe	Get away from that valve... Now!	1																					
-26	25		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
-27	4646		202							1					1																			
-28	26		301									A large howling sound travels all the way from the other end of the passage.	1																					
-29	1001		401							2	10007502																							
-30	27		301			RImgBg1Shake						Bullets and explosions start to blast the airtight valve.	1																					
-31	28		201							1	1031001	7																						
-32	29		301							1	Liv	Watanabe is piloting an aircraft... in the passageway...	1																					
-33	30		201							1	500080																							
-34	31		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
-35	32		301							1	Watanabe	Tsk. Didn't manage to destroy it completely.	1																					
-36	33		301				AniZhuanchangBegin				Watanabe	Whatever.	1																					
-37	34		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
-38	35		202							1					1																			
-39	36		101							Assets/Product/Texture/Image/BgCg/Cg901_1.jpg																								
-40	37		301			AniZhuanchangEnd						Watanabe opens his cockpit. He glances at Gray Raven and jumps off.																						
-41	1002		401							2	10007502																							
-42	38		301			RImgBg1Shake						The next moment, his aircraft collides with the valve, causing a fiery explosion behind.																						
-43	39		301									While Watanabe lands on the ground without a scratch...																						
-44	40		301								Lee	...																						
-45	41		301								Lee	How reckless.																						
-46	42		302								We meet again, Watanabe.	43	Nice entrance.	43																				
-47	43		301		1		AniZhuanchangBegin				Watanabe	Hmph, we meet again.																						

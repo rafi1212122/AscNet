@@ -1,0 +1,15 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory74.jpg																								
+2	2		401							1	101																							
+3	3		201							2	1021001																							
+4	4		301			DialogEnable				1	Lucia	The Corrupted can't handle it, they're doing an organized retreat!	2																					
+5	5		202							2					1																			
+6	6		201							3	1011001																							
+7	7		301							1	Lee	They won't retreat without reason, Kamui must have won the lottery again.	3																					
+8	8		202							3					1																			
+9	9		201							1	1081001																							
+10	10		301							1	Kamui	Hey, they're grouping up!	1																					
+11	11		301								Kamui	There's something inside! Don't just look, let's go!	1																					
+12	12		202							1					1																			
+13	13		201							3	1011001	10																						
+14	14		301		1		AniZhuanchangBegin			1	Lee	Coming.	3																					

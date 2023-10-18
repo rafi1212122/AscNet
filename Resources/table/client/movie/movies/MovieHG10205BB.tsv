@@ -1,0 +1,42 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	5																							
+3	3		201							1	1011001																							
+4	4		301			DialogEnable				1	Lee	Liv and I will take care of the dog for the time being, you go train with Commandant, Lucia.	1																					
+5	5		302								You're going to take care of the puppy too, Lee?	6	Thanks, Lee. Let's give it our all, Lucia!	11																				
+6	6		204							1	10																							
+7	7		301							1	Lee	It shouldn't be a problem as long as we create a proper procedure for feeding...	1																					
+8	8		204							1																								
+9	9		203							1	0.25	400																						
+10	10	16	201							2	1021001		-400																					
+11	11		202							1					1																			
+12	12		201							2	1021001																							
+13	13		301							1	Lucia	Yes, Commandant.	2																					
+14	14		203							2	0.25	-400																						
+15	15		201							1	1011001		400																					
+16	16		301							1	Lucia	...If I were to undergo training, what would it consist of?	2																					
+17	17		301								Lee	Of course it'll include smiling. You're quite expressionless, you know?	1																					
+18	18		301								Lucia	Expressionless...?	2																					
+19	19		301								Lee	Haven't you noticed? You rarely change your expression. But your emotional expression system should've been turned on long ago with Commandant's permission.	1																					
+20	20		301								Lee	Maybe it was forced closed for too long, resulting in you not being able to outwardly express all the emotions you feel inside now, Lucia.	1																					
+21	21		301								Lee	Which gives off the impression of being aloof.	1																					
+22	22		302							100	You know quite a lot, Lee.	26	Lucia's actually quite friendly.	27																				
+23	23		202							2					1																			
+24	24		203							1	0.25	0																						
+25	25		303							100																								
+26	26	28	301								Lee	It shouldn't be hard to reach a conclusion by analyzing our current data.	1																					
+27	27		301								Lee	But our relationship with you is deeper than with other people.	1																					
+28	28		201							1	1021001																							
+29	29		301							1	Lucia	So what you're saying is,	1																					
+30	30		301								Lucia	I need to smile, is that right?	1																					
+31	31		302								Yep, try smiling.	32	Maybe just try smiling casually?	33																				
+32	32	34	301								Lucia	...	1																					
+33	33		301								Lucia	Ha. Ha. Ha.	1																					
+34	34		301								Lucia	...	1																					
+35	35		301								Lucia	I tried to do as Commandant instructed, what do you think?	1																					
+36	36		302								Lucia... Did you smile?	37	Hm, I had something a bit different in my mind.	37																				
+37	37		301								Lucia	I can deal with an emergency during a mission.	1																					
+38	38		204							1	3																							
+39	39		301								Lucia	But for smiling, even though I never deleted the data, I still can't figure out how to do it.	1																					
+40	40		302								Lucia...	41																						
+41	41		301		1		AniZhuanchangBegin				Lucia	Maybe this frame just isn't designed to smile.	1																					

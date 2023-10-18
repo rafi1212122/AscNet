@@ -1,0 +1,58 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory65.jpg																								
+2	2		401							1	102																							
+3	3		201							1	500001	4																						
+4	4		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackSmokeNew.prefab		1																						
+5	5		301			DialogEnable				1	Ann	Garghhh—!	1																					
+6	6		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab	2																							
+7	7		301			PanelActor1Shake						Another black data steam bursts out of Ann.																						
+8	8		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryHongBg.prefab																							
+9	9		301									The two data streams converge to form a giant black figure.																						
+10	10		302								It's...!	11																						
+11	11		201							1	500209																							
+12	12		401							2	1508																							
+13	13		301							1	Dark Monster	——! ——!!	1																					
+14	14		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackSmokeNew.prefab		1																					
+15	15		201							1	500001	4																						
+16	16		301				AniZhuanchangBegin			1	Ann	Is... Is this me?	1																					
+17	17		201							1	500137		-400																					
+18	18		201							2	500138		400																					
+19	19		504							1																								
+20	20		101							Assets/Product/Texture/Image/BgStory/Bgstory53.jpg																								
+21	21		301			AniZhuanchangEnd				1	Researcher	We're adding a backup of "her" personality data to "Virtual Horizon?"	2																					
+22	22		301								Officer	Well, after all, the most important point of "Virtual Horizon" is to learn how to control that monster in order to win wars.	1																					
+23	23		301								Researcher	I see. Looks like ARU's wish to rule the world isn't staying a mere dream.	2																					
+24	24		301				AniZhuanchangBegin				Officer	Of course. The world will be in the palm of our hand...	1																					
+25	25		202							1	2				1																			
+26	26		504							0																								
+27	27		101							Assets/Product/Texture/Image/BgStory/Bgstory65.jpg																								
+28	28		201							1	500001	4																						
+29	29		301			AniZhuanchangEnd				1	Ann	I see... I was born from a monster. I'm... also a monster...	1																					
+30	30		201							1	500209																							
+31	31		401							2	1508																							
+32	32		301			PanelActor1Shake				1	Dark Monster	Ah—!	1																					
+33	33		202							1					1																			
+34	34		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	3																							
+35	35		301									The Dark Monster waves its huge claws at the unsuspecting Ann.																						
+36	36		302								Ann!	37																						
+37	37		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab																							
+38	38		401							2	10002001																							
+39	39		201							1	1021001		1460																					
+40	57		203							1		0																						
+41	40		301			PanelActor1Shake						But the claws are blocked by a red blade, sending sparks into the air.																						
+42	41		301							1	Lotus	...	1																					
+43	42		302								Lu... Wait, no! The Lotus frame?!	43																						
+44	43		301									Not only was it just the Lotus frame, but rather, all the Constructs in "Virtual Horizon" are appearing before you. They join forces to resist the monster's attack.																						
+45	44		201							1	500001	4																						
+46	45		301							1	Ann	What's going on? They weren't summoned, nor were they ordered here.	1																					
+47	46		201							1	1021001																							
+48	47		301							1	Lotus	...	1																					
+49	48		302								You created their personality data.	49																						
+50	49		301									Ann recalls that she had, in fact, inadvertently added simple personality modules to the Constructs.																						
+51	50		301									In a sense, Ann is their creator.																						
+52	51		201							1	500001	4																						
+53	52		301							1	Ann	You all... chose me?	1																					
+54	53		302								This is "the other way."	54																						
+55	54		301									Although the Constructs remain robotic as ever, they closely guard Ann.																						
+56	55		301								Ann	I see... Thank you, everyone... Now, just one last mission remains!	1																					
+57	56		301		1		AniZhuanchangBegin				Ann	And that is to get you safely out of here!	1																					

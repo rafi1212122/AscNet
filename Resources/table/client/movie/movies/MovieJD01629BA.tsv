@@ -1,0 +1,19 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory285.png																								
+2	2		401							1	201																							
+3	3		201							1	1031001		-600																					
+4	4		201							2	500026		600																					
+5	5		201							3	500166																							
+6	6		301			DialogEnable				1		You follow the path the boy has taken, eventually crossing the vast but monotonous zone.																						
+7	7		301									Roads narrow as you travel further. It is hard to imagine that humans worked at a place so confined during the Golden Age.																						
+8	8		301				DialogDisable				Liv	We haven't come across any clues, but I'm seeing a lot of supply boxes ahead. I wonder if they hold anything useful?	1																					
+9	9		302								Let's go and have a look.	10																						
+10	10		305							11	18																							
+11	11		301			DialogEnable					Liv	This key card is very well preserved. Seems like it's still usable.	1																					
+12	12		301								Liv	We can pass the security door ahead with it.	1																					
+13	13		301								Lucia	It's amazing how something so ancient still works.	3																					
+14	14		301								Lee	That's craftsmanship from the old days. These security doors have been repairing themselves, and the security equipment on either side of them are now aggressive because they've been infected by the Punishing Virus.	2																					
+15	15		301								Lucia	I wonder if the key card is going to work on the infected door?	3																					
+16	16		301								Lee	It's true that these doors can repair themselves, but at the end of the day they're still just doors. The Punishing Virus can't possibly change these doors structurally, so they will definitely open when you insert the key card into them.	2																					
+17	17		301		1		AniZhuanchangBegin				Lucia	I see. So I'll just need to keep an eye out for the security equipment.	3																					
+18	18		202		1		AniZhuanchangBegin			1	2	3			1																			

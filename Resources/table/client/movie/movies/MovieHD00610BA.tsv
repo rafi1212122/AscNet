@@ -1,0 +1,63 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory297.png																								
+2	2		401							1	37																							
+3	3		301			DialogEnable						The disc-shaped elevator descends slowly, finally bringing the you all to a larger disc.																						
+4	4		301									After the four of you jump onto the disc, the elevator descends straight down to the desert below.																						
+5	5		301									—But is it really a desert?																						
+6	6		301									At such a height, none of you are able to discern its surface—whether it is covered with fine sand or coarse gravel.																						
+7	7		301									But if you could magnify the image with an optical device, you would find that the dunes are made of crumbled buildings and debris.																						
+8	8		301									Moreover, the constant collision and friction between the concrete blocks have broken them down into smaller fragments.																						
+9	9		301									Once the fragments are fine enough, they seem to disappear altogether—as if sinking to the depths below.																						
+10	10		301									There are also several towering buildings among the "sand," seemingly having survived the collapse without being completely broken down.																						
+11	11		301									That being said, the constant erosion continues to take its toll on the buildings. With enough time, they, too, will disintegrate into "sand."																						
+12	12		301									Regardless, Embla—or what appears to be Embla—kneels before a massive figure on the giant disc.																						
+13	13		301								???	You are the one who wants to awaken "Father"?																						
+14	14		201							1	500276																							
+15	15		301							1	Embla?	I am.	1																					
+16	16		301								???	...Your speech pattern has deviated from your defaults.																						
+17	17		301								Embla?	...I. Have been in contact. With outside beings.	1																					
+18	18		301								???	Outside beings... I see.																						
+19	19		301								???	You are a "defect."																						
+20	20		301								Embla?	...I'm a. "Defect"?	1																					
+21	21		301								???	You are not a champion of the "war," nor are you the defeated.																						
+22	22		401							1	203																							
+23	23		301								???	You will be destroyed to uphold the rules of purity for the "war."																						
+24	24		301								Embla?	I. Will be... Destroyed?	1																					
+25	25		202							1					1																			
+26	26		301									The massive figure speaks as it raises the polearm in its hand—																						
+27	27		302								Lucia!	28																						
+28	28		201							1	500029																							
+29	29		301							1	Lucia	Got it!	1																					
+30	30		202							1					1																			
+31	31		301									Although slightly hesitant about your orders, Lucia immediately rushes forward—																						
+32	32		401							2	10002001																							
+33	33		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+34	34		301									—And she smashes the weapon out of the figure's hand, sending it flying off to the side.																						
+35	35		301									As Lucia attacks, Liv and Lee work together to drag the kneeling Embla off to the side.																						
+36	36		301								???	What are you?																						
+37	37		302								Stop taking the words out of my mouth.	38																						
+38	38		301								???	"Father" bequeathed me the name "Machiavelli".																						
+39	39		301								Machiavelli	"Father" bestowed me with power as the "Final Arbiter".																						
+40	40		301								Machiavelli	—I stand guard here for generations awaiting the "war" to produce a champion.																						
+41	41		301								Machiavelli	—With my own hands, I will awaken the half of "Father" most suitable for this land.																						
+42	42		301								Machiavelli	Therefore, all "defects" are not permitted to enter "the Strip of Truth". Only the champion... may enter.																						
+43	43		302								Sorry, that is not for you to decide.	44	Embla isn't a defect.	45																				
+44	44	46	301								Machiavelli	You have no right to decide, even if there is a Sapien among you.																						
+45	45		301								Machiavelli	Judgment of said "defects" is not determined by uncertified "Sapiens" such as yourself.																						
+46	46		201							1	500029																							
+47	47		301							1	Lucia	Looks like it's refusing to talk this out.	1																					
+48	48		202							1					1																			
+49	49		301								Machiavelli	I do not need to talk with the likes of you.																						
+50	50		301								Machiavelli	"War" must continue. Your flesh and blood will be used to build a new "battlefield."																						
+51	51		302								Is this city the "battlefield"?	52																						
+52	52		301								Machiavelli	Indeed. Then a new "war" will begin anew.																						
+53	53		302								What about the "defects"?	54																						
+54	54		301								Machiavelli	Beings that do not participate in the "war" do not have the right to live.																						
+55	55		201							1	1011001	10																						
+56	56		301							1	Lee	Well, I guess there's no point in wasting our breath.	1																					
+57	57		201							1	500029																							
+58	58		301							1	Lucia	If we don't stop it here, Embla will be destroyed and become a part of the city...	1																					
+59	59		301								Machiavelli	Indeed. The rules of Father warrant no exception.																						
+60	60		301								Lucia	Commandant, we'll count on your commands.	1																					
+61	61		302								Understood.	62																						
+62	62		301		1		AniZhuanchangBegin				Lucia	Defeating Machiavelli is the only way Embla... and we will survive.	1																					

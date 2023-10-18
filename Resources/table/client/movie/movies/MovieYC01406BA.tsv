@@ -1,0 +1,63 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory91.png																								
+2	2		401							1	201																							
+3	3		201							1	500019		-400																					
+4	4		201							2	500028		400																					
+5	5		301			DialogEnable				1	Construct	We can't win! These are bionic machines built purely for war! We're just some spec ops Constructs!	1																					
+6	6		301								Construct Captain	Shut your trap and just fight!	2																					
+7	7		202							1	2				1																			
+8	8		201							1	500208																							
+9	9		301							1	Bionic Machine	ROAR!	1																					
+10	10		202							1																								
+11	11		301								Fisher A	It's just like that one time... It's just like 'em tales... These bios are gunna wreck the ARU...																						
+12	12		301								Fisher B	Where's dem Forest Guards at, aye?! Must be the work of 'em hybrids!																						
+13	13		301								Fisher C	Damn you bobbing pieces of bionic trash! We MADE you! We're your master!																						
+14	14		201							1	500208																							
+15	15		301							1	Angry Bear	GO AT THEM! DON'T MIND THE LOSSES!	1																					
+16	16		301				AniZhuanchangBegin					The ARU defenses and the bionic machines clash. Fear slowly creeps into the hearts of people.																						
+17	17		201							1	500211																							
+18	18		301			AniZhuanchangEnd				1	Martin	This... This is just...	1																					
+19	19		301									Martin and the other bionic machines arrive to see hell painted before their visual modules.																						
+20	20		301								Martin	Nanami, we need to do something about this!	1																					
+21	21		201							1	500091	5																						
+22	22		301							1	Nanami	...Something's not right.	1																					
+23	23		201							1	500211																							
+24	24		301							1	Martin	Huh?	1																					
+25	25		301				AniZhuanchangBegin					Nanami has been silent ever since she arrived. She quickly scans the battlefield, confirming her suspicions.																						
+26	26		201							1	500208																							
+27	28		301			AniZhuanchangEnd				1	Bionic Machine	ROAR!	1																					
+28	27		201							1	500086																							
+29	29		301							1	Fisher A	Guess this do be the end of the line for me...	1																					
+30	100		201							1	500208																							
+31	30		301							1	Bionic Machine	...	1																					
+32	31		301									A bionic bear slams a fisherman onto the ground, but it does not follow up with an attack. Its claw remains hinged mid-air, hesitant at dealing the fatal blow. Yet—																						
+33	101		201							1	500086																							
+34	32		301							1	Fisher A	Ack...!	1																					
+35	33		202							1					1																			
+36	34		201							1	500208																							
+37	35		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																						
+38	36		301							1	Bionic Machine (?)	ROAURGH!	1																					
+39	37		301									Another bear model ignores the hesitant bear and barges in, stomping and crushing the fisherman.																						
+40	38		202							1					1																			
+41	39		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																					
+42	40		201							1	500208																							
+43	41		301							1	Bionic Machine	...	1																					
+44	42		202							1																								
+45	43		301									Even the hesitant bear finds the gruesome ending unbearable, but there is no point to reproaching its companion. Brandishing its claws once more, it charges at the next target.																						
+46	44		201							1	500087																							
+47	45		301				AniZhuanchangBegin			1	Fisher B	Damn you all!	1																					
+48	46		201							1	500091	5																						
+49	47		301			AniZhuanchangEnd				1	Nanami	...That one was a Corrupted, Martin.	1																					
+50	48		202							1																								
+51	49		301									Similar scenarios occur everywhere in the battlefield. Hearing Nanami, the other bionics enter into disarray.																						
+52	50		201							1	500211																							
+53	51		301							1	Martin	That means some of us have been corrupted... If that's the case, then will the others...	1																					
+54	52		201							1	500091	5																						
+55	53		301							1	Nanami	No. It likely won't spread further. I think I know what the Corrupted are here for.	1																					
+56	54		201							1	500211																							
+57	55		301							1	Martin	So what are they here for...?	1																					
+58	56		201							1	500091	5																						
+59	57		301							1	Nanami	They are here to instigate hatred... Someone is controlling the Corrupted to do so, while they sit somewhere safe to watch.	1																					
+60	58		301								Nanami	...	1																					
+61	59		301								Nanami	...	1																					
+62	60		301		1		AniZhuanchangBegin				Nanami	Nanami is getting REAL ANGRY!	1																					

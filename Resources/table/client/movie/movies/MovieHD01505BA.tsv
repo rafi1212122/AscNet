@@ -1,0 +1,171 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	204																							
+3	3		201							1	500110																							
+4	4		301			DialogEnable				1		Ayla gives her room a quick clean-up, then sits back and awakes her terminal.																						
+5	5		301									She stares at the screen as the game world's time flows. She did her best to reconstruct the elements of this world—for example, the sea breeze that was blowing the sand—based on past records and documents.																						
+6	6		301								Ayla	Alright, time to keep working. I was the one who invited them after all.	1																					
+7	7		301									As a member of WGAA, Ayla is extremely skilled at creating game worlds.																						
+8	8		301								Ayla	Let me summarize their progress first.	1																					
+9	9		301								Ayla	Once I consolidate all the players' results, I can design the upcoming changes.	1																					
+10	10		301									Ayla clicks open the world archive. The adventure team that spawned in the city is shown on the top.																						
+11	11		301								Ayla	Hmm? So these are the players we found earlier on. Good, let me check what's happening over there.	1																					
+12	12		301								Ayla	World influence factor is... 17.31?! Amazing. They just started the game and had already done something that could influence the entire kingdom.	1																					
+13	13		301				AniZhuanchangBegin					Ayla eagerly clicks "Watch" to peek at what is going on in the capital through her terminal screen.																						
+14	14		202			DialogDisable				1					1																			
+15	15		401						300	1	36																							
+16	16		401							1	201																							
+17	17		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/Bgstory531.jpg																								
+18	18		301			DialogEnable						Unlike the sunny shore, the sky is dull and gray. It seems to have also impacted the pedestrians as they walk past with forlorn looks.																						
+19	19		301									Numerous pieces of paper fall from above. Soldiers who are riding fantasy creatures are grabbing the paper pieces from baskets and throwing them out.																						
+20	20		301									Ayla pauses the screen and zooms in.																						
+21	21		301									The content on the paper is very simple: a poorly sketched, brandishing portrait with a line of text.																						
+22	22		201							1	500110																							
+23	23		301							1	Ayla	...	1																					
+24	24		301								Ayla	Notice of execution?!	1																					
+25	25		202							1					1																			
+26	26		301									Ayla searches the crowd and finally finds the player team in the center of the execution ground, guarded by many soldiers.																						
+27	27		201							1	1081001		600																					
+28	28		201							2	500155																							
+29	29		201							3	500273	8	-600																					
+30	30		301							1		Three of them are individually tied to three stakes, with firewood under their feet. Looks like they do not have much time left.																						
+31	31		202							2	3				1																			
+32	32		203							1	0.25																							
+33	33		301								Kamui	I said we didn't do it! Please trust us!	1																					
+34	34		301									Compared with Chrome and Wanshi, he has a lot more ropes attached to himself.																						
+35	35		301								Soldier	Shut it! Just save us some rope, will you?																						
+36	36		204							1	17																							
+37	37		301								Kamui	Like I said, we didn't do anything! You're just not listening!	1																					
+38	38		301								Soldier	Where did we catch you?																						
+39	39		204							1	1																							
+40	40		301								Kamui	The artifact room.	1																					
+41	41		301								Soldier	Was there anyone else in the room when you sneaked in?																						
+42	42		301								Kamui	No.	1																					
+43	43		301								Soldier	Where was the artifact stored?																						
+44	44		204							1	2																							
+45	45		301								Kamui	In the cabinet.	1																					
+46	46		301								Soldier	Is the cabinet now empty?																						
+47	47		301								Kamui	I think so.	1																					
+48	48		301								Soldier	Alright, we have all the evidence and witnesses. The criminal has confessed to the theft of the artifact. Light them up!																						
+49	49		204							1	17																							
+50	50		301								Kamui	Hey! I didn't admit anything!	1																					
+51	51		301									Kamui begins to shake his body again, making more squeaking sounds between the ropes and the stake.																						
+52	52		301								Kamui	I need to struggle. I keep taking this action.	1																					
+53	53		301								Dungeon Master Ayla	Failure, failure, failure, failure...																						
+54	54		301								Soldier	Don't move!																						
+55	55		301									After wasting all the ropes, the soldier ties Kamui up with a steel chain. He pulls both sides of the chain and kicks the stake hard to tighten him up.																						
+56	56		301								Dungeon Master Ayla	DC to break free increased. DC to break free increased. DC to break free increased.																						
+57	57		301								Kamui	I don't care! I keep struggling! With all my strength... Wait, why am I the only one that's rolling dice?	1																					
+58	58		301								Kamui	Do something, Wanshi.	1																					
+59	59		203							1	0.25	-400																						
+60	60		201							2	500273	8	400																					
+61	61		301							1	Wanshi	Zzzzz...	2																					
+62	62		301								Dungeon Master Ayla	Inspecting Wanshi of Strike Hawk... He is sleeping to recover spells.																						
+63	63		202			DialogDisable				1	2				1																			
+64	64		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+65	65		101							Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+66	66		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+67	67		201							1	1081001	17																						
+68	68		301			DialogEnable				1	Kamui	At this point in time?	1																					
+69	69		301									Kamui shakes Wanshi in real life, whose eyes are all closed, only to get the reply that "nothing else can be done."																						
+70	70		202			DialogDisable				1					1																			
+71	71		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+72	72		101							Assets/Product/Texture/Image/BgStory/Bgstory531.jpg																								
+73	73		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+74	74		201							1	500155	1																						
+75	75		301			DialogEnable				1	Chrome	Excuse me, could I have some water, please? I don't want to die thirsty.	1																					
+76	76		301									Contrary to the farce in the center of the execution ground, Chrome remains calm in the corner and calls the soldier guarding him.																						
+77	77		301								Soldier	Just wait. I'll get you some.																						
+78	78		301								Chrome	Great, thanks.	1																					
+79	79		301									The moment the soldier walks past the corner...																						
+80	80		301								Chrome	DM, I want to take out the knife that I hid earlier and attempt to cut my rope.	1																					
+81	81		301								Dungeon Master Ayla	No one is watching you. Success. Your progress is...																						
+82	82		301								Soldier	Hurry, get another chain to seal his mouth.																						
+83	83		202							1					1																			
+84	84		201							1	1081001	17																						
+85	85		301							1	Kamui	You can't do this to me! At least let me say my final words!	1																					
+86	86		301									When the soldiers turn their backs against Kamui, he peeks in Chrome's direction. The rope is quietly coming off just like he thought.																						
+87	87		204							1	1																							
+88	88		301									Just a little longer...																						
+89	89		301									Somehow, Kamui feels like he has heard Dungeon Master Ayla rolling a die.																						
+90	90		204							1	17																							
+91	91		301								Soldier	Ahem! The royal family has decided to start the execution early due to poor weather conditions. We don't want the rain to put off their fire.																						
+92	92		301									The heated crowd bursts into a deafening cheer, as if throwing stones is not enough to calm their anger. The soldiers holding torches are getting restless.																						
+93	93		301								Kamui	We don't even know what your artifact looks like! This makes no sense! I want to appeal!	1																					
+94	94		301									Kamui tries to argue, but his futile attempt only stirs up endless insults. The crowd seems to have lost all sanity after hearing their crime.																						
+95	95		301								Kamui	Calm down, guys...	1																					
+96	96		301								Soldier	Shut up! Recruit, put more firewood under his feet to burn him harder.																						
+97	97		203							1	0.25	-400																						
+98	98		201							2	500155		400																					
+99	99		301							1	Chrome	DM	2																					
+100	100		301								Dungeon Master Ayla	Progress: 50%.																						
+101	101		301								Chrome	...I no longer try to conceal my action, but use all my strength to cut the rope instead.	2																					
+102	102		301								Soldier	Hey! What are you doing?!																						
+103	103		301									Ignoring him, Chrome focuses on breaking away while calculating the escape route.																						
+104	104		202							1	2				1																			
+105	105		301									To his surprise, the soldier was not even shouting at him.																						
+106	106		401						200	1	36																							
+107	107		401							1	206																							
+108	108		201							1	500494	1																						
+109	109		203							1	0.15		-100																					
+110	110		301							1		A figure suddenly appears from above and lands on the stake behind Wanshi, crushing it into pieces with a war hammer.																						
+111	111		203							1	0.25																							
+112	112		301								Karenina	I spent so long making this weapon. Never thought the first thing I did with it was to cut a stake.	1																					
+113	113		203							1	0.25	400																						
+114	114		201							2	1081001	1	-400																					
+115	115		301							1	Kamui	Karenina? Why are you in this game?	2																					
+116	116		301								Karenina	This is WGAA's public project. Ayla asked us to help her finish the script.	1																					
+117	117		301								Karenina	Honestly, I'm not good at this. So I had been making weapons at a place.	1																					
+118	118		301								Soldier	Who are you?!																						
+119	119		301									The soldier throws his torch away as he pulls out a sword. The torch rolls down the road and finally comes to a stop near Kamui.																						
+120	120		301									Kamui makes three rolls in a row trying to kick it away, but none succeeded.																						
+121	121		301								Kamui	The dice just hate me today, don't they? If that's the case...	2																					
+122	122		301								Kamui	Hey you, over there. You dropped something. DM, I want to use Mage Hand to pull that sword close.	2																					
+123	123		301								Dungeon Master Ayla	Kamui rolls a... critical failure.																						
+124	124		301								Dungeon Master Ayla	You tried to grab the sword's hilt with a magic hand but accidentally sneezed. The hand elegantly sent the sword flying into a crack in the floor.																						
+125	125		301									The soldier's nervous look immediately disappears. Infuriated, he grabs Kamui's neck and shakes him rigorously, stating that he just bought the new sword.																						
+126	126		301								Dungeon Master Ayla	The soldier rolls a Will check... Critical failure. He jumps over and disappears in the crack, following his sword.																						
+127	127		202							1	2				1																			
+128	128		201							1	500155																							
+129	129		301							1		Chrome manages to break free and lands on the ground with a thump. Someone immediately throws him a weapon.																						
+130	130		203							1	0.25	-400																						
+131	131		201							2	500494	1	400																					
+132	132		301							1	Karenina	Here you are. Took us a lot of effort to make it in that volcano.	2																					
+133	133		301								Dungeon Master Ayla	You obtained weapon: St. Elmo +10.																						
+134	134		202							1	2				1																			
+135	135		201							2	500494	4																						
+136	136		301							1	Karenina	DM, I want to cut the ropes on Kamui.	2																					
+137	137		301								Dungeon Master Ayla	But Kamui is wrapped in layers and layers of reinforced steel chains.																						
+138	138		301								Karenina	I'll just break the stake then. Roll it.	2																					
+139	139		202						300	2					1																			
+140	140		201							1	500175																							
+141	141		203							1	0.15			-80																				
+142	142		401					200		2	10006001																							
+143	143		401							2	10006001																							
+144	144		301							1		As they are busy getting Kamui out, they hear the sound of multiple bows firing. A shadow dashes out from the crowd and knocks down all the soldiers from behind, then rushes to Kamui before the rain of arrows falls.																						
+145	145		203							1	0.15																							
+146	146		301									Camu holds his greatsword horizontally and uses it as a shield. Arrows land on it and make clinking noises.																						
+147	147		301								Camu	The next time you want someone to run away alone to seek help, better get someone else to do it.	1																					
+148	148		203							1	0.25	-400																						
+149	149		201							2	1081001	2	400																					
+150	150		301							1	Kamui	It was an emergency. Thanks anyway.	2																					
+151	151		202							2					1																			
+152	152		201							2	500273		400																					
+153	153		301							1	Wanshi	What do we do now?	2																					
+154	154		301									More soldiers come rushing to the execution ground. They are all differently equipped and look like an army that was just put together.																						
+155	155		301								Soldier	Dammit, too many of us went with the expedition team.																						
+156	156		301								Soldier	Come here! I want all my soldiers to head this way immediately!																						
+157	157		202							1					1																			
+158	158		201							1	500155		-400																					
+159	159		301							1	Chrome	Hurry, let's get out of here while they are still in chaos.	1																					
+160	160		202							1	2				1																			
+161	161		201							1	500495																							
+162	162		301							1	Teddy	Just a reminder, don't take the wrong direction.	1																					
+163	163		301									Unlike her two teammates who were confronting the soldiers, Teddy chose to sneak all the way here.																						
+164	164		301								Dungeon Master Ayla	Teddy of Engineering Force has activated a Wall spell. Checking... Success.																						
+165	165		301									Transparent ice blocks rise from the ground, forming a solid wall, making the soldiers quiver in fear as they fall back. An officer has to shout at them to force them to go back holding their weapons.																						
+166	166		301									But the spears and swords cannot even leave a scratch on the wall. Even war hammers do not seem to crack it.																						
+167	167		203							1	0.25	400																						
+168	168		201							2	500155		-400																					
+169	169		301							1	Teddy	This crystal is less than 10cm thick, but it is stronger than bulletproof glass. I tested it.	1																					
+170	170		301		1		AniZhuanchangBegin				Chrome	We just need to take care of the soldiers on the other side now.	2																					

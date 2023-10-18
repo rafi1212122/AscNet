@@ -1,0 +1,258 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	45																							
+3	3		301			DialogEnable						The scene before him is pitch black.																						
+4	4		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+5	5		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+6	6		301									A moment later, it is all white.																						
+7	7		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBeginHei.prefab	2																							
+8	8		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+9	9		301									Black and white push into his field of vision as if wrestling at odds. The two colors seem to have their own consciousness. They fight with each other for some unknown glory.																						
+10	10		501						200	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	2																							
+11	11		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+12	12		201							1	500138		400																					
+13	13		201							2	500138		-400																					
+14	14		301									He opens his eyes—white and black collide and fade to gray. Two figures stand in the gray light.																						
+15	15		301									Then the figures begin to speak.																						
+16	16		301							1	Doctor A	Hey, which group of refugees from the park is this? The report says those refugees are designated as test subjects. Is this all we got? Seems like they're just picking at random.	1																					
+17	17		301								Doctor B	Quit being picky. Good thing we found one with such high adaptability. Get ready for surgery.	2																					
+18	18		301								Doctor A	...Alright.	1																					
+19	19		301								Doctor A	Poor kid. Spending most of his life in a fabricated world.	1																					
+20	20		301								Doctor B	So what? It's just supply and demand. Some people want "genuine" entertainment, not just robots following a script.	2																					
+21	21		301								Doctor B	When there's enough people interested, the entertainment industry looks for families to buy their kids and send 'em off to the park for others to watch.	2																					
+22	22		301								Doctor B	Who knows... Had it not been for the virus, they might have become superstars. Then we'd be the ones jealous.	2																					
+23	23		301								Doctor A	...And if they didn't? Won't they just end up back with their families that sold them in the first place?	1																					
+24	24		301								Doctor B	Of course. Can't say their lives would be any better than it is now.	2																					
+25	25		301								Doctor B	Now, at least they can survive and become "Constructs". Whether they like it or not, they have a new goal.	2																					
+26	26		301								Doctor B	Now that the virus is wreaking havoc outside, people are eager to be told that everything is fine. Soldiers are fighting bravely on the front line. We're still in the same Golden Age as before. There's nothing to worry about.	2																					
+27	27		301								Doctor B	I'm sure he'll find hope in doing so.	2																					
+28	28		301								Doctor B	Alright, enough with the chit-chat. Time to begin the operation.	2																					
+29	29		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+30	30		202							1	2				1																			
+31	31		201							1	500138																							
+32	32		301			PanelActor1Shake				1		One of the gray figures gets larger as he approaches. Suddenly, Roland feels a heavy blow to his chest, followed by another.																						
+33	33		301			PanelActor1Shake						And another. And another. And another.																						
+34	34		201							1	500365	17																						
+35	35		301							1	Roland	...Rgh.	1																					
+36	36		201							1	500138																							
+37	37		301							1		Roland reaches out in irritation to push away the figure hammering on his chest.																						
+38	38		301									He feels a hard iron plate. The plate is cracked. He sees wires and flashing red light between the cracks.																						
+39	39		301									It is a mechanoid.																						
+40	40		401							2	613																							
+41	41		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+42	42		402							613																								
+43	43		201							1	500013																							
+44	44		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+45	45		401							2	1508																							
+46	46		301							1	Mechanoid?	Raaargh—Rrrgghh!	1																					
+47	47		401							2	613																							
+48	48		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+49	49		402							613																								
+50	50		101							Assets/Product/Texture/Image/BgStory/BgStory32.jpg																								
+51	51		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+52	52		202							1					1																			
+53	53		401							2	1506																							
+54	54		301									The red-eyed mechanoid roars as Roland pushes it to the ground. With the sound of metal colliding, Roland hears something hit the ground in the commotion.																						
+55	55		201							1	500365	17																						
+56	56		301							1	Roland	Huh...? Is this Sector H7M? What's a set like this doing here...?	1																					
+57	57		301								Roland	Where's my script? How do I get to the next scene? Requesting instructions...	1																					
+58	58		301									He forcefully stands up and raises his hand in a daze. Finding nothing on his ear, he lowers his hand.																						
+59	59		301								Roland	...No. The park. It's already... already destroyed.	1																					
+60	60		301									Yes, the facility where he lived, the place that had deceived him for some many years was destroyed by those mechanoids.																						
+61	61		301									But after that? What happened? Where is he?																						
+62	62		301								Roland	No time for questions. It's too dangerous here. I need to get away from those monsters...	1																					
+63	63		204							1	7																							
+64	64		301								Roland	But... Go where?	1																					
+65	65		201							1	500013																							
+66	66		401							2	1508																							
+67	67		301							1	Mechanoid?	Raaargh—Rrrgghh!	1																					
+68	68		201							1	500365	17																						
+69	69		301							1	Roland	...Rgh!	1																					
+70	70		202							1	2				1																			
+71	71		301									The mechanoid on the ground stands up as if being controlled by something and charges Roland once more.																						
+72	72		301									Before he has time to realize what's going on, his body reacts.																						
+73	73		201							1	500365	4	800																					
+74	74		201							2	500013		-800																					
+75	75		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+76	76		203							2	0.15	-300																						
+77	77		203							1	0.15	200																						
+78	78		401							2	11106007																							
+79	79		502					10		RImgBg1Shake																								
+80	80		505					700		RImgBg1Shake																								
+81	81		501					100		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+82	82		401							2	11106007																							
+83	83		203							2	0.05	-400																						
+84	84		203							1	0.05	100																						
+85	85		501					100		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+86	86		401							2	11106007																							
+87	87		203							2	0.05	-450																						
+88	88		203				RImgBg1Shake			1	0.05	50																						
+89	89		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		2																						
+90	90		301									Responding to the enemy's movement, he punches its core with all his strength. His other hand reaches into the cavity and tears at its insides, pulling out a static eruption of wires.																						
+91	91		301									Fast. Instinctive. The bloody hand-to-hand combat almost seems natural.																						
+92	92		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		2																					
+93	93		202							1	2				1																			
+94	94		201							1	500375																							
+95	95		301							1	Roland?	Good fight! Outstanding skill, Roland! You're a natural at killing your own kind.	1																					
+96	96		301									Holding the wires in his hand, Roland hears a round of applause and the familiar childlike voice.																						
+97	97		201							1	500365	17																						
+98	98		301							1	Roland	...No, I...	1																					
+99	99		301			PanelActor1Shake						A sudden pain races through his arm. Roland looks down. He sees several cracks in the metal plating that now composes his bare arm. Liquid flows out of the cracks.																						
+100	100		301									But it is not red. It is light blue. He suddenly remembers what it is—vital fluid.																						
+101	101		201							1	500375																							
+102	102		301							1	Roland?	Take a look. It's as you think. You've become a mechanoid. All you can do is act. You no longer have to result to cutting yourself to find out.	1																					
+103	103		201							1	500365	17																						
+104	104		301							1	Roland	I... No... W-why...	1																					
+105	105		201							1	500375																							
+106	106		301							1	Roland?	Oh, Roland. Running so long, you've lost your mind?	1																					
+107	107		301								Roland?	Let me refresh your memory.	1																					
+108	108		301								Roland?	Young Roland, an actor raised in that big park, lost his future because the park was destroyed by a virus.	1																					
+109	109		301								Roland?	However! He was saved by the forces of mystery and was declared suitable for a very powerful operation! Even though the process was tortuous and inhumane, in the end, he was transformed into a soldier known as a "Construct"!	1																					
+110	110		301								Roland?	No longer stuck in the shadows of the past, he found his own value in the new world. He fought day and night to protect Earth and resist the Punishing Virus! But it is not without its downsides. Working year-round on the taxpayer's dollar, that is.	1																					
+111	111		301								Roland?	This job has given him a new lease on life and a new will to survive! The knight has found a new king and new goals, and can carry on the fight the same as before!	1																					
+112	112		301								Roland?	He came into contact with the real world and finally realized that all the legends of knights he had read in the park were nothing more than pulp fiction fabricated by third-rate authors. So he took up his sword as a real knight and encouraged himself to march forward in the name of virtue!	1																					
+113	113		301								Roland?	Oh, what a marvelous ending! Absolutely splendid... You've used this kind of future to deceive yourself in the past. Have you not?	1																					
+114	114		401							1	36																							
+115	115		301								Roland?	Humans excel most at fooling other humans. Of course, that includes you.	1																					
+116	116		401							2	613																							
+117	117		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+118	118		402							613																								
+119	119		201							1	500252	17																						
+120	120		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+121	121		301							1	Roland	Ugh...!	1																					
+122	122		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+123	123		101							Assets/Product/Texture/Image/BgStory/Bgstory424.jpg																								
+124	124		501					200		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+125	125		101							Assets/Product/Texture/Image/BgStory/Bgstory122.png																								
+126	126		501					200		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+127	127		101							Assets/Product/Texture/Image/BgStory/BgStory32.jpg																								
+128	128		401							1	207																							
+129	129		301									His memory flashes in his M.I.N.D. Each mechanical joint in his body moves sluggishly.																						
+130	130		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab	2																							
+131	131		301			PanelActor1Shake						The first thing to recover is his pain module. A drilling pain in his skull surges through his head and to the rest of his body. He steps back and leans on a giant piece of scrap metal.																						
+132	132		204							1	17																							
+133	133		301			PanelActor1Shake				1	Roland	Rgh... Ouch! Arrgh...!	1																					
+134	134		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab																							
+135	135		301									Then, the visual module resumes operation.																						
+136	136		301									Looking up from the dark ruins, he sees a large group of mechanoids nearby. Bright red lights shine from their broken frames as they viciously pummel a pile of metal with their fists. Flying mechanical debris passes by Roland's eyes. Roland can vaguely hear wailing below them.																						
+137	137		301								Roland	...Oh, right. This place is a scrapyard.	1																					
+138	138		301									Becoming a Construct, fighting day and night, and playing the hero that saves Earth. A future that seemed bright.																						
+139	139		301									Then disaster struck. Large mechanoids corrupted by the Punishing Virus destroyed the defense line... Toppled buildings... And shattered the stability of daily life.																						
+140	140		301									That's it. That's all. This wasn't the first time he had seen it.																						
+141	141		301									Those scientists who are determined to save the Earth are now nothing more than the mud beneath the mechanoids' feet. Those brave soldiers either lost their lives to the Corrupted or became their servants.																						
+142	142		204							1	1																							
+143	143		301								Roland	As for me... Ha, I escaped here with the army, but that only caught the attention of more Corrupted.	1																					
+144	144		301								Roland	But... it doesn't matter. Just pretending to be dead seems to have saved me a lot. I can't be a soldier. At least I'm an excellent actor. I can still escape, escape to unknown places, and then live.	1																					
+145	145		301								Roland	As long as I live, I can... I can...	1																					
+146	146		301									—Can what?																						
+147	147		301								Roland	I can return to a normal quiet life...?	1																					
+148	148		301									Roland looks at his broken arm and the red light in it, and smiles.																						
+149	149		204							1	2																							
+150	150		301								Roland	...Haha. Who am I kidding? Corrupted?	1																					
+151	151		202							1					1																			
+152	152		301			RImgBg1Shake						Suddenly, he collapses onto the ground.																						
+153	153		301									Maybe his M.I.N.D. has recovered some processing power, or maybe his hearing module has finally clicked into place. As Roland lies on the ground, the faint wailing suddenly becomes clear in his ears.																						
+154	154		301									The place looks like a scrapyard, but with the sound of so many fleeing Constructs, it's bustling with noise. The loud yelling, crashing and bursts of sound remind Roland of some New Year's programs he had seen in the park.																						
+155	155		301									But the sound goes on for too long.																						
+156	156		301								Construct	Ahhh... AHHHH!!! Rghhh!!! That hurts!																						
+157	157		201							1	500252	1																						
+158	158		301							1	Roland	Oh, right. I said that line a few months ago.	1																					
+159	159		301								Construct	What's that racket?! Someone break my hearing module! That thing is too damn loud!																						
+160	160		204							1	2																							
+161	161		301								Roland	Haha. that's a good one. I had the same problem when I first became a Construct. I probably said the same thing.	1																					
+162	162		301								Construct	No! Why would I do that! I've had to kill my friends just to survive. Now I gotta...																						
+163	163		204							1	1																							
+164	164		301								Roland	But I never said that, though. I have no friends. I can try saying the line a few times, though.	1																					
+165	165		301								Roland	This actually sounds pretty catchy. I'm sure a remix would top the charts for at least a week. The title of the album may be "Roland and His Friends among the Scrapheap" or something like that.	1																					
+166	166		301								Roland	Should I help those people? I could try making them feel better by saying help is on the way, and they'll be saved soon. After all, acting is my forte. But damn, my whole body is killing me. I can't even move. Besides, looking like this, how could a freak like this fool them...	1																					
+167	167		301									Listening to the sound of all the screaming, he taps his finger. It's almost as if his pain is resonating with the screams, numbing the pain emanating from all around his body.																						
+168	168		301									Miraculously, the pain seems to subside along with the rhythm of the song.																						
+169	169		301									Or perhaps the Punishing Virus has already destroyed his ability to feel pain.																						
+170	170		202							1					1																			
+171	171		301									Now that his body was completely infected by the virus, a white light seems to shine in front of him.																						
+172	172		201							1	500020																							
+173	173		301							1	Mechanoid	Make your wishes a reality. Your values a reality. Join us...	1																					
+174	174		301									Peeling away from the white light, he sees a giant mechanoid. By the sound of its fragmented speech, it seems its vocalizer is broken. Its frame is badly damaged, but by the look of the huge smile carved into it, it appears to be a publicity mechanoid.																						
+175	175		301									This smiling face occupies Roland's vision. It approaches step by step with its fist held high, but Roland is powerless to move.																						
+176	176		201							1	500252	1																						
+177	177		301							1	Roland	Crushed by a hulking beast as the end of the act... How original. Hahaha...	1																					
+178	178		301								Roland	Ha... Just get it over quickly.	1																					
+179	179		301									Roland closes his eyes and spreads his arms and legs, as if to expose his weakness to the mechanoid in front of him and as a gesture for it to kill him. If anyone saw him now, they'd surely sigh and wonder how he managed to look more relaxed than someone on death row.																						
+180	180		201							1	500020																							
+181	181		301							1	Mechanoid	Make your wishes a reality. Your values a reality. Join us. Our company will. Make all your wishes. Come true!	1																					
+182	182		201							1	500252	2																						
+183	183		301							1	Roland	Wishes... heh...	1																					
+184	184		301									Just listening to the recording, the publicity robot in front of him seems to be smiling and inviting Roland to join some mysterious company. But after being corrupted, it looks more like a cruel executioner with red eyes. He involuntarily clenches his fist at such a thought.																						
+185	185		301								Roland	Ahhh... Wishes.	1																					
+186	186		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBeginHei.prefab	2																							
+187	187		202							1					1																			
+188	188		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+189	189		301									If someone tells you to make a wish...																						
+190	190		301									What would you ask for?																						
+191	191		301									Strength? Money? Power?																						
+192	192		301									Perhaps most people would be quiet and think it over first in order to sort through thousands of wishes and then pick the one with the highest priority.																						
+193	193		301									Even though it's just a casual question, and there is no promise to make their wishes come true, humans will still foolishly waste their time putting their wishes in order just in case they were ever to meet a genie.																						
+194	194		301									Humans are such greedy creatures that they don't even realize it most of the time.																						
+195	195		301									Are you talking about me...? I'd think it over quietly, but I'd never come up with an answer.																						
+196	196		301									Because I don't have any wishes.																						
+197	197		301									I was convinced that the pursuit of purpose is human instinct. Only in the journey of pursuing a purpose can one truly live and have a life.																						
+198	198		301									That's why I worked hard to tell the lies of an actor and pursue a peaceful future with my family.																						
+199	199		301									For the sake of my purpose... I deceived so many people, including some kind soul, including myself.																						
+200	200		301									In the end, I just witnessed a big lie. Just like those lies, I saw this Golden Age get easily destroyed by the Punishing Virus.																						
+201	201		301									After that, I was transformed into a Construct. I didn't want to be, but I was saving the world like a real hero.																						
+202	202		301									For a moment, I even began to think that it was suitable to live as a Construct and make world peace as my new purpose.																						
+203	203		301									But as you can see, the Punishing Virus destroyed all hope of achieving my new purpose. Faced with the Punishing Virus, Constructs and cutting-edge technology were far more fabricated than any lie.																						
+204	204		301									Just like my life as a human.																						
+205	205		301									And now, I have lost even the faintest wish to live on.																						
+206	206		301								Roland	...So I've chosen not to struggle or be hopeful. Maybe I will consume all my energy and then rot in this scrapyard. Doesn't that sound just fine?	1																					
+207	207		301									Closing his eyes, his vision turns into a black hole. Behind this void, a huge fist is about to fall.																						
+208	208		401							2	613																							
+209	209		501						300	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab	3																							
+210	210		402							613																								
+211	211		201							1	500378																							
+212	212		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiNoiseNew.prefab																							
+213	213		301							1		Suddenly, a memory of Mandhasti fills his M.I.N.D. Perhaps, it was the Punishing Virus's doing.	1																					
+214	214		301									"Liar." He seems to hear someone call him that.	1																					
+215	215		301									But he can't even muster up a response.																						
+216	216		201							1	500252	5																						
+217	217		301							1	Roland	...	1																					
+218	218		301								Roland	I disagree.	1																					
+219	219		301								Roland	That's not the reason.	1																					
+220	220		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+221	221		202							1					1																			
+222	222		101							Assets/Product/Texture/Image/BgStory/BgStory32.jpg																								
+223	223		301									Feeling a slight jolt in his clenched fist, Roland suddenly opens his eyes, raises his arm, and swings it forward.																						
+224	224		201							2	500020		-800																					
+225	225		201							1	500252	5	800																					
+226	226		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+227	227		203							2	0.15	-300																						
+228	228		203					50		1	0.15	300																						
+229	229		401							2	11106007																							
+230	230		502					10		RImgBg1Shake																								
+231	231		505					700		RImgBg1Shake																								
+232	232		301									Right as the giant fist is about to crush him, he sits up and stabs the mechanoid with incredible strength!																						
+233	233		301									The giant fist halts in the air and falls down only relying on inertia.																						
+234	234		301								Roland	(Gasps for breath)	1																					
+235	235		501					100		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+236	236		401							2	11106007																							
+237	237		203							2	0.05	-400																						
+238	238		203							1	0.05	200																						
+239	239		501					100		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+240	240		401							2	11106007																							
+241	241		203							2	0.05	-450																						
+242	242		203				RImgBg1Shake	50		1	0.05	150																						
+243	243		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		2																						
+244	244		301									Roland dodges the giant fist as it slowly falls, then exerts strength in his wrist once more and pulls out the metal pole. Attached to it, he sees a massive core and a tangled mess of wires.																						
+245	245		301									It is the Corrupted's core. Even though the mechanoid is huge, the crack in its frame exposed its core. Seizing the opportunity, Roland is able to easily pry it out and weaken it.																						
+246	246		301									Roland had noticed it when he first saw the mechanoid approach. All he had to do was lay on the ground and wait for it to approach. From that angle, the core was fully exposed. All he had to do was pluck it out with a gentle flick of the wrist.																						
+247	247		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		2																					
+248	248		203							2	0.25	-800																						
+249	249		202							2					1																			
+250	250		203							1	0.25																							
+251	251		301								Roland	Heh... How... How'd I know to do that...	1																					
+252	252		301								Roland	Whatever. It doesn't matter. Now... Right. Now I need to look around and see if...	1																					
+253	253		301									He tosses the core onto the ground and forces himself to his feet. Looking around, confused, the wailing sound still continues, but it seems to be muted by something.																						
+254	254		301								Roland	...?	1																					
+255	255		301									Roland notices a mysterious white color floating through the pile of abandoned frames. Just by looking at it, the wailing sound seems to deafen.																						
+256	256		301									It is a strand of hair. No, two strands. Roland sees long white hair tied into two bunches floating through the scrapyard.																						
+257	257		301		1		AniZhuanchangBegin					It dazzles like cold artificial sunlight. But in this dark abyss, he can't avert his eyes.																						

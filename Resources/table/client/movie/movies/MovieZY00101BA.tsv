@@ -1,0 +1,95 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory213.png																								
+2	2		401							1	201																							
+3	3		401							2	1515																							
+4	4		301			DialogEnable					Message	Gray Raven, here is the routine dispatch for your ground operation. We have left several supply crates on your planned route.																						
+5	5		301								Message	There are serums, repair kits, and spare parts in these crates. I'm sure they will be helpful in your upcoming fights.																						
+6	6		301								Message	Although I should end this message now with a typical "bon voyage"...																						
+7	7		301								Message	I must apologize—there is an unexpected task we hope you can take on before collecting your supplies.																						
+8	8		301								Message	We hope you can search for a few supply crates that have landed in no man's land after veering off their original trajectory.																						
+9	9		301								Message	While you can ignore this request, I'm afraid this is the only supply drop for this mission, so...																						
+10	10		301				AniZhuanchangBegin				Message	—Support Force																						
+11	1001		101							Assets/Product/Texture/Image/BgStory/BgStory68.jpg																								
+12	1002		201							1	500166																							
+13	11		301			AniZhuanchangEnd				1	Lucia	According to the coordinates we received, I believe we're near the no man's land where the supply crates landed, Commandant.	1																					
+14	1003		202							1																								
+15	1004		201							1	500142		400																					
+16	1005		201							2	500142		-400																					
+17	13		301							1	Mechanoid	...	1																					
+18	14		301								Mechanoid	...	2																					
+19	1006		202							1	2																							
+20	1007		201							1	1031001		400																					
+21	1008		201							2	500166		-400																					
+22	15		301							1	Liv	Hmm, those mechanoids have been staring at us.	1																					
+23	1009		302								Are they Corrupted?	16	Are they residents of this place?	17																				
+24	16	1010	301								Liv	The Punishing Virus concentration in this area is pretty minimal... And they aren't acting like Corrupted, either.	1																					
+25	17	1010	301								Lucia	Maybe, maybe not... But we would've been warned beforehand if there were a massive horde of Corrupted in this area.	2																					
+26	1010		203							1	0.25	600																						
+27	1011		203							2	0.25	-600																						
+28	1012		201							3	500026																							
+29	18		301							1	Lee	Either way, this doesn't look like a no man's land at all.	3																					
+30	19		301									Lee is referring to the various structures before you. These buildings might see some damage here and there, but they are largely intact overall.																						
+31	20		301									You can even see signs of repairs done on the exterior walls.																						
+32	1013		302								Did those mechanoids make these?	21	(Touch it)	22																				
+33	21	23	301								Lee	In a way. All of these buildings are in fact holograms.	3																					
+34	22	23	301								Lee	Commandant, I would refrain from doing that. They are all holograms only.	3																					
+35	23		301									Lee points upward at the sky as he says it, and you all notice the recon drones hovering in the air.																						
+36	24		301								Lee	They're simultaneously moving and scanning the area, all the while coordinating with each other to adjust their projections. It's quite an effective way to create a holographic environment.	3																					
+37	25		301								Lee	Based on their scale, I'm afraid everything we're seeing here is just a projection.	3																					
+38	1014		302								Who's controlling these mechanoids?	26	Let's look for the supply crates first.	27																				
+39	26	1015	301								Lee	I have no idea. Should we look into it, Commandant?	3																					
+40	27	1015	301								Lucia	The situation is peculiar, but our main objective here is to retrieve the supply crates. Let's start our search as the commandant said.	2																					
+41	1015		202							1	2	3																						
+42	1016		201							1	500018																							
+43	1017		401							1	205																							
+44	28		301							1	???	These here are a few odd fellas indeed. Stay where you are!	1																					
+45	29		301									A voice nearby shouts at you as you are preparing to go.																						
+46	1018		302								And you are?	30	We aren't odd!	31																				
+47	30	1019	301								Foreman	Y'all just gonna request a self-introduction right out of the gate, huh? I ain't got no name nor title, so you can just call me "Foreman" like the rest of them!	1																					
+48	31	3000	301								???	You're as odd as it gets here! I haven't seen any of y'all here before!																						
+49	3000	3001	201							2	500166		400																					
+50	3001	32	203							1	0.25	-400																						
+51	32	33	301							1	Lucia	We're from Babylonia, and we're here for a reason... My name is Lucia. Do you mind telling me yours?	2																					
+52	33	1019	301								Foreman	Hmm... A name, you say? Just call me "Foreman"! That's right, Foreman!	1																					
+53	1019		202							1	2																							
+54	1020		201							1	500018		-400																					
+55	1021		201							2	500166		400																					
+56	34		301							1	Lucia	Foreman... So, are you the one who's controlling all these mechanoids?	2																					
+57	35		301								Foreman	I'm the one asking questions here, alright? So answer me first!	1																					
+58	1022		302								(Explain yourself)	36																						
+59	36		301								Foreman	...That means you just happened upon our place, is that so?	1																					
+60	37		301								Lucia	That's right. We followed the coordinates from our Support Force here. Have you seen our supply crates?	2																					
+61	1023		203							1	0.25	-600																						
+62	1024		203							2	0.25	600																						
+63	1025		201							3	500026																							
+64	38		301							1	Lee	You can find Babylonia's logo on them. They should be quite easy to identify.	3																					
+65	39		301								Foreman	I don't know nothing about supply crates, but we did pick up some weird boxes with strange pictures on them a while ago.	1																					
+66	40		301								Lucia	That would be what we're looking for! Where are they now?	2																					
+67	41		301								Foreman	They're now rewards for the "Fist of the Taoist".	1																					
+68	42		301								Lucia	"Fist of the Taoist"?	2																					
+69	1026		302								What is this "Fist of the Taoist"?	43	But those are ours!	44																				
+70	43	45	301								Foreman	A competition to determine who the "Fist of the Taoist" is, obviously! Hey, seeing that y'all are here already, do you want to give it a go?	1																					
+71	44	45	301								Foreman	You should've labeled them "Not Rewards for the Fist of the Taoist" then, shouldn't you? You want them back? Join the competition and win!	1																					
+72	45		301								Lucia	What you're saying is... the only way we can get our supply crates back is to join this competition of yours?	2																					
+73	46		301								Foreman	You're welcome to take them back by force, as long as you're cool with making enemies of us all.	1																					
+74	1027		302								Let's take the path of least resistance.		Can you tell me more about this Fist of the Taoist?																					
+75	47		301								Foreman	You should know that this is our big celebration for the yearly Ghost Festival! We mechanoids will be undergoing the trials to become a Taoist, as well as participating in a ghost-hunting competition!	1																					
+76	48		301								Lee	I have no idea where you get all this information from, but does the title of the Fist of the Taoist mean anything special to you?	3																					
+77	49		301								Foreman	Are you teasing us about our knowledge of ghost-hunting? I'll let you know that we folks here watch Ghost Expert daily! DAILY!	1																					
+78	1028		204							3	10																							
+79	50		301								Lee	...Are you telling me that all the mechanoids here are fans of Ghost Expert?	3																					
+80	1029		302								What is this Ghost Expert?	51	Is this a fan convention?	52																				
+81	51	53	301								Lee	Probably a movie about this Taoist Foreman was talking about.	3																					
+82	52	53	301								Foreman	T-this ain't no fan convention! It's a study group with dedicated researchers! Not fans!	1																					
+83	53		301								Lucia	So how do we participate in this competition, and how do we win?	2																					
+84	54		301								Foreman	That's simple. First of all, you must pass the trials from our East, South, West, and North Generals, obtaining the qualification of a ghost hunter.	1																					
+85	55		301								Foreman	Afterward, you will use your qualifications to enter the four ghost-hunting venues we set up according to their order and hunt some ghosts!	1																					
+86	56		301								Foreman	The first one who goes through all four venues is the real Fist of the Taoist!	1																					
+87	57		301								Lucia	We will get our supply crates back after we become the Taoist, right?	2																					
+88	58		301								Foreman	You don't get them back—you're rewarded with them!	1																					
+89	1030		204							2	1																							
+90	59		301								Lucia	Speed is of the essence, then. In that case, we shouldn't waste any more time, Commandant. Let's go.	2																					
+91	1031		302								Not a timer...	60	Right, let's go get our supplies.	60																				
+92	1032		202							1	2	3																						
+93	1033		201							1	500018																							
+94	60		301		1		AniZhuanchangBegin			1	Foreman	Brilliant! Here come four more contestants! Good luck!	1																					

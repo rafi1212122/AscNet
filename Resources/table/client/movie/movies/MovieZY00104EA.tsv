@@ -1,0 +1,53 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory79.jpg																								
+2	2		401							1	205																							
+3	3		201							1	500170																							
+4	4		301			DialogEnable				1	West General	UUUUGGHH, how is it that you've defeated me, the West General?!	1																					
+5	5		301			PanelActor1Shake					West General	AAAAGGHHH!	1																					
+6	1001		202							1																								
+7	6		301									He has not actually fought you, but the West General poses weirdly after Lucia has passed the trial to demonstrate his defeat.																						
+8	7		301									He buries his head inside his hands, then half-kneels on the floor before falling to the ground with a "Thud!" while groaning painfully.																						
+9	1002		302								What a realistic performance.	4000	A little bit hyperbolic, isn't it?	4001																				
+10	4000	8	201							1	500166																							
+11	8	10	301							1	Lucia	He does act like a defeated villain, doesn't he? But we really should focus on our surroundings right now, Commandant.	1																					
+12	4001	9	201							1	500166																							
+13	9	10	301							1	Lucia	He should've fallen immediately. But we really should focus on our surroundings right now, Commandant.	1																					
+14	10		301				AniZhuanchangBegin					After Lucia points it out, you realize that the recon drones are also falling alongside the West General. With that, the holographic projections around you begin to crumble.																						
+15	1003		101							Assets/Product/Texture/Image/BgStory/BgStory84.jpg																								
+16	1004		401							1	12																							
+17	1005		202							1																								
+18	11		301			AniZhuanchangEnd						——																						
+19	1006		201							1	1031001	7	400																					
+20	1007		201							2	500026		-400																					
+21	12		301							1	Liv	What is this place?	1																					
+22	13		301								Lee	What it was originally, I imagine. It looks to be a factory.	2																					
+23	1008		204							1	4																							
+24	14		301									With that, Lee walks toward the giant screen and opens the terminal with the black box he carries.																						
+25	1009		302								What are you looking for?	15	Is this a good idea?	16																				
+26	15	19	301								Lee	Just what this factory was built for. Maybe we can even figure out why so many mechanoids gather here.	2																					
+27	16	17	301								Lee	I'm certain there will be an order to investigate this place after this. We're going to save some time if we start preparing now.	2																					
+28	17	18	301								Liv	But isn't this place maintained by Foreman and the others?	1																					
+29	18	19	301								Lee	I'm not digging for their secrets. I'm just trying to find out what this factory originally was.	2																					
+30	19		301									Lee begins to decipher the factory's terminal afterward, and data soon appear on the screen.																						
+31	1010		203							1	0.25	600																						
+32	1011		203							2	0.25	-600																						
+33	1012		201							3	500166																							
+34	20		301							1	Lucia	Are these records of the factory?	3																					
+35	21		301								Lee	Correct. It seems like this is an assembly line of a packaging plant—a medium-to-low-level one, judging by its scale.	2																					
+36	22		301								Lee	Pay attention to this... notice of cessation.	2																					
+37	23		301								Lee	There's a more detailed explanation underneath. Basically, all human employees were ordered to evacuate because of the Punishing Virus.	2																					
+38	1013		302								That was par for the course back then.	24	Just humans?	25																				
+39	24	4002	301								Lee	Indeed. This kind of operation was happening everywhere back in those days, but the point is they only evacuated the human employees...	2																					
+40	25	4002	301								Lee	Indeed. To lessen the pressure on the operations and guarantee their efficiency, only humans were evacuated.	2																					
+41	4002		204							1	14																							
+42	26		301								Liv	So, Foreman and the others...	1																					
+43	27		301								Lee	There are no concrete proofs, but we can assume that they are the mechanoids that got left behind.	2																					
+44	28		301								Lee	Although I'm not sure how they managed to avoid the Punishing Virus, they've somehow survived until now, and, following the schedule of the factory...	2																					
+45	29		301								Lee	They gather here to celebrate the festivals.	2																					
+46	30		301								Lee	This is just a guess, of course. I simply noticed that days like the Double Seventh Festival and the Ghost Festival are marked on their calendar.	2																					
+47	31		301								Liv	Even with the humans gone and the factory abandoned... they're still gathering here according to custom.	1																					
+48	32		301								Lee	Following their routines is a fundamental part of their programming logic. There's nothing unusual for them to act like this.	2																					
+49	33		301								Liv	...	1																					
+50	34		301								Lee	That's about everything we can find out about this place. Let's focus on the last trial.	2																					
+51	1014		302								Let's get going.	35																						
+52	35		301		1		AniZhuanchangBegin				Lucia	Right.	3																					

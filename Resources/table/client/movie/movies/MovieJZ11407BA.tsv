@@ -1,0 +1,60 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory69.jpg																								
+2	2		401							1	207																							
+3	3		201							1	500200																							
+4	4		301			DialogEnable				1		In the mountains far from New Murmansk, an old man is living alone, carving wooden figurines.	1																					
+5	5		301									The wood carving is incomplete, but the outlines of a girl can be made out.	1																					
+6	6		301									A knock rings from outside the door. The old man quickly hides the wood carving.	1																					
+7	7		301								Old Man	Who's there...?	1																					
+8	8		301								???	Captain Pfaff... It's us...																						
+9	9		203							1	0.5	-500																						
+10	10		201							2	500042		600																					
+11	11		201							3	500043		200																					
+12	12		301									Hearing the sound outside the door, Pfaff opens the door warily. A man and a woman—both researchers dressed in white—are standing outside.																						
+13	13		301							1	Pfaff	Don't call me Captain... I've had nothing to do with you for quite some time.	1																					
+14	14		301									As if expecting Pfaff's cold attitude, the two merely smile.																						
+15	15		301								Woman	Looks like you haven't changed a bit... Don't you remember that you saved us when the first experiment went wrong?	2																					
+16	16		301								Pfaff	I thought you were smart enough not to be blinded by clout and personal gain, but you chose to stay and continue with that horrific experiment.	1																					
+17	17		301									Pfaff notices that the two of them are visibly covered in wounds—even gunshot wounds.																						
+18	18		301								Pfaff	Why are you hurt?! What happened!	1																					
+19	19		301								Man	We escaped from Niflheim Lab. Hehe, way more difficult than we thought.	3																					
+20	20		301								Pfaff	Why...	1																					
+21	21		301								Woman	The Amberia Project is now completely out of control... The people of the Arctic Route Union are tracking down everyone involved in the experiment.	2																					
+22	22		301								Man	It's a pity... We should've gotten ourselves out of this inhuman experiment back when you did, Captain.	3																					
+23	23		202							1	2	3																						
+24	24		301									After the outbreak of the Punishing Virus, many places in the already unstable ARU took this opportunity to launch uprisings.																						
+25	25		201							1	500200																							
+26	26		301							1		Pfaff was once the captain of the armed force affiliated to the ARU responsible for suppressing riots and rescuing refugees.	1																					
+27	27		301								Pfaff	It's too late now... They were all innocent, but I sent them to hell myself.	1																					
+28	28		301									It did not take long before Pfaff understood everything. The refugees he rescued were sent to Niflheim to be used in humanoid-hybrid Construct research.	1																					
+29	29		301									Among which, was a kind girl... Amberia.	1																					
+30	30		201							1	500043																							
+31	31		301							1	Man	Captain...	1																					
+32	32		201							1	500042																							
+33	33		301							1	Woman	We stayed at the lab all this time not for research, but rather, for "her"...	1																					
+34	34		301									Saying so, only then did Pfaff realize that the female researcher has a sleeping baby in her arms.																						
+35	35		201							1	500200																							
+36	36		301							1	Pfaff	Is this... your child?	1																					
+37	37		301									The two look at each other in reluctance. Hesitating for a few moments, they both firmly nod.																						
+38	38		201							1	500042		-400																					
+39	39		201							2	500043		400																					
+40	40		301							1	Man	Yes, she's our daughter.	2																					
+41	41		301									The woman carefully hands the baby girl to Pfaff.																						
+42	42		301								Woman	Can you take her in? We hope that you can raise her, so that she won't make the same horrible mistakes that we did.	1																					
+43	43		301									Pfaff is about to ask them something, but the baby in his arms begins to stir, as if about to wake up.																						
+44	44		301									At the same time, loud hurried footsteps could be heard in the distance.																						
+45	45		301								Man	Looks like... we gotta go, Captain Pfaff. Glad we could see you one last time.	2																					
+46	46		202							1	2																							
+47	47		201							1	500200																							
+48	48		301							1	Pfaff	Sure, I'll take her in. Just one last thing... Does the child have a name?	1																					
+49	49		201							1	500042		400																					
+50	50		201							2	500043		-400																					
+51	51		301							1	Woman	Rosetta... Her name's Rosetta. "She" decided on this name a long, long time ago.	1																					
+52	52		301									The two look at the lovely baby girl in Pfaff's arms for one last time. They take each other by the hand and begins running into the depths of the snowy forest.																						
+53	53		202							1	2																							
+54	5301		201							1	500200																							
+55	54		301							1		Pfaff cradles the baby girl in his arms and watches the two's departure.	1																					
+56	55		301								Pfaff	So this is your atonement for your sins, huh...	1																					
+57	56		301									Pfaff gently strokes the baby girl's head in his arms. She opens her eyes and grabs Pfaff's thick fingers curiously.																						
+58	57		301								Pfaff	Or perhaps... atonement for mine as well...	1																					
+59	58		301		1		AniZhuanchangBegin				Pfaff	Then please, let me watch over you—until the end of my life.	1																					

@@ -1,0 +1,484 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+2	2		401							1	204																							
+3	3		201							1	500001																							
+4	4		301			DialogEnable				1	Celica	Good morning, Commandant.	1																					
+5	5		302								Morning... Celica...	6																						
+6	6		301								Celica	Whoa! Those are quite the striking pair of panda eyes! Are you... alright?	1																					
+7	7		302								I was making Zongs	8	I got a little carried away cooking	8																				
+8	8		301								Celica	Zongs? Oh yes, Duanwu festival is coming up. Did you make these yourself, Commandant? They look pretty tasty.	1																					
+9	9		301								Celica	Are those Zongs you have there? What an armful! Are those for the Constructs?	1																					
+10	10		302								Yes	11	It's Duanwu festival after all	11																				
+11	11		301								Celica	Ah... that's very thoughtful of you, Commandant, but be sure to ferret out the likes and dislikes of our Constructs, to avoid embarrassment.	1																					
+12	12		301								Celica	Wars have been started over less!	1																					
+13	13		202							1																								
+14	14		301									Celica leaves before you could muster a response.																						
+15	15		302				AniZhuanchangBegin				Wars...?	16	What does she mean by that?	16																				
+16	16		101							Assets/Product/Texture/Image/BgStory/BgStory17.jpg																								
+17	17		401							1	201																							
+18	18		301			AniZhuanchangEnd						(A delicate sheen of nervous energy does seem to be in the air today. All around Babylonia, people look at one another with wary and distrustful stares)																						
+19	19		201							1	500019																							
+20	20		201							2	500019		-600																					
+21	21		201							3	500019		600																					
+22	22		301							1	Construct Soldier	Good day. Could those be Zongs you have there? Mind if we open them up for inspection?	1																					
+23	23		302								Why is that?	24	Of course not	24																				
+24	24		301								Construct Soldier	Oh, no need to worry. We just wanted to make sure. Oh, and also ask you to vote for us.	2																					
+25	25		202							1	2	3			1																			
+26	26		201							1	500028		1460																					
+27	27		201							2	500028		1460																					
+28	28		203							1	1	-400																						
+29	29		203							2	1	400																						
+30	30		301							1	Zong Police A	Hey! Canvassing is prohibited!	1																					
+31	31		301								Zong Police B	You'll have to come with us!	2																					
+32	32		201							1	500019																							
+33	33		201							2	500019		-600																					
+34	34		201							3	500019		600																					
+35	35		301							1	Construct Soldier	Uh-oh... it's the Zong Police! Scram!	1																					
+36	36		202							1	2	3			1																			
+37	37		201							1	500028		-400																					
+38	38		201							2	500028		400																					
+39	39		301							1	Zong Police A	Stop right there!	1																					
+40	40		301								Zong Police B	There's another! Arrest first, ask questions later!	2																					
+41	41		302								Me!?	42																						
+42	42		301				AniZhuanchangBegin				???	Commandant, over here!																						
+43	411		202							1	2																							
+44	43		101							Assets/Product/Texture/Image/BgStory/BgStory17.jpg																								
+45	44		401							1	5																							
+46	45		201							1	500166	1																						
+47	46		301			AniZhuanchangEnd				1	Lucia	Thank goodness, Commandant. You almost got caught up in that debacle...	1																					
+48	47		302								Lucia?	48	What's going on here?	48																				
+49	48		204							1	4																							
+50	49		301								Lucia	You didn't know? As thanks for our assistance in escorting the Forsaken shipment, the ACA sent Babylonia a batch of assorted Zongs.	1																					
+51	50		301								Lucia	Disagreements started to spread from the ideal flavor of Zongs, all the way into other food preferences and the definition of good taste...	1																					
+52	51		302								For what...	52	Is this the "war" Celica spoke of?	52																				
+53	52		204							1	5																							
+54	53		301								Lucia	Now the two factions are hosting referendums in an attempt to install their flavor as the official Babylonian flavor.	1																					
+55	54		302								What about this "Zong Police" business...	55																						
+56	55		301								Lucia	The "Zong Police" is a temporary constabulary, hastily put together to head off impeding violence between the two factions.	1																					
+57	56		301								Lucia	The streets are no longer safe if you're carrying Zongs, Commandant...	1																					
+58	57		204							1	1																							
+59	58		301								Lucia	Say, those Zongs you have there, Commandant. Are they for us?	1																					
+60	59		302								(Gift Sweet Zongs)	60	(Gift Savory Zongs)	60																				
+61	60		204							1	6																							
+62	61		301								Lucia	You made these, Commandant?	1																					
+63	62		302								Is it to your liking?	63																						
+64	63		301								Lucia	Well... I'm not sure what my likings are, or rather, what "Lucia's" likings are.	1																					
+65	64		204							1	1																							
+66	65		301								Lucia	But I'll like it, Commandant, as long as you're making it.	1																					
+67	66		302								Lucia...	67																						
+68	67		201							1	1031001	1																						
+69	68		301							1	Liv	Oh, there you are, Lucia. Good morning, Commandant.	1																					
+70	69		201							1	500166	1																						
+71	71		301							1	Lucia	What a coincidence, Liv. The Commandant has a gift for us.	1																					
+72	73		201							1	1031001	1																						
+73	74		301				AniZhuanchangBegin			1	Liv	Really? Are those Zongs? I didn't know Commandant knew how to make them.	1																					
+74	12345		201							1	1031001																							
+75	75		301			AniZhuanchangEnd				1		(Which Zong should I give Liv?)																						
+76	76		302								Honey and Bean Paste (Sweet Zong)	77	Pork and Egg Yolk (Savory Zong)	91	Ask Lucia for advice	106																		
+77	77		204							1	1																							
+78	78		301								Liv	No problem.	1																					
+79	79		301								Liv	So different from normal desserts... sweet, still fresh. Is this really made out of rice?	1																					
+80	80		302								(Pick a grain of rice from the corner of Liv's mouth)	81																						
+81	81		204							1	6																							
+82	82		301								Liv	Oh! This is... Thank you, Commandant... this is embarrassing.	1																					
+83	83		204							1	1																							
+84	84		301								Liv	Time permitting, could Commandant give me some direction too?	1																					
+85	85		302								Of course	86																						
+86	86		204							1	6																							
+87	87	110	301								Liv	Okay, then... it's a date!	1																					
+88	88		204							1	4																							
+89	89		301								Liv	No problem.	1																					
+90	90		204							1	1																							
+91	91		301								Liv	Thank you... you really poured your heart into it, Commandant.	1																					
+92	92		301									Liv's smile always feels somewhat forced.																						
+93	93		301									Suddenly, several Construct Soldiers rush over with whistles in their mouths.																						
+94	94		201							1	500028		1460																					
+95	95		201							2	500028		1460																					
+96	96		203							1	1	-400																						
+97	97		203							2	1	400																						
+98	98		301							1	Zong Police A	Zong-related dispute detected!	1																					
+99	99		301								Zong Police B	Are you trying to start another war, feeding people Zongs you know they won't like?	2																					
+100	100		301								Zong Police A	Humanity shall remain forever divided by the unbridgeable Zong Schism. It is up to us, the Zong Police, to maintain the fragile peace on Babylonia.	1																					
+101	101		301								Zong Police B	Take them away. It is because of these people that war never changes.	2																					
+102	102		302								Wait!? What the	103																						
+103	103		202							1	2				1																			
+104	104		201							1	500166	6																						
+105	105		301							1	Lucia	C-Commandant!!!	1																					
+106	25852		302								Please give me a chance!	25853																						
+107	25853		201							1	500028																							
+108	25854	12345	301				AniZhuanchangBegin			1	Zong Police A	Alright then... but choose wisely this time.	1																					
+109	106		201							1	500166																							
+110	107		301							1	Lucia	I think Liv is attempting to make her own Zongs as well, but it doesn't seem to be going so well.	1																					
+111	108		301								Lucia	Lee and I have tasted quite a few desserts Liv has whipped up with scraps and leftovers. I thought they were good... but Liv always seemed unsatisfied.	1																					
+112	109	76	201							1	1031001	1																						
+113	110		201							1	500166	1																						
+114	111		301							1	Lucia	Liv seems pretty happy just to receive Zongs.	1																					
+115	112		302								Now to give away the rest	113																						
+116	113		301								Lucia	So this is the meaning of festivals, and gifts... So simple, and yet it brings such joy...	1																					
+117	114		302								It's the thought that counts	115																						
+118	115		204							1	4																							
+119	116		301				AniZhuanchangBegin				Lucia	The thought that... counts...	1																					
+120	117		101							Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+121	118		201							1	500026	6	-400																					
+122	119		201							2	500166		400																					
+123	1191		301			AniZhuanchangEnd				1	Lucia	Ah, Lee. It's good that you're here.	2																					
+124	120		301								Lee	Zongs? Even Commandant has joined the madding crowd...	1																					
+125	121		301								Lucia	No, these are handmade by Commandant, in the spirit of the festival.	2																					
+126	122		202							1	2				1																			
+127	123		201							1	500026																							
+128	125		301				AniZhuanchangBegin			1	Lee	I see. But I wish to get one thing straight: no matter who made these Zongs, my critique will be honest and uncompromising.	1																					
+129	30000		201							1	500026																							
+130	126		301			AniZhuanchangEnd				1		(Which Zong should I give Lee?)																						
+131	127		302								Mushroom and Pork (Savory Zong)	128	Sticky Rice and Bean Paste (Sweet Zong)	135	Ask Lucia for advice	139																		
+132	128		204							1																								
+133	129		301								Lee	...	1																					
+134	130		301								Lee	(Quietly, Lee finishes the Zong and gives a curt nod)	1																					
+135	131		204							1																								
+136	132		301								Lee	A decent attempt, I'd say...	1																					
+137	133		201							1	500166	1																						
+138	134	143	301				AniZhuanchangBegin				Lucia	Lee looks decently... satisfied? Let's call it that.	1																					
+139	135		204							1																								
+140	136		301								Lee	...	1																					
+141	137		204							1																								
+142	138		301								Lee	Commandant, I'm afraid I have nothing to offer except my apologies.	1																					
+143	22335		301									Suddenly, several Construct Soldiers rush over with whistles in their mouths.																						
+144	22336		201							1	500028		1460																					
+145	22337		201							2	500028		1460																					
+146	22338		203							1	1	-400																						
+147	22339		203							2	1	400																						
+148	22340		301							1	Zong Police A	Zong-related dispute detected!	1																					
+149	22341		301								Zong Police B	Are you trying to start another war, feeding people Zongs you know they won't like?	2																					
+150	22342		301								Zong Police A	Humanity shall remain forever divided by the unbridgeable Zong Schism. It is up to us, the Zong Police, to maintain the fragile peace on Babylonia.	1																					
+151	22343		301								Zong Police B	Take them away. It is because of these people that war never changes.	2																					
+152	22344		302								Wait!? What the	22345																						
+153	22345		202							1	2				1																			
+154	22346		201							1	500166	6																						
+155	22347		301							1	Lucia	C-Commandant!!!	1																					
+156	95159		302								Please give me a chance!	95160																						
+157	95160		201							1	500028																							
+158	95161	30000	301				AniZhuanchangBegin			1	Zong Police A	Alright then... but choose wisely this time.	1																					
+159	139		201							1	500166																							
+160	140		301							1	Lucia	Right, Lee mentioned that he didn't like sweet things.	1																					
+161	141		301								Lucia	So he probably finished all of Liv's desserts to make her happy.	1																					
+162	142	127	201							1	500026																							
+163	143		101							Assets/Product/Texture/Image/BgStory/BgStory17.jpg																								
+164	144		201							1	500110		-600																					
+165	145		201							2	500128																							
+166	146		201							3	500166		600																					
+167	147		301			AniZhuanchangEnd				1	Lucia	Bianca! And Miss Ayla, too. What are you talking about?	3																					
+168	148		301								Ayla	Nothing except that exquisite new body of yours! I'd love to have you model for me sometime.	1																					
+169	149		204							3	6																							
+170	150		301								Lucia	Um... if I can help.	3																					
+171	151		301								Lucia	By the way, what do you know about the ruckus outside?	3																					
+172	152		301								Bianca	Truth be told, we were driven here by sheer irritation as well.	2																					
+173	153		301								Bianca	Though it is understandable. It is only fair to cajole and revel during a festival. To break them up would be somewhat obtuse on our part.	2																					
+174	154		202							1	2	3			1																			
+175	155		201							1	500110	1																						
+176	156		301								Ayla	No matter which side gets their way, it will all be a colorful addition to Babylonia's cultural and historical tapestry. It's fun to watch from a distance.	1																					
+177	157		301				AniZhuanchangBegin				Ayla	However, even neutral observers like us have to have standards when it comes to taste.	1																					
+178	12347		201							1	500110																							
+179	158		301			AniZhuanchangEnd				1		(Which Zong should I give Ayla?)																						
+180	159		302								White Lotus Bean Paste (Sweet Zong)	160	Pork and Egg Yolk (Savory Zong)	163	Ask Lucia for advice	166																		
+181	160		204							1																								
+182	161		301								Ayla	White and flawless, like a work of art! And the sweetness and fragrance isn't overpowering at all.	1																					
+183	162	169	301				AniZhuanchangBegin				Ayla	The Commandant has good taste!	1																					
+184	163		204							1	4																							
+185	164		301								Ayla	Well... objectively speaking, there's nothing wrong with the flavor...	1																					
+186	165		301								Ayla	But it does feel a bit... boorish.	1																					
+187	22350		301									Suddenly, several Construct Soldiers rush over with whistles in their mouths.																						
+188	22351		201							1	500028		1460																					
+189	22352		201							2	500028		1460																					
+190	22353		203							1	1	-400																						
+191	22354		203							2	1	400																						
+192	22355		301							1	Zong Police A	Zong-related dispute detected!	1																					
+193	22356		301								Zong Police B	Are you trying to start another war, feeding people Zongs you know they won't like?	2																					
+194	22357		301								Zong Police A	Humanity shall remain forever divided by the unbridgeable Zong Schism. It is up to us, the Zong Police, to maintain the fragile peace on Babylonia.	1																					
+195	22358		301								Zong Police B	Take them away. It is because of these people that war never changes.	2																					
+196	22359		302								Wait!? What the	22360																						
+197	22360		202							1	2				1																			
+198	22361		201							1	500166	6																						
+199	22362		301							1	Lucia	C-Commandant!!!	1																					
+200	865656		302								Please give me a chance!	865657																						
+201	865657		201							1	500028																							
+202	865658	12347	301				AniZhuanchangBegin			1	Zong Police A	Alright then... but choose wisely this time.	1																					
+203	166		201							1	500166																							
+204	167		301							1	Lucia	In my mind, Miss Ayla probably prefers more aesthetically pleasing things.	1																					
+205	168	159	201							1	500110	1																						
+206	169		201							1	500128																							
+207	12348		201							1	500128																							
+208	170		301			AniZhuanchangEnd				1		(Which Zong should I give Bianca?)																						
+209	171		302								Red Date Paste (Sweet Zong)	172	Fresh Ham (Savory Zong)	174	Ask Lucia for advice	176																		
+210	172		301							1	Bianca	Thank you...	1																					
+211	173		301								Bianca	But it is still too sweet for my taste.	1																					
+212	22370		301									Suddenly, several Construct Soldiers rush over with whistles in their mouths.																						
+213	22371		201							1	500028		1460																					
+214	22372		201							2	500028		1460																					
+215	22373		203							1	1	-400																						
+216	22374		203							2	1	400																						
+217	22375		301							1	Zong Police A	Zong-related dispute detected!	1																					
+218	22376		301								Zong Police B	Are you trying to start another war, feeding people Zongs you know they won't like?	2																					
+219	22377		301								Zong Police A	Humanity shall remain forever divided by the unbridgeable Zong Schism. It is up to us, the Zong Police, to maintain the fragile peace on Babylonia.	1																					
+220	22378		301								Zong Police B	Take them away. It is because of these people that war never changes.	2																					
+221	22379		302								Wait!? What the	22380																						
+222	22380		202							1	2				1																			
+223	22381		201							1	500166	6																						
+224	22382		301							1	Lucia	C-Commandant!!!	1																					
+225	858887		302								Please give me a chance!	858888																						
+226	858888		201							1	500028																							
+227	858889	12348	301				AniZhuanchangBegin			1	Zong Police A	Alright then... but choose wisely this time.	1																					
+228	174		301								Bianca	In my memories, meats were a valuable commodity, and salt was worth its weight in gold too... I've almost forgotten their taste on my tongue.	1																					
+229	175	178	301								Bianca	It was delicious. Thank you.	1																					
+230	176		201							1	500166																							
+231	177	1771	301							1	Lucia	I remember Lee saying that his taste was not far off from Bianca's. Perhaps I could use her as a reference.	1																					
+232	1771	171	201							1	500128																							
+233	178		201							1	500166	1	1																					
+234	179		301				AniZhuanchangBegin			1	Lucia	Both Miss Ayla and Bianca approve of Commandant's cooking. What a pleasant surprise.	1																					
+235	180		101							Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+236	181		401							1	205																							
+237	182		201							1	500155		-600																					
+238	183		201							2	500091	2																						
+239	184		201							3	500166		600																					
+240	185		301			AniZhuanchangEnd					Nanami	Gray Raven Commandant! Grr~	2																					
+241	186		302								Nanami... and Chrome?	187																						
+242	187		204							1	1																							
+243	188		301								Chrome	Lucia. Commandant.	1																					
+244	189		301								Lucia	Chrome, how come you're with Nanami?	3																					
+245	190		204							2	1																							
+246	191		301								Chrome	So you're Nanami? The strange Construct that Gray Raven talked about earlier?	1																					
+247	192		204							2	2																							
+248	193		301								Nanami	Yeppers! Nanami usually goes by Nanami!	2																					
+249	194		301								Lucia	So you two don't even know each other's names?	3																					
+250	195		301								Nanami	Would Lucia and Commandant like to join us?	2																					
+251	196		301								Lucia	Nanami, I understand... but Chrome too...?	3																					
+252	197		301								Chrome	Well, I could hardly refuse a lady in need of assistance... but I didn't think it would be to lobby for votes.	1																					
+253	198		204							1																								
+254	199		301								Chrome	Alas, a gentleman honors his promises.	1																					
+255	200		202							1	2	3			1																			
+256	201		201							1	500091	2																						
+257	202		301							1	Nanami	Ooh~ are those Zongs you got there? Are they for us?	1																					
+258	203		302								Which side are you on?	204																						
+259	204		204							1	1																							
+260	205		301				AniZhuanchangBegin				Nanami	That would be telling, and telling's no fun! Guess!	1																					
+261	12349		201							1	500091																							
+262	206		301			AniZhuanchangEnd				1		(Which Zong should I give Nanami?)																						
+263	207		302								Sesame and Roasted Nuts (Sweet Zong)	208	Roast Pork (Savory Zong)	212	Ask Lucia for advice	215																		
+264	208		204							1	2																							
+265	209		301								Nanami	Sweet... yummy!	1																					
+266	210		301								Nanami	But don't get cocky, Commandant. Of the four Sweet Sovereigns, Nanami is but the lowliest!	1																					
+267	211		302				AniZhuanchangBegin				What is this Sweet Sovereign business now...	218																						
+268	212		204							1																								
+269	213		301								Nanami	Savory...euch!	1																					
+270	214		301								Nanami	Savory is ptooey... and Nanami hates ptooey!	1																					
+271	22390		301									Suddenly, several Construct Soldiers rush over with whistles in their mouths.																						
+272	22391		201							1	500028		1460																					
+273	22392		201							2	500028		1460																					
+274	22393		203							1	1	-400																						
+275	22394		203							2	1	400																						
+276	22395		301							1	Zong Police A	Zong-related dispute detected!	1																					
+277	22396		301								Zong Police B	Are you trying to start another war, feeding people Zongs you know they won't like?	2																					
+278	22397		301								Zong Police A	Humanity shall remain forever divided by the unbridgeable Zong Schism. It is up to us, the Zong Police, to maintain the fragile peace on Babylonia.	1																					
+279	22398		301								Zong Police B	Take them away. It is because of these people that war never changes.	2																					
+280	22399		302								Wait!? What the	22400																						
+281	22400		202							1	2				1																			
+282	22401		201							1	500166	6																						
+283	22402		301							1	Lucia	C-Commandant!!!	1																					
+284	898987		302								Please give me a chance!	898988																						
+285	898988		201							1	500028																							
+286	898989	12349	301				AniZhuanchangBegin			1	Zong Police A	Alright then... but choose wisely this time.	1																					
+287	215		201							1	500166																							
+288	216		301							1	Lucia	Children usually gravitate towards sweets more... though Nanami hardly counts as one, it's a safe bet.	1																					
+289	217	207	201							1	500091	1																						
+290	218	2181	201							1	500155																							
+291	1235		201							1	500155																							
+292	2181		301			AniZhuanchangEnd				1		(Which Zong should I give Chrome?)																						
+293	219		302								Fruit and Honeyed Dates (Sweet Zong)	220	Egg Yolk and Five Spice Pork (Savory Zong)	224	Ask Lucia for advice	226																		
+294	220		301							1	Chrome	Oh, my thanks, Commandant!	1																					
+295	221		204							1	4																							
+296	222		301								Chrome	It is not... inedible, but common sense dictates that sweets have no place in a main course. The two should remain separate.	1																					
+297	223		301								Chrome	Regrettably, I must draw the line at sweet rice...	1																					
+298	22500		301									Suddenly, several Construct Soldiers rush over with whistles in their mouths.																						
+299	22501		201							1	500028		1460																					
+300	22502		201							2	500028		1460																					
+301	22503		203							1	1	-400																						
+302	22504		203							2	1	400																						
+303	22505		301							1	Zong Police A	Zong-related dispute detected!	1																					
+304	22506		301								Zong Police B	Are you trying to start another war, feeding people Zongs you know they won't like?	2																					
+305	22507		301								Zong Police A	Humanity shall remain forever divided by the unbridgeable Zong Schism. It is up to us, the Zong Police, to maintain the fragile peace on Babylonia.	1																					
+306	22508		301								Zong Police B	Take them away. It is because of these people that war never changes.	2																					
+307	22509		302								Wait!? What the	22510																						
+308	22510		202							1	2				1																			
+309	22511		201							1	500166	6																						
+310	22512		301							1	Lucia	C-Commandant!!!	1																					
+311	87845		302								Please give me a chance!	87846																						
+312	87846		201							1	500028																							
+313	87847	1235	301				AniZhuanchangBegin			1	Zong Police A	Alright then... but choose wisely this time.	1																					
+314	224		301								Chrome	Oh, my thanks, Commandant!	1																					
+315	225	229	301								Chrome	Ah, I prefer this over its sweeter counterpart.	1																					
+316	226		201							1	500166																							
+317	227		301							1	Lucia	As I recall, Chrome once turned down one of Liv's dessert when I offered it to him. He probably doesn't have a sweet tooth.	1																					
+318	228	2281	301								Lucia	But Nanami, on the other hand, has a huge sweet tooth. Strange, that he's hanging with her...	1																					
+319	2281	219	201							1	500155																							
+320	229		201							1	500155		-400			1																		
+321	230		201							2	500091		400			1																		
+322	231		301							1	Nanami	Chrome, you traitor! You have betrayed the Sweet League!	2																					
+323	232		301				AniZhuanchangBegin			1	Chrome	Traitor...?	1																					
+324	2321	233	202							1	2				1																			
+325	233	2331	101							Assets/Product/Texture/Image/BgStory/BgStory40.jpg																								
+326	2331		401							1	201																							
+327	234		301			AniZhuanchangEnd						As you emerge onto the open area of the Babylonia plaza, you see two groups of people facing off against one another, brandishing banners and signs.																						
+328	235		201							1	500019		-400																					
+329	236		201							2	500019		400																					
+330	237		301							1	Sweet Zong League Member	Zongs that are sweet cannot be beat!	1																					
+331	238		301								Savory Zong Party Member	"Savor" the better flavor!	2																					
+332	239		202							1	2				1																			
+333	240		201							1	500028		1460																					
+334	241		201							2	500028		1460																					
+335	242		203							1	1	-400																						
+336	243		203							2	1	400																						
+337	244		301							1	Zong Police A	Disperse! You are not authorized to gather here.	1																					
+338	245		202							1	2																							
+339	246		301									The Zong Police successfully disperse most of the rabble-rousers, until only the ringleaders of the opposing movements are left.																						
+340	247		201							1	500028		-400																					
+341	248		201							2	500028		400																					
+342	249		301								Zong Police B	Did you two have to start a riot...	2																					
+343	250		202							1	2																							
+344	251		201							1	1111001																							
+345	252		301							1	Karenina	What was I supposed to do, stop the groundswell of support for savory Zongs? Why don't you ask that clueless ape over there?	1																					
+346	9655		203							1	0.25	-400																						
+347	253		201							2	1081001	2	400																					
+348	254		301							1	Kamui	I was elected as leader of this movement. I will not let them down!	2																					
+349	255		301								Kamui	Why won't you just concede that sweet Zongs should be the official Babylonian flavor?	2																					
+350	256		204							1	5																							
+351	257		301							1	Karenina	*Beep—*ing *Beep—* YOU concede!	1																					
+352	258		202							1	2																							
+353	259		201							1	500166																							
+354	260		301							1	Lucia	Kamui and Karen... so you two are the ringleaders?	1																					
+355	261		201							1	1111001		-400																					
+356	262		201							2	1081001	1	400																					
+357	263		301							1	Kamui	That's right. I represent the Sweet Zong League. Karen over there, she speaks for the pitiful Savory Zong Party... And please, call me Captain Kamui.	2																					
+358	264		301							1	Karenina	Tch... Lucia, Gray Raven Commandant... this doesn't concern you.	1																					
+359	265		202							1	2																							
+360	266		201							1	500166																							
+361	267		301							1	Lucia	Actually, Commandant wants to give you a few of these Zongs...	1																					
+362	268		201							1	1111001																							
+363	269		301							1	Karenina	Hmph, then give them already.	1																					
+364	270		301									(Which Zong should I give Karenina?)																						
+365	271		302								Eight Treasures (Sweet Zong)	272	Spicy Pork (Savory Zong)	277																				
+366	272		204							1	1																							
+367	273		301								Karenina	You're kidding me... only kids eat sticky sweet stuff like this. Ugh, I can feel my stomach turning just looking at it.	1																					
+368	2334		302								Just try it	275																						
+369	275		204							1																								
+370	276		301								Karenina	*Beep—*, fine! You're so annoying. I warn you, if this isn't to my taste, I'll yeet the whole thing to outer space.	1																					
+371	2333		302								How is it?	2344																						
+372	2344		301								Karenina	No problem.	1																					
+373	2345		301								Karenina	I mean... it's alright... kinda sweet...	1																					
+374	2346		302								Didn't think you'd like it	632563																						
+375	632563		204							1	5																							
+376	2347	303	301								Karenina	What's that s'posed to mean? You saying I don't have a sweet personality to match?	1																					
+377	277		204							1	5																							
+378	278		301								Karenina	What is this stuff... why is it hot?	1																					
+379	279		204							1																								
+380	280		301								Karenina	So weird... how dare you give me such a weird combination of flavors! Such a... weirdly... enticing...	1																					
+381	281		302								And yet you ate it all	282																						
+382	282		204							1	5																							
+383	283	284	301								Karenina	Shut up, you!	1																					
+384	284		201							1	1081001																							
+385	285		301									(Which Zong should I give Kamui?)																						
+386	286		302								Crystal Lotus Seed (Sweet Zong)	287	Abalone Seafood (Savory Zong)	295																				
+387	287		204							1	1																							
+388	288		301							1	Kamui	Such sweetness in a delectable little package. Convenient!	1																					
+389	289		301								Kamui	I could eat these all day.	1																					
+390	290		302								Kamui...	291																						
+391	291		301								Kamui	What's up?	1																					
+392	292		302								You have to unwrap the leaves...	293																						
+393	293		204							1	2																							
+394	294	322	301								Kamui	Ahahaha, is that so? (nibble) I was just about to say that the leaves are a bit on the tough side! (nibble)	1																					
+395	295		204							1	1																							
+396	296		301							1	Kamui	"Savory is heresy", that's what they say...	1																					
+397	297		301								Kamui	Truth be told, savory isn't all bad... hmm, pretty tasty, to be honest!	1																					
+398	298		302								Kamui...	299																						
+399	299		301								Kamui	What's up?	1																					
+400	300		302								You have to unwrap the leaves...	301																						
+401	301		204							1	2																							
+402	302	322	301								Kamui	Ahahaha, is that so? (nibble) I was just about to say that the leaves are a bit on the tough side! (nibble)	1																					
+403	303		201							1	1081001																							
+404	304		301									(Which Zong should I give Kamui?)																						
+405	305		302								Crystal Lotus Seed (Sweet Zong)	306	Abalone Seafood (Savory Zong)	314																				
+406	306		204							1	1	307																						
+407	307		301							1	Kamui	Such sweetness in a delectable little package. Convenient!	1																					
+408	308		301								Kamui	I could eat these all day.	1																					
+409	309		302								Kamui...																							
+410	310		301								Kamui	What's up?	1																					
+411	311		302								You have to unwrap the leaves...	312																						
+412	312		204							1	2																							
+413	313	322	301								Kamui	Ahahaha, is that so? (nibble) I was just about to say that the leaves are a bit on the tough side! (nibble)	1																					
+414	314		204							1	1																							
+415	315		301							1	Kamui	"Savory is heresy", that's what they say...	1																					
+416	316		301								Kamui	Truth be told, savory isn't all bad... hmm, pretty tasty, to be honest!	1																					
+417	317		302								Kamui...	318																						
+418	318		301								Kamui	What's up?	1																					
+419	319		302								You have to unwrap the leaves...	320																						
+420	320		204							1	2																							
+421	321	333	301								Kamui	Ahahaha, is that so? (nibble) I was just about to say that the leaves are a bit on the tough side! (nibble)	1																					
+422	322	3221	201							1	500166	1																						
+423	3221		401							1	5																							
+424	323		301							1	Lucia	At least all the Zongs are gone.	1																					
+425	324		204							1	4																							
+426	325		301								Lucia	Commandant? What's wrong?	1																					
+427	326		302								Didn't think I'd be this tired	327	Since when did gifting get so hard...	327																				
+428	327		301								Lucia	Don't worry. Come tomorrow, they'll be back to normal... mostly.	1																					
+429	328		301								Lucia	Still, it's a shame that Commandant's Zongs couldn't bring everyone together for the festival...	1																					
+430	329		302								Was I that transparent...	330																						
+431	330		204							1	1																							
+432	331		301								Lucia	I usually have a feel for what you're thinking.	1																					
+433	332		301		1		AniZhuanchangBegin				Lucia	Festivals are rare occasions. It would be nice to have all of Babylonia together to celebrate.	1																					
+434	333	3331	401							1	5																							
+435	3331	334	201							1	1111001		-400																					
+436	334		201							2	1081001	1	400																					
+437	335		301							1	Kamui	So? The Gray Raven Commandant knows his way around a Zong, doesn't he?	2																					
+438	336		204							1	1																							
+439	337		301								Karenina	Hmph... it's so-so. It's better than you, Kamui, gorging yourself on savory Zongs.	1																					
+440	338		204							2	2																							
+441	339	3391	301								Kamui	Yep! Those savory Zongs were halfway decent... And that's Captain Kamui to you.	2																					
+442	3391		202							1	2																							
+443	340		201							1	500091																							
+444	341		301							1	Nanami	Ahh! Even Captain Kamui has gone rogue!	1																					
+445	342		201							1	1081001																							
+446	343		301							1	Kamui	Savory Zongs ain't half bad!	1																					
+447	344		201							1	500091																							
+448	345		301							1	Nanami	That's it! Nanami wants to try the other flavors too!	1																					
+449	346		201							1	500155																							
+450	347		301							1	Chrome	Nobody was keeping you in the first place...	1																					
+451	348		201							1	1081001	1																						
+452	349		301							1	Kamui	Captain! You're here too?	1																					
+453	350		201							1	500026																							
+454	351		301							1	Lee	No, I distinctly recall you crowning yourself Captain, Captain Kamui.	1																					
+455	352		201							1	1081001	2																						
+456	353		301							1	Kamui	Ahh... I was just horsing around, Captain.	1																					
+457	334455		202							1																								
+458	354		201							1	500110	1	400																					
+459	355		201							2	500128		-400																					
+460	356		301							1	Bianca	It would seem that this "war" of ours shall end unresolved.	2																					
+461	357		204							1	2																							
+462	358		301								Ayla	That's alright. War, in all its forms, is never a good thing.	1																					
+463	359		301								Ayla	Festivals like these, it's better to have everyone together.	1																					
+464	360		302								Though we seem to be short on Zongs	3601																						
+465	3601		202							1	2																							
+466	361		201							1	1031001	1																						
+467	362		301							1	Liv	I actually brought a lot of sweet treats too, Commandant. If you don't mind... we can all share.	1																					
+468	363		201							1	500166																							
+469	364		301							1	Lucia	...	1																					
+470	23333		302								What's the matter, Lucia?	365	Babylonia to Lucia...?	365																				
+471	365		204							1	1																							
+472	366		301							1	Lucia	It's great when everyone comes together, Commandant. I wish we can spend every year, every month, and every holiday just like this.	1																					
+473	367		302								...	368	Lucia...?	368																				
+474	368		301							1	Lucia	I don't know why, but the words just... surfaced in my M.I.N.D.... then leapt off my tongue.	1																					
+475	23334		301								Lucia	It's good, on a day like this, to have everyone together.	1																					
+476	23335		302								Happy Duanwu festival, Lucia.	23336																						
+477	23336		301				AniZhuanchangBegin				Lucia	Happy Duanwu festival, Commandant.	1																					
+478	3681		202							1																								
+479	369		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+480	370		201							1	500001																							
+481	371		301			AniZhuanchangEnd				1	Celica	And just like that, this war of foolish pride has come to an end.	1																					
+482	372		301								Celica	Hm? Does Celica like Savory or Sweet Zongs?	1																					
+483	373		301		1		AniZhuanchangBegin				Celica	Well... why not take a guess, Commandant?	1																					

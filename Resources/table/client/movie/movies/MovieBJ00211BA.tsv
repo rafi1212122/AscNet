@@ -1,0 +1,159 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory93.png																								
+2	2		401							1	202																							
+3	3		301			DialogEnable						After the crew passes through a block of buildings, a colorful large-wheeled snowmobile comes into sight. On top of it sits an unfamiliar man, dressed in thick but tattered winter clothes. Behind him is the source of the deafening music: a radio.																						
+4	4		201							1	1031001		-400																					
+5	5		201							2	1101001		400																					
+6	6		301							1	Liv	Biological signal detected... It's a human man.	1																					
+7	7		301								Watanabe	...	2																					
+8	8		202							1	2																							
+9	9		301				AniZhuanchangBegin					As you converse, the man seems to have finally noticed you and begins waving.																						
+10	10		101							Assets/Product/Texture/Image/BgStory/Bgstory103.png																								
+11	11		201							1	500140																							
+12	12		302								(Ask about the situation)	13																						
+13	13		301			AniZhuanchangEnd				1	Unfamiliar Man	Hello, friends!	1																					
+14	14		301								Unfamiliar Man	Ah, no no, hahahaha! I'm not lost!	1																					
+15	15		301								Unfamiliar Man	See this beauty? It's an antique snowmobile, Snow Leopard M958. Good for all terrains, totally swag, most popular in New Durkan in the Post-Pandemic Age. They don't manufacture this no more. The one and only in the world!	1																					
+16	16		301								Unfamiliar Man	She's been with me much longer than some Corrupted been walkin'!	1																					
+17	17		301								Unfamiliar Man	Never seen ya before. First time here?	1																					
+18	18		302								Yeah.	19																						
+19	19		301								Unfamiliar Man	There's but one place worth seein' here. Ya know, "that" place. That's where ya goin', eh?	1																					
+20	20		302								What place?	21																						
+21	21		301								Unfamiliar Man	Quit bluffin'. Look at ya, all dressed like that. I know what ya do, ya ain't even need to tell me.	1																					
+22	22		301								Unfamiliar Man	Yer "hunters", huh?	1																					
+23	23		302								Hunters...?	24																						
+24	24		202							1																								
+25	25		301									Watanabe sends you a meaningful glance and moves closer to whisper into your ear.																						
+26	26		201							1	1101001																							
+27	27		301							1	Watanabe	That's what some people call them...	1																					
+28	28		301								Watanabe	This used to be the biggest military research base in Cape Nohama. After the Post-Pandemic Age, all land-based airforce soldiers have fled the base.	1																					
+29	29		301								Watanabe	As for what's hidden in the base, only the soldiers and researchers who love their antifreeze and thrust-weight ratios know.	1																					
+30	30		301								Watanabe	Small wonder it's a popular place for treasure hunters.	1																					
+31	31		201							1	500140																							
+32	32		301							1	Unfamiliar Man	So? Want me ta give ya a ride? Half price for the way back too. Looks like ya come prepared. Surely ya know the importance of a guide, huh?	1																					
+33	33		201							1	1101001																							
+34	34		301							1	Watanabe	Thanks for the offer, but we already—	1																					
+35	35		202							1																								
+36	36		301								???	Boss!																						
+37	37		401							2	1514																							
+38	38		301									A tall, slim youth comes stumbling over, interrupting the conversation, heavy snow boots squeaking as he goes.																						
+39	39		201							1	500005																							
+40	40		301							1	???	Don't talk to this rascal!	1																					
+41	41		202							1																								
+42	42		301									Panting, the youth stops in front of the group. He pushes his goggles up, revealing a scowling face. He lifts his rifle and points it at the strange man.																						
+43	43		301									The man's face changes. Before he can retreat, Lucia stops him in his path.																						
+44	44		302								What's going on?	45																						
+45	45		201							1	500005																							
+46	46		301							1	???	This old menace is a fraud!	1																					
+47	47		201							1	500154																							
+48	48		301							1	Clark	Yamamoto!	1																					
+49	49		202							1																								
+50	50		301									The leader of the Forsaken comes jogging after the youth. Despite shouting at the boy in a reprimanding tone, he also raises his gun and points it at the unfamiliar man.																						
+51	51		301									The atmosphere turns hostile in an instant.																						
+52	52		201							1	500005																							
+53	53		301							1	Yamamoto	You old cheat!	1																					
+54	54		301								Yamamoto	Shooting him to death would be considered a mercy!	1																					
+55	55		302								Shh, let's talk it out first.	56																						
+56	56		301								Yamamoto	(Hisses) Are all Babylonians nagging fools like you?	1																					
+57	57		201							1	500026																							
+58	58		301							1	Lee	Are all Forsaken all brawn and no brain like you?	1																					
+59	59		302								Stow it, Lee.	60																						
+60	60		201							1	500154																							
+61	61		301							1	Clark	Watch your words, Yamamoto!	1																					
+62	62		201							1	1101001																							
+63	63		301							1	Watanabe	I understand your animosity towards Babylonia, but you'd do well to show my "guest" some respect.	1																					
+64	64		302								...	65																						
+65	65		201							1	500005																							
+66	66		301							1	Yamamoto	...Tch.	1																					
+67	67		201							1	500154																							
+68	68		301							1	Clark	Apologies, Gray Raven Commandant, for my subordinate's impudence.	1																					
+69	69		302								It's fine.	70																						
+70	70		301								Clark	However, do know that this guy in front of you is not trustworthy. Countless scavengers have frozen to death in the snowy plains because of him.	1																					
+71	71		301								Clark	He has no name. Just an old riffraff that came out of nowhere.	1																					
+72	72		301								Clark	He'd tell the scavengers seeking a home or passing treasure-hunters that he's the "Gravekeeper" of Cape Nohama.	1																					
+73	73		301								Clark	We've saved countless hapless fools who lost all their belongings to him in this area.	1																					
+74	74		201							1	500140																							
+75	75		301							1	Gravekeeper	Huh? Wassup with ya southerners now?	1																					
+76	76		201							1	500005																							
+77	77		301							1	Yamamoto	Give a man an inch...!	1																					
+78	78		202							1																								
+79	79		301									Noticing the situation getting awkward, the unfamiliar man tries to rope you into it.																						
+80	80		201							1	500140																							
+81	81		301							1	Gravekeeper	Hey you, standin' over there! Ya really gon' just stand and watch these guys bully poor lil' me?	1																					
+82	82		201							1	500005																							
+83	83		301							1	Yamamoto	What are you talking about? Just watch, I'm gonna drag you back and show your victims—	1																					
+84	84		201							1	500154																							
+85	85		301							1	Clark	Yamamoto!	1																					
+86	86		201							1	1101001																							
+87	87		301							1	Watanabe	Enough.	1																					
+88	88		301								Watanabe	We've got a mission to complete.	1																					
+89	89		201							1	500166																							
+90	90		301							1	Lucia	Agreed. If you guys have your local disputes to settle, we'll take our leave.	1																					
+91	91		201							1	500154																							
+92	92		301							1	Clark	Stop! Listen to our leader!	1																					
+93	93		202							1																								
+94	94		301									Clark's voice rings out. Yamamoto immediately shrinks back, mouth working as if debating whether to speak, and finally puts his gun down.																						
+95	95		301									Watanabe falls silent for a moment.																						
+96	96		201							1	1101001		-400																					
+97	97		201							2	500140		400																					
+98	98		301							1	Watanabe	You are certain you can give us a ride through Ghost Coast?	1																					
+99	99		301								Gravekeeper	Now why would I lie? 'Course I can, unless ya get off by yer lonesome.	2																					
+100	100		301								Watanabe	Deal, then.	1																					
+101	101		301								Gravekeeper	Huh?	2																					
+102	102		301								Watanabe	Give us a ride through Ghost Coast. I'll pay double.	1																					
+103	103		301								Gravekeeper	Uh... r-really?	2																					
+104	104		301								Watanabe	Yes. And if it works out well, the Forsaken may consider a long-term arrangement with you.	1																					
+105	105		201							3	500005																							
+106	106		301							1	Yamamoto	W-what?	3																					
+107	107		301				AniZhuanchangBegin				Watanabe	On one condition: no more scamming in our territory or bringing trouble to the Forsaken. I trust that the payment we can offer should be much better than what you usually get by robbing hard-up travelers.	1																					
+108	108		101							Assets/Product/Texture/Image/BgStory/BgStory68.jpg																								
+109	109		202							1	2	3																						
+110	110		301			AniZhuanchangEnd						～Living in the hustle, hanging with my fellows...～																						
+111	111		301									～The wasteland doesn't go, gravekeepers don't say no...～																						
+112	112		301									～Awesome! Hmm... Get some! Hmm...～																						
+113	113		301									Watanabe sits on the backseat of the big-wheeled snowmobile, wincing in patient exasperation.																						
+114	114		201							1	500026																							
+115	115		301							1	Lee	...Why are we riding with him?	1																					
+116	116		302								It's more efficient this way.	117																						
+117	117		202							1					1																			
+118	118		301				AniZhuanchangBegin					That part is true... but you sure feel like the road is stretching on forever.																						
+119	119		101							Assets/Product/Texture/Image/BgStory/BgStory68.jpg																								
+120	120		301			AniZhuanchangEnd	RImgBg1Shake					Squeak—!																						
+121	121		301									The snowmobile suddenly brakes, sending everyone flying forward.																						
+122	122		201							1	1031001	7																						
+123	123		301							1	Liv	Aah!	1																					
+124	124		302								Careful.	125																						
+125	125		201							1	500154																							
+126	126		301							1	Forsaken	What's going on?	1																					
+127	127		201							1	500005																							
+128	128		301							1	Yamamoto	Has he got something planned?	1																					
+129	129		202							1																								
+130	130		301									The Gravekeeper turns off the music and begins shouting at us from his seat.																						
+131	131		201							1	500140																							
+132	132		301							1	Gravekeeper	We're passin' through Ghost Coast soon. Gotta make sure the wheels ain't stuck. Ya don't wanna walk through the town for sho'.	1																					
+133	133		201							1	1101001																							
+134	134		301							1	Watanabe	...	1																					
+135	135		202							1																								
+136	136		301									Watanabe seems to be a bit relieved, though you're not sure if you're imagining things.																						
+137	137		201							1	1101001																							
+138	138		301							1	Watanabe	Commandant.	1																					
+139	139		302								Gray Raven Squad, ready up!	140																						
+140	140		202							1																								
+141	141		301									Watanabe barks out orders.																						
+142	142		201							1	1101001																							
+143	143		301							1	Watanabe	Forsaken, form up!	1																					
+144	144		201							1	500154																							
+145	145		201							2	500154		-600																					
+146	146		201							3	500154		600																					
+147	147		301							1	Forsaken	Roger!	1	2	3																			
+148	148		202							1	2	3			1																			
+149	149		301									The Forsaken members leap down the vehicle in an orderly fashion and get in formation in a flash.																						
+150	150		301									The Gravekeeper peeks out from the window, bright blue eyes wide behind his overgrown facial hair.																						
+151	151		201							1	500140																							
+152	152		301							1	Gravekeeper	Uh... so... I'll be waiting for ya by the side?	1																					
+153	153		201							1	1101001																							
+154	154		301							1	Watanabe	Attack!	1																					
+155	155		201							1	500154																							
+156	156		201							2	500154		-600																					
+157	157		201							3	500154		600																					
+158	158		301		1		AniZhuanchangBegin			1	Forsaken	Roger!	1	2	3																			

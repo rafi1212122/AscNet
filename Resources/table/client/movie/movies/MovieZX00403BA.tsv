@@ -1,0 +1,43 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory6.jpg																								
+2	100		401							1	201																							
+3	101		401							2	1515																							
+4	2		301			DialogEnable					System	Calculations complete.																						
+5	3		301								System	Available routes: 0.																						
+6	4		201							1	1081001		400																					
+7	5		301							1	Kamui	A-alright... Probably not going to work even if we retry it.	1																					
+8	6		201							2	1011001		-400																					
+9	7		301							1	Lee	Do you have any other equipment that might help with the situation?	2																					
+10	8		301								Kamui	Other equipment... Lemme see...	1																					
+11	9		202							1	2				1																			
+12	10		201							1	1021001																							
+13	11		301							1	Lucia	(Closes in) Commandant, I think it's about time we expand our tool repertoire for missions as well...	1																					
+14	12		202							1					1																			
+15	13		201							1	1081001		400																					
+16	14		201							2	1011001		-400																					
+17	15		301							1	Kamui	Only some EMP grenades left...	1																					
+18	16		202							1	2				1																			
+19	17		201							1	1021001																							
+20	18		301							1	Lucia	EMP... Would those be helpful in the current situation, Commandant?	1																					
+21	19		302								I don't think so.	20	Probably.	20																				
+22	20		201							1	1081001	1	400																					
+23	21		201							2	1011001		-400																					
+24	22		301							1	Kamui	Commandant, your answer's too hazy! Of course it's helpful!	1																					
+25	23		301								Kamui	But your uncertainty is understandable. I mean, you don't use these puppies that often!	1																					
+26	24		204							1																								
+27	25		204							2	10																							
+28	26		301							1	Lee	And here I thought you had an actual idea...	2																					
+29	27		204							2																								
+30	28		301								Lee	EMP isn't going to be useful here.	2																					
+31	29		301								Lee	Not just us, but also the Corrupted, and even the door, they're all built with EMP in mind.	2																					
+32	30		202							1	2				1																			
+33	102		401							2	10007502																							
+34	31		301			RImgBg1Shake						Boom—The cave-in continues...																						
+35	32		201							1	1081001	1	400																					
+36	33		201							2	1011001		-400																					
+37	34		301							1	Kamui	Wasn't there a saying? Simple is best! Wait, is that how it goes? Anyway, no time to explain.	1																					
+38	35		204							1																								
+39	36		301								Kamui	We just need to place them in a few critical locations...	1																					
+40	37		301								Lee	It's all rubble around here... Are you trying to fry something through the walls?	2																					
+41	38		204							1	1																							
+42	39		301		1		AniZhuanchangBegin				Kamui	Hahaha, you know your stuff, my technician Lee.	1																					

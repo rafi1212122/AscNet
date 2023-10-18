@@ -1,0 +1,49 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	208																							
+3	3		301			DialogEnable						The next day, Ayla calls you to her studio.																						
+4	4		301									For some reason, you are blindfolded as you enter the studio.																						
+5	5		301								Ayla	Don't take off your blindfold just yet.																						
+6	6		301									Ella pushes you into a chair.																						
+7	7		301									It seems like you have been moving for some time, but you get this sneaking suspicion that you are moving in circles.																						
+8	8		301								Ayla	Hmm... If that's the case...																						
+9	9		301									You hear the electric buzzing of a projector turning on.																						
+10	10		301								Ayla	Hmm... This isn't ideal...																						
+11	11		301									You hear the clicking of a button.																						
+12	12		301								Ayla	Just a few minor adjustments... Annnnd that should do it.																						
+13	13		301				AniZhuanchangBegin				Ayla	Alright, you can take off your blindfold.																						
+14	14		101							Assets/Product/Texture/Image/BgStory/BgStory45.jpg																								
+15	15		301			AniZhuanchangEnd						Is this... the bridge in Babylonia?																						
+16	16		301									You pushed me all the way here?																						
+17	17		301									Ayla wants to respond when the comms on your headset rings.																						
+18	18		201							1	1021001																							
+19	19		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+20	20		301							1	Lucia	Commandant?	1																					
+21	21		302								I'm here.	22																						
+22	22		301								Lucia	I didn't see you this morning. Everything okay?	1																					
+23	23		302								You could say that.	24																						
+24	24		301								Lucia	Well, when you finish up, come to the bridge. Celica said...	1																					
+25	25		202							1					1																			
+26	26		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+27	27		301									?																						
+28	28		301									Am I not already at the bridge?																						
+29	29		301									Wait, no. Seems like the night sky is a bit blurry.																						
+30	30		302								(Extend hand to feel it)	31																						
+31	31		301									Feels like... a wall.																						
+32	32		301									There appears to be a wall about half a meter in front of you.																						
+33	33		201							1	500110																							
+34	34		301							1	Ayla	Spacial immersion seems good enough, but the distance isn't fooling anyone...	1																					
+35	35		301				AniZhuanchangBegin				Ayla	Looks like I can't just rely on pictures.	1																					
+36	36		202							1					1																			
+37	37		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+38	38		301			AniZhuanchangEnd						Ella toggles her personal terminal, and a white wall appears in front of her.																						
+39	39		301									Seems like this was parallax photography projected on the wall to create a sense of remote reality.																						
+40	40		201							1	500110																							
+41	41		301							1	Ayla	If that's the case...	1																					
+42	42		301								Ayla	It seems to work in principle.	1																					
+43	43		301								Ayla	Next up... I won't need to bother you anymore.	1																					
+44	44		302								...?	45																						
+45	45		301								Ayla	After all, how to frame the "question," that is left to the creator...	1																					
+46	46		201							1	1021001																							
+47	47		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+48	48		301		1		AniZhuanchangBegin			1	Lucia	Commandant? Are you there?	1																					

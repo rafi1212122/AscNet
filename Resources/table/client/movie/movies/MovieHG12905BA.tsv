@@ -1,0 +1,123 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory275.png																								
+2	2		401							1	208																							
+3	3		301			DialogEnable						The emergency brake has stopped the platform in the middle of the elevator shaft. The two of you sit down, leaning in a corner.																						
+4	4		301									Luckily, your comms is still working. Reporting your situation to the supervisor, you are told that rescue will arrive soon.																						
+5	5		301									With nothing else to do, you can only wait. Karenina, meanwhile, keeps staring at the CPF blueprint, mumbling to her as if investigating the cause of the malfunction.																						
+6	6		201							1	500494	5																						
+7	7		301							1	Karenina	****! How could I miss such a small problem?	1																					
+8	8		302								Calm down, Karenina.	9																						
+9	9		301									Even for a Construct, continuously operating in such high intensity like Karenina has been could have long overloaded her M.I.N.D. Not to mention that her sleeping pod was given to the children in the conservation area.																						
+10	10		302								You've been working too hard.	11	It's okay slow down.	11																				
+11	11		204							1	4																							
+12	12		301								Karenina	Have you seen those people?	1																					
+13	13		301								Karenina	They survived the Punishing Virus. They even survived the Red Tide and the Hetero-Creatures. But their lives are in danger once again because reconstruction is halted and resources are scarce!	1																					
+14	14		301								Karenina	No matter how many Corrupted and monsters we kill...	1																					
+15	15		204							1	5																							
+16	16		401							2	1512																							
+17	17		301									Clenching her teeth, Karenina smashes the fence by her side.																						
+18	18		301								Karenina	Even after we saved them... we still can't stop them from dying! How can I accept that?!	1																					
+19	19		204							1	4																							
+20	20		301								Karenina	...All I can do is speed up the reconstruction so that everyone has a place to call home.	1																					
+21	21		204							1	14																							
+22	22		301								Karenina	...I can't... afford to... stop.	1																					
+23	23		301									She lowers her head with her arms around her knees, her voice getting quieter.																						
+24	24		302								But your M.I.N.D. is taking more and more stress...	25																						
+25	25		301								Karenina	It's because I'm still not strong enough...	1																					
+26	26		301								Karenina	My methods are always aggressive... be it in a fight or research. I don't think my decision was wrong! To all of us, every minute counts.	1																					
+27	27		301								Karenina	I know there's a danger to everything I've chosen to do, so I used to think that no one else would get hurt even if I messed up as long as I was by myself.	1																					
+28	28		301								Karenina	But that's not true... Because of all the responsibilities I've taken, the consequences of my choices no longer affect me alone.	1																					
+29	29		301								Karenina	I keep worrying if I did the right thing... if I've brought misfortune to others... if my choices have hurt the people that matter.	1																					
+30	30		302								Karenina...	31																						
+31	31		301								Karenina	...It's lame, isn't it? How unlike me to think like this.	1																					
+32	32		302								It isn't.	33																						
+33	33		302								I feel like that sometimes.	34	I understand how you feel.	34																				
+34	34		301								Karenina	You? Stop joking... You're more reckless than me...	1																					
+35	35		301									Your voice is soft and calm. Karenina mumbles, her apparent exhaustion becoming more evident.																						
+36	36		302								I'm worried too.	37	I'm afraid too.	37																				
+37	37		202							1					1																			
+38	38		301									You worry if your strategy is the right one. You fear that the people you care about will get hurt because of you.																						
+39	39		301				DialogDisable					Making choices means accepting the consequences. And Karenina has never run away from hers.																						
+40	40		302								So, whether as an engineer or a warrior...	41																						
+41	41		302								To me, you have always been incredibly strong.	42																						
+42	42		302								...	43																						
+43	43		302								Karenina?	44																						
+44	44		301			DialogEnable						You do not hear Karenina responding. Suddenly, you feel something heavy on your shoulder. Something fluffy is leaning on you.																						
+45	45		301									You turn to find Karenina's eyes closed. Breathing calmly, she has already entered a short-term rest.																						
+46	46		302								(She's indeed exhausted...)	47																						
+47	47		301									You slightly move her shoulders to make sure she sleeps in a more comfortable position.																						
+48	48		301				AniZhuanchangBegin					She can take a break before the rescue arrives.																						
+49	49		401							1	36																							
+50	50		401							2	1515																							
+51	51		301			AniZhuanchangEnd						You have no idea how much time has passed when you suddenly hear a notification on your comms.																						
+52	52		401							1	208																							
+53	53		301								Engineer	Captain! Commandant! Are you alright?																						
+54	54		302								Karenina, wake up.	55																						
+55	55		201							1	500494	8			-150																			
+56	56		301							1	Karenina	Huh... huh? Why am I...	1																					
+57	57		203							1	0.2																							
+58	58		301									Noticing that she is almost completely leaning against you, Karenina immediately awakes from her sleep and springs to her feet.																						
+59	59		204							1	13																							
+60	60		302								I think our rescue has arrived.	61																						
+61	61		301									You point at the screen on your terminal. An Engineering Force member is currently tinkering next to the monitors of the elevator surveillance.																						
+62	62		301								Karenina	You?	1																					
+63	63		509							Assets/Product/Texture/Image/BgStory/Bgstory189.png	2																							
+64	64		203							1	0.25	-600																						
+65	65		201							13	500361		600																					
+66	66		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		13																						
+67	67		301							1	Engineer	Wasn't expecting you to remember me, Captain...	13																					
+68	68		301								Karenina	...Whatever! How's it looking? Can you fix it?	1																					
+69	69		301								Engineer	It's nothing major. Leave it to me!	13																					
+70	70		401							1	205																							
+71	71		301								Teddy	...I can't believe I get to witness our glorious captain Karenina trapping herself inside an elevator shaft.																						
+72	72		301									Another voice appears in your comms.																						
+73	73		301								Karenina	...Why are you here as well? Shouldn't you be in Babylonia?	1																					
+74	74		301									You are not sure if you are imagining things, but you feel like Karenina sounded a little disgruntled there.																						
+75	75		301								Engineer	Uh... The vice-captain was updating me shortly after I arrived at the conservation area when the supervisor came and told us that our captain had been trapped inside the CPF and required our help.	13																					
+76	76		301								Engineer	The vice-captain is very concerned about your situation and asked me to keep the call connected.	13																					
+77	77		301								Teddy	I wasn't concerned. I just didn't want to miss any moment she made a fool of herself.																						
+78	78		204							1	5																							
+79	79		301			RImgBg1Shake					Karenina	T-E-D-D-Y!	1																					
+80	80		301									Karenina jumps up, her Inver-Devices standing with a swoosh. Clenching her fists, she would have lifted Teddy by his collar were he in the same room. She is so forceful that the elevator seems to shake from her movement.																						
+81	81		302								Calm down! Karenina!	82	Wait! The elevator is shaking!	82																				
+82	82		204							1	4																							
+83	83		301								Teddy	Lovely to see you so sprightly.																						
+84	84		301								Teddy	Still, I recommend getting some good sleep. You looked like an idiot snoozing all over the Gray Raven Commandant.																						
+85	85		401							2	2566																							
+86	86		301									You hear the sound of the call ending on your terminal. Teddy just barely missed the raging scream from Karenina.																						
+87	87		301				AniZhuanchangBegin				Engineer	Hahaha... Captain, Commandant, I'm about to connect the transistor manually. Stay away from the door.	13																					
+88	88		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab																							
+89	89		202							13					1																			
+90	90		510						2000	2																								
+91	91		101							Assets/Product/Texture/Image/BgStory/BgStory544.jpg																								
+92	92		201							1	500340																							
+93	93		401							1	208																							
+94	94		301			AniZhuanchangEnd				1	Supervisor	I'm glad you're not hurt...	1																					
+95	95		301									The two of you exit the CPF to find the supervisor and the residents from the conservation area waiting outside. They all look concerned.																						
+96	96		302								Why are there so many people here...	97																						
+97	97		301								Supervisor	People were worried... Fortunately, it was nothing serious.	1																					
+98	98		302								The rescue arrived just in time.	99	Our colleagues are reliable.	99																				
+99	99		301								Supervisor	That's good...	1																					
+100	100		201							1	500361																							
+101	101		301							1	Engineer	Captain, we came here as soon as the problems with the base to the west were fixed. The materials from Babylonia are arriving tomorrow, so the reconstruction team can finally start!	1																					
+102	102		301								Engineer	I've also confirmed that the CPF is running again. It will return to its normal output in about two hours.	1																					
+103	103		201							1	500494	12																						
+104	104		301							1	Karenina	Good. Remember to check the other arrays. There was something wrong with the numbers on arrays 03 and 06 in Sector C...	1																					
+105	105		302								Karenina.	106																						
+106	106		301								Karenina	What?	1																					
+107	107		302								Take a break.	108																						
+108	108		204							1	4																							
+109	109		301								Karenina	I know! Stop buzzing like a bee!	1																					
+110	110		201							1	500361																							
+111	111		301							1	Engineer	Yeah, Captain, leave this to us. We'll make sure it gets done.	1																					
+112	112		201							1	500494	12																						
+113	113		301							1	Karenina	Alright. And the maintenance on the filter cartridges...	1																					
+114	114		302								Do you want to enter rest mode right next to the filters?	115																						
+115	115		301								Karenina	I...	1																					
+116	116		302								At least, just for a moment...	117																						
+117	117		302								Rely on others.	118																						
+118	118		204							1	13																							
+119	119		301								Karenina	...	1																					
+120	120		204							1	1																							
+121	121		301								Karenina	You win... Fine. I know.	1																					
+122	122		301		1		AniZhuanchangBegin				Karenina	I'll leave it to you guys.	1																					

@@ -1,0 +1,38 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory570.jpg																								
+2	2		401							1	202																							
+3	3		301			DialogEnable						With the medic bot's guidance, the group navigates their way through the labyrinth of pipes and arrives at an open, bigger underground space.																						
+4	4		301									Right beside them, separated by a glass wall, is a room—with humans in it.																						
+5	5		201							1	500472	7																						
+6	6		301							1	Nanami	Wait... Haicma, there are humans inside!	1																					
+7	7		201							1	500477	4																						
+8	8		301							1	Haicma	I'm picking up vital signals, too. They're still alive, Nanami.	1																					
+9	9		202							1					1																			
+10	10		301								Spuner	But if we stay here...																						
+11	11		401							2	1516																							
+12	12		301				AniZhuanchangBegin					Nanami slowly walks close to the glass wall.																						
+13	13		101							Assets/Product/Texture/Image/BgCg/Cg2601_03.jpg																								
+14	14		202							1					1																			
+15	15		301			AniZhuanchangEnd						There are seven to eight humans in there—all looking sick and bedridden, each attended to by a few medic bots.																						
+16	16		301								Haicma	What are these...																						
+17	17		301								Spuner	Straitjackets.																						
+18	18		301									The humans in front are all constrained to the bed. Some are no longer conscious. Only the heart rate line on the screen of the vital signs monitor next to the bed is slowly moving up and down.																						
+19	19		301								Medic Bot	Sage, don't be sad. Humans, survive.																						
+20	20		301									The medic bot next to Nanami keeps waving its arm as if it is hoping for a praise from her.																						
+21	21		502							RImgBg1BlowUp																								
+22	22		301									Having sensed something, the human closest to Nanami struggles to turn around to face Nanami with a despairing look.																						
+23	23		301								Nanami	They have been imprisoned... Haicma! Break the glass!																						
+24	24		301								Haicma	Please stay away.																						
+25	25		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryError.prefab	2																							
+26	26		401						1500	2	730																							
+27	27		402							730																								
+28	28		301									Haicma's attack attempt has been detected. The alarm immediately goes off, red light is flashing in the room and corridor.																						
+29	29		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryError.prefab																							
+30	30		301								Medic Bot	Save, humans. Save them, from death...																						
+31	31		301								Medic Bot	Illegal entry. Protect, humans...																						
+32	32		301								Nanami	Cut that out already! This is driving Nanami crazy...! How in the world is this protection?!																						
+33	33		301								Spuner	There is no use trying to talk sense into them. These medic bots are programmed to "help and look after humans." The condition these humans are in is proof enough that the bots are logically correct.																						
+34	34		301									The girl rides on her giant mech. Fury has driven her to move out like an unleashed snow leopard.																						
+35	35		301								Nanami	If I am the one responsible for all of this...																						
+36	36		301									Before she knows it, a bunch of medic bots appear out of nowhere and stand in her way to keep her from tearing the door down.																						
+37	37		301		1		AniZhuanchangBegin				Nanami	Then let me put an end to it all...!																						

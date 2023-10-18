@@ -1,0 +1,61 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory6.jpg																								
+2	2		401							1	203																							
+3	3		201							1	500013																							
+4	100		401							2	1508																							
+5	4		301			DialogEnable				1	Corrupted	—!	1																					
+6	5		201							1	1021001																							
+7	6		301							1	Lucia	Target has escaped into the building. Commandant, your instruction?	1																					
+8	7		302								Liv and I will follow it. You two go around and cut it off.	8	We'll pursue it together.	12																				
+9	8		301								Lucia	Lee and I will each take a side and flank it as quickly as possible!	1																					
+10	9		301								Lucia	Liv, we'll leave the front to you.	1																					
+11	10		201							1	500025																							
+12	11	18	301							1	Liv	(Nods) You can count on me!	1																					
+13	12		201							1	1011001																							
+14	13		301							1	Lee	Are we going in together?	1																					
+15	14		201							1	1021001																							
+16	15		301							1	Lucia	We can easily outpower them even if it's a trap. Breaking through won't be a problem.	1																					
+17	16		201							1	500025																							
+18	17		301							1	Liv	I'll do my best as well, Commandant!	1																					
+19	18		201							1	1021001																							
+20	19		301				AniZhuanchangBegin			1	Lucia	Let's do it!	1																					
+21	20		101			DialogDisable				Assets/Product/Texture/Image/BgStory/Bgstory8.jpg																								
+22	21		201							1	500013																							
+23	22		501			AniZhuanchangEnd				Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackSmokeNew.prefab		1																						
+24	23		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+25	101		401							2	1508																							
+26	24		301			DialogEnable				1	Corrupted	—!—...	1																					
+27	25		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackSmokeNew.prefab		1																					
+28	26		201							1	1021001																							
+29	27		301							1	Lucia	Target's function has ceased.	1																					
+30	28		201							1	1011001																							
+31	29		301							1	Lee	Our mission is completed, then.	1																					
+32	30		302								Thanks to all of you.	31	It'll be great if we don't let one escape next time.	32																				
+33	31	33	301								Lee	I'll contact the Support Force to recycle the materials.	1																					
+34	32		301								Lee	I know the operation strategy is your responsibility, but please don't be too harsh on yourself, Commandant.	1																					
+35	33		201							1	1021001																							
+36	34		301							1	Lucia	How about we depart here, Commandant?	1																					
+37	35		302								Sure.	36																						
+38	36		301								Lucia	Liv, prepare to depart.	1																					
+39	102		401							1	5																							
+40	37		201							1	500025																							
+41	38		301							1	Liv	...	1																					
+42	39		201							1	1021001																							
+43	40		301							1	Lucia	Liv?	1																					
+44	41		201							1	500025																							
+45	42		301							1	Liv	Oh... I'm sorry, we're departing, is it?	1																					
+46	43		201							1	1021001																							
+47	44		301							1	Lucia	Yeah, but what were you looking at? Did something come up on the radar?	1																					
+48	45		201							1	500025																							
+49	46		301							1	Liv	No, I was just looking at this church.	1																					
+50	47		302								This is where we encountered the silver-haired Construct, right?	48	Are you interested in this place?	49																				
+51	48	50	301								Liv	(Nods) ...Back then, this place felt like the gate to hell.	1																					
+52	49		301								Liv	I just think it's pretty.	1																					
+53	50		301								Liv	Standing here in silence, looking at how the spots of sunlight brighten the place... It feels peaceful and warm.	1																					
+54	51		301								Liv	I know that... this isn't just a place for prayers, but also...	1																					
+55	52		201							1	1011001																							
+56	53		301							1	Lee	The Support Force is arriving in five. We don't have to stay here anymore.	1																					
+57	54		301								Lee	What were you saying, Liv?	1																					
+58	55		201							1	500025																							
+59	56		301							1	Liv	...It's nothing. Forget it.	1																					
+60	57		301		1		AniZhuanchangBegin				Liv	Let's return to the base, Commandant.	1																					

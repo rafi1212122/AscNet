@@ -1,0 +1,236 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory178.png																								
+2	2		401							1	208																							
+3	3		401							2	212																							
+4	4		201							1	500138																							
+5	5		301			DialogEnable				1	Father	Are you sure you just want this plushie, Yoyo?	1																					
+6	6		201							1	500218	1																						
+7	7		301							1		The girl named Yoyo turns around with a panda plushie in her arms, nodding at her father enthusiastically.																						
+8	8		301								Yoyo	Dad! This panda is called "Master", and it can talk! It can also fly...	1																					
+9	9		301									Seeing how confused her husband is, Yoyo's mother chuckles.																						
+10	10		201							1	500463																							
+11	11		301							1	Mother	You're losing touch. You don't even know what your daughter likes! She's talking about the character in that cartoon that's popular with the kids nowadays. It's called...	1																					
+12	12		201							1	500218	1																						
+13	13		301							1	Yoyo	"Kowloong's Magical Girl!"	1																					
+14	14		201							1	500138		-400																					
+15	15		201							2	500463		400																					
+16	16		301							1	Father	Honey, you can pick something more expensive like the other kids do! We're here to celebrate you passing your Maths exam. Your father just got a promotion, so don't worry about the price tag!	1																					
+17	17		301									A girl of a similar age walks past Yoyo with a bionic panda mechanoid in her arms. One size larger than Yoyo's plushie, it appears to be able to say the famous lines from the show—and fly, for real!																						
+18	18		301								Mother	Yoyo, let your dad show off for once... And don't you want a more valuable toy that the other kids will be jealous of?	2																					
+19	19		202							1	2				1																			
+20	20		201							1	500218																							
+21	21		301							1		But Yoyo just blinks and looks at the plushie in her hands, bewildered.																						
+22	22		301								Yoyo	Are cheaper toys bad? Do they have to be expensive? I don't get it...	1																					
+23	23		301								Yoyo	"Master" was just an abandoned plushie in the cartoon as well. It only became a familiar because the Magical Girl's love turned into its magic power.	1																					
+24	24		202							1	2				1																			
+25	25		301									Yoyo's parents look at each other, seemingly surprised by what she said. They chuckle, slightly embarrassed.																						
+26	26		201							1	500138		-400																					
+27	27		201							2	500463		400																					
+28	28		301							1	Mother	The kids must think we adults are making our lives difficult with what we deem important, isn't that so?	2																					
+29	29		301								Father	Yeah... Yoyo doesn't care about how big or small the numbers are. Isn't that what she did in the exam? Haha!	1																					
+30	30		202							1	2				1																			
+31	31		201							1	500218	4																						
+32	32		301							1	Yoyo	Ugh! Dad! I'm going to be mad!	1																					
+33	33		301									Yoyo's father crouches down and picks up Yoyo, whose cheeks puff out, and the plushie in her hands.																						
+34	34		201							1	500138		-400																					
+35	35		201							2	500463		400																					
+36	36		301							1	Father	Alright, Dad understands now... Now that we've bought it, you need to love the plushie like how the girl in the show loves it. Like how we love you.	1																					
+37	37		301								Mother	Ugh! I'm getting goosebumps. Look at you, not feeling embarrassed at all.	2																					
+38	38		301									Blushing, Yoyo's mother smiles and gently strokes her daughter's head, her gaze filled with tenderness.																						
+39	39		301								Mother	Yoyo, Mom also loves you very much...	2																					
+40	40		301				DialogDisable				Mother	Even if one day...	2																					
+41	41		202							1	2				1																			
+42	42		402							212																								
+43	43		401							1	36																							
+44	44		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+45	45		101						1000	Assets/Product/Texture/Image/BgStory/Bgstory428.jpg																								
+46	46		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBaiEnd.prefab	2																							
+47	47		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+48	48		201							1	500218	16																						
+49	49		301			DialogEnable				1	Yoyo	Mom...?	1																					
+50	50		301									She can still feel the warmth and the gentle touch of her parents' embrace, but she cannot find them anywhere.																						
+51	51		301								Yoyo	Dad?! Where are you?!	1																					
+52	52		202							1					1																			
+53	53		301									Yoyo reaches out, but she grasps nothing in the void. The more she struggles, the further her fleeting, happy memories seem to be.																						
+54	54		301									The sound of waves and the sense of rocking become clearer and clearer, washing away the last bit of her confusion. Yoyo wipes away the tears in her eyes.																						
+55	55		301				AniZhuanchangBegin					She knows it is time for her to wake up...																						
+56	56		101							Assets/Product/Texture/Image/BgStory/Bgstory234.png																								
+57	57		401							1	204																							
+58	58		201							1	500448																							
+59	59		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	2																							
+60	60		301			AniZhuanchangEnd				1	Yoyo	Ugh...	1																					
+61	61		301									Blinding lights sway above her rhythmically. Yoyo finds herself lying in an unfamiliar room.																						
+62	62		201							1	500442	4																						
+63	63		301							1	???	You. Can you sit up yourself?	1																					
+64	64		301									Yoyo sees a lavishly-dressed woman sitting by the window, staring at her. The woman must be the one who saved her.																						
+65	65		301									She nods, moving her body from side to side while sitting up, hoping to take a look at the room. But the pain in her right arm takes her attention away.																						
+66	66		301									Seeing Yoyo's expression, the woman leans forward, inspecting the wound on her arm.																						
+67	67		301								???	You were well-protected, but you're still slightly infected with the Punishing Virus... We've given you a serum. You'll be fine, apart from feeling pain for a little while.	1																					
+68	68		203							1	0.25	400																						
+69	69		201							2	500448		-400																					
+70	70		301							1	Yoyo	Did you save me... Miss?	2																					
+71	71		301									The woman seems a little astounded to be called "Miss", but she nods regardless.																						
+72	72		301								Yoyo	Then do you know where the robot... the two robots who were with me are?	2																					
+73	73		301									Yoyo still remembers the two robot friends who looked scary but were actually very kind. They were traveling together until they reached the incredibly large ship...																						
+74	74		204							1	7																							
+75	75		301								???	I don't know. You passed out from crying, and the mechanoid who took you here was taken away... There was only one of them.	1																					
+76	76		301									Seeing how disappointed Yoyo looks, the woman thinks for a second before talking again.																						
+77	77		204							1	4																							
+78	78		301								???	...They were probably taken to be repaired. Machines... will be as good as new after they're fixed.	1																					
+79	79		204							2	1																							
+80	80		301								Yoyo	Is that true?! Then I just have to find Dad. Dad will help me look for them, and Mom will make them very tasty food! Hehe... I guess robots can't eat, can they?	2																					
+81	81		204							2	16																							
+82	82		301								Yoyo	Dad... Mom...	2																					
+83	83		301									Yoyo tries to stand up, ignoring the pain in her arm, but she almost loses her balance and falls on the rocking floor.																						
+84	84		301									Looking outside, she finds herself surrounded by an endless ocean. There is nothing around her but the moon and the stars—and there is no sign of anything she knew in Kowloong.																						
+85	85		301								Yoyo	I... I have to find them.	2																					
+86	86		301									Stumbling around, Yoyo tries to leave the room, but the woman grabs her hand.																						
+87	87		301								???	It's dangerous on this ship... It's better to stay here if you're alone.	1																					
+88	88		204							2																								
+89	89		301								Yoyo	Then I must find them immediately! Mom and Dad have to be risking their lives to search for me... Do you know where they are, Miss?	2																					
+90	90		301									The woman shakes her head, speaking only after thinking for a while.																						
+91	91		401							1	201																							
+92	92		204							1	4																							
+93	93		301								???	You've been unconscious for seven days. They would have been here already if they were still alive...	1																					
+94	94		204							1	14																							
+95	95		301								???	So... they're either dead... or they've abandoned you.	1																					
+96	96		301									The woman holds Yoyo's hands gently, looking into the girl's eyes with serenity.																						
+97	97		301								???	Everything without value is thrown away on the Nighter... And a child on her own is a valueless burden, so...	1																					
+98	98		204							2	16																							
+99	99		301								Yoyo	You're lying!	2																					
+100	100		301									Shivering, Yoyo interrupts the woman with clenched teeth and tears gathering in her eyes.																						
+101	101		301								Yoyo	Mom and Dad wouldn't leave me! They promised to come back and get me...	2																					
+102	102		301								Yoyo	I know Dad always acted like an irresponsible dummy, but he had never broken his promises to me!	2																					
+103	103		301								Yoyo	Mom sometimes got angry for no reason, but I know she would never leave me!	2																					
+104	104		301									Yoyo clutches the worn panda plushie in her hands, her tears dropping on the toy.																						
+105	105		204							1	14																							
+106	106		301								???	Just because a promise is important... doesn't mean it's kept.	1																					
+107	107		301									Yoyo flings away the woman's hand, wiping her tear-filled eyes with her long sleeves.																						
+108	108		204							2	4																							
+109	109		301								Yoyo	Enough... I see it now. You must be one of the bad people Dad told me about! You're trying to trick me into staying here.	2																					
+110	110		301								Yoyo	I won't listen to you anymore... I'll find them myself!	2																					
+111	111		203							2	0.25	-800																						
+112	112		202							2					1																			
+113	113		203							1	0.25																							
+114	114		301									Yoyo rushes outside the room, leaving the woman alone, hesitant to give chase.																						
+115	115		301								???	...	1																					
+116	116		301									The woman looks at her hand that was holding Yoyo. She misses and fears the sensation of someone else's touch.																						
+117	117		301				AniZhuanchangBegin				???	Villier... My lord...	1																					
+118	118		202							1	2				1																			
+119	119		101							Assets/Product/Texture/Image/BgStory/BgStory551.jpg																								
+120	120		401						400	1	36																							
+121	121		401							1	27																							
+122	122		301			AniZhuanchangEnd						The Nighter at night is bustling with crowds.																						
+123	123		301									Looking back from its fences, however, is greeted only by the dark, roiling waves.																						
+124	124		301									In the distance, people in luxurious outfits are singing and performing on a stage, their music reaching the laughing audience.																						
+125	125		301								—Aria—	～See the glistening colors of a mayfly's wings.～\n～Your brief life I mourn; what does mine bring?～																						
+126	126		301									The girl's small figure traveled through the brilliant colors of the night, drowning in the noises of the people's lives.																						
+127	127		301								—Aria—	～See the opulence dressed for a mayfly's flight.～\n～Your brief life I mourn; where will mine rest?～																						
+128	128		201							1	500448	16																						
+129	129		301							1	Yoyo	Dad... Mom... Where are you...	1																					
+130	130		202							1					1																			
+131	131		301									Panicking, Yoyo searches for her parents' figures on the unfamiliar streets, but her cries are only met with dubious or detested gazes.																						
+132	132		301								—Aria—	～See the silver coat clothed in a mayfly's birth.～\n～Your brief life I mourn; what is mine worth?～																						
+133	133		301									Eventually, she slows down, her long-suppressed fear and loneliness reflecting in her eyes.																						
+134	134		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+135	135		504							0.5																								
+136	136		101							Assets/Product/Texture/Image/BgCg/Cg1501_1.jpg																								
+137	137		301									"Don't-cry-I-am-here-"																						
+138	138		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+139	139		504							0																								
+140	140		101							Assets/Product/Texture/Image/BgStory/BgStory551.jpg																								
+141	141		301									The kind mechanoid once told her that. But now, it is nowhere to be found.																						
+142	142		301									Only now does Yoyo realize she is truly on her own—if this is a nightmare, there is no end to it nor a way to turn back.																						
+143	143		301								???	"—Tai'E were born to fight for Kowloong."																						
+144	144		301									Suddenly, she hears the loud, synthetic voice of a mechanoid—the same voice of the two mechanoid friends that had protected her on her journey.																						
+145	145		201							1	500448	1																						
+146	146		301							1	Yoyo	They're alive... They're here!	1																					
+147	147		301				AniZhuanchangBegin					Yoyo slowly navigates through the crowd, walking toward the voice.																						
+148	148		101							Assets/Product/Texture/Image/BgStory/Bgstory158.png																								
+149	149		401							1	201																							
+150	150		201							1	500240																							
+151	151		301			AniZhuanchangEnd				1	Jin Man	Check this out! You lovely folks see this mechanoid? It might look busted, but its energy core is perfectly intact! Even its voice module is functioning flawlessly!	1																					
+152	152		301								Jin Man	It's a Tai'E made in Kowloong, totally legit stuff! I promise you, in the name of Jinman's Emporium, that your 170 thousand grubs will be worth it!	1																					
+153	153		201							1	500227																							
+154	154		301							1	Boy	Doesn't sound like it's worth the price, Jin Man! Unless it has some special features that you aren't sharing? C'mon, spill the beans already! We're all eager to see it!	1																					
+155	155		301									The gathering crowd becomes animated after hearing what the boy says, not noticing the subtle smirk on the shopkeeper's face.																						
+156	156		201							1	500240																							
+157	157		301							1	Jin Man	You know your stuff, young man! Guess I'll have to confess... I didn't get this mechanoid from your usual, legitimate channels. This... was a Corrupted!	1																					
+158	158		301									The crowd gasps in awe. Some of them look a little frightened, but more of them look ecstatic.																						
+159	159		202							1	2				1																			
+160	160		301								Male Shopper	A dead Corrupted... must be different to a regular mechanoid, right? Maybe some of its parts got some impressive upgrades!																						
+161	161		301								Female Shopper	It'll be a one-of-a-kind collectible... There can't be any decor more impressive than this!																						
+162	162		301									Jin Man winks at the boy—the two of them are clearly working together.																						
+163	163		201							1	500240		400																					
+164	164		201							2	500227		-400																					
+165	165		301							1	Boy	But how did you get your hands on something so valuable, Jin Man? I heard that Kowloong's Pulao Crew had dumped all the Corrupted remains into the sea...	2																					
+166	166		301								Jin Man	Ahem... that's a long story. Do you see the ribbon on its arm?	1																					
+167	167		301									Jin Man holds up Tai'E's arm before the crowd, highlighting a pink ribbon tied on its arm that looks out of place on its heavy, metallic body.																						
+168	168		301								Boy	Sure, it's weird, but what's so special about it? The Corrupted are weird in the first place.	2																					
+169	169		202							2					1																			
+170	170		203							1	0.25																							
+171	171		301								Jin Man	What you didn't know is that it got the ribbon from an innocent girl that it killed! How do I know, you ask? 'Cause I was there! I witnessed the whole thing just as I boarded the Nighter!	1																					
+172	172		301								Jin Man	It wasn't going to let me live, of course. This tricky bastard was hiding in a corner before it leaped out and went for my throat. Well, I panicked, but then I handled it. Woosh! I flipped it over and slammed it on the ground!	1																					
+173	173		301									The crowd is entertained by the shopkeeper's lively, vivid tale, not realizing that a girl has walked to the front.																						
+174	174		301								Jin Man	But it's a lucky thing I had my pistol! Anyway, I started blasting. Pow! This damn thing stopped moving. Pow! Pow! I took a few more shots just to be safe. That's why there're all these bullet holes on it...	1																					
+175	175		301								???	You're lying!																						
+176	176		301									Yoyo rushes out of the crowd, tripping a few people in the center.																						
+177	177		203							1	0.25	400																						
+178	178		201							2	500448	4	-400																					
+179	179		301							1	Jin Man	Hey...! Whose girl is this? Can't have you speaking nonsense at my shop!	1																					
+180	180		301								Yoyo	He's not some tricky bastard... He's my friend! He saved me from the Corrupted!	2																					
+181	181		301								Jin Man	A mechanoid saving a human girl from the Corrupted? These machines can't even stay sane from the Punishing Virus... Did your parents not teach you not to lie? Go home if you're going to act like a baby!	1																					
+182	182		301									The surrounding people laugh, rubbing salt into Yoyo's wound.																						
+183	183		301								Yoyo	I wasn't lying...!	2																					
+184	184		301									Jin Man is getting impatient. He tries to send Yoyo away while frowning at the boy hiding in the crowd.																						
+185	185		301								Jin Man	Doesn't matter what you say. This is my ware, so I get to call it whatever I want. You're welcomed to make up any story about it if you can afford to buy it, but until then, get lost!	1																					
+186	186		301									The boy sighs and shakes his head, walking up and preparing to drag Yoyo away.																						
+187	187		301								Yoyo	I-I have money! I'll buy him! Dad gave me l-lots of money!	2																					
+188	188		301									Yoyo takes out her wallet, holding it up high. Hearing the word "money," Jin Man's expression changes in an instant.																						
+189	189		301								Jin Man	Why didn't you say so? However...	1																					
+190	190		301									Seeing the amount of grubs Yoyo is desperately taking out, Jin Man does not know whether to laugh or cry.																						
+191	191		301								Jin Man	You've gotta be kidding me... What do you hope to buy with these scraps? Stop messing around! I'm warning you!	1																					
+192	192		204							2	16																							
+193	193		301								Yoyo	But... that's all I've got... Look... there's so much...	2																					
+194	194		301									In Yoyo's world, the money she has is enough to buy her all the snacks she likes, as well as all the new clothes and toys she wants—but on this ship, that amount of money is far from enough.																						
+195	195		301									Jin Man is about to throw the girl out when he suddenly comes up with a plan, and he grins.																						
+196	196		301								Jin Man	Now, I know you don't have the money, but there is something more valuable than grubs on the Nighter...	1																					
+197	197		202							1	2				1																			
+198	198		201							1	500227	4																						
+199	199		301							1	Boy	Hey, Jin Man...	1																					
+200	200		301									The boy is about to say something, but he stays silent after Jin Man stares at him.																						
+201	201		201							1	500240		400																					
+202	202		201							2	500448		-400																					
+203	203		301							1	Jin Man	That thing is the "collar". We all have one on this ship, and it holds something called "miles." The number of miles Lady Qu gave all of us to start our life on the Nighter should be enough for you to buy this Tai'E.	1																					
+204	204		301									Yoyo follows Jin Man's gaze and reaches for her neck, discovering a ring that locks tightly around it.																						
+205	205		301								Yoyo	"Miles"... I can buy Tai'E if I use mine?	2																					
+206	206		301									Jin Man smiles maliciously and leans toward Yoyo, sending her a transaction request.																						
+207	207		301								Jin Man	Of course... You can buy anything you want as long as you can pay the price.	1																					
+208	208		301									Although Yoyo has no idea what "miles" mean, she knows that this is the only thing she can do for the two Tai'E mechanoids that protected her with their lives.																						
+209	209		301									The collars on their necks blink and complete the transaction. At that moment, Yoyo's collar flashes bright red, and a voice resounds in her head, warning her that all her miles are consumed.																						
+210	210		401							1	202																							
+211	211		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryError.prefab	2																							
+212	212		401							2	1501																							
+213	213		204							2	16																							
+214	214		301			RImgBg1Shake					Yoyo	Aargh... What is that voice?!	2																					
+215	215		301									Meanwhile, the security mechanoids on standby nearby all begin to approach Yoyo, and the gathered crowd flees out of fear.																						
+216	216		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryError.prefab																							
+217	217		301								Jin Man	You really don't know? Your miles is the time you're allowed to stay on the Nighter. Once you spend it all, off the ship and into the water you go.	1																					
+218	218		301									He laughs patronizingly before standing next to Yoyo and putting his hand on her shoulder.																						
+219	219		301								Jin Man	Now, folks around here would pay quite a fortune to relive someone else's memories, especially someone like you, who got to live carefree in Kowloong.	1																					
+220	220		301								Jin Man	If you were to sell me these memories of yours, I might be able to give you some of those miles back... Think about it. Isn't it better to let those worthless memories go and start anew on this ship?	1																					
+221	221		301									To forget her father's laughter, her mother's embrace, the figure that spent its last minutes protecting her... She will not need to spend her nights chasing ghosts anymore.																						
+222	222		301									But to walk into those nights all alone, much like the ship she is on sailing in solitude on the turbulent sea... Is that a future that she wants?																						
+223	223		301								Yoyo	No...!	2																					
+224	224		202							1	2				1																			
+225	225		301									Yoyo pushes him away, knocking down a few mechanoids that try to catch her, and she dashes away, tumbling.																						
+226	226		301									Jin Man falls onto the boy, pushed by Yoyo's surprising strength. Just as he is about to order his men to go after the girl, he is knocked out by a strike on the neck.																						
+227	227		201							1	500227																							
+228	228		301							1	Boy	Uh-oh. Sorry, boss... I slipped.	1																					
+229	229		301									The boy drags the unconscious Jin Man into a hidden corner amidst the chaos, taking out Jin Man's wallet and putting all the grubs inside into his own pocket.																						
+230	230		301								Boy	Service charge, mental health claims, hazard pay, overtime... Hehe, thank you for employing my service—	1																					
+231	231		301									A freezing drop of water falls on the boy's nose.																						
+232	232		204							1	4																							
+233	233		301								Boy	It's about to rain...	1																					
+234	234		301									He looks in the direction Yoyo ran toward and sighs, flipping a grub before catching it.																						
+235	235		301		1		AniZhuanchangBegin				Boy	What an idiot... What do you get to keep if you die?	1																					

@@ -1,0 +1,25 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory26.jpg																								
+2	2		401							1	209																							
+3	3		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	2																							
+4	4		201							1	1021001		-400																					
+5	5		201							2	1011001		400																					
+6	6		204							1	3																							
+7	7		301			DialogEnable				1	Lucia	Has Liv run into any danger?	1																					
+8	8		204							1																								
+9	9		301								Lee	You've been sending a message every 20 seconds. If something's wrong, you'll be the first to know.	2																					
+10	10		301								Lucia	I... I'm just worried.	1																					
+11	11		301								Lee	Asimov's research suggests that occasional distractions can increase your mission efficiency by 15%.	2																					
+12	12		301								Lucia	Distraction? I want to be more focused!	1																					
+13	13		301								Lee	The building at our 3 o'clock... Its design belongs to a different era of industrial design than the other buildings. I've analyzed the plans of the Golden Vortex, and they have quite a few similarities.	2																					
+14	14		301								Lucia	Understood. And the ejector of its light beam consists of a blinds structure that I'd seen when I was stationed at the Jakarta base.	1																					
+15	15		301								Lee	That light beam is actually a stream of endless golden sand. I've calculated the wattage the Golden Vortex is using to eject that amount of sand with my visual capture system.	2																					
+16	16		301								Lucia	(Looks at the calculation) ...That high?!	1																					
+17	17		301								Lee	I believe the data. Plus, the sand at the center of that stream can't even be captured by the visual system... I believe the actual value will be even higher.	2																					
+18	18		301								Lucia	Who built it? What is it for?	1																					
+19	19		301								Lucia	Commandant, I'm afraid that this mission is not that straightforward...	1																					
+20	20		301								Lee	Lucia?	2																					
+21	21		204							1	3																							
+22	22		301								Lucia	...	1																					
+23	23		204							1																								
+24	24		301		1		AniZhuanchangBegin				Lee	It's been 20 seconds. Let's check in with Liv's progress.	2																					

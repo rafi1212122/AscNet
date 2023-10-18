@@ -1,0 +1,104 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory539.jpg																								
+2	2		401							1	204																							
+3	3		301			DialogEnable						You find yourself in a bizarre land, where desolation and prosperity blend together without any transition.																						
+4	4		301									Withered branches stand alongside lush treetops. One moment, you are walking on hard, barren land, but the next instant you are on soft grass. It is impossible to determine where you are with no clear reference points.																						
+5	5		201							1	500026		400																					
+6	6		201							2	500166		-400																					
+7	7		301							1	Lee	No wonder the map here is all a mess...	1																					
+8	8		301								Lucia	Commandant, we can't just keep walking like this. Shall we change our strategy?	2																					
+9	9		302								Liv, is there anything else worth noting in that Heroes' Journal?	10																						
+10	10		202							1					1																			
+11	11		201							1	1031001	3	400																					
+12	12		301							1	Liv	Hmm... "If your luck isn't sufficient to get you out, try inverting it. Remember, the Realm of Dragons welcomes all friendly adventurers."	1																					
+13	13		301								Lucia	Inversing it... What would that mean?	2																					
+14	14		301									Liv looks at the way you came from, trying to figure it out from there. Lucia takes the journal from her and starts to look at it from different angles, while Lee is inspecting the difference between different plantations...																						
+15	15		302								I think I get it.	16																						
+16	16		302								Lee, please lead our way.	17																						
+17	17		202							1	2				1																			
+18	18		201							1	500026																							
+19	22		301							1	Lee	I'll do my best.	1																					
+20	23		301									(Do your "best" indeed...)	24																					
+21	24		202							1					1																			
+22	25		301								Dungeon Master Ayla	(It seems they have not figured it out yet. Each time they walk past a different-looking region, they need to run a check until the checks return the same results.)																						
+23	26		301								Dungeon Master Ayla	(Shall I give them a hint?)																						
+24	27		301									But when the automatically calculated data is presented to Ayla, she also begins to look at the results displayed on the terminal from different angles like Lucia.																						
+25	28		301								Dungeon Master Ayla	...Just like that, you finally got out from the alternating chaos.																						
+26	29		301								Dungeon Master Ayla	In front of you is a city that you have never seen before. Although the buildings look very strange, you can still figure out their functions and confirm this is the Realm of Dragons.																						
+27	30		201							1	500026	7																						
+28	31		301							1	Lee	Did we make it? Wait a sec, I'd like to double-check my pathfinding results.	1																					
+29	32		301								Dungeon Master Ayla	...It was some sort of miracle, I would say.																						
+30	33		302								All successes?	34																						
+31	34		301								Dungeon Master Ayla	No, it's actually the complete opposite. All failures... Critical failures, to be exact.																						
+32	35		203							1	0.25	400																						
+33	36		201							2	1031001	7	-400																					
+34	37		301							1	Liv	"If your luck isn't sufficient to get you out, try inversing it..." So that's what it means!	2																					
+35	38		204							1																								
+36	39		301								Lee	...Did you see this coming, Commandant?	1																					
+37	40		302								...	42	Let's look for the city entrance first.	43																				
+38	41	47	301								Lee	...Okay, I can accept that as a tactic.	1																					
+39	42	47	301								Dungeon Master Ayla	After searching for a while, you found a door.																						
+40	43		202							2					1																			
+41	44		201							2	500166		-400																					
+42	45		301							1	Lucia	Ayla... I mean, DM. Does this city have walls?	2																					
+43	46		301								Dungeon Master Ayla	Yes, but after searching for a while, you found a door.																						
+44	47		301								Dungeon Master Ayla	It is blocking your way forward. Above the door are a pair of eyes that don't belong to ordinary creatures. They are slowly opening.																						
+45	48		202							1	2				1																			
+46	49		201							1	500026																							
+47	50		301							1	Lee	I want to check the items in my inventory, as well as the number of spells available.	1																					
+48	51		301								Dungeon Master Ayla	??																						
+49	52		301								Lee	What kind of door is this? Does it open inward or outward? I want to check its texture and inspect the door hinge.	1																					
+50	53		301								Dungeon Master Ayla	It's a circle-shaped door that is large enough to be socketed into the door frame. To open it, you'll need to roll it into the frame, but the door is currently closed and there is no point of action left for you.																						
+51	54		301								Dungeon Master Ayla	The door is made from stone, with many spells cast on it to protect against lightning, wind, explosion, and so on and so forth. There is no door hinge either, so you can't break it that way.																						
+52	55		202							1					1																			
+53	56		201							1	500166																							
+54	57		301							1	Lucia	Are there any protruding rocks nearby?	1																					
+55	58		301								Dungeon Master Ayla	Maybe, it's an ancient building after all.																						
+56	59		301								Lucia	I'll climb all the way up using the protrusions then.	1																					
+57	60		301								Dungeon Master Ayla	...When you climb above the door, the door opens its mouth; you only feel a strong gale before falling backward.																						
+58	61		301								???	Can't you just knock on the door normally?																						
+59	62		301								Dungeon Master Ayla	(I just realize they hardly open a door using the normal way...)																						
+60	63		202							1					1																			
+61	64		201							1	1031001	7																						
+62	65		301							1	Liv	Mr. Door... You can talk?	1																					
+63	66		301								Mr. Door	Mr. Door? Thanks for giving me a name. That's probably my favorite one so far.																						
+64	67		204							1	1																							
+65	68		301								Liv	Um, Mr. Door, can you please let us in? We'd like to enter the Dragon Realm.	1																					
+66	69		301								Mr. Door	Well, I don't mean to disappoint you, but I was given a duty by the guy who built me, which is to stop adventurers like you from entering.																						
+67	70		301								Mr. Door	One Ancient Triangle replica can only let one person in. That's the rule we agreed on.																						
+68	71		204							1	19																							
+69	72		301								Liv	But we only have one replica here...	1																					
+70	73		301								Mr. Door	How about letting the other three down?																						
+71	74		204							1																								
+72	75		301								Liv	No.	1																					
+73	76		301								Mr. Door	C'mon, don't give me that serious face. You young people can't even take a joke nowadays.																						
+74	77		301								Mr. Door	As long as you have the materials, I can close one eye. It's not like I never did this before. Just take it as a token of appreciation for the new name you gave me.																						
+75	78		302								What shall we do next then?	79																						
+76	79		302								Do we need crafting skills?	80																						
+77	80		301								Mr. Door	No need. Just put the box with "Twin Souls" inside into this... mouth-like opening on me.																						
+78	81		204							1	3																							
+79	82		301								Liv	Like this?	1																					
+80	83		301								Mr. Door	Yeah, just like that. Watch your hand now, for I'm about to extract what's inside the box.																						
+81	84		301									You hear the blunt noises of metal clinking, followed by the abrasive screeching made from sharp items scratching against the surface.																						
+82	85		301									Mr. Door's stone-carved face rapidly changes from relaxed to twisted in no time.																						
+83	86		301								Mr. Door	Gosh, what did you put in this thing?! Adamantine, obsidian, oblivion steel... Where did you get this container? It's way too chewy.																						
+84	87		301									Seeing Mr. Door spit out decomposed metal blocks, Liv cannot help but recall Karenina's proud expression when she introduced the box.																						
+85	88		202							1					1																			
+86	89		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab	2																							
+87	90		101							Assets/Product/Texture/Image/BgStory/Bgstory252.png																								
+88	91		201							1	500494	13																						
+89	92		301							1	Karenina	I thought the old box wasn't secure enough, so I built a new one. Made from composite materials, it can even be used as a shield when needed. I think it can withstand the direct hit of small-caliber gun shells.	1																					
+90	93		202							1					1																			
+91	94		101							Assets/Product/Texture/Image/BgStory/BgStory539.jpg																								
+92	95		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiHuaping.prefab																							
+93	96		301								Mr. Door	Whatever, I was too confident. It's terribly rude of me, but let's just leave those things there. I don't want to dispose of them ever again.																						
+94	107		301									As he speaks, a loud humming sound comes from underneath as the round rock door slides to the right.																						
+95	108		301								Mr. Door	I'm glad to see so many people coming to the Realm of Dragons after so long. He didn't wait so many years for nothing.																						
+96	109		301								Mr. Door	Please, if you may, take care of him for me.																						
+97	110		301									Mr. Door did not leave you time to ask. He has returned to the door frame and become silent again just like any other ordinary door.																						
+98	111		301									Gray Raven crosses the stone door. They see a white crane gliding past them as they enter the wide, open world from the narrow border.																						
+99	112		205						2000	999	Assets/Product/Texture/Image/BgStory/Bgstory237.png	0	1	2																				
+100	113		205							999		1	0	0																				
+101	114		101							Assets/Product/Texture/Image/BgStory/Bgstory237.png																								
+102	115		301									The city in front is nothing like the bustling jungle of steel you are used to. Although not as majestic and glamorous, its ancient bricks and wood are carved with the marks of time.																						
+103	116		301		1		AniZhuanchangBegin					Lamps light up the city like reflections of stars. Once crafted by countless people, it is having a peaceful sleep in the evening breeze.																						

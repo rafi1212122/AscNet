@@ -1,0 +1,60 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory61.jpg																								
+2	2		401							1	209																							
+3	3		201							1	1011001		400																					
+4	4		201							2	1021001		-400																					
+5	5		301			DialogEnable				1	Lucia	This should be the target of our mission, the ground tactical terminal.	2																					
+6	6		301								Lee	Well, judging by the appearance, the tactical terminal is not damaged. Seems that the Ascendants haven't found it yet.	1																					
+7	7		301								Lucia	Let's test and recycle the data, Lee.	2																					
+8	8		301								Lee	First, we need to activate the tactical terminal. By the way, I've discovered something.	1																					
+9	9		301								Lee	On the way here, I've explored the information about the memory data many times. Since the records were too far back, there's a severe loss of data.	1																					
+10	10		301								Lee	From the analysis of limited records, the memory data is not dangerous. But there's something wrong about the records...	1																					
+11	11		202							1	2				1																			
+12	12		401							1	206																							
+13	13		201							1	500079																							
+14	14		301							1	???	Hmm... Such a good sleep... Well?	1																					
+15	15		301								???	I feel so light! Where are our bodies?	1																					
+16	16		302								Oh, this is...	17	Cottie!	17																				
+17	17		201							1	1021001	4																						
+18	18		301							1	Lucia	Protect the Commandant!	1																					
+19	19		201							1	500079																							
+20	20		301							1	Cottie	Commandant? There's no moe reaction. Such a familiar feeling... yet a bit different. Are you loser? Have you betrayed the Moe Army?	1																					
+21	21		201							1	1011001																							
+22	22		301							1	Lee	So I guess this is what the missing data and abnormal reaction in the records refer to.	1																					
+23	23		301								Lee	The original memory data actually exists in such a form... That's incredible.	1																					
+24	24		201							1	1031001	7																						
+25	25		301							1	Liv	Miss Cottie... seems to have mistaken you with someone she knows.	1																					
+26	26		201							1	1021001																							
+27	27		301							1	Lucia	I sort of figured it out. Commandant, if you don't mind, please allow me to explain to Marshal Cottie what's going on.	1																					
+28	28		302								Sure.	29	Please, Lucia.	29																				
+29	29		202							1					1																			
+30	30		301									...																						
+31	31		201							1	500079																							
+32	32		301							1	Cottie	Wh-what? Does it mean we won't be able to have donuts again?	1																					
+33	33		201							1	1031001	14																						
+34	34		301							1	Liv	I kind of... feel sorry for her.	1																					
+35	35		201							1	1011001																							
+36	36		301							1	Lee	Data shows that the memory prototype of Cottie died from complications of hyperglycemia caused by eating too many donuts at the age of 86.	1																					
+37	37		201							1	500079																							
+38	38		301							1	Cottie	How? The donut entered the other stomach, why did it turn into my blood sugar?	1																					
+39	39		201							1	1011001	10																						
+40	40		301							1	Lee	Doesn't the other stomach also grow in you?	1																					
+41	41		302								Exactly!	42	Let's get to the point.	42																				
+42	42		201							1	500079																							
+43	43		301							1	Cottie	Any way, since the Moe War is over, I have no reason to fight any more...	1																					
+44	44		401							1	205																							
+45	45		301								Cottie	Do you think I'd say that? Lo... Commandant over there!	1																					
+46	46		301								Cottie	In a word, you have to win my approval if you want me to help you!	1																					
+47	47		301								Cottie	I don't care about that so-called Punishing Virus. It's unforgivable for it to go after me, the great marshal!	1																					
+48	48		301								Cottie	Restore everything about the Moe Army back to normal, the memory, the data... save it all to win my approval, got it?	1																					
+49	49		302								Got it.	50	That's part of the job.	50																				
+50	50		301								Cottie	Hmph, that's glad to hear.	1																					
+51	51		201							1	1011001																							
+52	52		301							1	Lee	Memory data integrity test passed. No sign of Punishing Virus corruption was detected. Carrying out memory recycle as planned.	1																					
+53	53		302								Let's go, Cottie.	54	First mission completed, right, Lucia?	56																				
+54	54		201							1	500079																							
+55	55	58	301							1	Cottie	I'll allow you to take me away for now to test the results of your mission!	1																					
+56	56		201							1	1021001																							
+57	57		301							1	Lucia	Yes, Commandant.	1																					
+58	58		201							1	1011001																							
+59	59		301		1		AniZhuanchangBegin			1	Lee	—Memory: Cottie, recycled.	1																					

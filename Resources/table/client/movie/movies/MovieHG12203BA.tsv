@@ -1,0 +1,197 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory394.jpg																								
+2	2		401							1	202																							
+3	3		401							2	1516																							
+4	4		301			DialogEnable						Once again, you arrive at the border of the conservation area. Under the lead-gray sky, you walk through the field of mechanical parts left by Constructs and mechanoids.																						
+5	5		201							1	500345																							
+6	6		301							1	Vera	Ugh... Looks like this mission is going to be a hassle. We've got quite a few battles ahead of us.	1																					
+7	7		301				DialogDisable				Vera	No matter. More battles mean less wounded. I guess it's worth it.	1																					
+8	8		302								Vera.	9																						
+9	9		302								I have a question.	10																						
+10	10		204							1	1																							
+11	11		301			DialogEnable					Vera	Oh, dear! What's wrong? Dear Commandant? I'm not in the mood right now. Ask too many questions, and I'll have a special room in the field clinic with your name on it.	1																					
+12	12		302								Why am I leading the way this time?	13																						
+13	13		204							1	13																							
+14	14		301								Vera	Last time you didn't want to help clean up the aftermath. Alright, perfect. This time I need someone to do the "beforemath."	1																					
+15	15		302								Let me guess... You want to use me as bait?	16																						
+16	16		204							1	2																							
+17	17		301								Vera	Oh, dear! What gave you that idea?	1																					
+18	18		301								Vera	Whatever. Doesn't matter. You always have a way of getting right to the point, Gray Raven Commandant.	1																					
+19	19		302								Can I say no?	20	Fine...	23																				
+20	20		202							1					1																			
+21	21		301								Vera	Of course not, my dear Commandant!																						
+22	22		301									You do not need to turn back to see Vera's face to know the expression she is giving you.																						
+23	23		202							1					1																			
+24	24		301									You have no other choice but to follow Vera's orders and continue onward.																						
+25	25		201							1	500013																							
+26	26		401							2	1508																							
+27	27		301							1	Corrupted	Rargh—!	1																					
+28	28		301									Right at that moment, a Corrupted rushes forward. Without any other targets nearby, it is clearly aiming at you as Vera watches from behind.																						
+29	29		401							2	1508																							
+30	30		301								Corrupted	Urgh—!	1																					
+31	31		301									As it approaches, Vera's banner spear remains unflinching.																						
+32	32		401							2	1508																							
+33	33		301								Corrupted	Rrarrggghhh—!	1																					
+34	34		301									Just as the Corrupted is right in front of you with its weapon in your face—																						
+35	35		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+36	36		301			PanelActor1Shake				1	Corrupted	Urgh...																						
+37	37		301									Suddenly, the banner spear comes flying through the gap below your arm.																						
+38	38		201							1	500345	2																						
+39	39		301							1	Vera	Not bad, Gray Raven Commandant. You sure make for some great bait. You don't move an inch!	1																					
+40	40		302								Well, not with your spear at my back...		Just call me grade A Corrupted food...																					
+41	41		204							1	13																							
+42	42		301								Vera	Heh, well don't stop here. Keep going.	1																					
+43	43		302								Quit prodding me with your spear!	44	I'm not some shish kebab!	44																				
+44	44		202							1					1																			
+45	45		301									These Corrupted lack advanced cognition modules, only going after humans. All you need to do is continue onward, and Vera will take care of them one after another.																						
+46	46		301									However, unlike last time when Vera would leave you to do the dirty work, she is sure to swiftly kill each Corrupted herself, leaving no room for danger.																						
+47	47		301									Vera threatens you with a sweet smile as if to warn you not to act rashly. Even if you want to do something, you will be immediately struck by her banner spear.																						
+48	48		302								(Looks like... this is pretty straightforward?)	49																						
+49	49		201							1	500345																							
+50	50		301							1	Vera	Well, then.	1																					
+51	51		301								Vera	Hey, wait a sec.	1																					
+52	52		301									Right as that thought crosses your mind, Vera suddenly stops you in your tracks.																						
+53	53		301								Vera	Take this.	1																					
+54	54		301									You stop and look back. Vera tosses you a small pistol.																						
+55	55		302								What's this?	56																						
+56	56		301								Vera	There's a spike in the Punishing Virus concentration up ahead. A horde of Corrupted is heading this way. Playtime's over.	1																					
+57	57		204							1	4																							
+58	58		301								Vera	Take this pistol. Don't get yourself killed.	1																					
+59	59		302								Huh?	60																						
+60	60		301									Turning back, the horde of Corrupted arrives right on cue. Compared to their forces, your pistol seems like nothing more than child's play.																						
+61	61		301								Vera	What are you worried about? Someone of your caliber should be able to protect yourself.	1																					
+62	62		202							1					1																			
+63	63		301									Vera lifts her spear and begins to swiftly pierce through the horde of Corrupted like an unstoppable force. However, with the deluge of Corrupted attacking from all directions, she has no time to look out for you.																						
+64	64		301									Does she expect you to carry the same weight against this many Corrupted? This...																						
+65	65		302								I've got this!	66	I'm outnumbered!	66																				
+66	66		301									Step back, load, aim...																						
+67	67		301									Stabilize, deep breath...																						
+68	68		401							2	1510																							
+69	69		301									Fire!																						
+70	70		302								Four Corrupted struck at 2 o'clock.	71	Damn it. Missed.	75																				
+71	71		201							1	500345																							
+72	72		301							1	Vera	Huh!	1																					
+73	73		401							2	11106007																							
+74	74	86	301									As you shoot, Vera swings her spear horizontally at the enemies. The sheer brute force of the attack slices straight through their metal frames.																						
+75	75		201							1	500345	4																						
+76	76		301							1	Vera	Heh. Not surprised.	1																					
+77	5555		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+78	77		301									The gunfire causes several Corrupted rushing toward Vera to shift their sights onto you. Dropping their defenses for just a second, Vera seizes this window of opportunity and draws an arc with the tip of her spear, cleaving the other group of mechanoids in half.																						
+79	78		204							1																								
+80	79		301								Vera	Think you can work on that aim next time?	1																					
+81	80		302								...Got it.	81																						
+82	81		401							2	1510																							
+83	82		301									You nod and raise your hand. With your aim steady, you pull the trigger at Vera.																						
+84	83		301									At the shooting range, you would have received a stern lecture. But on the battlefield, there is no time for instruction.																						
+85	84		301									Hers was a command.																						
+86	85		301									This time, your aim is tried and true. You shoot a Corrupted closing in on Vera from behind.																						
+87	86		201							1	500345	2																						
+88	87		301							1	Vera	Not bad. I guess you pass.	1																					
+89	88		302								Just barely.	89	This is the true measure of a...	89																				
+90	89		204							1																								
+91	90		301								Vera	I've still got over a dozen more of those bastards. Get moving.	1																					
+92	91		302								Shouldn't we almost be done?	92	Ever consider working for the Science Council?	92																				
+93	92		204							1	13																							
+94	93		301								Vera	If you've got energy to speak, you've got energy to fight. Why don't I give you a few more?	1																					
+95	94		302								Uh... Alright.	95	Er... Only if I have to.	95																				
+96	95		204							1	2																							
+97	96		301								Vera	Alright. If that's the case—	1																					
+98	97		204							1																								
+99	98		301								Vera	Look, 1 o'clock. See that little runt? Get rid of it.	1																					
+100	99		202							1					1																			
+101	100		401							2	1510																							
+102	101		301									Without saying a word, you aim and fire. Vera steps a foot forward and launches her spear in the same direction.																						
+103	102		201							1	500013		600																					
+104	103		201							2	500013																							
+105	104		201							3	500013		-600																					
+106	105		401							2	1508																							
+107	106		301									After running around as bait, you have already gathered a large horde of Corrupted that now stand before you like a red sea.	1	2	3																			
+108	107		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+109	108		501					200		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+110	1000		401							2	11106007																							
+111	109		203							1	0.1	650																						
+112	110		203							2	0.1	500																						
+113	111		203						100	3	0.1	-650																						
+114	112		203							1	0.1	680																						
+115	113		203							2	0.1	550																						
+116	114		203							3	0.1	-680																						
+117	115		301									Like the staff of legends, Vera's banner spear prepares to part the red sea.	1	2	3																			
+118	116		202							1	2	3			1																			
+119	117		301									Your bullet signals her to begin.																						
+120	118		301									The bullet hits a small Corrupted resembling a transmitter, which was causing Corrupted to gather here in the first place.																						
+121	119		301									By removing this signal, the instinct-driven Corrupted will lose their senses of direction soon, and the two of you should be able to defend the front line.																						
+122	120		201							1	500013																							
+123	121		401							2	1508																							
+124	122		301							1	Corrupted	—Raaargh!—Rrrgghh!	1																					
+125	123		202							1					1																			
+126	124		301									However, Vera's ambush distances the two of you from each other. Without the protection of her banner spear, a new horde of Corrupted begins to surround you.																						
+127	125		302								...No problem.	126																						
+128	126		301									After fighting alongside Vera, you finally begin to understand her fighting style. You do not panic like last time. Instead, you take a deep breath, steady your feet, and approach her as you fire your gun.																						
+129	127		301									On the battlefield, she is like an unrestrained dancer. If you wish to be her partner, you must rise to her sense of autonomy. If she is out of reach, you must dance your way to her side.																						
+130	128		302								This side's all taken care of.	129																						
+131	129		301									Step by step, you press the line. Forward and back, you make your way to her side. Falling back one last time, your back is finally at the hilt of her spear.																						
+132	130		301									No enemies will ambush you from behind, nor will they ambush Vera. Indeed, this peace of mind is like two partners dancing in step.																						
+133	131		301				AniZhuanchangBegin					Soon after, Vera begins moving again. This time you move in the direction of more Corrupted—																						
+134	132		101							Assets/Product/Texture/Image/BgStory/Bgstory394.jpg																								
+135	133		301			AniZhuanchangEnd						...																						
+136	134		301									After dancing with the rose for who knows how long, your arms begin to ache from holding the pistol right as all the Corrupted have been completely eliminated.																						
+137	135		302								Enemies eliminated.	136																						
+138	136		301								Vera	Right.																						
+139	137		301									You see Vera's mouth move, but you cannot hear what she says from this distance. However, you cannot mistake her affirmative tone for anything but confirmation.																						
+140	138		302								Do we need to recover any resources here?	139																						
+141	139		301									There is no response. Vera, who is standing in the distance, just kneels down and rummages through a pile of scraps. The answer is clear.																						
+142	140		301									Right as you are about to run over to her side, a small robot moving ever so slightly in the distance attracts your attention.																						
+143	141		302								Oh no, you don't.	142																						
+144	142		301									Change direction, step over the scraps, aim, fire—																						
+145	143		401							2	1510																							
+146	144		301									You destroy it in a single shot. This time, you have the hands of a surgeon. The Corrupted transmitter quickly collapses onto the ground.																						
+147	145		302								Time to regroup with Vera.	146																						
+148	146		301									Just as you turn to walk toward Vera, you feel your body suddenly become heavier.																						
+149	147		302								?	148																						
+150	148		301			RImgBg1Shake						You stagger forward.																						
+151	149		302								It can't be...	150																						
+152	150		301									Finally managing to stabilize yourself, you cannot help but squat down. That is when you realize the issue...																						
+153	151		301									Walking through the scrap metal, you have gotten used to treading unstable ground.																						
+154	152		301			RImgBg1Shake						That is why you ignored the steady rumbling that had begun to occur underfoot.																						
+155	153		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab	2																							
+156	154		401							1	203																							
+157	155		301			RImgBg1Shake						Unsuspectingly, you are now standing on a gigantic Corrupted!																						
+158	156		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab																							
+159	157		201							1	500345	5																						
+160	158		301							1	Vera	【kuroname】! Don't just stand there!	1																					
+161	159		302								I can't keep my balance!	160																						
+162	160		301									Vera has reacted to the situation at hand way before you have. Realizing what is happening, she quickly runs over to the other side of the Corrupted.																						
+163	161		202							1					1																			
+164	162		301									The Corrupted rises from within the ruins, and you almost lose your footing if you have not kneeled to lower your center of gravity. Based on your field of vision, the height of the Corrupted must be over ten meters, with you right on top of it. Jumping down from this height poses too much of a risk.																						
+165	163		301									Prioritize killing the Corrupted or find a way to save yourself? You will have to make the call and relay it to Vera—																						
+166	164		201							1	500020																							
+167	165		401							2	1508																							
+168	166		301							1	Giant Corrupted	Urgh—!	1																					
+169	167		301									However, the Corrupted leaves you no time to deliberate. It most likely discovered you after receiving a signal from the transmitter you destroyed. After standing up, the Giant Corrupted immediately begins to shake violently.																						
+170	168		301									As for you, the violent shaking sends you flying off the Corrupted.																						
+171	169		201							1	500345	5																						
+172	170		301							1	Vera	Brace for landing!	1																					
+173	171		302								Got it!	172	(Adjust posture)	172																				
+174	172		301									In the case of a high-altitude descent, commandants have undergone safety training for a descent protocol in tandem with a Construct. Vera makes the same call and immediately initiates the descent protocol.																						
+175	173		301									Follow your training, hold your breath, stay calm, pay attention to your limbs. Adjust your landing posture bit by bit——																						
+176	174		201							1	500020																							
+177	175		401							2	1508																							
+178	176		301							1	Giant Corrupted	Rargh—!	1																					
+179	177		301									Only to be smacked by the Corrupted's erratically swinging arms.																						
+180	178		302								Ugh...!	179																						
+181	179		301									Train as you will... No amount of training would prepare you for being struck mid-air by a Giant Corrupted.																						
+182	180		202							1					1																			
+183	181		301			RImgBg1Shake						Compared with the pain from the devastating blow, the feeling of weightlessness takes precedence in your mind. For a brief moment, you cannot tell whether you are falling toward the gray earth or flying up into the gray sky. Your whole world is spinning, and your arms are at their limits.																						
+184	182		401							2	1507																							
+185	183		301									Krrr... Krr... You hear the Giant Corrupted moving its feet clumsily and stirring through the mountainous pile of scraps.																						
+186	184		201							1	500345	4																						
+187	185		301							1	Vera	Hmph.	1																					
+188	186		202							1					1																			
+189	187		301									The metal scraps have probably hindered Vera's approach. A steel plate right before you is covering her crimson hair.																						
+190	188		401							2	1506																							
+191	189		301									Ka-cha! The tip of the banner spear breaks the steel plate in two.																						
+192	190		301									It is Vera. She smashes the steel plate and dashes forward. Nothing stands in her way as she indiscriminately destroys every obstacle in her path.																						
+193	191		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineFocusNew.prefab	2																							
+194	192		301									However, she is too late—a miscalculation with fatal consequences.																						
+195	193		301									The last thing you see is yourself crashing into the ground.																						
+196	194		301		1		AniZhuanchangBegin					A broken piece of rebar sticks out of the ground. The sharp broken spike looks like the gaze of death.																						

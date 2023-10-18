@@ -1,0 +1,24 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory7.jpg																								
+2	2		401							1	201																							
+3	3		201							1	1031001		-600																					
+4	4		201							2	500026		600																					
+5	5		201							3	500166																							
+6	6		301			DialogEnable				1		With one of the cards, you open the door to the hotel's corridor outside, where the floor is shaky and littered with fallen objects.																						
+7	7		301								Lucia	Be careful. The Red Tide is just right under.	3																					
+8	8		301								Liv	Most of the doors are blocked by objects that have fallen. It'd take us forever to remove them.	1																					
+9	9		301								Liv	And the floor probably wouldn't hold if we all go together to clean them up...	1																					
+10	10		301								Lucia	Which room is it?	3																					
+11	11		302								Lee, use the Spear of F.O.S.!	12	Let's flip a coin!	13	Liv, what's your thought?	17																		
+12	12	17	301								Lee	As I said, I tried looking into the team but didn't get a match.	2																					
+13	13		301								Lee	Do you feel confident about your luck?	2																					
+14	14		302								Um...	17	I happen to be Babylonia's luckiest person.	15																				
+15	15		204							2	10																							
+16	16	19	301				DialogDisable				Lee	Well then, it's all up to you now.	2																					
+17	17		301								Liv	...Um. Let me think about it.	1																					
+18	18		301				DialogDisable					Liv looks at the pattern on the key card and starts thinking...																						
+19	19		305							20	23																							
+20	20		204							2																								
+21	21		301			DialogEnable					Lee	We've got all the clues we need.	2																					
+22	22		301		1		AniZhuanchangBegin				Liv	Let's restore the record when we're back in the safe zone, Commandant.	1																					
+23	23		202		1		AniZhuanchangBegin			1	2	3			1																			

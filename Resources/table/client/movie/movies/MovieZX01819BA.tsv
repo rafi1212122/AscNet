@@ -1,0 +1,48 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory41.jpg																								
+2	2		401							1	102																							
+3	3		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySandNew.prefab	2																							
+4	4		201							1	500273		-400																					
+5	5		201							2	500284		400																					
+6	6		301			DialogEnable				1		After who knows how long, Arnold is just about to finish maintenance on Wanshi. With no room for error, sweat drips down his cheeks.																						
+7	7		301								Arnold	...	2																					
+8	8		301								Wanshi	...	1																					
+9	9		401							2	1515																							
+10	10		202							1	2				1																			
+11	11		301									Right at this moment, the sphere bot jumps up and projects a holo-map of the city for both of them to see.																						
+12	12		301									The holo-map shows three blips running among the collapsed buildings. Bright sparks flash intermittently.																						
+13	13		201							1	500273		-400																					
+14	14		201							2	500284		400																					
+15	502		401							1	103																							
+16	15		301							1	Arnold	Are those your comrades?	2																					
+17	16		301								Wanshi	...Yup. Guess those two idiots came looking for me.	1																					
+18	17		204							2	1																							
+19	18		301								Arnold	Because they're your comrades...	2																					
+20	19		204							2																								
+21	20		301								Arnold	Comrades...	2																					
+22	21		301								Arnold	Alright, just gotta patch up one more thing.	2																					
+23	22		301									Arnold places the sphere bot in Wanshi's hand.																						
+24	23		301								Wanshi	...?	1																					
+25	24		204							2	1																							
+26	25		301								Arnold	Bahaha! Not like you can refuse, can you? Let's finish patchin' you up.	2																					
+27	26		202							1	2				1																			
+28	27		301									Arnold walks back a few steps and sits on the sofa. He takes a pill out from a pillbox under the sofa and swallows. Wanshi cannot tell what it is, but based on Arnold's look of disgust, it must be a tough pill to swallow.																						
+29	28		301									The sphere bot standing before Wanshi slowly opens up as a series of connectors extend out from within and connect with Wanshi's external ports.																						
+30	29		301									Wanshi can feel the robot's energy pour into his body. With Arnold having fixed his external damages, his lack of operating power is restored with the help of the robot.																						
+31	30		201							1	500273	7	-400																					
+32	31		201							2	500284	1	400																					
+33	32		301							1	Arnold	It's been ages...	2																					
+34	33		301								Arnold	Since I've had talked with another "person."	2																					
+35	34		301								Wanshi	But this power is...	1																					
+36	35		301								Arnold	Think of it as a gift for showin' me the outside world. I don't like owin' others nothin'.	2																					
+37	36		301								Arnold	I don't want that power goin' to waste. It's broken beyond repair anyways. Why not give it all to you...	2																					
+38	37		301								Arnold	Not to mention, we'll have a better chance of both of us gettin' outta this mess.	2																					
+39	500		204							1																								
+40	38		301								Wanshi	...I see.	1																					
+41	39		301								Wanshi	Alright, now it's my turn. Let's see what organ is damaged.	1																					
+42	40		301									Wanshi stretches his hands and feet. With his limps functioning normally, he gets up and approaches Arnold. However, Arnold reaches out his hand and gestures for him to stop.																						
+43	501		204							2																								
+44	41		301								Arnold	There's more important **** to do than look after me. You saw the holo-map. Your comrades are in trouble.	2																					
+45	42		301								Arnold	Let's go. Show me what kinda world we live in now.	2																					
+46	43		301								Arnold	I have been hidin' for too long, but I feel like goin' out there today.	2																					
+47	44		301		1		AniZhuanchangBegin				Wanshi	Sigh... Alright.	1																					

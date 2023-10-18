@@ -1,0 +1,67 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory229.png																								
+2	2		401							1	103																							
+3	3		201							1	500091	5																						
+4	4		301			DialogEnable				1	Nanami	You're a Corrupted!	1																					
+5	5		201							1	500208																							
+6	6		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																						
+7	7		301							1	Bionic Machine (?)	Urgh!!!	1																					
+8	8		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																					
+9	9		201							1	500091	5																						
+10	10		301							1	Nanami	And you're a Corrupted!	1																					
+11	11		201							1	500208																							
+12	12		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																						
+13	13		301							1	Bionic Machine (?)	——	1																					
+14	14		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryGanRanNew.prefab		1																					
+15	15		202							1					1																			
+16	16		201							1	500019		-400																					
+17	17		201							2	500028		400																					
+18	18		301							1	Construct	What's with that Construct...?	1																					
+19	19		301								Construct Captain	I think I saw her on the files before! Are reinforcements coming?!	2																					
+20	20		301								Construct	Oh! Then we should get ready for a counterattack, yeah?	1																					
+21	21		202							1	2				1																			
+22	22		201							1	500091	5																						
+23	23		301							1	Nanami	NO! Nanami isn't here to help you fight the bionics!	1																					
+24	24		201							1	500028																							
+25	25		301							1	Construct Captain	What?!	1																					
+26	26		202							1																								
+27	27		301									Answering the Construct, Nanami dashes into the fray, defeating every Corrupted that she sees.																						
+28	28		301				AniZhuanchangBegin					All that stands in Nanami's way is met with a whack of her chainsaw and sent flying afar. Nobody can handle the Nanami calamity.																						
+29	29		201							1	500199	5	-400																					
+30	30		201							2	500201		400																					
+31	31		301			AniZhuanchangEnd				1	Staessen	Oi, Simon, what's with this Construct lass?! Why is she attacking our people?!	1																					
+32	32		301								Simon	I think I saw her with Boss before... Some Construct called Nanami.	2																					
+33	33		301								Staessen	I don't need her name! I need a way to deal with that Construct!	1																					
+34	34		301								Simon	I'm afraid only our very-not-present Boss can handle her.	2																					
+35	35		301								Simon	Soldiers on the frontline, do you copy? Pull back immediately! Don't engage with the Construct that just rushed in.	2																					
+36	36		301								Staessen	What?! What about our defenses?!	1																					
+37	37		301								Simon	It'll just be one or two openings. We'll be fine. Getting out of her way is more important.	2																					
+38	38		201							2	500088	4	400																					
+39	39		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+40	40		301							1	Diana	We'll cover for the openings.	2																					
+41	41		301								Staessen	Diana... Why are the Forest Guard here? Did you capture that Atiel?	1																					
+42	42		301				AniZhuanchangBegin				Diana	【kuroname】 and Rosetta will handle Atiel. We've returned to support the frontline instead. Forest Guards, spread out!	2																					
+43	43		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+44	44		202							1	2				1																			
+45	45		301			AniZhuanchangEnd						At Diana's behest, the Forest Guard members charge at the battlefield. Taking care to stay out of Nanami's way, they rescue the incapacitated ARU members.																						
+46	46		201							1	500087		-400																					
+47	47		201							2	500088	4	400																					
+48	48		301							1	Fisher	Pah, took your damn sweet time... some Forest "Guards" you all are!	1																					
+49	49		301								Diana	But it's still not too late, is it not?	2																					
+50	50		301								Fisher	...Whaddya mean?	1																					
+51	51		301								Diana	Your leg's hurt. Ride on my teammate's back and retreat. We'll handle the rest from here on out.	2																					
+52	52		301								Fisher	Ya think we can leave our defenses to you sinners? You...	1																					
+53	53		301								Diana	Even if we're sinners... We're sinners born and raised here. Please believe in us.	2																					
+54	54		301				AniZhuanchangBegin				Fisher	...	1																					
+55	100		202							1	2				1																			
+56	55		201							1	500211																							
+57	56		301			AniZhuanchangEnd				1	Martin	Nanami, at this rate, you'll leave the battlefield. Aren't you trying to pluck all the Corrupted out?	1																					
+58	57		201							1	500091	5																						
+59	58		301							1	Nanami	Well, I'm catching the trails of someone that's tryna sneak away!	1																					
+60	59		201							1	500211																							
+61	60		301							1	Martin	What?	1																					
+62	61		201							1	500091	5																						
+63	62		301							1	Nanami	Dunno what that is, but that must be the source of all evil! The stinky sneaky baddie that's controlling the Corrupted and making a mess!	1																					
+64	63		301								Nanami	Martin, you'll have to handle the Corrupted! Nanami is going to...	1																					
+65	64		301									Nanami lowers her stance mid-dash, bending so low as if she is about to fall. The angles of her booster wheels adjust and maintain her balance, allowing Nanami to slide forward at full speed.																						
+66	65		301		1		AniZhuanchangBegin				Nanami	...Be the hero!	1																					

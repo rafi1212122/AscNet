@@ -1,0 +1,16 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory26.jpg																								
+2	100		401							1	201																							
+3	2		301			DialogEnable					System	Connecting—																						
+4	3		201							1	500001																							
+5	4		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+6	5		301							1	Celica	Gray Raven and Kamui... I'm relieved that all of you are fine.	1																					
+7	6		301								Celica	We're currently sending another aircraft over to pick you up.	1																					
+8	7		203							1	0.25	400																						
+9	8		201							2	1021001		-400																					
+10	9		301							1	Lucia	The desert here is full of Corrupted, we need to keep moving to avoid being attacked.	2																					
+11	10		301								Celica	Of course, I'll keep updating the pilots of your current location.	1																					
+12	11		301								Lucia	Thank you.	2																					
+13	12		301								Celica	Oh right, the mission time was quite long this time, well done to all of you. I'll get the hot water running to welcome you back.	1																					
+14	101		204							2	6																							
+15	13		301		1		AniZhuanchangBegin				Lucia	Thank you, Miss Celica... Hm? Hot water?	2																					

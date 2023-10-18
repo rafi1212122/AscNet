@@ -1,0 +1,26 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory20.jpg																								
+2	2		401							2	10002001																							
+3	3		301			DialogEnable						With a slash from Lucia, the last Corrupted in front of her falls as well.																						
+4	4		201							1	1031001		-600																					
+5	5		201							2	500166		0																					
+6	6		201							3	500026		600																					
+7	7		301				AniZhuanchangBegin			1	Lucia	We've cleared the area. It's now safe to search.	2																					
+8	9		202							1	2	3			1																			
+9	10		301			AniZhuanchangEnd						You reconvene after investigating for quite some time.																						
+10	11		201							1	1031001		-600																					
+11	12		201							2	500166		0																					
+12	13		201							3	500026		600																					
+13	14		301							1	Liv	Sorry... I didn't find any useful leads...	1																					
+14	15		301								Lee	Same here. However, some projections appeared when I was looking for clues regarding the farewell letter.	3																					
+15	16		301								Lee	Looks like two people read the full note. When they did, they cheered and went to the location to look for it.	3																					
+16	17		301								Lucia	When was this recorded?	2																					
+17	18		301								Lee	The timestamp was too blurry to identify. Seems like it was a long time ago.	3																					
+18	19		301								Lucia	Even after all this time, there still hasn't been any news on how to control the Punishing Virus...	2																					
+19	20		301								Lucia	In other words, they may have run into danger, or it may have been completely useless information.	2																					
+20	21		302								Any new clues, Lucia?	22																						
+21	22		301								Lucia	I saw a large number of scavengers devoured by the Red Tide.	2																					
+22	23		301								Liv	A large number of... scavengers?	1																					
+23	24		301								Lucia	They seemed almost enthralled by it as if they were doing it willingly.	2																					
+24	25		301								Lucia	I only saw this brief moment. I don't have any other information.	2																					
+25	26		301		1		AniZhuanchangBegin				Liv	We'll keep an eye out. Let's keep going, Commandant.	1																					

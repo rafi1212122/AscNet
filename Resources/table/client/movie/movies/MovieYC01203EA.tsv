@@ -1,0 +1,39 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory178.png																								
+2	2		401							1	8																							
+3	3		301			DialogEnable						The battle ended up being a one-on-one fight between Rosetta and Alpha.																						
+4	101		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+5	103		401							2	10007001																							
+6	4		301			RImgBg1Shake						Blade and spear, hooves and legs—every collision of the two sends sparks flying, like countless flecks of stardust.																						
+7	5		301									Unlike Alpha, methodical in her steps and positioning, Rosetta completely ignores the conventional to and fro of battle, and merely charges, over and over at Alpha.																						
+8	6		301									An all-in strategy. Throwing herself at Alpha, threatening to consume her through the whistling spear tip, a comet of her humanoid-hybrid bulk and speed.																						
+9	7		301									Full of openings, but it locks Alpha in combat with her, denying her retreat, hanging on her the threat to crucify her whole. Alpha can only stay and answer Rosetta's blows, her blade poised to parry and deflect.																						
+10	8		301									Rosetta's limit will come. Because the world is made of patterns, eternally repeating themselves. Even chaos has its own rules, let alone Rosetta's lunges.																						
+11	9		201							1	500100																							
+12	10		301							1	α	There...	1																					
+13	11		202							1					1																			
+14	104		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+15	100		401							2	10002001																							
+16	12		301									Syncing, breathing, "becoming," the opponent. She catches the fatal pause—the nadir of her breath—and the blade passes, fluidly sliding into Rosetta's torso.																						
+17	13		201							1	500100																							
+18	14		301							1	α	This is the end, Rosetta.	1																					
+19	15		202							1																								
+20	16		301									Prepared to deal Rosetta her final blow, Alpha was about to extract her blade from the impaled Rosetta, but pauses when she notices the expression on Rosetta's face.																						
+21	17		201							1	500098	5																						
+22	200		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryGoldDust.prefab		1																						
+23	18		301			PanelActor1Shake	DialogDisable			1	Rosetta	No, the end for you, Ascendant.	1																					
+24	201		505								Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiStoryGoldDust.prefab		1																					
+25	19		202				RImgBg1DisableSlow			1																								
+26	20		101			RImgBg2Enable				Assets/Product/Texture/Image/BgCg/Cg1201_3.jpg																								
+27	21		301			DialogEnable					α	!?																						
+28	22		301									With all of her remaining strength, Rosetta grabs Alpha's blade tight, keeping it within her. It was all part of the plan from the very start.																						
+29	23		301									——If I can't best you, I can at least take you with me.																						
+30	24		301									The golden particles—Rosetta's trump card in this fight—swim around the air. Rosetta's assertive smile flickers off of the gold dust.																						
+31	25		301								α	That's why I felt a little heavy mid-fight...																						
+32	26		301								Luna	Sister! Let go your sword!																						
+33	27		301								Rosetta	Now... Nikola!!!																						
+34	29		301			RImgBg1Shake	DialogDisable					Luna and Rosetta roar almost contiguously, but Rosetta drowns out Luna with her bellowing volume.																						
+35	28		401							2	10007502																							
+36	30		502							RImgBg1DisableSlow																								
+37	31		101			RImgBg2Enable				Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+38	32		301		1	DialogEnable	AniZhuanchangBegin					Then the golden particles fuse. Colliding. A golden glow eats up the entire space.																						

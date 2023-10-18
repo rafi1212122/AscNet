@@ -1,0 +1,70 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	8																							
+3	4		301			DialogEnable				1		When the pain pierced through my body, a thought flickered into my mind.																						
+4	5		301									I'll destroy everything. I'll give everything up.																						
+5	6		301									But in the end, I couldn't. I didn't have it in me.																						
+6	7		301				AniZhuanchangBegin					So...																						
+7	2001		101							Assets/Product/Texture/Image/BgStory/Bgstory224.png																								
+8	2002		301			AniZhuanchangEnd						Rosetta speeds through Amberia with lightning speed. Amberia launches seeker missiles in an attempt to hinder Rosetta's movement.																						
+9	2003		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+10	2004		401							2	10001004																							
+11	2005		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab																							
+12	2006		301			RImgBg1Shake						But Rosetta presses on, without a care for the missiles. She charges at and passes Amberia relentlessly.																						
+13	2007		201							1	500214	5																						
+14	2008		301							1	Rosetta	Commandant!	1																					
+15	2009		301									Rosetta shouts for her next order. With her mind linked with yours, she could see more than just the battlefield before her.																						
+16	2010		302								Block with your shield!	12	Fly up!	16																				
+17	12	1000	401							2	10001004																							
+18	1000	13	301									Rosetta raises her shield to protect her head and chest, but leaves her lower body open.																						
+19	13	14	301									When the first missile lands on her shield, Rosetta deactivates her light wings.																						
+20	14	15	301									Letting gravity take control, she slides through the barrage with occasional bursts from her particle propellers, disrupting the trajectory of the volley of missiles as well as altering her own flight path.																						
+21	15	1002	301									As if threading the needle, she slips through the storm of missiles and reaches Amberia.																						
+22	16	17	301								Rosetta	I see...!	1																					
+23	17	18	301									Rosetta propels herself near the ceiling. The seeker missiles, as if drawn by a vortex, follow her to the top of the cave in a line.																						
+24	18	19	301								Rosetta	Fire!	1																					
+25	19	1001	301									Rosetta turns in midair, taking aim at the line of missiles. At the same time, she activates and expands her shield to fire at the line.																						
+26	1001	20	401							2	10007501																							
+27	20	1002	301			RImgBg1Shake						The missiles explode, causing a huge quake that almost turns the cavern inside out. Taking advantage of the smoke from the explosion, Rosetta charges directly at Amberia.																						
+28	1002		201							1	500209																							
+29	21		301							1	Amberia	ROSETTA!!!	1																					
+30	2011		201							1	500214	14																						
+31	22		301							1	Rosetta	You're now... completely Amberia, huh...	1																					
+32	23		301									It might have been due to the M.I.N.D. integration mentioned by Lamia, but Amberia no longer seems to be a split between Atiel and Amberia. It is as if she had become something else.																						
+33	2012		201							1	500209																							
+34	24		301							1	Amberia	I'm one step away from becoming free, one step from seeing the world! Why must you stop me, Rosetta!	1																					
+35	2013		202							1																								
+36	2014		401							2	10002001																							
+37	2015		401							2	1506																							
+38	2016		301			RImgBg1Shake						Amberia strikes at Rosetta with her hand, to which Rosetta parries with her spear.																						
+39	2017		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab	3																							
+40	2018		201							1	500214																							
+41	2019		301							1	Rosetta	When our M.I.N.D.s were connected, I felt your will and your desire, and your pain and anger also flowed into my M.I.N.D.	1																					
+42	2020		201							1	500209																							
+43	2021		301							1	Amberia	Then join me in revenge against the union. Let's take our revenge on this world!	1																					
+44	2022		201							1	500214	5																						
+45	2023		301							1	Rosetta	No! This will only bring more painful tragedies!	1																					
+46	2024		301								Rosetta	I don't expect you to forgive or understand us. As a humanoid-hybrid, most of my M.I.N.D. is also taken by the instinct to fight.	1																					
+47	2025		301								Rosetta	But regardless of what all this means to you, I must keep moving forward, until we reach the future where we can acknowledge the past!	1																					
+48	2026		201							1	500209																							
+49	2027		301							1	Amberia	Rosetta!	1																					
+50	2028		301			RImgBg1Shake						Amberia strikes Rosetta with one of her front appendages, but Rosetta stands firmly.																						
+51	2029		201							1	500214	5																						
+52	2030		301							1	Rosetta	Commandant, permission for using my core function!	1																					
+53	2031		302				DialogDisable				Charge, Rosetta!	2032																						
+54	2032		202							1																								
+55	500		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLineSpreadNew.prefab																							
+56	4000		502							RImgBg1DisableSlow																								
+57	2034		101			RImgBg2Enable				Assets/Product/Texture/Image/BgCg/Cg1401_1.jpg																								
+58	34		301			DialogEnable						Rosetta is planning on unleashing the remainder of her energy for an attack—a secret weapon after her repairs and modifications in Babylonia.																						
+59	35		301									Before Amberia can react, Rosetta takes to the air and inserts her transformed spear into her shield.																						
+60	36		301								Amberia	What are you doing?!																						
+61	37		301								Rosetta	Amberia, Atiel, I don't know if I'm the one to do this...																						
+62	38		301								Rosetta	But there is something that I must say to you.																						
+63	39		301								Amberia	What...?																						
+64	40		301								Rosetta	...I'm sorry.																						
+65	41		301									With that, Rosetta points at Amberia's core with her spear. During the battle, Rosetta has already made out the location of her core. Using her shield as a scope, she takes aim——																						
+66	42		301				AniZhuanchangBegin					——And her spear fires a blast point-blank.																						
+67	2035		101							Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+68	43		301			AniZhuanchangEnd						The huge blast of energy triggers a chain reaction with the explosion of Amberia's core, enveloping the surrounding area.																						
+69	44		301		1		AniZhuanchangBegin				Rosetta	...You've been waiting to hear this, haven't you?																						

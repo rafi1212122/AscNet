@@ -1,0 +1,23 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory287.png																								
+2	2		401							1	208																							
+3	3		301			DialogEnable						Walking along the designated route, the four of you walk cautiously among the dilapidated ruins.																						
+4	4		201							1	1031001		-600																					
+5	5		201							2	500166		0																					
+6	6		201							3	500026		600																					
+7	7		301							1	Liv	This place is completely different than what I remember. How long has it been?	1																					
+8	8		301								Lucia	Really? For me, this place feels more and more familiar, but I can't remember why.	2																					
+9	9		301								Liv	Maybe you came here too, Lucia. Maybe even more recently than me.	1																					
+10	10		301								Lucia	Does this have anything to do with my suppressed memory?	2																					
+11	11		301									Lucia lowers her head as she contemplates the problem.																						
+12	12		204							1	7																							
+13	13		301								Liv	Watch out!	1																					
+14	14		204							1																								
+15	15		301									Liv stops her right as she is about to step on a loose stone tile.																						
+16	16		301								Lee	Looks like there are still traps here.	3																					
+17	17		301									Lee briefly steps on the random stone tile, causing the broken tile to fall into a pit. Looking down into the pit, you see that the bottom is covered with red spikes.																						
+18	18		301									If someone had stepped on that, they would have fallen onto the spikes.																						
+19	19		301								Liv	There's no way around the collapsed road... Let's find some materials to build a makeshift bridge.	1																					
+20	20		302								(Nod)	21																						
+21	21		301								Lucia	Sorry, I was being careless. Looks like there are still traps all over the road. We need to be careful.	2																					
+22	22		301		1		AniZhuanchangBegin				Liv	You're right. Be on the lookout for supplies we can use to get around the traps. Let's go, Commandant.	1																					

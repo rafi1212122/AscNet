@@ -1,0 +1,142 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory381.png																								
+2	2		401							1	210																							
+3	3		401							2	1507																							
+4	4		301			DialogEnable						Roland hears the sound of rubbing mechanical joints. He knows the "uninvited guests" have also arrived.																						
+5	5		201							1	500334																							
+6	6		301							1	Roland	(I probably should leave... or maybe not?)	1																					
+7	7		301								Roland?	What? Do you still want to look at the Task Force guys up close?																						
+8	8		301								Roland	(You got it.)	1																					
+9	9		301								Roland	(They deserve some special treatment.)	1																					
+10	10		301								Roland	...Whatever.	1																					
+11	11		202							1					1																			
+12	12		301				AniZhuanchangBegin					The previous occupants left some dynamite to blow up the building when there was a need. Roland puts the dynamite container at a place he deems "appropriate," but has to hide away after hearing the rustling sound of someone stepping on grass.																						
+13	13		101			DialogDisable				Assets/Product/Texture/Image/BgStory/Bgstory376.png																								
+14	14		201			AniZhuanchangEnd			800	1	500336																							
+15	15		202							1					1																			
+16	16		201						800	1	500328																							
+17	17		202							1					1																			
+18	18		201						1000	1	500168																							
+19	19		202							1					1																			
+20	20		301			DialogEnable						—Soon, three Constructs appear in his vision.																						
+21	21		201							1	500334																							
+22	22		301							1	Roland	(Cerberus...)	1																					
+23	23		301				AniZhuanchangBegin				Roland	(They came later than I expected.)	1																					
+24	24		202							1					1																			
+25	25		101							Assets/Product/Texture/Image/BgStory/Bgstory175.png																								
+26	26		504							0.7																								
+27	27		201							1	500168	13	-450																					
+28	28		201							2	500008		450																					
+29	29		301			AniZhuanchangEnd				1	Roland	I didn't expect you to find me. Honestly, I thought I only had to avoid the Strike Hawk.	2																					
+30	30		301				AniZhuanchangBegin				Roland	That crazy battle style of yours... Perhaps you will be a better fit here than in Babylonia. Ever thought about contracting the Punishing virus?	2																					
+31	31		202							1	2				1																			
+32	32		504							0																								
+33	33		101							Assets/Product/Texture/Image/BgStory/Bgstory376.png																								
+34	34		201							1	500334																							
+35	35		301			AniZhuanchangEnd				1	Roland?	You seem to have good impression on them. Why don't you invite them now?																						
+36	36		301								Roland	(I'm very keen, but I don't need them right now.)	1																					
+37	37		301								Roland	(We have more important things to do.)	1																					
+38	38		301				AniZhuanchangBegin					After confirming the identity of his "guests," Roland leaves the place.																						
+39	39		101							Assets/Product/Texture/Image/BgStory/Bgstory382.png																								
+40	40		301			AniZhuanchangEnd					Roland?	Speaking of which... Why do you trust Lamia so much?																						
+41	41		301								Roland	What can I do if I don't? Leave her alone, the worst she can do is to run. But if I force her to move with me when she has different thoughts in mind...	1																					
+42	42		301									The illusion makes an "I knew it" smile.																						
+43	43		301								Roland?	Fine. You win this time.																						
+44	44		401							1	36																							
+45	45		301				AniZhuanchangBegin					Roland stays a little longer to watch, then turns away.																						
+46	46		202							1					1																			
+47	47		101							Assets/Product/Texture/Image/BgStory/Bgstory381.png																								
+48	48		401							1	201																							
+49	49		301			AniZhuanchangEnd						Lamia climbs onto a roof. She hears the never-ending gunshots, and begins to question herself.																						
+50	50		201							1	500165																							
+51	51		301							1	Lamia	(What do I do now...?)	1																					
+52	52		301									The idea of running away has somehow made its way back. Perhaps she still fears Roland.																						
+53	53		301									But Lamia has a vague feeling that if she walks away from Roland one more time, they will never meet each other again.																						
+54	54		301								Lamia	(Why? Isn't this what I want? Why would I feel a little pity to leave him?)	1																					
+55	55		301									Lamia starts to hesitate. She remembers "the thing" that keeps bothering her.																						
+56	56		301									Leaving is of course the easier option. But if she can guide Roland to "that place" during his search for Luna...																						
+57	57		301									Because he is Roland, so he can always get things done, whether it is for "Miss Luna"... or, Lamia.																						
+58	58		301									Lamia purses her lips without realizing. Soon, she makes her decision.																						
+59	59		301								Lamia	...I have to do this, eek...	1																					
+60	60		301									She can run away anytime, but this is her only chance to get a powerful helper.																						
+61	61		301									Lamia once tried to seek help from The Merciful One... And it did not end well.																						
+62	62		301									Roland may be her last chance of getting "that thing" done.																						
+63	63		401							1	36																							
+64	64		301				AniZhuanchangBegin					Lamia pulls her mind back from the surrounding forest, then leaps briskly into the town.																						
+65	65		202							1					1																			
+66	66		101							Assets/Product/Texture/Image/BgStory/Bgstory382.png																								
+67	67		401							1	207																							
+68	68		301			AniZhuanchangEnd						Roland walks in the deserted town. The scenes make him... somewhat uncomfortable.																						
+69	69		301									Retro-styled streets, houses made from stones, paved road surface with trails pressed by anti-slip plates on carriage wheels.																						
+70	70		301									—Roland feels uncomfortable.																						
+71	71		301									What if all these traces were only added half an hour ago by the props team? What if the Corrupted weren't infected by the Punishing Virus, but an AI mechanoid specifically designed for this scene?																						
+72	72		301									Roland just cannot stop thinking about these possibilities. Luna once made him believe in reality, but she is not here.																						
+73	73		201							1	500334																							
+74	74		301							1	Roland?	You don't look very good.																						
+75	75		301								Roland	Look at me, hermano. What do you see?	1																					
+76	76		301								Roland	A monster? A corpse? A weakling? A lost lamb?	1																					
+77	77		301								Roland?	You're probably not going to like what I'm about to say.																						
+78	78		301								Roland	I didn't get you here to say things that I can accept with pleasure.	1																					
+79	79		301								Roland	Have "I" become so twisted that I must pretend in front of myself?	1																					
+80	80		301								Roland?	What about you? Are you still going to act fragile and weak?																						
+81	81		301								Roland	Say it.	1																					
+82	82		301								Roland?	Can't you live without finding yourself a master? Do you have to let others hand the answer to you, even when you can find the answer yourself?																						
+83	83		301								Roland?	You aren't that kind of person. At least you shouldn't be after leaving "The Mandhasti Real Park."																						
+84	84		301								Roland	...	1																					
+85	85		301								Roland?	You never change.																						
+86	86		301								Roland?	Always looking for a lighthouse, a thing that can support you to continue forward.																						
+87	87		301								Roland?	You are always seeking a purpose, but you never really think about it.																						
+88	88		301								Roland?	After all these years, you and I both know who you are. You are not that kind of person.																						
+89	89		301								Roland?	I suggest you... find a mirror, and take a good look at yourself.																						
+90	90		301								Roland	...If we really can find one in this dull place.	1																					
+91	91		301								Roland	What will I see... in the mirror?	1																					
+92	92		301								Roland?	You guess.																						
+93	93		301								Roland	...You take your time. I'm not in the mood for that.	1																					
+94	94		202							1					1																			
+95	95		301									Roland impales the remains of a Corrupted into the wall.																						
+96	96		301									Some electronic structures within the remains are pressed and squeezed together by Roland's thrust, causing the body to tremble again, probably due to short circuits.																						
+97	97		301									But Roland had seen it too many times... in his brief "previous life," or in "The Mandhasti Real Park."																						
+98	98		301									Exaggerated hits, carefully designed and trained poses, and twisted fake deaths that were purposely acted in front of the "protagonist."																						
+99	99		301									They are still alive physically, or mechanically. They will show up in the next scene and may portray a different way of death, but the deaths of the "characters" they are playing have been decided.																						
+100	100		301									They are destined to die, so they cannot choose to live. The only option is to embrace a death that looks as real as a performance.																						
+101	101		301									The mechanoid remains stuck in the wall are truthful in their performances. Roland's eyelid keeps twitching.																						
+102	102		301									This whole deja vu experience feels like a cycle of destiny. It's all too ****ing absurd.																						
+103	103		301									Every swing of Roland's chain blade seems pointless.																						
+104	104		301									They aren't going to stop for fear.																						
+105	105		301									The death of their kin isn't going to make them any crazier.																						
+106	106		301									It's all but a part of a meaningless cycle.																						
+107	107		301									This entire mess only leaves behind chaos. Even the victor will not feel like he has accomplished anything.																						
+108	108		301									How absurd. Had my opponents ever felt this way?																						
+109	109		201							1	500334																							
+110	110		301							1	Roland	(Hah... Why bother.)	1																					
+111	111		301									Through the remains and ruins, he walks into the group of buildings.																						
+112	112		301								Roland?	You look a lot better now.																						
+113	113		301								Roland	...We still have things to do.	1																					
+114	114		301								Roland?	So, we're done here. What's next?																						
+115	115		301									Roland doesn't answer his question, but looks at the streets ahead.																						
+116	116		301								Roland	I don't need to worry about that. Our opponent has already prepared the red carpet.	1																					
+117	117		301									Roland looks into the distance. On a filthy wall, someone wrote "Come this way" with red paint.																						
+118	118		301								Roland?	...?																						
+119	119		301								Roland	Whoever wrote this, I have no idea what they were thinking. But at least I get the message.	1																					
+120	120		301								Roland?	Everything about it looks like a trap.																						
+121	121		301								Roland	...Indeed.	1																					
+122	122		301									Roland knows an unknown trap awaits him, but he doesn't have a chance.																						
+123	123		301				AniZhuanchangBegin					He can only put himself at stake, betting for a one in a million chance.																						
+124	124		202							1					1																			
+125	125		401							1	203																							
+126	126		101							Assets/Product/Texture/Image/BgStory/BgStory18.jpg																								
+127	127		201							1	500308																							
+128	128		301			AniZhuanchangEnd				1	Cinderelik	You have already missed two scheduled communications.	1																					
+129	129		301								"Voodoo"	My... memory control threshold... is within the expected value...																						
+130	130		301								Cinderelik	...Doesn't sound like that to me.	1																					
+131	131		301								"Voodoo"	No... Yeah! Very interesting! That girl has same M.I.N.D. fluctuation! Similar stability impairment! Interesting! Very interesting!																						
+132	132		204							1	8																							
+133	133		301								Cinderelik	...(Sighs) "Loki."	1																					
+134	134		301								Voodoo?	Um...! Oh, Cinderelik? Mister sent you here! What a... rare sight!																						
+135	135		301								"Voodoo"	I'm fighting for... control... Loki! Don't you ever... dream of... controlling me!																						
+136	136		301								Cinderelik	...	1																					
+137	137		301								"Loki"	Of course! Of course! Mission... mission! But... can we invite more guests?! Just to play together! Okay? Okay!																						
+138	138		204							1																								
+139	139		301								Cinderelik	Just don't let it interfere with your top priority.	1																					
+140	140		301									Cinderelik turns off the comms and lets out a little sigh.																						
+141	141		301		1		AniZhuanchangBegin				Cinderelik	Miss Voodoo and Miss Loki... If they can stay forever together like this... I'll be...	1																					

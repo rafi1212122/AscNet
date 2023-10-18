@@ -1,0 +1,47 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory5.jpg																								
+2	2		401							1	29																							
+3	3		301			DialogEnable					-AI-	Commandant, now randomly assigning Constructs to suppress the area—																						
+4	4		201							1	1041001	2																						
+5	100		401							3	105151																							
+6	5		301							1	Storm	The heavens call me, the earth calls me, humanity calls me!	1																					
+7	6		302								Storm... Okay, who else?	7																						
+8	7		202							1																								
+9	8		301									The "Virtual Horizon" randomly displays three Constructs for you to choose from.																						
+10	9		301								-AI-	The second Construct is—																						
+11	10		201							1	1041001	2																						
+12	101		401							3	105151																							
+13	11		301							1	Storm	The heavens call me, the earth calls me, humanity calls me!	1																					
+14	12		302								Huh? Storm... again?	13																						
+15	13		202							1																								
+16	14		301								-AI-	The third Construct is—																						
+17	15		201							1	1041001	2																						
+18	102		401							3	105151																							
+19	16		301							1	Storm	The heavens call me, the earth calls me, humanity calls me!	1																					
+20	17		302								...	18																						
+21	18		202							1																								
+22	19		301								-AI-	Please select which Construct to add to your team.																						
+23	20		302								Storm	21	Storm	21	Storm	21																		
+24	21		201							1	500004																							
+25	22		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+26	23		301							1	Asimov	What's the matter? Something wrong with Storm?	1																					
+27	24		302								Storm is already in my team...	25																						
+28	25		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+29	26		201							1	1041001	1	-400																					
+30	27		201							2	1041001	1	400																					
+31	28		301							1	Storm & Storm	I'm the strongest!	1	2																				
+32	29		202							1	2				1																			
+33	30		201							1	500004																							
+34	31		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+35	32		301							1	Asimov	Isn't that a good thing? Combining duplicate Constructs will enhance their combat effectiveness.	1																					
+36	33		302								Combining Constructs? How does it even work...?	34																						
+37	34		301				DialogDisable				Asimov	I'm not sure either, but it probably means that further researching a Construct will increase their strength...	1																					
+38	35		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+39	36		201							1	1041001	2	-400																					
+40	37		201							2	1041001	2	400																					
+41	38		203					2000		1	0.25																							
+42	39		203							2	0.25																							
+43	40		501					250		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+44	41		301			DialogEnable				1	Storm	My hidden potential is being revealed!	1	2																				
+45	42		302								Okay...	43																						
+46	43		202		1		AniZhuanchangBegin			1	2																							

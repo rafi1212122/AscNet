@@ -1,0 +1,27 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory13.jpg																								
+2	2		401							1	112																							
+3	3		201							1	500034																							
+4	4		301			DialogEnable	DialogDisable			1	Katie	Tom! Wh-what was that?	1																					
+5	5		401							2	1508																							
+6	6		201						2000	1	500013																							
+7	7		201							1	500035																							
+8	8		301			DialogEnable				1	Tom	Wha—?! What are those?!	1																					
+9	9		202							1					1																			
+10	10		301								Commotion	Ahhh! Help! The Corrupted! They're in the city! It's over! It's all over!																						
+11	11		201							1	500030	9																						
+12	12		301							1	Karenina	Grandpa!	1																					
+13	13		201							1	500033																							
+14	14		301							1	Old Man	Grandpa... can't move... Karen should go...	1																					
+15	15		301								Old Man	...Karen... Promise me... Don't lose... yourself... Promise me... Promise...	1																					
+16	16		201							1	500030	9																						
+17	17		301				DialogDisable			1	Karenina	Grandpa...	1																					
+18	18		401							2	1508																							
+19	19		201						2000	1	500013																							
+20	20		201							1	500035		400																					
+21	21		201							2	500034		-400																					
+22	22		301			DialogEnable				1	Katie	Tom! I'm scared!	2																					
+23	23		301				AniZhuanchangBegin				Tom	Ahh! They're coming!	1																					
+24	24		202							1	2				1																			
+25	25		101							Assets/Product/Texture/Image/BgCg/Cgqz505.jpg																								
+26	26		301		1	AniZhuanchangEnd	AniZhuanchangBegin				Karenina	………………																						

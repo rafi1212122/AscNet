@@ -1,0 +1,59 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory27.jpg																								
+2	2		401							1	204																							
+3	3		201							1	500019																							
+4	4		301			DialogEnable				1	Villager	Sorry for attacking you. It was a misunderstanding. It's really kind of you to escort us back.	1																					
+5	5		203							1	0.25	400																						
+6	6		201							2	500166	1	-400																					
+7	7		301							1	Lucia	No problem. We wanted to come here in the first place.	2																					
+8	8		301									After clearing up the misunderstanding, three of them moved together with the villagers and returned to the village after defeating nearby Demons.																						
+9	9		201							2	1081001		-400																					
+10	10		301							1	Kamui	The stone monument said humans had already defeated the Demons. Why were those Demons still so aggressive?		2																				
+11	11		301								Villager	It was the King who defeated them, not us. The Demons were just retaliating...		1																				
+12	12		301								Villager	The war was supposed to have ended when the last generation of heroes defeated the Demon King. But the King back then claimed that he would wipe out all the Demons.		1																				
+13	13		301								Villager	He turned the war into a tradition. That's why the Demons keep striking back...		1																				
+14	14		201							1	500173		400																					
+15	15		301							1	Lee	What a foolish king... What can he possibly get from endless wars?	1																					
+16	16		301								Kamui	Hmm... I think that's just the setting of this game. Don't spend too much time trying to figure it out.	2																					
+17	17		301								Lee	Are you that type of gamer who would give a score of 10 to every single game...	1																					
+18	18		202							1	2																							
+19	19		201							1	500019																							
+20	20		301							1	Villager	You said you were heading here. What are you up to?	1																					
+21	21		203							1	0.25	400																						
+22	22		201							2	500166		-400																					
+23	23		301							1	Lucia	We are looking for our friend.	2																					
+24	24		301								Villager	Friend... Do you mean those heroes who raided the other village?	1																					
+25	25		301									The villagers looked a bit scared talking about them. Looked like Vera's team had become more terrifying than the Demons.																						
+26	26		301								Lucia	No, we are looking for another teammate. Her name is Liv, has short hair. Unlike us, she can float in the air...	2																					
+27	27		301									Lucia told the villagers everything she could think of Liv, but they still had no clue.																						
+28	28		301								Villager	I have met many young girls, but none of them looked like what you described...	1																					
+29	29		301								Villager	Hey, has any one of you seen her?	1																					
+30	30		301									The villager asked others but got no reply.																						
+31	31		202							1	2																							
+32	32		201							1	500166																							
+33	33		201							2	500173		600																					
+34	34		201							3	1081001		-600																					
+35	35		301							1	Lee	I don't think we are going to find anything useful here, except that the King might be a bad guy.	2																					
+36	36		301								Kamui	Thinking about it, Liv might be taken by the King. Given he's that type of guy who always causes conflicts, I won't be surprised if he did it.	3																					
+37	37		301								Lucia	But Commandant's team probably had already dealt with the King. I don't know about the others, but Commandant would never join the evil side.	1																					
+38	38		301								Lucia	Plus, Karenina wouldn't be doing nothing if Liv was captured by the King.	1																					
+39	39		301									Lucia took a glance at Lee and Kamui.																						
+40	40		301								Lee	I don't know about Vera. I'm not that familiar with her, only worked with her a couple of times.	2																					
+41	41		301								Kamui	Camu will probably help Liv... He definitely will.	3																					
+42	42		301								Lucia	So it's three to one. I don't think the King has Liv then.	1																					
+43	43		301								Kamui	They are probably deceived...	3																					
+44	44		301								Lee	Kamui, do you think there is anyone who can deceive all of them?	2																					
+45	45		301								Kamui	Um... Probably not.	3																					
+46	46		202							1	2	3																						
+47	47		201							1	500019																							
+48	48		401							1	1504																							
+49	49		401							2	102																							
+50	50		301							1	Villager B	Oh no... Help!	1																					
+51	51		301									A panicking villager suddenly rushed in, interrupting their conversation. He was soaked in sweat.																						
+52	52		203							1	0.25	400																						
+53	53		201							2	500166	1	-400																					
+54	54		301							1	Lucia	What happened?	2																					
+55	55		301								Villager	A child was attacked by the Demons. I couldn't take them all alone. Hurry, take your weapons and follow me!	1																					
+56	56		301								Lucia	...Can you still run? Lead the way, we will take care of the child!	2																					
+57	57		301								Villager	Um, but who are you...?	1																					
+58	58		301		1		AniZhuanchangBegin				Lucia	We are the heroes.	2																					

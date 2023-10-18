@@ -1,0 +1,88 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	5																							
+3	3		301			DialogEnable	AniZhuanchangBegin				???	Hey, your M.I.N.D. is stable. Time to wake up.																						
+4	4		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryZhengyanNew.prefab	2																							
+5	5		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+6	6		301			AniZhuanchangEnd						The moment Lloyd regains consciousness, he hears a voice. But before he can tell who is speaking, a sharp pain swarms all over his M.I.N.D., forcing him to open his eyes.																						
+7	7		201							1	500348	6																						
+8	8		301							1	Lloyd	Gargh... Argh...	1																					
+9	9		301									Lloyd gasps and struggles. He finally finds out the source of his agony—there is a large wound on his arm, seemingly caused by something sharp.																						
+10	10		201							1	500343																							
+11	11		301							1	???	Shut up... If you can feel the pain, that means you are not dead.	1																					
+12	12		301									Lloyd finds Vera standing next to the hospital bed, adjusting the machine with an annoyed look.																						
+13	13		201							1	500348																							
+14	14		301							1	Lloyd	Miss Vera... Why are you here?	1																					
+15	15		203							1	0.25	-400																						
+16	16		201							2	500168		400																					
+17	17		301							1	Vera	I only came here because Nikola wanted me to check whether you were alive or dead. Well, it looks like you get to live a little longer.	2																					
+18	18		301								Vera	But your followers weren't so lucky.	2																					
+19	19		301									Lloyd remembers that he was on a mission with a few other Constructs who took direct orders from Nikola. They encountered an exceptionally powerful Corrupted with wings. The other soldiers chose to stay back so Lloyd could retreat...																						
+20	20		204							1	6																							
+21	21		301								Lloyd	What... happened to them?!	1																					
+22	22		301									Vera looks away impatiently without a word, but he already knows the answer.																						
+23	23		301								Lloyd	Why... why would they do it for someone like me...	1																					
+24	24		202							1	2				1																			
+25	25		201							2	500168	13																						
+26	26		301							1	Vera	Someone like you...? Hah...	2																					
+27	27		301									Vera gives a sarcastic laugh, grabbing Lloyd's collar to pick him up so he can look directly into her eyes.																						
+28	28		204							2																								
+29	29		301								Vera	I don't care if you like playing the hero game. I've no right to criticize you. But...	2																					
+30	30		204							2																								
+31	31		301									Lloyd notices an extremely fierce look in Vera's eyes. He has never seen her so furious.																						
+32	32		301								Vera	They gave their lives to protect you. In other words, they placed your life above theirs. Are you going to insult their dedication?	2																					
+33	33		301								Vera	Get yourself together and remember your duty. "The Undying Loy" and that so-called recall should become the soldiers' final hope.	2																					
+34	34		301									Vera keeps her voice low, but it still weighs heavily on Lloyd's mind.																						
+35	35		301								Vera	But... do you really want to be a hero?	2																					
+36	36		301									Vera thinks Lloyd neither has the capabilities to be a hero nor is he prepared to become one. He is nothing but a good kid who has gotten carried away with his sense of duty. Once he truly understands the brutality of the battlefield, his naivety will be lost.																						
+37	37		203							2	0.25	400																						
+38	38		201							1	500348	6	-400																					
+39	39		301							1	Lloyd	I...	1																					
+40	40		301									Lloyd takes out a notebook, which Vera has seen before during their mission. It records everything that the "Lloyd" in the past has been through.																						
+41	41		202							2					1																			
+42	42		203							1	0.25																							
+43	43		204							1	4																							
+44	44		401							1	211																							
+45	45		301								Lloyd	I have never thought about it... but perhaps you're right. I lack the strength to be a hero, and I'm not prepared to become one either... I am only playing "Lloyd" according to the stories in this notebook.	1																					
+46	46		204							1	1																							
+47	47		301								Lloyd	Miss Vera... I once thought that if I could act well enough, maybe I could become a real hero in the end.	1																					
+48	48		301									Lloyd shakes his head and gives a wry smile.																						
+49	49		204							1	4																							
+50	50		301								Lloyd	But just like you said, I am not a hero. And I probably will never be one... The lies pile on every day, and they've brought me nothing but pain. What should I do...?	1																					
+51	51		203							1	0.25	-400																						
+52	52		201							2	500168		400																					
+53	53		301							1	Vera	This pain will stay forever if you don't have the strength to be a real hero or tell the truth. But if you can't even stand the pain...	2																					
+54	54		301									Vera stands up and unsheathes her blade, pointing it at Lloyd.																						
+55	55		204							2	13																							
+56	56		301								Vera	Then you should just die. Die like a coward, and leave all your responsibilities to the next "Lloyd".	2																					
+57	57		204							2																								
+58	58		301									The blade is sharp, but Lloyd does not seem to cower at all.																						
+59	59		204							1	4																							
+60	60		301								Lloyd	Miss Vera... Will the next "Lloyd" be a better hero than me?	1																					
+61	61		301								Vera	Maybe, but you won't need to know, because you will be dead by then. The future has nothing to do with you.	2																					
+62	62		301								Vera	The only thing you can hold on to... is this moment, and who you are right now.	2																					
+63	63		301									Lloyd clenches Vera's blade. Vital fluid immediately runs out of his palm, dripping onto his notebook and dyeing the empty spots blood red.																						
+64	64		204							1	6																							
+65	65		301								Lloyd	It hurts... but...	1																					
+66	66		301									The excruciating pain is more vivid than the wound on his arm left by the Corrupted. The tighter he grips the blade, the more intense the pain gets.																						
+67	67		204							1	4																							
+68	68		301								Lloyd	Right now, I still want to become "Lloyd"—a true hero.	1																					
+69	69		301								Lloyd	Maybe my story began with a lie, and it will end in one. Still, I want to try again... to fight as "Lloyd".	1																					
+70	70		301									Lloyd lets go of Vera's blade and clenches his fist again, feeling the sting.																						
+71	71		204							1	4																							
+72	72		301								Lloyd	Miss Vera... I hope you can give me extra combat training after the next mission. I want to have the confidence and strength to face danger like you.	1																					
+73	73		301									Vera puts her katana back to the sheath with a teasing grin.																						
+74	74		204							2	13																							
+75	75		301								Vera	What if I say no...?	2																					
+76	76		301								Lloyd	In that case... I'll try to ask Commander Nikola.	1																					
+77	77		204							2	1																							
+78	78		301									Seeing Lloyd's serious face, Vera's smile softens.																						
+79	79		202							1					1																			
+80	80		203							2	0.25																							
+81	81		301								Vera	Not bad. You aren't as stupid as I thought... Do as you like, but...	2																					
+82	82		301								Vera	I bet you are going to regret it. Do you really want to be like me? I am the direct opposite of a "hero."	2																					
+83	83		202							1	2				1																			
+84	84		301									Vera looks at Lloyd before walking away with a chuckle.																						
+85	85		301									Lloyd shakes his head as he watches Vera leave. He runs his fingers past the cover of the notebook.																						
+86	86		201							1	500348	1																						
+87	87		301		1		AniZhuanchangBegin			1	Lloyd	That's not true... Maybe you are the real...	1																					

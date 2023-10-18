@@ -1,0 +1,71 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory279.png																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						The Polyphage's silhouette becomes more apparent the further you follow Lamia down underground. The closer you are, the more its colossal size becomes evident, as well as the malevolence that seeps in.																						
+4	4		301									Eventually, there is only a rift standing between the Polyphage and you. Below it, the Red Tide roils and crashes to the sides of the cliff.																						
+5	5		201							1	500165	1																						
+6	6		301							1	Lamia	Hmph... This is where I come in. After all, you wouldn't be able to pull this off...	1																					
+7	7		301									The Punishing Virus crystalized under Lamia's command, forming a bridge that connects the rift, even if it only fits one person at a time.																						
+8	8		203							1	0.25	-400																						
+9	9		201							2	500026		400																					
+10	10		301							1	Lee	Stop bragging. Get to work unless you want a bullet in you.	2																					
+11	11		301								Lamia	A small compliment wouldn't hurt... Did you see how hard I've been trying to help you?	1																					
+12	12		301								Lee	I'm not buying it. There's no way you'll genuinely help us.	2																					
+13	13		301								Lamia	Hehe, after all, I'm just a poor little fish in your leash. I'd do anything you tell me to.	1																					
+14	14		301								Lamia	I'd rather live than be eaten alive by the Polyphage.	1																					
+15	15		301									Lamia nods while maintaining her control on the bridge.																						
+16	16		202							2					1																			
+17	17		203							1	0.25	0																						
+18	18		204							1																								
+19	19		301								Lamia	Well, I didn't want to be eaten... So I escaped.	1																					
+20	20		301								Lamia	But consuming Miss Luna has given it more than enough power... Now we all get to be desserts...	1																					
+21	21		302								How can we stop the Polyphage?	22																						
+22	22		201							1	1031001	14																						
+23	23		301							1	Liv	I'm afraid the only way is to get Luna out of there... Or...	1																					
+24	24		301									Liv falls silent. What she meant to say is plain as day.																						
+25	25		201							1	500026		400																					
+26	26		201							2	500166		-400																					
+27	27		301							1	Lucia	Lee, Liv, can you take Commandant back to the surface and call for reinforcement?	2																					
+28	28		301								Lee	...Why?	1																					
+29	29		301								Lucia	If you take Lamia with you, she should be able to help you bypass the signal blockade and reach Babylonia.	2																					
+30	30		301								Lee	...Are you trying to get us out of here?	1																					
+31	31		202							1	2				1																			
+32	32		201							1	1031001																							
+33	33		301							1	Liv	Lucia, what about you?!	1																					
+34	34		201							1	500166	5																						
+35	35		301							1	Lucia	Someone has to hold off the Polyphage. With how powerful it's become, it will be countless lives spared if I can just hold it back for a few seconds.	1																					
+36	36		301								Lucia	Besides, Luna is still inside there. I...	1																					
+37	37		301									Lee cuts Lucia off before she finishes.																						
+38	38		203							1	0.25	-400																						
+39	39		201							2	500026		400																					
+40	40		301							1	Lee	Then we go together.	2																					
+41	41		301								Lucia	...I'm the leader of Gray Raven. Doing so is too risky, and... irrational. I will not put Commandant and you in danger for my judgment.	1																					
+42	42		302								That is why...	43																						
+43	43		302								You need us.	44																						
+44	44		202							1	2				1																			
+45	45		201							1	500026																							
+46	46		301							1	Lee	Commandant's right. What's irrational is splitting up in the face of that.	1																					
+47	47		301								Lee	If it were a strategic decision, I would have accepted it without question and given it my all.	1																					
+48	48		301								Lee	But it's not the right move here, and you're clearly doing so because you thought this is just your burden to carry. I'm not going to allow that.	1																					
+49	49		201							1	500166																							
+50	50		301							1	Lucia	I...	1																					
+51	51		201							1	500026																							
+52	52		301							1	Lee	You might be the leader here, and we're supposed to follow your orders, but—we are also your friends.	1																					
+53	53		203							1	0.25	400																						
+54	54		201							2	1031001		-400																					
+55	55		301							1	Liv	Just like what Lee said, Lucia.	2																					
+56	56		301								Liv	We still don't know our way around here. We could easily get into trouble on our way back.	2																					
+57	57		204							2	1																							
+58	58		301								Liv	Besides, Gray Raven is at its best when we are together, right?	2																					
+59	59		202							1	2				1																			
+60	60		201							1	500166	1																						
+61	61		301							1	Lucia	...I understand. Thank you.	1																					
+62	62		201							1	500026																							
+63	63		301							1	Lee	That's what we're here for.	1																					
+64	64		201							1	500165	1																						
+65	65		301							1	Lamia	Hehe... Such a touching display of camaraderie! I'm so jealous!	1																					
+66	66		301								Lamia	But I'm also pretty fed up.	1																					
+67	67		201							1	500026																							
+68	68		301							1	Lee	?!	1																					
+69	69		202							1					1																			
+70	70		301		1		AniZhuanchangBegin					Suddenly, Lee feels a searing burn in his palm. Reflexively his hand jerks, and he finds the steel wire that has Lamia tied up ruptured without any indication.																						

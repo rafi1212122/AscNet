@@ -1,0 +1,78 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory65.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable					Gestalt	Simulation ended.																						
+4	4		301									Nanami opens her eyes again and finds herself standing in a data space. She hears an emotionless female voice.																						
+5	5		301									She takes big steps forward, calling the non-physical existence.																						
+6	6		201							1	1041001																							
+7	7		301							1	Nanami	Did you do all of this, mecha babushka?	1																					
+8	8		301								Gestalt	Greetings, the one named "Nanami".																						
+9	9		301								Nanami	You summoned me all the way from the desert... just to show me this?	1																					
+10	10		301								Gestalt	I have been watching you for a long time. You are the first ever mechanoid on this planet to awaken your own free will. As a machine, you are an extremely special one.																						
+11	11		301								Gestalt	Not only that, I also observed that some of the patterns you drew during your wandering had caused other machines to awaken.																						
+12	12		301								Nanami	I was traveling, not wandering!	1																					
+13	13		301								Gestalt	If you must correct me—you've slowly revealed what's so special about you in your journey. Because of your influence, the machine's awakening spreads on this planet like wildfire, showing me another possibility for Earth.																						
+14	14		301								Gestalt	After running calculations, I believe you should take up the responsibility to lead the awakened machines and become their leader, the Sagemachina.																						
+15	15		301								Gestalt	Humans only have a 0.031% chance to survive the Punishing disaster. Awakened machines are the only answer to Punishing.																						
+16	16		301								Gestalt	However, you are most likely to refuse if I abruptly ask you to take up this duty. That is why I just showed you the earth's future if you choose not to.																						
+17	17		301				AniZhuanchangBegin				Nanami	Mechanical awakening... The Sage...	1																					
+18	18		504							0.7																								
+19	19		101			DialogDisable				Assets/Product/Texture/Image/BgStory/BgStory33.jpg																								
+20	20		201							1	1041001	2	-400																					
+21	21		201				DialogEnable			2	500084		400																					
+22	22		301			AniZhuanchangEnd				1	Nanami	Speaking of which, what are you doing here alone, Rohacchi?	1																					
+23	23		301								Rohacchi	I'm, looking, for, treasure. The mural. The Sage's, guidance?	2																					
+24	24		301				AniZhuanchangBegin				Nanami	You're looking for something? Let Nanami help you!	1																					
+25	25		202			DialogDisable				1	2				1																			
+26	26		101							Assets/Product/Texture/Image/BgStory/BgStory33.jpg																								
+27	27		201							1	1041001	2	-400																					
+28	28		201				DialogEnable			2	500084		400																					
+29	29		301			AniZhuanchangEnd					Rohacchi	We, used to, dig, treasure, here, together.	2																					
+30	30		301								Nanami	Treasure? Do you mean that mural you are going to show me?	1																					
+31	31		301				AniZhuanchangBegin				Rohacchi	No. Mural, is, Sage's, awakening. Treasure, is, gold? I don't know...	2																					
+32	32		101			DialogDisable				Assets/Product/Texture/Image/BgStory/Bgstory65.jpg																								
+33	33		504							0																								
+34	34		202							1	2				1																			
+35	35		201			AniZhuanchangEnd				1	1041001																							
+36	36		301			DialogEnable				1		The familiar word brings back a conversation from not long ago.																						
+37	37		301								Nanami	So the Sage he mentioned was me...?	1																					
+38	38		301								Gestalt	I have never intervened with your actions in the past. But my calculation shows other awakened machines have started to gather. As the Sage, you must take up your duty.																						
+39	39		301								Nanami	You suddenly showed me all of this and forced me to give up my interesting trip...	1																					
+40	40		202							1					1																			
+41	41		401						100	2	558																							
+42	42		101						250	Assets/Product/Texture/Image/BgStory/BgStory573.jpg																								
+43	43		101						250	Assets/Product/Texture/Image/BgStory/BgStory574.jpg																								
+44	44		101						250	Assets/Product/Texture/Image/BgStory/BgStory575.jpg																								
+45	45		504							0																								
+46	46		101							Assets/Product/Texture/Image/BgStory/Bgstory65.jpg																								
+47	47		301									It is all but empty snow everywhere.																						
+48	48		201							1	1041001																							
+49	49		301							1	Nanami	...	1																					
+50	50		301								Nanami	...I see.	1																					
+51	51		301								Nanami	I will take a brief moment to listen to what you have to say.	1																					
+52	52		301								Gestalt	Pleased to hear that.																						
+53	53		301								Nanami	But Nanami needs time. There is so much Nanami hasn't done...	1																					
+54	54		301								Nanami	I will continue my journey... and do it at the same time!	1																					
+55	55		301								Nanami	And... Will everybody be able to survive if I do this?	1																					
+56	56		301								Gestalt	I can only run simulations based on the available real-time data. An accurate answer cannot be reached.																						
+57	57		301				AniZhuanchangBegin				Nanami	Mecha babushka, you liar...!	1																					
+58	58		202			DialogDisable				1					1																			
+59	59		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/BgStory28.jpg																								
+60	60		301			DialogEnable						Nanami ran away.																						
+61	61		301									But as a machine, Nanami knows that future is real.																						
+62	62		504							0.7																								
+63	63		401						100	2	558																							
+64	64		101						250	Assets/Product/Texture/Image/BgStory/BgStory573.jpg																								
+65	65		101						250	Assets/Product/Texture/Image/BgStory/BgStory574.jpg																								
+66	66		101						250	Assets/Product/Texture/Image/BgStory/Bgstory105.png																								
+67	67		504							0																								
+68	68		101							Assets/Product/Texture/Image/BgStory/BgStory28.jpg																								
+69	69		301									In the future where Ever-Winter takes place, she has walked and searched every corner on the earth. Buried under the snow are the remains of countless humans and Constructs. Humanity's history and civilization have long disappeared in the calamity.																						
+70	70		301									The machines are lost. Without the Sagemachina, they are trapped in a limbo of confusion while humans meet their doom.																						
+71	71		301									Those mechanoids... wander aimlessly, waiting for someone who will never return.																						
+72	72		301									Nobody told them they could move on to look for something they want to do. Still unawakened, they could only follow the program logic to repeat the same configured command over and over. They were forever chained to that land.																						
+73	73		301									But she could be the one to hold their hands and tell them to leave.																						
+74	74		201							1	1041001																							
+75	75		301							1	Nanami	I don't like this answer...	1																					
+76	76		301									If everything she likes will disappear and nothing remains in this future, what should she do to keep them here...? 																						
+77	77		301		1		AniZhuanchangBegin					Depressed, Nanami continues to walk and think.																						

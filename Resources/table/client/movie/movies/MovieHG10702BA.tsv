@@ -1,0 +1,37 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	205																							
+3	3		201							2	1041001	1	400																					
+4	4		201							1	1031001		-400																					
+5	5		301			DialogEnable				1	Liv	Hey, Nanami! Give me back the fusion device!	1																					
+6	6		301								Nanami	I have a new phrase I learned for you! You snooze, you lose! It's mine now!	2																					
+7	7		203						500	2	0.5	1000																						
+8	8		202						300	2					1																			
+9	9		203							1	0.25																							
+10	10		301								Liv	Ugh... What should we do now?	1																					
+11	11		201							1	1111001																							
+12	12		301							1	Karenina	...	1																					
+13	13		302								What's on your mind?	14																						
+14	14		301								Karenina	No, we've got ourselves a party here.	1																					
+15	15		302								Like it?	16																						
+16	16		301								Karenina	Yeah, I... Enough with the questions! No time to chit-chat! I'm gonna teach them a lesson!	1																					
+17	17		301								Karenina	...	1																					
+18	18		301								Karenina	Enough about all the bizarre parts we collected, even the devices in the core were used directly without any treatment.	1																					
+19	19		201							1	1081001																							
+20	20		301							1	Kamui	Well... That's because treating it is a pain in the... Anyway, Nanami, give me a hand!	1																					
+21	21		201							1	1041001	1																						
+22	22		301							1	Nanami	Okie! Leave it to a super-duper Construct like me!	1																					
+23	23		204							1																								
+24	24		301			PanelActor1Shake					Nanami	Uh-oh... I broke it.	1																					
+25	25		201							1	1111001																							
+26	26		301							1	Karenina	You form it by... Obviously, not like that!	1																					
+27	27		201							1	1041001																							
+28	28		301			PanelActor1Shake				1	Nanami	Oh-no! I'm gonna get torn a new one!	1																					
+29	29		301								Nanami	It's... It's not my fault! Kamui's just too strong!	1																					
+30	30		201							1	1081001																							
+31	31		301							1	Kamui	Hey!! Where are you running off to?!	1																					
+32	32		201							1	1111001																							
+33	33		301							1	Karenina	Hey! You guys... Forget it...	1																					
+34	34		302								You're not mad?																							
+35	35		301								Karenina	No point crying over spilled milk! It's always hard in the beginning. What's there to be mad about?	1																					
+36	36		301		1		AniZhuanchangBegin				Karenina	Let's put our heads together.	1																					

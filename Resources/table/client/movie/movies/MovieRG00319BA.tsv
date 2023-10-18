@@ -1,0 +1,80 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory161.png																								
+2	2		401							1	210																							
+3	3		201							1	500166																							
+4	4		301			DialogEnable				1	Lucia	There really is an exit...	1																					
+5	5		203							1	0.25	400																						
+6	6		201							2	500180	5	-400																					
+7	7		301							1	Karenina	Wait, so those conclusions were just your guesses all along?	2																					
+8	8		301								Lucia	Yeah, I was planning to take another direction if there was no exit. Just don't stay still.	1																					
+9	9		301									We followed Lucia through the underground facility back to the surface. But it wasn't as peaceful as the villages we visited previously.																						
+10	3001		202							1	2																							
+11	3022		201							1	500019		400																					
+12	3002		201							2	500019		-400																					
+13	10		301							1	Villager A	*Coughs*...	1																					
+14	11		301								Villager B	Ouch... That damned King...	2																					
+15	12		301									Many people were injured. There was heavy smoke from burning buildings, and bomb craters that smelled like chemicals.																						
+16	13		301									Seemed like something just happened not long ago.																						
+17	3003		202							1	2																							
+18	3004		201							1	500173																							
+19	14		301							1	Lee	It's the King. Something must have happened here.	1																					
+20	3005		202							1																								
+21	3006		201							1	1081001	1	400																					
+22	3007		201							2	500019		-400																					
+23	15		301							1	Kamui	Excuse me! What happened here?	1																					
+24	16		301									Lee was still thinking, but Kamui had already joined the rescue team and started asking around.																						
+25	17		301								Villager	Who are you... Did you also come from other villages?	2																					
+26	3009		201							1	500166		400																					
+27	18		301								Lucia	No, we are travelers.	1																					
+28	19		301								Villager	Traveler? Are you looking for somewhere to stay? But our village was already destroyed by the King's heroes.	2																					
+29	3010		302								What heroes...?	20	Why would the King burn your village?	21																				
+30	20	3011	301								Villager	It was those two minions of the King. They took all our family, as well as the Demons who lived with us in harmony...	2																					
+31	21	1001	301								Villager	Because we didn't follow the King's order to kill all Demons, but lived with them instead.	2																					
+32	1001	22	201							1	500173		400																					
+33	22	23	301								Lee	I thought you had been living like this for a long time?	1																					
+34	23	3011	301								Villager	Yes, and we thought we could get by again... But the heroes immediately found out where we were hiding the Demons, and...	2																					
+35	3011		202							1	2																							
+36	24		301									The villager started to weep. The Demons seized by the "heroes" must be very close to him.																						
+37	3012		201							1	500166																							
+38	25		301							1	Lucia	Commandant, I'm afraid he meant Camu and Vera.	1																					
+39	3013		203							1	0.25	400																						
+40	3014		201							2	500180	5	-400																					
+41	26		301							1	Karenina	They must have gone to the King's side after throwing me and 【kuroname】 down.	2																					
+42	3015		202							1	2																							
+43	3016		201							1	1081001																							
+44	27		301							1	Kamui	Was this a quest from the King?	1																					
+45	3017		203							1	0.25	400																						
+46	3018		201							2	500173		-400																					
+47	28		301							1	Lee	Probably. But I don't think they would purposely run errands for that King. There must be a reason behind.	2																					
+48	3020		302								Liv?	4001	The Goddess' artifact.	2001																				
+49	4001	4002	202							1	2																							
+50	4002	4003	201							1	500166																							
+51	4003	4004	301								Lucia	If it's for Liv... Could they already know where she is?	1																					
+52	4004	4005	203							1	0.25	400																						
+53	4005	4006	201							2	500180	5	-400																					
+54	4006	4007	301							1	Karenina	Not necessarily. Maybe they were just setting it up. Bianca once taught me a strange tactic specifically designed for pursuit.	2																					
+55	4007	4008	301								Karenina	The goal is to apply continuous pressure and reduce the space. If the target isn't here, it doesn't matter—just blow everything up and set up traps.	2																					
+56	4008	4009	301								Karenina	It gives the target pressure and keeps them away from this place.	2																					
+57	4009	4010	202							1	2																							
+58	4010	4011	201							1	500173																							
+59	4011	4012	301							1	Lee	Creating danger to limit the target's movement, and force them to go to the only safe place left. Is that what they doing?	1																					
+60	4012	4013	102							1	500180																							
+61	4013	4014	301							1	Karenina	Yeah... I'm not sure about that Camu guy, but Vera will definitely do it.	1																					
+62	4014	4015	201							1	500166																							
+63	4015		301		1		AniZhuanchangBegin			1	Lucia	Let's follow this tactic and look for Liv. We may bump into the King's forces, but this is the fastest way to find her.	1																					
+64	2001	2002	202							1	2																							
+65	2002	36	201							1	500166																							
+66	36	2003	301							1	Lucia	It's possible. This village may be on the way to some Demon General's Castle.	1																					
+67	2003	2004	203							1	0.25	400																						
+68	2004	37	201							2	500180	5	-400																					
+69	37	2005	301							1	Karenina	Vera was asking us to collect recovery potions in every village we passed by. Maybe she just did it a bit over this time.	2																					
+70	2005	38	201							1	1081001	1	400																					
+71	38	39	301							1	Kamui	Hmm... But Camu would never do unnecessary things like that.	1																					
+72	39	40	301								Karenina	I thought he was as evil as Vera.	2																					
+73	40	41	301								Kamui	He's just antisocial. But he would never burn a village down just because he joined the King's side.	1																					
+74	41	2006	301								Kamui	I mean, it wasn't part of your quest, right?	1																					
+75	2006	42	201							1	500166		400																					
+76	42	43	301								Lucia	Unnecessary... Kamui knows Camu the best. If he says so...	1																					
+77	43	44	301								Lucia	Perhaps burning the village down was for another objective.	1																					
+78	44	45	301								Karenina	Do you mean Liv!?	2																					
+79	45		301		1		AniZhuanchangBegin				Lucia	Yeah. We don't know what they are planning, but we need to move fast.	1																					

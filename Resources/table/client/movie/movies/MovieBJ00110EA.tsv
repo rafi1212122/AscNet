@@ -1,0 +1,26 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		401			AniZhuanchangEnd				1	202																							
+2	2		101							Assets/Product/Texture/Image/BgStory/BgStory81.jpg																								
+3	3		201							2	1041001		-400																					
+4	4		201							3	1101001		400																					
+5	5		301			DialogEnable				1	Nanami	Ha, we're finally through!	2																					
+6	6		301							1	Nanami	All these twists and turns... so annoying! And there's a whole bunch of Corrupted to beat up around every corner!	2																					
+7	7		301							1	Watanabe	Why are you in such a hurry? We need to take it slow.	3																					
+8	8		301							1	Nanami	I—Hey, wait, what's that glittering over there?	2																					
+9	10		301							1		You glance towards where Nanami is pointing and see an old, battered supply crate, with something glinting nailed onto it.																						
+10	11		301							1		It's a note... written on a chocolate wrapper.																						
+11	12		301							1	Note	[The King's Diary #12]																						
+12	13		301							1	Note	Those jerkwads who stole my kingdom are finally gone! At least it looks like it...																						
+13	14		301							1	Note	They must've brought my old man and my mom with 'em. Eh, I was tired of them telling me what to do anyways!																						
+14	15		301							1	Note	Next, I gotta bring some weapons and search around the fort to make sure they didn't leave too many guards around.																						
+15	16		201							1	1021001																							
+16	17		301							1	Lucia	What's this?	1																					
+17	18		202							1																								
+18	19		201							1	1011001																							
+19	20		301							1	Lee	Looks like whoever lived here left a note.	1																					
+20	21		202							1																								
+21	22		301							1	Nanami	Anyone home...? And alive...?	2																					
+22	23		302								No idea.	24																						
+23	24		301							1	Watanabe	Yeah... Guess we'll have to continue searching.	3																					
+24	25		301							1	Watanabe	There's still a long way to go before we reach the actual interior of the fortress.	3																					
+25	26		301		1		AniZhuanchangBegin			1		?																						

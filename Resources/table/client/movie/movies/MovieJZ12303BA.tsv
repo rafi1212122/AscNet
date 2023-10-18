@@ -1,0 +1,242 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory41.jpg																								
+2	2		401							1	202																							
+3	3		201							2	500369	4																						
+4	4		301			DialogEnable				1	Mandhasti	Roland...	2																					
+5	5		203							2	0.25	400																						
+6	6		201							1	500365	7	-400																					
+7	7		301							1	Roland	Mandy?! Why are you here?!	1																					
+8	8		301								Mandhasti	Yes, why indeed? I said that I trust you. Why else would I escape and come looking for you?	2																					
+9	9		204							2																								
+10	10		301								Mandhasti	...Roland, I have to apologize to you. I told you that everything I did earlier was because I said I saw Kay. But... there's more to it than just that.	2																					
+11	11		204							2	4																							
+12	12		301								Mandhasti	I was patrolling Fifth Avenue the other day. As always, it was overcrowded. But, I suddenly had a strong impulse, a feeling that I had to do it.	2																					
+13	13		301								Mandhasti	...I followed the patrol route and went to the outdoor cafe on the roof of Building 7. I found a corner out of view and jumped down, then double back on the route I just patrolled.	2																					
+14	14		301								Mandhasti	Obviously, jumping from the third floor hurt like hell, considering I hadn't been trained to jump from such a height. But I didn't care about the pain. I was more focused on what I had seen.	2																					
+15	15		301								Mandhasti	Fifth Avenue, which was crowded with people just a few minutes ago—was empty.	2																					
+16	16		301								Roland	(Looks like a scene from eight acts ago... Dang it. The camera crew was filming a commercial with me at that time. There weren't enough extras in the group. No one reported this oversight to me.)	1																					
+17	17		301								Mandhasti	When I saw that, some random person appeared out of nowhere, got right in my face and started rambling incoherently about thanking me for maintaining the peace.	2																					
+18	18		301								Mandhasti	When he left, Fifth Avenue was back to being overcrowded again. It was almost like the naked emperor scrambling for clothes after finally being caught.	2																					
+19	19		301								Mandhasti	I don't know how long it's been. But after that, every time I'm out on patrol or keeping the peace, something feels... off. After that, patrolling, enforcing the law, something was bothering me... I've got this nagging feeling that there's something wrong with this world.	2																					
+20	20		301								Roland	M-Mandy... What're you talking about?	1																					
+21	21		301								Mandhasti	...Like just now, when I was locked up in the detention center. After you left, Omi came to try and talk me out of it. It's just... all too coincidental. Like it's staged. Like something keeps trying to push me in some direction.	2																					
+22	22		301								Mandhasti	So, I broke out. I broke out to find you. Some of the medical spray from the can I broke earlier got on your shoes. It was just a little, but even then, and despite all the footprints in the police station, how could I mistake my knight's footprints...? So, I followed the trail here.	2																					
+23	23		301								Mandhasti	A lot of people tried to stop me along the way. But I pushed through them. I broke through barrier after barrier. I even knocked over that old man standing in front of the door outside. And, as expected, they made no attempt to hurt me. Just like that gangster this morning...	2																					
+24	24		301								Mandhasti	The more I see, the more I feel that something is trying to stop me. That's why I'm telling you all of this. Roland... Everything about this world keeps getting stranger, except for you. You're the only one I can trust.	2																					
+25	25		301								Mandhasti	But... But I can't imagine...	2																					
+26	26		301								Mandhasti	Roland... Are you one of them?	2																					
+27	27		301								Roland	Um, uh...	1																					
+28	28		202							1	2				1																			
+29	29		301									Roland's mind races to come up with an explanation. How to weave this into the narrative? Tell him that he's being stalked? Would adding such an extreme shift in the story affect the ratings?																						
+30	30		301									Before Roland has time to fabricate an excuse, Mandhasti takes a few steps forward, grabs his shoulders, and gives him a look of sincerity.																						
+31	31		201							1	500376		-400																					
+32	32		201							2	500369	4	400																					
+33	33		301							1	Mandhasti	—No. No. I know you, Roland. I know you'd never stab me in the back. You're... You're my knight.	2																					
+34	34		301								Mandhasti	You're... You're being threatened, aren't you? Forced to participate in this false world...	2																					
+35	35		301								Mandhasti	Whatever it is... You can tell me. I need to know. I'll believe whatever you say.	2																					
+36	36		301								Roland	...	1																					
+37	37		301								Mandhasti	Just tell me, and we can escape... We can leave this false world!	2																					
+38	38		301								Mandhasti	I'm begging you, Roland. Tell me...	2																					
+39	39		301								Roland	(Sigh)	1																					
+40	40		301								Roland	Cameras KE4, OC1, power off. Begin playback: "Memories".	1																					
+41	41		301								Roland	(Ugh... More work to do...)	1																					
+42	42		301								Mandhasti	What was that?	2																					
+43	43		301									Roland places his hand on the baton at his waist that he always carried as a deputy.																						
+44	44		203							1	0.1																							
+45	45		301									Gently pressing a button on the baton and taking a deep breath, he bends down, twists his waist and gives Mandhasti a sharp jab to the stomach—																						
+46	46		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBeginHei.prefab	2																							
+47	47		202							1	2				1																			
+48	48		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+49	49		301			PanelActor2Shake					Mandhasti	Ah... Ah... AH!!!																						
+50	50		301									After a few screams, Mandhasti's body twitches and quickly collapses onto the ground, motionless.																						
+51	51		501							Assets/Product/Effect/Prefab/FxUi/FxUiStory/FxUiZhuanchangBeginHei.prefab	2																							
+52	52		201							1	500376																							
+53	53		101							Assets/Product/Texture/Image/BgStory/BgStory41.jpg																								
+54	54		301							1	Roland	Heh... Can't go anywhere without my trusty EMP.	1																					
+55	55		202							1					1																			
+56	56		301									Breathing heavily, he squats down and lifts Mandhasti's motionless head. Having bashed his head from the fall, the wound reveals an intricate mechanoid component.																						
+57	57		201							1	500365	4																						
+58	58		301							1	Roland	Where are you, memory chip... Bingo.	1																					
+59	59		301									Roland reaches into the mechanoid and pulls out the chip. With the chip in hand, he suddenly collapses onto the ground.																						
+60	60		202							1																								
+61	61		301								Roland	Rrgh... Argh!																						
+62	62		301									His breathing gradually stabilizes, but his body is still shaking, as if the baton in his hand had shocked him, causing his entire arm to tremble.																						
+63	63		301									With just a slight touch, the mechanoid has crumbled to the ground just now and lost all functionality. It lays there motionless like a corpse.																						
+64	64		301									It almost feels like stabbing a real person with a knife.																						
+65	65		301									He moves his fingers. Sweat from his palms drips down along his arm. For a moment, he thought it was fluid from the mechanoid.																						
+66	66		301									Looking at the palm of his hand for a long time, Roland finally confirms that it wasn't a person he knocked unconscious, but a mechanoid named Mandhasti. A mechanoid arranged by the show to deceive the audience into making them think they were watching a live broadcast.																						
+67	67		201							1	500382																							
+68	68		301							1	Neferti	Roland! Roland! Are you okay?	1																					
+69	69		301									He wasn't sure how long he had been sitting on the ground. A crew member breaks down the door with a maintenance box.																						
+70	70		203							1	0.25	400																						
+71	71		201							2	500365	4	-400																					
+72	72		301							1	Roland	Neferti, you finally made it... I pulled out the memory chip. The team should still be awake by now. Have them wipe the mechanoid's memory...	2																					
+73	73		301								Roland	...The props team did a lousy job, so you'll have to take care of that. Oh, and the security guard at the door... the protocol for not injuring the lead is set too high. I never expected him to resort to violence. That didn't stop him this time. It was an oversight on my part.	2																					
+74	74		301								Roland	I think the director should take it from here. I... I need to go back to the lounge. I think the crew might need to change their performance policy and make preparations in advance...	2																					
+75	75		202							1	2				1																			
+76	76		301									Roland hands the memory chip to Neferti, stands up, and staggers to leave.																						
+77	77		301									But before he can leave, the broad palm of a hand grabs his shoulder, stopping him in place and causing him to lose his balance. He falls to his knees with a loud thud.																						
+78	78		201							1	500382		300																					
+79	79		201							2	500381		-300																					
+80	80		301							1	Neferti	Roland, you look like death warmed over.	1																					
+81	81		301									Neferti's voice is heavy. Roland can hear that he's trying to keep his voice as soft as possible.																						
+82	82		301								Neferti	It's okay, I get it. I really do. You're exhausted, and you're not feeling well.	1																					
+83	83		301								Neferti	The first time you did something like that, you puked your guts out on set like you actually killed someone.	1																					
+84	84		301								Neferti	But after that, you regained your composure, smiled and said to me, "all cameras on me." You held your own for ten minutes as we cleaned everything up offscreen.	1																					
+85	85		301								Roland	Back then, I...	2																					
+86	86		301								Neferti	Your smile really encouraged us. After that, we knew we'd survive no matter what the accident may be. You don't puke anymore, and we're getting better at dealing with these kinds of situations.	1																					
+87	87		301								Neferti	You see? Even now. Even if it is being replayed outside, the audience still feels that our show is real.	1																					
+88	88		301								Neferti	And for the sake of maintaining this reality, we need to keep it together until "The End".	1																					
+89	89		301								Neferti	We have overcome so many crises. We'll overcome this one, too. Because you're a professional, and so are we.	1																					
+90	90		202							1																								
+91	91		401							2	1515																							
+92	92		301									Neferti's hand on Roland's shoulder lets go. Roland hears several clicks from the operation terminal.																						
+93	93		301								Neferti	The nearest underground lounge is next door. I've already adjusted it to make you feel right at home. I'll deal with the higher-ups.																						
+94	94		301								Neferti	I know you can't share your pain with your family. But at least... I hope you can get some proper shuteye.																						
+95	95		201							2	500365		-300																					
+96	96		301							1	Roland	Thanks, Neferti. But I'm okay. I'm... a professional.	2																					
+97	97		202							2					1																			
+98	98		301									Roland grins, gets up and looks back. Neferti kneels over Mandhasti and begins to repair him.																						
+99	99		201							1	500378																							
+100	100		301							1		Mandhasti's robotic glass eyes are wide open. Neferti says it's a characteristic of the model.																						
+101	101		301				AniZhuanchangBegin					But somehow, Roland feels that, even though he had lost power, he is still looking at him.																						
+102	102		202							1					1																			
+103	103		504							0.7																								
+104	104		101							Assets/Product/Texture/Image/BgStory/Bgstory424.jpg																								
+105	105		201							1	500369		-400																					
+106	106		201							2	500365		400																					
+107	107		301			AniZhuanchangEnd				1	Mandhasti	Your name's Roland? Thanks for saving me!	1																					
+108	108		301								Roland	I'm a deputy, after all. My duty is to protect my superiors.	2																					
+109	109		301								Mandhasti	Don't say that. I need to give you a reward.	1																					
+110	110		301								Mandhasti	But recently, the station's budget is a bit strapped for cash... Um...	1																					
+111	111		301								Mandhasti	It's decided then. From now on, I'll make you my knight!	1																					
+112	112		301								Roland	Knight?	2																					
+113	113		301								Mandhasti	Yeah, that'll do! Legend has it, gallant knights were willing to sacrifice their lives for what they believed in! I've seen that book you carry with legends about knights. I know you're a huge fan!	1																					
+114	114		301								Roland	Oh, that? Uh, well... Someone gave it to me...	2																					
+115	115		301								Mandhasti	That's not important. What's important is that, from what you did just now to save me, I can see that you have glory and strong ideals in your heart that you're willing to sacrifice yourself for.	1																					
+116	116		301								Mandhasti	You act and think like a knight. That police uniform of yours isn't exactly what they used to wear, but that doesn't mean you can't be a knight! So... You're a knight!	1																					
+117	117		301								Roland	A.. knight...? Yeah, maybe you're right. I have the spirit, don't I?	2																					
+118	118		301								Roland	Well, my liege, I shall be your knight. Let us work together for the sake of our shared ideals.	2																					
+119	119		202							1	2																							
+120	120		301				AniZhuanchangBegin					...																						
+121	121		101							Assets/Product/Texture/Image/BgStory/Bgstory376.png																								
+122	122		201							1	500369	1	400																					
+123	123		201							2	500376		-400																					
+124	124		301			AniZhuanchangEnd				1	Mandhasti	Phew. Are you alright? You're not hurt, are you?	1																					
+125	125		301								Mandhasti	You can speak? Seems like you're still responsive... G-good... You're still alive...	1																					
+126	126		301								Mandhasti	S-sorry, I got a little carried away... When I rushed in to look for you, I had almost given up hope, but you survived...	1																					
+127	127		301								Mandhasti	Amazing... For a second there, I thought that wasn't the real you... Like someone was impersonating you...	1																					
+128	128		301								Mandhasti	...No. What the hell am I saying?	1																					
+129	129		301								Mandhasti	That's my knight! It's only natural that a narrow brisk with death leads to a miracle! Haha!	1																					
+130	130		202							1	2																							
+131	131		301				AniZhuanchangBegin					...																						
+132	132		101							Assets/Product/Texture/Image/BgStory/Bgstory381.png																								
+133	133		201							1	500369	1	400																					
+134	134		201							2	500376		-400																					
+135	135		301			AniZhuanchangEnd				1	Mandhasti	Er... Well, I'm sorry to doubt you just now. You're my knight.	1																					
+136	136		301								Roland	Don't worry about it. Just a simple misunderstanding.	2																					
+137	137		301								Mandhasti	How embarrassing. What's gotten into me? For some reason, I've started to feel like everything around me is fake...	1																					
+138	138		202							1	2																							
+139	139		301				AniZhuanchangBegin					...																						
+140	140		101							Assets/Product/Texture/Image/BgStory/Bgstory329.png																								
+141	141		201							1	500369	4	-400																					
+142	142		201							2	500376		400																					
+143	143		301			AniZhuanchangEnd				1	Mandhasti	How... How could... even you deceive me?	1																					
+144	144		301								Mandhasti	No, no! I don't believe it! You promised. You promised me that you'd be my knight...	1																					
+145	145		202							1	2																							
+146	146		301				AniZhuanchangBegin					...																						
+147	147		101							Assets/Product/Texture/Image/BgStory/BgStory41.jpg																								
+148	148		201							1	500376		-400																					
+149	149		201							2	500369	4	400																					
+150	150		301			AniZhuanchangEnd				1	Mandhasti	—No. No. I know you, Roland. I know you'd never stab me in the back. You're... You're my knight.	2																					
+151	151		301								Mandhasti	You're... You're being threatened, aren't you? Forced to participate in this false world...	2																					
+152	152		301								Mandhasti	Whatever it is... You can tell me. I need to know. I'll believe whatever you say.	2																					
+153	153		301								Mandhasti	Just tell me, and we can escape... We can leave this false world!	2																					
+154	154		301				AniZhuanchangBegin				Mandhasti	I'm begging you, Roland. Tell me...	2																					
+155	155		202							1	2				1																			
+156	156		101							Assets/Product/Texture/Image/BgStory/BgStory83.jpg																								
+157	157		401							1	10																							
+158	158		504							0																								
+159	159		201							1	500365	7																						
+160	160		301			AniZhuanchangEnd				1	Roland	Agh... Ugh... Ack!!! (Vomits)	1																					
+161	161		202							1					1																			
+162	162		301									As the best lounge for actors in the park, the underground lounge is completely insulated. Not even an air raid could be heard here.																						
+163	163		301									So, obviously, no one outside will hear the sound of vomiting and crying.																						
+164	164		201							1	500365	7																						
+165	165		301							1	Roland	Ack... Ngh...!! (Vomits)	1																					
+166	166		204							1	1																							
+167	167		301								Roland	Cough, dammit... How many times has it been, heh?	1																					
+168	168		202							1					1																			
+169	169		301									Building such a large studio with the intent of keeping a human caged in it for decades without them realizing it is obviously impossible.																						
+170	170		301									But if they were a mechanoid that you could reprogram their memory and repair, well, then it's easy.																						
+171	171		301									"The most genuine reaction without the facade of acting, making it the art of our times." All of this was just a lie made up as a commercial selling point.																						
+172	172		301									In the end, all the controversies and praises about this program were directed at a non-existent goal.																						
+173	173		301									Meaningless. Like the lies he said on the comms.																						
+174	174		301									"Any slip-up will cause the whole thing to come crashing down, then I'll get sent home." It was all just an act. A spur of the moment joke.																						
+175	175		301									No matter how many times it comes crashing down, the crew will just rewrite the lead's memory and do whatever it takes to appease the audience as they push Roland and other actors to continue the show.																						
+176	176		301									And every time they rewrite it, he ends up throwing up in the dark lounge away from anyone else to see.																						
+177	177		201							1	500365	4																						
+178	178		301							1	Roland	Huff... Puff...	1																					
+179	179		202							1					1																			
+180	180		301									Cold and trembling, Roland feels too weak to stand. But he just wipes the corners of his mouth, forces himself up and cleans up the mess. After that, he crashes onto the bed.																						
+181	181		301									The bed feels soft. A faint fragrance can be smelled. According to Neferti, none of the actors can stay awake for more than a minute on it.																						
+182	182		301									Yet, Roland has never slept well on it.																						
+183	183		301									Only after "restarting" Mandhasti has he ever been allowed to use this lounge. And every time he comes here, as soon as he closes the door, acid reflux rushes up from his stomach. After throwing up his guts, he doesn't even have the strength to sleep.																						
+184	184		201							1	500365	1																						
+185	185		301							1	Roland	Heh... A knight, eh? If you really wish to knight me, I guess you could call me "Sir Pukes-a-lot" or something...	1																					
+186	186		202							1					1																			
+187	187		301									All thanks to a slip-up from the props team and that scene he caused, that's the identity he got stuck with. But then again, this identity has showed its justification time and time again because of that mechanoid.																						
+188	188		301									But with a simple reboot of the mechanoid, any memory of this disappears.																						
+189	189		301									Every time Mandhasti finds himself betrayed, the trust and despair in the mechanoid's eyes disappear completely under the impact of the EMP.																						
+190	190		201							1	500365	1																						
+191	191		301							1	Roland	I really envy that about mechanoids. It's so easy to forget...	1																					
+192	192		202							1					1																			
+193	193		301									Roland rolls up his sleeves, revealing numerous scars under the night light. Some were his. Some were makeup. But far more were self-inflicted.																						
+194	194		301									In the scene just now, he had grabbed the mechanoid's arm and told him that he was a real human. His feelings were genuine. He wasn't acting.																						
+195	195		301									Hilarious. Just a few hours ago, he said that the show was entirely scripted.																						
+196	196		301									But in that moment, Mandhasti seemed to be a real human worried for himself and his companions while Roland was just a robot following a script and the lies in his earpiece.																						
+197	197		301									Despicable. He wants to puke his brains out.																						
+198	198		301									But instead, he cuts his arm to check that whatever flows out from underneath his skin is really blood, not mechanical fluid.																						
+199	199		301									He is still young, and the cut is not deep. It should heal quickly, but it is not as fast as the rate with which he keeps needing to confirm his humanity.																						
+200	200		301									The old scars on Roland's arms are replaced with new wounds, just like his memory of Mandhasti each time he calls him a knight.																						
+201	201		201							1	500365	1																						
+202	202		301							1	Roland	Heh... Maybe I've got as many battle scars as the knights in those legends.	1																					
+203	203		301									The word "knight" dates back to ancient times as a spiritual symbol and often appears in the show. Of course, Roland is familiar with the term. But to prepare for his role, he had to read numerous books on the matter.																						
+204	204		301									According to legends, a knight is bound by loyalty to someone in exchange for whatever glory they seek. The knight will face adversity, ready to die for their principles. Whether they are forsaken by their friends and family or stranded in the wilderness—everything is for loyalty.																						
+205	205		301									Even if the knight was to die at the hands of his enemy, he would have no regrets. The knight only pursues that which fulfills the ideals of the king.																						
+206	206		301								Roland	More like a clown.	1																					
+207	207		301									—Like a clown trying to fool everyone with his red nose and that painted-on smile.																						
+208	208		301								Roland	Sigh...	1																					
+209	209		202							1					1																			
+210	210		201							1	500365	7	-400																					
+211	211		201							2	500375		400																					
+212	212		301							1		Roland sits up and turns to look at himself.																						
+213	213		301									That Roland, with his tufts of hair, appears to be in high spirits—not overcome with exhaustion.																						
+214	214		301									He smiles at Roland, playfully shaking the EMP device disguised as a baton.																						
+215	215		301								Roland?	Oh, Roland. We meet again. Hello there.	2																					
+216	216		301								Roland?	You don't seem to get enough sleep. Guess you had to deal with Mandhasti again, huh? Tsk, tsk. How many times have you been here?	2																					
+217	217		301								Roland?	It's all due to that guy from the prop team who asked for leave at such an important time. Who knows if the flashback properly connects to the current story? If not, the team is gonna have to rack their brains to figure out how to explain this to the audience.	2																					
+218	218		301								Roland?	Excuses, excuses. Last time it was because there were issues with the set. Before that, there was a power failure. Why not tell everyone the truth? The lead is a mechanoid. His tech is malfunctioning.	2																					
+219	219		301								Roland?	Lies, deceipt. We deceive the audience. We deceive Mandy. We deceive everyone.	2																					
+220	220		301								Roland?	Yes, it's wrong. But it's just a matter of supply and demand. As long as it makes people happy and entertained, who cares?	2																					
+221	221		301								Roland?	If enough people yearn for this so-called "genuine reaction," we shall provide them with what they want. Even if it's just a charade, as long as the audience thinks it's true, then everything is. Isn't it?	2																					
+222	222		301								Roland?	Whether or not he's real, our lies are clever enough to come true. If this facade is realistic enough, he may even be more real than if he was truly human.	2																					
+223	223		301								Roland?	So, don't worry about anything. Just go along for the ride, Roland.	2																					
+224	224		301								Roland?	Don't you have dreams you hope to pursue? Don't you expect to spend time with your family? You've been here all this time because of those dreams, haven't you?	2																					
+225	225		301								Roland?	The men and women on this stage are just a group of actors. All actors inevitably leave the stage.	2																					
+226	226		301								Roland?	Don't worry, as long as you earn enough money, endure enough experience, and live the life you want, Mandy, knight, and so on... All will become the past.	2																					
+227	227		301								Roland?	Hang in there, Roland.	2																					
+228	228		204							1	1																							
+229	229		301								Roland	Pff... Hang in there.	1																					
+230	230		202							1	2				1																			
+231	231		301									Roland steps back from the mirror and falls on the bed. The EMP baton in his hand falls to the ground.																						
+232	232		201							1	500365	1																						
+233	233		301							1	Roland	Article 80 of the employee handbook says that when you have doubts, you should give yourself psychological counseling... How considerate.	1																					
+234	234		301								Roland	Lying to the audience by saying it's a live broadcast... Lying to Mandhasti by saying all his adventures are true... Lying to Neferti about being professionals... Even lying to Rolmo...	1																					
+235	235		301								Roland	...How much longer can I live like this?	1																					
+236	236		301								Roland	Mom... Dad... Rolmo... I... I miss you all...	1																					
+237	237		301								Roland	I'd love to see what you tell people about me... How you give out that hideous merchandise... How happy Rolmo is with some extra spending money...	1																					
+238	238		301								Roland	I really want to get out of this falsehood... I want to... escape...	1																					
+239	239		301								Roland	...	1																					
+240	240		202							1					1																			
+241	241		301		1		AniZhuanchangBegin			1	Roland	Hah... Look at me. Who am I putting up the act for...	1																					

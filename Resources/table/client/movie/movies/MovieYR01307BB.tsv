@@ -1,0 +1,123 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory17.jpg																								
+2	2		401							1	208																							
+3	3		301			DialogEnable					Ayla	Oh! Commandant!																						
+4	4		301									You are walking along the corridor when Ayla's voice suddenly rings out from behind. She catches up to you with two packages in her arms.																						
+5	5		201							1	500110																							
+6	6		301							1	Ayla	Commandant! That thing you talked about! It's done!	1																					
+7	7		301								Ayla	I didn't expect the game to have KuroStylish clothing data in it. You've been a great help, Commandant!	1																					
+8	8		302								KuroStylish?	9	Huh?	12																				
+9	9		301								Ayla	It's that super famous designer clothing brand in the Golden Age! Their design style is very unique, and the ready-to-wear clothes they made were very popular.	1																					
+10	10		301								Ayla	So we decided to reboot the brand, but KuroStylish clothes were discontinued before the Post-Pandemic Age, and most of the related info is lost.	1																					
+11	11	14	301								Ayla	We're still in the process of collecting and restoring clothing designs.	1																					
+12	12		301								Ayla	We decided to reboot the Golden Age brand, KuroStylish, so we're recovering the relevant design data. I didn't expect that the game would have several actual swimsuit designs that were sold.	1																					
+13	13		301								Ayla	It's very helpful to the study of the KuroStylish design style, and it's saved me a lot of effort.	1																					
+14	14		204							1	1																							
+15	15		301								Ayla	So... As a trial run for relaunching the brand, I made the swimsuits that Lee and Liv wore!	1																					
+16	16		301									Ayla pats the package in her hand and shows you a dazzling smile. You remember seeing her smile like this whenever she creates a satisfying piece of work.																						
+17	17		301								Ayla	Commandant, your application to make swimsuits for Constructs would ordinarily not be approved, but if it's a cultural restoration project from the WGAA, it's no problem at all!	1																					
+18	18		204							1																								
+19	19		301								Ayla	This swimsuit has a Babylonian touch added to its base design, and to increase utility, I asked the tech department to give input on functionality.	1																					
+20	20		301								Ayla	So, even if an emergency occurs, you can enter battle immediately too!	1																					
+21	21		301								Ayla	More swimsuits and clothes will come in the future, so look forward to them!	1																					
+22	22		302								Thanks, Ayla.	23																						
+23	23		301								Ayla	You're welcome. Wearing nice clothes makes you feel better, after all. Even in this world, we cannot give up on our pursuit of beautiful things.	1																					
+24	24		301								Ayla	Well, I have to get back to work. Can I ask you to deliver the clothes for me, Commandant? Help me deliver one, I'll deliver the other.	1																					
+25	25		302								Okay, leave it to me.	26	Why not hand both to me?	27																				
+26	26	28	301								Ayla	Thanks, Commandant!	1																					
+27	27		301								Ayla	Ummm, well... I kinda want to hear what they think of the clothes in person!	1																					
+28	28		301									Whose swimsuit should you deliver?																						
+29	29		302								Liv's.	30	Lee's.	77																				
+30	30		301				AniZhuanchangBegin				Ayla	No problem! I'll deliver Lee's swimsuit then. I wonder how he'd react if I tell him this is a "gift from Commandant"?	1																					
+31	31		101							Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+32	207		401							1	204																							
+33	200		202							1					1																			
+34	32		301			AniZhuanchangEnd						Arriving at the lounge, you see Liv staring at the screen with a thoughtful expression.	1																					
+35	33		201							1	1031001	1																						
+36	34		301							1	Liv	You're here, Commandant.	1																					
+37	35		301								Liv	I've been looking up human info in the Golden Age since playing the game.	1																					
+38	36		301								Liv	Apparently, various regions had different festivals and events during the summer in the Golden Age, and students also had a one to two month long summer vacation.	1																					
+39	37		301								Liv	During so, shopping malls had very attractive discount events. People would go out with their friends or lovers to shop and eat together.	1																					
+40	38		301								Liv	Some would go to seaside vacation spots and do all sorts of beach activities. Hmm... Like we did in the game that day.	1																					
+41	203		204							1	14																							
+42	39		301								Liv	Before I became a Construct, I stayed indoors all the time and didn't have many opportunities to go out. These things are also...	1																					
+43	204		204							1	6																							
+44	40		301								Liv	Ah, sorry, I couldn't stop myself, Commandant... Did you need something from me?	1																					
+45	41		302								Yeah, this is for you.	42																						
+46	42		301								Liv	This is the swimsuit from the game...	1																					
+47	43		301								Liv	The engineering department wouldn't make this type of coating. Ayla must've made this, right?	1																					
+48	44		302								This is made for you, Liv.	45																						
+49	45		204							1	7																							
+50	46		301								Liv	Huh? For... me?	1																					
+51	47		301								Liv	Liv blinks in surprise.																						
+52	48		204							1	6																							
+53	49		301								Liv 	...Can I try it on now?	1																					
+54	50		302								Of course.	51	I can't wait.	51																				
+55	51		202							1																								
+56	52		301									Liv picks up the swimsuit lightly and steps briskly into a small room in the lounge. The soft rustling of fabric can be heard from inside.																						
+57	53		301									A short while later, Liv walks out of the room.																						
+58	54		301									The special mobility device beside her gently lifts her body. She lightly spins in the center of the room.																						
+59	55		201							1	500174	6																						
+60	56		301								Liv	Um, Commandant... How is it?	1																					
+61	57		301									Liv folds her arms in front of her chest. Though her cheeks are red from shyness, she gazes earnestly into your eyes.																						
+62	58		302								Yep, it looks really good.	59																						
+63	59		301								Liv	Since you gave it to me, Commandant, at the very least, I want you to see me in it...	1																					
+64	60		301								Liv	But it feels kinda weird to wear clothes like this in the HQ...	1																					
+65	61		302								It's okay. It's just you and me.	205																						
+66	205		301								Liv	...Yeah.	1																					
+67	62		301								Liv	If we were still in the Golden Age, I could have worn something like this and gone on a beach vacation with everyone... Or, no, maybe it's still doable after the war ends...	1																					
+68	63		301								Liv	Commandant, is it immature of me to wish for the war to end, because of a swimsuit...?	1																					
+69	64		302								No, it's not.	65																						
+70	65		302								No matter what your wish is, it is the strength that drives you.	66																						
+71	66		204							1	1																							
+72	67		301								Liv	Yep, you're right, Commandant. I think... I get it now...	1																					
+73	68		301								Liv	The pursuit of freedom, the desire to return home... the small wishes of people come together as one, becoming humanity's will to defeat the virus...	1																					
+74	69		301								Liv	We carry the hopes of all the survivors, and their wishes will be the beacon to guide us on.	1																					
+75	70		301								Liv	My wish is to fill the world with light again, but maybe... also having another little wish of my own, isn't too much to ask for.	1																					
+76	71		301								Liv	Thank you, Commandant.	1																					
+77	72		301								Liv	I hope that one day, we can all be at the beach, playing about and setting fireworks off.	1																					
+78	73		302								The day will come.	74	It might come sooner than expected.	75																				
+79	74	76	301								Liv	Yes. I will look forward to it.	1																					
+80	75		301								Liv	You're so sure of it, Commandant. Then I guess I'll trust in you as well.	1																					
+81	76		301		1		AniZhuanchangBegin				Liv	As long as I'm by your side, I know that hope is in sight.	1																					
+82	77		301								Ayla	No problem! I can deliver our dear Livvy's swimsuit! I can't wait to see her in it!																						
+83	78		301				AniZhuanchangBegin				Ayla	Oh yes, this is something Kamui asked me to help with. He said to "just give it to Lee," so please pass it to him too, Commandant!																						
+84	79		101							Assets/Product/Texture/Image/BgStory/BgStory21.jpg																								
+85	208		401							1	204																							
+86	201		202							1					1																			
+87	80		301			AniZhuanchangEnd						You come to Lee's room and see him busy at his workbench, as expected.																						
+88	81		201							1	500026																							
+89	82		301							1	Lee	Careful, don't touch anything.	1																					
+90	83		302								What are you doing?	84																						
+91	84		301								Lee	Upgrading things. That's the memory card that Ayla gave you, right? You can hand it to me.	1																					
+92	85		301									Lee connects the memory card to the VR device, then begins tapping away at the screen.																						
+93	86		301									Feeling your curious gaze, Lee lets out a small sigh.																						
+94	87		301								Lee	It's the game Kamui brought. He asked me to make some functional optimizations.	1																					
+95	88		301								Lee	It's Golden Age stuff after all. The engine and the graphics are way too outdated. I needed the texture and asset files from Ayla for the graphics, but the rest I can handle on my own.	1																					
+96	89		301								Lee	It's a field I'm not familiar with... But, I'll get the hang of it in no time.	1																					
+97	90		302								I never thought you'd help Kamui with this.	91	You actually like this game, don't you?	92																				
+98	91	94	301								Lee	If I don't help him, he'll still be here nagging me.	1																					
+99	92		204							1	6																							
+100	93		301								Lee	Just an interest on the technical order.	1																					
+101	94		302								Oh right, this is for you.	95																						
+102	95		301								Lee	Lee receives the package with a suspicious look in his eyes and opens it.																						
+103	96		204							1																								
+104	97		301								Lee	...	1																					
+105	98		301								Lee	...What's this?	1																					
+106	99		302								It's a swimsuit.	100	It's a gift of love!	101																				
+107	100	102	301								Lee	I know this is a swimsuit. Why are you giving this to me?!	1																					
+108	101		301								Lee	Cut it off.	1																					
+109	114		301								Lee	...Why?	1																					
+110	102		302								Because it suits you.	103																						
+111	103		301								【kuroname】	And you looked like you were in a very good mood. It was subtle, but I'm sure your mouth tilted up by a tiny pixel.																						
+112	104		301								Lee	You must be mistaking my facial expressions for something else.	1																					
+113	206		301								Lee	...	1																					
+114	105		301								Lee	...Sometimes I really don't understand what you're thinking.	1																					
+115	106		301								Lee	We are Constructs, weapons for humans to take the world back. So whether its some human video game, or other entertainment, they are all things we shouldn't involve ourselves with.	1																					
+116	107		301								Lee	We exist to complete the missions under your command, so as to bring us all closer to the final victory. I believe the other commandants in the HQ would also think the same way.	1																					
+117	108		301								Lee	But you indulge your squad Constructs in playing games, and also give them... these things. You know we won't ever have a chance of using them.	1																					
+118	109		302								You don't know for sure.	110	Just accept it on my behalf.	110																				
+119	110		301								Lee	...Fine.	1																					
+120	111		301								Lee	I don't know if we'll ever get a chance to wear it, but I'll keep it safe.	1																					
+121	112		204							1	6																							
+122	113		301		1		AniZhuanchangBegin				Lee	...Thanks.	1																					

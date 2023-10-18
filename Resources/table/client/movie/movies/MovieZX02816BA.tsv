@@ -1,0 +1,102 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	209																							
+3	3		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab	2																							
+4	4		301			DialogEnable						The agent named Luna curls up in a dark dream—or maybe it is not a dream but the boundary of her vague M.I.N.D.																						
+5	5		301									She can only hear her own voice. All the noises from the Ascension-Network are no longer to be heard.																						
+6	6		201							1	500238	4																						
+7	7		301							1	Luna	I'm still alive... My consciousness is still here.	1																					
+8	8		301									Luna does not understand why she is still in the form of an agent after being denied by the Ascension-Network. She was supposed to turn into a normal, mindless Corrupted.																						
+9	9		204							1	3																							
+10	10		301									But the Ascension-Network seems to have halted the execution—or, in a more humanly description, it's as if the Ascension-Network is thinking about something.																						
+11	11		301									Luna does not want to think of the reason. Everything no longer matters to her. No one is going to step into this silent world of hers again like that rude person.																						
+12	12		201							1	500032																							
+13	13		301							1	Lucia	...	1																					
+14	14		201							1	500238	4																						
+15	15		301							1	Luna	Lucia...	1																					
+16	16		203							1	0.25			-50																				
+17	17		301									Knowing she is but an illusion, Luna still reaches out to the sister in her memories.																						
+18	18		301									Luna is not trying to seek help or letting out her anger—she only wants to touch her sister once again to feel the warmth.																						
+19	19		201							1	500032	14																						
+20	20		301							1	Lucia	...!	1																					
+21	21		301									Her mouth keeps moving as if she wants to tell Luna something, but the darkness seems to have devoured her voice. Luna cannot hear anything.																						
+22	22		301									Lucia seems very anxious. Luna looks at her lips, trying to read what she is saying.																						
+23	23		201							1	500238	4																						
+24	24		301							1	Luna	"Lu... Luna..."	1																					
+25	25		301								Luna	"Wake... up..."	1																					
+26	26		201							1	500032	14																						
+27	27		301							1	Lucia	Luna... Wake up!	1																					
+28	28		301									The dark dream disappears like falling tides among Lucia's anxious cry. Her silhouette begins to twist and fade.																						
+29	29		301									An invisible force is dragging Luna away from her sister. She reaches out and tries to get a little closer, but her efforts are all futile.																						
+30	30		301									She has no more reason to live in the sober world. She feels like she is standing at a crossroads; the road behind her has all disappeared, but nobody tells her where to go. Only here she can feel the slightest warmth.																						
+31	31		201							1	500238	6																						
+32	32		301							1	Luna	Why... Why don't you just let me die in that dream? It's not too bad to die here... I guess.	1																					
+33	33		204							1	3																							
+34	34		301				AniZhuanchangBegin					Luna's dream is on the brink of collapse. She closes her eyes again, knowing that she will have to face the never-ending, pale reality when she wakes up.																						
+35	35		101			DialogDisable				Assets/Product/Texture/Image/BgStory/BgStory588.jpg																								
+36	36		401							1	36																							
+37	37		202							1					1																			
+38	38		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab	2																							
+39	39		401				AniZhuanchangEnd			2	1501																							
+40	40		301			DialogEnable						But unlike the countless awakenings in the past, she is greeted by a sharp agony and loud siren instead of silence and the smell of dust.																						
+41	41		401							1	202																							
+42	42		201							1	500504																							
+43	43		301							1	Luna	Ugh...!	1																					
+44	44		301									Luna opens her eyes in an excruciating pain. She finds herself still in the familiar Construct lab, but everything around her is a mess. Something must have happened.																						
+45	45		301									She barely twists her wrist in the restraint, then realizes there is crimson Punishing Virus coming out of her body and dissipating in the air.																						
+46	46		301				AniZhuanchangBegin				Luna	This is the Omega Weapon those humans talked about...	1																					
+47	47		202			DialogDisable				1					1																			
+48	48		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgCg/Cg2801_03.jpg																								
+49	49		301			DialogEnable						The massive Omega Weapon behind her is emitting a crimson light. The color is not from the weapon itself, but comes from the Punishing Virus that it keeps draining from her.																						
+50	50		301									The Punishing Virus outfit that forms Luna's combat suit has completely vanished. The Punishing Virus in her body will be the next.																						
+51	51		301									Losing the power of agent has not impacted her frame's performance, and there is still a large amount of Punishing Virus present in Luna's body. Still, it is no match for the Omega Weapon's infinite power.																						
+52	52		301								Luna	Am I... going to die like this...?																						
+53	53		301				AniZhuanchangBegin					Luna has never been so close to death after she became an agent, not even when she was devoured by the Polyphage. This is the most powerful weapon humans have created for Ascendants.																						
+54	54		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiSHanshuoNew.prefab																							
+55	55		101			DialogDisable	AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/BgStory588.jpg																								
+56	56		301			DialogEnable						Maybe this isn't too bad after all... As the enemies of humans, Ascendants are destined to kill them, or be killed by them.																						
+57	57		401							1	36																							
+58	58		401						200	2	9317013																							
+59	59		401						200	2	10007001																							
+60	60		401							2	9317017																							
+61	61		301			RImgBg1Shake						She suddenly hears a lot of noises outside, followed by a loud bang. A slender Construct knocks the Construct lab door open and rushes in, along with a Corrupted that has been crushed to pieces long ago.																						
+62	62		401							1	147																							
+63	63		201						2000	1	500494	4																						
+64	64		203							1	0.25	400																						
+65	65		201							2	500105		-400																					
+66	66		301							1	Luna	You...	2																					
+67	67		301									Karenina jumps up and shakes the dust off like a rabbit. She gracefully turns around, facing Luna.																						
+68	68		301								Luna	Didn't you already leave the Moon...? Or were you the one who created all this mess?	2																					
+69	69		301								Karenina	No way. A Punishing Virus contamination of unknown reason caused the zero-point reactor and that engine to go haywire, hence the mess in this base.	1																					
+70	70		301								Luna	I see...	2																					
+71	71		301									Luna tries to gather her strength and realizes she can attract the Punishing Virus that is spreading on the once-clean Moon. Still, the virus she can gather now is too weak and soon gets eliminated by the Omega Weapon.																						
+72	72		301								Karenina	I thought you were related to all this and came to finish you off before taking care of the rest... But that seems unnecessary now.	1																					
+73	73		301									Karenina glances at Luna. The Omega Weapon has made her extremely frail.																						
+74	74		301								Luna	Hmph, indeed... It's a matter of time before my body dies from the exhaustion of the Punishing Virus. You don't need to get your hands dirty.	2																					
+75	75		204							1	13																							
+76	76		301									Karenina walks back and forth, slightly hesitant. She opens her mouth in the end.																						
+77	77		204							1	4																							
+78	78		301								Karenina	I have already reported the situation to Babylonia. They will send a shuttle here soon, but I need to destroy the zero-point engine before it arrives to minimize the damage caused by gravitational waves.	1																					
+79	79		301								Karenina	Even so, the overflowing zero-point energy could detonate all the built-up gravitational waves simultaneously... We may have the time to escape, but the loose rocks blown up by the gravitational waves would still hit the Earth and cause terrible disasters.	1																					
+80	80		301									Karenina takes a deep breath and stares at Luna.																						
+81	81		301								Karenina	According to my calculations, if you can get the power of agent back again, the strength of the Punishing Virus you absorb should be on par with the Omega Weapon and therefore consume a lot of zero-point energy, reducing the final impact of gravitational waves.	1																					
+82	82		301									Luna gives Karenina an unbelievable look as if she has just said something absurd.																						
+83	83		204							2	14																							
+84	84		301								Luna	Are you... trying to seek my assistance?	2																					
+85	85		204							1	12																							
+86	86		301								Karenina	Yeah... Is there a problem? I'll do anything and use any resources available to achieve my goal, even if it means to seek help from the enemy.	1																					
+87	87		204						1000	2	13																							
+88	88		204							2																								
+89	89		301									Luna smiles. That commandant of her sister's was once doing the exact same thing—trying to borrow the enemy's strength like a fool.																						
+90	90		204							1	6																							
+91	91		301								Karenina	Hey, you don't want to die like this, do you...? If that's the case...	1																					
+92	92		301									But Luna shakes her head and interrupts Karenina.																						
+93	93		301								Luna	I no longer have the ability to connect to the Ascension-Network or use the power of agent. Even if I can, I have no plan to help you just for the sake of living on.	2																					
+94	94		301									To her, it may be better just to put an end to the agent named Luna once and for all. That way, both of her sisters can finally walk their own paths without worrying about her.																						
+95	95		301								Luna	Besides, I don't think you should put your hope on Babylonia's rescue. They probably have already abandoned everybody here...	2																					
+96	96		301								Luna	Compared with the lives of a few people on the Moon and the Earth, it would be a wiser choice for them to protect the zero-point engine, which is a symbol of future hope.	2																					
+97	97		301									Luna once heard from that human named Yarha that Kurono wanted to install this engine and the zero-point reactor on Babylonia to restart the space travel project.																						
+98	98		301									Zero-point reactor, Construct technology, Omega Weapon, new specialized frame... All those creations are carrying the hope of humans. They create the future for humans, but also become their shackles.																						
+99	99		301								Luna	You'll become the enemy of humankind if you still choose to destroy the engine...	2																					
+100	100		301									There is no taunt or anger in Luna's words. She is just stating the cold truth.																						
+101	101		301		1		AniZhuanchangBegin				Luna	Do you really have the courage to pop their inflated hope?	2																					

@@ -1,0 +1,27 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory305.png																								
+2	2		401							1	201																							
+3	3		201							1	500029																							
+4	4		301			DialogEnable				1	Lucia	Copy that. I'm setting up monitoring equipment here. We'll be in position shortly!	1																					
+5	5		301									After hanging up the mid-range comms with Lee and you, Lucia turns to speak with Liv.																						
+6	6		301								Lucia	Liv, let's get going.	1																					
+7	7		201							1	1031001																							
+8	8		301				AniZhuanchangBegin			1	Liv	...A-alright.	1																					
+9	9		202							1					1																			
+10	10		101							Assets/Product/Texture/Image/BgStory/Bgstory306.png																								
+11	11		301			AniZhuanchangEnd						The images transmitted by the monitoring equipment display a large number of mechanoids on the move, but no discernable "leader" among them is found.																						
+12	12		201							1	500029																							
+13	13		301							1	Lucia	...Is it hiding?	1																					
+14	14		201							1	1031001																							
+15	15		301							1	Liv	Seems like it's a bit different from what's going on near the commandant...	1																					
+16	16		201							1	500029																							
+17	17		301							1	Lucia	You're right. With so many of them, it's going to be hard for us to break through.	1																					
+18	18		301								Lucia	If there was only...	1																					
+19	19		202							1					1																			
+20	20		301									As if in response to what Lucia is about to say, a mechanoid hobbles over.																						
+21	21		301									The mechanoid attempts to approach the inner side of the building but collapses by the corner.																						
+22	22		201							1	500029		400																					
+23	23		201							2	1031001		-400																					
+24	24		301							1	Lucia	Liv, do you remember the "identity requisition" part of tactical training?	1																					
+25	25		301								Liv	You mean the part about copying identity information from fallen enemies for camouflage purposes?	2																					
+26	26		301		1		AniZhuanchangBegin				Lucia	Correct. Maybe we can borrow from that fallen mechanoid.	1																					

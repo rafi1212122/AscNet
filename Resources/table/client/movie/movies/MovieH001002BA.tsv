@@ -1,0 +1,521 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		102							Nameless Island	Day 1	Assets/Product/Texture/Atlas/CommonLogo/BgLogo1.png																						
+2	2		502							ThemeEnable																								
+3	3		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory191.png																								
+4	4		401							1	201																							
+5	5		301			DialogEnable						Regaining consciousness from deep within your mind, you find yourself lying on a white sand beach.																						
+6	6		201							1	500347																							
+7	7		301							1	Lucia	...Commandant!	1																					
+8	8		202							1					1																			
+9	9		301									You gently lift your head to see Lucia looking at you nervously.																						
+10	10		301									Based on the soreness of your chest, you infer that you were just given first aid.																						
+11	11		301									Liv is always in charge of medical work. Lucia rarely has to handle treatment.																						
+12	12		301									But as a Construct, first aid is obviously included in her intensive training.																						
+13	13		302								Lucia...	14	(Sit up)	16																				
+14	14		201							1	500347																							
+15	15	17	301							1	Lucia	I'm here.	1																					
+16	16		201							1	500347																							
+17	17		301							1	Lucia	Commandant, how are you feeling?	1																					
+18	18		302								I'm fine.	19	Cough...	19																				
+19	19		301								Lucia	You almost drowned. Now you run the risk of a chest infection, but I can't examine you in a place like this. If only Liv were here...	1																					
+20	20		302								Where are we?	21																						
+21	21		301									Looking around, you see the ruins of recreational facilities scattered on the beach.																						
+22	22		301								Lucia	It resembles Venus Splash Park, but that's over 180 kilometers away...	1																					
+23	23		301								Lucia	I suspect that it once belonged to Venus Splash Park. Looks like it served the same function as an island resort.	1																					
+24	24		302								Looks like we're on an uninhabited island.	25																						
+25	25		301								Lucia	Perhaps it's not really "uninhabited." Judging from the current Punishing Virus concentration, it's highly possible that there are still mechanoids and supplies on the island. Maybe Scavengers live here?	1																					
+26	26		302								Let's contact the others first.	27																						
+27	27		301								Lucia	I already tried contacting Liv and Lee, but there was no reply.	1																					
+28	28		301								Lucia	The signal's too weak here. And our terminals were damaged in the riptide...	1																					
+29	29		301								Lucia	We need to find a ride out of here and rendezvous with the others ASAP.	1																					
+30	30		302								Alright. Let's split up.	31																						
+31	31		301								Lucia	No. Leave it to me.	1																					
+32	32		301								Lucia	The Punishing Virus concentration of the area up ahead is well within safety range. You can wait for me there.	1																					
+33	33		302								I want to help, too.	34	I'll leave it to you then.	36																				
+34	34		301								Lucia	You just recovered. You should rest up.	1																					
+35	35	37	301				AniZhuanchangBegin				Lucia	You can count on me.	1																					
+36	36		301				AniZhuanchangBegin				Lucia	Okay. See you in a bit.	1																					
+37	37		101							Assets/Product/Texture/Image/BgStory/Bgstory291.png																								
+38	38		202							1					1																			
+39	39		301			AniZhuanchangEnd						Leaving the soft sandy beach, you walk to the center of the island by yourself amid the crashing sound of the waves.																						
+40	40		301									The first thing you see is a spacious, abandoned plaza, followed by amusement park facilities long out of service, awaiting visitors in the mist. Both sides of the road are lined with machinery and collapsed buildings.																						
+41	41		301									You have not been inspecting the deserted plaza for long before Lucia returns with a large bag of collected parts.																						
+42	42		301									...And two live fish in hand.																						
+43	43		201							1	500347																							
+44	44		301							1	Lucia	Sorry, Commandant. I didn't find a boat for us to use or repair.	1																					
+45	45		301								Lucia	But we should be able to build a boat out of the surrounding materials. I also brought back some parts that can be used to build an engine.	1																					
+46	46		301									Lucia ignores the two flopping fish. She just looks out in the direction of the surf.																						
+47	47		301								Lucia	I'm no mechanic, but I should be able to build a boat given enough time.	1																					
+48	48		302								You want to... build a boat?	49																						
+49	49		301									You hesitate then nod to Lucia, trustingly. At the same time, you ponder another issue.																						
+50	50		302								What about the Corrupted in the sea?	51																						
+51	51		301								Lucia	You're right. They'll be our biggest threat.	1																					
+52	52		301									She clutches the fish tightly.																						
+53	53		301								Lucia	Even though there aren't any blueprints or proper tools here, I'm confident we can build a boat to cross the sea. But we'll have no way of defending their attack.	1																					
+54	54		302								Let's keep looking.	55																						
+55	55		301								Lucia	Okay.	1																					
+56	56		301								Lucia	The Punishing Virus concentration is lower nearby. I saw some mechanoids that still haven't been corrupted maintaining the buildings here.	1																					
+57	57		301								Lucia	But that doesn't mean there aren't hidden pockets with high Punishing Virus concentration.	1																					
+58	58		301									As soon as Lucia says that, a small group of robots with cleaning tools walk down the corridor.	1																					
+59	59		302								Um...	60																						
+60	60		301								Lucia	What's wrong?	1																					
+61	61		302								What's with the fish...?	62																						
+62	62		301								Lucia	I couldn't find that many supplies around here, but the life support systems seem to be well-maintained.	1																					
+63	63		301								Lucia	It's getting late, Commandant. You need to rest up and regain your strength.	1																					
+64	64		301								Lucia	That's why I caught you some fish. I'll get them ready for you to eat.	1																					
+65	65		302								You're planning on cooking all by yourself?	66	Need help? I know a thing or two about cooking.	67																				
+66	66	69	301								Lucia	Yes.	1																					
+67	67		301								Lucia	You need to rest, Commandant. We've got a tough road ahead of us.	1																					
+68	68		202							1					1																			
+69	69		301									Lucia looks around the plaza, holding the fish that have gradually lost their strength, and points down a brick path nearby.																						
+70	70		201							1	500347																							
+71	71		301							1	Lucia	There's an abandoned park over there. It has the lowest Punishing Virus concentration I could find.	1																					
+72	72		301								Lucia	Let's go to the empty library right behind it.	1																					
+73	73		301								Lucia	There's an abandoned cafe in it, which should have some appliances for cooking food.	1																					
+74	74		302				AniZhuanchangBegin				...Let's go.	75																						
+75	75		101							Assets/Product/Texture/Image/BgStory/Bgstory307.png																								
+76	76		202							1					1																			
+77	77		301			AniZhuanchangEnd						Reaching the library entrance, you look around to see that the place is surprisingly well-kept except for a few remnants of destruction. What happened to this island?																						
+78	78		302								What's with these ruins?	79																						
+79	79		201							1	500347																							
+80	80		301							1	Lucia	This area must have had frequent fighting before it was abandoned altogether.	1																					
+81	81		301								Lucia	I saw a bunch of similar ruins while looking for parts.	1																					
+82	82		301								Lucia	Also... there were signs of humans, such as graffiti and messages carved into the ruins.	1																					
+83	83		302								Looks like they didn't evacuate in a hurry.	84																						
+84	84		301								Lucia	You mean people stayed here for a while before leaving these markings?	1																					
+85	85		302								Who knows? Maybe there are still survivors here.	86																						
+86	86		301								Lucia	But I didn't see any signs of life.	1																					
+87	87		302								Maybe they're hiding.	88																						
+88	88		301								Lucia	It's possible. I'll investigate more of the island later. If I can find someone to speak to, maybe we can get some intel that'll help us get off this island ASAP.	1																					
+89	89		301								Lucia	But right now, our main priority is to get your strength up, Commandant.	1																					
+90	90		301									Lucia walks straight into the kitchen at the back of the abandoned coffee shop. She quickly cleans the counter and places the two dying fish on it.																						
+91	1190		204							1	1																							
+92	91		301								Lucia	The appliances are still operational, and there are also some condiments left over. Looks like this was the work of those robots...	1																					
+93	92		302								Maintaining this deserted island...?	1193																						
+94	1193		204							1																								
+95	93		301								Lucia	Yes.	1																					
+96	94		301								Lucia	They'll continue to do their scheduled work until they receive orders otherwise.	1																					
+97	95		202							1					1																			
+98	96		301									Lucia looks down and searches through the equipment and utensils stored within the kitchen.																						
+99	97		301									You have known about Lucia's cooking "skills" for quite some time, but you have never witnessed her in action.																						
+100	98		301									You are overcome with curiosity given such a rare opportunity while your survival instinct kicks in at the same time.																						
+101	99		201							1	500347																							
+102	100		301							1	Lucia	Alright, it's showtime.	1																					
+103	101		302								Showtime?	102	...	103																				
+104	102		301								Lucia	Time for me and the fish to do battle.	1																					
+105	103		301								Lucia	Take a step back, Commandant. Keep a safe distance.	1																					
+106	104		302								A safe distance?	105																						
+107	105		301									Right as you ask, Lucia unsheathes her blade.																						
+108	106		302								...W-wait!	107																						
+109	107		301								Lucia	Is there something you wish to say?	1																					
+110	108		302								You're going to use your katana to cut the fish?	109																						
+111	109		301								Lucia	Of course. It's the weapon I'm most familiar with.	1																					
+112	110		301									Even though this goes against everything you know about cooking, you are also curious to see how she plans on going about it.																						
+113	111		302								(Don't stop her)	112	You should use a proper kitchen knife...	143																				
+114	112		202							1					1																			
+115	113		301									Seeing the look of approval in your eyes, she steps back and prepares to swing.																						
+116	114		401							2	589																							
+117	115		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+118	116		101						4000	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+119	117		101							Assets/Product/Texture/Image/BgStory/Bgstory307.png																								
+120	118		401					100	100	2	604																							
+121	119		401					100	100	2	636																							
+122	120		401					100		2	738																							
+123	121		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+124	122		301			RImgBg1Shake						The next moment, she throws one of the fish into the air and swings her knife as fast as lightning. Fish scales go flying and splatter everywhere.																						
+125	123		401						100	2	561																							
+126	124		401					100	100	2	636																							
+127	125		401					100		2	737																							
+128	126		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+129	127		301			RImgBg1Shake						The fish appears to float in the air. Each time it is about to fall, Lucia slices it back into the air with her katana. It remains in the air for what appears to be several dozens swings, each slice scaling the fish.																						
+130	128		401						100	2	561																							
+131	129		401					100	100	2	636																							
+132	130		401					100		2	625																							
+133	131		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+134	132		301			RImgBg1Shake						Based on the culinary records of the Golden Age, this cutlery skill would easily rank among the top ten chefs.																						
+135	133		401						100	2	608																							
+136	134		401					100	100	2	636																							
+137	135		401					100		2	625																							
+138	136		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryHitNew.prefab	2																							
+139	137		301			RImgBg1Shake						Seeing that there are no scales left, Lucia slices open the fish's belly and removes the viscera in one swift flick of her wrist.																						
+140	138		401							2	744																							
+141	139		301									Right as the fish finally lands on the cutting board, Lucia sends its head flying toward the ceiling in a perfect arc—nearly landing right on your head.																						
+142	140		301									...Is that why you wanted me to stand a safe distance away?																						
+143	141		301									Returning to your senses, you notice that the surrounding counter has been completely destroyed in the flurry of swings from her katana. Only the small area where the fish is placed remains intact.																						
+144	142	193	301									You finally understand why you received such a large bill for kitchen repairs...																						
+145	143		301								Lucia	A kitchen knife? I'm more used to a longer blade like my katana, but I guess I could use the practice.	1																					
+146	144		202							1					1																			
+147	145		301									Lucia nods, grabs a knife in the shape of a dagger, then steps back in preparation to attack.																						
+148	146		401							2	589																							
+149	147		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+150	148		101						4000	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+151	149		101							Assets/Product/Texture/Image/BgStory/Bgstory307.png																								
+152	150		401					100	100	2	10008001																							
+153	151		401					100	100	2	604																							
+154	152		501					100	100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+155	153		401					100	100	2	10008001																							
+156	154		501					100	100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+157	155		401					100	100	2	10008001																							
+158	156		401					100	100	2	738																							
+159	157		501					100		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+160	158		301									The next moment, she throws one of the fish into the air and swings her knife as fast as lightning. Fish scales go flying and splatter everywhere.																						
+161	159		401					100	100	2	10008001																							
+162	160		401					100	100	2	561																							
+163	161		501					100	100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+164	162		401					100	100	2	10008001																							
+165	163		501					100	100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+166	164		401					100	100	2	10008001																							
+167	165		401					100	100	2	737																							
+168	166		501					100		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+169	167		301									The fish appears to float in the air. Each time it is about to fall, Lucia slices it back into the air with the kitchen knife. It remains in the air for what appears to be several dozen swings, each slice scaling the fish.																						
+170	168		401					100	100	2	10008001																							
+171	169		401					100	100	2	561																							
+172	170		501					100	100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+173	171		401					100	100	2	10008001																							
+174	172		501					100	100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+175	173		401					100	100	2	10008001																							
+176	174		401					100	100	2	625																							
+177	175		501					100		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+178	176		301									Based on the culinary records of the Golden Age, this cutlery skill would easily rank among the top ten chefs.																						
+179	177		401					100	100	2	10008001																							
+180	178		401					100	100	2	608																							
+181	179		501					100	100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+182	180		401					100	100	2	10008001																							
+183	181		501					100	100	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+184	182		401					100	100	2	10008001																							
+185	183		401					100	100	2	625																							
+186	184		501					100		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	2																							
+187	185		301									Seeing that there are no scales left, Lucia slices open the fish's belly and removes the viscera in one swift flick of her wrist.																						
+188	186		401							2	744																							
+189	187		301									Right as the fish finally lands on the cutting board, Lucia had already sent its head flying into a corner, leaving a vibrant blood splatter on the wall.																						
+190	188		301									...Is that why you wanted me to stand a safe distance away?																						
+191	189		301									Returning to your senses, you notice that the surrounding counter had been covered in scratches from the flurry of swings of the kitchen knife. Fortunately, the knife was not long enough to cause severe damage.																						
+192	190		301									You finally understand why you received such a large bill for kitchen repairs... Or perhaps, you should be thankful that you stopped her from using her katana.																						
+193	191		401							2	10002001																							
+194	192		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	2																							
+195	193		301									Before you have any time to say anything, Lucia starts doing the same thing to the second fish.																						
+196	194		201							1	500347																							
+197	195		301							1	Lucia	Now I just need to rinse the fish, slice them into pieces, boil them in broth, then they'll be ready to eat.	1																					
+198	196		302								(Start panicking)	197	(Remain calm)	199																				
+199	197		301									Lucia notices a bead of sweat form on your forehead and gives you a look of concern.																						
+200	198	201	301								Lucia	Are you sick, Commandant? There aren't any medic supplies here, so I'll try to finish up the soup as fast as I can. You'll feel better in no time!	1																					
+201	199		301									You calmly watch Lucia cook as if those rumors and memories had never happened.																						
+202	200		301								Lucia	I'll finish up the soup as fast as I can. Just wait a moment, Commandant.	1																					
+203	201		202							1					1																			
+204	202		301									Lucia turns on the faucet, fills a bucket with water, and runs it through a purifier.																						
+205	203		301									While she waits for the water to filter, she grabs dozens of different containers, the content of which are unrecognizable.																						
+206	204		301									After placing a pot of water on the self-heating stove, Lucia begins to slice and prepare the fish.																						
+207	207		301									Once the water reaches a boil, she checks the sliced fish once more and places the pieces into the pot.																						
+208	208		301									She opens the countless containers of mystery seasonings and condiments...																						
+209	209		302								(Don't stop her)	210	(Offer to help)	252																				
+210	210		301									You don't make any effort to stop Lucia. You just stand by and watch her emptying all of the strange-smelling content... directly into the pot.																						
+211	211		301									Even at a safe distance, you can tell from the smell that at least red wine, vinegar and coffee are included in the mystery broth.																						
+212	212		301									Wait... Why is there coffee, too?!																						
+213	213		401							1	102																							
+214	214		301									You try to stop her, but it is too late. After a brief shock, Lucia places a bowl of dark brown soup in front of you.																						
+215	215		201							1	500347																							
+216	216		301							1	Lucia	I wouldn't exactly say it's delicious, but it's the best I could do given the circumstance. Give it a try, Commandant!	1																					
+217	217		301									...You want to refuse, but you have no other choice.																						
+218	218		202							1					1																			
+219	219		301									Right as you pick up the spoon, your nose is assaulted by a barrage of vinegar, wine, and fish. You quietly gulp, and bring the spoonful of brown liquid to your mouth with your trembling fingers.																						
+220	220		301									...The taste can only be described as pickled death.																						
+221	221		301									The salty brine paralyzes your tongue and the fishy odor infiltrates your nasal cavity. The bitter coffee, sour wine, and pungent vinegar play a requiem for your taste buds like a beautiful rose wilting to the coming winter.																						
+222	222		401							2	721																							
+223	223		101							Assets/Product/Texture/Image/BgStory/Bgstory391.jpg																								
+224	225		301									In this moment, your consciousness sinks into the ocean's cold depths. Opening your eyes, you only see endless darkness and loneliness. You feel as if you are suffocating. You hear the faint tolling of a bell near your ears...																						
+225	226		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlinkNew.prefab	2																							
+226	227		301									If you were to strike a match at this moment, you would surely see a delicious feast just out of reach.																						
+227	228		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlinkNew.prefab																							
+228	229		401							2	1512																							
+229	231		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+230	232		301									As these unprovoked thoughts flash through your mind, your consciousness sinks further into darkness.																						
+231	233		301								Lucia	Commandant!!																						
+232	234		301				AniZhuanchangBegin				Lucia	Commandant! COMMANDANT!!																						
+233	235		101						5000	Assets/Product/Texture/Image/BgStory/Bgstory299.png																								
+234	236		401							1	207																							
+235	237		301			AniZhuanchangEnd						Regaining consciousness, you find yourself in the library on the upper level.																						
+236	238		201							1	500347																							
+237	239		301							1	Lucia	Commandant...	1																					
+238	240		301									Lucia looks at you concerned.																						
+239	241		301								Lucia	Was it... because of my soup?	1																					
+240	242		301									Your hesitation is enough for Lucia to know your answer.																						
+241	243		302								Have you tried your own food?	244																						
+242	244		301								Lucia	I've never eaten anything I made before. Constructs don't need sustenance.	1																					
+243	245		301								Lucia	But... I tried a bite to see if that's why you passed out.	1																					
+244	246		302								And?	11246																						
+245	11246		204							1	2																							
+246	247		301								Lucia	It was... bad.	1																					
+247	11247		204							1																								
+248	248		301								Lucia	...But I don't know why.	1																					
+249	249		302								You put everything but the kitchen sink into it...	250																						
+250	250		301								Lucia	...Was it too much?	1																					
+251	251	294	301									She becomes lost in thought as if unable to comprehend what you had just said.																						
+252	252		201							1	500347																							
+253	253		301				DialogDisable			1	Lucia	It's fine. I'm just going to spice it up a bit.	1																					
+254	254		302								B-but...	255																						
+255	255		302								Won't doing daily activities together...	256																						
+256	256		302								Bring us closer together as team members?	257																						
+257	257		301			DialogEnable						Lucia pauses a moment and nods.																						
+258	258		301								Lucia	Well, if you say so...	1																					
+259	259		302								Leave the seasoning to me.	260																						
+260	260		301								Lucia	Alright.	1																					
+261	261		202							1					1																			
+262	262		301									You walk up next to Lucia and carefully examine the dozens of bottles, cans and bags she just opened.																						
+263	263		301									The content include salt, oyster sauce, red wine, coffee, saccharin, white vinegar, bean flour, ungrounded black pepper... Among the many other ingredients, there is even a bag of yeast.																						
+264	264		301									Even though the Golden Age had revolutionized food storage, which greatly extended the shelf life of products, you smell a subtle but concerning odor coming from the containers.																						
+265	265		301									After repeated inspection, a select few ingredients were added to the fish soup.																						
+266	266		302								That should do it.	267																						
+267	267		201							1	500347																							
+268	268		301							1	Lucia	Is that really all we need?	1																					
+269	269		302								Adding more won't necessarily make it better.	270																						
+270	270		301									She becomes lost in thought as if unable to comprehend what you had just said.																						
+271	271		301									After waiting for some time, she finally brings you a clear bowl of fish soup.																						
+272	272		301								Lucia	Give it a try, Commandant.	1																					
+273	273		302								Sure.																							
+274	274		301									You calmly pick up your spoon and taste the fish soup...																						
+275	275		301									Given the circumstances, it's not delicious by any means. However, it's a warm and hearty soup for someone half-starved and stuck on a deserted island.																						
+276	276		302								Want to try it for yourself, Lucia?	277																						
+277	277		301								Lucia	Constructs don't need sustenance.	1																					
+278	278		302								What about as a memento of us cooking together?	279																						
+279	279		301								Lucia	...If you insist...	1																					
+280	280		301									After hesitating a few moments, she picks up the spoon and takes a sip.																						
+281	997		204							1	1																							
+282	281		301								Lucia	...Not bad.	1																					
+283	282		301									Lucia breathes a sigh of relief, then hands the spoon back. She watches quietly as you finish the bowl of soup.																						
+284	283		301				AniZhuanchangBegin				Lucia	You should get some rest now.	1																					
+285	284		202							1					1																			
+286	285		101							Assets/Product/Texture/Image/BgStory/Bgstory299.png																								
+287	11236		401							1	207																							
+288	286		301			AniZhuanchangEnd						You follow Lucia up to the library on the upper floor and find a corner to rest.																						
+289	287		301									Before getting comfortable, a question suddenly crosses your mind about what Lucia had thought about condiments just now.																						
+290	288		302								There's something I want to ask you, Lucia.																							
+291	289		201							1	500347																							
+292	290		301							1	Lucia	What's wrong?	1																					
+293	291		302								Did you want to put in all of those ingredients?	292																						
+294	292		301								Lucia	Yes.	1																					
+295	293		302								Why?	294																						
+296	294		301								Lucia	Because they make food taste better.	1																					
+297	295		302								That's right.	296																						
+298	296		301								Lucia	So I thought adding more would make it taste even better.	1																					
+299	297		302								Hahahahaha!	298	What makes you think that?	299																				
+300	298	300	301								Lucia	Sorry... Is something the matter, Commandant?	1																					
+301	299		301									Instead of laughing, perhaps it would have been better to ask her why she thought that way.																						
+302	300		301								Lucia	...Most of what I remember about cooking is from my childhood.	1																					
+303	301		301								Lucia	If you want to keep living, you can't be a picky eater.	1																					
+304	302		301								Lucia	Especially when I was by myself for the first time with nowhere to go. I was too young to distinguish between condiments.	1																					
+305	303		301								Lucia	Before I could use a dagger, I could barely find canned food or hardtack. Most of the food I got was expired or dirty. Sometimes it was just plants. Other times, it was just dirt.	1																					
+306	304		301								Lucia	For people at that time, condiments were hard to come by. Even a pinch of salt could make something like leaves easier to swallow.	1																					
+307	305		301								Lucia	Looking back... When I was wandering with nowhere to go, I never had enough supplies to experiment with. I never had enough condiments to make food taste bad. Now I'm afraid to put in too little.	1																					
+308	306		301								Lucia	After becoming a Construct and seeing the fully stocked kitchen in Babylonia, I guess I accidentally... went a bit overboard with the condiments and ingredients.	1																					
+309	307		301								Lucia	After that, no one even wants me going into the kitchen. So I haven't had much of an opportunity to improve.	1																					
+310	999		204							1	2																							
+311	308		301								Lucia	I know I'm not good at cooking, but if I can practice more, I can at least...	1																					
+312	309		301									Lucia lowers her head. The library, which was already quiet, is now completely silent.																						
+313	310		301									You knew she was not a good cook, but you have not expected this to be the reason why.																						
+314	311		302								Lucia...	312	(Hug her)	313	(Remain quiet)	324																		
+315	312	315	301								Lucia	I'm here, Commandant.	1																					
+316	313		301								Lucia	C-Commandant?!	1																					
+317	314		301									You hug the slightly nervous Lucia, gently stroking her long hair and kindly patting her on the back.																						
+318	315		302								It's okay. The past is in the past.																							
+319	316		301				DialogDisable				Lucia	But there are still a lot of people on Earth facing the same struggles.	1																					
+320	317		302								So we must continue to fight.	318																						
+321	318		302								We can't stop, not until we save Earth.	319																						
+322	319		301			DialogEnable					Lucia	...Okay.	1																					
+323	320		302								I'll always be there for you.	321	We'll make sure no one has to wander in starvation ever again.	321																				
+324	321		204							1	1																							
+325	322		301								Lucia	You're right, Commandant. I believe you!	1																					
+326	323		301									Lucia looks up at you. A smile returns to her lips.																						
+327	324		301				DialogDisable				Lucia	It's getting late. Why don't you get some sleep?	1																					
+328	325		302								With all these books here, how can I? I don't want this opportunity to go to waste!	326																						
+329	326		302								I haven't been to a library in ages.	327																						
+330	327		302								I wanna go have a look around.	328																						
+331	328		301			DialogEnable					Lucia	Alright.	1																					
+332	329		301								Lucia	Then I'll keep looking for supplies. It's going to take a while to finish building the raft.	1																					
+333	330		302								Stay here.	331																						
+334	331		204							1																								
+335	332		301				DialogDisable				Lucia	Is there something you need me to do?	1																					
+336	333		302								I need you to rest.	334																						
+337	334		302								We can look for supplies tomorrow.	1334																						
+338	1334		204							1	1																							
+339	335		301			DialogEnable					Lucia	...Commandant.	1																					
+340	336		302				DialogDisable				It's better to be on the safe side.	337																						
+341	337		302								Stay here.	338																						
+342	338		301			DialogEnable						Lucia contemplates for a moment.																						
+343	339		301								Lucia	Very well. Someone needs to be on guard anyway.	1																					
+344	340		302								How about you read a book?	341																						
+345	341		301								Lucia	...A book?	1																					
+346	342		301									She looks around at the sea of books, puzzled.																						
+347	343		302								You don't like to read?	344																						
+348	344		301								Lucia	It's not that. I just rarely have the chance. I don't know where to start.	1																					
+349	345		302								Well, then... Find a cover you think looks interesting.	346																						
+350	346		301								Lucia	Alright.	1																					
+351	347		202							1					1																			
+352	348		301									Lucia walks up to a bookshelf. After looking through a row, she takes out a book. Some of the pages are missing, but she reads through it quickly.																						
+353	349		301									Seeing Lucia absorbed in the book, you skim the titles of the books on the bookshelf to search for the ones you have not read.																						
+354	350		301									However, you quickly realize that most of the books are incomplete.																						
+355	351		301									Some books were burned, soiled, vandalized or repurposed as journals.																						
+356	353		301									Others have been soaked, leaving traces of plants or food. You suspect that these books were taken out of the library and later returned by the Mini Bots.																						
+357	354		301									Looking through the journals, you notice that even though the old handwriting seems to come from different authors, the content are more or less the same.																						
+358	355		301									The journals describe a group of people gathering on this island after having nowhere else to go. They were surprised to discover such a low concentration of the Punishing Virus, but after living there a short period of time, the infection began to spread. The journals all cut off here.																						
+359	356		301									Guess this explains all the ruins.																						
+360	357		301									After you continue searching through all the books on the bookshelf, you discover an untitled book with an exquisite cover left in the corner.																						
+361	358		301									Opening it, you discover that it's not actually a book. Instead, it's a foldable terminal.																						
+362	359		302								...Select Stage?	360																						
+363	360		301									You tap the screen, causing various fairytale stages to project above the screen.																						
+364	361		201							1	500347																							
+365	362		301							1	Lucia	Commandant?	1																					
+366	363		301									Noticing the projections, Lucia sets down the book in her hands and walks over.																						
+367	364		302								It's a book terminal.	365																						
+368	365		202							1					1																			
+369	366		301									She grabs the book terminal and scrolls through the catalog and its content.																						
+370	367		201							1	500347																							
+371	368		301							1	Lucia	Looks like it's a terminal for playing staged fairy tales.	1																					
+372	369		302								That's right.	370																						
+373	370		301								Lucia	Also, it looks like the stage is this island.	1																					
+374	371		302								Is it video memoire?	372																						
+375	372		301								Lucia	What's that?	1																					
+376	373		302								It's like a photo, but played on the terminal.	374																						
+377	374		301								Lucia	I see.	1																					
+378	375		301									She nods firmly.																						
+379	376		301								Lucia	Look, Commandant.	1																					
+380	377		301				DialogDisable				Lucia	Is this the same "Legend of the Mermaid"?	1																					
+381	378		302								You're right.	379																						
+382	379		302								Want to read it together?	380																						
+383	380		204							1	1																							
+384	381		301			DialogEnable					Lucia	Alright.	1																					
+385	382		301									Lucia's eyes sparkle. Seems like she's interested in reading the story behind her coating.																						
+386	383		302								Let's sit down and read it.	384																						
+387	384		301								Lucia	(Nods)	1																					
+388	385		202							1					1																			
+389	386		301									Lucia hands the book terminal to you and turns to grab a blanket.																						
+390	387		201							1	500347																							
+391	388		301				AniZhuanchangBegin			1	Lucia	It's a bit chilly at night even though it's still summer. You should bundle up.	1																					
+392	389		202							1					1																			
+393	390		101							Assets/Product/Texture/Image/BgCg/Cg2101_8.jpg																								
+394	391		301			AniZhuanchangEnd						—Long, long ago there was a kingdom at the bottom of the sea, far, far away from humanity. It was a place where only mystical sea creatures lived and flourished.																						
+395	392		301									Lucia's gaze is fully absorbed in the projection of the underwater palace coming from the terminal in your hands.																						
+396	393		301									—Here lived the children of the sea. Their lower bodies were like the tail of a fish, and their upper bodies were like that of a human. Each child had the most immaculate beauty.																						
+397	394		301									Of all the children, the youngest princess was the fairest of them all. Her skin was like rose petals, and her eyes were like deep lakes. Whenever she sang, all the fish would slow down to indulge in her beautiful song.																						
+398	395		301									A melodious song plays from the terminal.																						
+399	396		301								Lucia	The song's so pretty.																						
+400	397		301									—On the year of the mermaid princess's fifteenth birthday, she received her grandmother's blessing to float up to the surface and witness the beauty of the imperfect land.																						
+401	398		301									Just as she looks around excitedly, a magnificent ship approaches her. Aboard the ship, many people in the finest clothing are celebrating the prince's birthday.																						
+402	399		301									At that moment, the mermaid princess falls in love with both the prince and everything around him. She swears in her heart that she will join this gorgeous but fragile kingdom no matter what.																						
+403	400		301									In order to set foot on land, she seeks a witch who resides in an underwater cave. In exchange for her voice, she receives a potion that will split her tail into two legs.																						
+404	401		302								Wait, this story...	402	...	407																				
+405	402		302								It's different from what I remember.	403																						
+406	403		301								Lucia	What's the original like?																						
+407	404		302								In the original, she did that so she could meet the prince.	405																						
+408	405		301								Lucia	So her reason is different in this version?																						
+409	406		301									The two of you think for a moment.																						
+410	407		301									But there was another price for using this potion. With each step, the princess will feel like she's stepping on the blade of a knife.																						
+411	408		301									And also—if the prince banishes her, the morning before she must return home... she will be turned to seafoam.																						
+412	409		301									But the cost does little to dissuade her. And with that, she says goodbye to her family, drinks the potion, and ventures to the prince's palace in great pain.																						
+413	410		301									Although she had lost her voice, she wins over the hearts of others with the most beautiful dance the world had ever seen. Thus, she is allowed to stay in the palace.																						
+414	411		301									As time goes on, she finds herself hopelessly in love with the prince.																						
+415	412		301									The mermaid princess wants to tell her feelings to the prince, but she cannot. Not only because she has lost her voice, but also due to her status.																						
+416	413		301									Because, even if people around her are overwhelmed by her beauty and elegance, the prince only regards her as a dancer.																						
+417	414		301									One day, the prince travels out to sea in his magnificent ship. Without warning, a torrential storm forms overhead. On the way back, the prince comes across a ship that had struck a reef in the storm.																						
+418	415		301									He takes ten of his guards and rescues the stranded crew from being swallowed by the sea.																						
+419	416		301									Among the people who survived the shipwreck, there is a beautiful girl...																						
+420	417		301									The prince is surprised to find that she was the princess of a neighboring kingdom. The two are in love at first sight and become engaged immediately thereafter.																						
+421	424		301									In order to express his one-of-a-kind love, the prince orders the resignation of all the dancers in the palace.																						
+422	425		301									The mermaid princess wants to confess her love for the prince, but all she can do is endure the pain in her feet and offer him one last dance.																						
+423	426		301									When night falls, the little princess returns to the seaside and awaits the rising sun to turn her into seafoam.																						
+424	427		301								Lucia	This is almost like a story about abandoning one's humanity to become a Construct.																						
+425	428		301								Lucia	If you're abandoned by the military and unable to return to Babylonia, you'll end up with the same fate.																						
+426	429		302								But a lot of people become Constructs because they have no choice.	430	I won't let that happen.	433																				
+427	430		301								Lucia	You're right... Sorry for the tangent.																						
+428	431		302								It's okay. Fairytales aren't as harsh as reality.	432																						
+429	432	434	301								Lucia	But I believe that as long as you're on Gray Raven, Commandant, the three of us won't be met with the same fate.																						
+430	433		301								Lucia	I believe that as long as you're on Gray Raven, Commandant, the three of us won't be met with the same fate.																						
+431	434		301									Lucia smiles, then looks back at the terminal.																						
+432	435		301									—But right as daybreak is upon her, she hears a familiar singing.																						
+433	436		301									It's the sound of her sisters singing.																						
+434	437		301									They had given their long luscious locks to the witch in exchange for a dagger.																						
+435	438		301									So long as she is able to kill the prince with this dagger, her legs will return to their original form and she will be able to return to the sea.																						
+436	439		301								Lucia	...																						
+437	440		301									The princess grabs the dagger and returns to the prince's bedchamber. She ponders and ponders. But in the end, she is unable to strike down the prince.																						
+438	441		301									The princess suddenly hears a noise outside the bedchamber, and quickly hides behind the curtains.																						
+439	442		301									Between the gap in the curtains, she looks in horror as the attendants throw two familiar figures in front of the window.																						
+440	443		301								???	Our sincerest apologies for disturbing you so late into the night, Your Highness.																						
+441	444		301								Prince	No matter. I had yet to retire to bed anyway.																						
+442	445		301								???	We captured these two mermaids just offshore. We overheard them plotting your assassination!																						
+443	446		301								Prince	...Is that so?																						
+444	447		301								???	Awaiting orders to execute them, Your Highness!																						
+445	448		301									The prince remains quiet for a moment, then pulls out a sword hanging on the wall next to the window...																						
+446	449		301									Seeing this, the princess can no longer bear the grief and anger. She jumps out from behind the curtain and stabs the prince in the chest with the dagger.																						
+447	450		301									As the mermaid princess's legs are stained with his blood, the palace is engulfed by a tidal wave. Her legs return to their original fish-like tail, and she swims back to the underwater kingdom with her sisters to live happily ever after.																						
+448	451		301								Lucia	I'm guessing the ending is completely different, too. Isn't it, Commandant?																						
+449	452		302								That's right.	453																						
+450	453		301								Lucia	But something seems a little strange.																						
+451	454		301								Lucia	If the prince really hadn't fallen asleep like he said, wouldn't he have realized the princess was in the room?																						
+452	455		302								You're right. Maybe there's more to the story.	456																						
+453	456		301								Lucia	Was the author just being careless? Or are they trying to tell us something?																						
+454	457		301								Lucia	Speaking of which... How did the original story end?																						
+455	458		301									Right as you are about to tell Lucia, you see a hidden icon below with the text "Classic Mode" in dark gray letters.																						
+456	459		301									After pressing it, the book terminal begins to play the audio once more. However, it is the original version.																						
+457	460		301									—The beginning of the story is consistent with the revised version. When the little mermaid princess is 15 years old, she floats to the surface and becomes enamored with the prince and everything around him.																						
+458	461		301									On the way to the prince's banquet, a surprise storm capsizes the prince's ship, and everyone falls into the water. Seeing that the prince is about to die, she swims over recklessly to save him and pulls him ashore.																						
+459	462		301									But humans and mermaids are different creatures after all. In order to hide her secret, she hurries back to sea after confirming that the prince is safe.																						
+460	463		301									Not long after, a young girl finds the prince. She alerts others to come help him, waking him up in the process. As a result, he mistakes her for the girl who saved him—not knowing anything about the little mermaid.																						
+461	464		301									To set foot on land and meet with the prince again, she seeks a witch who resides in an underwater cave. In exchange for her voice, she receives a potion that will split her tail into two legs. But there is another price for using this potion. Each step the princess takes will feel like stepping on the blade of a knife.																						
+462	465		301									And—if the prince proposes to another princess and does not accept her, then on the morning before the wedding day... she will turn to seafoam.																						
+463	466		301									But the little princess has lost her voice and cannot speak to the prince. Even though those around him are overwhelmed by her dancing and beauty, the prince is still in love with the girl who rescued him on the beach.																						
+464	467		301									Not long after, the king and the queen had chosen a bride for the prince—a princess from a neighboring kingdom. When the prince goes to pick her up by boat, he discovers that the princess was the same girl he thought saved him.																						
+465	468		301									The two become engaged right there on the spot...																						
+466	469		301									When night falls, the little princess returns to the seaside and awaits the rising sun to turn her into seafoam.																						
+467	470		301									Hearing this news, her sisters had given their long luscious locks to the witch in exchange for a dagger. So long as she is able to kill the prince with this dagger, her legs will return to their original form and she will be able to return to the sea.																						
+468	471		301									But that is not what the princess does. She cannot kill the prince in his sleep. Instead, she tosses the dagger into the sea.																						
+469	472		301									When the sun rises... The most beautiful mermaid princess in the world returns to the sea as seafoam.																						
+470	473		301								Lucia	Looks like the biggest difference is how the story ends.																						
+471	474		302								You're right.	475																						
+472	475		301								Lucia	In one ending, she kills the prince to protect her sisters. In the other ending, she sacrifices herself and allows the prince to continue living without knowing what she has done for him.																						
+473	476		301								Lucia	It's still a sad story regardless of which ending it is... but I still prefer the original.																						
+474	477		301								Lucia	Someone brave enough to die for what they love... That's true bravery.																						
+475	478		302								Because that's what she chose?	479																						
+476	479		301								Lucia	Yes. Even though it didn't end the way she wanted, she has no regrets.																						
+477	480		302								Is that the kind of ending you would choose if you were her?	481																						
+478	481		301								Lucia	...That kind of ending?																						
+479	482		301								Lucia	Would you be upset if I sacrificed myself, Commandant?																						
+480	483		302								Yes.	484	No.	489																				
+481	484		301								Lucia	Then I wouldn't sacrifice myself. I wouldn't want to hurt you.																						
+482	11486		302								Thank you.	485	But you've already done that.	487																				
+483	485		301								Lucia	I'd never do anything to hurt you.																						
+484	486	494	301								Lucia	If I'm forced to choose between the two, I'll find a third option.																						
+485	487		301								Lucia	But that wasn't my ending. It was just a part of my life and a small part of my time in Gray Raven.																						
+486	488	494	301								Lucia	And I didn't sacrifice myself because of that, Commandant. I may have taken a detour, but I'm back now.																						
+487	489		301									Hearing this response, her expression barely changes.																						
+488	490		301								Lucia	Good. If that day comes, I wouldn't want to hurt you.																						
+489	491		301								Lucia	Saving Earth is a long and daunting mission. Sacrifices must be made along the way.																						
+490	492		301								Lucia	If you're so caught up on sadness, you'll be stuck in the past and unable to move toward the future.																						
+491	494		302								Sacrificing oneself should never be the premise for fighting.	495																						
+492	495		301								Lucia	You're right. As long as you're here, I'll cherish my life.																						
+493	496		301								Lucia	I'll protect myself—whether that's to save Earth more quickly or to stay with you even longer.																						
+494	497		302								...And if I'm not here?	498	...And if I'm assigned to another team?	506																				
+495	498		301								Lucia	...Then we'll see each other again once we rescue Earth.																						
+496	499		302								I wasn't talking about being assigned to another team...	500																						
+497	500		301								Lucia	I know. Just like the original version of the story...																						
+498	501		301									Lucia's smile seems to hint at a frown.																						
+499	502		301								Lucia	If you become seafoam, then I'll be the sea.																						
+500	503		301								Lucia	If that day comes, I want to be wherever is closest to you... That way I can tell you about our victory again and again.																						
+501	504		301								Lucia	But for me, the best future can only be achieved if you are beside me and the others. That's why I'll do everything in my power to protect you.																						
+502	505		302								(Nods)	510	We'll do this together.	510																				
+503	506		301								Lucia	As long as I know you're safe somewhere, I won't lose my way.																						
+504	507		301								Lucia	When we save Earth, I'll find you.																						
+505	508		301								Lucia	We'll be able to go wherever we want then. Can't we?																						
+506	509		302								Of course.	510																						
+507	510		301									Lucia smiles and nods, then looks back at the terminal.																						
+508	511		301								Lucia	But... Why'd they want to change the original story to this?																						
+509	512		302								Maybe to make it more novel?	513	Maybe they were writing what happened to them?	514																				
+510	513	515	301								【kuroname】	In the records of the Golden Age, some authors would deliberately adapt familiar stories to entice readers.																						
+511	514		301								【kuroname】	...This island has been deserted for too long. Maybe someone who once lived here wrote down their own experience through stories.																						
+512	515		301								Lucia	I see. Perhaps, you're right.																						
+513	516		301								Lucia	Hmm...																						
+514	517		301								Lucia	I'd like to continue this discussion, but you need to get some rest, Commandant.																						
+515	518		302								Okay, good night.	524	You should get some rest too, Lucia.	520																				
+516	520		301								Lucia	Me?																						
+517	522		301								Lucia	Constructs don't need to sleep, but I'll stay by your side until it's light out.																						
+518	523		302								Okay, good night.	524																						
+519	524		101							Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+520	525		301		1		AniZhuanchangBegin				Lucia	Good night, Commandant.																						

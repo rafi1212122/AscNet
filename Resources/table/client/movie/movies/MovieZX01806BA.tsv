@@ -1,0 +1,267 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory316.png																								
+2	2		401							1	203																							
+3	3		201							1	500019		450																					
+4	4		201							2	500268		-450																					
+5	5		301			DialogEnable				1	Construct A	Didn't you see those monsters just now? If you stay here, they'll kill you before Babylonia does.	1																					
+6	6		301								Refugee B	If that is what fate has in store for us, then so be it.	2																					
+7	7		301								Refugee B	Our bodies will turn to dust, and our souls will return to the earth.	2																					
+8	8		301								Construct A	To hell with fate... There's no reasoning with you!	1																					
+9	9		301								Construct A	This will be all for nothing.	1																					
+10	10		202							1	2				1																			
+11	11		301									The sudden emergence of Hetero-Creatures causes tensions to rise between both sides.																						
+12	12		301									The calibration team and the refugees have reached an impasse over meaningless prattle.																						
+13	13		301									A sudden cry puts a stop to the altercation.																						
+14	14		401							1	202																							
+15	15		201							1	500251																							
+16	16		301							1	Woman	Ray—! RAY?!	1																					
+17	17		301								Woman	Has anyone seen Ray?! Where is he... Where's my grandson?!	1																					
+18	18		301									After her companions shake their heads, she shifts her gaze to the calibration team.																						
+19	19		301									Her look of alarm gives way to one of panic.																						
+20	20		301								Woman	H-have you seen my grandson?!	1																					
+21	21		202							1					1																			
+22	22		301									She glances at each of the Constructs one by one. Finally, her eyes fixate on Lucia and liv.																						
+23	23		301									She runs over to Lucia and firmly grips her shoulders as if she is her only lifeline.																						
+24	24		201							1	500251																							
+25	25		301							1	Woman	H-have either of you seen Ray?	1																					
+26	26		301								Woman	W-where is he? Y-you saw him, d-didn't you?	1																					
+27	27		301								Woman	My g-grandson... H-he was right next to me—!	1																					
+28	28		202							1					1																			
+29	29		201							1	1031001																							
+30	30		301							1	Liv	Please, remain calm.	1																					
+31	31		301								Liv	Who is Ray?	1																					
+32	32		302								That boy from before?	33																						
+33	33		202							1					1																			
+34	34		301									She nods her head anxiously.																						
+35	35		201							1	500026																							
+36	36		301				AniZhuanchangBegin			1	Lee	Did he get scared in all the chaos and hide somewhere?	1																					
+37	37		101							Assets/Product/Texture/Image/BgStory/Bgstory317.png																								
+38	38		201							1	500136																							
+39	39		301			AniZhuanchangEnd				1	Refugee	I didn't see him.	1																					
+40	40		202							1					1																			
+41	41		201							1	500268																							
+42	42		301							1	Refugee B	Neither did I.	1																					
+43	43		202							1					1																			
+44	44		201							1	500273																							
+45	45		301							1	Wanshi	Um...	1																					
+46	46		301								Wanshi	If you're looking for the kid...	1																					
+47	47		301								Wanshi	I'm pretty sure he ran to the west when all the fighting broke out.	1																					
+48	48		201							1	500251																							
+49	49		301			PanelActor1Shake				1	Woman	The west... But that's...!	1																					
+50	50		201							1	500273																							
+51	51		301							1	Wanshi	...	1																					
+52	52		202							1					1																			
+53	53		301									She collapses to her knees as if drained of all her strength.																						
+54	54		201							1	500251																							
+55	55		301							1	Woman	No... NO!!! Don't... Don't take my Ray from me!!!	1																					
+56	56		202							1					1																			
+57	57		301									Lucia and Liv look over.																						
+58	58		201							1	500273																							
+59	59		301							1	Wanshi	Hey, I meant... He's just a child. He couldn't have gone far. I'm sure we can still catch up to him.	1																					
+60	60		302								Well, then let's...	61																						
+61	61		202							1					1																			
+62	62		201							1	500286																							
+63	63		301							1	Hans	Gray Ravens.	1																					
+64	64		301								Hans	There's no time to waste on such trivial matters.	1																					
+65	65		301								Hans	If you've got that much free time on your hands, it would be better spent guarding against attacks from Hetero-Creatures.	1																					
+66	66		302								But—	67																						
+67	67		203							1	0.25	450																						
+68	68		201							2	500028		-450																					
+69	69		301							1	Construct Captain	Chief Commander, Team 03 just sent a comm link. They have deployed the bit domain node.	2																					
+70	70		301								Hans	Good. What about the other teams.	1																					
+71	71		301								Construct Captain	Team 02 and Team 05 were also attacked by Hetero-Creatures, and the bit domain nodes were destroyed. No news from Team 04. Team 07 and Team 08 are still exploring the Red Tide periphery. It's uncertain whether they can deploy their nodes.	2																					
+72	72		301								Hans	What is the casualty report?	1																					
+73	73		301								Construct Captain	Thirty percent.	2																					
+74	74		202							2					1																			
+75	75		203							1	0.25																							
+76	76		301								Hans	Hear that, Gray Ravens? You're here playing hide and seek while countless others are fighting up ahead.	1																					
+77	77		301								Hans	Our troops are getting wounded and giving their lives for this cause.	1																					
+78	78		301								Hans	I've given you a compromise, but it seems that you are still unable to complete your mission.	1																					
+79	79		301								Hans	Do you know whose time you are wasting in this place?	1																					
+80	80		301								Hans	You're wasting the time and lives of your comrades.	1																					
+81	81		301								Hans	We have no energy to waste on such trivial matters. If you can't persuade them to leave, use force.	1																					
+82	82		301								Hans	If you don't want to use force, then let them stay here and await their death.	1																					
+83	83		301								Hans	Our mission is far greater than their lives.	1																					
+84	84		301								Hans	Have you forgotten what the CTO said? Once the Red Tide spreads to the coastline, not only will the people here die, the entire Earth will fall.	1																					
+85	85		301								Hans	While you squander your senseless kindness on such trivial matters, have you thought about the fate of humanity for even a minute?	1																					
+86	86		301								Hans	You've abandoned the interest of the greater good for your own personal interests.	1																					
+87	87		301								Hans	I think you should go back to F.O.S. College and read the military code until you can recite it verbatim.	1																					
+88	88		301								Hans	You disappoint me. I thought your reputation would proceed itself as the Chief of F.O.S. But I guess rotten wood can't be carved after all.	1																					
+89	89		301								Hans	Find a corner and stay out of my sight. I don't want to see you until Babylonia issues the evacuation order.	1																					
+90	90		301								Hans	Of course, if you choose to stay here and await death, I'm not within my power to say otherwise.	1																					
+91	91		202							1					1																			
+92	92		201							1	500294																							
+93	93		301							1	Old Man	That's exactly what someone fortunate enough to board Eden would say.	1																					
+94	94		301								Old Man	"For the greater good." How righteous... That never gets old. How morally sound. I am truly amazed.	1																					
+95	95		301								Old Man	He turns his gun on his own compatriots while preaching about the greater good.	1																					
+96	96		301								Old Man	Should you trample on our last wishes under the banner of righteousness now?	1																					
+97	97		202							1					1																			
+98	98		301									Hans remains quiet and closes his eyes.																						
+99	99		301									Wanshi looks at him and then glances over.																						
+100	100		301									He turns his back and folds his hands behind him. His eyes were empty as he looks out into the far west.																						
+101	101		302				AniZhuanchangBegin				(Look at Wanshi's folded hands)	102																						
+102	102		101							Assets/Product/Texture/Image/BgStory/Bgstory317.png																								
+103	103		201							1	500166		-450																					
+104	104		201							2	500026		450																					
+105	105		301			AniZhuanchangEnd				1	Lucia	I don't know what we should do.	1																					
+106	106		301								Lucia	I can understand why they don't want to leave this place. There must be something precious here that they don't want to give up.	1																					
+107	107		301								Lucia	But I also understand why Chief Commander Hans has made this decision. He is considering the fate of humanity.	1																					
+108	108		301								Lee	Individual will versus the greater good?	2																					
+109	109		301								Lee	Why are we still forced to make binary choices between one or the other?	2																					
+110	110		202							1	2				1																			
+111	111		301				AniZhuanchangBegin					The tension in the air is stifling.																						
+112	112		101							Assets/Product/Texture/Image/BgStory/Bgstory315.png																								
+113	113		301			AniZhuanchangEnd						Refusing the company of your three comrades, you walk outside the camp alone. The frigid wind dries your lips and face.																						
+114	114		301									With the current developments, this seems to be the only way to clear the whirlwind of thoughts clouding your mind.																						
+115	115		301									You planned on coming here to think alone...																						
+116	116		301									However, you see a familiar figure in the corner.																						
+117	117		201							1	500273																							
+118	118		301							1	Wanshi	Yawn...	1																					
+119	119		301									Wanshi folds his arms and leans against the cabin door. He glances over with his peripheral vision and yawns.																						
+120	120		301								Wanshi	Oh, it's you. Where's your team, 【kuroname】?	1																					
+121	121		302								Getting some fresh air.	122	I came here alone.	123																				
+122	122	124	301								Wanshi	Yeah, it's hard to breathe in all that.	1																					
+123	123		301								Wanshi	Yawn...	1																					
+124	124		301				DialogDisable				Wanshi	Hmm? What's with the face? You don't think I was waiting for you here, do you?	1																					
+125	125		302								That hand signal you did.	126																						
+126	126		302								That's a secret code used in F.O.S.	127																						
+127	127		302								Didn't you call me here?	128																						
+128	128		301			DialogEnable					Wanshi	That's what the Captain taught me and Kamui in his spare time. He said that all F.O.S. commandants know it.	1																					
+129	129		301								Wanshi	I was just bored, and it came to mind. I never thought I'd ever actually use it.	1																					
+130	130		301								Wanshi	Only then did I clearly realize that you are really from F.O.S. College like my Captain.	1																					
+131	131		301								Wanshi	After all, you don't look the type.	1																					
+132	132		302								So, what is it?	133																						
+133	133		301								Wanshi	With the recent turn of events, the Science Council hasn't been able to fully analyze the Red Tide.	1																					
+134	134		301								Wanshi	But you've heard it, too. Haven't you?	1																					
+135	135		302								That song?	136																						
+136	136		301								Wanshi	Bingo.	1																					
+137	137		301								Wanshi	I was the first scout to find the Red Tide tributaries and break the news to Babylonia.	1																					
+138	138		301								Wanshi	I thought Babylonia would have a more methodical strategy, but in the end, it's just reliant on brute force.	1																					
+139	139		302								Time is of the essence.	140																						
+140	140		301								Wanshi	Of course. Let's save it for another time.	1																					
+141	141		301								Wanshi	I'm curious about something, though. Gray Raven infiltrated the Ascendants' underground base and had a direct confrontation with them, correct?	1																					
+142	142		302								(Nod)	143	(Remain quiet)	144																				
+143	143	146	301								Wanshi	I suspected as much...	1																					
+144	144		301								Wanshi	Are the details confidential? Seems like the higher-ups don't want to disclose any information.	1																					
+145	145		301								Wanshi	No matter. The look on your face tells me all I need to know.	1																					
+146	146		301								Wanshi	So, has your team heard this sound before?	1																					
+147	147		302								(Shake head)	148	(Remain quiet)	148																				
+148	148		301								Wanshi	In other words, this is a special case, or—a new development.	1																					
+149	149		301								Wanshi	Well... As a scout, our worst nightmare is a lack of intel on the battlefield. Even a minor omission can be disastrous.	1																					
+150	150		301								Wanshi	I understand the urgency, but implementing a strategy without knowing the whole picture...	1																					
+151	151		301								Wanshi	How can they guarantee... that the Longinus Arsenal will be enough to stop the Red Tide?	1																					
+152	152		302								You mean...	153																						
+153	153		301								Wanshi	I mean, a wide-spread attack is the best course of action based on existing intel.	1																					
+154	154		301								Wanshi	But that doesn't mean it's the solution to our problem.	1																					
+155	155		202							1					1																			
+156	156		301									Wanshi becomes quiet all of a sudden. Instead, he casts a sideways glance at a corner.																						
+157	157		301									The woman from before takes a few steps out of the corner, then kneels on the ground.																						
+158	158		201							1	500251																							
+159	159		301							1	Woman	I beg of you...	1																					
+160	160		301								Woman	Please, forgive my recklessness.	1																					
+161	161		301								Woman	As long as you are willing to listen to my request, I don't care what you take from me.	1																					
+162	162		301								Woman	I... I know you aren't interested in what we have. So please, please... I beg you for one more act of kindness...	1																					
+163	163		302								(Help her up)	164	What's wrong?	165																				
+164	164	166	301								Woman	Thank you...	1																					
+165	165		301								Woman	I beg you for one more act of kindness.	1																					
+166	166		301								Woman	I know asking this may seem foolish, but... (Weeps)	1																					
+167	167		302								(Comfort her)	168																						
+168	168		301								Woman	Please, help me... Help me bring back Ray.	1																					
+169	169		301								Woman	You've seen the boy. He's too small... He doesn't know what's going on. He doesn't understand.	1																					
+170	170		301								Woman	It's my fault for telling him that his father went to the nearby city to look for food. That's why he ran off to such a dangerous place...	1																					
+171	171		301								Woman	Every time he's frightened, he always wants his father to protect him. I shouldn't keep hiding this from him...	1																					
+172	172		302								You mean his father?	173																						
+173	173		301								Woman	Yes.	1																					
+174	174		301								Woman	Yes, he's my son.	1																					
+175	175		302								Where's your son now?	176																						
+176	176		301								Woman	Several days ago, he said he was going to the ruins to help us look for cans...	1																					
+177	177		301								Woman	And then...	1																					
+178	178		301								Woman	He never came back.	1																					
+179	179		301								Woman	When I tried... to look for him, I heard his voice.	1																					
+180	180		301								Woman	—Coming from that red liquid.	1																					
+181	181		301								Woman	I knew what that meant. We've lost a lot of our people that way—either from falling in, or getting splashed and corrupted by it, stopping breathing after a few days.	1																					
+182	182		301								Woman	At first, many people were drawn to it. Later, everyone understood that even if the voice of a loved one came from it, they should never get close to it.	1																					
+183	183		301								Woman	Don't listen to the "siren's call."	1																					
+184	184		301								Woman	But the child, Ray... He doesn't know.	1																					
+185	185		301								Woman	I don't have the heart to tell him... that his father is already dead. (Weeps)	1																					
+186	186		301									Covering her face, you only hear her muffled cries of grief.																						
+187	187		301									After crying a short while, she gradually regains composure.																						
+188	188		301								Woman	I know our decision must seem ridiculous to us, but please... please help fulfill my last wish.	1																					
+189	189		301								Woman	Or, at least... At least let me be with Ray until the very end.	1																					
+190	190		301								Woman	I don't want... I don't want to die alone here.	1																					
+191	191		301								Woman	I have nothing left... Nothing... Don't take Ray away from me, too.	1																					
+192	192		301									Her tears turn to weeping in agony.																						
+193	193		302								I get it.	194																						
+194	194		201							1	500273																							
+195	195		301							1	Wanshi	Huh? Get what?	1																					
+196	196		302								This is why you brought me here.	197																						
+197	197		302								Isn't it?	198																						
+198	198		301								Wanshi	Um...	1																					
+199	199		301								Wanshi	I didn't say anything.	1																					
+200	200		302								You don't have to.	201																						
+201	201		301								Wanshi	I'm just a scout acting alone. Chief Commander Hans isn't my commanding officer.	1																					
+202	202		301								Wanshi	I'm free to act as I please until my Captain issues the second phase of my orders.	1																					
+203	203		301								Wanshi	You know what this means, don't you?	1																					
+204	204		302								Yes.	205																						
+205	205		301								Wanshi	Your decisiveness is quite endearing. No wonder my captain thinks so fondly of you.	1																					
+206	206		301								Wanshi	But understand one thing...	1																					
+207	207		301								Wanshi	No one can guarantee what we are doing is right, or that everything will end happily ever after.	1																					
+208	208		301								Wanshi	No one will know how you put everything on the line. No one will thank you.	1																					
+209	209		301								Wanshi	You may even be court-martialed. Knowing this, do you still want to continue?	1																					
+210	210		302								Yes. Let's go.	211																						
+211	211		301								Wanshi	Hey, you hiding back there.	1																					
+212	212		301								Wanshi	Did you catch that? Your commandant gave the "OK."	1																					
+213	213		202							1					1																			
+214	214		301									Lee emerges from behind the tent.																						
+215	215		301									He stands there staring at you.																						
+216	216		201							1	500026																							
+217	217		301							1	Lee	Commandant, you mustn't.	1																					
+218	218		301								Lee	Unauthorized actions are equivalent to fleeing the battlefield.	1																					
+219	219		301								Lee	You will be labeled a defector for going rogue and, in a normal army, you could be executed on the spot.	1																					
+220	220		301								Lee	Not to mention putting yourself in danger.	1																					
+221	221		301				DialogDisable				Lee	We don't have much time left. Once the last node is deployed, Babylonia won't wait to begin evacuation.	1																					
+222	222		302								Lee.	223																						
+223	223		302								Believe me.	224																						
+224	224		302								If we don't hold on to this...	225																						
+225	225		301			DialogEnable					Lee	...You'd never be able to forgive yourself?	1																					
+226	226		301								Lee	If you put it that way...	1																					
+227	227		301								Lee	You can't save everyone, but at least save those you can touch.	1																					
+228	228		301								Lee	Can't you just take it easy for a day...	1																					
+229	229		301								Lee	I've always trusted your judgment. You are our commandant.	1																					
+230	230		301								Lee	If you insist, then take us with you.	1																					
+231	231		302								No.	232																						
+232	232		301								Lee	...You mean this time is different?	1																					
+233	233		301								Lee	You always surprise me, Commandant.	1																					
+234	234		301								Lee	You're right. If the Gray Ravens just got up and left, we'd all be labeled defectors. But now's not the time to do things by the book, right?	1																					
+235	235		301				DialogDisable				Lee	The Gray Ravens aren't afraid of being court-martialed. If there are any criminal charges, we'll face the repercussions together.	1																					
+236	236		302								That's not it.	237																						
+237	237		302								I need you all to stay here.	238																						
+238	238		302								Lee, you know what I mean.	239																						
+239	239		302								This isn't for your own good.	240																						
+240	240		302								This is for the good of everyone.	241																						
+241	241		301			DialogEnable					Lee	...	1																					
+242	242		301								Lee	You want us to help maintain our forces and be ready to respond to any potential threat. Correct...?	1																					
+243	243		301								Lee	Understood. I'll inform Lucia and Liv.	1																					
+244	244		301								Lee	Return in one piece. We won't leave without you.	1																					
+245	245		301								Lee	The Gray Ravens will always be as one.	1																					
+246	246		202							1					1																			
+247	247		301									Lee walks up to you and pats your shoulder heavily.																						
+248	248		201							1	500026																							
+249	249		301							1	Lee	Take this with you.	1																					
+250	250		301									Lee hands you a long black hexagonal needle and a comms device.																						
+251	251		301								Lee	Press the top to activate the node. I disassembled it and made some minor modifications.	1																					
+252	252		301								Lee	You just need to activate it. Take it with you.	1																					
+253	253		301								Lee	The comms device has been repaired, but the reception is unstable here. If it exceeds 30 kilometers, you won't be able to maintain a stable connection.	1																					
+254	254		301								Lee	Obviously, I hope you don't end up going that far.	1																					
+255	255		302								Lee...	256																						
+256	256		301								Lee	Don't look at me like that's exactly what you plan on doing...	1																					
+257	257		301								Lee	Remember—we won't evacuate until you come back.	1																					
+258	258		301								Lee	And you...	1																					
+259	259		203							1	0.25	450																						
+260	260		201							2	500273		-450																					
+261	261		301							1	Wanshi	Uh... What's up?	2																					
+262	262		301								Lee	Our commandant—	1																					
+263	263		301									Wanshi cuts off Lee mid-sentence.																						
+264	264		301								Wanshi	Yeah, I got it.	2																					
+265	265		301									Lee nods.																						
+266	266		301		1		AniZhuanchangBegin				Lee	Don't let anything happen to our commandant.	1																					

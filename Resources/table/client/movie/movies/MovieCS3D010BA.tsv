@@ -1,0 +1,42 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		712																															
+2	2		713							Assets/Product/Texture/Image/BgStory/BgStory544.jpg																								
+3	3		401							1	211																							
+4	4		702							sp1|Assets/Product/Camera/TrackStroy/OnePeople/TSNum0101.prefab|0|0|0|0|0|0	sp2|Assets/Product/Camera/TrackStroy/OnePeople/TSNum0102.prefab|160|194.1|28.1|12|-145|0	sp3|Assets/Product/Camera/TrackStroy/OnePeople/TSNum0106.prefab|160|194.1|28.1|0|-165|0	sp4|Assets/Product/Camera/TrackStroy/OnePeople/TSNum0104.prefab|160|194.1|27.1|0|-27|0	sp5|Assets/Product/Camera/TrackStroy/OnePeople/TSNum0101.prefab|183|194.5|29|0|-90|0	sp6|Assets/Product/Camera/TrackStroy/OnePeople/TSNum0102.prefab|160|194.1|28.1|12|-155|0	sp7|Assets/Product/Camera/TrackStroy/OnePeople/TSNum0101.prefab|160|193.8|28.1|0|-145|0	sp8|Assets/Product/Camera/TrackStroy/OnePeople/TSNum0101.prefab|160|194.1|28.1||-155|0																	
+5	5		703							sp1																								
+6	6		704							1000000	-0|0|-1	0|0|0																						
+7	7		707						400	1000000	PlotStand1	Face03																						
+8	8		708			AniZhuanchangEnd				600001	The last test went well. Thank you, Liv.	Assets/Product/Texture/Image/RoleCharacter/HasangNomal01.png	100000222			1																		
+9	9		703							sp1	8																							
+10	10		708							1000000	It's my duty. Everyone is counting on me.		100000229																					
+11	11		708							600002	...It's our fault that we have to rely on you to do all this alone.	Assets/Product/Texture/Image/RoleCharacter/XibokeladiNormal01.png	100000226			1																		
+12	12		707						400	1000000	PlotStand1ToSerious1	Face04																						
+13	13		707						400	1000000	PlotSerious1Loop	Face03																						
+14	14		703						200	sp1	0																							
+15	15		703							sp1	40																							
+16	16		708							1000000	Someone has to do it. I'm glad that I have earned your trust.		100000230																					
+17	17		708							1000000	I know you picked the name Hippocrates to remind your students not to betray the oath they made.		100000231																					
+18	18		708							1000000	Just like the day I made my oath, I still wish to dedicate my life to the service of humanity. The well-being of my patients always comes first. I will respect the autonomy and dignity of all lives.		100000232																					
+19	19		708							1000000	It is my greatest honor to be your student and grow under everyone's care.		100000233																					
+20	20		708							1000000	That's why I will never forget the Hippocratic Oath. Because that is all I wish for.		100000234																					
+21	21		708							600002	...It seems like there's nothing else I can teach you.	Assets/Product/Texture/Image/RoleCharacter/XibokeladiNormal01.png	100000227			1																		
+22	22		708							600002	...Class dismissed.	Assets/Product/Texture/Image/RoleCharacter/XibokeladiNormal01.png	100000228			1																		
+23	23		703							sp1																								
+24	24		708							1000000	Thank you... Professor.		100000235																					
+25	25		707						400	1000000	PlotTalk1ToStand1																							
+26	26		707						400	1000000	PlotStand1																							
+27	27		708							600001	You will be landing in the abandoned church where Gray Raven and Chrome are. According to our locators, the twins are also approaching there.	Assets/Product/Texture/Image/RoleCharacter/HasangNomal01.png	100000223			1																		
+28	28		707						400	1000000	PlotStand1ToSad1																							
+29	29		707						400	1000000	PlotSad1Loop	Face01																						
+30	30		703						200	sp1																								
+31	31		708							1000000	How are they?		100000236																					
+32	32		708							600001	We've successfully established communication. You can talk to them in the transport craft.	Assets/Product/Texture/Image/RoleCharacter/HasangNomal01.png	100000224			1																		
+33	33		707						900	1000000	PlotSad1ToStand1	Face02																						
+34	34		707						400	1000000	PlotStand1	Face01																						
+35	35		708							1000000	That's good.		100000237																					
+36	36		708							600001	Liv... you're the hope of humanity. Save them.	Assets/Product/Texture/Image/RoleCharacter/HasangNomal01.png	100000225			1																		
+37	37		707						900	1000000	PlotStand1ToSerious1																							
+38	38		707						400	1000000	PlotSerious1Loop																							
+39	39		708							1000000	I will not let you down.		100000238																					
+40	40		703						7000	sp1	10																							
+41	41		502		1	AniZhuanchangBegin				AniZhuanchangBegin																								

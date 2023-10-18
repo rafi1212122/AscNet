@@ -1,0 +1,195 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	3		504							1																								
+2	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory176.png																								
+3	2		401							1	208																							
+4	4		201							1	500220	1	-400																					
+5	5		201							2	500221		400																					
+6	6		301			DialogEnable				1	Qu	Is anyone willing to carry out this mission?	1																					
+7	7		301								Moyuan	I'll go. Bai Gui has been busy doing business with Akdilek recently.	2																					
+8	601		201							1	500243		-400																					
+9	602		201							2	500241		400																					
+10	8		301							1	Bai Gui	Indeed, Moyuan would be more suitable. Sending others over to the World Government would turn exchanging words into exchanging blows.	1																					
+11	9		301								Lianshan	Hey, that was ages ago. Stop bringing it up.	2																					
+12	10		301								Bai Gui	You have yourself to blame for fighting with Cosmos Industries for three straight days and nights, Lianshan. Something like that is going down in history.	1																					
+13	11		301								Lianshan	I would prefer if you call it civilized discussion. We were merely debating over horizontal and vertical urban development!	2																					
+14	603		202							1	2				1																			
+15	604		201							1	500221																							
+16	12		301							1	Moyuan	Haha, Bai Gui, don't tease Lianshan. He might just ignore you when the time comes.	1																					
+17	605		201							1	500243		-400																					
+18	606		201							2	500241		400																					
+19	13		301							1	Bai Gui	As long as we have sufficient funds here at the Chiwen Crew, we won't have to worry about Lianshan's attitude issue.	1																					
+20	14		301								Lianshan	Screw you. That's an insult to our professionalism as members of the Baxia Crew.	2																					
+21	15		301								Bai Gui	Funds for the next project will be tripled.	1																					
+22	16		301								Lianshan	...Deal, then.	2																					
+23	607		201							1	500220	1	-400																					
+24	608		201							2	500221		400																					
+25	17		301							1	Moyuan	Uhm, is it really alright to spend money so wantonly, Bai Gui?	2																					
+26	18		301								Qu	No matter. She'll earn it all back.	1																					
+27	19		301								Moyuan	If you say so, Lady Qu. Well then, I'll go back and get ready to leave.	2																					
+28	609		201							1	500244		-400																					
+29	20		301							1	Heng Ji	Wait, take this.	1																					
+30	701		401							2	1509																							
+31	21		301									Heng Ji throws a micro bot blinking in blue to Moyuan. The probe above the machine spins in the air.																						
+32	22		301								Heng Ji	It's a long way to go. This gadget can replace me in giving your periodic maintenance for your prosthesis.	1																					
+33	23		301								Moyuan	Oh, it's this thing again.	2																					
+34	24		301								Heng Ji	Don't worry. I've improved it. It won't burden your external humanoid brain any more. I've also reduced the power consumed by the nerve link with your prosthesis. It should perform better than last time.	1																					
+35	25		301									Listening to Heng Ji, Moyuan tosses the micro bot into the air beside her. Surprisingly, it hovers in the air. A young mechanical doll with small hands firmly catches the device.																						
+36	26		301								Moyuan	Alright, fine.	2																					
+37	27		301									Moyuan reaches out and gently strokes the doll's hair. A moment later, the doll disappears with the gadget and hides nearby.																						
+38	28		301								Moyuan	My prosthesis may have cured my disease, but it sure is a pain to repair.	2																					
+39	29		301								Heng Ji	That's the price you have to pay.	1																					
+40	610		202							1	2				1																			
+41	611		201							1	500220																							
+42	30		301				AniZhuanchangBegin			1	Qu	Alright, you're dismissed. Have a safe trip, Moyuan.	1																					
+43	31		101							Assets/Product/Texture/Image/BgStory/Bgstory58.jpg																								
+44	32		202							1	2				1																			
+45	33		401							1	201																							
+46	34		201							1	500221																							
+47	35		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab	2																							
+48	36		301			AniZhuanchangEnd				1	Moyuan	Check, 123. Check, 123. Okay, I can hear you. Communication established.	1																					
+49	37		301								Moyuan	I've finished negotiating with the World Government. The mission went according to plan.	1																					
+50	38		301								Moyuan	But there's one thing they haven't made public.	1																					
+51	39		301								Moyuan	And that's the failure of the zero-point reactor experiment.	1																					
+52	40		301								Moyuan	I've got a bad feeling about this...	1																					
+53	41		301								Moyuan	No cause for alarm, though. My hunches are known to be wrong on occasion!	1																					
+54	42		301				AniZhuanchangBegin				Moyuan	I'll return to Kowloong once I get more detailed information. Wait for me.	1																					
+55	700		201							1	500237																							
+56	43		301			AniZhuanchangEnd				1	Moyuan	Lady Qu... The zero-point reactor is more dangerous than we all thought.	1																					
+57	44		301								Moyuan	Its failure gave birth to a strange virus, which is being referred to as the "Punishing Virus" by the World Government.	1																					
+58	45		301								Moyuan	Namely—mankind's punishment...	1																					
+59	46		301								Moyuan	This virus infects machines, turning them into monsters. I'm not sure if it will affect my mechanical functions.	1																					
+60	47		301								Moyuan	Don't worry. I'm on my way back now.	1																					
+61	48		301								Moyuan	But before I return, be sure to—	1																					
+62	49		301			PanelActor1Shake	AniZhuanchangBegin			1	Moyuan	————	1																					
+63	50		101							Assets/Product/Texture/Image/BgStory/Bgstory176.png																								
+64	51		401							1	202																							
+65	52		202							1					1																			
+66	53		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunNew.prefab																							
+67	54		504							0																								
+68	57		301			AniZhuanchangEnd				1		Qu awakens from her memory and opens her eyes to eight officers standing before her.																						
+69	55		201							1	500241																							
+70	58		301							1	Lianshan	The defense turrets have been installed.	1																					
+71	612		201							1	500220																							
+72	59		301							1	Qu	Alright. Chi Ling, transfer 50 people from the Pulao Crew to replace the Baxia Crew and let Zhao Lun lead the team. He's from Shenjiu Street in the outer city, so he should be more familiar with the area.	1																					
+73	613		201							1	500224																							
+74	60		301							1	Chi Ling	Understood.	1																					
+75	614		201							1	500244																							
+76	61		301							1	Heng Ji	The virus filter supported by Huaxu's computational power has entered the final stage. It's expected to be completed 3 hours before the Corrupted's arrival.	1																					
+77	615		201							1	500220																							
+78	62		301							1	Qu	To ensure safety, give priority to ensuring that the people in the city will not be infected by the airborne Punishing Virus.	1																					
+79	616		201							1	500244																							
+80	63		301							1	Heng Ji	Understood.	1																					
+81	617		201							1	500243																							
+82	64		301							1	Bai Gui	The supplies that will be distributed to each city district have been prepared.	1																					
+83	618		201							1	500220	4																						
+84	65		301							1	Qu	Lianshan, send twenty of the Baxia Crew from West City District to the South City District. The network of old streets from Dingwu to Dingjiu in the South City District needs more manpower.	1																					
+85	619		201							1	500241																							
+86	66		301							1	Lianshan	Alright.	1																					
+87	620		202							1																								
+88	67		301									Qu quickly flips through each report in the data panel and issues orders. After all the reports are processed, Qu closes the panel.																						
+89	68		301									Qu's officials serve as the backbone of the Kowloong Chamber of Commerce. Their individual personalities work like gears in a machine, performing their respective duties and supporting the operation of the city with Qu.																						
+90	69		301									Qu glances at everyone in the conference room and finally stops at an empty seat.																						
+91	621		201							1	500220																							
+92	70		301							1	Qu	...Moyuan's comms are still offline?	1																					
+93	622		201							1	500224																							
+94	71		301							1	Chi Ling	Correct. She's been MIA ever since an outbreak occurred at her location.	1																					
+95	72		301									Hearing this, everyone falls silent. They all know what would happen to Moyuan with her modifications and the lack of protection in the outside world.																						
+96	623		201							1	500242																							
+97	73		301							1	Danhao	There's no reason to be distraught. Moyuan likes going off grid, then appearing the next day. She's a brash and reckless child, even the Chaofeng Crew doesn't bother restraining her.	1																					
+98	624		201							1	500241																							
+99	74		301							1	Lianshan	The situation is different.	1																					
+100	625		201							1	500220																							
+101	75		301							1	Qu	Lianshan is right—the situation is different. I have sent the frontline battle reports to all of you. This is the reality we are about to face.	1																					
+102	76		301									Seeing the escalating disaster report, the officials give up on their unrealistic fantasies.																						
+103	77		301				AniZhuanchangBegin				Qu	However, as Danhao said, being distraught won't solve any problems. As KCC officials from various departments, now, we shall determine the fate of Kowloong.	1																					
+104	78		401							1	102																							
+105	79		202							1					1																			
+106	80		101							Assets/Product/Texture/Image/BgStory/Bgstory237.png																								
+107	81		301			AniZhuanchangEnd					Broadcast	Up next, an emergency statement from the World Government on the Punishing Virus.																						
+108	82		301								Broadcast	We face an unprecedented disaster in human history. The Science Council has launched a comprehensive investigation, and the Star of Life is actively seeking a cure.																						
+109	83		301									The progress made by the World Government on the Punishing Virus will be broadcasted throughout the streets in real-time.																						
+110	84		301									Androids and mechanic servants seen throughout the KCC have all been recycled.																						
+111	85		301									In a state of panic, people have destroyed all of the machines around them, leaving them to deteriorate in deserted alleys.																						
+112	86		301									Those who learned of the destruction caused by the Corrupted locked themselves in dark and narrow rooms in an attempt to save themselves. Others packed up and fled to port to board ships and leave Kowloong.																						
+113	87		301									The property abandoned by refugees became hotbeds for crime. Thugs plundered abandoned houses of their leftover supplies and used them as gathering points to plan their next robbery.																						
+114	88		301									Locked doors and windows for businesses had been pried open by thugs. People no longer communicated with words, only violence.																						
+115	89		301									Every member of the Kowloong Crew sets out to maintain order in Kowloong. Never have they felt so arduous in waiting for the leaders to announce the next step. Even so, they still had their own mission to complete.																						
+116	90		301									The once prosperous KCC is now long gone. A few pedestrians gather near the broadcast on the street.																						
+117	91		301								Frail Man	Pardon me. Have you seen my daughter? She's about this tall, with black hair tied into pigtails.																						
+118	92		301									A distraught man suddenly runs onto the road, waving his hands at every passer-by.																						
+119	93		301								Resident A	No, the city's in chaos! I ain't got time for others!																						
+120	94		301								Frail Man	B-but...																						
+121	95		201							1	500236																							
+122	96		301							1	Resident B	Hey! C'mere.	1																					
+123	97		301									A man shouts at him from afar. Thinking someone would finally help him, he rushes over. As he approaches, the man knocks him on the ground.																						
+124	98		301								Frail Man	W-what do you want from me?!																						
+125	99		301								Resident B	Hand over y'er valuables.	1																					
+126	100		301									The man pats him down as he speaks.																						
+127	101		301								Resident B	Hmph, broke ***. That's all you got on your card? Wait a minute, what's that in your hand?	1																					
+128	102		301								Frail Man	No, please...																						
+129	103		301								Resident B	Hand it over, punk ***.	1																					
+130	104		401							2	1512																							
+131	105		301									He steps on the man's wrist. The man opens his hand out of pain and stress. In the man's palm is a silver wedding ring.																						
+132	106		301								Resident B	Looks like ya do have a lil' somethin'. Dont'cha?	1																					
+133	107		301								Frail Man	I beg of you. I'll give you everything else. Leave this ring to me... This is the only memento I have...																						
+134	108		301								Resident B	Like I care!	1																					
+135	109		401							2	1512																							
+136	110		301									He takes the ring away and kicks the man in the stomach.																						
+137	111		301								???	Stop!																						
+138	112		301									Just as he was about to continue beating the man up, two soldiers approach from a distance. The words "Pulao Crew" appear on their masks intermittently, signaling their identity as guardians of Kowloong.																						
+139	113		301								Resident B	Outta the way, punk!	1																					
+140	114		202							1																								
+141	115		401							2	1512																							
+142	116		301			RImgBg1Shake						The violent man runs the other way after seeing the Pulao Crew block his escape, knocking down miscellanies from the road to slow down his pursuers.																						
+143	117		301									As he knocks a child out of the way, others begin to gather on the street, but no one bothers to stop him, let alone help the child up.																						
+144	118		301									A Pulao soldier keeps up chasing for a few steps, but the perpetrator has long disappeared in the maze of streets.																						
+145	500		201							1	500223																							
+146	121		301							1	Pulao Crew B	There is a robbery in Guisi Street, South City... Call the headquarters for support.	1																					
+147	501		202							1																								
+148	122		301								System	Copy.																						
+149	123		301									After reporting the situation on the block, the Pulao soldier returns to the child and helps him up.																						
+150	124		301								Child	Thank... Thank you...																						
+151	502		201							1	500223																							
+152	125		301							1	Pulao Crew B	You're welcome. Hurry on home.	1																					
+153	503		202							1																								
+154	126		301									A little farther away, the Pulao soldier approaches the frail man.																						
+155	504		201							1	500223																							
+156	127		301							1	Pulao Crew A	Please give me a detailed description of your child.	1																					
+157	505		202							1																								
+158	128		301									The man squeezes through the crowd as if he was finally thrown a lifeline and almost falls before the Pulao Crew. The soldiers hurry to catch him.																						
+159	129		301								Frail Man	Th-Thank you. If I can't find her, I won't be able live up to the promise I made to my late wife.																						
+160	130		301									The man holds back tears as he spoke. He is weak from hunger and his shoes are tattered from a long journey.																						
+161	131		301									The Pulao soldier that picked up the child walks up to the radio tower. He picks up a receiver and broadcasts to the bystanders on the street.																						
+162	506		201							1	500223																							
+163	132		301							1	Pulao Crew B	It is very dangerous outside. Please return home and wait for further notice. Please cooperate for the sake of your safety.	1																					
+164	507		202							1																								
+165	133		301									The broadcast amplifies the Pulao Crew's voice as it rings throughout the street.																						
+166	134		301									After hearing this, the crowd disperses one after another, cursing at the Pulao Crew.																						
+167	119		201							1	500223		-400	-50																				
+168	120		201							2	500223		400																					
+169	135		301							1	Pulao Crew A	Are you finished up here?	2																					
+170	136		301								Pulao Crew B	They've all been sent home.	1																					
+171	137		301								Pulao Crew A	Apparently, there is a small-scale riot on Renwu street in the East City.	2																					
+172	138		301								Pulao Crew B	What about the man?	1																					
+173	139		301								Pulao Crew A	I promised to help find his child, which put his mind at ease. The medics will take him to get medical attention when they arrive shortly.	2																					
+174	140		301								Pulao Crew B	I see... Good...	1																					
+175	141		301									The shorter Pulao soldier feels a little relieved hearing this, and slings his rifle on his back.																						
+176	142		301								Pulao Crew B	Any new orders from up top?	1																					
+177	143		301								Pulao Crew A	...Not yet.	2																					
+178	144		301								Pulao Crew B	People are at their breaking point... If officials don't sort this out, I'm afraid Kowloong will destroy itself before the Corrupted arrive.	1																					
+179	145		301								Pulao Crew A	Put your faith in them. Lady Qu will guide us through this.	2																					
+180	146		301									While the two soldiers are talking, an electronic buzzing sound broadcasts on the radio overhead followed by a soft female voice.																						
+181	147		301								Broadcast	People of the KCC, upon hearing this broadcast, please gather in the Commerce Plaza in an orderly fashion for an important decision. People of the KCC, upon hearing this broadcast...																						
+182	148		301				AniZhuanchangBegin					Hearing the broadcast, the two soldiers exchange glances and then walk toward the Commerce Plaza.																						
+183	149		101							Assets/Product/Texture/Image/BgStory/Bgstory152.png																								
+184	150		202							1	2				1																			
+185	151		201							1	500215	5																						
+186	152		401							1	12																							
+187	153		301			AniZhuanchangEnd				1	Villier	Damn it! I didn't expect that Heng Ji to have this trick up his sleeve.	1																					
+188	154		301								Huaxu	——																						
+189	155		301									Villier clenches his lips upon hearing the city-wide broadcast calling for citizens to gather in the plaza.																						
+190	156		301								Villier	Tsk, there's no time to slowly decipher it.	1																					
+191	157		301								Villier	Fortunately, I left a backup command during your development.	1																					
+192	158		301									Saying this, Villier's fingers quickly dance on Huaxu's control panel, causing the supercomputer to rumble violently shortly. Villier recovers the chip and turns to leave through the dark doorway.																						
+193	159		301								Villier	I'm sorry. I can't bring the original you with me...	1																					
+194	160		301		1		AniZhuanchangBegin				Villier	But no matter. I'll make good use of this backup.	1																					

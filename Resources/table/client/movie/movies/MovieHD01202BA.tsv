@@ -1,0 +1,183 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+2	2		401							1	205																							
+3	3		201							1	500479																							
+4	4		301			DialogEnable				1	???	Rawr... Meow...	1																					
+5	5		201							1	1031001	1																						
+6	6		301							1	Liv	It's okay. Don't be scared.	1																					
+7	7		301								Liv	Lucia and Lee didn't mean to harm you. They were just too anxious.	1																					
+8	8		301								Liv	They won't do it anymore. You can come out now.	1																					
+9	9		302								Shall we feed it?	10		12																				
+10	10		201							1	500026	10																						
+11	11		301							1	Lee	Why feed a machine...	1																					
+12	12		201							1	500166	6																						
+13	13		301				AniZhuanchangBegin			1	Lucia	Sorry, I was too reckless.	1																					
+14	14		202							1					1																			
+15	15		301			AniZhuanchangEnd		20				A few minutes ago—																						
+16	16		301									With pale-blue flames coming out of the tailpipe, the tiger-head machine pounced at you. Lucia immediately took action.																						
+17	17		301									The outstanding mobility of Plume allowed her to quickly get behind the machine. Her right hand slammed down, carefully avoiding the machine's blade "ears" and tailpipe flames.																						
+18	18		401							2	10002001																							
+19	19		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiHitNew.prefab	3																							
+20	20		201							1	500479																							
+21	21		301			PanelActor1Shake				1	???	Rawr-meow?	1																					
+22	22		202							1					1																			
+23	23		301									The tiger head sensed the threat and quickly dived, barely avoiding Lucia's attack.																						
+24	24		301									But it only ended up in Lee's trap, completely wrapped inside his blue tactical coat.																						
+25	25		301									Lee had not used any harsh methods as he did not want to break the tiger head. It just dashed around inside the coat cluelessly, trying to find a way out.																						
+26	26		301									Having no luck, it ended up using the blades to cut an opening again.																						
+27	27		301									The Construct tactical coat weaved from special materials did not stand a chance. The tiger head soon broke free and hid under a chair.																						
+28	28		201							1	500479																							
+29	29		301			PanelActor1Shake				1	???	Rawrrr-meow!	1																					
+30	30		301									It made a shaky, threatening sound.																						
+31	31		301									Seeing the machine's stance, Lee and Lucia stopped taking further action.																						
+32	32		201							1	1031001																							
+33	33		301							1	Liv	I don't think it was going to attack Commandant.	1																					
+34	34		301								Liv	Felines often pounce at the person they are close to. That's probably why it did so to Commandant.	1																					
+35	35		201							1	500026																							
+36	36		301							1	Lee	Even it wasn't hostile, if it hit Commandant with that amount of momentum, Commandant would have to spend tonight on a bed in Star of Life.	1																					
+37	37		201							1	500479																							
+38	38		301							1	???	Meooooow!	1																					
+39	39		301									Seeing Lee and Lucia were still nearby, the tiger head made a shaky roar.																						
+40	40		301									It then moved a little further into the shadow under the chair.																						
+41	41		201							1	1031001																							
+42	42		301				AniZhuanchangBegin			1	Liv	What do we do now?	1																					
+43	43		202							1					1																			
+44	44		301			AniZhuanchangEnd						Now—																						
+45	45		201							1	500479																							
+46	46		301							1	???	Meow... Roar...	1																					
+47	47		301									Despite Liv's calming words, the tiger-head machine has not let its guard down. It is no longer trying to run away, but still reluctant to get out of the shadow.																						
+48	48		201							1	1031001	1																						
+49	49		301							1	Liv	I know you're the bravest. Come out now.	1																					
+50	50		201							1	500479																							
+51	51		301							1	???	Meooooow!	1																					
+52	52		202							1					1																			
+53	53		301									Liv slowly gets back on her feet, looking a little sad.																						
+54	54		201							1	1031001	19				1																		
+55	55		301							1	Liv	Sorry, I couldn't get it out.	1																					
+56	56		302								I'll give it a try then.	57																						
+57	57		204							1	1																							
+58	58		301							1	Liv	Sure. Good luck, Commandant!	1																					
+59	59		202							1					1																			
+60	60		301									You slowly squat down to the same level as the machine and look it in the eyes.																						
+61	61		201							1	500479																							
+62	62		301							1	???	Meow?	1																					
+63	63		301									The tiger head also moves slightly forward, trying to identify the new person.																						
+64	64		201							1	1031001	1																						
+65	65		301							1	Liv	Commandant, try to calm it down. Be gentle.	1																					
+66	66		301									Liv lowers her voice behind you, trying not to alert the tiger head.																						
+67	67		302								Good kitty. Come here...	68	Want a treat? I've got some goodies for you!	70																				
+68	68		301								Liv	That's it.	1																					
+69	69	73	202							1					1																			
+70	70		201							1	500166																							
+71	71		301							1	Lucia	Huh? Will tigers like this treat?	1																					
+72	72		202							1					1																			
+73	73		301									It hesitates a bit, then slowly flies out from under the chair.																						
+74	74		201							1	500479																							
+75	75		301			PanelActor1Shake				1	???	Meooooow!	1																					
+76	76		301									But soon makes another sharp noise after seeing Lucia and Lee standing nearby.																						
+77	77		301									When it realizes they have not taken any further actions, it stops "stepping" back.																						
+78	78		301								???	Meow?	1																					
+79	79		301									The tiger head moves toward you with great caution, frequently turning away to watch Lucia and Lee's actions.																						
+80	80		301									When it finally gets into a safe distance, it immediately leaps into your arms.																						
+81	81		301								???	Me-ow...	1																					
+82	82		301									The machine gladly rubs against your chest. Thankfully, the jet engine behind its head is not activated this time.																						
+83	83		201							1	1031001	1																						
+84	84		301							1	Liv	Great. It likes Commandant.	1																					
+85	85		201							1	500166																							
+86	86		301							1	Lucia	But why did Nanami send it here anyway?	1																					
+87	87		201							1	500026																							
+88	88		301							1	Lee	I have checked the package. There was no message left.	1																					
+89	89		202							1					1																			
+90	90		301									You pick up the machine to inspect. It calmly allows your hands to move around its body.																						
+91	91		201							1	500479																							
+92	92		301							1	???	Meow... Meow...	1																					
+93	93		301									Is it enjoying this?																						
+94	94		301									When you look right into its red eyes—																						
+95	95		401							2	897																							
+96	96		301								Nanami's Voice	Beep—Iris recognition passed... What other checks are there? Forget about them. Too much hassle!																						
+97	97		301								Nanami's Voice	Identity confirmed: Gray Raven Commandant 【kuroname】.																						
+98	98		301									As a red light scans through your pupils, you hear Nanami's voice from the machine.																						
+99	99		201							1	500091	1																						
+100	100		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab	2	1																						
+101	101		301							1	Nanami	It's been a long time, Commandant!	1																					
+102	102		301									You see Nanami's hologram in the air.																						
+103	103		301								Nanami	Surprise! The gift didn't come from the Science Council. It's me, Nanami!	1																					
+104	104		302								...	105	It's quite surprising in a way.	105																				
+105	105		301									The hologram is not real-time, but a pre-recorded video.																						
+106	106		301									So Nanami has not responded to the strange look you give her. Her speech continues.																						
+107	107		301							1	Nanami	Now, allow me to introduce my greatest work. Ta-da! Behold, Tiger!	1																					
+108	108		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+109	109		201							1	500479																							
+110	110		301							1	Tiger	Meow!	1																					
+111	111		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab	2	1																						
+112	112		201							1	500091	1																						
+113	113		301							1	Nanami	Good! I like your spirit!	1																					
+114	114		204							1																								
+115	115		301								Nanami	You must have already found out that Tiger is a combat booster similar to CUBs.	1																					
+116	116		301								Nanami	But it can't transform yet, so don't use it for combat.	1																					
+117	117		204							1	1																							
+118	118		301								Nanami	If there is a chance, I'd like to make you a more powerful "Super Tiger"!	1																					
+119	119		301								Nanami	Of course, Tiger is more than just a cat. I put a lot of time and energy into it.	1																					
+120	120		301								Nanami	I have prepared more gifts inside its head. There are many things I'd like to share with you all.	1																					
+121	121		301								Nanami	But for my own enjoyment... Oops, no, to make Commandant cherish the upcoming festival more, I have also set up some trials related to it.	1																					
+122	122		301								Nanami	Of course there will be hints! Go check them out with others, Commandant!	1																					
+123	123		202							1					1																			
+124	124		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+125	125		301									As the video comes to an end, Nanami also disappears.																						
+126	126		301									It started in a rush and ended in one. Just like how she always is.																						
+127	127		201							1	1031001		-600																					
+128	128		201							2	500166																							
+129	129		201							3	500026		600																					
+130	130		204							1	3																							
+131	131		301							1	Liv	So Nanami prepared another gift for us. We need to get her something in return.	1																					
+132	132		204							1	1																							
+133	133		301								Liv	I wish I can give her the gift in person.	1																					
+134	134		204							1																								
+135	135		301								Lee	Nanami is hard to track.	3																					
+136	136		301								Lucia	Nanami said there was another gift in Tiger's head. Do we have to dismantle it?	2																					
+137	137		202							1	2	3			1																			
+138	138		201							1	500479																							
+139	139		301							1	Tiger	Meow?	1																					
+140	140		302								Considering how much Nanami loves her works, I don't think so.	141	Get a screwdriver, Lee!	145																				
+141	141		201							1	1031001		-600			1																		
+142	142		201							2	500166					1																		
+143	143		201							3	500026		600			1																		
+144	144	150	301							1	Lee	Makes sense.	3																					
+145	145		201							1	1031001		-600			1																		
+146	146		201							2	500166					1																		
+147	147		201							3	500026	10	600			1																		
+148	148		301							1	Lee	Not funny. I don't think she meant that.	3																					
+149	149		204							3																								
+150	150		401							2	1515																							
+151	151		301									You suddenly receive a verification request in the terminal. The other three Constructs also pause for a moment.																						
+152	152		301								Lucia	I just received a request to connect to my M.I.N.D.	2																					
+153	153		204							1	3																							
+154	154		301								Liv	Huh? I got one too.	1																					
+155	155		301								Lee	Same here.	3																					
+156	156		302								Here's a key that I need for verification.	157																						
+157	157		301									Looks like this is the proper way to unwrap it.																						
+158	158		204							1	1																							
+159	159		301								Liv	It feels like we are all unwrapping the gift together.	1																					
+160	160		301								Lee	So, are we connecting?	3																					
+161	161		301									After confirming there is still some time before 23:00—																						
+162	162		302								Gray Ravens, move out!	163																						
+163	163		301				AniZhuanchangBegin				Lucia & Lee & Liv	Roger!	1	2	3																			
+164	164		202							1	2	3			1																			
+165	165		401							1	36																							
+166	166		301			AniZhuanchangEnd		20				Only regular breathing sounds can be heard in the quiet Gray Raven lounge.																						
+167	167		301									Tiger twitches slightly on the table. Nanami's hologram shows up once again.																						
+168	168		301									She first glances at the three Constructs leaning back on the chairs.																						
+169	169		201							1	500472	1																						
+170	170		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab	2	1																						
+171	171		301							1	Nanami	You are sleeping so well.	1																					
+172	172		301									Then she looks at the only human in the room.																						
+173	173		301									Nanami rests her hand gently on the human's head. The hologram of her hand goes through the hair—																						
+174	174		301									Her hand cannot hold anything.																						
+175	175		301									Still, Nanami gently pats the human, as if the real her is here instead of an illusion.																						
+176	176		204							1	2																							
+177	177		301								Nanami	Commandant, make sure you work hard to find Nanami.	1																					
+178	178		204							1	1																							
+179	179		301								Nanami	You promised me.	1																					
+180	180		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+181	181		202							1					1																			
+182	182		301		1		AniZhuanchangBegin					The girl's hologram disappears once again.																						

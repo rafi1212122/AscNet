@@ -1,0 +1,33 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory15.jpg																								
+2	100		401							1	102																							
+3	2		201							1	1011001																							
+4	3		301			DialogEnable				1	Lee	Wait, the enemy concentration is high near our destination.	1																					
+5	4		301								Lee	If we were to move all at once, we'd likely be found out and surrounded, even with EM Camo protection.	1																					
+6	5		301								Lee	But if we split up, we can't cover each other if we were found.	1																					
+7	6		201							1	1031001																							
+8	7		301							1	Liv	Then... what shall we do?	1																					
+9	8		201							1	1011001																							
+10	9		301							1	Lee	Theoretically speaking, if the energy output is adaptively stabilized, then it is possible to destroy enemies even with EM Camo on.	1																					
+11	10		301								Lee	The candidate will have to be skilled in combative techniques.	1																					
+12	11		203							1	0.25	-400																						
+13	12		201							2	1081001		400																					
+14	13		301							1	Kamui	Me! I volunteer for this position!	2																					
+15	14		204							1	10																							
+16	15		301								Lee	Your weapon makes too much noise, the vibrations themselves will already alert the enemies.	1																					
+17	101		204							1																								
+18	16		301								Kamui	Aww...	2																					
+19	17		202							2					1																			
+20	18		203							1	0.25																							
+21	19		301								Lee	My weapons and Liv's too have a high energy output, so we're unfit for this mission as well.	1																					
+22	20		301								Lee	Only Lucia can soundlessly destroy enemies with her weapon and techniques.	1																					
+23	21		201							1	1081001																							
+24	22		301							1	Kamui	That makes sense!	1																					
+25	23		201							1	1021001																							
+26	24		301							1	Lucia	...I'm always ready.	1																					
+27	25		201							1	1011001																							
+28	26		301							1	Lee	We'll be counting on you, Lucia.	1																					
+29	27		201							1	1031001																							
+30	28		301							1	Liv	Please... be careful.	1																					
+31	29		201							1	1021001																							
+32	30		301		1		AniZhuanchangBegin			1	Lucia	I will, don't worry.	1																					

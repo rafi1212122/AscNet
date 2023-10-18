@@ -1,0 +1,19 @@
+Key	Desc	Values[1]	Values[2]	Values[3]	Values[4]	Values[5]	Values[6]	Values[7]	Values[8]
+RoleMoveSpeed	Character Movement Speed	2.5							
+RoleAngleSpeed	Character Spin Speed	8							
+SyncServerTime	Server Sync Time for Location (s)	0.1							
+TalkHideTime	Conversation Hide Time (ms)	3000							
+MaxPredictionTime	Max estimated time moving in the same direction and max allowable delay time	0.2							
+ClosePredictionDistance	Disable estimated distance and disable estimation when moving within a small range	0.1							
+TalkSpiltLenght	Chat Character Segmentation Length	34							
+IsOpenPrediction	Turn on estimation? (1 on, 0 off)	1							
+AutoGCMemroy	Auto GC Memory Increase (m)	200							
+SwitchRoleEffect	Character Switch Effect	Assets/Product/Effect/Prefab/FxSushe/FxQHuanRen.prefab							
+SLEEP_BEHAVIORID	Corresponding SLEEP Default Decision Tree ID	guilddorm_sleep							
+CABINET_BEHAVIORID	Corresponding CABINET Default Decision Tree ID	guilddorm_cabinet							
+BENCH_BEHAVIORID	Corresponding BENCH Default Decision Tree ID	guilddorm_bench							
+CHAIR_BEHAVIORID	Corresponding CHAIR Default Decision Tree ID	guilddorm_chair							
+IdleAnimationName	Default Auto Play Animation While Standing	Stand02							
+WalkAnimationName	Default Auto Play Animation While Moving	Walk01							
+RoleInteracAngleSpeed	Character Decor Interaction Spin Speed	30							
+ChannelMemberCountIcon	Channel Size Icon Configuration	5	Assets/Product/Texture/Atlas/UiGuild/UiGuildDormMainChannel01.png	10	Assets/Product/Texture/Atlas/UiGuild/UiGuildDormMainChannel02.png	15	Assets/Product/Texture/Atlas/UiGuild/UiGuildDormMainChannel03.png	20	Assets/Product/Texture/Atlas/UiGuild/UiGuildDormMainChannel04.png

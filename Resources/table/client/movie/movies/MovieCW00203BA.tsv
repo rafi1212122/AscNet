@@ -1,0 +1,102 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory227.png																								
+2	2		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStorySnowNew.prefab	2																							
+3	3		401							1	204																							
+4	4		301			DialogEnable						Numerous mechanical devices have surrounded the airdrop cabin since Rosetta was away.																						
+5	5		301									Drones hover around the equipment. Several mechanical arms are sticking out from the sides.																						
+6	6		201							1	500214		-400																					
+7	7		201							2	500004		400																					
+8	8		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																						
+9	9		301							1	Asimov	Next up, I'll modify the CUB. I've already prepared the replacement components.	2																					
+10	10		301								Asimov	In order to reduce the burden on your M.I.N.D., I can only approximate its performance according to your previous frame after the calibration. I can't match it perfectly.	2																					
+11	11		301								Asimov	After all, I can't agree with that way of harming yourself.	2																					
+12	12		301								Asimov	If you're clear on what to do, bring it here.	2																					
+13	13		301								Rosetta	Come on.	1																					
+14	14		301									Rosetta leads the CUB toward the mechanical equipment in front of her.																						
+15	15		301									A mechanical arm extends toward the CUB, waiting to connect.																						
+16	16		301									The CUB comes to a stop right as it touches the mechanical arm.																						
+17	17		301								Asimov	Is this one of the deviations you mentioned?	2																					
+18	18		301								Rosetta	I don't know. I didn't run into anything like this on the way back.	1																					
+19	19		301								Rosetta	Seems like...	1																					
+20	20		301									Rosetta strokes the CUB's crest. The CUB, having shown no willingness to move, suddenly rears up on its hind legs.																						
+21	21		301								Rosetta	It's resisting.	1																					
+22	22		301									The CUB raises one of its front hooves and kicks the mechanical arm away. It turns its head away, its hooves landing on the ground with a heavy thud.																						
+23	23		301									Seeing this, Rosetta immediately runs toward the CUB to stop it, but it dodges her with ease and then disappears into the snowy forest.																						
+24	24		301								Asimov	...It still turns out like this in the end.	2																					
+25	25		301								Asimov	Good thing I came prepared. Wouldn't want a repeat of what happened to Toniris.	2																					
+26	26		301								Asimov	There might be some side effects, but they will be within our margin of error.	2																					
+27	27		401							2	1515																							
+28	28		301									And with that, Asimov begins typing away on his terminal.																						
+29	29		301									Rosetta interrupts Asimov as she watches the CUB disappear into the snowy forest.																						
+30	30		301								Rosetta	I took the job. It stands to reason that I should finish it.	1																					
+31	31		301								Rosetta	After all, no one is better at searching the snowy forest than the Forest Guard.	1																					
+32	32		301								Asimov	If you insist, Leader of the Forest Guard. The additional data could provide us with more ways to optimize the frame.	2																					
+33	33		204							1	4																							
+34	34		301				AniZhuanchangBegin				Rosetta	(Nods) Leave it to me.	1																					
+35	35		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		2																					
+36	36		202							1	2				1																			
+37	37		101							Assets/Product/Texture/Image/BgStory/Bgstory95.png																								
+38	38		201							1	500214																							
+39	39		301			AniZhuanchangEnd				1	Rosetta	These tracks in the snow are fresh... Given their depth... And the current snowfall...	1																					
+40	40		301								Rosetta	It was here roughly five minutes ago.	1																					
+41	41		301								Rosetta	I need to hurry up... It's getting farther ahead.	1																					
+42	42		301									Rosetta follows the CUB's tracks through the snowy forest. As she makes her way into the forest toward the mountains, the snowstorm becomes more intense, and visibility begins to drop.																						
+43	43		204							1	5																							
+44	44		301									Rosetta, who usually maintains her composure, begins to show signs of distress.																						
+45	45		301									—Why did she not let Asimov help her?																						
+46	46		301									—Why does she want to do this all by herself?																						
+47	47		301									—With Asimov's help, maybe...																						
+48	48		204							1	4																							
+49	49		301								Rosetta	No. This is my failure as a guardian. I have to deal with this myself.	1																					
+50	50		401							1	36																							
+51	51		301				AniZhuanchangBegin					Shaking off the snow on her head, Rosetta continues to chase the CUB deep into the snow forest.																						
+52	52		204							1																								
+53	53		101							Assets/Product/Texture/Image/BgStory/Bgstory105.png																								
+54	54		401							1	202																							
+55	55		301			AniZhuanchangEnd						All of the tracks lead to an expansive gorge.																						
+56	56		301								Rosetta	The next series of tracks... are on the other side of the gorge...	1																					
+57	57		301								Rosetta	If that's the case...	1																					
+58	58		301									Rosetta faces the cliff, then takes a few steps backward.																						
+59	59		301									She slowly extends her light wings, then charges forward at full speed.																						
+60	60		301			RImgBg1Shake						As she springs and leaps, she unleashes the energy compressed in her wings. The force from the burst sends her flying across the gorge even farther.																						
+61	61		301									After momentarily hovering in the air, the luminescent beams from her light wings gradually fade. The scenery in Rosetta's field of vision begins to move up rapidly.																						
+62	62		301			PanelActor1Shake				1	Rosetta	...!	1																					
+63	63		301									She pulls out a spear from behind and thrusts. The tip of the spear barely manages to make contact with the cliff face, let alone pierce it.																						
+64	64		301								Rosetta	So... close...	1																					
+65	65		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		1																						
+66	66		301									Realizing that the distance is not enough, Rosetta aims the spear behind her and unleashes a condensed blast of energy. The force of the blast launches her closer to the opposing cliff face.																						
+67	67		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryLouDianNew.prefab		1																					
+68	68		301									—As a leader, as a knight that guards my comrades, I can't let something this small stand in my way!																						
+69	69		301								Rosetta	I'll show you what I can do!	1																					
+70	70		301			RImgBg1Shake						Using the propulsion from the blast, Rosetta lunges once more at the cliff face.																						
+71	71		301									The spear nails firmly into it as she presses her limbs against it. The spear slices across it, leaving a deep gash as sparks ignite violently from the friction between Rosetta's frame and the cliff face.																						
+72	72		401							1	36																							
+73	73		301				AniZhuanchangBegin					Finally coming to a stop, Rosetta looks down at the white abyss below her and slowly breathes a sigh of relief.																						
+74	74		202							1					1																			
+75	75		101							Assets/Product/Texture/Image/BgStory/Bgstory105.png																								
+76	76		401							1	207																							
+77	77		301			AniZhuanchangEnd						The snowstorm is getting harsher. A spear suddenly appears from beneath the cliff's edge, firmly nailing onto its surface.																						
+78	78		301									Clinging to the spear is an exhausted Rosetta.																						
+79	79		201							1	500214																							
+80	80		301							1	Rosetta	If I were using my old frame, a cliff like this wouldn't have...	1																					
+81	81		301								Rosetta	Sacrificing mobility for firepower...	1																					
+82	82		301								Rosetta	I knew this was going to happen. Why did I still do it?	1																					
+83	83		301									—But she knows exactly why.																						
+84	84		301									—She is acting like this with a sense of resentment.																						
+85	85		204							1	8																							
+86	86		301									Rosetta shakes her head. She grips her spear and continues toward the snowy mountain.																						
+87	87		204							1	4																							
+88	88		301								Rosetta	No.	1																					
+89	89		301								Rosetta	I can't stop here. I'm a knight of the Forest Guard!	1																					
+90	90		301								Rosetta	—A guardian for those who are lost.	1																					
+91	91		301								Rosetta	Knights blaze trails and forge paths to guide their comrades to warmth and safety.	1																					
+92	92		301								Rosetta	A knight... A knight must...	1																					
+93	93		301									—Whether it is the fact that she let her comrades get hurt earlier...																						
+94	94		301									—Or the fact that she cannot steer the centaur module that was once hers...																						
+95	95		301								Rosetta	It's me failing my duty as a knight.	1																					
+96	96		301									Having made her way to the top of the cliff finally, Rosetta parts the wind and snow, only to find the tracks left by the CUB long gone.																						
+97	97		204							1	14																							
+98	98		301								Rosetta	Perhaps, I'm no longer worthy of leading the way for everyone... to shoulder the responsibilities of a knight... to guard them...	1																					
+99	99		301									—That is the source of her resentment.																						
+100	100		202							1					1																			
+101	101		301		1		AniZhuanchangBegin					Alone in the raging blizzard, Rosetta finally admits what has been festering in her heart.																						

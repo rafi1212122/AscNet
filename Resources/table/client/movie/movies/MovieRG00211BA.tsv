@@ -1,0 +1,45 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/BgStory20.jpg																								
+2	555		401							1	203																							
+3	2		301							1	Pilot	As you can see through the porthole, we're close to the mission location.																						
+4	3		302								Gazing out.	4																						
+5	4		301							1		It's an island.																						
+6	5		301							1		Technically, a corner of an island.																						
+7	6		301							1		An enormous white tower stands on the cape, casting a long shadow on the surface of the sea.																						
+8	7		302								Is this the "Towerfolk"?	8																						
+9	8		201							1	500001	0																						
+10	9		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+11	10		301							1	Celica	It may be called a tower, but it's actually a deep-space rocket that never got launched.	1																					
+12	11		301							1	Celica	Just one of the many things that got disrupted by the virus.	1																					
+13	12		301							1	Celica	The liaison will fill you in on the specifics.	1																					
+14	13		202							1																								
+15	14		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+16	15		301				AniZhuanchangBegin			1	Pilot	Hold on tight. Landing on a makeshift airstrip can be a little rough!																						
+17	16		301			AniZhuanchangEnd						As you descend from the aircraft, the giant tower, which looked like a white column from up in the air, becomes an imposing colossus.																						
+18	17		301									Despite the wear and tear on the surface of the tower, the blue logo and the four letters "AAXA" are clear as day.																						
+19	18		201							1	500166																							
+20	19		301							1	Lucia	So big...	1																					
+21	20		203							1	0.25	-400																						
+22	21		201							2	1011001		400																					
+23	22		301							1	Lee	This is the "Utopia-65000" model... built by the AAXA (Asian Astronomical Study Assembly).	2																					
+24	23		301							1	Lee	I never imagined I'd see it with my own eyes... It's enormous...	2																					
+25	24		302				AniZhuanchangBegin				Let's go.	25																						
+26	25		202							1	2				1																			
+27	26		301			AniZhuanchangEnd				1		You enter a dilapidated building that harks back to the Golden Age.																						
+28	27		301							1		The hallway and lobby are filled with tents and makeshift structures that look at odds with the simplicity of the building housing them.																						
+29	28		301							1	???	You came!																						
+30	29		302								And you are?	30	?	30																				
+31	30		301							1	???	Uh, Miss Celica should have already told you. I'm Sagawa! The liaison for the Towerfolk!																						
+32	31		201							1	500138																							
+33	32		301							1	Sagawa	As you can see, we live close to the white tower and we rely on the electricity it generates. That's why we call ourselves "Towerfolk"!	1																					
+34	33		301							1	???	Sagawa, we have a situation!																						
+35	34		301							1	Sagawa	What is it, Fujiko?	1																					
+36	35		301							1	Fujiko	Komori and her recovery team still haven't come back! They must have run into "those people" again!																						
+37	36		301							1	Sagawa	Oh, that's not good... I know this is a bit sudden, but we need your help!	1																					
+38	37		302								A little more detail, please.	38																						
+39	38		301				AniZhuanchangBegin			1	Sagawa	Yeah, yeah! Sorry, stupid me! Here's what happened...	1																					
+40	39		301			AniZhuanchangEnd				1	Sagawa	...That's about it.	1																					
+41	40		301							1	Sagawa	Get to the stranded recovery team as fast as you can and bring them back, and then...	1																					
+42	41		301							1	Sagawa	(Whispers) Perhaps I need to force my dad's hand this time...	1																					
+43	42		302								?	43																						
+44	43		301		1		AniZhuanchangBegin			1	Sagawa	Oh, never mind! That was an unrelated matter. Off you go then!	1																					

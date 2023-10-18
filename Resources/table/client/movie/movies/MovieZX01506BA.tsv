@@ -1,0 +1,96 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory253.png																								
+2	2		401							1	28																							
+3	3		401							2	10007502																							
+4	4		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab	2																							
+5	5		301			DialogEnable						A deafening explosion rumbles outside the city. Changyu is standing in front of the theater, watching the Kowloongers flee toward the port or head toward the grounds for Tabula Akasha.																						
+6	6		301									Yusheng is standing at the end of the street. He bows toward the theater, then turns to exit the city with a gun holstered on his back.																						
+7	7		301									The huge rifle is all the more apparent hanging on his thin back.																						
+8	8		301									Changyu stands there like a pillar, holding back tears. The director comes up from behind him and gently puts his hand on Changyu's shoulder.																						
+9	9		301									Changyu looks up at the director, only to find him with the usual expression, silently surveying the outside of the theater as if nothing had happened.																						
+10	10		301									But the director's eyes are laced with a faint redness.																						
+11	11		301									Laoyu slowly walks up from behind them, and the three of them stand there silently.																						
+12	12		301								Laoyu	L-look up.																						
+13	13		301									Suddenly, Laoyu breaks the silence in panic. Looking up to where he is pointing, several fireballs are flying into the city.																						
+14	14		301									Kowloong's air defense fires missiles with a loud roar to shoot down the fireballs. However, some of the fireballs still manage to fall into the city.																						
+15	15		301									Several fireballs rain down on the street where the Kowloong Theater is located. Dark figures emerge from the flames.																						
+16	16		401							2	1508																							
+17	17		301									They used to serve mankind, but now, they are ghosts returning from the grave.																						
+18	18		301									This is the first time Changyu is seeing these "Corrupted" monsters with his own eyes.																						
+19	19		301									They raise their weapons and howl, running into the crowd and rending them to pieces.																						
+20	20		301									The guerrilla forces from the Pulao Crew come running and shoot explosive rounds at the Corrupted. The impact pushes the Corrupted back.																						
+21	21		201							1	500223																							
+22	22		301							1	Pulao Crew A	Suppressive fire! Prioritize guiding people to take refuge. Hurry!	1																					
+23	23		202							1					1																			
+24	24		301									Another fireball crashes onto the street, obliterating the Pulao soldier shouting commands and erupting into flames.																						
+25	25		301									The crowd delves into chaos amid the onslaught, leaving them no time to mourn their fallen comrade. The remaining Pulao Crew raise their guns and destroy the Corrupted.																						
+26	26		301								Crowd	Run away!																						
+27	27		201							1	500223		-400																					
+28	28		201							2	500223		400																					
+29	29		301							1	Pulao Crew B	Retreat in an orderly fashion. Don't trample others!	1																					
+30	30		301								Pulao Crew C	Tch, we'll have to push them back first! We don't have the manpower to keep the crowd in order.	2																					
+31	31		301									The Pulao Crew shout as they shoot at the Corrupted.																						
+32	32		202							1	2				1																			
+33	33		301									Without any guidance, the people at the entrance to the street are in run around in disarray like chickens with their heads cut off.																						
+34	34		301								Laoyu	C-chaos. Absolute chaos...																						
+35	35		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab																							
+36	36		201							1	500230	5																						
+37	37		301							1	Changyu	Damn it... We need to do something—something only we can do...	1																					
+38	38		301				AniZhuanchangBegin					Changyu stands there and looks around, locking onto the stage. He jumps onto the stage, takes a deep breath, and takes a stance.																						
+39	39		202							1					1																			
+40	40		101							Assets/Product/Texture/Image/BgStory/Bgstory233.png																								
+41	41		301			AniZhuanchangEnd						Seeing this, the director turns and walks toward the stage. Under Laoyu's puzzled look, the director picks up mallets and pounds the dust-covered drums.																						
+42	42		301									Dum!																						
+43	43		301									Then comes the second one, which is stronger than the last.																						
+44	44		301									Da-dum!																						
+45	45		301									The third and fourth... The director rapidly pounds the drums.																						
+46	46		301									Dum! Da-dum, da-dum!																						
+47	47		301									The theater's drums spread throughout the streets, suppressing even the chaos outside.																						
+48	48		201							1	500229																							
+49	49		301							1	Director	It's been a long time, old friend...	1																					
+50	50		202							1					1																			
+51	51		301									Changyu and Laoyu share a glance, then Laoyu joins the stage.																						
+52	52		301									Laoyu brushes the dust off a box. He takes out his zither and clapper, then Changyu takes the center stage.																						
+53	53		502				RImgBg1Disable			DialogDisable																								
+54	54		101			RImgBg1Enable				Assets/Product/Texture/Image/BgCg/Cg1501_3.jpg																								
+55	55		401							1	21																							
+56	56		301			DialogEnable					Changyu	(Deep breath)																						
+57	57		301									Changyu takes a deep breath, then slowly moves his feet and begins to move. His clothes snap with each rhythmic motion of his hands and feet.																						
+58	58		301									Changyu dances along with the pounding drums. As the drums quiet to a gentle rumble, he matches his movements to flow like water, pouring life into those around him.																						
+59	59		301									As the tempo quickens, Changyu swings his fists and leaps left and right like the surging tide, destroying all that stands before it.																						
+60	60		301								Changyu	～With righteous anger are heroes born～																						
+61	61		301									The sun tries to pierce the smoke-shrouded sky over Kowloong to sprinkle the last rays of sunshine on the stage.																						
+62	62		301									The boy's eyes shine bright in the sunlight's reflection.																						
+63	63		301									The sound of gunfire from both the Corrupted and the Pulao Crew are but a pin drop to the symphony coming from the theater.																						
+64	64		301									Changyu tries his best to force the lyrics out, as if wanting the whole world to hear his cry.																						
+65	65		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryFireLiziNew.prefab	2																							
+66	66		301									A bomb on the battlefield explodes near the stage, blowing up the floorboards. Shrapnel flies through the fiery smoke and past the three stage performers.																						
+67	67		301									Standing at the front of the stage, Changyu's whole body receives multiple cuts from the shrapnel.																						
+68	68		301									The shrapnel slices the director's hands and Laoyu's chest, causing blood to seep through their wounds.																						
+69	69		301									Yet they continue to perform as if immune to the pain.																						
+70	70		301									With each pounding of the drum, the director's hands drip with blood. Laoyu, ignorant of the pain, plucks his zither and sways with the music. Changyu continues to flip across the stage, slinging his blood on floor without a care.																						
+71	71		301								Changyu	～Aloof to pain, to death, one's just deserts～																						
+72	72		301									The panicking crowd on the street begins to settle down as they watch the performance. The Pulao Crew uses this time to double their efforts in clearing the city of the invading Corrupted.																						
+73	73		301									Changyu's lyrics resound through the streets. The crowd unconsciously stops pushing and shouting, leaving only the sound of the Kowloong Theater's performance in the whole area.																						
+74	74		301				AniZhuanchangBegin					Another fireball passes over the Kowloong Theater and lands at its gate. A Corrupted roars and races toward Changyu, who was closest to it.																						
+75	76		101							Assets/Product/Texture/Image/BgStory/Bgstory253.png																								
+76	77		301			AniZhuanchangEnd						Changyu seems oblivious to the oncoming attack and continues singing on stage.																						
+77	78		301									The Corrupted's claw does not tear his flesh, but rather, it lands like a pebble in an ocean.																						
+78	79		301									Changyu's right foot slides back. He uses the Corrupted's momentum to pull it forward, dispersing the blow. As the Corrupted passes behind him, Changyu trips it, then mounts it and pins both of its arms behind its back.																						
+79	80		401							2	1512																							
+80	81		301									Following it up, he delivers a heavy punch, caving in the Corrupted's head. It tries to throw Changyu off, but remains powerless. A picture flashes through its rudimentary electronic brain—that of a person drowning.																						
+81	82		301									And like a person drowning, the Corrupted is unable to free itself from the water's embrace. No matter how hard it tries, it cannot free itself of Changyu.																						
+82	83		401							2	1512																							
+83	84		301									Changyu hammers down on the Corrupted below it, ignoring his bloody hands. He stares at the Corrupted as he delivers blow after blow to its head.																						
+84	85		401							2	1506																							
+85	86		301									Finally, with a dull thud, Changyu smashes through the mechanical casing around the Corrupted's head. He pulls out its electronic brain and holds it high above his head.																						
+86	87		301									Static flickers between Changyu's palms as blood drips down his raised arm on the motionless Corrupted.																						
+87	88		301									The blood is Changyu's medal in his victory against humanity's enemy.																						
+88	89		502				RImgBg1Disable			DialogDisable																								
+89	90		101			RImgBg1Enable				Assets/Product/Texture/Image/BgStory/BgStory00.png																								
+90	91		301			DialogEnable						Changyu no longer sees the Kowloong Theater under fire, but rather a vast battlefield—one that he read about in old war stories.																						
+91	92		301									Changyu is no longer wounded. Clad in armor, he stands at the top of the battlefield and discards the head of the defeated enemy general, looking proudly at the enemies before him.																						
+92	93		301									His dream of becoming a hero, which later became a dream to save the world, appears to be coming true in this turbulent era.																						
+93	94		301									But for Changyu, he no longer cared about saving the world. What matters most is protecting those around him he treasures most.																						
+94	95		301								Changyu	～Else, wherefore would one walk the earth?～																						
+95	96		301		1		AniZhuanchangBegin					Changyu looks up at the gloomy sky and slowly meets the thousands of enemy troops standing before him.																						

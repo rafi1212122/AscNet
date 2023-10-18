@@ -1,0 +1,240 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory252.png																								
+2	2		401							1	208																							
+3	3		301			DialogEnable						Inside an ordinary building to the left of the capital gate.																						
+4	4		301									Strike Hawk and the Engineering Force had been trying to leave the game for days, but neither had succeeded.																						
+5	5		301									So they decide to stay undercover around the safe house for the time to come, awaiting an opportunity.																						
+6	6		201							1	500454		400																					
+7	7		201							2	1081001		-400																					
+8	8		301							1	Troubled Villager	Thank you, kind adventurer. May I know where the Church of Flying Ramen is...?	1																					
+9	9		301									But Kamui just waves and casts aside the additional rewards.																						
+10	10		204							2	2																							
+11	11		301								Kamui	No problem at all. To thank the almighty Flying Ramen, all you need to do is to live a good life. Lord doesn't care about anything else.	2																					
+12	12		204							2																								
+13	13		301									Kamui puts his hands together and bows, and the villager follows him to do so.																						
+14	14		301								Troubled Villager	Lord doesn't care about anything else.	1																					
+15	15		202							1	2																							
+16	16		301									After waving goodbye to the villager, Kamui asks DM to check his own status and finds himself many levels higher.																						
+17	17		201							1	1081001	2																						
+18	18		301							1	Kamui	DM, I need more strength! I want to put all attribute points earned from level-up on strength.	1																					
+19	19		203							1	0.25	-400			1																			
+20	20		201							2	500273		400																					
+21	21		301							1		Wanshi watches the villager walk away. As Kamui's helper, his EXP is also rapidly increasing.																						
+22	22		204							1																								
+23	23		203							1	0.25	-300																						
+24	24		301									A few soldiers are coming their way. Kamui quickly pulls Wanshi's arm, gesturing him to lower his head and walk forward with hands together.																						
+25	25		301								Kamui & Wanshi	Live a good life. Lord doesn't care about anything else.	1	2																				
+26	26		202							1	2				1																			
+27	27		201							1	500197		-400																					
+28	28		201							2	500197		400																					
+29	29		301							1		The soldiers display no signs of tension or aggressiveness. Instead, they also put their hands together to chant the somewhat awkward prayer.																						
+30	30		301									One of them is even holding a wanted order to check against everybody on the street, but none would have imagined the "evil" criminals on the order are walking past them as friendly and helpful members of the new church.																						
+31	31		202							2					1																			
+32	32		201							2	1081001		400																					
+33	33		301							1	Kamui	Sir, your cape is touching the ground.	2																					
+34	34		301								Soldier	Oh? I didn't even notice that. Must be because I was walking at the back... Thank you. Praise the F... Flying Ramen. Live a good life. Lord doesn't care about anything else.	1																					
+35	35		202							1	2																							
+36	36		301									The soldiers soon go around the corner. Feeling relieved, Wanshi knocks on the door of the safe house.																						
+37	37		301								Ayla	Okay, Karenina has reinforced this "thing" with a broomstick, wood blocks, a table corner, and charcoal tongs... What should I call it?																						
+38	38		301								Karenina	Just call it a reinforced composite door.	1																					
+39	39		401						300	2	561																							
+40	40		401							2	561																							
+41	41		301								Ayla	Someone is knocking on the reinforced composite door, making "clink", "thump" and "bang" noises.																						
+42	42		201							1	1081001	2																						
+43	43		301							1	Kamui	It's me! It's me!	1																					
+44	44		202							1					1																			
+45	45		301								Karenina	To open the door, you need to roll a check.																						
+46	46		201							1	500273																							
+47	47		301							1	Wanshi	Why do I need to roll for this...?	1																					
+48	48		202							1					1																			
+49	49		301								Karenina	I took out the door hinge to make it even stronger. It now has to be pulled up and down to open.																						
+50	50		301								Karenina	...It seems I have failed.																						
+51	51		201							1	1081001	2																						
+52	52		301							1	Kamui	...I'll do it. I will lift the reinforced door all the way up with my mighty strength. Roll!	1																					
+53	53		202							1					1																			
+54	54		301								Ayla	Kamui rolls a... critical success.																						
+55	55		201							1	500273																							
+56	56		301							1	Wanshi	Critical success... What will happen? Did Kamui strip the door off and put it back after coming inside?	1																					
+57	57		202							1					1																			
+58	58		301				AniZhuanchangBegin				Ayla	One sec, I need to think... Um, when Kamui enters the room, he finds a minor fault in the door and reinforces it to make it even sturdier.																						
+59	59		101							Assets/Product/Texture/Image/BgStory/Bgstory235.png																								
+60	60		201							1	500155		-400																					
+61	61		201							2	500273		400																					
+62	62		301			AniZhuanchangEnd				1	Chrome	Are there still a lot of guards near the gate?	1																					
+63	63		301								Wanshi	We might be able to break through, but one of the merchants that Kamui helped mentioned a large space under the gate. DM has probably prepared a mighty opponent for us there.	2																					
+64	64		301								Chrome	When do the guards usually patrol the area?	1																					
+65	65		202							2					1																			
+66	66		201							2	1081001		400																					
+67	67		301							1	Kamui	The captain said they had more than doubled the number of guards. They search the entire city once every morning, noon, and evening.	2																					
+68	68		301								Chrome	Number?	1																					
+69	69		202							2					1																			
+70	70		201							2	500273		400																					
+71	71		301							1	Wanshi	Eight squadrons, according to the patrol officer.	2																					
+72	72		301								Chrome	Equipment?	1																					
+73	73		301								Wanshi	Regular army equipment, according to the blacksmith in the Old North Point.	2																					
+74	74		301								Chrome	Well done. Good work.	1																					
+75	75		202							2					1																			
+76	76		201							2	1081001	2	400																					
+77	77		301							1	Kamui	Yeah!	2																					
+78	78		204							2																								
+79	79		301								Kamui	Speaking of which, does anyone remember the arrival of new heroes we saw on the notice board? An adventurer told me the hero team named Gray Raven was also coming to the capital.	2																					
+80	80		202							1	2				1																			
+81	81		201							1	500494	13	-400																					
+82	82		201							2	500273		400																					
+83	83		301							1	Karenina	I don't understand... How did you make those people tell you everything?	1																					
+84	84		301								Wanshi	Oh, we have been helping people in the name of Kamui's new church. As long as you put the hood on and lower your head, you may even walk all the way to the palace with no issue.	2																					
+85	85		301								Karenina	Which means... This secret church needs to keep going.	1																					
+86	86		202							2					1																			
+87	87		201							2	500155		400																					
+88	88		301							1	Chrome	Yeah. We can secretly level up while collecting useful information. Let's not waste time and find more tasks to do.	2																					
+89	89		202							1	2				1																			
+90	90		201							1	1081001	2																						
+91	91		301							1	Kamui	In the name of the Flying Ramen!	1																					
+92	92		401							1	36																							
+93	93		201							1	500273																							
+94	94		301							1	Wanshi	...	1																					
+95	95		201							1	500155																							
+96	96		301							1	Chrome	What's wrong?	1																					
+97	97		401							1	202																							
+98	98		201							1	500273																							
+99	99		301							1	Wanshi	DM just made me roll sound perception and luck...	1																					
+100	100		301								Wanshi	I hear steps. A lot of footsteps.	1																					
+101	101		301									Wanshi lifts up a corner of the curtain and immediately rolls a Luck check. The arrow only takes a few hairs off him.																						
+102	102		202							1					1																			
+103	103		401							1	36																							
+104	104		301								Soldier	Break the door!																						
+105	105		401							2	561																							
+106	106		401							1	205																							
+107	107		301			RImgBg1Shake						A soldier kicks on the door with all his strength, making a loud bang. He then screams even louder in pain.																						
+108	108		301								Soldier	Blow it up!																						
+109	109		301									The soldiers seem to have stacked something up against the door. Everybody in the room is rolling Dodge checks except Karenina, who just stares at her own work doing nothing.																						
+110	110		401							2	957																							
+111	111		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+112	112		301			RImgBg1Shake						"BOOM!" An enormous, deafening explosion sends the entire house trembling...																						
+113	113		301								Soldier	Just what the heck is this ugly thing? We need healing spells! Hurry!																						
+114	114		301									Still, the reinforced door shows no sign of breaking.																						
+115	115		301								Soldier	Get the battering ram here!																						
+116	116		301								???	Officer, why don't we blow up the wall next to the door?																						
+117	117		301									Everyone immediately rolls Dodge and Luck checks. Only Karenina notices something is not right.																						
+118	118		201							1	500494	4																						
+119	119		301							1	Karenina	What's that sound...?	1																					
+120	120		202							1					1																			
+121	121		401							2	915																							
+122	122		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+123	123		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab	3																							
+124	124		301			RImgBg1Shake						Another loud explosion leaves a hole in the wall. Amidst the dust and smoke, soldiers flood into the room with their weapons unsheathed.																						
+125	125		401							2	1504																							
+126	126		301				AniZhuanchangBegin					More soldiers come in with sharp blades, forcing the players to a corner.																						
+127	127		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab																							
+128	128		101							Assets/Product/Texture/Image/BgStory/Bgstory531.jpg																								
+129	129		504							0.7																								
+130	130		301			AniZhuanchangEnd						Ten minutes ago. When Gray Raven entered the capital, a guard found out they were heroes and immediately reported to the gate officer.																						
+131	131		301									The wanted order was attached with magic and could not be torn off, so the guard just carried the entire notice board over.																						
+132	132		201							1	500315																							
+133	133		301							1	Lucia	Cunning devil...?																						
+134	134		201							1	500529																							
+135	135		301							1	Liv	Furious beast? Officer, what exactly are they describing...?																						
+136	136		202							1	2				1																			
+137	137		201							1	500197		400																					
+138	138		201							2	500026		-400																					
+139	139		301							1	Officer	Oh dear hero, you must have not heard of him. He was the incarnation of fury. There was nothing but one nail left under his stake. If his friends came a little later, I say he could even lift the stake up and run away with it.	1																					
+140	140		301								Lee	Sleeping thug... Deadly wraith... Beast of destruction... Are they all wanted?	2																					
+141	141		301								Officer	Yes, my hero.	1																					
+142	142		301								Lee	Alright. Tell the guards to get ready. We will head out right away.	2																					
+143	143		301								Officer	Do you know where they are?	1																					
+144	144		301								Lee	We are heroes. We will figure it out.	2																					
+145	145		301								Officer	But... As a gate guard, I must report to the guard headquarters first...	1																					
+146	146		202							2					1																			
+147	147		201							2	500410		-400																					
+148	148		301							1	Travelling Wizard	W-wait!	2																					
+149	149		203							2	0.25	-200																						
+150	150		301									The Travelling Wizard puts an arm on the officer's shoulder, lowering his body. He then pretentiously looks around and lowers his voice.																						
+151	151		301								Travelling Wizard	Are you sure you want to do that? Giving all that merit away?	2																					
+152	152		301								Officer	...What do you mean?	1																					
+153	153		301								Travelling Wizard	Think about it. They sent you here to guard the gate. Do you seriously believe they will give you the credit?	2																					
+154	154		301								Travelling Wizard	I'm pretty certain that the headline of tomorrow's notice board will be something like "General XX and heroes have captured all the criminals", while your name will only show up in a corner.	2																					
+155	155		301									The officer takes a gulp and looks at him helplessly. After the Travelling Wizard encourages him again, he finally makes a decision and walks back to the gate.																						
+156	156		202							1	2																							
+157	157		301								Knight	Have I seen him somewhere...? Oh, wasn't he the gate guard when we were still heroes?																						
+158	158		301								Sharpshooter	Oh, that poor guy going after someone's butt because he defrauded the merchant's association?																						
+159	159		301								Travelling Wizard	Shut up... Let's go, someone seems to have recognized me...																						
+160	160		301				AniZhuanchangBegin					While the officer is assembling his troops, the Travelling Wizard winks at Gray Raven and blends into the crowd walking out of the capital with his friends.																						
+161	161		201							1	500197																							
+162	162		101							Assets/Product/Texture/Image/BgStory/Bgstory235.png																								
+163	163		504							0																								
+164	164		301			AniZhuanchangEnd				1	Officer	Right, just like the hero said, the criminals are all hiding in them.	1																					
+165	165		202							1					1																			
+166	166		301									Two familiar faces are peeking out behind the soldiers.																						
+167	167		201							1	500494	5																						
+168	168		301								Karenina	Lucia! What the **** are you doing?!	1																					
+169	169		201							1	500166	1																						
+170	170		301							1		But Lucia is standing too far away and cannot hear. She only smiles and waves at her.																						
+171	171		201							1	500197																							
+172	172		301							1	Officer	You filthy criminals managed to get away last time, but now I have the heroes with me! Better surrender if you don't want to suffer... My heroes?	1																					
+173	173		301								Dungeon Master Ayla	Liv of Gray Raven has poured out "Sleepy Fog" from the magical bottle.																						
+174	174		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab	3																							
+175	175		203							1	0.5		-800																					
+176	176		202							1																								
+177	177		401							2	3077																							
+178	178		301								Dungeon Master Ayla	Check completed. Here's the result of your action: the fog secretly sneaks into the soldiers' noses like slithering snakes. Some of them could not even lift their weapons before falling asleep.																						
+179	179		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiFogNew.prefab																							
+180	180		201							1	500166	1																						
+181	181		301							1	Lucia	Critical success.	1																					
+182	182		201							1	1031001	1																						
+183	183		301							1	Liv	The wizard's item sure did help.	1																					
+184	184		202							1					1																			
+185	185		301									As she speaks, the four Gray Raven members walk up to the soldiers, take their weapons, and throw them aside.																						
+186	186		301									They also turn the soldiers around and search all over their bodies. When they cannot find any more items related to the mission, they lay the soldiers together neatly.																						
+187	187		201							1	500494	4																						
+188	188		301							1	Karenina	How many times have you done this...?	1																					
+189	189		201							1	500166																							
+190	190		301							1	Lucia	We met quite a few not-so-friendly people in the quests.	1																					
+191	191		201							1	500026																							
+192	192		301							1	Lee	Liv wanted to reduce casualties, so we came up with these... procedures.	1																					
+193	193		201							1	500155																							
+194	194		301							1	Chrome	Wanshi, I need to know the size of the remaining gate garrison.	1																					
+195	195		201							1	500273																							
+196	196		301							1	Wanshi	I roll a long-distance scout.	1																					
+197	197		301								Dungeon Master Ayla	The result is... success. Wanshi peeks through the window and realizes there are a lot less soldiers guarding the game. The remaining soldiers are also preoccupied with managing the entry and exit of regular civilians.																						
+198	198		201							1	500155	1																						
+199	199		301							1	Chrome	Well, Gray Raven has taken away our biggest trouble. Time to plan our next step.	1																					
+200	200		201							1	500495	13																						
+201	201		301				AniZhuanchangBegin			1	Teddy	This guy didn't report to his senior but rushed here with his own troops. Somehow this gives me a familiar feel.	1																					
+202	202		101							Assets/Product/Texture/Image/BgStory/Bgstory139.png																								
+203	203		201							1	500168		-400																					
+204	204		201							2	500336		400																					
+205	205		301			AniZhuanchangEnd				1	Vera	...	1																					
+206	206		401						500	2	1512																							
+207	207		401							2	3077																							
+208	208		301								Noctis	Hey! Ho! Ah-tah!	2																					
+209	209		301								Dungeon Master Ayla	Critical, kill. Critical, kill. Super-critical, level up...																						
+210	210		301								Noctis	Boss, I just beat up another wave of enemies.	2																					
+211	211		301								Vera	Really? Keep going. As long as we can accumulate enough power before the game ends.	1																					
+212	212		301								Noctis	Speaking of which, Boss, that weird old man you beat up was talking about how he wanted us to save the world. Do we need to check over there?	2																					
+213	213		301								Vera	Just leave it to the Gray Raven Commandant. He's more experienced at being a hero.	1																					
+214	214		202							2					1																			
+215	215		201							2	500328		400																					
+216	216		301							1	No. 21	No. 21, spell bonus... I can't calculate...	2																					
+217	217		301								Vera	Just don't calculate then. Let's check the nearby town for notice boards.	1																					
+218	218		202							2					1																			
+219	219		201							2	500336	4	400																					
+220	220		301							1	Noctis	Wow, Boss, the expedition army is coming at us!	2																					
+221	221		301								Vera	Expedition army? I have seen their leader somewhere... Right, isn't he from Dark Aries?	1																					
+222	222		202							1	2				1																			
+223	223		201							1	500201																							
+224	224		301							1	Simon	...	1																					
+225	225		301								Simon	Are you the Red Monsters on the wanted order who have occupied the Northern Wilds?	1																					
+226	226		201							1	500168	1																						
+227	227		301							1	Vera	Yep. What can I do for you?	1																					
+228	228		201							1	500201	10																						
+229	229		301							1	Simon	(This game is designed for a script. Ayla said I must play my role...)	1																					
+230	230		204							1																								
+231	231		301								Simon	We are the expedition army from the capital. Surrender now, monsters. Your end is nigh!	1																					
+232	232		201							1	500328	1																						
+233	233		301							1	No. 21	You sure? Show them what you've got, Noc.	1																					
+234	234		201							1	500336																							
+235	235		301							1	Noctis	Alright!	1																					
+236	236		301									Noctis first reluctantly stretches his arms, but when his bulky body is promptly displayed, he makes a smile as brilliant as the midday sun.																						
+237	237		301								Dungeon Master Ayla	Noctis of Cerberus. Character level 99.																						
+238	238		201							1	500201	10																						
+239	239		301		1		AniZhuanchangBegin			1	Simon	Sorry, I hope I didn't disturb you...	1																					

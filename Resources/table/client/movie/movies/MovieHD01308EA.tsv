@@ -1,0 +1,61 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory309.png																								
+2	2		401							1	208																							
+3	3		201							1	500151																							
+4	4		301			DialogEnable				1	Lucia	I did it. Want to give it a try, Commandant?	1																					
+5	5		301									Lucia hands you a bag of freshly popped popcorn.																						
+6	6		302								It's... interesting.	7																						
+7	7		301									The taste of black pepper spreads throughout your mouth, complementing the aroma of popcorn. Although it's different from the traditionally sweet taste, you still find it delicious.																						
+8	8		302								But... delicious.	9																						
+9	9		204							1	2																							
+10	10		301									After getting your approval, Lucia starts to try other flavor combinations.																						
+11	11		301									Rather than mixing a large number of seasonings into the machine, she gradually mixes the flavors to taste.																						
+12	12		301									Even then, some of the combinations are less than ideal...																						
+13	13		302								Time to open it.	14																						
+14	14		401							2	737																							
+15	15		502							RImgBg1Shake																								
+16	16		301									"Bang!"																						
+17	17		301									This time the popcorn has the sour tang of tomato.																						
+18	18		401							2	737																							
+19	19		502							RImgBg1Shake																								
+20	20		301									"Bang!"																						
+21	21		301									This time it's chocolate. Compared with just adding sugar, the addition of cocoa butter gives it a rich aroma.																						
+22	22		401							2	737																							
+23	23		502							RImgBg1Shake																								
+24	24		301									"Bang!"																						
+25	25		301									This time Lucia adds capsaicin.																						
+26	26		302								It's so spicy!	27																						
+27	27		401							2	737																							
+28	28		502							RImgBg1Shake																								
+29	29		301									"Bang!"																						
+30	30		301									...																						
+31	31		301								Lucia	This should be enough.	1																					
+32	32		301				AniZhuanchangBegin					Lucia stops making popcorn after confirming that she has enough, despite leaving several seasonings and flavor combinations untouched.																						
+33	33		202			DialogDisable				1					1																			
+34	34		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory308.png																								
+35	35		201							1	500152																							
+36	36		301			DialogEnable				1		On the way back, you watch Lucia munching on the only bag of spicy popcorn and ask her a question that had been on your mind.																						
+37	37		302								Why are you so persistent about cooking?	38																						
+38	38		301								Lucia	Because... it's my weakness.	1																					
+39	39		301									The more people know themselves, the more difficult it is to tolerate their own insurmountable defects, especially in the eyes of others.																						
+40	40		301									The reason why Lucia chose to make popcorn was that it would show her dedication to overcoming her greatest weakness.																						
+41	500		201							1	500151	2																						
+42	41		301							1	Lucia	But I'm very happy you like my popcorn, Commandant.	1																					
+43	42		302								I'm surprised.	43																						
+44	43		302								Have you been practicing?	44																						
+45	44		301								Lucia	Yes. I've had a lot of people help me between missions.	1																					
+46	45		301								Lucia	Liv, Chrome, Bianca, Karenina...	1																					
+47	46		302								Even Karenina?	47																						
+48	47		301									Karenina is always looking for a showdown with Lucia. It's hard to imagine her teaching Lucia to cook.																						
+49	48		301									Now that the festivities are starting to quiet down, you start to see the venue clear out.																						
+50	49		301									You stuff another handful of popcorn in your mouth, releasing the subtle bitter-sweet flavor of chocolate.																						
+51	50		301									Watching Lucia continue to eat her spicy popcorn, you make up your mind.																						
+52	51		302								Lucia.	52																						
+53	52		204							1																								
+54	53		301							1	Lucia	Commandant?	1																					
+55	54		302								How about we cook together next time?																							
+56	55		301								Lucia	...	1																					
+57	56		204							1	2																							
+58	57		301								Lucia	Yeah.	1																					
+59	58		301								Lucia	My pleasure.	1																					
+60	59		301		1		AniZhuanchangBegin					As the night comes to an end, the two of you make plans for the future.																						

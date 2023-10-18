@@ -1,0 +1,68 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory116.png																								
+2	1000		401							1	201																							
+3	2		301			DialogEnable					Broadcast	A friendly reminder from Korolev: Dear children, please treat public facilities with love and care—																						
+4	3		301								Broadcast	Serious offenders will be separated from their parents for one week in correctional facilities.																						
+5	4		201							1	1011001	10																						
+6	5		301							1	Lee	You sure a child can climb up here?	1																					
+7	6		302								Something's not right.	7	This doesn't make sense.	7																				
+8	7		201							1	1031001	14																						
+9	8		301							1	Liv	...	1																					
+10	9		201							1	1021001																							
+11	10		301							1	Lucia	Don't pay attention to the broadcast, Liv.	1																					
+12	11		201							1	1031001	14																						
+13	12		301							1	Liv	Okay... But did we break it...?	1																					
+14	13		201							1	1011001	10																						
+15	14		301							1	Lee	Yeah, the observation cabin of the space station has been destroyed.	1																					
+16	15		202							1					1																			
+17	16		301									Incoming... communication...																						
+18	17		201							1	500001																							
+19	18		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+20	19		301							1	Celica	Gray... Raven?	1																					
+21	20		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+22	21		201							1	1021001																							
+23	22		301							1	Lucia	Miss Celica? How did you manage to contact us?	1																					
+24	23		201							1	500001																							
+25	24		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+26	25		301							1	Celica	Great... I knew... It was you...	1																					
+27	26		301								Celica	We just... launched... a relay satellite, trying to... establish... more... communications...	1																					
+28	27		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+29	28		201							1	1011001																							
+30	29		301							1	Lee	The signal is still horrible.	1																					
+31	30		201							1	500001																							
+32	31		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+33	32		301							1	Celica	Right, I wanted... to tell you... Thanks to you, the observation deck... was destroyed...	1																					
+34	33		301								Celica	The accuracy of... space station's beyond-visual-range attack... is rapidly dropping...	1																					
+35	34		301								Celica	Babylonia... is safe now. Re-adjusting... position...	1																					
+36	35		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+37	36		201							1	1031001	1																						
+38	37		301							1	Liv	That's great...	1																					
+39	38		201							1	500001																							
+40	39		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+41	40		301							1	Celica	You can... continue... with your original... mission...	1																					
+42	41		301								Celica	Wait... Someone's attacking the relay satellite...	1																					
+43	42		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+44	43		202							1					1																			
+45	44		301									Boom—																						
+46	45		301									Sss—																						
+47	46		201							1	1021001																							
+48	47		301							1	Lucia	Miss Celica?	1																					
+49	48		301								Lucia	...	1																					
+50	49		301								Lucia	The satellite's probably been shot down...	1																					
+51	50		201							1	1011001																							
+52	51		301							1	Lee	Even after we removed their long-range attacks, there is still a lot of close-quarter firepower...	1																					
+53	52		301								Lee	We better stick to the plan and get rid of their defense system. Only then can we establish stable communications to help the subsequent main force to land.	1																					
+54	53		201							1	1021001																							
+55	54		301							1	Lucia	Liv, can you find the route?	1																					
+56	55		201							1	1031001	7																						
+57	56		301							1	Liv	Um... These compartments have been constantly moving. I need to compare them again...	1																					
+58	57		202							1					1																			
+59	58		301								Broadcast	A friendly reminder from Korolev: To visit the next compartment, please follow the green arrows on the corridor—																						
+60	59		301									Green arrows start to light up along the corridor.																						
+61	60		302								...Again?	63	Don't mind it.	61																				
+62	61		201							1	1021001																							
+63	62		301							1	Lucia	Understood, Commandant.	1																					
+64	63		201							1	1031001	7																						
+65	64		301							1	Liv	Huh? What is this...	1																					
+66	65		201							1	1011001																							
+67	66		301		1		AniZhuanchangBegin			1	Lee	Someone is probably watching us.	1																					

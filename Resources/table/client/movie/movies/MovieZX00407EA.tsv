@@ -1,0 +1,63 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory28.jpg																								
+2	100		401							1	201																							
+3	2		201							1	1021001																							
+4	3		301			DialogEnable				1	Lucia	Who are you... And why do you know me?	1																					
+5	4		201							1	1101001																							
+6	5		301							1	???	...																						
+7	6		202							1	2				1																			
+8	7		201							1	1081001	1	-400																					
+9	8		201							2	1021001		400																					
+10	9		301							1	Kamui	Hey, Watanabe! Long time no see!	1																					
+11	10		301								Lucia	Wata... nabe?	2																					
+12	11		301								Kamui	We trained together for a while in the beginning and Watanabe was in our group.	1																					
+13	12		301								Kamui	Did you forget that too?	1																					
+14	13		301								Lucia	...	2																					
+15	14		202							1	2				1																			
+16	15		201							1	1101001																							
+17	16		301							1	Watanabe	It doesn't matter, I'm glad to cut all ties with you Babylonians.	1																					
+18	17		301								Watanabe	You guys should be glad that it's just me here, if it were my comrades, they'd have cut you into pieces by now.	1																					
+19	18		201							1	1031001	7																						
+20	19		301							1	Liv	...!	1																					
+21	20		204							1																								
+22	21		203							1	0.25	400																						
+23	22		201							2	1101001		-400																					
+24	23		301							1	Watanabe	No need to be so surprised, missy.	2																					
+25	24		301				AniZhuanchangBegin				Watanabe	If you knew what those people up in Babylonia did to us soldiers of the past...	2																					
+26	25		202							1	2				1																			
+27	26		101							Assets/Product/Texture/Image/BgCg/Cg408_1.jpg																								
+28	27		301			AniZhuanchangEnd					Liv	According to historical records, during the big evacuation, the World Government at that time did abandon some Ground Forces...																						
+29	28		301								Liv	These troops cut their connections with Babylonia, and only recently surfaced again as the "Forsaken".																						
+30	29		301				AniZhuanchangBegin				Liv	And you, Mr. Watanabe, chose to join their forces as a Construct from Babylonia... and was listed as a defected Construct...																						
+31	30		101							Assets/Product/Texture/Image/BgStory/BgStory28.jpg																								
+32	31		201							1	1101001		-400																					
+33	32		201							2	1031001		400																					
+34	33		301			AniZhuanchangEnd				1	Watanabe	You know a lot, little girl... You must be their most advanced Support Construct.	1																					
+35	34		301								Liv	Ugh...	2																					
+36	35		301								Watanabe	Looks like being able to see you with my own eyes means I didn't let you guys go in vain.	1																					
+37	36		204							2	6																							
+38	37		301								Liv	Um...	2																					
+39	38		202							1	2				1																			
+40	39		201							1	1021001																							
+41	40		301							1	Lucia	Stay away from Liv.	1																					
+42	41		201							1	1101001																							
+43	42		301							1	Watanabe	...	1																					
+44	43		301								Watanabe	Lucia, is this your new commandant?	1																					
+45	44		301									Watanabe tries to step forward, but Lee raises his gun and points the barrel at Watanabe's head.																						
+46	45		301								Watanabe	You once helped me out, Lucia. Even though it was trivial...	1																					
+47	46		301								Watanabe	However, I still want to express my gratitude. That way, I won't be in debt to either of you.	1																					
+48	47		204							1	1																							
+49	48		301								Watanabe	Here, it's a gift.	1																					
+50	49		301									Watanabe takes out a white box and hands it over.																						
+51	50		302								(Accept.)	53	(Decline.)	51																				
+52	51		204							1																								
+53	52		301									Watanabe insists on handing over the box.																						
+54	53		301								Watanabe	This is a specialty of this desert area, an unnamed wild mint.	1																					
+55	54		301									Watanabe starts chewing on a mint leaf.																						
+56	55		301								Watanabe	We have it as a snack or to make tea... Sure beats the heat walking in the desert.	1																					
+57	56		201							1	1031001	1																						
+58	57		301							1	Liv	Sure smells strong... The commandant looks a bit more awake just by smelling it, hehe.	1																					
+59	58		201							1	1101001	1																						
+60	59		301							1	Watanabe	See what I mean?	1																					
+61	60		201							1	1011001	10																						
+62	61		301		1		AniZhuanchangBegin			1	Lee	...	1																					

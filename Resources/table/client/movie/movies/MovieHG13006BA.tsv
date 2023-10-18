@@ -1,0 +1,118 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory51.jpg																								
+2	2		401							1	148																							
+3	3		201							1	500506	16																						
+4	4		301			DialogEnable				1		When Noan turns to the last page, it is already late in the night.																						
+5	5		204							1																								
+6	6		301								Noan	...Commandant? We need to go.	1																					
+7	7		301									He calls softly, but the human is still deep asleep.																						
+8	8		301								Noan	...Commandant?	1																					
+9	9		301								Noan	Commandant... You can't stay here too long. You should rest in your own lounge, or Gray Raven's preparation room.	1																					
+10	10		301									He tries to wake the commandant up again, but nothing happens.																						
+11	11		401							2	1543																							
+12	12		301									Noan sighs with a smile. He gently puts the human on his back.																						
+13	13		401						200	2	1099																							
+14	14		301									He is about to go back to Gray Raven's preparation room, but the terminal suddenly rings. The vibration causes it to slip out of the human's hand.																						
+15	15		204							1	16																							
+16	16		301									Noan can guess who is calling without answering the call. The commandant called a sick leave but is still not back. There must be a lot of people worrying.																						
+17	17		204							1	11																							
+18	18		301								Noan	...	1																					
+19	19		204							1																								
+20	20		301									Even so, he still wishes nobody interrupts the commandant's rare, good sleep.																						
+21	21		301									He had problems sleeping before, so he knows how precious this moment is.																						
+22	22		301									He carefully picks up the terminal and turns off the ringing while keeping his balance.																						
+23	23		204							1																								
+24	24		301								Noan	...Where's the lounge?	1																					
+25	25		301								Noan	Um, I don't know where Gray Raven Commandant's lounge is... Forget it...	1																					
+26	26		301				AniZhuanchangBegin					Noan helps the human to get steady. He gently walks toward Gray Raven's preparation room.																						
+27	27		401			DialogDisable				2	1516																							
+28	28		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/Bgstory419.jpg																								
+29	29		301			DialogEnable						He avoids the surveillance in the safety path and returns to the square.																						
+30	30		301									The person on his back is breathing calmly.																						
+31	31		301									Compared with him, the human's body is soft and warm, trembling as he walks forward. A few hairs are scratching against his ear.																						
+32	32		204							1	11																							
+33	33		301								Noan	...	1																					
+34	34		204							1																								
+35	35		301									He checks again, but the human has no signs of waking up.																						
+36	36		301									Have you been too exhausted lately?																						
+37	37		301									Are you sleeping so deep because you haven't relaxed for a long time?																						
+38	38		301									Or...																						
+39	39		204							1	16																							
+40	40		301								Noan	...Are you really not scared of me?	1																					
+41	41		301									Ever since he started to use the "Noan" name again, many troubles have come back to him, making his awkward situation in Babylonia even worse.																						
+42	42		301									Which makes him fall back to the same state he had a few years ago.																						
+43	43		301									Noan knows it is not good, but whenever he is questioned or avoided by others, he would smile and try to change the topic out of instinct.																						
+44	44		301								Noan	It's been many years since I left the cargo team...	1																					
+45	45		301									Life in Asslam was harsh, but he could rely on others without being on guard. This peace of mind had always been his best way to relax.																						
+46	46		301									Like a wanderer in the night finally seeing a familiar light, he feels a nostalgic, calming emotion.																						
+47	47		301									If only he can stay a little longer in this relaxed moment. If only he can keep one person that is willing to trust him in this strange and lonely environment.																						
+48	48		301									He wants to stay with true friends and find his honesty, sincerity, and kindness back.																						
+49	49		301									Lillian once asked him when he just arrived in Babylonia...																						
+50	50		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+51	51		101							Assets/Product/Texture/Image/BgStory/BgStory17.jpg																								
+52	52		504							0.7																								
+53	53		201							1	500335																							
+54	54		301							1	Lillian	What are Babylonia and Dark Aries to you?	1																					
+55	55		301								Lillian	A prison? Or a temporary shelter?	1																					
+56	56		203							1	0.25	-400																						
+57	57		201							2	500506		400																					
+58	58		301							1	Noan	...Neither.	2																					
+59	59		301								Noan	To me, this is more like a training room for self-redemption. It is a journey to prove myself.	2																					
+60	60		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryWhiteNew.prefab	3																							
+61	61		101							Assets/Product/Texture/Image/BgStory/Bgstory419.jpg																								
+62	62		504							0																								
+63	63		202							1	2				1																			
+64	64		201							1	500506	16				1																		
+65	65		301							1	Noan	Not just about the Ascendants, but also everything behind the name "Noan"...	1																					
+66	66		204							1																								
+67	67		301								Noan	I want to take this opportunity to stop running and hiding. I want to embrace the future with my original name and look.	1																					
+68	68		301				AniZhuanchangBegin					—Because that's the kind of life he likes.																						
+69	69		202							1					1																			
+70	70		502							DialogDisable																								
+71	71		401							1	36																							
+72	72		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/BgStory14.png																								
+73	73		301			DialogEnable						Noan knocks on the door of Gray Raven's preparation room, but nobody answers. He carefully walks in.																						
+74	74		401							2	1516																							
+75	75		201							1	500506																							
+76	76		301							1	Noan	Where is Lee...? Nobody is here...	1																					
+77	77		301									He was prepared to receive a reprimand. Now he finally lets out a sigh of relief.																						
+78	78		301								Noan	...Alright. Next...	1																					
+79	79		203							1	0.5		-50																					
+80	80		401							2	1543																							
+81	81		301									He gets down on one knee and puts down the person behind with extremely slow and gentle action.																						
+82	82		301									He then finds the commandant's coat and covers the human with it.																						
+83	83		301								Noan	...	1																					
+84	84		301									The time displayed on the terminal has gone past 12:00 a.m.																						
+85	85		301									Time is running out. He must return to the library and put on his "shackle."																						
+86	86		301								Noan	...	1																					
+87	87		301									He would like to stay a little longer in this calm moment.																						
+88	88		301									Noan spreads out the coat and gently moves the human's hairs near the eyelashes behind ears.																						
+89	89		203							1	0.2																							
+90	90		301				AniZhuanchangBegin					He quietly gets up and leaves.																						
+91	91		502							DialogDisable																								
+92	92		202						300	1					1																			
+93	93		101				AniZhuanchangEnd			Assets/Product/Texture/Image/BgStory/Bgstory459.jpg																								
+94	94		401							1	152																							
+95	95		301			DialogEnable						When he returns to the deceitful night in the library, everything still looks the same.																						
+96	96		301									He hears someone shouting on the other side of the square. Another team of Constructs is rushing to battle.																						
+97	97		301									—"We need a few more. It's an emergency!"																						
+98	98		301									—"Leave that alone! They need our help!"																						
+99	99		201							1	500506																							
+100	100		301							1	Noan	...	1																					
+101	101		301									They are igniting themselves in the battle.																						
+102	102		301									But the library is so quiet, as if it has never been visited by anyone.																						
+103	103		301									Only the wrist band is witnessing the impulsive trip he had earlier.																						
+104	104		204							1	11																							
+105	105		301									If he just leaves this shackle here and blends in with those going to the battlefield, will he gain the freedom that he has always wanted?																						
+106	106		301								Noan	...Yeah.	1																					
+107	107		204							1	2																							
+108	108		301								Noan	But freedom always comes at a price.	1																					
+109	109		401							2	952																							
+110	110		204							1	16																							
+111	111		301									Noan takes the tagged wrist band and puts it on himself again.																						
+112	112		204							1																								
+113	113		301									He gazes at the crowd as they run, knowing that someone who is willing to trust him is having a deep sleep.																						
+114	114		301									For that trust, he will endure until he proves himself.																						
+115	115		204							1	1																							
+116	116		301								Noan	...Good night, Commandant.	1																					
+117	117		301		1		AniZhuanchangBegin					He smiles like a spark in the night.																						

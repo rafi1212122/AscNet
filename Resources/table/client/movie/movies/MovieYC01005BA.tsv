@@ -1,0 +1,31 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory125.png																								
+2	2		401							1	201																							
+3	3		201							1	500127		400																					
+4	4		201							2	500124	9	-400																					
+5	5		301			DialogEnable				1	Changyu	Tsk—	2																					
+6	6		301								Changyu	Sophia...	2																					
+7	7		301								Changyu	I may have misjudged my condition...	2																					
+8	8		301								Sophia	I warned you.	1																					
+9	9		301								Changyu	Sorry, sorry...	2																					
+10	10		202							1	2																							
+11	11		201							1	1031001		400																					
+12	12		201							2	1021001	4	-400																					
+13	13		301							1	Lucia	Sophia, we'll take care of the rest from here.	2																					
+14	14		301								Lucia	You should retreat with the injured.	2																					
+15	15		301								Liv	Changyu's situation is a bit dire and requires emergency maintenance.	1																					
+16	16		202							1	2				1																			
+17	17		201							1	500127	5	400																					
+18	18		201							2	1011001		-400																					
+19	19		301							1	Sophia	...There are still a lot of Corrupted around though.	1																					
+20	20		301								Sophia	You will be in danger.	1																					
+21	21		204							1																								
+22	22		204							2	10																							
+23	23		301								Lee	Having an injured person here will just hinder our performance, this is our best option.	2																					
+24	24		201							2	1031001	1	-400																					
+25	25		301							1	Liv	Don't worry, we'll protect everyone. Sophia, you need to bring Changyu back for maintenance.	2																					
+26	26		301								Sophia	I understand, I'll take Changyu back to carriages first.	1																					
+27	27		301								Sophia	Gray Raven, please be careful.	1																					
+28	28		301								Sophia	I'll return immediately after taking care of Changyu.	1																					
+29	29		201							2	1021001	4	-400																					
+30	30		301		1		AniZhuanchangBegin			1	Lucia	All right, let's move out.	2																					

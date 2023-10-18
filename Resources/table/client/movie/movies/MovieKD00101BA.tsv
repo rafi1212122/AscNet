@@ -1,0 +1,59 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory4.jpg																								
+2	2		401							1	201																							
+3	3		301			DialogEnable						In the ashen city, a girl sits on a broken beam in front of the ruins, her head swinging from one side to the other as she recites dialogues from who-knows-where.																						
+4	4		201							1	500091																							
+5	5		301							1	Nanami	Even though we are in this apocalyptic urban jungle, and it is not an easy quest, we still have to gain it!	1																					
+6	6		203							1	0.25	400																						
+7	7		201							2	500211		-500																					
+8	8		301							1	Martin	Gain what?	2																					
+9	9		204							1	1																							
+10	10		301								Nanami	Victory! I mean victory!	1																					
+11	11		301									She jumps down from the ruins, nodding with her hands on her hips.																						
+12	12		301									Beside her are some mechanoids who somehow show no signs of infection.																						
+13	13		401							1	205																							
+14	14		301								Martin	So... Why did you call a bunch of mechanoids here all of a sudden?	2																					
+15	15		301								Nanami	No, you're doing it wrong! We should start with introductions. Hi, I'm Nanami, nice to meet you!	1																					
+16	16		301								Martin	Well, I'm Martin...	2																					
+17	17		301								Nanami	Nooo, you are... you are a knight!	1																					
+18	18		301								Martin	Knight? What knight?	2																					
+19	19		301								Nanami	The knight I appointed! Just now!	1																					
+20	20		301								Martin	...Right.	2																					
+21	21		301								Nanami	Archer—Rohacchi!	1																					
+22	22		203							1	0.25	100																						
+23	23		203							2	0.25	-700																						
+24	24		201							3	500084		700																					
+25	25		301							1	Rohacchi	Rohacchi, an archer.	3																					
+26	26		301								Nanami	There seems to be a medieval roleplaying game somewhere in the M.I.N.D. What's it called? I remembered the keyword is... right, it's assassins!	1																					
+27	27		202							1	2	3			1																			
+28	28		301								Mechanoid	...																						
+29	29		201							1	500091	1																						
+30	30		301							1	Nanami	Good, you are the assassins. What else... Hmm... Guard!	1																					
+31	31		301								Nanami	That one over there, right, you're the guard!	1																					
+32	32		202							1					1																			
+33	33		301								Musashi VI?	...																						
+34	34		201							1	500091		100																					
+35	35		201							2	500211		-700																					
+36	36		201							3	500084		700																					
+37	37		301							1	Martin	It seems that your "third partner" can't understand what you're saying...	2																					
+38	38		301								Nanami	Don't worry about it!	1																					
+39	39		301								Nanami	Anyway, can you see the tower over there?	1																					
+40	40		301									She points at a gray tower behind her, its spire hidden in the cloudy sky, its top concealed.																						
+41	41		301								Martin	You are not climbing that, are you?	2																					
+42	42		204							1	1																							
+43	43		301								Nanami	You got me! Come on, Nanami's army, let's march to the top of the tower!	1																					
+44	44		301								Martin	So, is this some kind of roleplaying game...	2																					
+45	45		301								Nanami	It should have a name. How about "50 Levels of Gray Tower"?	1																					
+46	46		301								Rohacchi	Do Rohacchi, go too?	3																					
+47	47		301								Nanami	All of you are going!	1																					
+48	48		301									Nanami puts her hand up, and the mechanoids around her respond by gently swaying along with her movement.																						
+49	49		301								Nanami	The path to victory is to strategically capture each level of the Gray Tower and save the trapped princess...	1																					
+50	50		301								Martin	Is there a real princess up there?	2																					
+51	51		301								Nanami	Maybe! It has to be something special, nonetheless!	1																					
+52	52		301								Rohacchi	As long as, I stay with you.	3																					
+53	53		301								Martin	I guess I'll treat it as cleaning up the city...	2																					
+54	54		202							1	2	3			1																			
+55	55		301								Musashi VI?	...																						
+56	56		201							1	500091	1																						
+57	57		301							1	Nanami	Great!	1																					
+58	58		301		1		AniZhuanchangBegin				Nanami	So, say goodbye to this place! We'll be victorious with our might and skills! Nanami's army, charge!	1																					

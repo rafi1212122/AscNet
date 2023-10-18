@@ -1,0 +1,82 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory264.png																								
+2	2		401							1	102																							
+3	3		302								At long last...																							
+4	4		201							1	1031001		-600																					
+5	5		201							2	500026		600																					
+6	6		201							3	500166																							
+7	7		301			DialogEnable				1	Lee	So... this is... virtual space...	2																					
+8	8		301								Lucia	It's different from both reality and virtual reality—how astonishing.	3																					
+9	9		302								I don't feel a thing.	10	What's the matter, Lucia?	10	Astonishing?	19																		
+10	10		301								Lucia	We went through the immersion process only to find ourselves somewhere like Babylonia... The sense of discrepancy is exhilarating.	3																					
+11	11		301								Lee	I know what you mean. Why does the Spear of F.O.S. turn the virtual space into Babylonia?	2																					
+12	12		202							1	2	3			1																			
+13	13		201							1	500004																							
+14	14		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+15	15		301							1	Asimov	The visual translation from the Spear of F.O.S. references the cognitive data of the "individual," which means you are the ones who think "Babylonia" is the closest visual approximation of "Gestalt".	1																					
+16	16	24	301								Asimov	Based on the nature of the mission, Lee's [Computing Power] should be plenty advantageous here.	1																					
+17	17		301								Lucia	This place obviously looks like Babylonia... But something feels off.	3																					
+18	18		301								Lee	...This is clearly Parliament Square, but there's no one here.	2																					
+19	19		202							1	2	3			1																			
+20	20		201							1	500004																							
+21	21		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+22	22		301							1	Asimov	Of course. This is essentially the operation architecture of Gestalt. It should be largely empty except for some programs performing single tasks, which you cognitively perceive as "humans" or "Constructs".	1																					
+23	23		301								Asimov	Based on the nature of the mission, Lee's [Computing Power] should be plenty advantageous here.	1																					
+24	24		301								Asimov	In short, this mission will rely on Lee's computing power to provide the commandant with accurate references necessary for decision-making.	1																					
+25	25		301								Asimov	This issue isn't something that can be solved by an anti-virus program. You need to locate the intrusion point.	1																					
+26	26		301								Asimov	If we can't fix Gestalt's internal problems, we won't be able to do anything externally.	1																					
+27	27		301				AniZhuanchangBegin				Asimov	Your mission is to keep Babylonia afloat.	1																					
+28	28		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+29	29		202							1	2	3			1																			
+30	30		101							Assets/Product/Texture/Image/BgStory/Bgstory277.png																								
+31	31		401							1	202																							
+32	32		301			AniZhuanchangEnd					Huaxu	Everything is going according to plan. We have control over most of Gestalt's operation modules, and we have completely blocked its ability to control Babylonia's power.																						
+33	33		301								Huaxu	Babylonia will crash-land in seventeen hours as estimated.																						
+34	34		201							1	500008																							
+35	35		301							1	Roland	Ah, not too shabby.	1																					
+36	36		301								Roland	Once Babylonia crashes into the ground, it'll be no different from an ordinary settlement to us.	1																					
+37	37		201							1	500101																							
+38	38		301							1	Gabriel	Should we get moving, Miss Luna?	1																					
+39	39		201							1	500100																							
+40	40		301							1	α	...	1																					
+41	41		201							1	500238																							
+42	42		301							1	Luna	Do I need to explain to you what you have to do?	1																					
+43	43		201							1	500008																							
+44	44		301							1	Roland	I see. Well, I'll get going.	1																					
+45	45		201							1	500165																							
+46	46		301							1	Lamia	I'll... I'll gather the Corrupted...	1																					
+47	47		201							1	500238																							
+48	48		301							1	Luna	Sister.	1																					
+49	49		201							1	500100																							
+50	50		301							1	α	...Got it. I'll wait at the potential crash site.	1																					
+51	51		201							1	500238																							
+52	52		301							1	Luna	Good. Do so.	1																					
+53	53		301								Luna	Gabriel, you'll block their signals, then.	1																					
+54	54		201							1	500101																							
+55	55		301							1	Gabriel	...Understood.	1																					
+56	56		201							1	500238																							
+57	57		301							1	Luna	Get going.	1																					
+58	58		202							1					1																			
+59	59		301									...																						
+60	60		301								Huaxu	Tone signatures different from previous records have been detected in the speech patterns of Gabriel and Roland.																						
+61	61		201							1	500238																							
+62	62		301							1	Luna	What are you trying to say?	1																					
+63	63		301								Huaxu	I am only informing you.																						
+64	64		301								Luna	...That's none of your business.	1																					
+65	65		301								Huaxu	I see. In that case, I will continue the infiltration program.																						
+66	66		301								Luna	Synchronize everyone's comms with the predicted crash site.	1																					
+67	67		301								Huaxu	Understood.																						
+68	68		301								Luna	Sister.	1																					
+69	69		201							1	500100																							
+70	70		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+71	71		301							1	α	Yes?	1																					
+72	72		301								α	What is it?	1																					
+73	73		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+74	74		201							1	500238																							
+75	75		301							1	Luna	Be careful.	1																					
+76	76		201							1	500100																							
+77	77		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+78	78		301							1	α	I will. Why are you telling me this?	1																					
+79	79		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+80	80		201							1	500238																							
+81	81		301		1		AniZhuanchangBegin			1	Luna	...I just wanted to, that's all.	1																					

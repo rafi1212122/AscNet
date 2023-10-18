@@ -1,0 +1,63 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+2	2		401							1	206																							
+3	3		301			DialogEnable	AniZhuanchangBegin				Bianca	It's over.																						
+4	4		101							Assets/Product/Texture/Image/BgCg/Cg1001_3.jpg																								
+5	5		301			AniZhuanchangEnd						As the arrow hits its mark, a crack spreads on its body like a spiderweb at lightning speed until the Rail Heterozygote disintegrates into nothing but sand, seeping through the gaps onto the railway.																						
+6	6		301								Sophia	Wonderful... wonderful.																						
+7	7		301								Sophia	That's... wonderful.																						
+8	8		302								It's all thanks to everyone.	9	It's all thanks to Bianca.	11																				
+9	9		301								Lucia	I never thought we could really win against that enemy.																						
+10	10	14	301				AniZhuanchangBegin				Liv	Everyone's safe... Thank goodness...																						
+11	11		301								Lee	That arrow, it's not just a one-time thing, is it?																						
+12	12		301								Bianca	I think it is, in truth, I am already quite tired...																						
+13	13		301				AniZhuanchangBegin				Liv	M-miss Bianca! Are you all right?! Please refrain from moving, I'll carry out a full examination immediately!																						
+14	14		101							Assets/Product/Texture/Image/BgStory/Bgstory134.png																								
+15	15		201							1	500125	2																						
+16	16		301			AniZhuanchangEnd				1	Jamilah	Looks like it's finally over. What a fantastic display... both the battle and Bianca's final strike.	1																					
+17	17		204							1	1																							
+18	18		301								Jamilah	How about a deal, then? We will provide intel and products that Babylonia will find satisfactory, and in return, you and your team will join us, Gray Raven Commandant.	1																					
+19	19		302							1000	I don't intend to jump ship.	22	It's not up to me.	23																				
+20	20		204							1	13																							
+21	21		303							1000																								
+22	22	24	301								Jamilah	Is our price not acceptable? I'd recommend against underestimating what Akdilek can do... Should we talk about it some more?	1																					
+23	23		301								Jamilah	Trying to shrug off my offer? Fine...	1																					
+24	24		201							1	500128																							
+25	25		301							1	Bianca	Babylonia actually can afford new residents after its expansion. The President is happy to welcome you all there.	1																					
+26	26		201							1	500125	1																						
+27	27		301							1	Jamilah	I don't think so. We should stay here, right?	1																					
+28	28		202							1					1																			
+29	29		301								Commoner A	Right, we'll all stay here.																						
+30	30		301								Commoner B	That's what we decided, isn't it?																						
+31	31		301								Aristocrat A	Where's Ashlar, by the way?																						
+32	32		301								Aristocrat B	Whatever. He's been manipulating us since the beginning... I wonder if the Ascendants have promised him something in return?																						
+33	33		201							1	500127																							
+34	34		301							1	Sophia	Everyone on Akdilek will stay on the Eternal Engine and go forward together.	1																					
+35	35		301								Sophia	No matter how long and how much work it will take, I will never, NEVER stop until I fulfill my promise to myself... to take the train to the end of the line, to the "final station."	1																					
+36	36		302								I... can do that as well!	37																						
+37	37		301								Sophia	I can't help but feel like it will come true now that you have said so...	1																					
+38	38		301								Sophia	Commandant. Can I call you Commandant?	1																					
+39	39		302								Haven't you been doing that already?	40	If you'd like to.	40																				
+40	40		301								Sophia	Thanks, Commandant!	1																					
+41	41		201							1	1021001																							
+42	42		301							1	Lucia	In that case, let's upload our report here, Commandant. The signal's better at this spot.	1																					
+43	43		202							1					1																			
+44	44		301									(Your comms suddenly rings.)																						
+45	45		201							1	500011																							
+46	46		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+47	47		301							1	Hassen	Thanks for your hard work, Gray Raven Commandant.	1																					
+48	48		301								Hassen	I've received your mission report. I didn't think you'd finish it in such a short time! Guess I made the right call assigning it to you.	1																					
+49	49		301								Hassen	Unfortunately, there's something I have to tell you...	1																					
+50	50		302								Another mission? Already?	51																						
+51	51		301								Hassen	Haha! Of course not. I'm not that cruel.	1																					
+52	52		301								Hassen	I'm just here to tell you that we're almost done clearing the surface. Other team are on their way to you.	1																					
+53	53		301								Hassen	So you'll have to stay on the train for now until the they are there to pick you up.	1																					
+54	54		301								Hassen	I'll notify you when that happens.	1																					
+55	55		301								Hassen	Take the chance to enjoy your "exotic" journey! (Laughs) This is your break, after all.	1																					
+56	56		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+57	57		201							1	500125	1																						
+58	58		301							1	Jamilah	It appears that, Commandant, you are also quite a busy person...	1																					
+59	59		301								Jamilah	Take the chance to enjoy the "exotic locale"! (Laughs) This is your break, after all.	1																					
+60	60		301								Jamilah	The food and views on the Eternal Engine are also remarkable wonders.	1																					
+61	61		204							1	13																							
+62	62		301		1		AniZhuanchangBegin				Jamilah	Perhaps you will change your mind about my offer after you have experienced them.	1																					

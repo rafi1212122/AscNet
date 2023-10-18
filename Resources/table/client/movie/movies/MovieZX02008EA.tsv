@@ -1,0 +1,92 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory370.png																								
+2	2		401							1	45																							
+3	3		301			DialogEnable	DialogDisable					No. 21 stands in the entryway for a long time, not moving.																						
+4	4		302								...No. 21?	5																						
+5	5		302								21!	6																						
+6	6		201							1	500328	3																						
+7	7		301			DialogEnable				1	No. 21	...Huh?	1																					
+8	9		204							1																								
+9	10		301								No. 21	...Is that what human childhood looks like?	1																					
+10	11		301								No. 21	I... never experienced it.	1																					
+11	12		301								No. 21	I don't understand.	1																					
+12	13		301								No. 21	I don't think it's necessary, but it felt good.	1																					
+13	14		301								No. 21	My hands... my legs... and here...	1																					
+14	15		301									She touches her chest right above her heart and pats Buddy.																						
+15	16		301								No. 21	It felt... warm...	1																					
+16	17		301								No. 21	And... light... like I was going to float.	1																					
+17	18		301								No. 21	Like... sunbathing...	1																					
+18	19		302								It's called happiness.	20																						
+19	20		301								No. 21	Happiness?	1																					
+20	21		301								No. 21	Why would you feel happy? Are all childhoods happy?	1																					
+21	22		302								...	23																						
+22	23		204							1	3																							
+23	24		301								No. 21	I want it, but I also don't want it.	1																					
+24	25		302								Why?	26																						
+25	26		301								No. 21	I lost control.	1																					
+26	27		301								No. 21	...All I need to do is fight.	1																					
+27	28		202							1					1																			
+28	29		301									Despite wanting to say something, you cannot in the end. Everything you are about to say seems to be futile.																						
+29	30		301									The pure whiteness you saw in her M.I.N.D. flashes in your head...																						
+30	31		301									It was blankness. A past of nothingness.																						
+31	32		301									You do not get to say anything about her choices if you have not experienced her pain.																						
+32	33		301								???	——																						
+33	34		301			RImgBg1Shake						After a short break, the infuriating, painful feeling returns to you, followed by a scream of panic outside the house.																						
+34	35		201							1	500328																							
+35	36		301							1	No. 21	Hush.	1																					
+36	37		301									No. 21 listens carefully to the cry that has traveled through time.																						
+37	38		301								???	—Lucia!																						
+38	39		301									She hears it this time. It is a woman's cry, urgent and scared.																						
+39	40		301								???	Lucia! Don't come out! Take your sister upstairs!																						
+40	41		401							1	36																							
+41	42		301				DialogDisable					And then everything stops.																						
+42	43		501						220	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackNew.prefab	2																							
+43	44		401							2	558																							
+44	45		101							Assets/Product/Texture/Image/BgStory/Bgstory370.png																								
+45	46		505						300		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackNew.prefab																							
+46	47		202							1					1																			
+47	48		101						80	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+48	49		201							1	500328					1																		
+49	50		101						300	Assets/Product/Texture/Image/BgStory/Bgstory370.png																								
+50	51		501						220	Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackNew.prefab	2																							
+51	52		401							2	558																							
+52	53		505						400		Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryBlackNew.prefab																							
+53	54		202							1					1																			
+54	55		101						50	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+55	56		201							1	500031					1																		
+56	57		101						300	Assets/Product/Texture/Image/BgStory/Bgstory370.png																								
+57	58		202							1					1																			
+58	59		401							2	825																							
+59	60		401							2	801																							
+60	61		101						50	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+61	62		201							1	500328					1																		
+62	63		101						200	Assets/Product/Texture/Image/BgStory/Bgstory370.png																								
+63	64		202							1					1																			
+64	65		101						50	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+65	66		201							1	500031					1																		
+66	67		101						100	Assets/Product/Texture/Image/BgStory/Bgstory370.png																								
+67	68		202							1					1																			
+68	69		101						50	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+69	70		201							1	500328					1																		
+70	71		101						90	Assets/Product/Texture/Image/BgStory/Bgstory370.png																								
+71	72		202							1					1																			
+72	73		101						50	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+73	74		201							1	500031	14				1																		
+74	75		101						80	Assets/Product/Texture/Image/BgStory/Bgstory370.png																								
+75	76		202							1					1																			
+76	77		101						50	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+77	78		201							1	500328					1																		
+78	79		101						70	Assets/Product/Texture/Image/BgStory/Bgstory370.png																								
+79	80		202							1					1																			
+80	81		101						1400	Assets/Product/Texture/Image/BgStory/BgStory0.png																								
+81	82		101							Assets/Product/Texture/Image/BgStory/Bgstory368.png																								
+82	83		201							1	500031	14				1																		
+83	84		401							1	53																							
+84	85		301			DialogEnable				1	??	L-Lucia...	1																					
+85	86		201							1	500032																							
+86	87		301							1	???	—Follow me!	1																					
+87	88		301									You begin to hear countless screams. Footsteps appear beside you, and you feel a force pushing you. Light, but resolute.																						
+88	89		301									That... is Lucia.																						
+89	90		301									You cannot help but start moving. The wind howls next to your face as fear and confusion are about to drown you.																						
+90	91		301									You open your eyes to find yourself at the end of the colorful corridor. In your palm is a small hand as the young Lucia holds you.																						
+91	92		301		1		AniZhuanchangBegin				???	Follow me—	1																					

@@ -1,0 +1,32 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory10.jpg																								
+2	1000		401			DialogEnable				1	202																							
+3	1001		401							2	10007502																							
+4	2		301			RImgBg1Shake						Boom—																						
+5	3		301				RImgBg1Shake					Continuous explosions echoes from behind the Gray Raven squad.																						
+6	1002		401							2	10007502																							
+7	4		201							1	1021001																							
+8	5		301							1	Lucia	Satellite imagery is useless now, Liv, we need a new route!	1																					
+9	6		201							1	1031001																							
+10	7		301							1	Liv	Okay! Scanning the geographical distribution and recalculating new routes!	1																					
+11	8		204							1	7																							
+12	9		301				AniZhuanchangBegin				Liv	Found one, let's go!	1																					
+13	100		202							1					1																			
+14	10		101							Assets/Product/Texture/Image/BgStory/BgStory19.jpg																								
+15	12		301			AniZhuanchangEnd	RImgBg1Shake					……																						
+16	1003		401	1						2	10007502																							
+17	13		201							1	1021001		-400																					
+18	14		201							2	1031001		400																					
+19	15		301							1	Lucia	This is a... subway station?	1																					
+20	16		301								Liv	Yes, it's the only path around here.	2																					
+21	17		202							1	2				1																			
+22	18		201							1	1011001																							
+23	19		301							1	Lee	Subway... normally a low viral density area... but the readings here are abnormally high.	1																					
+24	20		301								Lee	That must be why the Iron Maiden was so difficult to trace. She must have hidden herself underground.	1																					
+25	21		201							1	1021001																							
+26	22		301							1	Lucia	It's not safe around here. If we don't find an exit before it collapses...	1																					
+27	23		201							1	1011001																							
+28	24		301							1	Lee	Lucia, there's a unique Corrupted signal moving toward us at high speed!	1																					
+29	25		201							1	1021001																							
+30	26		301							1	Lucia	Got it...	1																					
+31	27		301		1		AniZhuanchangBegin				Lucia	Clean this area up and prepare for engagement!	1																					

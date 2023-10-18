@@ -1,0 +1,107 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory126.png																								
+2	2		401							1	210																							
+3	3		301			DialogEnable						The wheels turn and hit the rails like a rhythmic heartbeat. The wind howls as it presses against the sealed windows.																						
+4	4		301									The sky darkens, and the warm, yellow glow of the moon melts into the night sky, peeking through the gentle clouds, sprinkling bits of its glow throughout the carriages.																						
+5	5		301									Lee tilts his head as he leans on a table, maintaining his pistols. Liv gazes outside the windows, while Lucia sits beside her, lost in thought.																						
+6	6		301									After the earlier rain comes a rare period of quiet. Bianca stands up and pulls her blonde hair back, then she breaks the silence.																						
+7	7		201							1	500128																							
+8	8		301							1	Bianca	I'll be departing this train now that my mission is completed.	1																					
+9	9		302								I see. Thank you for your hard work.	10	Aren't you going to stay with us?	11																				
+10	10	13	301								Bianca	Don't mention it.	1																					
+11	11		301								Bianca	Returning with the rest of the force?	1																					
+12	12		301								Bianca	...No, I don't think I will.	1																					
+13	13		201							1	500026																							
+14	14		301							1	Lee	Anyway, we just have to wait for Babylonia to pick us up.	1																					
+15	15		301								Lee	From the progress report I just received, the other teams should be wrapping up the battlefield cleanup.	1																					
+16	16		302								Right. I hope it's smooth sailing from here on out.	17	I really have to get some rest after we're done here...	17																				
+17	17		202							1					1																			
+18	18		401							2	1503																							
+19	19		401							1	201																							
+20	20		301			RImgBg1Shake						Suddenly, the train shakes violently, and the force catches all of you off guard, sweeping you off your feet.																						
+21	21		201							1	1021001																							
+22	22		301							1	Lucia	Watch out, Commandant! Everyone, prepare for hostiles! Liv, are there remaining Corrupted in the area?	1																					
+23	23		201							1	1031001																							
+24	24		301							1	Liv	Nothing in our line of sight!	1																					
+25	25		201							1	500026																							
+26	26		301							1	Lee	...Commandant, perhaps don't jinx it next time.	1																					
+27	27		202							1					1																			
+28	28		301									The train quiets down again after the commotion. Before you can settle down, the untimely ringtone of your comms echos inside the carriage.																						
+29	29		302								(Connect)	30																						
+30	30		201							1	500001																							
+31	31		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+32	32		301							1	Celica	Hello, Gray Raven Commandant! This is Celica speaking. Thanks for your remarkable work this time. The folks upstairs are quite pleased with your team's efforts.	1																					
+33	33		301								Celica	This wasn't an easy mission. The Heterozygote spread faster than we expected, so you've done a great job containing the damage—	1																					
+34	34		302								Thanks.	35	I've got a bad feeling about this...	35																				
+35	35		301								Celica	Up until 3 minutes 28 seconds ago, the Eternal Engine has had 11 of its carriages damaged, 4 of which are in critical conditions. We are expecting it to stop running in 4 days, 14 hours, and 3 minutes.	1																					
+36	36		302								Guess we didn't catch them all.	37	...	37																				
+37	37		301								Celica	Gray Raven Commandant.	1																					
+38	38		301								Celica	After our discussion, Akdilek has decided to carry out an emergency repair. As their forces have significantly diminished from the battle, the Gray Ravens will be providing them combat and technical assistance.	1																					
+39	39		301								Celica	For more details, you can talk to the person in charge.	1																					
+40	40		302								Who's that?	41	It can't be...	41																				
+41	41		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+42	42		201							1	500127																							
+43	43		301							1	Sophia	Commandant.	1																					
+44	44		302								You've just been through hell. Are you good to do this?	45	How long have you been here?!	47																				
+45	45		301								Sophia	I'm good.	1																					
+46	46		301								Sophia	I'm rested and recalibrated. Doing great. Repairing is what I'm good at.	1																					
+47	47		301								Sophia	...The whole time.	1																					
+48	48		302								If the order's coming from above...	49	I'm good with the arrangement.	49																				
+49	49		201							1	500001																							
+50	50		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																						
+51	51		301								Celica	Then we're counting on you, Commandant 【kuroname】.	1																					
+52	52		302								Alright.	53	So...	53																				
+53	53		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+54	54		201							1	1021001																							
+55	55		301							1	Lucia	Standing by.	1																					
+56	56		201							1	1031001																							
+57	57		301							1	Liv	At your orders, Commandant.	1																					
+58	58		201							1	500026																							
+59	59		301							1	Lee	I knew things were going too well... Let's get started.	1																					
+60	60		201							1	500128																							
+61	61		301							1	Bianca	...I don't have a new mission right now.	1																					
+62	62		301								Bianca	I can offer my help if you need it.	1																					
+63	63		302								(Look at Sophia)	64																						
+64	64		201							1	500127																							
+65	65		301							1	Sophia	The Eternal Engine runs on the fusion engine. If the fuel rod doesn't have sufficient contact with the stabilizing plates, the fusion reactor will fail.	1																					
+66	66		203							1	0.25	-400																						
+67	67		201							2	500026		400																					
+68	68		301							1	Lee	Which was why you had so many restrictions on the inspection process.	2																					
+69	69		301								Sophia	The main issue is that the train's parallel stabilizers are not working properly. All lifting operations cannot proceed when it's running.	1																					
+70	70		301								Lee	So, we'll have to stop the train and fix the stabilizers first.	2																					
+71	71		301									Sophia looks at Lee and nods.																						
+72	72		202							1	2				1																			
+73	73		201							1	1031001	7																						
+74	74		401							3	103003																							
+75	75		301							1	Liv	Ah! Is that...?	1																					
+76	76		202							1					1																			
+77	77		301									Liv's shout interrupts your train of thoughts, and you all follow her gaze and look outside.																						
+78	78		401							1	210																							
+79	79		301									You find a vast desert outside the windows of the speeding train. With no moon and clouds, the stars glisten before the backdrop of the inky night sky, showering the golden dunes with diamond-like reflections.																						
+80	80		302							565	It's the desert.	83	The first time I've seen a view like this.	84																				
+81	81		201							1	1021001																							
+82	82		303							565																								
+83	83	85	301							1	Lucia	This... is the desert?	1																					
+84	84		301							1	Lucia	Me too...	1																					
+85	85		202							1					1																			
+86	86		301									Even the usually poised Bianca cannot help but lean toward the window, holding her breath and taking in the magnificent view.																						
+87	87		401							2	1509																							
+88	88		301									Moments later, the train begins to slightly tremble. You catch the barely noticeable sound of the engine, it huffing and puffing like an exhausted person, the mounting pressure on the verge of explosion.																						
+89	89		201							1	500127	10																						
+90	90		301							1	Sophia	Everyone. Time to work.	1																					
+91	91		302								Lee, you should assist Sophia.	92																						
+92	92		203							1	0.25	-400																						
+93	93		204							1																								
+94	94		201							2	500026		400																					
+95	95		301							1	Lee	...	2																					
+96	96		301								Sophia	...I accept.	1																					
+97	97		301								Lee	If she says so, then I'm good.	2																					
+98	98		301								Sophia	I'll send you the repair plans later.	1																					
+99	99		302								Liv, you're on combat preparations.	100																						
+100	100		202							1	2				1																			
+101	101		201							1	1031001																							
+102	102		401							3	103002																							
+103	103		301							1	Liv	Roger!	1																					
+104	104		302								Everyone else, with me.	105																						
+105	105		202							1					1																			
+106	106		301		1		AniZhuanchangBegin					Lucia draws her weapon while Bianca folds her arms, and she nods.																						

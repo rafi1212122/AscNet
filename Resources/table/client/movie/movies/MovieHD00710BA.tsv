@@ -1,0 +1,77 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+2	2		401							1	201																							
+3	3		201							1	1031001		-600																					
+4	4		201							2	500026		600																					
+5	5		201							3	500166																							
+6	6		301			DialogEnable				1	Lee	Are we still not connecting to Commandant's comms?	2																					
+7	7		301								Liv	(Nods) Commandant's location has stopped at the edge of City 015, 16 degrees away from the designated route.	1																					
+8	8		204							1	14																							
+9	9		301								Liv	Lucia... should we...	1																					
+10	10		301									Lucia shakes her head and puts her hand on Liv's shoulder.																						
+11	11		301								Lucia	Don't be rash. Let's wait for our order.	3																					
+12	12		301								Liv	But—I... understand.	1																					
+13	13		204							1																								
+14	14		301									Lucia's presence silently passes to Liv through her touch, and Liv calms down.																						
+15	15		301								Lucia	Lee, keep tracking.	3																					
+16	16		301								Lee	Got it.	2																					
+17	17		202							2																								
+18	18		301									Understanding what Lucia intends, Lee nods and leaves the laboratory.																						
+19	19		202							1	3				1																			
+20	20		201							1	500004																							
+21	21		301							1		The laboratory quiets down again. The two remaining Gray Ravens turn their gazes back to the occupied researcher in the room.																						
+22	22		301								Asimov	...	1																					
+23	23		301								Asimov	Even though I can't see you, you know you are staring, right?	1																					
+24	24		301									Asimov talks while his eyes still focus on the complicated projection in front of him.																						
+25	25		201							1	500166																							
+26	26		301							1	Lucia	Asimov, we are waiting for our order.	1																					
+27	27		201							1	500004																							
+28	28		301							1	Asimov	I'm not Hassen. I can't just find a bunch of random missions in my pocket and assign them to you, can I?	1																					
+29	29		301								Asimov	Although... hmm... There is something that concerns me.	1																					
+30	30		201							1	1031001		-400																					
+31	31		201							2	500166		400																					
+32	32		301							1	Liv	...Something that concerns you? Is Commandant...	1																					
+33	33		301								Lucia	What are you talking about?	2																					
+34	34		301								Liv	The last time we detected this signal... Wasn't that a while ago, Asimov?	1																					
+35	35		202							1	2				1																			
+36	36		201							1	500004																							
+37	37		301							1	Asimov	Hush. We'll talk about that later. The source... if we can locate the source of the signal... This is a remarkable discovery...	1																					
+38	38		301									Asimov holds his finger to his lips and shushes them.																						
+39	39		301								Asimov	Could it be...?!	1																					
+40	40		301								Asimov	...No, we're lacking some crucial data. But if we relocate the CUB, maybe we can...	1																					
+41	41		201							1	1031001		-400																					
+42	42		201							2	500166		400																					
+43	43		301							1	Liv	What kind of crucial data? Maybe... we can help?	1																					
+44	44		301									But Asimov has stopped talking.																						
+45	45		301								Liv	I guess Asimov is back into his researcher mode...	1																					
+46	46		301								Lucia	Let's leave him be.	2																					
+47	47		204							1	14																							
+48	48		301								Liv	Okay... Lucia, I'm worried... This is the first time Commandant goes on a mission this long on Earth alone...	1																					
+49	49		204							2	1																							
+50	50		301								Lucia	Don't worry. Commandant knows how to be careful. Plus, with Lee, you, and me here, we'll never let anything happen to Commandant.	2																					
+51	51		301								Lucia	Liv, let's focus on the task at hand. This is all we can do for now.	2																					
+52	52		204							1																								
+53	53		301								Liv	Understood! I know I can always count on you, Lucia...	1																					
+54	54		204							2																								
+55	55		301									Lucia suddenly lowers her voice and whispers to Liv.																						
+56	56		301								Lucia	Lee should have some new information. That way.	2																					
+57	57		301								Liv	It's their territory after all... Maybe they'll know where Commandant has gone...	1																					
+58	58		301									They look at each other, fully aware of who each other is talking about. They are about to leave the laboratory when Asimov stops them.																						
+59	59		202							1	2				1																			
+60	60		201							1	500004																							
+61	61		301							1	Asimov	Gray Raven, hold up.	1																					
+62	62		203							1	0.25	400																						
+63	63		201							2	1031001		-400																					
+64	64		301							1	Liv	A-Asimov, is something wrong?	2																					
+65	65		301								Asimov	If you're so eager to find your commandant...	1																					
+66	66		204							2	7																							
+67	67		301								Liv	(...Have Asimov found out about it?!)	2																					
+68	68		301								Asimov	I also don't want the commandant to run into any trouble on the surface, now that so much data has been collected.	1																					
+69	69		301								Liv	Eh...?	2																					
+70	70		204							2																								
+71	71		301								Asimov	I've got a job here that just got approved to assign... I'll leave it to you.	1																					
+72	72		202							1	2				1																			
+73	73		201							1	500166																							
+74	74		301							1	Lucia	Asimov... Thank you!	1																					
+75	75		202							1					1																			
+76	76		301		1		AniZhuanchangBegin					The three Gray Ravens salute Asimov, before giving each other a nod and running toward the mission rendezvous.																						

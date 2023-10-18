@@ -1,0 +1,70 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		401			AniZhuanchangEnd				1	207																							
+2	2		101							Assets/Product/Texture/Image/BgStory/BgStory16.jpg																								
+3	3		201							2	500012		-400																					
+4	4		201							3	500116		400																					
+5	5		301							1	Nikola	Despite some organizational hiccups, Construct Lucia passed all the required assessments.	2																					
+6	6		301							1	Technician	Do you mean to send her into combat, sir?	3																					
+7	7		301								Nikola	Yeah.	2																					
+8	8		301								Technician	That carries certain risks, sir. I'm sure with more observation...	3																					
+9	9		301								Nikola	We will never get real data if we don't deploy her. The Purifying Force exists for that exact eventuality.	2																					
+10	10		301									Understanding that Nikola had his mind set, the technician shakes her head and pulls up a selection of Military Construct files on the terminal.																						
+11	11		301								Technician	Understood. We're allocating new members to Gray Raven... Do you have any special considerations, sir?	3																					
+12	12		301								Nikola	A support-type is a must, and also an armored one... no, Kurono leadership can decide on the second member.	2																					
+13	13		301								Technician	Kurono? Why's that?	3																					
+14	14		301								Nikola	Just to be fair. They may have their own considerations on who to pair up with Lucia.	2																					
+15	15		301								Technician	Understood. I will send the files to your office once the team members are confirmed.	3																					
+16	16		301				AniZhuanchangBegin				Nikola	Work fast.	2																					
+17	17		101							Assets/Product/Texture/Image/BgStory/BgStory17.jpg																								
+18	18		202							2	3				1																			
+19	19		301			AniZhuanchangEnd						One day, in the halls of Babylonia																						
+20	20		301									It was an important day. I felt my body tense and seize multiple times, as if I were an old machine with outdated servos.																						
+21	21		301									It was all because of a message from Commandant several days prior.																						
+22	22		301								Command Central	After careful consideration from the Command Central, we have decided to replenish Gray Raven's ranks, and start preparations for combat operations.																						
+23	23		301									Many more bureaucratic entries followed, but my attention was solely focused on the short, curt notice.																						
+24	24		301									Two reinforcing teammates were coming over, both with groundside combat experience. That is to say, we were combat-ready.																						
+25	25		301									I felt joy at the turn of events, but also worry about what Gray Raven would turn into.																						
+26	26		301									—At least, I hoped history wouldn't repeat itself.																						
+27	27		301				AniZhuanchangBegin					Just daydreaming here did me no good. At Commandant's reminder, I opened the office door.																						
+28	28		101							Assets/Product/Texture/Image/BgStory/Bgstory53.jpg																								
+29	29		301			AniZhuanchangEnd					???	I...																						
+30	30		201							2	1011001		-400																					
+31	31		201							3	1031001		400																					
+32	32		301							1		Two unfamiliar faces in the office turned towards me. Male, blue. Female, pink.																						
+33	33		301									I was at a loss for words, but such was the first impressions I had of my new teammates.																						
+34	34		301							1		The male Construct noticed me, but made no visible response, coolly appraising his surroundings.	2																					
+35	35		204							3	6																							
+36	36		301							1		The female Construct, however, kept fidgeting, shifting her position and posture. Whenever our eyes locked, hers would inevitably lower as her face reddened.	3																					
+37	37		301									Two individuals, clearly different from me, but bursting with personality.																						
+38	38		301									Commandant did not speak, and neither did they. I knew the burden of breaking the silence fell on my shoulders. If I didn't, Gray Raven would never spread its wings, and our story would never start.																						
+39	39		203							2	0.25	-600																						
+40	40		203							3	0.25	600																						
+41	41		201							1	1021001																							
+42	42		301				DialogDisable			1		So, I—																						
+43	43		202				RImgBg1DisableSlow			1	2	3																						
+44	44		101			RImgBg2Enable				Assets/Product/Texture/Image/BgCg/Cgqz1502.jpg																								
+45	46		301			DialogEnable					Lucia	Hello, my name is Lucia, frame designation BPL-01, Lotus, also the team leader of Gray Raven—																						
+46	47		301								Lucia	I look forward to working with you!																						
+47	48		301									I felt my M.I.N.D. destabilize as I spoke the words, even though no harm had come to me. I recognized the emotion as "embarrassment", but I resolved to finish the sentence nonetheless.																						
+48	49		301									After the stiff greeting, I felt my respiration resume without realizing it had halted in the first place. As Commandant started clapping slowly in the doorway, I was reaffirmed that I had done the right thing.																						
+49	50		301									Swept along by the emotions swirling in the office, the two Constructs spoke up. The male took the lead.																						
+50	51		301								Lee	My name is Lee, frame designation BPN-06, Palefire.																						
+51	52		301								Lee	My original team... is not important. I have been assigned to Gray Raven. Dual guns are my weapons of choice.																						
+52	53		301								Lee	I am equally adept at strategic planning and close combat.																						
+53	54		301									Lee, Palefire. The file identified him as an Attacker, same as me.																						
+54	55		301								Liv	My turn... um, my name is Liv, Support Construct.																						
+55	56		301								Liv	I came from Egret... my preferred weapons are levitated weapons platforms. I look forward to working together.																						
+56	57		301								Lee	What about your version?																						
+57	58		301								Liv	Oh... I'm sorry, designation BPN-08, Eclipse.																						
+58	59		301									Though a bit shy, Liv nonetheless finished her introduction.																						
+59	60		301								Lee	Egret, I see... the team well-known for their meticulous strategy...																						
+60	61		301									Lee visibly fell into a short computational cycle, as if seizing on freshly-gathered intelligence.																						
+61	62		301								Liv	Uh...																						
+62	63		301									It only served to exacerbate Liv's restlessness.																						
+63	64		301									Lucia, Lee, and Liv.																						
+64	65		301									Those were our names.																						
+65	66		301									Lotus, Palefire, and Eclipse.																						
+66	67		301									The codenames given to our frames.																						
+67	68		301									Katanas, dual guns, and levitating cannons.																						
+68	69		301									The weapons we wielded.																						
+69	70		301		1		AniZhuanchangBegin					This was the new Gray Raven.																						

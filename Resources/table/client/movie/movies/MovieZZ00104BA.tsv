@@ -1,0 +1,54 @@
+Id	ActionId	NextActionId	Type	IsBlock	IsEnd	BeginAnim	EndAnim	BeginDelay	EndDelay	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Params[10]	Params[11]	Params[12]	Params[13]	Params[14]	Params[15]	Params[16]	Params[17]	Params[18]	Params[19]	Params[20]	Params[21]	Params[22]	Params[23]	Params[24]	Params[25]
+1	1		101			AniZhuanchangEnd				Assets/Product/Texture/Image/BgStory/Bgstory96.png																								
+2	2		401							1	101																							
+3	3		301			DialogEnable					-AI-	Virtual combat has ended. Result calculations complete. Low enemy elimination rate... Mission failed.																						
+4	4		301								-AI-	Recommended Stategy: Lotus has sustained heavy injuries. Use her to lure in enemies and destroy them with an area attack.																						
+5	5		302								Denied.	6																						
+6	6		301								-AI-	Why? This is the only option for maximizing efficiency to yield the most optimal results.																						
+7	7		302								No. There must be another way.	8																						
+8	8		201							1	500004																							
+9	9		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab	2	1																						
+10	10		301							1	Asimov	I should remind you, this is the final stage of the battle. Upon completion, the virtual team will disappear and nothing will remain.	1																					
+11	11		301							1	Asimov	Perhaps, you should listen to the recommended strategy, but I won't stand in your way.	1																					
+12	12		301							1	Asimov	After all... our goal is to push the system to its limits. Use whichever strategy you deem the best.	1																					
+13	13		302								Got it.	14																						
+14	14		202							1																								
+15	15		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+16	16		301								-AI-	Only the final elite enemy remains. Our team has suffered no casualties, but combat power has been depleted. Command system paralyzed and unable to give orders.																						
+17	17		302								That's... enough.	18																						
+18	18		301								-AI-	Do you wish to proceed according to the original strategic recommendation?																						
+19	19		302								That will not be necessary.	20																						
+20	20		201							1	500013																							
+21	21		301							1	Elite Enemy	…???	1																					
+22	22		201							1	1111001	5																						
+23	23		401							2	10007501																							
+24	24		301							1	Blast	Get blown to smithereens!	1																					
+25	25		301								-AI-	Blast's attack has destroyed the enemy's foothold, causing the enemy to lose balance.																						
+26	26		201							1	1081001																							
+27	27		401							2	10006001																							
+28	28		301							1	Bastion	Haha! My turn!	1																					
+29	29		301								-AI-	Bastion has pinned down the elite enemy. Bastion has offset the close-ranged attacks with his shield. However, his shield is nearing its breaking point.																						
+30	30		201							1	500128																							
+31	31		401							2	10004001																							
+32	32		301							1	Veritas	Repent!	1																					
+33	33		301								-AI-	Veritas' arrows have pinned the elite enemy to the ground, allowing Bastion to withdraw.																						
+34	34		302								Checkmate.	35																						
+35	35		201							1	1021001																							
+36	36		401							2	10002001																							
+37	37		301							1	Lotus	The flaming lotus will end everything!	1																					
+38	38		201							1	500013																							
+39	39		301			PanelActor1Shake				1	Elite Enemy	!?!?!?!?	1																					
+40	40		202							1																								
+41	41		301								-AI-	The elite enemy has been vanquished. Combat complete. Casualties... zero.																						
+42	42		301								-AI-	Combat performance has exceeded expectations. Re-evaluating...																						
+43	43		302								This is the other way.	44																						
+44	44		301								-AI-	The other... way...																						
+45	45		201							1	500004																							
+46	46		501							Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab	2	1																						
+47	47		301								Asimov	What can I say, you really are something. The data we collected exceeded our expectations. This stage of testing is complete.	1																					
+48	48		301								Asimov	The test data from this test will be cleared and I will adjust the system accordingly. Come back again next week. Have a good one.	1																					
+49	49		202							1																								
+50	50		505								Assets/Product/Effect/Prefab/FxUi/FxUiStoryNew/FxUiStoryTongxunHalfNew.prefab		1																					
+51	51		302								Alright... See you next time.	52																						
+52	1000		201							1	1021001																							
+53	52		301		1		AniZhuanchangBegin			1	Lotus	We'll... meet again.	1																					
