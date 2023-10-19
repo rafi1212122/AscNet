@@ -121,7 +121,7 @@ namespace AscNet.SDKServer.Controllers
                     });
                 }
 
-                Player player = Player.FromId(account.Uid);
+                Player player = Player.FromPlayerId(account.Uid);
 
                 LoginGate gate = new()
                 {

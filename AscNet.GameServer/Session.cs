@@ -15,6 +15,8 @@ namespace AscNet.GameServer
         public readonly string id;
         public readonly TcpClient client;
         public Player player = default!;
+        public Character character = default!;
+        public Stage stage = default!;
         public readonly Logger log;
         private long lastPacketTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
         private ushort packetNo = 0;

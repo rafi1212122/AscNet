@@ -1,6 +1,9 @@
 ﻿using System.Reflection;
+using AscNet.Common.Database;
 using MongoDB.Driver;
 using Config.Net;
+using MongoDB.Bson.Serialization;
+using MongoDB.Bson.Serialization.Options;
 using Newtonsoft.Json;
 
 namespace AscNet.Common
@@ -14,6 +17,7 @@ namespace AscNet.Common
         static Common()
         {
             config = new ConfigurationBuilder<IConfig>().UseJsonFile("Configs/config.json").Build();
+            
             mongoClient = new(
                new MongoClientSettings
                {

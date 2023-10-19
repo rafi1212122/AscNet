@@ -2,6 +2,8 @@
 using MongoDB.Bson;
 using MongoDB.Driver;
 using AscNet.Common.MsgPack;
+using MongoDB.Bson.Serialization;
+using MongoDB.Bson.Serialization.Options;
 
 namespace AscNet.Common.Database
 {
@@ -10,7 +12,7 @@ namespace AscNet.Common.Database
     {
         public static readonly IMongoCollection<Player> collection = Common.db.GetCollection<Player>("players");
 
-        public static Player FromId(long id)
+        public static Player FromPlayerId(long id)
         {
             return collection.AsQueryable().FirstOrDefault(x => x.PlayerData.Id == id) ?? Create(id);
         }
@@ -48,11 +50,43 @@ namespace AscNet.Common.Database
                     CreateTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
                     LastLoginTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
                     Flags = 1
+                },
+                HeadPortraits = new(),
+                TeamGroups = new()
+                {
+                    {1, new TeamGroupDatum()
+                    {
+                        TeamType = 1,
+                        TeamId = 1,
+                        CaptainPos = 1,
+                        FirstFightPos = 1,
+                        TeamData = new()
+                        {
+                            {1, 1021001},
+                            {2, 0},
+                            {3, 0}
+                        },
+                        TeamName = null
+                    }}
                 }
             };
+            player.AddHead(9000001);
+            player.AddHead(9000002);
+            player.AddHead(9000003);
+            
             collection.InsertOne(player);
 
             return player;
+        }
+
+        public void AddHead(int id)
+        {
+            HeadPortraits.Add(new()
+            {
+                Id = id,
+                LeftCount = 1,
+                BeginTime = DateTimeOffset.Now.ToUnixTimeSeconds()
+            });
         }
 
         [BsonId]
@@ -65,5 +99,14 @@ namespace AscNet.Common.Database
         [BsonElement("player_data")]
         [BsonRequired]
         public PlayerData PlayerData { get; set; }
+
+        [BsonElement("head_portraits")]
+        [BsonRequired]
+        public List<HeadPortraitList> HeadPortraits { get; set; }
+
+        [BsonElement("team_groups")]
+        [BsonRequired]
+        [BsonDictionaryOptions(DictionaryRepresentation.ArrayOfDocuments)]
+        public Dictionary<int, TeamGroupDatum> TeamGroups { get; set; }
     }
 }

@@ -39,6 +39,8 @@ namespace AscNet.GameServer.Handlers
             }
 
             session.player = player;
+            session.character = Character.FromUid(player.PlayerData.Id);
+            session.stage = Stage.FromUid(player.PlayerData.Id);
             session.SendResponse(new LoginResponse
             {
                 Code = 0,
@@ -54,7 +56,18 @@ namespace AscNet.GameServer.Handlers
         public static void ReconnectRequestHandler(Session session, Packet.Request packet)
         {
             ReconnectRequest request = MessagePackSerializer.Deserialize<ReconnectRequest>(packet.Content);
-            Player? player = Player.FromToken(request.Token);
+            Player? player;
+            if (session.player is not null)
+                player = session.player;
+            else
+            {
+                player = Player.FromToken(request.Token);
+                if (player is not null && (session.character is null || session.stage is null))
+                {
+                    session.character = Character.FromUid(player.PlayerData.Id);
+                    session.stage = Stage.FromUid(player.PlayerData.Id);
+                }
+            }
 
             if (player?.PlayerData.Id != request.PlayerId)
             {
@@ -82,8 +95,34 @@ namespace AscNet.GameServer.Handlers
         // TODO: Move somewhere else, also split.
         static void DoLogin(Session session)
         {
-            NotifyLogin notifyLogin = JsonConvert.DeserializeObject<NotifyLogin>(File.ReadAllText("Data/NotifyLogin.json"))!;
+            NotifyLogin notifyLogin = new()
+            {
+                PlayerData = session.player.PlayerData,
+                TeamGroupData = session.player.TeamGroups,
+                BaseEquipLoginData = new(),
+                FubenData = new()
+                {
+                    StageData = session.stage.Stages,
+                    FubenBaseData = new()
+                },
+                FubenMainLineData = new(),
+                FubenChapterExtraLoginData = new(),
+                FubenUrgentEventData = new(),
+                UseBackgroundId = 14000001 // main ui theme, table still failed to dump
+            };
+            notifyLogin.FashionList.AddRange(session.character.Fashions);
+            
+            NotifyCharacterDataList notifyCharacterData = new();
+            notifyCharacterData.CharacterDataList.AddRange(session.character.Characters);
+            
+            NotifyEquipDataList notifyEquipData = new();
+            notifyEquipData.EquipDataList.AddRange(session.character.Equips);
+            
             session.SendPush(notifyLogin);
+            session.SendPush(notifyCharacterData);
+            session.SendPush(notifyEquipData);
+            // NotifyLogin notifyLogin = JsonConvert.DeserializeObject<NotifyLogin>(File.ReadAllText("Data/NotifyLogin.json"))!;
+            // session.SendPush(notifyLogin);
 
             // NEEDED to not softlock on stage selections!
             session.SendPush("NotifyFubenPrequelData", MessagePackSerializer.ConvertFromJson("{\"FubenPrequelData\": {\"RewardedStages\": [13010111, 13010112, 13010113, 13010211, 13010212, 13010213, 13010214, 13010215, 13010216, 13010311, 13010312, 13010313, 13010911, 13010912, 13010913, 13010414, 13010413, 13010415, 13010411, 13010412, 13010416, 13010316, 13010314, 13010315, 13010115, 13010116, 13010114, 13011011, 13011012, 13011013, 13011014, 13011015, 13011016], \"UnlockChallengeStages\": []}}"));

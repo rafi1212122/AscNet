@@ -1,5 +1,7 @@
 ﻿#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 using MessagePack;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson.Serialization.Options;
 
 namespace AscNet.Common.MsgPack
 {
@@ -144,7 +146,7 @@ namespace AscNet.Common.MsgPack
     [MessagePackObject(true)]
     public partial class FubenData
     {
-        public Dictionary<int, StageDatum> StageData { get; set; }
+        public Dictionary<long, StageDatum> StageData { get; set; }
         public FubenBaseData FubenBaseData { get; set; }
         public List<object> UnlockHideStages { get; set; } = new();
         public List<object> StageDifficulties { get; set; } = new();
@@ -191,7 +193,7 @@ namespace AscNet.Common.MsgPack
     public partial class FubenMainLineData
     {
         public List<long> TreasureData { get; set; } = new();
-        public Dictionary<int, long> LastPassStage { get; set; }
+        public Dictionary<int, long> LastPassStage { get; set; } = new();
         public List<dynamic> MainChapterEventInfos { get; set; } = new();
     }
 
@@ -297,8 +299,9 @@ namespace AscNet.Common.MsgPack
         public long TeamId { get; set; }
         public long CaptainPos { get; set; }
         public long FirstFightPos { get; set; }
+        [BsonDictionaryOptions(DictionaryRepresentation.ArrayOfDocuments)]
         public Dictionary<int, long> TeamData { get; set; }
-        public object TeamName { get; set; }
+        public string? TeamName { get; set; }
     }
 
     [MessagePackObject(true)]

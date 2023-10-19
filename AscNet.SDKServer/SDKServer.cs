@@ -54,6 +54,10 @@ namespace AscNet.SDKServer
                 {
                     await _next(context);
                 }
+                catch (Exception ex)
+                {
+                    log.Error($"{ex.Message} Request below:");
+                }
                 finally
                 {
                      log.Info($"{context.Response.StatusCode} {context.Request.Method.ToUpper()} {context.Request.Path + context.Request.QueryString}");
