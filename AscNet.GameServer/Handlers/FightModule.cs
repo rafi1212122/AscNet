@@ -1,4 +1,7 @@
-﻿using AscNet.Common.MsgPack;
+﻿using AscNet.Common.Database;
+using AscNet.Common.MsgPack;
+using AscNet.Common.Util;
+using AscNet.Table.share.fuben;
 using MessagePack;
 
 namespace AscNet.GameServer.Handlers
@@ -87,14 +90,58 @@ namespace AscNet.GameServer.Handlers
     
     internal class FightModule
     {
-        public static object JSonConvert { get; private set; }
-
         [RequestPacketHandler("PreFightRequest")]
         public static void PreFightRequestHandler(Session session, Packet.Request packet)
         {
             PreFightRequest req = MessagePackSerializer.Deserialize<PreFightRequest>(packet.Content);
 
-            PreFightResponse rsp = MessagePackSerializer.Deserialize<PreFightResponse>(MessagePackSerializer.ConvertFromJson($@"{{""Code"":0,""FightData"":{{""Online"":false,""FightId"":1691330911,""RoomId"":null,""OnlineMode"":0,""Seed"":631037736,""StageId"":{req.PreFightData.StageId},""RebootId"":1,""PassTimeLimit"":300,""StarsMark"":7,""MonsterLevel"":null,""EventIds"":[],""FightEventsWithLevel"":{{}},""NormalEventIds"":[1],""RoleData"":[{{""Id"":17462089,""Camp"":1,""Name"":""yarik0chka"",""IsRobot"":false,""CaptainIndex"":0,""FirstFightPos"":0,""NpcData"":{{""0"":{{""Character"":{{""Id"":1021001,""Level"":50,""Exp"":564,""Quality"":2,""InitQuality"":1,""Star"":4,""Grade"":8,""SkillList"":[{{""Id"":102101,""Level"":12}},{{""Id"":102106,""Level"":11}},{{""Id"":102111,""Level"":11}},{{""Id"":102116,""Level"":12}},{{""Id"":102117,""Level"":11}},{{""Id"":102118,""Level"":10}},{{""Id"":102121,""Level"":10}},{{""Id"":102123,""Level"":1}},{{""Id"":102122,""Level"":1}}],""EnhanceSkillList"":[],""FashionId"":6210101,""CreateTime"":1626538573,""TrustLv"":2,""TrustExp"":80,""Ability"":3387,""LiberateLv"":2,""CharacterHeadInfo"":{{""HeadFashionId"":0,""HeadFashionType"":0}}}},""Equips"":[{{""Id"":70,""TemplateId"":3035002,""CharacterId"":1021001,""Level"":45,""Exp"":60,""Breakthrough"":4,""ResonanceInfo"":[],""UnconfirmedResonanceInfo"":[],""AwakeSlotList"":[],""IsLock"":false,""CreateTime"":1626632133,""IsRecycle"":false}},{{""Id"":71,""TemplateId"":3065002,""CharacterId"":1021001,""Level"":40,""Exp"":220,""Breakthrough"":3,""ResonanceInfo"":[],""UnconfirmedResonanceInfo"":[],""AwakeSlotList"":[],""IsLock"":false,""CreateTime"":1626632133,""IsRecycle"":false}},{{""Id"":112,""TemplateId"":2025001,""CharacterId"":1021001,""Level"":45,""Exp"":160,""Breakthrough"":4,""ResonanceInfo"":[{{""Slot"":1,""Type"":1,""CharacterId"":0,""TemplateId"":20}}],""UnconfirmedResonanceInfo"":[],""AwakeSlotList"":[],""IsLock"":false,""CreateTime"":1626634841,""IsRecycle"":false}},{{""Id"":153,""TemplateId"":3025002,""CharacterId"":1021001,""Level"":45,""Exp"":10,""Breakthrough"":4,""ResonanceInfo"":[],""UnconfirmedResonanceInfo"":[],""AwakeSlotList"":[],""IsLock"":false,""CreateTime"":1626637516,""IsRecycle"":false}},{{""Id"":181,""TemplateId"":3015001,""CharacterId"":1021001,""Level"":45,""Exp"":260,""Breakthrough"":4,""ResonanceInfo"":[],""UnconfirmedResonanceInfo"":[],""AwakeSlotList"":[],""IsLock"":false,""CreateTime"":1626638512,""IsRecycle"":false}},{{""Id"":182,""TemplateId"":3045001,""CharacterId"":1021001,""Level"":45,""Exp"":10,""Breakthrough"":4,""ResonanceInfo"":[{{""Slot"":1,""Type"":1,""CharacterId"":0,""TemplateId"":27}},{{""Slot"":2,""Type"":1,""CharacterId"":0,""TemplateId"":26}}],""UnconfirmedResonanceInfo"":[],""AwakeSlotList"":[],""IsLock"":false,""CreateTime"":1626638512,""IsRecycle"":false}},{{""Id"":521,""TemplateId"":3055002,""CharacterId"":1021001,""Level"":1,""Exp"":0,""Breakthrough"":4,""ResonanceInfo"":[],""UnconfirmedResonanceInfo"":[],""AwakeSlotList"":[],""IsLock"":false,""CreateTime"":1626792402,""IsRecycle"":false}}],""AttribGroupList"":[],""CharacterSkillPlus"":null,""EquipSkillPlus"":[],""AttribReviseId"":0,""EventIds"":[],""FightEventsWithLevel"":{{}},""WeaponFashionId"":0,""Partner"":null,""IsRobot"":false,""AttrRateTable"":{{}}}}}},""CustomNpc"":null,""AssistNpcData"":null}}],""ReviseId"":0,""PlayerLevel"":0,""NpcGroupList"":null,""FightControlData"":{{""MaxFight"":0,""MaxRecommendFight"":0,""MaxShowFight"":0,""AvgFight"":0,""AvgRecommendFight"":0,""AvgShowFight"":0}},""DisableJoystick"":false,""Restartable"":false,""DisableDeadEffect"":false,""CustomData"":null,""Records"":{{}},""StStageDropData"":null}}}}"));
+            StageTable? stageTable = StageTableReader.Instance.FromStageId((int)req.PreFightData.StageId);
+            if (stageTable is null)
+            {
+                // FubenManagerCheckPreFightStageInfoNotFound
+                session.SendResponse(new PreFightResponse() { Code = 20003012 }, packet.Id);
+                return;
+            }
+
+            PreFightResponse rsp = new()
+            {
+                Code = 0,
+                FightData = new()
+                {
+                    Online = false,
+                    FightId = req.PreFightData.StageId + (uint)Random.Shared.NextInt64(0, uint.MaxValue - req.PreFightData.StageId),
+                    OnlineMode = 0,
+                    Seed = (uint)Random.Shared.NextInt64(0, uint.MaxValue),
+                    StageId = req.PreFightData.StageId,
+                    RebootId = Miscs.ParseIntOr(stageTable.RebootId, 0),
+                    PassTimeLimit = Miscs.ParseIntOr(stageTable.PassTimeLimit, 300),
+                    StarsMark = 0
+                }
+            };
+
+            rsp.FightData.RoleData.Add(new()
+            {
+                Id = (uint)session.player.PlayerData.Id,
+                Camp = 1,
+                Name = session.player.PlayerData.Name,
+                IsRobot = false,
+                NpcData = new()
+            });
+
+            for (int i = 0; i < req.PreFightData.CardIds.Count; i++)
+            {
+                uint cardId = req.PreFightData.CardIds[i];
+                var characterData = session.character.Characters.FirstOrDefault(x => x.Id == cardId);
+                if (characterData is null)
+                    continue;
+
+                rsp.FightData.RoleData.First(x => x.Id == session.player.PlayerData.Id).NpcData.Add(i, new
+                {
+                    Character = characterData,
+                    Equips = session.character.Equips.Where(x => x.CharacterId == cardId)
+                });
+            }
+
             session.SendResponse(rsp, packet.Id);
         }
 

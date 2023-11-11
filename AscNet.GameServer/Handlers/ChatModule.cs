@@ -19,7 +19,7 @@ namespace AscNet.GameServer.Handlers
         public static void GetWorldChannelInfoRequestHandler(Session session, Packet.Request packet)
         {
             GetWorldChannelInfoResponse getWorldChannelInfoResponse = new();
-            getWorldChannelInfoResponse.ChannelInfos.Append(new()
+            getWorldChannelInfoResponse.ChannelInfos.Add(new()
             {
                 ChannelId = 0,
                 PlayerNum = 0

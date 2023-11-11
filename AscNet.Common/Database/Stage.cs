@@ -21,6 +21,7 @@ namespace AscNet.Common.Database
         {
             Stage stage = new()
             {
+                Uid = uid,
                 Stages = new()
             };
             foreach (var guideFight in GuideFightTableReader.Instance.All)

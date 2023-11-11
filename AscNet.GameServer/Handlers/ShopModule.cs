@@ -15,9 +15,7 @@ namespace AscNet.GameServer.Handlers
         [RequestPacketHandler("GetShopInfoReceiveRequest")]
         public static void GetShopInfoReceiveRequestHandler(Session session, Packet.Request packet)
         {
-            GetShopInfoRequest req = MessagePackSerializer.Deserialize<GetShopInfoRequest>(packet.Content);
-
-            GetShopInfoResponse rsp = new GetShopInfoResponse()
+            GetShopInfoResponse rsp = new()
             {
                 Code = 0,
                 ClientShop = { }

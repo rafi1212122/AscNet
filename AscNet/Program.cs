@@ -10,6 +10,7 @@ namespace AscNet
             // TODO: Add loglevel parsing from appsettings file
             LoggerFactory.InitializeLogger(new Logger(typeof(Program), LogLevel.DEBUG, LogLevel.DEBUG));
             LoggerFactory.Logger.Info("Starting...");
+
 #if DEBUG
             if (Common.Common.config.VerboseLevel < Common.VerboseLevel.Debug)
                 Common.Common.config.VerboseLevel = Common.VerboseLevel.Debug;

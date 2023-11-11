@@ -2,6 +2,14 @@
 {
     public static class Miscs
     {
+        public static int ParseIntOr(string? s, int d)
+        {
+            if (int.TryParse(s, out var parsed))
+            {
+                return parsed;
+            }
+            return d;
+        }
         public static byte[] HexStringToByteArray(string hex)
         {
             if (hex.Length % 2 == 1)
