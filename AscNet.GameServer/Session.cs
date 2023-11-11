@@ -204,6 +204,12 @@ namespace AscNet.GameServer
             if (Server.Instance.Sessions.GetValueOrDefault(id) is null)
                 return;
 
+            // DB save on disconnect
+            log.Info($"saving session state...");
+            player?.Save();
+            character?.Save();
+            stage?.Save();
+
             log.Warn($"{id} disconnected");
             client.Close();
             Server.Instance.Sessions.Remove(id);

@@ -2,7 +2,6 @@
 using MongoDB.Bson;
 using MongoDB.Driver;
 using AscNet.Common.MsgPack;
-using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Options;
 
 namespace AscNet.Common.Database
@@ -87,6 +86,11 @@ namespace AscNet.Common.Database
                 LeftCount = 1,
                 BeginTime = DateTimeOffset.Now.ToUnixTimeSeconds()
             });
+        }
+
+        public void Save()
+        {
+            collection.ReplaceOne(Builders<Player>.Filter.Eq(x => x.Id, Id), this);
         }
 
         [BsonId]

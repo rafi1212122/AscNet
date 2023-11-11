@@ -53,7 +53,12 @@ namespace AscNet.Common.Database
         {
             Stages.Add(stageData.StageId, stageData);
         }
-        
+
+        public void Save()
+        {
+            collection.ReplaceOne(Builders<Stage>.Filter.Eq(x => x.Id, Id), this);
+        }
+
         [BsonId]
         public ObjectId Id { get; set; }
 

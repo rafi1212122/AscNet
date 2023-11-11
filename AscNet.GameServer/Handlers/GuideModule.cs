@@ -15,6 +15,25 @@ namespace AscNet.GameServer.Handlers
         public int Code;
         public List<dynamic>? RewardGoodsList;
     }
+
+    [MessagePackObject(true)]
+    public class GuideCompleteRequest
+    {
+        public int GuideGroupId;
+    }
+
+    [MessagePackObject(true)]
+    public class NotifyGuide
+    {
+        public int GuideGroupId;
+    }
+
+    [MessagePackObject(true)]
+    public class GuideCompleteResponse
+    {
+        public int Code;
+        public List<dynamic>? RewardGoodsList;
+    }
     
     internal class GuideModule
     {
@@ -29,6 +48,16 @@ namespace AscNet.GameServer.Handlers
         public static void GuideGroupFinishRequestHandler(Session session, Packet.Request packet)
         {
             session.SendResponse(new GuideGroupFinishResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("GuideCompleteRequest")]
+        public static void GuideCompleteRequestHandler(Session session, Packet.Request packet)
+        {
+            GuideCompleteRequest request = MessagePackSerializer.Deserialize<GuideCompleteRequest>(packet.Content);
+
+            session.player.PlayerData.GuideData.Add(request.GuideGroupId);
+            session.SendPush(new NotifyGuide() { GuideGroupId = request.GuideGroupId });
+            session.SendResponse(new GuideCompleteResponse(), packet.Id);
         }
     }
 }
