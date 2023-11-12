@@ -111,6 +111,8 @@ namespace AscNet.GameServer.Handlers
                 FubenUrgentEventData = new(),
                 UseBackgroundId = 14000001 // main ui theme, table still failed to dump
             };
+            if (notifyLogin.PlayerData.DisplayCharIdList.Count < 1)
+                notifyLogin.PlayerData.DisplayCharIdList.Add(notifyLogin.PlayerData.DisplayCharId);
             notifyLogin.FashionList.AddRange(session.character.Fashions);
 
 #if DEBUG

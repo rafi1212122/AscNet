@@ -231,6 +231,7 @@ namespace AscNet.Common.MsgPack
         public long Level { get; set; }
         public string Sign { get; set; }
         public long DisplayCharId { get; set; }
+        public List<long> DisplayCharIdList { get; set; } = new();
         public Birthday? Birthday { get; set; }
         public long HonorLevel { get; set; }
         public string ServerId { get; set; }

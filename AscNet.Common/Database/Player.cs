@@ -33,6 +33,7 @@ namespace AscNet.Common.Database
                     Level = 1,
                     Sign = "",
                     DisplayCharId = 1021001,
+                    DisplayCharIdList = new() { 1021001 },
                     Birthday = null,
                     HonorLevel = 1,
                     ServerId = "1",
