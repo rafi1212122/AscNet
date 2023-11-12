@@ -1,5 +1,6 @@
 ﻿using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
+using AscNet.Table.share.guide;
 using MessagePack;
 using Newtonsoft.Json;
 
@@ -111,16 +112,30 @@ namespace AscNet.GameServer.Handlers
                 UseBackgroundId = 14000001 // main ui theme, table still failed to dump
             };
             notifyLogin.FashionList.AddRange(session.character.Fashions);
-            
+
+#if DEBUG
+            // Per account settings flag(?)
+            notifyLogin.PlayerData.GuideData = GuideGroupTableReader.Instance.All.Select(x => (long)x.Id).ToList();
+#endif
+
             NotifyCharacterDataList notifyCharacterData = new();
             notifyCharacterData.CharacterDataList.AddRange(session.character.Characters);
             
             NotifyEquipDataList notifyEquipData = new();
             notifyEquipData.EquipDataList.AddRange(session.character.Equips);
-            
+
+            NotifyAssistData notifyAssistData = new()
+            {
+                AssistData = new()
+                {
+                    AssistCharacterId = session.character.Characters.First().Id
+                }
+            };
+
             session.SendPush(notifyLogin);
             session.SendPush(notifyCharacterData);
             session.SendPush(notifyEquipData);
+            session.SendPush(notifyAssistData);
 
             // NEEDED to not softlock!
             session.SendPush(new NotifyFubenPrequelData() { FubenPrequelData = new() });

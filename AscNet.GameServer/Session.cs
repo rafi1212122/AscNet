@@ -35,14 +35,17 @@ namespace AscNet.GameServer
         public async void ClientLoop()
         {
             NetworkStream stream = client.GetStream();
+            int prevBuf = 0;
             byte[] msg = new byte[1 << 16];
 
             while (client.Connected)
             {
                 try
                 {
-                    Array.Clear(msg, 0, msg.Length);
-                    int len = stream.Read(msg, 0, msg.Length);
+                    if (prevBuf == 0)
+                        Array.Clear(msg, 0, msg.Length);
+                    int len = stream.Read(msg, prevBuf + 0, msg.Length - prevBuf);
+                    len += prevBuf;
 
                     if (len > 0)
                     {
@@ -54,10 +57,18 @@ namespace AscNet.GameServer
                         {
                             int packetLen = BinaryPrimitives.ReadInt32LittleEndian(msg.AsSpan()[readbytes..]);
                             readbytes += 4;
-                            if (packetLen < 4)
+                            if (packetLen < 1)
+                            {
                                 break;
+                            }
+                            else if (packetLen > len)
+                            {
+                                prevBuf += len;
+                                break;
+                            }
                             else
                             {
+                                prevBuf = 0;
                                 byte[] packet = GC.AllocateUninitializedArray<byte>(packetLen);
                                 Array.Copy(msg, readbytes, packet, 0, packetLen);
                                 readbytes += packetLen;
@@ -69,6 +80,8 @@ namespace AscNet.GameServer
                                 }
                                 catch (Exception)
                                 {
+                                    log.Debug(BitConverter.ToString(msg).Replace("-", ""));
+                                    log.Debug($"PacketLen = {packetLen}, ReadLen = {len}");
                                     log.Error("Failed to deserialize packet: " + BitConverter.ToString(packet).Replace("-", ""));
                                 }
                             }
@@ -205,7 +218,7 @@ namespace AscNet.GameServer
                 return;
 
             // DB save on disconnect
-            log.Info($"saving session state...");
+            log.Info($"Saving session state...");
             player?.Save();
             character?.Save();
             stage?.Save();
