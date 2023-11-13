@@ -1,5 +1,6 @@
 ﻿using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
+using AscNet.Table.share.fuben;
 using AscNet.Table.share.guide;
 using MessagePack;
 using Newtonsoft.Json;
@@ -103,7 +104,7 @@ namespace AscNet.GameServer.Handlers
                 BaseEquipLoginData = new(),
                 FubenData = new()
                 {
-                    StageData = session.stage.Stages,
+                    StageData = session.stage.Stages.ToDictionary(x => x.Key, x => x.Value),
                     FubenBaseData = new()
                 },
                 FubenMainLineData = new(),
@@ -116,7 +117,6 @@ namespace AscNet.GameServer.Handlers
             notifyLogin.FashionList.AddRange(session.character.Fashions);
 
 #if DEBUG
-            // Per account settings flag(?)
             notifyLogin.PlayerData.GuideData = GuideGroupTableReader.Instance.All.Select(x => (long)x.Id).ToList();
 #endif
 

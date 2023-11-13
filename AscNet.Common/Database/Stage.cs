@@ -52,7 +52,10 @@ namespace AscNet.Common.Database
 
         public void AddStage(StageDatum stageData)
         {
-            Stages.Add(stageData.StageId, stageData);
+            if (Stages.ContainsKey(stageData.StageId))
+                Stages[stageData.StageId] = stageData;
+            else
+                Stages.Add(stageData.StageId, stageData);
         }
 
         public void Save()

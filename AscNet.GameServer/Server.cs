@@ -19,12 +19,16 @@ namespace AscNet.GameServer
             }
         }
 
-        public Server()
+        static Server()
         {
             // TODO: add loglevel based on appsettings
             LogLevel logLevel = LogLevel.DEBUG;
             LogLevel fileLogLevel = LogLevel.DEBUG;
             log = new(typeof(Server), logLevel, fileLogLevel);
+        }
+
+        public Server()
+        {
             listener = new(IPAddress.Parse("0.0.0.0"), Common.Common.config.GameServer.Port);
         }
 
@@ -53,6 +57,11 @@ namespace AscNet.GameServer
                     Thread.Sleep(3000);
                 }
             }
+        }
+
+        public Session? SessionFromUID(long uid)
+        {
+            return Sessions.FirstOrDefault(x => x.Value.player.PlayerData.Id == uid).Value;
         }
     }
 }

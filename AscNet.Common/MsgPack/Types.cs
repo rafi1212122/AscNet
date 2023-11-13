@@ -2452,26 +2452,7 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyStageData
     {
-        [global::MessagePack.MessagePackObject(true)]
-        public class NotifyStageDataStage
-        {
-            public UInt32 StageId { get; set; }
-            public Int32 StarsMark { get; set; }
-            public Boolean Passed { get; set; }
-            public Int32 PassTimesToday { get; set; }
-            public Int32 PassTimesTotal { get; set; }
-            public Int32 BuyCount { get; set; }
-            public Int32 Score { get; set; }
-            public UInt32 LastPassTime { get; set; }
-            public UInt32 RefreshTime { get; set; }
-            public UInt32 CreateTime { get; set; }
-            public Int32 BestRecordTime { get; set; }
-            public Int32 LastRecordTime { get; set; }
-            public List<UInt32> BestCardIds { get; set; } = new();
-            public List<UInt32> LastCardIds { get; set; } = new();
-        }
-
-        public List<NotifyStageDataStage> StageList { get; set; } = new();
+        public List<StageDatum> StageList { get; set; } = new();
     }
 
 

@@ -120,7 +120,7 @@ namespace AscNet.GameServer
 #endif
             }
 
-            log.Info("Finished Loading Packet Handlers");
+            log.Info("Finished loading packet handlers");
         }
 
         public static RequestPacketHandlerDelegate? GetRequestPacketHandler(string name)
