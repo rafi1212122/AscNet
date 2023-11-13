@@ -3,11 +3,22 @@ using MessagePack;
 
 namespace AscNet.GameServer.Handlers
 {
+
+    #region MsgPackScheme
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     [MessagePackObject(true)]
     public class ChangePlayerMarkRequest
     {
         public long MaskId;
     }
+
+    [MessagePackObject(true)]
+    public class ChangeCommunicationResponse
+    {
+        public int Code;
+    }
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+    #endregion
 
     internal class PlayerModule
     {
@@ -24,6 +35,12 @@ namespace AscNet.GameServer.Handlers
 
             session.player.PlayerData.Marks.Add(request.MaskId);
             session.SendResponse(new ChangePlayerMarkResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("ChangeCommunicationRequest")]
+        public static void ChangeCommunicationRequestHandler(Session session, Packet.Request packet)
+        {
+            session.SendResponse(new ChangeCommunicationResponse(), packet.Id);
         }
     }
 }
