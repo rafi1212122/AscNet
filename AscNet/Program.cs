@@ -1,4 +1,5 @@
 ﻿using AscNet.GameServer;
+using AscNet.GameServer.Handlers;
 using AscNet.GameServer.Commands;
 using AscNet.Logging;
 
@@ -22,6 +23,17 @@ namespace AscNet
 
             Task.Run(Server.Instance.Start);
             SDKServer.SDKServer.Main(args);
+
+            AppDomain.CurrentDomain.ProcessExit += new EventHandler(KillProtocol);
+        }
+
+        static void KillProtocol(object? sender, EventArgs e)
+        {
+            foreach (var session in Server.Instance.Sessions)
+            {
+                session.Value.SendPush(new ShutdownNotify());
+                session.Value.DisconnectProtocol();
+            }
         }
     }
 }

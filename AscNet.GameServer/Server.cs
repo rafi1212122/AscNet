@@ -61,7 +61,7 @@ namespace AscNet.GameServer
 
         public Session? SessionFromUID(long uid)
         {
-            return Sessions.FirstOrDefault(x => x.Value.player.PlayerData.Id == uid).Value;
+            return Sessions.Select(x => x.Value).FirstOrDefault(x => x.player.PlayerData.Id == uid);
         }
     }
 }

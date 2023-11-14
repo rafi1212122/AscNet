@@ -1,12 +1,25 @@
 ﻿using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
-using AscNet.Table.share.fuben;
 using AscNet.Table.share.guide;
 using MessagePack;
-using Newtonsoft.Json;
 
 namespace AscNet.GameServer.Handlers
 {
+    #region MsgPackScheme
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+    [MessagePackObject(true)]
+    public class ForceLogoutNotify
+    {
+        public int Code;
+    }
+    
+    [MessagePackObject(true)]
+    public class ShutdownNotify
+    {
+    }
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+    #endregion
+
     internal class AccountModule
     {
         [RequestPacketHandler("HandshakeRequest")]
@@ -38,6 +51,14 @@ namespace AscNet.GameServer.Handlers
                     Code = 1007 // LoginInvalidLoginToken
                 }, packet.Id);
                 return;
+            }
+
+            Session? previousSession = Server.Instance.Sessions.Select(x => x.Value).Where(x => x.GetHashCode() != session.GetHashCode()).FirstOrDefault(x => x.player.PlayerData.Id == player.PlayerData.Id);
+            if (previousSession is not null)
+            {
+                // GateServerForceLogoutByAnotherLogin
+                previousSession.SendPush(new ForceLogoutNotify() { Code = 1018 });
+                previousSession.DisconnectProtocol();
             }
 
             session.player = player;
@@ -110,6 +131,7 @@ namespace AscNet.GameServer.Handlers
                 FubenMainLineData = new(),
                 FubenChapterExtraLoginData = new(),
                 FubenUrgentEventData = new(),
+                // ItemList = ItemTableReader.Instance.All.Select(x => new ItemList() { Id = x.Id, Count = 6969696969 }).ToList(),
                 UseBackgroundId = 14000001 // main ui theme, table still failed to dump
             };
             if (notifyLogin.PlayerData.DisplayCharIdList.Count < 1)

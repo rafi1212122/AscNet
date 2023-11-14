@@ -214,10 +214,10 @@ namespace AscNet.Common.MsgPack
     [MessagePackObject(true)]
     public partial class ItemList
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public long Count { get; set; }
-        public long BuyTimes { get; set; }
-        public long TotalBuyTimes { get; set; }
+        public int BuyTimes { get; set; }
+        public int TotalBuyTimes { get; set; }
         public long LastBuyTime { get; set; }
         public long RefreshTime { get; set; }
         public long CreateTime { get; set; }
