@@ -1,6 +1,8 @@
 ﻿using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
+using AscNet.Common.Util;
 using AscNet.Table.share.guide;
+using AscNet.Table.share.item;
 using MessagePack;
 
 namespace AscNet.GameServer.Handlers
@@ -64,6 +66,8 @@ namespace AscNet.GameServer.Handlers
             session.player = player;
             session.character = Character.FromUid(player.PlayerData.Id);
             session.stage = Stage.FromUid(player.PlayerData.Id);
+            session.inventory = Inventory.FromUid(player.PlayerData.Id);
+
             session.SendResponse(new LoginResponse
             {
                 Code = 0,
@@ -85,10 +89,11 @@ namespace AscNet.GameServer.Handlers
             else
             {
                 player = Player.FromToken(request.Token);
-                if (player is not null && (session.character is null || session.stage is null))
+                if (player is not null && (session.character is null || session.stage is null || session.inventory is null))
                 {
                     session.character = Character.FromUid(player.PlayerData.Id);
                     session.stage = Stage.FromUid(player.PlayerData.Id);
+                    session.inventory = Inventory.FromUid(player.PlayerData.Id);
                 }
             }
 
@@ -131,7 +136,7 @@ namespace AscNet.GameServer.Handlers
                 FubenMainLineData = new(),
                 FubenChapterExtraLoginData = new(),
                 FubenUrgentEventData = new(),
-                // ItemList = ItemTableReader.Instance.All.Select(x => new ItemList() { Id = x.Id, Count = 6969696969 }).ToList(),
+                ItemList = session.inventory.Items,
                 UseBackgroundId = 14000001 // main ui theme, table still failed to dump
             };
             if (notifyLogin.PlayerData.DisplayCharIdList.Count < 1)

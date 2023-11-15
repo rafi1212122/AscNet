@@ -29,6 +29,8 @@ namespace AscNet
 
         static void KillProtocol(object? sender, EventArgs e)
         {
+            LoggerFactory.Logger.Info("Shutting down...");
+
             foreach (var session in Server.Instance.Sessions)
             {
                 session.Value.SendPush(new ShutdownNotify());

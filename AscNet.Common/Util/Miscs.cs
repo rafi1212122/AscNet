@@ -2,7 +2,7 @@
 {
     public static class Miscs
     {
-        public static int ParseIntOr(string? s, int d)
+        public static int ParseIntOr(string? s, int d = 0)
         {
             if (int.TryParse(s, out var parsed))
             {

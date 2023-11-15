@@ -17,6 +17,7 @@ namespace AscNet.GameServer
         public Player player = default!;
         public Character character = default!;
         public Stage stage = default!;
+        public Inventory inventory = default!;
         public readonly Logger log;
         private long lastPacketTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
         private ushort packetNo = 0;
@@ -222,6 +223,7 @@ namespace AscNet.GameServer
             player?.Save();
             character?.Save();
             stage?.Save();
+            inventory?.Save();
 
             log.Warn($"{id} disconnected");
             client.Close();

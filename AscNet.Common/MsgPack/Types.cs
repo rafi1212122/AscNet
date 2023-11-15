@@ -212,7 +212,7 @@ namespace AscNet.Common.MsgPack
     }
 
     [MessagePackObject(true)]
-    public partial class ItemList
+    public partial class Item
     {
         public int Id { get; set; }
         public long Count { get; set; }
@@ -319,7 +319,7 @@ namespace AscNet.Common.MsgPack
         public PlayerData PlayerData { get; set; }
         public List<TimeLimitCtrlConfigList> TimeLimitCtrlConfigList { get; set; } = new();
         public List<SharePlatformConfigList> SharePlatformConfigList { get; set; } = new();
-        public List<ItemList> ItemList { get; set; } = new();
+        public List<Item> ItemList { get; set; } = new();
         public Dictionary<int, List<ItemRecycleData>> ItemRecycleDict { get; set; } = new();
         public List<LoginCharacterList> CharacterList { get; set; } = new();
         public List<EquipList> EquipList { get; set; } = new();
