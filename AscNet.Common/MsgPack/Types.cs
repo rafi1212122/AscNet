@@ -430,7 +430,7 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyChatLoginData
     {
-        public UInt32 RefreshTime { get; set; }
+        public long RefreshTime { get; set; }
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyChatLoginDataUnlockEmoji
         {

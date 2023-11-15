@@ -1,9 +1,11 @@
 ﻿using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
+using AscNet.Table.share.chat;
 using AscNet.Table.share.guide;
 using AscNet.Table.share.item;
 using MessagePack;
+using System.Diagnostics;
 
 namespace AscNet.GameServer.Handlers
 {
@@ -161,10 +163,17 @@ namespace AscNet.GameServer.Handlers
                 }
             };
 
+            NotifyChatLoginData notifyChatLoginData = new()
+            {
+                RefreshTime = ((DateTimeOffset)Process.GetCurrentProcess().StartTime).ToUnixTimeSeconds(),
+                UnlockEmojis = EmojiTableReader.Instance.All.Select(x => new NotifyChatLoginData.NotifyChatLoginDataUnlockEmoji() { Id = (uint)x.Id }).ToList()
+            };
+
             session.SendPush(notifyLogin);
             session.SendPush(notifyCharacterData);
             session.SendPush(notifyEquipData);
             session.SendPush(notifyAssistData);
+            session.SendPush(notifyChatLoginData);
 
             // NEEDED to not softlock!
             session.SendPush(new NotifyFubenPrequelData() { FubenPrequelData = new() });
