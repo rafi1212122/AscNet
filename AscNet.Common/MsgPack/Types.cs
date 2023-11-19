@@ -2768,9 +2768,9 @@ namespace AscNet.Common.MsgPack
             public string SendName { get; set; }
             public string Title { get; set; }
             public string Content { get; set; }
-            public uint CreateTime { get; set; }
-            public uint SendTime { get; set; }
-            public uint ExpireTime { get; set; }
+            public long CreateTime { get; set; }
+            public long SendTime { get; set; }
+            public long ExpireTime { get; set; }
             [MessagePack.MessagePackObject(true)]
             public class NotifyMailsNewMailListRewardGoodsList
             {
