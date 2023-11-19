@@ -9,6 +9,34 @@ namespace AscNet.Common.Database
     #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     public class Inventory
     {
+        #region CommonItems
+        public const int Coin = 1;
+        public const int PaidGem = 2;
+        public const int FreeGem = 3;
+        public const int ActionPoint = 4;
+        public const int HongKa = 5;
+        public const int TeamExp = 7;
+        public const int AndroidHongKa = 8;
+        public const int IosHongKa = 10;
+        public const int SkillPoint = 12;
+        public const int DailyActiveness = 13;
+        public const int WeeklyActiveness = 14;
+        public const int HostelElectric = 15;
+        public const int HostelMat = 16;
+        public const int OnlineBossTicket = 17;
+        public const int BountyTaskExp = 18;
+        public const int DormCoin = 30;
+        public const int FurnitureCoin = 31;
+        public const int DormEnterIcon = 36;
+        public const int BaseEquipCoin = 300;
+        public const int InfestorActionPoint = 50;
+        public const int InfestorMoney = 51;
+        public const int PokemonLevelUpItem = 56;
+        public const int PokemonStarUpItem = 57;
+        public const int PokemonLowStarUpItem = 58;
+        public const int PassportExp = 60;
+        #endregion
+
         public static readonly IMongoCollection<Inventory> collection = Common.db.GetCollection<Inventory>("inventory");
 
         public static Inventory FromUid(long uid)
@@ -39,6 +67,26 @@ namespace AscNet.Common.Database
             collection.InsertOne(inventory);
 
             return inventory;
+        }
+
+        public void Do(int itemId, int amount)
+        {
+            Item? item = Items.FirstOrDefault(x => x.Id == itemId);
+            if (item is not null)
+            {
+                item.Count += amount;
+                item.RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds();
+            }
+            else
+            {
+                Items.Add(new Item()
+                {
+                    Id = itemId,
+                    Count = amount,
+                    RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
+                    CreateTime = DateTimeOffset.Now.ToUnixTimeSeconds()
+                });
+            }
         }
 
         public void Save()

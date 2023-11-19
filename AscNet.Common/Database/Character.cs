@@ -4,6 +4,7 @@ using MongoDB.Driver;
 using AscNet.Table.share.character;
 using AscNet.Table.share.character.skill;
 using AscNet.Common.MsgPack;
+using AscNet.Common.Util;
 
 namespace AscNet.Common.Database
 {
@@ -83,6 +84,41 @@ namespace AscNet.Common.Database
             Characters.Add(characterData);
         }
 
+        public UpgradeCharacterResult UpgradeCharacterSkillGroup(uint skillGroupId, int count)
+        {
+            List<uint> affectedCharacters = new();
+            int totalCoinCost = 0;
+            int totalSkillPointCost = 0;
+            IEnumerable<int> affectedSkills = CharacterSkillGroupTableReader.Instance.All.Where(x => x.Id == skillGroupId).SelectMany(x => x.SkillId);
+
+            foreach (var skillId in affectedSkills)
+            {
+                foreach (var character in Characters.Where(x => x.SkillList.Any(x => x.Id == skillId)))
+                {
+                    var characterSkill = character.SkillList.First(x => x.Id == skillId);
+                    int targetLevel = characterSkill.Level + count;
+
+                    while (characterSkill.Level < targetLevel)
+                    {
+                        var skillUpgrade = CharacterSkillUpgradeTableReader.Instance.All.FirstOrDefault(x => x.SkillId == skillId && Miscs.ParseIntOr(x.Level) == characterSkill.Level);
+
+                        totalCoinCost += Miscs.ParseIntOr(skillUpgrade?.UseCoin);
+                        totalSkillPointCost += Miscs.ParseIntOr(skillUpgrade?.UseSkillPoint);
+
+                        characterSkill.Level++;
+                    }
+                    affectedCharacters.Add(character.Id);
+                }
+            }
+
+            return new UpgradeCharacterResult()
+            {
+                AffectedCharacters = affectedCharacters,
+                CoinCost = totalCoinCost,
+                SkillPointCost = totalSkillPointCost
+            };
+        }
+
         public void AddEquip(uint equipId, int characterId = 0)
         {
             NotifyEquipDataList.NotifyEquipDataListEquipData equipData = new()
@@ -127,5 +163,12 @@ namespace AscNet.Common.Database
         [BsonElement("fashions")]
         [BsonRequired]
         public List<FashionList> Fashions { get; set; }
+    }
+
+    public struct UpgradeCharacterResult
+    {
+        public int CoinCost { get; init; }
+        public int SkillPointCost { get; init; }
+        public List<uint> AffectedCharacters { get; init; }
     }
 }

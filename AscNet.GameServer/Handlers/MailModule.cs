@@ -21,7 +21,6 @@ namespace AscNet.GameServer.Handlers
 
     internal class MailModule
     {
-
         [RequestPacketHandler("MailReadRequest")]
         public static void MailReadRequestHandler(Session session, Packet.Request packet)
         {

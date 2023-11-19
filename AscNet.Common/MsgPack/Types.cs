@@ -2002,19 +2002,7 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyItemDataList
     {
-        [global::MessagePack.MessagePackObject(true)]
-        public class NotifyItemDataListItemData
-        {
-            public Int32 Id { get; set; }
-            public UInt32 Count { get; set; }
-            public Int32 BuyTimes { get; set; }
-            public Int32 TotalBuyTimes { get; set; }
-            public Int32 LastBuyTime { get; set; }
-            public UInt32 RefreshTime { get; set; }
-            public UInt32 CreateTime { get; set; }
-        }
-
-        public List<NotifyItemDataListItemData> ItemDataList { get; set; } = new();
+        public List<Item> ItemDataList { get; set; } = new();
         public dynamic? ItemRecycleDict { get; set; }
     }
 

@@ -1,4 +1,6 @@
-﻿using System.Reflection;
+﻿using System.Net.Sockets;
+using System.Reflection;
+using AscNet.Common.MsgPack;
 using AscNet.Logging;
 using MessagePack;
 
@@ -36,6 +38,11 @@ namespace AscNet.GameServer
 
             [Key(2)]
             public byte[] Content;
+
+            public T Deserialize<T>()
+            {
+                return MessagePackSerializer.Deserialize<T>(Content);
+            }
         }
 
         [MessagePackObject(false)]
