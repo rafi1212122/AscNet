@@ -1,4 +1,5 @@
 ﻿using AscNet.Common.MsgPack;
+using AscNet.GameServer.Commands;
 using AscNet.Table.share.chat;
 using MessagePack;
 
@@ -151,6 +152,26 @@ internal class ChatModule
             request.ChatData.SenderId = session.player.PlayerData.Id;
             request.ChatData.Icon = (int)session.player.PlayerData.CurrHeadPortraitId;
             request.ChatData.NickName = session.player.PlayerData.Name;
+
+            if (request.ChatData.Content is not null && request.ChatData.Content.StartsWith('/'))
+            {
+                var cmdStrings = request.ChatData.Content.Split(" ");
+
+                try
+                {
+                    Command? cmd = CommandFactory.CreateCommand(cmdStrings.First().Split('/').Last(), session, cmdStrings[1..]);
+                    if (cmd is null)
+                    {
+                        // Invalid command
+                    }
+
+                    cmd?.Execute();
+                }
+                catch (Exception)
+                {
+                    // Failed to execute command
+                }
+            }
 
             NotifyWorldChat notifyWorldChat = new();
             notifyWorldChat.ChatMessages.Add(request.ChatData);

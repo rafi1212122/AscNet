@@ -132,7 +132,7 @@ namespace AscNet.GameServer.Handlers
                 BaseEquipLoginData = new(),
                 FubenData = new()
                 {
-                    StageData = session.stage.Stages.ToDictionary(x => x.Key, x => x.Value),
+                    StageData = session.stage.Stages,
                     FubenBaseData = new()
                 },
                 FubenMainLineData = new(),
@@ -147,6 +147,26 @@ namespace AscNet.GameServer.Handlers
 
 #if DEBUG
             notifyLogin.PlayerData.GuideData = GuideGroupTableReader.Instance.All.Select(x => (long)x.Id).ToList();
+
+            StageDatum stageForChat = new()
+            {
+                StageId = 10030201,
+                StarsMark = 7,
+                Passed = true,
+                PassTimesToday = 0,
+                PassTimesTotal = 1,
+                BuyCount = 0,
+                Score = 0,
+                LastPassTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
+                RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
+                CreateTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
+                BestRecordTime = 0,
+                LastRecordTime = 0,
+                BestCardIds = new List<long> { 1021001 },
+                LastCardIds = new List<long> { 1021001 }
+            };
+            if (!notifyLogin.FubenData.StageData.ContainsKey(stageForChat.StageId))
+                notifyLogin.FubenData.StageData = notifyLogin.FubenData.StageData.Append(new(stageForChat.StageId, stageForChat)).ToDictionary(x => x.Key, x => x.Value);
 #endif
 
             NotifyCharacterDataList notifyCharacterData = new();
