@@ -1,0 +1,122 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
+84400104	hitbox	1	5	6	0	3	0			4			0.1						-1		FxMb1MotherAtk0101Hit						-1			1					0	0	0										0							0	1				844001041	801030									0	HitCase		1		1	1			1														
+84400105	拼刀窗口	1	6	8		4	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844101				0	HitCase		1		1	1			0														
+84400109	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84400113	起跳特效	2	0.1				0			4			5						-1						FxMb1MotherQitiao		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84400119	hitbox	1	6	6	0	3	0			4			0.1						-1		FxMb1MotherAtk0102Hit						-1			1					0	0	0										0							0	1				844001191	801030									0	HitCase		1		1	1			1														
+84400120	拼刀窗口	1	7	7		3	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844102				0	HitCase		1		1	1			0														
+84400124	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84400133	hitbox	1	7	8.5	0	3	0			4			0.1						-1		FxMb1MotherAtk0103Hit						-1			1					0	0	0										0							0	1				844001331	801040									0	HitCase		1		1	1			1														
+84400134	拼刀窗口	1	7	8.5		3	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844105				0	HitCase		1		1	1			0														
+84400138	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84400139	地面特效	2	0.1				0			4			5						-1						FxMb1MotherAtk0103Di		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+84400151	常驻镜头子子弹	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	1					844109									0	HitCase		0		1	1			0														
+84400152	移除常驻镜头子子弹	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	1					844110									0	HitCase		0		1	1			0														
+84400404	hitbox	1	8	6		4	0			4			0.1						-1		FxMb1MotherAtk04Hit						-1			1					0	0	0										0							0	1				844004041	801030									0	HitCase		1		1	1			0														
+84400405	拼刀窗口	1	11	9		4	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844102				0	HitCase		1		1	1			0														
+84400412	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84400504	hitbox	1	8	6		4	0			4			0.1						-1		FxMb1MotherAtk05Hit						-1			1					0	0	0										0							0	1				844005041	801030									0	HitCase		1		1	1			0														
+84400505	拼刀窗口	1	11	9		4	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844101				0	HitCase		1		1	1			0														
+84400512	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84400603	hitbox	1	7	8.5	0	3	0			4			0.1						-1		FxMb1MotherAtk06Hit						-1			1					0	0	0										0							0	1				844006031	801040									0	HitCase		1		1	1			1														
+84400604	拼刀窗口	1	7	8.5		3	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844103				0	HitCase		1		1	1			0														
+84400607	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84400608	地面特效	2	0.1				0			4			10						-1						FxMb1MotherAtk06Di		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+84400721	地面特效	2	1.4		1.5	-1.7	0			4			10						-1						FxMb1MotherAtk09		-1			1					0	0	0										0							0	1														0	HitCase	1	0		0				0														
+84400722	hitbox	2	15		0	0	0			4			0.1						-1		FxMb1MotherAtk14Hit						-1			1					0	0	0										0							0	1				844007221										0	HitCase		0		1	1			1														
+84400804	hitbox	1	5	6	0	3	0			4			0.1						-1								-1			1					0	0	0										0							0	1				844008041	801030									0	HitCase		1		1	1			1														
+84400805	拼刀窗口	1	6	8		4	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844123				0	HitCase		1		1	1			0														
+84400809	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84400819	hitbox	1	6	6	0	3	0			4			0.1						-1								-1			1					0	0	0										0							0	1				844008191	801030									0	HitCase		1		1	1			1														
+84400820	拼刀窗口	1	7	7		3	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844102				0	HitCase		1		1	1			0														
+84400824	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84400833	hitbox	1	7	8.5	0	3	0			4			0.1						-1								-1			1					0	0	0										0							0	1				844008331	801040									0	HitCase		1		1	1			1														
+84400834	拼刀窗口	1	7	8.5		3	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844105				0	HitCase		1		1	1			0														
+84400838	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84400839	地面特效	2	0.1				0			4			5						-1						FxMb1MotherAtk0103Di		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84400851	常驻镜头子子弹	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	1					844109									0	HitCase		0		1	1			0														
+84400852	移除常驻镜头子子弹	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	1					844110									0	HitCase		0		1	1			0														
+84400903	hitbox	2	8	0	0	2	0			4			0.1						-1		FxMb1MotherAtk09Hit						-1			1					0	0	0										0							0	1				844009031	801040									0	HitCase		0		1	1			1														
+84400908	地面特效2	2	0.1		1	1.5	0			4			10						-1						FxMb1MotherAtk09		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84400912	强化子弹区域持续伤害hitbox	2	8	0	0	2	0			4			6		1				-1	1			0.2		FxMb1MotherAtk19DiStart		-1		FxMb1MotherAtk19DiEnd	1					0	0	0										0							0	1					844141	844045								0	HitCase		0		0				0														
+84401104	起跳特效	2	0.1				0			4			5						-1						FxMb1MotherQitiao		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84401406	hitbox	2	8	0	0	0	0			4			0.1						-1		FxMb1MotherAtk14Hit						-1			1					0	0	0										0							0	1				844014061	801040									0	HitCase		0		1	1			1														
+84401407	地面特效1	2	0.1				0			4			5						-1						FxMb1MotherAtk14Qi		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84401408	地面特效2	2	0.1				0			4			5						-1						FxMb1MotherAtk14Di		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84401503	hitbox	1	5	6	0	0	0			4			0.5						-1		FxMb1MotherAtk15Hit						-1			1					0	0	0										0							0	1				844015031	801045									0	HitCase		1		1	1			1														
+84401603	hitbox	2	3		0	2.5	0			4			0.1						-1		FxMb1MotherAtk16Hit						-1			1					0	0	0										0							0	1				844016031	801015									0	HitCase		0		1	1			1														
+84401604	地面特效	2	0.1				0			4			10						-1						FxMb1MotherAtk16Di		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84401703	弹道	2	1		0	3	45			4			1.5		1				-1						FxMb1MotherAtk17Dandao		-1		FxMb1MotherAtk17Di	3	6	0	12	1	0	0	0										0	1.5		1	84401705	1		0	1														3.1	HitCase		0		0			1	1														
+84401705	爆炸hitbox	2	4				0			4			0.1						-1		FxMb1MotherAtk17Hit						-1			1					0	0	0										2							0	1				844017051	801015									0	HitCase		0		0				1														
+84401803	弹道	2	1		0	3	45			4			1.5		1				-1						FxMb1MotherAtk17Dandao		-1		FxMb1MotherAtk17Di	3	6.5	0	20	1	0	0	0										0	1.5		1	84401806	1		0	1														3.8	HitCase		0		0			1	1														
+84401805	起跳特效	2	0.1				0			4			5						-1						FxMb1MotherAtk36Qi		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84401806	爆炸hitbox	2	4				0			4			0.1						-1		FxMb1MotherAtk17Hit						-1			1					0	0	0										2							0	1				844018061	801015									0	HitCase		0		0				1														
+84401902	爆炸hitbox	2	8	0	0	0	0			4			0.1						-1								-1			1					0	0	0										0							0	1				844019021	801045									0	HitCase		0		1	1			1														
+84401903	持续牵引hitbox	2	999	0	0	0	0			4			1.25						-1	1			0.05				-1			1					0	0	0										0							0	1					844059									0	HitCase		0		1	1			0														
+84402103	hitbox	1	7	8.5	0	3	0			4			0.1						-1								-1			1					0	0	0										0							0	1				844021031	801040									0	HitCase		1		1	1			1														
+84402104	拼刀窗口	1	7	8.5		3	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844126				0	HitCase		1		1	1			0														
+84402107	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84402108	地面特效	2	0.1				0			4			5						-1						FxMb1MotherAtk06Di		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+84402221	地面特效	2	1.4		1.5	-1.7	0			4			10						-1						FxMb1MotherAtk09		-1			1					0	0	0										0							0	1														0	HitCase	1	0		0				0														
+84402222	hitbox	2	15		0	0	0			4			0.1						-1		FxMb1MotherAtk14Hit						-1			1					0	0	0										0							0	1				844022221										0	HitCase		0		1	1			1														
+84402321	地面特效	2	1.4		1.5	-1.7	0			4			10						-1						FxMb1MotherAtk09		-1			1					0	0	0										0							0	1														0	HitCase	1	0		0				0														
+84402322	hitbox	2	15		0	0	0			4			0.1						-1		FxMb1MotherAtk14Hit						-1			1					0	0	0										0							0	1				844023221										0	HitCase		0		1	1			1														
+84402421	地面特效	2	1.4		1.5	-1.7	0			4			10						-1						FxMb1MotherAtk09		-1			1					0	0	0										0							0	1														0	HitCase	1	0		0				0														
+84402422	hitbox	2	15		0	0	0			4			0.1						-1		FxMb1MotherAtk14Hit						-1			1					0	0	0										0							0	1				844024221										0	HitCase		0		1	1			1														
+84402521	地面特效	2	1.4		1.5	-1.7	0			4			10						-1						FxMb1MotherAtk09		-1			1					0	0	0										0							0	1														0	HitCase	1	0		0				0														
+84402522	hitbox	2	15		0	0	0			4			0.1						-1		FxMb1MotherAtk14Hit						-1			1					0	0	0										0							0	1				844025221										0	HitCase		0		1	1			1														
+84402621	地面特效	2	1.4		1.5	-1.7	0			4			10						-1						FxMb1MotherAtk09		-1			1					0	0	0										0							0	1														0	HitCase	1	0		0				0														
+84402622	hitbox	2	15		0	0	0			4			0.1						-1		FxMb1MotherAtk14Hit						-1			1					0	0	0										0							0	1				844026221										0	HitCase		0		1	1			1														
+84403001	弹刀高机动	2	0.1				0			4			5						-1						FxMb1MotherLuodi		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84403104	hitbox	1	5	7	0	-2	0			4			0.9						-1		FxMb1MotherAtk31Hit						-1			1					0	0	0										0							0	1				844031041	801030									0	HitCase		1		1	1			0														
+84403105	拼刀窗口	1	5	7		6	0			4			0.9						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844107				0	HitCase		1		1	1			0														
+84403106	地面特效	2	0.1			1.5	0			4			10						-1						FxMb1MotherAtk32Di		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84403109	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84403117	hitbox	1	5	7	0	2	0			4			0.5						-1		FxMb1MotherAtk31Hit						-1			1					0	0	0										0							0	1				844031171	801030									0	HitCase		1		1	1			0														
+84403118	拼刀窗口	1	5	7		-6	0			4			0.5						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844107				0	HitCase		1		1	1			0														
+84403119	地面特效	2	0.1			-1.5	0		180	4			10						-1						FxMb1MotherAtk32Di		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84403122	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84403150	常驻镜头	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	1					844109									0	HitCase		0		1	1			0														
+84403203	hitbox	1	5	5	0	-3	0			4			0.3						-1								-1			1					0	0	0										0							0	1				844032031	801030									0	HitCase		1		1	1			1														
+84403204	拼刀窗口	1	5	5		4	0			4			0.4						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844107				0	HitCase		1		1	1			0														
+84403207	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84403303	hitbox	1	7	8.5	0	3	0			4			0.1						-1		FxMb1MotherAtk06Hit						-1			1					0	0	0										0							0	1				844033031	801040									0	HitCase		1		1	1			1														
+84403304	拼刀窗口	1	7	8.5		3	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844107				0	HitCase		1		1	1			0														
+84403307	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84403308	地面特效	2	0.1				0			4			10						-1						FxMb1MotherAtk06Di		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+84403603	hitbox	3	9	100	0	-1.5	0		30	4			0.1						-1								-1			1					0	0	0										0							0	1				844036031	801040									0	HitCase		1		1	1			1														
+84403604	拼刀窗口	1	9	9		4	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844120				0	HitCase		1		1	1			0														
+84403607	抓取	2	2				-85			4			0.3						-1	1			0.1				-1			1					0	0	0										1							1	1				844036071	844050									0	HitCase		1		0				0														
+84403608	移除拼刀标记	2	999				0			7			0.1						-1								-1			1					0	0	0										0							0	1					844005									0	HitCase		0		1	1			0														
+84403611	常驻镜头	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	1					844124									0	HitCase		0		1	1			0														
+84403612	移除常驻镜头	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	1					844110									0	HitCase		0		1	1			0														
+84403703	hitbox1	2	8	0	0	2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				844037031	801040									0	HitCase		0		1	1			1														
+84403706	hitbox2	2	8	0	0	2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				844037061	801050									0	HitCase		0		1	1			1														
+84403707	地面特效1	2	0.1				0			4			10						-1						FxMb1MotherAtk37		-1			1					0	0	0										0	0		1	84403709			0	1														0	HitCase		0		0				0														
+84403708	地面特效2	2	0.1		1	1.5	0			4			10						-1						FxMb1MotherAtk09		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84403709		2	0.1				0			4			10						-1						FxMb1MotherAtk37Di		-1			1					0	0	0										2							0	1														0	HitCase		0		0				0														
+84403715	强化子弹区域持续伤害hitbox	2	8	0	0	2	0			4			6		1				-1	1			0.1		FxMb1MotherAtk19DiStart		-1		FxMb1MotherAtk19DiEnd	1					0	0	0										0							0	1					844141	844045								0	HitCase		0		0				0														
+84403803	弹道	2	0.6		0	3	75			4			1.5		1				-1		FxMb1MotherAtk36Hit				FxMb1MotherAtk36Dandao		-1			3	6.5	0	20	1	0	0	0										0	1.5		1	84403807	1		0	1														3.8	HitCase		0		0				0														
+84403805	起跳特效	2	0.1				0			4			5						-1						FxMb1MotherAtk36Qi		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
+84403806	爆炸hitbox	2	4				0			4			0.1						-1								-1			1					0	0	0										2	0.1		1	84403809			0	1				844038061	801005	844051								0	HitCase		0		0				0														
+84403807	地面特效	2	0.1				0			4			10						-1						FxMb1MotherAtk17Di		-1			1					0	0	0										2	0.05		1	84403806			0	1														0	HitCase		0		0				0														
+84403809		2	999				0			1			0.1						-1								-1			1					0	0	0										0							0	1					844053									0	HitCase		0		0				0														
+84403903	弹道	2	0.6		0	3	75			4			1.5		1				-1		FxMb1MotherAtk36Hit				FxMb1MotherAtk36Dandao		-1			3	6	0	12	1	0	0	0										0	1.5		1	84403907	1		0	1														3.1	HitCase		0		0				0														
+84403905	爆炸hitbox	2	4				0			4			0.1						-1								-1			1					0	0	0										2	0.1		1	84403909			0	1				844039051	801005	844051								0	HitCase		0		0				0														
+84403907	地面特效	2	0.1				0			4			10						-1						FxMb1MotherAtk17Di		-1			1					0	0	0										2	0.05		1	84403905			0	1														0	HitCase		0		0				0														
+84403909		2	999				0			1			0.1						-1								-1			1					0	0	0										0							0	1					844053									0	HitCase		0		0				0														
+84404404	hitbox	3	8	100	0	2	0			4			0.1						-1		FxMb1MotherAtk440101Hit						-1			1					0	0	0										0							1	1				844044041	801018									0	HitCase		0		1	1			0														
+84404405	拼刀窗口	1	9	9		4	0			4			0.1						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844104				0	HitCase		1		1	1			0														
+84404412	拼刀窗口	1	9	10		7	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844104				0	HitCase		1		1	1			0														
+84404420	拼刀窗口	1	10	10		4	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844108				0	HitCase		1		1	1			0														
+84404428	拼刀窗口	1	9	9		4	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844104				0	HitCase		1		1	1			0														
+84404436	拼刀窗口	1	9	9		4	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844104				0	HitCase		1		1	1			0														
+84404444	拼刀窗口	1	10	10		6	0			4			0.35						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844104				0	HitCase		1		1	1			0														
+84404451	爆炸伤害hitbox	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	1				844044511	801090									0	HitCase		0		1	1			1														
+84404452	持续伤害hitbox	2	999				0			4			1.8						-1	1			0.05				-1			1					0	0	0										0							0	1					844059									0	HitCase		0		1	1			0														
+84404604	hitbox	3	8	100			0			4			0.1						-1		FxMb1MotherAtk440101Hit						-1			1					0	0	0										0							0	1				844046041	801018									0	HitCase		0		1	1			0														
+84404605	拼刀窗口	1	9	9		4	0			4			0.1						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844119				0	HitCase		1		1	1			0														
+84404616	拼刀窗口	1	9	10		7	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844119				0	HitCase		1		1	1			0														
+84404629	拼刀窗口	1	10	10		6	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	1					844002					844119				0	HitCase		1		1	1			0														
+84404639	爆炸伤害hitbox	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	1				844046391	801090									0	HitCase		0		1	1			1														
+84404640	持续伤害hitbox	2	999				0			4			1.5						-1	1			0.05				-1			1					0	0	0										0							0	1					844059									0	HitCase		0		1	1			0														

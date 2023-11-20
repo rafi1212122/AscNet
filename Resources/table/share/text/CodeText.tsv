@@ -43,6 +43,10 @@ Id	Key	Text
 20000002	PlayerFunctionShield	System is disabled
 20000003	PlayerChangeDisplayCharIdCharIsNotOwned	You do not own this Construct
 20000004	PlayerMedalIsNotOwned	You do not own this medal
+20000005	PlayerDisplayCharIdListFull	20000005 Assistant queue is full
+20000006	PlayerDisplayCharIdExit	20000006 Assistant already exists in queue
+20000007	PlayerDisplayCharIdNotExit	20000007 Assistant does not exist
+20000008	PlayerDisplayRemoveCountLimited	20000008 Must be at least one assistant
 20002001	PlayerDataManagerGetPlayerMaxExpFail	Failed to obtain player's max EXP
 20002002	PlayerDataManagerChangeNameTimeLimit	You can change your name in {0} hr {1} min
 20002003	PlayerDataManagerChangeNameInvalid	Improper name, please check again.
@@ -143,64 +147,65 @@ Id	Key	Text
 20003080	FubenPrequelChallengeLock	Side Story has not been unlocked yet
 20003081	FubenPrequelChallengeUnlockAlready	Side Story has been unlocked
 20003082	FubenPrequelChallengeCountLimit	Insufficient attempts
-20003083	FubenManagerAutoFightStageNotExist	Mission does not exist
-20003084	FubenManagerAutoFightStageInvalid	Invalid Side Story
-20003085	FubenManagerAutoFightHaventPassed	Side Story has not been cleared yet
-20003086	FubenManagerAutoFightPoolIsFull	Number of teams has reached the limit
-20003087	FubenManagerAutoFightAlreadyRunning	Auto Clearing
-20003088	FubenManagerAutoFightNotEnoughTimes	Insufficient attempts left
-20003089	FubenManagerAutoFightNotEnoughActionPoint	Insufficient Stamina
-20003090	FubenManagerAutoFightIndexInvalid	Invalid Auto Clear number
-20003091	FubenManagerAutoFightStageNotMatch	Auto Clear quest mismatched
-20003092	FubenManagerAutoFightNotComplete	Auto Clear not completed
-20003093	FubenManagerTrialIdIsNotFound	Trial Mission does not exist
-20003094	FubenManagerTrialPreIdIsNotPass	Complete the previous stage first
-20003095	FubenManagerTrialIdIsNotPass	Complete the prerequisite stage first
-20003096	FubenManagerTrialPassRewardAlreadyGet	Complete the stage first
-20003097	FubenManagerTrialTypeRewardIsNotExit	Reward does not exist
-20003098	FubenManagerTrialTypeRewardAlreadyGet	Reward Claimed
-20003099	FubenManagerTrialTypeRewardIsNotFinish	Stage not completed
-20003100	FubenManagerDailyChapterNotFound	Daily quest chapter not found
-20003101	FubenManagerDailySectionNotFound	Daily quest not found
-20003102	FubenManagerDailyConditionInvalid	Invalid daily quest requirement
-20003103	FubenManagerDailyTimeNotFit	Not open yet
-20003104	FubenManagerAutoFightTimesError	Auto Clear attempts error
-20003105	FubenManagerBossSingleResetCanNotSaveScore	Unable to save as the rules have been refreshed
-20003106	FubenManagerBossSingleDataIsRefresh	Side Story data has been refreshed, please reload the page.
-20003107	FubenManagerStartFightIntervalFast	You cannot challenge the quest yet
-20003108	FubenAssignChapterNotFound	Chapter info configuration error
-20003109	FubenAssignGroupNotFound	Stage info configuration error
-20003110	FubenAssignTeamInfoNotFound	Team info configuration error
-20003111	FubenAssignGroupFightCountLimit	You have used all challenge attempts
-20003112	FubenAssignGroupTeamNotSet	Team not configured. Unable to battle
-20003113	FubenAssignFightCardCountError	Battle member number error. Unable to battle
-20003114	FubenAssignFightCardNotInTeam	Border Pact character not in team
-20003115	FubenAssignFightGroupIdNotMatch	Border Pact stage group does not match
-20003116	FubenAssignFightStageAlreadyFinish	Border Pact stage completed
-20003117	FubenAssignFightPreStageNotFinish	Border Pact prerequisite stage incomplete
-20003118	FubenAssignWinStageNotMatch	Border Pact victory stage does not match
-20003119	FubenAssignWinGroupIdNotMatch	Border Pact victory stage group does not match
-20003120	FubenAssignGroupTeamListNotFound	Team list does not exist. Unable to battle
-20003121	FubenAssignPreGroupNotFinish	You have not completed the previous chapter yet
-20003122	FubenAssignTeamListIsEmpty	Team empty. Unable to battle
-20003123	FubenAssignTeamCountError	Team number does not match the requirement. Unable to battle
-20003124	FubenAssignTeamIsEmpty	Insufficient members in team. Unable to battle
-20003125	FubenAssignTeamMemberCountLimit	Team size does not match the requirement. Unable to battle
-20003126	FubenAssignTeamMemberRepeated	Duplicated team member. Unable to battle
-20003127	FubenAssignChapterNotFinish	Chapter not completed
-20003128	FubenAssignChapterUseSameCharacter	Character already assigned to stationing
-20003129	FubenAssignChapterCharacterAlreadyUse	Character already stationing in another area
-20003130	FubenAssignChapterRewardAlreadyGet	Chapter reward claimed
-20003131	FubenManagerFightRestartFightIdNotMatch	Battle restart ID not matching
-20003132	FubenManagerFightRestartPreFightDataNotMatch	Battle restart data mismatch
-20003133	FubenBfrtChapterNotOpen	Stronghold chapter not yet available
-20003134	FubenBfrtTeamSetCharacterRepeat	Repeated character in team
-20003135	FubenManagerStageConfigNotExist	Stage settings not found
-20003136	FubenFightNpcIsNullOrEmpty	Character deployed cannot be empty
-20003137	FubenRepeatedCharacter	Cannot deploy the same character again
-20003138	FubenActivityReset	Event has been reset
-20003139	FubenBossSingleIsNotTrialStage	20003137 Stage is not a trial stage
-20003140	FubenStageCharacterNpcIdCfgNotExit	20003139 Character NPC ID configuration matching the stage type not found
+20003083	FubenPrequelChapterNotFind	Mission does not exist
+20003084	FubenManagerAutoFightStageNotExist	Mission does not exist
+20003085	FubenManagerAutoFightStageInvalid	Invalid Side Story
+20003086	FubenManagerAutoFightHaventPassed	Side Story has not been cleared yet
+20003087	FubenManagerAutoFightPoolIsFull	Number of teams has reached the limit
+20003088	FubenManagerAutoFightAlreadyRunning	Auto Clearing
+20003089	FubenManagerAutoFightNotEnoughTimes	Insufficient attempts left
+20003090	FubenManagerAutoFightNotEnoughActionPoint	Insufficient Stamina
+20003091	FubenManagerAutoFightIndexInvalid	Invalid Auto Clear number
+20003092	FubenManagerAutoFightStageNotMatch	Auto Clear quest mismatched
+20003093	FubenManagerAutoFightNotComplete	Auto Clear not completed
+20003094	FubenManagerTrialIdIsNotFound	Trial Mission does not exist
+20003095	FubenManagerTrialPreIdIsNotPass	Complete the previous stage first
+20003096	FubenManagerTrialIdIsNotPass	Complete the prerequisite stage first
+20003097	FubenManagerTrialPassRewardAlreadyGet	Complete the stage first
+20003098	FubenManagerTrialTypeRewardIsNotExit	Reward does not exist
+20003099	FubenManagerTrialTypeRewardAlreadyGet	Reward Claimed
+20003100	FubenManagerTrialTypeRewardIsNotFinish	Stage not completed
+20003101	FubenManagerDailyChapterNotFound	Daily quest chapter not found
+20003102	FubenManagerDailySectionNotFound	Daily quest not found
+20003103	FubenManagerDailyConditionInvalid	Invalid daily quest requirement
+20003104	FubenManagerDailyTimeNotFit	Not open yet
+20003105	FubenManagerAutoFightTimesError	Auto Clear attempts error
+20003106	FubenManagerBossSingleResetCanNotSaveScore	Unable to save as the rules have been refreshed
+20003107	FubenManagerBossSingleDataIsRefresh	Side Story data has been refreshed, please reload the page.
+20003108	FubenManagerStartFightIntervalFast	You cannot challenge the quest yet
+20003109	FubenAssignChapterNotFound	Chapter info configuration error
+20003110	FubenAssignGroupNotFound	Stage info configuration error
+20003111	FubenAssignTeamInfoNotFound	Team info configuration error
+20003112	FubenAssignGroupFightCountLimit	You have used all challenge attempts
+20003113	FubenAssignGroupTeamNotSet	Team not configured. Unable to battle
+20003114	FubenAssignFightCardCountError	Battle member number error. Unable to battle
+20003115	FubenAssignFightCardNotInTeam	Border Pact character not in team
+20003116	FubenAssignFightGroupIdNotMatch	Border Pact stage group does not match
+20003117	FubenAssignFightStageAlreadyFinish	Border Pact stage completed
+20003118	FubenAssignFightPreStageNotFinish	Border Pact prerequisite stage incomplete
+20003119	FubenAssignWinStageNotMatch	Border Pact victory stage does not match
+20003120	FubenAssignWinGroupIdNotMatch	Border Pact victory stage group does not match
+20003121	FubenAssignGroupTeamListNotFound	Team list does not exist. Unable to battle
+20003122	FubenAssignPreGroupNotFinish	You have not completed the previous chapter yet
+20003123	FubenAssignTeamListIsEmpty	Team empty. Unable to battle
+20003124	FubenAssignTeamCountError	Team number does not match the requirement. Unable to battle
+20003125	FubenAssignTeamIsEmpty	Insufficient members in team. Unable to battle
+20003126	FubenAssignTeamMemberCountLimit	Team size does not match the requirement. Unable to battle
+20003127	FubenAssignTeamMemberRepeated	Duplicated team member. Unable to battle
+20003128	FubenAssignChapterNotFinish	Chapter not completed
+20003129	FubenAssignChapterUseSameCharacter	Character already assigned to stationing
+20003130	FubenAssignChapterCharacterAlreadyUse	Character already stationing in another area
+20003131	FubenAssignChapterRewardAlreadyGet	Chapter reward claimed
+20003132	FubenManagerFightRestartFightIdNotMatch	Battle restart ID not matching
+20003133	FubenManagerFightRestartPreFightDataNotMatch	Battle restart data mismatch
+20003134	FubenBfrtChapterNotOpen	Stronghold chapter not yet available
+20003135	FubenBfrtTeamSetCharacterRepeat	Repeated character in team
+20003136	FubenManagerStageConfigNotExist	Stage settings not found
+20003137	FubenFightNpcIsNullOrEmpty	Character deployed cannot be empty
+20003138	FubenRepeatedCharacter	Cannot deploy the same character again
+20003139	FubenActivityReset	Event has been reset
+20003140	FubenBossSingleIsNotTrialStage	20003137 Stage is not a trial stage
+20003141	FubenStageCharacterNpcIdCfgNotExit	20003139 Character NPC ID configuration matching the stage type not found
 20004001	TeamManagerGetTeamIdFail	Failed to obtain team ID
 20004002	TeamManagerPrefabExceedMax	Team default settings have reached the limit
 20004003	TeamManagerSetTeamParaError	Team preset quantity error
@@ -573,6 +578,8 @@ Id	Key	Text
 20031026	FriendManagerBlacklistIsFull	Blacklist limit reached.
 20031027	FriendManagerBlacklistNeedRemoveMentorRelation	Cannot blacklist. Please cancel Mentorship status first.
 20031028	FriendManagerDoNotFindFromBlacklist	Cannot find player in blacklist.
+20031029	FriendSearchPlayerInCd	Frequent refresh attempts. Please try again later.
+20031030	FriendApplyPlayerOverLimit	Daily max friend request reached
 20032001	FightCheckManagerCodeNotMatch	Abnormal error in battle data (0)
 20032002	FightCheckManagerCodesTooLong	Abnormal error in battle data (1)
 20032003	FightCheckManagerCheckSkip	Abnormal error in battle data (2)
@@ -1357,6 +1364,7 @@ Id	Key	Text
 20063336	GuildFightStyleSkillOnlyOneCore	20063336 Only one Core Skill can be activated at a time
 20063337	GuildGdSetBgmIdsNotInGuild	Cannot perform this action as you are not in Command Bureau
 20063338	GuildGdSetBgmIdsLessRank	Failed to edit due to insufficient authority
+20063339	GuildSearchInCd	Frequent refresh attempts. Please try again later.
 20064001	RogueLikeActivityNotOpen	Outside the event period
 20064002	RogueLikeActionPointNotEnough	Insufficient Action Points
 20064003	RogueLikeSectionInfoIsNull	Chapter info not found

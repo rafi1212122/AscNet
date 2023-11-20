@@ -1,0 +1,87 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic
+99110601	高束激光炮	2	2				0			4			1.1						-1								-1			1					0	0	0										1							4	1					100002									0	HitCase	1	0						0													
+99110602	落冰特效	2	2				0			1			4						-1						FxScene01402Icefall01		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110603	落冰预警	2	2				0			1			3						-1						FxYujing1M20S		-1			1					0	0	0										0							0	1														0	HitCase	1	0						0													
+99110604	落冰伤害	2	2				0			2			0.1						-1		FxTongyongIceShouji					2	-1			1					0	0	0										0							0	1				991106041	743017									0	HitCase	1	0						0													
+99110605	落冰预警大-3秒	2	3				0			1			4						-1						FxYujing1M30S		-1			1					0	0	0										0							0	1														0	HitCase	1	0						0													
+99110606	落冰伤害大-3秒	2	3				0			2			0.1						-1		FxTongyongIceShouji					3	-1			1					0	0	0										0							0	1				991106061	743017									0	HitCase	1	0						0													
+99110607	落冰特效大-3秒	2	2				0			1			5						-1						FxScene01402Icefall02		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110608	激光炮伤害	2	2				0			4			0.1						-1		FxTongyongFireShouji					1.1	-1			1					0	0	0										0							0	1				991106081	743016									0	HitCase	1	0						0													
+99110609	激光炮特效	2	1				0			1			5						-1						FxHongzha	1	-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110610	激光炮护盾	2	1				0			1			-1						-1						FxSceneShield01		-1			1					0	0	0										0							0	1														0	HitCase	1	0						0													
+99110611	激光炮预警	2	4				0			1			2						-1						FxYujing1M10S		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110612	激光炮伤害大	2	4				0			1			0.1						-1		FxTongyongFireShouji					1.1	-1			1					0	0	0										0							0	1					100002									0	HitCase	1	0						0													
+99110613	突击壁垒死亡特效	2	10				0			1			10						-1						FxDeath01		-1			1					0	0	0										0							0	1														0	HitCase	1	0						0													
+99110614	落冰音效特效小	2	1				0			1			3						-1						FxIcefallSound01		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110615	落冰音效特效大	2	1				0			1			4						-1						FxIcefallSound02		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110616	中秋版本-长风效果1	1	8	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					743101									0	HitCase		1						0													
+99110617	中秋版本-长风效果2	1	8	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					743102									0	HitCase		1						0													
+99110618	中秋版本-长风效果3	1	8	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					743103									0	HitCase		1						0													
+99110619	中秋版本-长风效果4	1	8	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					743104									0	HitCase		1						0													
+99110620	中秋版本-长风效果5	1	8	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					743105									0	HitCase		1						0													
+99110621	中秋版本-长风效果6	1	8	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					743106									0	HitCase		1						0													
+99110622	中秋版本-长风效果7	1	8	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					743107									0	HitCase		1						0													
+99110623	中秋版本-长风效果8	1	8	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					743108									0	HitCase		1						0													
+99110624	中秋版本-长风效果9	1	8	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					743109									0	HitCase		1						0													
+99110625	中秋版本-长风效果10	1	8	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					743110									0	HitCase		1						0													
+99110626	中秋版本-短风效果1	1	8	20			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	1					743111									0	HitCase		1						0													
+99110627	中秋版本-短风效果2	1	8	20			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	1					743112									0	HitCase		1						0													
+99110628	长风预警-1	1	8	70			0			1			8						-1						FxBattleWind		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110629	长风预警-2	1	8	70			0			1			8						-1						FxBattleWind2		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110630	落石特效	2	2.5				0			1			4						-1						FxDust1	1.8	-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110631	落石预警	2	2.5				0			1			3						-1						FxYujing1M30S		-1			1					0	0	0										0							0	1														0	HitCase	1	0						0													
+99110632	落石伤害	2	2.5				0			2			0.1						-1							3	-1			1					0	0	0										0							0	1					743114									0	HitCase	1	0						0													
+99110633	鸽子用根据距离加血量子弹	2	100				0			4			0.1						-1								-1			1					0	0	0									2	0							0	1					740805									0	HitCase		0			1			0													
+99110634	惰性辐射子弹	2	100				0			4			0.1						-1								-1			1					0	0	0										3							4	1					740858	760565	760297	760298						0	HitCase		1		0				0													
+99110635	分光双星三期-风预警	1	80	60		30	0			1			3						-1						FxFgsxWindYujing		-1			1					0	0	0										3							1	1														0	HitCase	1	1		0				0													
+99110636	分光双星三期-北风击飞	1	80	60		30	0			4			7						-1	1			0.02		FxFgsxWind		-1			1					0	0	0										3							1	3					741407									0	HitCase	1	1		0				0													
+99110637	分光双星三期-南风击飞	1	80	60		30	0			4			7						-1	1			0.02		FxFgsxWind		-1			1					0	0	0										3							1	3					741417									0	HitCase	1	1		0				0													
+99110638	分光双星三期-西风击飞	1	80	60		30	0			4			7						-1	1			0.02		FxFgsxWind		-1			1					0	0	0										3							1	3					741418									0	HitCase	1	1		0				0													
+99110639	分光双星三期-东风击飞	1	80	60		30	0			4			7						-1	1			0.02		FxFgsxWind		-1			1					0	0	0										3							1	3					741419									0	HitCase	1	1		0				0													
+99110640	分光双星三期-北风清除免疫牵引效果	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741413									0	HitCase		1		0				0													
+99110641	分光双星三期-南风清除免疫牵引效果	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741414									0	HitCase		1		0				0													
+99110642	分光双星三期-西风清除免疫牵引效果	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741415									0	HitCase		1		0				0													
+99110643	分光双星三期-东风清除免疫牵引效果	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741416									0	HitCase		1		0				0													
+99110644	分光双星三期-地震伤害子弹	2	2			0	0			4			0.5						-1								-1			1					0	0	0										0							0	3					763363									0	HitCase	1	1		0				0													
+99110645	分光双星三期-地震生成特效	2	1			0	0			1			1						-1						FxFgsxDizhenStart		-1			1					0	0	0										0							0	3														0	HitCase	1	1		0				0													
+99110646	分光双星三期-地震站场特效	2	1			0	0			1			-1						-1						FxFgsxDizhenLoop		-1			1					0	0	0										0							0	3														0	HitCase	1	1		0				0													
+99110647	分光双星三期-地震消失特效	2	1			0	0			1			1						-1						FxFgsxDizhenEnd		-1			1					0	0	0										0							0	3														0	HitCase	1	1		0				0													
+99110648	分光双星三期-炎爆特效	2	20			0	0			1			2						-1		FxFgsxYishang				FxFgsxYanbao		-1			1					0	0	0										0							0	3														0	HitCase		1		0				0													
+99110649	分光双星三期-冰块-伤害	2	2				0			4			0.1						-1		FxFgsxChainHit					0.5	-1			1					0	0	0										3							4	1				991106491	763437	763438	763439	763440						0	HitCase		0		0				1													
+99110650	分光双星三期-冰块-特效	2	3				0			1			4						-1						FxFgsxBingZaxia		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110652	分光双星三期-地震伤害特效子弹	2	1			0	0			4			1						-1						FxFgsxDizhenBaozha		-1			1					0	0	0										0							0	3														0	HitCase	1	1		0				0													
+99110653	分光双星三期-减速教学预警子弹	2	7			0	0			4			3						-1						FxYujing1M30S		-1			1					0	0	0										3							4	3														0	HitCase	1	0		0				0													
+99110654	分光双星三期-减速教学伤害子弹	2	7			0	0			7			1						-1						FxFgsxDizhenBaozha		-1			1					0	0	0										3							4	3					763363									0	HitCase	1	1		0				0													
+99110655	石化预警	2	10			0	0			7			3						-1	1			1		FxYujing1M30S		-1			1					0	0	0										0	3	0	1	99110656			0	3														0.4	HitCase	1	0		0				0													
+99110656	石化效果	2	10			0	0			7			0.1						-1	1			0.05		FxBabeiTowerShengguang		-1			1					0	0	0										0							0	2					777928									0.4	HitCase	0	1		0				0													
+99110657	黑洞-拉扯1	2	60			0	0			7			5						-1	1			0.01		FxCizhuiHeidong		-1			1					0	0	0										0							0	1					760414									0	HitCase		1		0				0													
+99110658	治疗效果内	2	10			0	0			7			1						-1	1			1				-1			1					0	0	0										0							0	2					770763									0	HitCase	0	1		1				0													
+99110659	治疗效果外	4	10	60		0	0			7			1						-1	1			1				-1			1					0	0	0										0							0	2					770763									0	HitCase	1	1		1				0													
+99110660	伤害效果内	2	10			0	0			7			1						-1	1			1				-1			1					0	0	0										0							0	2					770758									0	HitCase	0	1		1				0													
+99110661	伤害效果外	4	10	60		0	0			7			1						-1	1			1				-1			1					0	0	0										0							0	2					770758									0	HitCase	1	1		1				0													
+99110662	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk01		-1			1					0	0	0										1							0	1														0	HitCase		0						0													
+99110663	伤害子弹	3	5	180			0			4			0.1						-1		FxMb1MoonguyHit02						-1			1					0	0	0										1							0	1				991106631	801020									0	HitCase		0						1										4		102726	
+99110664	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk1401		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110665	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk1402		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110666	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk1901		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110667	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk2001		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110668	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk0302		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110669	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk0601		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110670	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk0602		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110671	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk1601		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110672	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk0701		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110673	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk1701		-1			1					0	0	0										0							0	1														0	HitCase		1						0													
+99110674	元宵特效持续	2	10				0			4			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110675	圆形爆炸持续	2	10				0			4			4						-1						Fxzlbyuanxingbaofa		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110676	圆形预警	2	10			0	0			4			3						-1	1			1		FxYujing1M30S		-1			1					0	0	0										0	3	0	2	99110677|99110674			0	3														0	HitCase	1	0		0				0													
+99110677	圆形爆炸效果	2	10			0	0			4			0.1						-1	1			1				1			1					0	0	0										2							0	2				991106771	777803									0	HitCase	0	0		0				1													
+99110678	扇形特效	3	10	60		6	0			4			3						-1								-1			1					0	0	0										2							0	1														0	HitCase		0						0													
+99110679	扇形持续	3	10	60		6	0			4			4						-1						Fxzlbshanxingbaofa		-1			1					0	0	0										0							0	1														0	HitCase		0						0													
+99110680	扇形预警	2	1			0	0			4			3						-1	1			1				-1			1					0	0	0										0	3	0	2	99110681|99110678			0	3														0	HitCase	1	0		0				0													
+99110681	扇形爆炸效果	3	10	60		6	0			4			0.1						-1	1			1				1			1					0	0	0										2							2	2				991106811	777803									0	HitCase	0	0		0				1													
+99110682	颠倒塔 激光-特效	1	1	1			0		90	1			6						-1						FxMb1TrackalienMd010001Attack11GuadianYanQiu3		-1			1					0	0	0										0	0.8	1	1	99110683			1	1														1	HitCase		1		1				0													
+99110683	颠倒塔 激光:预警子弹	1	1	1			0		90	1			3						-1						FxMb1TrackalienMd010001Attack11Xian		-1			1					0	0	0										0	2.2	1	1	99110684			0	1														1	HitCase		1		1				0													
+99110684	颠倒塔 激光-伤害子弹	1	2	40		20	0			4			0.1						-1		FxMb1TrackalienMd010001Attack11Dimian						-1			1					0	0	0										0							0	1				991106841	777803									1	HitCase		1		1				1													
+99110685	颠倒塔 激光-特效	1	1	1			0		90	1			6						-1						FxMb1TrackalienMd010001Attack11GuadianYanQiu3		-1			1					0	0	0										0	0.8	1	1	99110686			1	1														1	HitCase		1		1				0													
+99110686	颠倒塔 激光:预警子弹	1	1	1			0		90	1			3						-1						FxMb1TrackalienMd010001Attack11Xian		-1			1					0	0	0										0	2.2	1	1	99110687			0	1														1	HitCase		1		1				0													
+99110687	颠倒塔 激光-伤害子弹	1	2	40		20	0			4			0.1						-1		FxMb1TrackalienMd010001Attack11Dimian						-1			1					0	0	0										0							0	1				991106871	777803									1	HitCase		1		1				0													

@@ -54,6 +54,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 343	10102		1071004																									Own Omniframe Karenina: Scire
 344	10102		1571003																									Own Uniframe Noan: Arca
 345	10102		1041004																									Own Omniframe Bianca: Stigmata
+346	10102		1231002																									Own Omniframe Bambinata: Vitrum
 401	11105		6210204																									Coating owned
 7001	10105		13010116																									Complete all Lucia Interludes
 7002	10105		13010216																									Complete all Liv Interludes
@@ -71,6 +72,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 8005	10101		52																									Unlocked when Commandant reaches Lv.52
 8006	10101		61																									Unlocked when Commandant reaches Lv.61
 8007	10101		56																									Unlocked when Commandant reaches Lv.56
+8008	10101		47																									Unlocked when Commandant reaches Lv.47
 10001	10101		1																									Requires Commandant Lv.50
 10002	11101		1	999																								Requires 999 items
 10003	10102		1021001																									Own the specified Omniframe
@@ -514,6 +516,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 6120	10102		1031004																									Unlock Omniframe - Liv: Empyrea to activate
 6121	10102		1531004																									Unlock Omniframe - Selena: Capriccio to activate
 6122	10102		1551003																									Unlock Uniframe - Pulao: Dragontoll to activate
+6123	10102		1231002																									Unlock Omniframe - Bambinata: Vitrum to activate
 7200	13103		80																									Lucia: Dawn reaches Lv.80
 7201	10101		52																									Reach Commandant Level 52.
 7202	13116		155328	9																								[Dragon Claw Spin] reaches Lv.9.
@@ -568,11 +571,11 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 7319	13116		157329	1																								[Voltaic Burst] reaches Lv.1
 7320	0	(7318&7319)																										Both [Fang-shattering Wolf] and [Voltaic Burst] reach Lv.1
 7321	13103		80																									Rosetta: Rigor reaches Lv.80
-7322	13116		153328	9																								[Sky Dance] reaches Lv.9
-7323	13116		153328	18																								[Sky Dance] reaches Lv.18
-7324	13116		153329	9																								[Melody of Death] reaches Lv.9
-7325	13116		153329	18																								[Melody of Death] reaches Lv.18
-7326	0	(7323&7325)																										Both [Sky Dance] and [Melody of Death] reach Lv.18
+7322	13116		153328	9																								[Modulated Timbre] reaches Lv.9
+7323	13116		153328	18																								[Modulated Timbre] reaches Lv.18
+7324	13116		153329	9																								[Hymn to Muse] reaches Lv.9
+7325	13116		153329	18																								[Hymn to Muse] reaches Lv.18
+7326	0	(7323&7325)																										[Modulated Timbre] and [Hymn to Muse] reach Lv.18
 18108001	18108		20	1																								Dispatch Omniframes that reach Lv.20
 18108002	18108		15	1																								Dispatch Omniframes that reach Lv.15
 18108003	18108		10	1																								Dispatch Omniframes that reach Lv.10
@@ -824,6 +827,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 60442	11102		1071004	4																								Awaken Scire's Ultima Rank
 60443	11102		1571003	4																								Awaken Arca's Ultima Rank
 60444	11102		1041004	4																								Awaken Stigmata's Ultima Rank
+60445	11102		1231002	4																								Awaken Vitrum's Ultima Rank
 61001	13105		1	0																								Omniframes are Rank B Omniframes
 61002	13105		2	0																								Omniframes reach Rank A
 61003	13105		3	0																								Omniframes reach Rank S
@@ -1819,6 +1823,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 40063043	13109		6	12																								Equip 6★ Resonance Skill x12
 40063044	13109		6	12																								Equip 6★ Resonance Skill x12
 40063045	13109		6	12																								Equip 6★ Resonance Skills x12
+40063046	13109		6	12																								Equip 6★ Resonance Skills x12
 40006313	21101																											Claim Monthly Pass?
 40006314	21102																											Complete 1st recharge?
 30020101	18111		1	1																								Max unit: 1
@@ -2044,6 +2049,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 6002504	11105		6002504																									Coating owned
 6001805	11105		6001805																									Coating owned
 6001605	11105		6001605																									Coating owned
+6002604	11105		6002604																									Coating owned
 30499	10101		50																									Reach Commandant Level 50
 30500	11106		4																									Prerequisite: Nightmare Stage 3-2 Terminal
 30501	11106		5																									Prerequisite: Nightmare Stage 3-3 Driven by Instinct
@@ -2207,6 +2213,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 812027	11104		6001605																									Unlocks from owning the Coating "Wavebender"
 812028	11104		6001805																									Unlocks from owning the Coating "Dreamcatcher"
 812029	11104		6002504																									Unlocks from owning the Coating "Exorcist"
+812030	11104		6000506																									Unlocks after owning the Coating "Niki US1000"
 841001	10105		14010133																									Clear all stages
 841002	10101		80																									Commandant reaches Lv.80
 841003	15102		2001																									Clear all stages in this area
@@ -2434,6 +2441,15 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 990085	15103		13019001	3																								Obtain 3
 990086	15103		13019001	5																								Obtain 5
 990087	15103		13019001	7																								Obtain 7
+990088	15103		13019101	2																								Obtain 2
+990089	15103		13019101	3																								Obtain 3
+990090	15103		13019101	4																								Obtain 4
+990091	15103		13019102	2																								Obtain 2
+990092	15103		13019102	3																								Obtain 3
+990093	15103		13019102	4																								Obtain 4
+990094	15103		13019103	2																								Obtain 2
+990095	15103		13019103	3																								Obtain 3
+990096	15103		13019103	4																								Obtain 4
 84100101	10105		10010101																									Unlocks after clearing Main Story 1-1
 84100102	10105		10010102																									Unlocks after clearing Main Story 1-2
 84100103	10105		10010103																									Unlocks after clearing Main Story 1-3
@@ -2846,6 +2862,19 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 84102215	10105		10010003																									Unlocks after clearing Main Story 20-14
 84102216	10105		30130409																									Unlocks after clearing Slumberland Stage 2
 84102217	10105		30130410																									Unlocks after clearing Slumberland Stage 3
+84102301	10105		15020401																									Clear Floating Record ER03-1 to unlock
+84102302	10105		15020402																									Clear Floating Record ER03-2 to unlock
+84102303	10105		15020403																									Clear Floating Record ER03-3 to unlock
+84102304	10105		15020404																									Clear Floating Record ER03-4 to unlock
+84102305	10105		15020405																									Clear Floating Record ER03-5 to unlock
+84102306	10105		15020406																									Clear Floating Record ER03-6 to unlock
+84102307	10105		15020407																									Clear Floating Record ER03-7 to unlock
+84102308	10105		15020408																									Clear Floating Record ER03-8 to unlock
+84102309	10105		15020409																									Clear Floating Record ER03-9 to unlock
+84102310	10105		15020410																									Clear Floating Record ER03-10 to unlock
+84102311	10105		15020411																									Clear Floating Record ER03-11 to unlock
+84102312	10105		15020412																									Clear Floating Record ER03-12 to unlock
+84102313	10105		15020413																									Clear Floating Record ER03-13 to unlock
 84200101	10105		11010101																									Unlocks after clearing Main Hidden Story 1-1
 84200102	10105		11010102																									Unlocks after clearing Main Hidden Story 1-2
 84200106	10105		11010106																									Unlocks after clearing Main Hidden Story 1-6
@@ -3665,6 +3694,13 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 84602213	10105		30131136																									Clear Dumplings and Dragons SOW-13 to unlock
 84602214	10105		30131137																									Clear Dumplings and Dragons SOW-14 to unlock
 84602215	10105		30131138																									Clear Dumplings and Dragons SOW-15 to unlock
+84602301	10105		30130212																									Unlocks after clearing Once in a Blue Moon MA-01
+84602302	10105		30130213																									Unlocks after clearing Once in a Blue Moon MA-02
+84602303	10105		30130214																									Unlocks after clearing Once in a Blue Moon MA-03
+84602304	10105		30130215																									Unlocks after clearing Once in a Blue Moon MA-04
+84602305	10105		30130216																									Unlocks after clearing Once in a Blue Moon MA-05
+84602306	10105		30130217																									Unlocks after clearing Once in a Blue Moon MA-06
+84602307	10105		30130218																									Unlocks after clearing Once in a Blue Moon MA-07
 84700101	15104		1																									Help other to clear Joint Warfare once
 84700102	15104		10																									Help other to clear Joint Warfare 10 times
 84700103	15104		50																									Help other to clear Joint Warfare 50 times
@@ -3918,6 +3954,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 96003	10105		30100927																									Clear all tutorial stages
 96004	10105		30100935																									Clear all tutorial stages
 96005	10105		30100947																									Clear all tutorial stages
+96006	10105		30100953																									Clear all tutorial stages
 999999	10136		16010000	0	10																							Have any Yuan Ye reach Lv.10 (no Overclock)
 1000000	10136		16020000	0	10																							Have any Noctua reach Lv.10 (no Overclock)
 1000001	10137		16010000	3																								Have any Yuan Ye reach S-Rank
@@ -4071,16 +4108,16 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 1002092	10105		30062306																									Clear SP Fire Zone Stage 1
 1002093	10105		30062311																									Clear SP Dark Zone Stage 1
 1002094	0	1002091|1002092|1002093																										Clear stage 1 of any SP zone
-1002301	10105		30062364																									Clear SP Physical Block Easy Stage 1
-1002302	10105		30062373																									Clear SP Fire Block Easy Stage 1
-1002303	10105		30062370																									Clear SP Dark Block Easy Stage 1
-1002304	10105		30062361																									Clear SP Lightning Block Easy Stage 1
-1002305	10105		30062367																									Clear SP Ice Block Easy Stage 1
-1002306	10105		30062379																									Clear SP Physical Block Hard Stage 1
-1002307	10105		30062388																									Clear SP Fire Block Hard Stage 1
-1002308	10105		30062385																									Clear SP Dark Block Hard Stage 1
-1002309	10105		30062376																									Clear SP Lightning Block Hard Stage 1
-1002310	10105		30062382																									Clear SP Ice Block Hard Stage 1
+1002301	10105		30062398																									Clear SP Physical Block Easy Stage 1
+1002302	10105		30062401																									Clear SP Fire Block Easy Stage 1
+1002303	10105		30062404																									Clear SP Dark Block Easy Stage 1
+1002304	10105		30062395																									Clear SP Lightning Block Easy Stage 1
+1002305	10105		30062407																									Clear SP Ice Block Easy Stage 1
+1002306	10105		30062413																									Clear SP Physical Block Hard Stage 1
+1002307	10105		30062416																									Clear SP Fire Block Hard Stage 1
+1002308	10105		30062419																									Clear SP Dark Block Hard Stage 1
+1002309	10105		30062410																									Clear SP Lightning Block Hard Stage 1
+1002310	10105		30062422																									Clear SP Ice Block Hard Stage 1
 1002311	0	1002301|1002302|1002303|1002304|1002305|1002306|1002307|1002308|1002309|1002310																										Clear stage 1 of any SP phase 3 block
 1002100	23001		7526																									Reach the entrance of the Guild War that unlocks on Jan 27, 2022
 1002101	23001		7527																									Reach the entrance of the 1st round of the Guild War that unlocks on Jan 28, 2022
@@ -4231,6 +4268,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 1007045	10105		15020223																									
 1007046	10105		15020324																									
 1007047	10105		10140101																									
+1007048	10105		15020413																									
 900000001	10105		10020101																									
 900000002	10101		20																									Unlocked when Commandant reaches Lv.20
 1400000	10105		10010103																									

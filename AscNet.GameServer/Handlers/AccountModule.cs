@@ -206,7 +206,7 @@ namespace AscNet.GameServer.Handlers
                 Content = @"Hello Commandant!
 Welcome to AscNet, we are happy that you are using this Server Software.
 This Server Software is always free and if you are paying to gain access to this you are being SCAMMED, we encourage you to help prevent another buyer like you by making a PSA or telling others whom you may see as potential users.
-Sorry for the inconvinience.
+Sorry for the inconvenience.
 
 欢迎来到 AscNet，我们很高兴您使用本服务器软件。
 本服务器软件始终是免费的，如果您是通过付费来使用本软件，那您就被骗了，我们鼓励您告诉其他潜在用户，以防止再有像您这样的买家。
@@ -217,7 +217,12 @@ Sorry for the inconvinience.
                 ExpireTime = DateTimeOffset.Now.ToUnixTimeSeconds() * 2,
                 IsForbidDelete = true
             });
+
+            NotifyWorldChat notifyWorldChat = new();
+            notifyWorldChat.ChatMessages.Add(ChatModule.MakeLuciaMessage($"Hello {session.player.PlayerData.Name}! Welcome to AscNet, please read mails if you haven't already.\n如果您还没有阅读邮件，请阅读邮件"));
+
             session.SendPush(notifyMails);
+            session.SendPush(notifyWorldChat);
             #endregion
 
             // NEEDED to not softlock!

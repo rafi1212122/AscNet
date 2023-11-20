@@ -1,0 +1,105 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
+11210102	普攻1-2	1	3	2		1	0			4			0.1						-1		FxR2BangbinataAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112101021	112100									0.8			0						1	1												112101022	
+11210202	普攻2-2	1	5	3		1	0			4			0.1						-1		FxR2BangbinataAtk03Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112102021	112101									0.8			0						1	1												112102022	
+11210203	普攻2-3	1	2	3.5		1	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	112102031	112101									0.8			0						1	1												112102032	
+11210206	普攻2-6	2	0.3				0			4			0.5						-1						FxR2BangbinataAtk03Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11210302	普攻3-2	1	5	3		1	0			4			0.1						-1		FxR2BangbinataAtk04Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112103021	112102	112195				112195				0.8			0						1	1												112103022	
+11210402	普攻4-2	2	1				0			4			0.1						-1		FxR2BangbinataAtk05Hit						-1			1					0	0	0										1							0	3		0.2	0.1	112104021	112103	112110								0.8			0						1	1												112104022	
+11210403	普攻4-3	2	1				0			4			0.1						-1		FxR2BangbinataAtk05Hit						-1			1					0	0	0										1							0	3		0.2	0.1	112104031	112103	112111								0.8			0						1	1												112104032	
+11210404	普攻4-4	2	1				0			4			0.1						-1		FxR2BangbinataAtk05Hit						-1			1					0	0	0										1							0	3		0.2	0.1	112104041	112103	112111								0.8			0						1	1												112104042	
+11210405	普攻4-5	2	1				0			4			0.1						-1		FxR2BangbinataAtk05Hit						-1			1					0	0	0										1							0	3		0.2	0.1	112104051	112103	112111								0.8			0						1	1												112104052	
+11210408	普攻4-8拉怪	1	1	2		-0.5	0			4			0.1						-1	1			0.05				-1			1					0	0	0										1							0	3		0.2	0.1		112976									0	HitCase		0						0	1									1				
+11210409	普攻4-9	1	1	2		-0.5	0			4			0.1						-1	1			0.05				-1			1					0	0	0										1							0	3		0.2	0.1		112976									0	HitCase		0						0	1									1				
+11210410	普攻4-10	1	1	2		-0.5	0			4			0.1						-1	1			0.05				-1			1					0	0	0										1							0	3		0.2	0.1		112976									0	HitCase		0						0	1									1				
+11210411	普攻4-11	1	1	3		-0.5	0			4			0.1						-1	1			0.05				-1			1					0	0	0										1							0	3		0.2	0.1		112976									0	HitCase		0						0	1									1				
+11210504	普攻5-4	1	3	4.5		2	0			4			1						-1		FxR2BangbinataAtk06Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112105041	112104	112194								0.8			0						1	1													
+11210510	普攻5-10	2	0.3				0			4			2						-1						FxR2BangbinataAtk06Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11210602	闪避后普攻-2	1	5	3		1.5	0			4			0.1						-1		FxR2BangbinataAtk01Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112106021	112105	112196								0.8			0						1	1												112106022	
+11210702	红球1消-2	2	0.3				0			4			0.1						-1								-1			1					0	0	0										0	0.05		1	11210704	1		0	3		0.2	0.1											0	HitCase		0						0	1													
+11210704	红球1消-4	2	5				0			4			0.4						-1	1	FxR2BangbinataAtk11Hit		0.05				-1			1					0	0	0										0							0	2	270	0.2	0.1	112107041	112106									0.8			2						1	1												112107042	
+11210707	红球1消-7	2	0.3				0			4			1						-1						FxR2BangbinataAtk11Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11210802	红球2消-2	2	0.3				0			4			0.1						-1								-1			1					0	0	0										0	0.05		1	11210804	1		0	3		0.2	0.1											0	HitCase		0						0	1													
+11210804	红球2消-4	2	5				0			4			0.4						-1	1	FxR2BangbinataAtk11Hit		0.05				-1			1					0	0	0										0							0	2	270	0.2	0.1	112108041	112107									0.8			2						1	1												112108042	
+11210807	红球2消-7	2	0.3				0			4			1						-1						FxR2BangbinataAtk11Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11210902	红球3消-2	2	0.3				0			4			0.1						-1								-1			1					0	0	0										0	0.05		1	11210904	1		0	3		0.2	0.1											0	HitCase		0						0	1													
+11210904	红球3消-4	2	5				0			4			0.4						-1	1	FxR2BangbinataAtk11Hit		0.05				-1			1					0	0	0										0							0	3	270	0.2	0.1	112109041	112108									0.8			2						1	1												112109042	
+11210908	红球3消-8	2	0.3				0			4			1						-1						FxR2BangbinataAtk11Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11211003	蓝球1消-3伤害1	3	2.5	180		0.2	0			4			0.1						-1		FxR2BangbinataAtk04Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112110031	112112									0.8			0						1	1												112110032	
+11211004	蓝球1消-4伤害2	2	3				0			4			0.1						-1		FxR2BangbinataAtk04Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112110041	112112	112196				112196				0.8			0						1	1												112110042	
+11211008	蓝球1消-8地裂	2	0.3				0			4			2						-1						FxR2BangbinataAtk21Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11211103	蓝球2消-3	3	2.5	180		0.2	0			4			0.1						-1		FxR2BangbinataAtk04Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112111031	112113									0.8			0						1	1												112111032	
+11211104	蓝球2消-4	2	3				0			4			0.1						-1		FxR2BangbinataAtk04Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112111041	112113	112196				112196				0.8			0						1	1												112111042	
+11211108	蓝球2消-8	2	0.3				0			4			2						-1						FxR2BangbinataAtk21Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11211203	蓝球3消-3	3	2.5	180		0.2	0			4			0.1						-1		FxR2BangbinataAtk04Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112112031	112114									0.8			0						1	1												112112032	
+11211204	蓝球3消-4	2	3				0			4			0.1						-1		FxR2BangbinataAtk04Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112112041	112114	112196								0.8			0						1	1												112112042	
+11211208	蓝球3消-8	2	0.3				0			4			2						-1						FxR2BangbinataAtk21Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11211303	黄球1消-3	1	5	4		2	0			4			0.3						-1		FxR2BangbinataAtk31Hit2						-1			1					0	0	0										0							0	3		0.2	0.1	112113031	112115	112196				112196				0.8			0						1	1												112113032	
+11211305	黄球1消-5聚怪	1	3	2		2	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1	112113051	112976									0	HitCase		1						0	1													
+11211306	黄球1消-6	2	0.3				0			4			2						-1						FxR2BangbinataAtk31Daoguang		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11211403	黄球2消-3	1	5	4		2	0			4			0.3						-1		FxR2BangbinataAtk31Hit2						-1			1					0	0	0										0							0	3		0.2	0.1	112114031	112116	112196				112196				0.8			0						1	1												112114032	
+11211405	黄球2消-5	1	3	2		2	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1	112114051	112976									0	HitCase		1						0	1													
+11211406	黄球2消-6	2	0.3				0			4			2						-1						FxR2BangbinataAtk31Daoguang		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11211503	黄球3消-3	1	5	4		2	0			4			0.3						-1		FxR2BangbinataAtk31Hit2						-1			1					0	0	0										0							0	3		0.2	0.1	112115031	112117	112196				112196				0.8			0						1	1												112115032	
+11211505	黄球3消-5	1	3	2		2	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1	112115051	112976									0	HitCase		1						0	1													
+11211506	黄球3消-6	2	0.3				0			4			2						-1						FxR2BangbinataAtk31Daoguang		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11211606	强化大招-6时停	2	99				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		112157	112159	112149							0	HitCase		0						0	1													
+11211611	强化大招-11切割伤害	2	6				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	60	0.2	0.1	112116111	112155					112944				0	HitCase		0						1	1												112116112	
+11211612	强化大招-12	2	6				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	60	0.2	0.1	112116121	112155									0	HitCase		0						1	1													
+11211613	强化大招-13	2	6				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	300	0.2	0.1	112116131	112155									0	HitCase		0						1	1													
+11211614	强化大招-14	2	6				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	300	0.2	0.1	112116141	112155									0	HitCase		0						1	1													
+11211615	强化大招-15	2	6				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	60	0.2	0.1	112116151	112155									0	HitCase		0						1	1													
+11211616	强化大招-16	2	6				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	180	0.2	0.1	112116161	112155									0	HitCase		0						1	1													
+11211617	强化大招-17	2	6				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	112116171	112155									0	HitCase		0						1	1													
+11211618	强化大招-18	2	6				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	112116181	112155									0	HitCase		0						1	1													
+11211619	强化大招-19最后一刀	2	6			3	0			4			0.1						-1								-1			1					0	0	0										0							0	3	30	0.2	0.15	112116191	112156	112161								0	HitCase		0						1	1												112116192	
+11211620	强化大招-20删除时停	2	99				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		112161									0	HitCase		0						0	1													
+11211624	强化大招-24	2	99				0			4			3						-1								-1			1					0	0	0										0	0		1	11211629	1	1	0	3		0.2	0.1											0	HitCase		0						0	1									1				
+11211626	强化大招-26	2	0.3			-4.52	0			4			8						-1						FxR2BangbinataAtk5101		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11211627	强化大招-27	2	0.3				0			4			1						-1						FxR2BangbinataAtk5105		-1			1					0	0	0										0							0	3		0.2	0.1											0.5	HitCase		0						0	1													
+11211629	强化大招-29	2	0.3				0			4			3						-1						FxR2BangbinataAtk5103		-1			1					0	0	0										1							0	3		0.2	0.1											0	HitCase		0						0	1													
+11212004	出场技-4	1	5	4		2	0			4			0.3						-1		FxR2BangbinataAtk31Hit2						-1			1					0	0	0										0							0	3		0.2	0.1	112120041	112117	112196				112196				0.8			0						0	1												112120042	
+11212006	出场技-6	1	3	2		2	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1	112120061	112976									0	HitCase		1						0	1													
+11212007	出场技-7	2	0.3				0			4			2						-1						FxR2BangbinataAtk31Daoguang		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11212306	援助技能-6	2	4.5				0			4			0.9						-1	1	FxR2BangbinataAtk11Hit		0.1				-1			1					0	0	0										0							0	3	330	0.2	0.1	112123061	112118									0.8			1						0	1												112123062	
+11212415	核心闪避-15可闪避子弹	2	666				0			1			0.5						-1								-1			1					0	0	0										0							0	3	0	0	0											0	HitCase		0						1	1													
+11212418	核心闪避-18闪避成功顿帧对怪	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	3	0	0	0		112136									0	HitCase		0						0	1													
+11212419	核心闪避-19闪避成功顿帧对自己	2	666				0			1			0.1						-1								-1			1					0	0	0										0							0	3	0	0	0		112133									0	HitCase		0						0	1													
+11212602	核心追击pro1-2伤害子弹	2	3				0			4			0.4						-1	1	FxR2BangbinataAtk43Hit		0.1				-1			1					0	0	0										0							0	3	330	0.2	0.1	112126021										0.8			1						1	1	1	1											
+11212603	核心追击pro1-3最后一刀	2	6				0			4			0.2						-1		FxR2BangbinataAtk43Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	112126031			200104			200104				0.8			0						1	1												112126032	
+11212608	核心追击pro1-8聚怪	2	6		0	2	0			4			0.4						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		112976									0	HitCase		0						0	1													
+11212613	核心追击pro1-13	2	0.3				0			1			1						-1						FxR2BangbinataAtk43Tilt		-1			1					0	0	0										0							0	3		0.2	0.1											2.7	HitCase		0						0	1													
+11212702	核心追击pro2-2	2	3				0			4			0.4						-1	1	FxR2BangbinataAtk43Hit		0.1				-1			1					0	0	0										0							0	3		0.2	0.1	112127021										0.8			1						1	1	1	1											
+11212703	核心追击pro2-3	2	6				0			4			0.2						-1		FxR2BangbinataAtk43Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112127031			200104			200104				0.8			0						1	1												112127032	
+11212705	核心追击pro2-5	2	6		-0.5	2.5	0			4			0.4						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		112925									0	HitCase		1						0	1													
+11212713	核心追击pro2-13	2	0.3				0			1			1						-1						FxR2BangbinataAtk44Tilt		-1			1					0	0	0										0							0	3		0.2	0.1											2.7	HitCase		0						0	1													
+11212802	核心追击pro3-2	2	3				0			4			0.4						-1	1	FxR2BangbinataAtk43Hit		0.1				-1			1					0	0	0										0							0	3		0.2	0.1	112128021										0.8			1						1	1	1	1											
+11212803	核心追击pro3-3	2	6				0			4			0.2						-1		FxR2BangbinataAtk43Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112128031			200104			200104				0.8			0						1	1												112128032	
+11212805	核心追击pro3-5	2	6		0.5	2.5	0			4			0.4						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		112925									0	HitCase		1						0	1													
+11212813	核心追击pro3-13冲刺特效	2	0.3				0			1			1						-1						FxR2BangbinataAtk45Tilt		-1			1					0	0	0										0							0	3		0.2	0.1											2.7	HitCase		0						0	1													
+11213002	突进普攻1-2	1	2	2		1	0			4			0.1						-1		FxR2BangbinataAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112130021	112100									0.8			0						1	1												112130022	
+11213106	普通大招-6	2	99				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		112157	112159	112149							0	HitCase		0						0	1													
+11213111	普通大招-11	2	4				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	60	0.2	0.1	112131111	112943									0	HitCase		0						1	1												112131112	
+11213112	普通大招-12	2	4				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	60	0.2	0.1	112131121	112943									0	HitCase		0						1	1												112131122	
+11213113	普通大招-13	2	4				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	300	0.2	0.1	112131131	112943									0	HitCase		0						1	1												112131132	
+11213114	普通大招-14	2	4				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	300	0.2	0.1	112131141	112943									0	HitCase		0						1	1												112131142	
+11213115	普通大招-15	2	4				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	60	0.2	0.1	112131151	112943									0	HitCase		0						1	1												112131152	
+11213116	普通大招-16	2	4				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	180	0.2	0.1	112131161	112943									0	HitCase		0						1	1												112131162	
+11213117	普通大招-17	2	4				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	112131171	112943									0	HitCase		0						1	1												112131172	
+11213118	普通大招-18	2	4				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	112131181	112943									0	HitCase		0						1	1												112131182	
+11213119	普通大招-19	2	4				0			4			0.1						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	112131191	112943									0	HitCase		0						1	1													
+11213120	普通大招-20	1	8	10		2	0			4			0.3						-1		FxR2BangbinataAtk51Hit						-1			1					0	0	0										0							0	3	30	0.2	0.1	112131201	112943	112161								0	HitCase		0						1	1												112131202	
+11213122	普通大招-22	2	99				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		112161									0	HitCase		0						0	1													
+11213123	普通大招-23	2	0.3			-4.5	0			4			8						-1						FxR2BangbinataAtk5201		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11213126	普通大招-26	2	0.3				0			4			1						-1						FxR2BangbinataAtk5202		-1			1					0	0	0										0							0	3		0.2	0.1											0.5	HitCase		0						0	1													
+11213202	追击1-2	2	3				0			4			0.4						-1	1	FxR2BangbinataAtk43Hit		0.1				-1			1					0	0	0										0							0	3	330	0.2	0.1	112132021										0.8			1						1	1	1	1											
+11213203	追击1-3	2	5				0			4			0.2						-1		FxR2BangbinataAtk43Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	112132031			200103			200103				0.8			0						1	1												112132032	
+11213208	追击1-8	2	6		0	2	0			4			0.4						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		112976									0	HitCase		0						0	1													
+11213213	追击1-13	2	0.3				0			1			1						-1						FxR2BangbinataAtk43Tilt		-1			1					0	0	0										0							0	3		0.2	0.1											2.7	HitCase		0						0	1													
+11213302	追击2-2伤害	2	3				0			4			0.4						-1	1	FxR2BangbinataAtk43Hit		0.1				-1			1					0	0	0										0							0	3		0.2	0.1	112133021										0.8			1						1	1	1	1											
+11213303	追击2-3最后一刀	2	5				0			4			0.2						-1		FxR2BangbinataAtk43Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112133031			200103			200103				0.8			0						1	1												112133032	
+11213305	追击2-5聚怪	2	6		-0.5	2.5	0			4			0.4						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		112925									0	HitCase		1						0	1													
+11213313	追击2-13	2	0.3				0			1			1						-1						FxR2BangbinataAtk44Tilt		-1			1					0	0	0										0							0	3		0.2	0.1											2.7	HitCase		0						0	1													
+11213402	追击3-2	2	3				0			4			0.4						-1	1	FxR2BangbinataAtk43Hit		0.1				-1			1					0	0	0										0							0	3		0.2	0.1	112134021										0.8			1						1	1	1	1											
+11213403	追击3-3	2	5				0			4			0.2						-1		FxR2BangbinataAtk43Hit						-1			1					0	0	0										0							0	3		0.2	0.1	112134031			200103			200103				0.8			0						1	1												112134032	
+11213405	追击3-5聚怪	2	6		0.5	2.5	0			4			0.4						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		112925									0	HitCase		1						0	1													
+11213413	追击3-13	2	0.3				0			1			1						-1						FxR2BangbinataAtk45Tilt		-1			1					0	0	0										0							0	3		0.2	0.1											2.7	HitCase		0						0	1													

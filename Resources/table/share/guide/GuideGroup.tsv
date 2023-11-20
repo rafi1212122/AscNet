@@ -97,7 +97,7 @@ Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	C
 55046	55046	0	Super Tower Climb Special Enhancement Guide	1	84601505			55046	UiSuperTowerMain	0	55046
 56011	56011	1	Rabbit Hunt gameplay guide	1	30406			56011	UiRpgMakerGameMain	0	56011
 56012	56012	1	Rabbit Hunt Event	1	30406			56012	UiRpgMakerGamePlayMain	0	56012
-56021	56021	1	Circuit Connect gameplay guide	1	774800			56021	UiSameColorGameBoss	0	56021
+56021	56021	0	Circuit Connect gameplay guide	1	774800	771000		56021	UiSameColorGameBossMain	0	56021
 56022	56022	1	Circuit Connect event guide	1	774800			56022	UiSameColorGameBattle	0	56022
 57011	57011	0	Babel Tower Nocturnal Path Mode Guide	1	772280			57011	UiBabelTowerMainNew	0	57011
 57012	57012	0	Babel Tower Nocturnal Path Event Guide	1	772280			57012	UiBabelTowerChildSupport	0	57012
@@ -126,7 +126,7 @@ Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	C
 58032	58032	1	Guide - Doomsday Survival Exercise Description	1	30406			58032	UiDoomsdayFubenMain	0	58032
 58033	58033	1	Guide - Doomsday Survival Exploration Team	1	30406			58033	UiDoomsdayExplore	0	58033
 58034	58034	1	Guide - Doomsday Survival Exploration Location	1	30406			58034	UiDoomsdayExplore	0	58034
-59011	59011	0	3-Ping Phase 2 Mode Guide	1	774800			59011	UiSameColorGameBattle	0	59011
+59011	59011	1	3-Ping Phase 2 Mode Guide	1	774800	771000		59011	UiSameColorGameBattle	0	59011
 59021	59021	0	Guide - Punishing: Gray Raven Battle Royale	1	30406			59021	UiEscapeMain	0	59021
 59022	59022	0	Guide - Punishing: Gray Raven Battle Royale Team Interface	1	30406			59022	UiEscapeTeamTips	0	59022
 59031	59031	1	Operation Uniframe Mode Guide	1	84601800			59031	UiPivotCombatMain	0	59031
@@ -135,8 +135,8 @@ Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	C
 60001	60001	0	Guide - Plum Snow Interface	1	30406			60001	UiRpgMakerGameMain	0	60001
 60011	60011	0	Guide - Winter Sequence Interface	1	30406			60011	UiDoubleTowers	0	60011
 60012	60012	0	Winter Sequence Guide	1	30406			60012	UiDoubleTowersDeploy	0	60012
-60021	60021	0	Guide - RPG Phase 4 Interface	1	774800			60021	UiRpgTowerMain	0	60021
-60022	60022	0	RPG Phase 4 Guide	1	84600203			60022	UiRpgTowerMain	0	60022
+60021	60021	1	Guide - RPG Phase 4 Interface	1	774800			60021	UiRpgTowerMain	0	60021
+60022	60022	1	RPG Phase 4 Guide	1	84600203			60022	UiRpgTowerMain	0	60022
 60031	60031	1	Guide - Guild War Interface Access	1	852731	1002104		60031	UiGuildMain	0	60031
 60032	60032	1	Guide - Guild War Interface	1	852731	1002100		60032	UiGuildWarStageDetail	0	60032
 60101	60101	0	Guide - Spectroscopic Binary Star Main Interface	1	8005			60101	UiCoupleCombatChapter	0	60101
@@ -184,4 +184,6 @@ Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	C
 60422	60422	0	Guide: Guild Expedition 2.0 Mode Interface	1	852731	1002105		60422	UiGuildWarStageMain	0	60422
 60423	60423	0	Guide: Guild Expedition 2.0 Support Construct	1	852731			60423	UiGuildWarSupport	0	60423
 60424	60424	0	Guide: Guild Expedition 2.0 Boss Challenge	1	852731			60424	UiGuildWarBossStageDetail	0	60424
+60501	60501	0	Circuit Connect 3.0 battle guide	1	774800	771000		59011	UiSameColorGameBattle	0	60501
+60511	60511	0	Rpg 5.0 main screen guide	1	774800			60511	UiRpgTowerNewMain	0	60511
 280011	280011	0	英文服PC端预设键位调整说明引导	1	3000000	3000001		280011	UiMain	0	280011

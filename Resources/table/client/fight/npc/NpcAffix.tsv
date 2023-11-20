@@ -1,0 +1,574 @@
+Id	Name	Level	Icon	Description
+760001	↑Fire	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuo.png	Fire Resistance decreases by 30%
+760002	↑Fire	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuo.png	Fire Resistance decreases by 45%
+760003	↑Fire	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuo.png	Fire Resistance decreases by 60%
+760011	↑Ltg	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning Resistance decreases by 30%
+760012	↑Ltg	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning Resistance decreases by 45%
+760013	↑Ltg	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning Resistance decreases by 60%
+760021	↑Ice	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeibing.png	Ice Resistance decreases by 30%
+760022	↑Ice	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeibing.png	Ice Resistance decreases by 45%
+760023	↑Ice	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeibing.png	Ice Resistance decreases by 60%
+760031	↑Dark	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeian.png	Dark Resistance decreases by 30%
+760032	↑Dark	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeian.png	Dark Resistance decreases by 45%
+760033	↑Dark	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeian.png	Dark Resistance decreases by 60%
+760041	↑Phy	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeiwuli.png	Physical Resistance decreases by 30%
+760042	↑Phy	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeiwuli.png	Physical Resistance decreases by 45%
+760043	↑Phy	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeiwuli.png	Physical Resistance decreases by 60%
+760051	↑Ele	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeiyuansu.png	Elemental Resistance decreases by 30%
+760052	↑Ele	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeiyuansu.png	Elemental Resistance decreases by 45%
+760053	↑Ele	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeiyuansu.png	Elemental Resistance decreases by 60%
+760061	- ATK	1	Assets/Product/Texture/Image/IconAffix/AffixIconRuogong.png	Extra DMG Bonus decreases by 30%
+760062	- ATK	2	Assets/Product/Texture/Image/IconAffix/AffixIconRuogong.png	Extra DMG Bonus decreases by 45%
+760063	- ATK	3	Assets/Product/Texture/Image/IconAffix/AffixIconRuogong.png	Extra DMG Bonus decreases by 60%
+760071	A.P.	1	Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	Extra DMG Reduction decreases by 30%.
+760072	A.P.	2	Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	Extra DMG Reduction decreases by 45%
+760073	A.P.	3	Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	Extra DMG Reduction decreases by 60%.
+760081	W.P.	1	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Extra DMG Reduction decreases by 30% when taking CRIT DMG
+760082	W.P.	2	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Extra DMG Reduction decreases by 45% when taking CRIT DMG
+760083	W.P.	3	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Extra DMG Reduction decreases by 60% when taking CRIT DMG
+760091	Frail	1	Assets/Product/Texture/Image/IconAffix/AffixIconXuruo.png	Extra DMG Bonus, Movement Speed, Attack Speed, and Extra DMG Reduction decrease by 20%
+760092	Frail	2	Assets/Product/Texture/Image/IconAffix/AffixIconXuruo.png	Extra DMG Bonus, Movement Speed, Attack Speed, and Extra DMG Reduction decrease by 35%
+760093	Frail	3	Assets/Product/Texture/Image/IconAffix/AffixIconXuruo.png	Extra DMG Bonus, Movement Speed, Attack Speed, and Extra DMG Reduction decrease by 50%
+760101	↑ROrb	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeihong.png	Extra DMG Reduction decreases by 30% when taking DMG from Red Orb skills
+760102	↑ROrb	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeihong.png	Extra DMG Reduction decreases by 45% when taking DMG from Red Orb skills
+760103	↑ROrb	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeihong.png	Extra DMG Reduction decreases by 60% when taking DMG from Red Orb skills
+760111	↑YOrb	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuang.png	Extra DMG Reduction decreases by 30% when taking DMG from Yellow Orb skills
+760112	↑YOrb	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuang.png	Extra DMG Reduction decreases by 45% when taking DMG from Yellow Orb skills
+760113	↑YOrb	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuang.png	Extra DMG Reduction decreases by 60% when taking DMG from Yellow Orb skills
+760121	↑BOrb	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeilan.png	Extra DMG Reduction decreases by 30% when taking DMG from Blue Orb skills
+760122	↑BOrb	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeilan.png	Extra DMG Reduction decreases by 45% when taking DMG from Blue Orb skills
+760123	↑BOrb	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeilan.png	Extra DMG Reduction decreases by 60% when taking DMG from Blue Orb skills
+760131	+ATK	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Extra DMG Bonus increases by 30%
+760132	+ATK	2	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Extra DMG Bonus increases by 45%
+760133	+ATK	3	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Extra DMG Bonus increases by 60%
+760141	↓Fire	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanghuo.png	Fire Resistance increases by 30%
+760142	↓Fire	2	Assets/Product/Texture/Image/IconAffix/AffixIconKanghuo.png	Fire Resistance increases by 45%
+760143	↓Fire	3	Assets/Product/Texture/Image/IconAffix/AffixIconKanghuo.png	Fire Resistance increases by 60%
+760151	↓Ltg	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei.png	Lightning Resistance increases by 30%
+760152	↓Ltg	2	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei.png	Lightning Resistance increases by 45%
+760153	↓Ltg	3	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei.png	Lightning Resistance increases by 60%
+760161	↓Ice	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangbing.png	Ice Resistance increases by 30%
+760162	↓Ice	2	Assets/Product/Texture/Image/IconAffix/AffixIconKangbing.png	Ice Resistance increases by 45%
+760163	↓Ice	3	Assets/Product/Texture/Image/IconAffix/AffixIconKangbing.png	Ice Resistance increases by 60%
+760171	↓Dark	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangan.png	Dark Resistance increases by 30%
+760172	↓Dark	2	Assets/Product/Texture/Image/IconAffix/AffixIconKangan.png	Dark Resistance increases by 45%
+760173	↓Dark	3	Assets/Product/Texture/Image/IconAffix/AffixIconKangan.png	Dark Resistance increases by 60%
+760181	↓Phy	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangwuli.png	Physical Resistance increases by 30%
+760182	↓Phy	2	Assets/Product/Texture/Image/IconAffix/AffixIconKangwuli.png	Physical Resistance increases by 45%
+760183	↓Phy	3	Assets/Product/Texture/Image/IconAffix/AffixIconKangwuli.png	Physical Resistance increases by 60%
+760191	↓Ele	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangyuansu.png	Elemental Resistance increases by 30%
+760192	↓Ele	2	Assets/Product/Texture/Image/IconAffix/AffixIconKangyuansu.png	Elemental Resistance increases by 45%
+760193	↓Ele	3	Assets/Product/Texture/Image/IconAffix/AffixIconKangyuansu.png	Elemental Resistance increases by 60%
+760201	↓DMG	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianshang.png	Extra DMG Reduction increases by 30%.
+760202	↓DMG	2	Assets/Product/Texture/Image/IconAffix/AffixIconMianshang.png	Extra DMG Reduction increases by 45%
+760203	↓DMG	3	Assets/Product/Texture/Image/IconAffix/AffixIconMianshang.png	Extra DMG Reduction increases by 60%.
+760211	Agile	1	Assets/Product/Texture/Image/IconAffix/AffixIconXunjie.png	Increases Movement Speed by 15%-30%. The farther you are away from the target, the higher your Movement Speed becomes.
+760212	Agile	2	Assets/Product/Texture/Image/IconAffix/AffixIconXunjie.png	Increases Movement Speed by 20%-35%. The farther you are away from the target, the higher your Movement Speed becomes.
+760213	Agile	3	Assets/Product/Texture/Image/IconAffix/AffixIconXunjie.png	Increases Movement Speed by 25%-40%. The farther you are away from the target, the higher your Movement Speed becomes.
+760221	Unsk	1	Assets/Product/Texture/Image/IconAffix/AffixIconBudong.png	Immune to attacks and controlling effects.
+760231	Recov	1	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	Recovers 0.1% of max HP per second.
+760232	Recov	2	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	Recovers 0.2% of max HP per second.
+760233	Recov	3	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	Recovers 0.3% of max HP per second.
+760241	Shld.	1	Assets/Product/Texture/Image/IconAffix/AffixIconHudun.png	Receives a shield equal to 15% of current HP in every 8s. Lasts 3s.
+760242	Shld.	2	Assets/Product/Texture/Image/IconAffix/AffixIconHudun.png	Receives a shield equal to 25% of current HP in every 8s. Lasts 3s.
+760243	Shld.	3	Assets/Product/Texture/Image/IconAffix/AffixIconHudun.png	Receives a shield equal to 35% of current HP in every 8s. Lasts 3s.
+760251	Bsk	1	Assets/Product/Texture/Image/IconAffix/AffixIconBaozou.png	Attack Speed increases by 33%. Has a 20% chance to deal an additional 33% Physical DMG when attacking.
+760252	Bsk	2	Assets/Product/Texture/Image/IconAffix/AffixIconBaozou.png	Attack Speed increases by 66%. Has a 30% chance to deal an additional 33% Physical DMG when attacking.
+760253	Bsk	3	Assets/Product/Texture/Image/IconAffix/AffixIconBaozou.png	Attack Speed increases by 100%. Has a 40% chance to deal an additional 33% Physical DMG when attacking.
+760261	Bomb	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhadan.png	Leaves a bomb that deals 35% Physical DMG upon death.
+760262	Bomb	2	Assets/Product/Texture/Image/IconAffix/AffixIconZhadan.png	Leaves a bomb that deals 45% Physical DMG upon death.
+760263	Bomb	3	Assets/Product/Texture/Image/IconAffix/AffixIconZhadan.png	Leaves a bomb that deals 60% Physical DMG upon death.
+760271	Steel	1	Assets/Product/Texture/Image/IconAffix/AffixIconGangti.png	Damage taken is reduced to 1. Effect will be removed after taking 6 damages and recovered after 8 seconds.
+760272	Steel	2	Assets/Product/Texture/Image/IconAffix/AffixIconGangti.png	Damage taken is reduced to 1. Effect will be removed after taking 9 damages and recovered after 8 seconds.
+760273	Steel	3	Assets/Product/Texture/Image/IconAffix/AffixIconGangti.png	Damage taken is reduced to 1. Effect will be removed after taking 12 damages and recovered after 8 seconds.
+760281	Bar	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Receives a permanent shield equal to 15% of current HP. Becomes immune to attacks while the shield is active. Removes the shield after taking a certain amount of DMG. It will reactivate in 15s.
+760282	Bar	2	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Receives a permanent shield equal to 25% of current HP. Becomes immune to attacks while the shield is active. Removes the shield after taking a certain amount of DMG. It will reactivate in 15s.
+760283	Bar	3	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Receives a permanent shield equal to 35% of current HP. Becomes immune to attacks while the shield is active. Removes the shield after taking a certain amount of DMG. It will reactivate in 15s.
+760291	Rad	1	Assets/Product/Texture/Image/IconAffix/AffixIconFushe.png	Consecutively deals 6% Physical DMG to nearby enemies
+760292	Rad	2	Assets/Product/Texture/Image/IconAffix/AffixIconFushe.png	Consecutively deals 8% Physical DMG to nearby enemies
+760293	Rad	3	Assets/Product/Texture/Image/IconAffix/AffixIconFushe.png	Consecutively deals 10% Physical DMG to nearby enemies
+761275	Radiation	1	Assets/Product/Texture/Image/IconAffix/AffixIconFushe.png	Consecutively deals 1.25% Physical DMG to nearby enemies
+760301	C.L.	1	Assets/Product/Texture/Image/IconAffix/AffixIconBihuan.png	Extra DMG Reduction increases by 30% when taking damage from ranged enemies
+760302	C.L.	2	Assets/Product/Texture/Image/IconAffix/AffixIconBihuan.png	Extra DMG Reduction increases by 45% when taking damage from ranged enemies
+760303	C.L.	3	Assets/Product/Texture/Image/IconAffix/AffixIconBihuan.png	Extra DMG Reduction increases by 60% when taking damage from ranged enemies
+760311	Bless	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhufu.png	Extra DMG Bonus of nearby allies increases by 10%
+760312	Bless	2	Assets/Product/Texture/Image/IconAffix/AffixIconZhufu.png	Extra DMG Bonus of nearby allies increases by 20%
+760313	Bless	3	Assets/Product/Texture/Image/IconAffix/AffixIconZhufu.png	Extra DMG Bonus of nearby allies increases by 30%
+760321	Wolf	1	Assets/Product/Texture/Image/IconAffix/AffixIconDudou.png	Increases Extra DMG Bonus by 3%. Can be stacked up to 10 times. The fewer allies around, the more times it can be stacked.
+760322	Wolf	2	Assets/Product/Texture/Image/IconAffix/AffixIconDudou.png	Increases Extra DMG Bonus by 4.5%. Can be stacked up to 10 times. The fewer allies around, the more times it can be stacked.
+760323	Wolf	3	Assets/Product/Texture/Image/IconAffix/AffixIconDudou.png	Increases Extra DMG Bonus by 6%. Can be stacked up to 10 times. The fewer allies around, the more times it can be stacked.
+760331	Commd	1	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	Increases Extra DMG Bonus by 3%. Can be stacked up to 10 times. The more allies around, the more times it can be stacked.
+760332	Commd	2	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	Increases Extra DMG Bonus by 4.5%. Can be stacked up to 10 times. The more allies around, the more times it can be stacked.
+760333	Commd	3	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	Increases Extra DMG Bonus by 6%. Can be stacked up to 10 times. The more allies around, the more times it can be stacked.
+760341	Pen.	1	Assets/Product/Texture/Image/IconAffix/AffixIconGuanchuan.png	Reduces 3% of the target's Extra DMG Reduction when dealing DMG. Can be stacked up to 10 times. Each stack lasts 10s.
+760342	Pen.	2	Assets/Product/Texture/Image/IconAffix/AffixIconGuanchuan.png	Reduces 4% of the target's Extra DMG Reduction when dealing DMG. Can be stacked up to 10 times. Each stack lasts 10s.
+760343	Pen.	3	Assets/Product/Texture/Image/IconAffix/AffixIconGuanchuan.png	Reduces 5% of the target's Extra DMG Reduction when dealing DMG. Can be stacked up to 10 times. Each stack lasts 10s.
+760351	LtShd	1	Assets/Product/Texture/Image/IconAffix/AffixIconDiandun.png	When attacked, has a 15-25% chance to unleash a lightning strike at the attacker's location, dealing 20% Lightning DMG. 3s cooldown. The farther from the target, the higher chance it will be triggered.
+760352	LtShd	2	Assets/Product/Texture/Image/IconAffix/AffixIconDiandun.png	When attacked, has a 15-25% chance to unleash a lightning strike at the attacker's location, dealing 25% Lightning DMG. 2.5s cooldown. The farther from the target, the higher chance it will be triggered.
+760353	LtShd	3	Assets/Product/Texture/Image/IconAffix/AffixIconDiandun.png	When attacked, has a 15-25% chance to unleash a lightning strike at the attacker's location, dealing 30% Lightning DMG. 2s cooldown. The farther from the target, the higher chance it will be triggered.
+760361	Wave	1	Assets/Product/Texture/Image/IconAffix/AffixIconBodong.png	Creates shock waves that repel nearby enemies when getting up from the ground.
+760371	Mine	1	Assets/Product/Texture/Image/IconAffix/AffixIconMailei.png	When attacking, leaves a bomb that deals 15% Physical DMG on the target.
+760372	Mine	2	Assets/Product/Texture/Image/IconAffix/AffixIconMailei.png	When attacking, leaves a bomb that deals 20% Physical DMG on the target.
+760373	Mine	3	Assets/Product/Texture/Image/IconAffix/AffixIconMailei.png	When attacking, leaves a bomb that deals 25% Physical DMG on the target.
+760381	Stl	1	Assets/Product/Texture/Image/IconAffix/AffixIconYinshen.png	Enter Stealth after 5 seconds. Taking damage will break Stealth and you can't enter Stealth within 3 seconds.
+760382	Stl	2	Assets/Product/Texture/Image/IconAffix/AffixIconYinshen.png	Enter Stealth after 3 seconds. Taking damage will break Stealth and you can't enter Stealth within 3 seconds.
+760383	Stl	3	Assets/Product/Texture/Image/IconAffix/AffixIconYinshen.png	Enter Stealth after 1 seconds. Taking damage will break Stealth and you can't enter Stealth within 3 seconds.
+760391	Flash	1	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	When being far away from the target, teleports to a spot nearby. Has a cooldown of 8-10 seconds. The further the teleport distance is, the shorter the cooldown becomes. 
+760392	Flash	2	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	When being far away from the target, teleports to a spot nearby. Has a cooldown of 7-9 seconds. The further the teleport distance is, the shorter the cooldown becomes.
+760393	Flash	3	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	When being far away from the target, teleports to a spot nearby. Has a cooldown of 6-8 seconds. The further the teleport distance is, the shorter the cooldown becomes.
+760394	Tele	1	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	Teleport away when close to the target. Has a cooldown of 8 seconds. Has a 30% chance to trigger the effect when taking DMG. Cooldown are calculated separately.
+760395	Tele	2	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	Teleport away when close to the target. Has a cooldown of 7 seconds. Has a 30% chance to trigger the effect when taking DMG. Cooldowns are calculated separately.
+760396	Tele	3	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	Teleport away when close to the target. Has a cooldown of 6 seconds. Has a 30% chance to trigger the effect when taking DMG. Cooldowns are calculated separately.
+760401	Div	1	Assets/Product/Texture/Image/IconAffix/AffixIconLiejie.png	Upon death, summons two identical replicas that inherit its 30% ATK and DEF
+760402	Div	2	Assets/Product/Texture/Image/IconAffix/AffixIconLiejie.png	Upon death, summons two identical replicas that inherit its 60% ATK and DEF
+760403	Div	3	Assets/Product/Texture/Image/IconAffix/AffixIconLiejie.png	Upon death, summons two identical replicas that inherit its 100% ATK and DEF
+760411	BHole	1	Assets/Product/Texture/Image/IconAffix/AffixIconHeidong.png	Deploys a black hole with weak power at own position at intervals.
+760412	BHole	2	Assets/Product/Texture/Image/IconAffix/AffixIconHeidong.png	Deploys a black hole with normal power at own location at intervals.
+760413	BHole	3	Assets/Product/Texture/Image/IconAffix/AffixIconHeidong.png	Deploys a black hole with strong power in own location at intervals.
+760421	Ray	1	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Fires lasers that deal 3% Physical DMG in eight directions at intervals.
+760422	Ray	2	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Fires lasers that deal 4% Physical DMG in eight directions at intervals.
+760423	Ray	3	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Fires lasers that deal 5% Physical DMG in eight directions at intervals.
+760431	Flame	1	Assets/Product/Texture/Image/IconAffix/AffixIconHuoyan.png	Attacks deal an additional 10% Fire DMG and have a 10% of chance to inflict Burn, dealing 10% of Fire DMG per second for 3s.
+760432	Flame	2	Assets/Product/Texture/Image/IconAffix/AffixIconHuoyan.png	Attacks deal an additional 15% Fire DMG and have a 15% of chance to inflict Burn, dealing 15% of Fire DMG per second for 3s.
+760433	Flame	3	Assets/Product/Texture/Image/IconAffix/AffixIconHuoyan.png	Attacks deal an additional 20% Fire DMG and have a 20% of chance to inflict Burn, dealing 20% of Fire DMG per second for 3s.
+760451	Freez	1	Assets/Product/Texture/Image/IconAffix/AffixIconDongjie.png	Attacks deal an additional 10% Ice DMG and reduce 15% of targets' Movement Speed. Have a 10% chance to inflict Freeze that lasts 0.3s.
+760452	Freez	2	Assets/Product/Texture/Image/IconAffix/AffixIconDongjie.png	Attacks deal an additional 15% Ice DMG and reduce 20% of targets' Movement Speed. Have a 15% chance to inflict Freeze that lasts 0.5s.
+760453	Freez	3	Assets/Product/Texture/Image/IconAffix/AffixIconDongjie.png	Attacks deal an additional 20% Ice DMG and reduce 25% of targets' Movement Speed. Have a 20% chance to inflict Freeze that lasts 0.7s.
+760471	Dark	1	Assets/Product/Texture/Image/IconAffix/AffixIconAnying.png	Attacks deal an additional 10% Dark DMG. Have a 10% chance to inflict Stun that lasts 0.5s and deal an additional 10% Dark DMG.
+760472	Dark	2	Assets/Product/Texture/Image/IconAffix/AffixIconAnying.png	Attacks deal an additional 15% Dark DMG. Have a 15% chance to inflict Stun that lasts 0.7s and deal an additional 15% Dark DMG.
+760473	Dark	3	Assets/Product/Texture/Image/IconAffix/AffixIconAnying.png	Attacks deal an additional 20% Dark DMG. Have a 20% chance to inflict Stun that lasts 0.9s and deal an additional 20% Dark DMG.
+760491	TClap	1	Assets/Product/Texture/Image/IconAffix/AffixIconLeiming.png	Attacks deal an additional 10% Lightning DMG. Have a 10% chance to inflict Lightning Lure and call down a lightning strike at the target's location every 1.5s. Lasts 1.5s.
+760492	TClap	2	Assets/Product/Texture/Image/IconAffix/AffixIconLeiming.png	Attacks deal an additional 15% Lightning DMG. Have a 15% chance to inflict Lightning Lure and call down a lightning strike at the target's location every 1.5s. Lasts 3s.
+760493	TClap	3	Assets/Product/Texture/Image/IconAffix/AffixIconLeiming.png	Attacks deal an additional 20% Lightning DMG. Have a 20% chance to inflict Lightning Lure and call down a lightning strike at the target's location every 1.5s. Lasts 4.5s.
+760601	Icle	1	Assets/Product/Texture/Image/IconAffix/AffixIconBingjing.png	Shoots an icicle that tracks the enemy, dealing 5% Ice DMG on contact. The farther from the target, the faster the icicle moves.
+760602	Icle	2	Assets/Product/Texture/Image/IconAffix/AffixIconBingjing.png	Shoots an icicle that tracks the enemy, dealing 10% Ice DMG on contact. The farther from the target, the faster the icicle moves.
+760603	Icle	3	Assets/Product/Texture/Image/IconAffix/AffixIconBingjing.png	Shoots an icicle that tracks the enemy, dealing 15% Ice DMG on contact. The farther from the target, the faster the icicle moves.
+760630	Heal↓	1	Assets/Product/Texture/Image/IconAffix/AffixIconLuehua.png	When dealing DMG, the healing received by the target is reduced by 30% for 3s.
+760631	Heal↓	2	Assets/Product/Texture/Image/IconAffix/AffixIconLuehua.png	When dealing DMG, the healing received by the target is reduced by 45% for 4s.
+760632	Heal↓	3	Assets/Product/Texture/Image/IconAffix/AffixIconLuehua.png	When dealing DMG, the healing received by the target is reduced by 60% for 5s.
+760640	Heal×	1	Assets/Product/Texture/Image/IconAffix/AffixIconJinliao.png	Prevents the target from receiving any healing at intervals for 3s.
+760641	Heal×	2	Assets/Product/Texture/Image/IconAffix/AffixIconJinliao.png	Prevents the target from receiving any healing at intervals for 4s.
+760642	Heal×	3	Assets/Product/Texture/Image/IconAffix/AffixIconJinliao.png	Prevents the target from receiving any healing at intervals for 5s.
+760650	Prisn	1	Assets/Product/Texture/Image/IconAffix/AffixIconJingu.png	Creates a barrier at the target location that blocks any targets from leaving or entering the barrier. Lasts 3s. 15s cooldown.
+760651	Prisn	2	Assets/Product/Texture/Image/IconAffix/AffixIconJingu.png	Creates a barrier at the target location that blocks any targets from leaving or entering the barrier. Lasts 4s. 16s cooldown.
+760652	Prisn	3	Assets/Product/Texture/Image/IconAffix/AffixIconJingu.png	Creates a barrier at the target location that blocks any targets from leaving or entering the barrier. Lasts 5s. 17s cooldown.
+760670	Invde	1	Assets/Product/Texture/Image/IconAffix/AffixIconBingdu.png	When dealing DMG, deals 2% Physical DMG to the target every second and triggers other effects of Damage Affix for 3s.
+760671	Invde	2	Assets/Product/Texture/Image/IconAffix/AffixIconBingdu.png	When dealing DMG, deals 2% Physical DMG to the target every second and triggers other effects of Damage Affix for 4s.
+760672	Invde	3	Assets/Product/Texture/Image/IconAffix/AffixIconBingdu.png	When dealing DMG, deals 2% Physical DMG to the target every second and triggers other effects of Damage Affix for 5s.
+760690	BFire	1	Assets/Product/Texture/Image/IconAffix/AffixIconFanshi.png	Generates an energy shield that deals 15% Physical DMG to the attackers. Lasts 3s. 16s cooldown.
+760691	BFire	2	Assets/Product/Texture/Image/IconAffix/AffixIconFanshi.png	Generates an energy shield that deals 25% Physical DMG to the attackers. Lasts 4s. 17s cooldown.
+760692	BFire	3	Assets/Product/Texture/Image/IconAffix/AffixIconFanshi.png	Generates an energy shield that deals 35% Physical DMG to the attackers. Lasts 5s. 18s cooldown.
+761123	PRes↓	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeiwuli.png	Physical Resistance decreases by 40%
+761124	FRes↓	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuo.png	Fire Resistance decreases by 40%
+761125	LRes↓	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning Resistance decreases by 40%
+761126	IRes↓	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeibing.png	Ice Resistance decreases by 40%
+761127	DRes↓	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeian.png	Dark Resistance decreases by 40%
+761190	PRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeiwuli.png	Physical resistance -40%
+761191	FRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuo.png	Fire stats resistance -40%
+761192	LRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning stats resistance -40%
+761193	IRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeibing.png	Ice stats resistance -40%
+761194	DRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeian.png	Dark stats resistance -40%
+761205	PRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangwuli.png	Physical Resistance increases by 20%
+761206	FRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYuhuo.png	Fire Resistance increases by 20%
+761207	LRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYulei.png	Lightning Resistance increases by 20%
+761208	IRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYubing.png	Ice Resistance increases by 20%
+761209	DRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYuan.png	Dark Resistance increases by 20%
+761220	Melee↑	1	Assets/Product/Texture/Image/IconAffix/AffixIconDuili1.png	Extra DMG Reduction decreases by 40% within 3m of you
+761223	Des	1	Assets/Product/Texture/Image/IconAffix/AffixIconSuming1.png	Extra DMG Reduction decreases by 30% when taking DMG from Kamui
+761226	Opp	1	Assets/Product/Texture/Image/IconAffix/AffixIconDuili2.png	Extra DMG Reduction will be decreased when taking DMG from Rosetta
+761229	FArmor	1	Assets/Product/Texture/Image/IconAffix/AffixIconRongjia1.png	Extra DMG Reduction decreases by 50% when taking DMG from Tank Omniframes.
+776365	Injured	1	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Due to past experience and the demand for camouflage, Lamia's defense ability is also her fatal flaw. While camouflaged, Lamia will take increased DMG from Basic Attacks and Signature Moves.
+761232	Frail	1	Assets/Product/Texture/Image/UiFubenBossSingle/BossSingleIconPowerwuli.png	Cannot resist physical impacts after the structure is weakened. Physical DMG received is increased significantly.
+761233	Combustible	1	Assets/Product/Texture/Image/UiFubenBossSingle/BossSingleIconPowerhuo.png	Easily ignited by high temperatures and causes huge explosions. Fire DMG received is increased significantly.
+761234	Electrode	1	Assets/Product/Texture/Image/UiFubenBossSingle/BossSingleIconPowerlei.png	Electric shocks will overload the circuits and thus cause paralysis. Lightning DMG received is increased significantly.
+761235	Frost	1	Assets/Product/Texture/Image/UiFubenBossSingle/BossSingleIconPowerbing.png	The phenomenon of freezing expansion will occur at low temperatures. Ice DMG received is increased significantly.
+761236	Corrosion	1	Assets/Product/Texture/Image/UiFubenBossSingle/BossSingleIconPoweran.png	The internal structure has been corroded by excessively stored radiant energy. Dark DMG received is increased significantly.
+762401	Break	1	Assets/Product/Texture/Image/IconAffix/AffixIconSuijia.png	Physical Resistance decreases by 20%
+762402	Break	2	Assets/Product/Texture/Image/IconAffix/AffixIconSuijia.png	Physical Resistance decreases by 35%
+762403	Break	3	Assets/Product/Texture/Image/IconAffix/AffixIconSuijia.png	Physical Resistance decreases by 50%
+762404	FRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconYiran.png	Fire Resistance decreases by 20%
+762405	FRes-	2	Assets/Product/Texture/Image/IconAffix/AffixIconYiran.png	Fire Resistance decreases by 35%
+762406	FRes-	3	Assets/Product/Texture/Image/IconAffix/AffixIconYiran.png	Fire Resistance decreases by 50%
+762407	LRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconDaoti.png	Lightning Resistance decreases by 20%
+762408	LRes-	2	Assets/Product/Texture/Image/IconAffix/AffixIconDaoti.png	Lightning Resistance decreases by 35%
+762409	LRes-	3	Assets/Product/Texture/Image/IconAffix/AffixIconDaoti.png	Lightning Resistance decreases by 50%
+762410	IRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconDongshang.png	Ice Resistance decreases by 20%
+762411	IRes-	2	Assets/Product/Texture/Image/IconAffix/AffixIconDongshang.png	Ice Resistance decreases by 35%
+762412	IRes-	3	Assets/Product/Texture/Image/IconAffix/AffixIconDongshang.png	Ice Resistance decreases by 50%
+762413	DRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconAnruo.png	Dark Resistance decreases by 20%
+762414	DRes-	2	Assets/Product/Texture/Image/IconAffix/AffixIconAnruo.png	Dark Resistance decreases by 35%
+762415	DRes-	3	Assets/Product/Texture/Image/IconAffix/AffixIconAnruo.png	Dark Resistance decreases by 50%
+762416	Solid	1	Assets/Product/Texture/Image/IconAffix/AffixIconJiangu.png	Physical Resistance increases by 20%
+762417	Solid	2	Assets/Product/Texture/Image/IconAffix/AffixIconJiangu.png	Physical Resistance increases by 35%
+762418	Solid	3	Assets/Product/Texture/Image/IconAffix/AffixIconJiangu.png	Physical Resistance increases by 50%
+762419	FRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYuhuo.png	Fire Resistance increases by 20%
+762420	FRes+	2	Assets/Product/Texture/Image/IconAffix/AffixIconYuhuo.png	Fire Resistance increases by 35%
+762421	FRes+	3	Assets/Product/Texture/Image/IconAffix/AffixIconYuhuo.png	Fire Resistance increases by 50%
+762422	LRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYulei.png	Lightning Resistance increases by 20%
+762423	LRes+	2	Assets/Product/Texture/Image/IconAffix/AffixIconYulei.png	Lightning Resistance increases by 35%
+762424	LRes+	3	Assets/Product/Texture/Image/IconAffix/AffixIconYulei.png	Lightning Resistance increases by 50%
+762425	IRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYubing.png	Ice Resistance increases by 20%
+762426	IRes+	2	Assets/Product/Texture/Image/IconAffix/AffixIconYubing.png	Ice Resistance increases by 35%
+762427	IRes+	3	Assets/Product/Texture/Image/IconAffix/AffixIconYubing.png	Ice Resistance increases by 50%
+762428	DRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYuan.png	Dark Resistance increases by 20%
+762429	DRes+	2	Assets/Product/Texture/Image/IconAffix/AffixIconYuan.png	Dark Resistance increases by 35%
+762430	DRes+	3	Assets/Product/Texture/Image/IconAffix/AffixIconYuan.png	Dark Resistance increases by 50%
+770061	Solid	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangwuli.png	Increases Physical Resistance
+770062	FRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYuhuo.png	Increases Fire Resistance
+770063	LRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYulei.png	Increases Lightning Resistance
+770064	IRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYubing.png	Increases Ice Resistance
+770065	DRes+	1	Assets/Product/Texture/Image/IconAffix/AffixIconYuan.png	Increases Dark Resistance
+770556	ABrk	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeiwuli.png	Reduces Physical Resistance
+770557	FRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuo.png	Reduces Fire Resistance
+770558	LRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Reduces Lightning Resistance
+770559	IRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeibing.png	Reduces Ice Resistance
+770560	DRes-	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeian.png	Reduces Dark Resistance
+780001	↑Fire	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuo.png	Fire Resistance decreases by 30%
+780002	↑Fire	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuo.png	Fire Resistance decreases by 45%
+780003	↑Fire	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuo.png	Fire Resistance decreases by 60%
+780011	↑Ltg	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning Resistance decreases by 30%
+780012	↑Ltg	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning Resistance decreases by 45%
+780013	↑Ltg	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning Resistance decreases by 60%
+780021	↑Ice	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeibing.png	Ice Resistance decreases by 30%
+780022	↑Ice	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeibing.png	Ice Resistance decreases by 45%
+780023	↑Ice	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeibing.png	Ice Resistance decreases by 60%
+780031	↑Dark	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeian.png	Dark Resistance decreases by 30%
+780032	↑Dark	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeian.png	Dark Resistance decreases by 45%
+780033	↑Dark	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeian.png	Dark Resistance decreases by 60%
+780041	↑Phy	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeiwuli.png	Physical Resistance decreases by 30%
+780042	↑Phy	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeiwuli.png	Physical Resistance decreases by 45%
+780043	↑Phy	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeiwuli.png	Physical Resistance decreases by 60%
+780051	↑Ele	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeiyuansu.png	Elemental Resistance decreases by 30%
+780052	↑Ele	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeiyuansu.png	Elemental Resistance decreases by 45%
+780053	↑Ele	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeiyuansu.png	Elemental Resistance decreases by 60%
+780061	- ATK	1	Assets/Product/Texture/Image/IconAffix/AffixIconRuogong.png	Extra DMG Bonus decreases by 30%
+780062	- ATK	2	Assets/Product/Texture/Image/IconAffix/AffixIconRuogong.png	Extra DMG Bonus decreases by 45%
+780063	- ATK	3	Assets/Product/Texture/Image/IconAffix/AffixIconRuogong.png	Extra DMG Bonus decreases by 60%
+780071	A.P.	1	Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	Extra DMG Reduction decreases by 30%.
+780072	A.P.	2	Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	Extra DMG Reduction decreases by 45%
+780073	A.P.	3	Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	Extra DMG Reduction decreases by 60%.
+780081	W.P.	1	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Extra DMG Reduction decreases by 30% when taking CRIT DMG
+780082	W.P.	2	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Extra DMG Reduction decreases by 45% when taking CRIT DMG
+780083	W.P.	3	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Extra DMG Reduction decreases by 60% when taking CRIT DMG
+780091	Frail	1	Assets/Product/Texture/Image/IconAffix/AffixIconXuruo.png	Extra DMG Bonus, Movement Speed, Attack Speed, and Extra DMG Reduction decrease by 20%
+780092	Frail	2	Assets/Product/Texture/Image/IconAffix/AffixIconXuruo.png	Extra DMG Bonus, Movement Speed, Attack Speed, and Extra DMG Reduction decrease by 35%
+780093	Frail	3	Assets/Product/Texture/Image/IconAffix/AffixIconXuruo.png	Extra DMG Bonus, Movement Speed, Attack Speed, and Extra DMG Reduction decrease by 50%
+780101	↑ROrb	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeihong.png	Extra DMG Reduction decreases by 30% when taking DMG from Red Orb skills
+780102	↑ROrb	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeihong.png	Extra DMG Reduction decreases by 45% when taking DMG from Red Orb skills
+780103	↑ROrb	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeihong.png	Extra DMG Reduction decreases by 60% when taking DMG from Red Orb skills
+780111	↑YOrb	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuang.png	Extra DMG Reduction decreases by 30% when taking DMG from Yellow Orb skills
+780112	↑YOrb	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuang.png	Extra DMG Reduction decreases by 45% when taking DMG from Yellow Orb skills
+780113	↑YOrb	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuang.png	Extra DMG Reduction decreases by 60% when taking DMG from Yellow Orb skills
+780121	↑BOrb	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeilan.png	Extra DMG Reduction decreases by 30% when taking DMG from Blue Orb skills
+780122	↑BOrb	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeilan.png	Extra DMG Reduction decreases by 45% when taking DMG from Blue Orb skills
+780123	↑BOrb	3	Assets/Product/Texture/Image/IconAffix/AffixIconWeilan.png	Extra DMG Reduction decreases by 60% when taking DMG from Blue Orb skills
+780131	強攻	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Extra Damage Bonus increases by 30%
+780132	強攻	2	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Extra Damage Bonus increases by 45%
+780133	強攻	3	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Extra Damage Bonus increases by 60%
+780141	↓Fire	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanghuo.png	Fire Resistance increases by 30%
+780142	↓Fire	2	Assets/Product/Texture/Image/IconAffix/AffixIconKanghuo.png	Fire Resistance increases by 45%
+780143	↓Fire	3	Assets/Product/Texture/Image/IconAffix/AffixIconKanghuo.png	Fire Resistance increases by 60%
+780151	↓Ltg	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei.png	Lightning Resistance increases by 30%
+780152	↓Ltg	2	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei.png	Lightning Resistance increases by 45%
+780153	↓Ltg	3	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei.png	Lightning Resistance increases by 60%
+780161	↓Ice	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangbing.png	Ice Resistance increases by 30%
+780162	↓Ice	2	Assets/Product/Texture/Image/IconAffix/AffixIconKangbing.png	Ice Resistance increases by 45%
+780163	↓Ice	3	Assets/Product/Texture/Image/IconAffix/AffixIconKangbing.png	Ice Resistance increases by 60%
+780171	↓Dark	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangan.png	Dark Resistance increases by 30%
+780172	↓Dark	2	Assets/Product/Texture/Image/IconAffix/AffixIconKangan.png	Dark Resistance increases by 45%
+780173	↓Dark	3	Assets/Product/Texture/Image/IconAffix/AffixIconKangan.png	Dark Resistance increases by 60%
+780181	↓Phy	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangwuli.png	Physical Resistance increases by 30%
+780182	↓Phy	2	Assets/Product/Texture/Image/IconAffix/AffixIconKangwuli.png	Physical Resistance increases by 45%
+780183	↓Phy	3	Assets/Product/Texture/Image/IconAffix/AffixIconKangwuli.png	Physical Resistance increases by 60%
+780191	↓Ele	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangyuansu.png	Elemental Resistance increases by 30%
+780192	↓Ele	2	Assets/Product/Texture/Image/IconAffix/AffixIconKangyuansu.png	Elemental Resistance increases by 45%
+780193	↓Ele	3	Assets/Product/Texture/Image/IconAffix/AffixIconKangyuansu.png	Elemental Resistance increases by 60%
+780201	↓DMG	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianshang.png	Extra DMG Reduction increases by 30%.
+780202	↓DMG	2	Assets/Product/Texture/Image/IconAffix/AffixIconMianshang.png	Extra DMG Reduction increases by 45%
+780203	↓DMG	3	Assets/Product/Texture/Image/IconAffix/AffixIconMianshang.png	Extra DMG Reduction increases by 60%.
+780211	Agile	1	Assets/Product/Texture/Image/IconAffix/AffixIconXunjie.png	Increases Movement Speed by 5%-40%. The farther you are away from the target, the higher your Movement Speed becomes.
+780212	Agile	2	Assets/Product/Texture/Image/IconAffix/AffixIconXunjie.png	Increases Movement Speed by 20%-35%. The farther you are away from the target, the higher your Movement Speed becomes.
+780213	Agile	3	Assets/Product/Texture/Image/IconAffix/AffixIconXunjie.png	Increases Movement Speed by 25%-40%. The farther you are away from the target, the higher your movement speed becomes.
+780221	Immv	1	Assets/Product/Texture/Image/IconAffix/AffixIconBudong.png	Immune to attacks and controlling effects.
+780231	Recov	1	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	Recovers 1% of maximum HP per second
+780232	Recov	2	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	Recovers 2% of maximum HP per second
+780233	Recov	3	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	Recovers 3% of maximum HP per second
+780241	Shld.	1	Assets/Product/Texture/Image/IconAffix/AffixIconHudun.png	Receives a shield equal to 5% of current HP in every 10s. Lasts 10s.
+780242	Shld.	2	Assets/Product/Texture/Image/IconAffix/AffixIconHudun.png	Receives a shield equal to 10% of current HP in every 10s. Lasts 10s.
+780243	Shld.	3	Assets/Product/Texture/Image/IconAffix/AffixIconHudun.png	Receives a shield equal to 15% of current HP in every 10s. Lasts 10s.
+780251	Bsk	1	Assets/Product/Texture/Image/IconAffix/AffixIconBaozou.png	Attack Speed increases by 33%. Has a 20% chance to deal an additional 33% Physical DMG when attacking.
+780252	Bsk	2	Assets/Product/Texture/Image/IconAffix/AffixIconBaozou.png	Attack Speed increases by 66%. Has a 40% chance to deal an additional 33% Physical DMG when attacking.
+780253	Bsk	3	Assets/Product/Texture/Image/IconAffix/AffixIconBaozou.png	Attack Speed increases by 100%. Has a 60% chance to deal an additional 33% Physical DMG when attacking.
+780261	Bomb	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhadan.png	Leaves a bomb that deals 45% Physical DMG upon death.
+780262	Bomb	2	Assets/Product/Texture/Image/IconAffix/AffixIconZhadan.png	Leaves a bomb that deals 45% Physical DMG upon death.
+780263	Bomb	3	Assets/Product/Texture/Image/IconAffix/AffixIconZhadan.png	Leaves a bomb that deals 45% Physical DMG upon death.
+780271	Steel	1	Assets/Product/Texture/Image/IconAffix/AffixIconGangti.png	Damage taken is reduced to 1. The effect will be removed after taking 6 damages and recovered after 8 seconds.
+780272	Steel	2	Assets/Product/Texture/Image/IconAffix/AffixIconGangti.png	Damage taken is reduced to 1. The effect will be removed after taking 9 damages and recovered after 8 seconds.
+780273	Steel	3	Assets/Product/Texture/Image/IconAffix/AffixIconGangti.png	Damage taken is reduced to 1. Effect will be removed after taking 12 damages and recovered after 8 seconds.
+780281	Bar	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Receives a permanent shield equal to 15% of current HP. Becomes immune to attacks while the shield is active. Removes the shield after taking a certain amount of damage.
+780282	Bar	2	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Receives a permanent shield equal to 25% of current HP. Becomes immune to attacks while the shield is active. Removes the shield after taking a certain amount of damage.
+780283	Bar	3	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Receives a permanent shield equal to 35% of current HP. Becomes immune to attacks while the shield is active. Removes the shield after taking a certain amount of damage.
+780291	Rad	1	Assets/Product/Texture/Image/IconAffix/AffixIconFushe.png	Consecutively deals 1% Physical DMG to nearby enemies
+780292	Rad	2	Assets/Product/Texture/Image/IconAffix/AffixIconFushe.png	Consecutively deals 2% Physical DMG to nearby enemies
+780293	Rad	3	Assets/Product/Texture/Image/IconAffix/AffixIconFushe.png	Consecutively deals 3% Physical DMG to nearby enemies
+780301	C.L.	1	Assets/Product/Texture/Image/IconAffix/AffixIconBihuan.png	Extra DMG Reduction increases by 30% when taking damage from ranged enemies
+780302	C.L.	2	Assets/Product/Texture/Image/IconAffix/AffixIconBihuan.png	Extra DMG Reduction increases by 45% when taking damage from ranged enemies
+780303	C.L.	3	Assets/Product/Texture/Image/IconAffix/AffixIconBihuan.png	Extra DMG Reduction increases by 60% when taking damage from ranged enemies
+780311	Bless	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhufu.png	Extra DMG Bonus of nearby allies increases by 20%
+780312	Bless	2	Assets/Product/Texture/Image/IconAffix/AffixIconZhufu.png	Extra DMG Bonus of nearby allies increases by 20%
+780313	Bless	3	Assets/Product/Texture/Image/IconAffix/AffixIconZhufu.png	Extra DMG Bonus of nearby allies increases by 20%
+780321	Wolf	1	Assets/Product/Texture/Image/IconAffix/AffixIconDudou.png	Increases Extra DMG Bonus by 10%. Can be stacked up to 3 times. When there are fewer than 3 allies around, the fewer the allies, the more times it can be stacked.
+780322	Wolf	2	Assets/Product/Texture/Image/IconAffix/AffixIconDudou.png	Increases Extra DMG Bonus by 4.5%. Can be stacked up to 10 times. The fewer allies around, the more times it can be stacked.
+780323	Wolf	3	Assets/Product/Texture/Image/IconAffix/AffixIconDudou.png	Increases Extra DMG Bonus by 6%. Can be stacked up to 10 times. The fewer allies around, the more times it can be stacked.
+780331	Commd	1	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	Increases Extra DMG Bonus by 5%. Can be stacked up to 10 times. The more allies around, the more times it can be stacked.
+780332	Commd	2	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	Increases Extra DMG Bonus by 10%. Can be stacked up to 10 times. The more allies around, the more times it can be stacked.
+780333	Commd	3	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	Increases Extra DMG Bonus by 15%. Can be stacked up to 10 times. The more allies around, the more times it can be stacked.
+780341	Pen.	1	Assets/Product/Texture/Image/IconAffix/AffixIconGuanchuan.png	Reduces 3% of the target's DEF when dealing DMG. Can be stacked up to 10 times. Each stack lasts 10s.
+780342	Pen.	2	Assets/Product/Texture/Image/IconAffix/AffixIconGuanchuan.png	Reduces 4% of the target's DEF when dealing DMG. Can be stacked up to 10 times. Each stack lasts 10s.
+780343	Pen.	3	Assets/Product/Texture/Image/IconAffix/AffixIconGuanchuan.png	Reduces 5% of the target's DEF when dealing DMG. Can be stacked up to 10 times. Each stack lasts 10s.
+780351	LtShd	1	Assets/Product/Texture/Image/IconAffix/AffixIconDiandun.png	When attacked, has a 10% chance to unleash a lightning strike at the attacker's location, dealing 20% Lightning DMG. 5s cooldown.
+780352	LtShd	2	Assets/Product/Texture/Image/IconAffix/AffixIconDiandun.png	When attacked, has a 15-25% chance to unleash a lightning strike at the attacker's location, dealing 25% Lightning DMG. 2.5s cooldown. The farther from the target, the higher chance it will be triggered.
+780353	LtShd	3	Assets/Product/Texture/Image/IconAffix/AffixIconDiandun.png	When attacked, has a 15-25% chance to unleash a lightning strike at the attacker's location, dealing 30% Lightning DMG. 2s cooldown. The farther from the target, the higher chance it will be triggered.
+780361	Wave	1	Assets/Product/Texture/Image/IconAffix/AffixIconBodong.png	Creates shock waves that repel nearby enemies when getting up from the ground. 18s cooldown.
+780362	Wave	2	Assets/Product/Texture/Image/IconAffix/AffixIconBodong.png	Creates shock waves that repel nearby enemies when getting up from the ground. 14s cooldown.
+780363	Wave	3	Assets/Product/Texture/Image/IconAffix/AffixIconBodong.png	Creates shock waves that repel nearby enemies when getting up from the ground. 10s cooldown.
+780371	Mine	1	Assets/Product/Texture/Image/IconAffix/AffixIconMailei.png	When attacking, leaves a bomb that deals 15% Physical DMG on the target.
+780372	Mine	2	Assets/Product/Texture/Image/IconAffix/AffixIconMailei.png	When attacking, leaves a bomb that deals 15% Physical DMG on the target.
+780373	Mine	3	Assets/Product/Texture/Image/IconAffix/AffixIconMailei.png	When attacking, leaves a bomb that deals 15% Physical DMG on the target.
+780381	Stl	1	Assets/Product/Texture/Image/IconAffix/AffixIconYinshen.png	Enter Stealth after 3s. Taking DMG will break Stealth.
+780382	Stl	2	Assets/Product/Texture/Image/IconAffix/AffixIconYinshen.png	Enter Stealth after 3 seconds. Taking damage will break Stealth and you can't enter Stealth within 3 seconds.
+780383	Stl	3	Assets/Product/Texture/Image/IconAffix/AffixIconYinshen.png	Enter Stealth after 1 seconds. Taking damage will break Stealth and you can't enter Stealth within 3 seconds.
+780391	Flash	1	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	When being far away from the target, teleports near it. 10s cooldown.
+780392	Flash	2	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	When being far away from the target, teleports near it. 7-9s cooldown. The farther away from the target, the shorter the cooldown becomes
+780393	Flash	3	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	When being far away from the target, teleports near it. 6-8s cooldown. The farther away from the target, the shorter the cooldown becomes
+780394	Tele	1	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	Teleport away when close to the target. Has a cooldown of 8 seconds. Has a 30% chance to trigger the effect when taking DMG. Cooldown are calculated separately.
+780395	Tele	2	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	Teleport away when close to the target. Has a cooldown of 7 seconds. Has a 30% chance to trigger the effect when taking DMG. Cooldowns are calculated separately.
+780396	Tele	3	Assets/Product/Texture/Image/IconAffix/AffixIconShanxian.png	Teleport away when close to the target. Has a cooldown of 6 seconds. Has a 30% chance to trigger the effect when taking DMG. Cooldowns are calculated separately.
+780401	Div	1	Assets/Product/Texture/Image/IconAffix/AffixIconLiejie.png	Upon death, summons two identical replicas that inherit its 30% ATK and DEF
+780402	Div	2	Assets/Product/Texture/Image/IconAffix/AffixIconLiejie.png	Upon death, summons two identical replicas that inherit its 60% ATK and DEF
+780403	Div	3	Assets/Product/Texture/Image/IconAffix/AffixIconLiejie.png	Upon death, summons two identical replicas that inherit its 100% ATK and DEF
+780411	BHole	1	Assets/Product/Texture/Image/IconAffix/AffixIconHeidong.png	Deploys a weak black hole at own position in every 16s.
+780412	BHole	2	Assets/Product/Texture/Image/IconAffix/AffixIconHeidong.png	Deploys a black hole at own position in every 12s.
+780413	BHole	3	Assets/Product/Texture/Image/IconAffix/AffixIconHeidong.png	Deploys a strong black hole at own position in every 8s.
+780421	Ray	1	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Fires lasers that deal 3% Physical DMG in eight directions at intervals.
+780422	Ray	2	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Fires lasers that deal 4% Physical DMG in eight directions at intervals.
+780423	Ray	3	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Fires lasers that deal 5% Physical DMG in eight directions at intervals.
+780431	Flame	1	Assets/Product/Texture/Image/IconAffix/AffixIconHuoyan.png	Attacks deal an additional 10% Fire DMG and have a 10% of chance to inflict Burn, dealing 10% of Fire DMG per second for 3s.
+780432	Flame	2	Assets/Product/Texture/Image/IconAffix/AffixIconHuoyan.png	Attacks deal an additional 15% Fire DMG and have a 15% of chance to inflict Burn, dealing 15% of Fire DMG per second for 3s.
+780433	Flame	3	Assets/Product/Texture/Image/IconAffix/AffixIconHuoyan.png	Attacks deal an additional 20% Fire DMG and have a 20% of chance to inflict Burn, dealing 20% of Fire DMG per second for 3s.
+780451	Freez	1	Assets/Product/Texture/Image/IconAffix/AffixIconDongjie.png	Attacks have a 30% chance to deal an additional 10% Ice DMG and freeze the target for 1s
+780452	Freez	2	Assets/Product/Texture/Image/IconAffix/AffixIconDongjie.png	Attacks have a 60% chance to deal an additional 10% Ice DMG and freeze the target for 1s
+780453	Freez	3	Assets/Product/Texture/Image/IconAffix/AffixIconDongjie.png	Attacks have a 100% chance to deal an additional 10% Ice DMG and freeze the target for 1s
+780471	Dark	1	Assets/Product/Texture/Image/IconAffix/AffixIconAnying.png	Attacks deal an additional 10% Dark DMG. Have a 10% chance to inflict Stun that lasts 0.5s and deal an additional 10% Dark DMG.
+780472	Dark	2	Assets/Product/Texture/Image/IconAffix/AffixIconAnying.png	Attacks deal an additional 15% Dark DMG. Have a 15% chance to inflict Stun that lasts 0.7s and deal an additional 15% Dark DMG.
+780473	Dark	3	Assets/Product/Texture/Image/IconAffix/AffixIconAnying.png	Attacks deal an additional 20% Dark DMG. Have a 20% chance to inflict Stun that lasts 0.9s and deal an additional 20% Dark DMG.
+780491	TClap	1	Assets/Product/Texture/Image/IconAffix/AffixIconLeiming.png	Attacks deal an additional 10% Lightning DMG. Have a 10% chance to inflict Lightning Lure and call down a lightning strike at the target's location every 1.5s. Lasts 1.5s.
+780492	TClap	2	Assets/Product/Texture/Image/IconAffix/AffixIconLeiming.png	Attacks deal an additional 15% Lightning DMG. Have a 15% chance to inflict Lightning Lure and call down a lightning strike at the target's location every 1.5s. Lasts 3s.
+780493	TClap	3	Assets/Product/Texture/Image/IconAffix/AffixIconLeiming.png	Attacks deal an additional 20% Lightning DMG. Have a 20% chance to inflict Lightning Lure and call down a lightning strike at the target's location every 1.5s. Lasts 4.5s.
+780601	Icle	1	Assets/Product/Texture/Image/IconAffix/AffixIconBingjing.png	Shoots an icicle that tracks the enemy, dealing 500 Ice DMG on contact. The farther from the target, the faster the icicle moves.
+780602	Icle	2	Assets/Product/Texture/Image/IconAffix/AffixIconBingjing.png	Shoots an icicle that tracks the enemy, dealing 10% Ice DMG on contact. The farther from the target, the faster the icicle moves.
+780603	Icle	3	Assets/Product/Texture/Image/IconAffix/AffixIconBingjing.png	Shoots an icicle that tracks the enemy, dealing 15% Ice DMG on contact. The farther from the target, the faster the icicle moves.
+780630	Heal↓	1	Assets/Product/Texture/Image/IconAffix/AffixIconLuehua.png	Damage dealt also reduces target's healing received by 50% for 3s.
+780631	Heal↓	2	Assets/Product/Texture/Image/IconAffix/AffixIconLuehua.png	Damage dealt also reduces target's healing received by 60% for 4s.
+780632	Heal↓	3	Assets/Product/Texture/Image/IconAffix/AffixIconLuehua.png	Damage dealt also reduces target's healing received by 70% for 5s.
+780640	Heal×	1	Assets/Product/Texture/Image/IconAffix/AffixIconJinliao.png	Prevents the target from receiving any healing at intervals for 3s.
+780641	Heal×	2	Assets/Product/Texture/Image/IconAffix/AffixIconJinliao.png	Prevents the target from receiving any healing at intervals for 4s.
+780642	Heal×	3	Assets/Product/Texture/Image/IconAffix/AffixIconJinliao.png	Prevents the target from receiving any healing at intervals for 5s.
+780650	Prisn	1	Assets/Product/Texture/Image/IconAffix/AffixIconJingu.png	Creates a barrier at the target location that blocks any targets from leaving or entering the barrier. Lasts 3s. 15s cooldown.
+780651	Prisn	2	Assets/Product/Texture/Image/IconAffix/AffixIconJingu.png	Creates a barrier at the target location that blocks any targets from leaving or entering the barrier. Lasts 4s. 16s cooldown.
+780652	Prisn	3	Assets/Product/Texture/Image/IconAffix/AffixIconJingu.png	Creates a barrier at the target location that blocks any targets from leaving or entering the barrier. Lasts 5s. 17s cooldown.
+780670	Invde	1	Assets/Product/Texture/Image/IconAffix/AffixIconBingdu.png	When dealing DMG, deals 2% Physical DMG to the target every second and triggers other effects of Damage Affix for 3s.
+780671	Invde	2	Assets/Product/Texture/Image/IconAffix/AffixIconBingdu.png	When dealing DMG, deals 2% Physical DMG to the target every second and triggers other effects of Damage Affix for 4s.
+780672	Invde	3	Assets/Product/Texture/Image/IconAffix/AffixIconBingdu.png	When dealing DMG, deals 2% Physical DMG to the target every second and triggers other effects of Damage Affix for 5s.
+780690	Bfire	1	Assets/Product/Texture/Image/IconAffix/AffixIconFanshi.png	Generates an energy shield that deals 15% Physical DMG to the attackers. Lasts 3s. 16s cooldown.
+780691	Bfire	2	Assets/Product/Texture/Image/IconAffix/AffixIconFanshi.png	Generates an energy shield that deals 25% Physical DMG to the attackers. Lasts 4s. 17s cooldown.
+780692	Bfire	3	Assets/Product/Texture/Image/IconAffix/AffixIconFanshi.png	Generates an energy shield that deals 35% Physical DMG to the attackers. Lasts 5s. 18s cooldown.
+770050	Enh	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Body enhanced, combat ability increased.
+770051	Enh	2	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Body enhanced, combat ability increased.
+770052	Enh	3	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Body enhanced, combat ability increased.
+770053	Enh	4	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Body enhanced, combat ability increased.
+770054	Enh	5	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Body enhanced, combat ability increased.
+770551	Weak	1	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	Body deteriorated, combat ability decreased.
+770552	Weak	2	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	Body deteriorated, combat ability decreased.
+770553	Weak	3	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	Body deteriorated, combat ability decreased.
+770554	Weak	4	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	Body deteriorated, combat ability decreased.
+770555	Weak	5	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	Body deteriorated, combat ability decreased.
+770109	↓Phy	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangwuli.png	Physical Resistance increases by 70%
+770110	↓Fire	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanghuo.png	Fire Resistance increases by 70%
+770111	↓Ltg	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei.png	Lightning Resistance increases by 70%
+770112	↓Ice	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangbing.png	Ice Resistance increases by 70%
+770113	↓Dark	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangan.png	Dark Resistance increases by 70%
+770114	Physical Endurance	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangwuli.png	Physical Resistance increases by 70%.
+770115	Fire Endurance	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanghuo.png	Fire Resistance increases by 90%.
+770116	Lightning Endurance	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei.png	Lightning Resistance increases by 90%.
+770117	Ice Endurance	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangbing.png	Ice Resistance increases by 90%.
+770118	Dark Endurance	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangan.png	Dark Resistance increases by 90%.
+770124	Burn	1	Assets/Product/Texture/Image/IconAffix/AffixIconHuoyan.png	This familiar has been marked.
+770134	Invisibility	1	Assets/Product/Texture/Image/IconAffix/AffixIconAnying.png	This familiar has been marked.
+770138	Familiar	1	Assets/Product/Texture/Image/IconAffix/AffixIconhaiqiao.png	Familiars give Siren Extra DMG reduction.
+770147	Safeguard	1	Assets/Product/Texture/Image/IconAffix/AffixIconhaiqiao.png	Buthus gives Siren great DMG reduction.
+770626	Law	1	Assets/Product/Texture/Image/IconAffix/AffixIconJingu.png	Mirror Image - Law. Dealing DMG will reduce the target's movement speed and have a chance to imprison the target.
+770629	Violence	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Mirror Image - Violence. Dealing DMG will reduce the duration of Judgement and have a chance to Burn the target.
+770635	Frail	1	Assets/Product/Texture/Image/IconAffix/AffixIconZuzhou.png	Resistance is weakened.
+770646	Harvest	1	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Restores HP when dealing DMG.
+770662	Shard	1	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Imitates its original's attack pattern.
+770698	Sublimate	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei.png	Attacks will accumulate Energy.
+770705	Twilight	1	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Gains a shield and reduces the target's speed when attacking. Consumes Energy to create Energy Storm.
+770720	Bishop	1	Assets/Product/Texture/Image/IconAffix/AffixIconShexian2.png	Attacks will restore HP. Inherits Energy Storm and performs cluster strike.
+771774	Vulnerability	1	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	DMG dealt increases by 20% for 5s
+771793	Host	1	Assets/Product/Texture/Image/IconAffix/AffixIconLiejie.png	This target has been parasitized.
+771852	Fire Endurance	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanghuo.png	Fire Resistance increases significantly.
+771853	Ice Endurance	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangbing.png	Ice Resistance increases significantly.
+771854	Dark Endurance	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangan.png	Dark Resistance increases significantly.
+771855	Shieldbearer	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianshang.png	The soldiers will give Rosetta additional DMG reduction.
+771856	Shieldbearer	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianshang.png	The soldiers will give Rosetta additional DMG reduction.
+771857	Shieldbearer	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianshang.png	The soldiers will give Rosetta additional DMG reduction.
+776711	Phantom	1	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Completely copy Camu's attack
+750697	Sea Squirt Bond	1	Assets/Product/Texture/Image/IconAffix/AffixIconhaiqiao.png	Sea Squirt increases the Attack of nearby allies and heals Siren over time
+772520	Super Armor Protection	1	Assets/Product/Texture/Image/IconAffix/AffixIconYinshen.png	Super Armor point is protected for 3s each time when taking damage
+772524	Damage Limit	1	Assets/Product/Texture/Image/IconAffix/AffixIconFanshi.png	Damage taken within 3s cannot exceed 30% of HP
+772529	Self Enhancement	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhuanyi.png	Gains Attack (5%-25%) based on own HP percentage
+772533	Radioactive Environment	1	Assets/Product/Texture/Image/IconAffix/AffixIconFushe.png	Loses 2% of max HP every sec due to the radioactive environment
+772535	Deteriorating Environment	1	Assets/Product/Texture/Image/IconAffix/AffixIconLuehua.png	Reduces healing received by 90% due to the deteriorating environment
+742151	Last Words	1	Assets/Product/Texture/Image/IconAffix/AffixIconYinshen.png	Increases the damage and HP of all allies by 30% upon defeat
+742152	Leader	1	Assets/Product/Texture/Image/IconAffix/AffixIconDudou.png	Gains Commander and Blessing, and increases own HP limit by 50%
+742153	Sacrifice	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangyuansu.png	Able to transfer own HP to ally units at 1:2 ratio
+742198	Dynamic Calibration	1	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	Recovers 1% of max HP per second. This effect is reduced to 0.4% for 2s after taking damage.
+742199	Dynamic Calibration	2	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	Recovers 2% of max HP per second. This effect is reduced to 0.8% for 2s after taking damage.
+742200	Dynamic Calibration	3	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	Recovers 3% of max HP per second. This effect is reduced to 1.2% for 2s after taking damage.
+770003	Assault	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Enemies gain 10% more Attack.
+770004	Assault	2	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Enemies gain 20% more Attack.
+770005	Assault	3	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Enemies gain 30% more Attack.
+772583	Diffusion	1	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon33021.png	Enemy attacks will remove 1 Signal Orb. When the enemy dies, it returns all Signal Orbs.
+772587	Healing	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeianLogistics4.png	Heals 1 nearby ally's HP equal to your ATK every 10s.
+772589	Grudge	1	Assets/Product/Texture/Image/IconAffix/AffixIconXuruo.png	When the enemy dies, all allies within 20m of it will permanently receive 20% more DMG. Stacks up to 3 times.
+772591	Revenge	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	When the enemy dies, all allies within 20m of it will receive 25% more DMG. Stacks up to 3 times.
+772593	Burning Fire	1	Assets/Product/Texture/Image/IconAffix/AffixIconBodong.png	When the enemy dies, all allies within 20m of it restore 20% HP.
+772595	Protection	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Grants the enemy and its nearby allies a shield equal to 10% of its current HP every 10s. Shields granted this way cannot be stacked.
+772597	Sacrifice	1	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon12111.png	Randomly selects 1 ally as a protected target. When the protected target dies, sacrifice itself to revive the target to full HP.
+772601	Self-Destruction Bug	1	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon22100.png	Periodically summons 1 Self-Destruction Bug to attack the enemy.
+772602	Devour	1	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon22011.png	Kills 1 nearby ally every 30s to restore 20% HP.
+772604	Soul Devourer	1	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon22090.png	Increases all damage bonuses by 20% for each dead ally.
+772608	Soul Devourer	1	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon22090.png	Increases all damage bonuses by 20% for each dead ally.
+763201	Vulnerability	1	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	Take 20% more damage
+763202	Vulnerability	1	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	Take 30% more damage
+763203	Vulnerability	1	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	Take 40% more damage
+763204	Vulnerability	1	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	Take 50% more damage
+712001	Splitting	1	Assets/Product/Texture/Image/IconAffix/AffixIconLiejie.png	When HP is below 50%, summon two Copies of the same type which don't inherit other buff effects
+712002	Dominator	1	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Immune to Matrix and limiting effects of Signature Moves
+712003	Shield Wall	1	Assets/Product/Texture/Image/IconAffix/AffixIconHudun.png	Reduces DMG from the front by up to 50%.
+712004	Frost Shield	1	Assets/Product/Texture/Image/IconAffix/AffixIconYubing.png	Reduces DMG taken by 30%. When receiving Basic Attacks, the attacker's movement speed decreases by 50% for 2s.
+712005	Flame Shield	1	Assets/Product/Texture/Image/IconAffix/AffixIconYuhuo.png	The sphere burner will inflict continuous DMG equal to 20% of self ATK on the enemy it touches. A portion of the DMG dealt will be converted to HP.
+712006	Shadow Shield	1	Assets/Product/Texture/Image/IconAffix/AffixIconYuan.png	When HP drops by more than 20%, creates a shield equal to 10% of max HP for 5s. When it disappears, it will explode and deal damage within 8m.
+713011	Shadow Shield	1	Assets/Product/Texture/Image/IconAffix/AffixIconYuan2.png	A shield generated by Shadow Shield. When it disappears, it will deal explosion DMG.
+715532	Stand Firm	1	Assets/Product/Texture/Image/IconAffix/AffixIconGangti.png	Enemies become more powerful with a complete formation.
+715539	Break Formation	1	Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	The formation is broken. Enemies receive 20% more DMG.
+715540	Dread	1	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	The formation is broken. Enemies have lost their morale.
+715541	Afterimage	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Avoid attacking the afterimages of the Golden Age.
+715590	Splitting	1	Assets/Product/Texture/Image/IconAffix/AffixIconJingu.png	After 5 growths, split and create 1 new Splinter at the cost of all stacks. The Splinter will inherit the Parent's growth ability but can't split.
+715591	Growth	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Raise the Health limit.
+715592	Growth	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Raise the Health limit.
+715593	Growth	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Raise the Health limit.
+715594	Growth	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Raise the Health limit.
+715595	Growth	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Raise the Health limit.
+715596	Absorption	1	Assets/Product/Texture/Image/IconAffix/AffixIconBingdu.png	Upon a successful hit, absorb the enemy's Health limit. After 5 absorptions, achieve the maximum extent of growth. There has to be at least 2s between two growths.
+715599	Co-existence	1	Assets/Product/Texture/Image/IconAffix/AffixIconBingdu.png	Split from the Parent. Will die when the Parent dies.
+715608	Captain	1	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	More powerful than an ordinary soldier. Capable of commanding the soldiers to act together.
+715609	Soldier	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	An ordinary soldier. Follows the orders of the Captain. Doesn't know what to do without a commander.
+715621	Silver Wave Scoot	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhuanyi.png	Intermittently enhance Strength and Speed and ignore collisions while moving.
+715622	Hermit Red	1	Assets/Product/Texture/Image/IconAffix/AffixIconBingdu.png	Summon a projection to connect to a player. If the player does not leave for a period of time, then the player will reveal their weaknesses and lose Speed and Resistance.
+715623	Golden Star	1	Assets/Product/Texture/Image/IconAffix/AffixIconBudong.png	Becomes immune to the time effects. Intermittently summons a projection to stop the time within a small area around the caster.
+715624	Autonomous Diamond	1	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	When a teammate dies, restores 50% HP for the teammate. It can't restore HP for the caster.
+715625	Silver Experience	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhadan.png	Intermittently summons Self-Destruction Bugs around the caster.
+715711	Electromagnetization	1	Assets/Product/Texture/Image/IconAffix/AffixIconBingdu.png	Inflict Lightning DMG equal to 20% ATK upon dealing damage
+715712	Super Lightning Field	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeiwuli.png	Generate vertical and diagonal lightnings around the target every 8s in that order
+715713	Dominator	1	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Immune to Matrix and limiting effects of Signature Moves
+715714	Overload	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Receives "Energy Loss" upon receiving Lightning DMG. This effect does not stack
+715715	Iron Shield	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Have a shield equal to 10% max HP upon deployment. The shield will not refresh
+715719	Energy Loss	1	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon12051.png	Loses 20 Dodge and 20 Energy within 4s
+715734	War Drum α	1	Assets/Product/Texture/Image/IconAffix/AffixIconBihuan.png	Grant "Assault α" to all allies on the battlefield
+715735	War Drum β	1	Assets/Product/Texture/Image/IconAffix/AffixIconBihuan.png	Grant "DMG Immunity β" to all allies on the battlefield
+715736	Assault α	1	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	DMG of this unit increases by 20%
+715737	DMG Immunity β	1	Assets/Product/Texture/Image/IconAffix/AffixIconJiangu.png	DMG Immunity of this unit increases by 30%
+715740	Overwhelming Power	1	Assets/Product/Texture/Image/IconAffix/AffixIconJiangu.png	All DMG increases by 10%
+715741	Recovery γ	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeianLogistics.png	Recovers 1% HP per second.
+715743	Undying	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhufu.png	Revive 20s after death
+715767	Expert Training	1	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	HP is significantly increased
+715946	Light	1	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Receives the power of lightning and gains [Repel Demons] in light environment.
+715947	Darkness	1	Assets/Product/Texture/Image/IconAffix/AffixIconDiandun.png	Receives the power of darkness to hide in the shadows and gains [Bleed] in dark environment.
+715949	Repel Demons	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei.png	Reduce Energy each time you deal damage.
+715953	Bleed	1	Assets/Product/Texture/Image/IconAffix/AffixIconDudou.png	Inflicts an amount of Bleed each time you deal damage. When Bleed reaches 100%, deals true damage equal to 70% of the target's max HP. Bleed can only be reduced by standing in light.
+715956	Power of Nature	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeianLogistics4.png	Restores 1% HP per second. Summons a Fairy every 8s that rotates around you. When you have 3, releases all Fairies onto the target to deal damage and reduce max HP.
+715973	Alert	1	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	DMG increases over time when there are enemies in the same area. The DMG bonus resets when there are no enemies in the same area.
+715985	Security Captain	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Summons reinforcements periodically while the Security Captain is present.
+716003	Reserve	1	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Gains an effect when the Signal Light changes color while waiting.
+716004	DMG+	1	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	DMG is greatly increased under the red light.
+716005	DMG Reduction+	1	Assets/Product/Texture/Image/IconAffix/AffixIconJiangu.png	DMG Reduction is greatly increased under the yellow light.
+716021	Energize	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Gains a DMG bonus based on HP percentage.
+716024	Charge	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhuanyi.png	Cast skills immediately after moving to boost the damage based on Movement Speed.
+760014	Lightning Vulnerability	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning Resistance decreases by 20%.
+760015	Lightning Vulnerability	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning Resistance decreases by 40%.
+760701	Power Booster	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Deals 30% more DMG and receives 40% less DMG.
+720001	First-aid	1	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	Activated when HP drops to 10% and restores 20% HP after 5s
+720002	Revenge	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhadan.png	Upon death, the caster lays a mine where the caster stands.
+720003	Singularity Mark	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeian.png	The caster initiates a Dark Burst when not dying from self-destruction
+720004	Rampancy	1	Assets/Product/Texture/Image/IconAffix/AffixIconBaozou.png	Move Speed and Explosion Speed increase by 100% respectively
+720005	Health	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Health limit increases by 10%
+720006	Assault	4	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Permanently increases ATK by 10%. Can be stacked up to 20 times.
+720007	Vulnerable	1	Assets/Product/Texture/Image/IconAffix/AffixIconXuruo.png	Receives 20% more DMG for 5s.
+720008	Bleed	1	Assets/Product/Texture/Image/IconAffix/AffixIconFanshi.png	When the attack hits its target, the target loses 1% HP per second for 5s.
+720009	Matrixphobia	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Only takes DMG in Matrix.
+720010	Weak Point 1	1	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Weak point will appear in a random direction. Destroy the weak point to deal True DMG
+720011	Weak Point 2	1	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Weak points in all four directions will frequently appear together for a short period of time. Destroy all weak points to increase damage
+720012	Vulnerable	1	Assets/Product/Texture/Image/IconAffix/AffixIconXuruo.png	Damage taken increases
+776102	Lethal	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	When the attack hits its target, the target has a 50% chance to lose 50% HP or recover 50% HP
+776105	Drain	1	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	Attacks will restore 10% of self-HP.
+778052	Red Vulnerability	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianhong.png	Extra DMG Reduction against Red Orb skills increases by 100%.
+778053	Blue Resistance	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianlan.png	Extra DMG Reduction against Blue Orb skills increases by 100%.
+778054	Yellow Resistance	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianhuang.png	Extra DMG Reduction against Yellow Orb skills increases by 100%.
+778076	Curse	1	Assets/Product/Texture/Image/IconAffix/AffixIconZuzhou.png	Permanently reduces the enemy's Extra DMG Reduction by 15% upon death.
+778077	Curse	2	Assets/Product/Texture/Image/IconAffix/AffixIconZuzhou.png	Permanently reduces the enemy's Extra DMG Reduction by 20% upon death.
+778078	Curse	3	Assets/Product/Texture/Image/IconAffix/AffixIconZuzhou.png	Permanently reduces the enemy's Extra DMG Reduction by 25% upon death.
+778081	Purify	1	Assets/Product/Texture/Image/IconAffix/AffixIconJinghua.png	Removes all your [Curses] upon death.
+778091	Mourn	1	Assets/Product/Texture/Image/IconAffix/AffixIconMoai.png	When being killed, all enemies within a certain area will become unable to attack for 10s.
+778095	Mourn	2	Assets/Product/Texture/Image/IconAffix/AffixIconMoai.png	When being killed, all enemies within a certain area will become unable to attack for 15s.
+778096	Mourn	3	Assets/Product/Texture/Image/IconAffix/AffixIconMoai.png	When being killed, all enemies within a certain area will become unable to attack for 20s.
+778131	Bond	1	Assets/Product/Texture/Image/IconAffix/AffixIconJiban.png	Revives and restores 15% of max HP 10s after death if there are still enemies with an affix [Bond] alive.
+763323	Bleed II	1	Assets/Product/Texture/Image/IconAffix/AffixIconFanshi.png	When the attack hits its target, the target loses 2% HP per second for 5s.
+763324	Bleed III	1	Assets/Product/Texture/Image/IconAffix/AffixIconFanshi.png	When the attack hits its target, the target loses 3% HP per second for 5s.
+741025	Neutral	1	Assets/Product/Texture/Image/IconAffix/AffixIconBudong.png	Receives 20% less damage from players
+741026	Neutral	2	Assets/Product/Texture/Image/IconAffix/AffixIconBudong.png	Receives 50% less damage from players
+741027	Neutral	3	Assets/Product/Texture/Image/IconAffix/AffixIconBudong.png	Receives 80% less damage from players
+777338	Berserk	1	Assets/Product/Texture/Image/IconAffix/AffixIconBaozou.png	ATK Rate +33%
+777339	Berserk	2	Assets/Product/Texture/Image/IconAffix/AffixIconBaozou.png	ATK Rate +66%
+777340	Berserk	3	Assets/Product/Texture/Image/IconAffix/AffixIconBaozou.png	ATK Rate +100%
+777341	Heal	1	Assets/Product/Texture/Image/IconAffix/AffixIconFusu.png	Upon taking damage, restores HP over time.
+777342	Contaminate	1	Assets/Product/Texture/Image/IconAffix/AffixIconDiandun.png	Enemies within range take poison damage over time.
+777343	Absorption	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Absorb the poison within range.
+777344	Bird Enhancement	1	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Becomes enhanced under the Bird Form.
+777345	Beast Enhancement	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Becomes enhanced under the Beast Form.
+777346	Lifesteal	1	Assets/Product/Texture/Image/IconAffix/AffixIconMoai.png	Creates a Doll to steal HP from the enemies.
+777347	Lightning	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeiyuansu.png	Every 10s, creates a Doll.
+777348	DMG Reduction	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Gains a massive DMG Reduction.
+777349	Vulnerable		Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	DMG taken increases
+777350	CRIT	1	Assets/Product/Texture/Image/IconAffix/AffixIconHudun.png	Critical is increased by 30%.
+777351	Recovery	1	Assets/Product/Texture/Image/IconAffix/AffixIconHudun.png	Health Recovery
+777352	DMG Reduction	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	DMG taken is reduced.
+777353	Power of Horn	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	DMG taken is reduced.
+779156	Stop thinking	1	Assets/Product/Texture/Image/IconAffix/AffixIconMoai.png	In the Matrix, Finisher Gauge reduction increased by 20%
+779160	Final Struggle	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Increases DMG Reduction for all enemies upon death.
+779161	Signal Disruption	1	Assets/Product/Texture/Image/IconAffix/AffixIconLiejie.png	Causes all characters to lose 1 Signal Orb upon death.
+779162	Attack Upon Death	1	Assets/Product/Texture/Image/IconAffix/AffixIconLuehua.png	Causes all present characters to lose 10% HP upon death.
+779163	Implosion	1	Assets/Product/Texture/Image/IconAffix/AffixIconRuodian.png	Immune to damage dealt by the character. Loses HP every second.
+779164	Self-Hatred	1	Assets/Product/Texture/Image/IconAffix/AffixIconFushe.png	Deals damage to all nearby targets over time. Closer targets take more damage.
+779165	Fission	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeiyuansu.png	Summons 2 Clones upon death that lose HP over time.
+779166	Phantom	1	Assets/Product/Texture/Image/IconAffix/AffixIconMoai.png	Summons 1 Clone every 30s that rapidly loses HP over time.
+779167	Stagnancy	1	Assets/Product/Texture/Image/IconAffix/AffixIconRongjia1.png	Becomes petrified for 5s after taking damage from the character. Immune to damage dealt by characters while petrified.
+779168	Vulnerable	1	Assets/Product/Texture/Image/IconAffix/AffixIconXueruo.png	DMG taken increases.
+779169	Hesitation	1	Assets/Product/Texture/Image/IconAffix/AffixIconSuijia.png	Reduces the Movement Speed and Dodge of attackers when taking damage.
+779305	Hesitation	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhuanyi.png	Restores 5% Finisher Gauge per second after not taking damage for 8s.
+746589	Immune Red	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianhong.png	Immune to DMG from Red Orb Skills.
+746590	Immune Yellow	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianhuang.png	Immune to DMG from Yellow Orb Skills.
+746591	Immune Blue	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianlan.png	Immune to DMG from Blue Orb Skills.
+746592	Immune Basic	1	Assets/Product/Texture/Image/IconAffix/AffixIconJiangu.png	Immune to Basic Attack DMG.
+776405	Vulnerable	1	Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	DMG taken increases.

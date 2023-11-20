@@ -1,0 +1,17 @@
+Id	Name	SkillType	CastTime	AfterTime	Animation	StandStage	CastMagicIds	FinalMagicIds	Cd	DistNoTarget	SkillMoveType	DistAbort	SkillMoveTrackDistance	MissileLockTarget	SkillFaceType	DodgeLimitTime	SkillPriority	Snapshot	SkillAnimationPriority	CoexistSkills
+996001	躺倒		9999	0	Lieonfloor					10	2		2	0	0					
+996002	躺倒		9999	0	Lieonfloor					10	2		2	0	0					
+996003	躺倒		9999	0	Lieonfloor					10	2		2	0	0					
+996004	死亡		9999	0	Death					10	2		2	0	0					
+996005	受击		1.533	0	Hit3					10	2		2	0	0					
+996006	着地		3	0	Attack82					10	2		2	0	0					
+996007	后退		1.2	0	Attack52					10	6		2	0	2					
+996008	战斗待机		0.05	0	Stand2					10	2		2	0	0					
+199901	到底	11	999	0	Hitdwon					10	2		2	0	0					
+199902	起立	11	1.3	0	Standup					10	2		2	0	0					
+731101	普攻1	1	0.26	2.573333333	Attack01					10	2		2	0	0					
+731102	普攻2	1	0.75	3.416666667	Attack02					10	2		2	0	0					
+731103	普攻3	1	1	3.2	Attack03					10	2		2	0	0					
+731104	普攻4	1	1.25	4.05	Attack04			131165|131143		10	2		2	0	0					
+731105	普攻5	1	0.8	3.966666667	Attack05					10	2		2	0	0					
+731141	默认向后闪避	6	0.45	1.65	Move2			100094|131129		10	2		2	0	0	0.5				

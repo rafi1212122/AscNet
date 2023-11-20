@@ -1,0 +1,94 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
+85550205	法阵内效果(减速855570+大招能量减少855626）	2	9				0			4			0.1						-1								-1			1					0	0	0										1							1	1					855570	855622								0	HitCase		0		1	1			0														
+85550207	减速子弹1（故障特效+顿帧+木偶化+黑屏）	2	9				0			4			5						-1						FxMb1MaidmasterMd010001Atk0202		-1			1					0	0	0										1	0.48		1	85550208|85550217			1	1					855533	855535	855545	855604						0.2	HitCase		0		1	1			0														
+85550208	减速子弹2（大招能量减少-855626)	2	9				0			4			0.5						-1								-1			1					0	0	0										3	0.5		1	85550209			4	1					855536	855622	855570							0	HitCase		0		1	1			0														
+85550209	减速子弹3	2	9				0			4			0.5						-1								-1			1					0	0	0										3	0.5		1	85550210			4	1					855537	855622	855570							0	HitCase		0		1	1			0														
+85550210	减速子弹4	2	9				0			4			0.5						-1								-1			1					0	0	0										3	0.5		1	85550211			4	1					855538	855622	855570							0	HitCase		0		1	1			0														
+85550211	减速子弹5(隐藏消球栏-855624）	2	9				0			4			0.5						-1								-1			1					0	0	0										3	0.5		1	85550212			4	1					855539	855622	855570	855624						0	HitCase		0		1	1			0														
+85550212	减速子弹6	2	9				0			4			0.5						-1								-1			1					0	0	0										3	0.5		1	85550213			4	1					855540	855622	855570	855624						0	HitCase		0		1	1			0														
+85550213	减速子弹7	2	9				0			4			0.5						-1								-1			1					0	0	0										3	0.5		1	85550214			4	1					855541	855622	855570	855624						0	HitCase		0		1	1			0														
+85550214	减速子弹8	2	9				0			4			0.5						-1								-1			1					0	0	0										3	0.5		1	85550215			4	1					855542	855622	855570	855624						0	HitCase		0		1	1			0														
+85550215	减速子弹9	2	9				0			4			0.5						-1								-1			1					0	0	0										3	0.5		1	85550216			4	1					855543	855622	855570	855624						0	HitCase		0		1	1			0														
+85550216	减速子弹10（命中隐藏UI+855549-木偶化）	2	9				0			4			0.5						-1								-1			1					0	0	0										3							4	1					855544	855549	855546	855570						0	HitCase		0		1	1			0														
+85550217	环形子弹（圈外去除木偶化+顿帧+故障特效）	4	9	50			0			4			5						-1	1			0.5				-1			1					0	0	0										3							4	1					855547	855623								0	HitCase		0		1	1			0														
+85550304	黑屏+伤害+缩放判断行为树	1	4.5	3		2	0			4			0.1						-1								-1			1					0	0	0										0	0.1	999	1	85550305			0	1					855577		855534			855578				0	HitCase		1		1	1			0														
+85550305	NTR	2	9999				0			4			0.1						-1								-1			1					0	0	0										0							0	1					855506	855547								0	HitCase		0		1	1			0														
+85550306	传送门特效子弹	2	0.1				0			4			5						-1						FxMb1MaidmasterMd010001Atk0301		-1			1					0	0	0										3							4	1														0.3	HitCase		0		1	1			0														
+85550308	秒杀伤害子弹	2	0.1				0			4			0.1						-1								-1			1					0	0	0										3							4	1				855503081	855643									0	HitCase		0		1	1			0														
+85550309	钥匙特效（10）	2	0.1			-1.6	0		180	4			5						-1						FxMb1MaidmasterMdKongzhiys01		-1			1					0	0	0										1							0	1														1.5	HitCase		0		1	1			0														
+85550310	齿轮特效（20）	2	0.1				0		180	4			5						-1						FxMb1MaidmasterMdKongzhiys01Hit		-1			1					0	0	0										1							1	1														1.25	HitCase		0		1	1			0														
+85550404	传送门特效子弹	2	0.1				0			4			3						-1						FxMb1MaidmasterMd010001Atk0301		-1			1					0	0	0										3							4	1														0.5	HitCase		0		1	1			0														
+85550405	超算用子弹	2	5				0			4			0.1						-1								-1			1					0	0	0										3							4	1														0	HitCase		0		1	1			1														
+85550606	斜斩伤害子弹1	1	5	3	0	2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855506061	801020									0	HitCase		1		1	1			1														
+85550607	周身旋转伤害子弹2	1	5	2	0	1.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855506071	801020									0	HitCase		1		1	1			1														
+85550703	伤害子弹（855506）	1	5	2.5	0	1.5	0			4			0.1						1								1			1					0	0	0										0							0	1				855507031	801030									0	HitCase		1		1	1			1														
+85550806	伤害盒1	1	5	3	0	2.2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855508061	801010	855556								0	HitCase		0		1	1			1														
+85550807	伤害盒2	1	5	3	0	2.2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855508071	801010	855556								0	HitCase		0		1	1			1														
+85550808	伤害盒3	1	5	5	0	2.2	0			4			0.1						-1								-1			1					0	0	0										0							0	3				855508081	801010	855556								0	HitCase		0		1	1			1														
+85550908	伤害盒1	1	6	3	0	2.2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855509081	801010									0	HitCase		0		1	1			1														
+85550909	伤害盒2	1	6	3	0	2.2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855509091	801010									0	HitCase		0		1	1			1														
+85550910	伤害盒3	1	6	4	0	2.2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855509101	801010									0	HitCase		0		1	1			1														
+85550911	伤害盒4	1	5	3	0	2.2	0			4			0.1						-1								-1			1					0	0	0										0							0	3				855509111	801020									0	HitCase		0		1	1			1														
+85551102	后闪-2	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85551502	解除控制爆点特效子弹1	2	0.1				0			4			10						-1								-1			1					0	0	0										3							4	1														3	HitCase		0		1	1			0														
+85551503	解除控制爆点特效子弹2	2	0.1				0			4			10						-1						FxMb1MaidmasterMdBaodian01		-1			1					0	0	0										3							4	1														3	HitCase		0		1	1			0														
+85551504	解除控制爆点特效子弹3	2	0.1				0			4			10						-1						FxMb1MaidmasterMdBaodian02		-1			1					0	0	0										3							4	1														3	HitCase		0		1	1			0														
+85551608	地面剑武器	2	0.1				0			4			2						-1						FxMb1MaidmasterMd010001Atk16Weapon		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85551614	飞雷神拼刀-判断盒	1	5	8	0	2.5	0			4			0.4						-1								-1			1					0	0	0										0							0	1					855681					855682				0	HitCase		1		1	1			0														
+85551616	飞剑伤害盒出现	2	3			2.6	0			4			1						-1								-1			1					0	0	0										0							0	1				855516161	801010									0	HitCase		0		1	1			1														
+85551617	伤害盒出现	1	4	4		1	0			4			0.35						-1								-1			1					0	0	0										0							0	1				855516171	801030									0	HitCase		1		1	1			1														
+85551906	伤害盒1	1	6	3	0	1.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855519061	801010	855556								0	HitCase		0		1	1			1														
+85551907	伤害盒2	1	6	3	0	1.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855519071	801010	855556								0	HitCase		0		1	1			1														
+85551908	伤害盒3	1	6	3	0	1.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855519081	801010	855556								0	HitCase		0		1	1			1														
+85552006	伤害盒4	1	6	3	0	2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855520061	801020									0	HitCase		0		1	1			1														
+85560108	抓取命中判定子弹	3	4	180			0			4			0.1						1								-1			1					0	0	0										0							0	1					855634									0	HitCase		1		1	1			0														
+85560110	砸地碎屏+故障全屏特效+震屏	3	2	180			0			4			0.1						-1								-1			1					0	0	0										0							0	1					855532	855606	855642	855545						0	HitCase		1		1	1			0														
+85560113	NTR模块-控制权转移命中标记	3	2	180			0			4			0.2						-1								-1			1					0	0	0										0							0	1					855506	855577	855547	855586						0	HitCase		1		1	1			0														
+85560408	抓取命中判定子弹+浮空效果（61）	1	4	4		2	0			4			0.1						1								-1			1					0	0	0										0							0	1					855634	855636	855546							0	HitCase		1		1	1			0														
+85560412	伤害子弹+抓取拉镜	2	999				0			4			5						-1	1			1				-1			1					0	0	0										0							0	1				855604121		801070								0	HitCase		1		1	1			1														
+85560419	砸地特效	2	0.1			2	0			4			2						-1						FxMb1MaidmasterMd010002Atk19Dilie01		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85560432	特效5-撕裂屏幕特效+抖动	2	10				0			4			0.1						-1								-1			1					0	0	0										0							0	1					855603									0	HitCase		1		1	1			0														
+85560433	取消屏幕特效	2	999				0			4			1						-1								-1			1					0	0	0										0							0	1					855609	855605	855548							0	HitCase		1		1	1			0														
+85560505	雷电长枪	1	1	5			60			4			5						-1		FxMb1MaidmasterMd010002HitC01				FxMb1MaidmasterMd010002Atk05Dandao		-1			1	25				0	0	0										0							1	1				855605051	801030									1.2	HitCase		0		1	1			1														
+85560609	吼叫攻击盒	2	3.5				0			4			0.1						-1								-1			1					0	0	0										0							0	1				855606091	801010									0	HitCase		0		1	1			1														
+85560610	雷电连段-第一段爪击攻击盒	1	5	3.5	0	2.5	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ02						-1			1					0	0	0										0							0	1				855606101	801010									0	HitCase		1		1	1			1														
+85560611	雷电连段-第二段爪击攻击盒	1	5	3.5	0	1	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ03						-1			1					0	0	0										0							0	1				855606111	801020									0	HitCase		1		1	1			1														
+85560612	雷电连段-下第三段砸地裂攻击盒	2	3.5				0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ04						-1			1					0	0	0										0							0	1				855606121	801030									0	HitCase		0		1	1			1														
+85560704	第二段爪击地裂（子弹）	2	0.1				0			4			2						-1						FxMb1MaidmasterMd010002Atk07Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85560707	第四段爪击地面效果	2	0.1				0			4			2						-1						FxMb1MaidmasterMd010002Atk07Dilie02		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85560709	第一段爪击攻击盒	1	5.5	4		2.5	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ02						-1			1					0	0	0										0							0	1				855607091	801010									0	HitCase		1		1	1			1														
+85560710	第二段爪击攻击盒	1	5.5	4		2.5	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ03						-1			1					0	0	0										0							0	1				855607101	801010									0	HitCase		1		1	1			1														
+85560711	第三段爪击攻击盒	1	5.5	4		2.5	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ05						-1			1					0	0	0										0							0	1				855607111	801020									0	HitCase		1		1	1			1														
+85560712	第四段爪击攻击盒	1	5.5	4		2.5	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ01						-1			1					0	0	0										0							0	1				855607121	801020									0	HitCase		1		1	1			1														
+85560805	爪击伤害（击飞子弹）	1	5	3		1.5	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ05						-1			1					0	0	0										0							0	1				855608051	801020									0	HitCase		1		1	1			1														
+85560905	伤害盒	1	5	3		1.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				855609051	801020									0	HitCase		1		1	1			1														
+85561015	陨星击-伤害盒	2	2		1	2.5	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ04						-1			1					0	0	0										0							0	1				855610151	801020									0	HitCase		1		1	1			1														
+85561016	陨星击-伤害盒	2	2		-0.5	2.5	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ04						-1			1					0	0	0										0							0	1				855610161	801020									0	HitCase		1		1	1			1														
+85561125	伤害盒01	1	5	3		3	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ01						-1			1					0	0	0										0							0	1				855611251	801010									0	HitCase		1		1	1			1														
+85561126	伤害盒02	1	5	3		3	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ01						-1			1					0	0	0										0							0	1				855611261	801010									0	HitCase		1		1	1			1														
+85561127	伤害盒03	1	5	3		3	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ01						-1			1					0	0	0										0							0	1				855611271	801010									0	HitCase		1		1	1			1														
+85561128	伤害盒04（85561130-残留手部)	1	5	3		3	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ01						-1			1					0	0	0										0	0.1	999	1				0	1				855611281	801010									0	HitCase		1		1	1			1														
+85561129	伤害盒05	2	3				0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ01						-1			1					0	0	0										0							0	1				855611291	801020									0	HitCase		1		1	1			1														
+85561130	残留子弹特效	2	0.1				0			4			1.2						-1						FxMb1MaidmasterMd010002Atk11DilieLoop		-1			1					0	0	0										0	1.2	999	1	85561131			0	1														0	HitCase		0		1	1			0														
+85561131	残留子弹爆炸伤害	2	3				0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ01				FxMb1MaidmasterMd010002Atk11DilieBao		-1			1					0	0	0										0							0	1				855611311	801010									0	HitCase		0		1	1			0														
+85561204	伤害盒	1	5	4		2.5	0			4			0.1						-1		FxMb1MaidmasterMd010002HitZ02						-1			1					0	0	0										0							0	1				855612041	801020									0	HitCase		1		1	1			1														
+85561306	起跳效果-子弹	2	0.1				0			4			2						-1						FxMb1MaidmasterMd010002Atk13001		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			1														
+85561414	捆绑子弹（存在1S 直到28帧）	1	3	8		4	0			4			1						-1								-1			1					0	0	0										0							0	1				855614141	855663	855668								0	HitCase		1		1	1			0														
+85561415	吸力子弹	2	99				0			4			1						-1								-1			1					0	0	0										3							4	1				855614151	855667									0	HitCase		0		1	1			0														
+85561506	蹦起特效	2	0.1				0			4			2						-1						FxMb1MaidmasterMd010002Atk1501		-1			1					0	0	0										3							4	1														0	HitCase		0		1	1			0														
+85561707	飞雷神拼刀-判断盒	1	7	8	0	3	0			4			0.3						-1								-1			1	0	0	0		0	0	0										0							0	1					855681					855682				0	HitCase		1		1	1			0														
+85561710	伤害盒出现	1	4	4		-2	0			4			0.3						-1		FxMb1MaidmasterMd010002HitC01						-1			1					0	0	0										0							0	2				855617101	801020									0	HitCase		1		1	1			0														
+85561803	击飞跌落地面地裂	2	0.1				0			4			2						-1						FxMb1MaidmasterMd010002Atk19Dilie01		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85561804	后段地面划痕	2	0.1				0			4			2						-1						FxMb1MaidmasterMd010002Atk19Dilie02		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85561905	砸地伤害	2	5				0			4			0.1						-1						FxMb1MaidmasterMd010002Hit01		-1			1					0	0	0										0							0	1				855619051	801030									0	HitCase		0		1	1			0														
+85561906	砸地特效	2	0.1				0			4			3						-1						FxMb1MaidmasterMd010002Atk51Dilie		-1			1					0	0	0										0	0.5	999	1	85561910|85561911|85561912			0	1														0	HitCase		0		1	1			0														
+85561910	后续AOE左侧子弹1	2	0.1		-5		0			4			3						-1						FxMb1MaidmasterMd010002Atk11DilieBao		-1			1					0	0	0										2	0.5	999	1	85561913			3	1														0	HitCase		0		1	1			0														
+85561911	后续AOE右侧子弹1	2	0.1		5		0			4			3						-1						FxMb1MaidmasterMd010002Atk11DilieBao		-1			1					0	0	0										2	0.5	999	1	85561914			3	1														0	HitCase		0		1	1			0														
+85561912	后续AOE前侧子弹1	2	0.1			5	0			4			3						-1						FxMb1MaidmasterMd010002Atk11DilieBao		-1			1					0	0	0										2	0.5	999	1	85561915			3	1														0	HitCase		0		1	1			0														
+85561913	后续AOE左侧子弹1	2	5				0			4			0.1						-1								-1			1					0	0	0										2							3	1				855619131	801010									0	HitCase		0		1	1			1														
+85561914	后续AOE右侧子弹1	2	5				0			4			0.1						-1								-1			1					0	0	0										2							3	1				855619141	801010									0	HitCase		0		1	1			1														
+85561915	后续AOE前侧子弹1	2	5				0			4			0.1						-1								-1			1					0	0	0										2							3	1				855619151	801010									0	HitCase		0		1	1			1														
+85562005	砸地伤害	2	3.5				0			4			0.1						-1								-1			1					0	0	0										0							0	1				855620051	801030									0	HitCase		0		1	1			1														
+85562006	砸地特效	2	0.1				0			4			3						-1						FxMb1MaidmasterMd010002Atk51Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			1														
+85562312	伤害盒出现	1	4	4		2	0			4			0.2						-1		FxMb1MaidmasterMd010002HitC01						-1			1					0	0	0										0							0	2				855623121	801020	855698								0	HitCase		1		1	1			1														
+85562506	取消屏幕特效	2	999				0			4			1						-1								-1			1					0	0	0										0							0	1					855609		855548							0	HitCase		1		1	1			0														

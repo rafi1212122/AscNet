@@ -1,0 +1,563 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic
+84820107	击退	2	25				0			4			1						-1	1			0.02				-1			1					0	0	0										0							0	1					478021									0	HitCase		0		1				0													
+84820108	脚下横条攻击子弹	1	20	2			2		10	4			0.5						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848201081	848152	801050	848179			478252				0	HitCase		0		0				1													
+84820109	BOSS左前方子弹1	1	13	2	-2	8	4		-70	4			1.3						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848201091	848152	801050	848179			478252				0	HitCase		0		0				1													
+84820110	BOSS左前方子弹1	1	8	1.8	5	10	6		-52	4			1						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848201101	848152	801050	848179			478252				0	HitCase		0		0				1													
+84820111	BOSS左前方子弹3	1	1.8	3	-8.7	14	11		15	4			2						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848201111	848152	801050	848179			478252				0	HitCase		0		0				1													
+84820112	BOSS左前方第二发子弹1	1	6	1.8	5	12	6		-52	4			1						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848201121	848152	801050	848179			478252				0	HitCase		0		0				1													
+84820113	BOSS左前方第二发子弹1	2	0.1				0			4			5						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit			FxMb1Punishdata2Atk0402		-1			1					0	0	0										0							0	1					848152	801050	848179			478252				-2	HitCase		0		0				1													
+84820114	BOSS左前方第二发子弹2	1	9	2.5	3	14.8	5		-16	4			0.9						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848201141	848152	801050	848179			478252				0	HitCase		0		0				1													
+84820115	BOSS左前方第二发子弹3	1	2	3	-9	18.5	6		32	4			4						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848201151	848152	801050	848179			478252				0	HitCase		0		0				1													
+84820116	BOSS右前方子弹1	1	11	2.5	-2	24.2	5		34	4			0.9						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848201161	848152	801050	848179			478252				0	HitCase		0		0				1													
+84820117	BOSS左前方子弹3	1	2.5	5	24.8	11	11		-54	4			2						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848201171	848152	801050	848179			478252				0	HitCase		0		0				1													
+84820118	摄像机改变-拉远和拉低	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+84820119	摄像机改变-推开拉近和fov	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478025	478026								0	HitCase		0		1				0													
+84820121	子弹时间-玩家	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478027	478028	478029							0	HitCase		0		1				0													
+84820123	子弹时间-玩家	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478030									0	HitCase		0		1				0													
+84820137	子弹时间-玩家	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478296									0	HitCase		0		1				0													
+84820138	音效子弹	2	0.1				15			4			6						-1						FxMb1Punishdata2Dandao03Sound		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84820139	音效子弹	2	0.1				15			4			6						-1						FxMb1Punishdata2Dandao03Sound		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84820202	刀锋魅影一	1	1.2	2.5	-0.2		32		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848202021	848102	848179	801015							1.3	HitCase		0		0				1													
+84820203	刀锋魅影一	1	1.2	2.5	-0.23		32		2	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848202031	848102	848179	801015							1.3	HitCase		0		0				1													
+84820204	刀锋魅影一	1	1.2	2.5	-0.21		32		5	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848202041	848102	848179	801015							1.3	HitCase		0		0				1													
+84820205	刀锋魅影一	1	1.2	2.5	-0.18		32		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848202051	848102	801015	848179	478244		478036				1.3	HitCase		0		0				1													
+84820206	刀锋魅影一	1	1.2	2.5	-0.19		32		-3	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848202061	848102	801015	848179	478244		478036				1.3	HitCase		0		0				1													
+84820207	刀锋魅影一	1	1.2	2.5	-0.2		32		2	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848202071	848102	801015	848179	478244		478036				1.3	HitCase		0		0				1													
+84820208	刀锋魅影一	1	1.2	2.5	-0.21		32		-5	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848202081	848102	801015	848179	478244		478036				1.3	HitCase		0		0				1													
+84820209	刀锋魅影一	1	1.2	2.5	-0.18		32		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848202091	848102	801015	848179	478244		478036				1.3	HitCase		0		0				1													
+84820219	音效	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478301									0	HitCase		0		1				0													
+84820303	攻击1-地刺-特效	2	0.1		0.25	3	0		15	4			2						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84820305	普攻击1	3	5	120	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	3				848203051	848102	848179	801020	478245		478245		478055		0	HitCase		1		1				1													
+84820306	攻击2-2	2	2.2		-0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848203061	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84820307	普攻攻击2-1	2	2.2		0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848203071	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84820313	攻击1-地刺-特效	2	0.1			3	0		-15	4			5						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84820405	攻击1-地刺	3	13	40	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1601Hit						-1			1					0	0	0										0							0	1				848204051	848102	848179	801020	478242		478242		478240		0	HitCase		1		1				1													
+84820406	攻击2横扫	3	7.3	240	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1602Hit						-1			1					0	0	0										0							0	2				848204061	848102	848179	801030	478243		478243		478241		0	HitCase		0		1				1													
+84820412	攻击1-1前刺	3	6	40	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1				848204121	848102	848179	801020							0	HitCase		1		1				1													
+84820413	攻击1-地刺-特效	2	0.1			0.2	0			4			5						-1						FxMb1Punishdata2Atk1601		-1			1					0	0	0										0							0	1					848102	848179	801025							0	HitCase		0		0				0													
+84820421	镜头效果1-地刺	2	4	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478238									0	HitCase		1		1				0													
+84820422	镜头效果1-横扫	2	6	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478239									0	HitCase		1		1				0													
+84820502	BOSS剑雨子弹1	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848205021	848102	848179	801016							0	HitCase		0		1				1													
+84820503	BOSS剑雨子弹2	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848205031	848102	848179	801016							0	HitCase		0		1				1													
+84820504	BOSS剑雨子弹3	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848205041	848102	848179	801016							0	HitCase		0		1				1													
+84820505	BOSS剑雨特效	2	0.1				0			4			10						-1						FxMb1Punishdata2Atk1701		-1			1					0	0	0										0							0	1					848102	848179	801016							0	HitCase		0		1				0													
+84820506	BOSS剑雨表演	2	0.1				0			4			10						-1						FxMb1Punishdata2Atk1702		-1			1					0	0	0										0							0	1					848102	848179	801016							0	HitCase		0		1				0													
+84820507	BOSS击退子弹3	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848205071	848102	848179	801020							0	HitCase		0		1				1													
+84820508	BOSS地刺子弹3	4	5.5	18	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848205081	848102	848102	848179	801030						0	HitCase		0		1				1													
+84820511	摄像机改变-飞刀上升拉远和拉高	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478042	478043								0	HitCase		0		1				0													
+84820513	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478045									0	HitCase		0		1				0													
+84820516	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478047	478048								0	HitCase		0		1				0													
+84820517	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478045									0	HitCase		0		1				0													
+84820522	击退buff有问题	2	7				0			4			0.2						-1	1			0.02				-1			1					0	0	0										0							0	1					478049									0	HitCase		0		1				0													
+84820706	攻击1	2	5		0	0	0		45	4			0.2						-1		FxMb1Punishdata2Atk0901Hit						-1			1					0	0	0										0							0	3				848207061	848102	848179	801030	478243		478243		478241		0	HitCase		1		1				1													
+84820718	闪现出现	2	0.1				0		90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84820719	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84820902	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0201Hit						-1			1					0	0	0										0							0	1				848209021	848102	848179	801017							0	HitCase		1		1				1													
+84820903	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0201Hit						-1			1					0	0	0										0							0	2				848209031	848102	848179	801017	478247		478247		478243		0	HitCase		1		1				1													
+84820904	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848209041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84820905	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848209051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84820906	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848209061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84820907	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848209071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84820908	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848209081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84820909	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848209091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84820910	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848209101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84820911	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848209111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84821002	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848210021	848102	848179	801012							0	HitCase		1		1				1													
+84821003	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848210031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84821004	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848210041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84821005	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848210051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84821006	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848210061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84821007	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848210071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84821008	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848210081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84821009	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848210091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84821010	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848210101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84821011	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848210111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84821304	击退buff有问题	2	666				0			4			0.5						-1	1			0.02				-1			1					0	0	0										0							0	1					478074									0	HitCase		0		1				0													
+84821310	闪现出现	2	0.1				0		-90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84821311	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84821404	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84821405	闪现出现	2	0.1				0		90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84821504	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84821505	闪现出现	2	0.1				0		-90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84821904	击退buff有问题	1	20	20			0			4			0.4						-1	1			0.02				-1			1					0	0	0										0							0	1					478184									0	HitCase		0		1				0													
+84821910	闪现出现	2	0.1				0		-90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84821911	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822003	攻击1-地刺-特效	2	0.1		0.25	3	0		15	4			2						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822005	普攻击1	3	5	120	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	3				848220051	848102	848179	801020	478245		478245		478055		0	HitCase		1		1				1													
+84822006	攻击2-2	2	2.2		-0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848220061	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84822007	普攻攻击2-1	2	2.2		0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848220071	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84822012	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822013	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822023	攻击1-地刺-特效	2	0.1			3	0		-15	4			5						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822102	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848221021	848102	848179	801012							0	HitCase		1		1				1													
+84822103	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848221031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84822104	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848221041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84822105	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848221051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84822106	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848221061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84822107	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848221071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84822108	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848221081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84822109	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848221091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84822110	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848221101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84822111	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848221111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84822205	攻击1-地刺	3	13	40	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1601Hit						-1			1					0	0	0										0							0	1				848222051	848102	848179	801020	478242		478242		478240		0	HitCase		1		1				1													
+84822206	攻击2横扫	3	7.3	240	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1602Hit						-1			1					0	0	0										0							0	2				848222061	848102	848179	801030	478243		478243		478241		0	HitCase		0		1				1													
+84822212	攻击1-1前刺	3	6	40	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1				848222121	848102	848179	801020							0	HitCase		1		1				1													
+84822213	攻击1-地刺-特效	2	0.1			0.2	0			4			5						-1						FxMb1Punishdata2Atk1601		-1			1					0	0	0										0							0	1					848102	848179	801025							0	HitCase		0		0				0													
+84822221	镜头效果1-地刺	2	4	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478238									0	HitCase		1		1				0													
+84822222	镜头效果1-横扫	2	6	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478239									0	HitCase		1		1				0													
+84822302	BOSS剑雨子弹1	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848223021	848102	848179	801016							0	HitCase		0		1				1													
+84822303	BOSS剑雨子弹2	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848223031	848102	848179	801016							0	HitCase		0		1				1													
+84822304	BOSS剑雨子弹3	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848223041	848102	848179	801016							0	HitCase		0		1				1													
+84822305	BOSS剑雨特效	2	0.1				0			4			10						-1						FxMb1Punishdata2Atk1701		-1			1					0	0	0										0							0	1					848102	848179	801016							0	HitCase		0		1				0													
+84822306	BOSS剑雨表演	2	0.1				0			4			10						-1						FxMb1Punishdata2Atk1702		-1			1					0	0	0										0							0	1					848102	848179	801016							0	HitCase		0		1				0													
+84822307	BOSS击退子弹3	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848223071	848102	848179	801020							0	HitCase		0		1				1													
+84822308	BOSS地刺子弹3	4	5.5	20	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848223081	848102	848179	801030							0	HitCase		0		1				1													
+84822311	摄像机改变-飞刀上升拉远和拉高	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478042	478043								0	HitCase		0		1				0													
+84822313	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478045									0	HitCase		0		1				0													
+84822316	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478047	478048								0	HitCase		0		1				0													
+84822317	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478045									0	HitCase		0		1				0													
+84822322	击退buff有问题	2	7				0			4			0.2						-1	1			0.02				-1			1					0	0	0										0							0	1					478049									0	HitCase		0		1				0													
+84822330	闪现出现	2	0.1				0		-90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822331	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822405	普攻击1	3	5	120	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	3				848224051	848102	848179	801020	478245		478245		478055		0	HitCase		1		1				1													
+84822406	攻击2-2	2	2.2		-0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848224061	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84822407	普攻攻击2-1	2	2.2		0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848224071	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84822411	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822412	闪现出现（废弃，在下个技能里打断）	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822419	攻击1-地刺-特效	2	0.1			3	0		-15	4			5						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822503	攻击1-地刺-特效	2	0.1		0.25	3	0		15	4			2						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822505	普攻击1	3	5	120	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	3				848225051	848102	848179	801020	478245		478245		478055		0	HitCase		1		1				1													
+84822506	攻击2-2	2	2.2		-0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848225061	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84822507	普攻攻击2-1	2	2.2		0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848225071	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84822511	闪现消失（没用）	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822512	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822518	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822519	闪现出现	2	0.1				0		-90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822605	攻击1-地刺	3	13	40	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1601Hit						-1			1					0	0	0										0							0	1				848226051	848102	848179	801020							0	HitCase		1		1				1													
+84822606	攻击2横扫	3	7.3	240	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1602Hit						-1			1					0	0	0										0							0	2				848226061	848102	848179	801030							0	HitCase		0		1				1													
+84822612	攻击1-1前刺	3	6	40	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1				848226121	848102	848179	801020							0	HitCase		1		1				1													
+84822613	攻击1-地刺-特效	2	0.1			0.6	0			4			5						-1						FxMb1Punishdata2Atk1601		-1			1					0	0	0										0							0	1					848102	848179	801025							0	HitCase		0		0				0													
+84822615	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822616	闪现出现（废弃，在下个技能里打断）	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822705	攻击1-地刺	3	13	40	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1601Hit						-1			1					0	0	0										0							0	1				848227051	848102	848179	801020	478242		478242		478240		0	HitCase		1		1				1													
+84822706	攻击2横扫	3	7.3	240	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1602Hit						-1			1					0	0	0										0							0	2				848227061	848102	848179	801030	478243		478243		478241		0	HitCase		0		1				1													
+84822712	攻击1-1前刺	3	6	40	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1				848227121	848102	848179	801020							0	HitCase		1		1				1													
+84822713	攻击1-地刺-特效	2	0.1			0.6	0			4			5						-1						FxMb1Punishdata2Atk1601		-1			1					0	0	0										0							0	1					848102	848179	801025							0	HitCase		0		0				0													
+84822714	闪现消失（废弃，在下个技能里打断）	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+84822715	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822726	镜头效果1-地刺	2	4	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478238									0	HitCase		1		1				0													
+84822727	镜头效果1-横扫	2	6	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478239									0	HitCase		1		1				0													
+84822804	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822805	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822904	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84822905	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823006	攻击1	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0901Hit						-1			1					0	0	0										0							0	3				848230061	848102	848179	801030	478243		478243		478241		0	HitCase		1		1				1													
+84823020	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823021	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823106	攻击1	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0901Hit						-1			1					0	0	0										0							0	3				848231061	848102	848179	801030	478243		478243		478241		0	HitCase		1		1				1													
+84823120	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823121	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823304	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823305	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823404	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823405	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823602	出现	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+84823605	消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823606	出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823612	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848236121	848102	848179	801012							0	HitCase		1		1				1													
+84823613	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848236131	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84823614	刀锋魅影一	1	1.6	3		3.8	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848236141										1	HitCase		0		0				1													
+84823615	刀锋魅影一	1	1.6	3		3.8	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848236151										1	HitCase		0		0				1													
+84823616	刀锋魅影一	1	1.6	3		3.8	40		90	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848236161										1	HitCase		0		0				1													
+84823617	刀锋魅影一	1	1.6	3		3.8	40		135	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848236171										1	HitCase		0		0				1													
+84823618	刀锋魅影一	1	1.6	3		3.8	40		180	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848236181										1	HitCase		0		0				1													
+84823619	刀锋魅影一	1	1.6	3		3.8	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848236191										1	HitCase		0		0				1													
+84823620	刀锋魅影一	1	1.6	3		3.8	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848236201										1	HitCase		0		0				1													
+84823621	刀锋魅影一	1	1.6	3		2.5	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848236211										1	HitCase		0		0				1													
+84823702	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848237021	848102	848179	801012							0	HitCase		1		1				1													
+84823703	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848237031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84823704	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848237041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823705	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848237051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823706	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848237061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823707	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848237071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823708	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848237081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823709	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848237091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823710	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848237101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823711	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848237111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823801	连续普攻四闪现起手  闪现隐藏	2	0.1				0			4			0.1						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823802	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823809	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848238091	848102	848179	801012							0	HitCase		1		1				1													
+84823810	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848238101	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84823811	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848238111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823812	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848238121	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823813	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848238131	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823814	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848238141	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823815	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848238151	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823816	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848238161	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823817	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848238171	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823818	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848238181	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84823907	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84823908	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84824002	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848240021	848102	848179	801012							0	HitCase		1		1				1													
+84824003	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848240031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84824004	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848240041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824005	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848240051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824006	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848240061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824007	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848240071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824008	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848240081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824009	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848240091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824010	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848240101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824011	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848240111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824014	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84824102	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848241021	848102	848179	801012							0	HitCase		1		1				1													
+84824103	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848241031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84824104	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848241041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824105	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848241051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824106	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848241061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824107	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848241071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824108	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848241081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824109	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848241091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824110	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848241101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824111	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848241111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84824202	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848242021	848102	848179	801012							0	HitCase		1		1				1													
+84824203	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848242031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84824206	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84824207	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84824505	攻击2横扫	3	7.3	240	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1602Hit						-1			1					0	0	0										0							0	2				848245051	848102	848179	801030	478243		478243		478241		0	HitCase		0		1				1													
+84824512	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84824513	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84824518	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84824519	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84824529	镜头效果1-横扫	2	6	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478239									0	HitCase		1		1				0													
+84824604	攻击1-地刺	3	13	40	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1601Hit						-1			1					0	0	0										0							0	1				848246041	848102	848179	801020	478242		478242		478240		0	HitCase		1		1				1													
+84824609	攻击1-1前刺	3	6	40	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1				848246091	848102	848179	801020							0	HitCase		1		1				1													
+84824610	攻击1-地刺-特效	2	0.1			0.6	0			4			5						-1						FxMb1Punishdata2Atk1601		-1			1					0	0	0										0							0	1					848102	848179	801025							0	HitCase		0		0				0													
+84824613	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84824614	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0.4	HitCase		0		0				0													
+84824627	镜头效果1-地刺	2	4	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478238									0	HitCase		1		1				0													
+84824706	攻击1	2	5		0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	3				848247061	848102	801030	848179	478243		478243		478241		0	HitCase		1		1				1													
+84824721	闪现出现	2	0.1				0		90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0.6	HitCase		0		0				0													
+84824722	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84825007	击退	2	25				0			4			1						-1	1			0.02				-1			1					0	0	0										0							0	1					478021									0	HitCase		0		1				0													
+84825008	脚下横条攻击子弹	1	20	2			2		10	4			0.5						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250081	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825009	BOSS左前方子弹1	1	13	2	-2	8	4		-70	4			1.3						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250091	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825010	BOSS左前方子弹1	1	8	1.8	5	10	6		-52	4			1						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250101	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825011	BOSS左前方子弹3	1	1.8	3	-8.7	14	11		15	4			2						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250111	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825012	BOSS左前方第二发子弹1	1	6	1.8	5	12	6		-52	4			1						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250121	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825013	BOSS左前方第二发子弹1	2	0.1				0			4			15						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit			FxMb1Punishdata2Atk0402		-1			1					0	0	0										0							0	1					848152	801050	848179			478252				-2	HitCase		0		0				1													
+84825014	BOSS左前方第二发子弹2	1	9	2.5	3	14.8	5		-16	4			0.9						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250141	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825015	BOSS左前方第二发子弹3	1	2	3	-9	18.5	6		32	4			4						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250151	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825016	BOSS右前方子弹1	1	11	2.5	-2	24.2	5		34	4			0.9						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250161	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825017	BOSS左前方子弹3	1	2.5	5	24.8	11	11		-54	4			2						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250171	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825018	摄像机改变-拉远和拉低	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+84825019	摄像机改变-推开拉近和fov	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478025	478026								0	HitCase		0		1				0													
+84825021	子弹时间-玩家	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478027	478028	478029							0	HitCase		0		1				0													
+84825023	子弹时间-玩家	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478030									0	HitCase		0		1				0													
+84825026	BOSS左前方第二发子弹1	2	0.1				0			4			15						-1						FxMb1Punishdata2Atk0403		-1			1					0	0	0										0							0	1					848151	801050	848179							-2	HitCase		0		0				1													
+84825036	BOSS左前方第二发子弹3	1	2.5	4	5.5	8.5	7.8		-35	4			4						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250361	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825037	BOSS右前方子弹1	1	11	2.5	-2	15	6.8		34	4			0.9						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250371	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825038	BOSS左前方子弹3	1	2.5	5	17.5	8	12		-42	4			1						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848250381	848152	801050	848179			478252				0	HitCase		0		0				1													
+84825043	音效	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478297									0	HitCase		0		1				0													
+84825044	音效子弹	2	0.1				15			4			6						-1						FxMb1Punishdata2Dandao03Sound		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84825045	音效子弹	2	0.1				15			4			6						-1						FxMb1Punishdata2Dandao03Sound		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84825046	音效子弹	2	0.1				15			4			6						-1						FxMb1Punishdata2Dandao03Sound		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84825103	帕弥什之罪-测试的技能51-3	2	0.1				0			4			0.1						-1						FxMb1Punishdata2PoFangHit		-1			1					0	0	0										0							0	1														1.5	HitCase		0		1				0													
+84825107	音效	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478298									0	HitCase		0		1				0													
+84825204	击退buff有问题	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1					478074									0	HitCase		0		1				0													
+84825209	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84825210	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84825306	攻击1	2	5		0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	3				848253061	848102	801030	848179	478243		478243		478241		0	HitCase		1		1				1													
+84825320	闪现出现	2	0.1				0		90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84825321	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84840402	地波消亡	2	0.1				0			4			3						-1						FxMb1Punishdata2DandaoQusan		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+84840501	缩圈循环	2	0.1				0			4			9999						-1								-1			1					0	0	0										0							0	1														0.3	HitCase		0		0	1			0		0											
+84840502	缩圈过度效果	2	0.1				0			4			9999						-1						FxMb1Punishdata2AtkLuoXuanBaoScLoop		-1			1					0	0	0										0							0	1														0.3	HitCase		0		0	1			0		0											
+84840601	碰墙子弹	1	1.2	2.5	0.5	-1.2	0			4			9999						-1	1	FxMb1Punishdata2Atk0101Hit		0.5				-1			1					0	0	0										0							0	2				848406011	848102	801070	478277							0	HitCase		1		1	1	5		0													
+84840602	缩圈中间爆炸子弹	2	10		0	0	0			4			1.2						-1	1			0.2		FxMb1Punishdata2AtkLuoXuanBao		-1			1					0	0	0										0							0	2				848406021	848152	801020	848015							0	HitCase		0		1				0													
+84840603	缩圈中间爆炸子弹2	2	10		0	0	0			4			0.1						-1						FxMb1Punishdata2AtkLuoXuanBao		-1			1					0	0	0										0							0	2				848406031	848152	801020	848015							0	HitCase		0		1				0													
+84860101	弹刀特效	2	0.1				0		180	4			6						-1						FxMb1Punishdata2AtkTandao		-1			1					0	0	0										0							0	1														0.3	HitCase		0		0	0			0		0											
+84860102	弹刀特效	2	0.1				0		180	4			6						-1						FxMb1Punishdata2AtkTandaoDa		-1			1					0	0	0										0							0	1										478174				0.3	HitCase		0		0	0			0		0											
+84860110	缩圈后碰墙子弹	4	10	13	0	0	0			4			9999						-1	1			0.6				-1			1					0	0	0										0							0	1										478198				0.3	HitCase		0		0	0			0		0											
+84860501	处决子弹	2	10		0	0	0			4			0.65						-1	1	FxMb1Punishdata2AtkChujue		0.2				-1			1					0	0	0										1							0	1				848605011	848105	848143	478101	801015		478101	478286	478248		0	HitCase		1		1				0													
+84860502	破防额外受击	2	3		0	0	0			4			0.37						-1	1	FxMb1Punishdata2PoFangFire		0.18				-1			1					0	0	0										1							0	1					801040	478262				478265				1.6			1		1				0													
+84870100	次元斩扩散环	2	0.1				0			4			15						-1						FxMb1Punishdata2Atk0402		-1			1					0	0	0										0							0	1														-2	HitCase		0		1				0													
+84870101	脚下横条攻击子弹	1	20	2			2		10	4			2						-1								-1			1					0	0	0										0							0	1				848701011										0	HitCase		0		1				0													
+84870102	BOSS左前方子弹1	1	13	2	-2	8	4		-70	4			4						-1								-1			1					0	0	0										0							0	1				848701021										0	HitCase		0		1				0													
+84870103	BOSS左前方子弹1	1	8	1.8	5	10	6		-52	4			3						-1								-1			1					0	0	0										0							0	1				848701031										0	HitCase		0		1				0													
+84870104	BOSS左前方子弹3	1	1	3	-9.5	14	11		15	4			4						-1								-1			1					0	0	0										0							0	1				848701041										0	HitCase		0		1				0													
+84870105	BOSS左前方第二发子弹1	1	6	1.8	5	12	6		-52	4			3						-1								-1			1					0	0	0										0							0	1				848701051										0	HitCase		0		1				0													
+84850101	地波子弹	1	0.8	1.4		-1.4	0		0	4			999						-1		FxMb1Punishdata2Hit01						-1			1					0	0	0										0							0	1					848102	801080	478237			478063				0	HitCase		1		0	1			1													
+84850102	地波子弹-打boss极限	1	1.5	3.8		0	0		0	2			999						-1		FxMb1Punishdata2Hit02						-1			1					0	0	0										0							0	1				848501021	478161	801025	478263	478276		478264		478263		1.2			1		0		1		1													
+84850201	地波子弹-打boss普通	1	1.5	2		0	0		0	2			999						-1		FxMb1Punishdata2Hit02						-1			1					0	0	0										0							0	1				848502011	478160	801015	478263	478277		478264		478263		1.2			1		0		1		1													
+84850202	波纹子弹	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkBowen		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+84830107	击退	2	25				0			4			1						-1	1			0.02				-1			1					0	0	0										0							0	1					478021									0	HitCase		0		1				0													
+84830108	脚下横条攻击子弹	1	20	2			2		10	4			0.5						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848301081	848152	801050	848179			478252				0	HitCase		0		0				1													
+84830109	BOSS左前方子弹1	1	13	2	-2	8	4		-70	4			1.3						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848301091	848152	801050	848179			478252				0	HitCase		0		0				1													
+84830110	BOSS左前方子弹1	1	8	1.8	5	10	6		-52	4			1						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848301101	848152	801050	848179			478252				0	HitCase		0		0				1													
+84830111	BOSS左前方子弹3	1	1.8	3	-8.7	14	11		15	4			2						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848301111	848152	801050	848179			478252				0	HitCase		0		0				1													
+84830112	BOSS左前方第二发子弹1	1	6	1.8	5	12	6		-52	4			1						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848301121	848152	801050	848179			478252				0	HitCase		0		0				1													
+84830113	BOSS左前方第二发子弹1	2	0.1				0			4			5						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit			FxMb1Punishdata2Atk0402		-1			1					0	0	0										0							0	1					848152	801050	848179			478252				-2	HitCase		0		0				1													
+84830114	BOSS左前方第二发子弹2	1	9	2.5	3	14.8	5		-16	4			0.9						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848301141	848152	801050	848179			478252				0	HitCase		0		0				1													
+84830115	BOSS左前方第二发子弹3	1	2	3	-9	18.5	6		32	4			4						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848301151	848152	801050	848179			478252				0	HitCase		0		0				1													
+84830116	BOSS右前方子弹1	1	11	2.5	-2	24.2	5		34	4			0.9						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848301161	848152	801050	848179			478252				0	HitCase		0		0				1													
+84830117	BOSS左前方子弹3	1	2.5	5	24.8	11	11		-54	4			2						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848301171	848152	801050	848179			478252				0	HitCase		0		0				1													
+84830118	摄像机改变-拉远和拉低	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+84830119	摄像机改变-推开拉近和fov	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478025	478026								0	HitCase		0		1				0													
+84830121	子弹时间-玩家	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478027	478028	478029							0	HitCase		0		1				0													
+84830123	子弹时间-玩家	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478030									0	HitCase		0		1				0													
+84830137	子弹时间-玩家	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478296									0	HitCase		0		1				0													
+84830138	音效子弹	2	0.1				15			4			6						-1						FxMb1Punishdata2Dandao03Sound		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84830139	音效子弹	2	0.1				15			4			6						-1						FxMb1Punishdata2Dandao03Sound		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84830202	刀锋魅影一	1	1.2	2.5	-0.2		32		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848302021	848102	848179	801015							1.3	HitCase		0		0				1													
+84830203	刀锋魅影一	1	1.2	2.5	-0.23		32		2	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848302031	848102	848179	801015							1.3	HitCase		0		0				1													
+84830204	刀锋魅影一	1	1.2	2.5	-0.21		32		5	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848302041	848102	848179	801015							1.3	HitCase		0		0				1													
+84830205	刀锋魅影一	1	1.2	2.5	-0.18		32		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848302051	848102	801015	848179	478244		478036				1.3	HitCase		0		0				1													
+84830206	刀锋魅影一	1	1.2	2.5	-0.19		32		-3	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848302061	848102	801015	848179	478244		478036				1.3	HitCase		0		0				1													
+84830207	刀锋魅影一	1	1.2	2.5	-0.2		32		2	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848302071	848102	801015	848179	478244		478036				1.3	HitCase		0		0				1													
+84830208	刀锋魅影一	1	1.2	2.5	-0.21		32		-5	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848302081	848102	801015	848179	478244		478036				1.3	HitCase		0		0				1													
+84830209	刀锋魅影一	1	1.2	2.5	-0.18		32		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848302091	848102	801015	848179	478244		478036				1.3	HitCase		0		0				1													
+84830219	音效	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478301									0	HitCase		0		1				0													
+84830303	攻击1-地刺-特效	2	0.1		0.25	3	0		15	4			2						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84830305	普攻击1	3	5	120	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	3				848303051	848102	848179	801020	478245		478245		478055		0	HitCase		1		1				1													
+84830306	攻击2-2	2	2.2		-0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848303061	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84830307	普攻攻击2-1	2	2.2		0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848303071	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84830313	攻击1-地刺-特效	2	0.1			3	0		-15	4			5						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84830405	攻击1-地刺	3	13	40	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1601Hit						-1			1					0	0	0										0							0	1				848304051	848102	848179	801020	478242		478242		478240		0	HitCase		1		1				1													
+84830406	攻击2横扫	3	7.3	240	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1602Hit						-1			1					0	0	0										0							0	2				848304061	848102	848179	801030	478243		478243		478241		0	HitCase		0		1				1													
+84830412	攻击1-1前刺	3	6	40	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1				848304121	848102	848179	801020							0	HitCase		1		1				1													
+84830413	攻击1-地刺-特效	2	0.1			0.2	0			4			5						-1						FxMb1Punishdata2Atk1601		-1			1					0	0	0										0							0	1					848102	848179	801025							0	HitCase		0		0				0													
+84830421	镜头效果1-地刺	2	4	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478238									0	HitCase		1		1				0													
+84830422	镜头效果1-横扫	2	6	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478239									0	HitCase		1		1				0													
+84830502	BOSS剑雨子弹1	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848305021	848102	848179	801016							0	HitCase		0		1				1													
+84830503	BOSS剑雨子弹2	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848305031	848102	848179	801016							0	HitCase		0		1				1													
+84830504	BOSS剑雨子弹3	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848305041	848102	848179	801016							0	HitCase		0		1				1													
+84830505	BOSS剑雨特效	2	0.1				0			4			10						-1						FxMb1Punishdata2Atk1701		-1			1					0	0	0										0							0	1					848102	848179	801016							0	HitCase		0		1				0													
+84830506	BOSS剑雨表演	2	0.1				0			4			10						-1						FxMb1Punishdata2Atk1702		-1			1					0	0	0										0							0	1					848102	848179	801016							0	HitCase		0		1				0													
+84830507	BOSS击退子弹3	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848305071	848102	848179	801020							0	HitCase		0		1				1													
+84830508	BOSS地刺子弹3	4	5.5	18	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848305081	848102	848102	848179	801030						0	HitCase		0		1				1													
+84830511	摄像机改变-飞刀上升拉远和拉高	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478042	478043								0	HitCase		0		1				0													
+84830513	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478045									0	HitCase		0		1				0													
+84830516	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478047	478048								0	HitCase		0		1				0													
+84830517	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478045									0	HitCase		0		1				0													
+84830522	击退buff有问题	2	7				0			4			0.2						-1	1			0.02				-1			1					0	0	0										0							0	1					478049									0	HitCase		0		1				0													
+84830706	攻击1	2	5		0	0	0		45	4			0.2						-1		FxMb1Punishdata2Atk0901Hit						-1			1					0	0	0										0							0	3				848307061	848102	848179	801030	478243		478243		478241		0	HitCase		1		1				1													
+84830718	闪现出现	2	0.1				0		90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84830719	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84830902	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0201Hit						-1			1					0	0	0										0							0	1				848309021	848102	848179	801017							0	HitCase		1		1				1													
+84830903	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0201Hit						-1			1					0	0	0										0							0	2				848309031	848102	848179	801017	478247		478247		478243		0	HitCase		1		1				1													
+84830904	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848309041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84830905	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848309051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84830906	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848309061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84830907	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848309071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84830908	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848309081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84830909	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848309091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84830910	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848309101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84830911	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848309111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84831002	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848310021	848102	848179	801012							0	HitCase		1		1				1													
+84831003	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848310031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84831004	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848310041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84831005	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848310051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84831006	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848310061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84831007	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848310071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84831008	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848310081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84831009	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848310091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84831010	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848310101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84831011	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848310111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84831304	击退buff有问题	2	666				0			4			0.5						-1	1			0.02				-1			1					0	0	0										0							0	1					478074									0	HitCase		0		1				0													
+84831310	闪现出现	2	0.1				0		-90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84831311	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84831404	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84831405	闪现出现	2	0.1				0		90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84831504	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84831505	闪现出现	2	0.1				0		-90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84831706	缩圈中间爆炸子弹2	2	10		0	2	0			4			0.1						-1						FxMb1Punishdata2AtkLuoXuanBao		-1			1					0	0	0										0							0	2				848317061	848152	801020	848015							0	HitCase		0		1				1													
+84831904	击退buff有问题	1	20	20			0			4			0.4						-1	1			0.02				-1			1					0	0	0										0							0	1					478184									0	HitCase		0		1				0													
+84831910	闪现出现	2	0.1				0		-90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84831911	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832003	攻击1-地刺-特效	2	0.1		0.25	3	0		15	4			2						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832005	普攻击1	3	5	120	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	3				848320051	848102	848179	801020	478245		478245		478055		0	HitCase		1		1				1													
+84832006	攻击2-2	2	2.2		-0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848320061	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84832007	普攻攻击2-1	2	2.2		0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848320071	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84832012	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832013	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832023	攻击1-地刺-特效	2	0.1			3	0		-15	4			5						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832102	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848321021	848102	848179	801012							0	HitCase		1		1				1													
+84832103	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848321031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84832104	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848321041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84832105	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848321051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84832106	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848321061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84832107	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848321071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84832108	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848321081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84832109	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848321091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84832110	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848321101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84832111	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848321111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84832205	攻击1-地刺	3	13	40	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1601Hit						-1			1					0	0	0										0							0	1				848322051	848102	848179	801020	478242		478242		478240		0	HitCase		1		1				1													
+84832206	攻击2横扫	3	7.3	240	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1602Hit						-1			1					0	0	0										0							0	2				848322061	848102	848179	801030	478243		478243		478241		0	HitCase		0		1				1													
+84832212	攻击1-1前刺	3	6	40	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1				848322121	848102	848179	801020							0	HitCase		1		1				1													
+84832213	攻击1-地刺-特效	2	0.1			0.2	0			4			5						-1						FxMb1Punishdata2Atk1601		-1			1					0	0	0										0							0	1					848102	848179	801025							0	HitCase		0		0				0													
+84832221	镜头效果1-地刺	2	4	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478238									0	HitCase		1		1				0													
+84832222	镜头效果1-横扫	2	6	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478239									0	HitCase		1		1				0													
+84832302	BOSS剑雨子弹1	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848323021	848102	848179	801016							0	HitCase		0		1				1													
+84832303	BOSS剑雨子弹2	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848323031	848102	848179	801016							0	HitCase		0		1				1													
+84832304	BOSS剑雨子弹3	2	5		0	0.5	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848323041	848102	848179	801016							0	HitCase		0		1				1													
+84832305	BOSS剑雨特效	2	0.1				0			4			10						-1						FxMb1Punishdata2Atk1701		-1			1					0	0	0										0							0	1					848102	848179	801016							0	HitCase		0		1				0													
+84832306	BOSS剑雨表演	2	0.1				0			4			10						-1						FxMb1Punishdata2Atk1702		-1			1					0	0	0										0							0	1					848102	848179	801016							0	HitCase		0		1				0													
+84832307	BOSS击退子弹3	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848323071	848102	848179	801020							0	HitCase		0		1				1													
+84832308	BOSS地刺子弹3	4	5.5	20	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1701Hit						-1			1					0	0	0										0							0	2				848323081	848102	848179	801030							0	HitCase		0		1				1													
+84832311	摄像机改变-飞刀上升拉远和拉高	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478042	478043								0	HitCase		0		1				0													
+84832313	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478045									0	HitCase		0		1				0													
+84832316	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478047	478048								0	HitCase		0		1				0													
+84832317	摄像机改变-飞刀下插	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478045									0	HitCase		0		1				0													
+84832322	击退buff有问题	2	7				0			4			0.2						-1	1			0.02				-1			1					0	0	0										0							0	1					478049									0	HitCase		0		1				0													
+84832330	闪现出现	2	0.1				0		-90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832331	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832405	普攻击1	3	5	120	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	3				848324051	848102	848179	801020	478245		478245		478055		0	HitCase		1		1				1													
+84832406	攻击2-2	2	2.2		-0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848324061	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84832407	普攻攻击2-1	2	2.2		0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848324071	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84832411	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832412	闪现出现（废弃，在下个技能里打断）	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832419	攻击1-地刺-特效	2	0.1			3	0		-15	4			5						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832503	攻击1-地刺-特效	2	0.1		0.25	3	0		15	4			2						-1						FxMb1Punishdata2Atk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832505	普攻击1	3	5	120	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	3				848325051	848102	848179	801020	478245		478245		478055		0	HitCase		1		1				1													
+84832506	攻击2-2	2	2.2		-0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848325061	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84832507	普攻攻击2-1	2	2.2		0.5	2.8	0			4			0.2						-1		FxMb1Punishdata2Atk0101Hit						-1			1					0	0	0										0							0	1				848325071	848102	848179	801020	478246		478246		478054		0	HitCase		1		1				1													
+84832511	闪现消失（没用）	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832512	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832518	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832519	闪现出现	2	0.1				0		-90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832605	攻击1-地刺	3	13	40	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1601Hit						-1			1					0	0	0										0							0	1				848326051	848102	848179	801020							0	HitCase		1		1				1													
+84832606	攻击2横扫	3	7.3	240	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1602Hit						-1			1					0	0	0										0							0	2				848326061	848102	848179	801030							0	HitCase		0		1				1													
+84832612	攻击1-1前刺	3	6	40	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1				848326121	848102	848179	801020							0	HitCase		1		1				1													
+84832613	攻击1-地刺-特效	2	0.1			0.6	0			4			5						-1						FxMb1Punishdata2Atk1601		-1			1					0	0	0										0							0	1					848102	848179	801025							0	HitCase		0		0				0													
+84832615	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832616	闪现出现（废弃，在下个技能里打断）	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832705	攻击1-地刺	3	13	40	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1601Hit						-1			1					0	0	0										0							0	1				848327051	848102	848179	801020	478242		478242		478240		0	HitCase		1		1				1													
+84832706	攻击2横扫	3	7.3	240	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1602Hit						-1			1					0	0	0										0							0	2				848327061	848102	848179	801030	478243		478243		478241		0	HitCase		0		1				1													
+84832712	攻击1-1前刺	3	6	40	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1				848327121	848102	848179	801020							0	HitCase		1		1				1													
+84832713	攻击1-地刺-特效	2	0.1			0.6	0			4			5						-1						FxMb1Punishdata2Atk1601		-1			1					0	0	0										0							0	1					848102	848179	801025							0	HitCase		0		0				0													
+84832714	闪现消失（废弃，在下个技能里打断）	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+84832715	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832726	镜头效果1-地刺	2	4	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478238									0	HitCase		1		1				0													
+84832727	镜头效果1-横扫	2	6	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478239									0	HitCase		1		1				0													
+84832804	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832805	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832904	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84832905	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833006	攻击1	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0901Hit						-1			1					0	0	0										0							0	3				848330061	848102	848179	801030	478243		478243		478241		0	HitCase		1		1				1													
+84833020	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833021	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833106	攻击1	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0901Hit						-1			1					0	0	0										0							0	3				848331061	848102	848179	801030	478243		478243		478241		0	HitCase		1		1				1													
+84833120	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833121	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833304	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833305	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833404	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833405	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833602	出现	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+84833605	消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833606	出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833612	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848336121	848102	848179	801012							0	HitCase		1		1				1													
+84833613	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848336131	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84833614	刀锋魅影一	1	1.6	3		3.8	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848336141										1	HitCase		0		0				1													
+84833615	刀锋魅影一	1	1.6	3		3.8	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848336151										1	HitCase		0		0				1													
+84833616	刀锋魅影一	1	1.6	3		3.8	40		90	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848336161										1	HitCase		0		0				1													
+84833617	刀锋魅影一	1	1.6	3		3.8	40		135	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848336171										1	HitCase		0		0				1													
+84833618	刀锋魅影一	1	1.6	3		3.8	40		180	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848336181										1	HitCase		0		0				1													
+84833619	刀锋魅影一	1	1.6	3		3.8	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848336191										1	HitCase		0		0				1													
+84833620	刀锋魅影一	1	1.6	3		3.8	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848336201										1	HitCase		0		0				1													
+84833621	刀锋魅影一	1	1.6	3		2.5	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848336211										1	HitCase		0		0				1													
+84833702	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848337021	848102	848179	801012							0	HitCase		1		1				1													
+84833703	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848337031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84833704	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848337041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833705	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848337051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833706	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848337061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833707	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848337071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833708	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848337081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833709	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848337091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833710	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848337101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833711	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848337111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833801	连续普攻四闪现起手  闪现隐藏	2	0.1				0			4			0.1						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833802	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833809	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848338091	848102	848179	801012							0	HitCase		1		1				1													
+84833810	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848338101	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84833811	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848338111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833812	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848338121	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833813	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848338131	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833814	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848338141	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833815	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848338151	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833816	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848338161	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833817	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848338171	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833818	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848338181	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84833907	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84833908	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84834002	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848340021	848102	848179	801012							0	HitCase		1		1				1													
+84834003	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848340031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84834004	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848340041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834005	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848340051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834006	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848340061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834007	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848340071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834008	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848340081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834009	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848340091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834010	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848340101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834011	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848340111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834014	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84834102	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848341021	848102	848179	801012							0	HitCase		1		1				1													
+84834103	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848341031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84834104	刀锋魅影一	3	1.6	15	0	2.4	40		0	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848341041	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834105	刀锋魅影一	3	1.6	15	0	2	40		45	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848341051	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834106	刀锋魅影一	3	1.6	15	0	2	40		80	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848341061	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834107	刀锋魅影一	3	1.6	15	0	2.2	40		110	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848341071	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834108	刀锋魅影一	3	1.6	15	-0.9	2	40		170	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848341081	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834109	刀锋魅影一	3	1.6	15	0	2	40		225	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848341091	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834110	刀锋魅影一	3	1.6	15	0.1	2	40		270	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848341101	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834111	刀锋魅影一	3	1.6	15	0	2	40		315	4			4						-1		FxMb1Punishdata2Atk0801Hit				FxMb1Punishdata2Atk0302		-1			1					0	0	0										0							0	1				848341111	848102	848179	801015	478244						1.4	HitCase		0		0				1													
+84834202	攻击3-1	3	5	270	0	0	0			4			0.4						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	1				848342021	848102	848179	801012							0	HitCase		1		1				1													
+84834203	攻击3-2	2	5		0	0	0			4			0.2						-1		FxMb1Punishdata2Atk0301Hit						-1			1					0	0	0										0							0	2				848342031	848102	848179	801020	478247		478247		478243		0	HitCase		1		1				1													
+84834206	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84834207	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84834505	攻击2横扫	3	7.3	240	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1602Hit						-1			1					0	0	0										0							0	2				848345051	848102	848179	801030	478243		478243		478241		0	HitCase		0		1				1													
+84834512	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84834513	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84834518	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84834519	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84834529	镜头效果1-横扫	2	6	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478239									0	HitCase		1		1				0													
+84834604	攻击1-地刺	3	13	40	0	0	0			4			0.2						-1		FxMb1Punishdata2Atk1601Hit						-1			1					0	0	0										0							0	1				848346041	848102	848179	801020	478242		478242		478240		0	HitCase		1		1				1													
+84834609	攻击1-1前刺	3	6	40	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1				848346091	848102	848179	801020							0	HitCase		1		1				1													
+84834610	攻击1-地刺-特效	2	0.1			0.6	0			4			5						-1						FxMb1Punishdata2Atk1601		-1			1					0	0	0										0							0	1					848102	848179	801025							0	HitCase		0		0				0													
+84834613	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84834614	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0.4	HitCase		0		0				0													
+84834627	镜头效果1-地刺	2	4	0	0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	1					478238									0	HitCase		1		1				0													
+84834706	攻击1	2	5		0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	3				848347061	848102	801030	848179	478243		478243		478241		0	HitCase		1		1				1													
+84834721	闪现出现	2	0.1				0		90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0.6	HitCase		0		0				0													
+84834722	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84835007	击退	2	25				0			4			1						-1	1			0.02				-1			1					0	0	0										0							0	1					478021									0	HitCase		0		1				0													
+84835008	脚下横条攻击子弹	1	20	2			2		10	4			0.5						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350081	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835009	BOSS左前方子弹1	1	13	2	-2	8	4		-70	4			1.3						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350091	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835010	BOSS左前方子弹1	1	8	1.8	5	10	6		-52	4			1						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350101	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835011	BOSS左前方子弹3	1	1.8	3	-8.7	14	11		15	4			2						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350111	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835012	BOSS左前方第二发子弹1	1	6	1.8	5	12	6		-52	4			1						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350121	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835013	BOSS左前方第二发子弹1	2	0.1				0			4			15						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit			FxMb1Punishdata2Atk0402		-1			1					0	0	0										0							0	1					848152	801050	848179			478252				-2	HitCase		0		0				1													
+84835014	BOSS左前方第二发子弹2	1	9	2.5	3	14.8	5		-16	4			0.9						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350141	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835015	BOSS左前方第二发子弹3	1	2	3	-9	18.5	6		32	4			4						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350151	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835016	BOSS右前方子弹1	1	11	2.5	-2	24.2	5		34	4			0.9						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350161	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835017	BOSS左前方子弹3	1	2.5	5	24.8	11	11		-54	4			2						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350171	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835018	摄像机改变-拉远和拉低	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+84835019	摄像机改变-推开拉近和fov	2	60				0			4			1						-1								-1			1					0	0	0										0							0	1					478025	478026								0	HitCase		0		1				0													
+84835021	子弹时间-玩家	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478027	478028	478029							0	HitCase		0		1				0													
+84835023	子弹时间-玩家	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478030									0	HitCase		0		1				0													
+84835026	BOSS左前方第二发子弹1	2	0.1				0			4			15						-1						FxMb1Punishdata2Atk0403		-1			1					0	0	0										0							0	1					848151	801050	848179							-2	HitCase		0		0				1													
+84835036	BOSS左前方第二发子弹3	1	2.5	4	5.5	8.5	7.8		-35	4			4						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350361	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835037	BOSS右前方子弹1	1	11	2.5	-2	15	6.8		34	4			0.9						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350371	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835038	BOSS左前方子弹3	1	2.5	5	17.5	8	12		-42	4			1						-1		FxMb1PunishdataHc0205Hit	FxMb1Punishdata2Atk0101Hit					-1			1					0	0	0										0							0	1				848350381	848152	801050	848179			478252				0	HitCase		0		0				1													
+84835043	音效	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478297									0	HitCase		0		1				0													
+84835044	音效子弹	2	0.1				15			4			6						-1						FxMb1Punishdata2Dandao03Sound		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84835045	音效子弹	2	0.1				15			4			6						-1						FxMb1Punishdata2Dandao03Sound		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84835046	音效子弹	2	0.1				15			4			6						-1						FxMb1Punishdata2Dandao03Sound		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84835103	帕弥什之罪-测试的技能51-3	2	0.1				0			4			0.1						-1						FxMb1Punishdata2PoFangHit		-1			1					0	0	0										0							0	1														1.5	HitCase		0		1				0													
+84835107	音效	2	80				0			4			1						-1								-1			1					0	0	0										0							0	1					478298									0	HitCase		0		1				0													
+84835204	击退buff有问题	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1					478074									0	HitCase		0		1				0													
+84835209	闪现出现	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84835210	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84835306	攻击1	2	5		0	0	0			4			0.2						-1								-1			1					0	0	0										0							0	3				848353061	848102	801030	848179	478243		478243		478241		0	HitCase		1		1				1													
+84835320	闪现出现	2	0.1				0		90	4			3						-1						FxMb1Punishdata2AtkShanOut		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84835321	闪现消失	2	0.1				0			4			3						-1						FxMb1Punishdata2AtkShanIn		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													

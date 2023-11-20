@@ -103,7 +103,7 @@ namespace AscNet.GameServer.Handlers
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 #endregion
 
-internal class ChatModule
+    internal class ChatModule
     {
         [RequestPacketHandler("EnterWorldChatRequest")]
         public static void EnterWorldChatRequestHandler(Session session, Packet.Request packet)
@@ -153,6 +153,9 @@ internal class ChatModule
             request.ChatData.Icon = (int)session.player.PlayerData.CurrHeadPortraitId;
             request.ChatData.NickName = session.player.PlayerData.Name;
 
+            NotifyWorldChat notifyWorldChat = new();
+            notifyWorldChat.ChatMessages.Add(request.ChatData);
+
             if (request.ChatData.Content is not null && request.ChatData.Content.StartsWith('/'))
             {
                 var cmdStrings = request.ChatData.Content.Split(" ");
@@ -162,19 +165,16 @@ internal class ChatModule
                     Command? cmd = CommandFactory.CreateCommand(cmdStrings.First().Split('/').Last(), session, cmdStrings[1..]);
                     if (cmd is null)
                     {
-                        // Invalid command
+                        notifyWorldChat.ChatMessages.Add(MakeLuciaMessage($"Invalid command {cmdStrings.First().Split('/').Last()}, try /help"));
                     }
 
                     cmd?.Execute();
                 }
                 catch (Exception)
                 {
-                    // Failed to execute command
+                    notifyWorldChat.ChatMessages.Add(MakeLuciaMessage($"Command {cmdStrings.First().Split('/').Last()} failed to execute!"));
                 }
             }
-
-            NotifyWorldChat notifyWorldChat = new();
-            notifyWorldChat.ChatMessages.Add(request.ChatData);
 
             session.SendPush(notifyWorldChat);
             session.SendResponse(new SendChatResponse() { Code = 0, ChatData = request.ChatData, RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds() }, packet.Id);
@@ -190,6 +190,18 @@ internal class ChatModule
             {
                 Code = 20033013 // ChatChannelNotExist
             }, packet.Id);
+        }
+
+        public static ChatData MakeLuciaMessage(string content)
+        {
+            return new ChatData()
+            {
+                Content = content,
+                Icon = 9010102,
+                ChannelType = ChatChannelType.World,
+                MsgType = ChatMsgType.Normal,
+                NickName = "System - Lucia"
+            };
         }
 
         #region EmojiPackModule

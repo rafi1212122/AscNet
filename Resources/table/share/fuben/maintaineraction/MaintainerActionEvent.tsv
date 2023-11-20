@@ -1,0 +1,21 @@
+Id	Name	IsRecord	RecordText	HintText	DescText	EventIcon
+0	Empty Road	1	 arrived at an empty road. Nothing happened.	You arrived at an empty road. Nothing happened.	Nothing happened.	
+1	Move	1	 moved %d steps.	You moved %d steps.		
+2	Battle Mission	1	 completed Mission %s.		Confrontation, robbery, attack... Whatever it is, you need to intervene immediately.	Assets/Product/Texture/Atlas/UiFubenMaintaineraction/MaintaineractionIcon1.png
+3	Supply Crate	1	 arrived at a Support Point.	You received Supplies.	The Supply Crates dropped by the Supply Force await you.	Assets/Product/Texture/Atlas/UiFubenMaintaineraction/MaintaineractionIcon2.png
+4	Relocate +%d	1	 relocated %d step(s) forward.	You relocated %d step(s) forward.	You were ordered to move %d step(s) forward.	
+5	Relocate -%d	1	 relocated %d step(s) backward.	You relocated %d step(s) backward.	You were ordered to move %d step(s) backward.	
+6	Change in Plan	1	's patrol plan changed.	Patrol plan %d was replaced by patrol plan %d.	You received a new patrol order.	
+7	Detour	1	 received an order and had to change direction.	Your direction was reversed.	A change in plan caused you to change your direction.	
+8	High Morale	1	's daily action limit +%d	Daily action limit +%d	Your team is in great spirit. Maybe you can explore further today.	
+9	Unknown Area				Something may be hidden in the unexplored area...	
+10	Starting Point	1	 returned to the starting point.	You returned to the starting point.	You followed the patrol route back to the starting point. Maybe it is time to take a break.	
+11	External Reinforcement	1	's battle mission completed.	Battle mission completed with external reinforcement.	Received external reinforcement from Babylonia. A battle mission is completed immediately.	
+12	Starting Point	1	 returned to the starting point. Action Limit +%d	You returned to the starting point. Daily Action Limit +%d	You followed the patrol route back to the starting point. Maybe it's time to take a break.	
+13	Bonus Action	1	's daily action limit +%d.	Daily action limit +%d	Authorized to perform 2 extra actions.	
+14	Abandoned Warehouse	1	Arrived at the Abandoned Warehouse.	Arrived at the Abandoned Warehouse.	A deserted warehouse that has not yet collapsed.	Assets/Product/Texture/Atlas/UiFubenMaintaineraction/MaintaineractionIcon4.png
+15	Precision Sensing	1	 submitted a remote sensing request.	Successfully performed a remote sensing.	A signal green zone that allows you to request Precision Sensing from Babylonia.	
+16	Cross-check	1	Activated the cross-check request	Activated the cross-check request	%s found an unactivated cross-check request.	Assets/Product/Texture/Atlas/UiFubenMaintaineraction/MaintaineractionIcon5.png
+17	Cross-check	1	Activated the cross-check request	Activated the cross-check request	%s request activated. Awaiting response from collaborating members.	Assets/Product/Texture/Atlas/UiFubenMaintaineraction/MaintaineractionIcon6.png
+18	Cross-check	1	Cross-check request completed	Cross-check request completed	Activated by %s. Awaiting response.	Assets/Product/Texture/Atlas/UiFubenMaintaineraction/MaintaineractionIcon6.png
+19	Cross-check	1	Passed a completed cross-check request	Passed a completed cross-check request	Completed cross-check request with %s.	Assets/Product/Texture/Atlas/UiFubenMaintaineraction/MaintaineractionIcon7.png

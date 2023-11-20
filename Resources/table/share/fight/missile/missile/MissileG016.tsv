@@ -1,0 +1,48 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
+96011100	长风效果1	1	8	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					740411									0	HitCase		1						0														
+96011101	右往左吹-木块1	1	6	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					740413									0	HitCase		1						0														
+96011102	右往左吹-木块2	1	6	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					740415									0	HitCase		1						0														
+96011103	右往左吹-木块3	1	6	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					740417									0	HitCase		1						0														
+96011104	黑洞吸引效果	2	15				0			4			1						-1	1			1				-1			1					0	0	0										0							0	1					740436									0	HitCase		1		0				0														
+96011105	长风预警-2	1	1	1.2			0			1			8						-1						FxBattleWind2		-1			1					0	0	0										0							0	1														0	HitCase	1	0						0													960111052	
+96011106	吹风击飞效果	1	6	70			0			4			1						-1				1				-1			1					0	0	0										3							1	3				960111061										0	HitCase		1						1														
+96011107	钩锁拉人击飞子弹	2	20			0.1	0			4		1	0.2						-1	1			0.05				-1			5	0	0	0	1	0	0	0										0							0	1				960111071	740445	762644								0	HitCase		1	1	0				0										1				
+96011108	拉人击飞且无视碰撞	1	3	15			0			4			1						-1								-1			1					0	0	0										3							1	3				960111081	740452	740433	740459							0	HitCase		1	1					0										1				
+96011109	落水特效	2	0.1				0			1			20						-1						FxMo1ShuixiyiAtk21		-1			1					0	0	0										0							0	1														0	HitCase		1			0	0		0		1				10								
+96011110	拉人击飞不带忽视碰撞	1	2	15		1	0			4			1						-1								-1			1					0	0	0										3							1	3				960111101	740459	740433	762644							0	HitCase		1	1					0										1				
+96011111	被撞到后击飞	2	3				0			2			0.5						-1	1			0.5		FxCizhuiHeidong		-1			1					0	0	0										0							0	1				960111111	762644									0	HitCase		1	1					0														
+96011112	钩锁拉人倒地子弹	1	20	20		2	0			4		1	0.2						-1	1			0.05				-1			5	0	0	0	1	0	0	0										3							1	1				960111121	740445	762644								0	HitCase		1	1	0				0										1				
+96011113	黑洞吸引效果	2	15				0			4			1						-1	1			1				-1			1					0	0	0										0							0	1					740505									0	HitCase		1		0				0														
+96011114	黑魔LB	2	10				0			6			2		1				-1						FxSceneHuoqiu		-1	30		1					0	0	0										0	96010939	1	2				0	1														0	HitCase		0						0													960111142	
+96011115	库洛姆吸引黑洞	2	30				0			4			1						-1	1			0.02				-1			1					0	0	0										0							0	1					740519									0	HitCase		1		0				0														
+96011116	线框缩放子弹	2	0.1				0			4			999						-1						FxQianxingkuang		-1			1					0	0	0				0.4					0	0							0	1														-10.4	HitCase	0	0						0														
+96011117	预警圈（敌方）-3m	2	3				0			4			999						-1						FxLianjiAirRing		-1			1					0	0	0				0.5					0	0							0	1														0	HitCase	1	1		0				0														
+96011118	击飞且无视碰撞	1	10	70			0			4			1						-1				1				-1			1					0	0	0										3							1	3				960111181	740452	740433	740459							0	HitCase		1						0														
+96011119	e1s到e2	1	6	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					740475									0	HitCase		1						0														
+96011120	e2回e1s	1	6	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					740478									0	HitCase		1						0														
+96011121	e2到e3	1	6	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					740481									0	HitCase		1						0														
+96011122	e3回e2	1	6	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					740484									0	HitCase		1						0														
+96011123	e3到e4	1	6	70			0			4			1						-1	1			0.02				-1			1					0	0	0										3							1	3					740487									0	HitCase		1						0														
+96011124	关卡表现用-哈卡玛a1	3	3	300		1	0			4			5						1		FxR2HakamaAtk0101Hit				FxR2HakamaAtk0101		-1			1					0	0	0										0							0	1				960111241										0			0						0														
+96011125	关卡表现用-哈卡玛a2	1	4	4.5		2.25	0			4			5						1		FxR2HakamaAtk0101Hit				FxR2HakamaAtk0201		-1			1					0	0	0										0							0	1				960111251										0			0						0														
+96011126	关卡表现用-哈卡玛a3	1	4	5		1.5	0			4			5						1		FxR2HakamaAtk0301Hit				FxR2HakamaAtk0301		-1			1					0	0	0										0							0	1				960111261										0			1						0														
+96011127	关卡表现用-哈卡玛a4	1	3	4.5		2.25	0			4			5						1		FxR2HakamaAtk0101Hit				FxR2HakamaAtk0401		-1			1					0	0	0										0							0	1				960111271										0			0						0														
+96011128	关卡表现用-哈卡玛a5	1	3	4.5		2.25	0			4			5						1		FxR2HakamaAtk0301Hit				FxR2HakamaAtk0501		-1			1					0	0	0										0							0	1														0			0						0														
+96011129	关卡表现用-死亡特效	1	3	4.5			0			4			5						-1						FxMe1BioMd007020Death		-1			1					0	0	0										0							0	1														0	HitCase		0						0														
+96011130	关卡表现用-狩猎领域特效子弹	2	999			0.5	0			4			999						-1						FxR2HakamaAtk5102		-1			1					0	0	0										3							4	1														0.2	HitCase		0						0														
+96011131	关卡表现用-狩猎领域特效消失子弹	2	0.1			0.5	0			4			5						-1						FxR2HakamaAtk5103		-1			1					0	0	0										3							4	1														0.2	HitCase		0						0														
+96011132	S卡列跑酷吸引黑洞	2	60				0			4			1						-1	1			0.02				-1			1					0	0	0										0							0	1					740601									0	HitCase		1		0				0														
+96011133	光幕墙萌战版本 15米	1	15	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
+96011134	光幕墙萌战版本 12米	1	12	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
+96011135	光幕墙萌战版本3米	1	3	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
+96011136	光幕墙萌战版本 28米	1	28	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
+96011137	光幕墙萌战版本 10米	1	10	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
+96011138	光幕墙萌战版本 18米	1	18	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
+96011139	光幕墙萌战版本6米	1	6	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
+96011140	端午跑团狙击支援子弹	1	5	25		12.5	0			4			0.1						-1		FxR2WanshiAtk42Hit						-1			1					0	0	0										0							0	1		0.35	0.5	960111401	700312	762644	760462							1			0						0														
+96011141	端午跑团赛丽卡魔王特效	2	0.1				0			1			9999						-1						FxR3LunaMd010021Fire		-1			1					0	0	0										0							0	1														1	HitCase		0						0														
+96011142	端午跑团大海浪（需配合减速可操作子弹食用）	2	0.1				0			4			50						-1						FxMb1HamuleiteAtk52		-1			1					0	0	0										3							4	1														0	HitCase		0		0	1			0														
+96011143	端午跑团大海浪持续伤害子弹（配合可操作子弹食用）	3	20	180			0			4			50	10					-1	1			2			10	-1			1					0	0	0										3							4	1					801045	849042								0	HitCase		1		0	1			1														
+96011144	超比安卡击飞子弹10/7s	2	5				0			4			0.1		1				1								1			5	0	90	0	2	62.8318	0	0	1.2	0								0					1		0	1				960111441										0.3			0						1														
+96011145	超比安卡首席射线	2	0.1				0			4			2						-1						FxR3LuosaitaAtk44		-1			1					0	0	0										0							0	1														0	HitCase		0						0														
+96011146	超比安卡首席射线2	1	1	50		25	0			4			0.1						-1		FxMe1GouzaotiMd10001Attack11Shouji						-1			1					0	0	0										0							0	1				960111461	110535	749023								0	HitCase		0						0														

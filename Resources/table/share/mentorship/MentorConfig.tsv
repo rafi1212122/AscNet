@@ -1,0 +1,51 @@
+Key	Comment	Value
+BeMentorLv	Level when becoming mentor	80
+GraduateLv	Level of student at graduation	80
+BeStudentLv	Level of student when collaboration started	20
+MaxStudentCount	Mentor's student limit	3
+JudgeFailPassTime	No. of minutes AFK before marking as fail	4320
+TickPunishTime	No. of minutes banned from becoming a student or teacher again after terminating collaboration	720
+CompleteTaskCount	Student's weekly mission limit	6
+SysReleaseTaskCount	No. of missions posted by the system	5
+GetTaskCount	No. of missions available for student per day	3
+ChangeTaskCount	Mentor's daily mission swap limit	9
+MaxApplyCount	Message limit on application list	6
+ApplyTimeout	Request message storage limit (minutes)	1440
+MaxRecommendCount	No. of recommendations displayed	6
+ApplyCd	Mentor stops receiving request from this player for x minutes after a request is rejected (an error message will display if x is set to 0)	5
+MaxRecommendRecordCount	Max recommendation stored in server	100
+StudentRefuseApplyInterval	Student stops receiving request from this player for x minutes after a request is rejected (an error message will display if x is set to 0)	5
+RecommendIntervalTime	"Cooldown of recommendation list refresh (minutes). E.g. If a player has tapped for N times in a row, and each two taps are less than X minutes apart. Used for both recommendation list and search functions"	1
+MaxContinuousClickCount	Max tapping counter when retrieving a recommendation list	10
+MaxContinuousClickIntervalTime	Interval between two taps of retrieving recommendation list (seconds)	10
+MaxDailyApply	Max requests sent per day	100
+KickTeacherMailId	Mail ID sent to mentor upon termination	60004
+KickStudentMailId	Mail ID when terminating a student	60003
+AnnouncementMaxLength	Announcement length limit	20
+AddMentorTeacherMailId	Mail ID sent to mentor upon collaboration is formed	60002
+AddMentorStudentMailId	Mail ID sent to the student upon collaboration is formed	60001
+MentorChatMaxCount	Max number of messages between mentor and student saved (latest)	50
+GraduateRewardId	Graduation rewards (reward list ID)	40750
+GraduateStudentRetainDay	No. of days available for mentor to collect mission rewards after a student graduates	7
+GraduateMailId	Mail ID if student has incomplete growth mission at graduation (mission will be automatically completed and rewards are sent via mail)	60007
+NormalLabelMaxCount	Max customized tags that can be selected	2
+TimeLabelMaxCount	Max time tags that can be selected	1
+MentorChangeTaskDisplayCount	No. of missions displayed when mentor opens mission swap page	5
+MentorGiveEquipCount	No. of Memories given in one mission	2
+MentorGiveEquipMaxLevel	Max Memory level that can be gifted	1
+MentorGiveEquipMaxStar	Max Memory rank that can be gifted	5
+StudentWeeklyResetSendEquipMailId	Mail ID if student has not collected the Memories sent by mentor at weekly reset	60005
+GraduateStudentCount	Display limit of graduates on mentorship list	4
+GraduateTaskMailId	Mail ID if student has uncollected challenge mission rewards upon graduation	60006
+FirstMentorMailId	Mail ID of first batch of Instructor mails	60008
+FirstMentorRewardDeadline	No. of days after 0:00, Nov 26 to stop sending Instructor mails	29
+MonthlyStudentCount	Monthly student limit	6
+GraduateCollectionId	Mentor Reward Display Graduation Collectible ID	13000800
+AutoGraduateLv	Level at Automatic Graduation	83
+MessageBoardMaxLen	Character limit of a message	100
+ActivationCount	Limiting value of Daily Activity	100
+ActivationItemId	Displayed gift ID for the instructor who reaches the activity	96006
+ActivationRewardId	Actual reward ID for the instructor sends to the student	40802
+ActivationRewardCount	How many gifts can the instructor send when the activity is reached	3
+GiftMailId	Email ID for the gift sent to the Instructor	60010
+GuidePlayerSearchCD	Search Cooldown	3

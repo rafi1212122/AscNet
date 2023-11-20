@@ -69,7 +69,7 @@ namespace AscNet.Common.Database
             return inventory;
         }
 
-        public void Do(int itemId, int amount)
+        public Item Do(int itemId, int amount)
         {
             Item? item = Items.FirstOrDefault(x => x.Id == itemId);
             if (item is not null)
@@ -79,14 +79,17 @@ namespace AscNet.Common.Database
             }
             else
             {
-                Items.Add(new Item()
+                item = new Item()
                 {
                     Id = itemId,
                     Count = amount,
                     RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
                     CreateTime = DateTimeOffset.Now.ToUnixTimeSeconds()
-                });
+                };
+                Items.Add(item);
             }
+
+            return item;
         }
 
         public void Save()

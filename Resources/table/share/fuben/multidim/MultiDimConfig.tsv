@@ -1,0 +1,18 @@
+Key	Comment	Value
+SingleRankNum	Solo Ranking Players	10
+SingleRankFloor	Solo Ranking Reward Guaranteed Players	10000
+MultiRankNum	Multiplayer Ranking Players	100
+MultiRankMax	Multiplayer Ranking Cached Players	1000
+MultiFubenCloseStartHour	Multiplayer missions are off between 01:00 and 09:00	1
+MultiFubenCloseEndHour	Multiplayer missions are off between 01:00 and 09:00	9
+TalentResetCD	Reset cooldown (in seconds)	86400
+RankIconNo1	1st Place Icon	Assets/Product/Texture/Image/UiFubenChallengeMapBoss/BossSingleNo1.png
+RankIconNo2	2nd Place Icon	Assets/Product/Texture/Image/UiFubenChallengeMapBoss/BossSingleNo2.png
+RankIconNo3	3rd Place Icon	Assets/Product/Texture/Image/UiFubenChallengeMapBoss/BossSingleNo3.png
+TalentConditionId	Talent Unlock Requirement ID	1002201
+SingleRankPercent	The top 1% players on the solo ranking list are displayed in rankings, other players are displayed in percentages.	0.01
+NetworkDelay	Network delay (in milliseconds)	100
+CharacterLimitBuff1	Uniframe Buff 1	2240375
+CharacterLimitBuff2	Uniframe Buff 2	2240376
+SingleRankTopNun	Solo Ranking Top Display Number	Top10
+MultiRankTopNun	Multiplayer Ranking Top Display Number	Top100

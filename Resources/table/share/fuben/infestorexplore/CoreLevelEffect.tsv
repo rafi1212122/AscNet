@@ -1,0 +1,140 @@
+Id	CoreId	CoreLevel	DecomposeMoney	BuffId[1]	BuffId[2]	BuffId[3]	Description
+1	1001	1	10	81000			ATK & HP +5%
+2	1001	2	20	81001			ATK & HP +10%
+3	1001	3	30	81002			ATK & HP +15%
+4	1002	1	10	81027			Nullifies lethal damage once per battle, then restores 20% HP.
+5	1003	1	10	81031			Restores 5% HP per 10s after the battle starts. It can be triggered 3 times per battle.
+6	1003	2	20	81032			Restores 7.5% HP per 10s after the battle starts. It can be triggered 3 times per battle.
+7	1003	3	30	81033			Restores 10% HP per 10s after the battle starts. It can be triggered 3 times per battle.
+8	1004	1	10	81034			Restores 10% of maximum HP at the start of battle.
+9	1004	2	20	81035			Restores 15% of maximum HP at the start of battle.
+10	1004	3	30	81036			Restores 20% of maximum HP at the start of battle.
+11	1005	1	10	81037			Restores 3% of maximum HP for each enemy killed.
+12	1005	2	20	81038			Restores 5% of maximum HP for each enemy killed.
+13	1005	3	30	81039			Restores 8% of maximum HP for each enemy killed.
+14	1006	1	10	81040			Heals all characters on field for 7.5% of maximum HP at the end of battle.
+15	1006	2	20	81041			Heals all characters on field for 15% of maximum HP at the end of battle.
+16	1006	3	30	81042			Heals all characters on field for 22.5% of maximum HP at the end of battle.
+17	2001	1	15	81012			Fire DMG increases by 18%.
+18	2001	2	30	81013			Fire DMG increases by 26%
+19	2001	3	45	81014			Fire DMG increases by 35%
+20	2002	1	15	81015			Lightning DMG increases by 18%.
+21	2002	2	30	81016			Lightning DMG increases by 26%
+22	2002	3	45	81017			Lightning DMG increases by 35%
+23	2003	1	15	81018			Ice DMG increases by 18%.
+24	2003	2	30	81019			Ice DMG increases by 26%
+25	2003	3	45	81020			Ice DMG increases by 35%
+26	2004	1	15	81021			Dark DMG increases by 18%.
+27	2004	2	30	81022			Dark DMG increases by 26%
+28	2004	3	45	81023			Dark DMG increases by 35%
+29	2005	1	15	81024			Physical DMG increases by 18%.
+30	2005	2	30	81025			Physical DMG increases by 26%
+31	2005	3	45	81026			Physical DMG increases by 35%
+32	2006	1	15	81028			Basic Attack DMG increases by 18%.
+33	2006	2	30	81029			Basic Attack DMG increases by 26%
+34	2006	3	45	81030			Basic Attack DMG increases by 35%
+35	2007	1	15	81043			Has a 50% chance to block 1 attack. Becomes immune to any DMG for 2s after a successful block. 15s cooldown.
+36	2007	2	30	81044			Has a 75% chance to block 1 attack. Becomes immune to any DMG for 3s after a successful block. 15s cooldown.
+37	2007	3	45	81045			Has a 100% chance to block 1 attack. Becomes immune to any DMG for 5s after a successful block. 15s cooldown.
+38	2008	1	15	81058			Gain a shield equal to 15% HP at the start of battle.
+39	2008	2	30	81059			Gain a shield equal to 30% HP at the start of battle.
+40	2008	3	45	81060			Gain a shield equal to 45% HP at the start of battle.
+41	2009	1	15	81061			Has a 40% chance to gain a shield equal to 5% HP for 5s when taking DMG.
+42	2009	2	30	81062			Has a 50% chance to gain a shield equal to 10% HP for 5s when taking DMG.
+43	2009	3	45	81063			Has a 60% chance to gain a shield equal to 15% HP for 5s when taking DMG.
+44	2010	1	15	81070			The enemy drops 1 random Signal Orb upon death.
+45	2010	2	30	81071			The enemy drops 2 random Signal Orbs upon death.
+46	2010	3	45	81072			The enemy drops 3 random Signal Orbs upon death.
+47	2011	1	15	81079			Melee DMG increases by 18%.
+48	2011	2	30	81080			Melee DMG increases by 23%.
+49	2011	3	45	81081			Melee DMG increases by 28%.
+50	2012	1	15	81083			Ranged DMG increases by 18%.
+51	2012	2	30	81084			Ranged DMG increases by 23%.
+52	2012	3	45	81085			Ranged DMG increases by 28%.
+53	2013	1	15	81089			QTE cooldown decreases by 1s.
+54	2013	2	30	81090			QTE cooldown decreases by 2s.
+55	2013	3	45	81091			QTE cooldown decreases by 3s.
+56	2014	1	15	81107			When Combo is greater than 50, DMG increases by 15%.
+57	2014	2	30	81108			When Combo is greater than 50, DMG increases by 20%.
+58	2014	3	45	81109			When Combo is greater than 50, DMG increases by 25%.
+59	2015	1	15	81110			When Combo is greater than 50, attacks have a 15% chance to stun the enemy for 3s. (It does not affect the boss.)
+60	2015	2	30	81111			When Combo is greater than 50, attacks have a 30% chance to stun the enemy for 3s. (It does not affect the boss.)
+61	2015	3	45	81112			When Combo is greater than 50, attacks have a 45% chance to stun the enemy for 3s. (It does not affect the boss.)
+62	2016	1	15	81129			Increases all damage of the remaining members by 10% for every 1 missing member (including empty team slots and defeated members)
+63	2016	2	30	81130			Increases all damage of the remaining members by 20% for every 1 missing member (including empty team slots and defeated members)
+64	2016	3	45	81131			Increases all damage of the remaining members by 30% for every 1 missing member (including empty team slots and defeated members)
+65	2017	1	15	81132			Reduces the cooldown of switching between members by 3s
+66	2017	2	30	81133			Reduces the cooldown of switching between members by 6s
+67	2017	3	45	81134			Reduces the cooldown of switching between members by 9s
+68	2018	1	15	81138			Immediately gain 1 random Signal Orb after switching to another member
+69	2018	2	30	81139			Immediately gain 2 random Signal Orbs after switching to another member
+70	2018	3	45	81140			Immediately gain 3 same-colored Signal Orbs after switching to another member
+71	3001	1	18	81003			Skill DMG increases by 20% (excluding Basic ATK and Signature Move)
+72	3001	2	36	81004			Skill DMG increases by 30% (excluding Basic ATK and Signature Move)
+73	3001	3	54	81005			Skill DMG increases by 40% (excluding Basic ATK and Signature Move)
+74	3002	1	18	81006			Signature Move DMG is increased by 20%.
+75	3002	2	36	81007			Signature Move DMG is increased by 40%.
+76	3002	3	54	81008			Signature Move DMG is increased by 60%.
+77	3003	1	18	81009			Gains 60 energy at the start of battle.
+78	3003	2	36	81010			Gains 80 energy at the start of battle.
+79	3003	3	54	81011			Gains 100 energy at the start of battle.
+80	3004	1	18	81046			Attacks have a 50% chance to blow the enemy up, dealing Fire DMG equal to 30% of self ATK to all enemies within 2m.
+81	3004	2	36	81047			Attacks have a 50% chance to blow the enemy up, dealing Fire DMG equal to 40% of self ATK to all enemies within 2m.
+82	3004	3	54	81048			Attacks have a 50% chance to blow the enemy up, dealing Fire DMG equal to 50% of self ATK to all enemies within 2m.
+83	3005	1	18	81049			Limit of Dodge Gauge increases by 400.
+84	3005	2	36	81050			Limit of Dodge Gauge increases by 700.
+85	3005	3	54	81051			Limit of Dodge Gauge increases by 1000.
+86	3006	1	18	81052			"Each dodge increases Movement Speed by 15% and all damage dealt by 3% for 5s. Can be stacked up to 5 times."
+87	3006	2	36	81053			"Each dodge increases Movement Speed by 15% and all damage dealt by 4% for 5s. Can be stacked up to 5 times."
+88	3006	3	54	81054			"Each dodge increases Movement Speed by 15% and all damage dealt by 5% for 5s. Can be stacked up to 5 times."
+89	3007	1	18	81055			Upon entering Matrix, unleash a shockwave within 3m that deals 600% Physical Damage.
+90	3007	2	36	81056			Upon entering Matrix, unleash a shockwave within 3m that deals 900% Physical Damage.
+91	3007	3	54	81057			Upon entering Matrix, unleash a shockwave within 3m that deals 1200% Physical Damage.
+92	3008	1	18	81064			All DMG dealt increases by 12% when a shield exists.
+93	3008	2	36	81065			All DMG dealt increases by 23% when a shield exists.
+94	3008	3	54	81066			All DMG dealt increases by 35% when a shield exists.
+95	3009	1	18	81067			At the start of battle, gains 1 additional Signal Orb (3 identical Signal Orbs if at max level).
+96	3009	2	36	81068			At the start of battle, gains 2 additional Signal Orbs (3 identical Signal Orbs if at max level).
+97	3009	3	54	81069			At the start of battle, gains 3 identical Signal Orbs.
+98	3010	1	18	81073			For every Orb pinged, increases Extra DMG Bonus by 3% for 5s. Stacks up to 5 times.
+99	3010	2	36	81074			For every Orb pinged, increases Extra DMG Bonus by 4% for 5s. Stacks up to 5 times.
+100	3010	3	54	81075			For every Orb pinged, increases Extra DMG Bonus by 6% for 5s. Stacks up to 5 times.
+101	3011	1	18	81076			Pinging Red, Yellow, and Blue Signal Orbs within 5s increases all DMG dealt by 10% for 5s.
+102	3011	2	36	81077			Pinging Red, Yellow, and Blue Signal Orbs within 5s increases all DMG dealt by 20% for 6s.
+103	3011	3	54	81078			Pinging Red, Yellow, and Blue Signal Orbs within 5s increases all DMG dealt by 30% for 8s.
+104	3012	1	18	81082			Deals 100% of ATK as Fire DMG to all enemies within 4m every second.
+105	3013	1	18	81086			Attacks have a 50% chance to deal Lightning DMG equal to 80% of self ATK to all units within 2m around the target. It can only be triggered once per 3s.
+106	3013	2	36	81087			Attacks have a 50% chance to deal Lightning DMG equal to 160% of self ATK to all units within 2m around the target. It can only be triggered once per 3s.
+107	3013	3	54	81088			Attacks have a 50% chance to deal Lightning DMG equal to 240% of self ATK to all units within 2m around the target. It can only be triggered once per 3s.
+108	3014	1	18	81092			QTE increases the controlling character's ATK by 10% for 5s.
+109	3014	2	36	81093			QTE increases the controlling character's ATK by 15% for 5s.
+110	3014	3	54	81094			QTE increases the controlling character's ATK by 20% for 5s.
+111	3015	1	18	81095			QTE reduces the target's Physical DEF by 20% for 5s.
+112	3015	2	36	81096			QTE reduces the target's Physical DEF by 25% for 5s.
+113	3015	3	54	81097			QTE reduces the target's Physical DEF by 30% for 5s.
+114	3016	1	18	81098			QTE reduces the target's Elemental Resistance by 20% for 5s.
+115	3016	2	36	81099			QTE reduces the target's Elemental Resistance by 25% for 5s.
+116	3016	3	54	81100			QTE reduces the target's Elemental Resistance by 30% for 5s.
+117	3017	1	18	81101			After summoning a QTE, unleash a shockwave within 3m that deals 300% Physical Damage.
+118	3017	2	36	81102			After summoning a QTE, unleash a shockwave within 3m that deals 450% Physical Damage.
+119	3017	3	54	81103			After summoning a QTE, unleash a shockwave within 3m that deals 600% Physical Damage.
+120	3018	1	18	81104			Each attack has a 30% chance to increase its damage by 30%.
+121	3018	2	36	81105			Each attack has a 40% chance to increase its damage by 40%.
+122	3018	3	54	81106			Each attack has a 50% chance to increase its damage by 60%.
+123	3019	1	18	81123			When dealing Dark DMG, there is a 30% chance to deal Extra Damage equal to 60% of the Dark DMG dealt
+124	3019	2	36	81124			When dealing Dark DMG, there is a 40% chance to deal Extra Damage equal to 70% of the Dark DMG dealt
+125	3019	3	54	81125			When dealing Dark DMG, there is a 50% chance to deal Extra Damage equal to 80% of the Dark DMG dealt
+126	3020	1	18	81126			Attacks have a 30% chance to freeze the enemy target for 3s, then deal 80% Ice DMG within a 3m radius from the target
+127	3020	2	36	81127			Attacks have a 40% chance to freeze the enemy target for 3s, then deal 100% Ice DMG within a 3m radius from the target
+128	3020	3	54	81128			Attacks have a 50% chance to freeze the enemy target for 3s, then deal 120% Ice DMG within a 3m radius from the target
+129	3021	1	18	81135			Increases all damage by 10% for 5s after switching to another member
+130	3021	2	36	81136			Increases all damage by 20% for 5s after switching to another member
+131	3021	3	54	81137			Increases all damage by 30% for 5s after switching to another member
+132	3022	1	18	81141			Deals 300% damage to enemies within 3m after switching to another member
+133	3022	2	36	81142			Deals 500% damage to enemies within 3m after switching to another member
+134	3022	3	54	81143			Deals 700% damage to enemies within 3m after switching to another member
+135	3023	1	18	81144			Reduces the Elemental Resistance of enemies within 4m by 20% for 8s after switching to another member
+136	3023	2	36	81145			Reduces the Elemental Resistance of enemies within 4m by 25% for 8s after switching to another member
+137	3023	3	54	81146			Reduces the Elemental Resistance of enemies within 4m by 30% for 8s after switching to another member
+138	3024	1	18	81011			Gains 100 energy at the start of battle.
+139	3025	1	18	81069			Gain 3 extra Signal Orbs of the same color upon entering battle.

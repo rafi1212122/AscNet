@@ -1,0 +1,221 @@
+Role	Layer	State	Target	TransitionDuration
+Mb1MotorMd000001	0		Born	0
+Mb1MotorMd000001	0		Stand1	0.1
+Mb1MotorMd000001	0		Stand2	0.1
+Mb1MotorMd000001	0		Stand3	0.1
+Mb1MotorMd000001	0		Death	0.1
+Mb1MotorMd000001	0		Standchange	0.1
+Mb1MotorMd000001	0		Run	0.1
+Mb1MotorMd000001	0		Walk	0.1
+Mb1MotorMd000001	0		Runb	0.2
+Mb1MotorMd000001	0		Runl	0.2
+Mb1MotorMd000001	0		Runr	0.2
+Mb1MotorMd000001	0		Walkb	0.1
+Mb1MotorMd000001	0		Walkl	0.1
+Mb1MotorMd000001	0		Walkr	0.1
+Mb1MotorMd000001	0		TurnLeft	0.1
+Mb1MotorMd000001	0		TurnRight	0.1
+Mb1MotorMd000001	0		Move1	0.1
+Mb1MotorMd000001	0		Move2	0.1
+Mb1MotorMd000001	0		Move3	0.1
+Mb1MotorMd000001	0		RunStart	0.1
+Mb1MotorMd000001	0		RunStartEnd01	0.1
+Mb1MotorMd000001	0		Hit1	0.05
+Mb1MotorMd000001	0		Hit2	0.05
+Mb1MotorMd000001	0		Hit3	0.05
+Mb1MotorMd000001	0		Hit4	0.05
+Mb1MotorMd000001	0		Behitfly	0.05
+Mb1MotorMd000001	0		Hoverhit	0.05
+Mb1MotorMd000001	0		Falldown	0.1
+Mb1MotorMd000001	0		Hitdown	0.05
+Mb1MotorMd000001	0		Lieonfloor	0.1
+Mb1MotorMd000001	0		Standup	0.1
+Mb1MotorMd000001	0		Straight	0.1
+Mb1MotorMd000001	0		Stun	0.1
+Mb1MotorMd000001	0		StraightBefore	0.1
+Mb1MotorMd000001	0		StraightAfter	0.1
+Mb1MotorMd000001	0		Win	0
+Mb1MotorMd000001	0		Win2	0.1
+Mb1MotorMd000001	0		Stop	0.1
+Mb1MotorMd000001	0		Fail	0.1
+Mb1MotorMd000001	0		Save	0.1
+Mb1MotorMd000001	0	Stand1	Run	0.2
+Mb1MotorMd000001	0	Stand1	Walk	0.1
+Mb1MotorMd000001	0	Stand2	Standchange	0.1
+Mb1MotorMd000001	0	Stand2	Run	0.2
+Mb1MotorMd000001	0	Stand2	Walk	0.3
+Mb1MotorMd000001	0	Stand2	Walkb	0.3
+Mb1MotorMd000001	0	Stand2	Walkl	0.3
+Mb1MotorMd000001	0	Stand2	Walkr	0.3
+Mb1MotorMd000001	0	Stand1	Runl	0.6
+Mb1MotorMd000001	0	Stand1	Runr	0.6
+Mb1MotorMd000001	0	Stand2	Runl	0.35
+Mb1MotorMd000001	0	Stand2	Runr	0.35
+Mb1MotorMd000001	0	Standchange	Stand1	0.1
+Mb1MotorMd000001	0	Standchange	Run	0.1
+Mb1MotorMd000001	0	Standchange	Walk	0.1
+Mb1MotorMd000001	0	Run	Stop	0.2
+Mb1MotorMd000001	0	Run	Stand2	0.35
+Mb1MotorMd000001	0	Run	Runb	0.35
+Mb1MotorMd000001	0	Run	Runl	0.35
+Mb1MotorMd000001	0	Run	Runr	0.35
+Mb1MotorMd000001	0	Walk	Stand2	0.1
+Mb1MotorMd000001	0	Runb	Stand2	0.2
+Mb1MotorMd000001	0	Runb	Run	0.2
+Mb1MotorMd000001	0	Runb	Runl	0.2
+Mb1MotorMd000001	0	Runb	Runr	0.2
+Mb1MotorMd000001	0	Runl	Stand1	0.4
+Mb1MotorMd000001	0	Runl	Run	0.4
+Mb1MotorMd000001	0	Runl	Runb	0.4
+Mb1MotorMd000001	0	Runl	Runr	0.6
+Mb1MotorMd000001	0	Runr	Stand1	0.3
+Mb1MotorMd000001	0	Runr	Run	0.4
+Mb1MotorMd000001	0	Runr	Runb	0.4
+Mb1MotorMd000001	0	Runr	Runl	0.6
+Mb1MotorMd000001	0	Walkb	Stand2	0.1
+Mb1MotorMd000001	0	Walkb	Walk	0.2
+Mb1MotorMd000001	0	Walkb	Walkl	0.1
+Mb1MotorMd000001	0	Walkb	Walkr	0.1
+Mb1MotorMd000001	0	Walkl	Stand2	0.1
+Mb1MotorMd000001	0	Walkl	Walk	0.1
+Mb1MotorMd000001	0	Walkl	Walkb	0.1
+Mb1MotorMd000001	0	Walkl	Walkr	0.2
+Mb1MotorMd000001	0	Walkr	Stand2	0.1
+Mb1MotorMd000001	0	Walkr	Walk	0.1
+Mb1MotorMd000001	0	Walkr	Walkb	0.1
+Mb1MotorMd000001	0	Walkr	Walkl	0.2
+Mb1MotorMd000001	0	TurnLeft	Stand2	0.1
+Mb1MotorMd000001	0	TurnRight	Stand2	0.1
+Mb1MotorMd000001	0	RunStart	Run	0
+Mb1MotorMd000001	0	RunStart	RunStartEnd01	0.1
+Mb1MotorMd000001	0	Hit1	Stand2	0
+Mb1MotorMd000001	0	Hit2	Stand2	0
+Mb1MotorMd000001	0	Hit3	Stand2	0
+Mb1MotorMd000001	0	Hit4	Stand2	0
+Mb1MotorMd000001	0	Behitfly	Hoverhit	0.1
+Mb1MotorMd000001	0	Behitfly	Falldown	0.1
+Mb1MotorMd000001	0	Hoverhit	Falldown	0.1
+Mb1MotorMd000001	0	Falldown	Lieonfloor	0.1
+Mb1MotorMd000001	0	Hitdown	Lieonfloor	0.1
+Mb1MotorMd000001	0	Standup	Stand2	0.1
+Mb1MotorMd000001	0	Straight	Stand2	0.1
+Mb1MotorMd000001	0	Stun	Stand2	0.1
+Mb1MotorMd000001	0	Win	Win2	0.1
+Mb1MotorMd000001	0	Stop	Stand2	0.1
+Mb1MotorMd000001	0	Hit1	runl	0.4
+Mb1MotorMd000001	0	Hit2	runl	0.4
+Mb1MotorMd000001	0	Hit1	runr	0.4
+Mb1MotorMd000001	0	Hit2	runr	0.4
+Mb1MotorMd000001	0	Move1	runl	0.35
+Mb1MotorMd000001	0	Move1	runr	0.35
+Mb1MotorMd000001	1	Move1	runl	0.35
+Mb1MotorMd000001	1	Move1	runr	0.35
+Mb1MotorMd000001	1		Born	0
+Mb1MotorMd000001	1		Stand1	0.1
+Mb1MotorMd000001	1		Stand2	0.1
+Mb1MotorMd000001	1		Stand3	0.1
+Mb1MotorMd000001	1		Death	0.1
+Mb1MotorMd000001	1		Standchange	0.1
+Mb1MotorMd000001	1		Run	0.1
+Mb1MotorMd000001	1		Walk	0.1
+Mb1MotorMd000001	1		Runb	0.2
+Mb1MotorMd000001	1		Runl	0.2
+Mb1MotorMd000001	1		Runr	0.2
+Mb1MotorMd000001	1		Walkb	0.1
+Mb1MotorMd000001	1		Walkl	0.1
+Mb1MotorMd000001	1		Walkr	0.1
+Mb1MotorMd000001	1		TurnLeft	0.1
+Mb1MotorMd000001	1		TurnRight	0.1
+Mb1MotorMd000001	1		Move1	0.1
+Mb1MotorMd000001	1		Move2	0.1
+Mb1MotorMd000001	1		Move3	0.1
+Mb1MotorMd000001	1		RunStart	0.1
+Mb1MotorMd000001	1		RunStartEnd01	0.1
+Mb1MotorMd000001	1		Hit1	0.05
+Mb1MotorMd000001	1		Hit2	0.05
+Mb1MotorMd000001	1		Hit3	0.05
+Mb1MotorMd000001	1		Hit4	0.05
+Mb1MotorMd000001	1		Behitfly	0.05
+Mb1MotorMd000001	1		Hoverhit	0.05
+Mb1MotorMd000001	1		Falldown	0.1
+Mb1MotorMd000001	1		Hitdown	0.05
+Mb1MotorMd000001	1		Lieonfloor	0.1
+Mb1MotorMd000001	1		Standup	0.1
+Mb1MotorMd000001	1		Straight	0.1
+Mb1MotorMd000001	1		Stun	0.1
+Mb1MotorMd000001	1		StraightBefore	0.1
+Mb1MotorMd000001	1		StraightAfter	0.1
+Mb1MotorMd000001	1		Win	0
+Mb1MotorMd000001	1		Win2	0.1
+Mb1MotorMd000001	1		Stop	0.1
+Mb1MotorMd000001	1		Fail	0.1
+Mb1MotorMd000001	1		Save	0.1
+Mb1MotorMd000001	1		Attack01	0.1
+Mb1MotorMd000001	1		Attack02	0.1
+Mb1MotorMd000001	1		Attack03	0.1
+Mb1MotorMd000001	1	Stand1	Run	0.2
+Mb1MotorMd000001	1	Stand1	Walk	0.1
+Mb1MotorMd000001	1	Stand2	Standchange	0.1
+Mb1MotorMd000001	1	Stand2	Run	0.2
+Mb1MotorMd000001	1	Stand2	Walk	0.3
+Mb1MotorMd000001	1	Stand2	Walkb	0.3
+Mb1MotorMd000001	1	Stand2	Walkl	0.3
+Mb1MotorMd000001	1	Stand2	Walkr	0.3
+Mb1MotorMd000001	1	Standchange	Stand1	0.1
+Mb1MotorMd000001	1	Standchange	Run	0.1
+Mb1MotorMd000001	1	Standchange	Walk	0.1
+Mb1MotorMd000001	1	Run	Stop	0.2
+Mb1MotorMd000001	1	Run	Stand2	0.2
+Mb1MotorMd000001	1	Run	Runb	0.2
+Mb1MotorMd000001	1	Run	Runl	0.35
+Mb1MotorMd000001	1	Run	Runr	0.35
+Mb1MotorMd000001	1	Walk	Stand2	0.1
+Mb1MotorMd000001	1	Runb	Stand2	0.2
+Mb1MotorMd000001	1	Runb	Run	0.2
+Mb1MotorMd000001	1	Runb	Runl	0.35
+Mb1MotorMd000001	1	Runb	Runr	0.35
+Mb1MotorMd000001	1	Runl	Stand2	0.35
+Mb1MotorMd000001	1	Runl	Run	0.4
+Mb1MotorMd000001	1	Runl	Runb	0.4
+Mb1MotorMd000001	1	Runl	Runr	0.6
+Mb1MotorMd000001	1	Runr	Stand2	0.35
+Mb1MotorMd000001	1	Runr	Run	0.4
+Mb1MotorMd000001	1	Runr	Runb	0.4
+Mb1MotorMd000001	1	Runr	Runl	0.6
+Mb1MotorMd000001	1	Walkb	Stand2	0.1
+Mb1MotorMd000001	1	Walkb	Walk	0.2
+Mb1MotorMd000001	1	Walkb	Walkl	0.1
+Mb1MotorMd000001	1	Walkb	Walkr	0.1
+Mb1MotorMd000001	1	Walkl	Stand2	0.1
+Mb1MotorMd000001	1	Walkl	Walk	0.1
+Mb1MotorMd000001	1	Walkl	Walkb	0.1
+Mb1MotorMd000001	1	Walkl	Walkr	0.2
+Mb1MotorMd000001	1	Walkr	Stand2	0.1
+Mb1MotorMd000001	1	Walkr	Walk	0.1
+Mb1MotorMd000001	1	Walkr	Walkb	0.1
+Mb1MotorMd000001	1	Walkr	Walkl	0.2
+Mb1MotorMd000001	1	TurnLeft	Stand2	0.1
+Mb1MotorMd000001	1	TurnRight	Stand2	0.1
+Mb1MotorMd000001	1	RunStart	Run	0
+Mb1MotorMd000001	1	RunStart	RunStartEnd01	0.1
+Mb1MotorMd000001	1	Hit1	Stand2	0
+Mb1MotorMd000001	1	Hit2	Stand2	0
+Mb1MotorMd000001	1	Hit1	runl	0.6
+Mb1MotorMd000001	1	Hit2	runl	0.6
+Mb1MotorMd000001	1	Hit1	runr	0.6
+Mb1MotorMd000001	1	Hit2	runr	0.6
+Mb1MotorMd000001	1	Hit3	Stand2	0
+Mb1MotorMd000001	1	Hit4	Stand2	0
+Mb1MotorMd000001	1	Behitfly	Hoverhit	0.1
+Mb1MotorMd000001	1	Behitfly	Falldown	0.1
+Mb1MotorMd000001	1	Hoverhit	Falldown	0.1
+Mb1MotorMd000001	1	Falldown	Lieonfloor	0.1
+Mb1MotorMd000001	1	Hitdown	Lieonfloor	0.1
+Mb1MotorMd000001	1	Standup	Stand2	0.1
+Mb1MotorMd000001	1	Straight	Stand2	0.1
+Mb1MotorMd000001	1	Stun	Stand2	0.1
+Mb1MotorMd000001	1	Win	Win2	0.1
+Mb1MotorMd000001	1	Stop	Stand2	0.1
+Mb1MotorMd000001	1	attack01	anystate	0.2
+Mb1MotorMd000001	1	attack02	anystate	0.2
+Mb1MotorMd000001	1	attack03	anystate	0.2

@@ -1,0 +1,811 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic
+99510101	震击	2	6				0			4			0.5						-1		FxDibingShouji						-1			1					0	0	0										0	0		1	99510103			0	1														0	HitCase	1	0		1				1													
+99510103	伤害	2	6				0			4			0.1						-1		FxDibingShouji						-1			1					0	0	0										2							0	2				995101031	811008									0	HitCase		0		1				1													
+99510201	慢速电球	2	0.5				5			4			30						-1	1	FxDibingShouji		1	BulletCase	FxMe1BioMd004050Attack01		-1			1					0	0	0										0							0	1				995102011	811004									0	HitCase		0		0				1													
+99510301	快速电球	2	0.1				9			4			30						-1	1	FxDibingShouji		1	BulletCase	FxMe1BioMd004050Attack01		-1			1	-60	0			0	0	0										0							0	1				995103011	811004									0	HitCase		0		0				1													
+99510401	多重电阵视觉效果-1	2	0.9				0			4			1						-1						FxMe1BioMd004050Attack01		-1			1					0	0	0										1	0.5		1	99510404			0	1														0	HitCase		0		1				0													
+99510402	多重电阵视觉效果-2	2	0.9				0			4			1						-1						FxMe1BioMd004050Attack01		-1			1					0	0	0										1	0.5		1	99510404			0	1														0	HitCase		0		1				0													
+99510403	多重电阵视觉效果-3	2	0.9				0			4			1						-1						FxMe1BioMd004050Attack01		-1			1					0	0	0										1	0.5		1	99510404			0	1														0	HitCase		0		1				0													
+99510404	伤害	2	2				0			4			1						-1		FxDibingShouji						-1			1					0	0	0										2							0	2				995104041	811010									0	HitCase		0		1				1													
+99510501	电阵视觉效果	2	0.1				0			4			1						-1						FxMe1BioMd004050Attack01		-1			1					0	0	0										1	0.5		1	99510502			0	1														0	HitCase		0		1				0													
+99510502	伤害	2	2				0			4			1						-1		FxDibingShouji						-1			1					0	0	0										2							0	2				995105021	811010									0	HitCase		0		1				1													
+99510602	迸发攻击	2	3				0			4			1						-1						FxMe1BioMd004050Attack01		-1			1					0	0	0										1	0.5		1	99510604			0	1														0	HitCase		0		1				0													
+99510604	伤害	2	3				0			4			1						-1		FxDibingShouji						-1			1					0	0	0										2							0	2				995106041	811004									0	HitCase		0		1				1													
+90370101	远程普攻	2	1				40			4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1				903701011	801045	995206								1			0		0				1													
+90370106	屏幕外预警	2	0.1			0	0			4			0.9						-1					HitCase	FxYujingXian02		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+90370201	蓄力一击	2	1				50			4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		-1			1					0	0	0										0							0	1				903702011	801032	995207								1			0		0				1													
+90370206	屏幕外预警	2	0.1			0	0			4			1.8						-1					HitCase	FxYujingXian02		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+90370301	会心一击-攻击	2	2				15			4			3		1				-1						FxMe1BioMd004050Jian02		-1			3	-55	0	15	1	0	0	0										0	9999		1	90370309	1		1	1														1	HitCase		0		0			1	0													
+90370302	伤害-受击	2	2				0			4			0.1		1				-1		FxMe1BioMd004050Shouji						-1			1					0	0	0										2							3	2				903703021	801055	995208								0			0		0				1													
+90370305	会心一击-释放特效	2	3				0			4			1.4						-1						FxMe1BioMd004050Attack03		-1			1					0	0	0										0							0	1														0	HitCase	1	0		1				0													
+90370306	预警特效	2	2				0			4			1.1						-1						FxYujing1M10S		-1			1					0	0	0										1							0	1														0	HitCase	1	0		0				0													
+90370309	爆炸特效	2	2				0			4			1						-1						FxMe1BioMd004050Attack03Zha		-1			1					0	0	0										2	0.1		1	90370302			3	1														0	HitCase		0		0				0													
+90370401	挥击	3	3	80		0	0			4			0.1						-1		FxMe1BioMd004050Shouji						-1			1					0	0	0										0							0	1				903704011	801030	995209								1		1	0		1				1													
+90370501	灵活反击	2	1				40			4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		-1			1					0	0	0										0							0	1				903705011	801030	995210								1			0		0				1													
+90370601	远程普攻	2	1				40			4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1				903706011	301371	995206								1			0		0				1													
+90370606	屏幕外预警	2	0.1			0	0			4			0.9						-1					HitCase	FxYujingXian02		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+90370701	蓄力一击	2	1				50			4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		-1			1					0	0	0										0							0	1				903707011	301372	995207								1			0		0				1													
+90370706	屏幕外预警	2	0.1			0	0			4			1.8						-1					HitCase	FxYujingXian02		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+90370801	挥击	3	3	80		0	0			4			0.1						-1		FxMe1BioMd004050Shouji						-1			1					0	0	0										0							0	1				903708011	301373	995209								1		1	0		1				1													
+90370901	蓄力一击	1	3	25		12	0			4			0.2						1	0	FxScene01905Paotai_shouji		0				1			1					0	0	0										0							0	3				903709011	801040	995207				750790				1			0		0				1													
+90370902	预警1	2	0.1		0	0	0			4			0.45						-1						FxYujingXian02		-1			1					0	0	0										0							0	1														1	HitCase		1		1				0													
+90370903	预警2	2	0.1		0	0	0			4			0.5						-1						FxYujingXian01		-1			1					0	0	0										0							0	1														1	HitCase		1		1				0													
+90370906	过载-灼烧地面	1	3	25	0	12	0			4			5						-1	1			0.3				-1			1					0	0	0										0							0	1		0	0		750794									0	HitCase		0		0				0													
+90375101	位移闪避-玩家操作	2	1				40		0	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		-1			1					0	0	0										0							0	1		0.2	0.1	903751011	801030	995210								0	HitCase		0		0				1													
+90375201	位移闪避-玩家操作	1	2	1			40		0	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		-1			1					0	0	0										0							0	1		0.2	0.1	903752011	801030	995210								0	HitCase		0		0				1													
+90375501	普通攻击-玩家操作	1	2	1			50			4			5						1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		1			1	20	80	0.4	1.5	0	0	0										0							0	1		0.2	0.1	903755011	801010	995207								0	HitCase		0		0				1													903755012
+90375601	普通攻击-玩家操作	1	2	1			50			4			5						1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		1			1	20	80	0.4	1.5	0	0	0										0							0	1		0.2	0.1	903756011	801010	995207								0	HitCase		0		0				1													903756012
+90375602	普通攻击-玩家操作	1	2	1			50			4			5						1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		1			1	20	80	0.4	1.5	0	0	0										0							0	1		0.2	0.1	903756021	801010	995207								0	HitCase		0		0				1													903756022
+90375701	位移闪避-玩家操作	1	2	1			40		0	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		-1			1					0	0	0										0							0	1		0.2	0.1	903757011	801015	995210								0	HitCase		0		0				1													903757012
+90375702	位移闪避-玩家操作	1	2	1			40		0	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		-1			1					0	0	0										0							0	1		0.2	0.1	903757021	801015	995210								0	HitCase		0		0				1													903757022
+90375703	位移闪避-玩家操作	1	2	1			40		0	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		-1			1					0	0	0										0							0	1		0.2	0.1	903757031	801015	995210								0	HitCase		0		0				1													903757032
+90376101	挥舞弓-玩家操作	1	2	3		1.5	0			4			0.1						-1		FxMe1BioMd004050Shouji						-1			1					0	0	0										0							0	1				903761011	801090	995209								0	HitCase	1	0		1				1													903761012
+90376105	位移闪避-玩家操作	2	1				40		0	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		-1			1					0	0	0										0							0	1		0.2	0.1	903761051	801030	995210								0	HitCase		0		0				1													903761052
+90376106	位移闪避-玩家操作	2	1				40		30	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		-1			1					0	0	0										0							0	1		0.2	0.1	903761061	801030	995210								0	HitCase		0		0				1													903761062
+90376107	位移闪避-玩家操作	2	1				40		-30	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian02		-1			1					0	0	0										0							0	1		0.2	0.1	903761071	801030	995210								0	HitCase		0		0				1													903761072
+90376201	远程三连发-玩家操作	2	1				40		0	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1		0.2	0.1	903762011	801310	995206								0	HitCase		0		0				1													903762012
+90376202	远程三连发-玩家操作	2	1				40		30	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1		0.2	0.1	903762021	801310	995206								0	HitCase		0		0				1													903762022
+90376203	远程三连发-玩家操作	2	1				40		-30	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1		0.2	0.1	903762031	801310	995206								0	HitCase		0		0				1													903762032
+90376204	远程三连发-玩家操作	2	1				40		0	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1		0.2	0.1	903762041	801310	995206								0	HitCase		0		0				1													903762042
+90376205	远程三连发-玩家操作	2	1				40		30	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1		0.2	0.1	903762051	801310	995206								0	HitCase		0		0				1													903762052
+90376206	远程三连发-玩家操作	2	1				40		-30	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1		0.2	0.1	903762061	801310	995206								0	HitCase		0		0				1													903762062
+90376207	远程三连发-玩家操作	2	1				40		0	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1		0.2	0.1	903762071	801310	995206								0	HitCase		0		0				1													903762072
+90376208	远程三连发-玩家操作	2	1				40		30	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1		0.2	0.1	903762081	801310	995206								0	HitCase		0		0				1													903762082
+90376209	远程三连发-玩家操作	2	1				40		-30	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1		0.2	0.1	903762091	801310	995206								0	HitCase		0		0				1													903762092
+90376210	远程三连发-玩家操作	2	1				40		60	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1		0.2	0.1	903762101	801310	995206								0	HitCase		0		0				1													903762102
+90376211	远程三连发-玩家操作	2	1				40		-60	4			5						-1	1	FxMe1BioMd004050Shouji		1	Bip001Prop1	FxMe1BioMd004050Jian01		-1			1					0	0	0										0							0	1		0.2	0.1	903762111	801310	995206								0	HitCase		0		0				1													903762112
+90376301	会心一击-攻击-玩家操作	2	2				18		0	4			3		1				-1						FxMe1BioMd004050Jian02		-1		FxMe1BioMd004050Attack03Zha	3	-55	0	15	1	0	0	0										0	3		1	90376302	1		0	1														1	HitCase		0		0			1	0													
+90376302	伤害-受击	2	2				0			4			0.1		1				-1		FxMe1BioMd004050Shouji						-1			1					0	0	0										2							3	2		0.2	0.1	903763021	801080	995208								0	HitCase		0		0				1													903763022
+90376303	会心一击-攻击-玩家操作	2	2				18		30	4			3		1				-1						FxMe1BioMd004050Jian02		-1		FxMe1BioMd004050Attack03Zha	3	-55	0	15	1	0	0	0										0	3		1	90376304	1		0	1														1	HitCase		0		0			1	0													
+90376304	伤害-受击	2	2				0			4			0.1		1				-1		FxMe1BioMd004050Shouji						-1			1					0	0	0										2							3	2		0.2	0.1	903763041	801080	995208								0	HitCase		0		0				1													903763042
+90376305	会心一击-攻击-玩家操作	2	2				18		-30	4			3		1				-1						FxMe1BioMd004050Jian02		-1		FxMe1BioMd004050Attack03Zha	3	-55	0	15	1	0	0	0										0	3		1	90376306	1		0	1														1	HitCase		0		0			1	0													
+90376306	伤害-受击	2	2				0			4			0.1		1				-1		FxMe1BioMd004050Shouji						-1			1					0	0	0										2							3	2		0.2	0.1	903763061	801080	995208								0	HitCase		0		0				1													903763062
+90376309	会心一击-释放特效	2	3				0			4			1.4						-1						FxMe1BioMd004050Attack03		-1			1					0	0	0										0							0	1														0	HitCase	1	0		1				0													
+90440201	机枪-扇形扫射伤害子弹子弹	2	0.1				85		80	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402011	801045	904401								1.3			0		1				1													
+90440202	机枪-扇形扫射伤害子弹子弹	2	0.1				85		70	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402021	801045	904401								1.3			0		1				1													
+90440203	机枪-扇形扫射伤害子弹子弹	2	0.1				85		60	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402031	801045	904401								1.3			0		1				1													
+90440204	机枪-扇形扫射伤害子弹子弹	2	0.1				85		50	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402041	801045	904401								1.3			0		1				1													
+90440205	机枪-扇形扫射伤害子弹子弹	2	0.1				85		40	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402051	801045	904401								1.3			0		1				1													
+90440206	机枪-扇形扫射伤害子弹子弹	2	0.1				85		30	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402061	801045	904401								1.3			0		1				1													
+90440207	机枪-扇形扫射伤害子弹子弹	2	0.1				85		20	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402071	801045	904401								1.3			0		1				1													
+90440208	机枪-扇形扫射伤害子弹子弹	2	0.1				85		10	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402081	801045	904401								1.3			0		1				1													
+90440209	机枪-扇形扫射伤害子弹子弹	2	0.1				85		0	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402091	801045	904401								1.3			0		1				1													
+90440210	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-10	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402101	801045	904401								1.3			0		1				1													
+90440211	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-20	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402111	801045	904401								1.3			0		1				1													
+90440212	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-30	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402121	801045	904401								1.3			0		1				1													
+90440213	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-40	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402131	801045	904401								1.3			0		1				1													
+90440214	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-50	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402141	801045	904401								1.3			0		1				1													
+90440215	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-60	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402151	801045	904401								1.3			0		1				1													
+90440216	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-70	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402161	801045	904401								1.3			0		1				1													
+90440217	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-80	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904402171	801045	904401								1.3			0		1				1													
+90440301	机枪-左扫射伤害子弹	2	0.1				85		0	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403011	801045	904401								1.3			0		1				1													
+90440302	机枪-左扫射伤害子弹	2	0.1				85		-8	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403021	801045	904401								1.3			0		1				1													
+90440303	机枪-左扫射伤害子弹	2	0.1				85		-16	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403031	801045	904401								1.3			0		1				1													
+90440304	机枪-左扫射伤害子弹	2	0.1				85		-24	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403041	801045	904401								1.3			0		1				1													
+90440305	机枪-左扫射伤害子弹	2	0.1				85		-32	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403051	801045	904401								1.3			0		1				1													
+90440306	机枪-左扫射伤害子弹	2	0.1				85		-40	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403061	801045	904401								1.3			0		1				1													
+90440307	机枪-左扫射伤害子弹	2	0.1				85		-48	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403071	801045	904401								1.3			0		1				1													
+90440308	机枪-左扫射伤害子弹	2	0.1				85		-56	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403081	801045	904401								1.3			0		1				1													
+90440309	机枪-左扫射伤害子弹	2	0.1				85		-64	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403091	801045	904401								1.3			0		1				1													
+90440310	机枪-左扫射伤害子弹	2	0.1				85		-72	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403101	801045	904401								1.3			0		1				1													
+90440311	机枪-左扫射伤害子弹	2	0.1				85		-80	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403111	801045	904401								1.3			0		1				1													
+90440312	机枪-左扫射伤害子弹	2	0.1				85		-88	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403121	801045	904401								1.3			0		1				1													
+90440313	机枪-左扫射伤害子弹	2	0.1				85		-96	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403131	801045	904401								1.3			0		1				1													
+90440314	机枪-左扫射伤害子弹	2	0.1				85		-104	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403141	801045	904401								1.3			0		1				1													
+90440315	机枪-左扫射伤害子弹	2	0.1				85		-112	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403151	801045	904401								1.3			0		1				1													
+90440316	机枪-左扫射伤害子弹	2	0.1				85		-120	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403161	801045	904401								1.3			0		1				1													
+90440317	机枪-左扫射伤害子弹	2	0.1				85		-128	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904403171	801045	904401								1.3			0		1				1													
+90440401	机枪-右扫射伤害子弹	2	0.1				85		0	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404011	801045	904401								1.3			0		1				1													
+90440402	机枪-右扫射伤害子弹	2	0.1				85		8	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404021	801045	904401								1.3			0		1				1													
+90440403	机枪-右扫射伤害子弹	2	0.1				85		16	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404031	801045	904401								1.3			0		1				1													
+90440404	机枪-右扫射伤害子弹	2	0.1				85		24	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404041	801045	904401								1.3			0		1				1													
+90440405	机枪-右扫射伤害子弹	2	0.1				85		32	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404051	801045	904401								1.3			0		1				1													
+90440406	机枪-右扫射伤害子弹	2	0.1				85		40	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404061	801045	904401								1.3			0		1				1													
+90440407	机枪-右扫射伤害子弹	2	0.1				85		48	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404071	801045	904401								1.3			0		1				1													
+90440408	机枪-右扫射伤害子弹	2	0.1				85		56	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404081	801045	904401								1.3			0		1				1													
+90440409	机枪-右扫射伤害子弹	2	0.1				85		64	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404091	801045	904401								1.3			0		1				1													
+90440410	机枪-右扫射伤害子弹	2	0.1				85		72	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404101	801045	904401								1.3			0		1				1													
+90440411	机枪-右扫射伤害子弹	2	0.1				85		80	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404111	801045	904401								1.3			0		1				1													
+90440412	机枪-右扫射伤害子弹	2	0.1				85		88	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404121	801045	904401								1.3			0		1				1													
+90440413	机枪-右扫射伤害子弹	2	0.1				85		96	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404131	801045	904401								1.3			0		1				1													
+90440414	机枪-右扫射伤害子弹	2	0.1				85		104	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404141	801045	904401								1.3			0		1				1													
+90440415	机枪-右扫射伤害子弹	2	0.1				85		112	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404151	801045	904401								1.3			0		1				1													
+90440416	机枪-右扫射伤害子弹	2	0.1				85		120	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404161	801045	904401								1.3			0		1				1													
+90440417	机枪-右扫射伤害子弹	2	0.1				85		128	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904404171	801045	904401								1.3			0		1				1													
+90440501	天空投射伤害子弹	2	2				20			4			9999		1				-1					EffectCase1	FxMe1CamouflageMd001002Attack05Dandao		-1			3	-60	0	10	1	0	0	0										0	9999		1	90440522	1		1	1														0			0		0		9999	1	0													
+90440502	天空投射伤害子弹	2	2				20			4			9999		1				-1					EffectCase1	FxMe1CamouflageMd001002Attack05Dandao		-1			3	-60	0	10	1	0	0	0										0	9999		1	90440522	1		1	1														0			0		0		9999	1	0													
+90440503	天空投射伤害子弹	2	2				20			4			9999		1				-1					EffectCase1	FxMe1CamouflageMd001002Attack05Dandao		-1			3	-60	0	10	1	0	0	0										0	9999		1	90440522	1		1	1														0			0		0		9999	1	0													
+90440504	天空投射伤害子弹	2	2				20			4			9999		1				-1					EffectCase1	FxMe1CamouflageMd001002Attack05Dandao		-1			3	-60	0	10	1	0	0	0										0	9999		1	90440522	1		1	1														0			0		0		9999	1	0													
+90440505	天空投射伤害子弹	2	2				20			4			9999		1				-1					EffectCase1	FxMe1CamouflageMd001002Attack05Dandao		-1			3	-60	0	10	1	0	0	0										0	9999		1	90440522	1		1	1														0			0		0		9999	1	0													
+90440506	天空投射伤害子弹	2	2				20			4			9999		1				-1					EffectCase1	FxMe1CamouflageMd001002Attack05Dandao		-1			3	-60	0	10	1	0	0	0										0	9999		1	90440522	1		1	1														0			0		0		9999	1	0													
+90440515	预警特效	2	2				0			4			1						-1						FxYujing1M05S		-1			1					0	0	0										1							0	1														0	HitCase		0		1				0													
+90440516	预警特效	2	2				0			4			1						-1						FxYujing1M05S		-1			1					0	0	0										1							0	1														0	HitCase		0		1				0													
+90440517	预警特效	2	2				0			4			1						-1						FxYujing1M05S		-1			1					0	0	0										1							0	1														0	HitCase		0		1				0													
+90440518	预警特效	2	2				0			4			1						-1						FxYujing1M05S		-1			1					0	0	0										1							0	1														0	HitCase		0		1				0													
+90440519	预警特效	2	2				0			4			1						-1						FxYujing1M05S		-1			1					0	0	0										1							0	1														0	HitCase		0		1				0													
+90440520	预警特效	2	2				0			4			1						-1						FxYujing1M05S		-1			1					0	0	0										1							0	1														0	HitCase		0		1				0													
+90440521	伤害子弹	2	2				0			4			0.1		1				1		FxMe1CamouflageMd001002Attack05Shouji						1			1					0	0	0										2							0	1				904405211	801020	904402								0	HitCase		0		1				1													
+90440522	爆炸子弹	2	2				0			4			1						-1						FxMe1CamouflageMd001002Attack05Zha		-1			1					0	0	0										2	0.1		1	90440521			3	1														0	HitCase		0		1				0													
+90440601	压地冲击	2	4				0			4			0.1						-1		FxMe1CamouflageMd001002Attack06Shouji						-1			1					0	0	0										0							0	2				904406011	801100	904403								0			1		0				1													
+90440701	跳跃打击伤害	1	2	2		1	0			4			1.5		0				-1					HitCase			-1			1					0	0	0										0							0	2				904407011	811004									0	HitCase		1		1				1													
+90440801	光球释放-伤害子弹	2	0.5				20		30	4			1		1				-1					EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			3	-5	0	10	0	0	0	0										0							0	2				904408011	811004									0	HitCase		0		0			1	1													
+90440802	光球释放-伤害子弹	2	0.5				20		0	4			1		1				-1					EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			3	-20	0	10	0	0	0	0										0							0	2				904408021	811008									0	HitCase		0		0			1	1													
+90440803	光球释放-伤害子弹	2	0.5				20		-30	4			1		1				-1					EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			3	-5	0	10	0	0	0	0										0							0	2				904408031	811010									0	HitCase		0		0			1	1													
+90440901	后压-伤害子弹	2	0.1			-1	0			4			1		0				-1		FxDibingShouji			Bone04			-1			1					0	0	0										0							1	2				904409011	811004									0	HitCase		0		1				1													
+90441201	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904412011	801001	904401								1.3			0		0				1													
+90441202	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441203	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					801001	904401								0	HitCase		0		0				1													
+90441204	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441205	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441206	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					801001	904401								0	HitCase		0		0				1													
+90441207	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904412071	801001	904401								1.3			0		0				1													
+90441208	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441209	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					801001	904401								0	HitCase		0		0				1													
+90441210	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441211	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441212	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					801001	904401								0	HitCase		0		0				1													
+90441213	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904412131	801001	904401								1.3			0		0				1													
+90441214	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441215	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					801001	904401								0	HitCase		0		0				1													
+90441216	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441217	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441218	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					801001	904401								0	HitCase		0		0				1													
+90441219	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904412191	801001	904401								1.3			0		0				1													
+90441220	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441221	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					801001	904401								0	HitCase		0		0				1													
+90441222	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441223	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441224	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					801001	904401								0	HitCase		0		0				1													
+90441225	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904412251	801001	904401								1.3			0		0				1													
+90441226	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441227	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					801001	904401								0	HitCase		0		0				1													
+90441228	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441229	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441230	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					801001	904401								0	HitCase		0		0				1													
+90441231	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904412311	801001	904401								1.3			0		0				1													
+90441232	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441233	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					801001	904401								0	HitCase		0		0				1													
+90441234	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441235	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					801001	904401								1.3			0		0				1													
+90441236	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1				904412361	801001	904401								0	HitCase		0		0				1													
+90441301	正面火炮伤害子弹	2	1			0.2	40			4			1		1				-1		FxMe1CamouflageMd001002Attack05Shouji			EffectCase1	FxMe1CamouflageMd001002Attack05Dandao		-1			1					0	0	0										0							0	1				904413011	801042	904404								1.3			0		1				1													
+90441501	机枪-扇形扫射伤害子弹子弹	2	0.1				85		80	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415011	301471	904401								1.3			0		1				1													
+90441502	机枪-扇形扫射伤害子弹子弹	2	0.1				85		70	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415021	301471	904401								1.3			0		1				1													
+90441503	机枪-扇形扫射伤害子弹子弹	2	0.1				85		60	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415031	301471	904401								1.3			0		1				1													
+90441504	机枪-扇形扫射伤害子弹子弹	2	0.1				85		50	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415041	301471	904401								1.3			0		1				1													
+90441505	机枪-扇形扫射伤害子弹子弹	2	0.1				85		40	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415051	301471	904401								1.3			0		1				1													
+90441506	机枪-扇形扫射伤害子弹子弹	2	0.1				85		30	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415061	301471	904401								1.3			0		1				1													
+90441507	机枪-扇形扫射伤害子弹子弹	2	0.1				85		20	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415071	301471	904401								1.3			0		1				1													
+90441508	机枪-扇形扫射伤害子弹子弹	2	0.1				85		10	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415081	301471	904401								1.3			0		1				1													
+90441509	机枪-扇形扫射伤害子弹子弹	2	0.1				85		0	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415091	301471	904401								1.3			0		1				1													
+90441510	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-10	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415101	301471	904401								1.3			0		1				1													
+90441511	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-20	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415111	301471	904401								1.3			0		1				1													
+90441512	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-30	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415121	301471	904401								1.3			0		1				1													
+90441513	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-40	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415131	301471	904401								1.3			0		1				1													
+90441514	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-50	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415141	301471	904401								1.3			0		1				1													
+90441515	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-60	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415151	301471	904401								1.3			0		1				1													
+90441516	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-70	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415161	301471	904401								1.3			0		1				1													
+90441517	机枪-扇形扫射伤害子弹子弹	2	0.1				85		-80	4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904415171	301471	904401								1.3			0		1				1													
+90441601	压地冲击	2	4				0			4			0.1						-1		FxMe1CamouflageMd001002Attack06Shouji						-1			1					0	0	0										0							0	2				904416011	301472	904403								0			1		0				1													
+90441701	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904417011	301473	904401								1.3			0		0				1													
+90441702	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441703	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					301473	904401								0	HitCase		0		0				1													
+90441704	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441705	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441706	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					301473	904401								0	HitCase		0		0				1													
+90441707	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904417071	301473	904401								1.3			0		0				1													
+90441708	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441709	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					301473	904401								0	HitCase		0		0				1													
+90441710	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441711	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441712	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					301473	904401								0	HitCase		0		0				1													
+90441713	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904417131	301473	904401								1.3			0		0				1													
+90441714	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441715	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					301473	904401								0	HitCase		0		0				1													
+90441716	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441717	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441718	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					301473	904401								0	HitCase		0		0				1													
+90441719	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904417191	301473	904401								1.3			0		0				1													
+90441720	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441721	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					301473	904401								0	HitCase		0		0				1													
+90441722	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441723	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441724	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					301473	904401								0	HitCase		0		0				1													
+90441725	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904417251	301473	904401								1.3			0		0				1													
+90441726	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441727	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					301473	904401								0	HitCase		0		0				1													
+90441728	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441729	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441730	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					301473	904401								0	HitCase		0		0				1													
+90441731	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1				904417311	301473	904401								1.3			0		0				1													
+90441732	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441733	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1					301473	904401								0	HitCase		0		0				1													
+90441734	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441735	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1		FxMe1CamouflageMd001002Attack06Shouji			EffectCase1	FxMe1CamouflageMd001002Attack02Dandao		-1			1					0	0	0										0							0	1					301473	904401								1.3			0		0				1													
+90441736	正面机枪扫射伤害子弹	2	0.1				85			4			2						-1					EffectCase1			-1			1					0	0	0										0							0	1				904417361	301473	904401								0	HitCase		0		0				1													
+90441801	正面火炮伤害子弹	2	1			0.2	40			4			1		1				-1		FxMe1CamouflageMd001002Attack05Shouji			EffectCase1	FxMe1CamouflageMd001002Attack05Dandao		-1			1					0	0	0										0							0	1				904418011	801042	904404								1.3			0		1				1													
+90441806	屏幕外预警	2	0.1			0	0			4			1.8						-1					HitCase	FxYujingXian02		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+90330101	利爪爪击-伤害子弹1	1	3	3		1.5	0			4			0.1						-1		FxMe1BioMd004020Attack01Shouji02						-1			1					0	0	0										0							0	1				903301011	801025	903332								0	HitCase	1	1		1				1													
+90330102	利爪爪击-伤害子弹2	1	3	3		1.5	0			4			0.1						-1		FxMe1BioMd004020Attack01Shouji01						-1			1					0	0	0										0							0	1				903301021	801025	903333								0	HitCase	1	1		1				1													
+90330201	利爪扑杀-伤害子弹	1	3	1		2	0			4			0.1						-1		FxMe1BioMd004020Attack02Shouji			HitCase			-1			1					0	0	0										0							0	1				903302011	801040	903335								0	HitCase	1	1		1				1													
+90330202	利爪扑杀-左侧击退	1	1	2	-1	1	0			4			0.1						-1								-1			1					0	0	0										0							0	1				903302021	801020	816003								0	HitCase	1	1		1				1													
+90330203	利爪扑杀-右侧击退	1	1	2	1	1	0			4			0.1						-1								-1			1					0	0	0										0							0	1				903302031	801020	816003								0	HitCase	1	1		1				1													
+90330204	利爪扑杀-预警	1	3	11		2	0			4			1.33						-1								-1			1					0	0	0										0							0	1														0	HitCase	1	1		1				0													
+90330210	屏幕外预警	1	6	15		6.5	0			4			0.7	0.5					-1						FxYujingJu01		-1			1					0	0	0										0							1	1														0	HitCase	1	0		1				0													
+90330301	利爪蓄力横扫-伤害子弹	3	3.7	100			0			4			0.1						-1		FxMe1BioMd004020Attack03Shouji						-1			1					0	0	0										0							0	1				903303011	801050	903334								0	HitCase	1	1		1				1													
+90330501	利爪大扑杀-伤害子弹	1	3	1		2	0			4			0.1						-1		FxMe1BioMd004020Attack05Shouji						-1			1					0	0	0										0							0	1				903305011	801042	903336				903321				0	HitCase	1	1		1				1													
+90330502	利爪大扑杀-左侧击退	1	1	2	-1	0	0			4			0.1						-1		FxMe1BioMd004020Attack05Shouji						-1			1					0	0	0										0							0	1				903305021	801020	816003								0	HitCase	1	1		1				1													
+90330503	利爪大扑杀-右侧击退	1	1	2	1	0	0			4			0.1						-1		FxMe1BioMd004020Attack05Shouji						-1			1					0	0	0										0							0	1				903305031	801020	816003								0	HitCase	1	1		1				1													
+90330504	利爪大扑杀-后侧击退	1	1	2		-1	0			4			0.1						-1		FxMe1BioMd004020Attack05Shouji						-1			1					0	0	0										0							0	1				903305041	801020	816003								0	HitCase	1	1		1				1													
+90330505	利爪大扑杀-预警	1	3	14		7	0			4			1.35						-1								-1			1					0	0	0										0							0	1														0	HitCase	1	0		1				0													
+90330512	屏幕外预警	1	6	15		6.5	0			4			0.8	0.6					-1						FxYujingJu01		-1			1					0	0	0										0							1	1														0	HitCase	1	0		1				0													
+90330601	利爪疯狂-第一段伤害	3	7.1	80		0	0			4			0.1						-1		FxMe1BioMd004020Attack07Shouji						-1			1					0	0	0										0							0	1				903306011	801010	903337								0	HitCase	1	0		1				1													
+90330602	利爪疯狂-第二段伤害	3	7.1	80		0	0			4			0.1						-1		FxMe1BioMd004020Attack07Shouji						-1			1					0	0	0										0							0	1				903306021	801010	903338								0	HitCase	1	0		1				0													
+90330603	利爪疯狂-第三段子弹	3	7.1	80		0	0			4			0.1						-1		FxMe1BioMd004020Attack07Shouji						-1			1					0	0	0										0							0	1				903306031	801010	903339								0	HitCase	1	0		1				0													
+90330604	利爪疯狂-第四段子弹	3	7.1	80		0	0			4			0.1						-1		FxMe1BioMd004020Attack07Shouji						-1			1					0	0	0										0							0	1				903306041	801010	903340								0	HitCase	1	0		1				0													
+90330605	利爪疯狂-第五段子弹	3	7.1	80		0	0			4			0.1						-1		FxMe1BioMd004020Attack07Shouji						-1			1					0	0	0										0							0	1				903306051	801010	903341								0	HitCase	1	0		1				0													
+90330606	利爪疯狂-第六段子弹	3	7.1	80		0	0			4			0.3						-1	1	FxMe1BioMd004020Attack07Shouji		0.1				-1			1					0	0	0										0							0	1				903306061	801010	903342								0	HitCase	1	0		1				0													
+90330608	利爪疯狂-判断区域	1	3	2		2	0			4			1						-1	1			0.04				-1			1					0	0	0										0							0	1					903318									0	HitCase		0		1				0													
+90330803	前跳接技能	2	5				0			4			0.1						-1								-1			1					0	0	0										0							0	1										903323				0	HitCase		0		1				0													
+90330804	前跳接技能	2	5				0			4			0.1						-1								-1			1					0	0	0										0							0	1										903323				0	HitCase		0		1				0													
+90330805	前跳接技能	2	5				0			4			0.1						-1								-1			1					0	0	0										0							0	1										903323				0	HitCase		0		1				0													
+90330806	前跳接技能	2	5				0			4			0.1						-1								-1			1					0	0	0										0							0	1										903323				0	HitCase		0		1				0													
+90330807	前跳接技能	2	5				0			4			0.1						-1								-1			1					0	0	0										0							0	1										903323				0	HitCase		0		1				0													
+90330808	前跳接技能	2	5				0			4			0.1						-1								-1			1					0	0	0										0							0	1										903323				0	HitCase		0		1				0													
+90330809	前跳接技能	2	5				0			4			0.1						-1								-1			1					0	0	0										0							0	1										903323				0	HitCase		0		1				0													
+90331001	利爪扑杀-伤害子弹	1	3	3		2	0			4			0.1						-1		FxMe1BioMd004020Attack02Shouji			HitCase			-1			1					0	0	0										0							0	1														0	HitCase	1	1		1				1													
+90331002	利爪扑杀-左侧击退	1	1	2	-1	1	0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase	1	1		1				1													
+90331003	利爪扑杀-右侧击退	1	1	2	1	1	0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase	1	1		1				1													
+90331004	利爪扑杀-预警	1	3	11		2	0			4			1.33						-1								-1			1					0	0	0										0							0	1														0	HitCase	1	1		1				0													
+90331101	利爪爪击-伤害子弹1	1	3	3		1.5	0			4			0.1						-1		FxMe1BioMd004020Attack01Shouji02						-1			1					0	0	0										0							0	1				903311011	801064	903332								0	HitCase	1	1		1				1													
+90331102	利爪爪击-伤害子弹2	1	3	3		1.5	0			4			0.1						-1		FxMe1BioMd004020Attack01Shouji01						-1			1					0	0	0										0							0	1				903311021	801064	903333								0	HitCase	1	1		1				1													
+90331201	利爪疯狂-第一段伤害	3	7.1	80		0	0			4			0.1						-1		FxMe1BioMd004020Attack07Shouji						-1			1					0	0	0										0							0	1				903312011	301171	903337								0	HitCase	1	0		1				1													
+90331202	利爪疯狂-第二段伤害	3	7.1	80		0	0			4			0.1						-1		FxMe1BioMd004020Attack07Shouji						-1			1					0	0	0										0							0	1				903312021	301171	903338								0	HitCase	1	0		1				0													
+90331203	利爪疯狂-第三段子弹	3	7.1	80		0	0			4			0.1						-1		FxMe1BioMd004020Attack07Shouji						-1			1					0	0	0										0							0	1				903312031	301171	903339								0	HitCase	1	0		1				0													
+90331204	利爪疯狂-第四段子弹	3	7.1	80		0	0			4			0.1						-1		FxMe1BioMd004020Attack07Shouji						-1			1					0	0	0										0							0	1				903312041	301171	903340								0	HitCase	1	0		1				0													
+90331205	利爪疯狂-第五段子弹	3	7.1	80		0	0			4			0.1						-1		FxMe1BioMd004020Attack07Shouji						-1			1					0	0	0										0							0	1				903312051	301171	903341								0	HitCase	1	0		1				0													
+90331206	利爪疯狂-第六段子弹	3	7.1	80		0	0			4			0.3						-1	1	FxMe1BioMd004020Attack07Shouji		0.1				-1			1					0	0	0										0							0	1				903312061	301171	903342								0	HitCase	1	0		1				0													
+90331208	利爪疯狂-判断区域	1	3	2		2	0			4			1						-1	1			0.04				-1			1					0	0	0										0							0	1					903318									0	HitCase		0		1				0													
+90340101	前中挥击-伤害子弹	1	2	4		2.5	0			4			0.2						-1		FxMe1BioMd004010Attack01Shouji						-1			1					0	0	0										0							0	1				903401011	801040	903416								0	HitCase	1	1		1				1													
+90340103	前中挥击-预警	1	2	4		2.5	0			4			0.2						-1								-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+90340201	横扫加回旋-第一横扫	3	4	100			0			4			0.1						-1		FxMe1BioMd004010Attack02Shouji01						-1			1					0	0	0										0							0	1				903402011	801035	903417								0	HitCase	1	1		1				1													
+90340202	横扫加回旋-第二横扫	3	4	100			0			4			0.1						-1		FxMe1BioMd004010Attack02Shouji02						-1			1					0	0	0										0							0	1				903402021	801045	903418								0	HitCase	1	1		1				1													
+90340203	横扫加回旋-回旋二段	3	4	120			0			4			0.2						-1	1	FxMe1BioMd004010Attack02Shouji03		0.1				-1			1					0	0	0										0							0	1				903402031	801035	903419	200003			200003				0	HitCase	1	1		1				1													
+90340307	屏幕外预警	1	7	12		6	0			4			1.15	0.55					-1						FxYujingJu01		-1			1					0	0	0										0							0	1														0	HitCase	1	0		1				0													
+90340401	旋转-伤害子弹	2	3				0			4			0.4						-1	1	FxMe1BioMd004010Attack05Shouji		0.2				-1			1					0	0	0										0							0	1				903404011	801020	903412	903420							0	HitCase		1		1				1													
+90340601	突刺-伤害子弹	1	2	2.5		1.5	0			4			0.33						-1		FxMe1BioMd004010Attack06Shouji						-1			1					0	0	0										0							0	1				903406011	801054	200003	903421			200003				0	HitCase	1	1		1				1													
+90340603	突刺-预警	1	2	14		5	0			4			1.3	0.75					-1						FxYujingJu01		-1			1					0	0	0										0							0	1														0	HitCase	1	0		1				0													
+90340701	空袭-下坠物	2	2				0			4			2						-1						FxMe1BioMd004010Attack07		-1			1					0	0	0										2	0.1		1	90340703			2	1														0.2	HitCase		0		1				0													
+90340703	空袭-爆炸和特效	2	2				0			4			0.1						-1		FxMe1BioMd004010Attack07Shouji						-1			1					0	0	0										2							2	1				903407031	801066	903422								0	HitCase	1	0		1				1													
+90340704	空袭-预警	2	2				150			4		1	2						-1						FxYujing1M10S		-1			7	1				0	0	0										1	1		1	90340701			0	1														0	HitCase	1	0	1	1				0													
+90340801	空袭-下坠物	2	2				0			4			2						-1						FxMe1BioMd004010Attack07		-1			1					0	0	0										1			1	90340803			0	1														0.2	HitCase		0		1				0													
+90340803	空袭-爆炸和特效	2	2				0			4			0.1						-1		FxMe1BioMd004010Attack07Shouji						-1			1					0	0	0										2							2	1				903408031	801066	903422								0	HitCase	1	0		1				0													
+90340804	空袭-预警	2	2				150			4		1	2						-1						FxYujing1M10S		-1			1					0	0	0										1							0	1														0	HitCase	1	0	1	1				0													
+90340901	横扫加回旋-第一横扫	1	5	3		1.5	0			4			0.1						-1		FxMe1BioMd004010Attack02Shouji01						-1			1					0	0	0										0							0	1				903409011	801035	903417								0	HitCase	1	1		1				0													
+90340902	横扫加回旋-第二横扫	1	5	3		1.5	0			4			0.1						-1		FxMe1BioMd004010Attack02Shouji02						-1			1					0	0	0										0							0	1				903409021	801045	903418								0	HitCase	1	1		1				0													
+90340903	横扫加回旋-回旋二段	2	3				0			4			0.2						-1	1	FxMe1BioMd004010Attack02Shouji03		0.1				-1			1					0	0	0										0							0	1				903409031	801035	903419	200003			200003				0	HitCase	1	1		1				0													
+90341001	前中挥击-伤害子弹	1	2	4		2.5	0			4			0.2						-1		FxMe1BioMd004010Attack01Shouji						-1			1					0	0	0										0							0	1				903410011	301391	903416								0	HitCase	1	1		1				1													
+90341003	前中挥击-预警	1	2	4		2.5	0			4			0.2						-1								-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+90341101	横扫加回旋-第一横扫	3	4	100			0			4			0.1						-1		FxMe1BioMd004010Attack02Shouji01						-1			1					0	0	0										0							0	1				903411011	301392	903417								0	HitCase	1	1		1				1													
+90341102	横扫加回旋-第二横扫	3	4	100			0			4			0.1						-1		FxMe1BioMd004010Attack02Shouji02						-1			1					0	0	0										0							0	1				903411021	301392	903418								0	HitCase	1	1		1				1													
+90341103	横扫加回旋-回旋二段	3	4	120			0			4			0.2						-1		FxMe1BioMd004010Attack02Shouji03						-1			1					0	0	0										0							0	1				903411031	301392	903419	200003			200003				0	HitCase	1	1		1				1													
+90345601	旋转-伤害子弹	2	4.5				0			4			0.4						-1	1	FxMe1BioMd004010Attack05Shouji		0.2				-1			1					0	0	0										0							0	1				903456011	801020	903412	903420							0	HitCase		1		1				1													903456012
+90345701	旋转-伤害子弹	2	4.5				0			4			0.4						-1	1	FxMe1BioMd004010Attack05Shouji		0.2				-1			1					0	0	0										0							0	1				903457011	801020	903412	903420							0	HitCase		1		1				1													903457012
+90345801	旋转-伤害子弹	2	4.5				0			4			0.4						-1	1	FxMe1BioMd004010Attack05Shouji		0.2				-1			1					0	0	0										0							0	1				903458011	801020	903412	903420							0	HitCase		1		1				1													903458012
+90345901	旋转-伤害子弹	2	4.5				0			4			0.4						-1	1	FxMe1BioMd004010Attack05Shouji		0.2				-1			1					0	0	0										0							0	1				903459011	801020	903412	903420							0	HitCase		1		1				1													903459012
+90346001	突刺-伤害子弹	1	2	2.5		1.5	0			4			0.33						-1		FxMe1BioMd004010Attack06Shouji						-1			1					0	0	0										0							0	1				903460011	801099	200003	903421			200003				0	HitCase	1	1		1				1													903460012
+90346102	子弹	2	8				0			3			0.1						-1								-1			1					0	0	0										0							0	1					715171	715172	715173	715174						0	HitCase	1	0		1				1													
+90346202	子弹	2	8				0			3			0.1						-1								-1			1					0	0	0										0							0	1					715177									0	HitCase	1	0		1				1													
+90346302	子弹	2	8				0			3			0.1						-1								-1			1					0	0	0										0							0	1					715175	715176								0	HitCase	1	0		1				1													
+90260101	蓄力激光-伤害子弹	1	1	23		11.3	0			4			2.8						-1	1	FxMo1JgrcMd000002Shouji		0.5				-1			1					0	0	0										0							0	1					801020	902656								0	HitCase		1		1				1													
+90260102	蓄力激光-伤害子弹	1	1	23		11.3	0			4			0.1						-1	1	FxMo1JgrcMd000002Shouji						-1			1					0	0	0										0							0	1				902601021	801020	902651								0	HitCase		1		1				0													
+90260106	屏幕外预警	2	0.1		0	0.5	0			4			0.4						-1						FxYujingXian02		-1			1					0	0	0										0							0	1														1.7	HitCase		1		1				0													
+90260201	3束-伤害子弹	1	2	18		10.7	0			4			0.7						-1		FxMo1JgrcMd000002Shouji			EffectCase1			-1			1					0	0	0										0							0	1				902602011	801047	902652								0	HitCase	1	0		1				1													
+90260205	屏幕外预警	2	0.1		0	0.5	0			4			0.4						-1						FxYujingXian02		-1			1					0	0	0										0							0	1														1.7	HitCase		1		1				0													
+90260301	甩尾-伤害子弹	3	4	190			0			4			0.3						-1		FxMo1JgrcMd000002Shouji						-1			1					0	0	0										0							0	1				902603011	801045	902653								0	HitCase		1		1				1													
+90260401	蓄能光球-伤害子弹	2	1				50			4			2						-1		FxMo1JgrcMd000002Shouji			EffectCase1	FxMo1JgrcMd000002Attack04Dandao		-1			1					0	0	0										0							0	1				902604011	801054	902654								0	HitCase		0		1				1													
+90260405	屏幕外预警	2	0.1		0	0.5	0			4			0.4						-1						FxYujingXian02		-1			1					0	0	0										0							0	1														1.7	HitCase		1		1				0													
+90260501	光球投射	2	2				15			4			3		1				-1		FxMo1JgrcMd000002Shouji			EffectCase1	FxMo1JgrcMd000002Attack06Dandao		-1			3	-55	0	15	1	0	0	0										0	3		1	90260502	1		1	1														0	HitCase		0		0			1	0													
+90260502	光球爆炸-伤害子弹	2	2				0			4			0.1						-1		FxMo1JgrcMd000002Shouji				FxMo1JgrcMd000002Attack0601		-1			1					0	0	0										2	0.1		1	90260503	1		3	2				902605021	801040	902655								0	HitCase		0		0				1													
+90260503	光球投射-伤害子弹	2	2				0			4			4						-1	1	FxMo1JgrcMd000002Shouji		0.5		FxMo1JgrcMd000002Attack0602		-1			1					0	0	0										2							3	1					801012									0	HitCase		0		0				0													
+90260506	预警特效	2	2.5				0			4			1						-1						FxYujing1M10S		-1			1					0	0	0										1							0	1														0	HitCase	1	0		0				0													
+90260701	蓄力激光-伤害子弹	1	1	23		11.3	0			4			2.8						-1	1	FxMo1JgrcMd000002Shouji		0.5				-1			1					0	0	0										0							0	1					301152	902656								0	HitCase		1		1				1													
+90260702	蓄力激光-伤害子弹	1	1	23		11.3	0			4			0.1						-1	1	FxMo1JgrcMd000002Shouji						-1			1					0	0	0										0							0	1				902607021	301152	902651								0	HitCase		1		1				0													
+90260706	屏幕外预警	2	0.1		0	0.5	0			4			0.4						-1						FxYujingXian02		-1			1					0	0	0										0							0	1														1.7	HitCase		1		1				0													
+90260801	3束-伤害子弹	1	2	18		10.7	0			4			0.7						-1		FxMo1JgrcMd000002Shouji			EffectCase1			-1			1					0	0	0										0							0	1				902608011	301151	902652								0	HitCase	1	0		1				1													
+90260805	屏幕外预警	2	0.1		0	0.5	0			4			0.4						-1						FxYujingXian02		-1			1					0	0	0										0							0	1														1.7	HitCase		1		1				0													
+90260901	甩尾-伤害子弹	3	4	190			0			4			0.3						-1		FxMo1JgrcMd000002Shouji						-1			1					0	0	0										0							0	1				902609011	301153	902653								0	HitCase		1		1				1													
+81900601	二连斩-第一段-伤害子弹	1	3	4		2	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack01Shouji01						-1			1					0	0	0										0							0	1				819006011	801020	995549				995501				0	HitCase		1		1				1													
+81900701	二连斩-第二段-伤害子弹	1	3	4		2	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack02Shouji01						-1			1					0	0	0										0							0	1				819007011	801020	995550								0	HitCase		1		1				1													
+81900702	二连斩-第二段-伤害子弹	1	3	4		2	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack02Shouji02						-1			1					0	0	0										0							0	1				819007021	801020	995551								0	HitCase		1		1				1													
+81900703	二连斩-第二段-伤害子弹	1	3	4		2	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack02Shouji03						-1			1					0	0	0										0							0	1				819007031	801020	995552								0	HitCase		1		1				1													
+81900801	半月斩-伤害子弹	1	2	3.3		2	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack03Shouji						-1			1					0	0	0										0							0	1				819008011	801050	995536	995537			995536				0	HitCase		1		1				1													
+81900901	快斩-父子弹	1	4.5	4.5		2.5	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack11Shouji						-1			1					0	0	0										0			1	81900902			0	1				819009011	801030	200102	995537			995537				0	HitCase		0		1				1													819009012
+81900902	快斩-伤害子弹	1	4.5	4.5			0			4			0.1						-1		FxMb1LuxiyaMd000003Attack11Shouji					0.3	-1			1					0	0	0										2			1	81900903			2	1				819009021	801050	200102	995553			995537				0	HitCase		0		1				1													819009022
+81900903	快斩-伤害子弹	1	4.5	4.5			0			4			0.1						-1		FxMb1LuxiyaMd000003Attack11Shouji					0.1	-1			1					0	0	0										2							2	1				819009031	801050	200103	995554			995537				0	HitCase		0		1				1													819009032
+81901001	拔刀斩-伤害子弹	1	2	2.5		1.5	0			4			0.3						-1		FxMb1LuxiyaMd000003Attack01Shouji01	FxChangjingBianhei11s					-1			1					0	0	0										0							1	1				819010011	801050	995532				995533				0	HitCase		1		1				1													
+81901012	拔刀斩-12	2	3			-1	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack01Shouji01						-1			1					0	0	0										1							0	2				819010121	801050	995534								0	HitCase		0		1				0													
+81901101	突进旋风斩-父子弹	1	4	7		-7	0			4			2						-1						FxMb1LuxiyaMd000003Attack31		-1			1					0	0	0										0	0.2		1	81901102			1	1														0	HitCase		1		1				1													
+81901102	突进旋风斩-伤害子弹	1	4	7		-7	0			4			0.3						-1	1	FxMb1LuxiyaMd000003Attack11Shouji		0.1				-1			1					0	0	0										2	0.3		1	81901103			2	2				819011021	102230									0	HitCase		0		1				1													
+81901103	突进旋风斩-伤害子弹	1	4	7		-7	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack11Shouji						-1			1					0	0	0										2							2	2				819011031	102230									0	HitCase		0		1				1													
+81901119	隐身特效	2	3	3			0			4			2						-1					Bip001	FxMb1LuxiyaMd000003Shanbi		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+81901201	单剑气-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack41Dandao		-1			1	6				0	0	0										0							0	1				819012011	801050	200002	816003			200002				0	HitCase		0		0				1													
+81901301	剑气爆发-第一段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack41Dandao		-1			1	6				0	0	0										0							0	1				819013011	801030	200003	816003			200003				1.2	HitCase		0		0				1													
+81901401	剑气爆发-第二段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack42Dandao		-1			1	6				0	0	0										0							0	1				819014011	801030	995506	200003	816003		200003				1.2	HitCase		0		0				1													
+81901501	剑气爆发-第三段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack43Dandao		-1			1	6				0	0	0										0							0	1				819015011	801040	200003	816003			200003				1.2	HitCase		0		0				1													
+81901601	剑气爆发-第四段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack44Dandao		-1			1	6				0	0	0										0							0	1				819016011	801040	200005	816003			200005				1.2	HitCase		0		0				1													
+81901701	偏斜斩-伤害子弹	1	2	4		2	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack04Shouji						-1			1					0	0	0										0							0	1				819017011	102203	995535				995535				0	HitCase		1		1				1													
+81901801	空间斩裂-大招-伤害子弹	1	10	20		10	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack51Shouji01						-1			1					0	0	0										0							0	1				819018011	801030									0	HitCase		1		1				1													
+81901802	空间斩裂-大招-伤害子弹	1	10	20		10	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack51Shouji01						-1			1					0	0	0										0							0	1				819018021	801030									0	HitCase		1		1				1													
+81901803	空间斩裂-大招-伤害子弹	1	10	20		10	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack51Shouji01						-1			1					0	0	0										0							0	1				819018031	801030									0	HitCase		1		1				1													
+81901804	空间斩裂-大招-伤害子弹	1	10	20		10	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack51Shouji01						-1			1					0	0	0										0							0	1				819018041	801030									0	HitCase		1		1				1													
+81901805	空间斩裂-大招-伤害子弹	1	10	20		10	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack51Shouji01						-1			1					0	0	0										0							0	1				819018051	801030									0	HitCase		1		1				1													
+81901806	空间斩裂-大招-伤害子弹	1	10	20		10	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack51Shouji01						-1			1					0	0	0										0							0	1				819018061	801030	102253								0	HitCase		1		1				1													
+81901807	空间斩裂-大招-伤害子弹	1	10	20		10	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack51Shouji02						-1			1					0	0	0										0							0	1				819018071	801060									0	HitCase		1		1				1													
+81901901	竖劈-伤害子弹	1	3	4		2.5	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack05Shouji01						-1			1					0	0	0										0							0	1				819019011	801030	995558								0	HitCase		1		1				1													
+81901902	竖劈-伤害子弹	1	3	4		2.5	0			4			0.1						-1		FxMb1LuxiyaMd000003Attack05Shouji02						-1			1					0	0	0										0							0	1				819019021	801040	995559								0	HitCase		1		1				1													
+81902001	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902002	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902003	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902004	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902005	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902006	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902007	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902008	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902009	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902010	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902011	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902012	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902013	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902014	防御姿态	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995502		700230		0	HitCase		0		1				0													
+81902103	检测玩家子弹	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995507				0	HitCase		0		1				0													
+81902104	检测玩家子弹	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995507				0	HitCase		0		1				0													
+81902105	检测玩家子弹	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995507				0	HitCase		0		1				0													
+81902106	检测玩家子弹	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995507				0	HitCase		0		1				0													
+81902107	检测玩家子弹	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995507				0	HitCase		0		1				0													
+81902108	检测玩家子弹	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995507				0	HitCase		0		1				0													
+81902109	检测玩家子弹	2	6				0			4			0.1						-1								-1			1					0	0	0										0							0	1										995507				0	HitCase		0		1				0													
+81902301	下砸-伤害子弹	1	3	6		0.2	0			4			0.1						-1		FxMb1LuxiyaMd000003QteShouji01						-1			1					0	0	0										0							0	1				819023011	102241									0	HitCase		1		1				1													
+81902302	下砸-伤害子弹	1	3	6		0.2	0			4			0.1						-1		FxMb1LuxiyaMd000003QteShouji01						-1			1					0	0	0										0							0	1				819023021	102241									0	HitCase		1		1				1													
+81902303	下砸-伤害子弹	1	3	6		0.2	0			4			0.1						-1		FxMb1LuxiyaMd000003QteShouji01						-1			1					0	0	0										0							0	1				819023031	102241									0	HitCase		1		1				1													
+81902304	下砸-伤害子弹	1	3	6		0.2	0			4			0.1						-1		FxMb1LuxiyaMd000003QteShouji01						-1			1					0	0	0										0							0	1				819023041	102241									0	HitCase		1		1				1													
+81902305	下砸-伤害子弹	1	3	6		0.2	0			4			0.1						-1		FxMb1LuxiyaMd000003QteShouji01						-1			1					0	0	0										0							0	1				819023051	102241									0	HitCase		1		1				1													
+81902306	下砸-伤害子弹	1	3	6		0.2	0			4			0.1						-1		FxMb1LuxiyaMd000003QteShouji01						-1			1					0	0	0										0							0	1				819023061	102241	200105				200105				0	HitCase		1		1				1													
+81902307	下砸-伤害子弹	1	3	6		0.2	0			4			0.1						-1		FxMb1LuxiyaMd000003QteShouji01						-1			1					0	0	0										0							0	1				819023071	102241	200103				200103				0	HitCase		1		1				1													
+81902308	下砸-伤害子弹	1	3	6		0.2	0			4			0.1						-1		FxMb1LuxiyaMd000003QteShouji01						-1			1					0	0	0										0							0	1				819023081	102241	200103				200103				0	HitCase		1		1				1													
+81902401	十字斩-伤害子弹	1	2	3		2	0			4			0.5						-1		FxMb1LuxiyaMd000003Attack02Shouji01						-1			1					0	0	0										0							0	1				819024011	801030	995555								0	HitCase		1		1				1													
+81902402	十字斩-伤害子弹	1	2	3		2	0			4			0.5						-1		FxMb1LuxiyaMd000003Attack02Shouji02						-1			1					0	0	0										0							0	1				819024021	801030	995556								0	HitCase		1		1				1													
+81902501	武者之礼-伤害子弹	1	3	3		1.5	0			4			0.3						-1		FxMb1LuxiyaMd000003Attack41Shouji						-1			1					0	0	0										0							0	1				819025011	801030	995557								0	HitCase		1		1				1													
+81902502	武者之礼-伤害子弹	1	3	3		1.5	0			4			0.5						-1		FxMb1LuxiyaMd000003Attack04Shouji						-1			1					0	0	0										0							0	1				819025021	801050	995536	995537			995536				0	HitCase		1		1				1													
+81902711	格挡	2	0.1				0			4			2						-1						FxMb1LuxiyaMd000003iAttack55		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+81902901	瞬闪用剑气-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack44Dandao		-1			1	6				0	0	0										0							0	1				819029011	801040	200005	816003			200005				1.2	HitCase		0		0				1													
+81902601	拔刀斩-伤害子弹	1	2	2.5		1.5	0			4			0.3						-1		FxMb1LuxiyaMd000003Attack01Shouji01						-1			1					0	0	0										0							1	3				819026011	801050	995532								0	HitCase	1	1		1				1													
+90220101	十字斩--伤害子弹	3	5.1	80			0			4			0.1						-1		FxMe1BioMd004060Attack01Shouji01						-1			1					0	0	0										0							0	1				902201011	801035	902270	902281			902281				0	HitCase	1	1		1				1													
+90220102	十字斩--伤害子弹	3	5.1	120			0			4			0.1						-1		FxMe1BioMd004060Attack01Shouji02						-1			1					0	0	0										0							0	1				902201021	801040	902271	902282			902282				0	HitCase	1	1		1				1													
+90220201	蓄力戳刺--伤害子弹	1	2.5	8.5		3	0			4			0.1						-1		FxMe1BioMd004060Attack02Shouji						-1			1					0	0	0										0							0	1				902202011	801040	902272								0	HitCase	1	1		1				1													
+90220202	蓄力戳刺--伤害子弹	1	2.5	6		3	0			4			0.1						-1		FxMe1BioMd004060Attack02Shouji						-1			1					0	0	0										0							0	1				902202021	801010	902267	902273	902280		902252		902280		0	HitCase	1	1		1				1													
+90220301	冲刺横扫--伤害子弹	3	4.2	180		0	0			4			0.2						-1		FxMe1BioMd004060Attack03Shouji						-1			1					0	0	0										0							0	1				902203011	801080	902274	902283			902283				0	HitCase	1	1		1				1													
+90220305	屏幕外预警	1	9	17		7	0			4			1.3	0.9					-1						FxYujingJu01		-1			1					0	0	0										0							1	1														0	HitCase	1	0		1				0													
+90220401	跳砸--伤害子弹	2	2.5				0			4			0.1						-1		FxMe1BioMd004060Attack04Shouji						-1			1					0	0	0										0							0	1				902204011	801075	902275	902284			902284				0	HitCase	1	1		1				1													
+90220501	竖劈--伤害子弹	1	2	5		2	0			4			0.1						-1		FxMe1BioMd004060Attack05Shouji						-1			1					0	0	0										0							0	1				902205011	801075	902276	902285			902285				0	HitCase	1	1		1				1													
+90220701	回身横扫	3	4	60		0	0			4			0.1						-1		FxMe1BioMd004060Attack07Shouji						-1			1					0	0	0										0							0	1				902207011	801065	902287	902277			902287				0	HitCase	1	1		1				1													
+90220801	蓄力横扫	3	4.7	200		0	0			4			0.1						-1		FxMe1BioMd004060Attack08Shouji						-1			1					0	0	0										0							0	1				902208011	801075	902278	902286			902286				0	HitCase	1	1		1				1													
+90220901	瞬移跳砸--伤害子弹29	2	2.5				0			4			0.1						-1		FxMe1BioMd004060Attack04Shouji						-1			1					0	0	0										0							0	1				902209011	801075	902284	902275			902284				0	HitCase	1	1		1				1													
+90220909	长矛手隐身特效	2	3	3			0			4			2						-1					Bip001	FxMb1LuxiyaMd000003Shanbi		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90220910	长矛手隐身特效	2	3	3			0			4			2						-1					Bip001	FxMb1LuxiyaMd000003Shanbi		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90221001	地裂斩-伤害子弹	1	2	9		5	0			4			0.1						-1		FxMe1BioMd004060Attack05Shouji						-1			1					0	0	0										0							0	1				902210011	801065	200003	902279			902269		200003		0	HitCase	1	1		1				1													
+90221101	空中穿刺--伤害子弹	2	3				0			4			0.1						-1		FxMe1BioMd004060Attack04Shouji						-1			1					0	0	0										0							0	1				902211011	801075	902284	902275			902284				0	HitCase	1	1		1				1													
+90221108	长矛手隐身特效	2	3	3			0			4			2						-1					Bip001	FxMb1LuxiyaMd000003Shanbi		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90221109	长矛手隐身特效	2	3	3			0			4			2						-1					Bip001	FxMb1LuxiyaMd000003Shanbi		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90221201	十字斩--伤害子弹	3	5.1	80			0			4			0.1						-1		FxMe1BioMd004060Attack01Shouji01						-1			1					0	0	0										0							0	1				902212011	301431	902270	902281			902281				0	HitCase	1	1		1				1													
+90221202	十字斩--伤害子弹	3	5.1	120			0			4			0.1						-1		FxMe1BioMd004060Attack01Shouji02						-1			1					0	0	0										0							0	1				902212021	301431	902271	902282			902282				0	HitCase	1	1		1				1													
+90221301	冲刺横扫--伤害子弹	3	4.2	180		0	0			4			0.2						-1		FxMe1BioMd004060Attack03Shouji						-1			1					0	0	0										0							0	1				902213011	301432	902274	902283			902283				0	HitCase	1	1		1				1													
+90221305	屏幕外预警	1	9	17		7	0			4			1.3	0.9					-1						FxYujingJu01		-1			1					0	0	0										0							1	1														0	HitCase	1	0		1				0													
+90430101	旋风斩-伤害子弹	2	4				0			4			0.1						-1		FxMe1SwordMd002001Attack01Shouji						-1			1					0	0	0										0							0	1				904301011	801021	812013								0	HitCase		0		1				1													
+90430102	旋风斩-伤害子弹	2	4				0			4			0.1						-1		FxMe1SwordMd002001Attack01Shouji						-1			1					0	0	0										0							0	1				904301021	801021	812013								0	HitCase		0		1				0													
+90430103	旋风斩-伤害子弹	2	4				0			4			0.1						-1		FxMe1SwordMd002001Attack01Shouji						-1			1					0	0	0										0							0	1				904301031	801021	812013								0	HitCase		0		1				0													
+90430104	旋风斩-伤害子弹	2	4				0			4			0.1						-1		FxMe1SwordMd002001Attack01Shouji						-1			1					0	0	0										0							0	1				904301041	801021	812013								0	HitCase		0		1				0													
+90430105	旋风斩-伤害子弹	2	4				0			4			0.1						-1		FxMe1SwordMd002001Attack01Shouji						-1			1					0	0	0										0							0	1				904301051	801021	812013								0	HitCase		0		1				0													
+90430106	旋风斩-伤害子弹	2	4				0			4			0.1						-1		FxMe1SwordMd002001Attack01Shouji						-1			1					0	0	0										0							0	1				904301061	801021	812013								0	HitCase		0		1				0													
+90430201	剑风-伤害子弹	2	1				75			4			2						-1						FxMe1SwordMd002001Attack02Dandao		-1			1					0	0	0										0			1	90430212			0	1														0	HitCase		0		1				0													
+90430212	剑风-伤害子弹	2	1		-1		75			4			2						-1		FxMe1SwordMd002001Attack02Shouji01						-1			1					0	0	0										2							0	3				904302121	801070	812014	970702							0	HitCase		0		0				1													
+90430301	重劈斩-伤害子弹	1	3	6		2.7	0			4			0.1						-1		FxMe1SwordMd002001Attack03Shouji						-1			1					0	0	0										0							0	3				904303011	801080	200103				200103				0	HitCase		0		1				1													
+90430303	全震屏	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90430501	横扫-伤害子弹	1	5	4		2.5	0			4			0.1						-1		FxMe1SwordMd002001Attack05Shouji						-1			1					0	0	0										0							0	3				904305011	801080	200103	812016			200103				0	HitCase		0		1				1													
+90430601	戳刺-伤害子弹	1	3	6		2.5	0			4			0.1						-1		FxMe1SwordMd002001Attack06Shouji						-1			1					0	0	0										0							0	3				904306011	801070	200103	812017			200103				0	HitCase		0		1				1													
+90431002	普通子弹	1	2	3.2		1.6	0			4			0.1						-1								-1			1					0	0	0										0							0	3				904310021	801100					904331				0.5	HitCase	1	0		1				1													904310022
+90431004	普通子弹	1	2	3.2		1.6	0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	3				904310041	801100					904331				0.5	HitCase	1	0		1				1													904310042
+90431006	特效	2	0.1				0			4			2						-1						FxMe1SwordMd002001Attack17P01Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90431102	普通子弹	1	3	3.2		1.6	0			4			0.1						-1								-1			1					0	0	0										0							0	3				904311021	801100					904331				0.5	HitCase	1	0		1				1													904311022
+90431104	普通子弹	1	3	3.2		1.6	0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	3				904311041	801100					904331				0.5	HitCase	1	0		1				1													904311042
+90431106	特效	2	0.1				0			4			2						-1						FxMe1SwordMd002001Attack17P01Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90431202	普通子弹	1	3	5.4		2.7	0			4			0.1						-1								-1			1					0	0	0										0							0	3				904312021	801100					904331				0.5	HitCase	1	0		1				1													904312022
+90431204	普通子弹	1	3	5.4		2.7	0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	3				904312041	801100					904331				0.5	HitCase	1	0		1				1													904312042
+90431206	特效	2	0.1				0			4			2						-1						FxMe1SwordMd002001Attack17P02Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90431302	普通子弹	1	3	7.6		3.8	0			4			0.1						-1								-1			1					0	0	0										0							0	3				904313021	801100					904331				0.5	HitCase	1	0		1				1													904313022
+90431304	普通子弹	1	3	7.6		3.8	0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	3				904313041	801100					904331				0.5	HitCase	1	0		1				1													904313042
+90431306	特效	2	0.1				0			4			2						-1						FxMe1SwordMd002001Attack17P03Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90431402	普通子弹	1	3	9.8		4.9	0			4			0.1						-1								-1			1					0	0	0										0							0	3				904314021	801100					904331				0.5	HitCase	1	0		1				1													904314022
+90431404	普通子弹	1	3	9.8		4.9	0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	3				904314041	801100					904331				0.5	HitCase	1	0		1				1													904314042
+90431406	特效	2	0.1				0			4			2						-1						FxMe1SwordMd002001Attack17P04Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90431502	普通子弹	1	3	12		6	0			4			0.1						-1								-1			1					0	0	0										0							0	3				904315021	801100					904331				0.5	HitCase	1	0		1				1													904315022
+90431504	普通子弹	1	3	12		6	0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	3				904315041	801100					904331				0.5	HitCase	1	0		1				1													904315042
+90431506	特效	2	0.1				0			4			2						-1						FxMe1SwordMd002001Attack17P05Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90431602	普通子弹	1	3	14.2		7.1	0			4			0.1						-1								-1			1					0	0	0										0							0	3				904316021	801100					904331				0.5	HitCase	1	0		1				1													904316022
+90431604	普通子弹	1	3	14.2		7.1	0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	3				904316041	801100					904331				0.5	HitCase	1	0		1				1													904316042
+90431606	特效	2	0.1				0			4			2						-1						FxMe1SwordMd002001Attack17P06Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90431702	普通子弹	1	3	16.4		8.2	0			4			0.1						-1								-1			1					0	0	0										0							0	3				904317021	801100					904331				0.5	HitCase	1	0		1				1													904317022
+90431704	普通子弹	1	3	16.4		8.2	0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	3				904317041	801100					904331				0.5	HitCase	1	0		1				1													904317042
+90431706	特效	2	0.1				0			4			2						-1						FxMe1SwordMd002001Attack17P07Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90431802	普通子弹	1	3	18.6		9.3	0			4			0.1						-1								-1			1					0	0	0										0							0	3				904318021	801100					904331				0.5	HitCase	1	0		1				1													904318022
+90431804	普通子弹	1	3	18.6		9.3	0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	3				904318041	801100					904331				0.5	HitCase	1	0		1				1													904318042
+90431806	特效	2	0.1				0			4			2						-1						FxMe1SwordMd002001Attack17P08Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90431902	普通子弹	1	3	20.8		10.4	0			4			0.1						-1								-1			1					0	0	0										0							0	3				904319021	801100					904331				0.5	HitCase	1	0		1				1													904319022
+90431904	普通子弹	1	3	20.8		10.4	0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	3				904319041	801100					904331				0.5	HitCase	1	0		1				1													904319042
+90431906	特效	2	0.1				0			4			2						-1						FxMe1SwordMd002001Attack17P09Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90432002	普通子弹	1	3	23		11.5	0			4			0.1						-1								-1			1					0	0	0										0							0	3				904320021	801100					904331				0.5	HitCase	1	0		1				1													904320022
+90432004	普通子弹	1	3	23		11.5	0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	3				904320041	801100					904331				0.5	HitCase	1	0		1				1													904320042
+90432006	特效	2	0.1				0			4			2						-1						FxMe1SwordMd002001Attack17P10Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+90432101	旋风斩-伤害子弹	1	2	3.2		1.6	0			4			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	1.6	1.6	0	0	0										0							0	1				904321011	801100	812013								0	HitCase		1		1				1													
+90432109	旋风斩-伤害子弹	1	2	3.2		1.6	0			2			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	1.6	1.6	0	0	0										0							0	1				904321091	801100	812013								0	HitCase		1		1				1													
+90432201	旋风斩-伤害子弹	1	2	5.4		2.7	0			4			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	2.7	2.7	0	0	0										0							0	1				904322011	801100	812013								0	HitCase		1		1				1													
+90432209	旋风斩-伤害子弹	1	2	5.4		2.7	0			2			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	2.7	2.7	0	0	0										0							0	1				904322091	801100	812013								0	HitCase		1		1				1													
+90432301	旋风斩-伤害子弹	1	2	7.6		3.8	0			4			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	3.8	3.8	0	0	0										0							0	1				904323011	801100	812013								0	HitCase		1		1				1													
+90432309	旋风斩-伤害子弹	1	2	7.6		3.8	0			2			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	3.8	3.8	0	0	0										0							0	1				904323091	801100	812013								0	HitCase		1		1				1													
+90432401	旋风斩-伤害子弹	1	2	9.8		4.9	0			4			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	4.9	4.9	0	0	0										0							0	1				904324011	801100	812013								0	HitCase		1		1				1													
+90432409	旋风斩-伤害子弹	1	2	9.8		4.9	0			2			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	4.9	4.9	0	0	0										0							0	1				904324091	801100	812013								0	HitCase		1		1				1													
+90432501	旋风斩-伤害子弹	1	2	12		6	0			4			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	6	6	0	0	0										0							0	1				904325011	801100	812013								0	HitCase		1		1				1													
+90432509	旋风斩-伤害子弹	1	2	12		6	0			2			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	6	6	0	0	0										0							0	1				904325091	801100	812013								0	HitCase		1		1				1													
+90432601	旋风斩-伤害子弹	1	2	14.2		7.1	0			4			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	7.1	7.1	0	0	0										0							0	1				904326011	801100	812013								0	HitCase		1		1				1													
+90432609	旋风斩-伤害子弹	1	2	14.2		7.1	0			2			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	7.1	7.1	0	0	0										0							0	1				904326091	801100	812013								0	HitCase		1		1				1													
+90432701	旋风斩-伤害子弹	1	2	16.4		8.2	0			4			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	8.2	8.2	0	0	0										0							0	1				904327011	801100	812013								0	HitCase		1		1				1													
+90432709	旋风斩-伤害子弹	1	2	16.4		8.2	0			2			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	8.2	8.2	0	0	0										0							0	1				904327091	801100	812013								0	HitCase		1		1				1													
+90432801	旋风斩-伤害子弹	1	2	18.6		9.3	0			4			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	9.3	9.3	0	0	0										0							0	1				904328011	801100	812013								0	HitCase		1		1				1													
+90432809	旋风斩-伤害子弹	1	2	18.6		9.3	0			2			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	9.3	9.3	0	0	0										0							0	1				904328091	801100	812013								0	HitCase		1		1				1													
+90432901	旋风斩-伤害子弹	1	2	20.8		10.4	0			4			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	10.4	10.4	0	0	0										0							0	1				904329011	801100	812013								0	HitCase		1		1				1													
+90432902	旋风斩-伤害子弹	2	20.8				0			4			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904329021	801021	812013								0	HitCase		1		1				0													
+90432903	旋风斩-伤害子弹	2	20.8				0			4			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904329031	801021	812013								0	HitCase		1		1				0													
+90432904	旋风斩-伤害子弹	2	20.8				0			4			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904329041	801021	812013								0	HitCase		1		1				0													
+90432905	旋风斩-伤害子弹	2	20.8				0			4			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904329051	801021	812013								0	HitCase		1		1				0													
+90432906	旋风斩-伤害子弹	2	20.8				0			4			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904329061	801021	812013								0	HitCase		1		1				0													
+90432909	旋风斩-伤害子弹	1	2	20.8		10.4	0			2			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	10.4	10.4	0	0	0										0							0	1				904329091	801100	812013								0	HitCase		1		1				1													
+90432910	旋风斩-伤害子弹	2	20.8				0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904329101	801021	812013								0	HitCase		1		1				0													
+90432911	旋风斩-伤害子弹	2	20.8				0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904329111	801021	812013								0	HitCase		1		1				0													
+90432912	旋风斩-伤害子弹	2	20.8				0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904329121	801021	812013								0	HitCase		1		1				0													
+90432913	旋风斩-伤害子弹	2	20.8				0			2			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904329131	801021	812013								0	HitCase		1		1				0													
+90433001	旋风斩-伤害子弹	1	2	23		11.5	0			4			1.3						-1		FxMe1SwordMd002001Attack17Shouji						-1			2	-1400	0	11.5	11.5	0	0	0										0							0	1				904330011	801100	812013								0	HitCase		1		1				1													
+90433002	旋风斩-伤害子弹	2	23				0			4			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904330021	801021	812013								0	HitCase		1		1				0													
+90433003	旋风斩-伤害子弹	2	23				0			4			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904330031	801021	812013								0	HitCase		1		1				0													
+90433004	旋风斩-伤害子弹	2	23				0			4			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904330041	801021	812013								0	HitCase		1		1				0													
+90433005	旋风斩-伤害子弹	2	23				0			4			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904330051	801021	812013								0	HitCase		1		1				0													
+90433006	旋风斩-伤害子弹	2	23				0			4			0.1						-1		FxMe1SwordMd002001Attack17Shouji						-1			1					0	0	0										0							0	1				904330061	801021	812013								0	HitCase		1		1				0													
+90433009	旋风斩-伤害子弹	1	2	23		11.5	0			2			1.3						-1		FxMe1SwordMd002001Attack01Shouji						-1			2	-1400	0	11.5	11.5	0	0	0										0							0	1				904330091	801100	812013								0	HitCase		1		1				1													
+90433010	旋风斩-伤害子弹	2	23				0			2			0.1						-1		FxMe1SwordMd002001Attack01Shouji						-1			1					0	0	0										0							0	1				904330101	801021	812013								0	HitCase		1		1				0													
+90433011	旋风斩-伤害子弹	2	23				0			2			0.1						-1		FxMe1SwordMd002001Attack01Shouji						-1			1					0	0	0										0							0	1				904330111	801021	812013								0	HitCase		1		1				0													
+90433012	旋风斩-伤害子弹	2	23				0			2			0.1						-1		FxMe1SwordMd002001Attack01Shouji						-1			1					0	0	0										0							0	1				904330121	801021	812013								0	HitCase		1		1				0													
+90433013	旋风斩-伤害子弹	2	23				0			2			0.1						-1		FxMe1SwordMd002001Attack01Shouji						-1			1					0	0	0										0							0	1				904330131	801021	812013								0	HitCase		1		1				0													
+97510101	点射子弹-伤害子弹	2	1		1.1		60			4			1.5		1				1		FxMeFeijiAttack01Shouji			Fire1	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100					950109				1		1	0		0				0													
+97510102	点射子弹-伤害子弹	2	1		-1.1		60			4			1.5		1				1		FxMeFeijiAttack01Shouji			Fire2	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100					950109				1		1	0		0				0													
+97510103	枪口特效	1	1	2	1.1	0.5	0			4			1		1				-1					Fire1	FxMeFeijiAttack01Fire		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+97510104	枪口特效	1	1	2	-1.1	0.5	0			4			1		1				-1					Fire2	FxMeFeijiAttack01Fire		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+97510201	病毒警报特效	2	10				0			4			3						-1						FxBingDuJingBao		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97510401	红球强化-散弹-伤害子弹	1	1	2			40		0	4			1.5						1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801030									0	HitCase	1	0		0				1													
+97510402	红球强化-散弹-伤害子弹	1	1	2			40		30	4			1.5						1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801030									0	HitCase	1	0		0				1													
+97510403	红球强化-散弹-伤害子弹	1	1	2			40		60	4			1.5						1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801030									0	HitCase	1	0		0				1													
+97510404	红球强化-散弹-伤害子弹	1	1	2			40		-30	4			1.5						1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801030									0	HitCase	1	0		0				1													
+97510405	红球强化-散弹-伤害子弹	1	1	2			40		-60	4			1.5						1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801030									0	HitCase	1	0		0				1													
+97510501	黄球强化-追踪弹-伤害子弹	1	1	2	4		5			4		1	1.5						1		FxMeFeijiAttack01Shouji			HitCase	FxMb1VirginbioMd030001Attack14		1			5	20	30	0.2	15	0.002617992	-0.5	15										0							0	1					801030									0	HitCase	1	0		0				1													
+97510502	黄球强化-追踪弹-伤害子弹	1	1	2	-4		5			4		1	1.5						1		FxMeFeijiAttack01Shouji			HitCase	FxMb1VirginbioMd030001Attack14		1			5	-20	30	0.2	15	0.002617992	-0.5	15										0							0	1					801030									0	HitCase	1	0		0				1													
+97510601	红球技能-防护罩	2	3.5				0			1			1.5						-1	1			0.1		FxR2YongyechaoAttack51		-1			1					0	0	0										0							0	1					100551									0	HitCase		1		1				1													
+97510701	蓝球技能-持续激光-伤害子弹	1	2	20		10	0			4			0.85						-1	1	FxDibingShouji		0.1				-1			1					0	0	0										0							0	1				975107011	801020									0	HitCase	1	0		1				1													
+97510801	黄球技能-aoe-伤害子弹	2	6				0			4			0.2						-1		FxMeFeijiAttack01Shouji						-1			1					0	0	0										0							0	1					801080									0	HitCase		1		1				1													
+97510901	散弹强化-1-伤害子弹	1	1	2	1		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100					950109				1	HitCase	1	0		0				1													
+97510902	散弹强化-1-伤害子弹	1	1	2	-1		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100					950109				1	HitCase	1	0		0				1													
+97511001	散弹强化-2-伤害子弹	2	1		0		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1		1	0		0				1													
+97511002	散弹强化-2-伤害子弹	2	1		0.5		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1		1	0		0				1													
+97511003	散弹强化-2-伤害子弹	2	1		1		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1		1	0		0				1													
+97511004	散弹强化-2-伤害子弹	2	1		1.5		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1		1	0		0				1													
+97511005	散弹强化-2-伤害子弹	2	1		-0.5		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1		1	0		0				1													
+97511006	散弹强化-2-伤害子弹	2	1		-1		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1		1	0		0				1													
+97511007	散弹强化-2-伤害子弹	2	1		-1.5		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1		1	0		0				1													
+97511008	散弹强化-2-伤害子弹	2	1		2		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1		1	0		0				1													
+97511009	散弹强化-2-伤害子弹	2	1		-2		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1		1	0		0				1													
+97511010	散弹强化-2-伤害子弹	2	1		0		40			4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1		1	0		0				1													
+97511101	散弹强化-3-伤害子弹	1	1	2	0		40		0	4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1	HitCase	1	0		0				1													
+97511102	散弹强化-3-伤害子弹	1	1	2	1		40		0	4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1	HitCase	1	0		0				1													
+97511103	散弹强化-3-伤害子弹	1	1	2	-1		40		0	4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1	HitCase	1	0		0				1													
+97511104	散弹强化-3-伤害子弹	1	1	2	1		40		30	4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1	HitCase	1	0		0				1													
+97511105	散弹强化-3-伤害子弹	1	1	2	2		40		30	4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1	HitCase	1	0		0				1													
+97511106	散弹强化-3-伤害子弹	1	1	2	3		40		30	4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1	HitCase	1	0		0				1													
+97511107	散弹强化-3-伤害子弹	1	1	2	-1		40		-30	4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1	HitCase	1	0		0				1													
+97511108	散弹强化-3-伤害子弹	1	1	2	-2		40		-30	4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1	HitCase	1	0		0				1													
+97511109	散弹强化-3-伤害子弹	1	1	2	-3		40		-30	4			1.5		1				1		FxMeFeijiAttack01Shouji			HitCase	FxMeFeijiAttack01		1			1					0	0	0										0							0	1					801100									1	HitCase	1	0		0				1													
+97511201	环绕子弹-1-伤害子弹	2	1				60			4			9999						-1	1				HitCase			-1			2	200	0	3	3	0	0	0										0			1	97511211			0	1														0	HitCase		1		1				0													
+97511211	环绕子弹-1-伤害子弹	2	1				60			4			9999						-1	1				HitCase	FxMb1VirginbioMd030001Attack14		-1			2	200	0	3	3	0	0	0										0	1		1	97511212			0	1					801020									0	HitCase		1		1				1													
+97511212	环绕子弹-1-伤害子弹	2	1				60			4			9999						-1	1				HitCase	FxMb1VirginbioMd030001Attack14		-1			2	200	0	3	3	0	0	0										0							0	1					801020									0	HitCase		1		1				1													
+97511301	环绕子弹-2-伤害子弹	2	1				60			4			9999						-1	1				HitCase			-1			2	200	0	3	3	0	0	0										0			1	97511311			0	1														0	HitCase		1		1				0													
+97511311	环绕子弹-2-伤害子弹	2	1				60			4			9999						-1	1				HitCase	FxMb1VirginbioMd030001Attack14		-1			2	200	0	3	3	0	0	0										0	0.63		1	97511312			0	1					801020									0	HitCase		1		1				1													
+97511312	环绕子弹-2-伤害子弹	2	1				60			4			9999						-1	1				HitCase	FxMb1VirginbioMd030001Attack14		-1			2	200	0	3	3	0	0	0										0	0.63		1	97511313			0	1					801020									0	HitCase		1		1				1													
+97511313	环绕子弹-2-伤害子弹	2	1				60			4			9999						-1	1				HitCase	FxMb1VirginbioMd030001Attack14		-1			2	200	0	3	3	0	0	0										0							0	1					801020									0	HitCase		1		1				1													
+97511401	环绕子弹-3-伤害子弹	2	1				60			4			9999						-1	1				HitCase			-1			2	200	0	3	3	0	0	0										0			1	97511411			0	1														0	HitCase		1		1				0													
+97511411	环绕子弹-3-伤害子弹	2	1				60			4			9999						-1	1				HitCase	FxMb1VirginbioMd030001Attack14		-1			2	200	0	3	3	0	0	0										2	0.45		1	97511412			0	1					801020									0	HitCase		1		1				1													
+97511412	环绕子弹-3-伤害子弹	2	1				60			4			9999						-1	1				HitCase	FxMb1VirginbioMd030001Attack14		-1			2	200	0	3	3	0	0	0										2	0.45		1	97511413			0	1					801020									0	HitCase		1		1				1													
+97511413	环绕子弹-3-伤害子弹	2	1				60			4			9999						-1	1				HitCase	FxMb1VirginbioMd030001Attack14		-1			2	200	0	3	3	0	0	0										2	0.45		1	97511414			0	1					801020									0	HitCase		1		1				1													
+97511414	环绕子弹-3-伤害子弹	2	1				60			4			9999						-1	1				HitCase	FxMb1VirginbioMd030001Attack14		-1			2	200	0	3	3	0	0	0										2							0	1					801020									0	HitCase		1		1				1													
+97511501	子弹替换-散弹	2	0.8				8			4			9999		1				-1						FxDropRed		-1			3	-20	0.25	10	0	0	0	0										3	9999		1	97511511	1		4	1														1	HitCase		0		0		999		0													
+97511511	子弹替换	2	0.8				0			4			9999						1						FxDropRed		1			1					0	0	0										2							2	1					999508									0.5	HitCase		0		0				0													
+97511601	子弹加强-环绕弹	2	0.8				8			4			9999		1				-1						FxDropYellow		-1			3	-20	0.25	10	0	0	0	0										3	9999		1	97511611	1		4	1														1	HitCase		0		0		999		0													
+97511611	子弹加强	2	0.8				0			4			9999						1						FxDropYellow		1			1					0	0	0										2							2	1					999510									0.5	HitCase		0		0				0													
+97511701	黄色子弹	1	1	2			40			4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030					950109				1	HitCase	1	0		0				1													
+97511801	黄色子弹-散1	1	1	2			40		20	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030					950109				1	HitCase	1	0		0				1													
+97511802	黄色子弹-散1	1	1	2			40		0	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030					950109				1	HitCase	1	0		0				1													
+97511803	黄色子弹-散1	1	1	2			40		-20	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030					950109				1	HitCase	1	0		0				1													
+97511901	黄色子弹-散2	1	1	2	0		40		0	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030									1	HitCase	1	0		0				1													
+97511902	黄色子弹-散2	1	1	2	1		40		0	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030									1	HitCase	1	0		0				1													
+97511903	黄色子弹-散2	1	1	2	-1		40		0	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030									1	HitCase	1	0		0				1													
+97511904	黄色子弹-散2	1	1	2	1		40		30	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030									1	HitCase	1	0		0				1													
+97511905	黄色子弹-散2	1	1	2	2		40		30	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030									1	HitCase	1	0		0				1													
+97511906	黄色子弹-散2	1	1	2	3		40		30	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030									1	HitCase	1	0		0				1													
+97511907	黄色子弹-散2	1	1	2	-1		40		-30	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030									1	HitCase	1	0		0				1													
+97511908	黄色子弹-散2	1	1	2	-2		40		-30	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030									1	HitCase	1	0		0				1													
+97511909	黄色子弹-散2	1	1	2	-3		40		-30	4			1.5		1				1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					801030									1	HitCase	1	0		0				1													
+97512001	红色子弹	1	4	8		0	0			4			1						-1					HitCase	FxMeFeijiAttack04		-1			1					0	0	0										0							0	1														1	HitCase	0	1		0				1													
+97512002	红色子弹	1	0.5	18		9	0			4			1						-1	1	FxMeFeijiAttack04Shouji		0.25	HitCase			-1			1					0	0	0										0							0	1					801030					950109				1	HitCase	1	1		0				1													
+97512101	红色子弹	1	4	8	0.5	0	0			4			1						-1					HitCase	FxMeFeijiAttack04		-1			1					0	0	0										0							0	1														1	HitCase	0	1		0				1													
+97512102	红色子弹	1	0.5	18	0.5	9	0			4			1						-1	1	FxMeFeijiAttack04Shouji		0.25	HitCase			-1			1					0	0	0										0							0	1					801030					950109				1	HitCase	1	1		0				1													
+97512103	红色子弹	1	4	8	-0.5	0	0			4			1						-1					HitCase	FxMeFeijiAttack04		-1			1					0	0	0										0							0	1														1	HitCase	0	1		0				1													
+97512104	红色子弹	1	0.5	18	-0.5	9	0			4			1						-1	1	FxMeFeijiAttack04Shouji		0.25	HitCase			-1			1					0	0	0										0							0	1					801030					950109				1	HitCase	1	1		0				1													
+97512201	红色子弹	2	0.1		0.5	0	60		120	4			5						-1					HitCase	FxMeFeijiAttack04		-1			2	120	0	1	1	0	0	0										0							0	1														1	HitCase	0	1		0				1													
+97512202	红色子弹	1	0.5	18	0.5	9	60		120	4			5						-1	1	FxMeFeijiAttack04Shouji		0.1	HitCase			-1			2	120	0	9	9	0	0	0										0							0	1					801030									1	HitCase	1	1		0				1													
+97512203	红色子弹	2	0.1		0.5	0	60		0	4			5						-1					HitCase	FxMeFeijiAttack04		-1			2	120	0	1	1	0	0	0										0							0	1														1	HitCase	0	1		0				1													
+97512204	红色子弹	1	0.5	18	0.5	9	60		0	4			5						-1	1	FxMeFeijiAttack04Shouji		0.1	HitCase			-1			2	120	0	9	9	0	0	0										0							0	1					801030									1	HitCase	1	1		0				1													
+97512205	红色子弹	2	0.1		0.5	0	60		-120	4			5						-1					HitCase	FxMeFeijiAttack04		-1			2	120	0	1	1	0	0	0										0							0	1														1	HitCase	0	1		0				1													
+97512206	红色子弹	1	0.5	18	0.5	9	60		-120	4			5						-1	1	FxMeFeijiAttack04Shouji		0.1	HitCase			-1			2	120	0	9	9	0	0	0										0							0	1					801030									1	HitCase	1	1		0				1													
+97512207	红色子弹	2	0.1		0.5	0	60		60	4			5						-1					HitCase	FxMeFeijiAttack04		-1			2	120	0	1	1	0	0	0										0							0	1														1	HitCase	0	1		0				1													
+97512208	红色子弹	1	0.5	18	0.5	9	60		60	4			5						-1	1	FxMeFeijiAttack04Shouji		0.1	HitCase			-1			2	120	0	9	9	0	0	0										0							0	1					801030									1	HitCase	1	1		0				1													
+97512209	红色子弹	2	0.1		0.5	0	60		-60	4			5						-1					HitCase	FxMeFeijiAttack04		-1			2	120	0	1	1	0	0	0										0							0	1														1	HitCase	0	1		0				1													
+97512210	红色子弹	1	0.5	18	0.5	9	60		-60	4			5						-1	1	FxMeFeijiAttack04Shouji		0.1	HitCase			-1			2	120	0	9	9	0	0	0										0							0	1					801030									1	HitCase	1	1		0				1													
+97512211	红色子弹	2	0.1		0.5	0	60		180	4			5						-1					HitCase	FxMeFeijiAttack04		-1			2	120	0	1	1	0	0	0										0							0	1														1	HitCase	0	1		0				1													
+97512212	红色子弹	1	0.5	18	0.5	9	60		180	4			5						-1	1	FxMeFeijiAttack04Shouji		0.1	HitCase			-1			2	120	0	9	9	0	0	0										0							0	1					801030									1	HitCase	1	1		0				1													
+97512301	死亡爆炸子弹	1	1	1	1		0			4			1						-1						FxJianZuBaoZha		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97512302	死亡爆炸子弹	2	0.1			1	0			4			1						-1						FxJianZuBaoZha		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97512303	死亡爆炸子弹	2	0.1		1.7		0			4			1						-1						FxJianZuBaoZha		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97512304	死亡爆炸子弹	2	0.1			2.1	0			4			1						-1						FxJianZuBaoZha		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97512305	死亡爆炸子弹	2	0.1		3		0			4			1						-1						FxJianZuBaoZha		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97512306	死亡爆炸子弹	2	0.1			0.2	0			4			1						-1						FxJianZuBaoZha		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97512307	死亡爆炸子弹	2	0.1			1	0			4			1						-1						FxJianZuBaoZha		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97512308	死亡爆炸子弹	2	0.1		-3		0			4			1						-1						FxJianZuBaoZha		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97512309	死亡爆炸子弹	2	0.1			-2	0			4			1						-1						FxJianZuBaoZha		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97512310	死亡爆炸子弹	2	0.1		-1.5		0			4			1						-1						FxJianZuBaoZha		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97512311	死亡爆炸子弹	2	0.1			-3	0			4			1						-1						FxJianZuBaoZha		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97520101	普通球型子弹-伤害子弹	2	0.3				7			4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520201	面朝向球型子弹-伤害子弹	2	0.3				7			4			5		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801010									0	HitCase		0		0				1													
+97520301	直线竖排-伤害子弹-1	2	0.3				7			4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520302	直线竖排-伤害子弹-2	2	0.3				7			4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520303	直线竖排-伤害子弹-3	2	0.3				7			4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520304	直线竖排-伤害子弹-4	2	0.3				7			4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520305	直线竖排-伤害子弹-5	2	0.3				7			4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520401	散射子弹-伤害子弹-1	2	0.3				7		0	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520402	散射子弹-伤害子弹-2	2	0.3				7		30	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520403	散射子弹-伤害子弹-3	2	0.3				7		60	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520404	散射子弹-伤害子弹-4	2	0.3				7		-30	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520405	散射子弹-伤害子弹-5	2	0.3				7		-60	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520501	散射子弹-伤害子弹-1	2	0.3				7		0	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520502	散射子弹-伤害子弹-2	2	0.3				7		30	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520503	散射子弹-伤害子弹-3	2	0.3				7		60	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520504	散射子弹-伤害子弹-4	2	0.3				7		90	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520505	散射子弹-伤害子弹-5	2	0.3				7		120	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520506	散射子弹-伤害子弹-6	2	0.3				7		150	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520507	散射子弹-伤害子弹-7	2	0.3				7		180	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520508	散射子弹-伤害子弹-8	2	0.3				7		210	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520509	散射子弹-伤害子弹-9	2	0.3				7		240	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520510	散射子弹-伤害子弹-10	2	0.3				7		270	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520511	散射子弹-伤害子弹-10	2	0.3				7		300	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520512	散射子弹-伤害子弹-10	2	0.3				7		330	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97520513	散射子弹-伤害子弹-10	2	0.3				7		360	4			12		1				1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1					0	0	0										0							1	1					801100									1	HitCase		0		0				1													
+97580601	红球技能-防护罩	2	3.5				0			1			1.5						-1	1			0.1		FxR2YongyechaoAttack51		-1			1					0	0	0										0							0	1					100551									0	HitCase		1		1				1													
+87430101	变身几何体的技能6-1	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874103									0	HitCase		0		1				0													
+87430102	变身几何体的技能6-2	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874105									0	HitCase		0		1				0													
+87430103	变身几何体的技能6-3	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874107									0	HitCase		0		1				0													
+87430104	变身几何体的技能6-4	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874109									0	HitCase		0		1				0													
+87430105	变身几何体的技能6-5	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874110									0	HitCase		0		1				0													
+87430106	变身几何体的技能6-6	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874108									0	HitCase		0		1				0													
+87430107	变身几何体的技能6-7	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874106									0	HitCase		0		1				0													
+87430108	变身几何体的技能6-8	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874104									0	HitCase		0		1				0													
+87430109	变身几何体的技能6-9	2	0.1				0			1			3						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										0	0.6	0.6	7	87412117			0	1														0	HitCase		0		1				0													
+87430110	变身几何体的技能6-10	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430111	变身几何体的技能6-11	2	0.1				0			1			3						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										0	0.7	0.7	7	87412119			0	1														0	HitCase		0		1				0													
+87430112	变身几何体的技能6-12	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430113	变身几何体的技能6-13	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430114	变身几何体的技能6-14	2	0.1				0			1			3						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										0	0.7	0.7	7	87412122			0	1														0	HitCase		0		1				0													
+87430115	变身几何体的技能6-15	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430116	变身几何体的技能6-16	2	0.1				0			1			3						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										0	0.5	0.5	7	87412124			0	1														0	HitCase		0		1				0													
+87430117	变身几何体的技能6-17	2	0.1				0			1			0.1						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										2							0	1					874159									0	HitCase		0		1				0													
+87430118	变身几何体的技能6-18	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874160									0	HitCase		0		1				0													
+87430119	变身几何体的技能6-19	2	0.1				0			1			0.1						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										2							0	1					874161									0	HitCase		0		1				0													
+87430120	变身几何体的技能6-20	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874162									0	HitCase		0		1				0													
+87430121	变身几何体的技能6-21	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874163									0	HitCase		0		1				0													
+87430122	变身几何体的技能6-22	2	0.1				0			1			0.1						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										2							0	1					874164									0	HitCase		0		1				0													
+87430123	变身几何体的技能6-23	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874165									0	HitCase		0		1				0													
+87430124	变身几何体的技能6-24	2	0.1				0			1			0.1						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										2							0	1					874166									0	HitCase		0		1				0													
+87430201	变身几何体的技能6-1	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874103									0	HitCase		0		1				0													
+87430202	变身几何体的技能6-2	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874105									0	HitCase		0		1				0													
+87430203	变身几何体的技能6-3	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874107									0	HitCase		0		1				0													
+87430204	变身几何体的技能6-4	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874109									0	HitCase		0		1				0													
+87430205	变身几何体的技能6-5	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874110									0	HitCase		0		1				0													
+87430206	变身几何体的技能6-6	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874108									0	HitCase		0		1				0													
+87430207	变身几何体的技能6-7	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874106									0	HitCase		0		1				0													
+87430208	变身几何体的技能6-8	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874104									0	HitCase		0		1				0													
+87430209	变身几何体的技能6-9	2	0.1				0			1			3						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										0	0.6	0.6	7	87412117			0	1														0	HitCase		0		1				0													
+87430210	变身几何体的技能6-10	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430211	变身几何体的技能6-11	2	0.1				0			1			3						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										0	0.7	0.7	7	87412119			0	1														0	HitCase		0		1				0													
+87430212	变身几何体的技能6-12	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430213	变身几何体的技能6-13	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430214	变身几何体的技能6-14	2	0.1				0			1			3						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										0	0.7	0.7	7	87412122			0	1														0	HitCase		0		1				0													
+87430215	变身几何体的技能6-15	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430216	变身几何体的技能6-16	2	0.1				0			1			3						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										0	0.5	0.5	7	87412124			0	1														0	HitCase		0		1				0													
+87430217	变身几何体的技能6-17	2	0.1				0			1			0.1						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										2							0	1					874159									0	HitCase		0		1				0													
+87430218	变身几何体的技能6-18	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874160									0	HitCase		0		1				0													
+87430219	变身几何体的技能6-19	2	0.1				0			1			0.1						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										2							0	1					874161									0	HitCase		0		1				0													
+87430220	变身几何体的技能6-20	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874162									0	HitCase		0		1				0													
+87430221	变身几何体的技能6-21	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874163									0	HitCase		0		1				0													
+87430222	变身几何体的技能6-22	2	0.1				0			1			0.1						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										2							0	1					874164									0	HitCase		0		1				0													
+87430223	变身几何体的技能6-23	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874165									0	HitCase		0		1				0													
+87430224	变身几何体的技能6-24	2	0.1				0			1			0.1						-1		FxMt1DubianfeijiShouji						-1			1					0	0	0										2							0	1					874166									0	HitCase		0		1				0													
+87430301	变身几何体的技能6-1	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874103	874185								0	HitCase		0		1				0													
+87430302	变身几何体的技能6-2	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874104									0	HitCase		0		1				0													
+87430303	变身几何体的技能6-3	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874105									0	HitCase		0		1				0													
+87430304	变身几何体的技能6-4	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874106	874187								0	HitCase		0		1				0													
+87430305	变身几何体的技能6-5	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874107	874191								0	HitCase		0		1				0													
+87430306	变身几何体的技能6-6	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874108									0	HitCase		0		1				0													
+87430307	变身几何体的技能6-7	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874109									0	HitCase		0		1				0													
+87430308	变身几何体的技能6-8	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874110	874189								0	HitCase		0		1				0													
+87430309	变身几何体的技能6-9	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874177									0	HitCase		0		1				0													
+87430310	变身几何体的技能6-10	2	0.1				0			1			6.2						-1								-1			1					0	0	0										0	0.5	0.5	10	87411935			0	1														0	HitCase		0		1				0													
+87430311	变身几何体的技能6-11	2	0.1				0			1			6.2						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430312	变身几何体的技能6-12	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874179									0	HitCase		0		1				0													
+87430313	变身几何体的技能6-13	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874183									0	HitCase		0		1				0													
+87430314	变身几何体的技能6-14	2	0.1				0			1			6.2						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430315	变身几何体的技能6-15	2	0.1				0			1			6.2						-1								-1			1					0	0	0										0	0.5	0.5	10	87411940			0	1														0	HitCase		0		1				0													
+87430316	变身几何体的技能6-16	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874181									0	HitCase		0		1				0													
+87430317	变身几何体的技能6-17	1	1.3	70	1	35	0		91	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874303171	999565	874014								0	HitCase	1	1		1				1													
+87430318	变身几何体的技能6-18	2	0.1				0		82	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874303181	999565	874014								0	HitCase	1	1		1				1													
+87430319	变身几何体的技能6-19	2	0.1				0		53	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874303191	999565	874014								0	HitCase	1	1		1				1													
+87430320	变身几何体的技能6-20	1	1.3	70	0	35	0		17	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874303201	999565	874014								0	HitCase	1	1		1				1													
+87430321	变身几何体的技能6-21	1	1.3	70	0	35	0		-16	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874303211	999565	874015								0	HitCase	1	1		1				1													
+87430322	变身几何体的技能6-22	2	0.1				0		-50	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874303221	999565	874014								0	HitCase	1	1		1				1													
+87430323	变身几何体的技能6-23	2	0.1				0		-73	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874303231	999565	874014								0	HitCase	1	1		1				1													
+87430324	变身几何体的技能6-24	1	1.3	70	-1	35	0		-87	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874303241	999565	874015								0	HitCase	1	1		1				1													
+87430325	变身几何体的技能6-25	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874193									0	HitCase		0		1				0													
+87430326	变身几何体的技能6-26	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430327	变身几何体的技能6-27	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430328	变身几何体的技能6-28	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874195									0	HitCase		0		1				0													
+87430329	变身几何体的技能6-29	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874199									0	HitCase		0		1				0													
+87430330	变身几何体的技能6-30	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430331	变身几何体的技能6-31	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430332	变身几何体的技能6-32	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874197									0	HitCase		0		1				0													
+87430334	变身几何体的技能6-34	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1														0	HitCase		0		1				0													
+87430335	变身几何体的技能6-35	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874160	874169								0	HitCase		0		1				0													
+87430336	变身几何体的技能6-36	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874161	874170								0	HitCase		0		1				0													
+87430337	变身几何体的技能6-37	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1														0	HitCase		0		1				0													
+87430338	变身几何体的技能6-38	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1														0	HitCase		0		1				0													
+87430339	变身几何体的技能6-39	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874164	874173								0	HitCase		0		1				0													
+87430340	变身几何体的技能6-40	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874165	874174								0	HitCase		0		1				0													
+87430341	变身几何体的技能6-41	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1														0	HitCase		0		1				0													
+87430342	变身几何体的技能6-42	2	0.1				0			1			0.7						-1								-1			1					0	0	0										0							0	1														1.3	HitCase		1		1				0													
+87430343	变身几何体的技能6-43	2	0.1				0			1			0.7						-1								-1			1					0	0	0										0							0	1														1.6	HitCase		1		1				0													
+87430344	变身几何体的技能6-44	2	0.1				0			4			0.1						1								1			1					0	0	0										0							0	1				874303441	873622	821542				874176				0	HitCase	1	1		1				1													
+87430346	变身几何体的技能6-46	2	3				0			1			0.7						-1								-1			1					0	0	0										0							0	1														5	HitCase	1	1		1				0													
+87430401	变身几何体的技能6-1	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874103	874185								0	HitCase		0		1				0													
+87430402	变身几何体的技能6-2	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874104									0	HitCase		0		1				0													
+87430403	变身几何体的技能6-3	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874105									0	HitCase		0		1				0													
+87430404	变身几何体的技能6-4	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874106	874187								0	HitCase		0		1				0													
+87430405	变身几何体的技能6-5	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874107	874191								0	HitCase		0		1				0													
+87430406	变身几何体的技能6-6	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874108									0	HitCase		0		1				0													
+87430407	变身几何体的技能6-7	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874109									0	HitCase		0		1				0													
+87430408	变身几何体的技能6-8	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874110	874189								0	HitCase		0		1				0													
+87430409	变身几何体的技能6-9	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874177									0	HitCase		0		1				0													
+87430410	变身几何体的技能6-10	2	0.1				0			1			6.2						-1								-1			1					0	0	0										0	0.5	0.5	10	87411935			0	1														0	HitCase		0		1				0													
+87430411	变身几何体的技能6-11	2	0.1				0			1			6.2						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430412	变身几何体的技能6-12	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874179									0	HitCase		0		1				0													
+87430413	变身几何体的技能6-13	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874183									0	HitCase		0		1				0													
+87430414	变身几何体的技能6-14	2	0.1				0			1			6.2						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430415	变身几何体的技能6-15	2	0.1				0			1			6.2						-1								-1			1					0	0	0										0	0.5	0.5	10	87411940			0	1														0	HitCase		0		1				0													
+87430416	变身几何体的技能6-16	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874181									0	HitCase		0		1				0													
+87430417	变身几何体的技能6-17	1	1.3	70	1	35	0		91	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874304171	999565	874014								0	HitCase	1	1		1				1													
+87430418	变身几何体的技能6-18	2	0.1				0		82	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874304181	999565	874014								0	HitCase	1	1		1				1													
+87430419	变身几何体的技能6-19	0	0.1				0		53	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874304191	999565	874014								0	HitCase	1	1		1				1													
+87430420	变身几何体的技能6-20	1	1.3	70	0	35	0		17	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874304201	999565	874014								0	HitCase	1	1		1				1													
+87430421	变身几何体的技能6-21	1	1.3	70	0	35	0		-16	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874304211	999565	874015								0	HitCase	1	1		1				1													
+87430422	变身几何体的技能6-22	2	0.1				0		-50	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874304221	999565	874014								0	HitCase	1	1		1				1													
+87430423	变身几何体的技能6-23	2	0.1				0		-73	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874304231	999565	874014								0	HitCase	1	1		1				1													
+87430424	变身几何体的技能6-24	1	1.3	70	-1	35	0		-87	4			4.65						-1	1	FxMt1DubianfeijiShouji		0.2				-1			1					0	0	0										0							0	1				874304241	999565	874015								0	HitCase	1	1		1				1													
+87430425	变身几何体的技能6-25	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874193									0	HitCase		0		1				0													
+87430426	变身几何体的技能6-26	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430427	变身几何体的技能6-27	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430428	变身几何体的技能6-28	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874195									0	HitCase		0		1				0													
+87430429	变身几何体的技能6-29	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874199									0	HitCase		0		1				0													
+87430430	变身几何体的技能6-30	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430431	变身几何体的技能6-31	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430432	变身几何体的技能6-32	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874197									0	HitCase		0		1				0													
+87430434	变身几何体的技能6-34	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1														0	HitCase		0		1				0													
+87430435	变身几何体的技能6-35	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874160	874169								0	HitCase		0		1				0													
+87430436	变身几何体的技能6-36	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874161	874170								0	HitCase		0		1				0													
+87430437	变身几何体的技能6-37	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1														0	HitCase		0		1				0													
+87430438	变身几何体的技能6-38	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1														0	HitCase		0		1				0													
+87430439	变身几何体的技能6-39	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874164	874173								0	HitCase		0		1				0													
+87430440	变身几何体的技能6-40	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874165	874174								0	HitCase		0		1				0													
+87430441	变身几何体的技能6-41	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1														0	HitCase		0		1				0													
+87430442	变身几何体的技能6-42	2	0.1				0			1			0.7						-1								-1			1					0	0	0										0							0	1														1.3	HitCase		1		1				0													
+87430443	变身几何体的技能6-43	2	0.1				0			1			0.7						-1								-1			1					0	0	0										0							0	1														1.6	HitCase		1		1				0													
+87430444	变身几何体的技能6-44	2	0.1				0			4			0.1						1								1			1					0	0	0										0							0	1				874304441	873622	821542				874176				0	HitCase	1	1		1				1													
+87430446	变身几何体的技能6-46	2	3				0			1			0.7						-1								-1			1					0	0	0										0							0	1														5	HitCase	1	1		1				0													
+87430501	变身几何体的技能5-1	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430601	变身几何体的技能6-1	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874103									0	HitCase		0		1				0													
+87430602	变身几何体的技能6-2	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874105									0	HitCase		0		1				0													
+87430603	变身几何体的技能6-3	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874107									0	HitCase		0		1				0													
+87430604	变身几何体的技能6-4	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874109									0	HitCase		0		1				0													
+87430605	变身几何体的技能6-5	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874110									0	HitCase		0		1				0													
+87430606	变身几何体的技能6-6	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874108									0	HitCase		0		1				0													
+87430607	变身几何体的技能6-7	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874106									0	HitCase		0		1				0													
+87430608	变身几何体的技能6-8	2	0.1				0			1			0.1						-1								-1			1					0	0	0										0							0	1					874104									0	HitCase		0		1				0													
+87430609	变身几何体的技能6-9	2	0.1				0			1			3						-1								-1			1					0	0	0										0	0.6	0.6	7	87412117			0	1														0	HitCase		0		1				0													
+87430610	变身几何体的技能6-10	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430611	变身几何体的技能6-11	2	0.1				0			1			3						-1								-1			1					0	0	0										0	0.7	0.7	7	87412119			0	1														0	HitCase		0		1				0													
+87430612	变身几何体的技能6-12	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430613	变身几何体的技能6-13	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430614	变身几何体的技能6-14	2	0.1				0			1			3						-1								-1			1					0	0	0										0	0.7	0.7	7	87412122			0	1														0	HitCase		0		1				0													
+87430615	变身几何体的技能6-15	2	0.1				0			1			3						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+87430616	变身几何体的技能6-16	2	0.1				0			1			3						-1								-1			1					0	0	0										0	0.5	0.5	7	87412124			0	1														0	HitCase		0		1				0													
+87430617	变身几何体的技能6-17	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874159									0	HitCase		0		1				0													
+87430618	变身几何体的技能6-18	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874160									0	HitCase		0		1				0													
+87430619	变身几何体的技能6-19	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874161									0	HitCase		0		1				0													
+87430620	变身几何体的技能6-20	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874162									0	HitCase		0		1				0													
+87430621	变身几何体的技能6-21	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874163									0	HitCase		0		1				0													
+87430622	变身几何体的技能6-22	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874164									0	HitCase		0		1				0													
+87430623	变身几何体的技能6-23	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874165									0	HitCase		0		1				0													
+87430624	变身几何体的技能6-24	2	0.1				0			1			0.1						-1								-1			1					0	0	0										2							0	1					874166									0	HitCase		0		1				0													
+87430701	散射子弹-伤害子弹-1	2	2				20		0	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430702	散射子弹-伤害子弹-2	2	2				20		30	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430703	散射子弹-伤害子弹-3	2	2				20		60	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430704	散射子弹-伤害子弹-4	2	2				20		90	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430705	散射子弹-伤害子弹-5	2	2				20		120	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430706	散射子弹-伤害子弹-6	2	2				20		150	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430707	散射子弹-伤害子弹-7	2	2				20		180	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430708	散射子弹-伤害子弹-8	2	2				20		210	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430709	散射子弹-伤害子弹-9	2	2				20		240	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430710	散射子弹-伤害子弹-10	2	2				20		270	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430711	散射子弹-伤害子弹-10	2	2				20		300	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430712	散射子弹-伤害子弹-10	2	2				20		330	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430713	散射子弹-伤害子弹-10	2	2				20		360	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430714	散射子弹-伤害子弹-1	2	2				20		0	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430715	散射子弹-伤害子弹-2	2	2				20		30	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430716	散射子弹-伤害子弹-3	2	2				20		60	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430717	散射子弹-伤害子弹-4	2	2				20		90	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430718	散射子弹-伤害子弹-5	2	2				20		120	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430719	散射子弹-伤害子弹-6	2	2				20		150	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430720	散射子弹-伤害子弹-7	2	2				20		180	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430721	散射子弹-伤害子弹-8	2	2				20		210	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430722	散射子弹-伤害子弹-9	2	2				20		240	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430723	散射子弹-伤害子弹-10	2	2				20		270	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430724	散射子弹-伤害子弹-10	2	2				20		300	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430725	散射子弹-伤害子弹-10	2	2				20		330	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430726	散射子弹-伤害子弹-10	2	2				20		360	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430727	散射子弹-伤害子弹-1	2	2				20		0	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430728	散射子弹-伤害子弹-2	2	2				20		30	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430729	散射子弹-伤害子弹-3	2	2				20		60	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430730	散射子弹-伤害子弹-4	2	2				20		90	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430731	散射子弹-伤害子弹-5	2	2				20		120	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430732	散射子弹-伤害子弹-6	2	2				20		150	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430733	散射子弹-伤害子弹-7	2	2				20		180	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430734	散射子弹-伤害子弹-8	2	2				20		210	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430735	散射子弹-伤害子弹-9	2	2				20		240	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430736	散射子弹-伤害子弹-10	2	2				20		270	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430737	散射子弹-伤害子弹-10	2	2				20		300	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430738	散射子弹-伤害子弹-10	2	2				20		330	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430739	散射子弹-伤害子弹-10	2	2				20		360	4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							0	1					999564									0	HitCase	1	0		0				1													
+87430801	直线竖排-伤害子弹-1	2	2				32			4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							1	1					999564									0	HitCase	1	0		0				1													
+87430802	直线竖排-伤害子弹-2	2	2				32			4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							1	1					999564									0	HitCase	1	0		0				1													
+87430803	直线竖排-伤害子弹-3	2	2				32			4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							1	1					999564									0	HitCase	1	0		0				1													
+87430804	直线竖排-伤害子弹-4	2	2				32			4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							1	1					999564									0	HitCase	1	0		0				1													
+87430805	直线竖排-伤害子弹-5	2	2				32			4			3		1				1		FxMt1DubianfeijiShouji			HitCase	FxMt1DubianfeijiDandao		1			1					0	0	0										0							1	1					999564									0	HitCase	1	0		0				1													

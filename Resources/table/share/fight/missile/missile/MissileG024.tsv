@@ -1,0 +1,335 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic
+93050102	伤害判定	1	0.3	2		1.3	0			4			0.1						-1		FxMo1CyborgsoldierAtk01Hit						-1			1					0	0	0										0							0	1				930501021	801050									0	HitCase		1		1				1													
+93050202	伤害判定	3	1.8	180			0			4			0.1						-1		FxMo1CyborgsoldierAtk02Hit						-1			1					0	0	0										0							0	1				930502021	801050									0	HitCase		1		1				1													
+93050302	伤害判定（枪出手）	1	2	2			40		0	4			0.5			1	1	0	-1		FxMo1CyborgsoldierAtk04Hit			Bip001RHand	FxMo1CyborgsoldierAtk03		-1			1					0	0	0										0							0	1				930503021	801050									0	HitCase		0		0				1													
+93050308	地毯式预警	1	2	20		10	0			4			2	1		1	1	1	-1						FxYujingJu01		-1			1					0	0	0										0							0	1														0	HitCase	1	1		1				0													
+93050703	伤害	1	2	3		0.5	0			4			999						-1	1	FxMo1CyborgsoldierAtk07Hit						-1			1					0	0	0										0							0	1				930507031	801050									0	HitCase		1		1				1													
+93050902	伤害判定（枪出手）	1	2	2			40		0	4			0.5			1	1	1	-1		FxMo1CyborgsoldierAtk04Hit			Bip001RHand	FxMo1CyborgsoldierAtk03		-1			1					0	0	0										0							0	1				930509021	801050									0	HitCase		0		1				1		0											
+93050909	地毯式预警	1	2	20		10	0			4			2	1.5		1	1	1	-1						FxYujingJu01		-1			1					0	0	0										0							0	1														0	HitCase	1	1		1				0													
+93051202	攻击判定1	1	2	3		1	0		0	4			0.1						-1		FxMo1CyborgsoldierAtk12Hit						-1			1					0	0	0										0							0	1				930512021	801050									0	HitCase		1		1				1													
+93060502	攻击判定	1	1	3.5		1	0			4			0.1						-1		FxMo1CyborgsoldierAtk01Hit						-1			1					0	0	0										0							0	1				930605021	801050									0	HitCase		0		1				1													
+93060902	攻击判定	1	1	3		1	0			4			0.1						-1		FxMo1CyborgsoldierAtk01Hit						-1			1					0	0	0										0							0	1				930609021	801050									0	HitCase		0		1				1													
+93061002	攻击判定	1	1	3		1	0			4			0.1						-1		FxMo1CyborgsoldierAtk01Hit						-1			1					0	0	0										0							0	1				930610021	801050									0	HitCase		0		1				1													
+93061102	攻击判定1	1	2	3		1	0			4			0.1						-1		FxMo1CyborgsoldierAtk01Hit						-1			1					0	0	0										0							0	1				930611021	801050									0	HitCase		0		1				1													
+93061103	攻击判定2	1	2	3		1	0			4			0.1						-1		FxMo1CyborgsoldierAtk01Hit						-1			1					0	0	0										0							0	1				930611031	801050									0	HitCase		0		1				1													
+93061104	攻击判定3	3	2	240		0	0			4			0.1						-1		FxMo1CyborgsoldierAtk01Hit						-1			1					0	0	0										0							0	1				930611041	801050									0	HitCase		0		1				1													
+93061202	攻击判定	1	1	3.5		1	0			4			0.1						-1		FxMo1CyborgsoldierAtk01Hit						-1			1					0	0	0										0							0	1				930612021	801050									0	HitCase		0		1				1													
+97600104	左子弹	1	4	16	-3	15	500			4			2						-1					WeaponCase4	FxZhanJianZiDan		-1			1					0	0	0										0							0	1					976002									0	HitCase		0		0				0													
+97600106	右子弹	1	4	16	3	15	500			4			2						-1					WeaponCase4	FxZhanJianZiDan		-1			1					0	0	0										0							0	1					976002									0	HitCase		0		0				0													
+97610102	子弹	1	2	4	0	4	300			4			2.5					1	1		FxMeFeijiAttack03Shouji			HitCase	FxMeFeijiAttack03		-1			1					0	0	0										0							0	1					976003									0	HitCase	1	0		0				0													
+97610202	二周年-天火-小攻击判定	2	3				0			4			0.6						-1								-1			1					0	0	0										3			1	97610203			0	1					778390	778351				778354				0	HitCase		0		1		0.5		0													
+97610203	二周年-天火-小特效	2	0.1				0			4			2						-1						FxCizhuiTianhuo01		-1			1					0	0	0										2							0	1														0	HitCase		0		1				0													
+97610204	二周年-天火-大攻击判定	2	6				0			4			0.6						-1								-1			1					0	0	0										3			1	97610205			0	1					778391	778351				778354				0	HitCase		0		1		0.5		0													
+97610205	二周年-天火-大特效	2	0.1				0			4			2						-1						FxCizhuiTianhuo02		-1			1					0	0	0										2							0	1														0	HitCase		0		1				0													
+97610206	二周年-天火-小号熔岩地表	2	3				0			4			3						-1	1			0.9		FxCizhuiTianhuoquyu01		-1			1					0	0	0										3							0	1					778352									0	HitCase		0		1		1		0													
+97610207	二周年-天火-小打自己	2	0.1				0			3			0.6						-1								-1			1					0	0	0										2							0	1					778353									0	HitCase		0		1				0													
+97610208	二周年-天火-大号熔岩地表	2	6				0			4			3						-1	1			0.5		FxCizhuiTianhuoquyu01		-1			1					0	0	0			1	0	2					3							0	1					778352									0	HitCase		0		1				0													
+97610209	二周年-天火-大打自己	2	0.1				0			3			0.6						-1								-1			1					0	0	0										2							0	1					778353									0	HitCase		0		1		0.5		0													
+97610210	二周年-天火-小炸弹	2	0.5				0			4			3						-1						FxCizhuiMailei		-1			1					0	0	0										1							0	1					778355									0.5	HitCase		1		1		2		0				1									
+97610211	二周年-黑洞-小伤害	2	2				0			4			0.1						-1								-1			1					0	0	0										0							0	1					778490					778460				0	HitCase		1		1				0													
+97610212	二周年-黑洞-小吸取	2	4				0			4			1						-1	1			0.05				-1			1					0	0	0										0							0	1					778491									0	HitCase		1		1				0													
+97610213	二周年-黑洞-大伤害	2	4				0			4			0.1						-1								-1			1					0	0	0										0							0	1					778490					778460				0	HitCase		1		1				0													
+97610214	二周年-黑洞-大吸取	2	8				0			4			1						-1	1			0.05				-1			1					0	0	0										0							0	1					778491									0	HitCase		1		1				0													
+97610215	二周年-黑洞-消失	2	0.1				0			4			3						-1						FxCizhuiHeidongXiaoshi		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+97610216	二周年-黑洞-爆破	2	6				0			4			0.4						-1						FxCizhuiHeidongBaozha		-1			1					0	0	0										0							0	1					778459									0	HitCase		0		1		0.3		0													
+97610217	二周年-黑洞-降低反总伤-小	2	2				0			4			0.1						-1								-1			1					0	0	0										0							0	1					778451	778458								0	HitCase		0		1				0													
+97610218	二周年-黑洞-怪物伤害降低-小	2	4				0			4			999						-1	1			0.05				-1			1					0	0	0										0							0	1					778456									0	HitCase		1		1				0													
+97610219	二周年-黑洞-降低反总伤-大	2	4				0			4			0.1						-1								-1			1					0	0	0										0							0	1					778451	778458								0	HitCase		0		1				0													
+97610220	二周年-黑洞-怪物伤害降低-大	2	8				0			4			999						-1	1			0.05				-1			1					0	0	0										0							0	1					778456									0	HitCase		1		1				0													
+97610221	二周年-控制矩阵-1.5s	2	6				0			4			999						-1	1			1.5		FxCizhuiKongzhijuzhen		-1			1					0	0	0										1							0	1					778591									0	HitCase		0		1				0													
+97610222	二周年-控制矩阵-1s	2	6				0			4			999						-1	1			1		FxCizhuiKongzhijuzhen		-1			1					0	0	0										1							0	1					778591									0	HitCase		0		1				0													
+97610223	二周年-控制矩阵-1.5s带爆炸	2	6				0			4			999						-1	1			1.5		FxCizhuiKongzhijuzhen		-1			1					0	0	0										1	3	3	9999	97610229			0	1					778591									0	HitCase		0		1				0													
+97610224	二周年-控制矩阵-1s带爆炸	2	6				0			4			999						-1	1			1		FxCizhuiKongzhijuzhen		-1			1					0	0	0										1	3	3	9999	97610229			0	1					778591									0	HitCase		0		1				0													
+97610225	二周年-控制矩阵-玩家1.5s	2	6				0			4			99999						-1	1			1.5		FxCizhuiKongzhijuzhen		-1			1					0	0	0										0							0	1					778591									0	HitCase		2		1				0													
+97610226	二周年-控制矩阵-玩家1s	2	6				0			4			99999						-1	1			1		FxCizhuiKongzhijuzhen		-1			1					0	0	0										0							0	1					778591									0	HitCase		2		1				0													
+97610227	二周年-控制矩阵-玩家1.5s带爆炸	2	6				0			4			99999						-1	1			1.5		FxCizhuiKongzhijuzhen		-1			1					0	0	0										0	3	3	9999	97610229			0	1					778591									0	HitCase		2		1				0													
+97610228	二周年-控制矩阵-玩家1s带爆炸	2	6				0			4			99999						-1	1			1		FxCizhuiKongzhijuzhen		-1			1					0	0	0										0	3	3	9999	97610229			0	1					778591									0	HitCase		2		1				0													
+97610229	二周年-控制矩阵-爆炸	2	6				0			4			0.5						-1						FxCizhuiKongzhijuzhenBaozha		-1			1					0	0	0										2							0	1					778592	778564								0	HitCase		1		1				0				1									
+97610230	二周年-控制矩阵-范围判定子弹	2	6				0			7			99999						-1	1			0.05				-1			1					0	0	0										1							0	1					778551	778558	778559							0	HitCase		0		1				0													
+97610231	二周年-控制矩阵-玩家矩阵范围判定子弹	2	6				0			7			99999						-1	1			0.05				-1			1					0	0	0										0							0	1					778551	778558	778559							0	HitCase		2		1				0													
+97610233	素体团	2	2				0			4			10						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				1													
+97610236	二周年-浮游炮-1号伤害判定	2	0.1				0			4			0.5						-1						FxCizhuiFuyoupao01HitCase02		-1			1					0	0	0										1							2	1					778691	778649								0	HitCase		0		1		0.1		0				1									
+97610237	二周年-浮游炮-2号伤害判定	2	0.1				0			4			0.5						-1						FxCizhuiFuyoupao02HitCase02		-1			1					0	0	0										1							2	1					778691	778649								0	HitCase		0		1		0.1		0				1									
+97610238	二周年-浮游炮-3号伤害判定	2	0.1				0			4			0.5						-1						FxCizhuiFuyoupao03HitCase02		-1			1					0	0	0										1							2	1					778691	778649								0	HitCase		0		1		0.1		0				1									
+97610239	二周年-浮游炮-4号伤害判定	2	0.1				0			4			0.5						-1						FxCizhuiFuyoupao04HitCase02		-1			1					0	0	0										1							2	1					778691	778649								0	HitCase		0		1		0.1		0				1									
+97610240	二周年-浮游炮-爆炸伤害判定	2	0.1				0			4			0.1						-1								-1			1					0	0	0										1							0	1					778691									0	HitCase		0		1				0													
+97610241	二周年-浮游炮-1号	2	0.1				0			4			99999						-1						FxCizhuiFuyoupao01HitCase01		-1			1					0	0	0										1	0.5	1.5	99999	97610236			0	1														0	HitCase		1		1				0				1									
+97610242	二周年-浮游炮-2号	2	0.1				0			4			99999						-1						FxCizhuiFuyoupao02HitCase01		-1			1					0	0	0										1	0.5	1.5	99999	97610237			0	1														0	HitCase		1		1				0				1									
+97610243	二周年-浮游炮-3号	2	0.1				0			4			99999						-1						FxCizhuiFuyoupao03HitCase01		-1			1					0	0	0										1	0.5	1.5	99999	97610238			0	1														0	HitCase		1		1				0				1									
+97610244	二周年-浮游炮-4号（玩家）	2	0.1				0			4			99999						-1						FxCizhuiFuyoupao04HitCase01		-1			1					0	0	0										1	0.5	1.5	99999	97610239			0	1														0	HitCase		1		1				0				1									
+97610245	二周年-浮游炮-爆炸	2	3				0			4			2						-1						FxCizhuiFuyoupaoBaozhaHitCase		-1			1					0	0	0										1	0.1		1	97610240			0	1														0.1	HitCase		0		1				0													
+97610246	二周年-浮游炮-1号-1s	2	0.1				0			4			99999						-1						FxCizhuiFuyoupao01HitCase01		-1			1					0	0	0										1	0.5	1	99999	97610236			0	1														0	HitCase		1		1				0				1									
+97610247	二周年-浮游炮-2号-1s	2	0.1				0			4			99999						-1						FxCizhuiFuyoupao02HitCase01		-1			1					0	0	0										1	0.5	1	99999	97610237			0	1														0	HitCase		1		1				0				1									
+97610248	二周年-浮游炮-3号-1s	2	0.1				0			4			99999						-1						FxCizhuiFuyoupao03HitCase01		-1			1					0	0	0										1	0.5	1	99999	97610238			0	1														0	HitCase		1		1				0				1									
+97610249	二周年-浮游炮-4号-1s（玩家）	2	0.1				0			4			99999						-1						FxCizhuiFuyoupao04HitCase01		-1			1					0	0	0										1	0.5	1	99999	97610239			0	1														0	HitCase		1		1				0				1									
+97620102	死亡特效	2	1				0			4			2						-1						FxJianZuBaoZha		-1			1					0	0	0			1	0	3.5					0							0	1														0	HitCase		0		0				0													
+93080102	测试用子弹	2	1				0			4			999						-1								-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93080125	攻击判定-第一下左爪	3	4	120			0			4			0.1						-1		FxMe1WutailongAtkHit			LHand			-1			6					0	0	0										0	0		1	93080129			0	1				930801251	801045									0	HitCase		0		1				1													
+93080126	攻击判定-第二下头	3	4	90			0			4			0.15						-1		FxMe1WutailongAtkHit			MarkCase			-1			6					0	0	0										0							0	1				930801261	801050									0	HitCase		0		1				1													
+93080127	攻击判定-第三下右爪	2	4	90			0			4			0.2						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930801271	801055									0	HitCase		0		1				0													
+93080129	地裂特效	2	0.1		-0.79	5.827	0			4			5						-1						FxMe1WutailongAtk0102		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93080208	攻击判定-第一下左爪	2	4				0			4			0.25						-1		FxMe1WutailongAtkHit			LHand			-1			6					0	0	0										0							0	1				930802081	801045									0	HitCase		0		1				0													
+93080209	攻击判定-第二下右爪	3	4	120			0			4			0.1						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0			1	93080219			0	1				930802091	801055									0	HitCase		0		1				1													
+93080219	地裂特效	2	0.1		0.11	6.36	0			4			5						-1						FxMe1WutailongAtk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93080308	攻击判定-第一下右爪	2	4				0			4			0.1						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930803081	801050									0	HitCase		0		1				0													
+93080309	攻击判定-第二下-右爪跟随	2	4				0			4			0.6						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930803091	801030									0	HitCase		0		1				1													
+93080310	攻击判定-第二下-尾扫跟随	2	4				0			4			0.6						-1		FxMe1WutailongAtkHit			TailBone14			-1			6					0	0	0										0							0	1				930803101	801030									0	HitCase		0		1				0													
+93080311	攻击判定-第三下-双爪	1	6	10		3	0			4			0.1						-1		FxMe1WutailongAtkHit						-1			1					0	0	0										0							0	1				930803111	801060									0	HitCase		0		1				0													
+93080408	攻击判定-第一下-右爪	3	4	180			0			4			0.3						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930804081	801050									0	HitCase		0		1				1													
+93080409	攻击判定-第二下-左爪	3	4	120			0			4			0.1						-1		FxMe1WutailongAtkHit			LHand			-1			6					0	0	0										0			1	93080423			0	1				930804091	801055									0	HitCase		0		1				1													
+93080423	地裂特效	2	0.1		-0.33	8.11	0			4			5						-1						FxMe1WutailongAtk0402		-1			1					0	0	0										0							0	1														0.1	HitCase		0		1				0													
+93080508	黑洞吸入强制位移	3	10	120			0			4			2						-1	1			0.05	MarkCase			-1			6					0	0	0										0							0	1					930575									0	HitCase		0		1				0													
+93080605	咬人子弹	2	2				0			4			0.1						-1					RealHitCase			-1			6					0	0	0										0							0	1					801080									0	HitCase		0		1				0													
+93080606	嚼人子弹	2	2				0			4			0.1						-1					RealHitCase			-1			6					0	0	0										0							0	1					801020									0	HitCase		0		1				0													
+93080607	嚼人子弹	2	2				0			4			0.1						-1					RealHitCase			-1			6					0	0	0										0							0	1					801020									0	HitCase		0		1				0													
+93080702	强制位移子弹	2	10				0			4			1						-1	1			0				-1			1					0	0	0										0							0	1					930807									0	HitCase		0		1				0													
+93080703	喷火/伤害子弹-跟随头	3	13	10			0		50	4			1.5						-1	1			0.05				-1			2	-60	0	0	0	0	0	0										0							0	1					801005									0	HitCase		2		1				1				1									
+93080807	赛琳娜打子弹到龙身上	2	0.1	0.05		2	80			4		1	1		1				-1								-1			5	0	120	0	100	628.318	-1	5	0	0	1	0	0.5					0							1	1														0	HitCase		0		1				0													
+93080809	赛琳娜护盾缩放子弹	2	0.1				0			4			0.5		1				-1						FxMe1WutailongDun		-1			1					0	0	0			1	2	0					0	0.5		1	93080810			0	1														0	HitCase		0		1				0													
+93080810	赛琳娜护盾持久子弹	2	0.1				0			4			-1						-1						FxMe1WutailongDun		-1			1					0	0	0										0			1	93080811			0	1														0	HitCase		1		1				0													
+93080811	赛琳娜身体中心子弹	2	0.1			0.1	0			4			-1						-1								-1			1					0	0	0			1	0	0.2					0							0	1														5	HitCase		1		1				0													
+93080813	中心岩浆子弹	2	3				0			4			5						-1						FxMe1WutailongDiHuo		-1			1					0	0	0			1	0	1					3							0	1					801050									0	HitCase		0		1		2.8		0													
+93080815	中心灼烧地表-伤害	2	2				0			4			-1						-1	1			0.5				-1			1					0	0	0			1	0	1.2					3		5	-1	93080816			0	1					930554									0	HitCase		0		1				0													
+93080816	中心灼烧地表-特效	2	2				0			4			10						-1	1			0.5		FxMe1WutailongLu		-1			1					0	0	0			1	0	1.2					3							0	1														0	HitCase		0		1				0													
+93080817	中心岩浆持续子弹	2	0.1				0			4			-1						-1								-1			1					0	0	0										3	15	10	-1	93080818			0	1														0	HitCase		0		1				0													
+93080818	中心岩浆子弹	2	3				0			4			5						-1						FxMe1WutailongDiHuo		-1			1					0	0	0			1	0	1.5					2							0	1					801050									0	HitCase		0		1		2.8		0													
+93081111	自身攻击判定	2	3				0			6			1						-1								-1			2	360				0	0	0										0		0.17	7	93081112			0	1				930811111										0	HitCase		1		1				1													
+93081112	留下火径	2	0.1				0			4			10					1	-1						FxMe1WutailongLu		-1			1					0	0	0										2			1	93081113			3	1					801050									0	HitCase		0		1				0													
+93081113	火径伤害	2	2				0			6			5						-1	1			1				-1			1					0	0	0										0							0	1					930554									0	HitCase		0		1				0													
+93081202	地火特效	2	0.1				0			4			4						-1						FxMe1WutailongDiHuo		-1			1					0	0	0										2							0	1														0	HitCase		0		0				0													
+93081203	地火伤害	2	2.5			0	0			4			2.9						-1								-1			1					0	0	0										2			1	93081202			1	1				930812031	801050									0.5	HitCase	1	0		0		2.8		1													
+93081204	第1发-发射器	2	2.5			0	0			4			20						-1								-1			1					0	0	0										1	4		1	93081203			0	1														0.5	HitCase	1	1		0				0				1									
+93081205	第2发-发射器	2	2.5			0	0			4			20						-1								-1			1					0	0	0										1	5.5		1	93081203			0	1														0.5	HitCase	1	1		0				0				1									
+93081206	第3发-发射器	2	2.5			0	0			4			20						-1								-1			1					0	0	0										1	7		1	93081203			0	1														0.5	HitCase	1	1		0				0				1									
+93081207	第4发-发射器	2	2.5			0	0			4			20						-1								-1			1					0	0	0										1	8.5		1	93081203			0	1														0.5	HitCase	1	1		0				0				1									
+93081208	第5发-发射器	2	0.1				0			4			20						-1								-1			1					0	0	0										1	10		1	93081203			0	1														0.5	HitCase	1	1		0				0				1									
+93081209	第6发-发射器	2	0.1				0			4			20						-1								-1			1					0	0	0										1	11.5		1	93081203			0	1														0.5	HitCase	1	1		0				0				1									
+93081302	龙蛋-飞行子弹	2	0.5				30			2			2		1				1						FxMe1WutailongDan02		-1			1					0	0	0			1	0	2					1	999999		1	93081303	1		1	1										930840				0	HitCase		0		0				0													
+93081303	龙蛋-爆炸子弹	2	2				0			4			3						-1						FxMe1WutailongDan03		-1			1					0	0	0			1	0	2					3	0.6		1	93081305			0	1														0	HitCase		0		0				0													
+93081304	龙蛋-飞行直接爆炸子弹	2	2				0			4			3						-1						FxMe1WutailongDan03		-1			1					0	0	0			1	0	2					3	0.2		1	93081305			0	1														0	HitCase		0		0				0		0											
+93081305	龙蛋-伤害子弹	2	2				0			2			3						-1		FxJianZuBaoZha						-1			1					0	0	0										3							0	1					801050									0	HitCase		0		0				0													
+93081306	赛琳娜传递伤害给龙	2	0.1				30			4		1	3						-1						FxMe1WutailongDun01EffectCase1		-1			9	0	0	0	0.5	5	0	0										0							5	1														0	HitCase		0		1				0													
+93081402	流星-特效	2	0.1			0	0			4			10						-1						FxMe1WutailongYunShi		-1			1					0	0	0										2	0.35		1	93081403			2	1														0	HitCase		0		1				0													
+93081403	流星-伤害	2	3.5			0	0			6			0.1						-1								-1			1					0	0	0										2							2	1				930814031	801050									0.5	HitCase		0		0				1													
+93081404	流星-追踪器	2	3.5				0			6			2						-1						FxYujing1M08S		-1			1					0	0	0										1	0.8		1	93081402			1	1														0	HitCase	1	1		0				0				1									
+93081405	第1发-发射器	2	0.1			0	0			6			10						-1								-1			1					0	0	0										1	0		1	93081404			0	1														0	HitCase		1		0				0													
+93081406	第2发-发射器	2	0.1			0	0			6			10						-1								-1			1					0	0	0										1	1.5		1	93081404			0	1														0	HitCase		1		0				0													
+93081407	第3发-发射器	2	0.1			0	0			6			10						-1								-1			1					0	0	0										1	3		1	93081404			0	1														0	HitCase		1		0				0													
+93081408	第4发-发射器	2	0.1			0	0			6			10						-1								-1			1					0	0	0										1	4.5		1	93081404			0	1														0	HitCase		1		0				0													
+93081409	第5发-发射器	2	0.1			0	0			6			10						-1								-1			1					0	0	0										1	6		1	93081404			0	1														0	HitCase		1		0				0													
+93081410	第6发-发射器	2	0.1			0	0			6			10						-1								-1			1					0	0	0										1	7.5		1	93081404			0	1														0	HitCase		1		0				0													
+93081419	流星-追踪器	2	3.5				0			4			2						-1						FxYujing1M08S		-1			1					0	0	0										3	0.8		1	93081402			1	1														0	HitCase	1	1		0				0													
+93081507	由行为树召唤的持续场景特效子弹	2	0.1				0			4			999						-1						FxMe1WutailongSc		-1			1					0	0	0										3							0	1														0	HitCase		0		1				0													
+93081509	地火1（舞台中心位置，固定210帧定位）	2	0.1		-6	24	0			4			30						-1								-1			1					0	0	0										0	0		1	93081203			0	1														0	HitCase		0		0				0													
+93081510	地火2	2	0.1		0	12	0			4			30						-1								-1			1					0	0	0										0	1		1	93081203			0	1														0	HitCase		0		0				0													
+93081511	地火3	2	0.1		-12	36	0			4			30						-1								-1			1					0	0	0										0	1.5		1	93081203			0	1														0	HitCase		0		0				0													
+93081512	地火4	2	0.1		6	6	0			4			30						-1								-1			1					0	0	0										0	2		1	93081203			0	1														0	HitCase		0		0				0													
+93081513	地火5	2	0.1		-18	42	0			4			30						-1								-1			1					0	0	0										0	2.5		1	93081203			0	1														0	HitCase		0		0				0													
+93081514	地火6	2	0.1		-12	18	0			4			30						-1								-1			1					0	0	0										0	3		1	93081203			0	1														0	HitCase		0		0				0													
+93081515	流星1	2	0.1		-7	10	0			4			30						-1								-1			1					0	0	0										0	0.5		1	93081402			0	1														0	HitCase		0		0				0													
+93081516	流星2	2	0.1		10	39	0			4			30						-1								-1			1					0	0	0										0	1		1	93081402			0	1														0	HitCase		0		0				0													
+93081517	流星3	2	0.1		1	22	0			4			30						-1								-1			1					0	0	0										0	1.5		1	93081402			0	1														0	HitCase		0		0				0													
+93081518	流星4	2	0.1		8	6	0			4			30						-1								-1			1					0	0	0										0	2		1	93081402			0	1														0	HitCase		0		0				0													
+93081519	流星5	2	0.1		-17	12	0			4			30						-1								-1			1					0	0	0										0	2.5		1	93081402			0	1														0	HitCase		0		0				0													
+93081520	流星6	2	0.1		-12	18	0			4			30						-1								-1			1					0	0	0										0	3		1	93081402			0	1														0	HitCase		0		0				0													
+93081521	圆周-流星1	2	0.1		-6	30	0		0	4			30						-1								-1			1					0	0	0										0	4		1	93081402			0	1														0	HitCase		0		0				0													
+93081522	圆周-流星2	2	0.1		4.2	18	0		120	4			30						-1								-1			1					0	0	0										0	4.2		1	93081402			0	1														0	HitCase		0		0				0													
+93081523	圆周-流星3	2	0.1		-10	18	0			4			30						-1								-1			1					0	0	0										0	4.4		1	93081402			0	1														0	HitCase		0		0				0													
+93081524	圆周-流星4	2	0.1		4.2	27	0			4			30						-1								-1			1					0	0	0										0	4.6		1	93081402			0	1														0	HitCase		0		0				0													
+93081525	圆周-流星5	2	0.1		-6	12	0			4			30						-1								-1			1					0	0	0										0	4.8		1	93081402			0	1														0	HitCase		0		0				0													
+93081526	圆周-流星6	2	0.1		-10	27	0			4			30						-1								-1			1					0	0	0										0	5		1	93081402			0	1														0	HitCase		0		0				0													
+93081527	圆周-地火1	2	0.1		6	24	0			4			30						-1								-1			1					0	0	0										0	4		1	93081203			0	1														0	HitCase		0		0				0													
+93081528	圆周-地火2	2	0.1		-16	24	0			4			30						-1								-1			1					0	0	0										0	4		1	93081203			0	1														0	HitCase		0		0				0													
+93081529	圆周-地火3	2	0.1		4	18	0			4			30						-1								-1			1					0	0	0										0	4		1	93081203			0	1														0	HitCase		0		0				0													
+93081530	圆周-地火4	2	0.1		-14	30	0			4			30						-1								-1			1					0	0	0										0	4		1	93081203			0	1														0	HitCase		0		0				0													
+93081531	圆周-地火5	2	0.1		2	12	0			4			30						-1								-1			1					0	0	0										0	4		1	93081203			0	1														0	HitCase		0		0				0													
+93081532	圆周-地火6	2	0.1		-12	36	0			4			30						-1								-1			1					0	0	0										0	4		1	93081203			0	1														0	HitCase		0		0				0													
+93081533	圆周-地火7	2	0.1		0	40	0			4			30						-1								-1			1					0	0	0										0	4		1	93081203			0	1														0	HitCase		0		0				0													
+93081534	圆周-地火8	2	0.1		-10	8	0			4			30						-1								-1			1					0	0	0										0	4		1	93081203			0	1														0	HitCase		0		0				0													
+93082124	攻击判定-第一下左爪	3	4	120			0			4			0.1						-1		FxMe1WutailongAtkHit			LHand			-1			6					0	0	0										0	0		1	93082128			0	1				930821241	801045									0	HitCase		0		1				1													
+93082125	攻击判定-第二下头	3	4	90			0			4			0.15						-1		FxMe1WutailongAtkHit			MarkCase			-1			6					0	0	0										0							0	1				930821251	801050									0	HitCase		0		1				1													
+93082126	攻击判定-第三下右爪	2	4	90			0			4			0.2						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930821261	801055									0	HitCase		0		1				1													
+93082128	地裂特效	2	0.1		-0.79	5.827	0			4			5						-1						FxMe1WutailongAtk2102		-1			1					0	0	0										0							0	1														0.2	HitCase		0		1				0													
+93082208	攻击判定-第一下左爪	2	4				0			4			0.25						-1		FxMe1WutailongAtkHit			LHand			-1			6					0	0	0										0							0	1				930822081	801045									0	HitCase		0		1				1													
+93082209	攻击判定-第二下右爪	3	4	120			0			4			0.1						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0			1	93082219			0	1				930822091	801055									0	HitCase		0		1				1													
+93082219	地裂特效	2	0.1		0.11	6.36	0			4			5						-1						FxMe1WutailongAtk1302		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93082308	攻击判定-第一下右爪	2	4				0			4			0.3						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930823081	801050									0	HitCase		0		1				1													
+93082311	攻击判定-第三下-双爪	1	6	10		3	0			4			0.1						-1		FxMe1WutailongAtkHit						-1			1					0	0	0										0							0	1				930823111	801060									0	HitCase		0		1				1													
+93082408	攻击判定-第一下-右爪	3	4	180			0			4			0.1						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930824081	801050									0	HitCase		0		1				1													
+93082422	攻击特效	2	0.1				0			4			2						-1						FxMe1WutailongAtk0401		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93082604	流星-追踪器	2	3.5				0			4			2						-1						FxYujing1M08S		-1			1					0	0	0										1	0.8		1	93082615			1	1														0.1	HitCase	1	0		0				0				1									
+93082605	流星-第1发	2	0.1				0			4			10						-1								-1			1					0	0	0										1	0		1	93082604			0	1														0	HitCase		0		0				0													
+93082606	流星-第2发	2	0.1				0			4			10						-1								-1			1					0	0	0										1	0.5		1	93082604			0	1														0	HitCase		0		0				0													
+93082607	流星-第3发	2	0.1				0			4			10						-1								-1			1					0	0	0										1	1		1	93082604			0	1														0	HitCase		0		0				0													
+93082608	流星-第4发	2	0.1				0			4			10						-1								-1			1					0	0	0										1	1.5		1	93082604			0	1														0	HitCase		0		0				0													
+93082609	流星-第5发	2	0.1				0			4			10						-1								-1			1					0	0	0										1	2		1	93082604			0	1														0	HitCase		0		0				0													
+93082610	地火-第1发	2	0.1		2	8	0			4			10						-1								-1			1					0	0	0										0	0.1		1	93081203			0	1														0	HitCase		0		0				0													
+93082611	地火-第2发	2	0.1		-3	6	0			4			10						-1								-1			1					0	0	0										0	0.2		1	93081203			0	1														0	HitCase		0		0				0													
+93082612	地火-第3发	2	0.1		-7	15	0			4			10						-1								-1			1					0	0	0										0	0.3		1	93081203			0	1														0	HitCase		0		0				0													
+93082613	地火-第4发	2	0.1		9	7	0			4			10						-1								-1			1					0	0	0										0	0.4		1	93081203			0	1														0	HitCase		0		0				0													
+93082614	地火-第5发	2	0.1		10	-1	0			4			10						-1								-1			1					0	0	0										0	0.5		1	93081203			0	1														0	HitCase		0		0				0													
+93082615	流星-特效	2	0.1			0	0			4			10						-1						FxMe1WutailongYunShi		-1			1					0	0	0										2	0.35		1	93082616			2	1														0	HitCase		0		1				0													
+93082616	流星-伤害	2	3.5			0	0			4			0.1						-1								-1			1					0	0	0										2							2	1				930826161	801050									0.5	HitCase		0		0				1													
+93083508	黑洞吸入强制位移	3	50	150			0			4			999						-1	1			0.05	MarkCase			-1			6					0	0	0										0							0	1					930534									0	HitCase		0		1				0													
+93090102	测试用子弹	2	1				0			4			999						-1								-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090125	攻击判定-第一下左爪	3	4	120			0			4			0.1						-1		FxMe1WutailongAtkHit			LHand			-1			6					0	0	0										0							0	1				930901251	801045									0	HitCase		0		1				1													
+93090126	攻击判定-第二下头	3	4	90			0			4			0.15						-1		FxMe1WutailongAtkHit			MarkCase			-1			6					0	0	0										0							0	1				930901261	801050									0	HitCase		0		1				1													
+93090127	攻击判定-第三下右爪	2	4	90			0			4			0.2						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930901271	801055									0	HitCase		0		1				1													
+93090130	攻击特效子弹	2	0.1				0			4			6.5						-1						FxMe1WutailongAtk0101		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090131	攻击特效子弹（火）	2	0.1				0			4			6.5						-1						FxMe1WutailongAtk0101Huo		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090132	攻击特效子弹（雷）	2	0.1				0			4			6.5						-1						FxMe1WutailongAtk0101Lei		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090133	攻击特效子弹（冰）	2	0.1				0			4			6.5						-1						FxMe1WutailongAtk0101Bing		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090134	攻击特效子弹（暗）	2	0.1				0			4			6.5						-1						FxMe1WutailongAtk0101An		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090135	地裂特效	2	0.1		-0.79	5.827	0			4			5						-1						FxMe1WutailongAtk0102		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93090136	地裂特效（火）	2	0.1		-0.79	5.827	0			4			5						-1						FxMe1WutailongAtkdilieHuo		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93090137	地裂特效（雷）	2	0.1		-0.79	5.827	0			4			5						-1						FxMe1WutailongAtkdilieLei		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93090138	地裂特效（冰）	2	0.1		-0.79	5.827	0			4			5						-1						FxMe1WutailongAtkdilieBing		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93090139	地裂特效（暗）	2	0.1		-0.79	5.827	0			4			5						-1						FxMe1WutailongAtkdilieAn		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93090140	衍生子弹（火）	2	0.1				0			4			10						-1						FxMe1WutailongDiHuoFire		-1			1					0	0	0										3	0.5		1	93090144			0	1														0	HitCase		0		1				0													
+93090141	衍生子弹（雷）	2	0.1				0			4			10						-1						FxMe1WutailongDiHuoLei		-1			1					0	0	0										3	0		1	93090144			0	1														0.2	HitCase		0		1				0													
+93090142	衍生子弹（冰）	2	0.1				0			4			10						-1						FxMe1WutailongDiHuoBing		-1			1					0	0	0										3	0		1	93090144			0	1														0	HitCase		0		1				0													
+93090143	衍生子弹（暗）	2	0.1				0			4			10						-1						FxMe1WutailongDiHuoAn		-1			1					0	0	0										3	0		1	93090144			0	1														0	HitCase		0		1				0													
+93090144	伤害子弹	2	2				0			4			0.1						-1								-1			1					0	0	0										2							2	1				930901441	801025									0	HitCase		0		1				1													
+93090208	攻击判定-第一下左爪	2	4				0			4			0.25						-1		FxMe1WutailongAtkHit			LHand			-1			6					0	0	0										0							0	1				930902081	801045									0	HitCase		0		1				1													
+93090209	攻击判定-第二下右爪	3	4	120			0			4			0.1						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930902091	801055									0	HitCase		0		1				1													
+93090220	攻击特效子弹	2	0.1				0			4			4.8						-1						FxMe1WutailongAtk0201		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0		0											
+93090221	攻击特效子弹（火）	2	0.1				0			4			4.8						-1						FxMe1WutailongAtk0201Huo		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0		0											
+93090222	攻击特效子弹（雷）	2	0.1				0			4			4.8						-1						FxMe1WutailongAtk0201Lei		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0		0											
+93090223	攻击特效子弹（冰）	2	0.1				0			4			4.8						-1						FxMe1WutailongAtk0201Bing		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0		0											
+93090224	攻击特效子弹（暗）	2	0.1				0			4			4.8						-1						FxMe1WutailongAtk0201An		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0		0											
+93090225	地裂特效	2	0.1		0.11	6.36	0			4			5						-1						FxMe1WutailongAtk0202		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93090226	地裂特效（火）	2	0.1		0.11	6.36	0			4			5						-1						FxMe1WutailongAtkdilieHuo		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93090227	地裂特效（雷）	2	0.1		0.11	6.36	0			4			5						-1						FxMe1WutailongAtkdilieLei		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93090228	地裂特效（冰）	2	0.1		0.11	6.36	0			4			5						-1						FxMe1WutailongAtkdilieBing		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93090229	地裂特效（暗）	2	0.1		0.11	6.36	0			4			5						-1						FxMe1WutailongAtkdilieAn		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93090308	攻击判定-第一下右爪	2	4				0			4			0.1						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930903081	801050									0	HitCase		0		1				1													
+93090309	攻击判定-第二下-右爪跟随	2	4				0			4			0.6						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930903091	801030									0	HitCase		0		1				1													
+93090310	攻击判定-第二下-尾扫跟随	2	4				0			4			0.6						-1		FxMe1WutailongAtkHit			TailBone14			-1			6					0	0	0										0							0	1				930903101	801030									0	HitCase		0		1				1													
+93090311	攻击判定-第三下-双爪	1	6	10		3	0			4			0.1						-1		FxMe1WutailongAtkHit						-1			1					0	0	0										0							0	1				930903111	801060									0	HitCase		0		1				1													
+93090332	攻击特效子弹	2	0.1				0			4			5.3						-1						FxMe1WutailongAtk0301		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090333	攻击特效子弹（火）	2	0.1				0			4			5.3						-1						FxMe1WutailongAtk0301Huo		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090334	攻击特效子弹（雷）	2	0.1				0			4			5.3						-1						FxMe1WutailongAtk0301Lei		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090335	攻击特效子弹（冰）	2	0.1				0			4			5.3						-1						FxMe1WutailongAtk0301Bing		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090336	攻击特效子弹（暗）	2	0.1				0			4			5.3						-1						FxMe1WutailongAtk0301An		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090408	攻击判定-第一下-右爪	2	5	180			0			4			0.3						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930904081	801050									0	HitCase		0		1				1													
+93090409	攻击判定-第二下-左爪	3	5	210			0			4			0.15						-1		FxMe1WutailongAtkHit			LHand			-1			6					0	0	0										0							0	1				930904091	801055									0	HitCase		0		1				1													
+93090427	攻击特效子弹	2	0.1				0			4			5.1						-1						FxMe1WutailongAtk0401		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090428	攻击特效子弹（火）	2	0.1				0			4			5.1						-1						FxMe1WutailongAtk0401Huo		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090429	攻击特效子弹（雷）	2	0.1				0			4			5.1						-1						FxMe1WutailongAtk0401Lei		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090430	攻击特效子弹（冰）	2	0.1				0			4			5.1						-1						FxMe1WutailongAtk0401Bing		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090431	攻击特效子弹（暗）	2	0.1				0			4			5.1						-1						FxMe1WutailongAtk0401An		-1			1					0	0	0										0							0	1														0	HitCase		1		1				0													
+93090432	地裂特效	2	0.1		-0.33	8.11	0			4			5						-1						FxMe1WutailongAtk0402		-1			1					0	0	0										0							0	1														0.2	HitCase		0		1				0													
+93090433	地裂特效（火）	2	0.1		-0.33	8.11	0			4			5						-1						FxMe1WutailongAtkdilieHuo		-1			1					0	0	0										0							0	1														0.2	HitCase		0		1				0													
+93090434	地裂特效（雷）	2	0.1		-0.33	8.11	0			4			5						-1						FxMe1WutailongAtkdilieLei		-1			1					0	0	0										0							0	1														0.2	HitCase		0		1				0													
+93090435	地裂特效（冰）	2	0.1		-0.33	8.11	0			4			5						-1						FxMe1WutailongAtkdilieBing		-1			1					0	0	0										0							0	1														0.2	HitCase		0		1				0													
+93090436	地裂特效（暗）	2	0.1		-0.33	8.11	0			4			5						-1						FxMe1WutailongAtkdilieAn		-1			1					0	0	0										0							0	1														0.2	HitCase		0		1				0													
+93090508	黑洞吸入强制位移	3	10	120			0			4			2						-1	1			0.05	MarkCase			-1			6					0	0	0										0							0	1					930575									0	HitCase		0		1				0													
+93090605	咬人子弹	2	2				0			4			0.1						-1					RealHitCase			-1			6					0	0	0										0							0	1					801060									0	HitCase		0		1				0													
+93090606	嚼人子弹	2	2				0			4			0.1						-1					RealHitCase			-1			6					0	0	0										0							0	1					801015									0	HitCase		0		1				0													
+93090607	嚼人子弹	2	2				0			4			0.1						-1					RealHitCase			-1			6					0	0	0										0							0	1					801015									0	HitCase		0		1				0													
+93090702	强制位移子弹	2	10				0			4			1						-1	1			0				-1			1					0	0	0										0							0	1					930807									0	HitCase		0		1				0													
+93090703	喷火/伤害子弹-跟随头	3	13	10			0		50	4			1.5						-1	1			0.05				-1			2	-60	0	0	0	0	0	0										0							0	1					801005									0	HitCase		2		1				1				1									
+93091502	审判特效	2	0.1				0			4			10						-1						FxMe1WutailongAtkBao		-1			1					0	0	0										3							4	1														0	HitCase		0		1				0													
+93091503	审判子弹	2	99				0			4			0.2						-1								-1			1					0	0	0										3	0		1	93091512			4	2				930915031	930972									0	HitCase		0		1				0													
+93091507	由行为树召唤的持续场景特效子弹	2	0.1				0			4			999						-1						FxMe1WutailongSc		-1			1					0	0	0										3							0	1														0	HitCase		0		1				0													
+93091512	审判附加特效	2	0.1				0			4			10						-1						FxMe1WutailongAtkBao1		-1			1					0	0	0			1	0	2					2							2	1														0	HitCase		0		1				0													
+93091519	5s持续伤害子弹	2	999				0			4			5						-1	1			0.5				-1			1					0	0	0										3							4	1					930973									0	HitCase		0		1				0													
+93092124	攻击判定-第一下左爪	3	4	120			0			4			0.1						-1		FxMe1WutailongAtkHit			LHand			-1			6					0	0	0										0	0		1	93082128			0	1				930921241	801045									0	HitCase		0		1				1													
+93092125	攻击判定-第二下头	3	4	90			0			4			0.15						-1		FxMe1WutailongAtkHit			MarkCase			-1			6					0	0	0										0							0	1				930921251	801050									0	HitCase		0		1				1													
+93092126	攻击判定-第三下右爪	2	4	90			0			4			0.2						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930921261	801055									0	HitCase		0		1				1													
+93092128	地裂特效	2	0.1		-0.79	5.827	0			4			5						-1						FxMe1WutailongAtk2102		-1			1					0	0	0										0							0	1														0.2	HitCase		0		1				0													
+93092208	攻击判定-第一下左爪	2	4				0			4			0.25						-1		FxMe1WutailongAtkHit			LHand			-1			6					0	0	0										0							0	1				930922081	801045									0	HitCase		0		1				1													
+93092209	攻击判定-第二下右爪	3	4	120			0			4			0.1						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0			1	93082219			0	1				930922091	801055									0	HitCase		0		1				1													
+93092219	地裂特效	2	0.1		0.11	6.36	0			4			5						-1						FxMe1WutailongAtk1302		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93092308	攻击判定-第一下右爪	2	4				0			4			0.3						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930923081	801050									0	HitCase		0		1				1													
+93092311	攻击判定-第三下-双爪	1	6	10		3	0			4			0.1						-1		FxMe1WutailongAtkHit						-1			1					0	0	0										0							0	1				930923111	801060									0	HitCase		0		1				1													
+93092408	攻击判定-第一下-右爪	3	4	180			0			4			0.1						-1		FxMe1WutailongAtkHit			RHand			-1			6					0	0	0										0							0	1				930924081	801050									0	HitCase		0		1				1													
+93092422	攻击特效	2	0.1				0			4			2						-1						FxMe1WutailongAtk0401		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93092604	流星-追踪器	2	3.5				0			4			2						-1						FxYujing1M08S		-1			1					0	0	0										1	0.8		1	93082615			1	1														0.1	HitCase	1	0		0				0				1									
+93092605	流星-第1发	2	0.1				0			4			10						-1								-1			1					0	0	0										1	0		1	93082604			0	1														0	HitCase		0		0				0													
+93092606	流星-第2发	2	0.1				0			4			10						-1								-1			1					0	0	0										1	0.5		1	93082604			0	1														0	HitCase		0		0				0													
+93092607	流星-第3发	2	0.1				0			4			10						-1								-1			1					0	0	0										1	1		1	93082604			0	1														0	HitCase		0		0				0													
+93092608	流星-第4发	2	0.1				0			4			10						-1								-1			1					0	0	0										1	1.5		1	93082604			0	1														0	HitCase		0		0				0													
+93092609	流星-第5发	2	0.1				0			4			10						-1								-1			1					0	0	0										1	2		1	93082604			0	1														0	HitCase		0		0				0													
+93092610	地火-第1发	2	0.1		2	8	0			4			10						-1								-1			1					0	0	0										0	0.1		1	93081203			0	1														0	HitCase		0		0				0													
+93092611	地火-第2发	2	0.1		-3	6	0			4			10						-1								-1			1					0	0	0										0	0.2		1	93081203			0	1														0	HitCase		0		0				0													
+93092612	地火-第3发	2	0.1		-7	15	0			4			10						-1								-1			1					0	0	0										0	0.3		1	93081203			0	1														0	HitCase		0		0				0													
+93092613	地火-第4发	2	0.1		9	7	0			4			10						-1								-1			1					0	0	0										0	0.4		1	93081203			0	1														0	HitCase		0		0				0													
+93092614	地火-第5发	2	0.1		10	-1	0			4			10						-1								-1			1					0	0	0										0	0.5		1	93081203			0	1														0	HitCase		0		0				0													
+93092615	流星-特效	2	0.1			0	0			4			10						-1						FxMe1WutailongYunShi		-1			1					0	0	0										2	0.35		1	93082616			2	1														0	HitCase		0		1				0													
+93092616	流星-伤害	2	3.5			0	0			4			0.1						-1								-1			1					0	0	0										2							2	1				930926161	801050									0.5	HitCase		0		0				1													
+93120103	攻击判定1	3	3	180			0			4			0.1						-1		FxMe1DrummerAtk01AHit						-1			1					0	0	0										0							0	1				931201031	931220	801020								0	HitCase		0		1				1													
+93120105	攻击判定2	3	3	180			0			4			0.1						-1		FxMe1DrummerAtk01BHit						-1			1					0	0	0										0							0	1				931201051	931220	801020								0	HitCase		0		1				1													
+93120108	砸地特效2	2	0.1				0			4			10						-1						FxMe1DrummerAtk01Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93120203	攻击判定1-下压踢	1	2	3		1.5	0			4			0.1						-1		FxMe1DrummerAtk02AHit						-1			1					0	0	0										0							0	1				931202031	931221	801020								0	HitCase		0		1				1													
+93120204	攻击判定2-斜扫踢	3	3	180			0			4			0.1						-1		FxMe1DrummerAtk02BHit						-1			1					0	0	0										0							0	1				931202041	931220	801020								0	HitCase		0		1				1													
+93120206	拼刀失败子弹	1	2	3		1.5	0			4			0.1						-1		FxMe1DrummerAtk02CHit						-1			1					0	0	0										0							0	1				931202061	931219	801040								0	HitCase		0		1				1													
+93120207	拼刀判断窗口	1	2	3		1.5	0			4			0.2						-1								-1			1					0	0	0										0							0	1										777322				0	HitCase		0		1				0													
+93120212	砸地特效1	2	0.1				0			4			10						-1						FxMe1DrummerAtk0201Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93120213	砸地特效2	2	0.1				0			4			10						-1						FxMe1DrummerAtk0202Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93120214	砸地特效3	2	0.1				0			4			10						-1						FxMe1DrummerAtk0203Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93120303	攻击判定	1	2	3		1.5	0			4			0.1						-1		FxMe1DrummerAtk03Hit						-1			1					0	0	0										0							0	1				931203031	931221	801020								0	HitCase		0		1				1													
+93120403	1攻击判定	1	2	2		1	0			4			0.1						-1		FxMe1DrummerAtk04AHit						-1			1					0	0	0										0							0	1				931204031	931217	801020								0	HitCase		0		1				1													
+93120405	2攻击判定	1	2	2		1	0			4			0.1						-1		FxMe1DrummerAtk04AHit						-1			1					0	0	0										0							0	1				931204051	931217	801020								0	HitCase		0		1				1													
+93120407	3攻击判定	1	1	2		1	0			4			0.1						-1		FxMe1DrummerAtk03Hit						-1			1					0	0	0										0							0	1				931204071	931218	801040								0	HitCase		0		1				1													
+93120503	攻击判定	1	2	3		1.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931205031	931219	801040								0	HitCase		0		1				1													
+93120506	地裂特效	2	0.1				0			4			10						-1		FxMe1DrummerAtk05Hit				FxMe1DrummerAtk05Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93120705	攻击判定-横扫	3	3	180			0			4			0.1						-1		FxMe1DrummerAtk07Hit						-1			1					0	0	0										0							0	1				931207051	931220	801015								0	HitCase		0		1				1													
+93120706	攻击判定-滞空旋转1	1	1	3		1.5	0			4			0.1						-1		FxMe1DrummerAtk07Hit						-1			1					0	0	0										0							0	1				931207061	931220	801015								0	HitCase		0		1				1													
+93120707	攻击判定-滞空旋转2+砸地	1	2	3		1.5	0			4			0.1						-1		FxMe1DrummerAtk07Hit						-1			1					0	0	0										0							0	1				931207071	931218	801030								0	HitCase		0		1				1													
+93120710	子子弹-自己把自己打飞	2	0.3				0			1			0.1						-1								-1			1					0	0	0										0							0	1				931207101										0	HitCase		0		1				0													
+93120712	攻击判定2-砸地	2	0.1				0			4			4						-1						FxMe1DrummerAtk07Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93120802	攻击判定1-前甩1	1	2	2.5		1.25	0			4			0.1						-1		FxMe1DrummerAtk08Hit						-1			1					0	0	0										0							0	1				931208021	931220	801005								0	HitCase		0		1				1													
+93120803	攻击判定2-右向左甩	1	2	2.5		1.25	0			4			0.1						-1		FxMe1DrummerAtk08Hit						-1			1					0	0	0										0							0	1				931208031	931220	801005								0	HitCase		0		1				1													
+93120804	攻击判定3-左向右甩	1	2	2.5		1.25	0			4			0.1						-1		FxMe1DrummerAtk08Hit						-1			1					0	0	0										0							0	1				931208041	931220	801005								0	HitCase		0		1				1													
+93120805	攻击判定4-上抽	1	2	2.5		1.25	0			4			0.1						-1		FxMe1DrummerAtk08Hit						-1			1					0	0	0										0							0	1				931208051	931220	801010								0	HitCase		0		1				1													
+93120806	攻击判定5-下抽	1	2	2.5		1.25	0			4			0.1						-1		FxMe1DrummerAtk08Hit						-1			1					0	0	0										0							0	1				931208061	931220	801010								0	HitCase		0		1				1													
+93120807	攻击判定6-下踢腿	1	2	2.5		1.25	0			4			0.1						-1		FxMe1DrummerAtk04AHit						-1			1					0	0	0										0							0	1				931208071	931221	801020								0	HitCase		0		1				1													
+93120808	攻击判定7-横扫腿	1	2	2.5		1.25	0			4			0.1						-1		FxMe1DrummerAtk04AHit						-1			1					0	0	0										0							0	1				931208081	931221	801020								0	HitCase		0		1				1													
+93120818	攻击特效3-砸地特效	2	0.1				0			4			10						-1						FxMe1DrummerAtk0802Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93120902	攻击判定	1	2	3		1.5	0			4			0.1						-1		FxMe1DrummerAtk09Hit						-1			1					0	0	0										0							0	1				931209021	931218	801040								0	HitCase		0		1				1													
+93121004	持续环形特效	2	0.1				0			4			9999						-1						FxMb1RapperYinLang		-1			1					0	0	0			1	0	0.3					0							0	1														0.2	HitCase		0		1				0													
+93121104	持续环形特效	2	0.1				0			4			9999						-1						FxMb1RapperYinLang		-1			2	120				0	0	0			1	0	0.3					0							0	1														0.2	HitCase		0		1				0													
+93122018	攻击特效3-砸地特效	2	0.1				0			4			10						-1						FxMe1DrummerAtk0802Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93170404	特效2	2	0.1				0			4			5						-1						FxMe1HetimingyunzhilunAtk0402		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+93170405	攻击判定	2	3.3			3.3	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931704051	801035									0	HitCase		0		1				1													
+93170503	特效	2	0.1				0			4			5						-1						FxMe1HetimingyunzhilunAtk05		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+93170504	攻击判定	2	3.3			2.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931705041	801045									0	HitCase		0		1				1													
+93170605	砸地特效01	2	0.1				0			4			5						-1						FxMe1HetimingyunzhilunAtk0601		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+93170606	攻击特效02	2	0.1				0			4			5						-1						FxMe1HetimingyunzhilunAtk0602		-1			1					0	0	0										0							0	1														-0.8	HitCase		1		1				0													
+93170607	攻击判定01-砸地	2	3.3				0			4			0.1						-1		FxMe1HetimingyunzhilunHit			wheelBoneM			-1			6					0	0	0										0							0	1				931706071	801030									0	HitCase		0		1				1													
+93170608	攻击判定02-回旋	3	5	180			0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0							0	1				931706081	801025									0	HitCase		1		1				1													
+93170707	特效-3段	2	0.1				0			4			5						-1						FxMe1HetimingyunzhilunAtk0703		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+93170708	攻击判定-1段	1	4	6		1	0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0							0	1				931707081	801035									0	HitCase		0		1				1													
+93170709	攻击判定-2段	2	4				0			4			0.6						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0							0	1				931707091	801030									0	HitCase		1		1				1													
+93170710	攻击判定-3段	2	3.3			3.3	0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0							0	1				931707101	801040									0	HitCase		0		1				1													
+93170806	特效-1段	2	0.1				0			4			5						-1						FxMe1HetimingyunzhilunAtk0801		-1			1					0	0	0										0							0	1														-0.5	HitCase		0		1				0													
+93170807	特效-2段	2	0.1				0			4			5						-1						FxMe1HetimingyunzhilunAtk0802		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+93170809	攻击子弹-1段	2	3			2	0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0							0	1				931708091	801030									0	HitCase		1		1				1													
+93170810	攻击子弹-2段	2	3			3	0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0							0	1				931708101	801040									0	HitCase		1		1				1													
+93170811	攻击子弹-3段	2	3			2	0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0							0	1				931708111	801030									0	HitCase		1		1				1													
+93170907	特效B	2	0.1				0			4			5						-1						FxMe1HetimingyunzhilunAtk0902		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+93170908	攻击判定-砸地	2	3			1.5	0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0							0	1				931709081	801050									0	HitCase		0		1				1													
+93171003	被击破特效	2	0.1				0			4			5						-1					HitCase	FxMe1HetimingyunzhilunHit		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0		1											
+93171306	拼刀失败子弹	1	2	3		1.5	0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0	0		1	93171409			0	1				931713061	931219	801045								0	HitCase		0		1				1													
+93171307	拼刀判断窗口	2	3			3	0			4			0.2						-1								-1			1					0	0	0										0							0	1										777322				0	HitCase		0		1				0													
+93171404	拼刀失败子弹	2	3			3	0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0	0		1	93171409			0	1				931714041	931219	801045								0	HitCase		0		1				1													
+93171405	拼刀判断窗口	2	3			3	0			4			0.2						-1								-1			1					0	0	0										0							0	1										777322				0	HitCase		0		1				0													
+93171409	砸地特效	2	0.1				0			4			5						-1						FxMe1HetimingyunzhilunAtk18		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+93171504	攻击子弹	2	5.5				0			4			0.1						-1								-1			1					0	0	0										0							0	1				931715041	801030									0	HitCase		0		1				1													
+93171505	攻击子弹	2	5.5				0			4			0.1						-1								-1			1					0	0	0										0							0	1				931715051	801030									0	HitCase		0		1				1													
+93171605	特效2	2	0.1				0			4			5						-1						FxMe1HetimingyunzhilunAtk1602		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+93171606	攻击子弹	3	5	180			0			4			0.1						-1								-1			1					0	0	0										0							0	1				931716061	801030									0	HitCase		0		1				1													
+93171806	拼刀失败子弹	1	2	3		1.5	0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0	0		1	93171409			0	1				931718061	931219	801045								0	HitCase		0		1				1													
+93171807	拼刀判断窗口	2	3			3	0			4			0.2						-1								-1			1					0	0	0										0							0	1										777322				0	HitCase		0		1				0													
+93171904	拼刀失败子弹	1	2	3		1.5	0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0							0	1				931719041	931219	801045								0	HitCase		0		1				1													
+93171905	拼刀判断窗口	2	3			3	0			4			0.2						-1								-1			1					0	0	0										0							0	1										777322				0	HitCase		0		1				0													
+93172003	击退子弹	3	6	180			0			4			0.1						-1					wheelBoneM			-1			6					0	0	0										0							0	1				931720031	931716	931718	931717			931717				0	HitCase		1		1				1													
+93172005	特效	2	0.1				0			4			5						-1						FxMe1HetimingyunzhilunAtk0402		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93172006	攻击判定	2	3.3			3.3	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931720061	801035									0	HitCase		0		1				1													
+93172102	攻击子弹	3	5	180			0			4			0.1						-1								-1			1					0	0	0										0							0	1				931721021										0	HitCase		0		1				1													
+93172110	怪物拼刀特效子弹	2	0.1				0		90	4			5						-1						FxTongyongPindao02		-1			1					0	0	0			1	0	2					0							0	1														1	HitCase		0		1				0													
+93172204	拼刀失败子弹	1	2	3		1.5	0			4			0.1						-1		FxMe1HetimingyunzhilunHit						-1			1					0	0	0										0	0		1	93171409			0	1				931722041	931219	801035								0	HitCase		0		1				1													
+93172205	拼刀判断窗口	2	3			3	0			4			0.2						-1								-1			1					0	0	0										0							0	1										777322				0	HitCase		0		1				0													
+93172309	受击额外特效	2	0.1				0			4			5						-1					HitCase	FxMe1HetimingyunzhilunHit		-1			1					0	0	0			1	0	0.8					0							0	1														0	HitCase		0		1				0		1											
+93172310	受击额外特效	2	0.1				0			4			5						-1					HitCase	FxMe1HetimingyunzhilunHit		-1			1					0	0	0			1	0	0.3					0							0	1														0	HitCase		0		1				0		1											

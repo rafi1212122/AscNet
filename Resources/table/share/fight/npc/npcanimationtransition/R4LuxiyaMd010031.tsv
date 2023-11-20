@@ -1,0 +1,245 @@
+Role	Layer	State	Target	TransitionDuration
+R4LuxiyaMd010031	0		Born	0
+R4LuxiyaMd010031	0		Stand1	0.1
+R4LuxiyaMd010031	0		Stand2	0.1
+R4LuxiyaMd010031	0		Stand3	0.1
+R4LuxiyaMd010031	0		Death	0.1
+R4LuxiyaMd010031	0		Standchange	0.1
+R4LuxiyaMd010031	0		Run	0.1
+R4LuxiyaMd010031	0		Walk	0.1
+R4LuxiyaMd010031	0		Runb	0.2
+R4LuxiyaMd010031	0		Runl	0.2
+R4LuxiyaMd010031	0		Runr	0.2
+R4LuxiyaMd010031	0		Walkb	0.1
+R4LuxiyaMd010031	0		Walkl	0.1
+R4LuxiyaMd010031	0		Walkr	0.1
+R4LuxiyaMd010031	0		TurnLeft	0.1
+R4LuxiyaMd010031	0		TurnRight	0.1
+R4LuxiyaMd010031	0		Move1	0.1
+R4LuxiyaMd010031	0		Move2	0.1
+R4LuxiyaMd010031	0		Move3	0.1
+R4LuxiyaMd010031	0		RunStart	0.1
+R4LuxiyaMd010031	0		RunStartEnd01	0.1
+R4LuxiyaMd010031	0		Hit1	0.05
+R4LuxiyaMd010031	0		Hit2	0.05
+R4LuxiyaMd010031	0		Hit3	0.05
+R4LuxiyaMd010031	0		Hit4	0.05
+R4LuxiyaMd010031	0		Behitfly	0.05
+R4LuxiyaMd010031	0		Hoverhit	0.05
+R4LuxiyaMd010031	0		Falldown	0.1
+R4LuxiyaMd010031	0		Hitdown	0.05
+R4LuxiyaMd010031	0		Lieonfloor	0.1
+R4LuxiyaMd010031	0		Standup	0.1
+R4LuxiyaMd010031	0		Straight	0.1
+R4LuxiyaMd010031	0		Stun	0.1
+R4LuxiyaMd010031	0		StraightBefore	0.1
+R4LuxiyaMd010031	0		StraightAfter	0.1
+R4LuxiyaMd010031	0		Win	0
+R4LuxiyaMd010031	0		Win2	0.1
+R4LuxiyaMd010031	0		Stop	0.1
+R4LuxiyaMd010031	0		Fail	0.1
+R4LuxiyaMd010031	0		Save	0.1
+R4LuxiyaMd010031	0		AttackQte	0
+R4LuxiyaMd010031	0		Caught	0.1
+R4LuxiyaMd010031	0		RunStartEnd02	0.1
+R4LuxiyaMd010031	0		StopR	0.1
+R4LuxiyaMd010031	0		Attack01	0.1
+R4LuxiyaMd010031	0		Attack02	0.1
+R4LuxiyaMd010031	0		Attack03	0.1
+R4LuxiyaMd010031	0		Attack04	0.1
+R4LuxiyaMd010031	0		Attack05	0.1
+R4LuxiyaMd010031	0		Attack11	0.1
+R4LuxiyaMd010031	0		Attack21	0.1
+R4LuxiyaMd010031	0		Attack31	0.1
+R4LuxiyaMd010031	0		Attack51	0.1
+R4LuxiyaMd010031	0		Attack52	0.1
+R4LuxiyaMd010031	0		Attack53	0.1
+R4LuxiyaMd010031	0		Attack55	0.1
+R4LuxiyaMd010031	0		Attack56	0.1
+R4LuxiyaMd010031	0		Attack57	0.1
+R4LuxiyaMd010031	0		Attack58	0.1
+R4LuxiyaMd010031	0		Attack59	0.1
+R4LuxiyaMd010031	0		Attack61	0.1
+R4LuxiyaMd010031	0		Attack62	0.1
+R4LuxiyaMd010031	0		Attack63	0.1
+R4LuxiyaMd010031	0		Attack71	0.1
+R4LuxiyaMd010031	0		Attack72	0.1
+R4LuxiyaMd010031	0		Attack73	0.1
+R4LuxiyaMd010031	0		Attack74	0.1
+R4LuxiyaMd010031	0		Attack75	0.1
+R4LuxiyaMd010031	0		Attack76	0.1
+R4LuxiyaMd010031	0		Attack77	0.1
+R4LuxiyaMd010031	0		Attack78	0.1
+R4LuxiyaMd010031	0	Stand1	Run	0.2
+R4LuxiyaMd010031	0	Stand1	Walk	0.1
+R4LuxiyaMd010031	0	Stand2	Standchange	0.1
+R4LuxiyaMd010031	0	Stand2	Run	0.2
+R4LuxiyaMd010031	0	Stand2	Walk	0.3
+R4LuxiyaMd010031	0	Stand2	Walkb	0.3
+R4LuxiyaMd010031	0	Stand2	Walkl	0.3
+R4LuxiyaMd010031	0	Stand2	Walkr	0.3
+R4LuxiyaMd010031	0	Standchange	Stand1	0.1
+R4LuxiyaMd010031	0	Standchange	Run	0.1
+R4LuxiyaMd010031	0	Standchange	Walk	0.1
+R4LuxiyaMd010031	0	Run	Stop	0.2
+R4LuxiyaMd010031	0	Run	Stand2	0.2
+R4LuxiyaMd010031	0	Run	Runb	0.2
+R4LuxiyaMd010031	0	Run	Runl	0.2
+R4LuxiyaMd010031	0	Run	Runr	0.2
+R4LuxiyaMd010031	0	Walk	Stand2	0.1
+R4LuxiyaMd010031	0	Runb	Stand2	0.2
+R4LuxiyaMd010031	0	Runb	Run	0.2
+R4LuxiyaMd010031	0	Runb	Runl	0.2
+R4LuxiyaMd010031	0	Runb	Runr	0.2
+R4LuxiyaMd010031	0	Runl	Stand2	0.2
+R4LuxiyaMd010031	0	Runl	Run	0.2
+R4LuxiyaMd010031	0	Runl	Runb	0.2
+R4LuxiyaMd010031	0	Runl	Runr	0.2
+R4LuxiyaMd010031	0	Runr	Stand2	0.2
+R4LuxiyaMd010031	0	Runr	Run	0.2
+R4LuxiyaMd010031	0	Runr	Runb	0.2
+R4LuxiyaMd010031	0	Runr	Runl	0.2
+R4LuxiyaMd010031	0	Walkb	Stand2	0.1
+R4LuxiyaMd010031	0	Walkb	Walk	0.2
+R4LuxiyaMd010031	0	Walkb	Walkl	0.1
+R4LuxiyaMd010031	0	Walkb	Walkr	0.1
+R4LuxiyaMd010031	0	Walkl	Stand2	0.1
+R4LuxiyaMd010031	0	Walkl	Walk	0.1
+R4LuxiyaMd010031	0	Walkl	Walkb	0.1
+R4LuxiyaMd010031	0	Walkl	Walkr	0.2
+R4LuxiyaMd010031	0	Walkr	Stand2	0.1
+R4LuxiyaMd010031	0	Walkr	Walk	0.1
+R4LuxiyaMd010031	0	Walkr	Walkb	0.1
+R4LuxiyaMd010031	0	Walkr	Walkl	0.2
+R4LuxiyaMd010031	0	TurnLeft	Stand2	0.1
+R4LuxiyaMd010031	0	TurnRight	Stand2	0.1
+R4LuxiyaMd010031	0	RunStart	Run	0.1
+R4LuxiyaMd010031	0	RunStart	RunStartEnd01	0.1
+R4LuxiyaMd010031	0	Hit1	Stand2	0
+R4LuxiyaMd010031	0	Hit2	Stand2	0
+R4LuxiyaMd010031	0	Hit3	Stand2	0
+R4LuxiyaMd010031	0	Hit4	Stand2	0
+R4LuxiyaMd010031	0	Behitfly	Hoverhit	0.1
+R4LuxiyaMd010031	0	Behitfly	Falldown	0.1
+R4LuxiyaMd010031	0	Hoverhit	Falldown	0.1
+R4LuxiyaMd010031	0	Falldown	Lieonfloor	0.1
+R4LuxiyaMd010031	0	Hitdown	Lieonfloor	0.1
+R4LuxiyaMd010031	0	Standup	Stand2	0.1
+R4LuxiyaMd010031	0	Straight	Stand2	0.1
+R4LuxiyaMd010031	0	Stun	Stand2	0.1
+R4LuxiyaMd010031	0	Win	Win2	0.1
+R4LuxiyaMd010031	0	Stop	Stand2	0.1
+R4LuxiyaMd010031	0	Caught	Stand2	0.1
+R4LuxiyaMd010031	1		Born	0
+R4LuxiyaMd010031	1		Stand1	0.1
+R4LuxiyaMd010031	1		Stand2	0.1
+R4LuxiyaMd010031	1		Stand3	0.1
+R4LuxiyaMd010031	1		Death	0.1
+R4LuxiyaMd010031	1		Standchange	0.1
+R4LuxiyaMd010031	1		Run	0.1
+R4LuxiyaMd010031	1		Walk	0.1
+R4LuxiyaMd010031	1		Runb	0.2
+R4LuxiyaMd010031	1		Runl	0.2
+R4LuxiyaMd010031	1		Runr	0.2
+R4LuxiyaMd010031	1		Walkb	0.1
+R4LuxiyaMd010031	1		Walkl	0.1
+R4LuxiyaMd010031	1		Walkr	0.1
+R4LuxiyaMd010031	1		TurnLeft	0.1
+R4LuxiyaMd010031	1		TurnRight	0.1
+R4LuxiyaMd010031	1		Move1	0.1
+R4LuxiyaMd010031	1		Move2	0.1
+R4LuxiyaMd010031	1		Move3	0.1
+R4LuxiyaMd010031	1		RunStart	0.1
+R4LuxiyaMd010031	1		RunStartEnd01	0.1
+R4LuxiyaMd010031	1		Hit1	0.05
+R4LuxiyaMd010031	1		Hit2	0.05
+R4LuxiyaMd010031	1		Hit3	0.05
+R4LuxiyaMd010031	1		Hit4	0.05
+R4LuxiyaMd010031	1		Behitfly	0.05
+R4LuxiyaMd010031	1		Hoverhit	0.05
+R4LuxiyaMd010031	1		Falldown	0.1
+R4LuxiyaMd010031	1		Hitdown	0.05
+R4LuxiyaMd010031	1		Lieonfloor	0.1
+R4LuxiyaMd010031	1		Standup	0.1
+R4LuxiyaMd010031	1		Straight	0.1
+R4LuxiyaMd010031	1		Stun	0.1
+R4LuxiyaMd010031	1		StraightBefore	0.1
+R4LuxiyaMd010031	1		StraightAfter	0.1
+R4LuxiyaMd010031	1		Win	0
+R4LuxiyaMd010031	1		Win2	0.1
+R4LuxiyaMd010031	1		Stop	0.1
+R4LuxiyaMd010031	1		Fail	0.1
+R4LuxiyaMd010031	1		Save	0.1
+R4LuxiyaMd010031	1		AttackQte	0
+R4LuxiyaMd010031	1		Caught	0.1
+R4LuxiyaMd010031	1		RunStartEnd02	0.1
+R4LuxiyaMd010031	1		StopR	0.1
+R4LuxiyaMd010031	1		Attack01	0.1
+R4LuxiyaMd010031	1		Attack02	0.1
+R4LuxiyaMd010031	1		Attack03	0.1
+R4LuxiyaMd010031	1		Attack04	0.1
+R4LuxiyaMd010031	1		Attack05	0.1
+R4LuxiyaMd010031	1		Attack11	0.1
+R4LuxiyaMd010031	1		Attack21	0.1
+R4LuxiyaMd010031	1		Attack31	0.1
+R4LuxiyaMd010031	1		Attack51	0.1
+R4LuxiyaMd010031	1	Stand1	Run	0.2
+R4LuxiyaMd010031	1	Stand1	Walk	0.1
+R4LuxiyaMd010031	1	Stand2	Standchange	0.1
+R4LuxiyaMd010031	1	Stand2	Run	0.2
+R4LuxiyaMd010031	1	Stand2	Walk	0.3
+R4LuxiyaMd010031	1	Stand2	Walkb	0.3
+R4LuxiyaMd010031	1	Stand2	Walkl	0.3
+R4LuxiyaMd010031	1	Stand2	Walkr	0.3
+R4LuxiyaMd010031	1	Standchange	Stand1	0.1
+R4LuxiyaMd010031	1	Standchange	Run	0.1
+R4LuxiyaMd010031	1	Standchange	Walk	0.1
+R4LuxiyaMd010031	1	Run	Stop	0.2
+R4LuxiyaMd010031	1	Run	Stand2	0.2
+R4LuxiyaMd010031	1	Run	Runb	0.2
+R4LuxiyaMd010031	1	Run	Runl	0.2
+R4LuxiyaMd010031	1	Run	Runr	0.2
+R4LuxiyaMd010031	1	Walk	Stand2	0.1
+R4LuxiyaMd010031	1	Runb	Stand2	0.2
+R4LuxiyaMd010031	1	Runb	Run	0.2
+R4LuxiyaMd010031	1	Runb	Runl	0.2
+R4LuxiyaMd010031	1	Runb	Runr	0.2
+R4LuxiyaMd010031	1	Runl	Stand2	0.2
+R4LuxiyaMd010031	1	Runl	Run	0.2
+R4LuxiyaMd010031	1	Runl	Runb	0.2
+R4LuxiyaMd010031	1	Runl	Runr	0.2
+R4LuxiyaMd010031	1	Runr	Stand2	0.2
+R4LuxiyaMd010031	1	Runr	Run	0.2
+R4LuxiyaMd010031	1	Runr	Runb	0.2
+R4LuxiyaMd010031	1	Runr	Runl	0.2
+R4LuxiyaMd010031	1	Walkb	Stand2	0.1
+R4LuxiyaMd010031	1	Walkb	Walk	0.2
+R4LuxiyaMd010031	1	Walkb	Walkl	0.1
+R4LuxiyaMd010031	1	Walkb	Walkr	0.1
+R4LuxiyaMd010031	1	Walkl	Stand2	0.1
+R4LuxiyaMd010031	1	Walkl	Walk	0.1
+R4LuxiyaMd010031	1	Walkl	Walkb	0.1
+R4LuxiyaMd010031	1	Walkl	Walkr	0.2
+R4LuxiyaMd010031	1	Walkr	Stand2	0.1
+R4LuxiyaMd010031	1	Walkr	Walk	0.1
+R4LuxiyaMd010031	1	Walkr	Walkb	0.1
+R4LuxiyaMd010031	1	Walkr	Walkl	0.2
+R4LuxiyaMd010031	1	TurnLeft	Stand2	0.1
+R4LuxiyaMd010031	1	TurnRight	Stand2	0.1
+R4LuxiyaMd010031	1	RunStart	Run	0.1
+R4LuxiyaMd010031	1	RunStart	RunStartEnd01	0.1
+R4LuxiyaMd010031	1	Hit1	Stand2	0
+R4LuxiyaMd010031	1	Hit2	Stand2	0
+R4LuxiyaMd010031	1	Hit3	Stand2	0
+R4LuxiyaMd010031	1	Hit4	Stand2	0
+R4LuxiyaMd010031	1	Behitfly	Hoverhit	0.1
+R4LuxiyaMd010031	1	Behitfly	Falldown	0.1
+R4LuxiyaMd010031	1	Hoverhit	Falldown	0.1
+R4LuxiyaMd010031	1	Falldown	Lieonfloor	0.1
+R4LuxiyaMd010031	1	Hitdown	Lieonfloor	0.1
+R4LuxiyaMd010031	1	Standup	Stand2	0.1
+R4LuxiyaMd010031	1	Straight	Stand2	0.1
+R4LuxiyaMd010031	1	Stun	Stand2	0.1
+R4LuxiyaMd010031	1	Win	Win2	0.1
+R4LuxiyaMd010031	1	Stop	Stand2	0.1
+R4LuxiyaMd010031	1	Caught	Stand2	0.1

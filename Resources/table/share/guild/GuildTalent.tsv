@@ -1,0 +1,33 @@
+Id	Name	GuildLevel	CostPoint[1]	CostPoint[2]	CostPoint[3]	CostPoint[4]	CostPoint[5]	CostPoint[6]	CostPoint[7]	CostPoint[8]	CostPoint[9]	CostPoint[10]	Parent[1]	Parent[2]	BuffId
+1101	Beacon: Power	1	1	2	2	3	3	5	5	7	7	10	0	0	762500
+1102	Beacon: Garrison	1	1	2	2	3	3	5	5	7	7	10	0	0	762509
+1103	Beacon: Physical DMG Up	1	1	2	2	3	3	5	5	7	7	10	0	0	762505
+1201	Beacon: Fire DMG Up	2	1	2	2	3	3	5	5	7	7	10	1101	0	762501
+1202	Beacon: Ice DMG Up	2	1	2	2	3	3	5	5	7	7	10	1101	1102	762502
+1203	Beacon: Lightning DMG Up	2	1	2	2	3	3	5	5	7	7	10	1102	1103	762503
+1204	Beacon: Dark DMG Up	2	1	2	2	3	3	5	5	7	7	10	1103	0	762504
+1301	Beacon: DMG Bonus	3	1	2	2	3	3	5	5	7	7	10	1201	1202	762508
+1302	Beacon: HP Boost	3	1	2	2	3	3	5	5	7	7	10	1202	1203	762514
+1303	Beacon: Riot	3	1	2	2	3	3	5	5	7	7	10	1203	1204	762506
+1401	Beacon: Offense-Defense Balance	4	1	2	2	3	3	5	5	7	7	10	1301	1302	762515
+1402	Beacon: Critical DMG	4	1	2	2	3	3	5	5	7	7	10	1302	1303	762507
+1501	Beacon: Enhanced Healing	5	1	2	2	3	3	5	5	7	7	10	1401	0	762510
+1502	Beacon: Energy Storage	5	1	2	2	3	3	5	5	7	7	10	1401	0	762511
+1503	Beacon: Sprint	5	1	2	2	3	3	5	5	7	7	10	1402	0	762512
+1504	Beacon: Dodge Limit	5	1	2	2	3	3	5	5	7	7	10	1402	0	762513
+1601	Beacon: Attacker Invincibility	6	1	2	2	3	3	5	5	7	7	10	1501	1502	762522
+1602	Beacon: Tank Invincibility	6	1	2	2	3	3	5	5	7	7	10	1502	1503	762523
+1603	Beacon: Healer Invincibility	6	1	2	2	3	3	5	5	7	7	10	1503	1504	762524
+1701	Beacon: Vanguard Invincibility	7	1	2	2	3	3	5	5	7	7	10	1601	0	762525
+1702	Beacon: Attacker Power	7	1	2	2	3	3	5	5	7	7	10	1601	1602	762527
+1703	Beacon: Tank Power	7	1	2	2	3	3	5	5	7	7	10	1602	1603	762528
+1704	Beacon: Support Power	7	1	2	2	3	3	5	5	7	7	10	1603	0	762529
+1801	Beacon: Vanguard Power	8	1	2	2	3	3	5	5	7	7	10	1701	1702	762530
+1802	Beacon: Fearless	8	1	2	2	3	3	5	5	7	7	10	1702	1703	762532
+1803	Beacon: Inspired	8	1	2	2	3	3	5	5	7	7	10	1703	1704	762534
+1901	Beacon: Skill Acquisition	9	1	2	2	3	3	5	5	7	7	10	1801	0	762536
+1902	Beacon: Ultimate Enlightenment	9	1	2	2	3	3	5	5	7	7	10	1802	0	762537
+1903	Beacon: Matrix DMG Up	9	1	2	2	3	3	5	5	7	7	10	1803	0	762539
+2001	Beacon: Elemental DMG Up	10	1	2	2	3	3	5	5	7	7	10	1901	0	762541
+2002	Beacon: Energy Recovery	10	1	2	2	3	3	5	5	7	7	10	1902	0	762542
+2003	Beacon: Quick Support	10	1	2	2	3	3	5	5	7	7	10	1903	0	762544

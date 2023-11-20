@@ -491,7 +491,7 @@ UiWorldBossTask			Normal	Bundle	Assets/Product/Ui/Prefab/UiWorldBossTask.prefab	
 UiWorldBossAreaRank			Normal	Bundle	Assets/Product/Ui/Prefab/UiWorldBossAreaRank.prefab			5000			0
 UiClickClearGame			Normal	Bundle	Assets/Product/Ui/Prefab/UiClickClearGame.prefab			5000			0
 UiStorySkipDialog			System	Bundle	Assets/Product/Ui/Prefab/UiStorySkipDialog.prefab			5000			0
-UiRpgTowerMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiRpgTowerMain.prefab	Assets/Product/Ui/Scene3DPrefab/UiRpgTowerMain3D.prefab	Assets/Product/Ui/UiModel/UiRpgTower/UiRpgTowerMain.prefab	5000			0
+UiRpgTowerMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiRpgTowerMain.prefab			5000			0
 UiRpgTowerRoleList			Normal	Bundle	Assets/Product/Ui/Prefab/UiRpgTowerRoleList.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiRPGTower.prefab	5000			0
 UiRpgTowerSkillDetails			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRpgTowerSkillDetails.prefab			5000			0
 UiRpgTowerNature			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRpgTowerNature.prefab			5000			0
@@ -502,6 +502,10 @@ UiRpgTowerTask			Normal	Bundle	Assets/Product/Ui/Prefab/UiRpgTowerTask.prefab			
 UiRpgTowerLevelUp			NormalPopup	Bundle	Assets/Product/Ui/ComponentPrefab/UiRpgTower/PanelRpgTowerLevelUp.prefab			5000			0
 UiRogueLikeReset			Dialog	Bundle	Assets/Product/Ui/Prefab/UiRogueLikeReset.prefab			5000			0
 UiPhotograph			Normal	Bundle	Assets/Product/Ui/Prefab/UiPhotograph.prefab			5000			0
+UiPhotographSet			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiPhotographSet.prefab			5000			0
+UiPhotographPortraitSet			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiPhotograph2Set.prefab			5000			0
+UiPhotographPortrait			Normal	Bundle	Assets/Product/Ui/Prefab/UiPhotograph2.prefab			5000			0
+UiPortraitTip			Tips	Bundle	Assets/Product/Ui/Prefab/UiPhotograph2Tip.prefab			5000			0
 UiFubenActivityPuzzle			Normal	Bundle	Assets/Product/Ui/Prefab/UiFubenActivityPuzzle.prefab			5000			0
 UiCommonStageEvent			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiExpeditionBuffTips.prefab			5000			0
 UiFubenMaintaineraction			Normal	Bundle	Assets/Product/Ui/Prefab/UiFubenMaintaineraction.prefab			5000			0
@@ -779,7 +783,7 @@ UiSuperTowerDeploy			Normal	Bundle	Assets/Product/Ui/Prefab/UiSuperTowerDeploy.p
 UiSuperTowerPlugUp			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiSuperTowerPlugUp.prefab			5000			0
 UiSupertowerUpTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiSupertowerUpTips.prefab			5000			0
 UiSuperTowerUnlockTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiSuperTowerUnlockTips.prefab			5000			0
-UiFunbenWeiLaTutorial			Normal	Bundle	Assets/Product/Ui/Prefab/UiSuperBiancaActivityMain.prefab			5000			0
+UiFunbenWeiLaTutorial			Normal	Bundle	Assets/Product/Ui/Prefab/UiBombinataMain.prefab			5000			0
 UiSkipTip			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiEquipStrengthenSkip.prefab			5000			0
 UiPassportTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiPassportTips.prefab			5000			0
 UiDownload			Dialog	Bundle	Assets/Product/Ui/Prefab/UiDownload.prefab			5000			0
@@ -1126,7 +1130,12 @@ UiBiancaTheatreEndLoading			Normal	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheat
 UiBiancaTheatreUnlockTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreUnlockTips.prefab			5000			0
 UiBiancaTheatreItemUnlockTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreTipReward.prefab			5000			0
 UiBiancaTheatreLvTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreLvTips.prefab			5000			0
+UiBuySecondConfirm			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBuySecondConfirm.prefab			5000			0
 UiBiancaTheatreBlack			Normal	Bundle	Assets/Product/Ui/Prefab/UiBlackScreen.prefab			5000			0
+UiFavorabilityLineRoomCharacterSelect			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiFavorabilityLineRoomCharacterSelect.prefab			5000			0
+UiRpgTowerNewMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiRpgTowerNewMain.prefab			5000			0
+UiFightBangbiSkill	UiFight			Bundle	Assets/Product/Ui/Prefab/UiFightBangbiSkill.prefab			30000			0
+UiFightBangbiPaper	UiFight			Bundle	Assets/Product/Ui/Prefab/UiFightBangbiPaper.prefab			30000			0
 UiActivityChapter			Normal	Bundle	Assets/Product/Ui/Prefab/UiActivityChapter.prefab			5000			0
 UiLoginDialog			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiLoginDialog.prefab			5000			0
 UiAccountSign			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiAccountSign.prefab			5000			0

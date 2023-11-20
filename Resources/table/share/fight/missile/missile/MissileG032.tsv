@@ -1,0 +1,37 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
+97640601	向前推-1	1	2	6		1	0			4			0.4						-1								-1			1					0	0	0										0							0	3				976406011	801050									0	HitCase		1		1				0												1		
+97640901	向下打-1	1	2.5	2		1	0			4			0.1						-1								-1			1					0	0	0										0							0	1				976409011	801050									0	HitCase		1		1				0														
+97650603	丢石头-3	2	0.5			0	10			4			6						-1					Bip001RFinger02	FxGravel		-1			3	-15	0	10	0.2	0	0	0										0							0	1				976506031	801050									1	HitCase		0		1				0														
+93300304	下砸攻击盒	2	4			1	0			4			0.1						-1	0							-1			1					0	0	0										0							0	1				933003041	801050									0	HitCase		0		1				1														
+93300505	第一次攻击盒	3	5	180		-2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933005051	801050									0	HitCase		0		1				1														
+93300506	第二次攻击盒	1	4	4.5		1	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933005061	801050									0	HitCase		1		1				1														
+93300707	第一击攻击盒	3	4	180		-1	0			4			0.2						-1								-1			1					0	0	0										0							0	1				933007071	801050									0	HitCase		0		1				1														
+93300708	第二击攻击盒	3	4	180		-1	0			4			0.2						-1								-1			1					0	0	0										0							0	1				933007081	801050									0	HitCase		0		1				1														
+93320101	跃起砸击-攻击盒	1	3	5		1.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933201011	801050									0	HitCase		1		1				1														
+93320108	跃起砸击-地裂特效	1	2	4			0			4			0.2						-1						FxMe1PuppetAtk01Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
+93320201	近身旋转攻击-攻击盒1	3	3	180		0.4	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933202011	801050									0	HitCase		1		1				1														
+93320202	近身旋转攻击-攻击盒2	3	3	180		-0.4	0		180	4			0.1						-1								-1			1					0	0	0										0							0	1				933202021	801050									0	HitCase		1		1				1														
+93320203	近身旋转攻击-攻击盒3	3	3	180		0.4	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933202031	801050									0	HitCase		1		1				1														
+93320401	发条挥砍-攻击盒1	1	3	4		0.8	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933204011	801050									0	HitCase		1		1				1														
+93320501	双手钉刺-攻击盒	1	2.6	4		1	0			4			0.3						-1								-1			1					0	0	0										0							0	1				933205011	801050									0	HitCase		1		1				1														
+93320603	发射钉子-3	1	2	1.5			30			4			0.45						-1		FxMe1PuppetAtk06Shouji				FxMe1PuppetAtk06Dandao		-1			1					0	0	0										0							0	1				933206031	801050									1.5	HitCase		0		1				1														
+93320606	发射钉子-6	1	1	1			15			4			0.7						-1		FxMo1BadboyMd010001Atk2Shouji				FxMo1BadboyMd010001Atk2Dandao		-1			1					0	0	0										0							0	1				933206061	801050									1	HitCase		0		1				1														
+93320607	发射钉子-7	1	2.1	15		7	0		0	4			0.6	0.6					-1						FxYujingJu01		-1			1					0	0	0										0	0.6		1	93320603			0	1														0.1	HitCase	1	1		1				0														
+93320705	发条充能-攻击盒	3	3	180		0.4	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933207051	801050									0	HitCase		1		1				1														
+93321104	转后踢击1-攻击盒16	1	5	4.5		1	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933211041	801050									0	HitCase		1		1				1														
+93321110	转后踢击1-拼刀判断窗口	1	5	7		1	0			4			0.2						-1								-1			1					0	0	0										0							0	1										777322				0	HitCase		1		1				0														
+93321501	精准礼仪-攻击盒	1	2	3		2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933215011	801050									0	HitCase		1		1				1														
+93321509	精准礼仪-地裂特效	1	1.5	1.5			0			4			0.2						-1						FxMe1PuppetAtk28Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
+93321601	追魂腿-攻击盒	3	3.3	180		0.2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933216011	801050									0	HitCase		1		1				1														
+93321701	腿砸-攻击盒	1	2	4		1	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933217011	801050									0	HitCase		1		1				1														
+93321714	腿砸-14	1	2	3			0			4			0.2						-1						FxMe1PuppetAtk30Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
+93321801	龙卷风突刺-攻击盒	1	2	3			0			4			0.2						-1								-1			1					0	0	0										0							0	1				933218011	801050									0	HitCase		1		1				1														
+93322304	转后踢击1·逆-攻击盒16	1	5	4.5		1	0			4			0.1						-1								-1			1					0	0	0										0							0	1				933223041	801050									0	HitCase		1		1				1														
+93322310	转后踢击1·逆-拼刀判断窗口	1	5	7		1	0			4			0.2						-1								-1			1					0	0	0										0							0	1										777322				0	HitCase		1		1				0														
+93340102	玩偶坏孩子的技能1-攻击盒	3	2	180			0			4			0.1						-1		FxMo1BadboyMd010001Atk1Shouji						-1			1					0	0	0										0							0	1				933401021	801050									0	HitCase		1		1				1														
+93340205	预警特效子弹	3	5.5	80			0			4			0.3						-1						FxMo1BadboyMd010001Atk2		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
+93340207	玩偶坏孩子的技能2-7	3	5.5	80			0			4			0.1						-1		FxMo1BadboyMd010001Atk2Shouji						-1			1					0	0	0										0							0	1				933402071	801050									0	HitCase		0		1				1														
+93340208	玩偶坏孩子的技能2-8	3	5.5	80			0		0	4			0.9	0.9					-1						FxYujingShan01		-1			1					0	0	0										0	0.9		1	93340207|93340205			0	1														0.1	HitCase	1	1		1				0														
+93340302	玩偶坏孩子的技能3-2	3	2.5	180			0			4			0.1						-1		FxMo1BadboyMd010001Atk3Shouji						-1			1					0	0	0										0							0	1				933403021	801050									0	HitCase		1		1				1														
+93340402	玩偶坏孩子的技能4-2	3	2	180			0			4			0.1						-1		FxMo1BadboyMd010001Atk4Shouji						-1			1					0	0	0										0							0	1				933404021	801050									0	HitCase		1		1				1														
+93340502	正义转身恐吓-2	3	2.5	180			0			4			0.1						-1		FxMo1BadboyMd010001Atk5Shouji						-1			1					0	0	0										0							0	1				933405021	801050									0	HitCase		1		1				1														

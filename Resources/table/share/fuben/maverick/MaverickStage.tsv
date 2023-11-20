@@ -1,0 +1,22 @@
+StageId	PatternId	StageType	GridIndex	GridName	Danger	Tips[1]	Tips[2]	Tips[3]	Tips[4]	Tips[5]	Tips[6]	AffixIds[1]	AffixIds[2]	AffixIds[3]	AffixIds[4]	AffixIds[5]	AffixIds[6]	MonsterIds[1]	MonsterIds[2]	MonsterIds[3]	MonsterIds[4]	MonsterIds[5]	MonsterIds[6]
+30161400	1001	1	1	1	4500	Rescue the Construct squad	Keep away from dangerous explosives											1003	1002				
+30161401	1001	1	2	2	5000	Provide support for the Construct squad on the bridge	Watch out for elite enemies											1003	1012	1002	2004		
+30161402	1001	1	3	3	5500	Cover the squad while it withdraws from the bridge												1003	1012	1002	2002	1006	
+30161403	1001	1	4	4	6000	Escort the two members to the landing pad												1008	1002				
+30161404	1001	1	5	5	6500	Rescue aircraft has arrived	Eliminate the elite enemy ASAP and evacuate.											2008					
+30161416	1001	1	6	6	7000	Temporary landing of the aircraft	Protect the aircraft											1019	1017	1020	1018		
+30161417	1001	1	7	7	7500	Investigate the anomaly in the rail area												1019	1018	1017	1020	1022	2016
+30161418	1001	1	8	8	8000	Further investigate the rail area												1020	1017	1019	1022	1018	1021
+30161419	1001	1	9	9	8500	Investigate the source of the rail area anomaly												1019	1017	1018	1020	2016	2027
+30161420	1001	1	10	10	8500	Remove the source of the rail area anomaly												3016					
+30161411	1002	1	1	1	9000	Investigate the suspicious factory	Keep away from dangerous explosives	Complete the challenge of this stage to unlock 1 new character										1014	1013	2011	2003		
+30161412	1002	1	2	2	9000	Hold the front line until the door is hacked	Reboot the Terrapods to assist you											1014	1013	2003	2014	2005	
+30161413	1002	1	3	3	9000	Enter the factory to investigate												2025	2011	1014			
+30161414	1002	1	4	4	9000	Go deeper into the factory.	Avoid the traps											2009	2011	2003	2010	2005	2014
+30161415	1002	1	5	5	9000	Eliminate the boss of the Corrupted in the factory												3023					
+30161405	1003	1	1	1	10000	Investigate the target data in the Arctic												1031	1016	2015			
+30161406	1003	1	2	2	10000	Investigate the port area												1016	1031	2015			
+30161407	1003	1	3	3	10000	Fight against the enemies on Narwhal	Watch out for elite enemies											1046	1016	2028			
+30161408	1003	1	4	4	10000	Go after the target enemy												1033	1032	2021			
+30161409	1003	1	5	5	11000	Collect data on the target	Watch out for the powerful Corrupted!											3021					
+30161431	1003	2	6	Infinite Battlefront	12000	Hold the frontline	Massive incoming Corrupted detected																

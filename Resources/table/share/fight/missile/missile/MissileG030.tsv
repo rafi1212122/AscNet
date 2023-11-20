@@ -1,0 +1,39 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic
+93110101	预警特效	1	1	11		5	0			4			1.2	1					-1						FxYujingJu01		-1			1					0	0	0										0							0	1														0.1	HitCase	1	1		1			1	0													
+93110105	伤害子弹	2	1			0.1	0			4			0.1					1	-1								-1			1					0	0	0										0			1	93110110	1		0	3				931101051	801040	931113	931107							0	HitCase		0		1				1													
+93110110	震屏	2	1				0			4			0.1						-1								-1			1					0	0	0										2							2	1					931104		931114							0	HitCase		0		1				0													
+93110202	弹道子弹	1	1.2	30		15	0			4			0.5		1				-1								-1			1					0	0	0										0							0	1				931102021	801030	931104								0	HitCase		0		1				1													
+93110206	弹道预警	2	0.1		0	0	0			4			0.75						-1						FxYujingXian01		-1			1					0	0	0										0							0	1														1.5	HitCase		1		1				0													
+93110207	弹道预警	2	0.1		0	0	0			4			0.4						-1						FxYujingXian02		-1			1					0	0	0										0							0	1														1.5	HitCase		1		1				0													
+93110305	伤害子弹	2	1.7				0			4			0.1					1	-1								-1			1					0	0	0										0							0	1				931103051	801050	931113	931114	931120						0	HitCase		0		1				1													
+93110306	伤害子弹	2	1.7				0			4			0.1					1	-1								-1			1					0	0	0										0							0	1				931103061	801050	931113	931114	931120						0	HitCase		0		1				1													
+93110307	伤害子弹	2	1.7				0			4			0.1					1	-1								-1			1					0	0	0										0							0	1				931103071	801050	931113	931114	931120						0	HitCase		0		1				1													
+93110308	地面预警	2	1.7				0		0	4			0.6						-1						FxYujing1M06S		-1			1					0	0	0										3					1		4	1														0	HitCase	1	0		1			1	0													
+93140101	扫堂腿-1伤害子弹	3	2.5	240		0.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931401011	801020									0	HitCase		0		1				1													
+93140102	扫堂腿-2伤害子弹2	3	2.8	240		0.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931401021	801020									0	HitCase		0		1				1													
+93140201	旋风腿-1伤害1	1	2	2.5	0.3	1.4	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931402011	801020									0	HitCase		0		1				1													
+93140202	旋风腿-2伤害2	3	2.5	240		0.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931402021	801020									0	HitCase		0		1				1													
+93140206	旋风腿-6伤害3	1	2	2.5		1.5	0			4			0.05						-1								-1			1					0	0	0										3							4	1				931402061	801040	931423	931424							0	HitCase		0		1				1													
+93140219	拼刀判断窗口	1	2	2.5		1.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1										777322				0	HitCase		0		1				0													
+93140222	旋风腿-11地裂特效	2	0.1				0			4			1.1						-1						FxMe1GuitaristAtk0201Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93140223	旋风腿-11地裂特效	2	0.1				0			4			1.1						-1						FxMe1GuitaristAtk0202Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93140224	旋风腿-11地裂特效	2	0.1				0			4			1.6						-1						FxMe1GuitaristAtk0203Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93140301	贴山靠-1伤害	1	1.5	1.5		0.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931403011	801020	931409	931423	931424						0	HitCase		0		1				1													
+93140401	三连拳-1伤害1	3	2.5	240		0.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931404011	801020									0	HitCase		0		1				1													
+93140402	三连拳-2伤害2	3	2.5	240		0.5	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931404021	801020									0	HitCase		0		1				1													
+93140403	三连拳-3伤害3	2	1			1.3	0			4			0.1						-1								-1			1					0	0	0										0							0	3				931404031	801040	931409	931423	931424						0	HitCase		0		1				1													
+93140501	左掏耳朵-1伤害	3	1.5	240		1	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931405011	801020									0	HitCase		0		1				1													
+93140601	右掏耳朵-1伤害	3	2.4	240		1	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931406011	801020									0	HitCase		0		1				1													
+93140701	劈脑门-1伤害1	1	1.2	2.5		1.3	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931407011	801040									0	HitCase		0		1				1													
+93140707	转身斩-1伤害2	3	2.5	90		0	0			4			0.1						-1								-1			1					0	0	0										0							0	1				931407071	801040	931422	931423	931424						0	HitCase		0		1				1													
+93140711	转身斩-5地裂特效	2	0.1				0			4			1.2						-1						FxMe1GuitaristAtk08Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93140713	劈脑门-7地裂	2	0.1				0			4			1.6						-1						FxMe1GuitaristAtk07Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1				0													
+93140901	左飞斧-1伤害	2	1			1.2	28			4			1						-1								-1			1					0	0	0										0							0	1				931409011	801040									0	HitCase		0		1				1													
+93141001	右飞斧-1伤害	2	1			1.2	25			4			1						-1								-1			1					0	0	0										0							0	1				931410011	801040									0	HitCase		0		1				1													
+93141101	力劈华山-1伤害	2	1.5	1.5		1.7	0			4			0.1						-1								-1			1					0	0	0										0			1	93141110			0	1				931411011	801060	931423	931424			931433				0	HitCase		0		1				1													
+93141110	力劈华山-10地裂特效	2	1			0	0			4			5						-1						FxMe1GuitaristAtk11Dilie		-1			1					0	0	0										2	3		1	93141111			2	1														0.1	HitCase		0		1				0													
+93141111	力劈华山-11地裂伤害	1	2	20		10	0			4			0.1						-1								-1			1					0	0	0										2							2	1				931411111	801040									0	HitCase		0		1				1													
+93141413	拼刀顿帧对己	2	666				0			1			0.1						1								1			1					0	0	0										1							1	1					777344									0	HitCase		0		1				0													
+93141414	拼刀顿帧对敌	2	666				0			4			0.1						-1								-1			1					0	0	0										1							1	1					777344									0	HitCase		0		1				0													
+93141503	滑跪-3伤害	1	1.5	1.5		0.4	0			4			0.4						-1								-1			1					0	0	0										0							0	1				931415031	801040	931422	931423	931424						0	HitCase		1		1				1													
+93141506	地板特效	2	1			1	0			4			3						-1								-1			1					0	0	0										0							0	1														0.1	HitCase		0		1				0													

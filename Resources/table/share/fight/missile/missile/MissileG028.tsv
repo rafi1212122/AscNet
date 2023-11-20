@@ -1,0 +1,468 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
+85300104	伤害子弹	3	5	180			0			4			0.1						-1		FxMb1MoonguyHit02						-1			1					0	0	0										0							0	1				853001041	801020									0	HitCase		0		1	1			1										4				
+85300107	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk01		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85300204	伤害子弹	3	5	180			0			4			0.1						-1		FxMb1MoonguyHit1R						-1			1					0	0	0										0							0	1				853002041	801030									0	HitCase		0		1	1			1										4				
+85300207	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk01		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85300302	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk0301		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85300303	攻击特效1加烟	2	0.1				0			4			5						-1						FxMb1MoonguyAtk03Smoke		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85300305	特效2地面	2	0.1				0			4			5						-1						FxMb1MoonguyAtk03Ground		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85300306	特效3	2	0.1				0			4			5						-1						FxMb1MoonguyAtk0303		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85300310	攻击子弹1	1	5	5		2.5	0			4			0.1						-1		FxMb1MoonguyHit1D						-1			1					0	0	0										0							0	1				853003101	801020									0	HitCase		0		1	1			1														
+85300311	攻击子弹2	1	5	5		2.5	0			4			0.1						-1		FxMb1MoonguyHit1U						-1			1					0	0	0										0							0	1				853003111	801025									0	HitCase		0		1	1			1														
+85300312	攻击子弹3	2	5				0			4			0.1						-1		FxMb1MoonguyHit02						-1			1					0	0	0										0							0	1				853003121	801035									0	HitCase		0		1	1			1										4				
+85300503	特效3	2	0.1				0			4			5						-1						FxMb1MoonguyAtk0303		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85300504	攻击子弹3	2	5				0			4			0.1						-1		FxMb1MoonguyHit02						-1			1					0	0	0										0							0	1				853005041	801035									0	HitCase		0		1	1			1										4				
+85300610	地面特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk06Ground		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85300611	地面特效2	2	0.1				0			4			5						-1						FxMb1MoonguyAtk06Ground02		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85300612	烟雾特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk06Smoke		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85300613	伤害判定1	3	5	180			0			4			0.1						-1		FxMb1MoonguyHit1R						-1			1					0	0	0										0							0	1				853006131	801020									0	HitCase		0		1	1			1										4				
+85300614	伤害判定2	3	5	180			0			4			0.1						-1		FxMb1MoonguyHit1L						-1			1					0	0	0										0							0	1				853006141	801020									0	HitCase		0		1	1			1										4				
+85300703	地面特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk07Ground		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85300705	攻击子弹1	1	5	5		2.5	0			4			0.1						-1		FxMb1MoonguyHit1D						-1			1					0	0	0										0							0	1				853007051	801030									0	HitCase		0		1	1			1														
+85301002	攻击特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk1001		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85301003	攻击特效2	2	0.1				0			4			5						-1						FxMb1MoonguyAtk1002		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85301004	地面特效1	2	0.1				0			4			5						-1						FxMb1MoonguyAtk10Ground		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85301005	地面特效2	2	0.1				0			4			5						-1						FxMb1MoonguyAtk10Ground02		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85301009	位移子弹	3	5	180			0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					853013									0	HitCase		0		1	1			0														
+85301010	伤害子弹1	3	5	180			0			4			0.1						-1		FxMb1MoonguyHit1R						-1			1					0	0	0										0							0	1				853010101	801020									0	HitCase		0		1	1			1														
+85301011	伤害子弹2	3	5	180			0			4			0.1						-1		FxMb1MoonguyHit1L						-1			1					0	0	0										0							0	1				853010111	801020									0	HitCase		0		1	1			1														
+85301106	砸地攻击子弹	2	3			3	0			4			0.1						-1		FxMb1MoonguyHit02						-1			1					0	0	0										0							0	1				853011061	801025									0	HitCase		0		1	1			1														
+85301107	砸地特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk11Ground		-1			1					0	0	0										0							0	1														-0.2	HitCase		0		1	1			0														
+85301204	炸弹爆炸	2	0.1				0			4			4						-1		FxMo1MoonlighterHit08				FxMo1MoonlighterAtk08		-1			1					0	0	0			1	0	1.3					0			1	85301205			0	1														0.5	HitCase		0		1	1			0														
+85301205	炸弹爆炸伤害判定	2	3.5				0			4			0.1						-1								-1			1					0	0	0										2							2	3				853012051	801025									0	HitCase		0		1	1			1														
+85301303	地面烟尘效果	2	0.1				0			4			5						-1						FxMb1MoonguyAtk13Smoke		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85301304	地面爆炸子弹1	2	1		-0.5	7.5	0			4			0.7						-1		FxMo1MoonlighterHit08				FxMb1MoonguyAtk13Ground02		-1			1					0	0	0			1	0	1.5					0							0	1				853013041	801030									0	HitCase		0		1	1			1														
+85301305	地面爆炸子弹2	2	1		1	9	0			4			0.7						-1		FxMo1MoonlighterHit08				FxMb1MoonguyAtk13Ground02		-1			1					0	0	0			1	0	1.5					0							0	1				853013051	801030									0	HitCase		0		1	1			1														
+85301306	地面爆炸子弹3	2	1		3.5	11	0			4			0.5						-1		FxMo1MoonlighterHit08				FxMb1MoonguyAtk13Ground01		-1			1					0	0	0			1	0	1.5					0							0	1				853013061	801030									0	HitCase		0		1	1			1														
+85301307	地面爆炸子弹4	2	1		-1	10	0			4			0.5						-1		FxMo1MoonlighterHit08				FxMb1MoonguyAtk13Ground01		-1			1					0	0	0			1	0	1.5					0							0	1				853013071	801030									0	HitCase		0		1	1			1														
+85301308	地面爆炸子弹5	2	1		-0.5	7	0			4			1.5						-1		FxMo1MoonlighterHit08				FxMb1MoonguyAtk13Ground02		-1			1					0	0	0			1	0	2					0							0	1				853013081	801030									0	HitCase		0		1	1			1														
+85301309	地面爆炸子弹6	2	1		0	3.5	0			4			1.5						-1		FxMo1MoonlighterHit08				FxMb1MoonguyAtk13Ground02		-1			1					0	0	0			1	0	1.5					0							0	1				853013091	801030									0	HitCase		0		1	1			1														
+85301310	背部定位子弹	2	0.1				0			4			8						-1					Bip001Spine2			-1			6					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85301315	小爆炸特效子弹	2	3				0			3			5						-1						FxMb1MoonguyHit05		-1			1					0	0	0										0							0	1					801090									1	HitCase		0		1	1			0														
+85301407	地面特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk14Ground		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85301408	伤害子弹1	1	5	5		2.5	0			4			0.1						-1		FxMb1MoonguyHit1R						-1			1					0	0	0										0							0	1				853014081	801020									0	HitCase		0		1	1			1										4				
+85301409	伤害子弹2	1	5	5		2.5	0			4			0.1						-1		FxMb1MoonguyHit1L						-1			1					0	0	0										0							0	1				853014091	801020									0	HitCase		0		1	1			1										4				
+85301414	地面特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk14Smoke		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85301506	砸地攻击子弹	2	3			3	0			4			0.1						-1		FxMb1MoonguyHit02						-1			1					0	0	0										0							0	1				853015061	801025									0	HitCase		0		1	1			1														
+85301507	砸地特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk15Ground		-1			1					0	0	0										0							0	1														-0.2	HitCase		0		1	1			0														
+85301603	攻击子弹	3	7	180			0			4			0.1						-1		FxMb1MoonguyHit1L						-1			1					0	0	0										0							0	1				853016031	801010									0	HitCase		0		1	1			1														
+85301605	地面特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk16Ground		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85301608	标红特效子弹	2	0.1				0			4			3						-1						FxMb1MoonguyAtk16Arm		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0		1												
+85301703	攻击子弹	3	7	180			0			4			0.1						-1		FxMb1MoonguyHit1R						-1			1					0	0	0										0							0	1					801010									0	HitCase		0		1	1			1														
+85301705	地面特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk17Ground		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85301708	标红特效子弹	2	0.1				0			4			3						-1						FxMb1MoonguyAtk17Arm		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0		1												
+85301805	砸地特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk18Ground		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85301806	攻击子弹1	2	3			3	0			4			0.1						-1		FxMb1MoonguyHit1D						-1			1					0	0	0										0							0	1				853018061	801030									0	HitCase		0		1	1			1										4				
+85301904	烟特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk19Smoke		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85301906	烟特效2	2	0.1				0			4			5						-1						FxMb1MoonguyAtk19Smoke02		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85301907	攻击子弹1	3	3.5	180			0		30	4			0.1						-1		FxMb1MoonguyHit1L						-1			1					0	0	0										0							0	1				853019071	801020									0	HitCase		0		1	1			1														
+85302005	烟特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk20Ground		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85302006	攻击子弹1	3	4	180			0			4			0.1						-1								-1			1					0	0	0										0							0	1				853020061	801020									0	HitCase		1		1	1			1										4				
+85302103	地面摩擦特效	2	0.1		-0.6	-2.5	0			4			5						-1						FxMb1MoonguyLegRub		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85302105	攻击判定	3	7	180			0		180	4			0.1						-1		FxMb1MoonguyHit1L						-1			1					0	0	0										0							0	1				853021051	801010									0	HitCase		0		1	1			1														
+85302107	腿部高亮特效	2	0.1				0			4			5						-1						FxMb1MoonguyLegtip		-1			1					0	0	0										0							0	1														0	HitCase		1		1	1			0														
+85302110	攻击特效	2	0.1				0		30	4			5						-1						FxMb1MoonguyAtk3101		-1			1					0	0	0										0							0	1														0	HitCase		1		1	1			0														
+85302203	地面摩擦特效	2	0.1		0.6	-2.5	0			4			5						-1						FxMb1MoonguyLegRub02		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85302205	攻击判定	3	7	180			0		180	4			0.1						-1		FxMb1MoonguyHit1R						-1			1					0	0	0										0							0	1				853022051	801010									0	HitCase		0		1	1			1														
+85302207	腿部高亮特效	2	0.1				0			4			5						-1						FxMb1MoonguyLegtip02		-1			1					0	0	0										0							0	1														0	HitCase		1		1	1			0														
+85302210	攻击特效	2	0.1				0		-30	4			5						-1						FxMb1MoonguyAtk3102		-1			1					0	0	0										0							0	1														0	HitCase		1		1	1			0														
+85302307	地面痕迹	2	0.1				0			4			5						-1						FxMb1MoonguyAtk3503		-1			1					0	0	0			1	0	0.7					0							0	1														0	HitCase		0		1	1			0														
+85302407	地面痕迹	2	0.1				0			4			5						-1						FxMb1MoonguyAtk3703		-1			1					0	0	0			1	0	0.7					0							0	1														0	HitCase		0		1	1			0														
+85310104	镰刀划地-地裂特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk2103Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85310105	攻击子弹1	3	6	240			0			4			0.1						-1		FxMb1MoonguyAtk2101Hit						-1			1					0	0	0										0							0	1				853101051	801020									0	HitCase		0		1	1			1										4				
+85310106	攻击子弹2	2	6.3				0			4			0.1						-1		FxMb1MoonguyAtk2102Hit						-1			1					0	0	0										0							0	1				853101061	801025									0	HitCase		0		1	1			1										4				
+85310207	攻击判定1	1	3	6		3	0			4			0.1						-1		FxMb1MoonguyAtk2201Hit						-1			1					0	0	0										0							0	1				853102071	801020									0	HitCase		0		1	1			1														
+85310208	攻击判定2	3	6	180			0			4			0.1						-1		FxMb1MoonguyAtk2102Hit						-1			1					0	0	0										0							0	1				853102081	801020									0	HitCase		0		1	1			1										4				
+85310209	推开子弹	3	6	180			0			4			0.5						-1	1			0.05				-1			1					0	0	0										0							0	1					853114									0	HitCase		1		1	1			0														
+85310304	镰刀划地-地裂特效	2	0.1				0			4			10						-1						FxMb1MoonguyAtk2303Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85310308	攻击判定1	3	6	180			0			4			0.1						-1		FxMb1MoonguyAtk2101Hit						-1			1					0	0	0										0							0	1				853103081	801020									0	HitCase		0		1	1			1										4				
+85310309	攻击判定2	1	3	6		3	0			4			0.1						-1		FxMb1MoonguyAtk2302Hit						-1			1					0	0	0										0							0	1				853103091	801015									0	HitCase		0		1	1			1														
+85310310	攻击判定3	1	4	6		3	0			4			0.1						-1		FxMb1MoonguyAtk2303DilieHit						-1			1					0	0	0										0							0	1				853103101	801020									0	HitCase		0		1	1			1														
+85310408	地裂特效2	2	0.1				0			4			10						-1						FxMb1MoonguyAtk2402Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85310409	攻击判定	1	6	15			0		-30	4			0.1						-1		FxMb1MoonguyAtk2401Hit						-1			1					0	0	0										0							0	1				853104091	801030									0	HitCase		0		1	1			1														
+85310410	地裂特效1	2	0.1				0			4			10						-1						FxMb1MoonguyAtk2401Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85310413	攻击判定2	1	4	6		-3	0			4			0.1						-1		FxMb1MoonguyAtk2303DilieHit						-1			1					0	0	0										0							0	1				853104131										0	HitCase		0		1	1			1														
+85310504	怪物头部特效	2	0.1		-0.3	2.1	0			4			5						-1					eyeballBonesM3	FxMb1MoonguyAtk25Jiguang02		-1			1					0	0	0										0							0	1														0	HitCase		1		1	1			0														
+85310507	攻击判定1	1	2	50	-0.3	25	0			4			2.2						-1	1	FxMb1MoonguyAtk25JiguangHit		0.3				-1			1					0	0	0										0							0	1					801020					853122				0	HitCase		1		1	1			0										4				
+85310508	击飞子弹-左	2	10				0		-120	4			0.1						-1								-1			1					0	0	0										1							0	3				853105081										0	HitCase		1		1	1			0														
+85310509	击飞子弹-右	2	10				0		120	4			0.1						-1								-1			1					0	0	0										1							0	3				853105091										0	HitCase		1		1	1			0														
+85310604	扬尘特效	2	0.1			0.5	0			4			10						-1						FxMb1MoonguyAtk2602Shazi		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85310609	攻击判定1	3	6	180			0			4			0.1						-1		FxMb1MoonguyAtk2102Hit						-1			1					0	0	0										0							0	1				853106091	801030									0	HitCase		0		1	1			1										4				
+85310610	攻击判定2	3	6	180			0			4			0.1						-1		FxMb1MoonguyAtk2102Hit						-1			1					0	0	0										0							0	1				853106101	801025									0	HitCase		0		1	1			1										4				
+85310611	扬尘特效附加1	2	0.1		-3	-3	0			4			10						-1						FxMb1MoonguyAtk2602Shazi		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85310612	扬尘特效附加2	2	0.1		3	-3	0			4			10						-1						FxMb1MoonguyAtk2602Shazi		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85310613	残肢特效	2	0.1			0.5	0			4			10						-1						FxMb1MoonguyAtk2602Canzhi		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85310704	终结爆炸	2	0.1				0			4			5						-1						FxMb1MoonguyAtk2703Baozha		-1			1					0	0	0										0							0	1					801095									0	HitCase		0		1	1			0														
+85310705	吸人子弹	2	50				0			4			5						-1	1			0.05				-1			1					0	0	0										0							0	1					853123									0	HitCase		0		1	1			0														
+85310706	终结爆炸伤害判定	2	13				0			4			0.2						-1		FxMb1MoonguyAtk27Hit						-1			1					0	0	0										0							0	1				853107061	853124	801050								0	HitCase		0		1	1			1														
+85310707	中心高能持续伤害	2	5				0			4			3						-1	1	FxMb1MoonguyAtk27Hit		0.3				-1			1					0	0	0										0							0	1					801005									0	HitCase		0		1	1			0														
+85310714	爆炸分层打表	2	1		-0.5		0			4			5		1				-1						FxMb1MoonguyAtk2703Baozha02		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1		1	1														
+85310805	攻击判定1	1	8	6		4	0			4			0.1						-1		FxMb1MoonguyAtk2802Hit						-1			1					0	0	0										0							0	1				853108051	801010									0	HitCase		0		1	1			1														
+85310806	攻击判定2	1	8	6		4	0			4			0.1						-1		FxMb1MoonguyAtk2803Hit						-1			1					0	0	0										0							0	1				853108061	801010									0	HitCase		0		1	1			1														
+85310807	攻击判定3	3	8	180			0			4			0.1						-1		FxMb1MoonguyAtk2804Hit						-1			1					0	0	0										0							0	1				853108071	801020									0	HitCase		0		1	1			1										4				
+85310808	攻击判定4	1	6	10		0	0			4			0.15						-1		FxMb1MoonguyAtk2805Hit						-1			1					0	0	0										0							0	1				853108081	801020									0	HitCase		0		1	1			1														
+85310809	攻击判定5	1	6	8		4	0			4			0.1						-1		FxMb1MoonguyAtk2303DilieHit						-1			1					0	0	0										0							0	1				853108091	801030									0	HitCase		0		1	1			1														
+85310812	攻击特效1地裂	2	0.1				0			4			5						-1						FxMb1MoonguyAtk2802Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85310814	攻击特效2地裂	2	0.1				0			4			5						-1						FxMb1MoonguyAtk2803Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85310817	攻击特效4地裂	2	0.1				0			4			5						-1						FxMb1MoonguyAtk2103Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85310818	攻击特效5地裂	2	0.1				0			4			5						-1						FxMb1MoonguyAtk2303Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85310904	攻击判定1	3	8	180			0			4			0.1						-1		FxMb1MoonguyAtk2901Hit						-1			1					0	0	0										0							0	1				853109041	801020									0	HitCase		0		1	1			1										4				
+85310905	攻击判定2	1	4	4		4	0			4			0.1						-1		FxMb1MoonguyAtk2303DilieHit						-1			1					0	0	0										0							0	1				853109051	801020									0	HitCase		0		1	1			1														
+85310907	地裂特效2	2	0.1				0			4			10						-1						FxMb1MoonguyAtk2303Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85311003	攻击判定2	1	4	4		4	0			4			0.1						-1		FxMb1MoonguyAtk2303DilieHit						-1			1					0	0	0										0							0	1				853110031	801030									0	HitCase		0		1	1			1														
+85311004	地裂特效2	2	0.1				0			4			10						-1						FxMb1MoonguyAtk2303Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85311005	扬尘特效	2	0.1			0.5	0			4			10						-1						FxMb1MoonguyAtk2602Shazi		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85311008	残肢特效	2	0.1			0.5	0			4			10						-1						FxMb1MoonguyAtk2602Canzhi		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85311010	扬尘特效附加1	2	0.1		-3	-3	0			4			10						-1						FxMb1MoonguyAtk2602Shazi		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85311011	扬尘特效附加2	2	0.1		3	-3	0			4			10						-1						FxMb1MoonguyAtk2602Shazi		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85311108	攻击判定1	3	6	180			0			4			0.1						-1		FxMb1MoonguyAtk2101Hit						-1			1					0	0	0										0							0	1				853111081	801020									0	HitCase		0		1	1			1														
+85311204	镰刀划地-地裂特效	2	0.1				0			4			10						-1						FxMb1MoonguyAtk2303Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85311209	攻击判定2	1	3	6		3	0			4			0.1						-1		FxMb1MoonguyAtk2302Hit						-1			1					0	0	0										0							0	1				853112091	801015									0	HitCase		0		1	1			1														
+85311210	攻击判定3	1	4	6		3	0			4			0.1						-1		FxMb1MoonguyAtk2303DilieHit						-1			1					0	0	0										0							0	1				853112101	801020									0	HitCase		0		1	1			1														
+85311307	攻击判定1	1	3	6		3	0			4			0.1						-1		FxMb1MoonguyAtk2201Hit						-1			1					0	0	0										0							0	1				853113071	801020									0	HitCase		0		1	1			1														
+85311308	攻击判定2	3	6	180			0			4			0.1						-1		FxMb1MoonguyAtk2102Hit						-1			1					0	0	0										0							0	1				853113081	801020									0	HitCase		0		1	1			1														
+85311402	特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk2403		-1			1					0	0	0										0							0	1														-0.5	HitCase		1		1	1			0														
+85311408	攻击判定1	3	6	180			0		180	4			0.1						-1		FxMb1MoonguyAtk2102Hit						-1			1					0	0	0										0							0	1				853114081	801030									0	HitCase		0		1	1			1														
+85311502	碎片飞向玩家	2	0.1				0			4			0.1						-1						FxMb1MoonguySuipian		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85311504	场景边界子弹	2	0.1				0			4			-1						-1						Fxscene02801Ringglow		-1			1					0	0	0										3							4	1														0	HitCase		0		1	1			0		1												
+85311505	场景残肢子弹	2	0.1				0			4			-1						-1						FxMb1MoonguyCanzhi		-1			1					0	0	0										3							4	1														0	HitCase		0		1	1			0														
+85311506	场景残肢子弹-瞬发	2	0.1				0			4			-1						-1						FxMb1MoonguyAtk2703Baozha02Add		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85311507	旧日之女测试-激光炮	2	0.1				40			4			1						-1					EyeCase4	FxZhanJianZiDan		-1			3	6.5	0	20	1	0	0	0			1	0	0.2					2							3	1														0	HitCase		0		1	1			0														
+85311508	旧日之女测试-激光炮蓄力特效	2	0.1				0			4			3						-1					EyeCase4	FxZhanJianXuLi		-1			6					0	0	0			1	0	0.2					0							0	1														0	HitCase		0		1	1			0														
+85311509	旧日之女测试-能量球	2	0.1				0			4			-1						-1						FxDropBigBlue		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85311512	旧日之女测试-激光炮父子弹	2	0.1				0			4			3						-1					EyeCase2	FxYubei02		-1			6					0	0	0			1	0	5					4	0.3		1	85311507			0	1														0	HitCase		0		1	1			0														
+85311513	旧日之女测试-激光炮父子弹	2	0.1				0			4			3						-1					EyeCase3	FxYubei02		-1			6					0	0	0			1	0	5					4	0.3		1	85311507			0	1														0	HitCase		0		1	1			0														
+85311514	旧日之女测试-激光炮父子弹	2	0.1				0			4			3						-1					EyeCase4	FxYubei02		-1			6					0	0	0			1	0	5					4	0.3		1	85311507			0	1														0	HitCase		0		1	1			0														
+85311515	旧日之女测试-激光炮父子弹	2	0.1				0			4			3						-1					EyeCase5	FxYubei02		-1			6					0	0	0			1	0	5					4	0.3		1	85311507			0	1														0	HitCase		0		1	1			0														
+85311517	旧日之女测试-激光炮蓄力特效	2	0.1				0			4			3						-1					EyeCase2	FxZhanJianXuLi		-1			6					0	0	0			1	0	0.2					4							0	1														0	HitCase		0		1	1			0														
+85311518	旧日之女测试-激光炮蓄力特效	2	0.1				0			4			3						-1					EyeCase3	FxZhanJianXuLi		-1			6					0	0	0			1	0	0.2					4							0	1														0	HitCase		0		1	1			0														
+85311519	旧日之女测试-激光炮蓄力特效	2	0.1				0			4			3						-1					EyeCase4	FxZhanJianXuLi		-1			6					0	0	0			1	0	0.2					4							0	1														0	HitCase		0		1	1			0														
+85311520	旧日之女测试-激光炮蓄力特效	2	0.1				0			4			3						-1					EyeCase5	FxZhanJianXuLi		-1			6					0	0	0			1	0	0.2					4							0	1														0	HitCase		0		1	1			0														
+85311703	攻击判定2	1	4	4		4	0			4			0.1						-1		FxMb1MoonguyAtk2303DilieHit						-1			1					0	0	0										0							0	1				853117031	801030									0	HitCase		0		1	1			1														
+85311704	地裂特效2	2	0.1				0			4			10						-1						FxMb1MoonguyAtk2303Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		0	1			0														
+85311904	攻击判定1	3	8	180			0			4			0.1						-1		FxMb1MoonguyAtk2901Hit						-1			1					0	0	0										0							0	1				853119041	801020									0	HitCase		0		1	1			1														
+85312111	攻击判定1	1	3	6		3	0			4			0.1						-1		FxMb1MoonguyAtk2201Hit						-1			1					0	0	0										0							0	1				853121111	801015									0	HitCase		0		1	1			1														
+85312112	攻击判定2	3	6	180			0			4			0.1						-1		FxMb1MoonguyAtk2102Hit						-1			1					0	0	0										0							0	1				853121121	801015									0	HitCase		0		1	1			1														
+85312306	砸地特效	2	0.1				0			4			5						-1						FxMb1MoonguyAtk2303Dilie		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85312307	攻击判定2	1	4	4	0.5	2	0			4			0.1						-1		FxMb1MoonguyHit1R						-1			1					0	0	0										0							0	1				853123071	801015									0	HitCase		0		1	1			1														
+85312312	攻击判定1	1	4	4		4	0			4			0.1						-1		FxMb1MoonguyAtk2303DilieHit						-1			1					0	0	0										0							0	1				853123121	801030									0	HitCase		0		1	1			1														
+85500202	红球3消（冰）-3	2	10		-20	-10	0			4			1						-1						FxMb1LostwomenAtk05		-1			1					0	0	0			1	0	0.75					0	1		1	85500203			0	1														0	HitCase		1		1	1			0														
+85500203	红球3消（冰）-3	2	10				0			4			1						-1						FxMb1LostwomenAtk05Loop		-1			1					0	0	0			1	0	0.75					2	1		1	85500204			3	1														0	HitCase		1		1	1			1														
+85500204	红球3消（冰）-3	2	10				240			4			2						-1						FxMb1LostwomenAtk05Loop		-1			1	200				0	0	0			1	0	0.75					2							3	1					801055									0	HitCase		0		1	1			1														
+85500502	红球3消（冰）-3	2	10		20	-10	0			4			1						-1						FxMb1LostwomenAtk05		-1			1					0	0	0			1	0	0.75					0	1		1	85500503			0	1														0	HitCase		1		1	1			0														
+85500503	红球3消（冰）-3	2	10				0			4			1						-1						FxMb1LostwomenAtk05Loop		-1			1					0	0	0			1	0	0.75					2	1		1	85500504			3	1														0	HitCase		1		1	1			1														
+85500504	红球3消（冰）-3	2	10				240			4			2						-1						FxMb1LostwomenAtk05Loop		-1			1	200				0	0	0			1	0	0.75					2							3	1					801055									0	HitCase		0		1	1			1														
+85500507	水花特效子弹	2	10				240			4			2						-1						FxMb1LostwomenHuashui02		-1			1	200				0	0	0										2							3	1														0	HitCase		0		1	1			0														
+85500602	水柱预警1	2	6.5				0			4			0.7						-1						FxMb1LostwomenAtk06Yujing		-1			1					0	0	0										1	0.7		1	85500606			0	1														0	HitCase		2		1	1			0				1										
+85500603	水柱预警2	2	6.5				0			4			0.7						-1						FxMb1LostwomenAtk06Yujing		-1			1					0	0	0										1	0.7		1	85500607			0	1														0	HitCase		2		1	1			0				1										
+85500604	水柱预警3	2	6.5				0			4			0.7						-1						FxMb1LostwomenAtk06Yujing		-1			1					0	0	0										1	0.7		1	85500608			0	1														0	HitCase		2		1	1			0				1										
+85500605	水柱预警4	2	6.5				0			4			0.7						-1						FxMb1LostwomenAtk06Yujing		-1			1					0	0	0										1	0.7		1	85500609			0	1														0	HitCase		2		1	1			0				1										
+85500606	水柱预警1Loop	2	6.5				0			4			3.1						-1						FxMb1LostwomenAtk06YujingLoop		-1			1					0	0	0										2	3		1	85500614			3	1														0	HitCase		0		1	1			0				1										
+85500607	水柱预警2Loop	2	6.5				0			4			2.1						-1						FxMb1LostwomenAtk06YujingLoop		-1			1					0	0	0										2	2		1	85500614			3	1														0	HitCase		0		1	1			0				1										
+85500608	水柱预警3Loop	2	6.5				0			4			1.1						-1						FxMb1LostwomenAtk06YujingLoop		-1			1					0	0	0										2	1		1	85500614			3	1														0	HitCase		0		1	1			0				1										
+85500609	水柱预警4Loop	2	6.5				0			4			0.1						-1						FxMb1LostwomenAtk06YujingLoop		-1			1					0	0	0										2	0		1	85500614			3	1														0	HitCase		0		1	1			0				1										
+85500614	水柱喷发	2	0.1				0			4			5						-1						FxMb1LostwomenAtk06		-1			1					0	0	0										2	0.3		1	85500615			3	1														0	HitCase		0		1	1			0														
+85500615	水柱喷发攻击判定	2	6.5				0			4			0.5						-1								-1			1					0	0	0										2							3	1					801050									0	HitCase		0		1	1			1														
+85500702	水花子弹	2	0.1				0			4			0.3						-1						FxMb1LostwomenFzshuihua		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85500704	投掷建筑击中伤害子弹	2	6				0			4			0.1						-1								-1			1					0	0	0										1							0	1					801030									0	HitCase		0		1	1			1														
+85500705	投掷建筑击中特效子弹A	2	0.1				0			4			10						-1					YunoPoint001	FxMb1LostwomenFzHit01		-1			1					0	0	0			1	0	1					0							0	1														0	HitCase		0		1	1			0														
+85500706	投掷建筑击中特效子弹B	2	0.1				0			4			10						-1						FxMb1LostwomenFzHit02		-1			1					0	0	0			1	0	0.45					0							0	1														-2	HitCase		0		1	1			0														
+85500707	投掷建筑击中特效子弹C	2	0.1				0			4			5						-1						FxMb1LostwomenFzHit02		-1			1					0	0	0			1							0							0	1														2	HitCase		1		1	1			0														
+85500802	真实追踪弹1	2	1	0.05		2	60			4		1	2						1		FxMb1LostwomenDandaoHit			eyeBallBoneFM00	FxMb1LostwomenDandao01		1			5	0	0	0	1.3	62.8318	-20	0	0.8	-4	1	0	1.5					4							0	1					801005									0	HitCase		0		1	1	0.4		1														
+85500803	真实追踪弹2	2	1	0.05		2	60			4		1	2						1		FxMb1LostwomenDandaoHit			eyeBallBoneFM00	FxMb1LostwomenDandao01		1			5	0	160	0	1.3	62.8318	-20	0	0.8	-4	1	0	1.5					4							0	1					801005									0	HitCase		0		1	1	0.4		1														
+85500804	真实追踪弹3	2	1	0.05		2	60			4		1	2						1		FxMb1LostwomenDandaoHit			eyeBallBoneFM00	FxMb1LostwomenDandao01		1			5	30	45	0	1.3	62.8318	-20	0	0.8	-4	1	0	1.5					4							0	1					801005									0	HitCase		0		1	1	0.4		1														
+85500805	真实追踪弹4	2	1	0.05		2	60			4		1	2						1		FxMb1LostwomenDandaoHit			eyeBallBoneFM00	FxMb1LostwomenDandao01		1			5	-30	45	0	1.3	62.8318	-20	0	0.8	-4	1	0	1.5					4							0	1					801005									0	HitCase		0		1	1	0.4		1														
+85500806	真实追踪弹5	2	1	0.05		2	60			4		1	2						1		FxMb1LostwomenDandaoHit			eyeBallBoneFM00	FxMb1LostwomenDandao01		1			5	30	135	0	1.3	62.8318	-20	0	0.8	-4	1	0	1.5					4							0	1					801005									0	HitCase		0		1	1	0.4		1														
+85500807	真实追踪弹6	2	1	0.05		2	60			4		1	2						1		FxMb1LostwomenDandaoHit			eyeBallBoneFM00	FxMb1LostwomenDandao01		1			5	-30	135	0	1.3	62.8318	-20	0	0.8	-4	1	0	1.5					4							0	1					801005									0	HitCase		0		1	1	0.4		1														
+85500811	施法	2	0.1			10	0			4			5.1		1				-1						FxMb1LostwomenHyMagic		-1		FxMb1LostwomenHyMagicHit	1					0	0	0										0							0	1														12.3	HitCase		1		1	1			0														
+85500910	攻击弹道1	2	0.1				0			4			1						-1					ringBoneUp12			-1			1	0	0	1		0	0	0										4			1	85500915			0	1														0	HitCase		0		1	1			0														
+85500911	攻击弹道2	2	0.1				0			4			1						-1					ringBoneUp00			-1			1	0	0	1		0	0	0										4			1	85500916			0	1														0	HitCase		0		1	1			0														
+85500912	攻击弹道3	2	0.1				0			4			1						-1					ringBoneUp04			-1			1	0	0	1		0	0	0										4			1	85500917			0	1														0	HitCase		0		1	1			0														
+85500913	攻击弹道4	2	0.1				0			4			1						-1					ringBoneUp09			-1			1	0	0	1		0	0	0										4			1	85500918			0	1														0	HitCase		0		1	1			0														
+85500915	旧日之女测试-激光炮	2	0.1				120			4		1	1						-1		FxMb1LostwomenDandaoHit			ringBoneUp12	FxMb1LostwomenZidan		-1			3	4	-1	30	1	0	0	0										2							3	1					801015									0	HitCase		0	1	1	1			0														
+85500916	旧日之女测试-激光炮	2	0.1				120			4		1	1						-1		FxMb1LostwomenDandaoHit			ringBoneUp00	FxMb1LostwomenZidan		-1			3	4	-1	30	1	0	0	0										2							3	1					801015									0	HitCase		0	1	1	1			0														
+85500917	旧日之女测试-激光炮	2	0.1				120			4		1	1						-1		FxMb1LostwomenDandaoHit			ringBoneUp04	FxMb1LostwomenZidan		-1			3	4	-1	30	1	0	0	0										2							3	1					801015									0	HitCase		0	1	1	1			0														
+85500918	旧日之女测试-激光炮	2	0.1				120			4		1	1						-1		FxMb1LostwomenDandaoHit			ringBoneUp09	FxMb1LostwomenZidan		-1			3	4	-1	30	1	0	0	0										2							3	1					801015									0	HitCase		0	1	1	1			0														
+85501032	常驻雾气子弹	2	0.1				0			4			9999						-1						FxMb1LostwomenWuqi		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501038	常驻雾气子弹2（外边框）	2	0.1				0			4			9999						-1						FxMb1LostwomenWuqi02		-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501039	红潮虚影粒子子弹	2	0.1				0			4			1						-1						FxHongChaoXuYing		-1			1					0	0	0			1	0	1.5					3							0	1														0	HitCase		0		1	1			0														
+85501040	幻影伤害子弹	2	4				0			4			9999						-1	1			0.4				-1			1					0	0	0										0							0	1					801020	855056	855057	855058						0	HitCase		0		1	1			0														
+85501041	幻影伤害子弹+显示子弹	2	4				0			4			9999						-1	1			0.4		FxMb1LostwomenHy		-1			1					0	0	0										3							0	1						855056	855057	855058						0	HitCase		0		1	1	1		0														
+85501042	幻影爆炸子弹	2	0.1				0			4			3						-1						FxMb1LostwomenHyMagicHit		-1			1					0	0	0										3							0	1														0	HitCase		0		1	1			0														
+85501043	幻影演出子弹	0	4				0			4			1.5						-1	1			0.4		FxMb1LostwomenHy		-1			1					0	0	0										3							0	1														0	HitCase		0		1	1	1		0														
+85501044	测试子弹	2	0.1				0			4			9999						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														1
+85501104	A1	0	0.1				15		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0		-0.2	0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501105	A2	0	0.1				15		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15		-0.05	0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501106	A3	0	0.1				15		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.23		0.03	0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501107	A4	0	0.1				15		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15		-0.05	0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501108	A5	0	0.1				15		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0		-0.2	0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501109	A6	0	0.1				15		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2		-0.4	0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501110	A7	2	0.3				13		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45		-0.55	0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501111	A8	2	0.3				15		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.43		-0.63	0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501112	A9	2	0.3				13		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45		-0.55	0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501113	A10	0	0.1				15		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2		-0.4	0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501114	B1	0	0.1				12		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501115	B2	0	0.1				12		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501116	B3	0	0.1				12		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.23			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501117	B4	0	0.1				12		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501118	B5	0	0.1				12		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501119	B6	2	0.3				12		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501120	B7	2	0.3				8		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501121	B8	2	0.3				10		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.43			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501122	B9	2	0.3				8		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501123	B10	2	0.3				12		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501124	C1	0	0.1				12		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501125	C2	0	0.1				12		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501126	C3	0	0.1				12		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.23			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501127	C4	0	0.1				12		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501128	C5	0	0.1				12		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501129	C6	2	0.3				12		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501130	C7	2	0.3				8		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501131	C8	2	0.3				10		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.43			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501132	C9	2	0.3				8		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501133	C10	2	0.3				12		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501134	D1	0	0.1				12		-45	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501135	D2	0	0.1				12		-38	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501136	D3	0	0.1				12		-25	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.23			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501137	D4	0	0.1				12		-12	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501138	D5	0	0.1				12		-5	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501139	D6	0	0.3				12		-45	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501140	D7	2	0.3				8		-38	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501141	D8	2	0.3				10		-25	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.43			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501142	D9	2	0.3				8		-12	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501143	D10	0	0.3				12		-5	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501144	E1	0	0.1				12		-40	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501145	E2	0	0.1				12		-33	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501146	E3	0	0.1				12		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.23			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501147	E4	0	0.1				12		-7	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501148	E5	0	0.1				12		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501149	E6	0	0.3				12		-40	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501150	E7	2	0.3				8		-33	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501151	E8	2	0.3				10		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.43			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501152	E9	2	0.3				8		-7	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501153	E10	0	0.3				12		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501154	F1	0	0.1				12		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501155	F2	0	0.1				12		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501156	F3	0	0.1				12		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.23			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501157	F4	0	0.1				12		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501158	F5	0	0.1				12		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501159	F6	2	0.3				12		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501160	F7	2	0.3				8		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501161	F8	2	0.3				10		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.43			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501162	F9	2	0.3				8		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501163	F10	2	0.3				12		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501164	G1	0	0.1				12		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501165	G2	0	0.1				12		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501166	G3	0	0.1				12		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.23			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501167	G4	0	0.1				12		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501168	G5	0	0.1				12		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501169	G6	2	0.3				12		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501170	G7	2	0.3				8		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501171	G8	2	0.3				10		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.43			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501172	G9	2	0.3				8		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501173	G10	2	0.3				12		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501174	H1	0	0.1				12		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501175	H2	0	0.1				12		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501176	H3	0	0.1				12		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.23			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501177	H4	0	0.1				12		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501178	H5	0	0.1				12		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501179	H6	2	0.3				12		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501180	H7	2	0.3				8		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501181	H8	2	0.3				10		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.43			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501182	H9	2	0.3				8		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501183	H10	2	0.3				12		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501185	结尾2	0	0.1				9		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.15			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501186	结尾3	0	0.1				8		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.23			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501188	结尾5	0	0.1				8		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501189	结尾6	0	0.1				7		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501191	结尾8	0	0.1				6		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.43			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501193	结尾10	0	0.1				5		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.2			0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85501204	A1	0	0.1				10		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.13		0.03	0	0	0										0							2	1														0	HitCase		0		1	1			0														
+85501205	A2	0	0.1				10		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.05		-0.05	0	0	0										0							2	1														0	HitCase		0		1	1			0														
+85501206	A3	0	0.1				10		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.1		-0.2	0	0	0										0							2	1														0	HitCase		0		1	1			0														
+85501207	A4	2	0.1				10		-20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.3		-0.4	0	0	0										0							2	1														0	HitCase		0		1	1			0														
+85501208	A5	2	0.3				10		-13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45		-0.55	0	0	0										0							2	1														0	HitCase		0		1	1			0														
+85501209	A6	2	0.3				10		0	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.53		-0.63	0	0	0										0							2	1														0	HitCase		0		1	1			0														
+85501210	A7	2	0.3				10		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.45		-0.55	0	0	0										0							2	1														0	HitCase		0		1	1			0														
+85501211	A4	2	0.1				10		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.3		-0.4	0	0	0										0							2	1														0	HitCase		0		1	1			0														
+85501212	A9	0	0.1				10		20	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	-0.1		-0.2	0	0	0										0							2	1														0	HitCase		0		1	1			0														
+85501213	A10	0	0.1				10		13	4			3.5						1		FxMb1LostwomenDandaoHit01			Bip001Neck	FxMb1LostwomenDandao02		1			1	0	0.05		-0.05	0	0	0										0							2	1														0	HitCase		0		1	1			0														
+85501214	子弹发射器A	0	0.1				0		120	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501204			0	1														0	HitCase		1		1	1			0														
+85501215	子弹发射器A	0	0.1				0		120	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501205			0	1														0	HitCase		1		1	1			0														
+85501216	子弹发射器A	0	0.1				0		120	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501206			0	1														0	HitCase		1		1	1			0														
+85501217	子弹发射器A	0	0.1				0		120	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501207			0	1														0	HitCase		1		1	1			0														
+85501218	子弹发射器A	0	0.1				0		120	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501208			0	1														0	HitCase		1		1	1			0														
+85501219	子弹发射器A	0	0.1				0		120	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501209			0	1														0	HitCase		1		1	1			0														
+85501220	子弹发射器A	0	0.1				0		120	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501210			0	1														0	HitCase		1		1	1			0														
+85501221	子弹发射器A	0	0.1				0		120	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501211			0	1														0	HitCase		1		1	1			0														
+85501222	子弹发射器A	0	0.1				0		120	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501212			0	1														0	HitCase		1		1	1			0														
+85501223	子弹发射器A	0	0.1				0		120	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501213			0	1														0	HitCase		1		1	1			0														
+85501224	子弹发射器B	0	0.1				0		240	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501204			0	1														0	HitCase		1		1	1			0														
+85501225	子弹发射器B	0	0.1				0		240	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501205			0	1														0	HitCase		1		1	1			0														
+85501226	子弹发射器B	0	0.1				0		240	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501206			0	1														0	HitCase		1		1	1			0														
+85501227	子弹发射器B	0	0.1				0		240	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501207			0	1														0	HitCase		1		1	1			0														
+85501228	子弹发射器B	0	0.1				0		240	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501208			0	1														0	HitCase		1		1	1			0														
+85501229	子弹发射器B	0	0.1				0		240	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501209			0	1														0	HitCase		1		1	1			0														
+85501230	子弹发射器B	0	0.1				0		240	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501210			0	1														0	HitCase		1		1	1			0														
+85501231	子弹发射器B	0	0.1				0		240	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501211			0	1														0	HitCase		1		1	1			0														
+85501232	子弹发射器B	0	0.1				0		240	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501212			0	1														0	HitCase		1		1	1			0														
+85501233	子弹发射器B	0	0.1				0		240	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501213			0	1														0	HitCase		1		1	1			0														
+85501234	子弹发射器C	0	0.1				0		0	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501204			0	1														0	HitCase		1		1	1			0														
+85501235	子弹发射器C	0	0.1				0		0	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501205			0	1														0	HitCase		1		1	1			0														
+85501236	子弹发射器C	0	0.1				0		0	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501206			0	1														0	HitCase		1		1	1			0														
+85501237	子弹发射器C	0	0.1				0		0	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501207			0	1														0	HitCase		1		1	1			0														
+85501238	子弹发射器C	0	0.1				0		0	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501208			0	1														0	HitCase		1		1	1			0														
+85501239	子弹发射器C	0	0.1				0		0	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501209			0	1														0	HitCase		1		1	1			0														
+85501240	子弹发射器C	0	0.1				0		0	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501210			0	1														0	HitCase		1		1	1			0														
+85501241	子弹发射器C	0	0.1				0		0	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501211			0	1														0	HitCase		1		1	1			0														
+85501242	子弹发射器C	0	0.1				0		0	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501212			0	1														0	HitCase		1		1	1			0														
+85501243	子弹发射器C	0	0.1				0		0	4			999						-1								-1			1					0	0	0										0		1.5	-1	85501213			0	1														0	HitCase		1		1	1			0														
+85501602	子弹发射器1	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501612			0	1														0	HitCase		0		1	1			0														
+85501603	子弹发射器2	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501613			0	1														0	HitCase		0		1	1			0														
+85501604	子弹发射器3	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501614			0	1														0	HitCase		0		1	1			0														
+85501605	子弹发射器4	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501615			0	1														0	HitCase		0		1	1			0														
+85501606	子弹发射器5	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501616			0	1														0	HitCase		0		1	1			0														
+85501607	子弹发射器6	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501617			0	1														0	HitCase		0		1	1			0														
+85501608	子弹发射器7	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501618			0	1														0	HitCase		0		1	1			0														
+85501609	子弹发射器8	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501619			0	1														0	HitCase		0		1	1			0														
+85501610	子弹发射器9	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501620			0	1														0	HitCase		0		1	1			0														
+85501612	子子弹	2	0.1				10		0	4			5						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501622			0	1														0	HitCase		0		1	1			0														
+85501613	子子弹	2	0.1				10		40	4			5						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501623			0	1														0	HitCase		0		1	1			0														
+85501614	子子弹	2	0.1				10		80	4			5						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501624			0	1														0	HitCase		0		1	1			0														
+85501615	子子弹	2	0.1				10		120	4			5						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501625			0	1														0	HitCase		0		1	1			0														
+85501616	子子弹	2	0.1				10		160	4			5						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501626			0	1														0	HitCase		0		1	1			0														
+85501617	子子弹	2	0.1				10		200	4			5						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501627			0	1														0	HitCase		0		1	1			0														
+85501618	子子弹	2	0.1				10		240	4			5						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501628			0	1														0	HitCase		0		1	1			0														
+85501619	子子弹	2	0.1				10		280	4			5						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501629			0	1														0	HitCase		0		1	1			0														
+85501620	子子弹	2	0.1				10		320	4			5						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501630			0	1														0	HitCase		0		1	1			0														
+85501622	子子弹	2	0.1				10		0	4			5						-1					Bip001Pelvis	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501632			0	1														0	HitCase		0		1	1			0														
+85501623	子子弹	2	0.1				10		40	4			5						-1					Bip001Pelvis	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501633			0	1														0	HitCase		0		1	1			0														
+85501624	子子弹	2	0.1				10		80	4			5						-1					Bip001Pelvis	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501634			0	1														0	HitCase		0		1	1			0														
+85501625	子子弹	2	0.1				10		120	4			5						-1					Bip001Pelvis	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501635			0	1														0	HitCase		0		1	1			0														
+85501626	子子弹	2	0.1				10		160	4			5						-1					Bip001Pelvis	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501636			0	1														0	HitCase		0		1	1			0														
+85501627	子子弹	2	0.1				10		200	4			5						-1					Bip001Pelvis	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501637			0	1														0	HitCase		0		1	1			0														
+85501628	子子弹	2	0.1				10		240	4			5						-1					Bip001Pelvis	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501638			0	1														0	HitCase		0		1	1			0														
+85501629	子子弹	2	0.1				10		280	4			5						-1					Bip001Pelvis	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501639			0	1														0	HitCase		0		1	1			0														
+85501630	子子弹	2	0.1				10		320	4			5						-1					Bip001Pelvis	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501640			0	1														0	HitCase		0		1	1			0														
+85501632	子子弹	2	0.1				10		0	4			5						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501642			0	1														10	HitCase		0		1	1			0														
+85501633	子子弹	2	0.1				10		40	4			5						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501643			0	1														10	HitCase		0		1	1			0														
+85501634	子子弹	2	0.1				10		80	4			5						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501644			0	1														10	HitCase		0		1	1			0														
+85501635	子子弹	2	0.1				10		120	4			5						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501645			0	1														10	HitCase		0		1	1			0														
+85501636	子子弹	2	0.1				10		160	4			5						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501646			0	1														10	HitCase		0		1	1			0														
+85501637	子子弹	2	0.1				10		200	4			5						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501647			0	1														10	HitCase		0		1	1			0														
+85501638	子子弹	2	0.1				10		240	4			5						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501648			0	1														10	HitCase		0		1	1			0														
+85501639	子子弹	2	0.1				10		280	4			5						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501649			0	1														10	HitCase		0		1	1			0														
+85501640	子子弹	2	0.1				10		320	4			5						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0			1	85501650			0	1														10	HitCase		0		1	1			0														
+85501642	子子弹	2	0.1				10		0	4			5						-1					Bip001RFoot	FxMb1LostwomenDandao01Ceshi		-1			2	60	60	0	50	0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501643	子子弹	2	0.1				10		40	4			5						-1					Bip001RFoot	FxMb1LostwomenDandao01Ceshi		-1			2	60	60	0	50	0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501644	子子弹	2	0.1				10		80	4			5						-1					Bip001RFoot	FxMb1LostwomenDandao01Ceshi		-1			2	60	60	0	50	0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501645	子子弹	2	0.1				10		120	4			5						-1					Bip001RFoot	FxMb1LostwomenDandao01Ceshi		-1			2	60	60	0	50	0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501646	子子弹	2	0.1				10		160	4			5						-1					Bip001RFoot	FxMb1LostwomenDandao01Ceshi		-1			2	60	10	0	50	0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501647	子子弹	2	0.1				10		200	4			5						-1					Bip001RFoot	FxMb1LostwomenDandao01Ceshi		-1			2	60	10	0	50	0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501648	子子弹	2	0.1				10		240	4			5						-1					Bip001RFoot	FxMb1LostwomenDandao01Ceshi		-1			2	60	10	0	50	0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501649	子子弹	2	0.1				10		280	4			5						-1					Bip001RFoot	FxMb1LostwomenDandao01Ceshi		-1			2	60	10	0	50	0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501650	子子弹	2	0.1				10		320	4			5						-1					Bip001RFoot	FxMb1LostwomenDandao01Ceshi		-1			2	60	10	0	50	0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501702	子弹发射器1	0	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501712			0	1														0	HitCase		0		1	1			0														
+85501703	子弹发射器2	0	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501713			0	1														0	HitCase		0		1	1			0														
+85501704	子弹发射器3	0	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501714			0	1														0	HitCase		0		1	1			0														
+85501705	子弹发射器4	0	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501715			0	1														0	HitCase		0		1	1			0														
+85501706	子弹发射器5	0	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501716			0	1														0	HitCase		0		1	1			0														
+85501707	子弹发射器6	0	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501717			0	1														0	HitCase		0		1	1			0														
+85501708	子弹发射器7	0	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501718			0	1														0	HitCase		0		1	1			0														
+85501709	子弹发射器8	0	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501719			0	1														0	HitCase		0		1	1			0														
+85501710	子弹发射器9	0	0.1				0			4			9999						-1								-1			1					0	0	0										0		2	-1	85501720			0	1														0	HitCase		0		1	1			0														
+85501712	子子弹	0	0.1				10		0	4			3						-1					HitCase	FxMb1LostwomenDandao02		-1			1	0				0	0	0										0			1	85501722			0	1														0	HitCase		0		1	1			0														
+85501713	子子弹	0	0.1				10		40	4			3						-1					HitCase	FxMb1LostwomenDandao02		-1			1	0				0	0	0										0			1	85501723			0	1														0	HitCase		0		1	1			0														
+85501714	子子弹	0	0.1				10		80	4			3						-1					HitCase	FxMb1LostwomenDandao02		-1			1	0				0	0	0										0			1	85501724			0	1														0	HitCase		0		1	1			0														
+85501715	子子弹	0	0.1				10		120	4			3						-1					HitCase	FxMb1LostwomenDandao02		-1			1	0				0	0	0										0			1	85501725			0	1														0	HitCase		0		1	1			0														
+85501716	子子弹	0	0.1				10		160	4			3						-1					HitCase	FxMb1LostwomenDandao02		-1			1	0				0	0	0										0			1	85501726			0	1														0	HitCase		0		1	1			0														
+85501717	子子弹	0	0.1				10		200	4			3						-1					HitCase	FxMb1LostwomenDandao02		-1			1	0				0	0	0										0			1	85501727			0	1														0	HitCase		0		1	1			0														
+85501718	子子弹	0	0.1				10		240	4			3						-1					HitCase	FxMb1LostwomenDandao02		-1			1	0				0	0	0										0			1	85501728			0	1														0	HitCase		0		1	1			0														
+85501719	子子弹	0	0.1				10		280	4			3						-1					HitCase	FxMb1LostwomenDandao02		-1			1	0				0	0	0										0			1	85501729			0	1														0	HitCase		0		1	1			0														
+85501720	子子弹	0	0.1				10		320	4			3						-1					HitCase	FxMb1LostwomenDandao02		-1			1	0				0	0	0										0			1	85501730			0	1														0	HitCase		0		1	1			0														
+85501722	子子弹	0	0.1				10		0	4			3						-1					Bip001Pelvis	FxMb1LostwomenDandao02		-1			1					0	0	0										0			1	85501732			0	1														0	HitCase		0		1	1			0														
+85501723	子子弹	0	0.1				10		40	4			3						-1					Bip001Pelvis	FxMb1LostwomenDandao02		-1			1		1			0	0	0										0			1	85501733			0	1														0	HitCase		0		1	1			0														
+85501724	子子弹	0	0.1				10		80	4			3						-1					Bip001Pelvis	FxMb1LostwomenDandao02		-1			1		1			0	0	0										0			1	85501734			0	1														0	HitCase		0		1	1			0														
+85501725	子子弹	0	0.1				10		120	4			3						-1					Bip001Pelvis	FxMb1LostwomenDandao02		-1			1		1			0	0	0										0			1	85501735			0	1														0	HitCase		0		1	1			0														
+85501726	子子弹	0	0.1				10		160	4			3						-1					Bip001Pelvis	FxMb1LostwomenDandao02		-1			1		1			0	0	0										0			1	85501736			0	1														0	HitCase		0		1	1			0														
+85501727	子子弹	0	0.1				10		200	4			3						-1					Bip001Pelvis	FxMb1LostwomenDandao02		-1			1		1			0	0	0										0			1	85501737			0	1														0	HitCase		0		1	1			0														
+85501728	子子弹	0	0.1				10		240	4			3						-1					Bip001Pelvis	FxMb1LostwomenDandao02		-1			1		1			0	0	0										0			1	85501738			0	1														0	HitCase		0		1	1			0														
+85501729	子子弹	0	0.1				10		280	4			3						-1					Bip001Pelvis	FxMb1LostwomenDandao02		-1			1		1			0	0	0										0			1	85501739			0	1														0	HitCase		0		1	1			0														
+85501730	子子弹	0	0.1				10		320	4			3						-1					Bip001Pelvis	FxMb1LostwomenDandao02		-1			1		1			0	0	0										0				85501740			0	1														0	HitCase		0		1	1			0														
+85501732	子子弹	0	0.1				10		0	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao02		-1			1					0	0	0										0				85501742			0	1														10	HitCase		0		1	1			0														
+85501733	子子弹	0	0.1				10		40	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao02		-1			1					0	0	0										0				85501743			0	1														10	HitCase		0		1	1			0														
+85501734	子子弹	0	0.1				10		80	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao02		-1			1					0	0	0										0				85501744			0	1														10	HitCase		0		1	1			0														
+85501735	子子弹	0	0.1				10		120	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao02		-1			1					0	0	0										0				85501745			0	1														10	HitCase		0		1	1			0														
+85501736	子子弹	0	0.1				10		160	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao02		-1			1					0	0	0										0				85501746			0	1														10	HitCase		0		1	1			0														
+85501737	子子弹	0	0.1				10		200	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao02		-1			1					0	0	0										0				85501747			0	1														10	HitCase		0		1	1			0														
+85501738	子子弹	0	0.1				10		240	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao02		-1			1					0	0	0										0				85501748			0	1														10	HitCase		0		1	1			0														
+85501739	子子弹	0	0.1				10		280	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao02		-1			1					0	0	0										0				85501749			0	1														10	HitCase		0		1	1			0														
+85501740	子子弹	0	0.1				10		320	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao02		-1			1					0	0	0										0				85501750			0	1														10	HitCase		0		1	1			0														
+85501742	子子弹	0	0.1				10		0	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	60	0	50	0	0	0										0							0	1														10	HitCase		0		1	1			0														
+85501743	子子弹	0	0.1				10		40	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	60	0	50	0	0	0										0							0	1														10	HitCase		0		1	1			0														
+85501744	子子弹	0	0.1				10		80	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	60	0	50	0	0	0										0							0	1														10	HitCase		0		1	1			0														
+85501745	子子弹	0	0.1				10		120	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	60	0	50	0	0	0										0							0	1														10	HitCase		0		1	1			0														
+85501746	子子弹	0	0.1				10		160	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	10	0	50	0	0	0										0							0	1														10	HitCase		0		1	1			0														
+85501747	子子弹	0	0.1				10		200	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	10	0	50	0	0	0										0							0	1														10	HitCase		0		1	1			0														
+85501748	子子弹	0	0.1				10		240	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	10	0	50	0	0	0										0							0	1														10	HitCase		0		1	1			0														
+85501749	子子弹	0	0.1				10		280	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	10	0	50	0	0	0										0							0	1														10	HitCase		0		1	1			0														
+85501750	子子弹	0	0.1				10		320	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	10	0	50	0	0	0										0							0	1														10	HitCase		0		1	1			0														
+85501802	子弹发射器1	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		1	-1	85501812			0	1														0	HitCase		0		1	1			0														
+85501803	子弹发射器2	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		1	-1	85501813			0	1														0	HitCase		0		1	1			0														
+85501804	子弹发射器3	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		1	-1	85501814			0	1														0	HitCase		0		1	1			0														
+85501805	子弹发射器4	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		1	-1	85501815			0	1														0	HitCase		0		1	1			0														
+85501806	子弹发射器5	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		1	-1	85501816			0	1														0	HitCase		0		1	1			0														
+85501807	子弹发射器6	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		1	-1	85501817			0	1														0	HitCase		0		1	1			0														
+85501808	子弹发射器7	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		1	-1	85501818			0	1														0	HitCase		0		1	1			0														
+85501809	子弹发射器8	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		1	-1	85501819			0	1														0	HitCase		0		1	1			0														
+85501810	子弹发射器9	2	0.1				0			4			9999						-1								-1			1					0	0	0										0		1	-1	85501820			0	1														0	HitCase		0		1	1			0														
+85501812	子子弹	2	0.1				10		0	4			3						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0				0	3					0			1	85501822			0	1														0	HitCase		0		1	1			0														
+85501813	子子弹	2	0.1				10		40	4			3						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0				0	3					0			1	85501823			0	1														0	HitCase		0		1	1			0														
+85501814	子子弹	2	0.1				10		80	4			3						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0				0	3					0			1	85501824			0	1														0	HitCase		0		1	1			0														
+85501815	子子弹	2	0.1				10		120	4			3						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0				0	3					0			1	85501825			0	1														0	HitCase		0		1	1			0														
+85501816	子子弹	2	0.1				10		160	4			3						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0				0	3					0			1	85501826			0	1														0	HitCase		0		1	1			0														
+85501817	子子弹	2	0.1				10		200	4			3						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0				0	3					0			1	85501827			0	1														0	HitCase		0		1	1			0														
+85501818	子子弹	2	0.1				10		240	4			3						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0				0	3					0			1	85501828			0	1														0	HitCase		0		1	1			0														
+85501819	子子弹	2	0.1				10		280	4			3						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0				0	3					0			1	85501829			0	1														0	HitCase		0		1	1			0														
+85501820	子子弹	2	0.1				10		320	4			3						-1					HitCase	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0				0	3					0			1	85501830			0	1														0	HitCase		0		1	1			0														
+85501822	子子弹	2	0.1				10		0	4			3						-1					Bip001Pelvis	FxMb1LostwomenDdTrail		-1			1					0	0	0				0	3					0							0	1														0	HitCase		0		1	1			0														
+85501823	子子弹	2	0.1				10		40	4			3						-1					Bip001Pelvis	FxMb1LostwomenDdTrail		-1			1					0	0	0				0	3					0							0	1														0	HitCase		0		1	1			0														
+85501824	子子弹	2	0.1				10		80	4			3						-1					Bip001Pelvis	FxMb1LostwomenDdTrail		-1			1					0	0	0				0	3					0							0	1														0	HitCase		0		1	1			0														
+85501825	子子弹	2	0.1				10		120	4			3						-1					Bip001Pelvis	FxMb1LostwomenDdTrail		-1			1					0	0	0				0	3					0							0	1														0	HitCase		0		1	1			0														
+85501826	子子弹	2	0.1				10		160	4			3						-1					Bip001Pelvis	FxMb1LostwomenDdTrail		-1			1					0	0	0				0	3					0							0	1														0	HitCase		0		1	1			0														
+85501827	子子弹	2	0.1				10		200	4			3						-1					Bip001Pelvis	FxMb1LostwomenDdTrail		-1			1					0	0	0				0	3					0							0	1														0	HitCase		0		1	1			0														
+85501828	子子弹	2	0.1				10		240	4			3						-1					Bip001Pelvis	FxMb1LostwomenDdTrail		-1			1					0	0	0				0	3					0							0	1														0	HitCase		0		1	1			0														
+85501829	子子弹	2	0.1				10		280	4			3						-1					Bip001Pelvis	FxMb1LostwomenDdTrail		-1			1					0	0	0				0	3					0							0	1														0	HitCase		0		1	1			0														
+85501830	子子弹	2	0.1				10		320	4			3						-1					Bip001Pelvis	FxMb1LostwomenDdTrail		-1			1					0	0	0				0	3					0							0	1														0	HitCase		0		1	1			0														
+85501832	子子弹	2	0.1				10		0	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501833	子子弹	2	0.1				10		40	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501834	子子弹	2	0.1				10		80	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501835	子子弹	2	0.1				10		120	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501836	子子弹	2	0.1				10		160	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501837	子子弹	2	0.1				10		200	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501838	子子弹	2	0.1				10		240	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501839	子子弹	2	0.1				10		280	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501840	子子弹	2	0.1				10		320	4			3						-1					Bip001RCalf	FxMb1LostwomenDandao01Ceshi		-1			1					0	0	0			1	0	3					0							0	1														10	HitCase		0		1	1			0														
+85501842	子子弹	2	0.1				10		0	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	60	0	50	0	0	0				0	3					0							0	1														10	HitCase		0		1	1			0														
+85501843	子子弹	2	0.1				10		40	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	60	0	50	0	0	0				0	3					0							0	1														10	HitCase		0		1	1			0														
+85501844	子子弹	2	0.1				10		80	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	60	0	50	0	0	0				0	3					0							0	1														10	HitCase		0		1	1			0														
+85501845	子子弹	2	0.1				10		120	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	60	0	50	0	0	0				0	3					0							0	1														10	HitCase		0		1	1			0														
+85501846	子子弹	2	0.1				10		160	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	10	0	50	0	0	0				0	3					0							0	1														10	HitCase		0		1	1			0														
+85501847	子子弹	2	0.1				10		200	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	10	0	50	0	0	0				0	3					0							0	1														10	HitCase		0		1	1			0														
+85501848	子子弹	2	0.1				10		240	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	10	0	50	0	0	0				0	3					0							0	1														10	HitCase		0		1	1			0														
+85501849	子子弹	2	0.1				10		280	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	10	0	50	0	0	0				0	3					0							0	1														10	HitCase		0		1	1			0														
+85501850	子子弹	2	0.1				10		320	4			3						-1					Bip001RFoot	FxMb1LostwomenDandao02		-1			2	60	10	0	50	0	0	0				0	3					0							0	1														10	HitCase		0		1	1			0														
+85530103	追踪子子弹	2	0.1				30			4			3						-1								-1			5	90	90	0.2	2	62.8318	-4	5	0.8	2								0							0	1														0	HitCase		0		1	1			0														
+85530209	进入滑行模式教学判定子弹	2	0.1				0			4			9999						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1	1			0														
+85530514	Boss眼睛受击子子弹	2	0.1				0			4			2						-1					eyeBallBoneFM00	FxMb1LostwomenAtk12Hit		-1			1					0	0	0			1	0	2					0							0	1														0	HitCase		0		1	1			0		0												
+85530703	格挡特效子弹	2	0.1				0			4			2						-1						FxMb1LostwomenGedang		-1			1					0	0	0			1	0	3					3							0	1														-1	HitCase		0		1	1			0														
+85530704	爆炸特效子弹	2	0.1				0			4			2						-1						FxMb1LostwomenHyMagicHit		-1			1					0	0	0			1	0	3.5					3							0	1														0	HitCase		0		1	1			0														
+85530706	追踪子子弹	2	0.1				120			4			1						1		FxMb1LostwomenAtk03DandaoHit				FxMb1LostwomenAtk03Dandao		1			5	90	90	0	2	62.8318	-4	5	0.8	2								0							0	1					855021									0	HitCase		0		1	1			0										1				
+85530708	空挥子弹	0	0.1				120			4			1						1						FxMb1LostwomenAtk03Dandao		1			1					0	0	0										0							0	1														2			0		1	1			0										1				
+85530709	追踪子子弹-反弹	2	0.1				120			4			1						1		FxMb1LostwomenDandaoHitBig			HitCase	FxMb1LostwomenZidan		1			1	0	0.6			0	0	0										0							0	1					855021									0	HitCase		0		1	1			0			1							1				
+85530710	反弹子子弹-发射器	2	0.1				0			4			1						-1								-1			1					0	0	0										0	0.5		1	85530709			0	1														0	HitCase		0		1	1			0		1												
+85530711	空挥子弹4发-1	0	0.1				120		-5	4			1						1						FxMb1LostwomenAtk03Dandao		1			1					0	0	0										0							0	1														2			0		1	1			0										1				
+85530712	空挥子弹4发-2	0	0.1				120		-15	4			1						1						FxMb1LostwomenAtk03Dandao		1			1					0	0	0										0							0	1														2			0		1	1			0										1				
+85530713	空挥子弹4发-3	0	0.1				120		5	4			1						1						FxMb1LostwomenAtk03Dandao		1			1					0	0	0										0							0	1														2			0		1	1			0										1				
+85530714	空挥子弹4发-4	0	0.1				120		15	4			1						1						FxMb1LostwomenAtk03Dandao		1			1					0	0	0										0							0	1														2			0		1	1			0										1				
+85530715	格挡特效子弹	2	0.1				0			4			2						-1						FxMb1LostwomenGedang		-1			1					0	0	0			1	0	3					3							0	1														-1	HitCase		0		1	1			0														

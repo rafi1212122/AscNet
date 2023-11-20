@@ -1,0 +1,94 @@
+Id	Type	OperationKey	Title	OperationType	KeySetTypes[1]	KeySetTypes[2]
+1	1		Movement Settings	1		
+2	2	128	Character Movement: Forward	1		
+3	2	129	Character Movement: Backward	1		
+4	2	130	Character Movement: Left	1		
+5	2	131	Character Movement: Right	1		
+6	1		Camera Settings	1		
+7	3		Camera Angle Sensitivity	1		
+8	2	132	Camera Movement: Up	1		
+9	2	133	Camera Movement: Down	1		
+10	2	134	Camera Movement: Left	1		
+11	2	135	Camera Movement: Right	1		
+12	2	139	Restore to Default	1		
+13	2	140	Switch Camera Mode	1	3	
+14	1		Combat Settings	1		
+15	2	15	Attack	1		
+16	2	16	Dodge	1		
+17	2	136	Attack (rapid fire)	1		
+18	2	17	Signature Move	1		
+19	2	20	Switch (QTE) 1	1		
+20	2	21	Switch (QTE) 2	1		
+21	2	23	CUB Skill	1		
+22	2	137	Lock-On	1		
+23	2	138	Cancel Lock-On	1		
+24	1		Skill Orb Settings	1		
+25	2	1	Skill Orb 1	1		
+26	2	2	Skill Orb 2	1		
+27	2	3	Skill Orb 3	1		
+28	2	4	Skill Orb 4	1		
+29	2	5	Skill Orb 5	1		
+30	2	6	Skill Orb 6	1		
+31	2	7	Skill Orb 7	1		
+32	2	8	Skill Orb 8	1		
+33	1		Other Settings	1		
+34	2	240	Special Interaction 1	1		
+35	2	241	Special Interaction 2	1		
+36	2	242	Special Interaction 3	1		
+37	2	243	Special Interaction 4	1		
+38	2	244	Special Interaction 5	1		
+39	2	245	Special Interaction 6	1		
+40	2	18	Interact	1		
+41	2	28	Continue	1		
+42	2	29	Skip	1		
+43	2	141	Pause	1		
+44	1		Special Gameplay Settings	2		
+45	2	1	Button 1	2		
+46	2	2	Button 2	2		
+47	2	3	Button 3	2		
+48	2	4	Button 4	2		
+49	2	5	Button 5	2		
+50	2	6	Button 6	2		
+51	1		Video Settings	3		
+52	2	1	Pause/Play	3		
+53	2	2	Skip	3		
+54	1		Story Settings	4		
+55	2	142	Review	4		
+56	2	143	Auto	4		
+57	2	144	Skip	4		
+58	2	145	Next	4	3	
+59	1		Menu Settings	4		
+60	2	141	Back/Quit	4	3	
+61	2	149	Confirm	4		
+62	2	148	Cancel	4	3	
+63	2	148	Back/Cancel/Quit	4	1	2
+64	2	155	Send Messages	4	3	
+65	1		New Command Bureau Settings	4		
+66	2	1156	Character Movement: Forward	4		
+67	2	1157	Character Movement: Backward	4		
+68	2	1158	Character Movement: Left	4		
+69	2	1159	Character Movement: Right	4		
+70	1		Virtual Cursor Settings	4	1	2
+71	3		Virtual Cursor Sensitivity	4	1	2
+72	2	156	Cursor Movement: Up	4	1	2
+73	2	157	Cursor Movement: Down	4	1	2
+74	2	158	Cursor Movement: Left	4	1	2
+75	2	159	Cursor Movement: Right	4	1	2
+76	2	153	Page Scroll: Up/Right	4	1	2
+77	2	154	Page Scroll: Down/Left	4	1	2
+78	2	152	Cursor Click	4	1	2
+79	1		Handmade Blessings	6		
+80	2	1	Button 1	6		
+81	2	2	Button 2	6		
+82	2	3	Button 3	6		
+83	2	4	Button 4	6		
+84	2	5	Button 5	6		
+85	2	6	Button 6	6		
+86	1		Disco Panini	7		
+87	2	1	Button 1	7		
+88	2	2	Button 2	7		
+89	1		Eden Festival - Speed Racer	8		
+90	2	3	Move to the track above	8		
+91	2	4	Move to the track below	8		
+92	2	2	Jump	8		
+93	2	1	Slide	8		

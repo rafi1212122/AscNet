@@ -8,7 +8,7 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 92170	Missionary	91170	90170						
 92180	Executor	91180	90180						
 92200	Black Spider	91200	90200						
-92210	Gardener	91210	90210						
+92210	Gardener	91210	90210	90213	90214	90215			
 92460	Deep-sea Ambusher	91460	90460						
 92140	Jitterbomb	91140	90140						
 92150	Hydraulic	91150	90150						
@@ -20,7 +20,7 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 92600	Hetero Deconstruct Unit	91600	90600						
 92620	Hetero Fire Unit	91620	90620						
 92610	Hetero Repair Unit	91610	90610						
-92250	Ronin IV	91250	90250						
+92250	Ronin IV	91250	90250	93250	94250	95250			
 92260	Bio-Salamander	91260	90260						
 92330	Envoy	91330	90330						
 92350	Firefighter	91350	90350						
@@ -41,7 +41,7 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 81400	Nun	81401	814000	814010					
 81420	Harvester	82100	814200	821000					
 81410	Martyr	814100							
-81200	Musashi IX	81430	812000	814300	92430	91430	90430	81210	
+81200	Musashi IX	81430	812000	814300	92430	91430	90430	81210	93200
 81500	Nozzle	815000	81501	81509	81510				
 81700	Iron Maiden	817000	81701	81709	817021				
 81800	Vassago	818000	81809	81810					
@@ -54,12 +54,12 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 83400	Rail Heterozygote	870620							
 83100	Camu	83110	83111	831000	831100	83101			
 90670	Kemuri I	91670	92670						
-90660	Hanged Man III	91660	92660	92661					
+90660	Hanged Man III	91660	92660	92661	93660	94660	95660		
 90640	Blubber VI	91640	92640						
 90650	Ballwheel IV	91650	92650						
-90680	Kowloong Crew - Yazi	91680	92680						
+90680	Kowloong Crew - Yazi	91680	92680	90682	90683	90684			
 90500	Heteromer Terminal	90501	90502	90505	90506	90507			
-83500	Qu	835000							
+83500	Qu	835000	83502						
 83520	Huaxu	835200	83521	83530					
 83600	Gabriel	836000	83601	83602	83609	83610			
 90690	Phecda	91690	92690						
@@ -73,9 +73,9 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 90780	Ground 1 - Polar Bear	91780	92780						
 83800	Amberia	83801	83802	83803	83804	83809	83810		
 83220	Rosetta (Doll)	83229	83230						
-837000	Shark-speare	837009	837021	837001	837011	837012			
-837100	Shark-speare	837111	837112	837113					
-92790	Hanged Man I	91790	90790						
+837000	Shark-speare	837009	837021	837001	837011	837012	837013		
+837100	Shark-speare	837111	837112	837113	837114				
+92790	Guardian I	91790	90790	93790	94790	95790			
 92800	Yunlu	91800	90800						
 92810	Tai'E I	91810	90810						
 83900	Luna	839000							
@@ -99,14 +99,14 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 90980	PK-43 "Sheriff"	91980	92980						
 90830	Beetle	91830	92830						
 90700	Prime	90701	90702	90703					
-90220	Excavator	90222	91220	92220					
+90220	Excavator	90222	91220	92220	93220	94220	95220		
 93010	DB02-Sanitizer	93011	93012						
 93020	SSG-Meanderer	93021	93022						
 90990	Trailblazing Surfer	91990	92990						
-93030	Hetero-Sapien	93031	93032						
+93030	類人	93031	93032	93034	93035	93036			
 93060	Construct Captain (Female)	93061	93062						
 93050	Construct Soldier (Female)	93051	93052	93054					
-93070	Sanctuary Guard	93071	93072						
+93070	Sanctuary Guard	93071	93072	93073	93074	93075			
 93110	Fairy	93114	93112						
 93081	Dragon	93080	93069	93082	93083	93084	93088	93068	93067
 93101	Treant	93102	93103						
@@ -115,7 +115,8 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 93160	Gung-hoer	93161	93162						
 93140	Heaven Breaker	93141	93142						
 93129	Demon Bane	93121	93122	93120					
-93170	Wheel of Fortune	93179	93171	93172	93172				
+82200	MC Solar	82202	82201						
+93170	Wheel of Fortune	93179	93171	93172	93172	93173	93174	93175	
 93190	Nalasr-E	93191	93192	97517					
 93180	Heal-Z	93181	93182	93183					
 93230	Courier-M	93231	93232						
@@ -123,6 +124,13 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 93240	Moon Morpher	93241	93242						
 85300	Moon Eater	85310							
 93251	Signal Light Phantom	93252	93253						
-93291	Redcoral Host	93292	93293	93294					
-93301	Chela Host	93302	93303	93304	93305	93306			
+93291	Redcoral Host	93292	93293	93294	93295	93296	93297		
+93301	Chela Host	93302	93303	93304	93305	93306	93307	93308	93309
 93311	Hetero-Consciousness Host	93312	93313						
+85400	Lithos & Paper Crane	8540							
+85500	Hetero-Humanoid: Chiko	8550							
+93331	"Naughty Child"	93331	93332	93333	93334	93335	93336		
+93341	"Good Child"	93341	93342	93343	93344	93345	93346		
+93321	"Dottie"	93321	93322	93323	93327	93324	93325	93326	
+85550	Mutated Mechanoid: Madorea								
+85560	Mutated Mechanoid: Madorea								

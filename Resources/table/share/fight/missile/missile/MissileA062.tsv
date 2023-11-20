@@ -1,0 +1,170 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic
+50010101	普攻1	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101012
+50010102	普攻2	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase2			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101022
+50010103	普攻3	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101032
+50010104	普攻4	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101042
+50010105	普攻5	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase2			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101052
+50010106	普攻6	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101062
+50010107	普攻7	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101072
+50010108	普攻8	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase2			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101082
+50010109	普攻9	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101092
+50010110	普攻10	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101102
+50010111	普攻11	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase2			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101112
+50010112	普攻12	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101122
+50010113	普攻13	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101132
+50010114	普攻14	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase2			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101142
+50010115	普攻15	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500101152
+50010201	蓝球1消-1	2	0.3			1	65			4			0.2		1				1						FxR2LiangAttack21Dandao		1		FxR2LiangAttack21Zha	1					0	0	0										0	999		1	50010202	1		0	3		0.2	0.1											1.2			0					1	1	1												
+50010202	蓝球1消-2	2	2				0			4			0.5					1	-1								-1			1					0	0	0										2							2	3	330	0.2	0.15	500102021	501010									0	HitCase		0						0	1												500102022
+50010301	黄球1消-1	2	0.3			0.2	65			4			0.2		1				1					WeaponCase2	FxR2LiangAttack31Dandao		1		FxR2LiangAttack31Zha	1					0	0	0										0	999		1	50010302	1		0	3		0.2	0.1											1.2			0					1	1	1												
+50010302	黄球1消-2	2	2.5				0			4			1					1	-1								-1			1					0	0	0										2			1	50010303			2	3	30	0.2	0.1	500103021	501013									0	HitCase		0						0	1												500103022
+50010303	黄球1消-3	2	2.5				0			4			3						-1	1			0.5		FxR2LiangAttack31Quyu		-1			1					0	0	0										2							2	3		0.2	0.1		501011	501012	501014							0.1	HitCase		0						0	1												
+50010401	大招-1	2	6				0			4			0.7						-1	1	FxR2LiangAttack01Shouji		0.1				-1			1					0	0	0										0							0	3	330	0.2	0.1	500104011	501027									1.2			1						1	1												500104012
+50010402	大招-1	2	6				0			4			0.7						-1	1	FxR2LiangAttack01Shouji		0.1				-1			1					0	0	0										0							0	3	330	0.2	0.1	500104021	501027									1.2			1						1	1												500104022
+50010403	大招-2	2	6				0			4			0.1						-1		FxR2LiangAttack01Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	500104031	501028									1.2			0						1	1												
+50010406	大招-5	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0		501029									0	HitCase		0						1	1												
+50010601	强化普攻-1	2	0.3			0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106012
+50010602	强化普攻-2	2	0.3		-0.3	0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106022
+50010603	强化普攻-3	2	0.3		0.3	0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106032
+50010604	强化普攻-4	2	0.3			0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106042
+50010605	强化普攻-5	2	0.3		-0.3	0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106052
+50010606	强化普攻-6	2	0.3		0.3	0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106062
+50010607	强化普攻-7	2	0.3			0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106072
+50010608	强化普攻-8	2	0.3		-0.3	0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106082
+50010609	强化普攻-9	2	0.3		0.3	0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106092
+50010610	强化普攻-10	2	0.3			0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106102
+50010611	强化普攻-11	2	0.3		-0.3	0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106112
+50010612	强化普攻-12	2	0.3		0.3	0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106122
+50010613	强化普攻-13	2	0.3			0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106132
+50010614	强化普攻-14	2	0.3		-0.3	0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106142
+50010615	强化普攻-15	2	0.3		0.3	0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50010616	1		0	3		0.2	0.1		501023									1.2			0						1	1												500106152
+50010616	强化普攻-16	2	0.3				0			4			1		1			1	-1						FxR2LiangAttack11ExShouji	0.05	-1			1					0	0	0										1	1		1	50010617			1	3		0.2	0.1											1.2			0						0	1												
+50010617	强化普攻-17	2	2				0			4			0.1		1			1	-1								-1			1					0	0	0										2							2	3		0.2	0.1		501006									0	HitCase		0						0	1												
+50010701	出场技-1	2	0.3			0.2	65			4			0.2		1				1					WeaponCase2	FxR2LiangAttack31Dandao		1		FxR2LiangAttack33Zha	1					0	0	0										0	999		1	50010702	1		0	3		0.2	0.1											1.2			0					1	1	1												
+50010702	出场技-2	2	4				0			4			1						-1								-1			1					0	0	0										2			1	50010703			0	3	30	0.2	0.1	500107021	100126									0	HitCase		0						0	1												500107022
+50010703	出场技-3	2	4				0			4			5						-1	1			0.5		FxR2LiangAttack33Quyu		-1			1					0	0	0										2							0	3		0.2	0.1		100123	100120	100127							0	HitCase		0						0	1												
+50011001	红球-1	2	5				0			4			0.5						-1	1	FxR2LiangAttack01Shouji		0.05				-1			1					0	0	0										0							0	3		0.2	0.1	500110011	501038									0	HitCase		1						1	1												
+50011301	强化黄球1消-1	2	0.3			0.2	65			4			0.2		1				1					WeaponCase2	FxR2LiangAttack31Dandao		1		FxR2LiangAttack33Zha	1					0	0	0										0	999		1	50011302	1		0	3		0.2	0.1											1.2			0					1	1	1												
+50011302	强化黄球1消-2	2	5				0			4			1					1	-1								-1			1					0	0	0										2			1	50011303			2	3	30	0.2	0.1	500113021	501037									0	HitCase		0						0	1												500113022
+50011303	强化黄球1消-3	2	5				0			4			5						-1	1			0.5		FxR2LiangAttack33Quyu		-1			1					0	0	0										2							2	3		0.2	0.1		501011	501036	501014							0	HitCase		0						0	1												
+50011401	强化蓝球1消-1	2	0.3			1	65			4			0.2		1				1						FxR2LiangAttack21Dandao		1		FxR2LiangAttack21Zha	1					0	0	0										0	999		1	50011402	1		0	3		0.2	0.1											1.2			0					1	1	1												
+50011402	强化蓝球1消-2	2	2				0			4			0.5					1	-1								-1			1					0	0	0										2							2	3	330	0.2	0.15	500114021	501017									0	HitCase		0						0	1												500114022
+50011501	强化红球-1	2	5				0			4			0.5						-1	1	FxR2LiangAttack01Shouji		0.05				-1			1					0	0	0										0							0	3		0.2	0.1	500115011	501039									0	HitCase		1						1	1												
+50011601	强化大招-1	2	6				0			4			0.7						-1	1	FxR2LiangAttack01Shouji		0.1				-1			1					0	0	0										0			1		1		0	3	330	0.2	0.1	500116011	501040									1.2			1						1	1												500116012
+50011602	强化大招-2	2	6				0			4			0.7						-1	1	FxR2LiangAttack01Shouji		0.1				-1			1					0	0	0										0			1		1		0	3	330	0.2	0.1	500116021	501040									1.2			1						1	1												500116022
+50011603	强化大招-3	2	6				0			4			0.1						-1		FxR2LiangAttack01Shouji						-1			1					0	0	0										0			1		1		0	3	330	0.2	0.1	500116031	501041									1.2			0						1	1												
+50011606	强化大招-6	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0		501029									0	HitCase		0						1	1												
+50011607	强化大招-7	2	5		0	0	0			4			5						-1	1			0.5		FxR2LiangAttack33Quyu		-1			1					0	0	0										0							0	3		0.2	0.1		501011	501042	501014							0	HitCase		0						0	1												
+50011701	长按普攻1	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117012
+50011702	长按普攻2	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase2			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117022
+50011703	长按普攻3	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117032
+50011704	长按普攻4	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117042
+50011705	长按普攻5	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase2			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117052
+50011706	长按普攻6	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117062
+50011707	长按普攻7	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117072
+50011708	长按普攻8	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase2			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117082
+50011709	长按普攻9	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117092
+50011710	长按普攻10	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117102
+50011711	长按普攻11	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase2			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117112
+50011712	长按普攻12	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117122
+50011713	长按普攻13	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117132
+50011714	长按普攻14	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase2			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117142
+50011715	长按普攻15	2	0.3			0.2	65			4			0.2					1	1		FxR2LiangAttack11Shouji			WeaponCase1			1			1					0	0	0										0							0	3		0.2	0.1		501005									1.2			0						1	1												500117152
+50011801	长按强化普攻-1	2	0.3			0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118012
+50011802	长按强化普攻-2	2	0.3		-0.3	0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118022
+50011803	长按强化普攻-3	2	0.3		0.3	0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118032
+50011804	长按强化普攻-4	2	0.3			0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118042
+50011805	长按强化普攻-5	2	0.3		-0.3	0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118052
+50011806	长按强化普攻-6	2	0.3		0.3	0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118062
+50011807	长按强化普攻-7	2	0.3			0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118072
+50011808	长按强化普攻-8	2	0.3		-0.3	0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118082
+50011809	长按强化普攻-9	2	0.3		0.3	0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118092
+50011810	长按强化普攻-10	2	0.3			0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118102
+50011811	长按强化普攻-11	2	0.3		-0.3	0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118112
+50011812	长按强化普攻-12	2	0.3		0.3	0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118122
+50011813	长按强化普攻-13	2	0.3			0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118132
+50011814	长按强化普攻-14	2	0.3		-0.3	0.7	25			4			0.5		1			1	1					WeaponCase2	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118142
+50011815	长按强化普攻-15	2	0.3		0.3	0.7	25			4			0.5		1			1	1					WeaponCase1	FxR2LiangAttack11EXDandao		1			1					0	0	0										0	999		1	50011819	1		0	3		0.2	0.1		501023									1.2			0						1	1												500118152
+50011819	长按强化普攻-19	2	0.3				0			4			1		1			1	-1						FxR2LiangAttack11ExShouji	0.05	-1			1					0	0	0										2	1		1	50011820			2	3		0.2	0.1											1.2			0						0	1												
+50011820	长按强化普攻-20	2	2				0			4			0.1		1			1	-1								-1			1					0	0	0										2							2	3		0.2	0.1		501006									0	HitCase		0						0	1												
+50020102	强化蓝球1消-2	2	3			5	0			4			0.1						-1		FxR2KalieninaAttack21Shouji						-1			1					0	0	0										0			1	50020103	1		0	3		0.2	0.1	500201021	502005	200003				200003				1.2			0						1	1												
+50020103	强化蓝球1消-3	2	5			1.3	0			4			1		1				-1	1	FxR2KalieninaAttack21Shouji		1				-1			1					0	0	0										2			1	50020104	1		1	3		0.2	0.1	500201031	502007									1.2			0						0	1												500201032
+50020104	强化蓝球1消-4	2	5				0			4			1		1				-1	1			0.05				-1			1					0	0	0										2	1		1	50020105	1		1	3		0.2	0.1		502009									0	HitCase		0						0	1												
+50020105	强化蓝球1消-5	2	2				0			4			1					1	-1						FxR2LuolanAtk21Baozha		-1			1					0	0	0										2							1	3		0.2	0.1	500201051	502014	502015								0			0						0	1												
+50020202	强化加特林普攻-2	2	2			0.5	0			4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										2							1	3		0.2	0.1	500202021	502044									0	HitCase		0						1	1												500202022
+50020209	强化加特林普攻-9	2	0.1				0			4			0.45		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	40	0.3		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020210	强化加特林普攻-10	2	0.1				0			4			0.4		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	50	0.25		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020211	强化加特林普攻-11	2	0.1				30			4			0.35		1			1	1						FxR2KalieninaAttack41Dandao		1		FxR2KalieninaAttack43Baozha	1					0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020212	强化加特林普攻-12	2	0.1				0			4			0.55		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	50	0.25		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020213	强化加特林普攻-13	2	0.1				0			4			0.5		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	40	0.3		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020214	强化加特林普攻-14	2	0.1				0			4			0.45		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	30	0.4		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020215	强化加特林普攻-15	2	0.1				0			4			0.4		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	40	0.35		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020216	强化加特林普攻-16	2	0.1				0			4			0.35		1			1	1						FxR2KalieninaAttack41Dandao		1		FxR2KalieninaAttack43Baozha	4	330	60	0.2		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020217	强化加特林普攻-17	2	0.1				0			4			0.55		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	45	0.35		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020218	强化加特林普攻-18	2	0.1				0			4			0.5		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	35	0.4		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020219	强化加特林普攻-19	2	0.1				0			4			0.45		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	25	0.5		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020220	强化加特林普攻-20	2	0.1				0			4			0.4		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	30	0.45		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020221	强化加特林普攻-21	2	0.1				0			4			0.35		1			1	1						FxR2KalieninaAttack41Dandao		1		FxR2KalieninaAttack43Baozha	4	330	70	0.3		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020222	强化加特林普攻-22	2	0.1				0			4			0.55		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	35	0.4		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020223	强化加特林普攻-23	2	0.1				0			4			0.5		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	30	0.45		0	0	0										0	999		1	50020202	1		0	3		0.2	0.1											1.2			0						0	1												
+50020302	强化加特林普攻2-2	2	2			0.5	0			4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										2							1	3		0.2	0.1		502044									0	HitCase		0						1	1												500203022
+50020309	强化加特林普攻2-9	2	0.1				0			4			0.45		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	40	0.3		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020310	强化加特林普攻2-10	2	0.1				0			4			0.4		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	50	0.25		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020311	强化加特林普攻2-11	2	0.1				30			4			0.35		1			1	1						FxR2KalieninaAttack41Dandao		1		FxR2KalieninaAttack43Baozha	1					0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020312	强化加特林普攻2-12	2	0.1				0			4			0.55		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	50	0.25		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020313	强化加特林普攻2-13	2	0.1				0			4			0.5		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	40	0.3		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020314	强化加特林普攻2-14	2	0.1				0			4			0.45		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	30	0.4		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020315	强化加特林普攻2-15	2	0.1				0			4			0.4		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	40	0.35		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020316	强化加特林普攻2-16	2	0.1				0			4			0.35		1			1	1						FxR2KalieninaAttack41Dandao		1		FxR2KalieninaAttack43Baozha	4	330	60	0.2		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020317	强化加特林普攻2-17	2	0.1				0			4			0.55		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	45	0.35		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020318	强化加特林普攻2-18	2	0.1				0			4			0.5		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	35	0.4		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020319	强化加特林普攻2-19	2	0.1				0			4			0.45		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	25	0.5		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020320	强化加特林普攻2-20	2	0.1				0			4			0.4		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	30	0.45		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020321	强化加特林普攻2-21	2	0.1				0			4			0.35		1			1	1						FxR2KalieninaAttack41Dandao		1		FxR2KalieninaAttack43Baozha	4	330	70	0.3		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020322	强化加特林普攻2-22	2	0.1				0			4			0.55		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	35	0.4		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020323	强化加特林普攻2-23	2	0.1				0			4			0.5		1			1	1						FxR2KalieninaAttack41Dandao		1			4	330	30	0.45		0	0	0										0	999		1	50020302	1		0	3		0.2	0.1											1.2			0						0	1												
+50020401	强化大招-一次性伤害帧	2	0.3				0			4			3						-1						FxR2KalieninaAttack51Dandao		-1			1					0	0	0										3	0.3		1	50020402			4	3		0.2	0.1											0	HitCase		0						1	1												
+50020402	强化大招-2	2	2				0			4			0.3						-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										2	0.25		1				2	2		0.2	0.1	500204021	502018									0			0						1	1												500204022
+50020406	强化大招-6	2	2				0			4			1						-1						FxR2KalieninaAttack52Dandao		-1			1					0	0	0										3	0.3		1	50020408			4	3		0.2	0.1											0	HitCase		0						1	1												
+50020408	强化大招-8	2	5				0			4			2		1				-1						FxR2KalieninaAttack52Baozha		-1			1					0	0	0										2							2	2		0.2	0.1	500204081	502045									0			0						1	1												
+50020410	强化大招-10	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0		502023									0	HitCase		0						0	1												
+50020501	散弹普攻-1	1	1	8		4	0		7	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1		502041									1.2			0						1	1												
+50020502	散弹普攻-2	1	1	8		4	0		16	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1		502041									1.2			0						1	1												
+50020503	散弹普攻-3	1	1	8		4	0		30	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1		502041									1.2			0						1	1												
+50020504	散弹普攻-4	1	1	8		4	0		353	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1		502041									1.2			0						1	1												
+50020505	散弹普攻-5	1	1	8		4	0		344	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1		502041									1.2			0						1	1												
+50020506	散弹普攻-6	1	1	8		4	0		330	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1		502041									1.2			0						1	1												
+50020602	蓝球1消-2	2	3			5	0			4			0.1						-1		FxR2KalieninaAttack21Shouji						-1			1					0	0	0										0			1	50020603			0	3		0.2	0.1	500206021	502004	200003				200003				1.2			0						1	1												
+50020603	蓝球1消-3	2	5			1.3	0			4			1						-1	1	FxR2KalieninaAttack21Shouji		1				-1			1					0	0	0										2			1	50020604			1	3		0.2	0.1	500206031	502006									1.2			0						0	1												500206032
+50020604	蓝球1消-4	2	5				0			4			1					1	-1	1			0.05				-1			1					0	0	0										2							1	3		0.2	0.1		502008									0	HitCase		0						0	1												
+50020701	黄球1消-1	1	1	8		5	0		7	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207011	502041									1.2			0						1	1												
+50020702	黄球1消-2	1	1	8		5	0		16	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207021	502041									1.2			0						1	1												
+50020703	黄球1消-3	1	1	8		5	0		30	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207031	502041									1.2			0						1	1												
+50020704	黄球1消-4	1	1	8		5	0		353	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207041	502041									1.2			0						1	1												
+50020705	黄球1消-5	1	1	8		5	0		344	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207051	502041									1.2			0						1	1												
+50020706	黄球1消-6	1	1	8		5	0		330	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207061	502041									1.2			0						1	1												
+50020711	黄球1消-11	1	1	8		5	0		7	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207111	502041									1.2			0						1	1												
+50020712	黄球1消-12	1	1	8		5	0		16	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207121	502041									1.2			0						1	1												
+50020713	黄球1消-13	1	1	8		5	0		30	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207131	502041									1.2			0						1	1												
+50020714	黄球1消-14	1	1	8		5	0		353	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207141	502041									1.2			0						1	1												
+50020715	黄球1消-15	1	1	8		5	0		344	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207151	502041									1.2			0						1	1												
+50020716	黄球1消-16	1	1	8		5	0		330	4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500207161	502041									1.2			0						1	1												
+50020902	出场技-2	2	4			2	0			4			0.1						-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	500209021	100742	100745	200002			200002				1.2			0						1	1												
+50021001	大招-一次性伤害帧	2	0.3				0			4			3						-1						FxR2KalieninaAttack51Dandao		-1			1					0	0	0										3	0.3		1	50021002			4	3		0.2	0.1											0	HitCase		0						1	1												
+50021002	大招-2	2	2				0			4			0.3					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										2							2	2		0.2	0.1	500210021	502018									0			0						1	1												500210022
+50021010	大招-10	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0		502023									0	HitCase		0						0	1												
+50021302	援助技能-2	2	3			2	0			4			0.1						-1		FxR2KalieninaAttack21Shouji						-1			1					0	0	0										0			1	50021303			0	3		0.2	0.1	500213021	100756	200003				200003				1.2			0						1	1												
+50021303	援助技能-3	2	5				0			4			3						-1	1	FxR2KalieninaAttack21Shouji		1				-1			1					0	0	0										2			1	50021304			1	3		0.2	0.1	500213031	100757									1.2			0						0	1												
+50021304	援助技能-4	2	5				0			4			3						-1	1			0.05				-1			1					0	0	0										2							1	3		0.2	0.1		100728									0	HitCase		0						0	1												
+50021602	加特林普攻-2	2	2			0.5	0			4			0.1					1	-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										2							1	3		0.2	0.1		502041									0	HitCase		0						1	1												500216022
+50021609	加特林普攻-9	2	0.1				0			4			0.45		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	60	0.3		0	0	0										0	999		1	50021602	1		0	3		0.2	0.1											1.2			0						0	1												
+50021610	加特林普攻-10	2	0.1				0			4			0.4		1			1	1						FxR2KalieninaAttack41Dandao		1			4	340	70	0.4		0	0	0										0	999		1	50021602	1		0	3		0.2	0.1											1.2			0						0	1												
+50021611	加特林普攻-11	2	0.1				0			4			0.35		1			1	1						FxR2KalieninaAttack41Dandao		1		FxR2KalieninaAttack43Baozha	4	80	65	0.35		0	0	0										0	999		1	50021602	1		0	3		0.2	0.1											1.2			0						0	1												
+50021612	加特林普攻-12	2	0.1				0			4			0.55		1			1	1						FxR2KalieninaAttack41Dandao		1			4	100	75	0.4		0	0	0										0	999		1	50021602	1		0	3		0.2	0.1											1.2			0						0	1												
+50021613	加特林普攻-13	2	0.1				0			4			0.5		1			1	1						FxR2KalieninaAttack41Dandao		1			4	300	70	0.35		0	0	0										0	999		1	50021602	1		0	3		0.2	0.1											1.2			0						0	1												
+50021702	加特林普攻2-2	2	2			0.5	0			4			0.1						-1		FxR2KalieninaAttack11Shouji						-1			1					0	0	0										2							1	3		0.2	0.1		502041									0	HitCase		0						1	1												500217022
+50021709	加特林普攻2-9	2	0.1				0			4			0.45		1			1	1						FxR2KalieninaAttack41Dandao		1			4	30	60	0.3		0	0	0										0	999		1	50021702	1		0	3		0.2	0.1											1.2			0						0	1												
+50021710	加特林普攻2-10	2	0.1				0			4			0.4		1			1	1						FxR2KalieninaAttack41Dandao		1			4	340	70	0.4		0	0	0										0	999		1	50021702	1		0	3		0.2	0.1											1.2			0						0	1												
+50021711	加特林普攻2-11	2	0.1				0			4			0.35		1			1	1						FxR2KalieninaAttack41Dandao		1		FxR2KalieninaAttack43Baozha	4	80	65	0.35		0	0	0										0	999		1	50021702	1		0	3		0.2	0.1											1.2			0						0	1												
+50021712	加特林普攻2-12	2	0.1				0			4			0.55		1			1	1						FxR2KalieninaAttack41Dandao		1			4	100	75	0.4		0	0	0										0	999		1	50021702	1		0	3		0.2	0.1											1.2			0						0	1												
+50021713	加特林普攻2-13	2	0.1				0			4			0.5		1			1	1						FxR2KalieninaAttack41Dandao		1			4	300	70	0.35		0	0	0										0	999		1	50021702	1		0	3		0.2	0.1											1.2			0						0	1												

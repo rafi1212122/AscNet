@@ -1,0 +1,29 @@
+Key	Values[1]	Values[2]	Comment
+TaskButtonName	Operation Revival		Mission Event Name
+SignInButtonName	Gray Raven's Bond		Sign-in Event Name
+GachaButtonName1	Returning Supplies		Lottery Event Name
+GachaButtonName2	Frontline Supplies		Lottery Event Name
+InviteButtonName	Shoulder to Shoulder		Active Player Invitation Event Name
+FettersButtonName	Shoulder to Shoulder		Returning Players Invitation Event Name
+DiscountButtonName	Returning Rewards		Returning Gift Pack Purchase Screen Name
+TaskPrefabAssetPath	Assets/Product/Ui/ComponentPrefab/UiReturnActivity/PanelTask.prefab		
+SignInPrefabAssetPath	Assets/Product/Ui/ComponentPrefab/UiReturnActivity/PanelReturnSignIn.prefab		
+GachaPrefabAssetPath	Assets/Product/Ui/ComponentPrefab/UiReturnActivity/PanelShop.prefab		
+InvitePrefabAssetPath	Assets/Product/Ui/ComponentPrefab/UiReturnActivity/PanelReturninvitation.prefab		
+FettersPrefabAssetPath	Assets/Product/Ui/ComponentPrefab/UiReturnActivity/PanelFetters.prefab		
+DiscountPrefabAssetPath	Assets/Product/Ui/ComponentPrefab/UiReturnActivity/PanelDiscount.prefab		
+TaskButtonWeight	2		Activity threshold weight; the smaller the value, the more ahead it will be.
+SignInButtonWeight	1		
+GachaButtonWeight	4		
+InviteButtonWeight	3		
+FettersButtonWeight	4		
+DiscountButtonWeight	5		
+DiscountUiType	9		The UI for returning player rewards screen and the UiType related to the PurchasePackage table
+MainRegressionNormalIconPath	Assets/Product/Texture/Image/UiMain/MainSpRegression01.png		The normal state icon path of the main screen returning button
+MainRegressionPressIconPath	Assets/Product/Texture/Image/UiMain/MainSpRegression02.png		The pressed state icon path of the main screen returning button
+MainInviteNormalIconPath	Assets/Product/Texture/Image/UiMain/MainSpInvite01.png		The normal state icon path of the main screen active button
+MainInvitePressIconPath	Assets/Product/Texture/Image/UiMain/MainSpInvite02.png		The pressed state icon path of the main screen active button
+ForwardDesc	Fill in your [Returning Invitation] code on the [Returning to Battle] event page during the event from July 15 to August 5 for a bunch of sweet rewards!		Share Screen Description
+ShareLink	https://pns.kurogame.com/activities/regression_v126?i=		
+IsShowTextShare	1		
+DefaultCopyText	Brand new update [A New Divide] for Punishing: Gray Raven has arrived! Participate now to earn massive rewards! Returning players will gain extra rewards when they sign in from July 15 to August 5 and fill in their Invite Code in the [Returning to Battle] event!		

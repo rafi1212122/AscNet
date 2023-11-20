@@ -481,13 +481,13 @@ Id	ChapterId	Order	Name	SubName	Icon	DescTitle	Desc	Condition	UnLockTime	StoryId
 201608	2016	8	Movement				Something has opened its eyes amid the chaos.	84201608		YC02208BA	
 201609	2016	9	Center of the Show... Or Not?				The audience usually doesn't get to enter the stage... But accidents happen.	84201609		YC02209BA	
 201610	2016	10	The Last Serum				The wanderer walks on the desolate battlefield.	84201610		YC02210BA	
-301001	30100	1	Struggle				I promised Mother and Father that I would never let anyone hurt you. So, I'll take the risks...	84301001		1130111	
-301002	30100	2	Trespassers				Where did these two little girls come from...?	84301002		1130112	
-301003	30100	3	Warm Food				Sister, are we finally safe?	84301003		1130113	
-301004	30100	4	Frog Plushie				Blame your own naivety.	84301004		1130114	
-301005	30100	5	Price of Naivety				We don't have a choice...	84301005		1130121	JZ10205EB
-301006	30100	6	Lingering Warmth				Lucia held Luna in her arms. They fell asleep together for the last time in the cold room...	84301006		1130122	JZ10206EB
-301007	30100	7	Star in the Dark				Only at the end of a long darkness you will find happiness. And we are no different.	84301007		1130123	
+301001	30100	1	Struggle				I promised Mother and Father that I would never let anyone hurt you. So, I'll take the risks...	84301001		JZ10201BB	
+301002	30100	2	Trespassers				Where did these two little girls come from...?	84301002		JZ10202BB	
+301003	30100	3	Warm Food				Sister, are we finally safe?	84301003		JZ10203BB	
+301004	30100	4	Frog Plushie				Blame your own naivety.	84301004		JZ10204BB	
+301005	30100	5	Price of Naivety				We don't have a choice...	84301005		JZ10205BB	JZ10205EB
+301006	30100	6	Lingering Warmth				Lucia held Luna in her arms. They fell asleep together for the last time in the cold room...	84301006		JZ10206BB	JZ10206EB
+301007	30100	7	Star in the Dark				Only at the end of a long darkness you will find happiness. And we are no different.	84301007		JZ10207BB	
 301011	30101	1	Undying				Her black long hair, along with a few tags in her clenched fist, are the only things swaying in the warm wind...	84301011		JZ10201BC	
 301012	30101	2	Separated				That's why I need her... to stay loyal to humanity.	84301012		JZ10202BC	
 301013	30101	3	Falling				Alright. Now is the time... to welcome another lady home.	84301013		JZ10203BC	
@@ -946,6 +946,16 @@ Id	ChapterId	Order	Name	SubName	Icon	DescTitle	Desc	Condition	UnLockTime	StoryId
 603013	6030	13	The Last Relic					84602213	2022/7/8 5:02	HD01513BA	HD01513EA
 603014	6030	14	Off the Stage				There is still sound lingering here after the adventure.	84602214	2022/7/8 5:02	HD01514BA	
 603015	6030	15	In the Name of the Comrades				We are already holding one another's hands before we realize it.	84602215	2022/7/8 5:02	HD01515BA	
+603101	6031	1	Whispering Forest				This is what the forest seems to be mumbling as the breeze gently ruffles the leaves.		2022/8/11 10:02	HD01601BA	
+603102	6031	2	Farewell Wonderland				She bids the fearless fledgling bird with her last farewell.		2022/8/11 10:02	HD01602BA	
+603103	6031	3	Blooming Wings						2022/8/11 10:02	HD01603BA	HD01603EA
+603201	6032	1	Coming Celebration				As the celebration is around the corner, preparation is already underway.	84602301		HD01701BA	
+603202	6032	2	Private Letter				A private letter has unveiled the curtain of the celebration ahead of time.	84602302		HD01702BA	
+603203	6032	3	Endless Battle				On foot or with thrusters, the winner is the one who crosses the finish line first.	84602303		HD01703BA	HD01703EA
+603204	6032	4	Tug of War				In this match are two persevering rivals.	84602304		HD01704BA	
+603205	6032	5	The Rabbit and the Distant Moon				Legends change as time flies.	84602305		HD01705BA	HD01705EA
+603206	6032	6	Beloved World				Inside its envelope, the engraved message will be carried far away.	84602306		HD01706BA	
+603207	6032	7	Converging Streams				One way or the other, a celebration always bonds people together even before anyone is aware of it.	84602307		HD01707BA	
 630101	6301	3	Aurora Sky				Information saved	84600501	2020/9/24 5:02	HD00201BB	
 630102	6301	4	Bai Ze Chamber				Information saved	84600501	2022/5/9 7:01	HD00201BC	
 650101	6501	1	Wendigo - 1				Information saved	84600130	2020/10/8 5:02	RG00401BA	
@@ -1215,6 +1225,10 @@ Id	ChapterId	Order	Name	SubName	Icon	DescTitle	Desc	Condition	UnLockTime	StoryId
 1300103	13001	3	Walking on the Truth				It is the second half of the soothing aria. It is the joy of a lonely whale drowning in the depth of the ocean that finally finds where it belongs. And it is the most glorious ode you sing for the vast sea when you first see it.	84101752			ZX02401EC
 1300104	13001	4	Peony and Iris				On the lakeside where peonies and irises blossom, they tell each other about their past, how fate has brought them together, and how joyful it is to reunite.	84101753		ZX02420BD	ZX02401ED
 1300105	13001	5	In the Name of Iris				In her hand, the girl holds a purple flower with the same name. On the other side of Leprechaun where treasures were buried. Under the rainbow, she turns around.	84101754			ZX02401EE
+1300201	13002	1	Awake				Waking up without any memories in an unknown world, you head on a journey for the sound of the tides.	1005045		RG00601BA	
+1300202	13002	2	Farewell				The girl bids you a farewell in the world without the sound of the tides.	1004045		RG00602BA	
+1300203	13002	3	Reincarnation				In the abandoned courtyard, the girl smiles again to you, who has become a blank canvas.	1004046		RG00603BA	
+1300204	13002	4	Story				Our lonely protagonist needs a new companion—time to add something new to this story.	1004028		RG00604BA	
 1400101	14001	1	 Reasonable Nonsense	ER00_1			What comes around goes around. The only thing that is constant is change.	84101771		ZX02501BA	ZX02501EA
 1400102	14001	2	 The Celestial Being	ER00_2			When she calms her mind to listen, there are still faint sounds of bells and chanting from long ago.	84101772		ZX02502BA	ZX02502EA
 1400103	14001	3	 Please "Like" Me	ER00_3			Um... Why do they seem angry?	84101773		ZX02503BA	ZX02503EA
@@ -1262,3 +1276,11 @@ Id	ChapterId	Order	Name	SubName	Icon	DescTitle	Desc	Condition	UnLockTime	StoryId
 1400321	14003	21	Breaking Free	ER02_21 			Despite the scars all over his body and the constraint that makes him hard to move, all his memories are back, and he is no longer lost.	84102121		ZX02921BA	
 1400322	14003	22	Old Dream Inscription	ER02_22 			Please allow me to keep the sorrows of the past. Please forgive me for being helplessly ordinary. Please let my heart die when it's still alive... For these are things that drive me forward.	84102123			ZX02923EA
 1400323	14003	23	Cinder Burns	ER02_23 			Death and decay already arrived. Grass was burned down to ash on the ground. Sparks of the fire bring about fireflies, guiding the survivor to the future.	84102124		ZX02924BA	
+1400401	14004	1	Agonizing Phantoms	ER03_01 			That date—those numbers—is like a trigger in her head. Merely seeing them brings back the scenes of her past along with intangible pain.	84102301		ZX03101BA	
+1400402	14004	2	Unresolved Problems	ER03_02 			If this frame works, it means humans can at least stand tall on the path of fighting the Punishing Virus, and humanity's comeback finally starts in a real sense.	84102302		ZX03102BA	
+1400404	14004	4	Echoes of Yesterday	ER03_04 			For the first time in a very long time, Vanessa tries to remember the first time she met Bambinata—	84102304		ZX03104BA	
+1400407	14004	7	Sunken Consciousness	ER03_07 			The plummet devours all her senses, blinding and deafening her. In her Deep M.I.N.D., she finds no trace of pain or worry.	84102307		ZX03107BA	
+1400408	14004	8	Time to Game	ER03_08 				84102308		ZX03108BA	ZX03108EA
+1400409	14004	9	Figure in the Mirror	ER03_09 			Bambinata starts to look closely at her own body in the mirror for the first time.	84102309		ZX03109BA	
+1400410	14004	10	Gate	ER03_10 			Bambinata lifts her hand instinctively, but she soon realizes that there is no one left to hold.	84102310		ZX03110BA	
+1400413	14004	13	Words Left in Dream	ER03_13 			She suddenly remembers the days and nights she has since forsaken and how there was always a pair of blue eyes watching her.	84102313		ZX03113BA	

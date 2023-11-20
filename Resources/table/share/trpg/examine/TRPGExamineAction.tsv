@@ -1,0 +1,338 @@
+Id	Type	ItemId	Round	NeedValue	ResetCostId	ResetCostCount	Desc
+11001051	3		1	5	61302	1	Break Package
+21001051	2		1	10	61302	1	Analyze Package
+31021051	2		1	1	61302	1	Calculate Route
+11021052	4	61501		1			Inspect [Data Fragment]
+11022051	1		2	18	61302	1	Begin Mission
+11022052	3		2	22	61302	1	Suppressive Computing Power
+11022053	4	61501		1			Inspect [Data Fragment]
+11022054	4	61512		1			Inspect [Binary Jokes Software]
+11022055	4	61513		1			Inspect [Unknown Data Backup]
+11023051	1		2	18	61302	1	Begin Mission
+11023052	3		2	22	61302	1	Suppressive Computing Power
+11031050	3		1	6	61302	1	Brute-force Filtering
+11031051	2		1	1	61302	1	Neural Inversion
+11032051	4	61502		1			Inspect [Security Code]
+11032052	4	61503		1			Inspect [Origin of Signals]
+11032053	3		1	6	61302	1	Repair Sequence
+11032054	2		1	1	61302	1	Pattern Inversion
+11032055	1		1	4	61302	1	Remove Disorder
+11032056	2		1	15	61302	1	Perception Evasion
+11032057	3		1	15	61302	1	Arithmetic Evasion
+11033051	2		2	11	61302	1	Perception Route
+11033052	3		2	23	61302	1	Suppressive Computing Power
+11041051	1		1	5	61302	1	Frontal Breakthrough
+21041051	3		1	6	61302	1	Hack into Control
+11041052	1		1	4	61302	1	Break through the encirclement
+11041053	1		1	4	61302	1	Break the Gate
+21041053	2		1	2	61302	1	Search Vulnerability
+11041055	1		1	5	61302	1	Break the Gate
+21041055	2		1	6	61302	1	Search Vulnerability
+11042051	4	61504		1			Inspect [Lost Mission Record]
+11042052	1		1	10	61302	1	Frontal Breakthrough
+21042052	3		1	6	61302	1	Hack into Control
+11042053	3		1	6	61302	1	Hack into the Security Lock
+11042055	1		1	4	61302	1	Break by Force
+11042057	1		1	4	61302	1	Break by Force
+21042057	3		1	6	61302	1	Hack into the Security Lock
+11043051	1		2	17	61302	1	Begin Mission
+11043052	2		2	12	61302	1	Perception Route
+11043053	4	61510		1			Inspect [Deserted Waypoint]
+11043054	4	61504		1			Inspect [Lost Mission Record]
+11043055	4	61508		1			Inspect [Comms Record of Scarab Squad]
+11044051	1		2	19	61302	1	Begin Mission
+11044052	2		2	12	61302	1	Perception Route
+11044053	3		2	25	61302	1	Suppressive Computing Power
+11044054	1		2	22	61302	1	Begin Mission
+11044055	4	61511		1			Inspect [Bait Processor]
+11051051	4	61505		1			Inspect [Electronic Circuit]
+11051052	1		1	20	61302	1	Combat Evasion
+11051053	2		1	20	61302	1	Perception Evasion
+11051054	4	61506		1			Inspect [Passcode]
+11051055	1		1	4	61302	1	Hack Repair
+21051055	2		1	8	61302	1	Instinct Repair
+11051056	2		1	1	61302	1	Instinct Repair
+21051056	3		1	12	61302	1	Arithmetic Repair
+11051057	1		1	4	61302	1	Repair Node
+11051058	3		1	7	61302	1	Repair Node
+11051059	2		1	1	61302	1	Repair Node
+11052051	1		2	19	61302	1	Begin Mission
+11052052	2		2	12	61302	1	Perception Route
+11052053	3		2	25	61302	1	Suppressive Computing Power
+11052054	4	61509		1			Inspect [Lost Defense Data]
+11052055	4	61507		1			Inspect [Gestalt Surveillance Record]
+11053051	1		3	30	61302	1	Begin Mission
+12021051	1		1	15	61302	1	Combat Breakthrough
+22021051	2		1	5	61302	1	Perception Breakthrough
+32021051	3		1	20	61302	1	Arithmetic Breakthrough
+12021052	4	61521		1			Inspect [Damaged Memory Shell]
+12021053	4	61522		1			Inspect [Mini Storage Terminal]
+12021054	4	61523		1			Inspect [Data Collection Terminal]
+12021055	4	61502		1			Item Calculation
+12021056	3		1	15	61302	1	INT verification
+12021057	3		1	15	61302	1	INT verification
+12021058	3		1	15	61302	1	INT verification
+12022051	1		1	15	61302	1	Combat Breakthrough
+22022051	2		1	6	61302	1	Perception Breakthrough
+32022051	3		1	20	61302	1	Arithmetic Breakthrough
+12022052	1		1	15	61302	1	Combat Breakthrough
+22022052	2		1	6	61302	1	Perception Breakthrough
+32022052	3		1	20	61302	1	Arithmetic Breakthrough
+12022053	4	61524		1			Inspect [Key Card]
+12022054	4	61524		1			Inspect [Key Card]
+12022055	4	61524		1			Inspect [Key Card]
+12022056	4	61524		1			Inspect [Key Card]
+12022057	4	61525		1			Inspect [Data Chip]
+12022058	4	61525		1			Inspect [Data Chip]
+12022059	4	61525		1			Inspect [Data Chip]
+12022851	4	61525		1			Inspect [Data Chip]
+12022852	4	61525		1			Inspect [Data Chip]
+12022853	3		1	15	61302	1	INT verification
+12022854	3		1	15	61302	1	INT verification
+12022855	3		1	15	61302	1	INT verification
+12031051	1		1	15	61302	1	Combat Breakthrough
+22031051	2		1	6	61302	1	Perception Breakthrough
+32031051	3		1	20	61302	1	Arithmetic Breakthrough
+12031052	1		1	15	61302	1	Combat Breakthrough
+22031052	2		1	6	61302	1	Perception Breakthrough
+32031052	3		1	20	61302	1	Arithmetic Breakthrough
+12031053	1		1	15	61302	1	Combat Breakthrough
+22031053	2		1	6	61302	1	Perception Breakthrough
+32031053	3		1	20	61302	1	Arithmetic Breakthrough
+12031054	4	61540		1			Inspect [Message Record]
+12031055	4	61502		1			Item Calculation
+12031056	4	61503		1			Item Calculation
+12031057	4	61501		1			Item Calculation
+12031058	4	61502		1			Item Calculation
+12031059	4	61503		1			Item Calculation
+12031851	4	61526		1			Inspect [Shopping Street Map]
+12031852	4	61527		1			Inspect [Remaining Clue 1]
+12031853	4	61528		1			Inspect [Remaining Clue 2]
+12031854	4	61526		1			Inspect [Shopping Street Map]
+12031855	4	61527		1			Inspect [Remaining Clue 1]
+12031856	4	61528		1			Inspect [Remaining Clue 2]
+12032051	1		1	15	61302	1	Combat Breakthrough
+22032051	2		1	6	61302	1	Perception Breakthrough
+32032051	3		1	20	61302	1	Arithmetic Breakthrough
+12032052	1		1	15	61302	1	Combat Breakthrough
+22032052	2		1	6	61302	1	Perception Breakthrough
+32032052	3		1	20	61302	1	Arithmetic Breakthrough
+12032053	4	61529		1			Inspect [Remaining Data]
+12032054	4	61530		1			Inspect [Scavenger Woman's Data]
+12032055	3		1	15	61302	1	INT verification
+12032056	3		1	15	61302	1	INT verification
+12032057	3		1	15	61302	1	INT verification
+12032058	3		1	15	61302	1	INT verification
+12032059	3		1	15	61302	1	INT verification
+12032851	3		1	15	61302	1	INT verification
+12032852	3		1	15	61302	1	INT verification
+12032853	3		1	15	61302	1	INT verification
+12033051	1		1	15	61302	1	Combat Breakthrough
+22033051	2		1	6	61302	1	Perception Breakthrough
+32033051	3		1	20	61302	1	Arithmetic Breakthrough
+12033052	1		1	15	61302	1	Combat Breakthrough
+22033052	2		1	6	61302	1	Perception Breakthrough
+32033052	3		1	20	61302	1	Arithmetic Breakthrough
+12033053	4	61531		1			Inspect [District Key Card]
+12033054	4	61532		1			Inspect [Angel's Data]
+12033055	1		1	30	61302	1	Combat Breakthrough
+12041051	1		1	10	61302	1	Combat Breakthrough
+22041051	2		1	6	61302	1	Perception Breakthrough
+32041051	3		1	20	61302	1	Arithmetic Breakthrough
+12041052	4	61533		1			Inspect [Contamination Suit]
+12041053	4	61533		1			Inspect [Contamination Suit]
+12041054	4	61534		1			Inspect [Torn Diary]
+12041055	1		1	30	61302	1	Combat Breakthrough
+12042051	1		1	15	61302	1	Combat Breakthrough
+22042051	2		1	6	61302	1	Perception Breakthrough
+32042051	3		1	20	61302	1	Arithmetic Breakthrough
+12042052	1		1	15	61302	1	Combat Breakthrough
+22042052	2		1	6	61302	1	Perception Breakthrough
+32042052	3		1	20	61302	1	Arithmetic Breakthrough
+12042053	4	61535		1			Inspect [Suit Enhancement Set]
+12042054	4	61536		1			Inspect [Authorization Chip]
+12042055	1		1	15	61302	1	Combat Breakthrough
+22042055	2		1	6	61302	1	Perception Breakthrough
+32042055	3		1	20	61302	1	Arithmetic Breakthrough
+12042056	3		1	15	61302	1	INT verification
+12042057	3		1	15	61302	1	INT verification
+12042058	3		1	15	61302	1	INT verification
+12042059	3		1	15	61302	1	INT verification
+12042851	3		1	15	61302	1	INT verification
+12042852	3		1	15	61302	1	INT verification
+12042853	3		1	15	61302	1	INT verification
+12042854	3		1	15	61302	1	INT verification
+12042855	1		1	15	61302	1	Combat Breakthrough
+22042855	2		1	6	61302	1	Perception Breakthrough
+32042855	3		1	20	61302	1	Arithmetic Breakthrough
+12042856	4	61537		1			Item Calculation
+12042857	4	61538		1			Item Calculation
+12042858	4	61539		1			Item Calculation
+12043051	1		1	12	61302	1	Elimination Battle
+22043051	2		1	6	61302	1	Perception Breakthrough
+32043051	3		1	20	61302	1	Arithmetic Breakthrough
+12043052	1		1	15	61302	1	Combat Breakthrough
+22043052	2		1	6	61302	1	Perception Breakthrough
+32043052	3		1	18	61302	1	Decipher Password
+13021051	4	61501		1			Item Calculation
+13022051	1		1	12	61302	1	Obtain Memory Shell
+23022051	2		1	23	61302	1	Attempt Rescue
+13023041	1		1	24	61302	1	Break by Force
+23023041	3		1	14	61302	1	Decipher Command
+13023052	4	61551		1			Inspect [Ruolin's Data]
+13024051	1		2	40	61302	1	Battle Breakthrough
+13024052	2		2	38	61302	1	Eliminate Interference
+13024053	3		2	44	61302	1	Resolve Error
+13031051	1		1	24	61302	1	Break Interference Device
+23031051	3		1	14	61302	1	Investigate Possible Reasons
+13031052	1		1	25	61302	1	Combat Evasion
+13032051	4	61552		1			Inspect [Short-range Jet]
+13032052	1		1	25	61302	1	Combat Evasion
+13032053	2		1	25	61302	1	Perception Evasion
+13033051	4	61554		1			Inspect [Ruolin's Video]
+13034051	1		2	41	61302	1	Battle Breakthrough
+13034052	2		2	39	61302	1	Eliminate Interference
+13034053	3		2	45	61302	1	Resolve Error
+13034054	1		2	42	61302	1	Battle Breakthrough
+13041041	1		1	12	61302	1	Stop the door from being closed
+23041041	2		1	23	61302	1	Shortest Route
+13041051	4	61553		1			Inspect ["Lucia's Will"]
+13041052	1		1	25	61302	1	Combat Evasion
+13041053	3		1	25	61302	1	Arithmetic Evasion
+13042051	2		1	25	61302	1	Perception Evasion
+13042052	3		2	45	61302	1	Resolve Error
+13043051	1		2	43	61302	1	Battle Breakthrough
+13043052	2		2	40	61302	1	Eliminate Interference
+13043053	3		2	44	61302	1	Resolve Error
+13043054	1		3	80	61302	1	Battle Breakthrough
+13051051	1		1	15	61302	1	Sharp Will
+13052051	1		1	15	61302	1	Sharp Will
+13052053	1		1	16	61302	1	Seek Warmth
+13052054	1		1	16	61302	1	Crimson Resolve
+13052055	1		1	16	61302	1	Crimson Resolve
+14021051	1		1	14	61302	1	Combat Breakthrough
+24021051	2		1	30	61302	1	Perception Breakthrough
+34021051	3		1	35	61302	1	Arithmetic Breakthrough
+14021052	1		1	14	61302	1	Combat Breakthrough
+24021052	2		1	30	61302	1	Perception Breakthrough
+34021052	3		1	35	61302	1	Arithmetic Breakthrough
+14021053	1		1	14	61302	1	Combat Breakthrough
+24021053	2		1	30	61302	1	Perception Breakthrough
+34021053	3		1	35	61302	1	Arithmetic Breakthrough
+14021054	4	61501		1			Item Calculation
+14021055	3		1	15	61302	1	INT verification
+14021056	3		1	15	61302	1	INT verification
+14021057	3		1	15	61302	1	INT verification
+14021058	3		1	15	61302	1	INT verification
+14021059	3		1	15	61302	1	INT verification
+14021851	3		1	15	61302	1	INT verification
+14022051	1		1	10	61302	1	Combat Breakthrough
+24022051	2		1	5	61302	1	Perception Breakthrough
+34022051	3		1	30	61302	1	Arithmetic Breakthrough
+14022052	4	61576		1			Item Calculation
+14022053	4	61577		1			Item Calculation
+14022054	4	61501		1			Item Calculation
+14022055	4	61501		1			Item Calculation
+14022056	3		1	14	61302	1	Arithmetic Breakthrough
+14023051	1		1	35	61302	1	Combat Breakthrough
+24023051	2		1	5	61302	1	Perception Breakthrough
+34023051	3		1	14	61302	1	Arithmetic Breakthrough
+14023052	1		1	12	61302	1	Combat Breakthrough
+24023052	2		1	35	61302	1	Perception Breakthrough
+34023052	3		1	30	61302	1	Arithmetic Breakthrough
+14023053	1		1	12	61302	1	Combat Breakthrough
+24023053	2		1	35	61302	1	Perception Breakthrough
+34023053	3		1	30	61302	1	Arithmetic Breakthrough
+14023054	4	61578		1			Item Calculation
+14023055	4	61501		1			Item Calculation
+14023056	3		1	15	61302	1	INT verification
+14023057	3		1	15	61302	1	INT verification
+14023058	3		1	15	61302	1	INT verification
+14024051	1		1	30	61302	1	Combat Breakthrough
+24024051	2		1	12	61302	1	Perception Breakthrough
+34024051	3		1	35	61302	1	Arithmetic Breakthrough
+14024052	1		1	14	61302	1	Combat Breakthrough
+24024052	2		1	30	61302	1	Perception Breakthrough
+34024052	3		1	35	61302	1	Arithmetic Breakthrough
+14024053	4	61579		1			Item Calculation
+14024054	4	61579		1			Item Calculation
+14024055	4	61579		1			Item Calculation
+14024056	4	61579		1			Item Calculation
+14024057	4	61579		1			Item Calculation
+14024058	4	61585		1			Item Calculation
+14024059	3		1	15	61302	1	INT verification
+14024851	3		1	15	61302	1	INT verification
+14024852	3		1	15	61302	1	INT verification
+14024853	3		1	15	61302	1	INT verification
+14024854	4	61585		1			Item Calculation
+14024855	4	61585		1			Item Calculation
+14031051	1		1	35	61302	1	Combat Breakthrough
+24031051	2		1	30	61302	1	Perception Breakthrough
+34031051	3		1	14	61302	1	Arithmetic Breakthrough
+14031052	1		1	35	61302	1	Combat Breakthrough
+24031052	2		1	35	61302	1	Perception Breakthrough
+34031052	3		1	14	61302	1	Arithmetic Breakthrough
+14031053	4	61580		1			Item Calculation
+14031054	4	61581		1			Item Calculation
+14031055	4	61586		1			Item Calculation
+14031056	3		1	15	61302	1	INT verification
+14031057	3		1	15	61302	1	INT verification
+14031058	3		1	15	61302	1	INT verification
+14031059	3		1	15	61302	1	INT verification
+14031851	3		1	15	61302	1	INT verification
+14031852	3		1	15	61302	1	INT verification
+14041051	1		1	14	61302	1	Combat Breakthrough
+24041051	2		1	30	61302	1	Perception Breakthrough
+34041051	3		1	35	61302	1	Arithmetic Breakthrough
+14041052	1		1	30	61302	1	Combat Breakthrough
+24041052	2		1	12	61302	1	Perception Breakthrough
+34041052	3		1	35	61302	1	Arithmetic Breakthrough
+14041053	1		1	10	61302	1	Combat Breakthrough
+24041053	2		1	5	61302	1	Perception Breakthrough
+34041053	3		1	15	61302	1	Arithmetic Breakthrough
+14041054	1		1	10	61302	1	Combat Breakthrough
+24041054	2		1	5	61302	1	Perception Breakthrough
+34041054	3		1	15	61302	1	Arithmetic Breakthrough
+14041055	1		1	10	61302	1	Combat Breakthrough
+24041055	2		1	5	61302	1	Perception Breakthrough
+34041055	3		1	15	61302	1	Arithmetic Breakthrough
+14041056	4	61582		1			Item Calculation
+14041057	4	61582		1			Item Calculation
+14041058	4	61582		1			Item Calculation
+14041059	4	61582		1			Item Calculation
+14041851	4	61582		1			Item Calculation
+14041852	4	61582		1			Item Calculation
+14041853	4	61583		1			Item Calculation
+14041854	4	61583		1			Item Calculation
+14041855	4	61583		1			Item Calculation
+14041856	4	61501		1			Item Calculation
+14041857	4	61501		1			Item Calculation
+14041858	4	61501		1			Item Calculation
+14041859	4	61501		1			Item Calculation
+14041751	4	61587		1			Item Calculation
+14041752	4	61501		1			Item Calculation
+14041753	4	61501		1			Item Calculation
+14041754	3		1	15	61302	1	INT verification
+14041755	3		1	15	61302	1	INT verification
+14041756	3		1	15	61302	1	INT verification
+14041757	3		1	15	61302	1	INT verification
+14041758	3		1	15	61302	1	INT verification
+14041759	3		1	15	61302	1	INT verification
+14042051	1		1	27	61302	1	Clean up Shard
+24042051	2		1	26	61302	1	Perception Breakthrough
+34042051	3		1	29	61302	1	Arithmetic Breakthrough
+14042052	1		1	27	61302	1	Combat Breakthrough
+24042052	2		1	26	61302	1	Find Reaction
+34042052	3		1	29	61302	1	Arithmetic Breakthrough
+14042053	1		1	27	61302	1	Combat Breakthrough
+24042053	2		1	26	61302	1	Perception Breakthrough
+34042053	3		1	29	61302	1	Matrix Calculation
+14042054	4	61592		1			Item Calculation
+14042055	4	61592		1			Item Calculation
+14042056	4	61592		1			Item Calculation
+14042057	4	61592		1			Item Calculation
+14042058	4	61592		1			Item Calculation
+14042059	4	61588		1			Item Calculation
+14043051	1		1	27	61302	1	Clean up Shard
+24043051	2		1	26	61302	1	Perception Breakthrough
+34043051	3		1	29	61302	1	Arithmetic Breakthrough

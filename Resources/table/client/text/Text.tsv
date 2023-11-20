@@ -288,6 +288,7 @@ BuyCount	<size=26><color=#626c78>Available: </color></size>{0}/{1}
 ShopResetTimes	<size=26><color=#626c78>Times: </color></size>{0}/{1}
 AlreadyFriends	Already a friend
 FriendNotAddSelf	Cannot add yourself as friend
+PleaseEnterPlayerID	Enter player ID
 NewPlayerTaskGetAward	[Available rewards]
 NewPlayerTaskLock	[Lock]
 NewPlayerTaskFinish	[Complete]
@@ -565,6 +566,9 @@ FavorabilityRewardCollected	Reward [{0}] has been claimed!
 FavorabilityRewardUnlock	Reward [{0}] has not been unlocked!
 FavorabilitySetAssistSucc	[{0}] has been set as assistant!
 FavorabilitySetAssistAlready	[{0}] is already your assistant!
+FavorabilitySetChiefAssistSucc	[{0}] set as the Chief Assistant successfully
+FavorabilityNotRemoveOnlyAssist	 You cannot cancel the only assistant you have.
+FavorabilityRemoveAssistSucc	[{0}] removed from the assistant position successfully
 EquipStrengthenMaxLevel	Max level reached
 EquipStrengthenCurLevel	{0}/<color=#28CFFFFF>{1}</color>
 EquipLevelText	<color=#0E70BDFF>{0}</color><size=30>/{1}</size>
@@ -591,8 +595,9 @@ CustomLoadingRemoveTip	Remove this picture from list of random loading pictures?
 CustomLoadingMaxTip	Custom loading screen picture upper limit reached. Please delete unwanted pictures first.
 LoadingType1	Default loading screen: Only use default loading picture.
 LoadingType2	Custom loading screen: Select pictures to add them to the random list. The loading screen will display the selected pictures randomly.
-FocusType1	Auto Lock: Automatically locks on the enemy in your way when you move the joystick.
+FocusType1	Auto Lock: Move the joystick and cast a skill to lock the enemy in your way.
 FocusType2	Manual Lock: Tap empty space (excluding the joystick area) to switch lock-on target. Press and hold to unlock the target. <color=#0e70bd>If you have checked "Display Lock Button", press "Lock" to switch lock-on target in battle.</color>
+FocusType3	Advanced Lock: Toggle between Auto Lock and Manual Lock in real time. <color=#0e70bd>Auto Lock</color> is activated by default and locks the enemy in the direction of your joystick when you cast a skill. Tapping any blank space on the screen will switch it to <color=#0e70bd>Manual Lock</color>, with which tapping again will change the locked target, while holding down will unlock the current target and revert to Auto Lock. <color=#0e70bd>If the [Display Lock Button] option is enabled, tapping the button will lock the enemy and holding it will unlock the target.</color>
 WeaponTransType1	Off: On the weapon screen, <color=#0e70bd>skip animations and display the transformed weapon directly</color>
 WeaponTransType2	On: On the weapon screen, <color=#0e70bd>display the weapon transform animation</color>
 RechargeType1	Off: The accumulated recharge screen will not display the current recharge amount
@@ -629,6 +634,7 @@ ArenaActivityNotKeepRegionDesc	Teams in this group will not retain their current
 ArenaActivityUpRegionDesc	The {0}-{1}-place teams are promoted
 ArenaActivityKeepRegionDesc	The {0}-{1}-place teams retain their current rank
 ArenaActivityDownRegionDesc	The {0}-{1}-place teams are demoted
+ArenaActivityUpRegionContributeScoreDes	No.1-{0} in the group with {1} Merit will advance to the team of a higher level.
 ArenaActivityConfirmUnlockArea	Unlock [{0}]?\nUnlocks remaining today: {1} (resets daily)
 ArenaActivityUnlockCountNotEnough	No unlocks remaining today. Try again tomorrow.
 ArenaActivityLordIsEmpty	Empty
@@ -636,6 +642,7 @@ ArenaActivityStage	Area {0}
 ArenaActivityResultUp	You have been promoted to <color=#0f70bc><size=60>{0}</size></color> in War Zone.
 ArenaActivityResultDown	You have been demoted to <color=#0f70bc><size=60>{0}</size></color> in War Zone.
 ArenaActivityResultKeep	You have retained your rank of <color=#0f70bc><size=60>{0}</size></color> in War Zone.
+ArenaActivityResultNotContributeScore	Merit lower than {0}. You stayed in the <color=#0f70bc><size=60>{1} Team</size></color> in the War Zone.
 ArenaActivityProtected	<color=#30aa17>Demotion Protection</color> has retained your position in <color=#0f70bc><size=60>{0} Squad</size></color>
 ArenaActivityStrategyContent	Event time:\nPhase 1: Sun 18:30 - Wed 18:00\nPhase 2: Wed 18:30 - Sun 18:00\n\nMode help: Complete different zones to earn points in War Zone. New enemy types will appear in each phase.\n\nZone help: You may attempt the 3 zones multiple times. You earn points based on completion time and remaining HP in the first 2 zones. Enemies will spawn indefinitely in the 3rd zone; you earn points based on damage dealt and remaining HP when time expires.\n\nGrade help: Commandants are placed in different grades and ranked based on their score in each grade. The top-ranked Commandants in each grade are promoted to a higher grade at the start of a new phase.\n\nTeams: You can team up freely during the preparation time. At the start of battle, teams that have less than 3 members will be automatically matched until they have enough numbers. Team rankings are based on total member score.
 ArenaActivityAreaIsNotOpen	This zone is locked during this phase
@@ -681,6 +688,7 @@ ArenaOnlineInstanceQuitRoom	Confirm to leave the room?
 ArenaOnlineSectionClose	The current area is locked
 ArenaOnlineRoomConnectTimeOut	Room connection timeout
 ArenaOnlineCanNotSwitchToUnopenedSingleStage	Solo mode is not available in this stage
+ArenaTaskTitle	War Zone Mission - {0}Lv{1}-{2}
 ComeAcrossTips	3 max chance encounters per day. Attempts reset at 24:00.
 ComeAcrossStart	Begin!
 ComeAcrossRight	<color=#8cfa7a>Correct!</color>
@@ -730,9 +738,11 @@ PrequelChallangeTab	Challenge Mode
 PrequelCompletion	Completion: {0}/{1}
 PrequelFragmentReset	Resets Daily
 PrequelFragmentTimeReset	Reset Time: {0}
+PrequelChapterNotOpen	Interlude is not available yet.
 TrialFinish	Completed
 TrialUnLock	Locked
 AbilityInsufficient	Insufficient BP
+BattleAbility	Battle Power
 AvgInsufficient	The current stage is extremely dangerous, raising {0} of your members' BP to {1} is recommended. Challenge anyway?
 Insufficient	The current stage is extremely dangerous, raising your members' BP to {0} is recommended. Challenge anyway?
 AbilityCurrentTips	{0} (Current BP: {1})
@@ -1018,6 +1028,7 @@ PurchaseYKShopTab	Black Card Shop
 ReportSelectTypeError	Please enter report information
 ReportTemplate	This player might have cheated in "{0}".
 SetPlayerInfoError	Requests too frequent. Please try again later.
+RecommendFriendError	Frequent refresh attempts. Please try again later.
 SetAppearanceSuccess	Saved
 PurchaseAddHide	*****
 PurchaseRestTypeDay	Daily Limit {0}/{1}
@@ -1351,7 +1362,7 @@ CanBuyText	Purchases Left
 MaxCanBuyText	Limited warehouse spaces left. You can only purchase 
 GuildGiftBtnDes	Filter
 GuildGiftReqTxtDes	Daily Request {0}/{1}
-GuildRecommErrorTipsDes	You cannot leave it blank
+GuildRecommErrorTipsDes	Enter the 8-digit Command Bureau ID
 GuildGiftNameDes	[{0}]
 GuildGiftEmptyDes	No gifts
 GuildDonationBtnDes	Donate
@@ -2117,35 +2128,35 @@ OwnLimitBuyForeverWeaponFashionGiftConverseText	This item contains Weapon Coatin
 OwnForeverBuyLimitWeaponFashionConverseText	This item contains Weapon Coating you already own permanently. After purchase, the remaining time will be converted into <color=#0E70BD>Weapon Coating Blueprint</color>. Continue?
 RogueLikeTrialPoint	Trial Points: {0}
 RpgTowerMemberIsLevelMax	Character is at max Star
-RpgTowerFinished	The current cycle of Mycenaean Protocol has ended
+RpgTowerFinished	The event has ended
 RpgTowerStarDescription	{0}★
 RpgTowerLevelUpCostStr	<color=#0e70bd>{0}</color> /{1}
 RpgTowerLevelUpCostNotEnoughStr	<color=#ff3f3f>{0}</color> /{1}
 RpgTowerSkillUpDescription	All Skill Level {0}
-RpgTowerTalentPiecesDes	Modification Points {0}
-RpgTowerCharaTalentIsAlreadyUnlock	Modification Slot already activated
-RpgTowerEnd	Mycenaean Protocol has ended
-RpgTowerNotStart	Mycenaean Protocol has not started yet
+RpgTowerTalentPiecesDes	Specialty Points: {0}
+RpgTowerCharaTalentIsAlreadyUnlock	Specialty already activated
+RpgTowerEnd	The event has ended
+RpgTowerNotStart	Event is not available yet
 RpgTowerChallengeTimeNotEnough	Today's challenge attempts have been used up
 RpgTowerChallengeCountStr	{0}/{1}
 RpgTowerRemainTime	Remaining time: {0}
 RpgTowerNoUpgradeCondition	No Star Up requirement
 RpgTowerChapterProgressStr	Progress: {0}/{1}
-RpgTowerTalentPointsNotEnough	Insufficient Modification Points
-RpgTowerResetTalentConfirmTitle	Reset
-RpgTowerResetTalentConfirmContent	After reset, the modification of this character will be restored to default (all modification points used will be refunded). Do you wish to reset?
-RpgTowerStageNotOpen	The stage is not available yet. Complete the previous stages first.
+RpgTowerTalentPointsNotEnough	Insufficient Specialty Points
+RpgTowerResetTalentConfirmTitle	Reset the Talents on the interface
+RpgTowerResetTalentConfirmContent	After reset, the character's Specialty interface will be restored to default (all Specialty Points used will be refunded). Reset?
+RpgTowerStageNotOpen	Please clear the previous stage first
 RpgTowerMemberNoReachLevelUpCondition	Character Star Up requirement not met
 RpgTowerMemberLevelUpItemNotEnough	Insufficient Promotion Certificates
 RpgTowerReachCondition	Available for Star Up
-RpgTowerTalentCannotUnlock	Activation failed. At least one modification slot must be activated in the last level!
+RpgTowerTalentCannotUnlock	Activate any one of the Talents in the previous layer first
 RpgTowerNoNeedReset	1★ character cannot be reset
-RpgTowerCantGetSupply	You have already claimed today's supply. Come back tomorrow!
+RpgTowerCantGetSupply	You have already claimed today's supply. Come back tomorrow after 5:00!
 RpgTowerMaxLevel	At max
 RpgTowerStageDetialRecommendLevelTips	Recommended for team Lv. {0} and above
 RpgTowerTalentLevelNotEnough	Unlocked at team Lv. {0}
 RpgTowerTeamLevelNotEnoughTitle	Insufficient team level
-RpgTowerTeamLevelNotEnoughContent	Your team level is not at the recommended level, and this stage may be extremely challenging. Would you like to enter anyway? (Tip: You can claim team EXP in the supply every day)
+RpgTowerTeamLevelNotEnoughContent	Low team level. The challenge may be extremely hard. Start the challenge anyway? (Tips: You can claim Team EXP from the Daily Reward to enhance your team.)
 RpgTowerWarningControlName	Recommended Level:
 RpgTowerCurNumText	(Current team Lv. {0})
 RpgTowerNeedTeamLevel	<color=#FFFFFF>Reach team</color> <color=#fff21f><size=32>Lv.{0}</size></color> <color=#FFFFFF>to unlock</color>
@@ -2153,20 +2164,24 @@ RpgTowerUnlockTalent	Activate
 RpgTowerTalentLock	Locked
 RpgTowerTalentActive	Activated
 RpgTowerCharacterNotExist	Character to reset talent does not exist
-RpgTowerTalentCannotActive	Talent reset requirement not met
+RpgTowerTalentCannotActive	Please reset the Talents of the next layer/all Talents/switch frame Specialty first
 RpgTowerStageScoreStr	Points: {0}W
 RpgTowerStageScoreBiggerThenBillion	Points: {0} Hundred Million {1}W
-RpgTowerResetOneTalentConfirmTitle	Reset individual skill
-RpgTowerResetOneTalentConfirmContent	Reset cannot be commenced if this skill is the only skill activated in this talent tree and there is a skill that can be activated in the next talent tree. This skill will be reverted to its original state after reset. Confirm reset?
-RpgTowerPreLayerNotActive	Activate any one of the Talents in the previous layer to activate this Talent layer.
+RpgTowerResetOneTalentConfirmTitle	Reset Individual Talent
+RpgTowerResetOneTalentConfirmContent	Specialty Points of the Talent will be refunded after the reset. Confirm?
+RpgTowerPreLayerNotActive	Activate any one of the Talents in the previous layer to activate this Talent.
 RpgTowerTalentAlreadySet	In Use
-RpgTowerTalentSet	Activate Talent
-RpgTowerTalentTypeNotActive	Activate this Talent category to activate this Talent layer.
-RpgTowerChangeTalentTypeTips	Switch the character's Talent from {0} to {1}? You will be using the character Talent in {2} afterward.
-RpgTowerSetTalentTypeTitle	Activate Talent Category
+RpgTowerTalentSet	Switch Frame Specialty
+RpgTowerTalentTypeNotActive	<color=#0E70BD>Switch frame Specialty</color> to activate the Talent.
+RpgTowerChangeTalentTypeTips	Switch Specialty from <color=#0E70BD>{0}</color> to <color=#0E70BD>{1}</color>? After doing this, you'll start to use the Talents under the <color=#0E70BD>{2}</color> Specialty.
+RpgTowerSetTalentTypeTitle	Switch Frame Specialty Path
 RpgTowerStageDifficultTitle1	EASY
 RpgTowerStageDifficultTitle2	NORMAL
 RpgTowerStageDifficultTitle3	HARD
+RpgTowerStageLock	Please Clear First: {0} - {1}
+RpgTowerSingleBattle	Solo Battle
+RpgTowerRotateBattle	Rotation Battle
+RpgTowerTalentCompatibilityTips	Please <color=#0E70BD>Switch frame Specialty</color> first
 PhotoModeNoFashion	You do not own this Coating
 PhotoModeSaveSuccess	Photo saved
 PhotoModeShareSuccess	Sharing successful
@@ -2177,6 +2192,14 @@ PhotoModeChangeFailedNotHasCharacter	Sync failed. You do not own the character
 PhotoModeChangeFailedNotHasFashion	Sync failed. You do not own the coating
 PhotoModeChangeSuccess	Synced to Main Screen
 PhotoModeNotChooseText	Not selected
+PhotoModePartnerLocked	The CUB is locked
+PhotoModeLogoInfoMutex	You can't put the Logo and the card in the same corner!
+PhotoModeCannotSyncTips	The current information is consistent with the main interface information!
+PhotoAlignmentLT	Top Left Corner
+PhotoAlignmentRT	Top Right Corner
+PhotoAlignmentLB	Bottom Left Corner
+PhotoAlignmentRB	Bottom Right Corner
+PhotoAlignmentDisable	Hide
 DragPuzzleActivityNotOpen	Event not yet available
 DragPuzzleActivityEnd	Event is over
 DragPuzzleActivityPuzzleNotOpen	This puzzle is locked. Please complete the previous puzzles first.
@@ -2661,8 +2684,8 @@ SpringFestivalOver	Event is over
 SpringFestivalGuildRequestRefresh	Request status refreshed
 StrongholdActivityNotOpen	Norman Revival Plan has not started
 StrongholdActivityTimeNotOpen	Norman Revival Plan has not started
-StrongholdActivityTimeActivityBegin	Battle starting in: {0}
-StrongholdActivityTimeFightBegin	Remaining time: {0}
+StrongholdActivityTimeActivityBegin	Battle Starts in: {0}
+StrongholdActivityTimeFightBegin	Battle Ends in: {0}
 StrongholdActivityTimeFightEnd	Event time remaining: {0}
 StrongholdActivityTimeFightEndExtra	Current event time remaining: {0}
 StrongholdActivityProgress	Progress: {0}/{1}
@@ -3068,12 +3091,12 @@ InvertCardGameNotHaveSeverData	The game is not open yet, please wait
 InvertCardGameTimeNotOpen	Game time is locked
 InvertCardGameTimeEnd	Game time has expired
 InvertCardGameStageNotOpen	Unlock until the [{0}] is complete
-InvertCardGameMaxInvertConutTextBlue	After flipping cards <color=#64e7ff>{0}</color> time(s), no more Moon Dust is needed to flip additional cards. (<color=#64e7ff>{1}</color>/{2})
-InvertCardGameMaxInvertConutTextNormal	After flipping cards <color=#64e7ff>{0}</color> time(s), no more Moon Dust is needed to flip additional cards. ({1}/{2})
+InvertCardGameMaxInvertConutTextBlue	After flipping cards over for <color=#64e7ff>{0}</color> times, no Klein Bottles will be spent to flip (<color=#64e7ff>{1}</color>/{2})
+InvertCardGameMaxInvertConutTextNormal	After flipping cards over for <color=#64e7ff>{0}</color> times, no Klein Bottles will be spent to flip ({1}/{2})
 InvertCardGameCurInvertConutText	Current flip: <color=#64e7ff>{0}/{1}</color>
 InvertCardGameConstomCountBlue	<color=#64e7ff>{0}</color> to flip
 InvertCardGameConstomCountRed	<color=#da4a4a>{0}</color> to flip
-InvertCardGameHaveNotEnoughItem	You do not have sufficient [Moon Dust].
+InvertCardGameHaveNotEnoughItem	Insufficient [Klein Bottles]. Unable to do this.
 ActivityBriefNotOpenTips	Activates in {0}
 ScratchTicketSelectChoseTips	Tap the option to select a line of numbers
 ScratchTicketActivityLeftTime	Event time remaining:
@@ -3218,6 +3241,7 @@ STTransfiniteMaxLevel	Max Ultralimit level reached
 STBonusCharaNotOpen	SP Character not available
 SameCharacterInTeamTip	Duplicate characters deployed
 IsomerLimitTip	No Uniframes
+NormalLimitTip	No Omniframes
 PassportAutoGetTipsTitle	Auto claimed
 PassportAutoGetTipsDesc	Some rating missions have refreshed. The Intel points of your completed rating missions have been automatically claimed:
 STTierCanNotPlayHint	Infinite Abyss with theme {0} is in progress
@@ -3304,7 +3328,7 @@ LivWarmTaskProgress	{0}/{1}
 SCRankTotalName	Total Ranking
 SCRankScoreTips	<size=22><color=#000000FF>Damage Points: </color></size> {0}
 SameColorGameShuffleBallHint	There are no more moves, the board will be reset.
-SCStepText	Remaining moves: {0}
+SCStepText	Remaining Turns: {0}
 SCDamageText	Damage Points: {0}
 SCBuffRoundText	{0}
 SCTipBuffDetailName	Buff details
@@ -3313,6 +3337,7 @@ SCTipBuffDetailDesc	Buff description
 SCTipBossSkillDetailDesc	Skill description
 SCWinDamageText	Damage Points: {0}
 SCWinRankText	Required to reach {0}: {1}
+SCActivityTimeText	<color=#fff000>{0}</color>{1}
 PassportExpText	Intel Value:
 PassportRewardTxtBuy	<color=#0f70bc>{0}</color>, increase Rating Lv. to Lv.<color=#0f70bc>{1}</color>?
 SSBMainPointGetText	{0}/{1}
@@ -3676,7 +3701,7 @@ SameColorGameEnergyMinus	Decrease {0}
 SameColorGameEnergyMultiply	Increases current Energy's {0}
 SameColorGameEnergyDivide	Reduces current Energy's {0}
 SameColorGameRankTitle	Score Rank - {0}
-SameColorGameEnergyCount	<color=#FFFFFF><size=36>{0}</size></color><color=#898989><size=20> / {1}</size></color>
+SameColorGameEnergyCount	<color={0}><size=52>{1}</size> </color>/{2}
 SameColorGameEnergyNotEnough	Insufficient Energy
 WeekActivityEndTime	Ends in {0}
 WeekActivityTime	{0}-{1}
@@ -3745,8 +3770,8 @@ TheatreDecorationCanLvUpTips	<color=#6495ED>Light up the Ballade</color> to turn
 CharacterEnhanceSkillUnLock	Power Leap Modification
 CharacterEnhanceSkillLevel	{0}
 CharacterSpSkillUnLock	Uniframe Modification
-SameColorGameEnergyDescTitle	Energy Description
-SameColorGameEnergyDescText	1. 1-Ping combo grants 1 Energy.\n2. Switch between the Standard Skill and the Amplified Skill in the upper right corner of the skill. Amplified Skill consumes Energy.\n3. Both Skills share the same cooldown.
+SameColorGameEnergyDescTitle	Finishing Move
+SameColorGameEnergyDescText	Accumulate enough Finishing Move Energy to perform it after the cooldown is over to cast the Finishing Move. The Finishing Move Energy is capped at 45.
 EscapeNotClearLayerDesc	Clear Floor {0} to challenge
 EscapeActivityTime	Remaining Time: {0}  {1}
 InChallenge	In Progress
@@ -4030,7 +4055,7 @@ MultiDimCareer3	Support Talent
 CharacterQualityStar	Phase {0}
 CharacterQualityTip	{0}   {1}
 CharacterQualitySkillTipText	{0}Lv{1}
-CharacterSkillNameText	{0}{1}：{2}Lv{3}
+CharacterSkillNameText	{0}{1}：{2} Lv{3}
 CharacterQualitySkillText	Skill Growth
 CharacterQualityAttributeText	Stat Growth
 MultiDimAddLike	Like +{0}
@@ -4121,6 +4146,8 @@ EquipGuideCancelTargetTips	Cancel the Equipment Goal for [{0}]?
 EquipGuideCurTargetText	Current Goal
 EquipGuideEquippedText	Equipped
 EquipGuideNoTargetText	Set as Goal
+EquipGuideDrawNoWeaponTip	Research of the weapon is not activated yet
+EquipGuideShopNoEquipTip	No {0} of this type in the shop
 GuildBossHighAreaLvLimit	You must reach level 52 to access Special Dispatch Area battles
 GuildNoneJoinToPlay	You must join a Command Bureau to access this feature
 SpecialTrainMatchTipTitle	Tips
@@ -4134,6 +4161,10 @@ SummerSignInFinishSign	You have used up the check attempts today. Please come ba
 SummerSignInChoseMessage	Postcard from {0} and gifted <color=#ff8105>Free Research</color>
 SummerSignInViewCountFinishTip	You have used up the check attempts today. Please come back tomorrow.
 BiancaTheatreRestartTipsDesc	Insufficient Biomimetic Blood
+NotOwn	{0} Not Owned
+AssistOnlyOne	Only 1 assistant in the assistant queue. Unable to randomize.
+PurchaseLBOwnAll	You already have all the items in the pack
+MentorSearceInCD	Frequent search attempts. Please search again after {0}s.
 GWSelectDifficultyConfirmContentRecommend	Recommended Activity for this Difficulty is <color=#A52A2A>{0}</color>. Activity of the Command Bureau last round is {1}. Please make sure the Difficulty you select matches the number of active members in the Command Bureau. Continue?
 MultiDimFightExitTipTitle	Dead Characters
 ActivityRepeatChallengeChapterLockBtn	Unlock at Authority Lv.{0}
@@ -4235,7 +4266,6 @@ JPBlackCardFirstPurchaseGift	初回限定おまけ\n{0}
 JPBlackCardPurchaseGift	購入おまけ\n{0}
 JPReviewActivityButtonText	2nd Anniversary Review
 JPReviewActivityButton	Claim
-NormalLimitTip	No Omniframes
 DoomsdayNumberUp	<color=#0F70BC><size=28> (+{0})</size></color>
 DoomsdayNumberDown	<color=#E1504F><size=28> (-{0})</size></color>
 Draw01	Research drop chance as follows:

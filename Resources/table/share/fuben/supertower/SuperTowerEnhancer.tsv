@@ -1,0 +1,493 @@
+Id	Type	Level	Name	CharacterId	Quality	FightEventId	Icon	Description	Priority
+200011	20001	1	Last Stand: DMG Increase I		2	221001	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is lower than 33%, all DMG increase by 30%.	1037
+200012	20001	2	Last Stand: DMG Increase II		3	221002	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is lower than 33%, all DMG increase by 70%.	1038
+200013	20001	3	Last Stand: DMG Increase III		4	221003	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is lower than 33%, all DMG increase by 110%.	1039
+200014	20001	4	Last Stand: DMG Increase IV		5	221004	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is lower than 33%, all DMG increase by 150%.	1040
+200021	20002	1	Last Stand: Balance I		2	221005	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is higher than 33%, decrease HP by 2% every second. When HP is lower than 33%, DMG received decreases by 10%.	1041
+200022	20002	2	Last Stand: Balance II		3	221006	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is higher than 33%, decrease HP by 3% every second. When HP is lower than 33%, DMG received decreases by 20%.	1042
+200023	20002	3	Last Stand: Balance III		4	221007	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is higher than 33%, decrease HP by 4% every second. When HP is lower than 33%, DMG received decreases by 30%.	1043
+200024	20002	4	Last Stand: Balance IV		5	221008	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is higher than 33%, decrease HP by 5% every second. When HP is lower than 33%, DMG received decreases by 40%.	1044
+200031	20003	1	Last Stand: Shield I		2	221009	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is lower than 33%, gain a shield equal to 10% of your max HP. Can be activated once each battle.	1045
+200032	20003	2	Last Stand: Shield II		3	221010	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is lower than 33%, gain a shield equal to 20% of your max HP. Can be activated once each battle.	1046
+200033	20003	3	Last Stand: Shield III		4	221011	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is lower than 33%, gain a shield equal to 30% of your max HP. Can be activated once each battle.	1047
+200034	20003	4	Last Stand: Shield IV		5	221012	Assets/Product/Texture/Image/UiInfestorExplore/Equip050.png	When HP is lower than 33%, gain a shield equal to 40% of your max HP. Can be activated once each battle.	1048
+200041	20004	1	Skill: DMG Increase I		2	221013	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is higher than 80%, all DMG increase by 30%. Enter 10s cooldown after receiving DMG from the enemy.	1049
+200042	20004	2	Skill: DMG Increase II		3	221014	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is higher than 80%, all DMG increase by 70%. Enter 10s cooldown after receiving DMG from the enemy.	1050
+200043	20004	3	Skill: DMG Increase III		4	221015	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is higher than 80%, all DMG increase by 110%. Enter 10s cooldown after receiving DMG from the enemy.	1051
+200044	20004	4	Skill: DMG Increase IV		5	221016	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is higher than 80%, all DMG increase by 150%. Enter 10s cooldown after receiving DMG from the enemy.	1052
+200051	20005	1	Skill: Shield I		2	221017	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is higher than 80%, gain a Shield that can withstand Attack damage 1 time. Refreshes every 12s.	1053
+200052	20005	2	Skill: Shield II		3	221018	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is higher than 80%, gain a Shield that can withstand Attack damage 2 times. Refreshes every 12s.	1054
+200053	20005	3	Skill: Shield III		4	221019	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is higher than 80%, gain a Shield that can withstand Attack damage 3 times. Refreshes every 12s.	1055
+200054	20005	4	Skill: Shield IV		5	221020	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is higher than 80%, gain a Shield that can withstand Attack damage 4 times. Refreshes every 12s.	1056
+200061	20006	1	Skill: Recovery I		2	221021	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is lower than 80%, recover 1% HP every second.	1057
+200062	20006	2	Skill: Recovery II		3	221022	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is lower than 80%, recover 2% HP every second.	1058
+200063	20006	3	Skill: Recovery III		4	221023	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is lower than 80%, recover 3% HP every second.	1059
+200064	20006	4	Skill: Recovery IV		5	221024	Assets/Product/Texture/Image/UiInfestorExplore/Equip051.png	When HP is lower than 80%, recover 4% HP every second.	1060
+200071	20007	1	Stats: HP I		2	221025	Assets/Product/Texture/Image/UiInfestorExplore/Equip012.png	HP +300	1001
+200072	20007	2	Stats: HP II		3	221026	Assets/Product/Texture/Image/UiInfestorExplore/Equip012.png	HP +500	1002
+200073	20007	3	Stats: HP III		4	221027	Assets/Product/Texture/Image/UiInfestorExplore/Equip012.png	HP +800	1003
+200074	20007	4	Stats: HP IV		5	221028	Assets/Product/Texture/Image/UiInfestorExplore/Equip012.png	HP +1100	1004
+200081	20008	1	Stats: ATK I		2	221029	Assets/Product/Texture/Image/UiInfestorExplore/Equip011.png	ATK +100	1005
+200082	20008	2	Stats: ATK II		3	221030	Assets/Product/Texture/Image/UiInfestorExplore/Equip011.png	ATK +140	1006
+200083	20008	3	Stats: ATK III		4	221031	Assets/Product/Texture/Image/UiInfestorExplore/Equip011.png	ATK +180	1007
+200084	20008	4	Stats: ATK IV		5	221032	Assets/Product/Texture/Image/UiInfestorExplore/Equip011.png	ATK +220	1008
+200091	20009	1	Stats: Fire DMG I		2	221033	Assets/Product/Texture/Image/UiInfestorExplore/Equip005.png	Fire DMG increases by 10%	1009
+200092	20009	2	Stats: Fire DMG II		3	221034	Assets/Product/Texture/Image/UiInfestorExplore/Equip005.png	Fire DMG increases by 15%.	1010
+200093	20009	3	Stats: Fire DMG III		4	221035	Assets/Product/Texture/Image/UiInfestorExplore/Equip005.png	Fire DMG increases by 22%.	1011
+200094	20009	4	Stats: Fire DMG IV		5	221036	Assets/Product/Texture/Image/UiInfestorExplore/Equip005.png	Fire DMG increases by 30%.	1012
+200101	20010	1	Stats: Ice DMG I		2	221037	Assets/Product/Texture/Image/UiInfestorExplore/Equip007.png	Ice DMG increases by 10%	1013
+200102	20010	2	Stats: Ice DMG II		3	221038	Assets/Product/Texture/Image/UiInfestorExplore/Equip007.png	Ice DMG increases by 15%.	1014
+200103	20010	3	Stats: Ice DMG III		4	221039	Assets/Product/Texture/Image/UiInfestorExplore/Equip007.png	Ice DMG increases by 22%.	1015
+200104	20010	4	Stats: Ice DMG IV		5	221040	Assets/Product/Texture/Image/UiInfestorExplore/Equip007.png	Ice DMG increases by 30%.	1016
+200111	20011	1	Stats: Dark DMG I		2	221041	Assets/Product/Texture/Image/UiInfestorExplore/Equip008.png	Dark DMG increases by 10%	1017
+200112	20011	2	Stats: Dark DMG II		3	221042	Assets/Product/Texture/Image/UiInfestorExplore/Equip008.png	Dark DMG increases by 15%.	1018
+200113	20011	3	Stats: Dark DMG III		4	221043	Assets/Product/Texture/Image/UiInfestorExplore/Equip008.png	Dark DMG increases by 22%.	1019
+200114	20011	4	Stats: Dark DMG IV		5	221044	Assets/Product/Texture/Image/UiInfestorExplore/Equip008.png	Dark DMG increases by 30%.	1020
+200121	20012	1	Stats: Lightning DMG I		2	221045	Assets/Product/Texture/Image/UiInfestorExplore/Equip006.png	Lightning DMG increases by 10%.	1021
+200122	20012	2	Stats: Lightning DMG II		3	221046	Assets/Product/Texture/Image/UiInfestorExplore/Equip006.png	Lightning DMG increases by 15%.	1022
+200123	20012	3	Stats: Lightning DMG III		4	221047	Assets/Product/Texture/Image/UiInfestorExplore/Equip006.png	Lightning DMG increases by 22%.	1023
+200124	20012	4	Stats: Lightning DMG IV		5	221048	Assets/Product/Texture/Image/UiInfestorExplore/Equip006.png	Lightning DMG increases by 30%.	1024
+200131	20013	1	Stats: Physical DMG I		2	221049	Assets/Product/Texture/Image/UiInfestorExplore/Equip009.png	Physical DMG increases by 10%	1025
+200132	20013	2	Stats: Physical DMG II		3	221050	Assets/Product/Texture/Image/UiInfestorExplore/Equip009.png	Physical DMG increases by 15%.	1026
+200133	20013	3	Stats: Physical DMG III		4	221051	Assets/Product/Texture/Image/UiInfestorExplore/Equip009.png	Physical DMG increases by 22%.	1027
+200134	20013	4	Stats: Physical DMG IV		5	221052	Assets/Product/Texture/Image/UiInfestorExplore/Equip009.png	Physical DMG increases by 30%	1028
+200141	20014	1	Stats: Switch I		2	221053	Assets/Product/Texture/Image/UiInfestorExplore/Equip043.png	Switch cooldown decreases by 2s.	1029
+200142	20014	2	Stats: Switch II		3	221054	Assets/Product/Texture/Image/UiInfestorExplore/Equip043.png	Switch cooldown decreases by 4s.	1030
+200143	20014	3	Stats: Switch III		4	221055	Assets/Product/Texture/Image/UiInfestorExplore/Equip043.png	Switch cooldown decreases by 6s.	1031
+200144	20014	4	Stats: Switch IV		5	221056	Assets/Product/Texture/Image/UiInfestorExplore/Equip043.png	Switch cooldown decreases by 8s.	1032
+200151	20015	1	Stats: Dodge I		2	221057	Assets/Product/Texture/Image/UiInfestorExplore/Equip018.png	Dodge Gauge limit increases by 200.	1033
+200152	20015	2	Stats: Dodge II		3	221058	Assets/Product/Texture/Image/UiInfestorExplore/Equip018.png	Limit of Dodge Gauge increases by 400.	1034
+200153	20015	3	Stats: Dodge III		4	221059	Assets/Product/Texture/Image/UiInfestorExplore/Equip018.png	Dodge Gauge limit increases by 600.	1035
+200154	20015	4	Stats: Dodge IV		5	221060	Assets/Product/Texture/Image/UiInfestorExplore/Equip018.png	Dodge Gauge limit increases by 800.	1036
+201011	20101	1	Palefire: Core I	1011002	2	222101	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	The Core Passive's Red Orb Blast DMG increases by 70%, while Blue Orb pulls enemies. Pinging a Red Orb after a Blue Orb emits Blast Bullets.	1061
+201012	20101	2	Palefire: Core II	1011002	3	222102	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	The Core Passive's Red Orb Blast DMG increases by 150%, while Blue Orb pulls enemies. Pinging a Red Orb after a Blue Orb emits Blast Bullets.	1062
+201013	20101	3	Palefire: Core III	1011002	4	222103	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	The Core Passive's Red Orb Blast DMG increases by 220%, while Blue Orb pulls enemies. Pinging a Red Orb after a Blue Orb emits Blast Bullets.	1063
+201014	20101	4	Palefire: Core IV	1011002	5	222104	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	The Core Passive's Red Orb Blast DMG increases by 300%, while Blue Orb pulls enemies. Pinging a Red Orb after a Blue Orb emits Blast Bullets.	1064
+201021	20102	1	Palefire: Overclock 1 I	1011002	2	222105	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	Ping a Yellow Orb to pull enemies, and gain 1 Red Orb and 30 Dodge.	1065
+201022	20102	2	Palefire: Overclock 1 II	1011002	3	222106	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	Ping a Yellow Orb to pull enemies, and gain 2 Red Orbs and 70 Dodge.	1066
+201023	20102	3	Palefire: Overclock 1 III	1011002	4	222107	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	Ping a Yellow Orb to pull enemies, and gain 2 Red Orbs and 130 Dodge.	1067
+201024	20102	4	Palefire: Overclock 1 IV	1011002	5	222108	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	Ping a Yellow Orb to pull enemies, and gain 3 Red Orbs and 200 Dodge.	1068
+201031	20103	1	Palefire: Overclock 2 I	1011002	2	222109	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	Gain 1 Yellow Orb when pinging a Red Orb. DMG increases by 10% for 2s after Dodge.	1069
+201032	20103	2	Palefire: Overclock 2 II	1011002	3	222110	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	Gain 2 Yellow Orbs when pinging a Red Orb. DMG increases by 40% for 2s after Dodge.	1070
+201033	20103	3	Palefire: Overclock 2 III	1011002	4	222111	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	Gain 2 Yellow Orbs when pinging a Red Orb. DMG increases by 70% for 2s after Dodge.	1071
+201034	20103	4	Palefire: Overclock 2 IV	1011002	5	222112	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4.png	Gain 3 Yellow Orbs when pinging a Red Orb. DMG increases by 100% for 2s after Dodge.	1072
+202011	20201	1	Lotus: Core I	1021001	2	222201	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Restore 2 Energy to the ATK of Dual Blade mode, increase DMG by 50%.	1073
+202012	20201	2	Lotus: Core II	1021001	3	222202	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Restore 3 Energy to the ATK of Dual Blade mode, increase DMG by 100%.	1074
+202013	20201	3	Lotus: Core III	1021001	4	222203	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Restore 4 Energy to the ATK of Dual Blade mode, increase DMG by 150%.	1075
+202014	20201	4	Lotus: Core IV	1021001	5	222204	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Restore 5 Energy with each attack under Dual Blade mode, increase DMG by 200%.	1076
+202021	20202	1	Lotus: Overclock 1 I	1021001	2	222205	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Dual Blade mode duration increases by 1s.	1077
+202022	20202	2	Lotus: Overclock 1 II	1021001	3	222206	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Dual Blade mode duration increases by 2s.	1078
+202023	20202	3	Lotus: Overclock 1 III	1021001	4	222207	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Dual Blade mode duration increases by 3s.	1079
+202024	20202	4	Lotus: Overclock 1 IV	1021001	5	222208	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Dual Blade mode duration increases by 4s.	1080
+202031	20203	1	Lotus: Overclock 2 I	1021001	2	222209	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Enter Matrix after Dual Blade mode ends.	1081
+202032	20203	2	Lotus: Overclock 2 II	1021001	3	222210	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Enter Matrix and gain 1 Red Orb after Dual Blade mode ends.	1082
+202033	20203	3	Lotus: Overclock 2 III	1021001	4	222211	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Enter Matrix and gain 2 Red Orbs after Dual Blade mode ends.	1083
+202034	20203	4	Lotus: Overclock 2 IV	1021001	5	222212	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4.png	Enter Matrix and gain 3 Red Orbs after Dual Blade mode ends.	1084
+203011	20301	1	Eclipse: Core I	1031001	2	222301	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Laser Cluster (3-Ping + Red Orb) DMG increases by 70%. [Support]: DMG of the whole team increases by 10% for 5s after healing.	1085
+203012	20301	2	Eclipse: Core II	1031001	3	222302	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Laser Cluster (3-Ping + Red Orb) DMG increases by 150%. [Support]: DMG of the whole team increases by 20% for 5s after healing.	1086
+203013	20301	3	Eclipse: Core III	1031001	4	222303	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Laser Cluster (3-Ping + Red Orb) DMG increases by 220%. [Support]: DMG of the whole team increases by 35% for 5s after healing.	1087
+203014	20301	4	Eclipse: Core IV	1031001	5	222304	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Laser Cluster (3-Ping + Red Orb) DMG increases by 300%. [Support]: DMG of the whole team increases by 50% for 5s after healing.	1088
+203021	20302	1	Eclipse: Overclock 1 I	1031001	2	222305	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Enter Matrix after casting Signature Move.	1089
+203022	20302	2	Eclipse: Overclock 1 II	1031001	3	222306	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Enter Matrix and gain 2 Red Orbs after casting Signature Move.	1090
+203023	20302	3	Eclipse: Overclock 1 III	1031001	4	222307	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Enter Matrix and gain 3 Red Orbs after casting Signature Move.	1091
+203024	20302	4	Eclipse: Overclock 1 IV	1031001	5	222308	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Enter Matrix and gain 4 Red Orbs after casting Signature Move.	1092
+203031	20303	1	Eclipse: Overclock 2 I	1031001	2	222309	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Gain an extra 5 Energy when your 3-Ping hits the enemy.	1093
+203032	20303	2	Eclipse: Overclock 2 II	1031001	3	222310	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Gain an extra 10 Energy when your 3-Ping hits the enemy.	1094
+203033	20303	3	Eclipse: Overclock 2 III	1031001	4	222311	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Gain an extra 15 Energy when your 3-Ping hits the enemy.	1095
+203034	20303	4	Eclipse: Overclock 2 IV	1031001	5	222312	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4.png	Gain an extra 20 Energy when your 3-Ping hits the enemy.	1096
+204011	20401	1	Zero: Core I	1041002	2	222401	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	Energy Arrow DMG increases by 70%. When casting Signature Move, each Energy Arrow consumed will generate 1 extra Energy Arrow.	1097
+204012	20401	2	Zero: Core II	1041002	3	222402	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	Energy Arrow DMG increases by 150%. When casting Signature Move, each Energy Arrow consumed will generate 1 extra Energy Arrow.	1098
+204013	20401	3	Zero: Core III	1041002	4	222403	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	Energy Arrow DMG increases by 220%. When casting Signature Move, each Energy Arrow consumed will generate 2 extra Energy Arrows.	1099
+204014	20401	4	Zero: Core IV	1041002	5	222404	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	Energy Arrow DMG increases by 300%. When casting Signature Move, each Energy Arrow consumed will generate 3 extra Energy Arrows.	1100
+204021	20402	1	Zero: Overclock 1 I	1041002	2	222405	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	After casting Signature Move, enter Matrix and increase DMG by 20% for 6s.	1101
+204022	20402	2	Zero: Overclock 1 II	1041002	3	222406	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	After casting Signature Move, enter Matrix and increase DMG by 40% for 6s.	1102
+204023	20402	3	Zero: Overclock 1 III	1041002	4	222407	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	After casting Signature Move, enter Matrix and increase DMG by 60% for 6s.	1103
+204024	20402	4	Zero: Overclock 1 IV	1041002	5	222408	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	After casting Signature Move, enter Matrix and increase DMG by 80% for 6s.	1104
+204031	20403	1	Zero: Overclock 2 I	1041002	2	222409	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	Gain an extra 4 Energy when you unleash a 3-Ping.	1105
+204032	20403	2	Zero: Overclock 2 II	1041002	3	222410	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	Gain an extra 7 Energy when you unleash a 3-Ping.	1106
+204033	20403	3	Zero: Overclock 2 III	1041002	4	222411	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	Gain an extra 10 Energy when you unleash a 3-Ping.	1107
+204034	20403	4	Zero: Overclock 2 IV	1041002	5	222412	Assets/Product/Texture/Image/RolePlayer/RoleHeadAolisuo4.png	Gain an extra 15 Energy when you unleash a 3-Ping.	1108
+205011	20501	1	Storm: Core I	1051001	2	222501	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Slash Storm (3-Ping + Yellow Orb) DMG increases by 70%. [Tank]: Decrease all Resistances of target hit by 5% for 5s.	1109
+205012	20501	2	Storm: Core II	1051001	3	222502	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Slash Storm (3-Ping + Yellow Orb) DMG increases by 150%. [Tank]: Decrease all Resistances of the target hit by 10% for 5s.	1110
+205013	20501	3	Storm: Core III	1051001	4	222503	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Slash Storm (3-Ping + Yellow Orb) DMG increases by 220%. [Tank]: Decrease all Resistances of the target hit by 15% for 5s.	1111
+205014	20501	4	Storm: Core IV	1051001	5	222504	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Slash Storm (3-Ping + Yellow Orb) DMG increases by 300%. [Tank]: Decrease all Resistances of the target hit by 20% for 5s.	1112
+205021	20502	1	Storm: Overclock 1 I	1051001	2	222505	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Enter Matrix when casting Signature Move.	1113
+205022	20502	2	Storm: Overclock 1 II	1051001	3	222506	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Enter Matrix when casting Signature Move and gain 1 Yellow Orb.	1114
+205023	20502	3	Storm: Overclock 1 III	1051001	4	222507	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Enter Matrix when casting Signature Move and gain 2 Yellow Orbs.	1115
+205024	20502	4	Storm: Overclock 1 IV	1051001	5	222508	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Enter Matrix and gain 3 Yellow Orbs when casting Signature Move.	1116
+205031	20503	1	Storm: Overclock 2 I	1051001	2	222509	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Recover an extra 5 Energy when you unleash a 3-Ping.	1117
+205032	20503	2	Storm: Overclock 2 II	1051001	3	222510	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Recover an extra 10 Energy when you unleash a 3-Ping.	1118
+205033	20503	3	Storm: Overclock 2 III	1051001	4	222511	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Recover an extra 15 Energy when you unleash a 3-Ping.	1119
+205034	20503	4	Storm: Overclock 2 IV	1051001	5	222512	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4.png	Recover an extra 20 Energy when you unleash a 3-Ping.	1120
+206011	20601	1	Bastion: Core I	1061002	2	222601	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Yellow Orb Block can reflect DMG to enemies by pings x200%. [Tank]: Decrease all Resistances of target hit by 5% for 5s.	1121
+206012	20601	2	Bastion: Core II	1061002	3	222602	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Yellow Orb Block can reflect DMG to enemies by pings x450%. [Tank]: Decrease all Resistances of the target hit by 10% for 5s.	1122
+206013	20601	3	Bastion: Core III	1061002	4	222603	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Yellow Orb Block can reflect DMG to enemies by pings x700%. [Tank]: Decrease all Resistances of the target hit by 15% for 5s.	1123
+206014	20601	4	Bastion: Core IV	1061002	5	222604	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Yellow Orb Block can reflect DMG to enemies by pings x1000%. [Tank]: Decrease all Resistances of target hit by 20% for 5s.	1124
+206021	20602	1	Bastion: Overclock 1 I	1061002	2	222605	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Enter Matrix after casting Signature Move.	1125
+206022	20602	2	Bastion: Overclock 1 - II	1061002	3	222606	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Enter Matrix and gain 1 Yellow Orb after casting Signature Move.	1126
+206023	20602	3	Bastion: Overclock 1 III	1061002	4	222607	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Enter Matrix and gain 2 Yellow Orbs after casting Signature Move.	1127
+206024	20602	4	Bastion: Overclock 1 IV	1061002	5	222608	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Enter Matrix and gain 3 Yellow Orbs after casting Signature Move.	1128
+206031	20603	1	Bastion: Overclock 2 I	1061002	2	222609	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Recover an extra 5 Energy when you Block successfully.	1129
+206032	20603	2	Bastion: Overclock 2 II	1061002	3	222610	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Recover an extra 10 Energy when you Block successfully.	1130
+206033	20603	3	Bastion: Overclock 2 III	1061002	4	222611	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Recover an extra 15 Energy when you Block successfully.	1131
+206034	20603	4	Bastion: Overclock 2 IV	1061002	5	222612	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4.png	Recover an extra 20 Energy when you Block successfully.	1132
+207011	20701	1	Blast: Core I	1071002	2	222701	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Long-range cannon attack DMG increases by 50%.	1133
+207012	20701	2	Blast: Core II	1071002	3	222702	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Long-range cannon attack DMG increases by 100%.	1134
+207013	20701	3	Blast: Core III	1071002	4	222703	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Long-range cannon attack DMG increases by 150%.	1135
+207014	20701	4	Blast: Core IV	1071002	5	222704	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Long-range cannon attack DMG increases by 200%.	1136
+207021	20702	1	Blast: Overclock 1 I	1071002	2	222705	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Gain 5 Energy when pinging a Blue Orb.	1137
+207022	20702	2	Blast: Overclock 1 II	1071002	3	222706	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Gain 10 Energy when pinging a Blue Orb.	1138
+207023	20702	3	Blast: Overclock 1 III	1071002	4	222707	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Gain 15 Energy when pinging a Blue Orb.	1139
+207024	20702	4	Blast: Overclock 1 IV	1071002	5	222708	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Gain 20 Energy when pinging a Blue Orb.	1140
+207031	20703	1	Blast: Overclock 2 I	1071002	2	222709	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Enter Matrix after long-range cannon attack.	1141
+207032	20703	2	Blast: Overclock 2 II	1071002	3	222710	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Enter Matrix and gain 1 Blue Orb after long-range cannon attack.	1142
+207033	20703	3	Blast: Overclock 2 III	1071002	4	222711	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Enter Matrix and gain 2 Blue Orbs after long-range cannon attack.	1143
+207034	20703	4	Blast: Overclock 2 IV	1071002	5	222712	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4.png	Enter Matrix and gain 3 Blue Orbs after long-range cannon attack.	1144
+208011	20801	1	Nightblade: Core I	1081002	2	222801	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	Replication attack DMG increases by 70%. Gain 1 extra Replication attack after casting Signature Move.	1145
+208012	20801	2	Nightblade: Core II	1081002	3	222802	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	Replication attack DMG increases by 150%. Gain 1 extra Replication attack after casting Signature Move.	1146
+208013	20801	3	Nightblade: Core III	1081002	4	222803	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	Replication attack DMG increases by 220%. Gain 1 extra Replication attack after casting Signature Move.	1147
+208014	20801	4	Nightblade: Core IV	1081002	5	222804	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	Replication attack DMG increases by 300%. Gain 1 extra Replication attack after casting Signature Move.	1148
+208021	20802	1	Nightblade: Overclock 1 I	1081002	2	222805	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	Enter Matrix after casting Signature Move.	1149
+208022	20802	2	Nightblade: Overclock 1 II	1081002	3	222806	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	Enter Matrix and gain 1 Yellow Orb after casting Signature Move.	1150
+208023	20802	3	Nightblade: Overclock 1 III	1081002	4	222807	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	Enter Matrix and gain 2 Yellow Orbs after casting Signature Move.	1151
+208024	20802	4	Nightblade: Overclock 1 IV	1081002	5	222808	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	Enter Matrix and gain 3 Yellow Orbs after casting Signature Move.	1152
+208031	20803	1	Nightblade: Overclock 2 I	1081002	2	222809	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	3-Pings give 5 extra Energy.	1153
+208032	20803	2	Nightblade: Overclock 2 II	1081002	3	222810	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	3-Pings give 10 extra Energy.	1154
+208033	20803	3	Nightblade: Overclock 2 III	1081002	4	222811	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	3-Pings give 15 extra Energy.	1155
+208034	20803	4	Nightblade: Overclock 2 IV	1081002	5	222812	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4.png	3-Pings give 20 extra Energy.	1156
+209011	20901	1	Dawn: Core I	1021002	2	222901	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	A huge electric field that pulls enemies will be activated after casting Signature Move. Dawn's DMG increases by 50% inside the field.	1157
+209012	20901	2	Dawn: Core II	1021002	3	222902	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	A huge electric field that pulls enemies will be activated after casting Signature Move. Dawn's DMG increases by 100% inside the field.	1158
+209013	20901	3	Dawn: Core III	1021002	4	222903	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	A huge electric field that pulls enemies will be activated after casting Signature Move. Dawn's DMG increases by 150% inside the field.	1159
+209014	20901	4	Dawn: Core IV	1021002	5	222904	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	A huge electric field that pulls enemies will be activated after casting Signature Move. Dawn's DMG increases by 200% inside the field.	1160
+209021	20902	1	Dawn: Overclock 1 I	1021002	2	222905	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	Gain 3 Energy with each damage dealt inside the electric field.	1161
+209022	20902	2	Dawn: Overclock 1 II	1021002	3	222906	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	Gain 5 Energy with each damage dealt inside the electric field.	1162
+209023	20902	3	Dawn: Overclock 1 III	1021002	4	222907	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	Gain 7 Energy with each damage dealt inside the electric field.	1163
+209024	20902	4	Dawn: Overclock 1 IV	1021002	5	222908	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	Gain 10 Energy with each damage dealt inside the electric field.	1164
+209031	20903	1	Dawn: Overclock 2 I	1021002	2	222909	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	Enter Matrix after casting Signature Move.	1165
+209032	20903	2	Dawn: Overclock 2 II	1021002	3	222910	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	Enter Matrix and gain 1 Yellow Orb after casting Signature Move.	1166
+209033	20903	3	Dawn: Overclock 2 III	1021002	4	222911	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	Enter Matrix and gain 2 Yellow Orbs after casting Signature Move.	1167
+209034	20903	4	Dawn: Overclock 2 IV	1021002	5	222912	Assets/Product/Texture/Image/RolePlayer/RoleHeadluxiya4S.png	Enter Matrix and gain 3 Yellow Orbs after casting Signature Move.	1168
+210011	21001	1	Lux: Core I	1031002	2	223001	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Decreases all Resistance of the imprisoned enemy by 8%. Imprison attack DMG increases by 50%. [Support]: DMG of the whole team increases by 10% for 5s after healing.	1169
+210012	21001	2	Lux: Core II	1031002	3	223002	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Decreases all Resistance of the imprisoned enemy by 12%. Imprison attack DMG increases by 100%. [Support]: DMG of the whole team increases by 20% for 5s after healing.	1170
+210013	21001	3	Lux: Core III	1031002	4	223003	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Decreases all Resistance of the imprisoned enemy by 16%. Imprison attack DMG increases by 150%. [Support]: DMG of the whole team increases by 35% for 5s after healing.	1171
+210014	21001	4	Lux: Core IV	1031002	5	223004	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Decreases all Resistance of the imprisoned enemy by 20%. Imprison attack DMG increases by 200%. [Support]: DMG of the whole team increases by 50% for 5s after healing.	1172
+210021	21002	1	Lux: Overclock 1 I	1031002	2	223005	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Enter Matrix after casting Signature Move.	1173
+210022	21002	2	Lux: Overclock 1 II	1031002	3	223006	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Enter Matrix and gain 1 Yellow Orb after casting Signature Move.	1174
+210023	21002	3	Lux: Overclock 1 III	1031002	4	223007	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Enter Matrix and gain 2 Yellow Orbs after casting Signature Move.	1175
+210024	21002	4	Lux: Overclock 1 IV	1031002	5	223008	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Enter Matrix and gain 3 Yellow Orbs after casting Signature Move.	1176
+210031	21003	1	Lux: Overclock 2 I	1031002	2	223009	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Recover an extra 5 Energy when pinging a Yellow Orb.	1177
+210032	21003	2	Lux: Overclock 2 II	1031002	3	223010	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Recover an extra 10 Energy when pinging a Yellow Orb.	1178
+210033	21003	3	Lux: Overclock 2 III	1031002	4	223011	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Recover an extra 15 Energy when pinging a Yellow Orb.	1179
+210034	21003	4	Lux: Overclock 2 IV	1031002	5	223012	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4S.png	Recover an extra 20 Energy when pinging a Yellow Orb.	1180
+211011	21101	1	Entropy: Core I	1011003	2	223101	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Shooting DMG dealt by Yellow Orb marker increases by 50%.	1181
+211012	21101	2	Entropy: Core II	1011003	3	223102	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Shooting DMG dealt by Yellow Orb marker increases by 100%.	1182
+211013	21101	3	Entropy: Core III	1011003	4	223103	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Shooting DMG dealt by Yellow Orb marker increases by 150%.	1183
+211014	21101	4	Entropy: Core IV	1011003	5	223104	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Shooting DMG dealt by Yellow Orb marker increases by 200%.	1184
+211021	21102	1	Entropy: Overclock 1 I	1011003	2	223105	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Gain 1 Blue Orb after pinging a Yellow Orb.	1185
+211022	21102	2	Entropy: Overclock 1 II	1011003	3	223106	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Gain 2 Blue Orbs after pinging a Yellow Orb.	1186
+211023	21102	3	Entropy: Overclock 1 III	1011003	4	223107	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Gain 3 Blue Orbs after pinging a Yellow Orb.	1187
+211024	21102	4	Entropy: Overclock 1 IV	1011003	5	223108	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Gain 4 Blue Orbs after pinging a Yellow Orb.	1188
+211031	21103	1	Entropy: Overclock 2 I	1011003	2	223109	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Red Orb DMG increases by 20%. Gain 1 Red Orb after pinging a Blue Orb.	1189
+211032	21103	2	Entropy: Overclock 2 II	1011003	3	223110	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Red Orb DMG increases by 50%. Gain 1 Red Orb after pinging a Blue Orb.	1190
+211033	21103	3	Entropy: Overclock 2 III	1011003	4	223111	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Red Orb DMG increases by 70%. Gain 2 Red Orbs after pinging a Blue Orb.	1191
+211034	21103	4	Entropy: Overclock 2 IV	1011003	5	223112	Assets/Product/Texture/Image/RolePlayer/RoleHeadLi4SS.png	Red Orb DMG increases by 100%. Gain 3 Red Orbs after pinging a Blue Orb.	1192
+212011	21201	1	Luminance: Core I	1031003	2	223201	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	When over-healed, the healed target's DMG increases by 50% for 5s. [Support]: DMG of whole team increases by 10% for 5s after healing.	1193
+212012	21201	2	Luminance: Core II	1031003	3	223202	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	When over-healed, the healed target's DMG increases by 100% for 5s. [Support]: DMG of whole team increases by 20% for 5s after healing.	1194
+212013	21201	3	Luminance: Core III	1031003	4	223203	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	When over-healed, the healed target's DMG increases by 150% for 5s. [Support]: DMG of whole team increases by 35% for 5s after healing.	1195
+212014	21201	4	Luminance: Core IV	1031003	5	223204	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	When over-healed, the healed target's DMG increases by 200% for 5s. [Support]: DMG of whole team increases by 50% for 5s after healing.	1196
+212021	21202	1	Luminance: Overclock 1 I	1031003	2	223205	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	When Light Penalty deals DMG outside of a Signature Move, gain an extra 20 Energy.	1197
+212022	21202	2	Luminance: Overclock 1 II	1031003	3	223206	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	When Light Penalty deals DMG outside of a Signature Move, gain an extra 30 Energy.	1198
+212023	21202	3	Luminance: Overclock 1 III	1031003	4	223207	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	When Light Penalty deals DMG outside of a Signature Move, gain an extra 40 Energy.	1199
+212024	21202	4	Luminance: Overclock 1 IV	1031003	5	223208	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	When Light Penalty deals DMG outside of a Signature Move, gain an extra 50 Energy.	1200
+212031	21203	1	Luminance: Overclock 2 I	1031003	2	223209	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	Enter Matrix and gain 1 Blue Orb after casting Signature Move.	1201
+212032	21203	2	Luminance: Overclock 2 II	1031003	3	223210	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	Enter Matrix and gain 2 Blue Orbs after casting Signature Move.	1202
+212033	21203	3	Luminance: Overclock 2 III	1031003	4	223211	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	Enter Matrix and gain 3 Blue Orbs after casting Signature Move.	1203
+212034	21203	4	Luminance: Overclock 2 IV	1031003	5	223212	Assets/Product/Texture/Image/RolePlayer/RoleHeadLifu4SS.png	Enter Matrix and gain 4 Blue Orbs after casting Signature Move.	1204
+213011	21301	1	Tenebrion: Core I	1061003	2	223301	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Gain 5% Extra DMG Bonus for every 10% Energy gained in Dark Form. [Tank]: Decrease all Resistances of target hit by 5% for 5s.	1205
+213012	21301	2	Tenebrion: Core II	1061003	3	223302	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Gain 12% Extra DMG Bonus for every 10% Energy gained in Dark Form. [Tank]: Decrease all Resistances of target hit by 10% for 5s.	1206
+213013	21301	3	Tenebrion: Core III	1061003	4	223303	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Gain 19% Extra DMG Bonus for every 10% Energy gained in Dark Form. [Tank]: Decrease all Resistances of target hit by 15% for 5s.	1207
+213014	21301	4	Tenebrion: Core IV	1061003	5	223304	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Gain 26% Extra DMG Bonus for every 10% Energy gained in Dark Form. [Tank]: Decrease all Resistances of target hit by 20% for 5s.	1208
+213021	21302	1	Tenebrion: Overclock 1 I	1061003	2	223305	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Unleash 1/2/3-Ping to gain an extra 1/2/3 Energy.	1209
+213022	21302	2	Tenebrion: Overclock 1 II	1061003	3	223306	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Unleash 1/2/3-Ping to gain an extra 2/3/5 Energy.	1210
+213023	21302	3	Tenebrion: Overclock 1 III	1061003	4	223307	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Unleash 1/2/3-Ping to gain an extra 3/5/7 Energy.	1211
+213024	21302	4	Tenebrion: Overclock 1 IV	1061003	5	223308	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Unleash 1/2/3-Ping to gain an extra 4/5/10 Energy.	1212
+213031	21303	1	Tenebrion: Overclock 2 I	1061003	2	223309	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Gain 1 random Signal Orb when attacking. 4s cooldown.	1213
+213032	21303	2	Tenebrion: Overclock 2 II	1061003	3	223310	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Gain 1 random Signal Orb when attacking. 3s cooldown.	1214
+213033	21303	3	Tenebrion: Overclock 2 III	1061003	4	223311	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Gain 1 random Signal Orb when attacking. 2s cooldown.	1215
+213034	21303	4	Tenebrion: Overclock 2 IV	1061003	5	223312	Assets/Product/Texture/Image/RolePlayer/RoleHeadShenwei4SS.png	Gain 1 random Signal Orb when attacking. 1s cooldown.	1216
+214011	21401	1	Ember: Core I	1071003	2	223401	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	Increase all DMG by 1% for every 2% Thermal Energy gained.	1217
+214012	21401	2	Ember: Core II	1071003	3	223402	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	Increase all DMG by 2% for every 2% Thermal Energy gained.	1218
+214013	21401	3	Ember: Core III	1071003	4	223403	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	Increase all DMG by 3% for every 2% Thermal Energy gained.	1219
+214014	21401	4	Ember: Core IV	1071003	5	223404	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	Increase all DMG by 4% for every 2% Thermal Energy gained.	1220
+214021	21402	1	Ember: Overclock 1 I	1071003	2	223405	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	During Enhanced Mode, gain an extra 2 Energy for every Ping.	1221
+214022	21402	2	Ember: Overclock 1 II	1071003	3	223406	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	During Enhanced Mode, gain an extra 4 Energy for every Ping.	1222
+214023	21402	3	Ember: Overclock 1 III	1071003	4	223407	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	During Enhanced Mode, gain an extra 6 Energy for every Ping.	1223
+214024	21402	4	Ember: Overclock 1 IV	1071003	5	223408	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	During Enhanced Mode, gain an extra 8 Energy for every Ping.	1224
+214031	21403	1	Ember: Overclock 2 I	1071003	2	223409	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	Enter Matrix after casting Signature Move.	1225
+214032	21403	2	Ember: Overclock 2 II	1071003	3	223410	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	Enter Matrix and gain 1 Blue Orb after casting Signature Move.	1226
+214033	21403	3	Ember: Overclock 2 III	1071003	4	223411	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	Enter Matrix and gain 2 Blue Orbs after casting Signature Move.	1227
+214034	21403	4	Ember: Overclock 2 IV	1071003	5	223412	Assets/Product/Texture/Image/RolePlayer/RoleHeadKalienina4SS.png	Enter Matrix and gain 3 Blue Orbs after casting Signature Move.	1228
+215011	21501	1	Pulse: Core I	1051003	2	223501	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Increase Overload DMG by 20% after casting Signature Move, can be stacked 5 times. All stacks are reset when Overload ends. [Tank]: Decrease all Resistancess of target hit by 5% for 5s.	1229
+215012	21501	2	Pulse: Core II	1051003	3	223502	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Increase Overload DMG by 30% after casting Signature Move, can be stacked 5 times. All stacks are reset when Overload ends. [Tank]: Decrease all Resistances of target hit by 10% for 5s.	1230
+215013	21501	3	Pulse: Core III	1051003	4	223503	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Increase Overload DMG by 40% after casting Signature Move, can be stacked 5 times. All stacks are reset when Overload ends. [Tank]: Decrease all Resistances of target hit by 15% for 5s.	1231
+215014	21501	4	Pulse: Core IV	1051003	5	223504	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Increase Overload DMG by 50% after casting Signature Move, can be stacked 5 times. All stacks are reset when Overload ends. [Tank]: Decrease all Resistances of target hit by 20% for 5s.	1232
+215021	21502	1	Pulse: Overclock 1 I	1051003	2	223505	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Overload mode activated after casting Signature Move extends by 1s.	1233
+215022	21502	2	Pulse: Overclock 1 II	1051003	3	223506	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Overload mode activated after casting Signature Move extends by 2s.	1234
+215023	21502	3	Pulse: Overclock 1 III	1051003	4	223507	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Overload mode activated after casting Signature Move extends by 3s.	1235
+215024	21502	4	Pulse: Overclock 1 IV	1051003	5	223508	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Overload mode activated after casting Signature Move extends by 4s.	1236
+215031	21503	1	Pulse: Overclock 2 I	1051003	2	223509	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Enter Matrix after casting Signature Move.	1237
+215032	21503	2	Pulse: Overclock 2 II	1051003	3	223510	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Enter Matrix and gain 1 Red Orb after casting Signature Move.	1238
+215033	21503	3	Pulse: Overclock 2 III	1051003	4	223511	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Enter Matrix and gain 2 Red Orbs after casting Signature Move.	1239
+215034	21503	4	Pulse: Overclock 2 IV	1051003	5	223512	Assets/Product/Texture/Image/RolePlayer/RoleHeadYongyechao4SS.png	Enter Matrix and gain 3 Red Orbs after casting Signature Move.	1240
+216011	21601	1	Crimson Abyss: Core I	1021003	2	223601	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	When Sword Wave lands a critical hit, CRIT DMG increases by 25%.	1241
+216012	21601	2	Crimson Abyss: Core II	1021003	3	223602	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	When Sword Wave lands a critical hit, CRIT DMG increases by 50%.	1242
+216013	21601	3	Crimson Abyss: Core III	1021003	4	223603	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	When Sword Wave lands a critical hit, CRIT DMG increases by 75%.	1243
+216014	21601	4	Crimson Abyss: Core IV	1021003	5	223604	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	When Sword Wave lands a critical hit, CRIT DMG increases by 100%.	1244
+216021	21602	1	Crimson Abyss: Overclock 1 I	1021003	2	223605	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	Enter Matrix and gain 1 Blue Orb after casting Signature Move. CRIT Rate increases by 20% for 5s.	1245
+216022	21602	2	Crimson Abyss: Overclock 1 II	1021003	3	223606	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	Enter Matrix and gain 1 Blue Orb after casting Signature Move. CRIT Rate increases by 30% for 6s.	1246
+216023	21602	3	Crimson Abyss: Overclock 1 III	1021003	4	223607	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	Enter Matrix and gain 1 Blue Orb after casting Signature Move. CRIT Rate increases by 40% for 7s.	1247
+216024	21602	4	Crimson Abyss: Overclock 1 IV	1021003	5	223608	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	Enter Matrix and gain 1 Blue Orb after casting Signature Move. CRIT Rate increases by 55% for 8s.	1248
+216031	21603	1	Crimson Abyss: Overclock 2 I	1021003	2	223609	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	Gain 2 Energy when pinging Sword Wave Orbs.	1249
+216032	21603	2	Crimson Abyss: Overclock 2 II	1021003	3	223610	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	Gain 4 Energy when pinging Sword Wave Orbs.	1250
+216033	21603	3	Crimson Abyss: Overclock 2 III	1021003	4	223611	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	Gain 6 Energy when pinging Sword Wave Orbs.	1251
+216034	21603	4	Crimson Abyss: Overclock 2 IV	1021003	5	223612	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuxiyaaerfa4SS.png	Gain 9 Energy when pinging Sword Wave Orbs.	1252
+217011	21701	1	Astral: Core I	1081003	2	223701	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	Shadow attack DMG increases by 50%.	1253
+217012	21701	2	Astral: Core II	1081003	3	223702	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	Shadow attack DMG increases by 100%.	1254
+217013	21701	3	Astral: Core III	1081003	4	223703	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	Shadow attack DMG increases by 150%.	1255
+217014	21701	4	Astral: Core IV	1081003	5	223704	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	Shadow attack DMG increases by 200%.	1256
+217021	21702	1	Astral: Overclock 1 I	1081003	2	223705	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	After casting Signature Move, gain 1 Red Orb. ATK increases by 20% for 10s.	1257
+217022	21702	2	Astral: Overclock 1 II	1081003	3	223706	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	After casting Signature Move, gain 2 Red Orbs. ATK increases by 30% for 10s.	1258
+217023	21702	3	Astral: Overclock 1 III	1081003	4	223707	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	After casting Signature Move, gain 3 Red Orbs. ATK increases by 40% for 10s.	1259
+217024	21702	4	Astral: Overclock 1 IV	1081003	5	223708	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	Gain 4 Red Orbs after casting Signature Move. ATK increases by 50% for 10s.	1260
+217031	21703	1	Astral: Overclock 2 I	1081003	2	223709	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	When activating Core Passive, increase ATK by 20% for 10s and gain 4 Energy.	1261
+217032	21703	2	Astral: Overclock 2 II	1081003	3	223710	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	When activating Core Passive, increase ATK by 30% for 10s and gain 8 Energy.	1262
+217033	21703	3	Astral: Overclock 2 III	1081003	4	223711	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	When activating Core Passive, increase ATK by 40% for 10s and gain 12 Energy.	1263
+217034	21703	4	Astral: Overclock 2 IV	1081003	5	223712	Assets/Product/Texture/Image/RolePlayer/RoleHeadDubian4SS.png	When activating Core Passive, increase ATK by 50% for 10s and gain 15 Energy.	1264
+218011	21801	1	Brilliance: Core I	1091002	2	223801	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	Unleashing charged attacks or Signature Moves will activate teammate's QTE. Charged attack DMG increases by 50%. [Tank]: Decrease all Resistances of target hit by 5% for 5s.	1265
+218012	21801	2	Brilliance: Core II	1091002	3	223802	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	Unleashing charged attacks or Signature Moves will activate teammate's QTE. Charged attack DMG increases by 100%. [Tank]: Decrease all Resistances of target hit by 10% for 5s.	1266
+218013	21801	3	Brilliance: Core III	1091002	4	223803	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	Unleashing charged attacks or Signature Moves will activate teammate's QTE. Charged attack DMG increases by 150%. [Tank]: Decrease all Resistances of target hit by 15% for 5s.	1267
+218014	21801	4	Brilliance: Core IV	1091002	5	223804	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	Unleashing charged attacks or Signature Moves will activate teammate's QTE. Charged attack DMG increases by 200%. [Tank]: Decrease all Resistances of target hit by 20% for 5s.	1268
+218021	21802	1	Brilliance: Overclock 1 I	1091002	2	223805	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	Enter Matrix after charged attack.	1269
+218022	21802	2	Brilliance: Overclock 1 II	1091002	3	223806	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	Enter Matrix and gain 1 Blue Orb after charged attack.	1270
+218023	21802	3	Brilliance: Overclock 1 III	1091002	4	223807	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	Enter Matrix and gain 2 Blue Orbs after charged attack.	1271
+218024	21802	4	Brilliance: Overclock 1 IV	1091002	5	223808	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	Enter Matrix and gain 3 Blue Orbs after charged attack.	1272
+218031	21803	1	Brilliance: Overclock 2 I	1091002	2	223809	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	3-Pings give 4 extra Energy.	1273
+218032	21803	2	Brilliance: Overclock 2 II	1091002	3	223810	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	3-Pings give 8 extra Energy.	1274
+218033	21803	3	Brilliance: Overclock 2 III	1091002	4	223811	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	3-Pings give 12 extra Energy.	1275
+218034	21803	4	Brilliance: Overclock 2 IV	1091002	5	223812	Assets/Product/Texture/Image/RolePlayer/RoleHeadAila4.png	3-Pings give 15 extra Energy.	1276
+219011	21901	1	Veritas: Core I	1041003	2	223901	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	When in Sniping Mode, each arrow's Basic Attack DMG will be 20% higher than the last. The DMG buff can be stacked 6 times and is reset when you exit Sniping Mode.	1277
+219012	21901	2	Veritas: Core II	1041003	3	223902	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	When in Sniping Mode, each arrow's Basic Attack DMG will be 40% higher than the last. The DMG buff can be stacked 6 times and is reset when you exit Sniping Mode.	1278
+219013	21901	3	Veritas: Core III	1041003	4	223903	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	When in Sniping Mode, each arrow's Basic Attack DMG will be 60% higher than the last. The DMG buff can be stacked 6 times and is reset when you exit Sniping Mode.	1279
+219014	21901	4	Veritas: Core IV	1041003	5	223904	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	When in Sniping Mode, each arrow's Basic Attack DMG will be 80% higher than the last. The DMG buff can be stacked 6 times and is reset when you exit Sniping Mode.	1280
+219021	21902	1	Veritas: Overclock 1 I	1041003	2	223905	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	3-Ping DMG increases by 15%. When in Sniping Mode, gain a Red Orb 3-Ping every 4s.	1281
+219022	21902	2	Veritas: Overclock 1 II	1041003	3	223906	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	3-Ping DMG increases by 25%. When in Sniping Mode, gain a Red Orb 3-Ping every 4s.	1282
+219023	21902	3	Veritas: Overclock 1 III	1041003	4	223907	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	3-Ping DMG increases by 35%. When in Sniping Mode, gain a Red Orb 3-Ping every 4s.	1283
+219024	21902	4	Veritas: Overclock 1 IV	1041003	5	223908	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	3-Ping DMG increases by 50%. When in Sniping Mode, gain a Red Orb 3-Ping every 4s.	1284
+219031	21903	1	Veritas: Overclock 2 I	1041003	2	223909	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	Each attack in Sniping Mode has a 30% chance to deal double DMG and gain 1 Blue Orb.	1285
+219032	21903	2	Veritas: Overclock 2 II	1041003	3	223910	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	Each attack in Sniping Mode has a 50% chance to deal double DMG and gain 1 Blue Orb.	1286
+219033	21903	3	Veritas: Overclock 2 III	1041003	4	223911	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	Each attack in Sniping Mode has a 70% chance to deal double DMG and gain 1 Blue Orb.	1287
+219034	21903	4	Veritas: Overclock 2 IV	1041003	5	223912	Assets/Product/Texture/Image/RolePlayer/RoleHeadBianka4SS.png	Each attack in Sniping Mode deals double DMG and gains 1 Blue Orb.	1288
+220011	22001	1	Silverfang: Core I	1111002	2	224001	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	Deal 70% Extra DMG to nearby enemies when picking up Energy Balls. [Support]: DMG of whole team increases by 10% for 5s after healing.	1289
+220012	22001	2	Silverfang: Core II	1111002	3	224002	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	Deal 150% Extra DMG to nearby enemies when picking up Energy Balls. [Support]: DMG of whole team increases by 20% for 5s after healing.	1290
+220013	22001	3	Silverfang: Core III	1111002	4	224003	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	Deal 220% Extra DMG to nearby enemies when picking up Energy Balls. [Support]: DMG of whole team increases by 35% for 5s after healing.	1291
+220014	22001	4	Silverfang: Core IV	1111002	5	224004	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	Deal 300% Extra DMG to nearby enemies when picking up Energy Balls. [Support]: DMG of whole team increases by 50% for 5s after healing.	1292
+220021	22002	1	Silverfang: Overclock 1 I	1111002	2	224005	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	When casting Signature Move, gain an extra 1 Energy Ball.	1293
+220022	22002	2	Silverfang: Overclock 1 - II	1111002	3	224006	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	When casting Signature Move, gain 2 extra Energy Balls.	1294
+220023	22002	3	Silverfang: Overclock 1 - III	1111002	4	224007	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	When casting Signature Move, gain 3 extra Energy Balls.	1295
+220024	22002	4	Silverfang: Overclock 1 - IV	1111002	5	224008	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	When casting Signature Move, gain 4 extra Energy Balls.	1296
+220031	22003	1	Silverfang: Overclock 2 - I	1111002	2	224009	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	Gain 6 Energy upon picking up an Energy Ball	1297
+220032	22003	2	Silverfang: Overclock 2 - II	1111002	3	224010	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	Gain 9 Energy upon picking up an Energy Ball	1298
+220033	22003	3	Silverfang: Overclock 2 - III	1111002	4	224011	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	Gain 12 Energy upon picking up an Energy Ball	1299
+220034	22003	4	Silverfang: Overclock 2 - IV	1111002	5	224012	Assets/Product/Texture/Image/RolePlayer/RoleHeadSufeiya4.png	Gain 15 Energy upon picking up an Energy Ball	1300
+221011	22101	1	Arclight: Core I	1121002	2	224101	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	DMG increases by 70% when Arclight Shield is activated. [Tank]: Decrease all Resistances of target hit by 5% for 5s.	1301
+221012	22101	2	Arclight: Core II	1121002	3	224102	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	DMG increases by 150% when Arclight Shield is activated. [Tank]: Decrease all Resistances of target hit by 10% for 5s.	1302
+221013	22101	3	Arclight: Core III	1121002	4	224103	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	DMG increases by 220% when Arclight Shield is activated. [Tank]: Decrease all Resistances of target hit by 15% for 5s.	1303
+221014	22101	4	Arclight: Core IV	1121002	5	224104	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	DMG increases by 300% when Arclight Shield is activated. [Tank]: Decrease all Resistances of target hit by 20% for 5s.	1304
+221021	22102	1	Arclight: Overclock 1 - I	1121002	2	224105	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	Gain 5 Energy each second when Arclight Shield is activated.	1305
+221022	22102	2	Arclight: Overclock 1 - II	1121002	3	224106	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	Gain 10 Energy each second when Arclight Shield is activated.	1306
+221023	22102	3	Arclight: Overclock 1 - III	1121002	4	224107	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	Gain 15 Energy each second when Arclight Shield is activated.	1307
+221024	22102	4	Arclight: Overclock 1 - IV	1121002	5	224108	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	Gain 20 Energy each second when Arclight Shield is activated.	1308
+221031	22103	1	Arclight: Overclock 2 - I	1121002	2	224109	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	Enter Matrix after casting Signature Move.	1309
+221032	22103	2	Arclight: Overclock 2 - II	1121002	3	224110	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	Enter Matrix and gain 1 Blue Orb after casting Signature Move.	1310
+221033	22103	3	Arclight: Overclock 2 - III	1121002	4	224111	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	Enter Matrix and gain 2 Blue Orbs after casting Signature Move.	1311
+221034	22103	4	Arclight: Overclock 2 - IV	1121002	5	224112	Assets/Product/Texture/Image/RolePlayer/RoleHeadKuluomu4.png	Enter Matrix and gain 3 Blue Orbs after casting Signature Move.	1312
+222011	22201	1	Plume: Core I	1021004	2	224201	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	30% chance to increase Signature Move DMG by 20% when casting Signature Move. Effect can be stacked up to 100% each battle.	1313
+222012	22201	2	Plume: Core II	1021004	3	224202	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	40% chance to increase Signature Move DMG by 40% when casting Signature Move. Effect can be stacked up to 200% each battle.	1314
+222013	22201	3	Plume: Core III	1021004	4	224203	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	50% chance to increase Signature Move DMG by 60% when casting Signature Move. Effect can be stacked up to 300% each battle.	1315
+222014	22201	4	Plume: Core IV	1021004	5	224204	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	60% chance to increase Signature Move DMG by 80% when casting Signature Move. Effect can be stacked up to 400% each battle.	1316
+222021	22202	1	Plume: Overclock 1 - I	1021004	2	224205	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	When switching to Normal Form, 3-Ping DMG increases by 20% for 7s and there is a 30% chance that the Passive Energy Gauge will be fully refilled.	1317
+222022	22202	2	Plume: Overclock 1 - II	1021004	3	224206	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	When switching to Normal Form, 3-Ping DMG increases by 30% for 7s and there is a 40% chance that the Passive Energy Gauge will be fully refilled.	1318
+222023	22202	3	Plume: Overclock 1 - III	1021004	4	224207	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	When switching to Normal Form, 3-Ping DMG increases by 40% for 7s and there is a 50% chance that the Passive Energy Gauge will be fully refilled.	1319
+222024	22202	4	Plume: Overclock 1 - IV	1021004	5	224208	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	When switching to Normal Form, 3-Ping DMG increases by 50% for 7s and there is a 60% chance that the Passive Energy Gauge will be fully refilled.	1320
+222031	22203	1	Plume: Overclock 2 - I	1021004	2	224209	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	When switching to Arctic Form, gain a random set of 3-Ping and there is a 30% chance to increase Signature Points by 3.	1321
+222032	22203	2	Plume: Overclock 2 - II	1021004	3	224210	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	When switching to Arctic Form, gain a random set of 3-Ping and there is a 40% chance to increase Signature Points by 1	1322
+222033	22203	3	Plume: Overclock 2 - III	1021004	4	224211	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	When switching to Arctic Form, gain a random set of 3-Ping and there is a 50% chance to increase Signature Points by 2.	1323
+222034	22203	4	Plume: Overclock 2 - IV	1021004	5	224212	Assets/Product/Texture/Image/RolePlayer/RoleHeadR4Luxiya4.png	When switching to Arctic Form, gain a random set of 3-Ping and there is a 60% chance to increase Signature Points by 3.	1324
+223011	22301	1	Rozen: Core I	1131002	2	224301	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	DMG increases by 50% when unleashing core attacks that cost Overclock Points. [Support]: DMG of the whole team increases by 10% for 5s after healing.	1325
+223012	22301	2	Rozen: Core II	1131002	3	224302	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	DMG increases by 100% when unleashing core attacks that cost Overclock Points. [Support]: DMG of the whole team increases by 20% for 5s after healing.	1326
+223013	22301	3	Rozen: Core III	1131002	4	224303	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	DMG increases by 150% when unleashing core attacks that cost Overclock Points. [Support]: DMG of the whole team increases by 35% for 5s after healing.	1327
+223014	22301	4	Rozen: Core IV	1131002	5	224304	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	DMG increases by 200% when unleashing core attacks that cost Overclock Points. [Support]: DMG of the whole team increases by 50% for 5s after healing.	1328
+223021	22302	1	Rozen: Overclock 1 I	1131002	2	224305	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	Gain 15 Overclock Points after casting Signature Move.	1329
+223022	22302	2	Rozen: Overclock 1 II	1131002	3	224306	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	Gain 30 Overclock Points after casting Signature Move.	1330
+223023	22302	3	Rozen: Overclock 1 III	1131002	4	224307	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	Gain 45 Overclock Points after casting Signature Move.	1331
+223024	22302	4	Rozen: Overclock 1 IV	1131002	5	224308	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	Gain 60 Overclock Points after casting Signature Move.	1332
+223031	22303	1	Rozen: Overclock 2 I	1131002	2	224309	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	Gain an extra 8 Energy when unleashing core attacks that cost Overclock Points.	1333
+223032	22303	2	Rozen: Overclock 2 - II	1131002	3	224310	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	Gain an extra 12 Energy when unleashing core attacks that cost Overclock Points.	1334
+223033	22303	3	Rozen: Overclock 2 - III	1131002	4	224311	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	Gain an extra 16 Energy when unleashing core attacks that cost Overclock Points.	1335
+223034	22303	4	Rozen: Overclock 2 - IV	1131002	5	224312	Assets/Product/Texture/Image/RolePlayer/RoleHeadWeila4.png	Gain an extra 20 Energy when unleashing core attacks that cost Overclock Points.	1336
+224011	22401	1	Crocotta: Core I	1511003	2	224401	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	Discard all Signal Orbs when casting Signature Move. Each Orb deals an extra 10% DMG.	1337
+224012	22401	2	Crocotta: Core II	1511003	3	224402	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	Discard all Signal Orbs when casting Signature Move. Each Orb deals an extra 20% DMG.	1338
+224013	22401	3	Crocotta: Core III	1511003	4	224403	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	Discard all Signal Orbs when casting Signature Move. Each Orb deals an extra 30% DMG.	1339
+224014	22401	4	Crocotta: Core IV	1511003	5	224404	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	Discard all Signal Orbs when casting Signature Move. Each Orb deals an extra 40% DMG.	1340
+224021	22402	1	Crocotta: Overclock 1	1511003	2	224405	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	When not in Berserk Mode, gain 1 stack of Madness and 1 set of 3-Ping every 9s.	1341
+224022	22402	2	Crocotta: Overclock 1 - II	1511003	3	224406	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	When not in Berserk Mode, gain 1 stack of Madness and 1 set of 3-Ping every 7s.	1342
+224023	22402	3	Crocotta: Overclock 1 - III	1511003	4	224407	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	When not in Berserk Mode, gain 1 stack of Madness and 1 set of 3-Ping every 5s.	1343
+224024	22402	4	Crocotta: Overclock 1 - IV	1511003	5	224408	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	When not in Berserk Mode, gain 1 stack of Madness and 1 set of 3-Ping every 3s.	1344
+224031	22403	1	Crocotta: Overclock 2 - I	1511003	2	224409	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	When not in Berserk Mode, gain 25 Energy and 1 set of 3-Ping every 9s.	1345
+224032	22403	2	Crocotta: Overclock 2 - II	1511003	3	224410	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	When not in Berserk Mode, gain 25 Energy and 1 set of 3-Ping every 7s.	1346
+224033	22403	3	Crocotta: Overclock 2 - III	1511003	4	224411	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	When not in Berserk Mode, gain 25 Energy and 1 set of 3-Ping every 5s.	1347
+224034	22403	4	Crocotta: Overclock 2 - IV	1511003	5	224412	Assets/Product/Texture/Image/RolePlayer/RoleHeadKamu4.png	When not in Berserk Mode, gain 25 Energy and 1 set of 3-Ping every 3s.	1348
+225011	22501	1	Rigor: Core I	1141003	2	224501	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	3-Ping DMG increases by 50%. [Tank]: Decrease all Resistances of target hit by 5% for 5s.	1349
+225012	22501	2	Rigor: Core II	1141003	3	224502	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	3-Ping DMG increases by 100%. [Tank]: Decrease all Resistances of target hit by 10% for 5s.	1350
+225013	22501	3	Rigor: Core III	1141003	4	224503	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	3-Ping DMG increases by 150%. [Tank]: Decrease all Resistances of target hit by 15% for 5s.	1351
+225014	22501	4	Rigor: Core IV	1141003	5	224504	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	3-Ping DMG increases by 200%. [Tank]: Decrease all Resistances of target hit by 20% for 5s.	1352
+225021	22502	1	Rigor: Overclock 1 - I	1141003	2	224505	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	Unleash a wide-area electromagnetic cannon to gain 40 Energy.	1353
+225022	22502	2	Rigor: Overclock 1 - II	1141003	3	224506	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	Unleash a wide-area electromagnetic cannon to gain 50 Energy.	1354
+225023	22502	3	Rigor: Overclock 1 - III	1141003	4	224507	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	Unleash a wide-area electromagnetic cannon to gain 60 Energy.	1355
+225024	22502	4	Rigor: Overclock 1 - IV	1141003	5	224508	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	Unleash a wide-area electromagnetic cannon to gain 80 Energy.	1356
+225031	22503	1	Rigor: Overclock 2 - I	1141003	2	224509	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	Gain 1 random set of 3-Pings after casting Signature Move.	1357
+225032	22503	2	Rigor: Overclock 2 - II	1141003	3	224510	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	Gain 2 random sets of 3-Pings after casting Signature Move.	1358
+225033	22503	3	Rigor: Overclock 2 - III	1141003	4	224511	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	Gain 3 random sets of 3-Pings after casting Signature Move.	1359
+225034	22503	4	Rigor: Overclock 2 - IV	1141003	5	224512	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuosaita4.png	Gain 4 random sets of 3-Pings after casting Signature Move.	1360
+226011	22601	1	Pavo: Core I	1521003	2	224601	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Unleash an extra attack for each Concentrated Orb pinged. Concentrated Orb DMG increases by 50%.	1361
+226012	22601	2	Pavo: Core II	1521003	3	224602	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Unleash an extra attack for each Concentrated Orb pinged. Concentrated Orb DMG increases by 100%.	1362
+226013	22601	3	Pavo: Core III	1521003	4	224603	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Unleash an extra attack for each Concentrated Orb pinged. Concentrated Orb DMG increases by 150%.	1363
+226014	22601	4	Pavo: Core IV	1521003	5	224604	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Unleash an extra attack for each Concentrated Orb pinged. Concentrated Orb DMG increases by 200%.	1364
+226021	22602	1	Pavo: Overclock 1 - I	1521003	2	224605	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Gain 5 Energy when Enhanced Signal Orb hits.	1365
+226022	22602	2	Pavo: Overclock 1 - II	1521003	3	224606	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Gain 10 Energy when Enhanced Signal Orb hits.	1366
+226023	22602	3	Pavo: Overclock 1 - III	1521003	4	224607	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Gain 15 Energy when Enhanced Signal Orb hits.	1367
+226024	22602	4	Pavo: Overclock 1 - IV	1521003	5	224608	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Gain 20 Energy when Enhanced Signal Orb hits.	1368
+226031	22603	1	Pavo: Overclock 2 - I	1521003	2	224609	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Sync Rate cost for pinging Concentrated Signal Orb changes to 15.	1369
+226032	22603	2	Pavo: Overclock 2 II	1521003	3	224610	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Sync Rate cost for pinging Concentrated Signal Orb changes to 10.	1370
+226033	22603	3	Pavo: Overclock 2 III	1521003	4	224611	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Sync Rate cost for pinging Concentrated Signal Orb changes to 5.	1371
+226034	22603	4	Pavo: Overclock 2 IV	1521003	5	224612	Assets/Product/Texture/Image/RolePlayer/RoleHeadQu4.png	Sync Rate cost for pinging Concentrated Signal Orb changes to 0.	1372
+227011	22701	1	Qilin: Core I	1161002	2	224701	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	Unleash Signature Move to activate Follow-Up Orb. Follow-Up Orb DMG increases by 50%. [Tank]: Decrease all Resistances of target hit by 5% for 5s.	1373
+227012	22701	2	Qilin: Core II	1161002	3	224702	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	Unleash Signature Move to activate Follow-Up Orb. Follow-Up Orb DMG increases by 100%. [Tank]: Decrease all Resistances of target hit by 10% for 5s.	1374
+227013	22701	3	Qilin: Core III	1161002	4	224703	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	Unleash Signature Move to activate Follow-Up Orb. Follow-Up Orb DMG increases by 150%. [Tank]: Decrease all Resistances of target hit by 15% for 5s.	1375
+227014	22701	4	Qilin: Core IV	1161002	5	224704	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	Unleash Signature Move to activate Follow-Up Orb. Follow-Up Orb DMG increases by 200%. [Tank]: Decrease all Resistances of target hit by 20% for 5s.	1376
+227021	22702	1	Qilin: Overclock 1 - I	1161002	2	224705	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	When not using a Signature Move, recover 4 Energy per second.	1377
+227022	22702	2	Qilin: Overclock 1 - II	1161002	3	224706	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	When not using a Signature Move, recover 6 Energy per second.	1378
+227023	22702	3	Qilin: Overclock 1 - III	1161002	4	224707	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	When not using a Signature Move, recover 8 Energy per second.	1379
+227024	22702	4	Qilin: Overclock 1 - IV	1161002	5	224708	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	When not using a Signature Move, recover 10 Energy per second.	1380
+227031	22703	1	Qilin: Overclock 2 - I	1161002	2	224709	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	Gain 1 extra Energy when you ping Follow-Up Orbs during Signature Move.	1381
+227032	22703	2	Qilin: Overclock 2 - II	1161002	3	224710	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	Gain 2 extra Energy when you ping Follow-Up Orbs during Signature Move.	1382
+227033	22703	3	Qilin: Overclock 2 - III	1161002	4	224711	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	Gain 3 extra Energy when you ping Follow-Up Orbs during Signature Move.	1383
+227034	22703	4	Qilin: Overclock 2 - IV	1161002	5	224712	Assets/Product/Texture/Image/RolePlayer/RoleHeadChangyu4.png	Gain 5 extra Energy when you ping Follow-Up Orbs during Signature Move.	1384
+228011	22801	1	Laurel: Core I	1171003	2	224801	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Annihilation Orb DMG increased by 50%.	1385
+228012	22801	2	Laurel: Core II	1171003	3	224802	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Annihilation Orb DMG increased by 100%.	1386
+228013	22801	3	Laurel: Core III	1171003	4	224803	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Annihilation Orb DMG increased by 150%.	1387
+228014	22801	4	Laurel: Core IV	1171003	5	224804	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Annihilation Orb DMG increased by 200%.	1388
+228021	22802	1	Laurel: Overclock 1 - I	1171003	2	224805	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Within 2s after entering Annihilation State, there is a 20% chance to gain 1 Annihilation Orb for every Annihilation Orb pinged.	1389
+228022	22802	2	Laurel: Overclock 1 - II	1171003	3	224806	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Within 3s after entering Annihilation State, there is a 40% chance to gain 1 Annihilation Orb for every Annihilation Orb pinged.	1390
+228023	22802	3	Laurel: Overclock 1 - III	1171003	4	224807	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Within 4s after entering Annihilation State, there is a 60% chance to gain 1 Annihilation Orb for every Annihilation Orb pinged.	1391
+228024	22802	4	Laurel: Overclock 1 - IV	1171003	5	224808	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Within 5s after entering Annihilation State,, there is a 80% chance to gain 1 Annihilation Orb for every Annihilation Orb pinged.	1392
+228031	22803	1	Laurel: Overclock 2 - I	1171003	2	224809	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Gain 1 random Signal Orb after casting Signature Move.	1393
+228032	22803	2	Laurel: Overclock 2 - II	1171003	3	224810	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Gain 2 random Signal Orbs after casting Signature Move.	1394
+228033	22803	3	Laurel: Overclock 2 - III	1171003	4	224811	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Gain 3 random Signal Orbs after casting Signature Move.	1395
+228034	22803	4	Laurel: Overclock 2 - IV	1171003	5	224812	Assets/Product/Texture/Image/RolePlayer/RoleHeadLuna4.png	Enter Matrix and gain 3 random Signal Orbs of the same color after casting Signature Move.	1396
+229011	22901	1	2B: Core I	1181003	2	224901	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	Extra Sword Wave DMG of Battle Stance increases by 50%.	1397
+229012	22901	2	2B: Core II	1181003	3	224902	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	Extra Sword Wave DMG of Battle Stance increases by 100%.	1398
+229013	22901	3	2B: Core III	1181003	4	224903	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	Extra Sword Wave DMG of Battle Stance increases by 150%.	1399
+229014	22901	4	2B: Core IV	1181003	5	224904	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	Extra Sword Wave DMG of Battle Stance increases by 200%.	1400
+229021	22902	1	2B: Overclock 1 - I	1181003	2	224905	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	ATK of 2B, 9S, and A2 on your team increases by 4%.	1401
+229022	22902	2	2B: Overclock 1 - II	1181003	3	224906	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	ATK of 2B, 9S, and A2 on your team increases by 8%.	1402
+229023	22902	3	2B: Overclock 1 - III	1181003	4	224907	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	ATK of 2B, 9S, and A2 on your team increases by 12%.	1403
+229024	22902	4	2B: Overclock 1 - IV	1181003	5	224908	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	ATK of 2B, 9S, and A2 on your team increases by 16%.	1404
+229031	22903	1	2B: Overclock 2 - I	1181003	2	224909	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	CRIT Rate of 2B, 9S, and A2 on your team increases by 5%.	1405
+229032	22903	2	2B: Overclock 2 - II	1181003	3	224910	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	CRIT Rate of 2B, 9S, and A2 on your team increases by 10%.	1406
+229033	22903	3	2B: Overclock 2 - III	1181003	4	224911	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	CRIT Rate of 2B, 9S, and A2 on your team increases by 15%.	1407
+229034	22903	4	2B: Overclock 2 - IV	1181003	5	224912	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwob4.png	CRIT Rate of 2B, 9S, and A2 on your team increases by 20%.	1408
+230011	23001	1	9S: Core I	1191003	2	225001	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	DMG of the POD summoned by tapping the Overclock Indicator increases by 50%. [Support]: DMG of whole team increases by 10% for 5s after healing.	1409
+230012	23001	2	9S: Core II	1191003	3	225002	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	DMG of the POD summoned by tapping the Overclock Indicator increases by 100%. [Support]: DMG of whole team increases by 20% for 5s after healing.	1410
+230013	23001	3	9S: Core III	1191003	4	225003	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	DMG of the POD summoned by tapping the Overclock Indicator increases by 150%. [Support]: DMG of whole team increases by 35% for 5s after healing.	1411
+230014	23001	4	9S: Core IV	1191003	5	225004	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	DMG of the POD summoned by tapping the Overclock Indicator increases by 200%. [Support]: DMG of whole team increases by 50% for 5s after healing.	1412
+230021	23002	1	9S: Overclock 1 I	1191003	2	225005	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	Extra DMG Resistance of 2B, 9S, and A2 on your team increases by 5%.	1413
+230022	23002	2	9S: Overclock 1 - II	1191003	3	225006	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	Extra DMG Resistance of 2B, 9S, and A2 on your team increases by 10%.	1414
+230023	23002	3	9S: Overclock 1 III	1191003	4	225007	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	Extra DMG Resistance of 2B, 9S, and A2 on your team increases by 15%.	1415
+230024	23002	4	9S: Overclock 1 IV	1191003	5	225008	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	Extra DMG Resistance of 2B, 9S, and A2 on your team increases by 20%.	1416
+230031	23003	1	9S: Overclock 2 - I	1191003	2	225009	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	Incoming healing for 2B, 9S, and A2 on your team increases by 5%.	1417
+230032	23003	2	9S: Overclock 2 - II	1191003	3	225010	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	Incoming healing for 2B, 9S, and A2 on your team increases by 10%.	1418
+230033	23003	3	9S: Overclock 2 - III	1191003	4	225011	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	Incoming healing for 2B, 9S, and A2 on your team increases by 15%.	1419
+230034	23003	4	9S: Overclock 2 - IV	1191003	5	225012	Assets/Product/Texture/Image/RolePlayer/RoleHeadNines4.png	Incoming healing for 2B, 9S, and A2 on your team increases by 20%.	1420
+231011	23101	1	A2: Core I	1201003	2	225101	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	DMG of the POD seeker missiles increases by 50%. [Tank]: Decrease all Resistances of target hit by 5% for 5s.	1421
+231012	23101	2	A2: Core II	1201003	3	225102	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	DMG of the POD seeker missiles increases by 100%. [Tank]: Decrease all Resistances of target hit by 10% for 5s.	1422
+231013	23101	3	A2: Core III	1201003	4	225103	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	DMG of the POD seeker missiles increases by 150%. [Tank]: Decrease all Resistances of target hit by 15% for 5s.	1423
+231014	23101	4	A2: Core IV	1201003	5	225104	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	DMG of the POD seeker missiles increases by 200%. [Tank]: Decrease all Resistances of target hit by 20% for 5s.	1424
+231021	23102	1	A2: Overclock 1 - I	1201003	2	225105	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	Dodge Gauge limit of 2B, 9S, and A2 on your team increases by 100.	1425
+231022	23102	2	A2: Overclock 1 - II	1201003	3	225106	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	Dodge Gauge limit of 2B, 9S, and A2 on your team increases by 200.	1426
+231023	23102	3	A2: Overclock 1 - III	1201003	4	225107	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	Dodge Gauge limit of 2B, 9S, and A2 on your team increases by 300.	1427
+231024	23102	4	A2: Overclock 1 - IV	1201003	5	225108	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	Dodge Gauge limit of 2B, 9S, and A2 on your team increases by 400.	1428
+231031	23103	1	A2: Overclock 2 - I	1201003	2	225109	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	Physical DMG of 2B, 9S, and A2 on your team increases by 4%.	1429
+231032	23103	2	A2: Overclock 2 - II	1201003	3	225110	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	Physical DMG of 2B, 9S, and A2 on your team increases by 8%.	1430
+231033	23103	3	A2: Overclock 2 - III	1201003	4	225111	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	Physical DMG of 2B, 9S, and A2 on your team increases by 12%.	1431
+231034	23103	4	A2: Overclock 2 - IV	1201003	5	225112	Assets/Product/Texture/Image/RolePlayer/RoleHeadATwo4.png	Physical DMG of 2B, 9S, and A2 on your team increases by 16%.	1432
+232011	23201	1	Hypnos: Core I	1211002	2	225201	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	Shots dealt in Tactical Stance increase Blooming Shot DMG by 15%, stacking up to 5 times, resetting after casting Blooming Shot. [Support]: DMG of whole team increases by 50% for 5s after healing.	1433
+232012	23201	2	Hypnos: Core II	1211002	3	225202	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	Shots dealt in Tactical Stance increase Blooming Shot DMG by 30%, stacking up to 5 times and resetting after casting Blooming Shot. [Support]: DMG of whole team increases by 50% for 5s after healing.	1434
+232013	23201	3	Hypnos: Core III	1211002	4	225203	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	Shots dealt in Tactical Stance increase Blooming Shot DMG by 45%, stacking up to 5 times and resetting after casting Blooming Shot. [Support]: DMG of whole team increases by 50% for 5s after healing.	1435
+232014	23201	4	Hypnos: Core IV	1211002	5	225204	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	Shots dealt in Tactical Stance increase Blooming Shot DMG by 60%, stacking up to 5 times and resetting after casting Blooming Shot. [Support]: DMG of whole team increases by 50% for 5s after healing.	1436
+232021	23202	1	Hypnos: Overclock 1 - I	1211002	2	225205	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	If Blooming Shot activates Matrix, gain 10 extra Energy.	1437
+232022	23202	2	Hypnos: Overclock 1 - II	1211002	3	225206	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	If Blooming Shot activates Matrix, gain 20 extra Energy.	1438
+232023	23202	3	Hypnos: Overclock 1 - III	1211002	4	225207	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	If Blooming Shot activates Matrix, gain 30 extra Energy.	1439
+232024	23202	4	Hypnos: Overclock 1 - IV	1211002	5	225208	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	If Blooming Shot activates Matrix, gain 40 extra Energy.	1440
+232031	23203	1	Hypnos: Overclock 2 - I	1211002	2	225209	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	Increase All DMG by 25% for 10s after casting Signature Move.	1441
+232032	23203	2	Hypnos: Overclock 2 - II	1211002	3	225210	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	Increase All DMG by 50% for 10s after casting Signature Move.	1442
+232033	23203	3	Hypnos: Overclock 2 - III	1211002	4	225211	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	Increase All DMG by 75% for 10s after casting Signature Move.	1443
+232034	23203	4	Hypnos: Overclock 2 - IV	1211002	5	225212	Assets/Product/Texture/Image/RolePlayer/RoleHeadWanshi4.png	Increase All DMG by 100% for 10s after casting Signature Move.	1444
+233011	23301	1	Tempest: Core I	1531003	2	225301	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	During a Signature Move, Staccato Orb DMG increases by 50%.	1445
+233012	23301	2	Tempest: Core II	1531003	3	225302	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	During a Signature Move, Staccato Orb DMG increases by 100%.	1446
+233013	23301	3	Tempest: Core III	1531003	4	225303	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	During a Signature Move, Staccato Orb DMG increases by 150%.	1447
+233014	23301	4	Tempest: Core IV	1531003	5	225304	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	During a Signature Move, Staccato Orb DMG increases by 200%.	1448
+233021	23302	1	Tempest: Overclock 1 - I	1531003	2	225305	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	After casting Signature Move, gain 1 set of 3-Pings.	1449
+233022	23302	2	Tempest: Overclock 1 - II	1531003	3	225306	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	After casting Signature Move, gain 2 sets of 3-Pings.	1450
+233023	23302	3	Tempest: Overclock 1 - III	1531003	4	225307	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	After casting Signature Move, gain 3 set of 3-Pings.	1451
+233024	23302	4	Tempest: Overclock 1 IV	1531003	5	225308	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	After casting Signature Move, gain 4 sets of 3-Pings.	1452
+233031	23303	1	Tempest: Overclock 2 I	1531003	2	225309	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	When casting Staccato Orbs during a Signature Move, there is a 30% chance to gain 1 Staccato Orb.	1453
+233032	23303	2	Tempest: Overclock 2 II	1531003	3	225310	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	When casting Staccato Orbs during a Signature Move, there is a 40% chance to gain 1 Staccato Orb.	1454
+233033	23303	3	Tempest: Overclock 2 III	1531003	4	225311	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	When casting Staccato Orbs during a Signature Move, there is a 50% chance to gain 1 Staccato Orb.	1455
+233034	23303	4	Tempest: Overclock 2 IV	1531003	5	225312	Assets/Product/Texture/Image/RolePlayer/RoleHeadSailinna4.png	When casting Staccato Orbs during a Signature Move, there is a 60% chance to gain 1 Staccato Orb.	1456
+234011	23401	1	Glory: Core I	1121003	2	225401	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	In Frost Spirit form, DMG increases by 50% for every 40-hit combo and stacks up to 200%. [Tank]: Decrease all Resistances of target hit by 5% for 5s.	1457
+234012	23401	2	Glory: Core II	1121003	3	225402	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	In Frost Spirit form, DMG increases by 50% for every 30-hit combo and stacks up to 200%. [Tank]: Decrease all Resistances of target hit by 10% for 5s.	1458
+234013	23401	3	Glory: Core III	1121003	4	225403	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	In Frost Spirit form, DMG increases by 50% for every 20-hit combo and stacks up to 200%. [Tank]: Decrease all Resistances of target hit by 15% for 5s.	1459
+234014	23401	4	Glory: Core IV	1121003	5	225404	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	In Frost Spirit form, DMG increases by 50% for every 10-hit combo and stacks up to 200%. [Tank]: Decrease all Resistances of target hit by 20% for 5s.	1460
+234021	23402	1	Glory: Overclock 1 - I	1121003	2	225405	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	When leaving Frost Spirit form, replenish the Glorious Shield by current combo count x0.25%.	1461
+234022	23402	2	Glory: Overclock 1 - II	1121003	3	225406	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	When leaving Frost Spirit form, replenish the Glorious Shield by current combo count x0.5%.	1462
+234023	23402	3	Glory: Overclock 1 - III	1121003	4	225407	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	When leaving Frost Spirit form, replenish the Glorious Shield by current combo count x0.75%.	1463
+234024	23402	4	Glory: Overclock 1 - IV	1121003	5	225408	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	When leaving Frost Spirit form, replenish the Glorious Shield by current combo count x1%.	1464
+234031	23403	1	Glory: Overclock 2 - I	1121003	2	225409	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	In Frost Spirit form, deal 1 extra 20% Ice DMG that is included in the combo count when Basic Attack deals DMG.	1465
+234032	23403	2	Glory: Overclock 2 - II	1121003	3	225410	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	In Frost Spirit form, deal 1 extra 30% Ice DMG that is included in the combo count when Basic Attack deals DMG.	1466
+234033	23403	3	Glory: Overclock 2 - III	1121003	4	225411	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	In Frost Spirit form, deal 40% extra Ice DMG 1 time that is included in the combo count when Basic Attack deals DMG.	1467
+234034	23403	4	Glory: Overclock 2 - IV	1121003	5	225412	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Kuluomu4.png	In Frost Spirit form, deal 50% extra Ice DMG 2 times that is included in the combo count when Basic Attack deals DMG.	1468
+235011	23501	1	No. 21: Core I	1221002	2	225501	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	Resonance Pulse DMG increases by 50%. [Tank]: Decrease all Resistances of target hit by 5% for 5s.	1469
+235012	23501	2	No. 21: Core II	1221002	3	225502	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	Resonance Pulse DMG increases by 100%. [Tank]: Decrease all Resistances of target hit by 10% for 5s.	1470
+235013	23501	3	No. 21: Core III	1221002	4	225503	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	Resonance Pulse DMG increases by 150%. [Tank]: Decrease all Resistances of target hit by 15% for 5s.	1471
+235014	23501	4	No. 21: Core IV	1221002	5	225504	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	Resonance Pulse DMG increases by 200%. [Tank]: Decrease all Resistances of target hit by 20% for 5s.	1472
+235021	23502	1	No. 21: Overclock 1 - I	1221002	2	225505	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	When using Instant Dodge, recover 15 Energy.	1473
+235022	23502	2	No. 21: Overclock 1 - II	1221002	3	225506	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	When using Instant Dodge, recover 30 Energy.	1474
+235023	23502	3	No. 21: Overclock 1 - IIIv	1221002	4	225507	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	When using Instant Dodge, recover 45 Energy.	1475
+235024	23502	4	No. 21: Overclock 1 - IV	1221002	5	225508	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	When using Instant Dodge, recover 60 Energy.	1476
+235031	23503	1	No. 21: Overclock 2 - I	1221002	2	225509	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	Gain 1 random set of 3-Pings after casting Signature Move.	1477
+235032	23503	2	No. 21: Overclock 2 - II	1221002	3	225510	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	Gain 2 random sets of 3-Pings after casting Signature Move.	1478
+235033	23503	3	No. 21: Overclock 2 - III	1221002	4	225511	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	Gain 3 random sets of 3-Pings after casting Signature Move.	1479
+235034	23503	4	No. 21: Overclock 2 - IV	1221002	5	225512	Assets/Product/Texture/Image/RolePlayer/RoleHeadTwentyone4.png	Gain 4 random sets of 3-Pings after casting Signature Move.	1480
+236011	23601	1	Garnet: Core I	1131003	2	225601	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	Lightning Fall DMG increases by 50%. [Tank]: Decrease all Resistances of target hit by 5% for 5s.	1481
+236012	23601	2	Garnet: Core II	1131003	3	225602	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	Lightning Fall DMG increases by 100%. [Tank]: Decrease all Resistances of target hit by 10% for 5s.	1482
+236013	23601	3	Garnet: Core III	1131003	4	225603	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	Lightning Fall DMG increases by 150%. [Tank]: Decrease all Resistances of target hit by 15% for 5s.	1483
+236014	23601	4	Garnet: Core IV	1131003	5	225604	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	Lightning Fall DMG increases by 200%. [Tank]: Decrease all Resistances of target hit by 20% for 5s.	1484
+236021	23602	1	Garnet: Overclock 1 - I	1131003	2	225605	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	When using Lightning Fall, recover 5 Energy.	1485
+236022	23602	2	Garnet: Overclock 1 - II	1131003	3	225606	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	When using Lightning Fall, recover 10 Energy.	1486
+236023	23602	3	Garnet: Overclock 1 - III	1131003	4	225607	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	When using Lightning Fall, recover 15 Energy.	1487
+236024	23602	4	Garnet: Overclock 1 - IV	1131003	5	225608	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	When using Lightning Fall, recover 20 Energy.	1488
+236031	23603	1	Garnet: Overclock 2 - I	1131003	2	225609	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	Gain 1 random set of 3-Pings when casting Signature Move.	1489
+236032	23603	2	Garnet: Overclock 2 - II	1131003	3	225610	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	Gain 2 random sets of 3-Pings when casting Signature Move.	1490
+236033	23603	3	Garnet: Overclock 2 - III	1131003	4	225611	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	Gain 3 random sets of 3-Pings when casting Signature Move.	1491
+236034	23603	4	Garnet: Overclock 2 - IV	1131003	5	225612	Assets/Product/Texture/Image/RolePlayer/RoleHeadR3Weila4.png	Gain 4 random sets of 3-Pings when casting Signature Move.	1492

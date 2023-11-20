@@ -65,7 +65,7 @@ HpMinScale	float	0.7
 HpMaxScale	float	1.5
 DefaultAnimationTransition	float	0.1
 MaxBuffAccumulation	int	10000
-RecriveRecordCount	int	30
+ReceiveRecordCount	int	30
 OperationMinInterval	float	0.01
 DelayRate	float	1
 DelayFix	float	0
@@ -91,3 +91,5 @@ DynamicScoringExecuteEffectScore	fix	2500
 DynamicScoringNormalEffectScore	fix	1250
 BallLayerHeight	float	80
 NpcQuadTreeEnable	bool	1
+HackChangePExcludeKinds	string	102|104
+AntiHackChangePExcludeKinds	string	0

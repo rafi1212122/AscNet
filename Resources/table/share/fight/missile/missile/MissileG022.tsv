@@ -1,0 +1,93 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic
+84600105	伤害子弹1	3	6.3	180			0			4			0.1						-1		FxMb1Lamiya01Atk04Hit01						-1			1					0	0	0										0							0	1				846001051	801020									0	HitCase		1		1				1													
+84600106	伤害子弹2	3	6.3	240			0			4			0.1						-1		FxMb1Lamiya01Atk04Hit02						-1			1					0	0	0										0							0	1				846001061	801030									0	HitCase		1		1				1													
+84600199	幽灵刀1特效	2	0.1				0			4			5						-1						FxMb1Lamiya01Atk01Ghost		-1			1					0	0	0										3	0.6		1	84600196			4	1														0	HitCase		0		0				0		1											
+84600198	幽灵刀2特效	2	0.1				0			4			5						-1						FxMb1Lamiya01Atk02Ghost		-1			1					0	0	0										3	0.65		1	84600195			4	1														0	HitCase		0		0				0		1											
+84600197	幽灵刀3特效	2	0.1				0			4			5						-1						FxMb1Lamiya01Atk03Ghost		-1			1					0	0	0										3	0.65		1	84600194			4	1														0	HitCase		0		0				0		1											
+84600196	幽灵刀伤害1	1	3.5	11		4	0			4			0.1						-1		FxMb1Lamiya01Atk01GhostHit						-1			1					0	0	0										2							2	1				846001961	801025									1	HitCase		0		0				0		1											
+84600195	幽灵刀伤害2	3	6	180		2.6	0			4			0.1						-1		FxMb1Lamiya01Atk02GhostHit						-1			1					0	0	0										2							2	1				846001951	801025									1	HitCase		0		0				0		1											
+84600194	幽灵刀伤害3	3	6	180		2.6	0			4			0.1						-1		FxMb1Lamiya01Atk03GhostHit						-1			1					0	0	0										2							2	1				846001941	801025									1	HitCase		0		0				0		1											
+84600208	旋转伤害	2	6.8				0			4			0.15						-1		FxMb1Lamiya01Atk05Hit01						-1			1					0	0	0										0							0	1				846002081	801030									0	HitCase		1		1				1													
+84600209	大劈伤害	1	3	20		10	0			4			0.2						-1		FxMb1Lamiya01Atk05Hit02						-1			1					0	0	0										0							0	1				846002091	801050	843081								0	HitCase		1		1				1													
+84600305	突刺伤害	1	4	11		3	0			4			0.25						-1		FxMb1Lamiya01Atk07Hit						-1			1					0	0	0										0							0	1				846003051	801030									0	HitCase		1		1				1													
+84600307	吸收能量	2	666				0			2			0.1						-1								-1			1					0	0	0										0							0	1						846008								0	HitCase		0		0				0													
+84600401	真空斩其3拉扯	2	666				0			4			0.1						-1								-1			1					0	0	0										-1							0	1						846033								0	HitCase		1		0				0													
+84600406	砸地伤害	2	10			2.5	0			4			0.1						-1		FxMb1Lamiya01Atk08Hit						-1			1					0	0	0										0							0	1				846004061	801050	843081								0	HitCase		1		1				1													
+84600506	吸收能量	2	666				0			2			0.1						-1								-1			1					0	0	0										0							0	1						846008								0	HitCase		0		0				0													
+84600507	隔墙击退加刀光伤害	3	7	180			0			4			0.1						-1		FxMb1Lamiya01Atk09Hit						-1			1					0	0	0										0							0	1				846005071										0	HitCase		1		1				1													
+84600508	墙壁持续击退玩家	1	18	3		4.5	0			4			2						-1	1			0.05				-1			1					0	0	0										0							0	1				846005081										0	HitCase		0	1	0				0													
+84600509	墙壁持续击退玩家	1	18	3		4.5	0			4			2						-1	1			1				-1			1					0	0	0										0							0	1				846005091	801010									0	HitCase		0	1	0				0													
+84600602	霸刀其2跳劈伤害	2	4			1.5	0			4			0.1						-1		FxMb1Lamiya01Atk21DilieHit						-1			1					0	0	0										0							0	1				846006021	801030									0	HitCase		0		0				1													
+84600711	吸收并删除能量长矛的全图子弹	2	666				0			2			0.1						-1								-1			1					0	0	0										0							0	1						846015								0	HitCase		0		0				0													
+84600716	禁锢玩家	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	1						846034								0	HitCase		0		0				0													
+84600717	伤害	1	10	2		2	0			4			0.4						-1		FxMb1Lamiya01Atk23Hit						-1			1					0	0	0										0							0	1				846007171	801080									0	HitCase		1		1				1													
+84600906	追踪长矛	1	0.2	6	-0.3		150			4		1	10		1				1						FxMb1Lamiya01Atk06Dandao		1			5	120	90	0	4	62.8318	0	50	7	0.5								0							1	1						846007								0	HitCase		0	1	0	1			0		1											
+84600907	追踪长矛砍子弹判定用	1	0.2	8	-0.3		250			4		1	10		1				1								1			5	120	90	0	4	62.8318	0	100	7	0.5								0							1	1						846115								0	HitCase		0	1	0	1			0		1											
+84601004	伤害	3	5.5	180			0			4			0.1						-1		FxMb1Lamiya01Atk13Hit						-1			1					0	0	0										0							0	1				846010041	801020									0	HitCase		1		1				1													
+84601104	伤害	1	3	7	0.6	3	0			4			0.1						-1		FxMb1Lamiya01Atk14Hit						-1			1					0	0	0										0							0	1				846011041	801020									0	HitCase		1		1				1													
+84601504	伤害1	1	3	7	0.6	3	0			4			0.1						-1		FxMb1Lamiya01Atk14Hit						-1			1					0	0	0										0							0	1				846015041	801020									0	HitCase		1		1				1													
+84601505	伤害2	3	5.5	180			0			4			0.1						-1		FxMb1Lamiya01Atk16Hit						-1			1					0	0	0										0							0	1				846015051	801027									0	HitCase		1		1				1													
+84601605	伤害	3	6	180			0			4			0.1						-1		FxMb1Lamiya01Atk16Hit						-1			1					0	0	0										0							0	1				846016051	801027									0	HitCase		1		1				1													
+84601709	七海霸主镜头	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	1					846188	846189								0	HitCase		0		0				0													
+84601710	删除七海霸主镜头	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	1					846190	846187								0	HitCase		0		0				0													
+84601726	可砍子弹标记	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	1						846116								0	HitCase		0		0				0													
+84601727	可砍子弹标记	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	1						846116								0	HitCase		0		0				0													
+84601728	可砍子弹标记	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	1						846116								0	HitCase		0		0				0													
+84601729	可砍子弹标记	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	1						846116								0	HitCase		0		0				0													
+84601730	可砍子弹标记	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	1						846116								0	HitCase		0		0				0													
+84610101	伤害	1	12	6		3	0			4			0.15						-1								-1			1					0	0	0										0							0	1				846101011	801024									0	HitCase		1		1				1													
+84610194	转阶段删除所有能量长矛	2	666				0			2			5						-1								-1			1					0	0	0										0							0	1						846027								0	HitCase		0		0				0													
+84610195	砍子弹用显示血条的子弹	2	10				0			4			0.1						-1								-1			1					0	0	0										1							0	1					801001									0	HitCase		0		1	1			0		1											
+84610196	hitbox	3	8	100	0	2	0			4			0.1						-1		FxMb1MotherAtk440101Hit						-1			1					0	0	0										0							1	1				846101961	801018									0	HitCase		0		1	1			0													
+84610197	加三阶段效果	2	666				0			4			12						-1	1			0.05				-1			1					0	0	0										0							0	1							846194	846241						0	HitCase		0		0				0													
+84610198	删水下屏幕效果	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	1						846003	846187	846105						0	HitCase		0		0				0													
+84610199	加水下屏幕效果	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	1						846002	846186	846105						0	HitCase		0		0				0													
+84610216	甩尾伤害子弹	3	8	180			0			4			0.1						-1		FxMb1Lamiya02Atk06Hit04						-1			1					0	0	0										0							0	1				846102161	801125									0	HitCase		1		1				1													
+84610220	第一刀伤害子弹	1	8	8		3	0			4			0.1						-1								-1			1					0	0	0										0							0	1				846102201	801030									0	HitCase		1		1	1			1													
+84610221	第一刀拼刀判定	1	13	10		4	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					846101					846180				0	HitCase		1		1	1			0													
+84610223	第二刀伤害子弹	1	8	8		3	0			4			0.1						-1								-1			1					0	0	0										0							0	1				846102231	801030									0	HitCase		1		1	1			1													
+84610224	第二刀拼刀判定	1	13	10		4	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					846101					846180				0	HitCase		1		1	1			0													
+84610226	第三刀伤害子弹	1	8	8		3	0			4			0.1						-1								-1			1					0	0	0										0							0	1				846102261	801030									0	HitCase		1		1	1			1													
+84610227	第三刀拼刀判定	1	13	10		4	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					846101					846180				0	HitCase		1		1	1			0													
+84610297	hitbox	3	8	100	0	2	0			4			0.1						-1		FxMb1Lamiya02Atk06Hit01						-1			1					0	0	0										0							1	1				846102971	801018									0	HitCase		0		1	1			1													
+84610298	hitbox	3	8	100	0	2	0			4			0.1						-1		FxMb1Lamiya02Atk06Hit02						-1			1					0	0	0										0							1	1				846102981	801018									0	HitCase		0		1	1			1													
+84610299	hitbox	3	8	100	0	2	0			4			0.1						-1		FxMb1Lamiya02Atk06Hit03						-1			1					0	0	0										0							1	1				846102991	801018									0	HitCase		0		1	1			1													
+84610307	丢匕首	2	0.2				40			4		1	3		1				1		FxMb1Lamiya02Atk10Ci				FxMb1Lamiya02Atk10Dandao		1			5	90	90	0.5	3	125.6636	0	30	7	1								0							1	1			0.2	846103071	846129					846131				0	HitCase		0	1	0	1			0													
+84610308	匕首残留特效	2	0.1			-0.7	0		180	4			2.8						-1						FxMb1Lamiya02Atk10Weapon		-1			1					0	0	0										0							1	1														1	HitCase		1		0				0													
+84610399	丢匕首（行为树）	2	0.2				40			4		1	10		1				1		FxMb1Lamiya02Atk10Ci				FxMb1Lamiya02Atk10Dandao		1			5	90	90	0.5	3	125.6636	0	30	7	1								0							1	1			0.2	846103991	846129					846131				0	HitCase		0	1	0	1			0													
+84610408	第一刀拼刀判定	1	13	10		2	0			4			0.1						-1	1			0.05				-1			1					0	0	0										0							0	1					846101					846181				0	HitCase		1		1	1			0													
+84610409	第二刀拼刀判定	1	13	10		2	0			4			0.1						-1	1			0.05				-1			1					0	0	0										0							0	1					846101					846181				0	HitCase		1		1	1			0													
+84610410	第三刀拼刀判定	1	13	10		2	0			4			0.1						-1	1			0.05				-1			1					0	0	0										0							0	1					846101					846181				0	HitCase		1		1	1			0													
+84610426	甩尾伤害	3	8	180			0			4			0.1						-1		FxMb1Lamiya02Atk1105Hit						-1			1					0	0	0										0							0	1				846104261	801125									0	HitCase		1		1				1													
+84610497	hitbox	1	6	12		6	0			4			0.1						-1		FxMb1Lamiya02Atk1102Hit						-1			1					0	0	0										0							1	1				846104971	801018									0	HitCase		0		1	1			1													
+84610498	hitbox	3	8	100		2	0			4			0.1						-1		FxMb1Lamiya02Atk1103Hit						-1			1					0	0	0										0							1	1				846104981	801018									0	HitCase		0		1	1			1													
+84610499	hitbox	3	8	100		2	0			4			0.1						-1		FxMb1Lamiya02Atk1104Hit						-1			1					0	0	0										0							1	1				846104991	801018									0	HitCase		0		1	1			1													
+84611101	剑气水波斩	1	4	8		1	48			4			5						-1						FxMb1Lamiya02Atk02Dandao		-1			1					0	0	0										0							0	1				846111011	801020									0	HitCase		0		0				1													
+84611418	第一刀拼刀判定	1	4	8		4	0			4			0.1						-1	1			0.05				-1			1					0	0	0										0							0	1					846101					846173				0	HitCase		1		1	1			0													
+84611419	第二刀拼刀判定	1	4	8		4	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1					846101					846173				0	HitCase		1		1	1			0													
+84611420	第三刀拼刀判定	1	4	8		4	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	1					846101					846173				0	HitCase		1		1	1			0													
+84611421	第四刀拼刀判定	1	4	8		4	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	1					846101					846173				0	HitCase		1		1	1			0													
+84611442	突刺伤害	1	10	6		2	0			4			0.1						-1								-1			1					0	0	0										0							0	1				846114421	801020									0	HitCase		1		1				1													
+84611443	甩尾伤害	3	8	180			0			4			0.1						-1		FxMb1Lamiya02Atk1105Hit						-1			1					0	0	0										0							0	1				846114431	801025									0	HitCase		1		1				1													
+84611496	hitbox	1	5	10	0	2	0			4			0.1						-1		FxMb1Lamiya02Atk06Hit01						-1			1					0	0	0										0							1	1				846114961	801018									0	HitCase		0		1	1			1													
+84611497	hitbox	1	5	10	0	2	0			4			0.1						-1		FxMb1Lamiya02Atk06Hit01						-1			1					0	0	0										0							1	1				846114971	801018									0	HitCase		0		1	1			1													
+84611498	hitbox	3	8	100	0	2	0			4			0.1						-1		FxMb1Lamiya02Atk06Hit01						-1			1					0	0	0										0							1	1				846114981	801018									0	HitCase		0		1	1			1													
+84611499	hitbox	3	8	100	0	2	0			4			0.1						-1		FxMb1Lamiya02Atk1103Hit						-1			1					0	0	0										0							1	1				846114991	801018									0	HitCase		0		1	1			1													
+84611608	伤害	1	4	10		5	0			4			0.2						-1		FxMb1Lamiya02Atk12Hit						-1			1					0	0	0										0							0	1					801020									0	HitCase		1		0				1													
+84620401	发射能量至拉弥亚（高）	2	0.05				20			2		1	10		1				1						FxMb1Lamiya01Atk22Dandao		1			5	-45	45	0	3	125.6636	0	100	0	8								0							0	1						846020								0	HitCase		0		0				0													
+84620402	发射能量至拉弥亚（低）	2	0.05				20			2		1	10		1				1						FxMb1Lamiya01Atk22Dandao		1			5	-45	45	0	3	125.6636	0	100	1	2								0							0	1						846020								0	HitCase		0		0				0													
+84620403	反击子弹（伤害）	2	0.05				140			4		1	10		1				1		FxMb1Lamiya01Atk06DandaoHit						1			5	45	90	0	4	62.8318	0	50	0.5	5								0							1	1						846127								0	HitCase		0		0				0													
+84620404	反击子弹特效	2	0.05			2	0			4			5						-1						FxMb1Lamiya01Atk06Dandao02		-1			1					0	0	0										0							1	1														1	HitCase		0		0				0		1											
+84620501	能量长枪直（特效）	2	0.1				0			4			300		1				-1								-1			1					0	0	0										0							1	1														0	HitCase		0		0	1			0													
+84620502		2	0.1				0			4			300		1				-1						FxMb1Lamiya01Atk21Ghost01		-1			1					0	0	0										0							1	1														0	HitCase		0		0				0													
+84620601	能量长枪斜（特效）	2	0.1				0			4			300		1				-1								-1			1					0	0	0										0							1	1														0	HitCase		0		0	1			0													
+84620602	能量长枪斜（特效）	2	0.1				0			4			300		1				-1						FxMb1Lamiya01Atk06Ghost01		-1			1					0	0	0										0							1	1														0	HitCase		0		0	1			0													
+84620603	能量长矛伤害	2	3				0			4			0.1						-1		FxMb1Lamiya01Atk06DilieHit						-1			1					0	0	0										1							0	1					801020									0	HitCase		0		0				0													
+84620701	七海霸主地裂1	2	0.1				0		180	4			300		1				-1						FxMb1Lamiya03Atk5002		-1			1					0	0	0										0							1	1														0	HitCase		0		0	1			0													
+84620702	七海霸主地裂2	2	0.1				0		180	4			300		1				-1						FxMb1Lamiya03Atk5002B		-1			1					0	0	0										0							1	1														0	HitCase		0		0	1			0													
+84620703	七海霸主地裂3	2	0.1				0		180	4			300		1				-1						FxMb1Lamiya03Atk5002C		-1			1					0	0	0										0							1	1														0	HitCase		0		0	1			0													
+84620704	七海霸主地裂4	2	0.1				0		180	4			300		1				-1						FxMb1Lamiya03Atk5002D		-1			1					0	0	0										0							1	1														0	HitCase		0		0	1			0													
+84620705	七海霸主地裂5	2	0.1				0		180	4			300		1				-1						FxMb1Lamiya03Atk5002E		-1			1					0	0	0										0							1	1														0	HitCase		0		0	1			0													
+84620797	地面围栏	2	0.1				0			4			13						-1						FxScene02106Pingzhang		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84620798	闪电弱	2	0.1				0			4			2						-1						FxScene02106LeiRuo		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													
+84620799	闪电强	2	0.1				0			4			2						-1						FxScene02106LeiQiang		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0													

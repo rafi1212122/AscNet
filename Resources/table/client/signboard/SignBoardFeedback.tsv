@@ -1,0 +1,523 @@
+Id	RoleId	StandType	ChangeToStandType	ShowType	ConditionId	ConditionParam	Content	CvId	FaceId	ActionId	Duration[1]	Duration[2]	Duration[3]	Duration[4]	Weight	Validity	CoolTime	FavorLimit	ShowButton	ActivityId	ShowTime
+1010201	1011002	0	0	0	10001	1	Good. You came back alive.	101069		BoardAct0201	4.983	4.333	4.699	4.699	1	-1	-1	1|8	1|2		
+1010202	1011002	0	0	0	10001	1	Ready for a new day of operations, Commandant?	101051		BoardAct0202	3.667	5.544	4.699	5.572	1	-1	-1	1|8	1|2		
+1010203	1011002	0	0	0	10001	1	Did that mission really have to take you so long?	101055		BoardAct0203	5.667	5.667	5.667	5.712	1	-1	-1	1|8	1|2		
+1010204	1011002	0	0	0	120	-1	Ready for a new day of operations, Commandant?	101051		BoardAct0202	3.667	5.544	4.699	5.572	1	-1	-1	1|8	1|2		
+1010205	1011002	0	0	0	2	-1	I can't complain. You're easier to deal with than the last commandant.	101033		BoardAct1001	10	10	10	10.007	1	-1	-1	1|8			
+1010206	1011002	0	0	0	10001	3	That's enough!	101063		BoardAct1002	3.167	3.753	3.167	3.761	1	-1	-1	1|8			
+1010207	1011002	0	0	0	10001	4	That's enough!	101063		BoardAct1002	3.167	3.753	3.167	3.761	1	-1	-1	1|8			
+1010208	1011002	0	0	0	10001	5	That's enough!	101063		BoardAct1002	3.167	3.753	3.167	3.761	1	-1	-1	1|8			
+1010301	1011003	0	0	0	10001	1	If you find yourself with a lot of spare time, you should maybe do some brain exercises.	101072		BoardAct0201	6.333	6.333	6.333	6.339	1	-1	-1	1|8	1|2		
+1010302	1011003	0	0	0	10001	1	Free? How about we play a few rounds at the range?	101076		BoardAct0202	6	6	6	6.037	1	-1	-1	1|8	1|2		
+1010303	1011003	0	0	0	10001	1	I remember everything you say. Orders, and everything else.	101081		BoardAct0203	9.667	9.667	9.667	9.659	1	-1	-1	1|8	1|2		
+1010304	1011003	0	0	0	120	-1	Free? How about we play a few rounds at the range?	101076		BoardAct0202	5.667	5.933	5.689	6.037	1	-1	-1	1|8	1|2		
+1010305	1011003	0	0	0	2	-1	I didn't say I dislike it.	101087		BoardAct1001	4.334	6.13	4.334	4.365	1	-1	-1	1|8			
+1010306	1011003	0	0	0	10001	3	That's enough!	101063		BoardAct1002	4	4	4	3.761	1	-1	-1	1|8			
+1010307	1011003	0	0	0	10001	4	That's enough!	101063		BoardAct1002	4	4	4	3.761	1	-1	-1	1|8			
+1010308	1011003	0	0	0	10001	5	That's enough!	101063		BoardAct1002	4	4	4	3.761	1	-1	-1	1|8			
+1010309	1011003	0	0	1	101	10	Great timing. There are issues with the experiment data. Get prepped to be holed up in the lab for the whole day.	101108		BoardAct1004	12.667	12.667	12.667	12.701	96	-1	-1	2|8			
+1010310	1011003	0	0	1	111	3600	Relax. I'll take care of you. Don't be so hard on yourself. Rest awhile.	101104		BoardAct1007	13.033	13.033	13.033	13.033	98	-1	-1	3|8			
+1010311	1011003	0	0	1	1	900	Any problems you can't solve? Don't beat yourself up. I can help.	101099		BoardAct1005	7.5	7.5	8.32	8.32	97	-1	-1	4|8			
+1010312	1011003	0	0	0	10002	-1	You never get bored of this, do you?	101062		BoardAct1003	3.834	3.834	3.865	5	1	-1	-1	5|8			
+1010313	1011003	0	0	2	102	2	I just happened to be on duty today. Not waiting for you here.	101111		BoardAct1006	9.1	9.1	9.1	9.659	99	-1	-1	6|8			
+1020101	1021001	0	0	0	10001	1	Lucia at your service.	102069		BoardAct0101	4.167	4.167	4.523	4.523	1	-1	-1	1|8	1|2		
+1020102	1021001	0	0	0	10001	1	I will make myself stronger, so please don't overwork yourself.	102038		BoardAct0201	7.511	6.305	6	6.305	1	-1	-1	1|8	1|2		
+1020103	1021001	0	0	0	10001	1	I hold no fear for the future as long as you're here.	102043		BoardAct0301	7.373	6.305	6.381	6.407	1	-1	-1	1|8	1|2		
+1020104	1021001	0	0	0	120	-1	Lucia at your service.	102069		BoardAct0101	4.167	4.167	4.523	4.523	1	-1	-1	1|8	1|2		
+1020105	1021001	0	0	0	2	-1	I think I'm finally beginning to understand you.	102049		BoardAct1001	4.5	4.5	4.5	4.527	1	-1	-1	1|8			
+1020106	1021001	0	0	0	10001	3	This is...?	102080		BoardAct1002	2.833	2.833	3	3	1	-1	-1	1|8			
+1020107	1021001	0	0	0	10001	4	This is...?	102080		BoardAct1002	2.833	2.833	3	3	1	-1	-1	1|8			
+1020108	1021001	0	0	0	10001	5	This is...?	102080		BoardAct1002	2.833	2.833	3	3	1	-1	-1	1|8			
+1020201	1021002	0	0	0	10001	1	Good morning, Commandant. Let us strive for humanity.	102026		BoardAct0201	7.667	7.667	7.667	7.667	1	-1	-1	1|8	1|2		
+1020202	1021002	0	0	0	10001	1	I will make myself stronger, so please don't overwork yourself.	102038		BoardAct0202	8.667	8.667	8.667	8.667	1	-1	-1	1|8	1|2		
+1020203	1021002	0	0	0	10001	1	I hold no fear for the future as long as you're here.	102043		BoardAct0203	9	9	9	9	1	-1	-1	1|8	1|2		
+1020204	1021002	0	0	0	120	-1	Good morning, Commandant. Let us strive for humanity.	102026		BoardAct0201	7.667	7.667	7.667	7.667	1	-1	-1	1|8	1|2		
+1020205	1021002	0	0	0	2	-1	I think I'm finally beginning to understand you.	102049		BoardAct1001	4.5	4.5	4.5	4.527	1	-1	-1	1|8			
+1020206	1021002	0	0	0	10001	3	This is...?	102080		BoardAct1002	2.833	2.833	3	3	1	-1	-1	1|8			
+1020207	1021002	0	0	0	10001	4	This is...?	102080		BoardAct1002	2.833	2.833	3	3	1	-1	-1	1|8			
+1020208	1021002	0	0	0	10001	5	This is...?	102080		BoardAct1002	2.833	2.833	3	3	1	-1	-1	1|8			
+1020301	1021003	0	0	0	10001	1	What are you expecting from me...?	1021009		BoardAct0201	6.5	6.5	6.5	6.5	1	-1	-1	1|8	1|2		
+1020302	1021003	0	0	0	10001	1	Are you sure? Getting in contact with me will only increase your risk of infection.	1021010		BoardAct0202	10	10	10	10	1	-1	-1	1|8	1|2		
+1020303	1021003	0	0	0	10001	1	I'll give you one advice—perform your best.	1021011		BoardAct0203	5	5	5	5	1	-1	-1	1|8	1|2		
+1020304	1021003	0	0	0	120	-1	Are you sure? Getting in contact with me will only increase your risk of infection.	1021010		BoardAct0202	10	10	10	10	1	-1	-1	1|8	1|2		
+1020305	1021003	0	0	0	2	-1	I can take you away if you've had enough of this child play. Just say the word.	1021023		BoardAct1001	6	6	6.484	6.484	1	-1	-1	1|8			
+1020306	1021003	0	0	0	10001	3	Think you can hurt me this way?	1021085		BoardAct1002	4	4	5.211	5.211	1	-1	-1	1|8			
+1020307	1021003	0	0	0	10001	4	Think you can hurt me this way?	1021085		BoardAct1002	4	4	5.211	5.211	1	-1	-1	1|8			
+1020308	1021003	0	0	0	10001	5	Think you can hurt me this way?	1021085		BoardAct1002	4	4	5.211	5.211	1	-1	-1	1|8			
+1020309	1021003	0	0	1	101	10	I've got all the time in the world. So you're gonna stay here until I allow you to leave.	1021081		BoardAct1004	12.333	12.333	12.333	12.333	96	-1	-1	2|8			
+1020310	1021003	0	0	1	111	3600	I'm tired and let's call it a day.	1021074		BoardAct1007	7.333	7.333	7.333	7.333	98	-1	-1	3|8			
+1020311	1021003	0	0	1	1	900	...Not here? Never mind.	1021070		BoardAct1005	5.667	5.667	5.667	5.667	97	-1	-1	4|8			
+1020312	1021003	0	0	0	10002	-1	...One more time and you're screwed.	1021082		BoardAct1003	5.5	5.5	5.5	5.5	1	-1	-1	5|8			
+1020313	1021003	0	0	2	102	2	I have completely corrupted this place while you were away... Just joking.	1021026		BoardAct1006	9.067	9.067	9.067	9.067	99	-1	-1	6|8			
+1020401	1021004	0	0	0	10001	1	The thruster behind is quite hard to pilot. Would turning it into wings be better?	1022010		BoardAct0201	6.667	6.667	6.667	6.667	1	-1	-1	1|8	1|2		
+1020402	1021004	0	0	0	10001	1	Gray Raven... I never thought I'd come to know a squad three times... Such a peculiar feeling.	1022012		BoardAct0202	9.667	9.667	10.962	10.962	1	-1	-1	1|8	1|2		
+1020403	1021004	0	0	0	10001	1	My memories are a bit muddled... but it shouldn't affect the missions.	1022009		BoardAct0203	6.333	6.333	7.25	7.25	1	-1	-1	1|8	1|2		
+1020404	1021004	0	0	0	120	-1	Gray Raven... I never thought I'd come to know a squad three times... Such a peculiar feeling.	1022012		BoardAct0202	9.667	9.667	10.962	10.962	1	-1	-1	1|8	1|2		
+1020405	1021004	0	0	0	2	-1	Can you hold hands with me? That's my most desired, most meaningful present.	1022032		BoardAct1001	8.128	8	9.924	9.924	1	-1	-1	1|8			
+1020406	1021004	0	0	0	10001	3	I... think I need some time for mental preparation.	1022053		BoardAct1002	7.2	7.2	7.2	7.2	1	-1	-1	1|8			
+1020407	1021004	0	0	0	10001	4	I... think I need some time for mental preparation.	1022053		BoardAct1002	7.2	7.2	7.2	7.2	1	-1	-1	1|8			
+1020408	1021004	0	0	0	10001	5	I... think I need some time for mental preparation.	1022053		BoardAct1002	7.2	7.2	7.2	7.2	1	-1	-1	1|8			
+1020409	1021004	0	0	1	101	10	I've been waiting, Commandant. Let's go.	1022043		BoardAct1004	6.833	6.833	6.833	6.833	96	-1	-1	2|8			
+1020410	1021004	0	0	1	111	3600	Commandant, you should go rest. Handle the rest of your work after you get some sleep.	1022038		BoardAct1007	7.912	7.667	7.667	7.667	98	-1	-1	3|8			
+1020411	1021004	0	0	1	1	900	Hide-and-seek? Commandant isn't one to do something so childish, I'll have to get the others for a search party...	1022035		BoardAct1005	12.333	12.333	12.333	12.333	97	-1	-1	4|8			
+1020412	1021004	0	0	0	10002	-1	Um... The Plume model can actually fly, but it doesn't really do much.	1022049		BoardAct1003	9.167	9.167	9.167	9.218	1	-1	-1	5|8			
+1020413	1021004	0	0	2	102	2	If you're going on a trip, can you bring me with you? I'll do anything, as long as I can be with you.	1022047		BoardAct1006	13.333	13.333	13.333	13.333	99	-1	-1	6|8			
+1030101	1031001	0	0	0	10001	1	Please get some rest. I'll help Lucia protect the base.	103018		BoardAct0401	7.333	7.333	7.333	7.333	1	-1	-1	1|8	1|2		
+1030102	1031001	0	0	0	10001	1	I may not fight as well as the others, but I'll always try my best!	103022		BoardAct0601	5.333	6.238	6.189	6.189	1	-1	-1	1|8	1|2		
+1030103	1031001	0	0	0	120	-1	I may not fight as well as the others, but I'll always try my best!	103022		BoardAct0601	5.333	6.238	6.189	6.189	1	-1	-1	1|8	1|2		
+1030104	1031001	0	0	0	2	-1	There's a lot of things about you that I'd like to study closer.	103035		BoardAct1001	6.667	6.667	6.667	6.71	1	-1	-1	1|8			
+1030105	1031001	0	0	0	10001	3	W-wha... W-wha... W-wha...	103069		BoardAct1002	4.333	4.333	4.333	4.333	1	-1	-1	1|8			
+1030106	1031001	0	0	0	10001	4	W-wha... W-wha... W-wha...	103069		BoardAct1002	4.333	4.333	4.333	4.333	1	-1	-1	1|8			
+1030107	1031001	0	0	0	10001	5	W-wha... W-wha... W-wha...	103069		BoardAct1002	4.333	4.333	4.333	4.333	1	-1	-1	1|8			
+1030201	1031002	0	0	0	10001	1	Please get some rest. I'll help Lucia protect the base.	103018		BoardAct0201	7.333	7.333	7.333	7.333	1	-1	-1	1|8	1|2		
+1030202	1031002	0	0	0	10001	1	I may not fight as well as the others, but I'll always try my best!	103022		BoardAct0202	5.667	6.238	6.189	6.189	1	-1	-1	1|8	1|2		
+1030203	1031002	0	0	0	10001	1	Hm? You're afraid of the dark? In that case... I'll stay with you a bit longer.	103031		BoardAct0203	8.5	8.5	8.5	8.544	1	-1	-1	1|8	1|2		
+1030204	1031002	0	0	0	120	-1	I may not fight as well as the others, but I'll always try my best!	103022		BoardAct0202	5.667	6.238	6.189	6.189	1	-1	-1	1|8	1|2		
+1030205	1031002	0	0	0	2	-1	There's a lot of things about you that I'd like to study closer.	103035		BoardAct1001	6.667	6.667	6.667	6.71	1	-1	-1	1|8			
+1030206	1031002	0	0	0	10001	3	W-wha... W-wha... W-wha...	103069		BoardAct1002	3.833	3.833	3.833	3.833	1	-1	-1	1|8			
+1030207	1031002	0	0	0	10001	4	W-wha... W-wha... W-wha...	103069		BoardAct1002	3.833	3.833	3.833	3.833	1	-1	-1	1|8			
+1030208	1031002	0	0	0	10001	5	W-wha... W-wha... W-wha...	103069		BoardAct1002	3.833	3.833	3.833	3.833	1	-1	-1	1|8			
+1030301	1031003	0	0	0	10001	1	A world shrouded in darkness is not worth anything. That's why I wish to restore the light.	103082		BoardAct0201	11.167	11.167	11.167	11.238	1	-1	-1	1|8	1|2		
+1030302	1031003	0	0	0	10001	1	Would today's operation planning require my help?	103085		BoardAct0202	9.667	9.667	10.962	10.962	1	-1	-1	1|8	1|2		
+1030303	1031003	0	0	0	10001	1	Do not fear to be in the darkness, for I shall lead you forward.	103087		BoardAct0203	10	10	10	10	1	-1	-1	1|8	1|2		
+1030304	1031003	0	0	0	120	-1	Would today's operation planning require my help?	103085		BoardAct0202	9.667	9.667	10.962	10.962	1	-1	-1	1|8	1|2		
+1030305	1031003	0	0	0	2	-1	I could never hate you.	103092		BoardAct1001	8.128	8	9.924	9.924	1	-1	-1	1|8			
+1030306	1031003	0	0	0	10001	3	W-wha... W-wha... W-wha...	103069		BoardAct1002	7.2	7.2	7.2	7.2	1	-1	-1	1|8			
+1030307	1031003	0	0	0	10001	4	W-wha... W-wha... W-wha...	103069		BoardAct1002	7.2	7.2	7.2	7.2	1	-1	-1	1|8			
+1030308	1031003	0	0	0	10001	5	W-wha... W-wha... W-wha...	103069		BoardAct1002	7.2	7.2	7.2	7.2	1	-1	-1	1|8			
+1030309	1031003	0	0	1	101	10	Good day, Commandant.	103115		BoardAct1004	4	4	4	4.04	96	-1	-1	2|8			
+1030310	1031003	0	0	1	111	3600	Don't take too long to connect. I'll always be here...	103114		BoardAct1007	8.667	8.667	8.667	8.667	98	-1	-1	3|8			
+1030311	1031003	0	0	1	1	900	Don't be so quiet... I'd be worried.	103109		BoardAct1005	8.667	8.667	8.667	8.707	97	-1	-1	4|8			
+1030312	1031003	0	0	0	10002	-1	Please... enough is enough.	103064		BoardAct1003	5.334	5.334	5.334	5.334	1	-1	-1	5|8			
+1030313	1031003	0	0	2	102	2	I'm sure you'll be back. Thank you for coming back...	103122		BoardAct1006	10.667	10.667	10.667	10.727	99	-1	-1	6|8			
+1040201	1041002	0	0	0	10001	1	Now that I'm a member of Gray Raven, you can just treat me like the others.	104019		BoardAct0201	9	9	9	9	1	-1	-1	1|8	1|2		
+1040202	1041002	0	0	0	10001	1	Faith? It all came naturally, please don't mind me.	104020		BoardAct0202	7.667	7.667	7.667	7.667	1	-1	-1	1|8	1|2		
+1040203	1041002	0	0	0	10001	1	It's time to recharge, Commandant. Please recharge regularly.	104017		BoardAct0203	6.667	6.667	6.667	6.667	1	-1	-1	1|8	1|2		
+1040204	1041002	0	0	0	120	-1	Now that I'm a member of Gray Raven, you can just treat me like the others.	104019		BoardAct0201	9	9	9	9	1	-1	-1	1|8	1|2		
+1040205	1041002	0	0	0	2	-1	I feel very comfortable working with you, Commandant.	104028		BoardAct1001	7.333	7.333	7.333	7.333	1	-1	-1	1|8			
+1040206	1041002	0	0	0	10001	3	Never mind. I just need to get used to it.	104063		BoardAct1002	5.333	5.333	5.435	5.435	1	-1	-1	1|8			
+1040207	1041002	0	0	0	10001	4	Never mind. I just need to get used to it.	104063		BoardAct1002	5.333	5.333	5.435	5.435	1	-1	-1	1|8			
+1040208	1041002	0	0	0	10001	5	Never mind. I just need to get used to it.	104063		BoardAct1002	5.333	5.333	5.435	5.435	1	-1	-1	1|8			
+1040301	1041003	0	0	0	10001	1	During this time period, I recommend resting and replenishing energy and calories.	104069		BoardAct0201	7.667	7.667	7.667	7.667	1	-1	-1	1|8	1|2		
+1040302	1041003	0	0	0	10001	1	Constructs can't truly have faith? Or are you trying to be my target of worship?	104072		BoardAct0202	10.667	10.667	10.667	10.667	1	-1	-1	1|8	1|2		
+1040303	1041003	0	0	0	10001	1	I will follow all your commands.	104073		BoardAct0203	5.333	5.333	5.333	5.333	1	-1	-1	1|8	1|2		
+1040304	1041003	0	0	0	120	-1	Constructs can't truly have faith? Or are you trying to be my target of worship?	104072		BoardAct0202	10.667	10.667	10.667	10.667	1	-1	-1	1|8	1|2		
+1040305	1041003	0	0	0	2	-1	Hmm, I'm not against it.	104079		BoardAct1001	5.667	5.667	5.667	5.667	1	-1	-1	1|8			
+1040306	1041003	0	0	0	10001	3	Never mind. I just need to get used to it.	104063		BoardAct1002	5.667	5.667	5.667	5.667	1	-1	-1	1|8			
+1040307	1041003	0	0	0	10001	4	Never mind. I just need to get used to it.	104063		BoardAct1002	5.667	5.667	5.667	5.667	1	-1	-1	1|8			
+1040308	1041003	0	0	0	10001	5	Never mind. I just need to get used to it.	104063		BoardAct1002	5.667	5.667	5.667	5.667	1	-1	-1	1|8			
+1040309	1041003	0	0	1	101	10	I don't know why but I'm a bit nervous seeing you.	104098		BoardAct1004	8.534	8.534	8.534	8.534	96	-1	-1	2|8			
+1040310	1041003	0	0	1	111	3600	Now you won't even listen to me any more?	104094		BoardAct1007	6.5	6.5	6.5	6.5	98	-1	-1	3|8			
+1040311	1041003	0	0	1	1	900	Am I not enough to have all your attention?	104092		BoardAct1005	6.834	6.834	6.834	6.834	97	-1	-1	4|8			
+1040312	1041003	0	0	0	10002	-1	Well, feel free to do whatever you want.	104059		BoardAct1003	6	6	6	6	1	-1	-1	5|8			
+1040313	1041003	0	0	2	102	2	It's been a long time since you've been to the base. What's wrong?	104099		BoardAct1006	9.834	9.834	9.834	9.834	99	-1	-1	6|8			
+1050101	1051001	0	0	0	10001	1	Nanami's pretty one of a kind! Take a closer look and you'll see.	105023		BoardAct0201	7.333	7.333	7.333	7.333	1	-1	-1	1|8	1|2		
+1050102	1051001	0	0	0	10001	1	Gray Raven is Nanami's first squad!	105020		BoardAct0202	6.667	6.667	6.667	6.71	1	-1	-1	1|8	1|2		
+1050103	1051001	0	0	0	10001	1	Who knows, maybe one day Nanami will just disappear altogether... So, please try to remember me.	105026		BoardAct0203	10.667	10.667	10.667	10.704	1	-1	-1	1|8	1|2		
+1050104	1051001	0	0	0	120	-1	Nanami's pretty one of a kind! Take a closer look and you'll see.	105023		BoardAct0201	7.333	7.333	7.333	7.333	1	-1	-1	1|8	1|2		
+1050105	1051001	0	0	0	2	-1	The more time I spend with you, the more I feel like I'm becoming a human...	105032		BoardAct1001	7.167	7.195	7.167	7.198	1	-1	-1	1|8			
+1050106	1051001	0	0	0	10001	3	And dodge! And... AH!	105062		BoardAct1002	6.167	6.167	6.167	8.034	1	-1	-1	1|8			
+1050107	1051001	0	0	0	10001	4	And dodge! And... AH!	105062		BoardAct1002	6.167	6.167	6.167	8.034	1	-1	-1	1|8			
+1050108	1051001	0	0	0	10001	5	And dodge! And... AH!	105062		BoardAct1002	6.167	6.167	6.167	8.034	1	-1	-1	1|8			
+1050301	1051003	0	0	0	10001	1	Stop eating in front of Nanami?! It makes me want to eat too...	105069		BoardAct0201	6.667	6.667	7.062	7.062	1	-1	-1	1|8	1|2		
+1050302	1051003	0	0	0	10001	1	Humans are all mysterious creatures to me. That's why Nanami is striving to be mysterious to humans too!	105071		BoardAct0202	12	12	12	12	1	-1	-1	1|8	1|2		
+1050303	1051003	0	0	0	10001	1	Nanami loves humans!	105073		BoardAct0203	4.667	4.667	4.667	4.667	1	-1	-1	1|8	1|2		
+1050304	1051003	0	0	0	120	-1	Nanami loves humans!	105073		BoardAct0203	4.667	4.667	4.667	4.667	1	-1	-1	1|8	1|2		
+1050305	1051003	0	0	0	2	-1	The more time I spend with you, the more I feel like I'm becoming a human...	105032		BoardAct1001	7.167	7.195	7.167	7.198	1	-1	-1	1|8			
+1050306	1051003	0	0	0	10001	3	And dodge! And... AH!	105062		BoardAct1002	8.033	8.033	8.033	8.034	1	-1	-1	1|8			
+1050307	1051003	0	0	0	10001	4	And dodge! And... AH!	105062		BoardAct1002	8.033	8.033	8.033	8.034	1	-1	-1	1|8			
+1050308	1051003	0	0	0	10001	5	And dodge! And... AH!	105062		BoardAct1002	8.033	8.033	8.033	8.034	1	-1	-1	1|8			
+1050309	1051003	0	0	1	101	10	Morning, meow! Is this how you humans like to greet each other?	105098		BoardAct1004	9.833	9.833	9.833	9.868	96	-1	-1	2|8			
+1050310	1051003	0	0	1	111	3600	There are important memories of me in your mind! What if you lose them all? Go take a break!	105097		BoardAct1007	13.134	13.134	13.134	13.134	98	-1	-1	3|8			
+1050311	1051003	0	0	1	1	900	Commandant, don't slack off during working hours, all right?	105090		BoardAct1005	6.7	6.7	6.7	6.756	97	-1	-1	4|8			
+1050312	1051003	0	0	0	10002	-1	Huh, you wanna play this again?	105057		BoardAct1003	5.334	5.334	5.334	5.334	1	-1	-1	5|8			
+1050313	1051003	0	0	2	102	2	Nanami thought you're lost...	105104		BoardAct1006	7.5	7.5	7.5	7.5	99	-1	-1	6|8			
+1060201	1061002	0	0	0	10001	1	Commandant! When are you going to take me on another mission—?!	106019		BoardAct0201	7.667	7.667	7.667	7.667	1	-1	-1	1|8	1|2		
+1060202	1061002	0	0	0	10001	1	The very thought of fighting next to you sends energy coursing through my body.	106022		BoardAct0202	7.333	7.333	7.333	7.333	1	-1	-1	1|8	1|2		
+1060203	1061002	0	0	0	10001	1	I wouldn't mind knowing what hunger feels like... but just charging up like us is also pretty convenient, right?	106017		BoardAct0203	8.667	10.172	8.667	8.667	1	-1	-1	1|8	1|2		
+1060204	1061002	0	0	0	120	-1	Commandant! When are you going to take me on another mission—?!	106019		BoardAct0201	7.667	7.667	7.667	7.667	1	-1	-1	1|8	1|2		
+1060205	1061002	0	0	0	2	-1	Oh yeah, we're the best buds!	106028		BoardAct1001	4.167	4.167	4.167	4.167	1	-1	-1	1|8			
+1060206	1061002	0	0	0	10001	3	Ah, so much poking. I'll get you back someday!	106064		BoardAct1002	8.5	8.5	8.5	8.5	1	-1	-1	1|8			
+1060207	1061002	0	0	0	10001	4	Ah, so much poking. I'll get you back someday!	106064		BoardAct1002	8.5	8.5	8.5	8.5	1	-1	-1	1|8			
+1060208	1061002	0	0	0	10001	5	Ah, so much poking. I'll get you back someday!	106064		BoardAct1002	8.5	8.5	8.5	8.5	1	-1	-1	1|8			
+1060301	1061003	0	0	0	10001	1	Have you eaten? You better. There's nothing to eat here if you get the munchies later.	106070		BoardAct0201	6.667	6.667	6.667	6.667	1	-1	-1	1|8	1|2		
+1060302	1061003	0	0	0	10001	1	You're the strangest Commandant I've ever seen... not that I'm complaining, haha!	106073		BoardAct0202	10.667	10.667	10.667	10.667	1	-1	-1	1|8	1|2		
+1060303	1061003	0	0	0	10001	1	You can't see the stars on our current Earth. Better spend the time thinking about tomorrow's operations instead.	106071		BoardAct0203	8.667	8.819	8.667	8.667	1	-1	-1	1|8	1|2		
+1060304	1061003	0	0	0	120	-1	Have you eaten? You better. There's nothing to eat here if you get the munchies later.	106070		BoardAct0201	6.667	6.667	6.667	6.667	1	-1	-1	1|8	1|2		
+1060305	1061003	0	0	0	2	-1	I once saw the term "besties" in a book. Are we besties?	106081		BoardAct1001	6.667	6.667	6.667	6.667	1	-1	-1	1|8			
+1060306	1061003	0	0	0	10001	3	Ah, so much poking. I'll get you back someday!	106064		BoardAct1002	9.833	9.833	9.833	9.833	1	-1	-1	1|8			
+1060307	1061003	0	0	0	10001	4	Ah, so much poking. I'll get you back someday!	106064		BoardAct1002	9.833	9.833	9.833	9.833	1	-1	-1	1|8			
+1060308	1061003	0	0	0	10001	5	Ah, so much poking. I'll get you back someday!	106064		BoardAct1002	9.833	9.833	9.833	9.833	1	-1	-1	1|8			
+1060309	1061003	0	0	1	101	10	Well, I'm ready for a fight.	106099		BoardAct1004	5.334	5.334	5.334	5.363	96	-1	-1	2|8			
+1060310	1061003	0	0	1	111	3600	As much as it's relieved to see you working so hard, there's no need to exhaust yourself.	106096		BoardAct1007	9.334	9.334	9.334	9.334	98	-1	-1	3|8			
+1060311	1061003	0	0	1	1	900	If you're bored, come roam all over the world with me! Just kidding...	106094		BoardAct1005	8	8.033	8	8	97	-1	-1	4|8			
+1060312	1061003	0	0	0	10002	-1	I... I'm a bit dizzy!	106058		BoardAct1003	6.5	6.5	6.5	6.5	1	-1	-1	5|8			
+1060313	1061003	0	0	2	102	2	It's been a while. How have you been?	106104		BoardAct1006	6.5	6.5	6.5	6.501	99	-1	-1	6|8			
+1070201	1071002	0	0	0	10001	1	Go organize the schedules already.	107016		BoardAct0201	3.5	3.5	4.254	4.254	1	-1	-1	1|8	1|2		
+1070202	1071002	0	0	0	10001	1	Will I ever find something in my life that's more important than battling?	107022		BoardAct0202	6.333	6.333	7.417	7.417	1	-1	-1	1|8	1|2		
+1070203	1071002	0	0	0	10001	1	Why do I hate Lucia? Because she's strong... I mean, nothing!	107019		BoardAct0203	8.333	8.333	8.333	8.333	1	-1	-1	1|8	1|2		
+1070204	1071002	0	0	0	120	-1	Go organize the schedules already.	107016		BoardAct0201	3.5	3.5	4.254	4.254	1	-1	-1	1|8	1|2		
+1070205	1071002	0	0	0	2	-1	You want to make me sharper? Then let me fight!	107029		BoardAct1001	4	4	5.118	5.118	1	-1	-1	1|8			
+1070206	1071002	0	0	0	10001	3	You want a taste of my cannon?!	107060		BoardAct1002	5	5	5	5	1	-1	-1	1|8			
+1070207	1071002	0	0	0	10001	4	You want a taste of my cannon?!	107060		BoardAct1002	5	5	5	5	1	-1	-1	1|8			
+1070208	1071002	0	0	0	10001	5	You want a taste of my cannon?!	107060		BoardAct1002	5	5	5	5	1	-1	-1	1|8			
+1070301	1071003	0	0	0	10001	1	Going to bed early will do you good. Ignore me at your peril.	107070		BoardAct0201	9.333	9.333	9.333	9.333	1	-1	-1	1|8	1|2		
+1070302	1071003	0	0	0	10001	1	Is every team you lead this stupid?	107072		BoardAct0202	5	5	5	5	1	-1	-1	1|8	1|2		
+1070303	1071003	0	0	0	10001	1	I will become stronger and earn my place by your side.	107075		BoardAct0203	8.333	8.333	8.333	8.359	1	-1	-1	1|8	1|2		
+1070304	1071003	0	0	0	120	-1	I will become stronger and earn my place by your side.	107075		BoardAct0203	8.333	8.333	8.333	8.359	1	-1	-1	1|8	1|2		
+1070305	1071003	0	0	0	2	-1	You want to make me sharper? Then let me fight!	107029		BoardAct1001	4	4	5.118	5.118	1	-1	-1	1|8			
+1070306	1071003	0	0	0	10001	3	You want a taste of my cannon?!	107060		BoardAct1002	4.333	4.333	4.333	4.342	1	-1	-1	1|8			
+1070307	1071003	0	0	0	10001	4	You want a taste of my cannon?!	107060		BoardAct1002	4.333	4.333	4.333	4.342	1	-1	-1	1|8			
+1070308	1071003	0	0	0	10001	5	You want a taste of my cannon?!	107060		BoardAct1002	4.333	4.333	4.333	4.342	1	-1	-1	1|8			
+1070309	1071003	0	0	1	101	10	Remember to let me know if you decide to sleep late next time...	107103		BoardAct1004	8.834	8.834	8.834	8.834	96	-1	-1	2|8			
+1070310	1071003	0	0	1	111	3600	Do you think I'd like to see you sick and hurt? Go take a rest now!	107098		BoardAct1007	9.534	9.534	9.534	9.534	98	-1	-1	3|8			
+1070311	1071003	0	0	1	1	900	I'll count to three and if you ignore me again, I... I'll never speak to you again!	107094		BoardAct1005	12.567	12.567	12.567	12.567	97	-1	-1	4|8			
+1070312	1071003	0	0	0	10002	-1	Hmph, it doesn't work for me any more!	107059		BoardAct1003	6.234	6.234	6.234	6.234	1	-1	-1	5|8			
+1070313	1071003	0	0	2	102	2	Mr. Commandant, it seems like you've connected to the wrong base. Hmph...	107106		BoardAct1006	7.834	7.834	7.834	7.871	99	-1	-1	6|8			
+1080201	1081002	0	0	0	10001	1	I'll stay right here. If anything weird happens, I'll let you know.	108018		BoardAct0201	5.667	5.667	5.667	5.735	1	-1	-1	1|8	1|2		
+1080202	1081002	0	0	0	10001	1	You have an immense power that can escape rules.	108025		BoardAct0202	8.333	8.333	8.333	8.359	1	-1	-1	1|8	1|2		
+1080203	1081002	0	0	0	10001	1	The night is dark and long. I know.	108021		BoardAct0203	6	6	6.103	6.103	1	-1	-1	1|8	1|2		
+1080204	1081002	0	0	0	120	-1	I'll stay right here. If anything weird happens, I'll let you know.	108018		BoardAct0201	5.667	5.667	5.667	5.735	1	-1	-1	1|8	1|2		
+1080205	1081002	0	0	0	2	-1	The last Commandant didn't go so far...	108031		BoardAct1001	5	5	5.371	5.371	1	-1	-1	1|8			
+1080206	1081002	0	0	0	10001	3	(Sighs) Poke if you have to.	108063		BoardAct1002	5.667	5.667	5.667	5.667	1	-1	-1	1|8			
+1080207	1081002	0	0	0	10001	4	(Sighs) Poke if you have to.	108063		BoardAct1002	5.667	5.667	5.667	5.667	1	-1	-1	1|8			
+1080208	1081002	0	0	0	10001	5	(Sighs) Poke if you have to.	108063		BoardAct1002	5.667	5.667	5.667	5.667	1	-1	-1	1|8			
+1080301	1081003	0	0	0	10001	1	One day, our favorite flowers will sprout upon this earth. Let's make this a reality.	108072		BoardAct0201	8	9.737	8	8	1	-1	-1	1|8	1|2		
+1080302	1081003	0	0	0	10001	1	At least the stars are worth looking at... Assuming there are no clouds.	108073		BoardAct0202	9	9	9	9.032	1	-1	-1	1|8	1|2		
+1080303	1081003	0	0	0	10001	1	For the rules I made, naturally, I get to break them.	108076		BoardAct0203	5.333	6.205	5.442	5.442	1	-1	-1	1|8	1|2		
+1080304	1081003	0	0	0	120	-1	One day, our favorite flowers will sprout upon this earth. Let's make this a reality.	108072		BoardAct0201	8	9.737	8	8	1	-1	-1	1|8	1|2		
+1080305	1081003	0	0	0	2	-1	As long as you're happy.	108085		BoardAct1001	3.667	4.2	4.439	4.439	1	-1	-1	1|8			
+1080306	1081003	0	0	0	10001	3	(Sighs) Poke if you have to.	108063		BoardAct1002	4.667	4.667	5.378	5.378	1	-1	-1	1|8			
+1080307	1081003	0	0	0	10001	4	(Sighs) Poke if you have to.	108063		BoardAct1002	4.667	4.667	5.378	5.378	1	-1	-1	1|8			
+1080308	1081003	0	0	0	10001	5	(Sighs) Poke if you have to.	108063		BoardAct1002	4.667	4.667	5.378	5.378	1	-1	-1	1|8			
+1090201	1091002	0	0	0	10001	1	Smiling is important!	109009		BoardAct0201	3	3	3	3.041	1	-1	-1	1|8	1|2		
+1090202	1091002	0	0	0	10001	1	How does it feel to create with me? It feels great, right?	109011		BoardAct0202	5	5	5	5.038	1	-1	-1	1|8	1|2		
+1090203	1091002	0	0	0	10001	1	The world is my canvas!	109010		BoardAct0203	5.167	5.167	5.167	5.201	1	-1	-1	1|8	1|2		
+1090204	1091002	0	0	0	120	-1	Smiling is important!	109009		BoardAct0201	3	3	3	3.041	1	-1	-1	1|8	1|2		
+1090205	1091002	0	0	0	2	-1	I didn't know you were this smooth, Commandant. Now how should I repay you...	109022		BoardAct1001	10	10	10	10.007	1	-1	-1	1|8			
+1090206	1091002	0	0	0	10001	3	Hahaha! It's itchy!	109088		BoardAct1002	4	4	4	4.04	1	-1	-1	1|8			
+1090207	1091002	0	0	0	10001	4	Hahaha! It's itchy!	109088		BoardAct1002	4	4	4	4.04	1	-1	-1	1|8			
+1090208	1091002	0	0	0	10001	5	Hahaha! It's itchy!	109088		BoardAct1002	4	4	4	4.04	1	-1	-1	1|8			
+1090209	1091002	0	0	1	101	10	I'll start looking for inspiration from Commandant today.	109072		BoardAct1004	7.167	7.167	7.167	7.198	96	-1	-1	2|8			
+1090210	1091002	0	0	1	111	3600	I'm also a bit tired, Commandant. Let's do some stretching together!	109069		BoardAct1007	9.534	9.534	9.534	9.566	98	-1	-1	3|8			
+1090211	1091002	0	0	1	1	900	Commandant, it's not the time for posing.	109063		BoardAct1005	6.434	6.434	6.434	6.478	97	-1	-1	4|8			
+1090212	1091002	0	0	0	10002	-1	Stop it... Commandant!	109086		BoardAct1003	7.367	7.367	7.367	7.407	1	-1	-1	5|8			
+1090213	1091002	0	0	2	102	2	Long time no see, Commandant! Come and give me some inspiration!	109081		BoardAct1006	5.767	5.767	5.767	5.804	99	-1	-1	6|8			
+1110201	1111002	0	0	0	10001	1	This place... is much bigger than a train carriage.	110010		BoardAct0201	5.333	5.333	5.333	5.34	1	-1	-1	1|8	1|2		
+1110202	1111002	0	0	0	10001	1	I kind of forget the feeling of living on a train recently.	110011		BoardAct0202	6.333	6.333	6.333	6.362	1	-1	-1	1|8	1|2		
+1110203	1111002	0	0	0	10001	1	Gray Raven... I used to see vultures back on the train.	110009		BoardAct0203	5.667	5.667	5.667	5.667	1	-1	-1	1|8	1|2		
+1110204	1111002	0	0	0	120	-1	I kind of forget the feeling of living on a train recently.	110011		BoardAct0202	6.333	6.333	6.333	6.362	1	-1	-1	1|8	1|2		
+1110205	1111002	0	0	0	2	-1	Thank you... I'll cherish it as much as I cherish my tools...	110023		BoardAct1001	9	9	9	9	1	-1	-1	1|8			
+1110206	1111002	0	0	0	10001	3	You act like a child.	110090		BoardAct1002	3.133	3.133	3.133	3.134	1	-1	-1	1|8			
+1110207	1111002	0	0	0	10001	4	You act like a child.	110090		BoardAct1002	3.133	3.133	3.133	3.134	1	-1	-1	1|8			
+1110208	1111002	0	0	0	10001	5	You act like a child.	110090		BoardAct1002	3.133	3.133	3.133	3.134	1	-1	-1	1|8			
+1120201	1121002	0	0	0	10001	1	Commandant, do you have a moment? I'd like to confirm some details about the mission.	111011		BoardAct0201	9.667	9.667	9.667	9.667	1	-1	-1	1|8	1|2		
+1120202	1121002	0	0	0	10001	1	I have set up a special channel for us. You can now contact me anytime you want... Not just for work.	111017		BoardAct0202	11.333	11.333	11.333	11.377	1	-1	-1	1|8	1|2		
+1120203	1121002	0	0	0	10001	1	I will give anything to bring you victory.	111019		BoardAct0203	3.833	3.833	3.833	3.877	1	-1	-1	1|8	1|2		
+1120204	1121002	0	0	0	120	-1	Commandant, do you have a moment? I'd like to confirm some details about the mission.	111011		BoardAct0201	9.667	9.667	9.667	9.667	1	-1	-1	1|8	1|2		
+1120205	1121002	0	0	0	2	-1	The present I want the most... is right before my eyes.	111032		BoardAct1001	5.167	5.262	5.167	5.167	1	-1	-1	1|8			
+1120206	1121002	0	0	0	10001	3	Is there something on me?	111052		BoardAct1002	3.333	3.333	3.709	3.709	1	-1	-1	1|8			
+1120207	1121002	0	0	0	10001	4	Is there something on me?	111052		BoardAct1002	3.333	3.333	3.709	3.709	1	-1	-1	1|8			
+1120208	1121002	0	0	0	10001	5	Is there something on me?	111052		BoardAct1002	3.333	3.333	3.709	3.709	1	-1	-1	1|8			
+1120301	1121003	0	0	0	10001	1	There might be a more efficient way to execute this tactic... Commandant? When did you arrive? I was just recapping an earlier mission.	123010		BoardAct0201	17.277	12.667	12.667	12.678	1	-1	-1	1|8	1|2		
+1120302	1121003	0	0	0	10001	1	The Chief of F.O.S. Military Command College... Brings back my past memories. It's okay, Commandant, I don't mind talking about the days when I was still a human. It is in fact a pleasure to talk to you... and discover what we have in common.	123015		BoardAct0202	34.175	28.467	28.467	28.467	1	-1	-1	1|8	1|2		
+1120303	1121003	0	0	0	10001	1	I hope I can continue walking by your side in the future. For that... I will not hold back.	123023		BoardAct0203	11.134	11.134	11.134	11.145	1	-1	-1	1|8	1|2		
+1120304	1121003	0	0	0	120	-1	I hope I can continue walking by your side in the future. For that... I will not hold back.	123023		BoardAct0203	11.134	11.134	11.134	11.145	1	-1	-1	1|8	1|2		
+1120305	1121003	0	0	0	2	-1	I want to give all the good things in this world to you.	123095		BoardAct1001	8.567	8.567	8.567	8.568	1	-1	-1	1|8			
+1120306	1121003	0	0	0	10001	3	Sometimes... I don't know how to respond to your action.	123060		BoardAct1002	5.667	5.667	5.667	5.667	1	-1	-1	1|8			
+1120307	1121003	0	0	0	10001	4	Sometimes... I don't know how to respond to your action.	123060		BoardAct1002	5.667	5.667	5.667	5.667	1	-1	-1	1|8			
+1120308	1121003	0	0	0	10001	5	Sometimes... I don't know how to respond to your action.	123060		BoardAct1002	5.667	5.667	5.667	5.667	1	-1	-1	1|8			
+1120309	1121003	0	0	1	101	10	Here you are, Commandant. Please confirm the mission schedule. I have highlighted the sections with high priority.	123048		BoardAct1004	10.545	9.834	9.834	9.5	96	-1	-1	2|8			
+1120310	1121003	0	0	1	111	3600	How can I make you take a rest that you really need?	123044		BoardAct1007	9.333	9.333	9.333	9.333	98	-1	-1	3|8			
+1120311	1121003	0	0	1	1	900	Commandant. Commandant? At least find a better spot to sleep. You'll get sick.	123039		BoardAct1005	12.833	12.833	12.833	12.863	97	-1	-1	4|8			
+1120312	1121003	0	0	0	10002	-1	Another unknown quake... Watch out, Commandant!	123055		BoardAct1003	7.6	7.6	7.6	8.772	1	-1	-1	5|8			
+1120313	1121003	0	0	2	102	2	Welcome back. Give me a call next time you run into a difficult problem. I will try my best to help you.	123054		BoardAct1006	11.3	11.3	11.3	11.331	99	-1	-1	6|8			
+1130201	1131002	0	0	0	10001	1	Commandant. Commandant. Commandant. You've been longing for this, haven't you?	112017		BoardAct0201	9.671	8.667	10.051	10.051	1	-1	-1	1|8	1|2		
+1130202	1131002	0	0	0	10001	1	You want to know about Cerberus' commandant? Save it. You're not getting anything from me.	112010		BoardAct0202	9.667	9.667	9.667	9.667	1	-1	-1	1|8	1|2		
+1130203	1131002	0	0	0	10001	1	I might not listen to your orders, but you'll always have to listen to what I say—That is the condition for me being here.	112019		BoardAct0203	11.973	10	10	10.007	1	-1	-1	1|8	1|2		
+1130204	1131002	0	0	0	120	-1	I might not listen to your orders, but you'll always have to listen to what I say—That is the condition for me being here.	112019		BoardAct0203	11.973	10	10	10.007	1	-1	-1	1|8	1|2		
+1130205	1131002	0	0	0	2	-1	I'll have this. And, would you kindly also hand in all the stuff you got for the others?	112030		BoardAct1001	8.667	8.667	8.667	8.667	1	-1	-1	1|8			
+1130206	1131002	0	0	0	10001	3	Is this an invitation? An invitation to your beheading?	112052		BoardAct1002	4.717	4.667	5.541	5.541	1	-1	-1	1|8			
+1130207	1131002	0	0	0	10001	4	Is this an invitation? An invitation to your beheading?	112052		BoardAct1002	4.717	4.667	5.541	5.541	1	-1	-1	1|8			
+1130208	1131002	0	0	0	10001	5	Is this an invitation? An invitation to your beheading?	112052		BoardAct1002	4.717	4.667	5.541	5.541	1	-1	-1	1|8			
+1510301	1511003	0	0	0	10001	1	I hate Kurono the most, the virus the second, and the third... What do you think it is? Of course, it's this world.	113014		BoardAct0201	15	15	15	15	1	-1	-1	1|8	1|2		
+1510302	1511003	0	0	0	10001	1	"Ah, that felt so good..." That's what you've been wanting to hear, yeah?	113019		BoardAct0202	8.667	8.667	8.667	8.667	1	-1	-1	1|8	1|2		
+1510303	1511003	0	0	0	10001	1	Even without the virus, this world would have fallen from something else. So try not to stay too far, or else I wouldn't be able to protect you.	113020		BoardAct0203	12.667	12.667	12.667	12.667	1	-1	-1	1|8	1|2		
+1510304	1511003	0	0	0	120	-1	Even without the virus, this world would have fallen from something else. So try not to stay too far, or else I wouldn't be able to protect you.	113020		BoardAct0203	12.667	12.667	12.667	12.667	1	-1	-1	1|8	1|2		
+1510305	1511003	0	0	0	2	-1	You're sending me gifts for a reason, trying to get something out of me, yeah? Just spill it.	113032		BoardAct1001	8.333	8.333	8.333	8.333	1	-1	-1	1|8			
+1510306	1511003	0	0	0	10001	3	You wanna know what happens when I go mad?	113052		BoardAct1002	6	6	6	6	1	-1	-1	1|8			
+1510307	1511003	0	0	0	10001	4	You wanna know what happens when I go mad?	113052		BoardAct1002	6	6	6	6	1	-1	-1	1|8			
+1510308	1511003	0	0	0	10001	5	You wanna know what happens when I go mad?	113052		BoardAct1002	6	6	6	6	1	-1	-1	1|8			
+1140301	1141003	0	0	0	10001	1	Forest Guards light bonfires, but not for warmth, but because the fire and the light dispels loneliness. Your room is bright, Commandant. I think that's nice.	114016		BoardAct0201	17.482	13.333	13.333	13.333	1	-1	-1	1|8	1|2		
+1140302	1141003	0	0	0	10001	1	In the past, I had to play the leader. My footsteps must pave a path for the Forest Guard. But now, I'd like to walk with you, side by side.	114019		BoardAct0202	15.821	15.667	15.667	15.667	1	-1	-1	1|8	1|2		
+1140303	1141003	0	0	0	10001	1	I never thought about the future or what will happen tomorrow. But since we got together, Commandant, I find myself driven to think about it.	114020		BoardAct0203	12.542	11.333	11.333	11.333	1	-1	-1	1|8	1|2		
+1140304	1141003	0	0	0	120	-1	I never thought about the future or what will happen tomorrow. But since we got together, Commandant, I find myself driven to think about it.	114020		BoardAct0203	12.542	11.333	11.333	11.333	1	-1	-1	1|8	1|2		
+1140305	1141003	0	0	0	2	-1	Why do we touch foreheads? This is the Forest Guard way of showing sincere thanks.	114032		BoardAct1001	9.833	9.833	9.833	9.833	1	-1	-1	1|8			
+1140306	1141003	0	0	0	10001	3	Commandant... Doesn't your finger hurt?	114051		BoardAct1002	5.3	5.3	5.3	5.3	1	-1	-1	1|8			
+1140307	1141003	0	0	0	10001	4	Commandant... Doesn't your finger hurt?	114051		BoardAct1002	5.3	5.3	5.3	5.3	1	-1	-1	1|8			
+1140308	1141003	0	0	0	10001	5	Commandant... Doesn't your finger hurt?	114051		BoardAct1002	5.3	5.3	5.3	5.3	1	-1	-1	1|8			
+1140309	1141003	0	0	1	101	10	Nothing unusual has happened. Please relax.	114042		BoardAct1004	4.767	4.767	4.767	4.806	96	-1	-1	2|8			
+1140310	1141003	0	0	1	111	3600	You don't have to take everything into your hands. Please rest.	114038		BoardAct1007	6	6	6	6	98	-1	-1	3|8			
+1140311	1141003	0	0	1	1	900	You're too relaxed. Daydreaming can be dangerous...	114033		BoardAct1005	6	6	6	6	97	-1	-1	4|8			
+1140312	1141003	0	0	0	10002	-1	An avalanche?! No, wait... This is the outer space...	114048		BoardAct1003	5.837	5.667	5.667	5.667	1	-1	-1	5|8			
+1140313	1141003	0	0	2	102	2	Whatever the case, I'm glad that you're back.	114047		BoardAct1006	7.267	7.267	7.267	7.267	99	-1	-1	6|8			
+1160201	1161002	0	0	0	10001	1	Let's see... Maintenance, snacks, mental health compensation... Well, seeing how we're good friends, I'll give you a discount. This should be nothing to you, yeah?	115009		BoardAct0201	11.733	11.733	11.733	11.772	1	-1	-1	1|8	1|2		
+1160202	1161002	0	0	0	10001	1	Wanna play a game? I'll toss this coin and... Woop. Now guess, heads or tails?	115015		BoardAct0202	12.17	11.333	11.333	11.333	1	-1	-1	1|8	1|2		
+1160203	1161002	0	0	0	10001	1	Commandant! Commandant? Commandant... Huh, nope, still feels weird. Think I'll just call you by your name.	115014		BoardAct0203	15.833	15.833	15.833	15.833	1	-1	-1	1|8	1|2		
+1160204	1161002	0	0	0	120	-1	Commandant! Commandant? Commandant... Huh, nope, still feels weird. Think I'll just call you by your name.	115014		BoardAct0203	15.833	15.833	15.833	15.833	1	-1	-1	1|8	1|2		
+1160205	1161002	0	0	0	2	-1	Got anything you want? I'm not the kind to just keep mooching presents off people...	115036		BoardAct1001	8.333	8.333	8.333	8.333	1	-1	-1	1|8			
+1160206	1161002	0	0	0	10001	3	You keep rubbing my head and I can't grow taller!	115066		BoardAct1002	5.562	3.421	4.215	4.215	1	-1	-1	1|8			
+1160207	1161002	0	0	0	10001	4	You keep rubbing my head and I can't grow taller!	115066		BoardAct1002	5.562	3.421	4.215	4.215	1	-1	-1	1|8			
+1160208	1161002	0	0	0	10001	5	You keep rubbing my head and I can't grow taller!	115066		BoardAct1002	5.562	3.421	4.215	4.215	1	-1	-1	1|8			
+1160209	1161002	0	0	1	101	10	Yaaawn... Waking early makes you a dummy... Let's just go to work later.	115054		BoardAct1004	10.279	7.333	8.301	8.301	96	-1	-1	2|8			
+1160210	1161002	0	0	1	111	3600	I'll help you with your work. Uh, not the paperwork kind, yeah? The tiny scribbles give me headaches.	115049		BoardAct1007	9.766	8.8	8.856	8.856	98	-1	-1	3|8			
+1160211	1161002	0	0	1	1	900	Yaaawn... Oh, nobody's around? Guess I can clock out.	115041		BoardAct1005	7.189	6.633	7.823	7.823	97	-1	-1	4|8			
+1160212	1161002	0	0	0	10002	-1	Hah! As still as the mountains.	115064		BoardAct1003	4.9	4.9	4.9	4.9	1	-1	-1	5|8			
+1160213	1161002	0	0	2	102	2	We promised before. Who leaves without notice gets a flick on the forehead. C'mon, I'll be gentle.	115061		BoardAct1006	12.367	12.367	12.367	12.367	99	-1	-1	6|8			
+1520301	1521003	0	0	0	10001	1	I may have come to Babylonia, but that does not entail my subordination to you. Know your place.	116009		BoardAct0201	11.667	11.667	11.667	11.702	1	-1	-1	1|8	1|2		
+1520302	1521003	0	0	0	10001	1	When the last ember of hope fades in this age... To leave traces that we've existed, for them to sail through endless aeons, ossifying into eternal perfection—Is that not the most beautiful thing?	116017		BoardAct0202	23.053	19.333	19.333	19.333	1	-1	-1	1|8	1|2		
+1520303	1521003	0	0	0	10001	1	Reminds me... Would you like to call me Lady Qu like my subordinates? I think it might be quite amusing for you to call me so.	116023		BoardAct0203	16	16	16	16	1	-1	-1	1|8	1|2		
+1520304	1521003	0	0	0	120	-1	Reminds me... Would you like to call me Lady Qu like my subordinates? I think it might be quite amusing for you to call me so.	116023		BoardAct0203	16	16	16	16	1	-1	-1	1|8	1|2		
+1520305	1521003	0	0	0	2	-1	You might as well make yourself into a statue and hand yourself over to me. I will display it somewhere conspicuous in Kowloong... I jest. You are best teeming with life.	116104		BoardAct1001	18.777	17.333	17.333	17.368	1	-1	-1	1|8			
+1520306	1521003	0	0	0	10001	3	Ngh... Do you not know what respect is?	116066		BoardAct1002	7.967	7.967	7.967	7.967	1	-1	-1	1|8			
+1520307	1521003	0	0	0	10001	4	Ngh... Do you not know what respect is?	116066		BoardAct1002	7.967	7.967	7.967	7.967	1	-1	-1	1|8			
+1520308	1521003	0	0	0	10001	5	Ngh... Do you not know what respect is?	116066		BoardAct1002	7.967	7.967	7.967	7.967	1	-1	-1	1|8			
+1520309	1521003	0	0	1	101	10	You are here. Have you eaten? What is it...? Do you find it strange that I engage in such pleasantries?	116054		BoardAct1004	11.809	11	11	11	96	-1	-1	2|8			
+1520310	1521003	0	0	1	111	3600	I can handle the paperwork... What is it? You dare doubt the prowess of the leader of Kowloong...? You aren't? Then go rest! But remember, just this once.	116050		BoardAct1007	19	19	19	19.04	98	-1	-1	3|8			
+1520311	1521003	0	0	1	1	900	Asleep...? Very well, you may have a ten-minute rest.	116042		BoardAct1005	10.667	10.667	10.667	10.667	97	-1	-1	4|8			
+1520312	1521003	0	0	0	10002	-1	Ah... Not an issue. Keep your posture in mind.	116064		BoardAct1003	7	7	7	7.035	1	-1	-1	5|8			
+1520313	1521003	0	0	2	102	2	I thought you were about to give up in your struggles... I can't tell if this is joy, or woe that I feel.	116061		BoardAct1006	13.088	12.533	12.533	12.538	99	-1	-1	6|8			
+1170301	1171003	0	0	0	10001	1	Babylonia... I used to fantasize about this place as well.	120012		BoardAct0201	8.667	8.667	8.667	8.707	1	-1	-1	1|8	1|2		
+1170302	1171003	0	0	0	10001	1	Truth about Ascension-Network? There are answers that you might not like. Just keep the way you are. That's enough.	120017		BoardAct0202	15.334	15.334	15.334	15.334	1	-1	-1	1|8	1|2		
+1170303	1171003	0	0	0	10001	1	What do you imagine the world will be like when humans become extinct? Don't be alarmed. I just want to hear your thoughts.	120016		BoardAct0203	12.834	12.834	12.834	12.84	1	-1	-1	1|8	1|2		
+1170304	1171003	0	0	0	120	-1	What do you imagine the world will be like when humans become extinct? Don't be alarmed. I just want to hear your thoughts.	120016		BoardAct0203	12.834	12.834	12.834	12.84	1	-1	-1	1|8	1|2		
+1170305	1171003	0	0	0	2	-1	If you're capable of this, you must be willing to go against the history, right?	120026		BoardAct1001	10	10	10	10.007	1	-1	-1	1|8			
+1170306	1171003	0	0	0	10001	3	Pointless act. Is it going to make you happy?	120058		BoardAct1002	6	6	6	6.037	1	-1	-1	1|8			
+1170307	1171003	0	0	0	10001	4	Pointless act. Is it going to make you happy?	120058		BoardAct1002	6	6	6	6.037	1	-1	-1	1|8			
+1170308	1171003	0	0	0	10001	5	Pointless act. Is it going to make you happy?	120058		BoardAct1002	6	6	6	6.037	1	-1	-1	1|8			
+1170309	1171003	0	0	1	101	10	You always seem to have a question for me. That is the nature of human curiosity towards the unknown... Some are destroyed, while others are revived. What does the future hold for you?	120048		BoardAct1004	30.192	21.834	21.834	21.834	96	-1	-1	2|8			
+1170310	1171003	0	0	1	111	3600	The world will not come to an end just because you take a break. I guarantee it.	120044		BoardAct1007	8.834	8.834	8.834	8.834	98	-1	-1	3|8			
+1170311	1171003	0	0	1	1	900	Did a team member ever tell you that the way you sleep makes people want to play a prank on you?	120039		BoardAct1005	10.334	10.334	10.334	10.402	97	-1	-1	4|8			
+1170312	1171003	0	0	0	10002	-1	...Lucia.	120056		BoardAct1003	5	5	5	5	1	-1	-1	5|8			
+1170313	1171003	0	0	2	102	2	If you, too, want to quit everything, humans have no place in this world.	120053		BoardAct1006	10.167	10.167	10.167	10.167	99	-1	-1	6|8			
+1180301	1181003	0	0	0	10001	1	I need to know if you've seen any new trends or behaviors among the machines.	117014		BoardAct0201	9.934	9.934	9.934	9.934	1	-1	-1	1|8	1|2		
+1180302	1181003	0	0	0	10001	1	Glory... to mankind.	117017		BoardAct0202	3.834	3.834	3.834	3.834	1	-1	-1	1|8	1|2		
+1180303	1181003	0	0	0	10001	1	What is it that separates machines from androids like us?	117015		BoardAct0203	11.434	11.434	11.434	11.434	1	-1	-1	1|8	1|2		
+1180304	1181003	0	0	0	120	-1	What is it that separates machines from androids like us?	117015		BoardAct0203	11.434	11.434	11.434	11.434	1	-1	-1	1|8	1|2		
+1180305	1181003	0	0	0	2	-1	Human culture?	117021		BoardAct1001	5.734	5.734	5.734	5.734	1	-1	-1	1|8			
+1180306	1181003	0	0	0	10001	3	What's wrong?	117050		BoardAct1002	5	5	5	5	1	-1	-1	1|8			
+1180307	1181003	0	0	0	10001	4	What's wrong?	117050		BoardAct1002	5	5	5	5	1	-1	-1	1|8			
+1180308	1181003	0	0	0	10001	5	What's wrong?	117050		BoardAct1002	5	5	5	5	1	-1	-1	1|8			
+1180309	1181003	0	0	1	101	10	This is 2B. All going well.	117042		BoardAct1004	3.9	3.9	3.9	3.9	96	-1	-1	2|8			
+1180310	1181003	0	0	1	111	3600	What a waste of time.	117036		BoardAct1007	4.934	4.934	4.934	4.934	98	-1	-1	3|8			
+1180311	1181003	0	0	1	1	900	There's no point trying to work out unsolvable problems.	117034		BoardAct1005	5.3	5.3	5.3	5.3	97	-1	-1	4|8			
+1180312	1181003	0	0	0	10002	-1	Yeah?	117047		BoardAct1003	3.334	3.334	3.334	3.334	1	-1	-1	5|8			
+1180313	1181003	0	0	2	102	2	I'm glad you're okay...	117046		BoardAct1006	4.234	4.234	4.234	4.234	99	-1	-1	6|8			
+1190301	1191003	0	0	0	10001	1	Do you think they even understand the concept of being scared?	118014		BoardAct0201	6	6	6	6	1	-1	-1	1|8	1|2		
+1190302	1191003	0	0	0	10001	1	Oh, don't worry. We 9S models are the best around, you know. Though I suppose we're not exactly known for our modesty.	118016		BoardAct0202	11.834	11.834	11.834	11.834	1	-1	-1	1|8	1|2		
+1190303	1191003	0	0	0	10001	1	This is 9S. Nothing to report. Weather's sure nice today, though!	118015		BoardAct0203	8.934	8.934	8.934	8.934	1	-1	-1	1|8	1|2		
+1190304	1191003	0	0	0	120	-1	This is 9S. Nothing to report. Weather's sure nice today, though!	118015		BoardAct0203	8.934	8.934	8.934	8.934	1	-1	-1	1|8	1|2		
+1190305	1191003	0	0	0	2	-1	Why are you talking to me like I'm a child?	118023		BoardAct1001	5.5	5.5	5.5	5.5	1	-1	-1	1|8			
+1190306	1191003	0	0	0	10001	3	It's trying to hack us!	118045		BoardAct1002	3.334	3.334	3.334	3.334	1	-1	-1	1|8			
+1190307	1191003	0	0	0	10001	4	It's trying to hack us!	118045		BoardAct1002	3.334	3.334	3.334	3.334	1	-1	-1	1|8			
+1190308	1191003	0	0	0	10001	5	It's trying to hack us!	118045		BoardAct1002	3.334	3.334	3.334	3.334	1	-1	-1	1|8			
+1190309	1191003	0	0	1	101	10	Hm? What's up?	118038		BoardAct1004	2.733	2.733	2.733	2.733	96	-1	-1	2|8			
+1190310	1191003	0	0	1	111	3600	Try not to act so recklessly, all right?	118036		BoardAct1007	6.067	6.067	6.067	6.067	98	-1	-1	3|8			
+1190311	1191003	0	0	1	1	900	Uh, hellooo? Go ahead and adjust your settings so you can hear me, all right?	118032		BoardAct1005	8.167	8.167	8.167	8.167	97	-1	-1	4|8			
+1190312	1191003	0	0	0	10002	-1	There's gotta be an easier way, right?	118046		BoardAct1003	2.667	2.667	2.667	2.667	1	-1	-1	5|8			
+1190313	1191003	0	0	2	102	2	I take it you hate me, huh?	118043		BoardAct1006	5.167	5.167	5.167	5.167	99	-1	-1	6|8			
+1200301	1201003	0	0	0	10001	1	My intention is to beat the hell out of every god damn machine I can find! Is that enough for you?!	119011		BoardAct0201	8.167	8.167	8.167	8.167	1	-1	-1	1|8	1|2		
+1200302	1201003	0	0	0	10001	1	Some records on old humans... Damn it, this is useless. There's too many of them.	119013		BoardAct0202	6.667	6.667	6.667	6.667	1	-1	-1	1|8	1|2		
+1200303	1201003	0	0	0	10001	1	Machines don't have souls. They're just murder bots with a fancy name.	119012		BoardAct0203	8.667	8.667	8.667	8.667	1	-1	-1	1|8	1|2		
+1200304	1201003	0	0	0	120	-1	Machines don't have souls. They're just murder bots with a fancy name.	119012		BoardAct0203	8.667	8.667	8.667	8.667	1	-1	-1	1|8	1|2		
+1200305	1201003	0	0	0	2	-1	Then I'll accept it.	119022		BoardAct1001	3	3	3	3	1	-1	-1	1|8			
+1200306	1201003	0	0	0	10001	3	I'd be more concerned about me smashing your face if I were you.	119035		BoardAct1002	3.334	3.334	3.334	3.334	1	-1	-1	1|8			
+1200307	1201003	0	0	0	10001	4	I'd be more concerned about me smashing your face if I were you.	119035		BoardAct1002	3.334	3.334	3.334	3.334	1	-1	-1	1|8			
+1200308	1201003	0	0	0	10001	5	I'd be more concerned about me smashing your face if I were you.	119035		BoardAct1002	3.334	3.334	3.334	3.334	1	-1	-1	1|8			
+1200309	1201003	0	0	1	101	10	Look, just stay out of my way.	119031		BoardAct1004	4.267	4.267	4.267	4.267	96	-1	-1	2|8			
+1200310	1201003	0	0	1	111	3600	What's this guy like?	119029		BoardAct1007	4.667	4.667	4.667	4.667	98	-1	-1	3|8			
+1200311	1201003	0	0	1	1	900	Well, aren't you helpful...	119026		BoardAct1005	3.167	3.167	3.167	3.167	97	-1	-1	4|8			
+1200312	1201003	0	0	0	10002	-1	What the hell are you doing?!	119034		BoardAct1003	3.167	3.167	3.167	3.167	1	-1	-1	5|8			
+1200313	1201003	0	0	2	102	2	Hey! Are you okay?	119033		BoardAct1006	4.4	4.4	4.4	4.4	99	-1	-1	6|8			
+1210201	1211002	0	0	0	10001	1	Um... (Yawn)	122009		BoardAct0201	4.167	4.167	4.167	4.202	1	-1	-1	1|8	1|2		
+1210202	1211002	0	0	0	10001	1	Here we are again, Commandant. Well, when is it you say? It was when I went to bed last night... Captain, stop knocking! It was a dream, a dream!	122017		BoardAct0202	18.473	16.667	16.667	16.718	1	-1	-1	1|8	1|2		
+1210203	1211002	0	0	0	10001	1	Here you are... How weird that I don't wanna close my eyes.	122023		BoardAct0203	16	16	16	16.068	1	-1	-1	1|8	1|2		
+1210204	1211002	0	0	0	120	-1	Um... (Yawn)	122009		BoardAct0201	4.167	4.167	4.167	4.202	1	-1	-1	1|8	1|2		
+1210205	1211002	0	0	0	2	-1	Here's my gift for you in return. Well, it's tall and big, tell me you see it. (Referring to himself)	122097		BoardAct1001	12.934	12.934	12.934	12.934	1	-1	-1	1|8			
+1210206	1211002	0	0	0	10001	3	Are you trying to perform maintenance on me?	122058		BoardAct1002	6.767	6.767	6.767	6.767	1	-1	-1	1|8			
+1210207	1211002	0	0	0	10001	4	Are you trying to perform maintenance on me?	122058		BoardAct1002	6.767	6.767	6.767	6.767	1	-1	-1	1|8			
+1210208	1211002	0	0	0	10001	5	Are you trying to perform maintenance on me?	122058		BoardAct1002	6.767	6.767	6.767	6.767	1	-1	-1	1|8			
+1210209	1211002	0	0	1	101	10	Good morning, good afternoon, good night... One of them has got to be right.	122048		BoardAct1004	12.067	12.067	12.067	12.067	96	-1	-1	2|8			
+1210210	1211002	0	0	1	111	3600	It's mandatory sleeping time, good night.	122043		BoardAct1007	7.334	7.334	7.334	7.383	98	-1	-1	3|8			
+1210211	1211002	0	0	1	1	900	A new discovery. It's an effective way to rest and charge by watching you in silence.	122040		BoardAct1005	12.234	12.234	12.234	12.234	97	-1	-1	4|8			
+1210212	1211002	0	0	0	10002	-1	Commandant, have you ever heard of something as "waking up on the wrong side of the bed"?	122055		BoardAct1003	14.667	14.667	14.667	14.698	1	-1	-1	5|8			
+1210213	1211002	0	0	2	102	2	It's weird how much it bothers me that I could only dream about you.	122054		BoardAct1006	7.334	7.334	7.334	7.334	99	-1	-1	6|8			
+1530301	1531003	0	0	0	10001	1	I heard... a signal from the depths of the tempest.	121009		BoardAct0201	7.334	7.334	7.334	7.337	1	-1	-1	1|8	1|2		
+1530302	1531003	0	0	0	10001	1	I had a long nightmare, wandering in solitude till I forgot what I was like at the beginning. Later I saw the light and followed it for quite a while, then I saw you.	121017		BoardAct0202	23.334	23.334	23.334	23.359	1	-1	-1	1|8	1|2		
+1530303	1531003	0	0	0	10001	1	I can't picture the world after the war is over. But I can see the smile in your face in that peaceful world. I guess it's all I've been fighting for so far.	121023		BoardAct0203	29.2	29.2	29.2	29.2	1	-1	-1	1|8	1|2		
+1530304	1531003	0	0	0	120	-1	I heard... a signal from the depths of the tempest.	121009		BoardAct0201	7.334	7.334	7.334	7.337	1	-1	-1	1|8	1|2		
+1530305	1531003	0	0	0	2	-1	If it's an iris, could you pin it to my sideburns? Yeah, above the hairband.	121095		BoardAct1001	10.667	10.667	10.667	10.727	1	-1	-1	1|8			
+1530306	1531003	0	0	0	10001	3	Put your hand here for a while, will you?	121060		BoardAct1002	9.3	9.3	9.3	9.357	1	-1	-1	1|8			
+1530307	1531003	0	0	0	10001	4	Put your hand here for a while, will you?	121060		BoardAct1002	9.3	9.3	9.3	9.357	1	-1	-1	1|8			
+1530308	1531003	0	0	0	10001	5	Put your hand here for a while, will you?	121060		BoardAct1002	9.3	9.3	9.3	9.357	1	-1	-1	1|8			
+1530309	1531003	0	0	1	101	10	The iris is stunning today, please take a look at her.	121053		BoardAct1004	9.334	9.334	9.334	9.357	96	-1	-1	2|8			
+1530310	1531003	0	0	1	111	3600	Come and rest on my lap. Well, just like this, quietly... (Sound fading)	121045		BoardAct1007	9.434	9.434	9.434	9.473	98	-1	-1	3|8			
+1530311	1531003	0	0	1	1	900	Are you asleep?... In that case, I guess you wouldn't notice if I nestle in your embrace for a while, right?	121038		BoardAct1005	16.234	16.234	16.234	16.277	97	-1	-1	4|8			
+1530312	1531003	0	0	0	10002	-1	Ah! (soft and urgent). Will you hold my hands?	121057		BoardAct1003	4.434	4.434	4.434	4.458	1	-1	-1	5|8			
+1530313	1531003	0	0	2	102	2	Commandant... where are you? I don't want to... be here alone...	121054		BoardAct1006	11.034	11.034	11.034	11.034	99	-1	-1	6|8			
+1220201	1221002	0	0	0	10001	1	Sniff... It's the real commandant... Buddy, do not attack.	124020		BoardAct0201	12.677	12.677	12.677	12.677	1	-1	-1	1|8	1|2		
+1220202	1221002	0	0	0	10001	1	Is the institute a quiet place, too? Not really. But here... I can hear your heartbeats. Thump-thump... Thump-thump...	124022		BoardAct0202	19.133	19.133	19.133	19.133	1	-1	-1	1|8	1|2		
+1220203	1221002	0	0	0	10001	1	My boundary... has already expanded to the base's entrance. This is my territory now.	124018		BoardAct0203	12.733	12.733	12.733	12.77	1	-1	-1	1|8	1|2		
+1220204	1221002	0	0	0	120	-1	My boundary... has already expanded to the base's entrance. This is my territory now.	124018		BoardAct0203	12.733	12.733	12.733	12.77	1	-1	-1	1|8	1|2		
+1220205	1221002	0	0	0	2	-1	Munch... I've heard from the terminal that biting someone's cheek is a way of showing gratitude... I shouldn't do that to everyone casually? ...What's "casually"?	124095		BoardAct1001	19.767	19.767	19.767	19.767	1	-1	-1	1|8			
+1220206	1221002	0	0	0	10001	3	Hmm... Head... head pat is... UwU...	124060		BoardAct1002	7.9	7.9	7.9	7.941	1	-1	-1	1|8			
+1220207	1221002	0	0	0	10001	4	Hmm... Head... head pat is... UwU...	124060		BoardAct1002	7.9	7.9	7.9	7.941	1	-1	-1	1|8			
+1220208	1221002	0	0	0	10001	5	Hmm... Head... head pat is... UwU...	124060		BoardAct1002	7.9	7.9	7.9	7.941	1	-1	-1	1|8			
+1220209	1221002	0	0	1	101	10	Hmph, Gray Raven Commandant.	124048		BoardAct1004	6.3	6.3	6.3	6.339	96	-1	-1	2|8			
+1220210	1221002	0	0	1	111	3600	There were 20 of me before I was born... but they were all scrapped because of malfunctions. Commandant... please don't break down.	124044		BoardAct1007	16.233	16.233	16.233	17.368	98	-1	-1	3|8			
+1220211	1221002	0	0	1	1	900	(Snoring...) You seem to have slept well over there, so I've tried it out myself.	124040		BoardAct1005	16.567	16.567	16.567	16.602	97	-1	-1	4|8			
+1220212	1221002	0	0	0	10002	-1	Experiment error... Frame unresponsive...	124056		BoardAct1003	11.1	11.1	11.1	11.145	1	-1	-1	5|8			
+1220213	1221002	0	0	2	102	2	Did you find a new organization out there? Could you take me there with you?	124054		BoardAct1006	9.5	9.5	9.5	9.543	99	-1	-1	6|8			
+1130301	1131003	0	0	0	10001	1	(Sniffs) It's the real commandant... Easy now, Buddy.	125017		BoardAct0201	20.667	20.667	20.667	20.667	1	-1	-1	1|8	1|2		
+1130302	1131003	0	0	0	10001	1	Is the institute a quiet place too? Yep, but here... I can hear your heartbeats. Thump-thump... Thump-thump...	125018		BoardAct0202	20.6	20.6	20.6	20.6	1	-1	-1	1|8	1|2		
+1130303	1131003	0	0	0	10001	1	My boundary... has already expanded to the base's entrance. This place belongs to me now.	125021		BoardAct0203	20.967	20.967	20.967	20.967	1	-1	-1	1|8	1|2		
+1130304	1131003	0	0	0	120	-1	My boundary... has already expanded to the base's entrance. This place belongs to me now.	125021		BoardAct0203	20.967	20.967	20.967	20.967	1	-1	-1	1|8	1|2		
+1130305	1131003	0	0	0	2	-1	...Om! (Bites the player's face) I've heard from a machine that biting your cheek is a way of showing gratitude... I shouldn't do...? Why?	125031		BoardAct1001	13.1	13.1	13.1	13.1	1	-1	-1	1|8			
+1130306	1131003	0	0	0	10001	3	Hmm... Head... head pat is... Wuuu...	125060		BoardAct1002	9	9	9	9	1	-1	-1	1|8			
+1130307	1131003	0	0	0	10001	4	Hmm... Head... head pat is... Wuuu...	125060		BoardAct1002	9	9	9	9	1	-1	-1	1|8			
+1130308	1131003	0	0	0	10001	5	Hmm... Head... head pat is... Wuuu...	125060		BoardAct1002	9	9	9	9	1	-1	-1	1|8			
+1130309	1131003	0	0	1	101	10	Whee, Commandant of the Gray Raven.	125053		BoardAct1004	19	19	19	19	96	-1	-1	2|8			
+1130310	1131003	0	0	1	111	3600	There were 20 of me before I was born... But they were all scrapped because of malfunctions. Commandant... please don't break down.	125044		BoardAct1007	11.1	11.1	11.1	11.168	98	-1	-1	3|8			
+1130311	1131003	0	0	1	1	900	(Snoring...) You seem to have slept well over there, so I've tried it out myself.	125040		BoardAct1005	20.867	20.867	20.867	20.867	97	-1	-1	4|8			
+1130312	1131003	0	0	0	10002	-1	Errors occurred during the experiment. Ad-adverse responses from the frame...	125056		BoardAct1003	6.333	6.333	6.333	6.333	1	-1	-1	5|8			
+1130313	1131003	0	0	2	102	2	Did you find a new organization out there? Could you take me there with you?	125054		BoardAct1006	7.567	7.567	7.567	7.592	99	-1	-1	6|8			
+1540301	1541003	0	0	0	10001	1	I talk too much? Don't worry, I'll be more careful in the future. Hm... I feel like someone said that to me a long time ago too, but he's... What do you think happened to him?	126010		BoardAct0201	21.8	21.8	21.8	21.8	1	-1	-1	1|8	1|2		
+1540302	1541003	0	0	0	10001	1	Hola, amigo! Haha, I've been wearing this mask for so long that it's not even a mask anymore. The phrases I used to say behind it just slip out naturally now. How would you treat a jester like me?	126015		BoardAct0202	19.934	19.934	19.934	19.934	1	-1	-1	1|8	1|2		
+1540303	1541003	0	0	0	10001	1	"If only we had met sooner..." Humans always love to fantasize like that. Though lines like that are quite easy to say in some situations, like... now.	126023		BoardAct0203	21.834	21.834	21.834	21.834	1	-1	-1	1|8	1|2		
+1540304	1541003	0	0	0	120	-1	"If only we had met sooner..." Humans always love to fantasize like that. Though lines like that are quite easy to say in some situations, like... now.	126023		BoardAct0203	21.834	21.834	21.834	21.834	1	-1	-1	1|8	1|2		
+1540305	1541003	0	0	0	2	-1	Maybe I should reciprocate your passion by being more honest. The gifts I want are love, justice, and dreams... Hahaha, just kidding. I don't need those because I've already found a replacement for them.	126095		BoardAct1001	23.834	23.834	23.834	23.834	1	-1	-1	1|8			
+1540306	1541003	0	0	0	10001	3	I understand that humans tend to use the sensation of touch to confirm the existence of others. Since that's the case, why not try touching me in other ways too?	126060		BoardAct1002	22.2	22.2	22.2	22.2	1	-1	-1	1|8			
+1540307	1541003	0	0	0	10001	4	I understand that humans tend to use the sensation of touch to confirm the existence of others. Since that's the case, why not try touching me in other ways too?	126060		BoardAct1002	22.2	22.2	22.2	22.2	1	-1	-1	1|8			
+1540308	1541003	0	0	0	10001	5	I understand that humans tend to use the sensation of touch to confirm the existence of others. Since that's the case, why not try touching me in other ways too?	126060		BoardAct1002	22.2	22.2	22.2	22.2	1	-1	-1	1|8			
+1540309	1541003	0	0	1	101	10	Good morning. Looks like I won't be wasting away today since you're here. So, is there something you had in mind for us to achieve together? Yes, the two of us together.	126053		BoardAct1004	17	17	17	17	96	-1	-1	2|8			
+1540310	1541003	0	0	1	111	3600	Oh, you're so tired that you can't even make the correct judgments? How can I ever pass up on this perfect opportunity? Come over here and rest. Yes, that's it, right by my side. It doesn't matter if you're mistaking me for someone else. I can play the part of the one who can ease you to sleep...	126045		BoardAct1007	24.034	24.034	24.034	24.034	98	-1	-1	3|8			
+1540311	1541003	0	0	1	1	900	Aw, look at you sleep. If you knew that I was holding your hand right now, what would you do in your dreams? What excuses should I make when you wake up? Or perhaps, you would allow me to continue holding your hand...?	126040		BoardAct1005	29.667	29.667	29.667	29.667	97	-1	-1	4|8			
+1540312	1541003	0	0	0	10002	-1	Oh, dear me! I seem to have tripped and fallen. Now my frame is going to stop functioning, and there's nothing I can do other than wait for you to help me... Stop being ridiculous? Sigh, I thought you were looking forward to scenarios like this.	126055		BoardAct1003	20.567	20.567	20.567	20.567	1	-1	-1	5|8			
+1540313	1541003	0	0	2	102	2	Everything becomes stagnant and unreal when you're not around... Who would mind wasting time that isn't real?	126054		BoardAct1006	17.467	17.467	17.467	17.507	99	-1	-1	6|8			
+1030401	1031004	0	0	0	10001	1	Lucia rarely brings this up, but she actually cares about what you say. Lee is sometimes very blunt, but he cares about you as much as I do. As long as you and everyone are safe and sound, everything I've done will be worth it.	127017		BoardAct0201	27.411	23.334	23.334	23.334	1	-1	-1	1|8	1|2		
+1030402	1031004	0	0	0	10001	1	Prayers, oaths, and miracles are like causes and effects. What keeps me here with you still at this moment is the fierce wish I had in my heart.	127019		BoardAct0202	19.874	19.334	19.334	19.334	1	-1	-1	1|8	1|2		
+1030403	1031004	0	0	0	10001	1	If meeting you is a miracle, is this endless heat in my chest the price for it?	127020		BoardAct0203	14.075	13.334	13.334	13.334	1	-1	-1	1|8	1|2		
+1030404	1031004	0	0	0	120	-1	If meeting you is a miracle, is this endless heat in my chest the price for it?	127020		BoardAct0203	14.075	13.334	13.334	13.334	1	-1	-1	1|8	1|2		
+1030405	1031004	0	0	0	2	-1	Yeah. I love it. The scenery full of the vitality of life. It makes me wonder what Earth will be like with all life restored... and how it feels to stand with you in that future.	127097		BoardAct1001	19.334	19.334	19.334	19.365	1	-1	-1	1|8			
+1030406	1031004	0	0	0	10001	3	What's wrong? Don't worry... I'm here with you.	127058		BoardAct1002	10.194	9.334	9.334	9.334	1	-1	-1	1|8			
+1030407	1031004	0	0	0	10001	4	What's wrong? Don't worry... I'm here with you.	127058		BoardAct1002	10.194	9.334	9.334	9.334	1	-1	-1	1|8			
+1030408	1031004	0	0	0	10001	5	What's wrong? Don't worry... I'm here with you.	127058		BoardAct1002	10.194	9.334	9.334	9.334	1	-1	-1	1|8			
+1030409	1031004	0	0	1	101	10	Please stay a little longer before "daybreak" arrives.	127050		BoardAct1004	10	10	10	10	96	-1	-1	2|8			
+1030410	1031004	0	0	1	111	3600	Sorry... You must be exhausted because I'm not good enough to share the burden.	127043		BoardAct1007	10.592	10	10	10	98	-1	-1	3|8			
+1030411	1031004	0	0	1	1	900	Now that you're asleep, it should be fine if I get closer... Wah! Commandant...! Have you been awake all this time?	127039		BoardAct1005	15.093	13.834	13.834	13.834	97	-1	-1	4|8			
+1030412	1031004	0	0	0	10002	-1	Emergency? Is it a prank, Commandant?	127055		BoardAct1003	12.267	12.267	12.267	12.267	1	-1	-1	5|8			
+1030413	1031004	0	0	2	102	2	Long time no see, Commandant. All the nightmares came back here again while you were away. But I could only wait for you like the day you fell asleep... If possible, could you promise me that you won't leave me for so long?	127054		BoardAct1006	30.047	24.667	25.08	25.08	99	-1	-1	6|8			
+1530401	1531004	0	0	0	10001	1	Lives are fated to be imperfect. I have stopped sighing or weeping for the mournful past.	128010		BoardAct0201	11	11	11	11.029	1	-1	-1	1|8	1|2		
+1530402	1531004	0	0	0	10001	1	If there is an end to this war, what would you like to see? Farmlands, riverbanks, groves, seashore... We can go visit all the places we have yet to see together.	128019		BoardAct0202	27.667	27.667	27.667	27.667	1	-1	-1	1|8	1|2		
+1530403	1531004	0	0	0	10001	1	I've traveled on this road for so long that I don't even remember the views when I started. All I remember is that you were there at the beginning and the end.	128023		BoardAct0203	22.334	22.334	22.334	22.334	1	-1	-1	1|8	1|2		
+1530404	1531004	0	0	0	120	-1	I've traveled on this road for so long that I don't even remember the views when I started. All I remember is that you were there at the beginning and the end.	128023		BoardAct0203	22.334	22.334	22.334	22.334	1	-1	-1	1|8	1|2		
+1530405	1531004	0	0	0	2	-1	Can you hear it? The echoing waves in my M.I.N.D... The more I touch you, the louder it is... the more wonderful it sounds.	128095		BoardAct1001	15	15	15	15	1	-1	-1	1|8			
+1530406	1531004	0	0	0	10001	3	How... should I respond now?	128059		BoardAct1002	8	8	8	8.01	1	-1	-1	1|8			
+1530407	1531004	0	0	0	10001	4	How... should I respond now?	128059		BoardAct1002	8	8	8	8.01	1	-1	-1	1|8			
+1530408	1531004	0	0	0	10001	5	How... should I respond now?	128059		BoardAct1002	8	8	8	8.01	1	-1	-1	1|8			
+1530409	1531004	0	0	1	101	10	Hmm-hmm... (Interrupted while humming/thinking, surprised) Oh, Conductor, my apologies. I was coming up with a new melody... Right, I was hoping that... you'd listen to it later.	128051		BoardAct1004	19.134	19.134	19.134	19.134	96	-1	-1	2|8			
+1530410	1531004	0	0	1	111	3600	Let me wish you a good night. Good night, good night. As sweet repose and rest come to thy heart, as that within my breast.	128045		BoardAct1007	19	19	19	19	98	-1	-1	3|8			
+1530411	1531004	0	0	1	1	900	Sleep. I'm by your side. May sleep dwell upon thine eyes, peace in thy breast...	128039		BoardAct1005	16	16	16	16.044	97	-1	-1	4|8			
+1530412	1531004	0	0	0	10002	-1	A storm is coming. Please hold on to me...	128057		BoardAct1003	9.667	9.667	9.667	9.667	1	-1	-1	5|8			
+1530413	1531004	0	0	2	102	2	Conductor... Conductor... I can finally hear your voice. Please don't leave me alone in the silence...	128054		BoardAct1006	19	19	19	19	99	-1	-1	6|8			
+1550301	1551003	0	0	0	10001	1	Now I'm getting the hang of this job, even the maths that I used to hate so much... Oops, sorry, guess I was talking big...	129013		BoardAct0201	13.434	13.434	13.434	13.434	1	-1	-1	1|8	1|2		
+1550302	1551003	0	0	0	10001	1	Commandant, let me know if you need anything, okay? I'm confident with my strength.	129014		BoardAct0202	9.756	9.667	9.667	9.667	1	-1	-1	1|8	1|2		
+1550303	1551003	0	0	0	10001	1	Commandant, could you lend me your hand for a moment? Hmm... Your hand is so warm. Do the scars still hurt? But having scars mean the wounds are healed and the pain is gone.	129022		BoardAct0203	25.889	23.834	24.707	24.707	1	-1	-1	1|8	1|2		
+1550304	1551003	0	0	0	120	-1	Commandant, could you lend me your hand for a moment? Hmm... Your hand is so warm. Do the scars still hurt? But having scars mean the wounds are healed and the pain is gone.	129022		BoardAct0203	25.889	23.834	24.707	24.707	1	-1	-1	1|8	1|2		
+1550305	1551003	0	0	0	2	-1	I'll keep it safe... Shall I put it in a box made of fine rosewood? I'm just kidding... Well... I can't afford it...	129035		BoardAct1001	12.56	11.834	11.834	11.834	1	-1	-1	1|8			
+1550306	1551003	0	0	0	10001	3	Don't mess my hair up!	129060		BoardAct1002	5	5	5	5.038	1	-1	-1	1|8			
+1550307	1551003	0	0	0	10001	4	Don't mess my hair up!	129060		BoardAct1002	5	5	5	5.038	1	-1	-1	1|8			
+1550308	1551003	0	0	0	10001	5	Don't mess my hair up!	129060		BoardAct1002	5	5	5	5.038	1	-1	-1	1|8			
+1550309	1551003	0	0	1	101	10	Commandant, come and sit down over here! Ta-dah! Today is my 100th day as a secretary and we're going to have a special sale event to celebrate this big day! Commandant, just sit here and relax. Leave all the work to me... Huh? It's the wrong date?! Uh... It doesn't matter. Every day I'm here with you is a day to celebrate, right?	129053		BoardAct1004	34.255	30.667	30.667	30.667	96	-1	-1	2|8			
+1550310	1551003	0	0	1	111	3600	This toy is an animal called a panda. I know it's cute... but Commandant, your eye circles are almost as dark as a panda's! Please take a break now!	129043		BoardAct1007	17.708	13.167	13.167	13.167	98	-1	-1	3|8			
+1550311	1551003	0	0	1	1	900	Commandant, look at this... Commandant? Ahem... Comm—an—dant!	129036		BoardAct1005	17	17	17	17	97	-1	-1	4|8			
+1550312	1551003	0	0	0	10002	-1	Commandant! Look at me! Do I look like a seaweed swimming in the sea?	129055		BoardAct1003	9.033	9	9	9.009	1	-1	-1	5|8			
+1550313	1551003	0	0	2	102	2	Commandant, I was helping you protect everything here while you were away. No one is allowed to touch these things.	129054		BoardAct1006	9.183	8.667	8.667	8.707	99	-1	-1	6|8			
+1050401	1051004	0	0	0	10001	1	Look, Commandant! There's a star that is particularly bright. Do you think there will be other human beings on it? Maybe there is another commandant secretly looking at Nanami, just like you.	130022		BoardAct0201	20	20	20	20	1	-1	-1	1|8	1|2		
+1050402	1051004	0	0	0	10001	1	Commandant, do you know the ultimate answer to the universe? Pfff, wrong! It's 73, NA-NA-MI!	130015		BoardAct0202	13.334	13.334	13.334	13.334	1	-1	-1	1|8	1|2		
+1050403	1051004	0	0	0	10001	1	Today, I'm going to challenge "playing hide & seek alone"! How can one person play hide & seek by herself? That's why I will never get caught. In other words, it's a game that Nanami is guaranteed to win... What, would you also like to play? Okay... Promise me that you will find me!	130023		BoardAct0203	26.834	26.834	26.834	26.834	1	-1	-1	1|8	1|2		
+1050404	1051004	0	0	0	120	-1	Today, I'm going to challenge "playing hide & seek alone"! How can one person play hide & seek by herself? That's why I will never get caught. In other words, it's a game that Nanami is guaranteed to win... What, would you also like to play? Okay... Promise me that you will find me!	130023		BoardAct0203	26.834	26.834	26.834	26.834	1	-1	-1	1|8	1|2		
+1050405	1051004	0	0	0	2	-1	I have received enough gifts that I can cherish as "memories." Now it's my turn to give "future" to everybody in return...	130097		BoardAct1001	16.334	16.334	16.334	16.334	1	-1	-1	1|8			
+1050406	1051004	0	0	0	10001	3	Fufufu, Commandant, your actions are so slow that they almost look stationary to me... Argh, stop! I just really wanted to say that cool line.	130060		BoardAct1002	18	18	18	18.041	1	-1	-1	1|8			
+1050407	1051004	0	0	0	10001	4	Fufufu, Commandant, your actions are so slow that they almost look stationary to me... Argh, stop! I just really wanted to say that cool line.	130060		BoardAct1002	18	18	18	18.041	1	-1	-1	1|8			
+1050408	1051004	0	0	0	10001	5	Fufufu, Commandant, your actions are so slow that they almost look stationary to me... Argh, stop! I just really wanted to say that cool line.	130060		BoardAct1002	18	18	18	18.041	1	-1	-1	1|8			
+1050409	1051004	0	0	1	101	10	GOOD! MORNING! COMMANDANT! Watanabe told me that nothing is more stimulating than shouting in the morning! Do you want to join me, Commandant?	130050		BoardAct1004	17.167	17.167	17.167	17.167	96	-1	-1	2|8			
+1050410	1051004	0	0	1	111	3600	Come on, take a break and look at Nanami! I'm a lot more fun than your work!	130045		BoardAct1007	12.667	12.667	12.667	12.678	98	-1	-1	3|8			
+1050411	1051004	0	0	1	1	900	Commandant! I'm going to get angry if you keep ignoring me! Hmph—!	130039		BoardAct1005	13.067	13.067	13.067	13.067	97	-1	-1	4|8			
+1050412	1051004	0	0	0	10002	-1	If I pass out, you have to carry me back!	130056		BoardAct1003	12.667	12.667	12.667	12.667	1	-1	-1	5|8			
+1050413	1051004	0	0	2	102	2	Don't you ever forget me, Commandant.	130054		BoardAct1006	16	16	16	16	99	-1	-1	6|8			
+1560301	1561003	0	0	0	10001	1	You want to know what happened to me on Earth? No, the information isn't forbidden to you. I was just summarizing and preparing data so you could quickly understand. Summarization complete: a total of 1.8TB video files have been prepared for you to view through real-time rendering.	131012		BoardAct0201	24	24	24	24	1	-1	-1	1|8	1|2		
+1560302	1561003	0	0	0	10001	1	I believe you are aware that I can simulate most personalities within human definitions. For example, "cute," "serious," and "rebellious"—my database has them all recorded. But how should the real "me" behave? What do you think?	131018		BoardAct0202	30.1	30.1	30.1	30.1	1	-1	-1	1|8	1|2		
+1560303	1561003	0	0	0	10001	1	Look, Commandant, there are trillions of stars out there. Out of all of them, only the planet behind you has given birth to life. From a probability perspective, humankind has truly been blessed, and my very existence was born from an event of near impossible chance. Our encounter itself is a miracle.	131021		BoardAct0203	32.167	32.167	32.167	33.529	1	-1	-1	1|8	1|2		
+1560304	1561003	0	0	0	120	-1	Look, Commandant, there are trillions of stars out there. Out of all of them, only the planet behind you has given birth to life. From a probability perspective, humankind has truly been blessed, and my very existence was born from an event of near impossible chance. Our encounter itself is a miracle.	131021		BoardAct0203	32.167	32.167	32.167	33.529	1	-1	-1	1|8	1|2		
+1560305	1561003	0	0	0	2	-1	Emotional logic error. Self-test invalid. Question... What would humans call this strange feeling?	131035		BoardAct1001	15.5	15.5	15.5	17.113	1	-1	-1	1|8			
+1560306	1561003	0	0	0	10001	3	...Understood. One moment please. This is my machine dance, because I am a dancing machine. Right, that was a joke. You are laughing. Is that what you were anticipating?	131058		BoardAct1002	25.634	25.634	25.634	25.634	1	-1	-1	1|8			
+1560307	1561003	0	0	0	10001	4	...Understood. One moment please. This is my machine dance, because I am a dancing machine. Right, that was a joke. You are laughing. Is that what you were anticipating?	131058		BoardAct1002	25.634	25.634	25.634	25.634	1	-1	-1	1|8			
+1560308	1561003	0	0	0	10001	5	...Understood. One moment please. This is my machine dance, because I am a dancing machine. Right, that was a joke. You are laughing. Is that what you were anticipating?	131058		BoardAct1002	25.634	25.634	25.634	25.634	1	-1	-1	1|8			
+1560309	1561003	0	0	1	101	10	I'm here waiting for you today, and I will still be waiting tomorrow. Such repetitious tasks are supposed to be consistent and accurate, but I am attempting to cause errors in them, so each time we meet can be different. Is our encounter today special to you?	131052		BoardAct1004	33.633	33.633	33.633	33.633	96	-1	-1	2|8			
+1560310	1561003	0	0	1	111	3600	Abnormal brain hormone level detected in Commandant. Immediate hibernation is recommended... N-no... Hmm... Please come this way... It's time for bed.	131045		BoardAct1007	23.834	23.834	23.834	23.834	98	-1	-1	3|8			
+1560311	1561003	0	0	1	1	900	Commandant has fallen asleep in an inconducive environment and must be relocated. According to the manual, I need to lift the head before moving the arms... Commandant, why did you suddenly terminate your sleep...? Why are you running away?	131038		BoardAct1005	29.3	29.3	29.3	29.3	97	-1	-1	4|8			
+1560312	1561003	0	0	0	10002	-1	The equal exchange of benefits is crucial in human interactions. Your action suggests that you desire to be treated in the same way. One moment please, I am loading data related to astronaut training programs... Commandant has escaped my vision. Data loading terminated.	131057		BoardAct1003	28.2	28.2	28.2	28.2	1	-1	-1	5|8			
+1560313	1561003	0	0	2	102	2	You... have returned. The duration of your absence has exceeded my forecasted value by 2.718... No, more than that. Could you please advise as to why my forecast was inaccurate...? Please tell me.	131054		BoardAct1006	36.667	36.667	36.667	36.667	99	-1	-1	6|8			
+1070401	1071004	0	0	0	10001	1	I have moved on from the little conflict with Lucia. Now I only focus on improving my own strength... Huh? I'm afraid of losing to her? No way! Where's Lucia? Get her over here now!	132017		BoardAct0201	17.334	17.334	17.334	17.334	1	-1	-1	1|8	1|2		
+1070402	1071004	0	0	0	10001	1	Sigh, give me a break. Why are you always coming to me... Where are you going? Don't you dare ask anyone else!	132019		BoardAct0202	15.0034	15.0034	15.0034	15.023	1	-1	-1	1|8	1|2		
+1070403	1071004	0	0	0	10001	1	You don't have to speak for me. What if they also misunderstand you? O-of course I'm thankful! (Lowering voice) But you should also think for yourself...	132022		BoardAct0203	15.5	15.5	15.5	15.5	1	-1	-1	1|8	1|2		
+1070404	1071004	0	0	0	120	-1	You don't have to speak for me. What if they also misunderstand you? O-of course I'm thankful! (Lowering voice) But you should also think for yourself...	132022		BoardAct0203	15.5	15.5	15.5	15.5	1	-1	-1	1|8	1|2		
+1070405	1071004	0	0	0	2	-1	When you go back to the lounge, remember to check the drawer on your left. Right, the second one from the top. Don't you ever forget! Promise me!	132097		BoardAct1001	17.2	17.2	17.2	17.2	1	-1	-1	1|8			
+1070406	1071004	0	0	0	10001	3	D-don't get too cocky!	132059		BoardAct1002	11.334	11.334	11.334	11.334	1	-1	-1	1|8			
+1070407	1071004	0	0	0	10001	4	D-don't get too cocky!	132059		BoardAct1002	11.334	11.334	11.334	11.334	1	-1	-1	1|8			
+1070408	1071004	0	0	0	10001	5	D-don't get too cocky!	132059		BoardAct1002	11.334	11.334	11.334	11.334	1	-1	-1	1|8			
+1070409	1071004	0	0	1	101	10	Technicians are crucial even on a battlefield, so I don't need to remind you who you should stay with... Do you really get it?	132051		BoardAct1004	15.667	15.667	15.667	15.667	96	-1	-1	2|8			
+1070410	1071004	0	0	1	111	3600	(Unemotional) Chronic fatigue can cause the patient to look pale, lose hair and grow wrinkles... What am I reading? Here, let me translate for you: go take a break, fool!	132043		BoardAct1007	24.834	24.834	24.834	24.834	98	-1	-1	3|8			
+1070411	1071004	0	0	1	1	900	(Humming a cheerful melody) Hmm-hmm-hmm! This sleeping face is quite fascinating... (Short pause) Whoa! How can you suddenly open your eyes while you sleep! Close them now!	132040		BoardAct1005	17.667	17.667	17.667	17.667	97	-1	-1	4|8			
+1070412	1071004	0	0	0	10002	-1	Useless! It won't work on me now.	132055		BoardAct1003	10.6	10.6	10.6	10.634	1	-1	-1	5|8			
+1070413	1071004	0	0	2	102	2	(Slightly reprimanding) You're back. Oh, I forgot to remind you that I set up 26 additional minefields nearby because of the poor defense system here. (Relaxed tone) Relax, they're magnetic. Humans won't trigger them.	132054		BoardAct1006	20.867	20.867	20.867	20.867	99	-1	-1	6|8			
+1570301	1571003	0	0	0	10001	1	Recently, I always end up walking to the WGAA while taking a stroll. This kind of association appears on the Earth when we finally have peace, right? Will art lovers be able to make a living with their paintbrushes? ...I see. That's great.	133014		BoardAct0201	27.1	27.1	27.1	27.1	1	-1	-1	1|8	1|2		
+1570302	1571003	0	0	0	10001	1	What do you think of the monument that commemorates the victims on the square? Um... Me? I think... anyone who can struggle to survive in this time is also great. I have witnessed too many deaths... That's why I think living itself is already a remarkable achievement.	133020		BoardAct0202	24.834	24.834	24.834	24.834	1	-1	-1	1|8	1|2		
+1570303	1571003	0	0	0	10001	1	Hmm? I'm painting with the pen you left... It's just a sunflower. If I say I'm drawing it because I'm thinking of you, will you believe me?	133022		BoardAct0203	25.667	25.667	25.667	25.667	1	-1	-1	1|8	1|2		
+1570304	1571003	0	0	0	120	-1	Hmm? I'm painting with the pen you left... It's just a sunflower. If I say I'm drawing it because I'm thinking of you, will you believe me?	133022		BoardAct0203	25.667	25.667	25.667	25.667	1	-1	-1	1|8	1|2		
+1570305	1571003	0	0	0	2	-1	Will you turn me down... if I say I want to be one step closer to you?	133095		BoardAct1001	11.667	11.667	11.667	11.667	1	-1	-1	1|8			
+1570306	1571003	0	0	0	10001	3	What's going on? Don't panic. I'm listening.	133060		BoardAct1002	11.334	11.334	11.334	11.334	1	-1	-1	1|8			
+1570307	1571003	0	0	0	10001	4	What's going on? Don't panic. I'm listening.	133060		BoardAct1002	11.334	11.334	11.334	11.334	1	-1	-1	1|8			
+1570308	1571003	0	0	0	10001	5	What's going on? Don't panic. I'm listening.	133060		BoardAct1002	11.334	11.334	11.334	11.334	1	-1	-1	1|8			
+1570309	1571003	0	0	1	101	10	Welcome back, Commandant. I've been waiting for you.	133051		BoardAct1004	10	10	10	10	96	-1	-1	2|8			
+1570310	1571003	0	0	1	111	3600	Wait, let me see your eyes. Hmm... Open your mouth, please? When did you sleep last night? You're just...	133044		BoardAct1007	18.667	18.667	18.667	18.667	98	-1	-1	3|8			
+1570311	1571003	0	0	1	1	900	I wonder whether you are asleep or are doing something else... But I enjoy looking at your back just like this.	133038		BoardAct1005	13.334	13.334	13.334	13.334	97	-1	-1	4|8			
+1570312	1571003	0	0	0	10002	-1	What?! You alright? Did you fall?	133055		BoardAct1003	9.667	9.667	9.667	9.667	1	-1	-1	5|8			
+1570313	1571003	0	0	2	102	2	It's been a long time. Did you sleep in? Dreamed about an ordinary, peaceful world? If you found happiness in that world... I too wish it could last longer. It's okay, I will be right here waiting for you until you are back.	133054		BoardAct1006	26.667	26.667	26.667	26.667	99	-1	-1	6|8			
+1040401	1041004	0	0	0	10001	1	Even if I cannot become the "light" that guides others, I still take honor in exploring the essence of "darkness."	134014		BoardAct0201	11.667	11.667	11.667	11.667	1	-1	-1	1|8	1|2		
+1040402	1041004	0	0	0	10001	1	If only I could have met you earlier... My apologies. Please forget my foolish words. I don't want anyone else to see that fragile side of me.	134020		BoardAct0202	24.5	24.5	24.5	24.5	1	-1	-1	1|8	1|2		
+1040403	1041004	0	0	0	10001	1	Faith gives people motivation, but only the heart can tell them where their destination lies. My answer... is right here in my eyes... Can you see it?	134022		BoardAct0203	26.5	26.5	26.5	26.5	1	-1	-1	1|8	1|2		
+1040404	1041004	0	0	0	120	-1	Faith gives people motivation, but only the heart can tell them where their destination lies. My answer... is right here in my eyes... Can you see it?	134022		BoardAct0203	26.5	26.5	26.5	26.5	1	-1	-1	1|8	1|2		
+1040405	1041004	0	0	0	2	-1	What shall I give to Commandant... Oh, don't worry, I was just thinking about what kind of present you would possibly like. It's more interesting than I thought.	134033		BoardAct1001	19.334	19.334	19.334	19.334	1	-1	-1	1|8			
+1040406	1041004	0	0	0	10001	3	Commandant, it is very childish to catch someone's attention in this way.	134058		BoardAct1002	15.834	15.834	15.834	15.834	1	-1	-1	1|8			
+1040407	1041004	0	0	0	10001	4	Commandant, it is very childish to catch someone's attention in this way.	134058		BoardAct1002	15.834	15.834	15.834	15.834	1	-1	-1	1|8			
+1040408	1041004	0	0	0	10001	5	Commandant, it is very childish to catch someone's attention in this way.	134058		BoardAct1002	15.834	15.834	15.834	15.834	1	-1	-1	1|8			
+1040409	1041004	0	0	1	101	10	My Command... (Anxiously clears throat when realizing she isn't addressing the commandant in a respectful manner) Commandant! Please forgive my rudeness. I didn't realize you were already here.	134051		BoardAct1004	21	21	21	21	96	-1	-1	2|8			
+1040410	1041004	0	0	1	111	3600	You have worked hard enough today. Please take time to rest. That's my suggestion—and it can also be an order if necessary.	134042		BoardAct1007	17.167	17.167	17.167	17.167	98	-1	-1	3|8			
+1040411	1041004	0	0	1	1	900	In an environment full of unknowns, the slightest ignorance could be fatal... But I guess you are tired of such advice. It's okay, you can take some time off. I will keep it a secret.	134039		BoardAct1005	24.334	24.334	24.334	24.334	97	-1	-1	4|8			
+1040412	1041004	0	0	0	10002	-1	Danger...! Commandant, stand next to me—Hmph (realizes it was just a trick)... (Slightly ashamed for her own behavior, while debating whether she should criticize Commandant's action) Forget about it...	134057		BoardAct1003	22.334	22.334	22.334	22.334	1	-1	-1	5|8			
+1040413	1041004	0	0	2	102	2	You have come. How long have I been waiting? I don't see a need to make a record, because I believe that you will eventually come back.	134054		BoardAct1006	17	17	17	17	99	-1	-1	6|8			
+1230201	1231002	0	0	0	10001	1	Hmm... cute? The mistress chose this outfit for Bambinata. Would you prefer clothes more suited to your liking?	135015		BoardAct0201	17.667	17.667	17.667	17.667	1	-1	-1	1|8	1|2		
+1230202	1231002	0	0	0	10001	1	Do you like it, Commandant? Bambinata's M.I.N.D. does not possess the specific memory data for it, but this frame is very familiar with such actions. If you like it, the dance can go on forever and ever...	135019		BoardAct0202	40.167	40.167	40.167	40.167	1	-1	-1	1|8	1|2		
+1230203	1231002	0	0	0	10001	1	Slapsies? What do you want Bambinata to do, Commandant? Hm... Place Bambinata's hand above your palm like this? Ah! ...Huh? Bambinata should try to pull this hand back? But... Bambinata thought you wanted to slap it?	135021		BoardAct0203	33.334	33.334	33.334	33.334	1	-1	-1	1|8	1|2		
+1230204	1231002	0	0	0	120	-1	Slapsies? What do you want Bambinata to do, Commandant? Hm... Place Bambinata's hand above your palm like this? Ah! ...Huh? Bambinata should try to pull this hand back? But... Bambinata thought you wanted to slap it?	135021		BoardAct0203	33.334	33.334	33.334	33.334	1	-1	-1	1|8	1|2		
+1230205	1231002	0	0	0	2	-1	The mistress said a well-mannered puppet should express their gratitude in moments like this... D-did Bambinata do it right?	135033		BoardAct1001	14.234	14.234	14.234	14.234	1	-1	-1	1|8			
+1230206	1231002	0	0	0	10001	3	Aargh! Sob... Is this Bambinata's punishment?	135058		BoardAct1002	12.667	12.667	12.667	12.667	1	-1	-1	1|8			
+1230207	1231002	0	0	0	10001	4	Aargh! Sob... Is this Bambinata's punishment?	135058		BoardAct1002	12.667	12.667	12.667	12.667	1	-1	-1	1|8			
+1230208	1231002	0	0	0	10001	5	Aargh! Sob... Is this Bambinata's punishment?	135058		BoardAct1002	12.667	12.667	12.667	12.667	1	-1	-1	1|8			
+1230209	1231002	0	0	1	101	10	Commandant, do you have a mission for Bambinata? Oh, no, that's not it... It's not that Bambinata doesn't want to stay here. Bambinata just... just hopes you can make use of Bambinata more often, Commandant.	135051		BoardAct1004	22.334	22.334	22.334	22.334	96	-1	-1	2|8			
+1230210	1231002	0	0	1	111	3600	Hm... Sometimes the mistress would hold Bambinata like this... Hmmm... You're not falling asleep, Commandant? The m-mistress would often take a nap this way... Has Bambinata done something wrong?	135044		BoardAct1007	34.667	34.667	34.667	34.667	98	-1	-1	3|8			
+1230211	1231002	0	0	1	1	900	Hm... Are you asleep? You are very kind... Bambinata should treat you the way you like to treat Bambinata, right?	135040		BoardAct1005	24.334	24.334	24.334	24.334	97	-1	-1	4|8			
+1230212	1231002	0	0	0	10002	-1	...? Do you want Bambinata to dance for you?	135055		BoardAct1003	17.667	17.667	17.667	17.667	1	-1	-1	5|8			
+1230213	1231002	0	0	2	102	2	Did you leave Bambinata here because... Bambinata is no longer of use?	135054		BoardAct1006	15.667	15.667	15.667	15.667	99	-1	-1	6|8			

@@ -1,0 +1,604 @@
+Role	Layer	State	Target	TransitionDuration
+R4YongyechaobotMd010021	0		Born	0
+R4YongyechaobotMd010021	0		Stand1	0.1
+R4YongyechaobotMd010021	0		Stand2	0.1
+R4YongyechaobotMd010021	0		Stand3	0.1
+R4YongyechaobotMd010021	0		Death	0.1
+R4YongyechaobotMd010021	0		Standchange	0.1
+R4YongyechaobotMd010021	0		Run	0.1
+R4YongyechaobotMd010021	0		Walk	0.1
+R4YongyechaobotMd010021	0		Runb	0.2
+R4YongyechaobotMd010021	0		Runl	0.2
+R4YongyechaobotMd010021	0		Runr	0.2
+R4YongyechaobotMd010021	0		Walkb	0.1
+R4YongyechaobotMd010021	0		Walkl	0.1
+R4YongyechaobotMd010021	0		Walkr	0.1
+R4YongyechaobotMd010021	0		TurnLeft	0.1
+R4YongyechaobotMd010021	0		TurnRight	0.1
+R4YongyechaobotMd010021	0		Move1	0.1
+R4YongyechaobotMd010021	0		Move2	0.1
+R4YongyechaobotMd010021	0		Move3	0.1
+R4YongyechaobotMd010021	0		RunStart	0.1
+R4YongyechaobotMd010021	0		RunStartEnd01	0.1
+R4YongyechaobotMd010021	0		Hit1	0.05
+R4YongyechaobotMd010021	0		Hit2	0.05
+R4YongyechaobotMd010021	0		Hit3	0.05
+R4YongyechaobotMd010021	0		Hit4	0.05
+R4YongyechaobotMd010021	0		Behitfly	0.05
+R4YongyechaobotMd010021	0		Hoverhit	0.05
+R4YongyechaobotMd010021	0		Falldown	0.1
+R4YongyechaobotMd010021	0		Hitdown	0.05
+R4YongyechaobotMd010021	0		Lieonfloor	0.1
+R4YongyechaobotMd010021	0		Standup	0.1
+R4YongyechaobotMd010021	0		Straight	0.1
+R4YongyechaobotMd010021	0		Stun	0.1
+R4YongyechaobotMd010021	0		StraightBefore	0.1
+R4YongyechaobotMd010021	0		StraightAfter	0.1
+R4YongyechaobotMd010021	0		Win	0
+R4YongyechaobotMd010021	0		Win2	0.1
+R4YongyechaobotMd010021	0		Stop	0.1
+R4YongyechaobotMd010021	0		Fail	0.1
+R4YongyechaobotMd010021	0		Save	0.1
+R4YongyechaobotMd010021	0		AttackQte	0
+R4YongyechaobotMd010021	0		Caught	0.1
+R4YongyechaobotMd010021	0		Squatdown	0.1
+R4YongyechaobotMd010021	0		RunStartEnd02	0.1
+R4YongyechaobotMd010021	0		StopR	0.1
+R4YongyechaobotMd010021	0		Attack01	0.1
+R4YongyechaobotMd010021	0		Attack02	0.1
+R4YongyechaobotMd010021	0		Attack03	0.1
+R4YongyechaobotMd010021	0		Attack07	0.1
+R4YongyechaobotMd010021	0		Attack11	0.1
+R4YongyechaobotMd010021	0		Attack12	0.1
+R4YongyechaobotMd010021	0		Attack21	0.1
+R4YongyechaobotMd010021	0		Attack22	0.1
+R4YongyechaobotMd010021	0		Attack23	0.1
+R4YongyechaobotMd010021	0		Attack24	0.1
+R4YongyechaobotMd010021	0		Attack31	0.1
+R4YongyechaobotMd010021	0		Attack32	0.1
+R4YongyechaobotMd010021	0		Attack36	0.1
+R4YongyechaobotMd010021	0		Attack39	0.1
+R4YongyechaobotMd010021	0		Attack40	0.1
+R4YongyechaobotMd010021	0		Attack42	0.1
+R4YongyechaobotMd010021	0		Attack43	0.1
+R4YongyechaobotMd010021	0		Attack44	0.1
+R4YongyechaobotMd010021	0		Attack45	0.1
+R4YongyechaobotMd010021	0		Attack46	0.1
+R4YongyechaobotMd010021	0		Attack47	0.1
+R4YongyechaobotMd010021	0		Attack48	0.1
+R4YongyechaobotMd010021	0	Attack43	Attack47	1
+R4YongyechaobotMd010021	0	Attack43	Attack48	1
+R4YongyechaobotMd010021	0	Attack47	Attack48	1
+R4YongyechaobotMd010021	0	Attack48	Attack47	1
+R4YongyechaobotMd010021	0	Attack48	Attack43	1
+R4YongyechaobotMd010021	0	Attack47	Attack43	1
+R4YongyechaobotMd010021	0		Attack70	0.1
+R4YongyechaobotMd010021	0		Attack71	0.1
+R4YongyechaobotMd010021	0		Attack72	0.1
+R4YongyechaobotMd010021	0		Attack73	0.1
+R4YongyechaobotMd010021	0		Attack74	0.1
+R4YongyechaobotMd010021	0		Attack75	0.1
+R4YongyechaobotMd010021	0		Attack80	0.1
+R4YongyechaobotMd010021	0		Attack81	0.1
+R4YongyechaobotMd010021	0		Attack82	0.1
+R4YongyechaobotMd010021	0		Attack92	0.1
+R4YongyechaobotMd010021	0		Attack93	0.1
+R4YongyechaobotMd010021	0		Attack94	0.1
+R4YongyechaobotMd010021	0		Attack25_Front_Loop	0.1
+R4YongyechaobotMd010021	0		Attack25_Left_End	0.1
+R4YongyechaobotMd010021	0		Attack25_Left_Loop	0.1
+R4YongyechaobotMd010021	0		Attack25_Right_End	0.1
+R4YongyechaobotMd010021	0		Attack25_Right_Loop	0.1
+R4YongyechaobotMd010021	0	Stand1	Run	0.2
+R4YongyechaobotMd010021	0	Stand1	Walk	0.1
+R4YongyechaobotMd010021	0	Stand2	Standchange	0.1
+R4YongyechaobotMd010021	0	Stand2	Run	0.2
+R4YongyechaobotMd010021	0	Stand2	Walk	0.3
+R4YongyechaobotMd010021	0	Stand2	Walkb	0.3
+R4YongyechaobotMd010021	0	Stand2	Walkl	0.3
+R4YongyechaobotMd010021	0	Stand2	Walkr	0.3
+R4YongyechaobotMd010021	0	Stand2	Stand2	0.1
+R4YongyechaobotMd010021	0	Standchange	Stand1	0.1
+R4YongyechaobotMd010021	0	Standchange	Run	0.1
+R4YongyechaobotMd010021	0	Standchange	Walk	0.1
+R4YongyechaobotMd010021	0	Run	Stop	0.2
+R4YongyechaobotMd010021	0	Run	Stand2	0.2
+R4YongyechaobotMd010021	0	Run	Runb	0.2
+R4YongyechaobotMd010021	0	Run	Runl	0.2
+R4YongyechaobotMd010021	0	Run	Runr	0.2
+R4YongyechaobotMd010021	0	Walk	Stand2	0.1
+R4YongyechaobotMd010021	0	Runb	Stand2	0.2
+R4YongyechaobotMd010021	0	Runb	Run	0.2
+R4YongyechaobotMd010021	0	Runb	Runl	0.2
+R4YongyechaobotMd010021	0	Runb	Runr	0.2
+R4YongyechaobotMd010021	0	Runl	Stand2	0.2
+R4YongyechaobotMd010021	0	Runl	Run	0.2
+R4YongyechaobotMd010021	0	Runl	Runb	0.2
+R4YongyechaobotMd010021	0	Runl	Runr	0.2
+R4YongyechaobotMd010021	0	Runr	Stand2	0.2
+R4YongyechaobotMd010021	0	Runr	Run	0.2
+R4YongyechaobotMd010021	0	Runr	Runb	0.2
+R4YongyechaobotMd010021	0	Runr	Runl	0.2
+R4YongyechaobotMd010021	0	Walkb	Stand2	0.1
+R4YongyechaobotMd010021	0	Walkb	Walk	0.2
+R4YongyechaobotMd010021	0	Walkb	Walkl	0.1
+R4YongyechaobotMd010021	0	Walkb	Walkr	0.1
+R4YongyechaobotMd010021	0	Walkl	Stand2	0.1
+R4YongyechaobotMd010021	0	Walkl	Walk	0.1
+R4YongyechaobotMd010021	0	Walkl	Walkb	0.1
+R4YongyechaobotMd010021	0	Walkl	Walkr	0.2
+R4YongyechaobotMd010021	0	Walkr	Stand2	0.1
+R4YongyechaobotMd010021	0	Walkr	Walk	0.1
+R4YongyechaobotMd010021	0	Walkr	Walkb	0.1
+R4YongyechaobotMd010021	0	Walkr	Walkl	0.2
+R4YongyechaobotMd010021	0	TurnLeft	Stand2	0.1
+R4YongyechaobotMd010021	0	TurnRight	Stand2	0.1
+R4YongyechaobotMd010021	0	RunStart	Run	0.2
+R4YongyechaobotMd010021	0	RunStart	RunStartEnd01	0.1
+R4YongyechaobotMd010021	0	Hit1	Stand2	0
+R4YongyechaobotMd010021	0	Hit2	Stand2	0
+R4YongyechaobotMd010021	0	Hit3	Stand2	0
+R4YongyechaobotMd010021	0	Hit4	Stand2	0
+R4YongyechaobotMd010021	0	Behitfly	Hoverhit	0.1
+R4YongyechaobotMd010021	0	Behitfly	Falldown	0.1
+R4YongyechaobotMd010021	0	Hoverhit	Falldown	0.1
+R4YongyechaobotMd010021	0	Falldown	Lieonfloor	0.1
+R4YongyechaobotMd010021	0	Hitdown	Lieonfloor	0.1
+R4YongyechaobotMd010021	0	Standup	Stand2	0.1
+R4YongyechaobotMd010021	0	Straight	Stand2	0.1
+R4YongyechaobotMd010021	0	Stun	Stand2	0.1
+R4YongyechaobotMd010021	0	Win	Win2	0.1
+R4YongyechaobotMd010021	0	Stop	Stand2	0.1
+R4YongyechaobotMd010021	0	Caught	Stand2	0.1
+R4YongyechaobotMd010021	1		Born	0
+R4YongyechaobotMd010021	1		Stand1	0.1
+R4YongyechaobotMd010021	1		Stand2	0.1
+R4YongyechaobotMd010021	1		Stand3	0.1
+R4YongyechaobotMd010021	1		Death	0.1
+R4YongyechaobotMd010021	1		Standchange	0.1
+R4YongyechaobotMd010021	1		Run	0.1
+R4YongyechaobotMd010021	1		Walk	0.1
+R4YongyechaobotMd010021	1		Runb	0.2
+R4YongyechaobotMd010021	1		Runl	0.2
+R4YongyechaobotMd010021	1		Runr	0.2
+R4YongyechaobotMd010021	1		Walkb	0.1
+R4YongyechaobotMd010021	1		Walkl	0.1
+R4YongyechaobotMd010021	1		Walkr	0.1
+R4YongyechaobotMd010021	1		TurnLeft	0.1
+R4YongyechaobotMd010021	1		TurnRight	0.1
+R4YongyechaobotMd010021	1		Move1	0.1
+R4YongyechaobotMd010021	1		Move2	0.1
+R4YongyechaobotMd010021	1		Move3	0.1
+R4YongyechaobotMd010021	1		RunStart	0.1
+R4YongyechaobotMd010021	1		RunStartEnd01	0.1
+R4YongyechaobotMd010021	1		Hit1	0.05
+R4YongyechaobotMd010021	1		Hit2	0.05
+R4YongyechaobotMd010021	1		Hit3	0.05
+R4YongyechaobotMd010021	1		Hit4	0.05
+R4YongyechaobotMd010021	1		Behitfly	0.05
+R4YongyechaobotMd010021	1		Hoverhit	0.05
+R4YongyechaobotMd010021	1		Falldown	0.1
+R4YongyechaobotMd010021	1		Hitdown	0.05
+R4YongyechaobotMd010021	1		Lieonfloor	0.1
+R4YongyechaobotMd010021	1		Standup	0.1
+R4YongyechaobotMd010021	1		Straight	0.1
+R4YongyechaobotMd010021	1		Stun	0.1
+R4YongyechaobotMd010021	1		StraightBefore	0.1
+R4YongyechaobotMd010021	1		StraightAfter	0.1
+R4YongyechaobotMd010021	1		Win	0
+R4YongyechaobotMd010021	1		Win2	0.1
+R4YongyechaobotMd010021	1		Stop	0.1
+R4YongyechaobotMd010021	1		Fail	0.1
+R4YongyechaobotMd010021	1		Save	0.1
+R4YongyechaobotMd010021	1		AttackQte	0
+R4YongyechaobotMd010021	1		Caught	0.1
+R4YongyechaobotMd010021	1		Squatdown	0.1
+R4YongyechaobotMd010021	1		StopR	0.1
+R4YongyechaobotMd010021	1		Attack01	0.1
+R4YongyechaobotMd010021	1		Stand99	0.1
+R4YongyechaobotMd010021	1		Stand100	0.1
+R4YongyechaobotMd010021	1		Attack25_Front	0.1
+R4YongyechaobotMd010021	1		Attack25_Front_End	0.1
+R4YongyechaobotMd010021	1		Attack25_Front_Loop	0.1
+R4YongyechaobotMd010021	1		Attack25_Left	0.1
+R4YongyechaobotMd010021	1		Attack25_Left_End	0.1
+R4YongyechaobotMd010021	1		Attack25_Left_Loop	0.1
+R4YongyechaobotMd010021	1		Attack25_Right	0.1
+R4YongyechaobotMd010021	1		Attack25_Right_End	0.1
+R4YongyechaobotMd010021	1		Attack25_Right_Loop	0.1
+R4YongyechaobotMd010021	1		Attack25_Back	0.1
+R4YongyechaobotMd010021	1		Attack25_Back_End	0.1
+R4YongyechaobotMd010021	1		Attack25_Back_Loop	0.1
+R4YongyechaobotMd010021	1		Attack25_Idle	0.1
+R4YongyechaobotMd010021	1		Attack25_End	0.1
+R4YongyechaobotMd010021	1		Attack25_Loop	0.1
+R4YongyechaobotMd010021	1	Stand1	Run	0.2
+R4YongyechaobotMd010021	1	Stand1	Walk	0.1
+R4YongyechaobotMd010021	1	Stand2	Standchange	0.1
+R4YongyechaobotMd010021	1	Stand2	Run	0.2
+R4YongyechaobotMd010021	1	Stand2	Walk	0.3
+R4YongyechaobotMd010021	1	Stand2	Walkb	0.3
+R4YongyechaobotMd010021	1	Stand2	Walkl	0.3
+R4YongyechaobotMd010021	1	Stand2	Walkr	0.3
+R4YongyechaobotMd010021	1	Stand2	Stand2	0.1
+R4YongyechaobotMd010021	1	Standchange	Stand1	0.1
+R4YongyechaobotMd010021	1	Standchange	Run	0.1
+R4YongyechaobotMd010021	1	Standchange	Walk	0.1
+R4YongyechaobotMd010021	1	Run	Stop	0.2
+R4YongyechaobotMd010021	1	Run	Stand2	0.2
+R4YongyechaobotMd010021	1	Run	Runb	0.2
+R4YongyechaobotMd010021	1	Run	Runl	0.2
+R4YongyechaobotMd010021	1	Run	Runr	0.2
+R4YongyechaobotMd010021	1	Walk	Stand2	0.1
+R4YongyechaobotMd010021	1	Runb	Stand2	0.2
+R4YongyechaobotMd010021	1	Runb	Run	0.2
+R4YongyechaobotMd010021	1	Runb	Runl	0.2
+R4YongyechaobotMd010021	1	Runb	Runr	0.2
+R4YongyechaobotMd010021	1	Runl	Stand2	0.2
+R4YongyechaobotMd010021	1	Runl	Run	0.2
+R4YongyechaobotMd010021	1	Runl	Runb	0.2
+R4YongyechaobotMd010021	1	Runl	Runr	0.2
+R4YongyechaobotMd010021	1	Runr	Stand2	0.2
+R4YongyechaobotMd010021	1	Runr	Run	0.2
+R4YongyechaobotMd010021	1	Runr	Runb	0.2
+R4YongyechaobotMd010021	1	Runr	Runl	0.2
+R4YongyechaobotMd010021	1	Walkb	Stand2	0.1
+R4YongyechaobotMd010021	1	Walkb	Walk	0.2
+R4YongyechaobotMd010021	1	Walkb	Walkl	0.1
+R4YongyechaobotMd010021	1	Walkb	Walkr	0.1
+R4YongyechaobotMd010021	1	Walkl	Stand2	0.1
+R4YongyechaobotMd010021	1	Walkl	Walk	0.1
+R4YongyechaobotMd010021	1	Walkl	Walkb	0.1
+R4YongyechaobotMd010021	1	Walkl	Walkr	0.2
+R4YongyechaobotMd010021	1	Walkr	Stand2	0.1
+R4YongyechaobotMd010021	1	Walkr	Walk	0.1
+R4YongyechaobotMd010021	1	Walkr	Walkb	0.1
+R4YongyechaobotMd010021	1	Walkr	Walkl	0.2
+R4YongyechaobotMd010021	1	TurnLeft	Stand2	0.1
+R4YongyechaobotMd010021	1	TurnRight	Stand2	0.1
+R4YongyechaobotMd010021	1	RunStart	Run	0
+R4YongyechaobotMd010021	1	RunStart	RunStartEnd01	0.1
+R4YongyechaobotMd010021	1	Hit1	Stand2	0
+R4YongyechaobotMd010021	1	Hit2	Stand2	0
+R4YongyechaobotMd010021	1	Hit3	Stand2	0
+R4YongyechaobotMd010021	1	Hit4	Stand2	0
+R4YongyechaobotMd010021	1	Behitfly	Hoverhit	0.1
+R4YongyechaobotMd010021	1	Behitfly	Falldown	0.1
+R4YongyechaobotMd010021	1	Hoverhit	Falldown	0.1
+R4YongyechaobotMd010021	1	Falldown	Lieonfloor	0.1
+R4YongyechaobotMd010021	1	Hitdown	Lieonfloor	0.1
+R4YongyechaobotMd010021	1	Standup	Stand2	0.1
+R4YongyechaobotMd010021	1	Straight	Stand2	0.1
+R4YongyechaobotMd010021	1	Stun	Stand2	0.1
+R4YongyechaobotMd010021	1	Win	Win2	0.1
+R4YongyechaobotMd010021	1	Stop	Stand2	0.1
+R4YongyechaobotMd010021	1	Caught	Stand2	0.1
+R4YongyechaobotMd010021	2		Born	0
+R4YongyechaobotMd010021	2		Stand1	0.1
+R4YongyechaobotMd010021	2		Stand2	0.1
+R4YongyechaobotMd010021	2		Stand3	0.1
+R4YongyechaobotMd010021	2		Death	0.1
+R4YongyechaobotMd010021	2		Standchange	0.1
+R4YongyechaobotMd010021	2		Run	0.1
+R4YongyechaobotMd010021	2		Walk	0.1
+R4YongyechaobotMd010021	2		Runb	0.2
+R4YongyechaobotMd010021	2		Runl	0.2
+R4YongyechaobotMd010021	2		Runr	0.2
+R4YongyechaobotMd010021	2		Walkb	0.1
+R4YongyechaobotMd010021	2		Walkl	0.1
+R4YongyechaobotMd010021	2		Walkr	0.1
+R4YongyechaobotMd010021	2		TurnLeft	0.1
+R4YongyechaobotMd010021	2		TurnRight	0.1
+R4YongyechaobotMd010021	2		Move1	0.1
+R4YongyechaobotMd010021	2		Move2	0.1
+R4YongyechaobotMd010021	2		Move3	0.1
+R4YongyechaobotMd010021	2		RunStart	0.1
+R4YongyechaobotMd010021	2		RunStartEnd01	0.1
+R4YongyechaobotMd010021	2		Hit1	0.05
+R4YongyechaobotMd010021	2		Hit2	0.05
+R4YongyechaobotMd010021	2		Hit3	0.05
+R4YongyechaobotMd010021	2		Hit4	0.05
+R4YongyechaobotMd010021	2		Behitfly	0.05
+R4YongyechaobotMd010021	2		Hoverhit	0.05
+R4YongyechaobotMd010021	2		Falldown	0.1
+R4YongyechaobotMd010021	2		Hitdown	0.05
+R4YongyechaobotMd010021	2		Lieonfloor	0.1
+R4YongyechaobotMd010021	2		Standup	0.1
+R4YongyechaobotMd010021	2		Straight	0.1
+R4YongyechaobotMd010021	2		Stun	0.1
+R4YongyechaobotMd010021	2		StraightBefore	0.1
+R4YongyechaobotMd010021	2		StraightAfter	0.1
+R4YongyechaobotMd010021	2		Win	0
+R4YongyechaobotMd010021	2		Win2	0.1
+R4YongyechaobotMd010021	2		Stop	0.1
+R4YongyechaobotMd010021	2		Fail	0.1
+R4YongyechaobotMd010021	2		Save	0.1
+R4YongyechaobotMd010021	2		AttackQte	0
+R4YongyechaobotMd010021	2		Caught	0.1
+R4YongyechaobotMd010021	2		Squatdown	0.1
+R4YongyechaobotMd010021	2		StopR	0.1
+R4YongyechaobotMd010021	2		Attack01	0.1
+R4YongyechaobotMd010021	2		Attack26	0.1
+R4YongyechaobotMd010021	2		Attack27	0.1
+R4YongyechaobotMd010021	2		Attack28	0.1
+R4YongyechaobotMd010021	2		Attack29	0.1
+R4YongyechaobotMd010021	2		Stand99	0.1
+R4YongyechaobotMd010021	2		Stand100	0.1
+R4YongyechaobotMd010021	2	Stand1	Run	0.2
+R4YongyechaobotMd010021	2	Stand1	Walk	0.1
+R4YongyechaobotMd010021	2	Stand2	Standchange	0.1
+R4YongyechaobotMd010021	2	Stand2	Run	0.2
+R4YongyechaobotMd010021	2	Stand2	Walk	0.3
+R4YongyechaobotMd010021	2	Stand2	Walkb	0.3
+R4YongyechaobotMd010021	2	Stand2	Walkl	0.3
+R4YongyechaobotMd010021	2	Stand2	Walkr	0.3
+R4YongyechaobotMd010021	2	Stand2	Stand2	0.1
+R4YongyechaobotMd010021	2	Standchange	Stand1	0.1
+R4YongyechaobotMd010021	2	Standchange	Run	0.1
+R4YongyechaobotMd010021	2	Standchange	Walk	0.1
+R4YongyechaobotMd010021	2	Run	Stop	0.2
+R4YongyechaobotMd010021	2	Run	Stand2	0.2
+R4YongyechaobotMd010021	2	Run	Runb	0.2
+R4YongyechaobotMd010021	2	Run	Runl	0.2
+R4YongyechaobotMd010021	2	Run	Runr	0.2
+R4YongyechaobotMd010021	2	Walk	Stand2	0.1
+R4YongyechaobotMd010021	2	Runb	Stand2	0.2
+R4YongyechaobotMd010021	2	Runb	Run	0.2
+R4YongyechaobotMd010021	2	Runb	Runl	0.2
+R4YongyechaobotMd010021	2	Runb	Runr	0.2
+R4YongyechaobotMd010021	2	Runl	Stand2	0.2
+R4YongyechaobotMd010021	2	Runl	Run	0.2
+R4YongyechaobotMd010021	2	Runl	Runb	0.2
+R4YongyechaobotMd010021	2	Runl	Runr	0.2
+R4YongyechaobotMd010021	2	Runr	Stand2	0.2
+R4YongyechaobotMd010021	2	Runr	Run	0.2
+R4YongyechaobotMd010021	2	Runr	Runb	0.2
+R4YongyechaobotMd010021	2	Runr	Runl	0.2
+R4YongyechaobotMd010021	2	Walkb	Stand2	0.1
+R4YongyechaobotMd010021	2	Walkb	Walk	0.2
+R4YongyechaobotMd010021	2	Walkb	Walkl	0.1
+R4YongyechaobotMd010021	2	Walkb	Walkr	0.1
+R4YongyechaobotMd010021	2	Walkl	Stand2	0.1
+R4YongyechaobotMd010021	2	Walkl	Walk	0.1
+R4YongyechaobotMd010021	2	Walkl	Walkb	0.1
+R4YongyechaobotMd010021	2	Walkl	Walkr	0.2
+R4YongyechaobotMd010021	2	Walkr	Stand2	0.1
+R4YongyechaobotMd010021	2	Walkr	Walk	0.1
+R4YongyechaobotMd010021	2	Walkr	Walkb	0.1
+R4YongyechaobotMd010021	2	Walkr	Walkl	0.2
+R4YongyechaobotMd010021	2	TurnLeft	Stand2	0.1
+R4YongyechaobotMd010021	2	TurnRight	Stand2	0.1
+R4YongyechaobotMd010021	2	RunStart	Run	0.1
+R4YongyechaobotMd010021	2	RunStart	RunStartEnd01	0.1
+R4YongyechaobotMd010021	2	Hit1	Stand2	0
+R4YongyechaobotMd010021	2	Hit2	Stand2	0
+R4YongyechaobotMd010021	2	Hit3	Stand2	0
+R4YongyechaobotMd010021	2	Hit4	Stand2	0
+R4YongyechaobotMd010021	2	Behitfly	Hoverhit	0.1
+R4YongyechaobotMd010021	2	Behitfly	Falldown	0.1
+R4YongyechaobotMd010021	2	Hoverhit	Falldown	0.1
+R4YongyechaobotMd010021	2	Falldown	Lieonfloor	0.1
+R4YongyechaobotMd010021	2	Hitdown	Lieonfloor	0.1
+R4YongyechaobotMd010021	2	Standup	Stand2	0.1
+R4YongyechaobotMd010021	2	Straight	Stand2	0.1
+R4YongyechaobotMd010021	2	Stun	Stand2	0.1
+R4YongyechaobotMd010021	2	Win	Win2	0.1
+R4YongyechaobotMd010021	2	Stop	Stand2	0.1
+R4YongyechaobotMd010021	2	Caught	Stand2	0.1
+R4YongyechaobotMd010021	3		Born	0
+R4YongyechaobotMd010021	3		Stand1	0.1
+R4YongyechaobotMd010021	3		Stand2	0.1
+R4YongyechaobotMd010021	3		Stand3	0.1
+R4YongyechaobotMd010021	3		Death	0.1
+R4YongyechaobotMd010021	3		Standchange	0.1
+R4YongyechaobotMd010021	3		Run	0.1
+R4YongyechaobotMd010021	3		Walk	0.1
+R4YongyechaobotMd010021	3		Runb	0.2
+R4YongyechaobotMd010021	3		Runl	0.2
+R4YongyechaobotMd010021	3		Runr	0.2
+R4YongyechaobotMd010021	3		Walkb	0.1
+R4YongyechaobotMd010021	3		Walkl	0.1
+R4YongyechaobotMd010021	3		Walkr	0.1
+R4YongyechaobotMd010021	3		TurnLeft	0.1
+R4YongyechaobotMd010021	3		TurnRight	0.1
+R4YongyechaobotMd010021	3		Move1	0.1
+R4YongyechaobotMd010021	3		Move2	0.1
+R4YongyechaobotMd010021	3		Move3	0.1
+R4YongyechaobotMd010021	3		RunStart	0.1
+R4YongyechaobotMd010021	3		RunStartEnd01	0.1
+R4YongyechaobotMd010021	3		Hit1	0.05
+R4YongyechaobotMd010021	3		Hit2	0.05
+R4YongyechaobotMd010021	3		Hit3	0.05
+R4YongyechaobotMd010021	3		Hit4	0.05
+R4YongyechaobotMd010021	3		Behitfly	0.05
+R4YongyechaobotMd010021	3		Hoverhit	0.05
+R4YongyechaobotMd010021	3		Falldown	0.1
+R4YongyechaobotMd010021	3		Hitdown	0.05
+R4YongyechaobotMd010021	3		Lieonfloor	0.1
+R4YongyechaobotMd010021	3		Standup	0.1
+R4YongyechaobotMd010021	3		Straight	0.1
+R4YongyechaobotMd010021	3		Stun	0.1
+R4YongyechaobotMd010021	3		StraightBefore	0.1
+R4YongyechaobotMd010021	3		StraightAfter	0.1
+R4YongyechaobotMd010021	3		Win	0
+R4YongyechaobotMd010021	3		Win2	0.1
+R4YongyechaobotMd010021	3		Stop	0.1
+R4YongyechaobotMd010021	3		Fail	0.1
+R4YongyechaobotMd010021	3		Save	0.1
+R4YongyechaobotMd010021	3		AttackQte	0
+R4YongyechaobotMd010021	3		Caught	0.1
+R4YongyechaobotMd010021	3		Squatdown	0.1
+R4YongyechaobotMd010021	3		StopR	0.1
+R4YongyechaobotMd010021	3		Attack01	0.1
+R4YongyechaobotMd010021	3		Attack27	0.1
+R4YongyechaobotMd010021	3		Attack30	0.1
+R4YongyechaobotMd010021	3		Stand99	0.1
+R4YongyechaobotMd010021	3		Stand100	0.1
+R4YongyechaobotMd010021	3	Stand1	Run	0.2
+R4YongyechaobotMd010021	3	Stand1	Walk	0.1
+R4YongyechaobotMd010021	3	Stand2	Standchange	0.1
+R4YongyechaobotMd010021	3	Stand2	Run	0.2
+R4YongyechaobotMd010021	3	Stand2	Walk	0.3
+R4YongyechaobotMd010021	3	Stand2	Walkb	0.3
+R4YongyechaobotMd010021	3	Stand2	Walkl	0.3
+R4YongyechaobotMd010021	3	Stand2	Walkr	0.3
+R4YongyechaobotMd010021	3	Stand2	Stand2	0.1
+R4YongyechaobotMd010021	3	Standchange	Stand1	0.1
+R4YongyechaobotMd010021	3	Standchange	Run	0.1
+R4YongyechaobotMd010021	3	Standchange	Walk	0.1
+R4YongyechaobotMd010021	3	Run	Stop	0.2
+R4YongyechaobotMd010021	3	Run	Stand2	0.2
+R4YongyechaobotMd010021	3	Run	Runb	0.2
+R4YongyechaobotMd010021	3	Run	Runl	0.2
+R4YongyechaobotMd010021	3	Run	Runr	0.2
+R4YongyechaobotMd010021	3	Walk	Stand2	0.1
+R4YongyechaobotMd010021	3	Runb	Stand2	0.2
+R4YongyechaobotMd010021	3	Runb	Run	0.2
+R4YongyechaobotMd010021	3	Runb	Runl	0.2
+R4YongyechaobotMd010021	3	Runb	Runr	0.2
+R4YongyechaobotMd010021	3	Runl	Stand2	0.2
+R4YongyechaobotMd010021	3	Runl	Run	0.2
+R4YongyechaobotMd010021	3	Runl	Runb	0.2
+R4YongyechaobotMd010021	3	Runl	Runr	0.2
+R4YongyechaobotMd010021	3	Runr	Stand2	0.2
+R4YongyechaobotMd010021	3	Runr	Run	0.2
+R4YongyechaobotMd010021	3	Runr	Runb	0.2
+R4YongyechaobotMd010021	3	Runr	Runl	0.2
+R4YongyechaobotMd010021	3	Walkb	Stand2	0.1
+R4YongyechaobotMd010021	3	Walkb	Walk	0.2
+R4YongyechaobotMd010021	3	Walkb	Walkl	0.1
+R4YongyechaobotMd010021	3	Walkb	Walkr	0.1
+R4YongyechaobotMd010021	3	Walkl	Stand2	0.1
+R4YongyechaobotMd010021	3	Walkl	Walk	0.1
+R4YongyechaobotMd010021	3	Walkl	Walkb	0.1
+R4YongyechaobotMd010021	3	Walkl	Walkr	0.2
+R4YongyechaobotMd010021	3	Walkr	Stand2	0.1
+R4YongyechaobotMd010021	3	Walkr	Walk	0.1
+R4YongyechaobotMd010021	3	Walkr	Walkb	0.1
+R4YongyechaobotMd010021	3	Walkr	Walkl	0.2
+R4YongyechaobotMd010021	3	TurnLeft	Stand2	0.1
+R4YongyechaobotMd010021	3	TurnRight	Stand2	0.1
+R4YongyechaobotMd010021	3	RunStart	Run	0.1
+R4YongyechaobotMd010021	3	RunStart	RunStartEnd01	0.1
+R4YongyechaobotMd010021	3	Hit1	Stand2	0
+R4YongyechaobotMd010021	3	Hit2	Stand2	0
+R4YongyechaobotMd010021	3	Hit3	Stand2	0
+R4YongyechaobotMd010021	3	Hit4	Stand2	0
+R4YongyechaobotMd010021	3	Behitfly	Hoverhit	0.1
+R4YongyechaobotMd010021	3	Behitfly	Falldown	0.1
+R4YongyechaobotMd010021	3	Hoverhit	Falldown	0.1
+R4YongyechaobotMd010021	3	Falldown	Lieonfloor	0.1
+R4YongyechaobotMd010021	3	Hitdown	Lieonfloor	0.1
+R4YongyechaobotMd010021	3	Standup	Stand2	0.1
+R4YongyechaobotMd010021	3	Straight	Stand2	0.1
+R4YongyechaobotMd010021	3	Stun	Stand2	0.1
+R4YongyechaobotMd010021	3	Win	Win2	0.1
+R4YongyechaobotMd010021	3	Stop	Stand2	0.1
+R4YongyechaobotMd010021	3	Caught	Stand2	0.1
+R4YongyechaobotMd010021	4		Born	0
+R4YongyechaobotMd010021	4		Stand1	0.1
+R4YongyechaobotMd010021	4		Stand2	0.1
+R4YongyechaobotMd010021	4		Stand3	0.1
+R4YongyechaobotMd010021	4		Death	0.1
+R4YongyechaobotMd010021	4		Standchange	0.1
+R4YongyechaobotMd010021	4		Run	0.1
+R4YongyechaobotMd010021	4		Walk	0.1
+R4YongyechaobotMd010021	4		Runb	0.2
+R4YongyechaobotMd010021	4		Runl	0.2
+R4YongyechaobotMd010021	4		Runr	0.2
+R4YongyechaobotMd010021	4		Walkb	0.1
+R4YongyechaobotMd010021	4		Walkl	0.1
+R4YongyechaobotMd010021	4		Walkr	0.1
+R4YongyechaobotMd010021	4		TurnLeft	0.1
+R4YongyechaobotMd010021	4		TurnRight	0.1
+R4YongyechaobotMd010021	4		Move1	0.1
+R4YongyechaobotMd010021	4		Move2	0.1
+R4YongyechaobotMd010021	4		Move3	0.1
+R4YongyechaobotMd010021	4		RunStart	0.1
+R4YongyechaobotMd010021	4		RunStartEnd01	0.1
+R4YongyechaobotMd010021	4		Hit1	0.05
+R4YongyechaobotMd010021	4		Hit2	0.05
+R4YongyechaobotMd010021	4		Hit3	0.05
+R4YongyechaobotMd010021	4		Hit4	0.05
+R4YongyechaobotMd010021	4		Behitfly	0.05
+R4YongyechaobotMd010021	4		Hoverhit	0.05
+R4YongyechaobotMd010021	4		Falldown	0.1
+R4YongyechaobotMd010021	4		Hitdown	0.05
+R4YongyechaobotMd010021	4		Lieonfloor	0.1
+R4YongyechaobotMd010021	4		Standup	0.1
+R4YongyechaobotMd010021	4		Straight	0.1
+R4YongyechaobotMd010021	4		Stun	0.1
+R4YongyechaobotMd010021	4		StraightBefore	0.1
+R4YongyechaobotMd010021	4		StraightAfter	0.1
+R4YongyechaobotMd010021	4		Win	0
+R4YongyechaobotMd010021	4		Win2	0.1
+R4YongyechaobotMd010021	4		Stop	0.1
+R4YongyechaobotMd010021	4		Fail	0.1
+R4YongyechaobotMd010021	4		Save	0.1
+R4YongyechaobotMd010021	4		AttackQte	0
+R4YongyechaobotMd010021	4		Caught	0.1
+R4YongyechaobotMd010021	4		Squatdown	0.1
+R4YongyechaobotMd010021	4		StopR	0.1
+R4YongyechaobotMd010021	4		Attack01	0.1
+R4YongyechaobotMd010021	4		Attack27	0.1
+R4YongyechaobotMd010021	4	Stand1	Run	0.2
+R4YongyechaobotMd010021	4	Stand1	Walk	0.1
+R4YongyechaobotMd010021	4	Stand2	Standchange	0.1
+R4YongyechaobotMd010021	4	Stand2	Run	0.2
+R4YongyechaobotMd010021	4	Stand2	Walk	0.3
+R4YongyechaobotMd010021	4	Stand2	Walkb	0.3
+R4YongyechaobotMd010021	4	Stand2	Walkl	0.3
+R4YongyechaobotMd010021	4	Stand2	Walkr	0.3
+R4YongyechaobotMd010021	4	Stand2	Stand2	0.1
+R4YongyechaobotMd010021	4	Standchange	Stand1	0.1
+R4YongyechaobotMd010021	4	Standchange	Run	0.1
+R4YongyechaobotMd010021	4	Standchange	Walk	0.1
+R4YongyechaobotMd010021	4	Run	Stop	0.2
+R4YongyechaobotMd010021	4	Run	Stand2	0.2
+R4YongyechaobotMd010021	4	Run	Runb	0.2
+R4YongyechaobotMd010021	4	Run	Runl	0.2
+R4YongyechaobotMd010021	4	Run	Runr	0.2
+R4YongyechaobotMd010021	4	Walk	Stand2	0.1
+R4YongyechaobotMd010021	4	Runb	Stand2	0.2
+R4YongyechaobotMd010021	4	Runb	Run	0.2
+R4YongyechaobotMd010021	4	Runb	Runl	0.2
+R4YongyechaobotMd010021	4	Runb	Runr	0.2
+R4YongyechaobotMd010021	4	Runl	Stand2	0.2
+R4YongyechaobotMd010021	4	Runl	Run	0.2
+R4YongyechaobotMd010021	4	Runl	Runb	0.2
+R4YongyechaobotMd010021	4	Runl	Runr	0.2
+R4YongyechaobotMd010021	4	Runr	Stand2	0.2
+R4YongyechaobotMd010021	4	Runr	Run	0.2
+R4YongyechaobotMd010021	4	Runr	Runb	0.2
+R4YongyechaobotMd010021	4	Runr	Runl	0.2
+R4YongyechaobotMd010021	4	Walkb	Stand2	0.1
+R4YongyechaobotMd010021	4	Walkb	Walk	0.2
+R4YongyechaobotMd010021	4	Walkb	Walkl	0.1
+R4YongyechaobotMd010021	4	Walkb	Walkr	0.1
+R4YongyechaobotMd010021	4	Walkl	Stand2	0.1
+R4YongyechaobotMd010021	4	Walkl	Walk	0.1
+R4YongyechaobotMd010021	4	Walkl	Walkb	0.1
+R4YongyechaobotMd010021	4	Walkl	Walkr	0.2
+R4YongyechaobotMd010021	4	Walkr	Stand2	0.1
+R4YongyechaobotMd010021	4	Walkr	Walk	0.1
+R4YongyechaobotMd010021	4	Walkr	Walkb	0.1
+R4YongyechaobotMd010021	4	Walkr	Walkl	0.2
+R4YongyechaobotMd010021	4	TurnLeft	Stand2	0.1
+R4YongyechaobotMd010021	4	TurnRight	Stand2	0.1
+R4YongyechaobotMd010021	4	RunStart	Run	0.1
+R4YongyechaobotMd010021	4	RunStart	RunStartEnd01	0.1
+R4YongyechaobotMd010021	4	Hit1	Stand2	0
+R4YongyechaobotMd010021	4	Hit2	Stand2	0
+R4YongyechaobotMd010021	4	Hit3	Stand2	0
+R4YongyechaobotMd010021	4	Hit4	Stand2	0
+R4YongyechaobotMd010021	4	Behitfly	Hoverhit	0.1
+R4YongyechaobotMd010021	4	Behitfly	Falldown	0.1
+R4YongyechaobotMd010021	4	Hoverhit	Falldown	0.1
+R4YongyechaobotMd010021	4	Falldown	Lieonfloor	0.1
+R4YongyechaobotMd010021	4	Hitdown	Lieonfloor	0.1
+R4YongyechaobotMd010021	4	Standup	Stand2	0.1
+R4YongyechaobotMd010021	4	Straight	Stand2	0.1
+R4YongyechaobotMd010021	4	Stun	Stand2	0.1
+R4YongyechaobotMd010021	4	Win	Win2	0.1
+R4YongyechaobotMd010021	4	Stop	Stand2	0.1
+R4YongyechaobotMd010021	4	Caught	Stand2	0.1

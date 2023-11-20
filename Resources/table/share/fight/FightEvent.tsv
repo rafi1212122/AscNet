@@ -886,6 +886,30 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 50822	Extra DMG Bonus increases by 3%		761163											
 50823	Extra DMG Bonus increases by 3%		761163											
 50824	Extra DMG Bonus increases by 3%		761163											
+50901	Extra DMG Bonus increases by 3%.		761163											
+50902	Extra DMG Bonus increases by 3%.		761163											
+50903	Extra DMG Bonus increases by 3%.		761163											
+50904	Extra DMG Bonus increases by 3%.		761163											
+50905	All characters have eternal Super Armor.		701047											
+50906	Extra DMG Bonus increases by 3%.		761163											
+50907	Extra DMG Bonus increases by 3%.		761163											
+50908	Extra DMG Bonus increases by 3%.		761163											
+50909	Extra DMG Bonus increases by 3%.		761163											
+50910	Obtains 1 random Signal Orb every 6s.		701048											
+50911	Extra DMG Bonus increases by 3%.		761163											
+50912	Extra DMG Bonus increases by 3%.		761163											
+50913	Extra DMG Bonus increases by 3%.		761163											
+50914	Extra DMG Bonus increases by 3%.		761163											
+50915	Triggers Matrix once every 15s		701049											
+50916	Extra DMG Bonus increases by 3%.		761163											
+50917	Extra DMG Bonus increases by 3%.		761163											
+50918	Extra DMG Bonus increases by 3%.		761163											
+50919	Extra DMG Bonus increases by 3%.		761163											
+50920	QTE No Cooldown		701050											
+50921	Extra DMG Bonus increases by 3%.		761163											
+50922	Extra DMG Bonus increases by 3%.		761163											
+50923	Extra DMG Bonus increases by 3%.		761163											
+50924	Extra DMG Bonus increases by 3%.		761163											
 51001	Basic Attack's Extra DMG Bonus increases by 15%.		773000											
 51002	Basic Attack's Extra DMG Bonus increases by 30%.		773001											
 51003	Basic Attack's Extra DMG Bonus increases by 45%.		773002											
@@ -1756,6 +1780,76 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 98131	Support 2		775254											
 98132	Support 3		775255											
 98133	Support 4		775256											
+98134	Bastion 1 Blocking duration becomes infinite after Yellow Orbs are pinged		909860											
+98135	Bastion 2 No counterattack will be performed if attacked within 5s during blocking (Immune to attacks, and block can be canceled manually)		909861											
+98136	Bastion 3 Deals 30x DMG received during blocking to the attacker		909865											
+98137	Bastion 4 Restores 600 HP per second during blocking		909863											
+98138	Bastion 5 Immune once to DMG over 5000 during blocking, and when receiving DMG less than 5000, the attacker receives the equal true DMG		909866											
+98139	Bastion 6 Receives 30x DMG during the additional period of swordwaves after a successful block		909867											
+98140	Bastion 7 Core Energy will be fully restored (120) after blocking ends. Before the Core state ends, DMG equal to 50% of HP restored will be added during blocking		909868											
+98141	Bastion 11 When Core Passive is active, releases Tenebrion (Effect 770171) to deal 300% Dark DMG per second to enemies within 6m and restores HP equal to 5% of DMG dealt		909869											
+98142	Bastion 12 Restores 50 Core Energy when attacked within 1.5s after Yellow Orbs are pinged. If the Core state is active, enemies inside the field will be afflicted with 50% Vulnerable for 3s		909872											
+98143	Bastion 13 Each successful block (counterattacks are also counted) increases Max HP by 200		909876											
+98144	Bastion 14 Gains a set of Yellow Orbs every 5s		909877											
+98145	Bastion 15 Being attacked within 0.5s after Yellow Orbs are pinged will stun enemies for 2s. If the Core state is active, enemies inside the field will be stunned for an extra 2s		909879											
+98146	Bastion 16 Kamui's attacks deal additional True DMG equal to 10% of his max HP		909884											
+98147	Bastion 17 Each successful block increases the Core state's Energy limit by 5		909885											
+98148	Pulse 1 After performing Signature Move, leaves a trail (adopt Karenina's or retain Nanami's Signature effect with the same range) for 7s, dealing 270% Fire DMG per second		909887											
+98149	Pulse 2 The duration of the trail becomes infinite, and up to 2 trails can exist on the field		909888											
+98150	Pulse 3 Each dodge grants 7% movement speed and a Fire DMG Bonus for 3s. Can be stacked up to 7 times (with or without nitrogen)		909889											
+98151	Pulse 4 Accelerates continuously when moving, gaining 7% speed and 7 Energy per second. Such speed lasts 3s. Can be stacked up to 7 times		909890											
+98152	Pulse 5 Up to 3 trails can exist on the field. Enemies on the trails will move 50% slower		909895											
+98153	Pulse 6 Attacks additionally deal Fire DMG equal to 10x the current movement speed		909896											
+98154	Pulse 7 After performing Signature Move, fully restores Dodge Gauge and imprisons enemies for 2s		909897											
+98155	Pulse 11 Converts a random normal enemy into an ally every 20s. The ally dies when the time is over (instantly dies if there are no other enemies on the field)		930168											
+98156	Pulse 12 Has a 37% chance to convert an elite enemy into an ally (give me two marked buffs for the elites and bosses in the stages)		930169											
+98157	Pulse 13 Allies' attacks an additional 7,777 True DMG with Berserk 780253		930170											
+98158	Pulse 14 Each time an ally attacks, Nanami restores 1000 HP		930172											
+98159	Pulse 15 When converted enemies die, permanently increases Nanami's DMG dealt by 5% and Max HP by 500		930175											
+98160	Pulse 16 When allies die, they will explode, dealing 30000 True DMG to enemies within 6m and instantly killing those with lower than 20% HP		930178											
+98161	Pulse 17 When an ally dies, 37% chance to decrease the cooldown of conversion to 10s		930184											
+98162	Nightblade 1 Upon dodging, leaves a decoy in place that cannot draw Aggro (Effect 715447 with the same stats). It will explode 3s later, dealing 1000% DMG to enemies within 3m. 7s cooldown		930186											
+98163	Nightblade 2 The decoy will copy Nightblade's Signal Orbs and release them against the locked target while restoring 20 Dodge Gauge for Nightblade		930189											
+98164	Nightblade 3 The decoy will exist 3s more		930190											
+98165	Nightblade 4 Increases the DMG dealt by the decoy's explosion to 2000%		930255											
+98166	Nightblade 5 The decoy will be teleported to near the locked target to perform the skills, and it has a 20% chance to return the Signal Orbs (775214)		930194											
+98167	Nightblade 6 The decoy can draw Aggro. Each attack grants an additional 20 Aggro (it explodes once dead)		930195											
+98168	Nightblade 7 When the decoy explodes, it additionally deals DMG equal to 30% of the DMG it has received		930229											
+98169	Nightblade 11 When Yellow Orbs are pinged, leaves a phantom with 50% of his ATK in place that cannot draw Aggro (Effect 750148) for 5s. (the new one will replace the original one once it appears). It copies the character's Basic Attack and Yellow Orbs. Against the locked target with a 0.5s delay		930230											
+98170	Nightblade 12 The duration of the phantom becomes infinite with ATK inheritation		930232											
+98171	Nightblade 13 Nightblade gains 250 ATK for each phantom within 6m (find a simple special effect circle or tower defense)		930233											
+98172	Nightblade 14 When a phantom deals DMG, 10% chance to restore 1 for the character		930235											
+98173	Nightblade 15 One more phantom can exist at a time. Attacking from behind deals 20% more DMG		930236											
+98174	Nightblade 16 When performing Signature Move, the phantoms on the fields will be teleported to near the target with a 0.5s delay and will perform Signature Move simultaneously (120° angle distribution would be the best)		930238											
+98175	Nightblade 17 When Yellow Orbs are pinged, becomes Invincible for 0.5/1/1.5s based on the number of orbs pinged		930239											
+98176	Blast 1 Records the coordinates of the enemy after dealing DMG, and fires a projectile to those coordinates 2s later (Signature Move projectile effect, against enemies within 2m)		930256											
+98177	Blast 2 When attacked, fires a projectile at the attacker instantly		930258											
+98178	Blast 3 When performing Signature Move, each projectile DMG extends Signature Move's duration by 1s		930259											
+98179	Blast 4 After projectiles deal DMG, the current character has a 20% chance to gain a random orb		930261											
+98180	Blast 5 Support: Fires a projectile to random coordinates within 8m every 2s (remember to make a circle with a radius of about the same range)		930263											
+98181	Blast 6 Support can be activated even when Blast is still on the field, and CD-1		930264											
+98182	Blast 7 Firing projectiles has a 20% chance to fire one more time 1s later		930265											
+98183	Blast 11		930267											
+98184	Blast 12		930269											
+98185	Blast 13		930270											
+98186	Blast 14		930271											
+98187	Blast 15		930274											
+98188	Blast 16						930276							
+98189	Blast 17		930280											
+98190	Rozen 1		930281											
+98191	Rozen 2		930283											
+98192	Rozen 3		930286											
+98193	Rozen 4		930288											
+98194	Rozen 5		930289											
+98195	Rozen 6		930292											
+98196	Rozen 7		930293											
+98197	Rozen 11		930295											
+98198	Rozen 12		930296											
+98199	Rozen 13		930297											
+98200	Rozen 14		776351											
+98201	Rozen 15		930299											
+98202	Rozen 16		930343											
+98203	Rozen 17		930345											
 99001	Create 1 Recovery Device nearby every 15s. Picking up the device will immediately recover 20 Dodge Gauge		773981											
 99002	Create 1 Recovery Device nearby every 15s. Picking up the device will immediately recover 20 Dodge Gauge		773982											
 99003	Create 1 Recovery Device nearby every 15s. Picking up the device will immediately recover 20 Dodge Gauge		773983											
@@ -2420,7 +2514,7 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 200102	Enemies activates First-aid when their HP drops to 10%. If they are still alive after 5s, immediately recover 20% HP. 10s cooldown.						746005							
 200103	Enemy damage also causes Burn for 5s (dealing damage every second).		746007											
 200104	After clearing this stage, enemies lose 10% HP when they spawn in Deep Hive.						746030							
-200105	Upon death, the enemy lays a mine under its feet.						746010							
+200105	Upon death, the enemy lays a mine under its feet.						760263							
 200106	Operation Maintenance Area 3 Basic. 30s after the start of battle, 1 laser device will appear to launch 1 laser every 20s at ally units, dealing damage. The laser has its interval reduced by 5s and deals 10% more damage every 60s.		746019											
 200107	The power laser in Deep Hive has shorter alarm period		746020											
 200108	Deep Hive now has an additional power laser		746021											
@@ -3850,3 +3944,5 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2250707	Roguelike 2.0 - Dialogue - Story Stage Dialogue - Siren		763707											
 2250708	Roguelike 2.0 - Dialogue - Story Stage Dialogue - Cradle		763708											
 2250709	Roguelike 2.0 - Dialogue - Story Stage Dialogue - Moon Eater		763709											
+2250084	Roguelike 2.0 - Bond - Faction Bond - Egret's Old Pact - Rank 1 - 200 Dodge Gauge + Dodge triggers Healing Aura		747919											
+2250085	Roguelike 2.0 - Bond - Faction Bond - Egret's Old Pact - Rank 2 - 400 Dodge Gauge + Healing Aura boosts the DMG Bonus effect		747923											

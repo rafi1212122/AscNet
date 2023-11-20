@@ -1,0 +1,36 @@
+Id	ChapterId	StageId	StageDes	PreStageType	PreStageIds[1]	PreStageIds[2]	PreStageIds[3]	OrderId	TierId	StageType	Difficulty	PassDrawTimesReward	DrawTimesReward	BossStageCover	RecommentStar	WarningStarCap	DangerStarCap	StageWords[1]	StageWords[2]	StageWords[3]	StageWords[4]	StagePrefab
+1	1	30210352	Rest Point							2			5		1	1	1					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+2	1	30210356	Buffer Zone	1	30210352					2			5		5	1	3					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+3	1	30210357	Buffer Zone	1	30210352					2			5		5	1	3					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+4	1	30210358	Buffer Zone	1	30210352					2			5		5	1	3					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+5	1	30210359	Buffer Zone	1	30210356					2			5		7	3	5					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+6	1	30210360	Buffer Zone	1	30210357					2			5		7	3	5					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+7	1	30210365	Alert Zone	1	30210358					2			5		12	8	10					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+8	1	30210366	Alert Zone	1	30210359					2			5		12	8	10					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+9	1	30210361	Buffer Zone	1	30210360					2			5		8	5	7					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+10	1	30210367	Alert Zone	1	30210365					2			5		12	8	10					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+11	1	30210378	Critical Point	1	30210366					2			7	Assets/Product/Texture/Image/UiExpedition/UiExpeditionStageBoss07.png	15	12	14					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage05.prefab
+12	1	30210368	Alert Zone	1	30210361					2			5		12	8	10					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+13	1	30210379	Critical Point	1	30210367					2			7	Assets/Product/Texture/Image/UiExpedition/UiExpeditionStageBoss02.png	15	12	14					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage05.prefab
+14	1	30210353	Rest Point	2	30210378	30210368	30210379			2			5		1	1	1					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+15	1	30210369	Alert Zone	1	30210353					2			5		16	12	14					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+16	1	30210380	Critical Point	1	30210353					2			7	Assets/Product/Texture/Image/UiExpedition/UiExpeditionStageBoss04.png	18	14	16					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage05.prefab
+17	1	30210370	Alert Zone	2	30210369	30210380				2			5		16	12	14					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+18	1	30210384	Enlisting Office	1	30210370					4		4	5		10	6	8					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage07.prefab
+19	1	30210385	Training Field	1	30210370					3					18	14	16					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage06.prefab
+20	2	30210354	Rest Point	1	30210370					2			5		1	1	1					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+21	2	30210362	Buffer Zone	1	30210354					2			5		20	16	18					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+22	2	30210363	Buffer Zone	1	30210354					2			5		20	16	18					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+23	2	30210371	Alert Zone	1	30210354					2			5		22	18	20					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+24	2	30210372	Alert Zone	1	30210362					2			5		22	18	20					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+25	2	30210364	Buffer Zone	1	30210363					2			5		22	18	20					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+26	2	30210373	Alert Zone	1	30210371					2			5		22	18	20					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+27	2	30210381	Critical Point	1	30210372					2			7	Assets/Product/Texture/Image/UiExpedition/UiExpeditionStageBoss08.png	27	20	24					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage05.prefab
+28	2	30210374	Alert Zone	1	30210364					2			5		24	20	22					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+29	2	30210355	Rest Point	1	30210373					2			5		1	1	1					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+30	2	30210375	Alert Zone	2	30210381	30210374				2			5		27	20	24					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+31	2	30210376	Alert Zone	2	30210374	30210355				2			5		27	20	24					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+32	2	30210377	Alert Zone	1	30210376					2			5		27	20	24					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage04.prefab
+33	2	30210383	Unknown Zone	1	30210355					2			5	Assets/Product/Texture/Image/UiExpedition/UiExpeditionStageBoss06.png	27	20	24					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage05.prefab
+34	2	30210382	Critical Point	1	30210375					2			7	Assets/Product/Texture/Image/UiExpedition/UiExpeditionStageBoss05.png	27	20	24					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage05.prefab
+35	2	30210386	Training Field	2	30210382	30210377	30210383			3					27	20	24					Assets/Product/Ui/ComponentPrefab/FubenExpedition/FubenExpeditionStage06.prefab

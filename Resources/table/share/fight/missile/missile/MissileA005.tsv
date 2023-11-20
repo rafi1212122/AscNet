@@ -1,0 +1,472 @@
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
+10140102	普攻1-2	1	0.4	1			65			4			0.2						1		FxR3BiankaAttack01Shouji				FxR3BiankaAttack01Dandao		1			1					0	0	0										0							0	3		0.2	0.1	101401021	101400									1.35			0						0	1													
+10140108	普攻1-8	1	0.4	1	-0.5	-1	80			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	310	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101401081	101420									1.7	HitCase		0		0				0	1													
+10140203	普攻2-3	1	0.4	1	-0.1		65			4			0.2						1		FxR3BiankaAttack01Shouji				FxR3BiankaAttack01Dandao		1			1					0	0	0										0							0	3		0.2	0.1	101402031	101401									0.95			0						0	1													
+10140301	普攻3-1	1	0.4	1	-0.3	0	65			4			0.2						1		FxR3BiankaAttack01Shouji				FxR3BiankaAttack01Dandao		1			1					0	0	0										0							0	3		0.2	0.1	101403011	101402									1.7			0						0	1													
+10140302	普攻3-2	1	0.4	1	-0.25	0.1	65			4			0.2						1		FxR3BiankaAttack01Shouji				FxR3BiankaAttack01Dandao		1			1					0	0	0										0							0	3		0.2	0.1	101403021	101402									1.5			0						0	1													
+10140303	普攻3-3	1	0.4	1	-0.2	0.1	65			4			0.2						1		FxR3BiankaAttack01Shouji				FxR3BiankaAttack01Dandao		1			1					0	0	0										0							0	3		0.2	0.1	101403031	101402									1.3			0						0	1													
+10140304	普攻3-4	1	0.4	1	-0.15	0.2	65			4			0.2						1		FxR3BiankaAttack01Shouji				FxR3BiankaAttack01Dandao		1			1					0	0	0										0							0	3		0.2	0.1	101403041	101402									1.1			0						0	1													
+10140305	普攻3-5	1	0.4	1	-0.1	0.2	65			4			0.2						1		FxR3BiankaAttack01Shouji				FxR3BiankaAttack01Dandao		1			1					0	0	0										0							0	3		0.2	0.1	101403051	101402									0.9			0						0	1													
+10140402	普攻4-2	1	0.4	1	0.1		85			4			0.8						-1		FxR3BiankaAttack04Shouji				FxR3BiankaAttack04Dandao		-1			1					0	0	0										0							0	3		0.2	0.1	101404021	101403									0.75			0						0	1													
+10140602	红球1消-2	1	3	1	0.2		106			4			1						-1		FxR3BiankaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	101406021	101410									1			0						0	1													
+10140702	红球2消-2	1	3	1	0.2		106			4			1						-1		FxR3BiankaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	101407021	101411									1			0						0	1													
+10140802	红球3消-2	1	3	1	0.2		106			4			1						-1		FxR3BiankaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	101408021	101412									1			0						0	1													
+10140905	蓝球1消-扩散伤害	2	3				0			4			0.1						-1		FxR3BiankaAttack21Shouji						-1			1					0	0	0										0							0	1		0.2	0.1	101409051	101467									0.5	HitCase		0		0				0	1													
+10140906	蓝球1消-一般子弹	1	0.2	0.5	-0.3	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	310	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101409061	101420									1.7	HitCase		0		0				0	1												101409062	
+10140907	蓝球1消-一般子弹	1	0.4	1	-0.7	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	290	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101409071	101420									1.2	HitCase		0		0				0	1												101409072	
+10140908	蓝球1消-一般子弹	1	0.4	1	-1.1	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	270	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101409081	101420									0.7	HitCase		0		0				0	1												101409082	
+10140909	蓝球1消-一般子弹	1	0.4	1	0.3	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	50	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101409091	101420									1.7	HitCase		0		0				0	1												101409092	
+10140910	蓝球1消-一般子弹	1	0.4	1	0.7	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	70	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101409101	101420									1.2	HitCase		0		0				0	1												101409102	
+10140911	蓝球1消-一般子弹	1	0.4	1	1.1	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	90	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101409111	101420									0.7	HitCase		0		0				0	1												101409112	
+10140912	蓝球子弹地面特效1	1	0.4	1	-0.3	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	310	-50	0	4	26.17991667	-3	0										3							4	3		0	0											1.7	HitCase		0		0				0	1													
+10140913	蓝球子弹地面特效2	1	0.4	1	-0.7	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	290	-50	0	4	26.17991667	-3	0										3							4	3		0	0											1.2	HitCase		0		0				0	1													
+10140914	蓝球子弹地面特效3	1	0.4	1	-1.1	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	270	-50	0	4	26.17991667	-3	0										3							4	3		0	0											0.7	HitCase		0		0				0	1													
+10140915	蓝球子弹地面特效4	1	0.4	1	0.3	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	50	-50	0	4	26.17991667	-3	0										3							4	3		0	0											1.7	HitCase		0		0				0	1													
+10140916	蓝球子弹地面特效5	1	0.4	1	0.7	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	70	-50	0	4	26.17991667	-3	0										3							4	3		0	0											1.2	HitCase		0		0				0	1													
+10140917	蓝球子弹地面特效6	1	0.4	1	1.1	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	90	-50	0	4	26.17991667	-3	0										3							4	3		0	0											0.7	HitCase		0		0				0	1													
+10140918	蓝球子弹地面特效1	1	0.4	1	-0.3	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	310	-50	0	4	26.17991667	-3	0										3							4	3		0	0											1.7	HitCase		0		0				0	1													
+10140919	蓝球子弹地面特效2	1	0.4	1	-0.7	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	290	-50	0	4	26.17991667	-3	0										3							4	3		0	0											1.2	HitCase		0		0				0	1													
+10140920	蓝球子弹地面特效3	1	0.4	1	-1.1	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	270	-50	0	4	26.17991667	-3	0										3							4	3		0	0											0.7	HitCase		0		0				0	1													
+10140921	蓝球子弹地面特效4	1	0.4	1	0.3	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	50	-50	0	4	26.17991667	-3	0										3							4	3		0	0											1.7	HitCase		0		0				0	1													
+10140922	蓝球子弹地面特效5	1	0.4	1	0.7	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	70	-50	0	4	26.17991667	-3	0										3							4	3		0	0											1.2	HitCase		0		0				0	1													
+10140923	蓝球子弹地面特效6	1	0.4	1	1.1	-0.5	0			4		1	0.1						1						FxR3BiankaAttack21DandaoBorn		1			5	90	-50	0	4	26.17991667	-3	0										3							4	3		0	0											0.7	HitCase		0		0				0	1													
+10140924	蓝球1消-红球被动子弹1	1	0.4	1	-0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	310	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409241	101405									1.7	HitCase		0		0				0	1													
+10140925	蓝球1消-红球被动子弹1	1	0.4	1	-0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	290	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409251	101405									1.2	HitCase		0		0				0	1													
+10140926	蓝球1消-红球被动子弹1	1	0.4	1	-1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	270	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409261	101405									0.7	HitCase		0		0				0	1													
+10140927	蓝球1消-红球被动子弹1	1	0.4	1	0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	50	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409271	101405									1.7	HitCase		0		0				0	1													
+10140928	蓝球1消-红球被动子弹1	1	0.4	1	0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	70	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409281	101405									1.2	HitCase		0		0				0	1													
+10140929	蓝球1消-红球被动子弹1	1	0.4	1	1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	90	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409291	101405									0.7	HitCase		0		0				0	1													
+10140930	蓝球1消-红球被动子弹2	1	0.4	1	-0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx	0.1	1			5	310	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409301	101405									1.7	HitCase		0		0				0	1													
+10140931	蓝球1消-红球被动子弹2	1	0.4	1	-0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx	0.1	1			5	290	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409311	101405									1.2	HitCase		0		0				0	1													
+10140932	蓝球1消-红球被动子弹2	1	0.4	1	-1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx	0.1	1			5	270	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409321	101405									0.7	HitCase		0		0				0	1													
+10140933	蓝球1消-红球被动子弹2	1	0.4	1	0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx	0.1	1			5	50	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409331	101405									1.7	HitCase		0		0				0	1													
+10140934	蓝球1消-红球被动子弹2	1	0.4	1	0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx	0.1	1			5	70	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409341	101405									1.2	HitCase		0		0				0	1													
+10140935	蓝球1消-红球被动子弹2	1	0.4	1	1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx	0.1	1			5	90	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101409351	101405									0.7	HitCase		0		0				0	1													
+10141005	蓝球2消-扩散伤害	2	3				0			4			0.1						-1		FxR3BiankaAttack21Shouji						-1			1					0	0	0										0							0	1		0.2	0.1	101410051	101468									0.5	HitCase		0		0				0	1													
+10141006	蓝球2消-一般子弹	1	0.4	1	-0.3	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	310	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101410061	101421									1.7	HitCase		0		0				0	1												101410062	
+10141007	蓝球2消-一般子弹	1	0.4	1	-0.7	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	290	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101410071	101421									1.2	HitCase		0		0				0	1												101410072	
+10141008	蓝球2消-一般子弹	1	0.4	1	-1.1	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	270	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101410081	101421									0.7	HitCase		0		0				0	1												101410082	
+10141009	蓝球2消-一般子弹	1	0.4	1	0.3	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	50	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101410091	101421									1.7	HitCase		0		0				0	1												101410092	
+10141010	蓝球2消-一般子弹	1	0.4	1	0.7	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	70	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101410101	101421									1.2	HitCase		0		0				0	1												101410102	
+10141011	蓝球2消-一般子弹	1	0.4	1	1.1	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	90	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101410111	101421									0.7	HitCase		0		0				0	1												101410112	
+10141012	蓝球2消-红球被动子弹1	1	0.4	1	-0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	310	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410121	101408									1.7	HitCase		0		0				0	1													
+10141013	蓝球2消-红球被动子弹1	1	0.4	1	-0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	290	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410131	101408									1.2	HitCase		0		0				0	1													
+10141014	蓝球2消-红球被动子弹1	1	0.4	1	-1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	270	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410141	101408									0.7	HitCase		0		0				0	1													
+10141015	蓝球2消-红球被动子弹1	1	0.4	1	0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	50	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410151	101408									1.7	HitCase		0		0				0	1													
+10141016	蓝球2消-红球被动子弹1	1	0.4	1	0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	70	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410161	101408									1.2	HitCase		0		0				0	1													
+10141017	蓝球2消-红球被动子弹1	1	0.4	1	1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	90	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410171	101408									0.7	HitCase		0		0				0	1													
+10141018	蓝球2消-红球被动子弹2	1	0.4	1	-0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	310	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410181	101408									1.7	HitCase		0		0				0	1													
+10141019	蓝球2消-红球被动子弹2	1	0.4	1	-0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	290	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410191	101408									1.2	HitCase		0		0				0	1													
+10141020	蓝球2消-红球被动子弹2	1	0.4	1	-1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	270	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410201	101408									0.7	HitCase		0		0				0	1													
+10141021	蓝球2消-红球被动子弹2	1	0.4	1	0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	50	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410211	101408									1.7	HitCase		0		0				0	1													
+10141022	蓝球2消-红球被动子弹2	1	0.4	1	0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	70	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410221	101408									1.2	HitCase		0		0				0	1													
+10141023	蓝球2消-红球被动子弹2	1	0.4	1	1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	90	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101410231	101408									0.7	HitCase		0		0				0	1													
+10141105	蓝球3消-扩散伤害	2	3				0			4			0.1						-1		FxR3BiankaAttack21Shouji						-1			1					0	0	0										0							0	1		0.2	0.1	101411051	101469									0.5	HitCase		0		0				0	1													
+10141106	蓝球3消-一般子弹	1	0.4	1	-0.3	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	310	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101411061	101422									1.7	HitCase		0		0				0	1												101411062	
+10141107	蓝球3消-一般子弹	1	0.4	1	-0.7	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	290	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101411071	101422									1.2	HitCase		0		0				0	1												101411072	
+10141108	蓝球3消-一般子弹	1	0.4	1	-1.1	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	270	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101411081	101422									0.7	HitCase		0		0				0	1												101411082	
+10141109	蓝球3消-一般子弹	1	0.4	1	0.3	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	50	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101411091	101422									1.7	HitCase		0		0				0	1												101411092	
+10141110	蓝球3消-一般子弹	1	0.4	1	0.7	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	70	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101411101	101422									1.2	HitCase		0		0				0	1												101411102	
+10141111	蓝球3消-一般子弹	1	0.4	1	1.1	-0.5	44			4		1	2						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21Dandao		1			5	90	-50	0	4	26.17991667	-3	0										3							4	3		0.2	0.1	101411111	101422									0.7	HitCase		0		0				0	1												101411112	
+10141112	蓝球3消-红球被动子弹1	1	0.4	1	-0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	310	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411121	101409									1.7	HitCase		0		0				0	1													
+10141113	蓝球3消-红球被动子弹1	1	0.4	1	-0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	290	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411131	101409									1.2	HitCase		0		0				0	1													
+10141114	蓝球3消-红球被动子弹1	1	0.4	1	-1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	270	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411141	101409									0.7	HitCase		0		0				0	1													
+10141115	蓝球3消-红球被动子弹1	1	0.4	1	0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	50	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411151	101409									1.7	HitCase		0		0				0	1													
+10141116	蓝球3消-红球被动子弹1	1	0.4	1	0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	70	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411161	101409									1.2	HitCase		0		0				0	1													
+10141117	蓝球3消-红球被动子弹1	1	0.4	1	1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	90	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411171	101409									0.7	HitCase		0		0				0	1													
+10141118	蓝球3消-红球被动子弹2	1	0.4	1	-0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	310	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411181	101409									1.7	HitCase		0		0				0	1													
+10141119	蓝球3消-红球被动子弹2	1	0.4	1	-0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	290	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411191	101409									1.2	HitCase		0		0				0	1													
+10141120	蓝球3消-红球被动子弹2	1	0.4	1	-1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	270	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411201	101409									0.7	HitCase		0		0				0	1													
+10141121	蓝球3消-红球被动子弹2	1	0.4	1	0.3	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	50	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411211	101409									1.7	HitCase		0		0				0	1													
+10141122	蓝球3消-红球被动子弹2	1	0.4	1	0.7	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	70	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411221	101409									1.2	HitCase		0		0				0	1													
+10141123	蓝球3消-红球被动子弹2	1	0.4	1	1.1	-0.5	44			4		1	3						1		FxR3BiankaAttack21Shouji				FxR3BiankaAttack21DandaoEx		1			5	90	-50	0	6	34.90655556	-3	0										3							4	3		0.2	0.1	101411231	101409									0.7	HitCase		0		0				0	1													
+10141201	黄球1消-箭矢子弹	2	0.2			-2.5	0			4			0.2		1				1		FxR3BiankaAttack31Shouji				FxR3BiankaAttack31Dandao		1			4	0	110	0	2.7	0	0	0										3	9999	9999	1	10141208	1		4	3		0	0	101412011										0			0						0	1													
+10141202	黄球1消-爆炸伤害	2	6				0			4			0.2						-1		FxR3BiankaAttack31Shouji						-1			1					0	0	0										2	0	9999	1	10141209			2	3		0.2	0.1	101412021	101430									1.25			0						0	1													
+10141203	黄球1消-减速子弹	2	6				0			4			3						-1	1			0.05				-1			1					0	0	0										2							2	3		0	0		101433	101434	101491	101461						0	HitCase		0		0				0	1													
+10141205	黄球1消-地面圈特效	2	0.3				0			4			3						-1						FxR3BiankaAttack31Dimian		-1			1					0	0	0										2	0	9999	1	10141203			2	3		0.2	0.1											0	HitCase		0						0	1													
+10141206	黄球1消-爆炸特效	2	0.3				0			4			1.3						-1						FxR3BiankaAttack31Baozha		-1			1					0	0	0										2	0	9999	1	10141202			2	3		0.2	0.1											0	HitCase		0						0	1													
+10141208	黄球1消-爆炸震屏子弹	2	99				0			1			0.1						-1								-1			1					0	0	0										2	0	9999	1	10141206			2	0		0	0											0	HitCase		0						0	1												101412082	
+10141209	黄球1消-持续伤害子弹	2	6				0			4			3						-1	1	FxR3BiankaAttack31Shouji		1				-1			1					0	0	0										2	0.05	9999	1	10141205			2	2		0.2	0.1		101464									1.25			0						0	1													
+10141301	黄球2消-箭矢子弹	2	0.2			-2.5	0			4			0.2		1				1		FxR3BiankaAttack31Shouji				FxR3BiankaAttack31Dandao		1			4	0	110	0	2.7	0	0	0										3	9999	9999	1	10141308	1		4	3		0	0	101413011										0			0						0	1													
+10141302	黄球2消-爆炸伤害	2	6				0			4			0.2						-1		FxR3BiankaAttack31Shouji						-1			1					0	0	0										2	0	9999	1	10141309			2	3		0.2	0.1	101413021	101431									1.25			0						0	1													
+10141303	黄球2消-减速子弹	2	6				0			4			5						-1	1			0.05				-1			1					0	0	0										2							2	3		0	0		101435	101436	101491	101461						0	HitCase		0		0				0	1													
+10141305	黄球2消-地面圈特效	2	0.3				0			4			5						-1						FxR3BiankaAttack32Dimian		-1			1					0	0	0										2	0	9999	1	10141303			2	3		0.2	0.1											0	HitCase		0						0	1													
+10141306	黄球2消-爆炸特效	2	0.3				0			4			1.3						-1						FxR3BiankaAttack31Baozha		-1			1					0	0	0										2	0	9999	1	10141302			2	3		0.2	0.1											0	HitCase		0						0	1													
+10141308	黄球2消-爆炸震屏子弹	2	99				0			1			0.1						-1								-1			1					0	0	0										2	0	9999	1	10141306			2	0		0	0											0	HitCase		0						0	1												101413082	
+10141309	黄球2消-持续伤害子弹	2	6				0			4			5						-1	1	FxR3BiankaAttack31Shouji		1				-1			1					0	0	0										2	0.05	9999	1	10141305			2	2		0.2	0.1		101465									1.25			0						0	1													
+10141401	黄球3消-箭矢子弹	2	0.2			-2.5	0			4			0.2		1				1		FxR3BiankaAttack31Shouji				FxR3BiankaAttack31Dandao		1			4	0	110	0	2.7	0	0	0										3	9999	9999	1	10141408	1		4	3		0	0	101414011										0			0						0	1													
+10141402	黄球3消-爆炸伤害	2	6				0			4			0.2						-1		FxR3BiankaAttack31Shouji						-1			1					0	0	0										2	0	9999	1	10141409			2	3		0.2	0.1	101414021	101432									1.25			0						0	1													
+10141403	黄球3消-减速子弹	2	6				0			4			7						-1	1			0.05				-1			1					0	0	0										2							2	3		0	0		101437	101438	101491	101461						0	HitCase		0		0				0	1													
+10141405	黄球3消-地面圈特效	2	0.3				0			4			7						-1						FxR3BiankaAttack33Dimian		-1			1					0	0	0										2	0	9999	1	10141403			2	3		0.2	0.1											0	HitCase		0						0	1													
+10141406	黄球3消-爆炸特效	2	0.3				0			4			1.3						-1						FxR3BiankaAttack31Baozha		-1			1					0	0	0										2	0	9999	1	10141402			2	3		0.2	0.1											0	HitCase		0						0	1													
+10141408	黄球3消-爆炸震屏子弹	2	99				0			1			0.1						-1								-1			1					0	0	0										2	0	9999	1	10141406			2	0		0	0											0	HitCase		0						0	1												101414082	
+10141409	黄球3消-持续伤害子弹	2	6				0			4			7						-1	1	FxR3BiankaAttack31Shouji		1				-1			1					0	0	0										2	0.05	9999	1	10141405			2	2		0.2	0.1		101466									1.25			0						0	1													
+10141504	qte技能-4	2	3			3	0			4			1.1						-1								-1			1					0	0	0										0							1	3	30	0.2	0.1	101415041	101456									1.35			0						0	1													
+10141505	qte技能-5	2	3			3	0			4			1.1						-1								-1			1					0	0	0										0							1	3	330	0.2	0.1	101415051	101456									1.35			0						0	1													
+10141506	qte技能-6	2	3			3	0			4			1.1						-1								-1			1					0	0	0										0							1	3	30	0.2	0.1	101415061	101456									1.35			0						0	1													
+10141507	qte技能-7	2	3			3	0			4			1.1						-1								-1			1					0	0	0										0							1	3	330	0.2	0.1	101415071	101456									1.35			0						0	1													
+10141802	大招-特效子弹	2	0.3				0			4			4						-1						FxR3BiankaAttack51Dandao		-1			1					0	0	0										3							4	3		0.2	0.1											0	HitCase		0						0	1													
+10141803	大招-下落伤害1	2	5				0			4			0.1						-1		FxR3BiankaAttack51Shouji					0.1	-1			1					0	0	0										3	0.1	9999	1	10141805			4	3		0.2	0.1	101418031	101450									0	HitCase		0						0	1													
+10141804	大招-爆发伤害	2	5				0			4			0.35						-1	1	FxR3BiankaAttack51Shouji		0.05			1.65	-1			1					0	0	0										3							4	3		0.2	0.1	101418041	101455									0	HitCase		0						0	1													
+10141805	大招-下落伤害2	2	5				0			4			0.1						-1		FxR3BiankaAttack51Shouji						-1			1					0	0	0										2	0.1	9999	1	10141806			2	3		0.2	0.1	101418051	101450									0	HitCase		0						0	1													
+10141806	大招-下落伤害3	2	5				0			4			0.1						-1		FxR3BiankaAttack51Shouji						-1			1					0	0	0										2	0.1	9999	1	10141807			2	3		0.2	0.1	101418061	101450									0	HitCase		0						0	1													
+10141807	大招-下落伤害4	2	5				0			4			0.1						-1		FxR3BiankaAttack51Shouji						-1			1					0	0	0										2	0.1	9999	1	10141808			2	3		0.2	0.1	101418071	101450									0	HitCase		0						0	1													
+10141808	大招-下落伤害5	2	5				0			4			0.1						-1		FxR3BiankaAttack51Shouji						-1			1					0	0	0										2	0.1	9999	1	10141809			2	3		0.2	0.1	101418081	101450									0	HitCase		0						0	1													
+10141809	大招-下落伤害6	2	5				0			4			0.1						-1		FxR3BiankaAttack51Shouji						-1			1					0	0	0										2	0.1	9999	1	10141810			2	3		0.2	0.1	101418091	101450									0	HitCase		0						0	1													
+10141810	大招-下落伤害7	2	5				0			4			0.1						-1		FxR3BiankaAttack51Shouji						-1			1					0	0	0										2	0.1	9999	1	10141811			2	3		0.2	0.1	101418101	101450									0	HitCase		0						0	1													
+10141811	大招-下落伤害8	2	5				0			4			0.1						-1		FxR3BiankaAttack51Shouji						-1			1					0	0	0										2							2	3		0.2	0.1	101418111	101450									0	HitCase		0						0	1													
+10141816	大招-落雷震屏子弹	2	99				0			1			0.7						-1	1			0.05			0.05	-1			1					0	0	0										1							1	3		0	0		101452									0	HitCase		0						0	1												101418162	
+10141817	大招-爆发震屏子弹1	2	99				0			1			0.35						-1	1			0.05			1.65	-1			1					0	0	0										1							1	3		0	0		101452									0	HitCase		0						0	1												101418172	
+10141818	大招-爆发震屏子弹2	2	99				0			1			0.35						-1	1			0.05			1.65	-1			1					0	0	0										1							1	3		0	0		101452									0	HitCase		0						0	1												101418182	
+10141819	大招-敌人超算空间	2	99				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0	0		101454									0	HitCase		0						0	1													
+10142202	被动蓄力攻击-2	1	3	1			100			4			1						-1		FxR3BiankaAttack41Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	101422021	101446									0.9			0						0	1		1			0.6	2							
+10142302	被动蓄力攻击2-2	1	3	1			100			4			1						-1		FxR3BiankaAttack41Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	101423021	101446									0.9			0						0	1		1			0.6	2							
+10142502	出场技-2	1	3	1	0.2		106			4			1						-1		FxR3BiankaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	101425021	101412									1			0						0	1												101425022	
+10142802	被动闪避后攻击-2	1	2	2			100			4			1						-1		FxR3BiankaAttack41Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	101428021	101446									0.9			0						0	1		1			0.6	2							
+11020101	普攻1-左下1段伤害	1	6	3		1.5	0			4			0.1						-1		FxR2KuluomuAttack01Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110201011	110200									1.1			0						0	1												110201012	
+11020201	普攻2-右上1段伤害	1	6	3		1.5	0			4			0.1						-1		FxR2KuluomuAttack02Shouji01						-1			1					0	0	0										0							0	3		0.2	0.1	110202011	110201									1			0						0	1												110202012	
+11020202	普攻2-右下1段伤害	1	6	3		1.5	0			4			0.1						-1		FxR2KuluomuAttack02Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110202021	110201									0.6			0						0	1												110202022	
+11020301	普攻3-上挑1段伤害	1	4	3		1.5	0			4			0.1						-1		FxR2KuluomuAttack03Shouji01						-1			1					0	0	0										0							0	3		0.2	0.1	110203011	110202	110247								1			0						0	1												110203012	
+11020302	普攻3-上挑拉扯	1	4	4		2	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	1		0.2	0.1		110209									0	HitCase		0		1				0	1													
+11020304	普攻3-后劈1段伤害	2	3				0			4			0.1						-1		FxR2KuluomuAttack03Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110203041	110202									1.3			0						0	1												110203042	
+11020305	普攻3-后摆1段伤害	2	3				0			4			0.1						-1		FxR2KuluomuAttack03Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110203051	110202	110248				110248				1.3			0						0	1												110203052	
+11020401	普攻4-上挑1段伤害	1	6	5			0			4			0.1						-1		FxR2KuluomuAttack04Shouji01						-1			1					0	0	0										0							0	3		0.2	0.1	110204011	110203	110249				110249				1.1			0						0	1												110204012	
+11020402	普攻4-上挑1段伤害	1	6	5			0			4			0.1						-1		FxR2KuluomuAttack04Shouji01						-1			1					0	0	0										0							0	3		0.2	0.1	110204021	110203									1.2			0						0	1													
+11020403	普攻4-上挑1段伤害	1	6	5			0			4			0.1						-1		FxR2KuluomuAttack04Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110204031	110203									1.1			0						0	1												110204032	
+11020404	普攻4-上挑1段伤害	1	6	5			0			4			0.1						-1		FxR2KuluomuAttack04Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110204041	110203	110249				110249				1.2			0						0	1													
+11020405	普攻4-左下1段伤害	1	6	3		1.5	0			4			0.1						-1		FxR2KuluomuAttack04Shouji03						-1			1					0	0	0										0							0	3		0.2	0.1	110204051	110203	110214				110214				1.1			0						0	1												110204052	
+11020501	红球1消-1	1	6	4		1	0			4			0.14						-1	1	FxR2KuluomuAttack11Shouji01		0.05				-1			1					0	0	0										0							0	3		0.2	0.1	110205011	110210									0.9			0						0	1												110205012	
+11020502	红球1消-2	1	6	4		1	0			4			0.14						-1	1	FxR2KuluomuAttack11Shouji02		0.05				-1			1					0	0	0										0							0	3		0.2	0.1	110205021	110210									0.8			0						0	1												110205022	
+11020503	红球1消-3	1	6	4		1	0			4			0.19						-1	1	FxR2KuluomuAttack11Shouji03		0.05				-1			1					0	0	0										0							0	3		0.2	0.1	110205031	110210									0.8			0						0	1												110205032	
+11020511	红球1消-11	1	4	4		1	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110209									0	HitCase		0		1				0	1													
+11020601	红球2消-1	1	6	4		1	0			4			0.14						-1	1	FxR2KuluomuAttack11Shouji01		0.05				-1			1					0	0	0										0							0	3		0.2	0.1	110206011	110211									0.9			0						0	1												110206012	
+11020602	红球2消-2	1	6	4		1	0			4			0.14						-1	1	FxR2KuluomuAttack11Shouji02		0.05				-1			1					0	0	0										0							0	3		0.2	0.1	110206021	110211									0.8			0						0	1												110206022	
+11020603	红球2消-3	1	6	4		1	0			4			0.19						-1	1	FxR2KuluomuAttack11Shouji03		0.05				-1			1					0	0	0										0							0	3		0.2	0.1	110206031	110211									0.8			0						0	1												110206032	
+11020611	红球2消-11	1	4	4		1	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110209									0	HitCase		0		1				0	1													
+11020701	红球3消-1	1	6	4		1	0			4			0.14						-1	1	FxR2KuluomuAttack13Shouji01		0.05				-1			1					0	0	0										0							0	3		0.2	0.1	110207011	110212									0.9			0						0	1												110207012	
+11020702	红球3消-2	1	6	4		1	0			4			0.14						-1	1	FxR2KuluomuAttack13Shouji02		0.05				-1			1					0	0	0										0							0	3		0.2	0.1	110207021	110212									0.8			0						0	1												110207022	
+11020703	红球3消-3	1	6	4		1	0			4			0.19						-1	1	FxR2KuluomuAttack13Shouji03		0.05				-1			1					0	0	0										0							0	3		0.2	0.1	110207031	110212									0.8			0						0	1												110207032	
+11020711	红球3消-11	1	4	4		1	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110209									0	HitCase		0		1				0	1													
+11020801	蓝球1消-1	2	5				0			4			0.2						-1		FxR2KuluomuAttack21Shouji						-1			1					0	0	0										0							0	1		0.2	0.1	110208011	110220	110225	110223			110223				0.8			1						0	1													
+11020901	蓝球2消-1	2	5				0			4			0.2						-1		FxR2KuluomuAttack21Shouji						-1			1					0	0	0										0							0	1		0.2	0.1	110209011	110221	110226	110223			110223				0.8			1						0	1													
+11021001	蓝球3消-1	2	5				0			4			0.2						-1		FxR2KuluomuAttack21Shouji						-1			1					0	0	0										0							0	1		0.2	0.1	110210011	110222	110227	110223			110223				0.8			1						0	1													
+11021101	黄球1消-旋转伤害	2	3				50			4			0.4						-1	1	FxR2KuluomuAttack31Shouji01		0.1				-1			1					0	0	0										0							0	3		0.2	0.1	110211011	110230									1.3			1						0	1												110211012	
+11021102	黄球1消-挥砍伤害	1	3	6			0			4			0.1						-1		FxR2KuluomuAttack31Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110211021	110230									0	HitCase		0						0	1													
+11021103	黄球1消-地面伤害	2	3			2	0			4			0.3						-1		FxR2KuluomuAttack31Shouji03						-1			1					0	0	0										0							0	3		0.2	0.1	110211031	110233									0	HitCase		0						0	1													
+11021107	黄球1消-拉扯子弹	2	3.5				0			4			0.5						-1	1			0.05				-1			1					0	0	0										0							0	1		0	0		110236									0	HitCase	1	1		1				0	1													
+11021108	黄球1消-击退子弹1	3	4	30			0			4			0.1						-1								-1			1					0	0	0										0							0	1		0.2	0.1	110211081										0	HitCase		0						0	1													
+11021109	黄球1消-击退子弹2	3	4	30			0			4			0.1						-1								-1			1					0	0	0										0							0	1		0.2	0.1	110211091										0	HitCase		0						0	1													
+11021110	黄球1消-击退子弹3	3	4	30			0			4			0.1						-1								-1			1					0	0	0										0							0	1		0.2	0.1	110211101										0	HitCase		0						0	1													
+11021201	黄球2消-旋转伤害	2	3				50			4			0.4						-1	1	FxR2KuluomuAttack31Shouji01		0.1				-1			1					0	0	0										0							0	3		0.2	0.1	110212011	110231									1.3			1						0	1												110212012	
+11021202	黄球2消-挥砍伤害	1	3	6			0			4			0.1						-1		FxR2KuluomuAttack31Shouji01						-1			1					0	0	0										0							0	3		0.2	0.1	110212021	110231									0	HitCase		0						0	1													
+11021203	黄球2消-地面伤害	2	3			2	0			4			0.3						-1		FxR2KuluomuAttack31Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110212031	110234									0	HitCase		0						0	1													
+11021207	黄球2消-拉扯子弹	2	3.5				0			4			0.5						-1	1			0.05				-1			1					0	0	0										0							0	1		0	0		110236									0	HitCase	1	1		1				0	1													
+11021208	黄球2消-击退子弹1	3	4	30			0			4			0.1						-1								-1			1					0	0	0										0							0	1		0.2	0.1	110212081										0	HitCase		0						0	1													
+11021209	黄球2消-击退子弹2	3	4	30			0			4			0.1						-1								-1			1					0	0	0										0							0	1		0.2	0.1	110212091										0	HitCase		0						0	1													
+11021210	黄球2消-击退子弹3	3	4	30			0			4			0.1						-1								-1			1					0	0	0										0							0	1		0.2	0.1	110212101										0	HitCase		0						0	1													
+11021301	黄球3消-旋转伤害	2	3				50			4			0.4						-1	1	FxR2KuluomuAttack33Shouji01		0.1				-1			1					0	0	0										0							0	3		0.2	0.1	110213011	110232									1.3			1						0	1												110213012	
+11021302	黄球3消-挥砍伤害	1	3	6			0			4			0.1						-1		FxR2KuluomuAttack33Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110213021	110232									0	HitCase		0						0	1													
+11021303	黄球3消-地面伤害	2	3			2	0			4			0.3						-1		FxR2KuluomuAttack33Shouji03						-1			1					0	0	0										0							0	3		0.2	0.1	110213031	110235									0	HitCase		0						0	1													
+11021307	黄球3消-拉扯子弹	2	3.5				0			4			0.5						-1	1			0.05				-1			1					0	0	0										0							0	1		0	0		110236									0	HitCase	1	1		1				0	1													
+11021308	黄球3消-击退子弹1	3	5	30			0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1		0	0	110213081										0	HitCase		0						0	1													
+11021309	黄球3消-击退子弹2	3	5	30			0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1		0	0	110213091										0	HitCase		0						0	1													
+11021310	黄球3消-击退子弹3	3	5	30			0			4			0.1						-1								-1			1					0	0	0										0							0	1		0	0	110213101										0	HitCase		0						0	1													
+11021401	QTE技能-1	2	4			2	0			4			0.1						-1		FxR2KuluomuAttackQteShouji						-1			1					0	0	0										0							0	3		0.2	0.1	110214011	110280									0.5			0						0	1													
+11021403	QTE技能-3	2	3.5				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110214031	110280	110281								0	HitCase		0						0	1													
+11021705	大招动作-超算子弹	2	99				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0	0		110266									0	HitCase		0						0	1													
+11021707	大招动作-拉怪子弹	2	5				0			4			0.35						-1	1			0.05				-1			1					0	0	0										0							0	3		0	0		110224									0	HitCase		0						0	1													
+11021801	被动弹道存放-护盾爆炸子弹	2	0.3				0			4			5						-1						FxR2KuluomuBeidongHudunChufa		-1			1					0	0	0										3							4	3		0.2	0.1											0	HitCase		0						0	1													
+11021802	被动弹道存放-左爆炸子弹	2	5				0			4			0.1						-1		FxR2KuluomuAttack21Shouji					0.1	-1			1					0	0	0										3							4	3		0.2	0.1	110218021	110243									0.8			0						0	1													
+11021803	被动弹道存放-右爆炸子弹	2	5				0			4			0.1						-1		FxR2KuluomuAttack21Shouji					0.1	-1			1					0	0	0										3							4	3		0.2	0.1	110218031	110243									0.8			0						0	1													
+11021804	被动弹道存放-护盾爆炸震屏子弹	2	99				0			1			0.1						-1								-1			1					0	0	0										3							4	3		0	0		110299									0	HitCase		0						0	1													
+11021805	被动弹道存放-清除所有顿帧子弹	2	999				0			5			0.1						-1								-1			1					0	0	0										3							4	3	0	0	0		900440									0	HitCase		0						0	1													
+11021806	被动弹道存放-添加顿帧子弹	2	999				0			5			0.1						-1								-1			1					0	0	0										3							4	3	0	0	0		900439									0	HitCase		0						0	1													
+11022301	出场技-1	2	3				50			4			0.4						-1	1	FxR2KuluomuAttack33Shouji01		0.1				-1			1					0	0	0										0							0	3		0.2	0.1	110223011	110232	110239								1.3			1						0	1												110223012	
+11022302	出场技-2	1	3	6			0			4			0.1						-1		FxR2KuluomuAttack33Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110223021	110232	110239								0	HitCase		0						0	1													
+11022303	出场技-3	2	3			0.5	0			4			0.3						-1		FxR2KuluomuAttack33Shouji03						-1			1					0	0	0										0							0	3		0.2	0.1	110223031	110235									0	HitCase		0						0	1													
+11022307	出场技-7	2	3.5				0			4			0.5						-1	1			0.05				-1			1					0	0	0										0							0	1		0	0		110236									0	HitCase	1	1						0	1													
+11022308	出场技-8	3	5	30			0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1		0	0	110223081										0	HitCase		0						0	1													
+11022309	出场技-9	3	5	30			0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	1		0	0	110223091										0	HitCase		0						0	1													
+11022310	出场技-10	3	5	30			0			4			0.1						-1								-1			1					0	0	0										0							0	1		0	0	110223101										0	HitCase		0						0	1													
+11022404	大招闪电攻击1-冲撞伤害	1	4	5		-0.5	0			4			0.25						-1	1	FxR2KuluomuAttack51MoveShouji		0.1				-1			1					0	0	0										0							0	3		0.2	0.1		110255									0.7			1						0	1													
+11022409	大招闪电攻击1-拉扯子弹	1	4	5		-0.5	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110267									0	HitCase		1		1				0	1													
+11022425	大招闪电攻击1-挥砍伤害1	1	6	4	0.5	1	0			4			0.1						-1		FxR2KuluomuAttack41Shouji01						-1			1					0	0	0										0							0	3		0.2	0.1	110224251	110250									0.7			0						0	1												110224252	
+11022504	大招闪电攻击2-冲撞伤害	1	4	5		-0.5	0			4			0.25						-1	1	FxR2KuluomuAttack51MoveShouji		0.1				-1			1					0	0	0										0							0	3		0.2	0.1		110255									0	HitCase		1						0	1													
+11022509	大招闪电攻击2-拉扯子弹	1	4	5		-0.5	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110267									0	HitCase		1		1				0	1													
+11022525	大招闪电攻击2-挥砍伤害1	1	4	4		1	0			4			0.1						-1		FxR2KuluomuAttack42Shouji01						-1			1					0	0	0										0							0	3		0.2	0.1	110225251	110250									0.7			0						0	1												110225252	
+11022526	大招闪电攻击2-挥砍伤害2	1	4	4		1	0			4			0.1						-1		FxR2KuluomuAttack42Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110225261	110250									0.7			0						0	1												110225262	
+11022604	大招闪电攻击3-冲撞伤害	1	4	5		-0.5	0			4			0.25						-1	1	FxR2KuluomuAttack51MoveShouji		0.1				-1			1					0	0	0										0							0	3		0.2	0.1		110255									0.7			1						0	1													
+11022609	大招闪电攻击3-拉扯子弹	1	4	5		-0.5	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110267									0	HitCase		1		1				0	1													
+11022625	大招闪电攻击3-挥砍伤害1	1	6	4		1	0			4			0.1						-1		FxR2KuluomuAttack43Shouji01						-1			1					0	0	0										0							0	3		0.2	0.1	110226251	110250									0.7			0						0	1												110226252	
+11022626	大招闪电攻击3-挥砍伤害2	1	4	4		1	0			4			0.1						-1		FxR2KuluomuAttack43Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110226261	110250									0.7			0						0	1												110226262	
+11022704	大招闪电攻击4-冲撞伤害	1	4	5		-0.5	0			4			0.25						-1	1	FxR2KuluomuAttack51MoveShouji		0.1				-1			1					0	0	0										0							0	3		0.2	0.1		110255									0.7			1						0	1													
+11022709	大招闪电攻击4-拉扯子弹	1	4	5		-0.5	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110267									0	HitCase		1		1				0	1													
+11022725	大招闪电攻击4-挥砍伤害1	1	6	4		1	0			4			0.1						-1		FxR2KuluomuAttack44Shouji01						-1			1					0	0	0										0							0	3		0.2	0.1	110227251	110250									0.7			0						0	1												110227252	
+11022726	大招闪电攻击4-挥砍伤害2	1	6	4		1	0			4			0.1						-1		FxR2KuluomuAttack44Shouji02						-1			1					0	0	0										0							0	3		0.2	0.1	110227261	110250									0.7			0						0	1												110227262	
+11022901	普攻1（冲刺版）-1	1	6	3		1.5	0			4			0.1						-1		FxR2KuluomuAttack01Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110229011	110200									1.1			0						0	1												110229012	
+11030101	普攻1-1	1	4	3		1	0			4			0.1						-1		FxR2WeilaAttack01Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110301011	110300									1.2			0						0	1												110301012	
+11030102	普攻1-2	1	4	3		1	0			4			0.1						-1		FxR2WeilaAttack01Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110301021	110300									1.2			0						0	1													
+11030201	普攻2-1	1	4	3		1	0			4			0.1						-1		FxR2WeilaAttack0201Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110302011	110301									0.8			0						0	1												110302012	
+11030202	普攻2-2	1	4	3		1	0			4			0.1						-1		FxR2WeilaAttack0202Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110302021	110301									1.1			0						0	1												110302022	
+11030302	普攻3-2	1	3	3		1	0			4			0.1						-1		FxR2WeilaAttack0301Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110303021	110302									1.6			0						0	1												110303022	
+11030303	普攻3-3	1	3	3		1	0			4			0.1						-1		FxR2WeilaAttack0301Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110303031	110302									1.6			0						0	1													
+11030304	普攻3-4	1	3	3		1	0			4			0.1						-1		FxR2WeilaAttack0302Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110303041	110302	200002				200002				1.2			0						0	1													
+11030305	普攻3-5	1	3	3		1	0			4			0.1						-1		FxR2WeilaAttack0302Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110303051	110302									1.2			0						0	1												110303052	
+11030401	普攻4-1	1	3	4		1.5	0			4			0.1						-1		FxR2WeilaAttack0401Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110304011	110303									0.9			0						0	1												110304012	
+11030402	普攻4-2	1	3	4		1.5	0			4			0.1						-1		FxR2WeilaAttack0401Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110304021	110303									0.9			0						0	1												110304022	
+11030403	普攻4-3	1	3	4		1.5	0			4			0.1						-1		FxR2WeilaAttack0401Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110304031	110303									0.9			0						0	1												110304032	
+11030404	普攻4-4	1	3	4		1.5	0			4			0.1						-1		FxR2WeilaAttack0401Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110304041	110303									0.9			0						0	1												110304042	
+11030405	普攻4-5	1	3	4		1	50			4			0.1						-1		FxR2WeilaAttack0402Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.2	110304051	110303									0.9			1						0	1												110304052	
+11030406	普攻4-6	1	3	4		1.5	50			4			0.1						-1		FxR2WeilaAttack0403Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.2	110304061	110303									0.9			1						0	1												110304062	
+11030411	普攻4-11	1	3	5		2	50			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110305									0	HitCase		1						0	1													
+11030501	普攻5-1	2	2.5				0			4			0.1						-1		FxR2WeilaAttack0501Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110305011	110304									1.2			0						0	1												110305012	
+11030502	普攻5-2	2	2.5				0			4			0.1						-1		FxR2WeilaAttack0502Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.2	110305021	110304	200003				200003				0.8			0						0	1												110305022	
+11030601	红球1消-1	1	8	4	-2		50			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110306011	110310									0.8			1						0	1												110306012	
+11030602	红球1消-2	1	6	4	-1		0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110306021	110310									0.8			0						0	1												110306022	
+11030603	红球1消-3	1	8	4	2		50			4			0.15						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110306031	110310									0.8			1						0	1												110306032	
+11030604	红球1消-4	1	6	4	1		0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110306041	110310									0.8			0						0	1												110306042	
+11030605	红球1消-5	1	4	4			50			4			0.2						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110306051	110310									0.8			1						0	1												110306052	
+11030606	红球1消-6	1	4	4			0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110306061	110310									0.8			0						0	1												110306062	
+11030607	红球1消-7	1	4	4			50			4			0.2						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110306071	110310									0.8			1						0	1												110306072	
+11030608	红球1消-8	1	8	3		1.5	0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.2	110306081	110310									0.8			0						0	1												110306082	
+11030610	红球1消-10	1	4	3			50			4			0.8						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110316									0	HitCase		1						0	1													
+11030611	红球1消-11	1	4	6		2	50			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110316									0	HitCase		1						0	1													
+11030701	红球2消-1	1	8	4	-2		50			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110307011	110311									0.8			1						0	1												110307012	
+11030702	红球2消-2	1	6	4	-1		0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110307021	110311									0.8			0						0	1												110307022	
+11030703	红球2消-3	1	8	4	2		50			4			0.15						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110307031	110311									0.8			1						0	1												110307032	
+11030704	红球2消-4	1	6	4	1		0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110307041	110311									0.8			0						0	1												110307042	
+11030705	红球2消-5	1	4	4			50			4			0.2						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110307051	110311									0.8			1						0	1												110307052	
+11030706	红球2消-6	1	4	4			0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110307061	110311									0.8			0						0	1												110307062	
+11030707	红球2消-7	1	4	4			50			4			0.2						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110307071	110311									0.8			1						0	1												110307072	
+11030708	红球2消-8	1	8	3		1.5	0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.2	110307081	110311									0.8			0						0	1												110307082	
+11030710	红球2消-10	1	4	4			50			4			0.8						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110316									0	HitCase		1						0	1													
+11030711	红球2消-11	1	4	6		2	50			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110316									0	HitCase		1						0	1													
+11030801	红球3消-1	1	8	4	-2		50			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110308011	110312									0.8			1						0	1												110308012	
+11030802	红球3消-2	1	6	4	-1		0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110308021	110312									0.8			0						0	1												110308022	
+11030803	红球3消-3	1	8	4	2		50			4			0.15						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110308031	110312									0.8			1						0	1												110308032	
+11030804	红球3消-4	1	6	4	1		0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110308041	110312									0.8			0						0	1												110308042	
+11030805	红球3消-5	1	4	4			50			4			0.2						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110308051	110312									0.8			1						0	1												110308052	
+11030806	红球3消-6	1	4	4			0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110308061	110312									0.8			0						0	1												110308062	
+11030807	红球3消-7	1	4	4			50			4			0.2						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110308071	110312									0.8			1						0	1												110308072	
+11030808	红球3消-8	1	8	3		1.5	0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.2	110308081	110312									0.8			0						0	1												110308082	
+11030810	红球3消-10	1	4	4			50			4			0.8						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110316									0	HitCase		1						0	1													
+11030811	红球3消-11	1	4	6		2	50			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110316									0	HitCase		1						0	1													
+11030901	蓝球1消-1	1	4	2		0.5	18			4			0.2						-1		FxR2WeilaAttack21Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.12	110309011	110320	200002				200002				0.8			0						0	1												110309012	
+11030907	蓝球1消-印记消除子弹	2	99				0			6			0.1						-1								-1			1					0	0	0										3							4	3		0	0		110318									0	HitCase		0						0	1													
+11030908	蓝球1消-范围特效	2	4				0			3			0.8						-1						FxR2WeilaAttack21Dandao		-1			1					0	0	0										3							4	3		0.2	0.1											0	HitCase		0						0	1													
+11030909	蓝球1消-治疗	2	4				0			3			0.8						-1		FxTongyongCureshouji						-1			1					0	0	0										3							4	3		0.2	0.1		110336									0	HitCase		0						0	1													
+11030910	蓝球1消-伤害	2	4				0			4			0.8						-1		FxR2WeilaAttack51Shouji						-1			1					0	0	0										3							4	3		0.2	0.1		110327									0	HitCase		0						0	1													
+11031001	蓝球2消-1	1	4	2		0.5	18			4			0.1						-1		FxR2WeilaAttack21Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.12	110310011	110321	200002				200002				0.8			0						0	1												110310012	
+11031008	蓝球2消-范围特效	2	4				0			3			0.8						-1						FxR2WeilaAttack21Dandao		-1			1					0	0	0										3							4	3		0.2	0.1											0	HitCase		0						0	1													
+11031009	蓝球2消-治疗	2	4				0			3			0.8						-1		FxTongyongCureshouji						-1			1					0	0	0										3							4	3		0.2	0.1		110337									0	HitCase		0						0	1													
+11031010	蓝球2消-伤害	2	4				0			4			0.8						-1		FxR2WeilaAttack51Shouji						-1			1					0	0	0										3							4	3		0.2	0.1		110328									0			0						0	1													
+11031101	蓝球3消-1	1	4	2		0.5	18			4			0.1						-1		FxR2WeilaAttack21Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.12	110311011	110322	200002				200002				0.8			0						1	1												110311012	
+11031108	蓝球3消-范围特效	2	4				0			3			0.8						-1						FxR2WeilaAttack21Dandao		-1			1					0	0	0										3							4	3		0.2	0.1											0	HitCase		0						0	1													
+11031109	蓝球3消-治疗	2	4				0			3			0.8						-1		FxTongyongCureshouji						-1			1					0	0	0										3							4	3		0.2	0.1		110338									0	HitCase		0						0	1													
+11031110	蓝球3消-伤害	2	4				0			4			0.8						-1		FxR2WeilaAttack51Shouji						-1			1					0	0	0										3							4	3		0.2	0.1		110329									0			0						0	1													
+11031201	黄球1消-1	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110312011	110330									1.1			1						0	1												110312012	
+11031202	黄球1消-2	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110312021	110330									1.1			1						0	1												110312022	
+11031203	黄球1消-3	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110312031	110330									1.1			1						0	1												110312032	
+11031204	黄球1消-4	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110312041	110330									1.1			1						0	1												110312042	
+11031205	黄球1消-5	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110312051	110330									1.1			1						0	1												110312052	
+11031211	黄球1消-11	1	4	3			65			4			2						-1		FxR2WeilaAttack31DandaoShouji						-1			1					0	0	0										0							0	3	330	0.2	0.2	110312111	110333									0.9			0						0	1												110312112	
+11031301	黄球2消-1	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110313011	110331									1.1			0						0	1												110313012	
+11031302	黄球2消-2	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110313021	110331									1.1			0						0	1												110313022	
+11031303	黄球2消-3	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110313031	110331									1.1			0						0	1												110313032	
+11031304	黄球2消-4	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110313041	110331									1.1			0						0	1												110313042	
+11031305	黄球2消-5	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110313051	110331									1.1			0						0	1												110313052	
+11031311	黄球2消-11	1	4	3			65			4			2						-1		FxR2WeilaAttack31DandaoShouji						-1			1					0	0	0										0							0	3	330	0.2	0.2	110313111	110334									0.9			0						0	1												110313112	
+11031401	黄球3消-1	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110314011	110332									1.1			0						1	1												110314012	
+11031402	黄球3消-2	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110314021	110332									1.1			0						1	1												110314022	
+11031403	黄球3消-3	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110314031	110332									1.1			0						1	1												110314032	
+11031404	黄球3消-4	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110314041	110332									1.1			0						1	1												110314042	
+11031405	黄球3消-5	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110314051	110332									1.1			0						1	1												110314052	
+11031411	黄球3消-11	1	4	3			65			4			2						-1		FxR2WeilaAttack31DandaoShouji						-1			1					0	0	0										0							0	3	330	0.2	0.2	110314111	110335									0.9			0						0	1												110314112	
+11031501	QTE技能-1	2	4		0.5	2.4	0			3			0.1						-1		FxTongyongCureshouji						-1			1					0	0	0										0							0	3		0.2	0.1		110360									0	HitCase		0						0	1													
+11031502	QTE技能-2	2	4		0.5	2.4	0			4			0.1						-1								-1			1					0	0	0										0							0	2		0.2	0.1	110315021	110361									0.8			0						0	1													
+11031508	QTE技能-一般效果	2	4				0			3			0.1						-1								-1			1					0	0	0										3							4	3		0	0		110373	110374								0	HitCase		0						0	1													
+11031509	QTE技能-SSS效果	2	4				0			3			0.1						-1								-1			1					0	0	0										3							4	3		0	0		110394	110374								0	HitCase		0						0	1													
+11031801	大招动作-爆发伤害	2	5				0			4			0.1						-1		FxR2WeilaAttack51Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110318011	110350									0.8		1	0						0	1													
+11031802	大招动作-非天赋伤害子弹	2	5				50			4		1	5.9						-1	1	FxR2WeilaAttack51Shouji		1			0.3	-1			7	1	1			0	0	0										3							4	3		0.2	0.1		110351									0.8		1	0						0	1													
+11031803	大招动作-非天赋增益子弹	2	5				50			3		1	5.9						-1	1			0.1		FxR2WeilaAttack51Dandao	0.3	-1			7	1	1			0	0	0										3							4	3		0	0		110353	110354	110373	110355						0	HitCase		0						0	1													
+11031804	大招动作-非天赋治疗子弹	2	5				50			3		1	5.9						-1	1	FxTongyongCureshouji		1			0.3	-1			7	1	1			0	0	0										3							4	3		0	0		110352									0	HitCase	1	0						0	1													
+11031806	大招动作-SSS天赋伤害子弹	2	5				50			4		1	5.9						-1	1	FxR2WeilaAttack51Shouji		1			0.3	-1			7	1	1			0	0	0										3							4	3		0.2	0.1		110351									0.8		1	0						0	1													
+11031807	大招动作-SSS天赋增益子弹	2	5				50			3		1	5.9						-1	1			0.1		FxR2WeilaAttack51Dandao	0.3	-1			7	1	1			0	0	0										3							4	3		0	0		110353	110354	110394	110355						0	HitCase		0						0	1													
+11031808	大招动作-SSS天赋治疗子弹	2	5				50			3		1	5.9						-1	1	FxTongyongCureshouji		1			0.3	-1			7	1	1			0	0	0										3							4	3		0	0		110352									0	HitCase	1	0						0	1													
+11031809	大招-敌人超算空间	2	99				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0	0		110358									0	HitCase		0						0	1													
+11031810	大招动作-SSS+天赋伤害子弹	2	5				50			4		1	9.9						-1	1	FxR2WeilaAttack51Shouji		1			0.3	-1			7	1	1			0	0	0										3							4	3		0.2	0.1		110351									0.8		1	0						0	1													
+11031811	大招动作-SSS+天赋增益子弹	2	5				50			3		1	9.9						-1	1			0.1		FxR2WeilaAttack51DandaoEx	0.3	-1			7	1	1			0	0	0										3							4	3		0	0		110353	110354	110373	110355						0	HitCase		0						0	1													
+11031812	大招动作-SSS+天赋治疗子弹	2	5				50			3		1	9.9						-1	1	FxTongyongCureshouji		1			0.3	-1			7	1	1			0	0	0										3							4	3		0	0		110352									0	HitCase	1	0						0	1													
+11031814	大招动作-SSS和SSS+天赋伤害子弹	2	5				50			4		1	9.9						-1	1	FxR2WeilaAttack51Shouji		1			0.3	-1			7	1	1			0	0	0										3							4	3		0.2	0.1		110351									0.8		1	0						0	1													
+11031815	大招动作-SSS和SSS+天赋增益子弹	2	5				50			3		1	9.9						-1	1			0.1		FxR2WeilaAttack51DandaoEx	0.3	-1			7	1	1			0	0	0										3							4	3		0	0		110353	110354	110394	110355						0	HitCase		0						0	1													
+11031816	大招动作-SSS和SSS+天赋治疗子弹	2	5				50			3		1	9.9						-1	1	FxTongyongCureshouji		1			0.3	-1			7	1	1			0	0	0										3							4	3		0	0		110352									0	HitCase	1	0						0	1													
+11032401	出场技-1	1	8	4	-2		50			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110324011	110312									0.8			1						0	1												110324012	
+11032402	出场技-2	1	6	4	-1		0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110324021	110312									0.8			0						0	1												110324022	
+11032403	出场技-3	1	8	4	2		50			4			0.15						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110324031	110312									0.8			1						0	1												110324032	
+11032404	出场技-4	1	6	4	1		0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110324041	110312									0.8			0						0	1												110324042	
+11032405	出场技-5	1	4	4			50			4			0.2						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110324051	110312									0.8			1						0	1												110324052	
+11032406	出场技-6	1	4	4			0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110324061	110312									0.8			0						0	1												110324062	
+11032407	出场技-7	1	4	4			50			4			0.2						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110324071	110312									0.8			1						0	1												110324072	
+11032408	出场技-8	1	8	3		1.5	0			4			0.1						-1		FxR2WeilaAttack11Shouji						-1			1					0	0	0										0							0	3		0.2	0.1	110324081	110312									0.8			0						0	1												110324082	
+11032410	出场技-10	1	4	4			50			4			0.8						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110316									0	HitCase		1						0	1													
+11032411	出场技-11	1	4	6		2	50			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110316									0	HitCase		1						0	1													
+11032501	被动蓄力攻击1-1	1	4	3		1	0			4			0.1						-1		FxR2WeilaAttack41Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.12	110325011	110349									0.8			0						1	1												110325012	
+11032511	被动蓄力攻击1-远程伤害	2	2.5				0			4			0.1						-1		FxR2WeilaBeidongShouji						-1			1					0	0	0										1							1	3	330	0.2	0.2	110325111	110343	110348								0.8			0						1	1												110325112	
+11032512	被动蓄力攻击1-远程特效	2	0.3				0			4			2						-1						FxR2WeilaAttack41Dandao		-1			1					0	0	0										1							1	3		0.2	0.1											1.2	HitCase		0						0	1													
+11032516	被动蓄力攻击1-减速子弹	2	99				0			5			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		110348									0	HitCase		0						0	1													
+11032517	被动蓄力攻击1-消除减速子弹	2	99				0			5			0.1						-1								-1			1					0	0	0										3							4	3		0.2	0.1		110375									0	HitCase		0						0	1													
+11032601	被动蓄力攻击2-1	2	2.5				0			4			0.1						-1		FxR2WeilaAttack42Shouji01						-1			1					0	0	0										0							0	3	30	0.2	0.12	110326011	110349									0.8			0						1	1												110326012	
+11032602	被动蓄力攻击2-2	2	2.5				0			4			0.1						-1		FxR2WeilaAttack42Shouji02						-1			1					0	0	0										0							0	3	30	0.2	0.12	110326021	110349									0.8			0						1	1												110326022	
+11032606	被动蓄力攻击2-6	2	2.5				0			4			0.1						-1		FxR2WeilaBeidongShouji						-1			1					0	0	0										1							1	3	30	0.2	0.2	110326061	110344	110348								0.8			0						1	1												110326062	
+11032607	被动蓄力攻击2-7	2	2.5				0			4			0.1						-1		FxR2WeilaBeidongShouji						-1			1					0	0	0										1							1	3	30	0.2	0.2	110326071	110344	110348								0.8			0						1	1												110326072	
+11032608	被动蓄力攻击2-8	2	0.3				0			4			2						-1						FxR2WeilaAttack42Dandao01		-1			1					0	0	0										1							1	3		0.2	0.1											0.3	HitCase		0						0	1													
+11032609	被动蓄力攻击2-9	2	0.3				0			4			2						-1						FxR2WeilaAttack42Dandao02		-1			1					0	0	0										1							1	3		0.2	0.1											0.4	HitCase		0						0	1													
+11032701	被动蓄力攻击3-1	2	2.5				0			4			0.1						-1		FxR2WeilaAttack43Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.12	110327011	110349									0.8			0						1	1												110327012	
+11032705	被动蓄力攻击3-5	2	2.5				0			4			0.1						-1		FxR2WeilaBeidongShouji						-1			1					0	0	0										1							1	3	30	0.2	0.2	110327051	110345	110348								0.8			0						1	1												110327052	
+11032706	被动蓄力攻击3-6	2	0.3				0			4			2						-1						FxR2WeilaAttack43Dandao		-1			1					0	0	0										1							1	3		0.2	0.1											0.8	HitCase		0						0	1													
+11032801	被动蓄力攻击4-1	1	3	4			0			4			0.1						-1		FxR2WeilaAttack44Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.12	110328011	110349									0.8			0						0	1												110328012	
+11032805	被动蓄力攻击4-5	2	2.5				0			4			0.1						-1		FxR2WeilaBeidongShouji						-1			1					0	0	0										1							1	3	330	0.2	0.2	110328051	110346	110348								0.8			0						0	1												110328052	
+11032806	被动蓄力攻击4-6	2	0.3				0			4			2						-1						FxR2WeilaAttack44Dandao		-1			1					0	0	0										1							1	3		0.2	0.1											1	HitCase		0						0	1													
+11032901	被动蓄力攻击5-1	1	3	4		1	0			4			0.1						-1		FxR2WeilaAttack45Shouji01						-1			1					0	0	0										0							0	3	30	0.2	0.12	110329011	110349									0.8			0						0	1												110329012	
+11032902	被动蓄力攻击5-2	1	3	4		1	0			4			0.1						-1		FxR2WeilaAttack45Shouji02						-1			1					0	0	0										0							0	3	330	0.2	0.15	110329021	110349									0.8			0						0	1												110329022	
+11032906	被动蓄力攻击5-6	2	2.5				0			4			0.1						-1		FxR2WeilaBeidongShouji						-1			1					0	0	0										1							1	3	30	0.2	0.2	110329061	110347	110348								0.8			0						0	1												110329062	
+11032907	被动蓄力攻击5-7	2	2.5				0			4			0.1						-1		FxR2WeilaBeidongShouji						-1			1					0	0	0										1							1	3	330	0.2	0.2	110329071	110347	110348								0.8			0						0	1												110329072	
+11032908	被动蓄力攻击5-8	2	0.3				0			4			2						-1						FxR2WeilaAttack45Dandao01		-1			1					0	0	0										1							1	3		0.2	0.1											0.8	HitCase		0						0	1													
+11032909	被动蓄力攻击5-9	2	0.3				0			4			2						-1						FxR2WeilaAttack45Dandao02		-1			1					0	0	0										1							1	3		0.2	0.1											1.8	HitCase		0						0	1													
+11033001	普攻1（位移）-1	1	4	3		1	0			4			0.1						-1		FxR2WeilaAttack01Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110330011	110300									1			0						0	1												110330012	
+11033002	普攻1（位移）-2	1	4	3		1	0			4			0.1						-1		FxR2WeilaAttack01Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110330021	110300									1			0						0	1													
+11033201	普攻1（闪避后）-1	1	3	4		1.5	50			4			0.1						-1		FxR2WeilaAttack0401Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110332011	110303									0.9			1						0	1												110332012	
+11033202	普攻1（闪避后）-2	1	3	4		1.5	0			4			0.1						-1		FxR2WeilaAttack0402Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110332021	110303									0.8			0						0	1												110332022	
+11033203	普攻1（闪避后）-3	1	3	4		1.5	0			4			0.1						-1		FxR2WeilaAttack0402Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110332031	110303									0.8			0						0	1												110332032	
+11033204	普攻1（闪避后）-4	1	3	4		1.5	0			4			0.1						-1		FxR2WeilaAttack0402Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.2	110332041	110303									0.8			0						0	1												110332042	
+11033205	普攻1（闪避后）-5	1	3	4		1	50			4			0.1						-1		FxR2WeilaAttack0403Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.2	110332051	110303									0.8			1						0	1												110332052	
+11033210	普攻1（闪避后）-10	1	3	5		2	50			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		110305									0	HitCase		1						0	1													
+11033401	黄球3消（被控版）-1	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110334011	110332									1.1			0						1	1												110334012	
+11033402	黄球3消（被控版）-2	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110334021	110332									1.1			0						1	1												110334022	
+11033403	黄球3消（被控版）-3	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110334031	110332									1.1			0						1	1												110334032	
+11033404	黄球3消（被控版）-4	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	330	0.2	0.1	110334041	110332									1.1			0						1	1												110334042	
+11033405	黄球3消（被控版）-5	1	4	4			0			4			0.1						-1		FxR2WeilaAttack31Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.1	110334051	110332									1.1			0						1	1												110334052	
+11060101	普攻1-1	1	6	3		1.5	0			4			0.1						-1		FxR2QuAtk01Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	110601011	110600									0.8			0						0	1												110601012	
+11060201	普攻2-1	1	3	3		1.5	0			4			0.1						-1		FxR2QuAtk0201Hit						-1			1					0	0	0										0							0	3	300	0.1	0.1	110602011	110601									1.3			0						0	1												110602012	
+11060202	普攻2-2	1	3	4		2	0			4			0.1						-1		FxR2QuAtk0202Hit						-1			1					0	0	0										0							0	3	300	0.2	0.1	110602021	110601									1.1			0						0	1												110602022	
+11060301	普攻3-1	1	4	4		2	0			4			0.1						-1		FxR2QuAtk03Hit						-1			1					0	0	0										0							0	3	300	0.2	0.1	110603011	110602									0.9			0						0	1												110603012	
+11060401	普攻4-1	1	3	4		2	0			4			0.1						-1		FxR2QuAtk0401Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110604011	110603									1			0						0	1												110604012	
+11060402	普攻4-2	1	3	4		2	0			4			0.1						-1		FxR2QuAtk0402Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110604021	110603									1			0						0	1												110604022	
+11060501	普攻5-1	1	2	3		2	30			4			0.3						-1		FxR2QuAtk0501Hit						-1			1					0	0	0										0							0	3	330	0.1	0.06	110605011	110604									1			0						0	1												110605012	
+11060502	普攻5-2	1	2	3		2	30			4			0.3						-1		FxR2QuAtk0502Hit						-1			1					0	0	0										0							0	3	30	0.1	0.06	110605021	110604									1			0						0	1												110605022	
+11060503	普攻5-3	1	6	4		2	50			4			0.2						-1		FxR2QuAtk0503Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	110605031	110604									1			1						0	1												110605032	
+11060601	红球1消-1	1	4	4		2	0			4			0.1						-1		FxR2QuAtk11Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110606011	110610									0.8			0						0	1												110606012	
+11060602	红球1消-2	1	2.5	2	-0.3		23			4			0.3						-1		FxR2QuAtk11Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110606021	110615									0.8			0						0	1												110606022	
+11060701	红球2消-1	1	4	4		2	0			4			0.1						-1		FxR2QuAtk11Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110607011	110611									0.8			0						0	1												110607012	
+11060702	红球2消-2	1	2.5	2	-0.3		23			4			0.3						-1		FxR2QuAtk11Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110607021	110616									0.8			0						0	1												110607022	
+11060801	红球3消-1	1	4	4		2	0			4			0.1						-1		FxR2QuAtk11Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110608011	110612									0.8			0						0	1												110608012	
+11060802	红球3消-2	1	2.5	2	-0.3		23			4			0.3						-1		FxR2QuAtk11Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110608021	110617									0.8			0						0	1												110608022	
+11060901	蓝球1消-1	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110609011	110620									1.3			1						0	1												110609012	
+11060902	蓝球1消-2	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit02						-1			1					0	0	0										0							0	3		0.2	0.1	110609021	110620									1.1			1						0	1												110609022	
+11061001	蓝球2消-1	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110610011	110621									1.3			1						0	1												110610012	
+11061002	蓝球2消-2	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit02						-1			1					0	0	0										0							0	3		0.2	0.1	110610021	110621									1.1			1						0	1												110610022	
+11061101	蓝球3消-1	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110611011	110622									1.3			1						0	1												110611012	
+11061102	蓝球3消-2	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit02						-1			1					0	0	0										0							0	3		0.2	0.1	110611021	110622									1.1			1						0	1												110611022	
+11061201	黄球1消-1	1	4	3		1.5	50			4			0.1						-1		FxR2QuAtk3301Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	110612011	110630									0.9			1						0	1												110612012	
+11061202	黄球1消-2	1	6	3		2	50			4			0.1						-1		FxR2QuAtk3302Hit						-1			1					0	0	0										0							0	3	270	0.2	0.1	110612021	110630									1			1						0	1												110612022	
+11061203	黄球1消-3	1	3	5		2.5	0			4			0.1						-1		FxR2QuAtk3303Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110612031	110630									0.8			0						0	1												110612032	
+11061301	黄球2消-1	1	4	3		1.5	50			4			0.1						-1		FxR2QuAtk3301Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	110613011	110631									0.9			1						0	1												110613012	
+11061302	黄球2消-2	1	6	3		2	50			4			0.1						-1		FxR2QuAtk3302Hit						-1			1					0	0	0										0							0	3	270	0.2	0.1	110613021	110631									1			1						0	1												110613022	
+11061303	黄球2消-3	1	3	5		2.5	0			4			0.1						-1		FxR2QuAtk3303Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110613031	110631									0.8			0						0	1												110613032	
+11061401	黄球3消-1	1	4	3		1.5	50			4			0.1						-1		FxR2QuAtk3301Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	110614011	110632									0.9			1						0	1												110614012	
+11061402	黄球3消-2	1	6	3		2	50			4			0.1						-1		FxR2QuAtk3302Hit						-1			1					0	0	0										0							0	3	270	0.2	0.1	110614021	110632									1			1						0	1												110614022	
+11061403	黄球3消-3	1	3	5		2.5	0			4			0.1						-1		FxR2QuAtk3303Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110614031	110632									0.8			0						0	1												110614032	
+11061501	QTE技能-1	1	5	3		1.7	30			4			0.3						-1		FxR2QuAtkQteDandao01Hit						-1			1					0	0	0										0							0	3		0.2	0.1	110615011	110660									0.8			0						0	1													
+11061502	QTE技能-2	1	5	3		1.7	30			4			0.3						-1		FxR2QuAtkQteDandao02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	110615021	110660									0.8			0						0	1													
+11061803	大招-敌人超算空间	2	99				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0	0		110664									0	HitCase		0						0	1													
+11062301	出场技-1	1	4	4		2	0			4			0.1						-1		FxR2QuAtk11Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110623011	110612									0.8			0						0	1												110623012	
+11062302	出场技-2	1	2.5	2	-0.3		23			4			0.3						-1		FxR2QuAtk11Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110623021	110617									0.8			0						0	1												110623022	
+11062401	普攻1（突进）-1	1	6	3		1.5	0			4			0.1						-1		FxR2QuAtk01Hit						-1			1					0	0	0										0							0	3		0.2	0.1	110624011	110600									0.8			0						0	1												110624012	
+11062801	被动弹道存放-玉石地裂	1	2	2	-0.3	1	23			4			0.3						-1		FxR2QuAtk11ExHit						-1			1					0	0	0										3							4	3	330	0.2	0.1	110628011	110645									0.8			0						0	1												110628012	
+11062802	被动弹道存放-玉石爆炸	1	2	8	-0.3	5	0			4			0.1						-1		FxR2QuAtk11ExHit					0.55	-1			1					0	0	0										3							4	3	330	0.2	0.1	110628021	110646									0.8			0						0	1													
+11062803	被动弹道存放-玉石特效	2	0.3				0			4			3						-1						FxR2QuAtk11Ex		-1			1					0	0	0										3							4	3		0	0											0	HitCase		0						0	1													
+11062804	被动弹道存放-玉石爆裂震屏	2	10				0			1			0.1						-1							0.55	-1			1					0	0	0										3							4	3	0	0	0											0	HitCase		0						0	1												110628042	
+11062805	被动弹道存放-羽毛飞旋	2	3				50			4			0.6						-1	1			0.3				-1			1					0	0	0										0							0	3		0.1	0.05		110647									0.8			1						0	1													
+11062806	被动弹道存放-羽毛特效	2	3				50			4			1						-1						FxR2QuAtk21Ex		-1			1					0	0	0										0							0	3		0	0											0	HitCase		1						0	1													
+11062808	被动弹道存放-戳刺回旋	1	3	5		2.5	30			4			0.3						-1		FxR2QuAtk3103ExHit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110628081	110648									0.8			0						0	1												110628082	
+11062809	被动弹道存放-戳刺特效	2	0.3				0			4			1						-1						FxR2QuAtk3103Ex		-1			1					0	0	0										0							0	3		0	0											0	HitCase		0						0	1													
+11062901	黄球1消（站立版）-1	1	4	3		1.5	50			4			0.1						-1		FxR2QuAtk3301Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	110629011	110630									0.9			1						0	1												110629012	
+11062902	黄球1消（站立版）-2	1	6	3		2	50			4			0.1						-1		FxR2QuAtk3302Hit						-1			1					0	0	0										0							0	3	270	0.2	0.1	110629021	110630									1			1						0	1												110629022	
+11062903	黄球1消（站立版）-3	1	3	5		2.5	0			4			0.1						-1		FxR2QuAtk3303Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110629031	110630									0.8			0						0	1												110629032	
+11063001	黄球2消（站立版）-1	1	4	3		1.5	50			4			0.1						-1		FxR2QuAtk3301Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	110630011	110631									0.9			1						0	1												110630012	
+11063002	黄球2消（站立版）-2	1	6	3		2	50			4			0.1						-1		FxR2QuAtk3302Hit						-1			1					0	0	0										0							0	3	270	0.2	0.1	110630021	110631									1			1						0	1												110630022	
+11063003	黄球2消（站立版）-3	1	3	5		2.5	0			4			0.1						-1		FxR2QuAtk3303Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110630031	110631									0.8			0						0	1												110630032	
+11063101	黄球3消（站立版）-1	1	4	3		1.5	50			4			0.1						-1		FxR2QuAtk3301Hit						-1			1					0	0	0										0							0	3	90	0.2	0.1	110631011	110632									0.9			1						0	1												110631012	
+11063102	黄球3消（站立版）-2	1	6	3		2	50			4			0.1						-1		FxR2QuAtk3302Hit						-1			1					0	0	0										0							0	3	270	0.2	0.1	110631021	110632									1			1						0	1												110631022	
+11063103	黄球3消（站立版）-3	1	3	5		2.5	0			4			0.1						-1		FxR2QuAtk3303Hit						-1			1					0	0	0										0							0	3	330	0.2	0.1	110631031	110632									0.8			0						0	1												110631032	
+11063201	闪避后普攻-1	1	4	3		1	50			4			0.2						-1		FxR2QuAtk03Hit						-1			1					0	0	0										0							0	3		0.2	0.1	110632011	110600									0.8			1						0	1												110632012	
+11063301	大招组合技-冲击波	1	8	3		1	33			4			1						-1		FxR2QuAtk52Hit						-1			1					0	0	0										0							0	3		0.2	0.1	110633011	110659									0.8			0						0	1													
+11063302	大招组合技-转刀	1	6	4		2	50			4			0.3						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110633021										0	HitCase		1						0	1													
+11063304	大招组合技-敌人超算空间1	2	99				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0	0		110668									0	HitCase		0						0	1													
+11063307	大招组合技-敌人超算空间2	2	99				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0	0		110683									0	HitCase		0						0	1													
+11063401	蓝球1消（被动版）-1	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110634011	110620									1.3			1						0	1												110634012	
+11063402	蓝球1消（被动版）-2	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit02						-1			1					0	0	0										0							0	3		0.2	0.1	110634021	110620									1.1			1						0	1												110634022	
+11063406	蓝球1消（被动版）-6	2	3				50			4			0.3						-1		FxR2QuAtk21ExHit01					0.2	-1			1					0	0	0										0							0	3		0.1	0.05	110634061	110647									0.8			1						0	1													
+11063407	蓝球1消（被动版）-7	2	3				50			4			0.3						-1		FxR2QuAtk21ExHit02					0.4	-1			1					0	0	0										0							0	3		0.1	0.05	110634071	110647									0.8			1						0	1													
+11063501	蓝球2消（被动版）-1	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110635011	110621									1.3			1						0	1												110635012	
+11063502	蓝球2消（被动版）-2	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit02						-1			1					0	0	0										0							0	3		0.2	0.1	110635021	110621									1.1			1						0	1												110635022	
+11063506	蓝球2消（被动版）-6	2	3				50			4			0.3						-1		FxR2QuAtk21ExHit01					0.2	-1			1					0	0	0										0							0	3		0.1	0.05	110635061	110647									0.8			1						0	1													
+11063507	蓝球2消（被动版）-7	2	3				50			4			0.3						-1		FxR2QuAtk21ExHit02					0.4	-1			1					0	0	0										0							0	3		0.1	0.05	110635071	110647									0.8			1						0	1													
+11063601	蓝球3消（被动版）-1	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110636011	110622									1.3			1						0	1												110636012	
+11063602	蓝球3消（被动版）-2	1	6	3		1.5	50			4			0.1						-1		FxR2QuAtk23Hit02						-1			1					0	0	0										0							0	3		0.2	0.1	110636021	110622									1.1			1						0	1												110636022	
+11063606	蓝球3消（被动版）-6	2	3				50			4			0.3						-1		FxR2QuAtk21ExHit01					0.2	-1			1					0	0	0										0							0	3		0.1	0.05	110636061	110647									0.8			1						0	1													
+11063607	蓝球3消（被动版）-7	2	3				50			4			0.3						-1		FxR2QuAtk21ExHit02					0.4	-1			1					0	0	0										0							0	3		0.1	0.05	110636071	110647									0.8			1						0	1													
+11063909	显示目标血条	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		119666									0	HitCase		0						0	1									1				
+11063912	音效	2	0.3				0			4			2						-1						FxR2QuExecutioner01Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		0	1			0	1													
+11064009	显示目标血条	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		119666									0	HitCase		0						0	1									1				
+11064012	音效	2	0.3				0			4			2						-1						FxR2QuExecutioner01Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		0	1			0	1													
+11064104	劈空中的抓取怪	2	20				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110641041										0	HitCase		0						0	1									1				
+11064105	砸地上的怪	2	10				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110641051	119652	119671			119602	119603				0	HitCase		0						0	1									0				
+11064109	清除周围怪的顿帧	2	8			1	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		119406	119660								0	HitCase		0						0	1													
+11064110	劈空中的其他怪	2	8				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110641101										0	HitCase		0						0	1									2				
+11064114	地裂范围特效	2	0.3				0			4			2						-1						FxR2QuExecutioner04Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11064123	地面消失闪现	2	0.3				0			4			0.8						-1					HitCase	FxR2QuExecutionerShanxian		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11064124	空中出现闪现	2	0.3				0			4			0.8						-1					HitCase	FxR2QuExecutioner01Baodian		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11064130	显示目标血条	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		119666									0	HitCase		0						0	1									1				
+11064204	劈空中的抓取怪	2	20				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110642041										0	HitCase		0						0	1									1				
+11064205	砸地上的怪	2	10				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110642051	119652	119671			119602	119603				0	HitCase		0						0	1									0				
+11064209	清除周围怪的顿帧	2	8			1	0			4			0.2						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		119406	119660								0	HitCase		0						0	1													
+11064210	劈空中的其他怪	2	8				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110642101										0	HitCase		0						0	1									2				
+11064214	地裂范围特效	2	0.3				0			4			2						-1						FxR2QuExecutioner04Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11064223	地面消失闪现	2	0.3				0			4			0.8						-1					HitCase	FxR2QuExecutionerShanxian		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11064224	空中出现闪现	2	0.3				0			4			0.8						-1					HitCase	FxR2QuExecutioner01Baodian		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11064230	显示目标血条	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		119666									0	HitCase		0						0	1									1				
+11064305	杀死被处决怪物	2	20				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110643051										0	HitCase		0						0	1									1				
+11064306	去除受击特效、骨骼抖动	2	20				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		119662	119663								0	HitCase		0						0	1									1				
+11064307	处决范围伤害	2	20				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110643071	119673									0	HitCase		0						0	1									2				
+11064324	挑飞刀光	2	0.3			1.8	0			4			1						-1						FxR2QuExecutioner06		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
+11064330	开始的扫倒	2	1.5			1.5	0			4			0.1						-1		FxR2QuExecutioner05Baodian						-1			1					0	0	0										0							0	3		0.2	0.1	110643301	200311	119617	110678	110679		200313				0.5			0						0	1									1				
+11064333	最后一刀大顿帧	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1						119659	119658				0	HitCase		0						0	1													
+11064340	显示目标血条	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		119667									0	HitCase		0						0	1									1				
+11160113	孔雀地面冲撞-震屏子弹	2	7				0			1			0.1						-1								-1			1					0	0	0										3							4	3	0	0	0											0	HitCase		0						0	1												111601132	
+11160114	孔雀地面冲撞-撞击子弹	2	2.5				0			4			0.2						-1		FxR2QuflyAtk01DilieHit						-1			1					0	0	0										0							0	3		0.2	0.1	111601141	110656									0.8			0						0	1													
+11160213	孔雀水平回旋-震屏子弹	1	4.5	8		-2	18			1			0.35						-1	1			0.1				-1			1					0	0	0										3							4	3		0.2	0.1											0	HitCase		0						0	1												111602132	
+11160214	孔雀水平回旋-回旋子弹	1	3	8		-2	60			4			0.3						-1	1	FxR2QuflyAtk02Hit		0.1				-1			1					0	0	0										0							0	3		0.2	0.1	111602141	110657									0.8			1						0	1													
+11160313	孔雀羽翼风暴-震屏子弹	2	3.5			1.2	3.9			1			1.15						-1	1			0.1				-1			1					0	0	0										3							4	3	0	0	0											0	HitCase		0						0	1												111603132	
+11160314	孔雀羽翼风暴-风暴子弹	2	2			1.2	3.9			4			1.15						-1	1	FxR2QuflyAtk0302Hit		0.1				-1			1					0	0	0										0							0	3	30	0.2	0.15		110658	110684								0.8			0						0	1													
+11160701	孔雀无目标消失-通用攻击闪现特效	2	0.3				0			4			0.8						-1						FxR2QuAtk51Shanxian		-1			1					0	0	0										3							4	3		0.2	0.1											0.8	HitCase		0						0	1													
+11160802	孔雀退场-2	2	99				0			4			2.8						-1	1			0.2				-1			1					0	0	0										0							0	3		0	0		110688									0	HitCase		0						0	1													
+11160906	孔雀专武符咒-震屏子弹	2	5				0			1			0.2						-1								-1			1					0	0	0										3							4	3		0.2	0.1											0	HitCase		0						0	1												111609062	
+11160907	孔雀专武符咒-符咒子弹	2	1.5				300			4		1	0.6						-1	1	FxR2QuflyAtk0401Hit		0.1				-1			1					0	0	0										1			1	11160908			1	3		0.2	0.1		110674									0.8			0						0	1													
+11160908	孔雀专武符咒-扩散子弹	2	3				0			4			0.3						-1		FxR2QuflyAtk0402Hit					0.7	-1			1					0	0	0										2							2	3		0.2	0.1	111609081	110675									0.8			0						0	1													
+11160909	孔雀专武符咒-符咒	2	1				300			4		1	2.3						-1						FxR2QuflyAtk0401		-1			1					0	0	0										1	0.75		1	11160910			1	3		0.2	0.1											0	HitCase		0						0	1													
+11160910	孔雀专武符咒-扩散	2	1				0			4			0.7						-1						FxR2QuflyAtk0402		-1			1					0	0	0										2							2	3		0.2	0.1											0	HitCase		0						0	1													
+11161313	孔雀羽翼风暴2-13	2	3.5			1.2	3.9			1			1.15						-1	1			0.1				-1			1					0	0	0										3							4	3	0	0	0											0	HitCase		0						0	1												111613132	
+11161314	孔雀羽翼风暴2-14	2	2			1.2	3.9			4			1.15						-1	1	FxR2QuflyAtk0302Hit		0.1				-1			1					0	0	0										0							0	3	30	0.2	0.15		110618	110684								0.8			0						0	1													
+11161413	孔雀羽翼风暴3-13	2	3.5			1.2	3.9			1			1.15						-1	1			0.1				-1			1					0	0	0										3							4	3	0	0	0											0	HitCase		0						0	1												111614132	
+11161414	孔雀羽翼风暴3-14	2	2			1.2	3.9			4			1.15						-1	1	FxR2QuflyAtk0302Hit		0.1				-1			1					0	0	0										0							0	3	30	0.2	0.15		110658	110684								0.8			0						0	1													
+11161510	普通龙卷风	2	6				0			4			0.8						-1	1			0.1		FxR2QuExecutioner01		-1			1					0	0	0										0	0		1	11161511			0	3		0.2	0.1											0	HitCase		0						0	1									2				
+11161511	大范围聚怪子弹	2	25				0			4			0.8						-1	1			0.05				-1			1					0	0	0										0	0.8		1	11161512			0	3		0.2	0.1	111615111	119650	119651	119649	119406	119660					0	HitCase		2						0	1													
+11161512	移除聚怪给的不碰撞	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		119652									0	HitCase		0						0	1													
+11161517	打处决条伤害	2	100				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		119665									0	HitCase		0						0	1	0								1				
+11161518	打普通伤害	2	25				0			4			0.4						-1	1			0.1				-1			1					0	0	0										0							0	3		0.2	0.1		119670									0	HitCase		0						0	1	0								2				
+11161610	强化龙卷风	2	6				0			4			0.8						-1	1			0.1		FxR2QuExecutioner03		-1			1					0	0	0										0	0		1	11161611			0	3		0.2	0.1											0	HitCase		0						0	1									2				
+11161611	大范围聚怪子弹	2	25				0			4			0.8						-1	1			0.05				-1			1					0	0	0										0	0.8		1	11161612			0	3		0.2	0.1	111616111	119650	119651	119649	119406	119660					0	HitCase		2						0	1													
+11161612	移除聚怪给的不碰撞	2	999				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		119652									0	HitCase		0						0	1													
+11161617	打处决条伤害	2	100				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		119665									0	HitCase		0						0	1	0								1				
+11161618	打普通伤害	2	25				0			4			0.4						-1	1			0.1				-1			1					0	0	0										0							0	3		0.2	0.1		119670									0	HitCase		0						0	1	0								2				

@@ -66,6 +66,7 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 307	0			1				Assets/Product/Texture/Image/RoleCharacter/RoleHeadLifu1.png	Liv	1	Enter the third password.	
 308	0			1				Assets/Product/Texture/Image/RoleCharacter/RoleHeadLifu1.png	Liv	1	What do we do?	
 309	0			1				Assets/Product/Texture/Image/RoleCharacter/RoleHeadLifu1.png	Liv	1	Enter operation command	
+310	0			1				Assets/Product/Texture/Image/RoleCharacter/RoleHeadLifu1.png	Liv	1	Choose a node to enter the stage.	
 3001	0			1				Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	When enemies in the <color=#ff5656>[Red Zone]</color> reaches <color=#ff5656>[3/3]</color>, the mission will fail...	
 3002	0			1				Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	The mission fails when <color=#ff5656>[3]</color> enemies enter the <color=#ff5656>[Red Zone]</color>!	
 3003	0			1				Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	Zone cleared. Enemies sighted in next zone. Advance immediately!	
@@ -6591,17 +6592,17 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 301009270	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	A <color=#ffda58>Blue 3-Ping</color> will trigger an enemy-pulling effect.	
 301009271	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	Upon a <color=#ffda58>Blue 3-Ping</color>, <color=#ffda58>Shadow Blade's</color> Extra DMG Bonus increases by <color=#ffda58>20%</color>.	
 301009272	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	Satellite Blade Lv.1 Effect: While in <color=#ffda58>Enhanced Shadow</color> Form, Astral will restore 100 Dodge Gauge when Trailblade hits the target.	
-301009273	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<size=24>Collapsed Origin Lv.9 Effect: The duration of Core Passive will cease reducing while casting Signature Move. Signature Move's Base DMG increases by <color=#ffda58>10%</color>. Lv.18 Effect: When casting Signature Move in Enhanced Shadow Form, each hit will deal additional <color=#ffda58>50%</color> Dark DMG.</size>	
+301009273	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<size=24>Collapsed Origin Lv.9: During Signature Move, the Core Passive timer will be paused and Signature Move Base DMG increases by <color=#ffda58>10%</color>. Lv. 18: When performing Signature Move in Enhanced Shadow Form, each attack will deal an additional <color=#ffda58>150%</color> Dark DMG.</size>	
 301009274	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<size=27><color=#ffda58>Astral</color> has 3 Leap Skills to enhance his Blue Orb skill <color=#ffda58>(Meteor Reverberation)</color>, Core Passive <color=#ffda58>(Satellite Blade)</color>, and Signature Move <color=#ffda58>(Collapsed Origin)</color>.</size>	
 301009275	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<size=27>Astral's <color=#ffda58>Meteor Reverberation</color> enhances his Blue Orb skill's effect. Astral will pull in enemies upon a Blue 3-Ping. Pinging Blue Orbs can also extend the duration of Enhanced Shadow Form.</size>	
 301009276	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	Astral's <color=#ffda58>Satellite Blade</color> enhances his Core Passive by adding the <color=#ffda58>Shadow Blade</color> and <color=#ffda58>Dark Blade</color> effects.	
 301009277	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	Astral's <color=#ffda58>Collapsed Origin</color> enhances his Signature Move's effect. When performing Signature Move, his Core Passive's duration will cease reducing and additional Dark DMG will be dealt.	
-301009278	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<size=21>Satellite Blade Lv.18 Effect: While in Enhanced Shadow Form, <color=#ffda58>holding Basic Attack</color> after dodging or pinging Red Orbs will trigger Dark Blade, which deals Dark DMG and restores Signature Energy based on the number of Shadow Blades on the target. When it reaches the 6th hit, Enhanced Shadow Form extends by <color=#ffda58>2</color>s and each hit will deal more DMG.</size>	
+301009278	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<size=21>Satellite Blade Lv.18 Effect: While in Enhanced Shadow Form, <color=#ffda58>holding Basic Attack</color> after dodging or pinging Red Orbs will trigger Dark Blade, which deals Dark DMG based on the number of Shadow Blades on the target. When it reaches the 6th hit, Enhanced Shadow Form extends by <color=#ffda58>2</color>s and each hit will deal more DMG.</size>	
 301009279	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	When <color=#ffda58>Blue Orbs are pinged</color>, Enhanced Shadow Form will be extended by <color=#ffda58>1</color>s.	
 301009280	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	Satellite Blade Lv.1 Effect: While in <color=#ffda58>Enhanced Shadow</color> Form, Trailblade will leave 2 <color=#ffda58>Shadow Blades</color> on hit, each dealing Dark DMG.	
 301009281	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<color=#ee7d7c>Tap Basic Attack</color> to deal Physical DMG with a 5-hit attack.	
 301009282	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<size=27>When <color=#ffda58>Red Orbs are pinged</color>, Arca will rapidly charge forward while performing a spinning attack to deal Physical DMG. If it's a <color=#ffda58>3-Ping</color>, a Combo Strike will be triggered to perform a cross slash that deals Lightning DMG instead.</size>	
-301009283	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<size=27>When <color=#ffda58>Blue Orbs are pinged</color>, Arca's Rev Blade swings across the ground to cause an explosion with plasma torrents. If it's a <color=#ffda58>3-Ping</color>, a Combo Strike will be triggered. Arca leaps up and thrusts Rev Blade into the ground to deal Lightning DMG.</size>	
+301009283	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<size=20><color=#ffda58>Upon a Blue Orb Ping</color>, carves a path with the Rev Blade on the ground to trigger a burst of Energy, leaving multiple plasma torrents on the path. <color=#ffda58>Upon a Blue Orb 3-Ping</color>, a branch skill will be triggered. Astral will leap up and thrust the sword into the ground while landing and convert damage into Lightning DMG.</size>	
 301009284	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<size=27>When <color=#ffda58>Yellow Orbs are pinged</color>, Arca will leap backward and fling a magnetic storm generator to deal Physical DMG. If it's a <color=#ffda58>3-Ping</color>, a Combo Strike will be triggered to perform a charged slash that deals Lightning DMG instead.</size>	
 301009285	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<color=#ffda58>Stop tapping Basic Attack</color> or <color=#ffda58>keep tapping it for a period of time</color> after a 3-Ping, and Arca will automatically unleash his Gear-Break Combo.	
 301009286	1	EnergyBar/EnergyR2Nuoan1(Clone)	0	2	1	-160	1	Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	Arca has 3 chargeable gauges. From top to bottom, <color=#ffda58>Gear Level</color>, <color=#ffda58>Rising Energy</color>, and <color=#ffda58>Rotational Speed</color>. I will now explain how <color=#ffda58>Rising Energy</color> works.	
@@ -6626,6 +6627,22 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 301009305	1	AttackButton	15	2	1	-160	1	Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<color=#ffda58>Press and hold Basic Attack</color> to launch an upward thrust attack. And then keep pressing and holding Basic Attack to follow up with a 3-hit <color=#ffda58>Sword Dance</color>.	
 301009306	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	<color=#ffda58>Dodge</color> the enemy's attack first.	
 301009307	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	In <color=#ffda58>Sword Form</color>, at full Signature Energy, <color=#ffda58>tap Signature</color> to spend all Stigmata Will and cast Illuminated Abyss, during which Time Lag Calculation will also be triggered.	
+301009308	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	When <color=#ffda58>Red Orbs are pinged</color>, Bambinata will step forward and hurl a large number of threads to deal DMG to enemies within a small area.	
+301009309	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	When <color=#ffda58>Blue Orbs are pinged</color>, Bambinata will leap into the air and perform 2 spinning attacks to deal DMG.	
+301009310	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	When <color=#ffda58>Yellow Orbs are pinged</color>, Bambinata will swiftly glide toward the enemy and slash them to deal DMG.	
+301009311	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Bambinata is able to deal a chain of Physical DMG with kicks and thread attacks.	
+301009312	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	I'll be the one in charge of your M.I.N.D. Connection like usual, Commandant.	
+301009313	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	What's with this face? I'm naturally the one who knows Bambinata better than anyone else.	
+301009314	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/FannishaNormal01.png	Vanessa	1	Ready or not, it's time to start.	
+301009315	1	EnergyBar/EnergyR2Bangbinata(Clone)	0	2	1	-160	1	Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Bambinata gains Jete Points from <color=#ffda58>pinging orbs</color>. <color=#ffda58>Press and hold Basic Attack</color> to control Bambinata with Jete Points.	
+301009316	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Pinging orbs grants <color=#ffda58>40/80/160</color> Jete Points (up to <color=#ffda58>160</color>).	
+301009317	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	By <color=#ffda58>holding Basic Attack</color>, when Bambinata is <color=#ff0000>attacked</color>, she will <color=#ffda58>automatically dodge</color> the attack with all Jete Points.	
+301009318	1	PanelBallBox/TopThreeBalls	1|2|3	2	1			Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	When dodging, pinging orbs will trigger <color=#ffda58>more Follow-Up DMG</color> (<color=#ffda58>Amnesia</color> will be additionally activated upon a <color=#ffda58>3-Ping</color>).	
+301009319	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	<size=33>By <color=#ffda58>holding and releasing Basic Attack</color>, Bambinata will be pulled into the air consuming <color=#ffda58>all Jete Points</color>, after which pinging orbs will trigger Follow-Up Attacks (Amnesia will be activated upon a <color=#ffda58>3-Ping</color>).</size>	
+301009320	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	I never thought there'd be a day when even Chief needed an instructor.	
+301009321	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	When Strings On Me is active, if Bambinata <color=#ffda58>successfully dodges attacks</color> by holding and releasing Basic Attack, pinging orbs can trigger <color=#ffda58>more Follow-Up DMG</color>.	
+301009322	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	The colors of the Signal Orbs Bambinata can get are shown above the Energy bar. If all are grayed out, no orbs will be generated. This can be recovered by performing Signature Move.	
+301009323	0			1		-160		Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	<size=25>Tap the Signature button and Bambinata will perform enhanced Signature based on the number of orb colors she has forgotten. Signature Move also <color=#ffda58>returns</color> forgotten Signal Orbs with recovered colors. It will deal additional Ice DMG <color=#ffda58>If all colors are forgotten</color>.</size>	
 1501040501	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadluxiya1S.png	Lucia	1	Let's investigate that fallen mechanoid first.	
 1501040502	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadLifu1.png	Liv	1	The surface layer of the mechanoid's AI consists of their identity and faction... The info is not encrypted.	
 1501040503	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadluxiya1S.png	Lucia	1	Which means if we make some simple modification...	
@@ -7331,6 +7348,388 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 301502486	0			1				Assets/Product/Texture/Image/RoleCharacter/ShashibierNormal02.png	Shark-speare (Severely Corrupted)	1	Shark-speare... has a surprise... for you...	3
 300315061	0			1				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR4Luxiya1.png	Lucia	1	Tap on the correct action when the halo is full!	5
 300315062	0			1				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR4Luxiya1.png	Lucia	1	Take action when the halo is full! Got it? Now it's show time!	5
+300625001	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	Detected increasing Punishing Virus Concentration on a lone island. It has already reached a level where interference is required.	
+300625002	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	First mission is to clear the corrupted zones. Not bad for a newly formed team like us.	
+300625003	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	As you can see, you and all other members are only newbies.	
+300625004	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	Zzzzzz—	
+300625005	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	No... Captain... I don't want that...	
+300625006	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	I'm not... ready for... a mission yet...	
+300625007	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	The wind's pretty strong. I should've brought a cloak—	
+300625008	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	Hey! I didn't see you in training before!	
+300625009	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	Don't drag us down, okay?	
+300625010	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	I ask of you. Are you our Commandant?	
+300625011	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Excited Member	1	I don't want to stay in the training facilities for another day!	
+300625012	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Laro	1	Hey, Commandant. You're finally awake.	
+300625013	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Laro	1	I bet you had a bumpy ride getting here, didn't you?	
+300625014	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Laro	1	Please meet up with your teammates first. They've been looking forward to your arrival.	
+300625015	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Laro	1	We're almost arriving at the mission location. Please get ready, Commandant.	
+300625016	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Laro	1	This is the marked corrupted zone.	
+300625017	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Laro	1	Other members have already set off, and I'll be following your lead, Commandant.	
+300625018	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Laro	1	I'll do my best to not slow you down.	
+300625019	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Laro	1	Commandant, I'm here.	2
+300625020	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Support Force	1	Warning: Detected a sudden surge in the Punishing Virus Concentration along with signals of the Corrupted.	2
+300625021	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Laro	1	Let's split up here. Please be careful, Commandant.	
+300625022	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	That's why I don't want to act alone—	2
+300625023	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	—And it's so hot today.	2
+300625024	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	I guess Commandant wouldn't mind me slowing things down...	2
+300625025	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Ah, what a coincidence! Please don't mind me slowing things down, Commandant.	
+300625026	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	These watermelon rinds... Don't tell me you ate all the watermelons...	
+300625027	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	I didn't eat them! But this is quite suspicious. Let's do some investigation after cleaning up this mess.	
+300625028	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	It's way too obvious... A trap?	3
+300625029	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	(Someone is staring at us...)	
+300625030	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	It's getting dark. Let's call it a day for now.	
+300625031	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	I should check that out.	2
+300625032	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	It really is a trap!	
+300625033	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	It's already dark. We better head back to the supply shuttle.	
+300625034	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	I've wasted too much time on this... They must've already spotted us.	
+300625035	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	Let's go to the pier.	3
+300625036	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	Playing that many tricks... You're the mastermind behind it all. What do you want?	
+300625037	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown01.png	Mysterious Mechanoid	1	Mastermind? No! I ask you, have you ever heard of my name King Wrench XIV?	
+300625038	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	...Who's that?	
+300625039	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Support Force	1	Combat support dispatched.	2
+300625040	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown01.png	???	1	Here—	2
+300625041	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	The details of "King Wrench XIV" could not be found.	
+300625042	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	While there are some eyewitness reports, but...	
+300625043	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	At least we can say the mechanoid standing before us doesn't match the model.	
+300625044	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	He called himself King Wrench XIV?	
+300625045	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	But their models don't even match up, do they?	
+300625046	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	The legendary mechanoid is just a Repairer. Seriously?	
+300625047	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	We shouldn't let a suspicious mechanoid join us.	
+300625048	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	But this guy—I feel like we share the same vibes!	
+300625049	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	This isn't a human cosplaying as a Repairer, right?	
+300625050	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Wrench? Can he tighten the screw on my butt? It's coming loose.	
+300625051	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Excited Member	1	XIV? Perhaps there's some connection to that lord. Hoo hoo...	
+300625052	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	The mechanoid you brought back has been inspected.	
+300625053	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	No Punishing Virus detected from the mechanoid...	
+300625054	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	But it's better to keep an eye on him.	
+300625055	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	If you ask me, Commandant, I'll say he could be our extra help.	
+300625056	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	And we can bring him along to fight the Corrupted.	
+300625057	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	If he's truly on our side, we'll fight alongside him. Otherwise, we'll take him down as well.	
+300625058	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	The world has really changed! I'd never imagined there would come a day when my name means nothing at all!	
+300625059	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Never mind, you've passed the trial, kid! (Finally found a living human!)	
+300625060	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	I saw it clearly from the beach! Your talent shouldn't be used merely for fighting the Corrupted!	
+300625061	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Why not join me, and together we can achieve something big like restoring the glory of this wrench! No time to waste, let's go!	
+300625063	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Come to think of it, it's hard to believe that I, King Wrench XIV, have been reduced to this!	
+300625064	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	But crossing your path on this island must be the choice of Steins Gate!	
+300625065	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Even though you've never heard of my legend, you'll surely be awed after seeing my fighting skills!	
+300625066	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	Whether or not this guy can be trusted, I never imagined that King Wrench XIV would be anything more than a fanciful legend.	
+300625067	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	The legendary yet mysterious mechanoid, the savior of new recruits...	
+300625068	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	When was the last time I heard about his story?	3
+300625069	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Your fighting techniques are really something! Seems like I'm the one left behind the times!	
+300625070	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	My body is falling apart but you've shown that I can now entrust this battered body to you!	
+300625071	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	Wait... I'm afraid—	
+300625072	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Support Force	1	Corrupted signals detected upstairs.	2
+300625073	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Support Force	1	Warning: Corrupted signals detected.	2
+300625074	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	I've heard that those who like King Wrench XIV aren't bad. A little help couldn't hurt—	
+300625075	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Don't get me wrong! It'll only happen after we clear all the Corrupted! (Besides, no way it's real...)	
+300625076	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Commandant... Watch out!	
+300625077	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	If we don't have other missions... And he doesn't seem dangerous, so let's leave it as it is for now.	
+300625078	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Just as expected, you and I really are a perfect partner!	
+300625079	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Our top priority right now is to fix my lower body.	3
+300625080	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	I used to be a fighter like you...	
+300625081	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Then I took a shot in the knee... Anyway!	
+300625082	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	We have to find the parts to fix my lower body. Follow me!	
+300625083	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	The exit is over there.	2
+300625085	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	I've already scouted this island. Only if there weren't so many Corrupted...	
+300625086	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Only if I had my lower body!	
+300625087	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	This would be an amazing place for retirement—	
+300625088	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Let's get moving before the sun goes set.	
+300625089	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	There's a door inside the aquarium ahead, and behind it is the last corrupted zone on this island.	
+300625090	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	I've also spotted a pale-skinned mechanoid with long legs going in and out the door!	3
+300625091	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	I'm not certain what's happening behind that door, but I have a feeling it's something extremely dangerous. Be ready for anything!	
+300625092	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	So all you wanted to say is you can't defeat it by yourself?	
+300625093	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	...Fine, you're right! If I wasn't afraid to die, I wouldn't have waited for you all! Let's just go open the door!	
+300625094	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	The aquarium is right ahead.	2
+300625096	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Its interior is bigger than I expected... My 20 years of gaming experience are telling me this doesn't seem good at all!	
+300625097	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Anyway, help me find the parts first! And I know you like it, but you need to watch out for the long-legged mechanoid!	
+300625098	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Well, though I don't hate it either...	
+300625099	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	...Hmm?	3
+300625100	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	That is...?	3
+300625101	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1BaohuzheMd000001.png	King Wrench XIV (???)	1	Give me spotlights! Hen—Shin!	2
+300625102	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	King Wrench XIV—has—arrived!	2
+300625103	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	How is this?	4
+300625104	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Whew! That killing aura is pretty impressive! But you can stop acting like a grandpa.	
+300625105	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Uh... It's not that... The screws are just too tight... I can't move the joints...	
+300625106	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	I'm already worn out. Let's head back and sort it out—	
+300625107	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	If you ask me...	
+300625108	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	If we don't have other missions at the time being...	
+300625109	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	Then we can't simply leave him be. But before we proceed, I'll report back on the mission status.	
+300625110	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	Well... Judging from his appearance...	
+300625111	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	He's definitely a Repairer, and that's the virus' favorite model!	
+300625112	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	On top of that, his mobility is way too low! Should we take him apart and take a look inside?	
+300625113	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	You remodeled it? So you're a real cosplayer!	
+300625114	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	But—your tastes are quite strange.	
+300625115	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	Let me help you refine your tastes! Are you interested in cross-dressing?	
+300625116	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Well, as long as his mechanical circuits are intact, I don't mind coming along...	
+300625117	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Excited Member	1	Who said cross-dressing?!	
+300625118	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	Perhaps you should talk to everyone about what to do with that mechanoid, Commandant	
+300625119	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	Although he hasn't shown any signs of hostility so far...	
+300625120	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	It may still cause misunderstandings if we bring him along with us.	
+300625121	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	I say we've got to help him out to the end. What if he has a shapeshifting ability and he wants to repay us!	
+300625122	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	And this can bring us closer together as a team. It hits two birds with one stone...	
+300625123	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	Oh, he can help us eliminate more Corrupted as well! We're gonna hit three birds instead! Though, I'll be going back with Laro.	
+300625124	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Do you find this body as charming as I do? Though it could still use a bit of maintenance...	
+300625125	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	If I can lubricate my new parts and ind my "Godly Wrench"...	
+300625126	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	The legendary King Wrench XIV will be fully revived!	
+300625127	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Oh, just to be clear, I only accept lubricants from the Golden Age that were made in '82. Let's get going before my body gives out again!	
+300625128	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	It's so hot... You know, I didn't really mean it, so you don't have to actually bring me along...	
+300625129	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	We'll have to continue on foot from here on out. This brings back so many memories... I have a brother named Riot..	
+300625130	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	We used to come here after sparring to grab two barrels of oil for lubrication and refreshment... Something is coming—	
+300625131	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	So, how did you lose your legs?	
+300625132	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Ow! M-my head! It hurts! Maybe it's the explosion! I can't remember anything!	
+300625133	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	You look awfully suspicious. Should we take your head off and take a look inside?	3
+300625134	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Those Corrupted are no match for us! Still as weak as ever!	
+300625135	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	...I didn't see you hit a Corrupted once.	
+300625136	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	It isn't the time for this. The real danger is coming at us!	
+300625137	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Let's act now!	2
+300625138	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	I feel like my head is hot enough to be used for frying an egg...	
+300625139	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	Speaking of which, I haven't had lunch yet. Hold your head still (taking out an egg from somewhere).	
+300625140	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	...Knock it off! The Corrupted didn't eat anything, either!	
+300625141	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	...I think I'm going to get overheated...	
+300625142	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Weakling! I, King Wrench XIV, was born in fire!	
+300625143	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	...How about I go find a Nozzle and take a cooling module out of it!	3
+300625144	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Guys! If my brain hasn't gone completely rusty, I think there's a temperature controller behind the door!	
+300625145	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	...By the way, I'm also curious about your leg, and your wrench...	
+300625146	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Let's get inside first... Com... man... dant...	
+300625147	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Just hang in! We're almost there!	2
+300625148	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	Detected a rapid increase in this area's Punishing Virus Concentration. Please be careful.	
+300625149	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	Well... I suppose it will never be easy...	
+300625152	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	****! Enough already!	3
+300625153	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Hurry up! There must be a cooler inside!	
+300625155	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	Once inside, we should do some maintenance as well...	
+300625156	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Support Force	1	The maintenance of support members has been completed.	2
+300625157	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	Despite the complexity of this facility's structure, it seems our progress is still on track so far.	
+300625158	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	We'll continue to analyze this facility to support your further advance.	
+300625159	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	Furthermore, I've reported back about this mission, and they've given us permission to continue.	
+300625160	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	Commandant, he hasn't cause any trouble, has he?	
+300625161	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	If he has, we can simply dismantle him and return home.	
+300625162	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	You know everyone's still waiting for the feast celebrating our completed mission!	
+300625163	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Hah... My armor coating is almost completely worn off. Why wasn't I put in charge of the projection?	
+300625164	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	And where's the temperature control mentioned before? The cooler?	
+300625165	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	I request a substitution!	
+300625166	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	I'm glad you're still doing fine in this heat, Faye! Hahahaha!	
+300625167	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	Commandant, the tactical map has been successfully projected.	
+300625168	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	It appears that the facility you're in has been abandoned for quite some time.	
+300625169	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	Please watch out for the invading Corrupted.	
+300625170	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Phew... Maintenance is completed...	
+300625171	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	If Commandant is ready as well...	
+300625172	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Lets go and finish this business!	
+300625973	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Hey, don't look at me like that! There was a temperature controller here two years ago!	
+300625974	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	It must have broken as it was left for such a long time!	
+300625975	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Now, I'm just hoping the elevator still works...	
+300625173	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	It's time to reveal the secrets you've been hiding. Or I'm gonna leave right now.	
+300625174	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	There's something in this world that's better left unknown. Once you know it, you can never go back!	
+300625175	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	But if you insist anyway, I need you to keep it secret... and take down all the enemies first!	
+300625176	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	It wasn't really a big deal. Just an ordinary day hanging out with my friends Riot and Yazi. And when I had to go home, Riot offered me a ride.	
+300625177	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Soon after we took off into the sky, two missiles came right at us! I knew my brother looked like a Corrupted, but could they give us a warning first?	
+300625178	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	...And after that?	3
+300625179	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	And after that, I streaked through the sky like a shooting star! I swear I'm gonna...	
+300625180	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Hold up, the bridge is broken. What should we do?	
+300625182	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Looks like we've got other gossipmongers coming.	2
+300625183	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	...write a King Wrench XIV Crusoe! Huh? Oh, see the platform below? We jump!	
+300625184	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Hurry up!	2
+300625185	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Hey, I'm here. Where are you?	
+300625186	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Don't tell me you busted yourself up falling.	
+300625187	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Just come! Enemies are coming at me!	3
+300625188	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	This corridor will lead us to the elevator.	
+300625189	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	...The bridge won't collapse when we cross it, right?	
+300625190	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	You've watched to much Lara Croft. Just believe me!	3
+300625191	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	All of us are depending on this elevator now...	
+300625192	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Come to think of it, I used to kill time riding a drop tower at an amusement park...	
+300625193	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	...After you.	
+300625194	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Go, I-I'll bring up the rear!	2
+300625195	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Oh, it's the scent of oil—	3
+300625196	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Wait... Where's all my oil gone?! Where's my treasure gone?!	
+300625197	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Are you sure this is the place?	
+300625198	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	M-maybe my data's messed up. Let's search around!	3
+300625199	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Hey! Intruders!	3
+300625200	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Give my oil back!	2
+300625201	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Let's check the hall first.	2
+300625202	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Now, time to count up your Cogs!	3
+300625203	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Behold! 3x Speed King Wrench XIV!	3
+300625204	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV (??)	1	Let's go... for a ride!	3
+300625205	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	The cyclonic movement and the scarf! You're—it's amazing!	
+300625206	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	King Wrench XIV—No, Master! Please forgive my earlier rashness!	
+300625207	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	...What's going on here...	
+300625208	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Hey, I'm not worthy of being called master—not until I get my own wrench back!	
+300625209	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	But the place where I lost my wrench is still far away from here. We need to find a way... That's right, the transport craft! Follow me!	
+300625211	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Riot and I were hit by missiles right above the forest outside the city Yazi lived. My wrench must have dropped around there!	
+300625212	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	We've requested air support! Before it gets here...	
+300625213	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Is this salty smell from a sea breeze or the Punishing Virus?	
+300625214	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Hey, I've seen the enemies coming!	3
+300625215	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	I can see you've just survived a fierce battle. The transport craft is on its way. Please take a break before it arrives.	
+300625216	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	By the way, I've heard a rumor that there's an omniscient "witch" living in that forest.	
+300625217	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	She must be able to help us find my wrench!	
+300625218	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	We've detected comms interference in the forest.	
+300625219	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	It might affect our communication as you proceed.	
+300625220	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	Please be careful.	
+300625221	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	Zzzzzz... Captain...	
+300625222	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	Commandant... not here...	
+300625223	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Rock	1	Let's... meet... Hehe...	
+300625224	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	I've never thought it was real! That was incredible!	
+300625225	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	A mysterious mechanoid with a scarf shouting out super iconic lines!	
+300625226	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	It's so cool! Do you get me, Commandant?	
+300625227	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Fredrik	1	Why did Faye get so worked up?	
+300625228	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	We can't find a suitable landing spot in the forest, Commandant.	
+300625229	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	We'll have to drop you here, and...	
+300625230	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Laro	1	The visibility in the forest is low. It feels unusual.	
+300625231	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Master! Have you rested up already? Do you need more oil?	
+300625232	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	No need. Now I'm able to accelerate to my full speed!	
+300625233	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Then let's get going!	
+300625234	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	All we need to do is move forward!	
+300625235	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	If that witch knows my name, King Wrench XIV—	
+300625236	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	I'm sure she'll welcome us with open arms! Hahahaha!	
+300625237	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Is that a boar howling? Are there still boars around these days?	
+300625238	0			2				Assets/Product/Texture/Image/RoleCharacter/Me1XunshoushiMd000001.png	Home	1	Boar—	
+300625239	0			2				Assets/Product/Texture/Image/RoleCharacter/Me1XunshoushiMd000001.png	Home	1	Rush—	
+300625240	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	I don't think this is a good place for bulls, right?	3
+300625241	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	C'mon, you've been overreacting!	
+300625242	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	I bet you grew up like a flower in the greenhouse, didn't you?	
+310625242	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Please forgive my ignorance... Just as Master said, it was the first time I'd seen such things...	
+300625243	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	This way. Follow me.	2
+300625244	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	There are more and more bugs!	
+300625245	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Is it possible that... by any chance... we're already lost?	
+310625245	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	I hate bugs! You can handle them for me!	
+300625246	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	The big one is coming!	3
+300625247	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Calm down, fellas! It's no way we're lost!	
+300625248	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	It must be that witch's trick! Let's change to another route!	
+300625249	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	By the way... Keep your hands away from the plants here.	
+300625250	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	They've consumed more Corrupted than you guys have defeated!	
+300625251	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	What? Good thing this flower doesn't have tentacles yet!	3
+300625252	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	So you see it now?	
+300625253	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	I must get my wrench back quickly!	
+300625254	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	I think something is off this way, too.	
+300625255	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	It was just a small setback! I'm gonna feed you to those flowers if I hear you whining one more time!	
+300625256	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	So many mosquitoes! Help me swat them! I can't reach—	
+300625257	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	This mosquito has a bigger head than mine... I'm glad it isn't a roach...	3
+300625258	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Shh—Something is flying toward us!	3
+300625259	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Gosh! That's a hell big moth!	3
+300625260	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Phew... It's been a long while. The creatures here are still as diverse as ever.	
+300625261	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	...Whatever, having fun is what matters.	
+300625262	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	But that looks nothing like a moth... Hm? That is—	
+300625263	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Whoa! This is really...	
+300625264	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Every cloud has a silver lining, like they say!	
+300625265	0			2				Assets/Product/Texture/Image/RoleCharacter/ChoujueNormal01.png	?	1	R-r-r-robbery! Don't move! Our liquor bottles are coated with deadly poison!	
+300625266	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Hmph, you should've learned how to fight first!	
+300625267	0			2				Assets/Product/Texture/Image/RoleCharacter/ChoujueNormal01.png	Bandit	1	You're all gonna regret it!	
+300625268	0			2				Assets/Product/Texture/Image/RoleCharacter/ChoujueNormal01.png	Bandit	1	The Devilish Duo won't let you off!	3
+300625269	0			2				Assets/Product/Texture/Image/RoleCharacter/Me1YijiwajuezheMd000001.png	"Devilish Duo"	1	It's you guys who messed with my little brother! Prepare yourselves!	4
+300625270	0			2				Assets/Product/Texture/Image/RoleCharacter/Me1YijiwajuezheMd000001.png	"Devilish Duo"	1	You'd wish you'd never done such a thing!	
+300625271	0			2				Assets/Product/Texture/Image/RoleCharacter/Me1YijiwajuezheMd000001.png	"Devilish Duo"	1	My Big Bro, the River Severer, won't let you off!	
+300625272	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	What in the world is wrong with them?	
+300625210	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Let's go up and take a look, Commandant.	2
+300625273	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Master, is it true that people can only discover unspoiled, beautiful landscapes when they are lost?	
+300625274	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	I've told you we aren't lost! It must be right ahead...	
+300625275	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	I'm gonna mark this as my ideal place to retire! Look at the cute rabbits—	
+300625276	0			2				Assets/Product/Texture/Image/RoleCharacter/ZhizunNormal01.png	?	1	This mountain—I built it! This tree—I planted it!	
+300625277	0			2				Assets/Product/Texture/Image/RoleCharacter/ZhizunNormal01.png	Home	1	And it was you disturbing the peace at my place!	
+300625278	0			2				Assets/Product/Texture/Image/RoleCharacter/ZhizunNormal01.png	"Big Bro, the River Severer"	1	It seems you all haven't taken me, the River Severer, seriously at all!	3
+300625279	0			2				Assets/Product/Texture/Image/RoleCharacter/ZhizunNormal01.png	"Big Bro, the River Severer"	1	I'll let you off this time, but you won't be this lucky next time!	
+300625280	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	How come a peaceful land like this has a bunch of idiots living on it...	
+300625281	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	If there's a bridge, there's crossers! The witch must be up ahead!	
+300625282	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	—There's a bridge ahead!	2
+300625283	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Hmm... I think I saw a girl at the fork in the road earlier...	
+300625284	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	?	1	Hahaha! You must be the thieves Big Bro told me about!	
+300625285	0			2				Assets/Product/Texture/Image/RoleCharacter/RuRiTianNormal01.png	"The Sea Severer"	1	Dare to mess with me, the Sea Severer, on my turf! You're already dead! Get them!	
+300625286	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	We're no thieves, but you sure are! Prepare yourselves!	
+300625287	0			2				Assets/Product/Texture/Image/RoleCharacter/RuRiTianNormal01.png	"The Sea Severer"	1	Not bad! I'm gonna take you on myself!	
+300625288	0			2				Assets/Product/Texture/Image/RoleCharacter/ZhizunNormal01.png	"Big Bro, the River Severer"	1	Please leave this to me!	2
+300625289	0			2				Assets/Product/Texture/Image/RoleCharacter/RuRiTianNormal01.png	"The Sea Severer"	1	I'm sorry, masters! We didn't mean to offend you. Please spare our lives!	
+300625290	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	I can spare you, but you have to answer my questions first. Is there a suspicious "witch" in these woods?	
+300625291	0			2				Assets/Product/Texture/Image/RoleCharacter/RuRiTianNormal01.png	"The Sea Severer"	1	Witch? You didn't see her on your way here? But she's even more—I'm not finished yet!	
+300625292	0			2				Assets/Product/Texture/Image/RoleCharacter/TifaNomal01.png	"Witch"	1	Hey, you're back!	
+300625293	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	You're the witch, aren't you? We've been looking for you for a long time!	
+300625294	0			2				Assets/Product/Texture/Image/RoleCharacter/TifaNomal01.png	"Witch"	1	Witch? Oh, yap, I am! I was about to call out to you guys earlier.	
+300625295	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Cut the nonsense. You should've known why we're here!	
+300625296	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	It's not good to be so mean to a girl! And she doesn't seem to have ill intent!	
+300625297	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	I'm sorry. My brother has just recovered from an illness. That's why he's way too enthusiastic than usual.	
+300625298	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	You should rest up. It's been an exhausting day for you, right? (thump)	
+300625299	0			2				Assets/Product/Texture/Image/RoleCharacter/TifaNomal01.png	"God of River"	1	Relax! I'm actually—the "God of River"! You're here for this, aren't you?	
+300625300	0			2				Assets/Product/Texture/Image/RoleCharacter/TifaNomal01.png	"God of River"	1	I have a golden wrench, silver wrench, and... a wrench that fell from the sky! Which one is yours?	
+300625301	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	All of them are—Cut out the tricks! Hand it back to me now, or I'll make you regret it.	
+300625302	0			2				Assets/Product/Texture/Image/RoleCharacter/TifaNomal01.png	"God of River"	1	Calm down! Here, I came all the way with it just to return it to you.	
+300625303	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	This feeling! It really is my precious wrench! Who are you actually?	
+300625304	0			2				Assets/Product/Texture/Image/RoleCharacter/TifaNomal01.png	"God of River"	1	Who I am doesn't matter. You should get going. We'll meet again.	
+300625305	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	?!	
+300625306	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	There really was someone I caught a glimpse of earlier around here—over there!	3
+300625307	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	...Hey, what time is it now? Where's the girl?	
+300625308	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	That girl is way beyond our capability! We should be glad that we can still get up after that!	
+300625309	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Yazi's place is just up ahead. We've got to ask her if she has any leads on Riot's location.	
+300625310	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	I'm enough by myself from here on! Until I we meet again, Take care!	
+300625311	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Wait up! Do you really think we're gonna let you go alone after hearing such cliche lines?	
+300625312	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	Looks like I'd never be able to shake you guys off...	
+300625313	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	...Fine! Join me for my last joyride!	3
+300625314	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Now then, what's been going on in the city when I was gone... How's Yazi doing?	
+300625315	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	And don't get too aggressive if the guards don't recognize me!	
+300625316	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	?	1	Who are you? Get them!	
+300625317	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Resent your boss for not knowing this wrench!	3
+300625318	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Oh no, attacking the guards will cause us big trouble. Even if I could meet Yazi...	
+300625319	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	She would never forgive me! You guys need to help me clear my name!	
+300625320	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Don't worry, I've already had it all recorded!	
+300625321	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	The outer wall isn't heavily protected, but we better not let our guard down.	
+300625322	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	The sky is turning dark. I want dinner!	3
+300625323	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	We're almost at the inner city, and I have a buddy who can get us in!	
+300625324	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Let's hurry up!	2
+300625325	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	The lights and the aromas of food... How about we find a place and call it a day, and tomorrow we'll—	
+300625326	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	City Patrol Members	1	They're there! Don't let them run away!	
+300625328	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Can we talk this out? I'm your captain's old friend!	3
+300625331	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png	City Patrol Members	1	Please forgive us! We're just a bunch of good citizens doing our jobs!	
+300625332	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Then you must be so fulfilled when you were beating us up! Get your captain here!	
+300625333	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	I, King Wrench XIV, want to see him!	
+300625334	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	We need someone to send the message.	2
+300625335	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png	Patrol Force	1	Huh? You think our captain is willing to see someone like you?	
+300625338	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	?	1	Who got the guts to come see me, Tien the Wicked?	3
+300625339	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png	"Tian the Wicked"	1	Y-you're... I'm the captain you want to see, King Wrench... Never mind, it's my honor to meet you!	
+300625340	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	What? I'm looking for Di the Gracious, not you!	
+300625341	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png	Former Captain "Tian the Wicked"	1	H-he's already hung up his spurs! What about I give you three bows as a token of my apology?	
+300625342	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	So many things have changed... Well, it can't be helped.	
+300625343	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Behind this courtyard is where Yazi lives, but it's guarded by the elite members she chose from the Twelve Palaces. We must be careful with every step!	
+300625344	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	?	1	We've been waiting for you! Now embrace your death, thieves!	
+300625345	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png	"Twelve Palaces"	1	For Yazi! For... love and justice!	3
+300625346	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png	"Twelve Palaces"	1	I've used up all my... powers—	
+300625347	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Isn't it kind of like we're the villains?	
+300625348	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	Speaking of which, why do the Twelve Palaces have so many members?	
+300625349	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png	"Gatekeeper"	1	Who are you? If you're here for Yazi, please go back... If you want death, I'll give it to you!	
+300625350	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	No need to het heated. If Yazi isn't around, we're happy to wait inside until she's back!	
+300625351	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png	"Gatekeeper"	1	No one shall enter without permission!	
+300625352	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png	"Gatekeeper"	1	Yazi... Guha...	
+300625353	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	This could've been avoided. If Yazi's back, tell her we came!	
+300625354	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	We promise our hands won't touch anything inside. Hahaha!	
+300625355	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	...As elegant as usual. Look at the flowers—	
+300625356	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	?	1	The thieves have got inside! Seize them at once!	
+300625357	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png	Guards	1	You've got some nerve breaking into Yazi's house! Now you're trapped like rats!	
+300625358	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	—Who has broken into my house?	3
+300625359	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Yazi! You're finally back! It's me, Wrench! Can you talk your men down?	
+300625360	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	Wrench—King Wrench XIV has gone missing for two years now. How can you prove you're King Wrench XIV?	
+300625361	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	Words mean nothing here. I'll see it with my own eyes. Come with me.	
+300625362	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	But if you value your life, turn back and go home. Though the answer you and I have been seeking will remain buried here forever.	
+300625363	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Yazi, you know me more than anyone else. I'll prove it to you!	
+300625364	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	...I have to say your attitude is just like his. Then show me what you got!	
+300625365	0			2				Assets/Product/Texture/Image/RoleCharacter/TieqiuNomal01.png	?	1	Wait—!	2
+300625366	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	??!	2
+300625367	0			2				Assets/Product/Texture/Image/RoleCharacter/Mb1BraveMd010011.png	Riot	1	Riot, taking off!	2
+300625368	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Riot, you're alive! I've been looking for you!	
+300625369	0			2				Assets/Product/Texture/Image/RoleCharacter/Mb1BraveMd010011.png	Riot	1	Your movement is still as sharp as ever, Wrench! I've missed you so much! Where have you been the last two years?	
+300625370	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	...Looks like you're really him. Well then, let's talk about the mess in my house, shall we? (No one dares make a single sound.)	
+300625371	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	It'd be impossible not to notice something as big as Riot. I had my men retrieve him once I received a report that an accident had happened in the forest.	
+300625372	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	But Wrench's whereabouts still remained a mystery, and two years passed... Worry? Hum, it's Wrench we're talking about.	
+300625373	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	As for the weird girl you brought up, I'm clueless as well. The rumors are already untraceable, but to have this under my nose...	
+300625374	0			2				Assets/Product/Texture/Image/RoleCharacter/Mb1BraveMd010011.png	Riot	1	Anyone who dares disturb the peace in the forest will face Riot's formidable power!	
+300625375	0			2				Assets/Product/Texture/Image/RoleCharacter/Mb1BraveMd010011.png	Riot	1	Until then, thank you so much for bringing Wrench back!	
+300625376	0			2				Assets/Product/Texture/Image/RoleCharacter/Mb1BraveMd010011.png	Riot	1	Be careful on your way back! Don't let your guard down like I did!	
+300625377	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	Let's go, Commandant. I have to do some maintenance—	
+300625378	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	And everyone is going to be worried about us, not to mention the feast—	
+300625379	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Faye	1	What? I-I'm not crying! It was just a mission to me—Wahhhhhhh!	
+300625380	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	Anyway, that's it. I apologize for my men's rudeness once again.	
+300625381	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	And thank you for taking care of Wrench. Without your help, he wouldn't have made it this far.	
+300625382	0			2				Assets/Product/Texture/Image/RoleCharacter/YaziNormal01.png	Yazi	1	But I can't let a hotheaded guy like him continue to stay by your side and put you in danger. That's why your journey with him has to end here.	
+300625383	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	It seems there's no time for you to return the favor, hahaha!	
+300625384	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	I admit you were faster than me this time, but my legend is just getting started!	
+300625385	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	You have to get faster and faster, otherwise I won't admit you've saved King Wrench XIV!	
+300625386	0			2				Assets/Product/Texture/Image/RoleCharacter/Mo1XiulijigongMd000001.png	King Wrench XIV	1	Time to go? Come on, a fist pump to my wrench! Next time will be my turn to save you!	
+300625387	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	Next time... make sure you're not mistaken for a Corrupted again. And...	
+300625388	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	On behalf of all the other commandants you saved...	
+300625389	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyongjianyingNomal01.png		1	Thank you, and goodbye!	
 302103521	0			2				Assets/Product/Texture/Image/RoleCharacter/KuruoruoNormal01.png	Kuroro	1	Ku?	2
 302103522	0			2				Assets/Product/Texture/Image/RoleCharacter/KuruoruoNormal01.png	Kuroro	1	There's a fork in the road.	3
 302103523	0			2				Assets/Product/Texture/Image/RoleCharacter/KuruoruoNormal01.png	Kuroro	1	So...	3
@@ -8877,7 +9276,7 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 1019010902	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR4Kalienina2.png	Karenina	1	Get out of my way!	
 1019010903	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Kurono Construct	1	According to the schedule, you no longer have permission to access the reactor. If you know what's best for you, leave here as soon as possible.	
 1019010904	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR4Kalienina2.png	Karenina	1	There's a power issue with the zero-point reactor. If I don't fix it in time, are you willing to accept responsibility if something goes wrong? Huh, genius?	3
-1019010905	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR4Kalienina2.png	Karenina	1	The most important thing now is to restore power to the reactor. If you have any objections, go to find Yarha.	
+1019010905	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR4Kalienina2.png	Karenina	1	The most important thing now is to restore power to the reactor. If you have any objections, go find Yarha.	
 1019010906	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Kurono Construct	1	Hmph... Engineering Force grunt. Don't get all high-and-mighty on me.	
 1019010907	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR4Kalienina2.png	Karenina	1	Tch... You Kurono just make things worse.	
 1019010908	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Kurono Construct	1	Weapons down and hands up! Step away from the control panel!	
@@ -8989,6 +9388,7 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 999198002	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tips	1	This is a tip in the bottom middle 2	
 999198003	0			1				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tips	1	This is a tip in the top left corner for 3s	3
 999198004	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tips	1	This is a tip in the bottom middle for 3s	3
+999198005	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tips	1	This is a simple choice.	
 301100011	0			1				Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	Use the <color=#ff5656>joystick</color> to move around and head to the destination.	
 301100012	0			1				Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	Here comes an enemy. Tap <color=#ffda58>Basic Attack</color> to attack.	
 301100013	0			1				Assets/Product/Texture/Image/RoleCharacter/SailikaNomal01.png	Celica	1	Great! Enemy defeated! Now let's move on to the <color=#ff5656>[Skill Orb]</color>.	
@@ -9137,7 +9537,7 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 1502030901	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadNuoan1.png	Noan	1	We're done?	
 1502030902	0			2				Assets/Product/Texture/Image/RoleCharacter/LilianNormal01.png	Lillian	1	No. I can still detect signals of the Corrupted.	
 1502030903	0			2				Assets/Product/Texture/Image/RoleCharacter/LilianNormal01.png	Lillian	1	The scout drone also stopped working... What is going on?	
-1502030904	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadNuoan1.png	Noan	1	Let me try if I can restart it.	
+1502030904	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadNuoan1.png	Noan	1	Let me see if I can restart it.	
 1502030905	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadNuoan1.png	Noan	1	This way... it will be fine.	
 1502030906	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadNuoan1.png	Noan	1	Looks like it was just turned off, not broken.	
 1502030907	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal02.png	Talbot	1	The Corrupted, of course. Why are they all gathering here?	1
@@ -9167,7 +9567,7 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 1502030931	0			2				Assets/Product/Texture/Image/RoleCharacter/LilianNormal01.png	Lillian	1	Hurry back to the medical center!	
 1502030932	0			2				Assets/Product/Texture/Image/RoleCharacter/LilianNormal01.png	Lillian	1	Hey! The quality of this thing is outrageous!	2
 1502030933	0			2				Assets/Product/Texture/Image/RoleCharacter/LilianNormal01.png	Lillian	1	Watch out!	2
-1502030401	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadNuoan1.png	Young Man A	1	He should be not far ahead.	
+1502030401	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadNuoan1.png	Young Man A	1	He shouldn't be too far ahead.	
 1502030402	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadNuoan1.png	Young Man A	1	I've got to finish it up here and hurry to the rescue.	
 1502030403	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadNuoan1.png	Young Man A	1	I can use these two weapons... Is this a muscle memory?	
 1502030404	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadNuoan1.png	Young Man A	1	Does that mean that... I used to fight like this?	
@@ -9443,12 +9843,12 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 1020010342	0			1				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	Request to establish a Deep M.I.N.D. connection.	3
 1020010343	0			1				Assets/Product/Texture/Image/RoleCharacter/V130stNormal01.png	Chela Host	1	Ga... Ku... Wa...	3
 1020010344	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Member B	1	Hetero-Creature! When did it come?	
-1020010345	0			1				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tips	1	M.I.N.D. is fluctuating!	
+1020010345	0			1				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tip	1	M.I.N.D. is fluctuating!	
 1020010346	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	This place...	
 1020010347	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	The others are still fighting. I must go back as soon as possible.	
 1020010348	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal05.png	Bianca	1	...	
 1020010349	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	The Phantom Tracer might help.	
-1020010350	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tips	1	The Phantom Tracer is not responding.	
+1020010350	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tip	1	The Phantom Tracer is not responding.	
 1020010351	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	It's not working?	
 1020010352	0			1				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	And here comes another phantom.	3
 1020010353	0			2				Assets/Product/Texture/Image/RoleCharacter/V130nmNormal01.png	Scavenger (?)	1	I'm Marvin... No... I'm Miller.	
@@ -9489,7 +9889,7 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 1020010388	0			2				Assets/Product/Texture/Image/RoleCharacter/V130stNormal01.png	Chela Host	1	Join us.	3
 1020010389	0			1				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	Hmm... Are we done here?	3
 1020010390	0			1				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	Not yet!	3
-1020010391	0			1				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tips	1	Heathrow stands up again.	3
+1020010391	0			1				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tip	1	Heathrow stands up again.	3
 1020010392	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Heathrow	1	Eliminate... Execute!	
 1020010393	0			1				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Redcoral Host	1	Anomaly... should be eliminated... should be corrected...	3
 1020010394	0			1				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Heathrow	1	Bloody hell... Let's go to the dolphin show hall!	3
@@ -9543,7 +9943,7 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 1020010418	0			1				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	Are they talking about the same place? The Phantom Tracer seems to be absorbing something.	3
 1020010419	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	It stopped. It seems I can restart it again.	3
 1020010420	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	Has M.I.N.D. reached its limit?	3
-1020010421	0			1				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tips	1	Deep connection establishment request received. Connecting to the Mind Beacon.	3
+1020010421	0			1				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tip	1	Deep connection establishment request received. Connecting to the Mind Beacon.	3
 1020010422	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	I'll take care of the enemy once and for all.	3
 1020010423	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	My body... I can't move!	3
 1020010500	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	The aquarium starts to collapse.	
@@ -9564,7 +9964,7 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 1020010515	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	This is... the top of the passage?	
 1020010516	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	No, the world is reversed.	
 1020010517	0			1				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	It's collapsing even faster.	3
-1020010518	0			1				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tips	1	A weird noise comes from somewhere.	3
+1020010518	0			1				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tip	1	A weird noise comes from somewhere.	3
 1020010519	0			1				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	The Phantom Tracer is reacting!	
 1020010520	0			2				Assets/Product/Texture/Image/RoleCharacter/BiankaNormal01.png	Bianca	1	Back again.	3
 1020010521	0			2				Assets/Product/Texture/Image/RoleCharacter/V130nmNormal02.png	Refugee Child	1	Big sister!	
@@ -9586,4 +9986,164 @@ Id	IsMask	MaskTarget	ClickKey	Type	UiType	OffsetY	NeedSendCommonClick	Icon	Name	
 1020010537	0			2				Assets/Product/Texture/Image/RoleCharacter/V130nmNormal02.png	Scavenger's Phantom	1	No... You are the ones who need to be saved...	
 1020010538	0			2				Assets/Product/Texture/Image/RoleCharacter/V130nmNormal02.png	Scavenger's Phantom	1	Hahahahahahahahahahahahahaha...	
 1020010539	0			2				Assets/Product/Texture/Image/RoleCharacter/V130nmNormal02.png	Scavenger's Phantom	1	...The lower third floor... is filled with the Red Tide! This way we will be reborn... God, thank you!	
-1020010540	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tips	1	This stage is an extension of the main story and takes longer time to complete. Please make sure you have enough time.	
+1020010540	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Tip	1	This stage is an extension of the main story and takes longer time to complete. Please make sure you have enough time.	
+1502041101	0			2				Assets/Product/Texture/Image/RoleCharacter/V130nmNormal02.png	Bambinata	1	Designed Dialogue 1	
+1502041102	0			2				Assets/Product/Texture/Image/RoleCharacter/V130nmNormal02.png	Bambinata	1	Designed Dialogue 2	
+1502041103	0			2				Assets/Product/Texture/Image/RoleCharacter/V130nmNormal02.png	Bambinata	1	Designed Dialogue 3	
+1502041111	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	???	1	You don't know how to pinky promise? How stupid.	
+1502041112	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	???	1	Cross my heart and hope to die, stick a needle in my eye!	
+1502041113	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	???	1	Alright, you've made a promise now, so you can't say anything. You hear me, Bambinata?	
+1502041114	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	???	1	Since you were busy helping Father with his research today, I'll show you the moves you missed just this once...	
+1502041115	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	???	1	Don't you laugh at me if I look terrible. I'm warning you!	
+1502041117	0			2				Assets/Product/Texture/Image/RoleCharacter/V131bzNormal01.png	"Dottie"	1	That's it.	
+1502041118	0			2				Assets/Product/Texture/Image/RoleCharacter/V131bzNormal01.png	"Dottie"	1	Never say no.	
+1502041119	0			2				Assets/Product/Texture/Image/RoleCharacter/V131bzNormal01.png	"Dottie"	1	Never do unnecessary things.	
+1502041120	0			2				Assets/Product/Texture/Image/RoleCharacter/V131bzNormal01.png	"Dottie"	1	You only have to listen to Mother's words...	
+1502041121	0			2				Assets/Product/Texture/Image/RoleCharacter/V131bzNormal01.png	"Dottie"	1	How simple is it, right?	
+1502041122	0			1				Assets/Product/Texture/Image/RoleCharacter/V131bossNormal01.png	"Madorea"	1	Doris—Go—Punish—Intruders.	4
+1502041123	0			1				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata3.png	Bambinata?	1	Yes, Mother.	3
+1502041124	0			1				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Bambinata! What are you doing?!	4
+1502041125	0			1				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Can't even control your own doll, can you? Then, I won't hold back, either!	5
+1502040301	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	...I've heard some rumors about you before, dollface, that you lose your memory on occasion?	
+1502040302	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	Even if Bambinata's memory data is lost in battle, Bambinata can still access the data required for combat from the external memory module.	
+1502040303	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Then what's the plan B if you're incapacitated on the battlefield?	
+1502040304	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	Mistress will have Bambinata act as a decoy to create an opening for the others.	
+1502040305	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	So the rumors are true. No wonder the Egret only has you left now.	
+1502040306	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Bambinata, what did the Science Council check on you before you set off for the mission?	
+1502040307	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	They tried to measure the latency by having Bambinata reassess data from the external module, but it was soon interrupted because of the mission.	
+1502040308	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Just in case, access the data here one more time.	
+1502040309	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	Understood.	
+1502040312	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	This time, we'll do it slowly. Access the data section by section, avoid data conflicts, and start with the simplest.	
+1502040313	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	Reloading usual combat move data.	
+1502040314	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Hey, Egrety, we have guests ahead.	
+1502040315	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Don't call me like I'm your friend. Call me commandant.	
+1502040316	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	And don't waste time reporting something I've already seen.	
+1502040317	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Oops, I thought your eye was still recovering.	
+1502040318	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	I'm sure that Chief has thanked you in person for all your contribution despite the fact that you were a former rival, right?	
+1502040319	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	For that person? What a terrible joke... Enough of this nonsense. Ready to engage!	
+1502040320	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	Yes, temporary basic combat mode enabled.	
+1502040321	0			1				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	...Synchronizing kinetic module parameters...	2
+1502040322	0			1				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	Synchronizing resimulated special attack moves...	2
+1502040323	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	Allocating combat module linkage...	
+1502040324	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	Resimulating Signature Move...	
+1502040325	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	Combat data loading completed. No data conflicts detected. Switch to combat mode.	
+1502040326	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Great, let's keep this going.	
+1502040327	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Are your chores all finished now?	
+1502040328	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	By the way, I'm usually highly efficient when I'm on my own.	
+1502040329	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	So you two can continue playing your little mistress-and-servant game.	
+1502040330	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Don't worry, I'll be giving the Egret five-star reviews in my mission report.	
+1502040331	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	How nice of you. With a captain who is used to saying one thing but doing another...	
+1502040332	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	I'm starting to feel sorry for Cerberus' commandant.	
+1502040333	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Cerberus' commandant has absolute trust in me and will never treat me like a monitored subject. What do you say, dollface?	
+1502040334	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	I'd rather say Cerberus' commandant is also struggling to discipline a vicious dog. We should exchange thoughts on this.	
+1502040335	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Oh, unfortunately, my commandant has many more important jobs to do than listening to your constructive insights.	
+1502040336	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	I don't think the things between higher-ups are for you to worry about.	
+1502040337	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Toys should only do what toys are supposed to do. Now move in the 30-degree direction!	
+1502040338	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	Yes, Mistress.	
+1502040339	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Hmph.	
+1502040340	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Bambinata, check one more time if the ones on the tree are the same type of experimental Constructs that attacked us.	
+1502040341	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	Negative. The ones that attacked Mistress were the Corrupted.	
+1502040342	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadR2Bangbinata1.png	Bambinata	1	However, the remains on the tree are not simply experimental Constructs. Some of them also show faint Punishing Virus readings.	
+1502040343	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Given that our target location is about 500 meters ahead, it's possible that it's already been invaded by the Corrupted.	
+1502040344	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	We'll be moving forward stealthily from here on.	
+1502040801	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Hmph, a welcome party like this...	
+1502040802	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Trying to stall for time?	
+1502040803	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	That Construct! Don't let him run away!	
+1502040804	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	I know—	
+1502040806	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	...Infighting?	
+1502040807	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Shh! Don't alert them yet.	
+1502040808	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	That Construct seems to be getting punished.	
+1502040809	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Because he ran away?	
+1502040810	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	If he retains such a strong will to survive, he may not have lost his mind completely.	
+1502040811	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	What are you trying to say?	
+1502040812	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	If he's still somehow sane, we can simply make him to spit out where dollface is exactly.	
+1502040813	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Your strategy's really...	
+1502040814	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Let's capture him alive.	
+1502040815	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Hey, it should be the commandant to give orders!	
+1502040816	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	...Can you understand my words?	
+1502040817	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Excellent. I won't hurt you if you can answer a few questions.	
+1502040818	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Where is the little blue-and-white-dressed doll now?	
+1502040819	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Naughty	1	...Group...	
+1502040820	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiUnknown02.png	Naughty	1	...Game... Time...	
+1502040821	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	...You've got the nerve!	
+1502040822	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Hold on, let's split up here.	
+1502040823	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	You go after him. I'll head back to the security room and see if there are any more clues about those Constructs' intentions.	
+1502040824	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Suit yourself, if you're so confident that you can protect yourself on your own.	
+1502040825	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Ha, keep this to yourself.	
+1502040826	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	If you need help, just yell for me. I can't miss this scene.	
+1502040827	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	I'll give you the last shot.	
+1502040829	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Game rules? What do they have to do with my question?	
+1502040830	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Too bad you've wasted your last chance.	
+1502040831	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Begging for life? Or...	
+1502040832	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Leading the way? I'd better follow him.	
+1502040833	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	The game he mentioned before? Is it some kind of procedural behavior among those Constructs?	
+1502040834	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Footsteps...	
+1502040835	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Footsteps... As expected, it was stalling for time.	
+1502040836	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	...Fair enough, but it's time to play my game. The ones lose the moment they get cut down—	
+1502040837	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Let's have fun, shall we?	
+1502040838	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Have you found any clues?	
+1502040839	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Almost all cameras were shut off.	
+1502040840	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	But I managed to find a clip from about fifteen minutes ago. I'm syncing it to your terminal now.	
+1502040841	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	...Your face looks like you've failed the mission and our transport craft was blown up.	
+1502040842	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	...	
+1502040843	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	What? Something even worse?	
+1502040844	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	...No, I just saw something dull.	
+1502040845	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	A pair of old ballet shoes... in a box?	
+1502040846	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	...It's none of your business.	
+1502040847	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Sync completed.	
+1502040851	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Those Constructs were heading in the same direction before they disappeared.	
+1502040852	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	That's the direction toward the the end of the living room.	
+1502040853	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	This is where they disappeared.	
+1502040854	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Under the carpet must be a hidden door.	
+1502040855	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	I've got this.	
+1502040857	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	If your blade had gone just a bit more to the right, you'd be facing a court martial afterward.	
+1502040858	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Accidents won't exist if they don't happen.	
+1502040859	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Let's go.	
+1502040860	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	Wait, before that, we should investigate all the unchecked rooms.	
+1502040861	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	It's possible that Bambinata didn't act as we deduced.	
+1502040862	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	If all those Constructs were really down here like the cameras showed, they could've overwhelmed us...	
+1502040863	0			2				Assets/Product/Texture/Image/RoleCharacter/V131fnsNormal01.png	Vanessa	1	And our situation will be even more dire if Bambinata isn't there. Not to mention circling back to find her will require more time and effort.	
+1502040864	0			2				Assets/Product/Texture/Image/RoleCharacter/RoleHeadWeila1.png	Vera	1	Fine, let's get going.	
+13021401	0			2				Assets/Product/Texture/Image/RoleCharacter/NvDuiZhangNormal02.png	Female Captain	1	The Corrupted have appeared. Prepare to engage!	
+13021402	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotinvNormal01.png	Female Construct	1	Roger!	
+13021403	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotinvNormal01.png	Female Construct	1	The defense force has been informed! Reinforcements are on their way!	
+13021404	0			2				Assets/Product/Texture/Image/RoleCharacter/NvDuiZhangNormal02.png	Female Captain	1	...	
+13021405	0			2				Assets/Product/Texture/Image/RoleCharacter/NvDuiZhangNormal02.png	Female Captain	1	Are you the reinforcements? But you don't seem to be on the drill roster...	
+13021406	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal02.png	Nanami	1	Drill? Oh, let's pretend you were saved by a masked superhero who happened to be passing by.	
+13021407	0			2				Assets/Product/Texture/Image/RoleCharacter/NvDuiZhangNormal02.png	Female Captain	1	Wait, where are you going?	
+13021408	0			2				Assets/Product/Texture/Image/RoleCharacter/NvDuiZhangNormal02.png	Female Captain	1	The area over there is conducting a security drill for the Mid-Autumn Festival celebrations. I can't let you through.	
+13021409	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Ehhh?!	
+13021410	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Plan B, Power! Let's go the other way!	
+13021411	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	...	
+13021412	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	The first floor is blocked off because of the drill... But the second floor is still accessible.	
+13021413	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Construct	1	Are you... the Tank Construct of the Support Force?	
+13021414	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Um... Nanami's just passing by...	
+13021415	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Construct	1	Whatever, it's good to have reinforcements here.	
+13021416	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotiNomal01.png	Construct	1	The drill-specific robots over there have lost control. They need your help!	
+13021417	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Just listen to Nanami!	
+13021418	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotinvNormal01.png	Female Construct	1	Why are they suddenly going into a rage?!	
+13021419	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotinvNormal01.png	Female Construct	1	Please go help them!	
+13021420	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Seriously...	
+13021421	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotinvNormal01.png	Female Construct	1	The robots are blocking the road there. No one can get through!	
+13021422	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Nanami will take care of it. Nanami, Power, taking off!	
+13021423	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Mission accomplished! Nanami will be returning now!	
+13021424	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Oh, not returning. Nanami should head to the landing pad.	
+13021425	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Excuse me, do you know how to get down to the first floor? We really need to go to the landing pad.	
+13021426	0			2				Assets/Product/Texture/Image/RoleCharacter/TongyonggouzaotinvNormal01.png	Female Construct	1	First floor? It's locked down now. No one can enter under normal circumstances.	
+13021427	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal02.png	Nanami	1	Then Nanami has no choice but to make the circumstances abnormal...	
+13021428	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal02.png	Nanami	1	Fly! Power!	
+13021429	0			2				Assets/Product/Texture/Image/RoleCharacter/NvDuiZhangNormal02.png	Female Captain	1	Waaait! W-what are you doing?	
+13021430	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Nanami has to go to the first floor. There's something important at the landing pad!	
+13021431	0			2				Assets/Product/Texture/Image/RoleCharacter/NvDuiZhangNormal02.png	Female Captain	1	...	
+13021432	0			2				Assets/Product/Texture/Image/RoleCharacter/NvDuiZhangNormal02.png	Female Captain	1	The drill robots are everywhere down there! You'll get hurt going there alone!	
+13021433	0			2				Assets/Product/Texture/Image/RoleCharacter/NvDuiZhangNormal02.png	Female Captain	1	Give me a minute. I'll contact your instructor...	
+13021434	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	A minute? Sorry, but every minute counts now... Power, speed max!	
+13021435	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	The robots are gathering around... Alright, Nanami and Power will take you down at once!	
+13021436	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	I have to watch the time, too. The drone is taking off soon.	
+13021437	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Hmm... This is the only way left.	
+13021438	0			2				Assets/Product/Texture/Image/RoleCharacter/QishichaoNormal01.png	Nanami	1	Direct smash!	
+13021601	0			1				Assets/Product/Texture/Image/RoleCharacter/TuziNormal01.png	Rabbit Robot	1	...Adjusting... Adjusting...	3
+13021602	0			1				Assets/Product/Texture/Image/RoleCharacter/TuziNormal01.png	Rabbit Robot	1	...Come catch me... Come catch me... Come catch me...	3
+13021603	0			1				Assets/Product/Texture/Image/RoleCharacter/TuziNormal01.png	Rabbit King	1	...Rabbit... Taking off...	3
+13021604	0			1				Assets/Product/Texture/Image/RoleCharacter/TuziNormal01.png	Rabbit King	1	...Expel... Intruders...	3
+13021605	0			1				Assets/Product/Texture/Image/RoleCharacter/TuziNormal01.png	Rabbit King	1	Hide and seek... Guess... Which one...	4
