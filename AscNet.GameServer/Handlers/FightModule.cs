@@ -227,7 +227,10 @@ namespace AscNet.GameServer.Handlers
                     // TODO: Implement other types. Other types are behaving weirdly
                     if (rewardType == RewardType.Item)
                     {
-                        session.inventory.Do(rewardGood.TemplateId, rewardGood.Count);
+                        NotifyItemDataList notifyItemData = new();
+                        notifyItemData.ItemDataList.Add(session.inventory.Do(rewardGood.TemplateId, rewardGood.Count));
+                        session.SendPush(notifyItemData);
+
                         rewards.Add(new()
                         {
                             Id = rewardGood.Id,
