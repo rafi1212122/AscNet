@@ -43,7 +43,7 @@ namespace AscNet.Table
                             }
                             types.Add("global::System.String");
                         }
-                        resolvedTypes.Add(types.ToArray());
+                        resolvedTypes.Add([.. types]);
                     }
 
                     Dictionary<string, string> properties = new();
@@ -152,11 +152,13 @@ namespace AscNet.Table{ns}
                 {
                     fails.Add(new
                     {
-                        msg = ex.Message,
+                        msg = ex.ToString(),
                         file = table.Path
                     });
                 }
             }
+
+           //  File.WriteAllText("./generator_fails.json", JsonConvert.SerializeObject(fails, Formatting.Indented));
         }
 
         public void Initialize(GeneratorInitializationContext context) { }

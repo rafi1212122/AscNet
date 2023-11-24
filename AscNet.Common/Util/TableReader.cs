@@ -1,4 +1,5 @@
 using AscNet.Logging;
+using System.Reflection;
 
 namespace AscNet.Common.Util
 {
@@ -27,6 +28,98 @@ namespace AscNet.Common.Util
         }
         
         public abstract void Load();
+    }
+
+    public interface ITable
+    {
+        abstract static string File { get; }
+    }
+
+    public static class TableReaderV2
+    {
+        private static readonly Logger c = new(typeof(TableReaderV2), nameof(TableReaderV2), LogLevel.DEBUG, LogLevel.DEBUG);
+
+        public static List<T> Parse<T>() where T : ITable
+        {
+            List<T> result = new();
+
+            try
+            {
+                using (var reader = new StreamReader(T.File))
+                {
+                    // Read the header line to get column names
+                    string headerLine = reader.ReadLine()!;
+                    string[] columnNames = headerLine.Split('\t');
+
+                    // Read data lines and parse them into objects
+                    while (!reader.EndOfStream)
+                    {
+                        string dataLine = reader.ReadLine()!;
+                        if (string.IsNullOrEmpty(dataLine))
+                            break;
+
+                        string[] values = dataLine.Split('\t');
+
+                        T obj = MapToObject<T>(columnNames, values);
+                        result.Add(obj);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                c.Error($"An error occurred: {ex.Message}");
+            }
+
+            return result;
+        }
+
+        static T MapToObject<T>(string[] columnNames, string[] values) where T : ITable
+        {
+            T obj = Activator.CreateInstance<T>();
+
+            for (int i = 0; i < Math.Min(columnNames.Length, values.Length); i++)
+            {
+                PropertyInfo? prop = typeof(T).GetProperty(columnNames[i].Split('[').First());
+                if (prop != null)
+                {
+                    if (prop.PropertyType == typeof(List<int>))
+                    {
+                        if (prop.GetValue(obj) is null)
+                        {
+                            prop.SetValue(obj, new List<int>());
+                        }
+                        string value = values[i];
+                        if (!string.IsNullOrEmpty(value))
+                        {
+                            prop.PropertyType.GetMethod("Add").Invoke(prop.GetValue(obj), new object[] { int.Parse(value) });
+                        }
+                    }
+                    else if (prop.PropertyType == typeof(List<string>))
+                    {
+                        if (prop.GetValue(obj) is null)
+                        {
+                            prop.SetValue(obj, new List<string>());
+                        }
+                        string value = values[i];
+                        if (!string.IsNullOrEmpty(value))
+                        {
+                            prop.PropertyType.GetMethod("Add").Invoke(prop.GetValue(obj), new object[] { value });
+                        }
+                    }
+                    else if (prop.PropertyType == typeof(int))
+                    {
+                        // For int properties like GroupId
+                        prop.SetValue(obj, int.Parse(values[i]));
+                    }
+                    else
+                    {
+                        prop.SetValue(obj, values[i]);
+                    }
+                }
+            }
+
+            return obj;
+        }
     }
 }
 
