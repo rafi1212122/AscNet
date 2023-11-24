@@ -106,10 +106,12 @@ namespace AscNet.Common.Util
                             prop.PropertyType.GetMethod("Add").Invoke(prop.GetValue(obj), new object[] { value });
                         }
                     }
-                    else if (prop.PropertyType == typeof(int))
+                    else if (prop.PropertyType == typeof(int) || prop.PropertyType == typeof(int?))
                     {
-                        // For int properties like GroupId
-                        prop.SetValue(obj, int.Parse(values[i]));
+                        if (!string.IsNullOrEmpty(values[i]))
+                            prop.SetValue(obj, int.Parse(values[i]));
+                        else
+                            prop.SetValue(obj, null);
                     }
                     else
                     {

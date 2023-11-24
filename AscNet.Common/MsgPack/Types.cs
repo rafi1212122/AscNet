@@ -2375,7 +2375,7 @@ namespace AscNet.Common.MsgPack
         {
             public Int32 ChallengeCount { get; set; }
             public UInt32 StageId { get; set; }
-            public List<UInt32> CardIds { get; set; } = new();
+            public List<UInt32>? CardIds { get; set; } = new();
             public Int32 FirstFightPos { get; set; }
             public Int32 CaptainPos { get; set; }
             public Boolean IsHasAssist { get; set; }
@@ -2452,11 +2452,11 @@ namespace AscNet.Common.MsgPack
         public class FightSettleResponseSettle
         {
             public Boolean IsWin { get; set; }
-            public UInt32 StageId { get; set; }
+            public long StageId { get; set; }
             public Int32 StarsMark { get; set; }
-            public List<dynamic> RewardGoodsList { get; set; } = new();
+            public List<RewardGoods> RewardGoodsList { get; set; } = new();
             public Int32 LeftTime { get; set; }
-            public Dictionary<dynamic, dynamic> NpcHpInfo { get; set; }
+            public dynamic? NpcHpInfo { get; set; }
             public Int32 UrgentEnventId { get; set; }
             public dynamic? ClientAssistInfo { get; set; }
             public List<dynamic> FlopRewardList { get; set; } = new();
@@ -2574,26 +2574,26 @@ namespace AscNet.Common.MsgPack
         public Int32 Count { get; set; }
     }
 
+    [global::MessagePack.MessagePackObject(true)]
+    public class RewardGoods
+    {
+        public Int32 RewardType { get; set; }
+        public Int32 TemplateId { get; set; }
+        public Int32 Count { get; set; }
+        public Int32 Level { get; set; }
+        public Int32 Quality { get; set; }
+        public Int32 Grade { get; set; }
+        public Int32 Breakthrough { get; set; }
+        public Int32 ConvertFrom { get; set; }
+        public Int32 Id { get; set; }
+    }
 
     [global::MessagePack.MessagePackObject(true)]
     public class ItemUseResponse
     {
         public Int32 Code { get; set; }
-        [global::MessagePack.MessagePackObject(true)]
-        public class ItemUseResponseRewardGoods
-        {
-            public Int32 RewardType { get; set; }
-            public Int32 TemplateId { get; set; }
-            public UInt32 Count { get; set; }
-            public Int32 Level { get; set; }
-            public Int32 Quality { get; set; }
-            public Int32 Grade { get; set; }
-            public Int32 Breakthrough { get; set; }
-            public Int32 ConvertFrom { get; set; }
-            public UInt32 Id { get; set; }
-        }
 
-        public List<ItemUseResponseRewardGoods> RewardGoodsList { get; set; } = new();
+        public List<RewardGoods> RewardGoodsList { get; set; } = new();
     }
 
 

@@ -57,12 +57,13 @@ namespace AscNet.GameServer
                         while (readbytes < len)
                         {
                             int packetLen = BinaryPrimitives.ReadInt32LittleEndian(msg.AsSpan()[readbytes..]);
-                            readbytes += 4;
+                            if (len > 0)
+                                readbytes += 4;
                             if (packetLen < 1)
                             {
                                 break;
                             }
-                            else if (packetLen > len)
+                            else if (packetLen > len && len > 0)
                             {
                                 prevBuf += len;
                                 break;
@@ -132,7 +133,7 @@ namespace AscNet.GameServer
                             }
                             catch (Exception ex)
                             {
-                                log.Error("Failed to invoke handler: " + ex.Message + $", Raw {packet.Type} packet: " + BitConverter.ToString(debugContent).Replace("-", ""));
+                                log.Error("Failed to invoke handler: " + ex.ToString() + $", Raw {packet.Type} packet: " + BitConverter.ToString(debugContent).Replace("-", ""));
                             }
                         }
                     }

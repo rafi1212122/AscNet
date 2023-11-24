@@ -91,8 +91,10 @@ namespace AscNet.GameServer.Handlers
             else
             {
                 player = Player.FromToken(request.Token);
+                session.log.Debug("Player is reconnecting into new session...");
                 if (player is not null && (session.character is null || session.stage is null || session.inventory is null))
                 {
+                    session.log.Debug("Reassigning player props...");
                     session.character = Character.FromUid(player.PlayerData.Id);
                     session.stage = Stage.FromUid(player.PlayerData.Id);
                     session.inventory = Inventory.FromUid(player.PlayerData.Id);
@@ -219,7 +221,7 @@ Sorry for the inconvenience.
             });
 
             NotifyWorldChat notifyWorldChat = new();
-            notifyWorldChat.ChatMessages.Add(ChatModule.MakeLuciaMessage($"Hello {session.player.PlayerData.Name}! Welcome to AscNet, please read mails if you haven't already.\n如果您还没有阅读邮件，请阅读邮件"));
+            notifyWorldChat.ChatMessages.Add(ChatModule.MakeLuciaMessage($"Hello {session.player.PlayerData.Name}! Welcome to AscNet, please read mails if you haven't already.\n如果您还没有阅读邮件，请阅读邮件\n\nTry '/help' to get started"));
 
             session.SendPush(notifyMails);
             session.SendPush(notifyWorldChat);
