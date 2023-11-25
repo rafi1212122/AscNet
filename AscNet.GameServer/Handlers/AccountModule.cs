@@ -140,7 +140,6 @@ namespace AscNet.GameServer.Handlers
                 FubenMainLineData = new(),
                 FubenChapterExtraLoginData = new(),
                 FubenUrgentEventData = new(),
-                ItemList = session.inventory.Items,
                 UseBackgroundId = 14000001 // main ui theme, table still failed to dump
             };
             if (notifyLogin.PlayerData.DisplayCharIdList.Count < 1)
@@ -191,11 +190,24 @@ namespace AscNet.GameServer.Handlers
                 UnlockEmojis = EmojiTableReader.Instance.All.Select(x => new NotifyChatLoginData.NotifyChatLoginDataUnlockEmoji() { Id = (uint)x.Id }).ToList()
             };
 
+            NotifyItemDataList notifyItemDataList = new()
+            {
+                /*ItemDataList = TableReaderV2.Parse<Table.V2.share.item.ItemTable>().Select(x => new Item()
+                {
+                    Id = x.Id,
+                    Count = x.MaxCount ?? 999_999_999,
+                    RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
+                    CreateTime = DateTimeOffset.Now.ToUnixTimeSeconds()
+                }).ToList(),*/
+                ItemDataList = session.inventory.Items
+            };
+
             session.SendPush(notifyLogin);
             session.SendPush(notifyCharacterData);
             session.SendPush(notifyEquipData);
             session.SendPush(notifyAssistData);
             session.SendPush(notifyChatLoginData);
+            session.SendPush(notifyItemDataList);
 
             #region DisclamerMail
             NotifyMails notifyMails = new();

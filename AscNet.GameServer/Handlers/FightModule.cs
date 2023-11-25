@@ -1,4 +1,5 @@
-﻿using AscNet.Common.MsgPack;
+﻿using AscNet.Common.Database;
+using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
 using AscNet.Table.share.fuben;
 using AscNet.Table.V2.share.reward;
@@ -204,8 +205,12 @@ namespace AscNet.GameServer.Handlers
                 session.SendResponse(new FightSettleResponse() { Code = 20032004 }, packet.Id);
                 return;
             }
+
             List<RewardGoods> rewards = new();
             List<RewardTable> rewardTables = TableReaderV2.Parse<RewardTable>().Where(x => session.stage.Stages.ContainsKey(req.Result.StageId) ? x.Id == stageTable.FinishDropId : (x.Id == stageTable.FinishDropId || x.Id == stageTable.FirstRewardId)).ToList();
+
+            NotifyItemDataList notifyItemData = new();
+            notifyItemData.ItemDataList.Add(session.inventory.Do(Inventory.TeamExp, stageTable.TeamExp ?? 0));
 
             foreach (var rewardGoodsId in rewardTables.SelectMany(x => x.SubIds))
             {
@@ -227,9 +232,7 @@ namespace AscNet.GameServer.Handlers
                     // TODO: Implement other types. Other types are behaving weirdly
                     if (rewardType == RewardType.Item)
                     {
-                        NotifyItemDataList notifyItemData = new();
                         notifyItemData.ItemDataList.Add(session.inventory.Do(rewardGood.TemplateId, rewardGood.Count));
-                        session.SendPush(notifyItemData);
 
                         rewards.Add(new()
                         {
@@ -241,6 +244,9 @@ namespace AscNet.GameServer.Handlers
                     }
                 }
             }
+
+            session.SendPush(notifyItemData);
+            session.ExpSanityCheck();
 
             StageDatum stageData = new()
             {
