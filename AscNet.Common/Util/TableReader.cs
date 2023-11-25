@@ -37,10 +37,16 @@ namespace AscNet.Common.Util
 
     public static class TableReaderV2
     {
+        private static readonly Dictionary<Type, object> cache = new();
         private static readonly Logger c = new(typeof(TableReaderV2), nameof(TableReaderV2), LogLevel.DEBUG, LogLevel.DEBUG);
 
         public static List<T> Parse<T>() where T : ITable
         {
+            if (cache.ContainsKey(typeof(T)))
+            {
+                return (List<T>)cache.GetValueOrDefault(typeof(T))!;
+            }
+
             List<T> result = new();
 
             try
@@ -64,6 +70,9 @@ namespace AscNet.Common.Util
                         result.Add(obj);
                     }
                 }
+                c.Debug($"{typeof(T).Name} Loaded From {T.File}");
+
+                cache.Add(typeof(T), result);
             }
             catch (Exception ex)
             {
