@@ -5,13 +5,23 @@ using AscNet.Table.share.character;
 using AscNet.Table.share.character.skill;
 using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
+using Newtonsoft.Json;
 
 namespace AscNet.Common.Database
 {
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     public class Character
     {
+        public static readonly List<CharacterLevelUpTemplate> levelUpTemplates;
         public static readonly IMongoCollection<Character> collection = Common.db.GetCollection<Character>("characters");
+
+        static Character()
+        {
+            if (File.Exists("Data/CharacterLevelUpTemplate.json"))
+                levelUpTemplates = JsonConvert.DeserializeObject<List<CharacterLevelUpTemplate>>(File.ReadAllText("Data/CharacterLevelUpTemplate.json")) ?? new();
+            else
+                levelUpTemplates = new();
+        }
 
         private uint NextEquipId => Equips.MaxBy(x => x.Id)?.Id + 1 ?? 1;
 
@@ -84,7 +94,39 @@ namespace AscNet.Common.Database
             Characters.Add(characterData);
         }
 
-        public UpgradeCharacterResult UpgradeCharacterSkillGroup(uint skillGroupId, int count)
+        public NotifyCharacterDataList.NotifyCharacterDataListCharacterData? AddCharacterExp(int characterId, int exp, int maxLvl = 0)
+        {
+            var characterData = TableReaderV2.Parse<Table.V2.share.character.CharacterTable>().FirstOrDefault(x => x.Id == characterId);
+            var character = Characters.FirstOrDefault(x => x.Id == characterId);
+
+            if (character is not null && characterData is not null)
+            {
+                levelCheck:
+                CharacterLevelUpTemplate? levelUpTemplate = levelUpTemplates.FirstOrDefault(x => x.Level == character.Level && x.Type == characterData.Type);
+                if (levelUpTemplate is not null)
+                {
+                    if (levelUpTemplate.Exp > exp)
+                    {
+                        character.Exp += (uint)Math.Max(0, exp);
+                    }
+                    else if (maxLvl > 0 && character.Level == maxLvl)
+                    {
+                        character.Exp = (uint)Math.Max(0, levelUpTemplate.Exp);
+                    }
+                    else
+                    {
+                        character.Level++;
+                        exp -= (int)(levelUpTemplate.Exp - character.Exp);
+                        character.Exp = 0;
+                        goto levelCheck;
+                    }
+                }
+            }
+
+            return character;
+        }
+
+        public UpgradeCharacterSkillResult UpgradeCharacterSkillGroup(uint skillGroupId, int count)
         {
             List<uint> affectedCharacters = new();
             int totalCoinCost = 0;
@@ -111,7 +153,7 @@ namespace AscNet.Common.Database
                 }
             }
 
-            return new UpgradeCharacterResult()
+            return new UpgradeCharacterSkillResult()
             {
                 AffectedCharacters = affectedCharacters,
                 CoinCost = totalCoinCost,
@@ -165,10 +207,25 @@ namespace AscNet.Common.Database
         public List<FashionList> Fashions { get; set; }
     }
 
-    public struct UpgradeCharacterResult
+    public struct UpgradeCharacterSkillResult
     {
         public int CoinCost { get; init; }
         public int SkillPointCost { get; init; }
         public List<uint> AffectedCharacters { get; init; }
+    }
+
+    public partial class CharacterLevelUpTemplate
+    {
+        [JsonProperty("Level")]
+        public int Level { get; set; }
+
+        [JsonProperty("Exp")]
+        public int Exp { get; set; }
+
+        [JsonProperty("AllExp")]
+        public int AllExp { get; set; }
+
+        [JsonProperty("Type")]
+        public int Type { get; set; }
     }
 }
