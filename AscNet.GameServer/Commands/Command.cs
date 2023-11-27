@@ -91,12 +91,13 @@ namespace AscNet.GameServer.Commands
                 {
                     List<PropertyInfo> argsProperties = cmd.GetType().GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance).Where(x => x.GetCustomAttribute(typeof(ArgumentAttribute)) is not null).ToList();
 
-                    helpText += $"{command} {string.Join(" ", argsProperties.Select(x => $"<{x.Name}>"))}\n└─{cmd.Help}\n";
+                    helpText += $"{command} {string.Join(" ", argsProperties.Select(x => $"<{x.Name}>"))}\n{cmd.Help}\n";
                     foreach (var argProp in argsProperties)
                     {
                         ArgumentAttribute attr = (ArgumentAttribute)argProp.GetCustomAttribute(typeof(ArgumentAttribute))!;
-                        helpText += string.Format($"└─{argProp.Name} \"{attr.Pattern}\"{{0}}\n", string.IsNullOrEmpty(attr.Description) ? string.Empty : $", {attr.Description}");
+                        helpText += string.Format($"└{argProp.Name} \"{attr.Pattern}\"{{0}}\n", string.IsNullOrEmpty(attr.Description) ? string.Empty : $", {attr.Description}");
                     }
+                    helpText += '\n';
                 }
             }
 
