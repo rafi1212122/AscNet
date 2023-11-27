@@ -215,14 +215,14 @@ namespace AscNet.GameServer.Handlers
             {
                 Id = "0",
                 Status = 0, // MAIL_STATUS_UNREAD
-                SendName = "AscNet Developers",
-                Title = "[IMPORTANT] Information Regarding This Server Software [有关本服务器软件的信息］",
+                SendName = "<color=#8b0000><b>AscNet</b></color> Developers",
+                Title = "<b>[IMPORTANT]</b> Information Regarding This Server Software [有关本服务器软件的信息］",
                 Content = @"Hello Commandant!
-Welcome to AscNet, we are happy that you are using this Server Software.
-This Server Software is always free and if you are paying to gain access to this you are being SCAMMED, we encourage you to help prevent another buyer like you by making a PSA or telling others whom you may see as potential users.
+Welcome to <color=#8b0000><b>AscNet</b></color>, we are happy that you are using this <b>Server Software</b>.
+This <b>Server Software</b> is always free and if you are paying to gain access to this you are being SCAMMED, we encourage you to help prevent another buyer like you by making a PSA or telling others whom you may see as potential users.
 Sorry for the inconvenience.
 
-欢迎来到 AscNet，我们很高兴您使用本服务器软件。
+欢迎来到 <color=#8b0000><b>AscNet</b></color>，我们很高兴您使用本服务器软件。
 本服务器软件始终是免费的，如果您是通过付费来使用本软件，那您就被骗了，我们鼓励您告诉其他潜在用户，以防止再有像您这样的买家。
 不便之处，敬请原谅。
 [中文版为机器翻译，准确内容请参考英文信息］",
