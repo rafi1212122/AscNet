@@ -88,8 +88,19 @@ namespace AscNet.GameServer.Commands
             {
                 Command? cmd = CommandFactory.CreateCommand(command, session, args, false);
                 if (cmd is not null)
-                    helpText += $"{command}\n\t└─{cmd.Help}\n";
+                {
+                    List<PropertyInfo> argsProperties = cmd.GetType().GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance).Where(x => x.GetCustomAttribute(typeof(ArgumentAttribute)) is not null).ToList();
+
+                    helpText += $"{command} {string.Join(" ", argsProperties.Select(x => $"<{x.Name}>"))}\n└─{cmd.Help}\n";
+                    foreach (var argProp in argsProperties)
+                    {
+                        ArgumentAttribute attr = (ArgumentAttribute)argProp.GetCustomAttribute(typeof(ArgumentAttribute))!;
+                        helpText += string.Format($"└─{argProp.Name} \"{attr.Pattern}\"{{0}}\n", string.IsNullOrEmpty(attr.Description) ? string.Empty : $", {attr.Description}");
+                    }
+                }
             }
+
+            throw new CommandMessageCallbackException(helpText);
         }
     }
 
@@ -128,5 +139,11 @@ namespace AscNet.GameServer.Commands
 
             return (Command)Activator.CreateInstance(command, new object[] { session, args, validate })!;
         }
+    }
+
+    public class CommandMessageCallbackException : Exception
+    {
+        public CommandMessageCallbackException(string message)
+            : base(message) { }
     }
 }

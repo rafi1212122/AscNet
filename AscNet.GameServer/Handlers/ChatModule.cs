@@ -170,6 +170,10 @@ namespace AscNet.GameServer.Handlers
 
                     cmd?.Execute();
                 }
+                catch (CommandMessageCallbackException ex)
+                {
+                    notifyWorldChat.ChatMessages.Add(MakeLuciaMessage(ex.Message));
+                }
                 catch (Exception)
                 {
                     notifyWorldChat.ChatMessages.Add(MakeLuciaMessage($"Command {cmdStrings.First().Split('/').Last()} failed to execute!"));

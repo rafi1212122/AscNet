@@ -5,6 +5,7 @@ using Config.Net;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Options;
 using Newtonsoft.Json;
+using AscNet.Common.Util;
 
 namespace AscNet.Common
 {
@@ -30,23 +31,22 @@ namespace AscNet.Common
 
         public static void DumpTables()
         {
-            IEnumerable<Type> tableTypes = Assembly.GetAssembly(typeof(Table.client.activity.ActivityGroupTable))!.GetTypes().Where(t => t.BaseType?.Name == "TableReader`2");
+            IEnumerable<Type> tableTypes = Assembly.GetAssembly(typeof(Table.V2.client.activity.ActivityGroupTable))!.GetTypes().Where(t => typeof(ITable).IsAssignableFrom(t));
             string baseSavePath = "/PGR_Data/";
 
+            Console.WriteLine($"Found {tableTypes.Count()} types!");
             foreach (Type type in tableTypes)
             {
                 try
                 {
-                    object? readerInstance = Activator.CreateInstance(type);
-                    readerInstance?.GetType().GetMethod("Load", BindingFlags.Instance | BindingFlags.Public)?.Invoke(readerInstance, null);
-                    object? values = type.GetProperty("All", BindingFlags.Instance | BindingFlags.Public)?.GetValue(readerInstance);
+                    object? values = typeof(TableReaderV2).GetMethod("Parse")?.MakeGenericMethod(type).Invoke(null, null);
                     if (values is not null)
                     {
                         // this will create the folder on ur drive root sorry
-                        string savePath = baseSavePath + string.Join("/", type.FullName!.Split(".").Skip(2));
+                        string savePath = baseSavePath + string.Join("/", type.FullName!.Split(".").Skip(3));
                         if (!Directory.Exists(Path.GetDirectoryName(savePath)))
                             Directory.CreateDirectory(Path.GetDirectoryName(savePath)!);
-                        File.WriteAllText(new string(savePath.Take(savePath.Length - 11).ToArray()) + ".json", JsonConvert.SerializeObject(values, Formatting.Indented));
+                        File.WriteAllText(new string(savePath.Take(savePath.Length - 5).ToArray()) + ".json", JsonConvert.SerializeObject(values, Formatting.Indented));
                         Console.WriteLine(type.FullName);
                     }
 
