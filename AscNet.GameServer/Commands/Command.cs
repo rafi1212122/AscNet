@@ -1,6 +1,8 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Reflection;
 using System.Text.RegularExpressions;
 using AscNet.Logging;
+using Newtonsoft.Json;
 
 namespace AscNet.GameServer.Commands
 {
@@ -30,12 +32,17 @@ namespace AscNet.GameServer.Commands
         public string? Validate()
         {
             List<PropertyInfo> argsProperties = GetType().GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance).Where(x => x.GetCustomAttribute(typeof(ArgumentAttribute)) is not null).ToList();
-            if (argsProperties.Count != args.Length)
+            if (argsProperties.Where(x => (((ArgumentAttribute)x.GetCustomAttribute(typeof(ArgumentAttribute))!).Flags & ArgumentFlags.Optional) != ArgumentFlags.Optional).Count() > args.Length)
                 return "Invalid args length!";
 
             foreach (var argProp in argsProperties)
             {
                 ArgumentAttribute attr = (ArgumentAttribute)argProp.GetCustomAttribute(typeof(ArgumentAttribute))!;
+                if (attr.Position + 1 > args.Length && (attr.Flags & ArgumentFlags.Optional) != ArgumentFlags.Optional)
+                    return $"Argument {argProp.Name} is required!";
+                else if (attr.Position + 1 > args.Length)
+                    return null;
+
                 if (!attr.Pattern.IsMatch(args[attr.Position]))
                     return $"Argument {argProp.Name} is invalid!";
 
@@ -53,13 +60,21 @@ namespace AscNet.GameServer.Commands
         public int Position { get; }
         public Regex Pattern { get; }
         public string? Description { get; }
+        public ArgumentFlags Flags { get; }
 
-        public ArgumentAttribute(int position, string pattern, string? description = null)
+        public ArgumentAttribute(int position, string pattern, string? description = null, ArgumentFlags flags = ArgumentFlags.None)
         {
             Position = position;
             Pattern = new(pattern);
             Description = description;
+            Flags = flags;
         }
+    }
+
+    public enum ArgumentFlags
+    {
+        None = 0,
+        Optional = 1
     }
 
     [AttributeUsage(AttributeTargets.Class)]
@@ -91,7 +106,7 @@ namespace AscNet.GameServer.Commands
                 {
                     List<PropertyInfo> argsProperties = cmd.GetType().GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance).Where(x => x.GetCustomAttribute(typeof(ArgumentAttribute)) is not null).ToList();
 
-                    helpText += $"{command} {string.Join(" ", argsProperties.Select(x => $"<{x.Name}>"))}\n{cmd.Help}\n";
+                    helpText += $"{command} {string.Join(" ", argsProperties.Select(x => (((ArgumentAttribute)x.GetCustomAttribute(typeof(ArgumentAttribute))!).Flags & ArgumentFlags.Optional) == ArgumentFlags.Optional ? $"[{x.Name}]" : $"<{x.Name}>"))}\n{cmd.Help}\n";
                     foreach (var argProp in argsProperties)
                     {
                         ArgumentAttribute attr = (ArgumentAttribute)argProp.GetCustomAttribute(typeof(ArgumentAttribute))!;

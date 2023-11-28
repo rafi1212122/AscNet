@@ -174,9 +174,13 @@ namespace AscNet.GameServer.Handlers
                 {
                     notifyWorldChat.ChatMessages.Add(MakeLuciaMessage(ex.Message));
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    notifyWorldChat.ChatMessages.Add(MakeLuciaMessage($"Command {cmdStrings.First().Split('/').Last()} failed to execute!"));
+#if DEBUG
+                    notifyWorldChat.ChatMessages.Add(MakeLuciaMessage($"Command {cmdStrings.First().Split('/').Last()} failed to execute!, " + ex.ToString()));
+#else
+                    notifyWorldChat.ChatMessages.Add(MakeLuciaMessage($"Command {cmdStrings.First().Split('/').Last()} failed to execute!, " + ex.Message));
+#endif
                 }
             }
 
