@@ -1,4 +1,6 @@
-﻿using AscNet.Common.Util;
+﻿using AscNet.Common.MsgPack;
+using AscNet.Common.Util;
+using AscNet.GameServer.Handlers;
 using AscNet.Table.V2.share.player;
 
 namespace AscNet.GameServer.Commands
@@ -15,17 +17,39 @@ namespace AscNet.GameServer.Commands
 
         public override void Execute()
         {
-            int maxLevel = TableReaderV2.Parse<PlayerTable>().Count;
+            List<PlayerTable> playerLevels = TableReaderV2.Parse<PlayerTable>();
             int level = Miscs.ParseIntOr(Level);
 
             if (Level == "max")
             {
-                session.player.PlayerData.Level = maxLevel;
+                session.player.PlayerData.Level = playerLevels.OrderByDescending(x => x.Level).First().Level;
+                NotifyPlayerLevel notifyPlayerLevel = new()
+                {
+                    Level = (int)session.player.PlayerData.Level
+                };
+                session.SendPush(notifyPlayerLevel);
                 session.ExpSanityCheck();
             }
-            else if (level > 0)
+            else if (playerLevels.Any(x => x.Level == level))
             {
+                if (session.player.PlayerData.Level > level)
+                {
+                    session.player.PlayerData.Level = level;
+                    // Waiting for SendChatResponse, pls fix later
+                    Task.Run(() =>
+                    {
+                        // ReconnectPlayerLogout
+                        session.SendPush(new ForceLogoutNotify() { Code = 1030 });
+                        session.DisconnectProtocol();
+                    });
+                    return;
+                }
                 session.player.PlayerData.Level = level;
+                NotifyPlayerLevel notifyPlayerLevel = new()
+                {
+                    Level = (int)session.player.PlayerData.Level
+                };
+                session.SendPush(notifyPlayerLevel);
                 session.ExpSanityCheck();
             }
             else
