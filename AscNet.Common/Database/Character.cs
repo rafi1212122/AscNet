@@ -6,21 +6,27 @@ using AscNet.Table.share.character.skill;
 using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
 using Newtonsoft.Json;
+using AscNet.Table.V2.share.equip;
 
 namespace AscNet.Common.Database
 {
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     public class Character
     {
-        public static readonly List<CharacterLevelUpTemplate> levelUpTemplates;
+        public static readonly List<CharacterLevelUpTemplate> characterLevelUpTemplates;
+        public static readonly List<EquipLevelUpTemplate> equipLevelUpTemplates;
         public static readonly IMongoCollection<Character> collection = Common.db.GetCollection<Character>("characters");
 
         static Character()
         {
             if (File.Exists("Data/CharacterLevelUpTemplate.json"))
-                levelUpTemplates = JsonConvert.DeserializeObject<List<CharacterLevelUpTemplate>>(File.ReadAllText("Data/CharacterLevelUpTemplate.json")) ?? new();
+                characterLevelUpTemplates = JsonConvert.DeserializeObject<List<CharacterLevelUpTemplate>>(File.ReadAllText("Data/CharacterLevelUpTemplate.json")) ?? new();
             else
-                levelUpTemplates = new();
+                characterLevelUpTemplates = new();
+            if (File.Exists("Data/EquipLevelUpTemplate.json"))
+                equipLevelUpTemplates = JsonConvert.DeserializeObject<List<EquipLevelUpTemplate>>(File.ReadAllText("Data/EquipLevelUpTemplate.json")) ?? new();
+            else
+                equipLevelUpTemplates = new();
         }
 
         private uint NextEquipId => Equips.MaxBy(x => x.Id)?.Id + 1 ?? 1;
@@ -102,7 +108,7 @@ namespace AscNet.Common.Database
             if (character is not null && characterData is not null)
             {
                 levelCheck:
-                CharacterLevelUpTemplate? levelUpTemplate = levelUpTemplates.FirstOrDefault(x => x.Level == character.Level && x.Type == characterData.Type);
+                CharacterLevelUpTemplate? levelUpTemplate = characterLevelUpTemplates.FirstOrDefault(x => x.Level == character.Level && x.Type == characterData.Type);
                 if (levelUpTemplate is not null)
                 {
                     if (levelUpTemplate.Exp > exp)
@@ -182,6 +188,39 @@ namespace AscNet.Common.Database
             Equips.Add(equipData);
         }
 
+        public NotifyEquipDataList.NotifyEquipDataListEquipData? AddEquipExp(int equipId, int exp)
+        {
+            var equip = Equips.FirstOrDefault(x => x.Id == equipId);
+            EquipTable? equipData = TableReaderV2.Parse<EquipTable>().FirstOrDefault(x => x.Id == equip?.TemplateId);
+            EquipBreakThroughTable? equipBreakThroughTable = TableReaderV2.Parse<EquipBreakThroughTable>().FirstOrDefault(x => x.EquipId == equip?.TemplateId && x.Times == equip?.Breakthrough);
+
+            if (equip is not null && equipData is not null && equipBreakThroughTable is not null)
+            {
+                EquipLevelUpTemplate? levelUpTemplate = equipLevelUpTemplates.FirstOrDefault(x => x.TemplateId == equipBreakThroughTable.LevelUpTemplateId && x.Level == equip.Level);
+
+                if (levelUpTemplate is not null)
+                {
+                    if (exp + equip.Exp < levelUpTemplate.Exp)
+                    {
+                        equip.Exp += Math.Max(0, exp);
+                    }
+                    else if (equip.Level < equipBreakThroughTable.LevelLimit)
+                    {
+                        equip.Level++;
+                        exp -= levelUpTemplate.Exp - equip.Exp;
+                        equip.Exp = 0;
+                        return AddEquipExp(equipId, exp);
+                    }
+                    else
+                    {
+                        equip.Exp = levelUpTemplate.Exp;
+                    }
+                }
+            }
+
+            return equip;
+        }
+
         public void Save()
         {
             collection.ReplaceOne(Builders<Character>.Filter.Eq(x => x.Id, Id), this);
@@ -227,5 +266,20 @@ namespace AscNet.Common.Database
 
         [JsonProperty("Type")]
         public int Type { get; set; }
+    }
+
+    public partial class EquipLevelUpTemplate
+    {
+        [JsonProperty("Level")]
+        public int Level { get; set; }
+
+        [JsonProperty("Exp")]
+        public int Exp { get; set; }
+
+        [JsonProperty("AllExp")]
+        public int AllExp { get; set; }
+
+        [JsonProperty("TemplateId")]
+        public int TemplateId { get; set; }
     }
 }

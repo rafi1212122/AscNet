@@ -134,7 +134,6 @@ namespace AscNet.GameServer.Handlers
                 BaseEquipLoginData = new(),
                 FubenData = new()
                 {
-                    StageData = session.stage.Stages,
                     FubenBaseData = new()
                 },
                 FubenMainLineData = new(),
@@ -148,6 +147,12 @@ namespace AscNet.GameServer.Handlers
 
 #if DEBUG
             notifyLogin.PlayerData.GuideData = GuideGroupTableReader.Instance.All.Select(x => (long)x.Id).ToList();
+#endif
+
+            NotifyStageData notifyStageData = new()
+            {
+                StageList = session.stage.Stages.Values.ToList()
+            };
 
             StageDatum stageForChat = new()
             {
@@ -166,9 +171,9 @@ namespace AscNet.GameServer.Handlers
                 BestCardIds = new List<long> { 1021001 },
                 LastCardIds = new List<long> { 1021001 }
             };
-            if (!notifyLogin.FubenData.StageData.ContainsKey(stageForChat.StageId))
-                notifyLogin.FubenData.StageData = notifyLogin.FubenData.StageData.Append(new(stageForChat.StageId, stageForChat)).ToDictionary(x => x.Key, x => x.Value);
-#endif
+
+            if (!notifyStageData.StageList.Any(x => x.StageId == stageForChat.StageId))
+                notifyStageData.StageList = notifyStageData.StageList.Append(stageForChat).ToList();
 
             NotifyCharacterDataList notifyCharacterData = new();
             notifyCharacterData.CharacterDataList.AddRange(session.character.Characters);
@@ -203,6 +208,7 @@ namespace AscNet.GameServer.Handlers
             };
 
             session.SendPush(notifyLogin);
+            session.SendPush(notifyStageData);
             session.SendPush(notifyCharacterData);
             session.SendPush(notifyEquipData);
             session.SendPush(notifyAssistData);

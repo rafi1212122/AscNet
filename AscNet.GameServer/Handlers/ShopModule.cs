@@ -23,5 +23,17 @@ namespace AscNet.GameServer.Handlers
 
             session.SendResponse(rsp, packet.Id);
         }
+
+        [RequestPacketHandler("GetShopInfoRequest")]
+        public static void GetShopInfoRequestHandler(Session session, Packet.Request packet)
+        {
+            GetShopInfoResponse rsp = new()
+            {
+                Code = 0,
+                ClientShop = { }
+            };
+
+            session.SendResponse(rsp, packet.Id);
+        }
     }
 }

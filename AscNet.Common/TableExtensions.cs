@@ -21,6 +21,40 @@ namespace AscNet.Common
 
             return 0;
         }
+
+        public static EquipUpgradeInfo GetEquipUpgradeInfo(this ItemTable item)
+        {
+            if (item.ItemType == (int)ItemType.EquipExp && item.SubTypeParams.Count >= 3)
+            {
+                int classify = item.SubTypeParams[0];
+                int exp = item.SubTypeParams[1];
+                int cost = item.SubTypeParams[2];
+
+                return new EquipUpgradeInfo()
+                {
+                    Cost = cost,
+                    Exp = exp
+                };
+            }
+
+            return new EquipUpgradeInfo()
+            {
+                Cost = 0,
+                Exp = 0
+            };
+        }
+
+        public struct EquipUpgradeInfo
+        {
+            public int Cost { get; init; }
+            public int Exp { get; init; }
+
+            public static EquipUpgradeInfo operator *(EquipUpgradeInfo a, int b) => new()
+            {
+                Cost = a.Cost * b,
+                Exp = a.Exp * b
+            };
+        }
     }
 
     enum ItemType
