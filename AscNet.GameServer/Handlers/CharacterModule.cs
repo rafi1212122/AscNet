@@ -16,25 +16,49 @@ namespace AscNet.GameServer.Handlers
         public uint TemplateId;
         public Dictionary<int, int> UseItems;
     }
-    
+
     [MessagePackObject(true)]
     public class CharacterLevelUpResponse
     {
         public int Code;
     }
-    
+
+    [MessagePackObject(true)]
+    public class CharacterActivateStarRequest
+    {
+        public int TemplateId;
+    }
+
+    [MessagePackObject(true)]
+    public class CharacterActivateStarResponse
+    {
+        public int Code;
+    }
+
+    [MessagePackObject(true)]
+    public class CharacterPromoteGradeRequest
+    {
+        public int TemplateId;
+    }
+
+    [MessagePackObject(true)]
+    public class CharacterPromoteGradeResponse
+    {
+        public int Code;
+    }
+
     [MessagePackObject(true)]
     public class CharacterExchangeRequest
     {
         public int TemplateId;
     }
-    
+
     [MessagePackObject(true)]
     public class CharacterExchangeResponse
     {
         public int Code;
     }
-    
+
     [MessagePackObject(true)]
     public class FashionSyncNotify
     {
@@ -45,6 +69,112 @@ namespace AscNet.GameServer.Handlers
 
     internal class CharacterModule
     {
+        [RequestPacketHandler("CharacterLevelUpRequest")]
+        public static void CharacterLevelUpRequestHandler(Session session, Packet.Request packet)
+        {
+            CharacterLevelUpRequest request = packet.Deserialize<CharacterLevelUpRequest>();
+            CharacterTable? characterData = TableReaderV2.Parse<CharacterTable>().FirstOrDefault(x => x.Id == request.TemplateId);
+
+            if (characterData is null || !session.character.Characters.Any(x => x.Id == characterData.Id))
+            {
+                // CharacterManagerGetCharacterTemplateNotFound
+                session.SendResponse(new CharacterLevelUpResponse() { Code = 20009001 }, packet.Id);
+                return;
+            }
+
+            NotifyItemDataList notifyItemData = new();
+            int totalExp = 0;
+            foreach (var item in request.UseItems)
+            {
+                ItemTable? itemTable = TableReaderV2.Parse<ItemTable>().FirstOrDefault(x => x.Id == item.Key);
+                if (itemTable is not null)
+                {
+                    totalExp += itemTable.GetCharacterExp(characterData.Type) * item.Value;
+                    notifyItemData.ItemDataList.Add(session.inventory.Do(item.Key, item.Value * -1));
+                }
+            }
+            session.SendPush(notifyItemData);
+
+            var characterUp = session.character.AddCharacterExp(characterData.Id, totalExp, (int)session.player.PlayerData.Level);
+            if (characterUp is not null)
+            {
+                NotifyCharacterDataList notifyCharacterData = new();
+                notifyCharacterData.CharacterDataList.Add(characterUp);
+                session.SendPush(notifyCharacterData);
+            }
+
+            session.SendResponse(new CharacterLevelUpResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("CharacterPromoteGradeRequest")]
+        public static void CharacterPromoteGradeRequestHandler(Session session, Packet.Request packet)
+        {
+            CharacterPromoteGradeRequest req = packet.Deserialize<CharacterPromoteGradeRequest>();
+            var character = session.character.Characters.Find(c => c.Id == req.TemplateId);
+
+            if (character is not null)
+            {
+                const int MaxGrade = 14; // Can't find an instance of this anywhere in the tables sadly
+
+                // TODO: Remove Cogs
+
+                if (character.Grade < MaxGrade)
+                    character.Grade++;
+                
+                session.SendPush(new NotifyCharacterDataList()
+                {
+                    CharacterDataList = { character }
+                });
+            }
+
+            session.SendResponse(new CharacterPromoteGradeResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("CharacterActivateStarRequest")]
+        public static void CharacterActivateStarRequestHandler(Session session, Packet.Request packet)
+        {
+            CharacterActivateStarRequest req = packet.Deserialize<CharacterActivateStarRequest>();
+            var character = session.character.Characters.Find(c => c.Id == req.TemplateId);
+
+            if (character is not null)
+            {
+                const int MaxQuality = 6; // Can't find an instance of this anywhere in the tables sadly
+
+                // TODO: Remove Materials
+                if (character.Quality < MaxQuality)
+                    character.Quality++;
+
+                session.SendPush(new NotifyCharacterDataList()
+                {
+                    CharacterDataList = { character }
+                });
+            }
+            
+            session.SendResponse(new CharacterActivateStarResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("CharacterUpgradeSkillGroupRequest")]
+        public static void CharacterUpgradeSkillGroupRequestHandler(Session session, Packet.Request packet)
+        {
+            CharacterUpgradeSkillGroupRequest request = packet.Deserialize<CharacterUpgradeSkillGroupRequest>();
+
+            var upgradeResult = session.character.UpgradeCharacterSkillGroup(request.SkillGroupId, request.Count);
+
+            NotifyCharacterDataList notifyCharacterData = new();
+            notifyCharacterData.CharacterDataList.AddRange(session.character.Characters.Where(x => upgradeResult.AffectedCharacters.Contains(x.Id)));
+
+            NotifyItemDataList notifyItemData = new();
+            notifyItemData.ItemDataList.AddRange(new Item[] {
+                session.inventory.Do(Inventory.Coin, upgradeResult.CoinCost * -1),
+                session.inventory.Do(Inventory.SkillPoint, upgradeResult.SkillPointCost * -1)
+            });
+
+            session.SendPush(notifyCharacterData);
+            session.SendPush(notifyItemData);
+
+            session.SendResponse(new CharacterUpgradeSkillGroupResponse(), packet.Id);
+        }
+
         [RequestPacketHandler("CharacterExchangeRequest")]
         public static void CharacterExchangeRequestHandler(Session session, Packet.Request packet)
         {
@@ -100,65 +230,6 @@ namespace AscNet.GameServer.Handlers
             }
 
             session.SendResponse(new CharacterExchangeResponse(), packet.Id);
-        }
-
-        [RequestPacketHandler("CharacterUpgradeSkillGroupRequest")]
-        public static void CharacterUpgradeSkillGroupRequestHandler(Session session, Packet.Request packet)
-        {
-            CharacterUpgradeSkillGroupRequest request = packet.Deserialize<CharacterUpgradeSkillGroupRequest>();
-
-            var upgradeResult = session.character.UpgradeCharacterSkillGroup(request.SkillGroupId, request.Count);
-
-            NotifyCharacterDataList notifyCharacterData = new();
-            notifyCharacterData.CharacterDataList.AddRange(session.character.Characters.Where(x => upgradeResult.AffectedCharacters.Contains(x.Id)));
-
-            NotifyItemDataList notifyItemData = new();
-            notifyItemData.ItemDataList.AddRange(new Item[] { 
-                session.inventory.Do(Inventory.Coin, upgradeResult.CoinCost * -1), 
-                session.inventory.Do(Inventory.SkillPoint, upgradeResult.SkillPointCost * -1) 
-            });
-
-            session.SendPush(notifyCharacterData);
-            session.SendPush(notifyItemData);
-
-            session.SendResponse(new CharacterUpgradeSkillGroupResponse(), packet.Id);
-        }
-
-        [RequestPacketHandler("CharacterLevelUpRequest")]
-        public static void CharacterLevelUpRequestHandler(Session session, Packet.Request packet)
-        {
-            CharacterLevelUpRequest request = packet.Deserialize<CharacterLevelUpRequest>();
-            CharacterTable? characterData = TableReaderV2.Parse<CharacterTable>().FirstOrDefault(x => x.Id == request.TemplateId);
-
-            if (characterData is null || !session.character.Characters.Any(x => x.Id == characterData.Id))
-            {
-                // CharacterManagerGetCharacterTemplateNotFound
-                session.SendResponse(new CharacterLevelUpResponse() { Code = 20009001 }, packet.Id);
-                return;
-            }
-
-            NotifyItemDataList notifyItemData = new();
-            int totalExp = 0;
-            foreach (var item in request.UseItems)
-            {
-                ItemTable? itemTable = TableReaderV2.Parse<ItemTable>().FirstOrDefault(x => x.Id == item.Key);
-                if (itemTable is not null)
-                {
-                    totalExp += itemTable.GetCharacterExp(characterData.Type) * item.Value;
-                    notifyItemData.ItemDataList.Add(session.inventory.Do(item.Key, item.Value * -1));
-                }
-            }
-            session.SendPush(notifyItemData);
-
-            var characterUp = session.character.AddCharacterExp(characterData.Id, totalExp, (int)session.player.PlayerData.Level);
-            if (characterUp is not null)
-            {
-                NotifyCharacterDataList notifyCharacterData = new();
-                notifyCharacterData.CharacterDataList.Add(characterUp);
-                session.SendPush(notifyCharacterData);
-            }
-
-            session.SendResponse(new CharacterLevelUpResponse(), packet.Id);
         }
     }
 }
