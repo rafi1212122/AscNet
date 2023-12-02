@@ -58,14 +58,19 @@ namespace AscNet.GameServer.Commands
     public class ArgumentAttribute : Attribute
     {
         public int Position { get; }
-        public Regex Pattern { get; }
+        public Regex Pattern { get; set; }
         public string? Description { get; }
         public ArgumentFlags Flags { get; }
 
         public ArgumentAttribute(int position, string pattern, string? description = null, ArgumentFlags flags = ArgumentFlags.None)
         {
             Position = position;
-            Pattern = new(pattern);
+
+            if ((flags & ArgumentFlags.IgnoreCase) != ArgumentFlags.IgnoreCase)
+                Pattern = new(pattern);
+            else
+                Pattern = new(pattern, RegexOptions.IgnoreCase);
+
             Description = description;
             Flags = flags;
         }
@@ -74,7 +79,8 @@ namespace AscNet.GameServer.Commands
     public enum ArgumentFlags
     {
         None = 0,
-        Optional = 1
+        Optional = 1,
+        IgnoreCase = 2
     }
 
     [AttributeUsage(AttributeTargets.Class)]
