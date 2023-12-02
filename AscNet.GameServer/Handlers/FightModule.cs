@@ -270,6 +270,20 @@ namespace AscNet.GameServer.Handlers
             session.SendPush(notifyItemData);
             session.ExpSanityCheck();
 
+            if (stageTable.CardExp > 0)
+            {
+                Dictionary<int, long> team = session.player.TeamGroups[(int)session.player.PlayerData.CurrTeamId].TeamData;
+                NotifyCharacterDataList charData = new();
+                
+                foreach (KeyValuePair<int, long> member in team)
+                {
+                    session.character.AddCharacterExp((int)member.Value, stageTable.CardExp ?? 0);
+                    charData.CharacterDataList.Add(session.character.Characters.Find(c => c.Id == member.Value));
+                }
+                
+                session.SendPush(charData);
+            }
+
             StageDatum stageData = new()
             {
                 StageId = req.Result.StageId,
