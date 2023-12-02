@@ -2351,7 +2351,7 @@ namespace AscNet.Common.MsgPack
         {
             public Int32 TeamId { get; set; }
             public Int32 CaptainPos { get; set; }
-            public Dictionary<dynamic, dynamic> TeamData { get; set; }
+            public Dictionary<int, long> TeamData { get; set; }
             public Int32 FirstFightPos { get; set; }
             public String TeamName { get; set; }
         }

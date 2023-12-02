@@ -33,7 +33,7 @@ namespace AscNet.GameServer.Handlers
 
     [MessagePackObject(true)]
     public class Operation
-    {       
+    {
         public bool? MoveOperated { get; set; }
         public int MoveOperation { get; set; }
         public int CameraRotationX { get; set; }
@@ -119,7 +119,7 @@ namespace AscNet.GameServer.Handlers
         public dynamic? EpisodeFightResults { get; set; }
         public dynamic? CustomData { get; set; }
     }
-    
+
     [MessagePackObject(true)]
     public class FightSettleRequest
     {
@@ -191,6 +191,18 @@ namespace AscNet.GameServer.Handlers
         [RequestPacketHandler("TeamSetTeamRequest")]
         public static void HandleTeamSetTeamRequestHandler(Session session, Packet.Request packet)
         {
+            TeamSetTeamRequest req = MessagePackSerializer.Deserialize<TeamSetTeamRequest>(packet.Content);
+
+            session.player.TeamGroups[(int)session.player.PlayerData.CurrTeamId] = new()
+            {
+                CaptainPos = req.TeamData.CaptainPos,
+                FirstFightPos = req.TeamData.FirstFightPos,
+                TeamId = req.TeamData.TeamId,
+                TeamType = 1,
+                TeamName = req.TeamData.TeamName,
+                TeamData = req.TeamData.TeamData
+            };
+
             session.SendResponse(new TeamSetTeamResponse(), packet.Id);
         }
 
