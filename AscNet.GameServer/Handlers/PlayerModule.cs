@@ -34,6 +34,48 @@ namespace AscNet.GameServer.Handlers
     {
         public long Id;
     }
+
+    [MessagePackObject(true)]
+    public class ChangePlayerBirthdayRequest : Birthday
+    {
+    }
+
+    [MessagePackObject(true)]
+    public class ChangePlayerBirthdayResponse
+    {
+        public int Code;
+    }
+
+    [MessagePackObject(true)]
+    public class ChangePlayerSignRequest
+    {
+        public string Msg;
+    }
+
+    [MessagePackObject(true)]
+    public class ChangePlayerSignResponse
+    {
+        public int Code;
+    }
+
+    [MessagePackObject(true)]
+    public class NotifyPlayerName
+    {
+        public string Name;
+    }
+
+    [MessagePackObject(true)]
+    public class ChangePlayerNameRequest
+    {
+        public string Name;
+    }
+
+    [MessagePackObject(true)]
+    public class ChangePlayerNameResponse
+    {
+        public int Code;
+        public long NextCanChangeTime;
+    }
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     #endregion
 
@@ -69,6 +111,35 @@ namespace AscNet.GameServer.Handlers
             TouchBoardMutualRequest request = MessagePackSerializer.Deserialize<TouchBoardMutualRequest>(packet.Content);
 
             session.SendResponse(new TouchBoardMutualResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("ChangePlayerNameRequest")]
+        public static void ChangePlayerNameRequestHandler(Session session, Packet.Request packet)
+        {
+            ChangePlayerNameRequest request = MessagePackSerializer.Deserialize<ChangePlayerNameRequest>(packet.Content);
+            session.player.PlayerData.Name = request.Name;
+
+            NotifyPlayerName notifyPlayerName = new() { Name = session.player.PlayerData.Name };
+            session.SendPush(notifyPlayerName);
+            session.SendResponse(new ChangePlayerNameResponse() { NextCanChangeTime = DateTimeOffset.Now.ToUnixTimeSeconds() }, packet.Id);
+        }
+
+        [RequestPacketHandler("ChangePlayerSignRequest")]
+        public static void ChangePlayerSignRequestHandler(Session session, Packet.Request packet)
+        {
+            ChangePlayerSignRequest request = MessagePackSerializer.Deserialize<ChangePlayerSignRequest>(packet.Content);
+            session.player.PlayerData.Sign = request.Msg;
+
+            session.SendResponse(new ChangePlayerSignResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("ChangePlayerBirthdayRequest")]
+        public static void ChangePlayerBirthdayRequestHandler(Session session, Packet.Request packet)
+        {
+            ChangePlayerBirthdayRequest request = MessagePackSerializer.Deserialize<ChangePlayerBirthdayRequest>(packet.Content);
+            session.player.PlayerData.Birthday = request;
+
+            session.SendResponse(new ChangePlayerBirthdayResponse(), packet.Id);
         }
     }
 }
