@@ -11,7 +11,7 @@ namespace AscNet.GameServer.Commands
 
         public override string Help => "Command to interact with user's items";
 
-        [Argument(0, @"^add$|^clear$|^reset$", "The operation selected (add, clear, reset)")]
+        [Argument(0, @"^add$|^clear$|^reset$", "The operation selected (add, clear, reset)", ArgumentFlags.IgnoreCase)]
         string Op { get; set; } = string.Empty;
 
         [Argument(1, @"^[0-9]+$|^all$", "The target item, value is item id or 'all'", ArgumentFlags.Optional)]
@@ -22,7 +22,7 @@ namespace AscNet.GameServer.Commands
 
         public override void Execute()
         {
-            switch (Op)
+            switch (Op.ToLower())
             {
                 case "add":
                     if (Target == "all")
