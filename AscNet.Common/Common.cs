@@ -58,4 +58,14 @@ namespace AscNet.Common
             }
         }
     }
+    public class ServerCodeException : Exception
+    {
+        public int Code { get; set; }
+
+        public ServerCodeException(string message, int code)
+            : base(message)
+        {
+            Code = code;
+        }
+    }
 }

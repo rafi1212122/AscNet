@@ -19,6 +19,17 @@ namespace AscNet.GameServer.Handlers
     }
 
     [MessagePackObject(true)]
+    public class TouchBoardMutualRequest
+    {
+        public int CharacterId;
+    }
+
+    [MessagePackObject(true)]
+    public class TouchBoardMutualResponse
+    {
+    }
+
+    [MessagePackObject(true)]
     public class ChangeCommunicationRequest
     {
         public long Id;
@@ -50,6 +61,14 @@ namespace AscNet.GameServer.Handlers
             session.player.PlayerData.Communications.Add(request.Id);
 
             session.SendResponse(new ChangeCommunicationResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("TouchBoardMutualRequest")]
+        public static void TouchBoardMutualRequestHandler(Session session, Packet.Request packet)
+        {
+            TouchBoardMutualRequest request = MessagePackSerializer.Deserialize<TouchBoardMutualRequest>(packet.Content);
+
+            session.SendResponse(new TouchBoardMutualResponse(), packet.Id);
         }
     }
 }

@@ -56,7 +56,11 @@ namespace AscNet.SDKServer
                 }
                 catch (Exception ex)
                 {
+#if DEBUG
+                    log.Error($"{ex} Request below:");
+#else
                     log.Error($"{ex.Message} Request below:");
+#endif
                 }
                 finally
                 {

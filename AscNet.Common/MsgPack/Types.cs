@@ -32,7 +32,7 @@ namespace AscNet.Common.MsgPack
         public String ServerBean { get; set; }
         public Int32 LoginPlatform { get; set; }
         public String ClientVersion { get; set; }
-        public Int32 UserId { get; set; }
+        public dynamic UserId { get; set; }
     }
 
 
@@ -2357,6 +2357,13 @@ namespace AscNet.Common.MsgPack
         }
 
         public TeamSetTeamRequestTeamData TeamData { get; set; }
+    }
+
+
+    [global::MessagePack.MessagePackObject(true)]
+    public class EnterChallengeResponse
+    {
+        public Int32 Code { get; set; }
     }
 
 

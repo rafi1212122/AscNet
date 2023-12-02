@@ -7,6 +7,7 @@ using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
 using Newtonsoft.Json;
 using AscNet.Table.V2.share.equip;
+using AscNet.Table.V2.share.character.quality;
 
 namespace AscNet.Common.Database
 {
@@ -53,23 +54,36 @@ namespace AscNet.Common.Database
             return character;
         }
 
-        public void AddCharacter(uint id)
+        /// <summary>
+        /// Don't forget to send Equip, Fashion, and the Character notify after using this!
+        /// </summary>
+        /// <param name="id"></param>
+        /// <exception cref="ServerCodeException"></exception>
+        public AddCharacterRet AddCharacter(uint id)
         {
+            AddCharacterRet ret = new();
             CharacterTable? character = CharacterTableReader.Instance.FromId((int)id);
             CharacterSkillTable? characterSkill = CharacterSkillTableReader.Instance.FromCharacterId((int)id);
+            CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == id);
             
-            if (character is null || characterSkill is null)
-                throw new ArgumentException("Invalid character id!", nameof(id));
+            if (character is null || characterSkill is null || characterQuality is null)
+            {
+                // CharacterManagerGetCharacterDataNotFound
+                throw new ServerCodeException("Invalid character id!", 20009021);
+            }
             if (Characters.FirstOrDefault(x => x.Id == character.Id) is not null)
-                throw new ArgumentException("Character already obtained!", nameof(id));
+            {
+                // CharacterManagerCreateCharacterAlreadyExist
+                throw new ServerCodeException("Character already obtained!", 20009022);
+            }
             
             NotifyCharacterDataList.NotifyCharacterDataListCharacterData characterData = new()
             {
                 Id = (uint)character.Id,
                 Level = 1,
                 Exp = 0,
-                Quality = 1,
-                InitQuality = 1,
+                Quality = characterQuality.Quality,
+                InitQuality = characterQuality.Quality,
                 Star = 0,
                 Grade = 1,
                 FashionId = (uint)character.DefaultNpcFashtionId,
@@ -89,15 +103,19 @@ namespace AscNet.Common.Database
                 Id = uint.Parse(x.ToString().Take(6).ToArray()),
                 Level = 1
             }));
-            Fashions.Add(new()
+            FashionList fashion = new()
             {
                 Id = character.DefaultNpcFashtionId,
                 IsLock = false
-            });
+            };
+            Fashions.Add(fashion);
+            ret.Fashion = fashion;
             if (character.EquipId > 0)
-                AddEquip((uint)character.EquipId, character.Id);
+                ret.Equip = AddEquip((uint)character.EquipId, character.Id);
 
             Characters.Add(characterData);
+            ret.Character = characterData;
+            return ret;
         }
 
         public NotifyCharacterDataList.NotifyCharacterDataListCharacterData? AddCharacterExp(int characterId, int exp, int maxLvl = 0)
@@ -167,7 +185,7 @@ namespace AscNet.Common.Database
             };
         }
 
-        public void AddEquip(uint equipId, int characterId = 0)
+        public NotifyEquipDataList.NotifyEquipDataListEquipData AddEquip(uint equipId, int characterId = 0)
         {
             NotifyEquipDataList.NotifyEquipDataListEquipData equipData = new()
             {
@@ -186,6 +204,7 @@ namespace AscNet.Common.Database
             };
             
             Equips.Add(equipData);
+            return equipData;
         }
 
         public NotifyEquipDataList.NotifyEquipDataListEquipData? AddEquipExp(int equipId, int exp)
@@ -281,5 +300,12 @@ namespace AscNet.Common.Database
 
         [JsonProperty("TemplateId")]
         public int TemplateId { get; set; }
+    }
+
+    public struct AddCharacterRet
+    {
+        public NotifyCharacterDataList.NotifyCharacterDataListCharacterData Character { get; set; }
+        public NotifyEquipDataList.NotifyEquipDataListEquipData Equip { get; set; }
+        public FashionList Fashion { get; set; }
     }
 }

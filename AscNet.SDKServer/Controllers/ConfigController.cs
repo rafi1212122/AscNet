@@ -16,7 +16,7 @@ namespace AscNet.SDKServer.Controllers
 
         public static void Register(WebApplication app)
         {
-            app.MapGet("/prod/client/config/com.kurogame.punishing.grayraven.en.pc/{version}/standalone/config.tab", (HttpContext ctx) =>
+            app.MapGet("/prod/client/config/{package}/{version}/standalone/config.tab", (HttpContext ctx) =>
             {
                 List<RemoteConfig> remoteConfigs = new();
                 ServerVersionConfig versionConfig = versions.GetValueOrDefault((string)ctx.Request.RouteValues["version"]!) ?? versions.First().Value;
@@ -27,11 +27,21 @@ namespace AscNet.SDKServer.Controllers
                 remoteConfigs.AddConfig("ApplicationVersion", (string)ctx.Request.RouteValues["version"]!);
                 remoteConfigs.AddConfig("Debug", true);
                 remoteConfigs.AddConfig("External", true);
-                remoteConfigs.AddConfig("Channel", 1);
                 remoteConfigs.AddConfig("PayCallbackUrl", "empty");
-                remoteConfigs.AddConfig("PrimaryCdns", "http://prod-encdn-akamai.kurogame.net/prod|http://prod-encdn-aliyun.kurogame.net/prod");
-                remoteConfigs.AddConfig("SecondaryCdns", "http://prod-encdn-aliyun.kurogame.net/prod");
-                remoteConfigs.AddConfig("CdnInvalidTime", 600);
+                switch ((string?)ctx.Request.RouteValues["package"])
+                {
+                    case "com.kurogame.haru.kuro":
+                        remoteConfigs.AddConfig("PrimaryCdns", "http://prod-zspnsalicdn.kurogame.com/prod");
+                        remoteConfigs.AddConfig("SecondaryCdns", "http://prod-zspnstxcdn.kurogame.com/prod");
+                        remoteConfigs.AddConfig("Channel", 2);
+                        break;
+                    default:
+                        remoteConfigs.AddConfig("PrimaryCdns", "http://prod-encdn-akamai.kurogame.net/prod|http://prod-encdn-aliyun.kurogame.net/prod");
+                        remoteConfigs.AddConfig("SecondaryCdns", "http://prod-encdn-aliyun.kurogame.net/prod");
+                        remoteConfigs.AddConfig("Channel", 1);
+                        break;
+                }
+                remoteConfigs.AddConfig("CdnInvalidTime", 60);
                 remoteConfigs.AddConfig("MtpEnabled", false);
                 remoteConfigs.AddConfig("MemoryLimit", 2048);
                 remoteConfigs.AddConfig("CloseMsgEncrypt", false);
@@ -44,12 +54,16 @@ namespace AscNet.SDKServer.Controllers
                 remoteConfigs.AddConfig("DownloadMethod", 1);
                 remoteConfigs.AddConfig("PcPayCallbackList", $"{Common.Common.config.GameServer.Host}/api/XPay/KuroPayResult");
 
+                // 2.9.0
+                remoteConfigs.AddConfig("WatermarkType", 2);
+                remoteConfigs.AddConfig("ChannelServerListStr", $"1#{Common.Common.config.GameServer.RegionName}#{Common.Common.config.GameServer.Host}/api/Login/Login");
+
                 string serializedObject = TsvTool.SerializeObject(remoteConfigs);
                 SDKServer.log.Info(serializedObject);
                 return serializedObject;
             });
 
-            app.MapGet("/prod/client/notice/config/com.kurogame.punishing.grayraven.en.pc/{version}/LoginNotice.json", (HttpContext ctx) =>
+            app.MapGet("/prod/client/notice/config/{package}/{version}/LoginNotice.json", (HttpContext ctx) =>
             {
                 LoginNotice notice = new()
                 {
@@ -66,7 +80,7 @@ namespace AscNet.SDKServer.Controllers
                 return serializedObject;
             });
 
-            app.MapGet("/prod/client/notice/config/com.kurogame.punishing.grayraven.en.pc/{version}/ScrollTextNotice.json", (HttpContext ctx) =>
+            app.MapGet("/prod/client/notice/config/{package}/{version}/ScrollTextNotice.json", (HttpContext ctx) =>
             {
                 ScrollTextNotice notice = new()
                 {
@@ -86,7 +100,7 @@ namespace AscNet.SDKServer.Controllers
                 return serializedObject;
             });
 
-            app.MapGet("/prod/client/notice/config/com.kurogame.punishing.grayraven.en.pc/{version}/ScrollPicNotice.json", (HttpContext ctx) =>
+            app.MapGet("/prod/client/notice/config/{package}/{version}/ScrollPicNotice.json", (HttpContext ctx) =>
             {
                 ScrollPicNotice notice = new()
                 {
@@ -117,7 +131,7 @@ namespace AscNet.SDKServer.Controllers
                 return serializedObject;
             });
 
-            app.MapGet("/prod/client/notice/config/com.kurogame.punishing.grayraven.en.pc/{version}/GameNotice.json", (HttpContext ctx) =>
+            app.MapGet("/prod/client/notice/config/{package}/{version}/GameNotice.json", (HttpContext ctx) =>
             {
                 List<GameNotice> notices = new();
 

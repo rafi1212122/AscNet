@@ -108,7 +108,7 @@ namespace AscNet.SDKServer.Controllers
                 });
             });
 
-            app.MapGet("/api/Login/Login", ([FromQuery] int loginType, [FromQuery] int userId, [FromQuery] string token, [FromQuery] string clientIp) =>
+            app.MapGet("/api/Login/Login", ([FromQuery] int loginType, [FromQuery] int userId, [FromQuery] string token, [FromQuery] string? clientIp) =>
             {
                 Account? account = Account.FromToken(token);
 

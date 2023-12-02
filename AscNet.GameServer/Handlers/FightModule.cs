@@ -194,6 +194,12 @@ namespace AscNet.GameServer.Handlers
             session.SendResponse(new TeamSetTeamResponse(), packet.Id);
         }
 
+        [RequestPacketHandler("EnterChallengeRequest")]
+        public static void HandleEnterChallengeRequestHandler(Session session, Packet.Request packet)
+        {
+            session.SendResponse(new EnterChallengeResponse(), packet.Id);
+        }
+
         [RequestPacketHandler("FightSettleRequest")]
         public static void FightSettleRequestHandler(Session session, Packet.Request packet)
         {
