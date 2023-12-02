@@ -89,6 +89,7 @@ namespace AscNet.GameServer.Handlers
                 fashionSync.FashionList.Add(addRet.Fashion);
                 notifyCharacterData.CharacterDataList.Add(addRet.Character);
                 session.SendPush(notifyEquipData);
+                session.SendPush(fashionSync);
                 session.SendPush(notifyCharacterData);
             }
             catch (ServerCodeException ex)
