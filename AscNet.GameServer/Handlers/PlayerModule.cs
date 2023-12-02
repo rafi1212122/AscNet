@@ -76,6 +76,59 @@ namespace AscNet.GameServer.Handlers
         public int Code;
         public long NextCanChangeTime;
     }
+
+    [MessagePackObject(true)]
+    public class RemovePlayerDisplayCharIdRequest
+    {
+        public long CharId;
+    }
+
+    [MessagePackObject(true)]
+    public class RemovePlayerDisplayCharIdResponse
+    {
+        public int Code;
+        public List<long> DisplayCharIdList;
+    }
+
+    [MessagePackObject(true)]
+    public class AddPlayerDisplayCharIdRequest
+    {
+        public long CharId;
+    }
+
+    [MessagePackObject(true)]
+    public class AddPlayerDisplayCharIdResponse
+    {
+        public int Code;
+        public List<long> DisplayCharIdList;
+    }
+
+    [MessagePackObject(true)]
+    public class UpdatePlayerDisplayCharIdRequest
+    {
+        public long NewCharId;
+        public long OldCharId;
+    }
+
+    [MessagePackObject(true)]
+    public class UpdatePlayerDisplayCharIdResponse
+    {
+        public int Code;
+        public List<long> DisplayCharIdList;
+    }
+
+    [MessagePackObject(true)]
+    public class SetDisplayCharIdFirstRequest
+    {
+        public long CharId;
+    }
+
+    [MessagePackObject(true)]
+    public class SetDisplayCharIdFirstResponse
+    {
+        public int Code;
+        public List<long> DisplayCharIdList;
+    }
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     #endregion
 
@@ -140,6 +193,46 @@ namespace AscNet.GameServer.Handlers
             session.player.PlayerData.Birthday = request;
 
             session.SendResponse(new ChangePlayerBirthdayResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("UpdatePlayerDisplayCharIdRequest")]
+        public static void UpdatePlayerDisplayCharIdRequestHandler(Session session, Packet.Request packet)
+        {
+            UpdatePlayerDisplayCharIdRequest request = MessagePackSerializer.Deserialize<UpdatePlayerDisplayCharIdRequest>(packet.Content);
+            if (session.player.PlayerData.DisplayCharIdList.Contains(request.OldCharId))
+            {
+                session.player.PlayerData.DisplayCharIdList[session.player.PlayerData.DisplayCharIdList.IndexOf(request.OldCharId)] = request.NewCharId;
+            }
+
+            session.SendResponse(new UpdatePlayerDisplayCharIdResponse() { DisplayCharIdList = session.player.PlayerData.DisplayCharIdList }, packet.Id);
+        }
+
+        [RequestPacketHandler("AddPlayerDisplayCharIdRequest")]
+        public static void AddPlayerDisplayCharIdRequestHandler(Session session, Packet.Request packet)
+        {
+            AddPlayerDisplayCharIdRequest request = MessagePackSerializer.Deserialize<AddPlayerDisplayCharIdRequest>(packet.Content);
+            session.player.PlayerData.DisplayCharIdList.Add(request.CharId);
+
+            session.SendResponse(new AddPlayerDisplayCharIdResponse() { DisplayCharIdList = session.player.PlayerData.DisplayCharIdList }, packet.Id);
+        }
+
+        [RequestPacketHandler("RemovePlayerDisplayCharIdRequest")]
+        public static void RemovePlayerDisplayCharIdRequestHandler(Session session, Packet.Request packet)
+        {
+            RemovePlayerDisplayCharIdRequest request = MessagePackSerializer.Deserialize<RemovePlayerDisplayCharIdRequest>(packet.Content);
+            session.player.PlayerData.DisplayCharIdList.Remove(request.CharId);
+
+            session.SendResponse(new RemovePlayerDisplayCharIdResponse() { DisplayCharIdList = session.player.PlayerData.DisplayCharIdList }, packet.Id);
+        }
+
+        [RequestPacketHandler("SetDisplayCharIdFirstRequest")]
+        public static void SetDisplayCharIdFirstRequestHandler(Session session, Packet.Request packet)
+        {
+            SetDisplayCharIdFirstRequest request = MessagePackSerializer.Deserialize<SetDisplayCharIdFirstRequest>(packet.Content);
+            session.player.PlayerData.DisplayCharIdList.Remove(request.CharId);
+            session.player.PlayerData.DisplayCharIdList.Insert(0, request.CharId);
+
+            session.SendResponse(new SetDisplayCharIdFirstResponse() { DisplayCharIdList = session.player.PlayerData.DisplayCharIdList }, packet.Id);
         }
     }
 }

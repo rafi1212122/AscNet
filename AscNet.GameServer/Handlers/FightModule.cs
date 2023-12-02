@@ -277,8 +277,12 @@ namespace AscNet.GameServer.Handlers
                 
                 foreach (KeyValuePair<int, long> member in team)
                 {
-                    session.character.AddCharacterExp((int)member.Value, stageTable.CardExp ?? 0);
-                    charData.CharacterDataList.Add(session.character.Characters.Find(c => c.Id == member.Value));
+                    if (member.Value > 0)
+                    {
+                        var character = session.character.AddCharacterExp((int)member.Value, stageTable.CardExp ?? 0, (int)session.player.PlayerData.Level);
+                        if (character is not null)
+                            charData.CharacterDataList.Add(character);
+                    }
                 }
                 
                 session.SendPush(charData);
