@@ -10,6 +10,19 @@ namespace AscNet.GameServer.Handlers
     #region MsgPackScheme
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     [MessagePackObject(true)]
+    public class EquipUpdateLockRequest
+    {
+        public int EquipId;
+        public bool IsLock;
+    }
+
+    [MessagePackObject(true)]
+    public class EquipUpdateLockResponse
+    {
+        public int Code;
+    }
+
+    [MessagePackObject(true)]
     public class EquipLevelUpRequest
     {
         public int EquipId;
@@ -69,6 +82,25 @@ namespace AscNet.GameServer.Handlers
             }
 
             session.SendResponse(rsp, packet.Id);
+        }
+
+        [RequestPacketHandler("EquipUpdateLockRequest")]
+        public static void EquipUpdateLockRequestHandler(Session session, Packet.Request packet)
+        {
+            EquipUpdateLockRequest request = packet.Deserialize<EquipUpdateLockRequest>();
+            var response = new EquipUpdateLockResponse();
+            var equip = session.character.Equips.Find(x => x.Id == request.EquipId);
+            if (equip is null)
+            {
+                // EquipManagerGetCharEquipBySiteNotFound
+                response.Code = 20021012;
+            }
+            else
+            {
+                equip.IsLock = request.IsLock;
+            }
+
+            session.SendResponse(response, packet.Id);
         }
     }
 }
