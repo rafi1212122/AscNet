@@ -23,6 +23,20 @@ namespace AscNet.GameServer.Handlers
     }
 
     [MessagePackObject(true)]
+    public class EquipPutOnRequest
+    {
+        public int CharacterId;
+        public int EquipId;
+        public int Site;
+    }
+
+    [MessagePackObject(true)]
+    public class EquipPutOnResponse
+    {
+        public int Code;
+    }
+
+    [MessagePackObject(true)]
     public class EquipLevelUpRequest
     {
         public int EquipId;
@@ -101,6 +115,33 @@ namespace AscNet.GameServer.Handlers
             }
 
             session.SendResponse(response, packet.Id);
+        }
+
+        [RequestPacketHandler("EquipPutOnRequest")]
+        public static void EquipPutOnRequestHandler(Session session, Packet.Request packet)
+        {
+            EquipPutOnRequest request = packet.Deserialize<EquipPutOnRequest>();
+            var prevEquip = session.character.Equips.Find(x => x.CharacterId == request.CharacterId);
+            var toEquip = session.character.Equips.Find(x => x.Id == request.EquipId);
+            if (prevEquip is not null && toEquip is not null)
+            {
+                prevEquip.CharacterId = 0;
+                toEquip.CharacterId = request.CharacterId;
+            }
+            else
+            {
+                // EquipManagerGetCharEquipBySiteNotFound
+                session.SendResponse(new EquipPutOnResponse() { Code = 20021012 }, packet.Id);
+                return;
+            }
+
+            NotifyEquipDataList notifyEquipData = new()
+            {
+                EquipDataList = { prevEquip, toEquip }
+            };
+            session.SendPush(notifyEquipData);
+
+            session.SendResponse(new EquipPutOnResponse(), packet.Id);
         }
     }
 }
