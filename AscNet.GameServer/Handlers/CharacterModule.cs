@@ -3,6 +3,7 @@ using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
 using AscNet.Table.V2.share.item;
 using AscNet.Table.V2.share.character;
+using AscNet.Table.V2.share.character.grade;
 using MessagePack;
 using AscNet.Common;
 
@@ -111,15 +112,25 @@ namespace AscNet.GameServer.Handlers
         {
             CharacterPromoteGradeRequest req = packet.Deserialize<CharacterPromoteGradeRequest>();
             var character = session.character.Characters.Find(c => c.Id == req.TemplateId);
+            var currentGrade = TableReaderV2.Parse<CharacterGradeTable>().Find(x => x.CharacterId == req.TemplateId && x.Grade == character?.Grade);
 
-            if (character is not null)
+            if (character is not null && currentGrade is not null)
             {
-                const int MaxGrade = 14; // Can't find an instance of this anywhere in the tables sadly
+                var nextGrade = TableReaderV2.Parse<CharacterGradeTable>().Where(x => x.CharacterId == req.TemplateId && x.Grade > character.Grade).OrderBy(x => x.Grade).FirstOrDefault()?.Grade ?? character.Grade;
+                if (character.Grade == nextGrade)
+                {
+                    // CharacterManagerMaxGrade
+                    session.SendResponse(new CharacterPromoteGradeResponse() { Code = 20009019 }, packet.Id);
+                    return;
+                }
+                if (currentGrade.UseItemKey is not null)
+                {
+                    NotifyItemDataList notifyItemData = new();
+                    notifyItemData.ItemDataList.Add(session.inventory.Do(currentGrade.UseItemKey ?? 1, (currentGrade.UseItemCount ?? 0) * -1));
+                    session.SendPush(notifyItemData);
+                }
 
-                // TODO: Remove Cogs
-
-                if (character.Grade < MaxGrade)
-                    character.Grade++;
+                character.Grade = nextGrade;
                 
                 session.SendPush(new NotifyCharacterDataList()
                 {
