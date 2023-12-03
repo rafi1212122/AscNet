@@ -32,6 +32,12 @@ namespace AscNet.GameServer.Handlers
     }
 
     [MessagePackObject(true)]
+    public class CharacterPromoteQualityResponse
+    {
+        public int Code;
+    }
+
+    [MessagePackObject(true)]
     public class CharacterActivateStarRequest
     {
         public int TemplateId;
@@ -187,7 +193,7 @@ namespace AscNet.GameServer.Handlers
                 else
                 {
                     // CharacterManagerActivateStarMaxStar
-                    throw new ServerCodeException("Character quality already maxed!", 20009015);
+                    throw new ServerCodeException("Character star already maxed!", 20009015);
                 }
             }
             catch (ServerCodeException ex)
@@ -250,7 +256,7 @@ namespace AscNet.GameServer.Handlers
             }
             catch (ServerCodeException ex)
             {
-                session.SendResponse(new CharacterActivateStarResponse() { Code = ex.Code }, packet.Id);
+                session.SendResponse(new CharacterPromoteQualityResponse() { Code = ex.Code }, packet.Id);
                 return;
             }
 
@@ -259,7 +265,7 @@ namespace AscNet.GameServer.Handlers
                 CharacterDataList = { character }
             });
 
-            session.SendResponse(new CharacterActivateStarResponse(), packet.Id);
+            session.SendResponse(new CharacterPromoteQualityResponse(), packet.Id);
         }
 
         [RequestPacketHandler("CharacterUpgradeSkillGroupRequest")]
