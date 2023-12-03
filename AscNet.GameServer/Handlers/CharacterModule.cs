@@ -6,6 +6,7 @@ using AscNet.Table.V2.share.character;
 using AscNet.Table.V2.share.character.grade;
 using MessagePack;
 using AscNet.Common;
+using AscNet.Table.V2.share.character.quality;
 
 namespace AscNet.GameServer.Handlers
 {
@@ -22,6 +23,12 @@ namespace AscNet.GameServer.Handlers
     public class CharacterLevelUpResponse
     {
         public int Code;
+    }
+
+    [MessagePackObject(true)]
+    public class CharacterPromoteQualityRequest
+    {
+        public int TemplateId;
     }
 
     [MessagePackObject(true)]
@@ -146,21 +153,112 @@ namespace AscNet.GameServer.Handlers
         {
             CharacterActivateStarRequest req = packet.Deserialize<CharacterActivateStarRequest>();
             var character = session.character.Characters.Find(c => c.Id == req.TemplateId);
+            var characterData = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == req.TemplateId);
+            var characterQualityFragment = TableReaderV2.Parse<CharacterQualityFragmentTable>().Find(x => x.Type == characterData?.Type && x.Quality == character?.Quality);
 
-            if (character is not null)
+            try
             {
-                const int MaxQuality = 6; // Can't find an instance of this anywhere in the tables sadly
-
-                // TODO: Remove Materials
-                if (character.Quality < MaxQuality)
-                    character.Quality++;
-
-                session.SendPush(new NotifyCharacterDataList()
+                if (character is null)
                 {
-                    CharacterDataList = { character }
-                });
+                    // CharacterManagerGetCharacterByIdNotFound
+                    throw new ServerCodeException("Character data not found!", 20009011);
+                }
+                if (characterData is null)
+                {
+                    // CharacterManagerGetCharacterDataNotFound
+                    throw new ServerCodeException("Character table data not found!", 20009021);
+                }
+                if (characterQualityFragment is null)
+                {
+                    // CharacterManagerGetQualityFragmentTemplateNotFound
+                    throw new ServerCodeException("Character quality fragment table data not found!", 20009004);
+                }
+
+                if (character.Star < characterQualityFragment.StarUseCount.Count)
+                {
+                    if (characterQualityFragment.StarUseCount[character.Star] > 0)
+                    {
+                        NotifyItemDataList notifyItemData = new();
+                        notifyItemData.ItemDataList.Add(session.inventory.Do(characterData.ItemId, characterQualityFragment.StarUseCount[character.Star] * -1));
+                        session.SendPush(notifyItemData);
+                    }
+                    character.Star++;
+                }
+                else
+                {
+                    // CharacterManagerActivateStarMaxStar
+                    throw new ServerCodeException("Character quality already maxed!", 20009015);
+                }
             }
-            
+            catch (ServerCodeException ex)
+            {
+                session.SendResponse(new CharacterActivateStarResponse() { Code = ex.Code }, packet.Id);
+                return;
+            }
+
+            session.SendPush(new NotifyCharacterDataList()
+            {
+                CharacterDataList = { character }
+            });
+
+            session.SendResponse(new CharacterActivateStarResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("CharacterPromoteQualityRequest")]
+        public static void CharacterPromoteQualityRequestHandler(Session session, Packet.Request packet)
+        {
+            CharacterPromoteQualityRequest req = packet.Deserialize<CharacterPromoteQualityRequest>();
+            var character = session.character.Characters.Find(c => c.Id == req.TemplateId);
+            var characterData = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == req.TemplateId);
+            var characterQualityFragment = TableReaderV2.Parse<CharacterQualityFragmentTable>().Find(x => x.Type == characterData?.Type && x.Quality == character?.Quality);
+
+            try
+            {
+                if (character is null)
+                {
+                    // CharacterManagerGetCharacterByIdNotFound
+                    throw new ServerCodeException("Character data not found!", 20009011);
+                }
+                if (characterData is null)
+                {
+                    // CharacterManagerGetCharacterDataNotFound
+                    throw new ServerCodeException("Character table data not found!", 20009021);
+                }
+                if (characterQualityFragment is null)
+                {
+                    // CharacterManagerGetQualityFragmentTemplateNotFound
+                    throw new ServerCodeException("Character quality fragment table data not found!", 20009004);
+                }
+                
+                if (TableReaderV2.Parse<CharacterQualityFragmentTable>().Any(x => x.Type == characterData?.Type && x.Quality == character?.Quality + 1))
+                {
+                    if (characterQualityFragment.PromoteUseCoin is not null && characterQualityFragment.PromoteUseCoin > 0)
+                    {
+                        NotifyItemDataList notifyItemData = new();
+                        notifyItemData.ItemDataList.Add(session.inventory.Do(characterQualityFragment.PromoteItemId ?? 1, (characterQualityFragment.PromoteUseCoin ?? 0) * -1));
+                        session.SendPush(notifyItemData);
+                    }
+
+                    character.Star = 0;
+                    character.Quality++;
+                }
+                else
+                {
+                    // CharacterManagerMaxQuality
+                    throw new ServerCodeException("Character quality already maxed!", 20009016);
+                }
+            }
+            catch (ServerCodeException ex)
+            {
+                session.SendResponse(new CharacterActivateStarResponse() { Code = ex.Code }, packet.Id);
+                return;
+            }
+
+            session.SendPush(new NotifyCharacterDataList()
+            {
+                CharacterDataList = { character }
+            });
+
             session.SendResponse(new CharacterActivateStarResponse(), packet.Id);
         }
 
