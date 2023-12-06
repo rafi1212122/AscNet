@@ -1,9 +1,12 @@
 ﻿using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
+using AscNet.Common;
 using AscNet.Table.share.fuben;
+using AscNet.Table.V2.share.item;
 using AscNet.Table.V2.share.reward;
 using MessagePack;
+using AscNet.GameServer.Handlers.Drops;
 
 namespace AscNet.GameServer.Handlers
 {
@@ -240,7 +243,7 @@ namespace AscNet.GameServer.Handlers
                 if (rewardGood is not null)
                 {
                     // Item type formula
-                    int rewardTypeVal = Math.Max((int)MathF.Floor((rewardGood.TemplateId > 0 ? rewardGood.TemplateId : rewardGood.Id) / 1000000), 1);
+                    int rewardTypeVal = (int)MathF.Floor((rewardGood.TemplateId > 0 ? rewardGood.TemplateId : rewardGood.Id) / 1000000) + 1;
                     RewardType rewardType = RewardType.Item;
                     try
                     {
@@ -254,6 +257,26 @@ namespace AscNet.GameServer.Handlers
                     // TODO: Implement other types. Other types are behaving weirdly
                     if (rewardType == RewardType.Item)
                     {
+                        ItemTable? itemData = TableReaderV2.Parse<ItemTable>().Find(x => x.Id == rewardGood.TemplateId);
+                        if (itemData is not null)
+                        {
+                            // Custom handler for some items that aren't meant to be in the inventory.
+                            DropHandlerDelegate? dropHandler = DropsHandlerFactory.GetDropHandler(itemData.Id);
+                            if (itemData.IsHidden() && dropHandler is not null)
+                            {
+                                rewards.AddRange(dropHandler.Invoke(session, rewardGood.Count).Select(x => new RewardGoods()
+                                {
+                                    Id = rewardGood.Id,
+                                    TemplateId = x.TemplateId,
+                                    Count = x.Count,
+                                    Level = x.Level,
+                                    RewardType = (int)MathF.Floor(x.TemplateId / 1000000) + 1,
+                                    Quality = x.Quality
+                                }));
+                                continue;
+                            }
+                        }
+
                         notifyItemData.ItemDataList.Add(session.inventory.Do(rewardGood.TemplateId, rewardGood.Count));
 
                         rewards.Add(new()
@@ -315,6 +338,7 @@ namespace AscNet.GameServer.Handlers
                     StageId = (uint)stageData.StageId,
                     StarsMark = (int)stageData.StarsMark,
                     RewardGoodsList = rewards,
+                    MultiRewardGoodsList = { rewards },
                     NpcHpInfo = req.Result.NpcHpInfo,
                     ChallengeCount = req.Result.RebootCount
                 }

@@ -44,6 +44,11 @@ namespace AscNet.Common
             };
         }
 
+        public static bool IsHidden(this ItemTable item)
+        {
+            return item.ItemType == (int)ItemType.UnShow;
+        }
+
         public struct EquipUpgradeInfo
         {
             public int Cost { get; init; }
@@ -57,7 +62,7 @@ namespace AscNet.Common
         }
     }
 
-    enum ItemType
+    public enum ItemType
     {
         Assert = 1 << 0,
         Money = 1 << 1 | 1 << 0,

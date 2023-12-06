@@ -2468,7 +2468,7 @@ namespace AscNet.Common.MsgPack
             public dynamic? ClientAssistInfo { get; set; }
             public List<dynamic> FlopRewardList { get; set; } = new();
             public dynamic? ArenaResult { get; set; }
-            public List<Object[]> MultiRewardGoodsList { get; set; } = new();
+            public List<List<RewardGoods>> MultiRewardGoodsList { get; set; } = new();
             public Int32 ChallengeCount { get; set; }
             public dynamic? UnionKillResult { get; set; }
             public dynamic? InfestorBossFightResult { get; set; }
