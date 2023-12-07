@@ -1,9 +1,7 @@
-﻿using AscNet.Common;
-using AscNet.Common.MsgPack;
+﻿using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
 using AscNet.Logging;
 using AscNet.Table.V2.share.equip;
-using AscNet.Table.V2.share.item;
 using System.Reflection;
 
 namespace AscNet.GameServer.Handlers.Drops
@@ -119,41 +117,49 @@ namespace AscNet.GameServer.Handlers.Drops
         public const int Prayer = 96108;
         #endregion
 
-        // 5★ Memory Drop
-        [DropHandler(FiveStarMemoryDrop)]
-        public static IEnumerable<DropHandlerRet> FiveStarMemoryDropHandler(Session session, int count)
-        {
-            List<DropHandlerRet> rets = new();
-            EquipTable[] memoryPool = TableReaderV2.Parse<EquipTable>().Where(x => x.Type == 0 && x.Quality == 5).ToArray();
-
-            if (GetProgressiveChance((int)session.player.PlayerData.Level, 5))
-            {
-                EquipTable equip = memoryPool[Random.Shared.Next(0, memoryPool.Length)];
-                rets.Add(new()
-                {
-                    TemplateId = equip.Id,
-                    Count = 1,
-                    Level = 1,
-                    Quality = equip.Quality,
-                    Type = RewardType.Equip
-                });
-
-                NotifyEquipDataList notifyEquipData = new();
-                notifyEquipData.EquipDataList.Add(session.character.AddEquip((uint)equip.Id));
-                session.SendPush(notifyEquipData);
-            }
-
-            return rets;
-        }
+        #region Memory Drops
 
         // 2★ Memory Drop
         [DropHandler(TwoStarMemoryDrop)]
         public static IEnumerable<DropHandlerRet> TwoStarMemoryDropHandler(Session session, int count)
         {
-            List<DropHandlerRet> rets = new();
-            EquipTable[] memoryPool = TableReaderV2.Parse<EquipTable>().Where(x => x.Type == 0 && x.Quality == 2).ToArray();
+            return RandomMemoryDrop(session, count, 2);
+        }
 
-            if (GetProgressiveChance((int)session.player.PlayerData.Level, 2))
+        // 3★ Memory Drop
+        [DropHandler(ThreeStarMemoryDrop)]
+        public static IEnumerable<DropHandlerRet> ThreeStarMemoryDropHandler(Session session, int count)
+        {
+            return RandomMemoryDrop(session, count, 3);
+        }
+
+        // 4★ Memory Drop
+        [DropHandler(FourStarMemoryDrop)]
+        public static IEnumerable<DropHandlerRet> FourStarMemoryDropHandler(Session session, int count)
+        {
+            return RandomMemoryDrop(session, count, 4);
+        }
+
+        // 5★ Memory Drop
+        [DropHandler(FiveStarMemoryDrop)]
+        public static IEnumerable<DropHandlerRet> FiveStarMemoryDropHandler(Session session, int count)
+        {
+            return RandomMemoryDrop(session, count, 5);
+        }
+
+        // 6★ Memory Drop
+        [DropHandler(SixStarMemoryDrop)]
+        public static IEnumerable<DropHandlerRet> SixStarMemoryDropHandler(Session session, int count)
+        {
+            return RandomMemoryDrop(session, count, 6);
+        }
+
+        public static IEnumerable<DropHandlerRet> RandomMemoryDrop(Session session, int count, int quality)
+        {
+            List<DropHandlerRet> rets = new();
+            EquipTable[] memoryPool = TableReaderV2.Parse<EquipTable>().Where(x => x.Type == 0 && x.Quality == quality).ToArray();
+
+            if (GetProgressiveChance((int)session.player.PlayerData.Level, quality))
             {
                 EquipTable equip = memoryPool[Random.Shared.Next(0, memoryPool.Length)];
                 rets.Add(new()
@@ -172,6 +178,8 @@ namespace AscNet.GameServer.Handlers.Drops
 
             return rets;
         }
+        
+        #endregion
 
         /// <summary>
         /// Progressive chance of getting the item based on item quality and commandant level
