@@ -12,7 +12,7 @@ namespace AscNet.GameServer.Handlers
 {
     #region MsgPackScheme
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
-    enum RewardType
+    public enum RewardType
     {
         Item = 1,
         Character = 2,
@@ -270,7 +270,7 @@ namespace AscNet.GameServer.Handlers
                                     TemplateId = x.TemplateId,
                                     Count = x.Count,
                                     Level = x.Level,
-                                    RewardType = (int)MathF.Floor(x.TemplateId / 1000000) + 1,
+                                    RewardType = (int)x.Type,
                                     Quality = x.Quality
                                 }));
                                 continue;
@@ -340,7 +340,7 @@ namespace AscNet.GameServer.Handlers
                     RewardGoodsList = rewards,
                     MultiRewardGoodsList = { rewards },
                     NpcHpInfo = req.Result.NpcHpInfo,
-                    ChallengeCount = req.Result.RebootCount
+                    ChallengeCount = 1
                 }
             };
 

@@ -134,7 +134,35 @@ namespace AscNet.GameServer.Handlers.Drops
                     TemplateId = equip.Id,
                     Count = 1,
                     Level = 1,
-                    Quality = equip.Quality
+                    Quality = equip.Quality,
+                    Type = RewardType.Equip
+                });
+
+                NotifyEquipDataList notifyEquipData = new();
+                notifyEquipData.EquipDataList.Add(session.character.AddEquip((uint)equip.Id));
+                session.SendPush(notifyEquipData);
+            }
+
+            return rets;
+        }
+
+        // 2★ Memory Drop
+        [DropHandler(TwoStarMemoryDrop)]
+        public static IEnumerable<DropHandlerRet> TwoStarMemoryDropHandler(Session session, int count)
+        {
+            List<DropHandlerRet> rets = new();
+            EquipTable[] memoryPool = TableReaderV2.Parse<EquipTable>().Where(x => x.Type == 0 && x.Quality == 2).ToArray();
+
+            if (GetProgressiveChance((int)session.player.PlayerData.Level, 2))
+            {
+                EquipTable equip = memoryPool[Random.Shared.Next(0, memoryPool.Length)];
+                rets.Add(new()
+                {
+                    TemplateId = equip.Id,
+                    Count = 1,
+                    Level = 1,
+                    Quality = equip.Quality,
+                    Type = RewardType.Equip
                 });
 
                 NotifyEquipDataList notifyEquipData = new();
@@ -211,9 +239,10 @@ namespace AscNet.GameServer.Handlers.Drops
 
     public struct DropHandlerRet
     {
-        public int TemplateId;
-        public int Count;
-        public int Level;
-        public int Quality;
+        public int TemplateId { get; set; }
+        public int Count { get; set;}
+        public int Level { get; set;}
+        public int Quality { get; set;}
+        public RewardType Type { get; set;}
     }
 }
