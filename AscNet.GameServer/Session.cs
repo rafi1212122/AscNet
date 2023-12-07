@@ -3,6 +3,7 @@ using System.Net.Sockets;
 using AscNet.Common;
 using AscNet.Common.Database;
 using AscNet.Common.Util;
+using AscNet.GameServer.Game;
 using AscNet.Logging;
 using MessagePack;
 using Newtonsoft.Json;
@@ -17,6 +18,7 @@ namespace AscNet.GameServer
         public Player player = default!;
         public Character character = default!;
         public Stage stage = default!;
+        public Fight? fight;
         public Inventory inventory = default!;
         public readonly Logger log;
         private long lastPacketTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
