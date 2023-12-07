@@ -109,6 +109,9 @@ namespace AscNet.Common.Database
         [BsonRequired]
         public List<HeadPortraitList> HeadPortraits { get; set; }
 
+        [BsonElement("gather_rewards")]
+        public List<int> GatherRewards { get; set; } = new();
+
         [BsonElement("team_groups")]
         [BsonRequired]
         [BsonDictionaryOptions(DictionaryRepresentation.ArrayOfDocuments)]

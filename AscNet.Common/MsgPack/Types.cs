@@ -1026,6 +1026,13 @@ namespace AscNet.Common.MsgPack
 
 
     [global::MessagePack.MessagePackObject(true)]
+    public class NotifyGatherReward
+    {
+        public Int32 Id { get; set; }
+    }
+
+
+    [global::MessagePack.MessagePackObject(true)]
     public class NotifyDrawTicketData
     {
         [global::MessagePack.MessagePackObject(true)]
