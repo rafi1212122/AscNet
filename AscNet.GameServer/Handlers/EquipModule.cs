@@ -2,6 +2,7 @@
 using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
+using AscNet.Table.V2.share.equip;
 using AscNet.Table.V2.share.item;
 using MessagePack;
 
@@ -18,6 +19,18 @@ namespace AscNet.GameServer.Handlers
 
     [MessagePackObject(true)]
     public class EquipUpdateLockResponse
+    {
+        public int Code;
+    }
+
+    [MessagePackObject(true)]
+    public class EquipBreakthroughRequest
+    {
+        public int EquipId;
+    }
+
+    [MessagePackObject(true)]
+    public class EquipBreakthroughResponse
     {
         public int Code;
     }
@@ -96,6 +109,52 @@ namespace AscNet.GameServer.Handlers
             }
 
             session.SendResponse(rsp, packet.Id);
+        }
+
+        [RequestPacketHandler("EquipBreakthroughRequest")]
+        public static void EquipBreakthroughRequestHandler(Session session, Packet.Request packet)
+        {
+            EquipBreakthroughRequest request = packet.Deserialize<EquipBreakthroughRequest>();
+            var response = new EquipBreakthroughResponse();
+            var equip = session.character.Equips.Find(x => x.Id == request.EquipId);
+            if (equip is null)
+            {
+                // EquipManagerGetCharEquipBySiteNotFound
+                response.Code = 20021012;
+            }
+            else
+            {
+                EquipBreakThroughTable? equipBreakThrough = TableReaderV2.Parse<EquipBreakThroughTable>().Find(x => x.EquipId == equip.TemplateId && equip.Breakthrough == x.Times);
+                if (equipBreakThrough is not null && TableReaderV2.Parse<EquipBreakThroughTable>().Any(x => x.EquipId == equip.TemplateId && equip.Breakthrough + 1 == x.Times))
+                {
+                    NotifyItemDataList notifyItemData = new();
+
+                    for (int i = 0; i < Math.Min(equipBreakThrough.ItemId.Count, equipBreakThrough.ItemCount.Count); i++)
+                    {
+                        notifyItemData.ItemDataList.Add(session.inventory.Do(equipBreakThrough.ItemId[i], equipBreakThrough.ItemCount[i] * -1));
+                    }
+                    if (equipBreakThrough.UseMoney is not null && equipBreakThrough.UseMoney > 0)
+                        notifyItemData.ItemDataList.Add(session.inventory.Do(equipBreakThrough.UseItemId ?? 1, (equipBreakThrough.UseMoney ?? 0) * -1));
+
+                    session.SendPush(notifyItemData);
+
+                    equip.Breakthrough += 1;
+                    equip.Level = 1;
+                    equip.Exp = 0;
+                }
+                else if (equipBreakThrough is not null)
+                {
+                    // EquipManagerBreakthroughMaxBreakthrough
+                    response.Code = 20021010;
+                }
+                else
+                {
+                    // EquipBreakthroughTemplateNotFound
+                    response.Code = 20021002;
+                }
+            }
+
+            session.SendResponse(response, packet.Id);
         }
 
         [RequestPacketHandler("EquipUpdateLockRequest")]
