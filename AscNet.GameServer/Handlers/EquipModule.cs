@@ -180,11 +180,16 @@ namespace AscNet.GameServer.Handlers
         public static void EquipPutOnRequestHandler(Session session, Packet.Request packet)
         {
             EquipPutOnRequest request = packet.Deserialize<EquipPutOnRequest>();
-            var prevEquip = session.character.Equips.Find(x => x.CharacterId == request.CharacterId);
+
+            var prevEquip = session.character.Equips.Find(x => x.CharacterId == request.CharacterId && TableReaderV2.Parse<EquipTable>().Find(t => t.Id == x.TemplateId)?.Site == request.Site);
             var toEquip = session.character.Equips.Find(x => x.Id == request.EquipId);
+
             if (prevEquip is not null && toEquip is not null)
             {
                 prevEquip.CharacterId = 0;
+            }
+            if (toEquip is not null)
+            {
                 toEquip.CharacterId = request.CharacterId;
             }
             else
@@ -194,10 +199,10 @@ namespace AscNet.GameServer.Handlers
                 return;
             }
 
-            NotifyEquipDataList notifyEquipData = new()
-            {
-                EquipDataList = { prevEquip, toEquip }
-            };
+            NotifyEquipDataList notifyEquipData = new();
+            notifyEquipData.EquipDataList.Add(toEquip);
+            if (prevEquip is not null)
+                notifyEquipData.EquipDataList.Add(prevEquip);
             session.SendPush(notifyEquipData);
 
             session.SendResponse(new EquipPutOnResponse(), packet.Id);
