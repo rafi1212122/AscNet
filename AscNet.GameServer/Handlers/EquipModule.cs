@@ -50,6 +50,18 @@ namespace AscNet.GameServer.Handlers
     }
 
     [MessagePackObject(true)]
+    public class EquipTakeOffRequest
+    {
+        public List<int> EquipIds;
+    }
+
+    [MessagePackObject(true)]
+    public class EquipTakeOffResponse
+    {
+        public int Code;
+    }
+
+    [MessagePackObject(true)]
     public class EquipLevelUpRequest
     {
         public int EquipId;
@@ -206,6 +218,21 @@ namespace AscNet.GameServer.Handlers
             session.SendPush(notifyEquipData);
 
             session.SendResponse(new EquipPutOnResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("EquipTakeOffRequest")]
+        public static void EquipTakeOffRequestHandler(Session session, Packet.Request packet)
+        {
+            EquipTakeOffRequest request = packet.Deserialize<EquipTakeOffRequest>();
+
+            foreach (var equipId in request.EquipIds)
+            {
+                var equip = session.character.Equips.Find(x => x.Id == equipId);
+                if (equip is not null)
+                    equip.CharacterId = 0;
+            }
+
+            session.SendResponse(new EquipTakeOffResponse(), packet.Id);
         }
     }
 }
