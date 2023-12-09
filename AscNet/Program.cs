@@ -2,8 +2,6 @@
 using AscNet.GameServer.Handlers;
 using AscNet.GameServer.Commands;
 using AscNet.Logging;
-using AscNet.Common.Util;
-using AscNet.Table.V2.share.reward;
 using Newtonsoft.Json;
 
 namespace AscNet
@@ -19,7 +17,6 @@ namespace AscNet
 #if DEBUG
             if (Common.Common.config.VerboseLevel < Common.VerboseLevel.Debug)
                 Common.Common.config.VerboseLevel = Common.VerboseLevel.Debug;
-            // LoggerFactory.Logger.Debug(JsonConvert.SerializeObject(TableReaderV2.Parse<RewardTable>().Where(x => x.Id == null).SelectMany(x => x.SubIds)));
 #endif
 
             PacketFactory.LoadPacketHandlers();

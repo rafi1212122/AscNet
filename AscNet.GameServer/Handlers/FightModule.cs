@@ -146,6 +146,8 @@ namespace AscNet.GameServer.Handlers
                 return;
             }
 
+            var levelControl = TableReaderV2.Parse<Table.V2.share.fuben.StageLevelControlTable>().Where(x => x.StageId == stageTable.StageId).OrderBy(x => Math.Abs(session.player.PlayerData.Level - x.MaxLevel)).FirstOrDefault();
+
             PreFightResponse rsp = new()
             {
                 Code = 0,
@@ -158,7 +160,8 @@ namespace AscNet.GameServer.Handlers
                     StageId = req.PreFightData.StageId,
                     RebootId = Miscs.ParseIntOr(stageTable.RebootId, 0),
                     PassTimeLimit = Miscs.ParseIntOr(stageTable.PassTimeLimit, 300),
-                    StarsMark = 0
+                    StarsMark = 0,
+                    MonsterLevel = levelControl?.MonsterLevel ?? new()
                 }
             };
 
