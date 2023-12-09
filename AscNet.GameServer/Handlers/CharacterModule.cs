@@ -7,6 +7,8 @@ using AscNet.Table.V2.share.character.grade;
 using MessagePack;
 using AscNet.Common;
 using AscNet.Table.V2.share.character.quality;
+using MongoDB.Driver.Linq;
+using AscNet.Table.V2.share.character.skill;
 
 namespace AscNet.GameServer.Handlers
 {
@@ -21,6 +23,18 @@ namespace AscNet.GameServer.Handlers
 
     [MessagePackObject(true)]
     public class CharacterLevelUpResponse
+    {
+        public int Code;
+    }
+
+    [MessagePackObject(true)]
+    public class CharacterUnlockSkillGroupRequest
+    {
+        public int SkillGroupId;
+    }
+
+    [MessagePackObject(true)]
+    public class CharacterUnlockSkillGroupResponse
     {
         public int Code;
     }
@@ -266,6 +280,23 @@ namespace AscNet.GameServer.Handlers
             });
 
             session.SendResponse(new CharacterPromoteQualityResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("CharacterUnlockSkillGroupRequest")]
+        public static void CharacterUnlockSkillGroupRequestHandler(Session session, Packet.Request packet)
+        {
+            CharacterUnlockSkillGroupRequest request = packet.Deserialize<CharacterUnlockSkillGroupRequest>();
+
+            NotifyCharacterDataList notifyCharacterData = new();
+            var affectedChars = TableReaderV2.Parse<CharacterSkillTable>().Where(x => x.SkillGroupId.Contains(request.SkillGroupId)).Select(x => x.CharacterId);
+            foreach (var character in session.character.Characters.Where(x => affectedChars.Any(y => y == x.Id)))
+            {
+                character.SkillList.AddRange(TableReaderV2.Parse<CharacterSkillGroupTable>().Where(x => x.Id == request.SkillGroupId).SelectMany(x => x.SkillId).Select(x => new NotifyCharacterDataList.CharacterData.CharacterSkill() { Id = (uint)x, Level = 1 }));
+                notifyCharacterData.CharacterDataList.Add(character);
+            }
+            session.SendPush(notifyCharacterData);
+
+            session.SendResponse(new CharacterUpgradeSkillGroupResponse(), packet.Id);
         }
 
         [RequestPacketHandler("CharacterUpgradeSkillGroupRequest")]

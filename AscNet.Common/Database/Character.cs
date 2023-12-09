@@ -77,7 +77,7 @@ namespace AscNet.Common.Database
                 throw new ServerCodeException("Character already obtained!", 20009022);
             }
             
-            NotifyCharacterDataList.NotifyCharacterDataListCharacterData characterData = new()
+            NotifyCharacterDataList.CharacterData characterData = new()
             {
                 Id = (uint)character.Id,
                 Level = 1,
@@ -98,7 +98,7 @@ namespace AscNet.Common.Database
                     HeadFashionType = 0
                 }
             };
-            characterData.SkillList.AddRange(characterSkill.SkillGroupId.Take(8).Select(x => new NotifyCharacterDataList.NotifyCharacterDataListCharacterData.NotifyCharacterDataListCharacterDataSkill()
+            characterData.SkillList.AddRange(characterSkill.SkillGroupId.Take(8).Select(x => new NotifyCharacterDataList.CharacterData.CharacterSkill()
             {
                 Id = uint.Parse(x.ToString().Take(6).ToArray()),
                 Level = 1
@@ -118,7 +118,7 @@ namespace AscNet.Common.Database
             return ret;
         }
 
-        public NotifyCharacterDataList.NotifyCharacterDataListCharacterData? AddCharacterExp(int characterId, int exp, int maxLvl = 0)
+        public NotifyCharacterDataList.CharacterData? AddCharacterExp(int characterId, int exp, int maxLvl = 0)
         {
             var characterData = TableReaderV2.Parse<Table.V2.share.character.CharacterTable>().FirstOrDefault(x => x.Id == characterId);
             var character = Characters.FirstOrDefault(x => x.Id == characterId);
@@ -254,7 +254,7 @@ namespace AscNet.Common.Database
 
         [BsonElement("characters")]
         [BsonRequired]
-        public List<NotifyCharacterDataList.NotifyCharacterDataListCharacterData> Characters { get; set; }
+        public List<NotifyCharacterDataList.CharacterData> Characters { get; set; }
         
         [BsonElement("equips")]
         [BsonRequired]
@@ -304,7 +304,7 @@ namespace AscNet.Common.Database
 
     public struct AddCharacterRet
     {
-        public NotifyCharacterDataList.NotifyCharacterDataListCharacterData Character { get; set; }
+        public NotifyCharacterDataList.CharacterData Character { get; set; }
         public NotifyEquipDataList.NotifyEquipDataListEquipData Equip { get; set; }
         public FashionList Fashion { get; set; }
     }

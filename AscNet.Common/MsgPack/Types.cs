@@ -2527,7 +2527,7 @@ namespace AscNet.Common.MsgPack
     public class NotifyCharacterDataList
     {
         [global::MessagePack.MessagePackObject(true)]
-        public class NotifyCharacterDataListCharacterData
+        public class CharacterData
         {
             public UInt32 Id { get; set; }
             public Int32 Level { get; set; }
@@ -2537,13 +2537,13 @@ namespace AscNet.Common.MsgPack
             public Int32 Star { get; set; }
             public Int32 Grade { get; set; }
             [global::MessagePack.MessagePackObject(true)]
-            public class NotifyCharacterDataListCharacterDataSkill
+            public class CharacterSkill
             {
                 public UInt32 Id { get; set; }
                 public Int32 Level { get; set; }
             }
 
-            public List<NotifyCharacterDataListCharacterDataSkill> SkillList { get; set; } = new();
+            public List<CharacterSkill> SkillList { get; set; } = new();
             public List<dynamic> EnhanceSkillList { get; set; } = new();
             public UInt32 FashionId { get; set; }
             public Int64 CreateTime { get; set; }
@@ -2552,16 +2552,16 @@ namespace AscNet.Common.MsgPack
             public Int32 Ability { get; set; }
             public Int32 LiberateLv { get; set; }
             [global::MessagePack.MessagePackObject(true)]
-            public class NotifyCharacterDataListCharacterDataCharacterHeadInfo
+            public class CharacterHead
             {
                 public UInt32 HeadFashionId { get; set; }
                 public Int32 HeadFashionType { get; set; }
             }
 
-            public NotifyCharacterDataListCharacterDataCharacterHeadInfo CharacterHeadInfo { get; set; }
+            public CharacterHead CharacterHeadInfo { get; set; }
         }
 
-        public List<NotifyCharacterDataListCharacterData> CharacterDataList { get; set; } = new();
+        public List<CharacterData> CharacterDataList { get; set; } = new();
     }
 
 
