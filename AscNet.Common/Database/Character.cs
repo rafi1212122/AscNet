@@ -185,9 +185,9 @@ namespace AscNet.Common.Database
             };
         }
 
-        public NotifyEquipDataList.NotifyEquipDataListEquipData AddEquip(uint equipId, int characterId = 0)
+        public EquipData AddEquip(uint equipId, int characterId = 0)
         {
-            NotifyEquipDataList.NotifyEquipDataListEquipData equipData = new()
+            EquipData equipData = new()
             {
                 Id = NextEquipId,
                 TemplateId = equipId,
@@ -207,7 +207,7 @@ namespace AscNet.Common.Database
             return equipData;
         }
 
-        public NotifyEquipDataList.NotifyEquipDataListEquipData? AddEquipExp(int equipId, int exp)
+        public EquipData? AddEquipExp(int equipId, int exp)
         {
             var equip = Equips.FirstOrDefault(x => x.Id == equipId);
             EquipTable? equipData = TableReaderV2.Parse<EquipTable>().FirstOrDefault(x => x.Id == equip?.TemplateId);
@@ -258,7 +258,7 @@ namespace AscNet.Common.Database
         
         [BsonElement("equips")]
         [BsonRequired]
-        public List<NotifyEquipDataList.NotifyEquipDataListEquipData> Equips { get; set; }
+        public List<EquipData> Equips { get; set; }
         
         [BsonElement("fashions")]
         [BsonRequired]
@@ -305,7 +305,7 @@ namespace AscNet.Common.Database
     public struct AddCharacterRet
     {
         public NotifyCharacterDataList.CharacterData Character { get; set; }
-        public NotifyEquipDataList.NotifyEquipDataListEquipData Equip { get; set; }
+        public EquipData Equip { get; set; }
         public FashionList Fashion { get; set; }
     }
 }

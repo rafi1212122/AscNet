@@ -103,23 +103,6 @@ namespace AscNet.Common.MsgPack
     }
 
     [MessagePackObject(true)]
-    public partial class EquipList
-    {
-        public long Id { get; set; }
-        public long TemplateId { get; set; }
-        public long CharacterId { get; set; }
-        public long Level { get; set; }
-        public long Exp { get; set; }
-        public long Breakthrough { get; set; }
-        public List<ResonanceInfo> ResonanceInfo { get; set; } = new();
-        public List<object> UnconfirmedResonanceInfo { get; set; } = new();
-        public List<object> AwakeSlotList { get; set; } = new();
-        public bool IsLock { get; set; }
-        public long CreateTime { get; set; }
-        public bool IsRecycle { get; set; }
-    }
-
-    [MessagePackObject(true)]
     public partial class ResonanceInfo
     {
         public long Slot { get; set; }
@@ -322,7 +305,7 @@ namespace AscNet.Common.MsgPack
         public List<Item> ItemList { get; set; } = new();
         public Dictionary<int, List<ItemRecycleData>> ItemRecycleDict { get; set; } = new();
         public List<LoginCharacterList> CharacterList { get; set; } = new();
-        public List<EquipList> EquipList { get; set; } = new();
+        public List<EquipData> EquipList { get; set; } = new();
         public List<FashionList> FashionList { get; set; } = new();
         public List<HeadPortraitList> HeadPortraitList { get; set; } = new();
         public BaseEquipLoginData BaseEquipLoginData { get; set; }
@@ -2428,7 +2411,7 @@ namespace AscNet.Common.MsgPack
                 public Boolean IsRobot { get; set; }
                 public Int32 CaptainIndex { get; set; }
                 public Int32 FirstFightPos { get; set; }
-                public Dictionary<dynamic, dynamic> NpcData { get; set; }
+                public Dictionary<int, dynamic> NpcData { get; set; }
                 public dynamic? CustomNpc { get; set; }
                 public dynamic? AssistNpcData { get; set; }
             }
@@ -2647,28 +2630,27 @@ namespace AscNet.Common.MsgPack
         public List<NotifyArchiveMonsterRecordMonster> Monsters { get; set; } = new();
     }
 
+    [global::MessagePack.MessagePackObject(true)]
+    public class EquipData
+    {
+        public UInt32 Id { get; set; }
+        public UInt32 TemplateId { get; set; }
+        public Int32 CharacterId { get; set; }
+        public Int32 Level { get; set; }
+        public Int32 Exp { get; set; }
+        public Int32 Breakthrough { get; set; }
+        public List<ResonanceInfo> ResonanceInfo { get; set; } = new();
+        public List<dynamic> UnconfirmedResonanceInfo { get; set; } = new();
+        public List<dynamic> AwakeSlotList { get; set; } = new();
+        public Boolean IsLock { get; set; }
+        public UInt32 CreateTime { get; set; }
+        public Boolean IsRecycle { get; set; }
+    }
 
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyEquipDataList
     {
-        [global::MessagePack.MessagePackObject(true)]
-        public class NotifyEquipDataListEquipData
-        {
-            public UInt32 Id { get; set; }
-            public UInt32 TemplateId { get; set; }
-            public Int32 CharacterId { get; set; }
-            public Int32 Level { get; set; }
-            public Int32 Exp { get; set; }
-            public Int32 Breakthrough { get; set; }
-            public List<dynamic> ResonanceInfo { get; set; } = new();
-            public List<dynamic> UnconfirmedResonanceInfo { get; set; } = new();
-            public List<dynamic> AwakeSlotList { get; set; } = new();
-            public Boolean IsLock { get; set; }
-            public UInt32 CreateTime { get; set; }
-            public Boolean IsRecycle { get; set; }
-        }
-
-        public List<NotifyEquipDataListEquipData> EquipDataList { get; set; } = new();
+        public List<EquipData> EquipDataList { get; set; } = new();
     }
 
 

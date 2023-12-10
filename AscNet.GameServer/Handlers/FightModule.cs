@@ -2,11 +2,14 @@
 using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
 using AscNet.Common;
-using AscNet.Table.share.fuben;
+using AscNet.Table.V2.share.fuben;
 using AscNet.Table.V2.share.item;
 using AscNet.Table.V2.share.reward;
 using MessagePack;
 using AscNet.GameServer.Handlers.Drops;
+using AscNet.Table.V2.share.robot;
+using static AscNet.Common.MsgPack.NotifyCharacterDataList;
+using AscNet.Table.V2.share.character.skill;
 
 namespace AscNet.GameServer.Handlers
 {
@@ -138,7 +141,7 @@ namespace AscNet.GameServer.Handlers
         {
             PreFightRequest req = MessagePackSerializer.Deserialize<PreFightRequest>(packet.Content);
 
-            StageTable? stageTable = StageTableReader.Instance.FromStageId((int)req.PreFightData.StageId);
+            StageTable? stageTable = TableReaderV2.Parse<StageTable>().Find(x => x.StageId == req.PreFightData.StageId);
             if (stageTable is null)
             {
                 // FubenManagerCheckPreFightStageInfoNotFound
@@ -158,8 +161,8 @@ namespace AscNet.GameServer.Handlers
                     OnlineMode = 0,
                     Seed = (uint)Random.Shared.NextInt64(0, uint.MaxValue),
                     StageId = req.PreFightData.StageId,
-                    RebootId = Miscs.ParseIntOr(stageTable.RebootId, 0),
-                    PassTimeLimit = Miscs.ParseIntOr(stageTable.PassTimeLimit, 300),
+                    RebootId = stageTable.RebootId ?? 0,
+                    PassTimeLimit = stageTable.PassTimeLimit ?? 300,
                     StarsMark = 0,
                     MonsterLevel = levelControl?.MonsterLevel ?? new()
                 }
@@ -188,6 +191,66 @@ namespace AscNet.GameServer.Handlers
                         Character = characterData,
                         Equips = session.character.Equips.Where(x => x.CharacterId == cardId)
                     });
+                }
+            }
+
+            if (req.PreFightData?.CardIds is null || (req.PreFightData.CardIds.Count + stageTable.RobotId.Count) == 3)
+            {
+                int npcKey = rsp.FightData.RoleData.First(x => x.Id == session.player.PlayerData.Id).NpcData.Keys.Count;
+                foreach (var robotId in stageTable.RobotId)
+                {
+                    RobotTable? robot = TableReaderV2.Parse<RobotTable>().Find(x => x.Id == robotId);
+                    if (robot is null)
+                        continue;
+
+                    CharacterSkillTable? characterSkill = TableReaderV2.Parse<CharacterSkillTable>().Find(x => x.CharacterId == robot.CharacterId);
+                    IEnumerable<int> skills = characterSkill?.SkillGroupId.SelectMany(x => TableReaderV2.Parse<CharacterSkillGroupTable>().Find(y => y.Id == x)?.SkillId ?? new List<int>()) ?? new List<int>();
+                    List<EquipData> equips = new()
+                    {
+                        new()
+                        {
+                            TemplateId = (uint)robot.WeaponId,
+                            Level = robot.WeaponLevel,
+                            Breakthrough = robot.WeaponBeakThrough,
+                        }
+                    };
+
+                    for (int i = 0; i < robot.WaferId.Count; i++)
+                    {
+                        equips.Add(new()
+                        {
+                            TemplateId = (uint)robot.WaferId[i],
+                            Level = robot.WaferLevel[i],
+                            Breakthrough = robot.WaferBreakThrough[i]
+                        });
+                    }
+
+                    rsp.FightData.RoleData.First(x => x.Id == session.player.PlayerData.Id).NpcData.Add(npcKey, new
+                    {
+                        Character = new CharacterData()
+                        {
+                            Id = (uint)robot.CharacterId,
+                            Level = robot.CharacterLevel,
+                            Exp = 0,
+                            Quality = robot.CharacterQuality,
+                            InitQuality = robot.CharacterQuality,
+                            Star = robot.CharacterStar,
+                            Grade = robot.CharacterGrade,
+                            SkillList = skills.Where(x => robot.RemoveSkillId.Contains(x)).Select(x => new CharacterData.CharacterSkill() { Id = (uint)x, Level = robot.SkillLevel}).ToList(),
+                            FashionId = (uint)robot.FashionId,
+                            CreateTime = 0,
+                            TrustLv = 1,
+                            TrustExp = 0,
+                            Ability = robot.ShowAbility ?? 0,
+                            LiberateLv = robot.LiberateLv ?? 0,
+                            CharacterHeadInfo = new()
+                            {
+                                HeadFashionId = (uint)robot.FashionId
+                            }
+                        },
+                        Equips = equips
+                    });
+                    npcKey++;
                 }
             }
 
