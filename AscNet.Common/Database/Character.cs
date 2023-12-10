@@ -1,8 +1,8 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
-using AscNet.Table.share.character;
-using AscNet.Table.share.character.skill;
+using AscNet.Table.V2.share.character;
+using AscNet.Table.V2.share.character.skill;
 using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
 using Newtonsoft.Json;
@@ -62,8 +62,8 @@ namespace AscNet.Common.Database
         public AddCharacterRet AddCharacter(uint id)
         {
             AddCharacterRet ret = new();
-            CharacterTable? character = CharacterTableReader.Instance.FromId((int)id);
-            CharacterSkillTable? characterSkill = CharacterSkillTableReader.Instance.FromCharacterId((int)id);
+            CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == id);
+            CharacterSkillTable? characterSkill = TableReaderV2.Parse<CharacterSkillTable>().Find(x => x.CharacterId == id);
             CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == id);
             
             if (character is null || characterSkill is null || characterQuality is null)
@@ -98,11 +98,14 @@ namespace AscNet.Common.Database
                     HeadFashionType = 0
                 }
             };
+
+            // TODO: Don't do the ToString, query skill properly pls.
             characterData.SkillList.AddRange(characterSkill.SkillGroupId.Take(8).Select(x => new NotifyCharacterDataList.CharacterData.CharacterSkill()
             {
                 Id = uint.Parse(x.ToString().Take(6).ToArray()),
                 Level = 1
             }));
+
             FashionList fashion = new()
             {
                 Id = character.DefaultNpcFashtionId,
@@ -120,7 +123,7 @@ namespace AscNet.Common.Database
 
         public NotifyCharacterDataList.CharacterData? AddCharacterExp(int characterId, int exp, int maxLvl = 0)
         {
-            var characterData = TableReaderV2.Parse<Table.V2.share.character.CharacterTable>().FirstOrDefault(x => x.Id == characterId);
+            var characterData = TableReaderV2.Parse<CharacterTable>().FirstOrDefault(x => x.Id == characterId);
             var character = Characters.FirstOrDefault(x => x.Id == characterId);
 
             if (character is not null && characterData is not null)
@@ -155,7 +158,7 @@ namespace AscNet.Common.Database
             List<uint> affectedCharacters = new();
             int totalCoinCost = 0;
             int totalSkillPointCost = 0;
-            IEnumerable<int> affectedSkills = CharacterSkillGroupTableReader.Instance.All.Where(x => x.Id == skillGroupId).SelectMany(x => x.SkillId);
+            IEnumerable<int> affectedSkills = TableReaderV2.Parse<CharacterSkillGroupTable>().Where(x => x.Id == skillGroupId).SelectMany(x => x.SkillId);
 
             foreach (var skillId in affectedSkills)
             {
@@ -166,10 +169,10 @@ namespace AscNet.Common.Database
 
                     while (characterSkill.Level < targetLevel)
                     {
-                        var skillUpgrade = CharacterSkillUpgradeTableReader.Instance.All.FirstOrDefault(x => x.SkillId == skillId && Miscs.ParseIntOr(x.Level) == characterSkill.Level);
+                        var skillUpgrade = TableReaderV2.Parse<CharacterSkillUpgradeTable>().Find(x => x.SkillId == skillId && x.Level == characterSkill.Level);
 
-                        totalCoinCost += Miscs.ParseIntOr(skillUpgrade?.UseCoin);
-                        totalSkillPointCost += Miscs.ParseIntOr(skillUpgrade?.UseSkillPoint);
+                        totalCoinCost += skillUpgrade?.UseCoin ?? 0;
+                        totalSkillPointCost += skillUpgrade?.UseSkillPoint ?? 0;
 
                         characterSkill.Level++;
                     }

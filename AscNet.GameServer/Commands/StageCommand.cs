@@ -1,5 +1,6 @@
 ﻿using AscNet.Common.MsgPack;
-using AscNet.Table.share.fuben;
+using AscNet.Common.Util;
+using AscNet.Table.V2.share.fuben;
 
 namespace AscNet.GameServer.Commands
 {
@@ -18,7 +19,7 @@ namespace AscNet.GameServer.Commands
             if (TargetStage == "all")
             {
                 session.stage.Stages.Clear();
-                foreach (var stageData in StageTableReader.Instance.All)
+                foreach (var stageData in TableReaderV2.Parse<StageTable>())
                 {
                     session.stage.Stages.Add(stageData.StageId, new()
                     {
@@ -43,7 +44,7 @@ namespace AscNet.GameServer.Commands
             }
             else
             {
-                StageTable? stageData = StageTableReader.Instance.FromStageId(int.Parse(TargetStage));
+                StageTable? stageData = TableReaderV2.Parse<StageTable>().Find(x => x.StageId == int.Parse(TargetStage));
                 if (stageData is not null && !session.stage.Stages.ContainsKey(stageData.StageId))
                 {
                     StageDatum stage = new()

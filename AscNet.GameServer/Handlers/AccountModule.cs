@@ -1,9 +1,8 @@
 ﻿using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
-using AscNet.Table.share.chat;
-using AscNet.Table.share.guide;
-using AscNet.Table.share.item;
+using AscNet.Table.V2.share.chat;
+using AscNet.Table.V2.share.guide;
 using MessagePack;
 using System.Diagnostics;
 
@@ -146,7 +145,7 @@ namespace AscNet.GameServer.Handlers
             notifyLogin.FashionList.AddRange(session.character.Fashions);
 
 #if DEBUG
-            notifyLogin.PlayerData.GuideData = GuideGroupTableReader.Instance.All.Select(x => (long)x.Id).ToList();
+            notifyLogin.PlayerData.GuideData = TableReaderV2.Parse<GuideGroupTable>().Select(x => (long)x.Id).ToList();
 #endif
 
             NotifyStageData notifyStageData = new()
@@ -192,7 +191,7 @@ namespace AscNet.GameServer.Handlers
             NotifyChatLoginData notifyChatLoginData = new()
             {
                 RefreshTime = ((DateTimeOffset)Process.GetCurrentProcess().StartTime).ToUnixTimeSeconds(),
-                UnlockEmojis = EmojiTableReader.Instance.All.Select(x => new NotifyChatLoginData.NotifyChatLoginDataUnlockEmoji() { Id = (uint)x.Id }).ToList()
+                UnlockEmojis = TableReaderV2.Parse<EmojiTable>().Select(x => new NotifyChatLoginData.NotifyChatLoginDataUnlockEmoji() { Id = (uint)x.Id }).ToList()
             };
 
             NotifyItemDataList notifyItemDataList = new()

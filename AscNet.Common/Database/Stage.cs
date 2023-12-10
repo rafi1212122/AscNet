@@ -1,5 +1,6 @@
 using AscNet.Common.MsgPack;
-using AscNet.Table.share.guide;
+using AscNet.Common.Util;
+using AscNet.Table.V2.share.guide;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson.Serialization.Options;
@@ -24,7 +25,7 @@ namespace AscNet.Common.Database
                 Uid = uid,
                 Stages = new()
             };
-            foreach (var guideFight in GuideFightTableReader.Instance.All)
+            foreach (var guideFight in TableReaderV2.Parse<GuideFightTable>())
             {
                 stage.AddStage(new StageDatum()
                 {

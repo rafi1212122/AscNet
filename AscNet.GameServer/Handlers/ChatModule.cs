@@ -1,6 +1,7 @@
 ﻿using AscNet.Common.MsgPack;
+using AscNet.Common.Util;
 using AscNet.GameServer.Commands;
-using AscNet.Table.share.chat;
+using AscNet.Table.V2.share.chat;
 using MessagePack;
 
 namespace AscNet.GameServer.Handlers
@@ -219,7 +220,7 @@ namespace AscNet.GameServer.Handlers
             session.SendResponse(new GetEmojiPackageIdResponse()
             {
                 Code = 0,
-                OrderEmojiPackageIds = EmojiPackTableReader.Instance.All.Select(x => x.Id).ToList()
+                OrderEmojiPackageIds = TableReaderV2.Parse<EmojiPackTable>().Select(x => x.Id).ToList()
             }, packet.Id);
         }
         #endregion
