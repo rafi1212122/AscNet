@@ -1,5 +1,6 @@
 ﻿using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
+using static AscNet.Common.MsgPack.NotifyCharacterDataList;
 using AscNet.Common.Util;
 using AscNet.Common;
 using AscNet.Table.V2.share.fuben;
@@ -8,7 +9,6 @@ using AscNet.Table.V2.share.reward;
 using MessagePack;
 using AscNet.GameServer.Handlers.Drops;
 using AscNet.Table.V2.share.robot;
-using static AscNet.Common.MsgPack.NotifyCharacterDataList;
 using AscNet.Table.V2.share.character.skill;
 
 namespace AscNet.GameServer.Handlers

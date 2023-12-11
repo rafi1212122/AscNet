@@ -1,5 +1,6 @@
 ﻿using System.Buffers.Binary;
 using System.Net.Sockets;
+using System.Reflection.Emit;
 using AscNet.Common;
 using AscNet.Common.Database;
 using AscNet.Common.Util;
@@ -45,34 +46,37 @@ namespace AscNet.GameServer
             {
                 try
                 {
-                    if (prevBuf == 0)
-                        Array.Clear(msg, 0, msg.Length);
-                    int len = stream.Read(msg, prevBuf + 0, msg.Length - prevBuf);
-                    len += prevBuf;
+                    int len = 0;
 
-                    if (len > 0)
+                    read:
+                    while (stream.DataAvailable)
+                    {
+                        len = stream.Read(msg, prevBuf, msg.Length - prevBuf);
+                        prevBuf += len;
+                    }
+
+                    if (prevBuf > 0)
                     {
                         lastPacketTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
                         List<Packet> packets = new();
 
                         int readbytes = 0;
-                        while (readbytes < len)
+                        while (readbytes < prevBuf)
                         {
                             int packetLen = BinaryPrimitives.ReadInt32LittleEndian(msg.AsSpan()[readbytes..]);
-                            if (len > 0)
+                            if (prevBuf > 0)
                                 readbytes += 4;
                             if (packetLen < 1)
                             {
+                                prevBuf = 0;
                                 break;
                             }
-                            else if (packetLen > len && len > 0)
+                            if (packetLen > prevBuf)
                             {
-                                prevBuf += len;
-                                break;
+                                goto read;
                             }
                             else
                             {
-                                prevBuf = 0;
                                 byte[] packet = GC.AllocateUninitializedArray<byte>(packetLen);
                                 Array.Copy(msg, readbytes, packet, 0, packetLen);
                                 readbytes += packetLen;
@@ -85,11 +89,12 @@ namespace AscNet.GameServer
                                 catch (Exception)
                                 {
                                     log.Debug(BitConverter.ToString(msg).Replace("-", ""));
-                                    log.Debug($"PacketLen = {packetLen}, ReadLen = {len}");
+                                    log.Debug($"PacketLen = {packetLen}, ReadLen = {prevBuf}");
                                     log.Error("Failed to deserialize packet: " + BitConverter.ToString(packet).Replace("-", ""));
                                 }
                             }
                         }
+                        prevBuf = 0;
 
                         foreach (var packet in packets)
                         {
