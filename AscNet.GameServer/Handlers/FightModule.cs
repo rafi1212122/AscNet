@@ -175,7 +175,7 @@ namespace AscNet.GameServer.Handlers
                     Seed = (uint)Random.Shared.NextInt64(0, uint.MaxValue),
                     StageId = req.PreFightData.StageId,
                     RebootId = stageTable.RebootId ?? 0,
-                    PassTimeLimit = stageTable.PassTimeLimit ?? 300,
+                    PassTimeLimit = stageTable.PassTimeLimit ?? 0,
                     StarsMark = 0,
                     MonsterLevel = levelControl?.MonsterLevel ?? new()
                 }
@@ -249,7 +249,7 @@ namespace AscNet.GameServer.Handlers
                             InitQuality = robot.CharacterQuality,
                             Star = robot.CharacterStar,
                             Grade = robot.CharacterGrade,
-                            SkillList = skills.Where(x => robot.RemoveSkillId.Contains(x)).Select(x => new CharacterData.CharacterSkill() { Id = (uint)x, Level = robot.SkillLevel}).ToList(),
+                            SkillList = skills.Where(x => !robot.RemoveSkillId.Contains(x)).Select(x => new CharacterData.CharacterSkill() { Id = (uint)x, Level = Math.Min(robot.SkillLevel, TableReaderV2.Parse<CharacterSkillLevelEffectTable>().OrderByDescending(x => x.Level).FirstOrDefault(y => y.SkillId == x)?.Level ?? 1) }).ToList(),
                             FashionId = (uint)robot.FashionId,
                             CreateTime = 0,
                             TrustLv = 1,
