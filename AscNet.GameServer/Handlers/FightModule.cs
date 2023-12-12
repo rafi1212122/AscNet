@@ -131,6 +131,19 @@ namespace AscNet.GameServer.Handlers
     {
         public FightSettleResult Result { get; set; }
     }
+
+    [MessagePackObject(true)]
+    public class FightRebootRequest
+    {
+        public int FightId { get; set; }
+        public int RebootCount { get; set; }
+    }
+
+    [MessagePackObject(true)]
+    public class FightRebootResponse
+    {
+        public int Code { get; set; }
+    }
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     #endregion
 
@@ -256,6 +269,13 @@ namespace AscNet.GameServer.Handlers
 
             session.fight = new(req);
             session.SendResponse(rsp, packet.Id);
+        }
+
+        [RequestPacketHandler("FightRebootRequest")]
+        public static void HandleFightRebootRequestHandler(Session session, Packet.Request packet)
+        {
+            FightRebootRequest req = MessagePackSerializer.Deserialize<FightRebootRequest>(packet.Content);
+            session.SendResponse(new FightRebootResponse(), packet.Id);
         }
 
         [RequestPacketHandler("TeamSetTeamRequest")]
