@@ -45,6 +45,7 @@ namespace AscNet.GameServer.Handlers
         [RequestPacketHandler("LoginRequest")]
         public static void LoginRequestHandler(Session session, Packet.Request packet)
         {
+            start:
             LoginRequest request = MessagePackSerializer.Deserialize<LoginRequest>(packet.Content);
             Player? player = Player.FromToken(request.Token);
 
@@ -63,6 +64,9 @@ namespace AscNet.GameServer.Handlers
                 // GateServerForceLogoutByAnotherLogin
                 previousSession.SendPush(new ForceLogoutNotify() { Code = 1018 });
                 previousSession.DisconnectProtocol();
+
+                // Player data will be outdated without refetching it after disconnecting the previous session.
+                goto start;
             }
 
             session.player = player;
