@@ -112,6 +112,9 @@ namespace AscNet.Common.Database
         [BsonElement("gather_rewards")]
         public List<int> GatherRewards { get; set; } = new();
 
+        [BsonElement("use_background_id")]
+        public int UseBackgroundId { get; set; } = 14000001;
+
         [BsonElement("team_groups")]
         [BsonRequired]
         [BsonDictionaryOptions(DictionaryRepresentation.ArrayOfDocuments)]

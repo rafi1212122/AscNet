@@ -3,6 +3,7 @@ using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
 using AscNet.Table.V2.share.chat;
 using AscNet.Table.V2.share.guide;
+using AscNet.Table.V2.share.photomode;
 using MessagePack;
 using System.Diagnostics;
 
@@ -138,7 +139,7 @@ namespace AscNet.GameServer.Handlers
                 FubenMainLineData = new(),
                 FubenChapterExtraLoginData = new(),
                 FubenUrgentEventData = new(),
-                UseBackgroundId = 14000001 // main ui theme, table still failed to dump
+                UseBackgroundId = session.player.UseBackgroundId
             };
             if (notifyLogin.PlayerData.DisplayCharIdList.Count < 1)
                 notifyLogin.PlayerData.DisplayCharIdList.Add(notifyLogin.PlayerData.DisplayCharId);
@@ -206,6 +207,11 @@ namespace AscNet.GameServer.Handlers
                 ItemDataList = session.inventory.Items
             };
 
+            NotifyBackgroundLoginData notifyBackground = new()
+            {
+                HaveBackgroundIds = TableReaderV2.Parse<BackgroundTable>().Select(x => (uint)x.Id).ToList()
+            };
+
             session.SendPush(notifyLogin);
             session.SendPush(notifyStageData);
             session.SendPush(notifyCharacterData);
@@ -213,6 +219,7 @@ namespace AscNet.GameServer.Handlers
             session.SendPush(notifyAssistData);
             session.SendPush(notifyChatLoginData);
             session.SendPush(notifyItemDataList);
+            session.SendPush(notifyBackground);
 
             #region DisclamerMail
             NotifyMails notifyMails = new();
