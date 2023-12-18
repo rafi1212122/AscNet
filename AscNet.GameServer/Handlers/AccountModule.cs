@@ -4,6 +4,7 @@ using AscNet.Common.Util;
 using AscNet.Table.V2.share.chat;
 using AscNet.Table.V2.share.guide;
 using AscNet.Table.V2.share.photomode;
+using AscNet.Table.V2.share.trpg;
 using MessagePack;
 using System.Diagnostics;
 
@@ -224,6 +225,15 @@ namespace AscNet.GameServer.Handlers
             session.SendPush(notifyChatLoginData);
             session.SendPush(notifyItemDataList);
             session.SendPush(notifyBackground);
+            session.SendPush(new NotifyTRPGData()
+            {
+                CurTargetLink = 10001,
+                BaseInfo = new()
+                {
+                    Level = 1
+                },
+                BossInfo = new()
+            });
 
             #region DisclamerMail
             NotifyMails notifyMails = new();

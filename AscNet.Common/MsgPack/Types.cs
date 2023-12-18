@@ -1647,7 +1647,7 @@ namespace AscNet.Common.MsgPack
         public NotifyTRPGDataBossInfo BossInfo { get; set; }
         public List<dynamic> TargetList { get; set; } = new();
         public List<dynamic> RewardList { get; set; } = new();
-        public List<dynamic> FuncList { get; set; } = new();
+        public List<int> FuncList { get; set; } = new();
         public List<dynamic> Characters { get; set; } = new();
         [global::MessagePack.MessagePackObject(true)]
         public class NotifyTRPGDataShopInfo
