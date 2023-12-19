@@ -1,4 +1,9 @@
-﻿using MessagePack;
+﻿using AscNet.Common.Database;
+using AscNet.Common.Util;
+using AscNet.GameServer.Game;
+using AscNet.Table.V2.client.draw;
+using MessagePack;
+using static AscNet.GameServer.Packet;
 
 namespace AscNet.GameServer.Handlers
 {
@@ -51,6 +56,12 @@ namespace AscNet.GameServer.Handlers
         public long StartTime { get; set; }
         public long EndTime { get; set; }
     }
+
+    [MessagePackObject(true)]
+    public class DrawGetDrawInfoListRequest
+    {
+        public int GroupId { get; set; }
+    }
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     #endregion
 
@@ -60,16 +71,19 @@ namespace AscNet.GameServer.Handlers
         public static void DrawGetDrawGroupListRequestHandler(Session session, Packet.Request packet)
         {
             var rsp = new DrawGetDrawGroupListResponse();
-            rsp.DrawGroupInfoList.Add(new()
+
             {
-                Id = 1,
-                SwitchDrawIdCount = 1,
-                UseDrawId = 1,
-                Order = 1,
-                Tag = 1,
-                EndTime = DateTimeOffset.Now.ToUnixTimeSeconds() * 2,
-                BannerEndTime = DateTimeOffset.Now.ToUnixTimeSeconds() * 2
-            });
+                var drawInfos = DrawManager.GetDrawInfosByGroup(DrawManager.GroupArrivalConstruct);
+                rsp.DrawGroupInfoList.Add(new()
+                {
+                    Id = DrawManager.GroupArrivalConstruct,
+                    UseDrawId = drawInfos.Count > 0 ? drawInfos.First().Id : 0,
+                    Order = 1,
+                    Tag = DrawManager.TagEvent,
+                    EndTime = DateTimeOffset.Now.ToUnixTimeSeconds() * 2,
+                    BannerEndTime = DateTimeOffset.Now.ToUnixTimeSeconds() * 2
+                });
+            }
 
             session.SendResponse(rsp, packet.Id);
         }
@@ -77,17 +91,10 @@ namespace AscNet.GameServer.Handlers
         [RequestPacketHandler("DrawGetDrawInfoListRequest")]
         public static void DrawGetDrawInfoListRequestHandler(Session session, Packet.Request packet)
         {
+            DrawGetDrawInfoListRequest request = packet.Deserialize<DrawGetDrawInfoListRequest>();
+
             DrawGetDrawInfoListResponse rsp = new();
-            rsp.DrawInfoList.Add(new()
-            {
-                Id = 101,
-                UseItemId = 1,
-                UseItemCount = 10,
-                GroupId = 1,
-                BtnDrawCount = { 1, 10 },
-                Banner = "Assets/Product/Ui/Scene3DPrefab/UiMain3dWuqi.prefab",
-                EndTime = DateTimeOffset.Now.ToUnixTimeSeconds() * 2
-            });
+            rsp.DrawInfoList.AddRange(DrawManager.GetDrawInfosByGroup(request.GroupId));
 
             session.SendResponse(rsp, packet.Id);
         }

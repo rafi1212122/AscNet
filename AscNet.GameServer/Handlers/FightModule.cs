@@ -306,7 +306,7 @@ namespace AscNet.GameServer.Handlers
         public static void FightSettleRequestHandler(Session session, Packet.Request packet)
         {
             FightSettleRequest req = MessagePackSerializer.Deserialize<FightSettleRequest>(packet.Content);
-            Table.V2.share.fuben.StageTable? stageTable = TableReaderV2.Parse<Table.V2.share.fuben.StageTable>().FirstOrDefault(x => x.StageId == req.Result.StageId);
+            StageTable? stageTable = TableReaderV2.Parse<StageTable>().FirstOrDefault(x => x.StageId == req.Result.StageId);
             if (stageTable is null)
             {
                 // FightCheckManagerSettleCodeNotMatch
