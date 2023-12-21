@@ -1,14 +1,41 @@
-﻿using AscNet.Common.Database;
-using AscNet.Common.Util;
+﻿using AscNet.Common.MsgPack;
 using AscNet.GameServer.Game;
-using AscNet.Table.V2.client.draw;
 using MessagePack;
-using static AscNet.GameServer.Packet;
 
 namespace AscNet.GameServer.Handlers
 {
     #region MsgPackScheme
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+    [MessagePackObject(true)]
+    public class DrawDrawCardRequest
+    {
+        public int DrawId { get; set; }
+        public int Count { get; set; }
+        public int UseDrawTicketId { get; set; }
+    }
+
+    [MessagePackObject(true)]
+    public class DrawDrawCardResponse
+    {
+        public int Code { get; set; }
+        public List<RewardGoods> RewardGoodsList { get; set; } = new();
+        public List<dynamic> ExtraRewardList { get; set; } = new();
+        public DrawInfo ClientDrawInfo { get; set; }
+    }
+
+    [MessagePackObject(true)]
+    public class DrawSetUseDrawIdRequest
+    {
+        public int DrawId { get; set; }
+    }
+
+    [MessagePackObject(true)]
+    public class DrawSetUseDrawIdResponse
+    {
+        public int Code { get; set; }
+        public int SwitchDrawIdCount { get; set; }
+    }
+
     [MessagePackObject(true)]
     public class DrawGetDrawInfoListResponse
     {
@@ -84,6 +111,18 @@ namespace AscNet.GameServer.Handlers
                     BannerEndTime = DateTimeOffset.Now.ToUnixTimeSeconds() * 2
                 });
             }
+            {
+                var drawInfos = DrawManager.GetDrawInfosByGroup(DrawManager.GroupMemberTarget);
+                rsp.DrawGroupInfoList.Add(new()
+                {
+                    Id = DrawManager.GroupMemberTarget,
+                    UseDrawId = drawInfos.Count > 0 ? drawInfos.First().Id : 0,
+                    Order = 1,
+                    Tag = DrawManager.TagBase,
+                    EndTime = DateTimeOffset.Now.ToUnixTimeSeconds() * 2,
+                    BannerEndTime = DateTimeOffset.Now.ToUnixTimeSeconds() * 2
+                });
+            }
 
             session.SendResponse(rsp, packet.Id);
         }
@@ -95,6 +134,32 @@ namespace AscNet.GameServer.Handlers
 
             DrawGetDrawInfoListResponse rsp = new();
             rsp.DrawInfoList.AddRange(DrawManager.GetDrawInfosByGroup(request.GroupId));
+
+            session.SendResponse(rsp, packet.Id);
+        }
+
+        [RequestPacketHandler("DrawSetUseDrawIdRequest")]
+        public static void DrawSetUseDrawIdRequestHandler(Session session, Packet.Request packet)
+        {
+            DrawSetUseDrawIdRequest request = packet.Deserialize<DrawSetUseDrawIdRequest>();
+
+            session.SendResponse(new DrawSetUseDrawIdResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("DrawDrawCardRequest")]
+        public static void DrawDrawCardRequestHandler(Session session, Packet.Request packet)
+        {
+            DrawDrawCardRequest request = packet.Deserialize<DrawDrawCardRequest>();
+            DrawDrawCardResponse rsp = new();
+
+            for (int i = 0; i < request.Count; i++)
+            {
+                rsp.RewardGoodsList.AddRange(DrawManager.DrawDraw(request.DrawId));
+            }
+
+            DrawInfo? drawInfo = DrawManager.GetDrawInfosByGroup(DrawManager.GetGroupByDrawId(request.DrawId)).Find(x => x.Id == request.DrawId);
+            if (drawInfo is not null)
+                rsp.ClientDrawInfo = drawInfo;
 
             session.SendResponse(rsp, packet.Id);
         }

@@ -1,6 +1,6 @@
 ﻿using MessagePack;
 
-namespace AscNet.GameServer
+namespace AscNet.GameServer.Handlers
 {
 
     #region MsgPackScheme
