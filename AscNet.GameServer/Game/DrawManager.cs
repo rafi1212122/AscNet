@@ -78,7 +78,7 @@ namespace AscNet.GameServer.Game
                     {
                         Id = x.Id,
                         UseItemId = Inventory.FreeGem,
-                        UseItemCount = 1,
+                        UseItemCount = 250,
                         GroupId = GroupArrivalConstruct,
                         BtnDrawCount = { 1, 10 },
                         Banner = "Assets/Product/Ui/Scene3DPrefab/UiMain3dXiahuo.prefab",
@@ -96,7 +96,7 @@ namespace AscNet.GameServer.Game
                     {
                         Id = x.Id,
                         UseItemId = Inventory.FreeGem,
-                        UseItemCount = 1,
+                        UseItemCount = 250,
                         GroupId = GroupMemberTarget,
                         BtnDrawCount = { 1, 10 },
                         Banner = "Assets/Product/Ui/Scene3DPrefab/UiMain3dXiahuo.prefab",
@@ -138,7 +138,7 @@ namespace AscNet.GameServer.Game
             {
                 case 1:
                     // Character
-                    if (random >= 0.98f)
+                    if (random >= 0.972f)
                     {
                         // S Character
                         float rate = Random.Shared.NextSingle();
@@ -345,6 +345,7 @@ namespace AscNet.GameServer.Game
                             {
                                 RewardType = (int)RewardType.Character,
                                 Quality = characterQuality?.Quality ?? 0,
+                                Count = 1,
                                 TemplateId = rand
                             });
                         }

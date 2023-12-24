@@ -1,5 +1,7 @@
 ﻿using AscNet.Common.MsgPack;
+using AscNet.Common.Util;
 using AscNet.GameServer.Game;
+using AscNet.Table.V2.share.character;
 using MessagePack;
 
 namespace AscNet.GameServer.Handlers
@@ -157,9 +159,62 @@ namespace AscNet.GameServer.Handlers
                 rsp.RewardGoodsList.AddRange(DrawManager.DrawDraw(request.DrawId));
             }
 
+            // Post-processing and adding items to user's db
+            NotifyItemDataList notifyItemData = new();
+            NotifyEquipDataList notifyEquipData = new();
+            NotifyCharacterDataList notifyCharacterData = new();
+            FashionSyncNotify fashionSync = new();
+            foreach (var item in rsp.RewardGoodsList)
+            {
+                switch ((RewardType)item.RewardType)
+                {
+                    case RewardType.Item:
+                        notifyItemData.ItemDataList.Add(session.inventory.Do(item.TemplateId, item.Count));
+                        break;
+                    case RewardType.Equip:
+                        notifyEquipData.EquipDataList.Add(session.character.AddEquip((uint)item.TemplateId));
+                        break;
+                    case RewardType.Character:
+                        if (session.character.Characters.Any(x => x.Id == item.TemplateId))
+                        {
+                            CharacterTable? characterData = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == item.TemplateId);
+                            if (characterData is not null)
+                            {
+                                item.ConvertFrom = characterData.Id;
+                                item.TemplateId = characterData.ItemId;
+                                item.Count = 18;
+                                item.RewardType = (int)RewardType.Item;
+                                notifyItemData.ItemDataList.Add(session.inventory.Do(item.TemplateId, item.Count));
+                            }
+                        }
+                        else
+                        {
+                            var ret = session.character.AddCharacter((uint)item.TemplateId);
+                            notifyCharacterData.CharacterDataList.Add(ret.Character);
+                            fashionSync.FashionList.Add(ret.Fashion);
+                            notifyEquipData.EquipDataList.Add(ret.Equip);
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+
             DrawInfo? drawInfo = DrawManager.GetDrawInfosByGroup(DrawManager.GetGroupByDrawId(request.DrawId)).Find(x => x.Id == request.DrawId);
             if (drawInfo is not null)
+            {
                 rsp.ClientDrawInfo = drawInfo;
+                notifyItemData.ItemDataList.Add(session.inventory.Do(drawInfo.UseItemId, drawInfo.UseItemCount * -1));
+            }
+
+            if (notifyItemData.ItemDataList.Count > 0)
+                session.SendPush(notifyItemData);
+            if (notifyEquipData.EquipDataList.Count > 0)
+                session.SendPush(notifyEquipData);
+            if (fashionSync.FashionList.Count > 0)
+                session.SendPush(fashionSync);
+            if (notifyCharacterData.CharacterDataList.Count > 0)
+                session.SendPush(notifyCharacterData);
 
             session.SendResponse(rsp, packet.Id);
         }

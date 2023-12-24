@@ -1,4 +1,6 @@
 ﻿using AscNet.Common.MsgPack;
+using AscNet.Common.Util;
+using AscNet.Table.V2.share.item;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
@@ -72,7 +74,9 @@ namespace AscNet.Common.Database
         public Item Do(int itemId, int amount)
         {
             Item? item = Items.FirstOrDefault(x => x.Id == itemId);
-            if (item is not null)
+            ItemTable? itemTable = TableReaderV2.Parse<ItemTable>().Find(x => x.Id == itemId);
+
+            if (item is not null && itemTable is not null && itemTable.MaxCount <= item.Count + amount)
             {
                 item.Count += amount;
                 item.RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds();
