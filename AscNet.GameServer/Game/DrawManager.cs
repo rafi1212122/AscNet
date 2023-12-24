@@ -6,6 +6,9 @@ using AscNet.Logging;
 using AscNet.Table.V2.client.draw;
 using AscNet.Table.V2.share.character;
 using AscNet.Table.V2.share.character.quality;
+using AscNet.Table.V2.share.equip;
+using AscNet.Table.V2.share.item;
+using System;
 
 namespace AscNet.GameServer.Game
 {
@@ -129,28 +132,317 @@ namespace AscNet.GameServer.Game
                 log.Error($"Invalid draw id {drawId}");
                 return rewards;
             }
+            float random = Random.Shared.NextSingle();
 
             switch (drawScene.Type)
             {
                 case 1:
                     // Character
-                    if (drawPool.UpGoodsId.Count > 0 && Random.Shared.NextDouble() >= 0.7)
+                    if (random >= 0.98f)
                     {
-                        rewards.Add(new()
+                        // S Character
+                        float rate = Random.Shared.NextSingle();
+                        re_rate:
+                        if (rate <= 0.3f)
                         {
-                            RewardType = (int)RewardType.Character,
-                            Level = 1,
-                            Id = drawPool.UpGoodsId[Random.Shared.Next(drawPool.UpGoodsId.Count)]
-                        });
+                            // Rate off
+                            List<int> pool = new();
+
+                            foreach (var charId in TableReaderV2.Parse<CharacterTable>().Select(x => x.Id))
+                            {
+                                CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == charId);
+                                CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == charId);
+                                if (character is null || characterQuality is null)
+                                    continue;
+
+                                if (characterQuality.Quality >= 3 && drawPool.GoodsId.Contains(character.Id))
+                                {
+                                    pool.Add(charId);
+                                }
+                            }
+                            if (pool.Count < 1)
+                            {
+                                foreach (var charId in TableReaderV2.Parse<CharacterTable>().Select(x => x.Id))
+                                {
+                                    CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == charId);
+                                    CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == charId);
+                                    if (character is null || characterQuality is null)
+                                        continue;
+
+                                    if (characterQuality.Quality >= 3 && !drawPool.UpGoodsId.Contains(character.Id))
+                                    {
+                                        pool.Add(charId);
+                                    }
+                                }
+                            }
+
+                            if (pool.Count > 0)
+                            {
+                                int rand = pool[Random.Shared.Next(pool.Count)];
+                                CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == rand);
+                                CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == rand);
+
+                                rewards.Add(new()
+                                {
+                                    RewardType = (int)RewardType.Character,
+                                    Quality = characterQuality?.Quality ?? 0,
+                                    Count = 1,
+                                    TemplateId = rand
+                                });
+                            }
+                        }
+                        else
+                        {
+                            if (drawPool.UpGoodsId.Count == 1)
+                            {
+                                CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == drawPool.UpGoodsId[0]);
+                                CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == drawPool.UpGoodsId[0]);
+
+                                rewards.Add(new()
+                                {
+                                    RewardType = (int)RewardType.Character,
+                                    Quality = characterQuality?.Quality ?? 0,
+                                    Count = 1,
+                                    TemplateId = drawPool.UpGoodsId[0]
+                                });
+                            }
+                            else if (drawPool.UpGoodsId.Count > 0)
+                            {
+                                int rand = drawPool.UpGoodsId[Random.Shared.Next(drawPool.UpGoodsId.Count)];
+                                CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == rand);
+                                CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == rand);
+
+                                rewards.Add(new()
+                                {
+                                    RewardType = (int)RewardType.Character,
+                                    Quality = characterQuality?.Quality ?? 0,
+                                    Count = 1,
+                                    TemplateId = rand
+                                });
+                            }
+                            else
+                            {
+                                rate = 0f;
+                                goto re_rate;
+                            }
+                        }
+                    }
+                    else if (random >= 0.9f)
+                    {
+                        // A Character
+                        float rate = Random.Shared.NextSingle();
+                        re_rate:
+                        if (rate >= 0.19f)
+                        {
+                            // Rate on
+                            if (drawPool.UpGoodsId.Count == 1)
+                            {
+                                CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == drawPool.UpGoodsId[0]);
+                                CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == drawPool.UpGoodsId[0]);
+
+                                if (characterQuality?.Quality == 2)
+                                    rewards.Add(new()
+                                    {
+                                        RewardType = (int)RewardType.Character,
+                                        Quality = characterQuality?.Quality ?? 0,
+                                        Count = 1,
+                                        TemplateId = drawPool.UpGoodsId[0]
+                                    });
+                            }
+                            if (rewards.Count < 1)
+                            {
+                                rate = 0;
+                                goto re_rate;
+                            }
+                        }
+                        else
+                        {
+                            List<int> pool = new();
+
+                            foreach (var charId in TableReaderV2.Parse<CharacterTable>().Select(x => x.Id))
+                            {
+                                CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == charId);
+                                CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == charId);
+                                if (character is null || characterQuality is null)
+                                    continue;
+
+                                if (characterQuality.Quality == 2 && drawPool.GoodsId.Contains(character.Id))
+                                {
+                                    pool.Add(charId);
+                                }
+                            }
+                            if (pool.Count < 1)
+                            {
+                                foreach (var charId in TableReaderV2.Parse<CharacterTable>().Select(x => x.Id))
+                                {
+                                    CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == charId);
+                                    CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == charId);
+                                    if (character is null || characterQuality is null)
+                                        continue;
+
+                                    if (characterQuality.Quality == 2 && !drawPool.UpGoodsId.Contains(character.Id))
+                                    {
+                                        pool.Add(charId);
+                                    }
+                                }
+                            }
+
+                            if (pool.Count > 0)
+                            {
+                                int rand = pool[Random.Shared.Next(pool.Count)];
+                                CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == rand);
+                                CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == rand);
+
+                                rewards.Add(new()
+                                {
+                                    RewardType = (int)RewardType.Character,
+                                    Quality = characterQuality?.Quality ?? 0,
+                                    Count = 1,
+                                    TemplateId = rand
+                                });
+                            }
+                        }
+                    }
+                    else if (random >= 0.82f)
+                    {
+                        List<int> pool = new();
+
+                        foreach (var charId in TableReaderV2.Parse<CharacterTable>().Select(x => x.Id))
+                        {
+                            CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == charId);
+                            CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == charId);
+                            if (character is null || characterQuality is null)
+                                continue;
+
+                            if (characterQuality.Quality == 1 && drawPool.GoodsId.Contains(character.Id))
+                            {
+                                pool.Add(charId);
+                            }
+                        }
+                        if (pool.Count < 1)
+                        {
+                            foreach (var charId in TableReaderV2.Parse<CharacterTable>().Select(x => x.Id))
+                            {
+                                CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == charId);
+                                CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == charId);
+                                if (character is null || characterQuality is null)
+                                    continue;
+
+                                if (characterQuality.Quality == 1 && !drawPool.UpGoodsId.Contains(character.Id))
+                                {
+                                    pool.Add(charId);
+                                }
+                            }
+                        }
+
+                        if (pool.Count > 0)
+                        {
+                            int rand = pool[Random.Shared.Next(pool.Count)];
+                            CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == rand);
+                            CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == rand);
+
+                            rewards.Add(new()
+                            {
+                                RewardType = (int)RewardType.Character,
+                                Quality = characterQuality?.Quality ?? 0,
+                                TemplateId = rand
+                            });
+                        }
+                    }
+                    else if (random >= 0.61f)
+                    {
+                        // Shard
+                        var pool = new List<int>();
+                        pool.AddRange(drawPool.GoodsId);
+                        pool.AddRange(drawPool.UpGoodsId);
+
+                        if (pool.Count > 0)
+                        {
+                            int rand = pool[Random.Shared.Next(pool.Count)];
+                            CharacterTable? character = TableReaderV2.Parse<CharacterTable>().Find(x => x.Id == rand);
+                            CharacterQualityTable? characterQuality = TableReaderV2.Parse<CharacterQualityTable>().OrderBy(x => x.Quality).FirstOrDefault(x => x.CharacterId == rand);
+
+                            if (character is not null)
+                                rewards.Add(new()
+                                {
+                                    RewardType = (int)RewardType.Item,
+                                    Count = characterQuality?.Quality >= 3 ? 3 : (characterQuality?.Quality == 2 ? 8 : 12),
+                                    Quality = characterQuality?.Quality ?? 0,
+                                    TemplateId = character.ItemId
+                                });
+                        }
+                    }
+                    else if (random >= 0.39f)
+                    {
+                        // 4* Equip
+                        var pool = TableReaderV2.Parse<EquipTable>().Where(x => x.Quality == 4).ToList();
+
+                        if (pool.Count > 0)
+                        {
+                            EquipTable rand = pool[Random.Shared.Next(pool.Count)];
+
+                            rewards.Add(new()
+                            {
+                                RewardType = (int)RewardType.Equip,
+                                Count = 1,
+                                Quality = rand.Quality,
+                                TemplateId = rand.Id
+                            });
+                        }
+                    }
+                    else if (random >= 0.25f)
+                    {
+                        // Overclock mats
+                        var pool = TableReaderV2.Parse<ItemTable>().Where(x => x.Id >= 40100 && x.Id < 40200).ToList();
+
+                        if (pool.Count > 0)
+                        {
+                            ItemTable rand = pool[Random.Shared.Next(pool.Count)];
+
+                            rewards.Add(new()
+                            {
+                                RewardType = (int)RewardType.Item,
+                                Count = rand.Quality > 3 ? 1 : 3,
+                                Quality = rand.Quality,
+                                TemplateId = rand.Id
+                            });
+                        }
+                    }
+                    else if (random >= 0.18f)
+                    {
+                        // Exp mats
+                        var pool = TableReaderV2.Parse<ItemTable>().Where(x => x.Id >= 30011 && x.Id < 30015).ToList();
+
+                        if (pool.Count > 0)
+                        {
+                            ItemTable rand = pool[Random.Shared.Next(pool.Count)];
+
+                            rewards.Add(new()
+                            {
+                                RewardType = (int)RewardType.Item,
+                                Count = rand.Quality > 3 ? 1 : 3,
+                                Quality = rand.Quality,
+                                TemplateId = rand.Id
+                            });
+                        }
                     }
                     else
                     {
-                        rewards.Add(new()
+                        // Cog boxes
+                        var pool = TableReaderV2.Parse<ItemTable>().Where(x => x.Name.StartsWith("Cog Pack")).ToList();
+
+                        if (pool.Count > 0)
                         {
-                            RewardType = (int)RewardType.Character,
-                            Level = 1,
-                            Id = drawPool.GoodsId[Random.Shared.Next(drawPool.GoodsId.Count)]
-                        });
+                            ItemTable rand = pool[Random.Shared.Next(pool.Count)];
+
+                            rewards.Add(new()
+                            {
+                                RewardType = (int)RewardType.Item,
+                                Count = 1,
+                                Quality = rand.Quality,
+                                TemplateId = rand.Id
+                            });
+                        }
                     }
                     break;
                 case 2:
