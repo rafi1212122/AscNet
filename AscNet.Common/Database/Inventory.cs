@@ -76,10 +76,23 @@ namespace AscNet.Common.Database
             Item? item = Items.FirstOrDefault(x => x.Id == itemId);
             ItemTable? itemTable = TableReaderV2.Parse<ItemTable>().Find(x => x.Id == itemId);
 
-            if (item is not null && itemTable is not null && itemTable.MaxCount <= item.Count + amount)
+            if (item is not null && itemTable is not null)
             {
-                item.Count += amount;
-                item.RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds();
+                if (itemTable.MaxCount <= item.Count + amount && item.Count + amount >= 0)
+                {
+                    item.Count += amount;
+                    item.RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds();
+                }
+                else if (itemTable.MaxCount <= item.Count + amount)
+                {
+                    item.Count = itemTable.MaxCount ?? item.Count + amount;
+                    item.RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds();
+                }
+                else
+                {
+                    item.Count = 0;
+                    item.RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds();
+                }
             }
             else
             {
