@@ -78,19 +78,19 @@ namespace AscNet.Common.Database
 
             if (item is not null && itemTable is not null)
             {
-                if (itemTable.MaxCount <= item.Count + amount && item.Count + amount >= 0)
+                if (item.Count + amount <= itemTable.MaxCount && item.Count + amount >= 0)
                 {
                     item.Count += amount;
                     item.RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds();
                 }
-                else if (itemTable.MaxCount <= item.Count + amount)
+                else if (item.Count + amount < 0)
                 {
-                    item.Count = itemTable.MaxCount ?? item.Count + amount;
+                    item.Count = 0;
                     item.RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds();
                 }
                 else
                 {
-                    item.Count = 0;
+                    item.Count = itemTable.MaxCount ?? item.Count + amount;
                     item.RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds();
                 }
             }
