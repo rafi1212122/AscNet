@@ -170,6 +170,7 @@ namespace AscNet.GameServer.Handlers
                     }
 
                     cmd?.Execute();
+                    notifyWorldChat.ChatMessages.Add(MakeLuciaMessage("Command executed!"));
                 }
                 catch (CommandMessageCallbackException ex)
                 {
@@ -186,7 +187,7 @@ namespace AscNet.GameServer.Handlers
             }
 
             session.SendPush(notifyWorldChat);
-            session.SendResponse(new SendChatResponse() { Code = 0, ChatData = request.ChatData, RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds() }, packet.Id);
+            session.SendResponse(new SendChatResponse() { Code = 0, ChatData = request.ChatData, RefreshTime = DateTimeOffset.Now.ToUnixTimeSeconds() - 10 }, packet.Id);
         }
         
         [RequestPacketHandler("SelectChatChannelRequest")]
