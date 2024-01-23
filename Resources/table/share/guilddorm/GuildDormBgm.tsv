@@ -1,30 +1,42 @@
-Id	Name	Desc	Image	CueId	IsDefault	Duration
-1	Gray Raven	G.K/Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace5.png	1	1	90290
-2	Revival	T-nymph	Assets/Product/Texture/Image/CdPlayer/CdFace6.png	26	1	118125
-3	Narwhal Pt.1	Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace1.png	10	1	100869
-4	C.O.R.E. Pt.1	Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace2.png	12	0	96000
-5	Dust Pt.1	GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace3.png	15	0	116619
-6	Night Sailing	Anti-General	Assets/Product/Texture/Image/CdPlayer/CdFace4.png	18	0	95511
-7	Rebirth From Huaxu	Anti-General	Assets/Product/Texture/Image/CdPlayer/CdFace7.png	27	0	96013
-8	Waterland	RabbitJ	Assets/Product/Texture/Image/CdPlayer/CdFace8.png	32	0	76800
-9	Narwhal-Abysm	Moto	Assets/Product/Texture/Image/CdPlayer/CdFace9.png	33	0	118260
-10	Reverse	Moto	Assets/Product/Texture/Image/CdPlayer/CdFace10.png	37	0	120000
-11	Dis┬rient	Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace11.png	45	0	79000
-12	Wraith Reborn	GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace13.png	52	0	127643
-13	Endless Trick	GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace14.png	55	0	110400
-14	Dancing tonight	Producer: Vanguard Sound  Composer: Rabbit J  Lyrics & Vocal: Xia Tongzi	Assets/Product/Texture/Image/CdPlayer/CdFace15.png	56	0	108270
-15	In Scription Of Labyrinth	Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace16.png	60	0	110666
-16	LAMIA	GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace17.png	62	0	110714
-17	Edenis	MEI	Assets/Product/Texture/Image/CdPlayer/CdFace19.png	65	0	140000
-18	Gaze of Wind	Composer: GhostFinal  Arranged by: MEI & GhostFinal  Lyrics: Mira.Z\nVocal: Miku Ito  Instrument: LCC & GhostFinal  Producer: Vanguard Sound	Assets/Product/Texture/Image/CdPlayer/CdFace20.png	71	0	169000
-19	Sie liebten sich beide	Music Composer: LCC  Arranged by: LCC ＆ moto\nLyrics: Heinrich Heine  Vocal: Ji Yunhui	Assets/Product/Texture/Image/CdPlayer/CdFace22.png	83	0	177198
-20	Lullaby	Manager: Pulao  Audio Engineer: Talic  Music Composer: Xin\nProducer: Vanguard Sound  Artist: Shan Kui You	Assets/Product/Texture/Image/CdPlayer/CdFace24.png	100	0	236133
-21	Against the Current	Composer: Polyblue\nLyrics & Flow: Neko, Hideyo Noguchi  Vocal: Shogo Batori	Assets/Product/Texture/Image/CdPlayer/CdFace23.png	99	0	171000
-22	NANAMI IKIMASU	Composer: Super.Yy & Polyblue\nProduction: Vanguard Sound & Kuro Games	Assets/Product/Texture/Image/CdPlayer/CdFace25.png	124	0	341450
-23	Revelation	Composer & Lyrics: GhostFinal\nVocal: Kinoko Mogu	Assets/Product/Texture/Image/CdPlayer/CdFace28.png	144	0	369672
-24	Last Resort	Written by GhostFinal\nPerformed by Kinoko	Assets/Product/Texture/Image/CdPlayer/CdFace29.png	149	0	320756
-25	Christmas Promise	Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace32.png	216	0	72600
-26	Teahouse Ballad	T-Nymph	Assets/Product/Texture/Image/CdPlayer/CdFace31.png	11	0	108979
-27	Disco Music	GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace34.png	84	0	86846
-28	Summer Azure	Polyblue	Assets/Product/Texture/Image/CdPlayer/CdFace30.png	159	0	124102
-29	Firefly Lullaby	Composed & Arranged by: CoyDE	Assets/Product/Texture/Image/CdPlayer/CdFace33.png	152	0	258571
+Id	Name	Desc	Image	CueId	ExperienceTimeId	Duration	NeedBuy	BgImage
+1	Gray Raven	G.K/Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace5.png	1		90290	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace5.png
+2	Revival	T-nymph	Assets/Product/Texture/Image/CdPlayer/CdFace6.png	26		118125	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace6.png
+3	Narwhal Pt.1	Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace1.png	10		100869	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace1.png
+4	C.O.R.E. Pt.1	Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace2.png	12		96000	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace2.png
+5	Dust Pt.1	GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace3.png	15		116619	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace3.png
+6	Night Sailing	Anti-General	Assets/Product/Texture/Image/CdPlayer/CdFace4.png	18		95511	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace4.png
+7	Rebirth From Huaxu	Anti-General	Assets/Product/Texture/Image/CdPlayer/CdFace7.png	27		96013	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace7.png
+8	Waterland	RabbitJ	Assets/Product/Texture/Image/CdPlayer/CdFace8.png	32		76800	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace8.png
+9	Narwhal-Abysm	Moto	Assets/Product/Texture/Image/CdPlayer/CdFace9.png	33		118260	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace9.png
+10	Reverse	Moto	Assets/Product/Texture/Image/CdPlayer/CdFace10.png	37		120000	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace10.png
+11	Dis┬rient	Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace11.png	45		79000	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace11.png
+12	Wraith Reborn	GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace13.png	52		127643	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace13.png
+13	Endless Trick	GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace14.png	55		110400	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace14.png
+14	Dancing tonight	Producer: Vanguard Sound  Composer: Rabbit J  Lyrics & Vocal: Xia Tongzi	Assets/Product/Texture/Image/CdPlayer/CdFace15.png	56		108270	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace15.png
+15	In Scription Of Labyrinth	Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace16.png	60		110666	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace16.png
+16	LAMIA	GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace17.png	62		110714	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace17.png
+17	Edenis	MEI	Assets/Product/Texture/Image/CdPlayer/CdFace19.png	65		140000	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace19.png
+18	Gaze of Wind	Composer: GhostFinal  Arranged by: MEI & GhostFinal  Lyrics: Mira.Z\nVocal: Miku Ito  Instrument: LCC & GhostFinal  Producer: Vanguard Sound	Assets/Product/Texture/Image/CdPlayer/CdFace20.png	71		169000	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace20.png
+19	Sie liebten sich beide	Music Composer: LCC  Arranged by: LCC ＆ moto\nLyrics: Heinrich Heine  Vocal: Ji Yunhui	Assets/Product/Texture/Image/CdPlayer/CdFace22.png	83		177198	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace22.png
+20	Lullaby	Manager: Pulao  Audio Engineer: Talic  Music Composer: Xin\nProducer: Vanguard Sound  Artist: Shan Kui You	Assets/Product/Texture/Image/CdPlayer/CdFace24.png	100		236133	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace24.png
+21	Against the Current	"Composer: Polyblue\nLyrics & Flow: Neko, Hideyo Noguchi  Vocal: Shogo Batori"	Assets/Product/Texture/Image/CdPlayer/CdFace23.png	99		171000	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace23.png
+22	NANAMI IKIMASU	Composer: Super.Yy & Polyblue\nProduction: Vanguard Sound & Kuro Games	Assets/Product/Texture/Image/CdPlayer/CdFace25.png	124		341450	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace25.png
+23	Revelation	Composer & Lyrics: GhostFinal\nVocal: Kinoko Mogu	Assets/Product/Texture/Image/CdPlayer/CdFace28.png	144		369672	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace28.png
+24	Last Resort	Written by GhostFinal\nPerformed by Kinoko	Assets/Product/Texture/Image/CdPlayer/CdFace29.png	149		320756	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace29.png
+25	Christmas Promise	Haloweak	Assets/Product/Texture/Image/CdPlayer/CdFace32.png	216		72600	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace32.png
+26	Teahouse Ballad	T-Nymph	Assets/Product/Texture/Image/CdPlayer/CdFace31.png	11		108979	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace31.png
+27	Disco Music	GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace34.png	84		86846	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace34.png
+28	Summer Azure	Polyblue	Assets/Product/Texture/Image/CdPlayer/CdFace30.png	159		124102	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace30.png
+29	Firefly Lullaby	Composed & Arranged by: CoyDE	Assets/Product/Texture/Image/CdPlayer/CdFace33.png	152		258571	0	Assets/Product/Texture/Image/CdPlayer/BgCdFace33.png
+30	Moon	Composed by: Haloweak  Arranged by: Haloweak   Lyrics: Xia Tongzi  Vocal: Xia Tongzi	Assets/Product/Texture/Image/CdPlayer/CdFace39.png	177		278000	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace39.png
+31	Above the Summer	Composed by: ANK (Sugar & Co.)  Lyrics: Xiong Zi (Sugar & Co.)  Vocal: Xiong Zi (Sugar & Co.)	Assets/Product/Texture/Image/CdPlayer/CdFace40.png	1700029		204295	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace40.png
+32	Hikari	Composed by: GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace41.png	134		132650	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace41.png
+33	ECHOING	"Composed and Arranged by: Zhou Chun  Lyrics: Zhou Chun, Roland L.  Vocal: Liu Zhixiao"	Assets/Product/Texture/Image/CdPlayer/CdFace42.png	138		210524	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace42.png
+34	Circulation	Composed and Arranged by: Zhou Chun	Assets/Product/Texture/Image/CdPlayer/CdFace43.png	137		214615	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace43.png
+35	Akdilek	Composed by: GhostFinal	Assets/Product/Texture/Image/CdPlayer/CdFace44.png	14		147042	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace44.png
+36	Over the Glen	Composed by: LCC  Arranged by: LCC & moto	Assets/Product/Texture/Image/CdPlayer/CdFace45.png	81		86846	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace45.png
+37	Slumberland	Tony	Assets/Product/Texture/Image/CdPlayer/CdFace46.png	163		113102	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace46.png
+38	Shattered Doll	Tony	Assets/Product/Texture/Image/CdPlayer/CdFace47.png	165		82990	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace47.png
+39	New Year	T_Nymph	Assets/Product/Texture/Image/CdPlayer/CdFace48.png	11		108979	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace48.png
+40	Her Dreams	Composed by: Li Yi  Arranged by: Shan Kui You  Vocal: Mangosteen  Vocal: Sui Hua	Assets/Product/Texture/Image/CdPlayer/CdFace38.png	139		267242	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace38.png
+41	Feel The Vibe	MeLo	Assets/Product/Texture/Image/CdPlayer/CdFace56.png	233	15401	171844	1	Assets/Product/Texture/Image/CdPlayer/BgCdFace56.png

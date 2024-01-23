@@ -449,14 +449,14 @@ Id	Name	Icon	Description
 2240184	Rerun II	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon21071.png	8 Reruns Owned
 2240185	Rerun III	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon21072.png	"5 Reruns owned. Commandant, you are recommended to upgrade Truth Unveil before challenging again."
 2240186	Rerun IV	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon21073.png	"3 Reruns owned. Commandant, you are recommended to upgrade Truth Unveil before challenging again."
-2240187	Exhausted III	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon12001.png	Enemies' HP decreases by 85%
-2240188	Exhausted II	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon12001.png	Enemies' HP decreases by 65%
-2240189	Exhausted I	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon12002.png	Enemies' HP decreases by 30%
-2240190	HP Boost I	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon12003.png	Enemies' HP increases by 40%
+2240187	Exhausted III	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon12001.png	Enemy HP -90%
+2240188	Exhausted II	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon12001.png	Enemy HP -75%
+2240189	Exhausted I	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon12002.png	Enemy HP -50%
+2240190	HP	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon12003.png	Enemy HP remains normal.
 2240191	Weakened II	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon21011.png	Enemies' ATK decreases by 65%
 2240192	Weakened I	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon21011.png	Enemies' ATK decreases by 30%
-2240193	ATK Boost I	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon21012.png	Enemies' ATK increases by 70%
-2240194	ATK Boost II	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon21013.png	Enemies' ATK increases by 150%
+2240193	ATK	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon21012.png	Enemy ATK remains normal.
+2240194	ATK Boost I	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon21013.png	Enemy ATK +70%
 2240195	Berserk I	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon11040.png	The enemy's attacking desire increases by 33%. When dealing DMG, has a 20% chance to deal 33% Extra DMG.
 2240196	Berserk II	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon11041.png	The enemy's attacking desire increases by 66%. When dealing DMG, has a 40% chance to deal 33% Extra DMG.
 2240197	Black Hole II	Assets/Product/Texture/Image/UiBabelTower/UiBabelTowerChallengeIcon22130.png	Periodically leaves a black hole with moderate gravitational pull at your location.
@@ -572,3 +572,7 @@ Id	Name	Icon	Description
 12170251	Meteor	Assets/Product/Texture/Image/IconAffix/AffixIconYiran.png	The Dragon periodically summons a meteor to fall upon the player.
 12170311	Falling Star	Assets/Product/Texture/Image/IconAffix/AffixIconKangyuansu.png	The character periodically summons 5 meteors nearby to deal damage to all units within range.
 12180101	Bio-Bird	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	The Bio-Bird lurks in the field and attacks those who approach.
+761530	Scorch	Assets/Product/Texture/Image/IconAffix/AffixIconKanghuo2.png	Attacks will also inflict Burn, dealing Fire DMG equal to 10% ATK every second to the target for 10s.
+761534	Frost	Assets/Product/Texture/Image/IconAffix/AffixIconKangbing2.png	Attacks will also deal Ice DMG equal to 30% ATK and reduce the target's speed by 30% for 10s.
+761537	Lightning Strike	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei2.png	Attacks will also deal Lightning DMG equal to 30% ATK and reduce the target's ATK by 30% for 10s.
+761540	Dark Corruption	Assets/Product/Texture/Image/IconAffix/AffixIconKangan2.png	Attacks will also deal Dark DMG equal to 50% ATK and reduce the target's healing by 30% for 10s.

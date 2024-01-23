@@ -15,6 +15,7 @@ Id	Name	Priority	Hint	Condition[1]	Condition[2]	Condition[3]	Type
 106	Member - Transcendant	10	1	8005			1
 107	Members - Skill Leap	11	1				1
 108	Members - Uniframe Leap	11	1				1
+109	Member - Awaken	11	0	8001			1
 201	Equip	11	1				1
 202	Equipment - Enhance	12	1				1
 203	Equipment - Resonance	13	1				1
@@ -40,6 +41,7 @@ Id	Name	Priority	Hint	Condition[1]	Condition[2]	Condition[3]	Type
 802	Chat Channel	29	0	770700			1
 901	Foundations - Floor Equipment	30	0	770800			1
 902	Dormitory	31	1	770900			1
+903	Dormitory Commission	32	1	770900			1
 1001	Regular Shop	32	1	771000			1
 1002	Event Shop	33	1	771100			1
 1003	Voucher Shop - Voucher Exchange	34	1	771000			1
@@ -140,7 +142,7 @@ Id	Name	Priority	Hint	Condition[1]	Condition[2]	Condition[3]	Type
 10348	Audio Puzzle	72	0	774800			1
 10349	Server Final Battle	73	0	84601200			1
 10350	Ultimate Brawl	59	0	84601800			1
-10351	Memory Rescue	53	0	601000			1
+10351	Memory Rescue - Gameplay	53	0	774800			1
 10352	Floating Record	124	0	30406			1
 10401	Resource Mission	33	0	772800			1
 10402	Resource - N/A 1	34	0	772500			1
@@ -195,4 +197,10 @@ Id	Name	Priority	Hint	Condition[1]	Condition[2]	Condition[3]	Type
 10433	Alternative Interpretation - Cursed Waves	70	1	1005045			1
 10434	Summer Thoughts	123	0	30404			1
 10435	For Beginning Player	1	1	770100			1
+10436	Arcade Anima	1	1	10436000			1
+10437	Simulacrum Submersion	1	1	84601800			1
+10439	Blazing Trails	1	0	774800			1
+10438	Palette Clash	47	0	860742			1
+10440	Sequence Pact	124	1	841207			1
+10442	Coating Name Voting Event	1	0	774800			1
 10353	Weekly Mission	56	0	30406			1

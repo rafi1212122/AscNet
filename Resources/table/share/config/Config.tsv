@@ -18,7 +18,8 @@ EquipDecomposeReturnRate	int	7000
 ResonanceLockMinStar	int	5
 FubenDifficultNormal	int	1
 FubenDifficultHard	int	2
-FubenDifficultNightmare	int	3
+FubenDifficultVariations	int	3
+FubenDifficultNightmare	int	100
 FubenStageStarNum	int	3
 FubenNotGetTreasure	int	0
 FubenGetTreasure	int	1
@@ -177,6 +178,7 @@ DormMaxCreateCount	int	100
 DormMaxPutFurnitureCount	int	150
 DormRemoveFurnitureOrder	string	25011|25012|25010|25009|25008|25013|25007|25006|25004|25005
 DormMaxRecycleCount	int	200
+DormMaxTotalFurnitureCount	int	8000
 TrustGameCount	int	3
 TrustGameReadySecond	int	3
 TrustGameWaitForNextSecond	int	3
@@ -337,4 +339,14 @@ AssistantNum	int	5
 GuildSearchCd	int	3
 PlayerSearchCd	int	3
 ApplyFriendDailyLimit	int	50
+GuildSignGuaranteeMin	int	10
+GuildSignGuaranteeMax	int	14
+GuildSignGuaranteeId	int	1
+GuildOfflineDays	int	90
+SpecialTrainCubeTeamRankMax	int	5910003
+BrilliantWalkInitEnergy	int	5
+CharacterSuperLiberateLv	int	5
+HigherLiberateLvMagicId	string	199954|199956|199955
+AnniversaryScoreTitleCharacterLiberateLv	int	4
+GuildBossTempBanTimeId	int	14903
 PurchasePayLockGoodsTime	float	15

@@ -64,6 +64,8 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 4023	After healing, Dark DMG of Signature Moves is increased by 30% for both the healer and the healed unit.		740905											
 4024	(Placeholder)		778801											
 4025	Increases CRIT Rate and CRIT DMG every time upon entering Matrix		778805											
+4026	Lee: Hyperreal Placeholder		763833											
+4027	Ayla War Zone		763859											
 11001	During Simulation, HP of enemies increases by 15%.						770000							
 11002	During Simulation, HP of enemies increases by 30%.						770001							
 11003	During Simulation, HP of enemies increases by 45%.						770002							
@@ -381,6 +383,14 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 35201	Execution Resistance Rate +10%		740983											
 35202	Execution Resistance Rate +20%		740984											
 35203	Execution Resistance Rate +30%		740985											
+35204	The Corrupted will explode after being defeated.						777126							
+35205	Add an additional boss to interfere and attack the player.		777130											
+35206	The boss gains Radiation and Burn.						777127							
+35207	Immune to Matrix.		777129				777128							
+35208	Gain 2 sets of Signal Orbs after performing a Uniframe's Finishing Move.		777131											
+35209	After performing Speed Attack, the character's ATK increases for 10s.		777132											
+35210	Character restore 15% of Max HP after performing the Uniframe's Finishing Move.		777134											
+35211	Bloodlust Effect						777146							
 40000	Extra DMG Bonus increases by 8%		761138											
 40001	Extra DMG Bonus increases by 16%		761139											
 40002	Extra DMG Bonus increases by 24%		761140											
@@ -910,6 +920,54 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 50922	Extra DMG Bonus increases by 3%.		761163											
 50923	Extra DMG Bonus increases by 3%.		761163											
 50924	Extra DMG Bonus increases by 3%.		761163											
+51101	Extra DMG Bonus increases by 3%.		761163											
+51102	Extra DMG Bonus increases by 3%.		761163											
+51103	Extra DMG Bonus increases by 3%.		761163											
+51104	Extra DMG Bonus increases by 3%.		761163											
+51105	All characters have Super Armor permanently.		701047											
+51106	Extra DMG Bonus increases by 3%.		761163											
+51107	Extra DMG Bonus increases by 3%.		761163											
+51108	Extra DMG Bonus increases by 3%.		761163											
+51109	Extra DMG Bonus increases by 3%.		761163											
+51110	Summons a black hole that pulls in enemies every 5s.		701048											
+51111	Extra DMG Bonus increases by 3%.		761163											
+51112	Extra DMG Bonus increases by 3%.		761163											
+51113	Extra DMG Bonus increases by 3%.		761163											
+51114	Extra DMG Bonus increases by 3%.		761163											
+51115	Gains 3 Orbs of the same color every 10s.		701049											
+51116	Extra DMG Bonus increases by 3%.		761163											
+51117	Extra DMG Bonus increases by 3%.		761163											
+51118	Extra DMG Bonus increases by 3%.		761163											
+51119	Extra DMG Bonus increases by 3%.		761163											
+51120	All members have infinite Energy.		701050											
+51121	Extra DMG Bonus increases by 3%.		761163											
+51122	Extra DMG Bonus increases by 3%.		761163											
+51123	Extra DMG Bonus increases by 3%.		761163											
+51124	Extra DMG Bonus increases by 3%.		761163											
+51201	Extra DMG Bonus increases by 3%.		761163											
+51202	Extra DMG Bonus increases by 3%.		761163											
+51203	Extra DMG Bonus increases by 3%.		761163											
+51204	Extra DMG Bonus increases by 3%.		761163											
+51205	All characters have Super Armor permanently.		701047											
+51206	Extra DMG Bonus increases by 3%.		761163											
+51207	Extra DMG Bonus increases by 3%.		761163											
+51208	Extra DMG Bonus increases by 3%.		761163											
+51209	Extra DMG Bonus increases by 3%.		761163											
+51210	Gains 3 Orbs of the same color every 6s.		701048											
+51211	Extra DMG Bonus increases by 3%.		761163											
+51212	Extra DMG Bonus increases by 3%.		761163											
+51213	Extra DMG Bonus increases by 3%.		761163											
+51214	Extra DMG Bonus increases by 3%.		761163											
+51215	All members have infinite Energy.		701049											
+51216	Extra DMG Bonus increases by 3%.		761163											
+51217	Extra DMG Bonus increases by 3%.		761163											
+51218	Extra DMG Bonus increases by 3%.		761163											
+51219	Extra DMG Bonus increases by 3%.		761163											
+51220	Trigger Special Event		701050											
+51221	Extra DMG Bonus increases by 3%.		761163											
+51222	Extra DMG Bonus increases by 3%.		761163											
+51223	Extra DMG Bonus increases by 3%.		761163											
+51224	Extra DMG Bonus increases by 3%.		761163											
 51001	Basic Attack's Extra DMG Bonus increases by 15%.		773000											
 51002	Basic Attack's Extra DMG Bonus increases by 30%.		773001											
 51003	Basic Attack's Extra DMG Bonus increases by 45%.		773002											
@@ -2770,10 +2828,10 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 222811	Nightblade: Recover Two III		773767											
 222812	Nightblade: Recover Two		773768											
 222813	Nightblade: Special		773751											
-222901	Dawn: Core I		773827											
-222902	Dawn: Core II		773828											
-222903	Dawn: Core III		773829											
-222904	Dawn: Core		773830											
+222901	Dawn: Core I		760787											
+222902	Dawn: Core II		760787											
+222903	Dawn: Core III		760787											
+222904	Dawn: Core		760787											
 222905	Dawn: Recover One I		773831											
 222906	Dawn: Recover One II		773832											
 222907	Dawn: Recover One III		773833											
@@ -3108,10 +3166,10 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 225411	Glory: Recover Two III		762776											
 225412	Glory: Recover Two		762777											
 225413	Glory: Special		762769	773507										
-225501	No. 21: Core I		762968	773504										
-225502	No. 21: Core II		762969	773505										
-225503	No. 21: Core III		762970	773506										
-225504	No. 21: Core		762971	773507										
+225501	No. 21: Core I		762968	773504	763807									
+225502	No. 21: Core II		762969	773505	763807									
+225503	No. 21: Core III		762970	773506	763807									
+225504	No. 21: Core		762971	773507	763807									
 225505	No. 21: Recover One I		762972											
 225506	No. 21: Recover One II		762973											
 225507	No. 21: Recover One III		762974											
@@ -3336,6 +3394,207 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2230104	Modification 3.0 Health Delivery						746567							
 2230105	Modification 3.0  Custom Environment Mark (Darts and Beyond Border)		743161											
 2230106	Modification 3.0  Energy Conversion		746594											
+2230200	The Mythic Paradise - Environment Test 1		716131				716131							
+2230201	The Mythic Paradise - Environment Test 2		716132				716132							
+2230202	The Mythic Paradise - Environment Test 3		716133				716133							
+2230203	The Mythic Paradise - Environment Test 4		716134				716134							
+2230204	The Mythic Paradise: The Mythic Paradise Unlocked 2S		778823											
+2230205	The Mythic Paradise: Revive After Death		778824											
+2230206	The Mythic Paradise: HP of Other Characters Increase by 30% of Own		778827											
+2230207	The Mythic Paradise: ATK of Other Characters Increase by 30% of Own		778828											
+2230208	The Mythic Paradise: Tank Basic Bonus Shield		778829	778832										
+2230209	The Mythic Paradise: Healing Boost Basic		778835											
+2230210	The Mythic Paradise: Press and Hold Attack to Gain Orb		778840											
+2230211	The Mythic Paradise: Press and Hold Dodge to Gain DMG Bonus		778894											
+2230212	The Mythic Paradise: Share DMG		778841											
+2230213	The Mythic Paradise: Blue Orb Signature Change		778845											
+2230214	The Mythic Paradise: Red Orb Signature Change		778846											
+2230215	The Mythic Paradise: Yellow Orb Signature Change		778847											
+2230216	The Mythic Paradise: Death Bomb		763828				778852							
+2230217	The Mythic Paradise: Killing Enemy Enhancement		763829				778854							
+2230218	The Mythic Paradise: Might Bonus DMG		778857											
+2230219	The Mythic Paradise: Might CRIT Rate		778858											
+2230220	The Mythic Paradise: Health Radiation		778860				778859							
+2230221	The Mythic Paradise: Health Regen		778861											
+2230222	The Mythic Paradise: Perseverance Reflect DMG		778862	778863										
+2230223	The Mythic Paradise: Perseverance Chance of Invincibility		778865	778889										
+2230224	The Mythic Paradise: Energy Extra DMG		778866											
+2230225	The Mythic Paradise: Camu Core		778871	778892										
+2230226	The Mythic Paradise: Arclight Core		778874											
+2230227	The Mythic Paradise: Ayla Core		778876											
+2230228	The Mythic Paradise: Changyu Core		778878	778879	778880									
+2230229	The Mythic Paradise: Blast Core		778881	778882	778883	778884								
+2230230	The Mythic Paradise: Lux Core		778886	778888										
+2230231	The Mythic Paradise: Storm Core		763800											
+2230232	The Mythic Paradise: No. 21 Core		763807											
+2230233	The Mythic Paradise: Roland Core		760703											
+2230234	The Mythic Paradise: Roland Compensation 1		760705											
+2230235	The Mythic Paradise: Roland Compensation 2		760707											
+2230236	The Mythic Paradise: Empyrea Exclusive		760710											
+2230237	The Mythic Paradise: Empyrea Compensation 1		760711											
+2230238	The Mythic Paradise: Empyrea Compensation 2		760713											
+2230239	The Mythic Paradise: Pulao Exclusive		760714											
+2230240	The Mythic Paradise: Pulao Compensation 1		760716											
+2230241	The Mythic Paradise: Pulao Compensation 2		760718											
+2230242	The Mythic Paradise: Starfarer Exclusive		760719											
+2230243	The Mythic Paradise: Starfarer Compensation 1		760720											
+2230244	The Mythic Paradise: Starfarer Compensation 2		760721											
+2230245	The Mythic Paradise: Haicma Exclusive		760724											
+2230246	The Mythic Paradise: Haicma Compensation 1		760726											
+2230247	The Mythic Paradise: Haicma Compensation 2		760728											
+2230248	The Mythic Paradise: Scire Exclusive		760730											
+2230249	The Mythic Paradise: Scire Compensation 1		760733											
+2230250	The Mythic Paradise: Scire Compensation 2		760738											
+2230251	The Mythic Paradise: Noan Exclusive		760743											
+2230252	The Mythic Paradise: Noan Compensation 1		760744											
+2230253	The Mythic Paradise: Noan Compensation 2		760746											
+2230254	The Mythic Paradise: Stigmata Exclusive		760747	763811										
+2230255	The Mythic Paradise: Stigmata Compensation 1		760748											
+2230256	The Mythic Paradise: Stigmata Compensation 2		760750											
+2230257	The Mythic Paradise: Capriccio Focus		760752											
+2230258	The Mythic Paradise: Capriccio Compensation 1		760754											
+2230259	The Mythic Paradise: Capriccio Compensation 2		760756											
+2230260	The Mythic Paradise: Attacker Common		763808											
+2230261	ATK B		763951	763932										
+2230262	ATK A		763950	763931										
+2230263	ATK S		763949	763930										
+2230264	CRIT DMG B		763948	763929										
+2230265	CRIT DMG A		763947	763928										
+2230266	CRIT DMG S		763946	763927										
+2230267	Amplify Elemental DMG B		763945	763926										
+2230268	Amplify Elemental DMG A		763944	763925										
+2230269	Amplify Elemental DMG S		763943	763924										
+2230270	HP B		763942	763923										
+2230271	HP A		763941	763922										
+2230272	HP S		763940	763921										
+2230273	DMG Reduction B		763939	763920										
+2230274	DMG Reduction A		763938	763919										
+2230275	DMG Reduction S		763937	763918										
+2230276	Healing Efficiency B		763936	763917										
+2230277	Healing Efficiency A		763935	763916										
+2230278	Healing Efficiency S		763934	763915										
+2230279	Crimson Abyss New Core		760763											
+2230280	Crimson Abyss New Core		760763											
+2230281	Crimson Abyss New Core		760763											
+2230282	Crimson Abyss New Core		760763											
+2230283	Crimson Abyss New Compensation 2		760769	763819										
+2230284	Crimson Abyss New Compensation 2		760769	763819										
+2230285	Crimson Abyss New Compensation 2		760769	763819										
+2230286	Crimson Abyss New Compensation 2		760769	763819										
+2230287	Vera: Rozen New Core		760770											
+2230288	Vera: Rozen New Core		760770											
+2230289	Vera: Rozen New Core		760770											
+2230290	Vera: Rozen New Core		760770											
+2230291	Vera: Rozen New Compensation 2		760774											
+2230292	Vera: Rozen New Compensation 2		760774											
+2230293	Vera: Rozen New Compensation 2		760774											
+2230294	Vera: Rozen New Compensation 2		760774											
+2230295	Qu New Core		760777											
+2230296	Qu New Core		760777											
+2230297	Qu New Core		760777											
+2230298	Qu New Core		760777											
+2230299	Lee: Hyperreal New Core		760779											
+2230300	Lee: Hyperreal New Core		760779											
+2230301	Lee: Hyperreal New Core		760779											
+2230302	Lee: Hyperreal New Core		760779											
+2230303	Luna New Core		760783											
+2230304	Luna New Core		760783											
+2230305	Luna New Core		760783											
+2230306	Luna New Core		760783											
+2230307	Garnet New Core		760790											
+2230308	Garnet New Core		760790											
+2230309	Garnet New Core		760790											
+2230310	Garnet New Core		760790											
+2230311	Plume New Core		760836	763821										
+2230312	Plume New Core		760836	763821										
+2230313	Plume New Core		760836	763821										
+2230314	Plume New Core		760836	763821										
+2230315	Plume New Compensation 1		760797											
+2230316	Plume New Compensation 1		760797											
+2230317	Plume New Compensation 1		760797											
+2230318	Plume New Compensation 1		760797											
+2230319	Plume New Compensation 2		760794											
+2230320	Plume New Compensation 2		760794											
+2230321	Plume New Compensation 2		760794											
+2230322	Plume New Compensation 2		760794											
+2230323	Tempest New Core		760837											
+2230324	Tempest New Core		760837											
+2230325	Tempest New Core		760837											
+2230326	Tempest New Core		760837											
+2230327	Rosetta New Core		760810											
+2230328	Rosetta New Core		760810											
+2230329	Rosetta New Core		760810											
+2230330	Rosetta New Core		760810											
+2230331	Glory New Core		760804											
+2230332	Glory New Core		760804											
+2230333	Glory New Core		760804											
+2230334	Glory New Core		760804											
+2230335	Glory New Compensation 1		760805											
+2230336	Glory New Compensation 1		760805											
+2230337	Glory New Compensation 1		760805											
+2230338	Glory New Compensation 1		760805											
+2230339	Glory New Compensation 2		760806											
+2230340	Glory New Compensation 2		760806											
+2230341	Glory New Compensation 2		760806											
+2230342	Glory New Compensation 2		760806											
+2230343	Tenebrion New Core		760813											
+2230344	Tenebrion New Core		760813											
+2230345	Tenebrion New Core		760813											
+2230346	Tenebrion New Core		760813											
+2230347	Tenebrion New Compensation 1		760816											
+2230348	Tenebrion New Compensation 1		760816											
+2230349	Tenebrion New Compensation 1		760816											
+2230350	Tenebrion New Compensation 1		760816											
+2230351	Ember New Core		760818	763815										
+2230352	Ember New Core		760818	763815										
+2230353	Ember New Core		760818	763815										
+2230354	Ember New Core		760818	763815										
+2230355	Veritas New Core		760822	760824										
+2230356	Veritas New Core		760822	760824										
+2230357	Veritas New Core		760822	760824										
+2230358	Veritas New Core		760822	760824										
+2230359	Veritas New Compensation 1		760825											
+2230360	Veritas New Compensation 1		760825											
+2230361	Veritas New Compensation 1		760825											
+2230362	Veritas New Compensation 1		760825											
+2230363	Entropy New Core		760826											
+2230364	Entropy New Core		760826											
+2230365	Entropy New Core		760826											
+2230366	Entropy New Core		760826											
+2230367	Luminance New Core		760830											
+2230368	Luminance New Core		760830											
+2230369	Luminance New Core		760830											
+2230370	Luminance New Core		760830											
+2230371	Astral New Core		760838											
+2230372	Astral New Core		760838											
+2230373	Astral New Core		760838											
+2230374	Astral New Core		760838											
+2230375	Extra DMG		763914	763911										
+2230376	Extra DMG		763913	763910										
+2230377	Extra DMG		763912	763909										
+2230378	Starting Energy		763826											
+2230379	Bambinata Core		760842											
+2230380	Bambinata Compensation 1		760844											
+2230381	Bambinata Compensation 2		760845											
+2230382	Lee: Hyperreal Core		760852											
+2230383	Lee: Hyperreal Compensation 1		760849											
+2230384	Lee: Hyperreal Compensation 2		760851											
+2230500	The Mythic Paradise: Global HP Bonus						761500							
+2230501	The Mythic Paradise Might		762299											
+2230502	The Mythic Paradise Stamina		762298											
+2230503	The Mythic Paradise Perseverance		762297											
+2230504	The Mythic Paradise Focus		762296											
+2230505	The Mythic Paradise Buff Configuration		740961											
+2230506	The Mythic Paradise: Global Attack Bonus						761501							
+2230507	The Mythic Paradise - Scorching Hot Environment		716131				716131							
+2230508	The Mythic Paradise - Arctic Environment		716132				716132							
+2230509	The Mythic Paradise - Lightning Bug Environment		716133				716133							
+2230510	The Mythic Paradise - Corrosion Environment		716134				716134							
+2230511	The Mythic Paradise - Flexibility Environment						716135							
+2230512	The Mythic Paradise - Fluctuating Environment						716136							
+2230513	The Mythic Paradise - Charged Environment						716137							
+2230514	The Mythic Paradise - Night-blind Environment						716138							
+2230515	The Mythic Paradise - Character Signature Immune to Slow		761547											
 2240001	2-Year Anniversary Roguelike - Sky Fire Lineup - Basic Attack Skill Lv.1		778301											
 2240002	2-Year Anniversary Roguelike - Sky Fire Lineup - Basic Attack Skill Lv.2		778302											
 2240003	2-Year Anniversary Roguelike - Sky Fire Lineup - Basic Attack Skill Lv.3		778303											
@@ -3944,5 +4203,84 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2250707	Roguelike 2.0 - Dialogue - Story Stage Dialogue - Siren		763707											
 2250708	Roguelike 2.0 - Dialogue - Story Stage Dialogue - Cradle		763708											
 2250709	Roguelike 2.0 - Dialogue - Story Stage Dialogue - Moon Eater		763709											
+2250710	Roguelike 2.0 - Bond - Faction Bond - WGAA Lv.3 - Character Deals 25% Extra DMG for Each Different Weapon		747994											
+2260101	Nightblade enters Matrix upon a successful backstab. 10s cooldown (unlocked at Origins Contract Lv.1).		763751											
+2260102	Nightblade's backstab deals 50% more DMG (unlocked at Origins Contract Lv.3).		763752											
+2260103	Nightblade gains a set of Blue Orbs after a Yellow Orb 3-Ping, and a set of Red Orbs after a Blue Orb 3-Ping (unlocked at Origins Contract Lv.5).		763754											
+2260201	Crimson Abyss recovers orbs 100% faster from Basic Attacks (unlocked at Origins Contract Lv.1).		763755											
+2260202	Crimson Abyss enters Matrix upon leaving Blade Will Form (unlocked at Origins Contract Lv.3).		763756											
+2260203	When Crimson Abyss uses a Blade Will Orb, she has a 50% chance to gain another Blade Will Orb (unlocked at Origins Contract Lv.5).		763757											
+2260301	Gigabyte Star Strike will trigger Matrix and realign Signal Orbs (unlocked at Origins Contract Lv.1).		763755											
+2260302	Each "Perfect!" and "Oops! Missed It!" will generate 3 and 1 Signal Orb respectively (unlocked at Origins Contract Lv.2).		763756											
+2260303	Gigabyte Star Strike will grant 9 Signature Energy for each orb (unlocked at Origins Contract Lv.3).		763757											
 2250084	Roguelike 2.0 - Bond - Faction Bond - Egret's Old Pact - Rank 1 - 200 Dodge Gauge + Dodge triggers Healing Aura		747919											
 2250085	Roguelike 2.0 - Bond - Faction Bond - Egret's Old Pact - Rank 2 - 400 Dodge Gauge + Healing Aura boosts the DMG Bonus effect		747923											
+2250086	Roguelike 2.0 - Bond - Faction Bond - Lee: Hyperreal - Rank 1 - Single Hyper Space Strike		930778											
+2250087	Roguelike 2.0 - Bond - Faction Bond - Lee: Hyperreal - Rank 2 - 3 Hyper Space Strikes		930779											
+2250088	Spectroscopic Binary Star Phase 4 Attacker Skill		199910	763449	776372	715275								
+2250089	Spectroscopic Binary Star Phase 4 Tank Skill		199910	763449	776375	715275								
+2250090	Spectroscopic Binary Star Phase 4 Support Skill		199910	763449	776382	715275								
+2270101	For each [Hypertuned Memory] equipped in Grid 1 by any character, a 1% Extra DMG Bonus will be granted at the start of battle.		763745											
+2270102	For each [Hypertuned Memory] equipped in Grid 2 by any character, a 1% Extra DMG Bonus will be granted at the start of battle.		763746											
+2270103	For each [Hypertuned Memory] equipped in Grid 3 by any character, a 1% Extra DMG Bonus will be granted at the start of battle.		763747											
+2270104	For each [Hypertuned Memory] equipped in Grid 4 by any character, a 1% Extra DMG Bonus will be granted at the start of battle.		763748											
+2270105	For each [Hypertuned Memory] equipped in Grid 5 by any character, a 1% Extra DMG Bonus will be granted at the start of battle.		763749											
+2270106	For each [Hypertuned Memory] equipped in Grid 6 by any character, a 1% Extra DMG Bonus will be granted at the start of battle.		763750											
+2270107	Eradicate the red virus mark - posted to the player		771211											
+2270108	Eradicate the green virus mark - posted to the player		771212											
+2270109	Eradicate the blue virus mark - posted to the player		771213											
+2270111	Blazing Trails - Fistblade module mark		851400	851452										
+2270112	Blazing Trails - light cannon module mark		851401	851453										
+2270113	Blazing Trails - Focus Energy passive 1		851403											
+2270114	Blazing Trails - Focus Energy passive 1 perk 1		851404											
+2270115	Blazing Trails - Focus Energy passive 1 perk 2		851405											
+2270116	Blazing Trails - Focus Energy passive 2		851406											
+2270117	Blazing Trails - Focus Energy passive 2 perk 1		851407											
+2270118	Blazing Trails - Focus Energy passive 2 perk 2		851408											
+2270119	Blazing Trails - Double Protocol passive 1		851409											
+2270120	Blazing Trails - Double Protocol passive 1 perk 1		851410											
+2270121	Blazing Trails - Double Protocol passive 1 perk 2		851411											
+2270122	Blazing Trails - Double Protocol passive 2		851412											
+2270123	Blazing Trails - Double Protocol passive 2 perk 1		851413											
+2270124	Blazing Trails - Double Protocol passive 2 perk 2		851414											
+2270125	Blazing Trails - Block		851415											
+2270126	Blazing Trails - Block perk 1		851416											
+2270127	Blazing Trails - Block perk 2		851417											
+2270128	Blazing Trails - Block perk 3		851418											
+2270129	Blazing Trails - Bullet Punch		851420											
+2270130	Blazing Trails - Bullet Punch perk 1		851421											
+2270131	Blazing Trails - Bullet Punch perk 2		851422											
+2270132	Blazing Trails - Bullet Punch perk 3		851423											
+2270133	Blazing Trails - Rising Punch		851425											
+2270134	Blazing Trails - Rising Punch perk 1		851426											
+2270135	Blazing Trails - Rising Punch perk 2		851427											
+2270136	Blazing Trails - Rising Punch perk 3		851428											
+2270137	Blazing Trails - Red Orb		851430											
+2270138	Blazing Trails - Red Orb perk 1		851431											
+2270139	Blazing Trails - Red Orb perk 2		851432											
+2270140	Blazing Trails - Red Orb perk 3		851433											
+2270141	Blazing Trails - Yellow Orb		851435											
+2270142	Blazing Trails - Yellow Orb perk 1		851436											
+2270143	Blazing Trails - Yellow Orb perk 2		851437											
+2270144	Blazing Trails - Yellow Orb perk 3		851438											
+2270145	Blazing Trails - Blue Orb		851440											
+2270146	Blazing Trails - Blue Orb perk 1		851441											
+2270147	Blazing Trails - Blue Orb perk 2		851442											
+2270148	Blazing Trails - Blue Orb perk 3		851443											
+2270149	Blazing Trails - Signature module - Mega Punch		851490	851454										
+2270150	Blazing Trails - Signature module - Fist Slam		851491	851454										
+2270151	Blazing Trails - Signature module - Power Beam		851492	851454										
+2270152	Blazing Trails - Signature module - Mega Blade		851493	851454										
+2270153	Babel Tower - Crimson Abyss - Might Affix						819097	819079						
+2270154	Babel Tower - Crimson Abyss - Real Might Affix						819090							
+2270155	Babel Tower - Maid - Soul Meltdown I Affix						854816							
+2270156	Babel Tower - Maid - Soul Meltdown II Affix						854817							
+2270157	Babel Tower - Negative toward allies - Precise Planning - β - Lv.1		777143											
+2270158	Babel Tower - Negative toward allies - Precise Planning - β - Lv.2		777144											
+2270159	Babel Tower - Negative toward allies - Precise Planning - β - Lv.3		777145											
+2270160	Blazing Trails - Focus Energy module		851450											
+2270161	Blazing Trails - Double Protocol module		851451											
+2270162	Enemies' Extra DMG Reduction increases by 30% when taking DMG farther than 4m.						777147							
+2270163	Enemies' Extra DMG Reduction increases by 45% when taking DMG farther than 4m.						777148							
+2270164	Enemies' Extra DMG Reduction increases by 60% when taking DMG farther than 4m.						777149							
+2270165	Babel Tower New Domination						777156							

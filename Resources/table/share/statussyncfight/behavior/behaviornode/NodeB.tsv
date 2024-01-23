@@ -1,0 +1,77 @@
+Id	Type	Negative	Name	Param	Children[1]	Children[2]	Children[3]	Children[4]	Children[5]	Children[6]	Children[7]	Children[8]	Children[9]	Children[10]	Children[11]	Children[12]	Children[13]	Children[14]	Children[15]	Children[16]	Children[17]	Children[18]	Children[19]	Children[20]	Children[21]	Children[22]	Children[23]	Children[24]	Children[25]	Children[26]	Children[27]	Children[28]	Children[29]	Children[30]	Children[31]	Children[32]	Children[33]	Children[34]	Children[35]	Children[36]	Children[37]	Children[38]	Children[39]	Children[40]	Children[41]	Children[42]	Children[43]	Children[44]	Children[45]	Children[46]	Children[47]	Children[48]	Children[49]	Children[50]	Children[51]	Children[52]	Children[53]	Children[54]	Children[55]	Children[56]	Children[57]	Children[58]	Children[59]	Children[60]	Children[61]	Children[62]	Children[63]	Children[64]	Children[65]	Children[66]	Children[67]	Children[68]	Children[69]	Children[70]	Children[71]	Children[72]	Children[73]	Children[74]	Children[75]	Children[76]	Children[77]	Children[78]	Children[79]	Children[80]	Children[81]	Children[82]	Children[83]	Children[84]	Children[85]	Children[86]	Children[87]	Children[88]	Children[89]	Children[90]	Children[91]	Children[92]	Children[93]	Children[94]	Children[95]	Children[96]	Children[97]	Children[98]	Children[99]	Children[100]	Children[101]	Children[102]	Children[103]	Children[104]	Children[105]	Children[106]	Children[107]	Children[108]	Children[109]	Children[110]	Children[111]	Children[112]	Children[113]	Children[114]	Children[115]	Children[116]	Children[117]	Children[118]	Children[119]	Children[120]	Children[121]	Children[122]	Children[123]	Children[124]	Children[125]	Children[126]	Children[127]	Children[128]	Children[129]	Children[130]	Children[131]	Children[132]	Children[133]	Children[134]	Children[135]	Children[136]	Children[137]	Children[138]	Children[139]	Children[140]	Children[141]	Children[142]	Children[143]	Children[144]	Children[145]	Children[146]	Children[147]	Children[148]	Children[149]	Children[150]	Children[151]	Children[152]	Children[153]	Children[154]	Children[155]	Children[156]	Children[157]	Children[158]	Children[159]	Children[160]	Children[161]	Children[162]	Children[163]	Children[164]	Children[165]	Children[166]	Children[167]	Children[168]	Children[169]	Children[170]	Children[171]	Children[172]	Children[173]	Children[174]	Children[175]	Children[176]	Children[177]	Children[178]	Children[179]	Children[180]	Children[181]	Children[182]	Children[183]	Children[184]	Children[185]	Children[186]	Children[187]	Children[188]	Children[189]	Children[190]	Children[191]	Children[192]	Children[193]	Children[194]	Children[195]	Children[196]	Children[197]	Children[198]	Children[199]	Children[200]	Children[201]	Children[202]	Children[203]	Children[204]	Children[205]	Children[206]	Children[207]	Children[208]	Children[209]	Children[210]	Children[211]	Children[212]	Children[213]	Children[214]	Children[215]	Children[216]	Children[217]	Children[218]	Children[219]	Children[220]	Children[221]	Children[222]	Children[223]	Children[224]	Children[225]	Children[226]	Children[227]	Children[228]	Children[229]	Children[230]	Children[231]	Children[232]	Children[233]	Children[234]	Children[235]	Children[236]	Children[237]	Children[238]	Children[239]	Children[240]	Children[241]	Children[242]	Children[243]	Children[244]	Children[245]	Children[246]	Children[247]	Children[248]	Children[249]	Children[250]
+-5000	3				110000001	110000002	110000005
+110000001	0		GetSelfNpc	1#2001
+110000002	3				110000003	110000004
+110000003	0		SetInt	2#3000|1
+110000004	0		SetInt	2#4000|0
+110000005	3				110000006	110000007	110000008	110000009	110000010	110000011	110000012	110000013	110000014	110000015	110000016
+110000006	0		SetInt	1#30000|0
+110000007	0		SetFloat	1#30001|0.1
+110000008	0		GetBehaviorTime	1#30002
+110000009	0		SetInt	1#30010|0
+110000010	0		SetFloat	1#30011|3
+110000011	0		GetBehaviorTime	1#30012
+110000012	0		GetPosition	1#30020
+110000013	0		Float3	1#30021|0|0|0.5
+110000014	0		Float3AddFloat3	1#30021|1#30020|1#30021
+110000015	0		SetFloat	1#30022|3
+110000016	0		SetFloat	1#30023|2
+5000	3				110000017	110000036
+110000017	3				110000018	110000021	110000024	110000027	110000030	110000033
+110000018	2				110000019	110000020
+110000019	0		QueryClickKey	14
+110000020	0		SetInt	1#40000|1
+110000021	2				110000022	110000023
+110000022	0		QueryClickKey	15
+110000023	0		SetInt	1#40000|2
+110000024	2				110000025	110000026
+110000025	0		QueryClickKey	16
+110000026	0		SetInt	1#40000|3
+110000027	2				110000028	110000029
+110000028	0		QueryClickKey	17
+110000029	0		SetInt	1#40000|4
+110000030	2				110000031	110000032
+110000031	0		QueryClickKey	18
+110000032	0		SetInt	1#40000|5
+110000033	2				110000034	110000035
+110000034	0		QueryClickKey	19
+110000035	0		SetInt	1#40000|6
+110000036	2				110000037	110000038	110000039	110000049
+110000037	0		CheckInt	2#3000|1|1
+110000038	0		GetPointDistance	1#30020|1#40001|0
+110000039	2				110000040	110000041
+110000040	0		CheckNpcBeHitState	1#30010
+110000041	1				110000042	110000048
+110000042	2				110000043	110000046	110000047
+110000043	2				110000044	110000045
+110000044	0	1	CheckInt	1#30010|13|1
+110000045	0	1	CheckInt	1#30010|0|1
+110000046	0		GetBehaviorTime	1#30012
+110000047	0		SetInt	1#30000|0
+110000048	0		ReturnTrue	
+110000049	2				110000050	110000051
+110000050	0		CheckBehaviorTime	1#30012|1#30011
+110000051	1				110000052	110000057	110000063	110000069
+110000052	2				110000053	110000054	110000055	110000056
+110000053	0		CheckInt	1#30000|0|1
+110000054	0	1	CheckPositionDistance	1#30020|1#30022
+110000055	0		MoveToPosition	1#30020
+110000056	0		SetInt	1#30000|1
+110000057	2				110000058	110000059	110000060	110000061	110000062
+110000058	0		CheckInt	1#30000|1|1
+110000059	0		CheckPositionDistance	1#30020|1#30023
+110000060	0		StopMove	
+110000061	0		GetBehaviorTime	1#30002
+110000062	0		SetInt	1#30000|2
+110000063	2				110000064	110000065	110000066	110000067	110000068
+110000064	0		CheckInt	1#30000|2|1
+110000065	0		CheckBehaviorTime	1#30002|1#30001
+110000066	0		GetBehaviorTime	1#30002
+110000067	0		MoveToPosition	1#30021
+110000068	0		SetInt	1#30000|3
+110000069	2				110000070	110000071	110000072	110000073	110000074
+110000070	0		CheckInt	1#30000|3|1
+110000071	0		CheckBehaviorTime	1#30002|1#30001
+110000072	0		StopMove	
+110000073	0		Debug	Movement ended|1																																																																																																																																																																																																																																																										
+110000074	0		SetInt	1#30000|0

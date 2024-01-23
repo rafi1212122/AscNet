@@ -1,13 +1,15 @@
-Id	Name	NpcId	Desc	RecommendElement[1]	RecommendElement[2]	Icon	Priority	InitQuality	CarryCharacterType	ChipItemId	ChipNeedCount	DefaultLock	GoodsDesc	GoodsWorldDesc	DecomposeItemId[1]	DecomposeItemCount[1]
-16010000	Yuan Ye	4201	Stun	2		Assets/Product/Texture/Image/RolePartner/RolePartnerPet2Niu2.png	10	2	0	201	30				61	150
-16020000	Noctua	4401	Super Armor	5		Assets/Product/Texture/Image/RolePartner/Pet3Xiao2.png	20	2	0	202	30				61	150
-16030000	Toniris	4203	Pull, Charge	4		Assets/Product/Texture/Image/RolePartner/Pet3He2.png	30	3	0	203	30				62	150
-16040000	Frost Oath	4204	Crowd Control, Protection	1		Assets/Product/Texture/Image/RolePartner/Pet3Ma1.png	40	3	0	204	30				62	150
-16050000	Seeshell	4205	Area, Freeze	3		Assets/Product/Texture/Image/RolePartner/Pet2Bei1.png	50	2	0	205	30				61	150
-16060000	Nitor	4206	Damage	2		Assets/Product/Texture/Image/RolePartner/Pet3Mao1.png	60	3	0	206	30				62	150
-16070000	Lingya	4207	DMG	4		Assets/Product/Texture/Image/RolePartner/Pet2Yang1.png	70	2	0	207	30				61	150
-16080000	Boreas	4208	Charge	3		Assets/Product/Texture/Image/RolePartner/Pet3Ying1.png	80	3	0	208	30				62	150
-16090000	Thorny	4209	Charge	1		Assets/Product/Texture/Image/RolePartner/Pet2Ciwei.png	90	2	0	209	30				61	150
-16100000	Jet Jaeger	4210	Slash	2		Assets/Product/Texture/Image/RolePartner/Pet3Hu.png	100	3	0	210	30				62	150
-16110000	Moonhopper	4211	Control	5		Assets/Product/Texture/Image/RolePartner/Pet3Tu1.png	110	3	0	211	30				62	150
-16120000	Shimmer	4212	Pull, Charge	1		Assets/Product/Texture/Image/RolePartner/Pet3Yu1.png	120	3	0	212	30				62	150
+Id	Name	NpcId	Desc	RecommendElement[1]	RecommendElement[2]	Icon	LiHuiPath	Priority	InitQuality	CarryCharacterType	ChipItemId	ChipNeedCount	DefaultLock	GoodsDesc	GoodsWorldDesc	DecomposeItemId[1]	DecomposeItemCount[1]
+16010000	Yuan Ye	4201	Stun	2		Assets/Product/Texture/Image/RolePartner/RolePartnerPet2Niu2.png	Assets/Product/Texture/Image/Pets/Pet2NiuonMd010011.png	10	2	0	201	30				61	150
+16020000	Noctua	4401	Super Armor	5		Assets/Product/Texture/Image/RolePartner/Pet3Xiao2.png	Assets/Product/Texture/Image/Pets/Pet3XiaoonMd010011.png	20	2	0	202	30				61	150
+16030000	Toniris	4203	Pull, Charge	4		Assets/Product/Texture/Image/RolePartner/Pet3He2.png	Assets/Product/Texture/Image/Pets/Pet3HeonMd010011.png	30	3	0	203	30				62	150
+16040000	Frost Oath	4204	Crowd Control, Protection	1		Assets/Product/Texture/Image/RolePartner/Pet3Ma1.png	Assets/Product/Texture/Image/Pets/Pet3MaonMd010011.png	40	3	0	204	30				62	150
+16050000	Seeshell	4205	Area, Freeze	3		Assets/Product/Texture/Image/RolePartner/Pet2Bei1.png	Assets/Product/Texture/Image/Pets/Pet2BeionMd010011.png	50	2	0	205	30				61	150
+16060000	Nitor	4206	Damage	2		Assets/Product/Texture/Image/RolePartner/Pet3Mao1.png	Assets/Product/Texture/Image/Pets/Pet3MaoonMd010011.png	60	3	0	206	30				62	150
+16070000	Lingya	4207	DMG	4		Assets/Product/Texture/Image/RolePartner/Pet2Yang1.png	Assets/Product/Texture/Image/Pets/Pet2YangonMd010011.png	70	2	0	207	30				61	150
+16080000	Boreas	4208	Charge	3		Assets/Product/Texture/Image/RolePartner/Pet3Ying1.png	Assets/Product/Texture/Image/Pets/Pet3YingonMd010011.png	80	3	0	208	30				62	150
+16090000	Thorny	4209	Charge	1		Assets/Product/Texture/Image/RolePartner/Pet2Ciwei.png	Assets/Product/Texture/Image/Pets/Pet2CiweionMd010011.png	90	2	0	209	30				61	150
+16100000	Jet Jaeger	4210	Slash	2		Assets/Product/Texture/Image/RolePartner/Pet3Hu.png	Assets/Product/Texture/Image/Pets/Pet3HuonMd010011.png	100	3	0	210	30				62	150
+16110000	Moonhopper	4211	Control	5		Assets/Product/Texture/Image/RolePartner/Pet3Tu1.png	Assets/Product/Texture/Image/Pets/Pet3TuonMd010011.png	110	3	0	211	30				62	150
+16120000	Shimmer	4212	Pull, Charge	1		Assets/Product/Texture/Image/RolePartner/Pet3Yu1.png	Assets/Product/Texture/Image/Pets/Pet3YuonMd010011.png	120	3	0	212	30				62	150
+16130000	Punchy	4213	Damage	2		Assets/Product/Texture/Image/RolePartner/Pet3Quan1.png	Assets/Product/Texture/Image/Pets/Pet3QuanonMd010011.png	130	3	0	213	30				62	150
+16140000	Rainbow	4214	Pull, Damage	3		Assets/Product/Texture/Image/RolePartner/Pet3Wuzei1.png	Assets/Product/Texture/Image/Pets/Pet3WuzeioffMd010011.png	140	3	0	214	30				62	150

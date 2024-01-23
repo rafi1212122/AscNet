@@ -46,9 +46,11 @@ Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	C
 52802	52802	0	Complete 3-12 Guide: Full-Realm Support	1	771801			52802	UiArenaWarZone	0	52802
 52602	52602	0	Complete Hidden 2-1 Guide: Operation Guardians	1	852601	870002		52602	UiFubenMaintaineraction	0	52602
 52701	52701	0	Complete 4-2 Learn about Dormitory and open illustrated guide	1	852701			52701	UiMain	0	52701
+52707	52707	0	Complete 4-2 Guide Dormitory Commission	1	852701			52707	UiDormMain	0	52707
+52708	52708	0	Complete 4-2 Guide Dormitory Commission Reward Claim	1	852701			52708	UiDormTerminalCompleteDetail	0	52708
 52731	500000	0	Complete 4-5 Guild System Guide	1	852731			52731	UiMain	0	52731
 52901	52901	0	Complete 5-7 Phantom Pain Cage Guide	1	852901			52901	UiMain	0	52901
-53301	53301	1	Guide: Border Pact Stationing	1	8470100			53301	UiPanelAssignStage	0	53301
+53301	53301	0	Guide: Border Pact Stationing	1	8470100			53301	UiPanelAssignMain	0	53301
 53401	53401	0	Guide: Equipment Goal Recommendation	1	770403			53401	UiMain	0	53401
 53402	53402	0	Guide: Use Equipment Goal	1	770404			53402	UiEquipGuideDetail	0	53402
 52931	52931	1	Guide to Medals	1	200000			52931	UiMain	0	52931
@@ -99,8 +101,8 @@ Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	C
 56012	56012	1	Rabbit Hunt Event	1	30406			56012	UiRpgMakerGamePlayMain	0	56012
 56021	56021	0	Circuit Connect gameplay guide	1	774800	771000		56021	UiSameColorGameBossMain	0	56021
 56022	56022	1	Circuit Connect event guide	1	774800			56022	UiSameColorGameBattle	0	56022
-57011	57011	0	Babel Tower Nocturnal Path Mode Guide	1	772280			57011	UiBabelTowerMainNew	0	57011
-57012	57012	0	Babel Tower Nocturnal Path Event Guide	1	772280			57012	UiBabelTowerChildSupport	0	57012
+57011	57011	0	Guide Babel Tower Gameplay	1	772280			57011	UiBabelTowerMainNew	0	57011
+57012	57012	0	Guide Babel Tower Event	1	772280			57012	UiBabelTowerChildSupport	0	57012
 57021	57021	1	Ultimate Brawl Mode Guide	1	84601800			57021	UiSuperSmashBrosMain	0	57021
 57022	57022	1	Ultimate Brawl Interface Guide	1	84601800			57022	UiSuperSmashBrosMain	0	57022
 57023	57023	1	Ultimate Brawl Event Guide	1	84601800			57023	UiSuperSmashBrosSelectStage	0	57023
@@ -139,7 +141,7 @@ Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	C
 60022	60022	1	RPG Phase 4 Guide	1	84600203			60022	UiRpgTowerMain	0	60022
 60031	60031	1	Guide - Guild War Interface Access	1	852731	1002104		60031	UiGuildMain	0	60031
 60032	60032	1	Guide - Guild War Interface	1	852731	1002100		60032	UiGuildWarStageDetail	0	60032
-60101	60101	0	Guide - Spectroscopic Binary Star Main Interface	1	8005			60101	UiCoupleCombatChapter	0	60101
+60101	60101	1	Guide - Spectroscopic Binary Star Main Interface	1	8005			60101	UiCoupleCombatChapter	0	60101
 60111	60111	0	Guide - Music Game Main Interface	1	8005			60111	UiTaikoMasterMain	0	60111
 60112	60112	0	Guide - Music Game Calibration Stage	1	8005			60112	UiTaikoMasterMain	0	60111
 60121	60121	0	Guide - Extremis Collaboration Main Interface	1	30406			60121	UiMultiDimMain	0	60121
@@ -186,4 +188,27 @@ Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	C
 60424	60424	0	Guide: Guild Expedition 2.0 Boss Challenge	1	852731			60424	UiGuildWarBossStageDetail	0	60424
 60501	60501	0	Circuit Connect 3.0 battle guide	1	774800	771000		59011	UiSameColorGameBattle	0	60501
 60511	60511	0	Rpg 5.0 main screen guide	1	774800			60511	UiRpgTowerNewMain	0	60511
+60601	60601	0	Guide Spectroscopic Binary Star 3.0 Main Interface	1	8005			60601	UiCoupleCombatChapter	0	60601
+60602	60602	0	Guide Spectroscopic Binary Star 3.0 Chapter Intro	1	8005			60602	UiCoupleCombatMain	0	60602
+60611	60611	0	Guide Character Tower Entrance	1	10436000			60611	UiMain	0	60611
+60612	60612	0	Guide Character Tower Character Challenge	1	10436000			60612	UiCharacterTowerBattle	0	60612
+60621	60621	0	Guide Deep Blue Warzone 2.0	1	84601800			60621	UiRiftMain	0	60621
+60622	60622	0	Guide Deep Blue Warzone 2.0 Member Preparation	1	84601800			60622	UiRiftCharacter	0	60622
+60623	60623	0	Guide Deep Blue Warzone 2.0 Perception Amplification	1	84601800	890010		60623	UiRiftFightLayerSelect	0	60623
+60624	60624	0	Guide Deep Blue Warzone 2.0 Serendipitous Snapshot	1	84601800	890011		60624	UiRiftFightLayerSelect	0	60624
+60625	60625	0	Guide Deep Blue Warzone 2.0 Add-on Codex	1	84601800	890012		60625	UiRiftFightLayerSelect	0	60625
+60700	60700	0	Guiade 3rd Anniversary Main Interface Adjustment	1	860700	860701		60700	UiMain	0	60700
+60701	60701	0	Guide Palette Clash Main Interface	1	774800	771000		60701	UiColorTableMain	0	60701
+60702	60702	0	Guide Palette Clash Stage 1	1	774800	771000	1009003	60702	UiColorTableStageMain	0	60702
+60703	60703	0	Guide Palette Clash Stage 2 Content	1	774800	771000	1009004	60703	UiColorTableStageMain	0	60703
+60704	60704	0	Guide Palette Clash Stage 3 Content	1	774800	771000	1009005	60704	UiColorTableStageMain	0	60704
+60705	60705	0	Guide Palette Clash Stage 3 Encounter	1	774800	1009006	1009005	60705	UiColorTableStageMainInfo	0	60705
+60711	60711	0	Guide Sequence Pact Main Interface	1	841207			60711	UiMain	0	60711
+60712	60712	0	Guide Sequence Pact Room Interface	1	841207			60712	UiAwarenessDeploy	0	60712
+60713	60713	0	Guide Pact Infinitas Awaken Effect	1	841200	841107		60713	UiMain|UiAwarenessMain	0	60713
+60721	60721	0	Guide Character Ultima Awaken	1	860721	842074		60721	UiMain	0	60721
+60722	60722	0	Guide Character Infinitas Awaken	1	860722			60722	UiMain|UiExhibitionInfo	0	60722
+60731	60731	0	Guide Blazing Trails Main Page	1	774800			60731	UiBrilliantWalkMain	0	60731
+60732	60732	0	Guide Blazing Trails Main Page Modification	1	774800	860732		60732	UiBrilliantWalkMain	0	60732
+60741	60741	0	Guide Main Page Switch Scene	1	860741	860740		60741	UiMain	0	60741
 280011	280011	0	英文服PC端预设键位调整说明引导	1	3000000	3000001		280011	UiMain	0	280011

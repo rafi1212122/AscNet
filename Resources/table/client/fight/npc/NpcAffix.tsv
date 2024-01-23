@@ -506,6 +506,27 @@ Id	Name	Level	Icon	Description
 716005	DMG Reduction+	1	Assets/Product/Texture/Image/IconAffix/AffixIconJiangu.png	DMG Reduction is greatly increased under the yellow light.
 716021	Energize	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	Gains a DMG bonus based on HP percentage.
 716024	Charge	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhuanyi.png	Cast skills immediately after moving to boost the damage based on Movement Speed.
+716141	Scorching Hot	1	Assets/Product/Texture/Image/IconAffix/AffixIconZhuoShao001.png	The unit will be Burnt for 5s upon receiving damage. Increasing Strength Points can tear apart the wound. Every 5 Strength Points can make the target take 10% more Burnt DMG and have the Burnt effect for 0.5s longer.
+716142	Burn	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeihuo.png	Burns the unit's wound and makes the unit take Burnt DMG once every second.
+716145	Recovery	1	Assets/Product/Texture/Image/IconAffix/AffixIconHuoyan.png	The wound is recovering. Immune to the Burn effect for 8s.
+716151	Arctic	1	Assets/Product/Texture/Image/IconAffix/AffixIconShiWen001.png	The recovery speed of the unit's Movement Speed and Dodge Gauge will decrease over time. Spend Physique Points to resist the coldness. Every 5 Physique Points can reduce the effect by 5%.
+716152	Hypothermia	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeibing.png	The recovery speed of the unit's Movement Speed and Dodge Gauge has been reduced.
+716166	Lightning Bug	1	Assets/Product/Texture/Image/IconAffix/AffixIconLeiChong001.png	"The unit can receive damage from Lightning Bugs. Use Energy Defense Points to resist their power. Every 5 Energy Defense Points can prolong the Lightning Bug generation interval by 0.5s and transfer 5% of the incoming explosion damage to the enemy."
+716167	Supercharged	1	Assets/Product/Texture/Image/IconAffix/AffixIconLeiChong1001.png	The unit will take additional damage from Lightning Bugs.
+716176	Corrosion	1	Assets/Product/Texture/Image/IconAffix/AffixIconFuShi001.png	Upon receiving damage, the unit will expose its weakness and take more damage until the end of the battle. Use the Focus Points to suppress the generation of the weaknesses. Every 5 Focus Points can reduce the Vulnerable effect by 2%. Every 10 Focus Points can further increase the target's Vulnerable effect by 2%.
+716177	Fragility	1	Assets/Product/Texture/Image/IconAffix/AffixIconZuzhou.png	The unit takes Extra DMG based on the Weakness Exposure Level until the end of the battle.
+716181	Flexibility	1	Assets/Product/Texture/Image/IconAffix/AffixIconQiaoBian001.png	If there are more than 3 ally units within 10m around the caster, then the caster will deal more damage based on the number of extra allies. Otherwise, the caster gains DMG Reduction. Stacks up to 3 times. Use Strength Points to suppress the enemy, with each 10 Strength Points reducing the DMG Bonus and DMG Reduction Bonus of each stack by 5% and 1% respectively.
+716182	Advance Together	1	Assets/Product/Texture/Image/IconAffix/AffixIconTongling.png	Allies: {0}, DMG Increase: {1}% ({2}% - {3}%)
+716183	Retreat Together	1	Assets/Product/Texture/Image/IconAffix/AffixIconBilei.png	Allies: {0}, DMG Reduction Increase: {1}% ({2}% - {3}%)
+716191	Wave	1	Assets/Product/Texture/Image/IconAffix/AffixIconBoDong001.png	The unit is in an unstable status and deals fluctuating damage. Use the Physique Points to deal with the unstable attacks. Every 5 Physique Points can reduce the enemy's maximum damage dealt by 5%. Every 10 Physique Points can reduce the enemy's minimum damage dealt by 5%.
+716196	Charge	1	Assets/Product/Texture/Image/IconAffix/AffixIconChongNeng001.png	Charges once every 20s and gains 1 stack of [Charge] effect. Enters the [Overload] form and stops charging after 3 charges. Use the Energy Defense Points to better understand the Charge effect. Every 10 Energy Defense Points can add 5s to the charging interval and reduce the Final DMG Bonus by 5% and Signature Energy by 1.
+716197	Charge	1	Assets/Product/Texture/Image/IconAffix/AffixIconChongNeng1001.png	Increases DMG by {0}% ({1}% - {2}%) and Movement Speed by {3}%.
+716198	Overload	1	Assets/Product/Texture/Image/IconAffix/AffixIconChongNeng2001.png	Every time the caster deals damage, it will reduce the target's Signature Energy by {0}%  ({1}%  - {2}%).
+716211	Interference	1	Assets/Product/Texture/Image/IconAffix/AffixIconGanRao001.png	The unit can interfere with the enemy's enemy-tracking system, reducing the incoming damage dealt by the enemy in the distance and having a chance to dodge the attack. Use the Focus Points to be more concentrated and resist the Interference effect. Every 10 Focus Points can add 1m to the range of the Interference effect and reduce the DMG Reduction by 5% and dodge effect by 3%.
+716212	Stealth	1	Assets/Product/Texture/Image/IconAffix/AffixIconGanRao1001.png	The unit receives {0} less damage from you and has a {1} chance to dodge your attacks.
+716251	Energy Gathering	1	Assets/Product/Texture/Image/IconAffix/AffixIconShexian.png	Elemental Resistance increases by 20%. Has a 25% chance to also deal Fire, Ice, Lightning, or Dark DMG equal to 25% of the caster's ATK when dealing DMG. Can be triggered once every second.
+716261	Tenacity	1	Assets/Product/Texture/Image/IconAffix/AffixIconBingdu.png	All Resistances increase by 20%. All Resistances decrease by 2% for 12s every time when the character is attacked. Stacks up to 20 times. Upon dealing DMG, has a 30% chance to inflict Extra Physical, Fire, Ice, Lightning, or Dark DMG equal to 30% of the caster's ATK. Can be triggered once every 0.5s.
+716273	DMG Increase	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianggong.png	All DMG increases by 15%.
 760014	Lightning Vulnerability	1	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning Resistance decreases by 20%.
 760015	Lightning Vulnerability	2	Assets/Product/Texture/Image/IconAffix/AffixIconWeilei.png	Lightning Resistance decreases by 40%.
 760701	Power Booster	1	Assets/Product/Texture/Image/IconAffix/AffixIconQianghua.png	Deals 30% more DMG and receives 40% less DMG.
@@ -572,3 +593,20 @@ Id	Name	Level	Icon	Description
 746591	Immune Blue	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianlan.png	Immune to DMG from Blue Orb Skills.
 746592	Immune Basic	1	Assets/Product/Texture/Image/IconAffix/AffixIconJiangu.png	Immune to Basic Attack DMG.
 776405	Vulnerable	1	Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	DMG taken increases.
+776413	Silence	1	Assets/Product/Texture/Image/IconAffix/AffixIconHamlet.png	3-Ping Skill Attacks can impact Hamlet's internal program and increase all DMG taken based on this feature by 15%.
+776428	Silence	2	Assets/Product/Texture/Image/IconAffix/AffixIconHamlet.png	3-Ping Skill Attacks can impact Hamlet's internal program and increase all DMG taken based on this feature by 30%.
+776429	Silence	3	Assets/Product/Texture/Image/IconAffix/AffixIconHamlet.png	3-Ping Skill Attacks can impact Hamlet's internal program and increase all DMG taken based on this feature by 45%.
+776430	Silence	4	Assets/Product/Texture/Image/IconAffix/AffixIconHamlet.png	3-Ping Skill Attacks can impact Hamlet's internal program and increase all DMG taken based on this feature by 60%.
+776431	Silence	5	Assets/Product/Texture/Image/IconAffix/AffixIconHamlet.png	3-Ping Skill Attacks can impact Hamlet's internal program and increase all DMG taken based on this feature by 75%.
+776432	Silence	6	Assets/Product/Texture/Image/IconAffix/AffixIconHamlet.png	3-Ping Skill Attacks can impact Hamlet's internal program and increase all DMG taken based on this feature by 90%.
+776433	Silence	7	Assets/Product/Texture/Image/IconAffix/AffixIconHamlet.png	3-Ping Skill Attacks can impact Hamlet's internal program and increase all DMG taken based on this feature by 105%.
+776434	Silence	8	Assets/Product/Texture/Image/IconAffix/AffixIconHamlet.png	3-Ping Skill Attacks can impact Hamlet's internal program and increase all DMG taken based on this feature by 120%.
+776435	Silence	9	Assets/Product/Texture/Image/IconAffix/AffixIconHamlet.png	3-Ping Skill Attacks can impact Hamlet's internal program and increase all DMG taken based on this feature by 135%.
+776436	Silence	10	Assets/Product/Texture/Image/IconAffix/AffixIconHamlet.png	3-Ping Skill Attacks can impact Hamlet's internal program and increase all DMG taken based on this feature by 150%.
+761530	Scorch	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanghuo2.png	Attacks will also inflict Burn, dealing Fire DMG equal to 10% ATK every second to the target for 10s.
+761534	Frost	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangbing2.png	Attacks will also deal Ice DMG equal to 30% ATK and reduce the target's speed by 30% for 10s.
+761537	Lightning Strike	1	Assets/Product/Texture/Image/IconAffix/AffixIconKanglei2.png	Attacks will also deal Lightning DMG equal to 30% ATK and reduce the target's ATK by 30% for 10s.
+761540	Dark Corruption	1	Assets/Product/Texture/Image/IconAffix/AffixIconKangan2.png	Attacks will also deal Dark DMG equal to 50% ATK and reduce the target's healing by 30% for 10s.
+748536	Armorbreak	1	Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	Extra DMG Reduction decreases by 50%.
+748517	Armorbreak	1	Assets/Product/Texture/Image/IconAffix/AffixIconPojia.png	Extra DMG Reduction decreases by 100%.
+748570	DMG Immunity	1	Assets/Product/Texture/Image/IconAffix/AffixIconMianshang.png	Extra DMG Reduction increases by 50%.

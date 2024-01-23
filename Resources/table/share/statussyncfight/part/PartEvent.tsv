@@ -1,0 +1,40 @@
+Id	Npc	PartId	AndOr	Priority	ElementTypes[1]	Percents[1]	AbsValues[1]	Desc
+800100101	8001	8001001	1	1	0	0.01	0	Beng Yue|Head|Small Take Hit
+800100102	8001	8001001	1	2	0	0.035	0	Beng Yue|Head|Big Take Hit
+800100103	8001	8001001	1	3	1	0	35000	Beng Yue|Head|Hit During Spear QTE
+800100104	8001	8001001	1	4	2	0	1	Events Used to Judge Whether Spear Hits Head
+800100301	8001	8001003	1	1	0	0.01	0	Beng Yue|Left Hand|Small Take Hit
+800100302	8001	8001003	1	2	0	0.035	0	Beng Yue|Left Hand|Big Take Hit
+800100303	8001	8001003	1	3	1	0	35000	Beng Yue|Left Hand|Hit During Spear QTE
+800100304	8001	8001003	1	4	2	0	1	Event Used to Judge Spear Hit
+800100401	8001	8001004	1	1	0	0.01	0	Beng Yue|Right Hand|Small Take Hit
+800100402	8001	8001004	1	2	0	0.035	0	Beng Yue|Right Hand|Big Take Hit
+800100403	8001	8001004	1	3	1	0	35000	Beng Yue|Right Hand|Hit During Spear QTE
+800100404	8001	8001004	1	4	2	0	1	Event Used to Judge Spear Hit
+800100601	8001	8001006	1	1	0	0.05	0	
+800100602	8001	8001006	1	2	0	0.125	0	
+800200101	8002	8001001	1	1	0	0.01	0	White Dragon|Head|Small Take Hit
+800200102	8002	8001001	1	2	0	0.035	0	White Dragon|Head|Large Take Hit
+800200103	8002	8001001	1	3	1	0	35000	White Dragon|Head|Hit During Spear QTE
+800200104	8002	8001001	1	4	2	0	1	Events Used to Judge Whether Spear Hits Head
+800200105	8002	8001001	1	5	2	0	1	Wave Counter Hit Event
+800200301	8002	8001003	1	1	0	0.01	0	White Dragon|Left Hand|Small Take Hit
+800200302	8002	8001003	1	2	0	0.035	0	White Dragon|Left Hand|Large Take Hit
+800200303	8002	8001003	1	3	1	0	35000	White Dragon|Left Hand|Hit During Spear QTE
+800200304	8002	8001003	1	4	2	0	1	Event Used to Judge Spear Hit
+800200401	8002	8001004	1	1	0	0.01	0	White Dragon|Right Hand|Small Take Hit
+800200402	8002	8001004	1	2	0	0.035	0	White Dragon|Right Hand|Large Take Hit
+800200403	8002	8001004	1	3	1	0	35000	White Dragon|Right Hand|Hit During Spear QTE
+800200404	8002	8001004	1	4	2	0	1	Event Used to Judge Spear Hit
+800400101	8004	8001001	1	1	0	0.99	0	Tutorial Stage Beng Yue|Head|Small Take Hit
+800400102	8004	8001001	1	2	0	0	8000	Tutorial Stage Beng Yue|Head|Big Take Hit
+800400103	8004	8001001	1	3	1	0.99	0	Tutorial Stage Beng Yue|Head|Hit During Spear QTE
+800400104	8004	8001001	1	4	2	0	1	Events Used to Judge Whether Spear Hits Head
+800400301	8004	8001003	1	1	0	0.9	0	Tutorial Stage Beng Yue|Left Hand|Small Take Hit
+800400302	8004	8001003	1	2	0	0	8000	Tutorial Stage Beng Yue|Left Hand|Big Take Hit
+800400303	8004	8001003	1	3	1	0.99	0	Tutorial Stage Beng Yue|Left Hand|Hit During Spear QTE
+800400304	8004	8001003	1	4	2	0	1	Event Used to Judge Spear Hit
+800400401	8004	8001004	1	1	0	0.99	0	Tutorial Stage Beng Yue|Right Hand|Small Take Hit
+800400402	8004	8001004	1	2	0	0	8000	Tutorial Stage Beng Yue|Right Hand|Big Take Hit
+800400403	8004	8001004	1	3	1	0.99	0	Tutorial Stage Beng Yue|Right Hand|Hit During Spear QTE
+800400404	8004	8001004	1	4	2	0	1	Event Used to Judge Spear Hit

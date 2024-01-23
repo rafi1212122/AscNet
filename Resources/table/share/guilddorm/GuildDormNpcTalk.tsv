@@ -79,3 +79,75 @@ Id	Content	BehaviorId	OptionShowTime	EmptySkipId	RepeatId	Options[0]	Options[1]	
 11006	You are so strange. It's your holiday, but you're worrying about other people... I know. I'm fine. I can be better if you want.		1500		11007	About the Island	About Lee	Goodbye	11002	11005	11008
 11007	You can take this holiday as our holiday, because that is what I think.		1500			About the Island	About Lee	Goodbye	11002	11005	11008
 11008	Nothing else? Fine.	SummerNpc_Li_Endtalk									
+30001	Oh, you're here.	Stand_Idle	1500			About Celica	Goodbye		30002	30004	
+30002	Why am I here, you ask? What if I said it's to oversee the United Command Bureau's work? What's your take?	Stand_Idle	1500	30003							
+30003	—Relax, it may be called "supervision," but it's really just a friendly check-in.	Stand_Happy	1500			About Celica	Goodbye		30002	30004	
+30004	I'll be sticking around, so no dodging me, okay?	CommonNpc_Sailika_Endtalk	1500								
+30101	Happy New Year, Commandant.	Stand_Happy_Idle	1500			What are you doing here, Lucia?	Care to try some local delicacies?	Goodbye	30102	30107	30110
+30102	Today marks the start of the New Year, a day we're supposed to relax. Liv and I swung by your quarters this morning, but you were already out.	Stand_Idle	1500	30103							
+30103	Lee figured you'd either be networking with fellow commandants at the Bureau or honing your skills at the range. Having checked the range, I thought I'd drop by here to check.	Think_Idle	1500	30104							
+30104	Nothing urgent. Tonight, Liv, Lee, and I plan to review Gray Raven's yearly changes. Naturally, you're essential, Commandant.	Stand_Idle	1500	30105							
+30105	It's not about discussing tactics. It's a rare chance for Gray Raven folks to chill and chat. Liv and I will prep some snacks ahead of time.	Stand_Idle	1500	30106							
+30106	I could've messaged you via the terminal, but inviting you in person seems more... ceremonial? Anyway, look forward to it, Commandant.	Stand_Happy	1500			What are you doing here, Lucia?	Care to try some local delicacies?	Goodbye	30102	30107	30110
+30107	Thanks, Commandant, but no need. I'm just a bit curious about the recipes. Wish I could take some cooking lessons if I get the chance.	No_Happy	1500	30108							
+30108	Recently, I realized that more seasoning doesn't necessarily make a dish tastier. But putting that insight into practice is gonna take more work.	Think_Idle	1500	30109							
+30109	When I get confident in my cooking, you'll be the first to taste it, Commandant. I promise.	Stand_Happy	1500			What are you doing here, Lucia?	Care to try some local delicacies?	Goodbye	30102	30106	30110
+30110	Alright, Commandant, you carry on.	SpringNpc_Luxiya_Endtalk									
+30201	...Happy New Year.	Stand_Idle	1500			Fancy kite-making?	A rare break...	Goodbye	30202	30206	30210
+30202	I tried kite-making as a kid. Although I managed to create one, Murray wasn't free to play outside like other kids.	Think_Close	1500	30203							
+30203	Seeing all these materials and samples here kinda makes me nostalgic.	Think_Close	1500	30204							
+30204	...You're thinking of giving it a shot? I'm game, but the weather Babylonia has been snowy lately. Not exactly ideal for kite-flying.	Think_Idle	1500	30205							
+30205	Good point. There's no rush. And it's not like we'll nail it on our first try. But I'll stick with you until we get it just right.	Stand_Idle	1500			Fancy kite-making?	A rare break...	Goodbye	30202	30206	30210
+30206	Yes, it's my day off, so I'm just wandering about. Don't get it twisted, I didn't come here just to find you.	Stand_Idle	1500	30207							
+30207	Chatted with Murray this morning. On my way back to the lounge, I thought of someone who's all work and no play, so I decided to swing by.	Stand_Idle	1500	30208							
+30208	Knew I'd find you here. I mean, you remind everyone else to take a break today, but here you are.	Think_Close	1500	30209							
+30209	...Just out for a walk...? Let's assume you're being honest.	Think_Idle	1500			Fancy kite-making?	A rare break...	Goodbye	30202	30206	30210
+30210	Yeah.	SpringNpc_Li_Endtalk									
+30301	Seen the first snow of the new year yet, Commandant?	Talk_Happy	1500			Happy New Year, Liv.	How's today looking for you, Liv?	Goodbye	30302	30307	30310
+30302	Happy New Year, Commandant. Oh, I should've been the one to say it first...	Stand_Happy_Idle	1500	30303							
+30303	Commandant, you can't be frowning right from the start of the year. Even at the squad's late-night get-togethers recently...	No_Happy	1500	30304							
+30304	I'm aware you're juggling a lot, Commandant. But remember what Lucia said? As long as we stick together, there's nothing we can't overcome.	Stand_Idle	1500	30305							
+30305	If things get too much to handle, feel free to lean on me more. I'm set on being more reliable this year.	Stand_Idle	1500	30306							
+30306	That's the smile we're all hoping to see. Keeping you at ease is everyone's unspoken hope.	Stand_Happy	1500			Happy New Year, Liv.	How's today looking for you, Liv?	Goodbye	30302	30307	30310
+30307	Oops, hit a button on the device by mistake. Did you catch that, Commandant? Silly me...	Think_Cry	1500	30308							
+30308	The slip says "fair luck". Good for a big cleanup, bad for... wanting it all. Guess it's true, greed gets you nowhere.	Stand_Idle	1500	30309							
+30309	So today, from now on, Liv will just focus on what's in front of her—the snowscape and everyone around.	Stand_Happy	1500			Happy New Year, Liv.	How's today looking for you, Liv?	Goodbye	30302	30307	30310
+30310	Alright, Commandant, see you later.	SpringNpc_Lifu_Endtalk									
+30401	...Why do you look so surprised?	Stand_Idle	1500			What are you doing here?!	I never pegged you as someone into bamboo gazing.	Goodbye	30402	30407	30410
+30402	Isn't New Year's the perfect time for connecting with loved ones in your book?	Think_Idle	1500	30403							
+30403	Or did I get you all wrong, and you're not expecting any of this at all?	Stand_Idle	1500	30404							
+30404	Relax, I've got my power under control for now. No plans to sink this human ark today.	Stand_Idle	1500	30405							
+30405	...A scarf? Had nothing ready, so this is your New Year's gift? I didn't come to ask for anything, you know.	Think_Idle	1500	30406							
+30406	But... even if you have your choices and I have my mine, I still cherish the freedom to occasionally defy fate.	Stand_Idle	1500			What are you doing here?!	I never pegged you as someone into bamboo gazing.	Goodbye	30402	30407	30410
+30407	No. It's just everything here has this "enhanced" feel to it. The plants, the weather... they're different from what you'd find on the surface.	Think_Idle	1500	30408							
+30408	Try to remember how they feel. Next time, maybe during a snowfall, if I come across a bamboo grove, I'll bring you along.	Stand_Idle	1500	30409							
+30409	Then you'll see what I mean by "different."	Stand_Idle	1500			What are you doing here?!	I never pegged you as someone into bamboo gazing.	Goodbye	30402	30407	30410
+30410	You head off. When I need to find you, I know how to track you down.	SpringNpc_LuxiyaR3_Endtalk									
+30501	Good day, Commandant—and a Happy New Year to you.	Talk_Happy	1500			Interested in fireworks?	Keeping busy during these holidays?	Goodbye	30502	30506	30509
+30502	Karenina used to have me test some of her explosive inventions. One was pretty much like fireworks.	Think_Idle	1500	30503							
+30503	It's not ground-fired, though. Karenina launches them, then I trigger them with my arrows.	Stand_Idle	1500	30504							
+30504	In order to observe the range, Karenina added bright-colored powder. Although it's for weapon testing, gotta admit, the blasts are as beautiful as fireworks.	Stand_Happy	1500	30505							
+30505	If you're interested, Commandant, I can recreate that colorful blaze with my arrows, festival or not. Of course, I'll ask Karenina to keep it within the spectacle range.	Stand_Idle	1500			Interested in fireworks?	Keeping busy during these holidays?	Goodbye	30502	30506	30509
+30506	As the captain of the Purifying Force, I need to be on standby for duty. But there haven't been any assignments lately, so it's kinda like downtime.	Think_Idle	1500	30507							
+30507	But in my spare time, I do some praying. After all, it's a time of renewal, right?	Stand_Idle	1500	30508							
+30508	Plus, with Babylonia scheduled for snowfall these days, the snowy scenery itself brings back memories worth a prayer or two.	Stand_Happy	1500			Interested in fireworks?	Keeping busy during these holidays?	Goodbye	30502	30506	30509
+30509	See you, Commandant.	SpringNpc_Bianka_Endtalk	1500								
+30601	Ah, Commandant! Happy New Year!	Greet_Happy	1500			What's Pulao scribbling over there?	Are you not taking the day off	Goodbye	30602	30606	30610
+30602	Oh, this? I was just... sketching something for fun!	Shy_Idle	1500	30603							
+30603	It's definitely not because it's too messy to show!	Refuse_Concentrate	1500	30604							
+30604	Ugh, you saw... Actually, I found some ink and thought I'd show off my calligraphy...	Think_Cry	1500	30605							
+30605	Who knew Calligraphy was as tough as math... I've gotta practice more when I get back. If it goes well, maybe I'll gift you a handwritten couplet next year!	Think_Cry	1500			What's Pulao scribbling over there?	Are you not taking the day off	Goodbye	30602	30606	30610
+30606	Vacation? Absolutely! Kowloong is buzzing during these special festival days. The streets are brimming with delicious treats and fun activities!	Victory_Happy2	1500	30607							
+30607	Me? I've got to be responsible during working hours! Besides, the overtime pay during the festival...	Think_Drool	1500	30608							
+30608	Ahem, in any case, I need to focus on my work so everyone in Kowloong can enjoy the holiday. I won't lose sight of that!	Stand_Idle	1500	30609							
+30609	Hey, the festivities in Kowloong aren't over yet. If you've got some time, Commandant, how about joining me for a trip there?	Stand_Happy	1500			What's Pulao scribbling over there?	Are you not taking the day off	Goodbye	30602	30606	30610
+30610	You carry on, Commandant.	SpringNpc_Pulao_Endtalk									
+30701	Oh?	Stand_Idle	1500			Craving some tanghulu?	Happy New Year!	Goodbye	30702	30706	30709
+30702	I just figured it'd be a local delicacy worth bringing along when I report back to Jamilah.	Think_Close	1500	30703							
+30703	Depending on the train's region and season, local festive items like these really catch on.	Stand_Idle	1500	30704							
+30704	Let me have a taste before deciding? Fair point.	Stand_Idle	1500	30705							
+30705	...Hmm, so sweet.	Stand_Happy_Idle	1500			Craving some tanghulu?	Happy New Year!	Goodbye	30702	30706	30709
+30706	...Happy New Year. What's the proper etiquette for this moment, by Kowloong tradition?	Stand_Idle	1500	30707							
+30707	Just enjoy the vibe, huh? Got it.	Think_Idle	1500	30708							
+30708	Next time you visit the Akdilek Commercial Alliance, I'll treat you to a special vibe. Consider it a return gift, no, an invitation.	Stand_Idle	1500			Craving some tanghulu?	Happy New Year!	Goodbye	30702	30706	30709
+30709	That's about it.	SpringNpc_Sufeiya_Endtalk	1500								

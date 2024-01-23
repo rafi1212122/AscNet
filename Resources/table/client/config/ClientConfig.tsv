@@ -172,6 +172,8 @@ GridStageSquareMW	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageSq
 GridStageRectangleMW	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageRectangleMW.prefab
 GridPrequelStage	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridPrequelStage.prefab
 GridAssignChapter	string	Assets/Product/Ui/ComponentPrefab/FubenAssign/GridAssignChapter.prefab
+PanelCharacterOwnedInfo	string	Assets/Product/Ui/ComponentPrefab/Character/PanelCharacterOwnedInfo.prefab
+GridAwarenessChapter	string	Assets/Product/Ui/ComponentPrefab/UiAwarenessMain/GridAwarenessChapter.prefab
 GridAssignStage	string	Assets/Product/Ui/ComponentPrefab/FubenAssign/GridAssignStage.prefab
 GridActivityBossSingleStage	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridActivityBossSingleStage.prefab
 GuideData	string	Assets/Product/Behavior/Guide/GuideData.bytes
@@ -225,6 +227,7 @@ FurnitureImgS5	string	Assets/Product/Texture/Atlas/UiDorm/FurnitureImgS5.png
 FurnitureImgS21	string	Assets/Product/Texture/Atlas/UiDorm/FurnitureImgS21.png
 FurnitureImgS22	string	Assets/Product/Texture/Atlas/UiDorm/FurnitureImgS22.png
 FurnitureImgS6	string	Assets/Product/Texture/Atlas/UiDorm/FurnitureImgS6.png
+FurnitureImgS23	string	Assets/Product/Texture/Atlas/UiDorm/FurnitureImgS23.png
 DormMainAnimationMoveTime	int	600
 DormMainAnimationStaicTime	int	200
 DormGroundGridMeshHighOffset	float	0.05
@@ -265,9 +268,12 @@ ExhibitionLevelPoint_01	int	1
 ExhibitionLevelPoint_02	int	1
 ExhibitionLevelPoint_03	int	1
 ExhibitionLevelPoint_04	int	1
+ExhibitionLevelPoint_05	int	1
 DefaultDynamicJoystick	int	0
 DefaultFocusType	int	3
 DefaultFocusButton	int	1
+DefaultFocusTypeDlcHunt	int	1
+DefaultFocusButtonDlcHunt	int	1
 DefaultInviteButton	int	1
 DefaultWeaponTransType	int	2
 DefaultRechargeType	int	2
@@ -325,8 +331,8 @@ RogueLikeDisTabShop	string	Assets/Product/Texture/Image/UiRogueLike/UiRogueLikeT
 RogueLikeDisTabBox	string	Assets/Product/Texture/Image/UiRogueLike/UiRogueLikeTab05.png
 RogueLikeDisTabRest	string	Assets/Product/Texture/Image/UiRogueLike/UiRogueLikeTab06.png
 RogueLikeDisTabEvent	string	Assets/Product/Texture/Image/UiRogueLike/UiRogueLikeTab07.png
-ActivityShopItemTextCanBuyColor	string	ffffffff
-ActivityShopItemTextCanNotBuyColor	string	ff0000ff
+ActivityShopItemTextCanBuyColor	string	3F1200
+ActivityShopItemTextCanNotBuyColor	string	A5A5A5
 NierShopItemTextCanBuyColor	string	ffffffff
 NierShopItemTextCanNotBuyColor	string	ff8f75ff
 ActivityBriefMovie	int	0
@@ -390,14 +396,19 @@ MusicPlayerMainViewTextMoveSpeed	float	70
 MusicPlayerMainViewTextMovePauseInterval	float	2
 MusicPlayerMainViewTextScheduleInterval	int	2000
 MusicPlayerMainViewNeedPlayedAlbumId	int	1
+MusicPlayerTextScrollSpeed	float	0.3
+MusicPlayerIconRotateSpeed	float	10
+TipsMainViewTextMoveSpeed	float	80
+TipsMainViewTextMovePauseInterval	float	1
 NoticeMediumFontSize	int	20
-MainLineStageMaxCount	int	25
+MainLineStageMaxCount	int	40
 MainLineExploreStageMaxCount	int	40
 GuildMainInfoRefreshTime	int	5
 GridStageSquareEx	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageSquareEx.prefab
 GridStageRectangleEx	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageRectangleEx.prefab
 GridStageFwSquare	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageFwSquare.prefab
 GridStageFwRectangle	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageFwRectangle.prefab
+GridStageFwRectangleZx	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageFwRectangleZx.prefab
 GridStageFwSquareEx	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageFwSquareEx.prefab
 GridStageFwRectangleEx	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageFwRectangleEx.prefab
 CommunicationGiftMaxCount	int	999
@@ -411,6 +422,11 @@ GuildRankIcon2	string	Assets/Product/Texture/Image/Common/CommonSekuai1.png
 GuildRankIcon3	string	Assets/Product/Texture/Image/Common/CommonSekuai1.png
 GuildRankIcon4	string	Assets/Product/Texture/Image/Common/CommonSekuai1.png
 GuildRankIcon5	string	Assets/Product/Texture/Image/Common/CommonSekuai1.png
+GuildRankName1	string	Leader
+GuildRankName2	string	Officer
+GuildRankName3	string	Core Member
+GuildRankName4	string	Normal Member
+GuildRankName5	string	Guest
 GuildCustomNameLimit	int	6
 GuildReqRecommandCdTime	int	10
 GridFubenInfestorExploreStageFog	string	Assets/Product/Ui/ComponentPrefab/FubenInfestorExplore/GridFubenInfestorExploreStageFog.prefab
@@ -506,7 +522,7 @@ ChessPursuitUseCardEffect	string	Assets/Product/Effect/Prefab/FxUi/FxUiCommon/Fx
 FingerGuessingLoseIcon2	string	Assets/Product/Texture/Atlas/UiFingerGuessing/UiFingerGuessingImg10.png
 FingerGuessingLoseIcon0	string	Assets/Product/Texture/Atlas/UiFingerGuessing/UiFingerGuessingImg11.png
 FingerGuessingLoseIcon1	string	Assets/Product/Texture/Atlas/UiFingerGuessing/UiFingerGuessingImg12.png
-ShieldedProtocol	string	The function has been masked
+ShieldedProtocol	string	The function has been masked. Check News for more details.
 StrongholdElectricIcon	string	Assets/Product/Texture/Image/IconToolsSp/IconStronghold004Sp.png
 PurchaseLJCZDefaultLookState	int	2
 MoeWarSceneAnimationPlayEndAnimDistance	float	95
@@ -624,8 +640,8 @@ UiGridPracticeCharacterMoveMinX	int	-600
 UiGridPracticeCharacterMoveMaxX	int	-200
 RpgMakerGameExhibitItemId	int	63301
 PivotCombatAbilityLimit	int	6000
-AprilFoolsDayStartTime	string	2023/4/1 0:00
-AprilFoolsDayEndTime	string	2023/4/2 0:00
+AprilFoolsDayStartTime	string	2022/4/1 00:00
+AprilFoolsDayEndTime	string	2022/4/2 00:00
 CharSkillQualityNor	string	Assets/Product/Texture/Atlas/UiCharacter/PanelCharQlDianNor2.png
 CharSkillQualitySelect	string	Assets/Product/Texture/Atlas/UiCharacter/PanelCharQlDianSlect2.png
 CharSkillQualityOn	string	Assets/Product/Texture/Atlas/UiCharacter/PanelCharQlDianOn2.png
@@ -638,7 +654,7 @@ MoeWarSceneAnimationAddSupportDistance	float	1
 ActivityCalendarBeforeOpenTime	int	2
 ActivityCalendarBeforeEndTime	int	2
 BackgroundChangeTimeStr	string	18:00:00
-BackgroundChangeTimeEnd	string	6:00:00
+BackgroundChangeTimeEnd	string	06:00:00
 ScenePreviewUiHideCD	float	3
 ScenePreviewUiHideDelay	float	1.5
 WaferScreenShopID	string	404/405/406
@@ -647,8 +663,8 @@ TwoSideTowerNegativeIcon	string	Assets/Product/Texture/Image/UiTwoSideTower/UiTw
 ActivityBriefBaseModel	string	Assets/Product/Ui/UiModel/UiActivityBriefBase3D/UiActivityBriefBase.prefab
 DefaultFightBtnExitTexture	string	Assets/Product/Texture/Image/UiFight/FightButtonExitNor.png
 PCFightBtnExitTexture	string	Assets/Product/Texture/Image/UiFight/FightButtonExitPCNor.png
-UiLoginMovieTimeStr	string	2022/4/29 0:00
-UiLoginMovieTimeEnd	string	2022/5/10 0:00
+UiLoginMovieTimeStr	string	2022/4/29 00:00
+UiLoginMovieTimeEnd	string	2022/5/10 00:00
 CourseLessonStagePrfab	string	Assets/Product/Ui/ComponentPrefab/FuBenNor/UiCourseActivity.prefab
 CourseSettleLevelSImgPath	string	Assets/Product/Texture/Image/UiSameColorGame/SameColorS.png
 CourseSettleLevelAImgPath	string	Assets/Product/Texture/Image/UiSameColorGame/SameColorA.png
@@ -661,7 +677,7 @@ UiSpecialFashionShopSkipId	int	20158
 UiShopOthers	string	Assets/Product/Texture/Image/IconToolsSp/CLkindicon.png
 BiancaTheatreTxtStartPath	string	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreBtnTxt3.png
 BiancaTheatreTxtContinuePath	string	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreBtnTxt4.png
-LottoDrawGround	string	Assets/Product/Texture/Image/BgUi/BgFight2.png
+LottoDrawGround	string	Assets/Product/Texture/Image/BgUi/BgFight3.png
 AutoPlayDelay	int	2000
 MoviePerWordDelay	int	150
 MovieWriterSpeed	float	0.04
@@ -670,6 +686,71 @@ SCGameBallDragLimit	float	30
 SCEnoughEnergyTextColor	string	#21c8ff
 SCNoEnoughEnergyTextColor	string	#82b0c1
 Interactionbuttonshowtime	int	10000
+CharacterTowerBattleStageMaxCount	int	5
+CharacterTowerPlotStageMaxCount	int	5
+CharacterTowerFetterProgressDuration	float	1.2
+CharacterTowerFetterTotemPlayEffectTime	float	0.8
+CharacterTowerFetterTotemPathAnimTime	float	2
+ParticleVertexStream	string	0-3-4-5-34-38
+PluginUnlockIcon	string	Assets/Product/Texture/Image/UiInfestorExplore/Equip052.png
+PanelStageActiveSkip	string	Assets/Product/Ui/ComponentPrefab/GridStage/PanelStageActiveSkip.prefab
+BrilliantWalkBossStageGrid1	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageBrilliantwalkBoss01.prefab
+BrilliantWalkBossStageGrid2	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageBrilliantwalkBoss02.prefab
+BrilliantWalkBossStageGrid3	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageBrilliantwalkBoss03.prefab
+BrilliantWalkBossHardStageGrid1	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageBrilliantwalkBossH01.prefab
+BrilliantWalkBossHardStageGrid2	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageBrilliantwalkBossH02.prefab
+BrilliantWalkBossHardStageGrid3	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageBrilliantwalkBossH03.prefab
+BrilliantWalkStageGrid1	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageBrilliantwalkStage01.prefab
+BrilliantWalkStageGrid2	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageBrilliantwalkStage02.prefab
+BrilliantWalkStageGrid3	string	Assets/Product/Ui/ComponentPrefab/GridStage/GridStageBrilliantwalkStoy01.prefab
+BrilliantWalkStageDetailRankRImg1	string	Assets/Product/Texture/Image/UiFight/UiFighDynamicScoringC1.png
+BrilliantWalkStageDetailRankRImg2	string	Assets/Product/Texture/Image/UiFight/UiFighDynamicScoringB1.png
+BrilliantWalkStageDetailRankRImg3	string	Assets/Product/Texture/Image/UiFight/UiFighDynamicScoringA1.png
+BrilliantWalkStageDetailRankRImg4	string	Assets/Product/Texture/Image/UiFight/UiFighDynamicScoringS1.png
+BrilliantWalkStageDetailRankRImg5	string	Assets/Product/Texture/Image/UiFight/UiFighDynamicScoringSS1.png
+BrilliantWalkStageDetailRankRImg6	string	Assets/Product/Texture/Image/UiFight/UiFighDynamicScoringSSS1.png
+BrilliantWalkStageDetailRankRImg7	string	Assets/Product/Texture/Image/UiFight/UiFighDynamicScoringSSSPlus1.png
+BrilliantWalkStageDefaultModuleRImg	string	Assets/Product/Texture/Image/IconSkill/lanse001.png
+BrilliantWalkStageDefaultModuleLockRImg	string	Assets/Product/Texture/Image/UiBrilliantwalk/UiBrilliantwalkLock.png
+BrilliantWalkStageDefaultModuleUnActiveRImg	string	Assets/Product/Texture/Image/UiBrilliantwalk/UiBrilliantwalkUnActive.png
+BrilliantWalkStageDefaultSkillRImg	string	Assets/Product/Texture/Image/IconSkill/IconSkillEquipShuxingJingzhungongji.png
+BrilliantWalkStageDefaultPerkRImg	string	Assets/Product/Texture/Image/IconSkill/IconSkillEquipShuxingJingzhungongji.png
+BrilliantWalkStageChapterGridMoveMinX	int	-500
+BrilliantWalkStageChapterGridMoveMaxX	int	-300
+BrilliantWalkStageChapterGridMoveTargetX	int	-400
+BrilliantWalkStageChapterGridMoveDuration	float	0.5
+BrilliantWalkStageBossChapterGridMoveMinX	int	-500
+BrilliantWalkStageBossChapterGridMoveMaxX	int	-300
+BrilliantWalkStageBossChapterGridMoveTargetX	int	-400
+BrilliantWalkStageBossChapterGridMoveDuration	float	0.5
+BrilliantWalkBossGameSetAnimeTime	float	4.9
+BrilliantWalkBossGameSetPerfectAnimeTime	float	1.5
+BrilliantWalkEnergyIcon	string	Assets/Product/Texture/Image/UiBrilliantwalk/UiBrilliantwalkIcon42.png
+BrilliantWalkEnergyName	string	Port
+BrilliantWalkEnergyItem	int	96140
+BrilliantWalkResultIcon	string	Assets/Product/Texture/Image/RoleCharacter/GaodaNormal01.png
+BrilliantWalkWeaponModule	int	1032
+UiLoginTimeLineAnim	string	null
+UiLoginSpineStartAnim	string	enable
+UiLoginSpineLoopAnim	string	idle
+UiLoginScreenOffect_H_1.33	int	250
+DormQuestTerminalTipDelayTime	int	4
+DormQuestTerminalTeamRegressIcon	string	Assets/Product/Texture/Atlas/UiDorm/FurnitureImgS26.png
+DormQuestTerminalTeamFreeIcon	string	Assets/Product/Texture/Atlas/UiDorm/FurnitureImgS25.png
+DormQuestTerminalShopId	int	950
+UiGridQuestMoveMinX	int	-700
+UiGridQuestMoveMaxX	int	-500
+UiGridQuestMoveTargetX	int	-600
+ExhibitionSuperBallRed	string	Assets/Product/Texture/Image/IconSkill/hongse.png
+ExhibitionSuperBallYellow	string	Assets/Product/Texture/Image/IconSkill/huangse.png
+ExhibitionSuperBallBlue	string	Assets/Product/Texture/Image/IconSkill/lanse.png
+MinDragYDistance	float	100
+AwarenessOcuupyActiveResonanced	string	Assets/Product/Texture/Atlas/UIEquipNew/EquipResonanceIcon002.png
+DrawShowLineCommunicationEffect2d1	string	Assets/Product/Effect/Prefab/FxUi/FxUiMain3dQishi02Prefab/FxUi2DXuxian256.prefab
+DrawShowLineCommunicationEffect2d4	string	Assets/Product/Effect/Prefab/FxUi/FxUiMain3dQishi02Prefab/FxUi2DXuxian1141.prefab
+DrawShowLineCommunicationEffect3d	string	Assets/Product/Effect/Prefab/FxUi/FxUiMain3dQishi02Prefab/FxUiMain3dQishiXuxian.prefab
+DrawShowLineCommunicationEffectWq3d	string	Assets/Product/Effect/Prefab/FxUi/FxUiMain3dQishi02Prefab/FxUiMain3dQishiXuxianWq.prefab
+BtnOccupyJoinImg3	string	Assets/Product/Texture/Atlas/UiAssign/UiAssignCharacterBtn03.png
 PhotoSave	string	Saved to album
 FunctionNotDuringOpening	string	Currently not available
 FocusType1	string	Auto Lock: Automatically locks on the enemy in your way when you move the joystick.
@@ -711,6 +792,8 @@ HeroOffcialGachaWebsite	string	Rewards in each tier change according to the chos
 ShowRegulationEnable	int	0
 RegulationPrefabUrl	string	Assets/Product/Ui/ComponentPrefab/Shop/BtnShowSpecialReg.prefab
 GooglePlayHintText	string	Google Playポイントでアイテムを獲得しました、メールボックスにてお受け取りください。
+ColorTableShopItemTextCanBuyColorJP	string	FFFFFF
+ColorTableShopItemTextCanNotBuyColorJP	string	FF8F75
 ArenaOnlineCloseTime	int	1656986340
 ActivityBriefEntryIcon	string	Assets/Product/Texture/Atlas/UiFubenActivity/UiFANYA.png
 PurchaseCardUiType	int	2

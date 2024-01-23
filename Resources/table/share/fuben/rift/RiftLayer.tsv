@@ -1,0 +1,121 @@
+Id	ChapterId	Order	Type	UnlockByPrevLayer	JumpLayerMaxCount	FightEvents[1]	FightEventLevels[1]	FightEvents[2]	FightEventLevels[2]	FightEvents[3]	FightEventLevels[3]	FightEvents[4]	FightEventLevels[4]	CoinCount	RewardId	PluginDropTypeGroupId	NodeRandomGroupIds[1]	NodePositions[1]	NodeName[1]	NodeDesc[1]	PluginDropCountMins[1]	PluginDropCountMaxs[1]	NodeRandomGroupIds[2]	NodePositions[2]	NodeName[2]	NodeDesc[2]	PluginDropCountMins[2]	PluginDropCountMaxs[2]	NodeRandomGroupIds[3]	NodePositions[3]	NodeName[3]	NodeDesc[3]	PluginDropCountMins[3]	PluginDropCountMaxs[3]	LuckyNodeRandomGroupId	LuckyNodeRewardId	LuckyPluginDropTypeGroupId	LuckyPluginDropCountMin	LuckyPluginDropCountMax
+1	1	1	1	1	0	2230500	1	2230506	1	2230507	1	2230515	1	50	16328	1	101	3	A1	Defeat all enemy units within the time limit	2	2													60001		10	4	4
+2	1	2	1	1	0	2230500	2	2230506	2	2230507	1	2230515	1	50	16329	1	201	2	A1	Defeat all enemy units within the time limit	2	2													60001		10	4	4
+3	1	3	1	1	0	2230500	3	2230506	3	2230507	1	2230515	1	50	16330	1	301	1	A1	Defeat all enemy units within the time limit	2	2													60001		10	4	4
+4	1	4	1	1	0	2230500	4	2230506	4	2230507	1	2230515	1	50	16331	1	401	1	A1	Defeat all enemy units within the time limit	2	2													60001		10	4	4
+5	1	5	2	1	5							2230515	1	50	16332	1	501	5	A1	Deeper sections are unlocked based on the number of waves defeated within the time limit	7	10													60001		10	4	4
+6	1	6	1	1	0	2230500	6	2230506	6	2230507	2	2230515	1	50	16333	2	601	5	A1	Defeat all enemy units within the time limit	2	2													60001		10	4	4
+7	1	7	1	1	0	2230500	7	2230506	7	2230507	2	2230515	1	50	16334	2	701	1	A1	Defeat all enemy units within the time limit	2	2													60001		10	4	4
+8	1	8	1	1	0	2230500	8	2230506	8	2230507	2	2230515	1	50	16335	2	801	2	A1	Defeat all enemy units within the time limit	2	2													60001		10	4	4
+9	1	9	1	1	0	2230500	9	2230506	9	2230507	2	2230515	1	50	16336	2	901	1	A1	Defeat all enemy units within the time limit	2	2													60001		10	4	4
+10	1	10	3	1	0	2230500	10	2230506	10	2230507	2	2230515	1	50	16337	2	1001	5	A1	Defeat all enemy units within the time limit	2	2													60001		10	4	4
+11	2	11	1	1	0	2230500	11	2230506	11	2230509	5	2230515	1	75	16338	3	1101	3	B1	Defeat all enemy units within the time limit	2	3													60001		11	6	6
+12	2	12	1	1	0	2230500	12	2230506	12	2230509	5	2230515	1	75	16339	3	1201	1	B1	Defeat all enemy units within the time limit	2	3													60001		11	6	6
+13	2	13	1	1	0	2230500	13	2230506	13	2230509	5	2230515	1	75	16340	3	1301	2	B1	Defeat all enemy units within the time limit	2	3													60001		11	6	6
+14	2	14	1	1	0	2230500	14	2230506	14	2230509	5	2230515	1	75	16341	3	1401	1	B1	Defeat all enemy units within the time limit	2	3													60001		11	6	6
+15	2	15	2	1	5							2230515	1	75	16342	3	1501	5	B1	Deeper sections are unlocked based on the number of waves defeated within the time limit	7	10													60001		11	6	6
+16	2	16	1	1	0	2230500	16	2230506	16	2230509	5	2230515	1	75	16343	3	1601	3	B1	Defeat all enemy units within the time limit	2	3													60001		11	6	6
+17	2	17	1	1	0	2230500	17	2230506	17	2230509	5	2230515	1	75	16344	3	1701	1	B1	Defeat all enemy units within the time limit	2	3													60001		11	6	6
+18	2	18	1	1	0	2230500	18	2230506	18	2230509	5	2230515	1	75	16345	3	1801	2	B1	Defeat all enemy units within the time limit	2	3													60001		11	6	6
+19	2	19	1	1	0	2230500	19	2230506	19	2230509	5	2230515	1	75	16346	3	1901	1	B1	Defeat all enemy units within the time limit	2	3													60001		11	6	6
+20	2	20	3	1	0	2230500	20	2230506	20	2230509	5	2230515	1	75	16347	3	2001	5	B1	Defeat all enemy units within the time limit	2	3													60001		11	6	6
+21	2	21	1	1	0	2230500	21	2230506	21	2230511	2	2230515	1	75	16348	4	2101	2	B1	Defeat all enemy units within the time limit	2	3													60001		12	6	6
+22	2	22	1	1	0	2230500	22	2230506	22	2230511	2	2230515	1	75	16349	4	2201	3	B1	Defeat all enemy units within the time limit	2	3													60001		12	6	6
+23	2	23	1	1	0	2230500	23	2230506	23	2230511	2	2230515	1	75	16350	4	2301	2	B1	Defeat all enemy units within the time limit	2	3													60001		12	6	6
+24	2	24	1	1	0	2230500	24	2230506	24	2230511	2	2230515	1	75	16351	4	2401	2	B1	Defeat all enemy units within the time limit	2	3													60001		12	6	6
+25	2	25	2	1	5							2230515	1	75	16352	4	2501	5	B1	Deeper sections are unlocked based on the number of waves defeated within the time limit	7	10													60001		12	6	6
+26	2	26	1	1	0	2230500	26	2230506	26	2230511	2	2230515	1	75	16353	4	2601	1	B1	Defeat all enemy units within the time limit	2	3													60001		12	6	6
+27	2	27	1	1	0	2230500	27	2230506	27	2230511	2	2230515	1	75	16354	4	2701	1	B1	Defeat all enemy units within the time limit	2	3													60001		12	6	6
+28	2	28	1	1	0	2230500	28	2230506	28	2230511	2	2230515	1	75	16355	4	2801	2	B1	Defeat all enemy units within the time limit	2	3													60001		12	6	6
+29	2	29	1	1	0	2230500	29	2230506	29	2230511	2	2230515	1	75	16356	4	2901	1	B1	Defeat all enemy units within the time limit	2	3													60001		12	6	6
+30	2	30	3	1	0	2230500	30	2230506	30	2230511	2	2230515	1	75	16357	4	3001	5	B1	Defeat all enemy units within the time limit	2	3													60001		12	6	6
+31	3	31	1	1	0	2230500	31	2230506	31	2230508	2	2230515	1	160	16358	5	3101	1	C1	Defeat all enemy units within the time limit	3	4													60001		13	6	6
+32	3	32	1	1	0	2230500	32	2230506	32	2230508	2	2230515	1	160	16359	5	3201	1	C1	Defeat all enemy units within the time limit	3	4													60001		13	6	6
+33	3	33	1	1	0	2230500	33	2230506	33	2230508	2	2230515	1	160	16360	5	3301	2	C1	Defeat all enemy units within the time limit	3	4													60001		13	6	6
+34	3	34	1	1	0	2230500	34	2230506	34	2230508	2	2230515	1	160	16361	5	3401	3	C1	Defeat all enemy units within the time limit	3	4													60001		13	6	6
+35	3	35	2	1	5							2230515	1	160	16362	5	3501	5	C1	Deeper sections are unlocked based on the number of waves defeated within the time limit	7	10													60001		13	6	6
+36	3	36	1	1	0	2230500	36	2230506	36	2230508	2	2230515	1	160	16363	5	3601	3	C1	Defeat all enemy units within the time limit	3	4													60001		13	6	6
+37	3	37	1	1	0	2230500	37	2230506	37	2230508	2	2230515	1	160	16364	5	3701	1	C1	Defeat all enemy units within the time limit	3	4													60001		13	6	6
+38	3	38	1	1	0	2230500	38	2230506	38	2230508	2	2230515	1	160	16365	5	3801	2	C1	Defeat all enemy units within the time limit	3	4													60001		13	6	6
+39	3	39	1	1	0	2230500	39	2230506	39	2230508	2	2230515	1	160	16366	5	3901	3	C1	Defeat all enemy units within the time limit	3	4													60001		13	6	6
+40	3	40	3	1	0	2230500	40	2230506	40	2230508	2	2230515	1	160	16367	6	4001	5	C1	Defeat all enemy units within the time limit	3	6													60001		14	8	8
+41	3	41	1	1	0	2230500	41	2230506	41	2230512	3	2230515	1	160	16368	6	4101	1	C1	Defeat all enemy units within the time limit	3	6													60001		14	8	8
+42	3	42	1	1	0	2230500	42	2230506	42	2230512	3	2230515	1	160	16369	6	4201	1	C1	Defeat all enemy units within the time limit	3	6													60001		14	8	8
+43	3	43	1	1	0	2230500	43	2230506	43	2230512	3	2230515	1	160	16370	6	4301	2	C1	Defeat all enemy units within the time limit	3	6													60001		14	8	8
+44	3	44	1	1	0	2230500	44	2230506	44	2230512	3	2230515	1	160	16371	6	4401	2	C1	Defeat all enemy units within the time limit	3	6													60001		14	8	8
+45	3	45	2	1	5							2230515	1	160	16372	6	4501	5	C1	Deeper sections are unlocked based on the number of waves defeated within the time limit	7	10													60001		14	8	8
+46	3	46	1	1	0	2230500	46	2230506	46	2230512	3	2230515	1	160	16373	6	4601	1	C1	Defeat all enemy units within the time limit	3	6													60001		14	8	8
+47	3	47	1	1	0	2230500	47	2230506	47	2230512	3	2230515	1	160	16374	6	4701	2	C1	Defeat all enemy units within the time limit	3	6													60001		14	8	8
+48	3	48	1	1	0	2230500	48	2230506	48	2230512	3	2230515	1	160	16375	6	4801	2	C1	Defeat all enemy units within the time limit	3	6													60001		14	8	8
+49	3	49	1	1	0	2230500	49	2230506	49	2230512	3	2230515	1	160	16376	6	4901	1	C1	Defeat all enemy units within the time limit	3	6													60001		14	8	8
+50	3	50	3	1	0	2230500	50	2230506	50	2230512	3	2230515	1	160	16377	6	5001	5	C1	Defeat all enemy units within the time limit	3	6													60001		14	8	8
+51	4	51	1	1	0	2230500	51	2230506	51	2230510	3	2230515	1	300	16378	6	5101	2	D1	Defeat all enemy units within the time limit	3	6													60001		15	8	8
+52	4	52	1	1	0	2230500	52	2230506	52	2230510	3	2230515	1	300	16379	6	5201	2	D1	Defeat all enemy units within the time limit	3	6													60001		15	8	8
+53	4	53	1	1	0	2230500	53	2230506	53	2230510	3	2230515	1	300	16380	6	5301	1	D1	Defeat all enemy units within the time limit	3	6													60001		15	8	8
+54	4	54	1	1	0	2230500	54	2230506	54	2230510	3	2230515	1	300	16381	6	5401	1	D1	Defeat all enemy units within the time limit	3	6													60001		15	8	8
+55	4	55	2	1	5							2230515	1	300	16382	6	5501	5	D1	Deeper sections are unlocked based on the number of waves defeated within the time limit	7	10													60001		15	8	8
+56	4	56	1	1	0	2230500	56	2230506	56	2230510	3	2230515	1	300	16383	6	5601	2	D1	Defeat all enemy units within the time limit	3	6													60001		15	8	8
+57	4	57	1	1	0	2230500	57	2230506	57	2230510	3	2230515	1	300	16384	6	5701	1	D1	Defeat all enemy units within the time limit	3	6													60001		15	8	8
+58	4	58	1	1	0	2230500	58	2230506	58	2230510	3	2230515	1	300	16385	6	5801	2	D1	Defeat all enemy units within the time limit	3	6													60001		15	8	8
+59	4	59	1	1	0	2230500	59	2230506	59	2230510	3	2230515	1	300	16386	6	5901	1	D1	Defeat all enemy units within the time limit	3	6													60001		15	8	8
+60	4	60	3	1	0	2230500	60	2230506	60	2230510	3	2230515	1	300	16387	6	6001	5	D1	Defeat all enemy units within the time limit	3	6													60001		15	8	8
+61	4	61	1	1	0	2230500	61	2230506	61	2230513	3	2230515	1	800	16388	7	6101	2	D1	Defeat all enemy units within the time limit	3	6													60001		16	10	10
+62	4	62	1	1	0	2230500	62	2230506	62	2230513	3	2230515	1	800	16389	7	6201	2	D1	Defeat all enemy units within the time limit	3	6													60001		16	10	10
+63	4	63	1	1	0	2230500	63	2230506	63	2230513	3	2230515	1	800	16390	7	6301	1	D1	Defeat all enemy units within the time limit	3	6													60001		16	10	10
+64	4	64	1	1	0	2230500	64	2230506	64	2230513	3	2230515	1	800	16391	7	6401	1	D1	Defeat all enemy units within the time limit	3	6													60001		16	10	10
+65	4	65	2	1	5							2230515	1	800	16392	7	6501	5	D1	Deeper sections are unlocked based on the number of waves defeated within the time limit	7	10													60001		16	10	10
+66	4	66	1	1	0	2230500	66	2230506	66	2230513	3	2230515	1	800	16393	7	6601	2	D1	Defeat all enemy units within the time limit	3	6													60001		16	10	10
+67	4	67	1	1	0	2230500	67	2230506	67	2230513	3	2230515	1	800	16394	7	6701	1	D1	Defeat all enemy units within the time limit	3	6													60001		16	10	10
+68	4	68	1	1	0	2230500	68	2230506	68	2230513	3	2230515	1	800	16395	7	6801	2	D1	Defeat all enemy units within the time limit	3	6													60001		16	10	10
+69	4	69	1	1	0	2230500	69	2230506	69	2230513	3	2230515	1	800	16396	7	6901	1	D1	Defeat all enemy units within the time limit	3	6													60001		16	10	10
+70	4	70	3	1	0	2230500	70	2230506	70	2230513	3	2230515	1	800	16397	7	7001	5	D1	Defeat all enemy units within the time limit	3	6													60001		16	10	10
+71	5	71	1	1	0	2230500	71	2230506	71	2230509	4	2230515	1	800	16398	7	7101	1	E1	Defeat all enemy units within the time limit	3	6	7102	2	E2	Defeat all enemy units within the time limit	3	6							60001		17	12	12
+72	5	72	1	1	0	2230500	72	2230506	72	2230509	4	2230515	1	800	16399	7	7201	1	E1	Defeat all enemy units within the time limit	3	6	7202	2	E2	Defeat all enemy units within the time limit	3	6							60001		17	12	12
+73	5	73	1	1	0	2230500	73	2230506	73	2230509	4	2230515	1	800	16400	7	7301	1	E1	Defeat all enemy units within the time limit	3	6	7302	2	E2	Defeat all enemy units within the time limit	3	6							60001		17	12	12
+74	5	74	1	1	0	2230500	74	2230506	74	2230509	4	2230515	1	800	16401	7	7401	1	E1	Defeat all enemy units within the time limit	3	6	7402	2	E2	Defeat all enemy units within the time limit	3	6							60001		17	12	12
+75	5	75	2	1	5							2230515	1	800	16402	7	7501	5	E1	Deeper sections are unlocked based on the number of waves defeated within the time limit	7	10													60001		17	12	12
+76	5	76	1	1	0	2230500	76	2230506	76	2230509	4	2230515	1	800	16403	7	7601	1	E1	Defeat all enemy units within the time limit	3	6	7602	2	E2	Defeat all enemy units within the time limit	3	6							60001		17	12	12
+77	5	77	1	1	0	2230500	77	2230506	77	2230509	4	2230515	1	800	16404	7	7701	1	E1	Defeat all enemy units within the time limit	3	6	7702	2	E2	Defeat all enemy units within the time limit	3	6							60001		17	12	12
+78	5	78	1	1	0	2230500	78	2230506	78	2230509	4	2230515	1	800	16405	7	7801	1	E1	Defeat all enemy units within the time limit	3	6	7802	2	E2	Defeat all enemy units within the time limit	3	6							60001		17	12	12
+79	5	79	1	1	0	2230500	79	2230506	79	2230509	4	2230515	1	800	16406	7	7901	1	E1	Defeat all enemy units within the time limit	3	6	7902	2	E2	Defeat all enemy units within the time limit	3	6							60001		17	12	12
+80	5	80	3	1	0	2230500	80	2230506	80	2230509	4	2230515	1	800	16407	7	8001	5	E1	Defeat all enemy units within the time limit	3	6													60001		17	12	12
+81	6	81	1	1	0	2230500	81	2230506	81	2230514	4	2230515	1	800	16408	8	8101	1	F1	Defeat all enemy units within the time limit	4	6	8102	2	F2	Defeat all enemy units within the time limit	4	6	8103	3	F3	Defeat all enemy units within the time limit	4	6	60001		18	12	12
+82	6	82	1	1	0	2230500	82	2230506	82	2230514	4	2230515	1	800	16409	8	8201	1	F1	Defeat all enemy units within the time limit	4	6	8202	2	F2	Defeat all enemy units within the time limit	4	6	8203	3	F3	Defeat all enemy units within the time limit	4	6	60001		18	12	12
+83	6	83	1	1	0	2230500	83	2230506	83	2230514	4	2230515	1	800	16410	8	8301	1	F1	Defeat all enemy units within the time limit	4	6	8302	2	F2	Defeat all enemy units within the time limit	4	6	8303	3	F3	Defeat all enemy units within the time limit	4	6	60001		18	12	12
+84	6	84	1	1	0	2230500	84	2230506	84	2230514	4	2230515	1	800	16411	8	8401	1	F1	Defeat all enemy units within the time limit	4	6	8402	2	F2	Defeat all enemy units within the time limit	4	6	8403	3	F3	Defeat all enemy units within the time limit	4	6	60001		18	12	12
+85	6	85	2	1	5							2230515	1	800	16412	8	8501	5	F1	Deeper sections are unlocked based on the number of waves defeated within the time limit	7	10													60001		18	12	12
+86	6	86	1	1	0	2230500	86	2230506	86	2230514	4	2230515	1	800	16413	8	8601	1	F1	Defeat all enemy units within the time limit	4	6	8602	2	F2	Defeat all enemy units within the time limit	4	6	8603	3	F3	Defeat all enemy units within the time limit	4	6	60001		18	12	12
+87	6	87	1	1	0	2230500	87	2230506	87	2230514	4	2230515	1	800	16414	8	8701	1	F1	Defeat all enemy units within the time limit	4	6	8702	2	F2	Defeat all enemy units within the time limit	4	6	8703	3	F3	Defeat all enemy units within the time limit	4	6	60001		18	12	12
+88	6	88	1	1	0	2230500	88	2230506	88	2230514	4	2230515	1	800	16415	8	8801	1	F1	Defeat all enemy units within the time limit	4	6	8802	2	F2	Defeat all enemy units within the time limit	4	6	8803	3	F3	Defeat all enemy units within the time limit	4	6	60001		18	12	12
+89	6	89	1	1	0	2230500	89	2230506	89	2230514	4	2230515	1	800	16416	8	8901	1	F1	Defeat all enemy units within the time limit	4	6	8902	2	F2	Defeat all enemy units within the time limit	4	6	8903	3	F3	Defeat all enemy units within the time limit	4	6	60001		18	12	12
+90	6	90	2	1	30							2230515	1	800	16417	8	9001	5	F1	Defeat all enemy units within the time limit	7	10													60001		18	12	12
+91	6	91	3	0	0	2230500	91	2230506	91	2230507	5	2230515	1	1200	16418	8	9101	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+92	6	92	3	0	0	2230500	92	2230506	92	2230507	5	2230515	1	1200	16419	8	9201	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+93	6	93	3	0	0	2230500	93	2230506	93	2230507	5	2230515	1	1200	16420	8	9301	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+94	6	94	3	0	0	2230500	94	2230506	94	2230507	5	2230515	1	1200	16421	8	9401	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+95	6	95	3	0	0	2230500	95	2230506	95	2230507	5	2230515	1	1200	16422	8	9501	5	X	Deeper sections are unlocked based on the number of waves defeated within the time limit	4	6													60001		18	12	12
+96	6	96	3	0	0	2230500	96	2230506	96	2230508	5	2230515	1	1200	16423	8	9601	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+97	6	97	3	0	0	2230500	97	2230506	97	2230508	5	2230515	1	1200	16424	8	9701	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+98	6	98	3	0	0	2230500	98	2230506	98	2230508	5	2230515	1	1200	16425	8	9801	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+99	6	99	3	0	0	2230500	99	2230506	99	2230508	5	2230515	1	1200	16426	8	9901	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+100	6	100	3	0	0	2230500	100	2230506	100	2230508	5	2230515	1	1200	16427	8	10001	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+101	6	101	3	0	0	2230500	101	2230506	101	2230509	5	2230515	1	1200	16428	8	10101	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+102	6	102	3	0	0	2230500	102	2230506	102	2230509	5	2230515	1	1200	16429	8	10201	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+103	6	103	3	0	0	2230500	103	2230506	103	2230509	5	2230515	1	1200	16430	8	10301	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+104	6	104	3	0	0	2230500	104	2230506	104	2230509	5	2230515	1	1200	16431	8	10401	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+105	6	105	3	0	0	2230500	105	2230506	105	2230509	5	2230515	1	1200	16432	8	10501	5	X	Deeper sections are unlocked based on the number of waves defeated within the time limit	4	6													60001		18	12	12
+106	6	106	3	0	0	2230500	106	2230506	106	2230510	5	2230515	1	1200	16433	8	10601	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+107	6	107	3	0	0	2230500	107	2230506	107	2230510	5	2230515	1	1200	16434	8	10701	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+108	6	108	3	0	0	2230500	108	2230506	108	2230510	5	2230515	1	1200	16435	8	10801	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+109	6	109	3	0	0	2230500	109	2230506	109	2230510	5	2230515	1	1200	16436	8	10901	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+110	6	110	3	0	0	2230500	110	2230506	110	2230510	5	2230515	1	1200	16437	8	11001	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+111	6	111	3	0	0	2230500	111	2230506	111	2230511	5	2230515	1	1200	16438	8	11101	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+112	6	112	3	0	0	2230500	112	2230506	112	2230511	5	2230515	1	1200	16439	8	11201	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+113	6	113	3	0	0	2230500	113	2230506	113	2230512	5	2230515	1	1200	16440	8	11301	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+114	6	114	3	0	0	2230500	114	2230506	114	2230512	5	2230515	1	1200	16441	8	11401	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+115	6	115	3	0	0	2230500	115	2230506	115	2230512	5	2230515	1	1200	16442	8	11501	5	X	Deeper sections are unlocked based on the number of waves defeated within the time limit	4	6													60001		18	12	12
+116	6	116	3	0	0	2230500	116	2230506	116	2230513	5	2230515	1	1200	16443	8	11601	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+117	6	117	3	0	0	2230500	117	2230506	117	2230513	5	2230515	1	1200	16444	8	11701	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+118	6	118	3	0	0	2230500	118	2230506	118	2230513	5	2230515	1	1200	16445	8	11801	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+119	6	119	3	0	0	2230500	119	2230506	119	2230514	5	2230515	1	1200	16446	8	11901	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12
+120	6	120	3	0	0	2230500	120	2230506	120	2230514	5	2230515	1	1200	16447	8	12001	5	X	Defeat all enemy units within the time limit	4	6													60001		18	12	12

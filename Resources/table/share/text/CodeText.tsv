@@ -139,73 +139,78 @@ Id	Key	Text
 20003072	FubenMainLinePassTimesNotEnough	Insufficient Main Story attempts
 20003073	FubenMainLineChapterIsNotExist	Chapter does not exist
 20003074	FubenMainLineActivityHideChapterNotOpen	Hidden chapter event not yet available
-20003075	FubenPrequelStageNotPass	Stage not yet cleared
-20003076	FubenPrequelStageRewardAlready	Rank reward claimed
-20003077	FubenPrequelStageIdError	Invalid Side Story stage
-20003078	FubenPrequelCoverIdError	Invalid Side Story cover ID
-20003079	FubenPrequelChallengeIdError	Invalid Side Story ID
-20003080	FubenPrequelChallengeLock	Side Story has not been unlocked yet
-20003081	FubenPrequelChallengeUnlockAlready	Side Story has been unlocked
-20003082	FubenPrequelChallengeCountLimit	Insufficient attempts
-20003083	FubenPrequelChapterNotFind	Mission does not exist
-20003084	FubenManagerAutoFightStageNotExist	Mission does not exist
-20003085	FubenManagerAutoFightStageInvalid	Invalid Side Story
-20003086	FubenManagerAutoFightHaventPassed	Side Story has not been cleared yet
-20003087	FubenManagerAutoFightPoolIsFull	Number of teams has reached the limit
-20003088	FubenManagerAutoFightAlreadyRunning	Auto Clearing
-20003089	FubenManagerAutoFightNotEnoughTimes	Insufficient attempts left
-20003090	FubenManagerAutoFightNotEnoughActionPoint	Insufficient Stamina
-20003091	FubenManagerAutoFightIndexInvalid	Invalid Auto Clear number
-20003092	FubenManagerAutoFightStageNotMatch	Auto Clear quest mismatched
-20003093	FubenManagerAutoFightNotComplete	Auto Clear not completed
-20003094	FubenManagerTrialIdIsNotFound	Trial Mission does not exist
-20003095	FubenManagerTrialPreIdIsNotPass	Complete the previous stage first
-20003096	FubenManagerTrialIdIsNotPass	Complete the prerequisite stage first
-20003097	FubenManagerTrialPassRewardAlreadyGet	Complete the stage first
-20003098	FubenManagerTrialTypeRewardIsNotExit	Reward does not exist
-20003099	FubenManagerTrialTypeRewardAlreadyGet	Reward Claimed
-20003100	FubenManagerTrialTypeRewardIsNotFinish	Stage not completed
-20003101	FubenManagerDailyChapterNotFound	Daily quest chapter not found
-20003102	FubenManagerDailySectionNotFound	Daily quest not found
-20003103	FubenManagerDailyConditionInvalid	Invalid daily quest requirement
-20003104	FubenManagerDailyTimeNotFit	Not open yet
-20003105	FubenManagerAutoFightTimesError	Auto Clear attempts error
-20003106	FubenManagerBossSingleResetCanNotSaveScore	Unable to save as the rules have been refreshed
-20003107	FubenManagerBossSingleDataIsRefresh	Side Story data has been refreshed, please reload the page.
-20003108	FubenManagerStartFightIntervalFast	You cannot challenge the quest yet
-20003109	FubenAssignChapterNotFound	Chapter info configuration error
-20003110	FubenAssignGroupNotFound	Stage info configuration error
-20003111	FubenAssignTeamInfoNotFound	Team info configuration error
-20003112	FubenAssignGroupFightCountLimit	You have used all challenge attempts
-20003113	FubenAssignGroupTeamNotSet	Team not configured. Unable to battle
-20003114	FubenAssignFightCardCountError	Battle member number error. Unable to battle
-20003115	FubenAssignFightCardNotInTeam	Border Pact character not in team
-20003116	FubenAssignFightGroupIdNotMatch	Border Pact stage group does not match
-20003117	FubenAssignFightStageAlreadyFinish	Border Pact stage completed
-20003118	FubenAssignFightPreStageNotFinish	Border Pact prerequisite stage incomplete
-20003119	FubenAssignWinStageNotMatch	Border Pact victory stage does not match
-20003120	FubenAssignWinGroupIdNotMatch	Border Pact victory stage group does not match
-20003121	FubenAssignGroupTeamListNotFound	Team list does not exist. Unable to battle
-20003122	FubenAssignPreGroupNotFinish	You have not completed the previous chapter yet
-20003123	FubenAssignTeamListIsEmpty	Team empty. Unable to battle
-20003124	FubenAssignTeamCountError	Team number does not match the requirement. Unable to battle
-20003125	FubenAssignTeamIsEmpty	Insufficient members in team. Unable to battle
-20003126	FubenAssignTeamMemberCountLimit	Team size does not match the requirement. Unable to battle
-20003127	FubenAssignTeamMemberRepeated	Duplicated team member. Unable to battle
-20003128	FubenAssignChapterNotFinish	Chapter not completed
-20003129	FubenAssignChapterUseSameCharacter	Character already assigned to stationing
-20003130	FubenAssignChapterCharacterAlreadyUse	Character already stationing in another area
-20003131	FubenAssignChapterRewardAlreadyGet	Chapter reward claimed
-20003132	FubenManagerFightRestartFightIdNotMatch	Battle restart ID not matching
-20003133	FubenManagerFightRestartPreFightDataNotMatch	Battle restart data mismatch
-20003134	FubenBfrtChapterNotOpen	Stronghold chapter not yet available
-20003135	FubenBfrtTeamSetCharacterRepeat	Repeated character in team
-20003136	FubenManagerStageConfigNotExist	Stage settings not found
-20003137	FubenFightNpcIsNullOrEmpty	Character deployed cannot be empty
-20003138	FubenRepeatedCharacter	Cannot deploy the same character again
-20003139	FubenActivityReset	Event has been reset
-20003140	FubenBossSingleIsNotTrialStage	20003137 Stage is not a trial stage
-20003141	FubenStageCharacterNpcIdCfgNotExit	20003139 Character NPC ID configuration matching the stage type not found
+20003075	FubenMainLineActivityVariationsChapterNotOpen	The stage has not been cleared yet
+20003076	FubenPrequelStageNotPass	Star reward claimed
+20003077	FubenPrequelStageRewardAlready	Rank reward claimed
+20003078	FubenPrequelStageIdError	Invalid Side Story stage
+20003079	FubenPrequelCoverIdError	Invalid Side Story cover ID
+20003080	FubenPrequelChallengeIdError	Invalid Side Story ID
+20003081	FubenPrequelChallengeLock	Side Story has not been unlocked yet
+20003082	FubenPrequelChallengeUnlockAlready	Side Story has been unlocked
+20003083	FubenPrequelChallengeCountLimit	Insufficient attempts
+20003084	FubenPrequelChapterNotFind	Mission does not exist
+20003085	FubenManagerAutoFightStageNotExist	Mission does not exist
+20003086	FubenManagerAutoFightStageInvalid	Invalid Side Story
+20003087	FubenManagerAutoFightHaventPassed	Side Story has not been cleared yet
+20003088	FubenManagerAutoFightPoolIsFull	Number of teams has reached the limit
+20003089	FubenManagerAutoFightAlreadyRunning	Auto Clearing
+20003090	FubenManagerAutoFightNotEnoughTimes	Insufficient attempts left
+20003091	FubenManagerAutoFightNotEnoughActionPoint	Insufficient Stamina
+20003092	FubenManagerAutoFightIndexInvalid	Invalid Auto Clear number
+20003093	FubenManagerAutoFightStageNotMatch	Auto Clear quest mismatched
+20003094	FubenManagerAutoFightNotComplete	Auto Clear not completed
+20003095	FubenManagerTrialIdIsNotFound	Trial Mission does not exist
+20003096	FubenManagerTrialPreIdIsNotPass	Complete the previous stage first
+20003097	FubenManagerTrialIdIsNotPass	Complete the prerequisite stage first
+20003098	FubenManagerTrialPassRewardAlreadyGet	Complete the stage first
+20003099	FubenManagerTrialTypeRewardIsNotExit	Reward does not exist
+20003100	FubenManagerTrialTypeRewardAlreadyGet	Reward Claimed
+20003101	FubenManagerTrialTypeRewardIsNotFinish	Stage not completed
+20003102	FubenManagerDailyChapterNotFound	Daily quest chapter not found
+20003103	FubenManagerDailySectionNotFound	Daily quest not found
+20003104	FubenManagerDailyConditionInvalid	Invalid daily quest requirement
+20003105	FubenManagerDailyTimeNotFit	Not open yet
+20003106	FubenManagerAutoFightTimesError	Auto Clear attempts error
+20003107	FubenManagerBossSingleResetCanNotSaveScore	Unable to save as the rules have been refreshed
+20003108	FubenManagerBossSingleDataIsRefresh	Side Story data has been refreshed, please reload the page.
+20003109	FubenManagerStartFightIntervalFast	You cannot challenge the quest yet
+20003110	FubenAssignChapterNotFound	Chapter info configuration error
+20003111	FubenAssignGroupNotFound	Stage info configuration error
+20003112	FubenAssignTeamInfoNotFound	Team info configuration error
+20003113	FubenAssignGroupFightCountLimit	You have used all challenge attempts
+20003114	FubenAssignGroupTeamNotSet	Team not configured. Unable to battle
+20003115	FubenAssignFightCardCountError	Battle member number error. Unable to battle
+20003116	FubenAssignFightCardNotInTeam	Border Pact character not in team
+20003117	FubenAssignFightGroupIdNotMatch	Border Pact stage group does not match
+20003118	FubenAssignFightStageAlreadyFinish	Border Pact stage completed
+20003119	FubenAssignFightPreStageNotFinish	Border Pact prerequisite stage incomplete
+20003120	FubenAssignWinStageNotMatch	Border Pact victory stage does not match
+20003121	FubenAssignWinGroupIdNotMatch	Border Pact victory stage group does not match
+20003122	FubenAssignGroupTeamListNotFound	Team list does not exist. Unable to battle
+20003123	FubenAssignPreGroupNotFinish	You have not completed the previous chapter yet
+20003124	FubenAssignTeamListIsEmpty	Team empty. Unable to battle
+20003125	FubenAssignTeamCountError	Team number does not match the requirement. Unable to battle
+20003126	FubenAssignTeamIsEmpty	Insufficient members in team. Unable to battle
+20003127	FubenAssignTeamMemberCountLimit	Team size does not match the requirement. Unable to battle
+20003128	FubenAssignTeamMemberRepeated	Duplicated team member. Unable to battle
+20003129	FubenAssignChapterNotFinish	Chapter not completed
+20003130	FubenAssignChapterUseSameCharacter	Character already assigned to stationing
+20003131	FubenAssignChapterCharacterAlreadyUse	Character already stationing in another area
+20003132	FubenAssignChapterRewardAlreadyGet	Chapter reward claimed
+20003133	FubenAssignStageInfoNotFound	20003132 Stage info not found
+20003134	FubenAssignGroupInfoNotExist	20003133 Current node has no progress
+20003135	FubenAssignGroupStageNotFinish	20003134 The stage in current node is incomplete and cannot be reset
+20003136	FubenAssignFinishedStageCanNotChangeTeam	20003135 Unable to change team for already completed stage
+20003137	FubenManagerFightRestartFightIdNotMatch	Battle restart ID not matching
+20003138	FubenManagerFightRestartPreFightDataNotMatch	Battle restart data mismatch
+20003139	FubenBfrtChapterNotOpen	Stronghold chapter not yet available
+20003140	FubenBfrtTeamSetCharacterRepeat	Repeated character in team
+20003141	FubenManagerStageConfigNotExist	Stage settings not found
+20003142	FubenFightNpcIsNullOrEmpty	Character deployed cannot be empty
+20003143	FubenRepeatedCharacter	Cannot deploy the same character again
+20003144	FubenActivityReset	Event has been reset
+20003145	FubenBossSingleIsNotTrialStage	20003137 Stage is not a trial stage
+20003146	FubenStageCharacterNpcIdCfgNotExit	20003139 Character NPC ID configuration matching the stage type not found
 20004001	TeamManagerGetTeamIdFail	Failed to obtain team ID
 20004002	TeamManagerPrefabExceedMax	Team default settings have reached the limit
 20004003	TeamManagerSetTeamParaError	Team preset quantity error
@@ -238,6 +243,7 @@ Id	Key	Text
 20008016	FightProxyFightAlreadyFinish	
 20008017	FightProxyInvalidFrameIndex	
 20008018	FightProxyRepeatJoin	
+20008019	FightProxyReJoinWorldNoError	20008019 Re-entry battles do not match ongoing battles
 20009001	CharacterManagerGetCharacterTemplateNotFound	Failed to obtain Construct template
 20009002	CharacterManagerGetLevelUpTemplateNotFound	Failed to obtain Construct upgrade template
 20009003	CharacterManagerGetGradeTemplateNotFound	Failed to obtain Construct Overclock template
@@ -292,15 +298,23 @@ Id	Key	Text
 20009052	CharacterSkillLevelEffectTemplateNotFound	Construct skill level effects not found
 20009053	CharacterExtraDataNotFound	Affection data not found
 20009054	CharacterSkillSwitchIsSame	The switched skill is the same as your current skill
-20009055	CharacterGatherRewardHadGet	Reward has been claimed
-20009056	CharacterPreGatherRewardIsNotGet	Reward of the previous stage not claimed
-20009057	CharacterManagerTrustLevelIsMax	Max Affection reached
-20009058	CharacterSpecialSkillLevelNotEnough	Uniframe Skill does not meet the prerequisite level
+20009055	CharacterMagicIsNotFoundOrLock	
+20009056	CharacterMagicSwitchIsSame	
+20009057	CharacterGatherRewardHadGet	Reward has been claimed
+20009058	CharacterPreGatherRewardIsNotGet	Reward of the previous stage not claimed
+20009059	CharacterManagerTrustLevelIsMax	Max Affection reached
+20009060	CharacterSpecialSkillLevelNotEnough	Uniframe Skill does not meet the prerequisite level
+20009061	CharacterExhibitionLimitCfgNotFound	
+20009062	CharacterSwitchMagicInvalidCharacterId	
 20010001	FashionManagerGetFashionNotFound	Coating not found
 20010002	FashionIsUnOwned	You do not own this coating
 20010003	FashionIsLock	This coating has not been unlocked yet
 20010004	FashionIsUnLock	This coating has been unlocked
 20010005	FashionCharacterDoNotMatch	Coating character does not match
+20010006	FashionAureoleConfigNotFound	20010006 Ultima circle configuration not found
+20010007	FashionAureoleInvalidCharacterId	20010007 Illegal character ID
+20010008	FashionAureoleLiberateLvNotEnough	20010008 Character has not awakened Infinitas Rank
+20010009	FashionAureoleIdNotFound	
 20012001	ItemManagerGetItemTableFailed	Failed to obtain item list
 20012002	ItemManagerGetItemNotFound	Target item not found
 20012003	ItemManagerCheckIdValidFail	Item ID does not exist
@@ -331,8 +345,12 @@ Id	Key	Text
 20012028	ItemEquipExpUseEquipTypeError	Equipment type error
 20012029	ItemManagerBuyAssetNotAllowConsumeId	Consumable cannot be converted
 20012030	ItemCannotConvertPartnerExp	This item cannot be converted into companion EXP
-20012031	ItemManagerBuyAssetNotInTime	Outside the purchase period
-20012032	ItemManagerBuyAssetMaxTotalTimes	Purchase limit reached
+20012031	ItemTypeIsNotDlcQuickUseItem	Outside the purchase period
+20012032	ItemDlcQuickUseItemIndexError	Purchase limit reached
+20012033	ItemQuickUseItemIndexIsEmpty	20012033 This ID does not equip an item
+20012034	ItemQuickUseItemNotEnough	20012034dlc Insufficient quick use item
+20012035	ItemManagerBuyAssetNotInTime	Outside the purchase period
+20012036	ItemManagerBuyAssetMaxTotalTimes	Purchase limit reached
 20014001	ArrangeManagerCalTypeFail	Invalid ID, unable to identify the type.
 20017001	DropManagerGetDropGoodsFail	Failed to obtain dropped item
 20017002	DropManagerGetDropBottomTableListFail	Failed to obtain guarantee drop list
@@ -631,61 +649,69 @@ Id	Key	Text
 20034027	ConditionManagerWeaponResonanceNotEnough	Insufficient equipment Resonance Skills
 20034028	ConditionManagerChipResonanceNotEnough	Insufficient Memory Resonance Skills
 20034029	ConditionManagerEquipResonanceNotEnough	Insufficient equipment Resonance Skills
-20034030	ConditionManagerRedEnvelopeNotEnough	Not enough gifts claimed by member
-20034031	ConditionManagerKillBossTimeIsNotSatisfy	Failed to defeat the boss within a required time
-20034032	ConditionManagerBabelTowerLevelNotEnough	Babel Tower level too low
-20034033	ConditionManagerMonsterKillCountNotEnough	Not enough enemies killed
-20034034	ConditionManagerWeaponNotUnlock	Weapon not unlocked
-20034035	ConditionManagerWeaponMaxLevelNotEnough	Weapon not at max level
-20034036	ConditionManagerWeaponBreakthroughNotEnough	Weapon not Overclocked
-20034037	ConditionManagerAwarenessSuitMaxLevelNotEnough	Memory not at max level
-20034038	ConditionManagerAwarenessSuitMaxBreakthroughNotEnough	Memory not Overclocked
-20034039	ConditionManagerAwarenessSuitNotEnough	
-20034040	ConditionManagerGuildNotIn	Not yet joined Command Bureau
-20034041	ConditionManagerGuildLevelNotEnough	Command Bureau level too low
-20034042	ConditionManagerGuildJoinNotEnough	Not enough days since joining Command Bureau
-20034043	ConditionManagerGuildMemberNotEnough	Not enough Command Bureau members
-20034044	ConditionManagerFubenExploreNotFinished	Exploration incomplete
-20034045	ConditionManagerRogueLikeMaxTierNotEnough	Not enough tower floors climbed
-20034046	ConditionManagerArenaOnlineFirstPassNotEnough	Not enough first-time completions in Joint Warfare
-20034047	ConditionManagerArenaOnlineAssistCountNotEnough	Not enough assists in Joint Warfare
-20034048	ConditionManagerTaskNotFinish	Mission incomplete
-20034049	ConditionManagerSpecialTrainStarNotEnough	Not enough stars gained in Operation Summer
-20034050	ConditionManagerBossActivityStarRewardNotGet	Star reward not claimed
-20034051	ConditionManagerCharacterTypeNumsNotEnough	Not enough deployed member types
-20034052	ConditionManagerSpecialCollectionLevelNotEnough	
-20034053	ConditionManagerWorldBossAttributeStageFinishedNotEnough	Insufficient dream locations cleared
-20034054	ConditionManagerWorldBossHpPercentNotSatisfy	Amberia remaining HP error
-20034055	ConditionManagerWorldBossHpHurtNotEnough	Insufficient damage dealt to Amberia
-20034056	ConditionManagerHonorLevelNotEnough	
-20034057	ConditionManagerDragPuzzleNotCompleted	TODO_ConditionManagerDragPuzzleNotCompleted
-20034058	ConditionManagerTrpgTargetNotFinish	Objective incomplete
-20034059	ConditionManagerTrpgMazeCardNotFinish	Maze card incomplete
-20034060	ConditionManagerTrpgMazeCardIsFinish	20034060
-20034061	ConditionManagerNieRCharacterLevelNotEnough	YoRHa character level too low
-20034062	ConditionManagerNieRSupportLevelNotEnough	Auxiliary Machine level too low
-20034063	ConditionManagerNieRSupportSkillLevelNotEnough	Level up condition not met
-20034064	ConditionManagerFuBenMainStarRateNotEnough	Insufficient Main Story Mission Completion Rate
-20034065	ConditionManagerChapterExtraStarRateNotEnough	Insufficient Extra Story Mission Completion Rate
-20034066	ConditionManagerZhouMuNotFinish	You have not completed the chapters of the previous clear yet
-20034067	ConditionManagerRegressionNotSatisfy	Returning condition not met
-20034068	ConditionManagerEndlessStageNpcGroupNotEnough	Insufficient monster wave in infinite stage
-20034069	ConditionManagerRecruitLevelNotEnough	Recruitment level too low
-20034070	ConditionManagerPartnerLevelNotEnough	Companion overclock and level requirement not met
-20034071	ConditionManagerPartnerQualityNotEnough	Companion quality requirement not met
-20034072	ConditionManagerPartnerSkillLevelNotEnough	Companion total skill level does not meet requirement
-20034073	ConditionManagerPartnerTypeIsError	Companion type error
-20034074	ConditionManagerRpgTeamLevelNotEnough	20034074 Insufficient team level
-20034075	ConditionManagerPartnerHadNotOwner	You never owned this CUB
-20034076	ConditionManagerSpTargetProgressNotEnough	Target stage progress not reached
-20034077	ConditionManagerRegression2NotSatisfied	20034077 New returning condition not met
-20034078	ConditionManagerCoupleCombatOccupyNotEnough	20034078 Insufficient number of stages occupied
-20034079	ConditionManagerTimeIdNotEnough	20034079 Event not available
-20034080	ConditionGoldenMinerUnlockNotEnough	20034080 Insufficient points to unlock the miner
-20034081	ConditionManagerSceneIsLock	20034081 Scene locked
-20034082	ConditionManagerSceneIsUnLock	20034082 Scene unlocked
-20034083	ConditionManagerLivWarmActivityStageUnFinish	20034083 Liv: Empyrea Match Game stage not cleared
-20034084	ConditionManagerLivWarmActivitySoundStageUnFinish	20034084 Liv: Empyrea Audio Puzzle stage not cleared
+20034030	ConditionManagerChipAwakeNotEnough	20034030
+20034031	ConditionManagerRedEnvelopeNotEnough	Not enough gifts claimed by member
+20034032	ConditionManagerKillBossTimeIsNotSatisfy	Failed to defeat the boss within a required time
+20034033	ConditionManagerBabelTowerLevelNotEnough	Babel Tower level too low
+20034034	ConditionManagerMonsterKillCountNotEnough	Not enough enemies killed
+20034035	ConditionManagerWeaponNotUnlock	Weapon not unlocked
+20034036	ConditionManagerWeaponMaxLevelNotEnough	Weapon not at max level
+20034037	ConditionManagerWeaponBreakthroughNotEnough	Weapon not Overclocked
+20034038	ConditionManagerAwarenessSuitMaxLevelNotEnough	Memory not at max level
+20034039	ConditionManagerAwarenessSuitMaxBreakthroughNotEnough	Memory not Overclocked
+20034040	ConditionManagerAwarenessSuitNotEnough	
+20034041	ConditionManagerGuildNotIn	Not yet joined Command Bureau
+20034042	ConditionManagerGuildLevelNotEnough	Command Bureau level too low
+20034043	ConditionManagerGuildJoinNotEnough	Not enough days since joining Command Bureau
+20034044	ConditionManagerGuildMemberNotEnough	Not enough Command Bureau members
+20034045	ConditionManagerFubenExploreNotFinished	Exploration incomplete
+20034046	ConditionManagerRogueLikeMaxTierNotEnough	Not enough tower floors climbed
+20034047	ConditionManagerArenaOnlineFirstPassNotEnough	Not enough first-time completions in Joint Warfare
+20034048	ConditionManagerArenaOnlineAssistCountNotEnough	Not enough assists in Joint Warfare
+20034049	ConditionManagerTaskNotFinish	Mission incomplete
+20034050	ConditionManagerSpecialTrainStarNotEnough	Not enough stars gained in Operation Summer
+20034051	ConditionManagerBossActivityStarRewardNotGet	Star reward not claimed
+20034052	ConditionManagerCharacterTypeNumsNotEnough	Not enough deployed member types
+20034053	ConditionManagerSpecialCollectionLevelNotEnough	
+20034054	ConditionManagerWorldBossAttributeStageFinishedNotEnough	Insufficient dream locations cleared
+20034055	ConditionManagerWorldBossHpPercentNotSatisfy	Amberia remaining HP error
+20034056	ConditionManagerWorldBossHpHurtNotEnough	Insufficient damage dealt to Amberia
+20034057	ConditionManagerHonorLevelNotEnough	
+20034058	ConditionManagerDragPuzzleNotCompleted	TODO_ConditionManagerDragPuzzleNotCompleted
+20034059	ConditionManagerTrpgTargetNotFinish	Objective incomplete
+20034060	ConditionManagerTrpgMazeCardNotFinish	Maze card incomplete
+20034061	ConditionManagerTrpgMazeCardIsFinish	20034060
+20034062	ConditionManagerNieRCharacterLevelNotEnough	YoRHa character level too low
+20034063	ConditionManagerNieRSupportLevelNotEnough	Auxiliary Machine level too low
+20034064	ConditionManagerNieRSupportSkillLevelNotEnough	Level up condition not met
+20034065	ConditionManagerFuBenMainStarRateNotEnough	Insufficient Main Story Mission Completion Rate
+20034066	ConditionManagerChapterExtraStarRateNotEnough	Insufficient Extra Story Mission Completion Rate
+20034067	ConditionManagerZhouMuNotFinish	You have not completed the chapters of the previous clear yet
+20034068	ConditionManagerRegressionNotSatisfy	Returning condition not met
+20034069	ConditionManagerEndlessStageNpcGroupNotEnough	Insufficient monster wave in infinite stage
+20034070	ConditionManagerRecruitLevelNotEnough	Recruitment level too low
+20034071	ConditionManagerPartnerLevelNotEnough	Companion overclock and level requirement not met
+20034072	ConditionManagerPartnerQualityNotEnough	Companion quality requirement not met
+20034073	ConditionManagerPartnerSkillLevelNotEnough	Companion total skill level does not meet requirement
+20034074	ConditionManagerPartnerTypeIsError	Companion type error
+20034075	ConditionManagerRpgTeamLevelNotEnough	20034074 Insufficient team level
+20034076	ConditionManagerPartnerHadNotOwner	You never owned this CUB
+20034077	ConditionManagerSpTargetProgressNotEnough	Target stage progress not reached
+20034078	ConditionManagerRegression2NotSatisfied	20034077 New returning condition not met
+20034079	ConditionManagerCoupleCombatOccupyNotEnough	20034078 Insufficient number of stages occupied
+20034080	ConditionManagerTimeIdNotEnough	20034079 Event not available
+20034081	ConditionGoldenMinerUnlockNotEnough	20034080 Insufficient points to unlock the miner
+20034082	ConditionManagerSceneIsLock	20034081 Scene locked
+20034083	ConditionManagerSceneIsUnLock	20034082 Scene unlocked
+20034084	ConditionManagerLivWarmActivityStageUnFinish	20034083 Liv: Empyrea Match Game stage not cleared
+20034085	ConditionManagerLivWarmActivitySoundStageUnFinish	20034084 Liv: Empyrea Audio Puzzle stage not cleared
+20034086	ConditionManagerStageStarsCountNotEnough	Insufficient Stage Stars
+20034087	ConditionManagerCharacterTrustLevelNotEnough	Insufficient Affection
+20034088	ConditionManagerDormQuestTeamNotMatch	20034088 Dispatch member does not match
+20034089	ConditionManagerDormQuestTeamAttribNotSatisfy	20034089 Dispatch member does not satisfy the recommended stats
+20034090	ConditionManagerQuestError	20034090 Accepted commission not found
+20034091	ConditionManagerRegression3StateNotMatch	20034091 Special Return - Return status does not match
+20034092	ConditionManagerRegression3PassportExpNotEnough	20034092 Special Return - Insufficient Pass EXP
 20036001	RobotManagerInitCharacterQualityFail	Robot class error
 20036002	RobotManagerInitCharacterLevelFail	Robot level error
 20036003	RobotManagerInitCharacterGradeFail	Robot rank error
@@ -812,6 +838,8 @@ Id	Key	Text
 20045033	MatchInvalidStageIdAndStageType	20045033 Invalid matching Stage ID or stage type
 20045034	MatchInvalidToManyMatchPlayers	20045034 Too many players in matching
 20045035	MatchInvalidStageIdsNotTheSameType	20045035 Different stage type of the stage matched
+20045036	MatchPlayerHaveNotSetAssistChip	20045036 Support chip not equipped. Unable to get ready
+20045037	MatchPlayerHaveNotCreateRoom	20045037 No player has created a room
 20046001	ExploreChapterIsNotExist	Exploration chapter does not exist
 20046002	ExploreChapterIsNotFinished	Character already assigned to stationing
 20046003	ExplorePreChapterIsNotFinished	Team empty. Unable to battle
@@ -999,6 +1027,21 @@ Id	Key	Text
 20060061	DormGotCharacterId	Omniframe owned
 20060062	DormNotGotCharacterId	Omniframe not owned
 20060063	DormDecomposeOverLimitCount	20060063 Scrap quantity exceeds the limit
+20060064	DormFurnitureTotalCountLimit	Decor warehouse limit reached. Recycle some Decor first
+20060065	DormQuestTerminalMaxLv	Max commission terminal level reached
+20060066	DormQuestTerminalUpgradeOngoing	Commission terminal is being upgraded
+20060067	DormQuestFinishQuestNotEnough	Level up condition not satisfied. Unable to level up
+20060068	DormQuestNotAccept	Commission not accepted
+20060069	DormQuestAlreadyAccept	Commission already accepted
+20060070	DormQuestCfgNotExist	Commission configuration not found
+20060071	DormQuestNotExist	Commission not found
+20060072	DormQuestTeamCharacterNotEnough	Insufficient team members
+20060073	DormQuestCharacterIsInQuest	Member is already on a commission
+20060074	DormQuestTerminalFull	Max No. of commissions accepted
+20060075	DormQuestAlreadyFinish	Commission already completed
+20060076	DormQuestTerminalCfgError	Commission terminal configuration error
+20060077	DormQuestFileNotCollect	File locked
+20060078	ConditionManagerDormQuestConditionNotFinish	Conditions not met
 20061001	GachaTemplateNotFound	Card draw matrix configuration not found
 20061002	GachaRewardUseUp	Card draw matrix reward used up
 20061003	GachaNotOpen	Card draw matrix not available
@@ -1364,7 +1407,32 @@ Id	Key	Text
 20063336	GuildFightStyleSkillOnlyOneCore	20063336 Only one Core Skill can be activated at a time
 20063337	GuildGdSetBgmIdsNotInGuild	Cannot perform this action as you are not in Command Bureau
 20063338	GuildGdSetBgmIdsLessRank	Failed to edit due to insufficient authority
-20063339	GuildSearchInCd	Frequent refresh attempts. Please try again later.
+20063339	GuildGdSetBgmIdsInvalidId	Frequent refresh attempts. Please try again later.
+20063340	GuildGdSetBgmNotUnlock	20063340 Change failed because the song is locked
+20063341	GuildSearchInCd	Frequent refresh attempts. Please try again later.
+20063342	GuildSignAlreadySign	20063340 Already drew a fortune stick today
+20063343	GuildSignNotSign	20063341 Have not drawn a fortune stick today
+20063344	GuildSignAwardIsGet	20063340 Already drew a fortune stick today
+20063345	GuildSignPlayerNotInGuild	20063341 Have not joined a Guild
+20063346	GuildGdSetThemeNotInGuild	20063342 Cannot perform this action as you are not in Command Bureau
+20063347	GuildGdSetThemeInCd	20063343 Theme change function is in cooldown
+20063348	GuildGdSetThemeLessRank	20063344 Failed to edit due to insufficient authority
+20063349	GuildGdSetThemeNotUnlock	20063349 Change failed because the theme is locked
+20063350	GuildGdSetThemeIdIsIdentical	20063345 Target theme is already the current theme
+20063351	GuildGdSetThemeIdDuringFixedTheme	
+20063352	GuildUpdateMongoDbError	20063348 Database update failed
+20063353	GuildUpdateNoDataError	20063349 Corresponding data not found
+20063354	GuildNotInZombieGuild	20063350 Not in zombie guild
+20063355	GuildGoodsNotFound	20063351 Cannot find the guild item
+20063356	GuildGoodsTypeNotFound	20063352 Cannot find the type of the guild item
+20063357	GuildShopConsumeItemIdError	20063353 Special guild shops accept only guild tokens
+20063358	GuildNoDataError	20063354 Guild does not exist or is already disbanded
+20063359	GuildHeadPortraitNoNeedToBuy	20063355 Do not need to purchase this guild portrait
+20063360	GuildHeadPortraitAlreadyBuy	20063356 Already purchased this guild portrait
+20063361	GuildHeadPortraitNotUnlock	20063357 this guild portrait still locked
+20063362	ConditionManagerGuildIconNotBuyError	20063358 This guild portrait is not purchased
+20063363	GuildNoRewardToReceived	20063359 No rewards available to claim
+20063364	GuildBossIsNotOpenNow	The event is temporarily closed. Please try again later
 20064001	RogueLikeActivityNotOpen	Outside the event period
 20064002	RogueLikeActionPointNotEnough	Insufficient Action Points
 20064003	RogueLikeSectionInfoIsNull	Chapter info not found
@@ -1665,6 +1733,7 @@ Id	Key	Text
 20092006	SpecialTrainPointRewardAlreadyGet	Points reward already claimed
 20092007	SpecialTrainPointRewardIdNotExist	Points reward ID does not exist
 20092008	SpecialTrainPointNotEnough	Insufficient points
+20092009	SpecialTrainStageNotOpen	20092009 The stage is not available yet
 20093001	ChapterExtraPassTimesNotEnough	Not enough extra mission completions
 20093002	ChapterExtraInvalidStageId	Invalid extra mission ID
 20093003	ChapterExtraActivityHideChapterNotOpen	Extra event mission not yet available
@@ -3144,6 +3213,9 @@ Id	Key	Text
 20167022	GoldenMinerBuffParamsNotRegister	20167023 Skill parameter not registered
 20167023	GoldenMinerSelectRankError	20167023 Failure to query leaderboard
 20167024	GoldenMinerBuffRepeat	20167024 Unable to purchase a duplicate buff
+20167025	GoldenMinerCommonDropNotFind	20167025 Universal item drops do not exist
+20167026	GoldenMinerCommonDropConfigErr	20167026 Universal drops misconfiguration
+20167027	GoldenMinerItemGridMax	20167027 Item slots are full
 20168001	WeekChallengeIsNotOpen	Event is not available yet
 20168002	WeekChallengeRewardAlreadyGet	Reward already claimed
 20168003	WeekChallengeConfigNotFound	Corresponding configuration not found
@@ -3204,6 +3276,9 @@ Id	Key	Text
 20173018	GuildDormRoomFurnFurnOnUsed	Decor is occupied by another player.
 20173019	GuildDormRoomFurnInOtherFurn	Interacting with decor.
 20173020	GuildDormRoomReloading	Reloading the room channel
+20173021	GuildDormInvalidThemeId	20173021 Invalid theme ID
+20173022	GuildDormThemeIdRoomIdNotMatch	20173022 Room ID does not match Theme ID
+20173023	GuildDormNpcRefreshControlIsNotTimeToUpdate	
 20173501	GuildDormPlayerCodeStart	Guild Dormitory gameserver error.
 20173502	GuildDormPlayerNotInGuild	No guild joined. Cannot perform this operation.
 20173503	GuildDormPlayerGetRoomGrainFailed	Failed to acquire room channel target.
@@ -3308,6 +3383,224 @@ Id	Key	Text
 20177002	SummerSignInNotEnoughTimesToSign	You have used up the check attempts today. Please come back tomorrow.
 20177003	SummerSignInMessageAlreadyOpen	Postcard already opened
 20177004	SummerSignInMessageCfgNotExist	Postcard info does not exist
+20178001	CharacterTowerConfigNotFound	Corresponding configuration not found
+20178002	CharacterTowerRelationConditionNotEnough	Bond activation conditions not met
+20178003	CharacterTowerStageInfoError	Stage info error
+20178004	CharacterTowerStageRewardHadGot	Stage reward claimed
+20178005	CharacterTowerStageNotPass	Stage not cleared
+20178006	CharacterTowerStarRewardHadGot	Star reward claimed
+20178007	CharacterTowerStarNotEnough	Star requirements not met
+20178008	CharacterTowerChapterRewardHadGot	Chapter reward claimed
+20178009	CharacterTowerFinishStageNotEnough	There are stages that have not been cleared
+20179001	RiftIsNotOpen	20179001 The Mythic Paradise is not available yet
+20179002	RiftInvalidActivityId	20179002 The Mythic Paradise's invalid event ID
+20179003	RiftInvalidChapterId	20179003 The Mythic Paradise's invalid chapter ID
+20179004	RiftInvalidLayerId	20179004 The Mythic Paradise's invalid layer ID
+20179005	RiftInvalidLayerOrder	20179005 The Mythic Paradise's invalid layer Order
+20179006	RiftInvalidNodeId	20179005 The Mythic Paradise's invalid node ID
+20179007	RiftInvalidStageId	20179006 The Mythic Paradise's invalid stage ID
+20179008	RiftRandomNodeFailed	20179007 The Mythic Paradise random node failed
+20179009	RiftRandomMonsterWareFailed	20179008 The Mythic Paradise random enemy waves failed
+20179010	RiftRandomMonsterFailed	20179009 The Mythic Paradise random enemy failed
+20179011	RiftRandomMonsterBuffFailed	20179010 The Mythic Paradise random enemy Affix failed
+20179012	RiftChapterDataNotFound	20179011 The Mythic Paradise chapter data not found
+20179013	RiftLayerIdNotUnlocked	20179013 The Mythic Paradise layer locked
+20179014	RiftLayerNotStart	20179012 The Mythic Paradise's current layer is unavailable
+20179015	RiftLuckyNodeNotStart	20179015 The Mythic Paradise's lucky stage is unavailable
+20179016	RiftLuckyNodeStarted	20179016 The Mythic Paradise's unlucky stage already exists
+20179017	RiftPreFightNotCurLayer	20179013 The Mythic Paradise objective stage does not belong the current layer
+20179018	RiftPreFightStageIsPassed	20179014 The Mythic Paradise's current stage already cleared
+20179019	RiftAddRoleDataInvalidTeam	20179019 The Mythic Paradise battle team does not meet requirements
+20179020	RiftAddRoleDataInvalidRobotId	20179019 The Mythic Paradise's invalid Robot ID
+20179021	RiftFubenWinLayerRewardConfigFailed	20179014 The Mythic Paradise layer 1st Clear Reward retrieval settings failed
+20179022	RiftStartLuckyNodeValueNotEnough	20179015 The Mythic Paradise luck value insufficient
+20179023	RiftSetAttrSetInvalidSetId	20179016 The Mythic Paradise's invalid type template ID
+20179024	RiftSetAttrSetInvalidAttrId	20179023 The Mythic Paradise's invalid type ID
+20179025	RiftSetAttrSetDuplicatedAttrId	20179024 The Mythic Paradise's duplicate type ID
+20179026	RiftSetAttrSetOutOfLimit	20179017 The Mythic Paradise stat points exceed limit
+20179027	RiftSetPluginInvalidCharIdOrRobotId	20179020 The Mythic Paradise's invalid Add-on character parameter
+20179028	RiftSetPluginInvalidCharId	20179018 The Mythic Paradise's invalid character
+20179029	RiftSetPluginInvalidRobotId	20179022 The Mythic Paradise's invalid Add-on robot
+20179030	RiftSetPluginInvalidPluginId	20179019 The Mythic Paradise's invalid Add-on ID
+20179031	RiftSetPluginIdLocked	20179020 The Mythic Paradise Add-on ID locked
+20179032	RiftSetPluginIdTypeDuplicated	20179031 The Mythic Paradise's Add-on type duplicate
+20179033	RiftSetPluginIdCharacterIdNotMatch	20179032 The Mythic Paradise Add-on character not met
+20179034	RiftSetPluginPeakLoadLimited	20179021 The Mythic Paradise load insufficient
+20179035	RiftRandomItemInvalidType	20179022 The Mythic Paradise random item unsupported type
+20179036	RiftRandomItemInvalidGroupId	20179023 The Mythic Paradise random item invalid set ID
+20179037	RiftRandomItemAllSkipped	20179034 The Mythic Paradise random item all projects skipped
+20179038	RiftRandomItemRandomFailed	20179025 The Mythic Paradise random item content random generation failed
+20179039	RiftRandomPluginInvalidDropTypeId	20179036 The Mythic Paradise random Add-on invalid type ID
+20179040	RiftRandomPluginInvalidDropTypeGroupId	20179037 The Mythic Paradise random Add-on invalid type set ID
+20179041	RiftRandomPluginDropTypeRandomFailed	20179038 The Mythic Paradise random Add-on type random failure
+20179042	RiftRandomPluginDropRandomFailed	20179039 The Mythic Paradise random Add-on item random failure
+20179043	RiftSweepSomeStagePassed	20179040 The Mythic Paradise Blitz's certain stages already cleared
+20179044	RiftSweepTimesLimited	20179030 The Mythic Paradise Blitz attempts insufficient
+20179045	RiftSweepInvalidLayerType	20179031 The Mythic Paradise Blitz inapplicable layer type
+20179046	RiftBuyPluginInvalidGoodsId	20179043 The Mythic Paradise Add-on purchase invalid item ID
+20179047	RiftBuyPluginGoodsIdUnavailable	20179044 The Mythic Paradise Add-on item purchase outside active time
+20179048	RiftBuyPluginAlreadyUnlocked	20179045 The Mythic Paradise Add-on purchased already exists
+20179049	RiftLayerNotFirstPassed	20179047 The Mythic Paradise layer 1st clear incomplete
+20179050	RiftRankInvalidRankId	
+20180001	BrilliantWalkActivityNotOpen	Event is not available yet
+20180002	BrilliantWalkActivityCfgNotExist	Event configuration not found
+20180003	BrilliantWalkStageCfgNotExist	Stage configuration not found
+20180004	BrilliantWalkChapterNotFound	Stage chapter not found
+20180005	BrilliantWalkChapterCfgNotExist	Chapter configuration not found
+20180006	BrilliantWalkChapterNotOpen	Chapter locked
+20180007	BrilliantWalkPreChapterNotPass	You have not completed the previous stage yet
+20180008	BrilliantWalkTrenchCfgNotExist	Module slot configuration not found
+20180009	BrilliantWalkTrenchOnLock	Module slot locked
+20180010	BrilliantWalkTrenchTypeNotMatch	Module slot type does not match
+20180011	BrilliantWalkPluginCfgNotExist	Modification configuration not found
+20180012	BrilliantWalkModuleCountLimit	Only one module can be equipped
+20180013	BrilliantWalkPrePluginNotBuild	Prerequisite modification not equipped
+20180014	BrilliantWalkBuildPluginOnLock	Modification content is locked
+20180015	BrilliantWalkEnergyNotEnough	Insufficient available ports
+20180016	BrilliantWalkRobotInvalid	Illegal robot configuration
+20180017	BrilliantWalkBuildSamePlugin	Identical modification equipped
+20180018	BrilliantWalkPerkNotBuild	Specify the circuit to connect by this skill
+20181001	ColorTableNotOpen	Event is not available yet
+20181002	ColorTableStageNotExit	Unable to enter: stage does not exist
+20181003	ColorTableChapterNotExit	Unable to enter: chapter does not exist
+20181004	ColorTableChapterNotOpen	Chapter unavailable
+20181005	ColorTableCaptainNotExit	Unable to select: selected leader does not exist
+20181006	ColorTableStageNotOpen	The selected stage is not available yet
+20181007	ColorTableNotInGame	You are not in the game
+20181008	ColorTablePositionIdError	Location ID error
+20181009	ColorTableCannotFindPath	Unable to find path to the destination
+20181010	ColorTableActionPointNotEnough	Insufficient Action Points. Unable to perform this action
+20181011	ColorTableAlreadyLose	The game is already lost. Please leave the challenge
+20181012	ColorTablePointTypeCannotExecute	Unable to perform this action in this node
+20181013	ColorTableStudyDataNotEnough	Insufficient Paint. Unable to perform this action
+20181014	ColorTableStudyLevelLimit	Exhibition limit reached. Try Exhibition of other Schools
+20181015	ColorTableCurStageError	The current phase is complete. Please leave and re-enter
+20181016	ColorTableInnerError	20181016 Internal error
+20181017	ColorTableMapCannotClear	Suppression not activated. Unable to perform the action
+20181018	ColorTableNotLose	20181018 The game is not lost yet
+20181019	ColorTableMapNotExit	20181019 Map does not exist
+20181020	ColorTableMapCannotReboot	20181020 The map cannot be restarted
+20181021	ColorTableWinConditionIdError	20181021 No victory condition ID
+20181022	ColorTableStageIdError	20181022 Stage ID error
+20181023	ColorTableStageRobotIdError	20181023 Stage robotId error
+20181024	ColorTableStageIdNoRankError	20181024 This stage has no ranking board
+20181025	ColorTableInRank	20181025 Already in the ranking board
+20181026	ColorTableBanTreat	Art Criticism is forbidden in this round. Unable to perform the action
+20181027	ColorTableObtainCountNotEnough	20181027 Insufficient tokens obtained
+20181028	ColorTableBanExecute	You cannot take action on blocks of this color in this round
+20181029	ColorTableNotRollYet	20181029 You must reroll at least 1 time
+20181030	ColorTableCannotReRoll	Unable to reroll in this round
+20181031	ColorTableReRollCountLimit	Reroll limit reached
+20181032	ColorTableDifficultyRewardIdError	20181032 Reward ID error
+20181033	ColorTableAlreadyGetReward	20181033 Reward already claimed
+20181034	ColorTableCannotGetReward	Claim requirement not met
+20181035	ColorTableStudyLevelFull	Exhibition has reached max level. Try Exhibition of other colors
+20181036	ColorTableBossLevelDownLimit	The Master's level is already at minimum and cannot be further reduced.
+20181037	ColorTableBossAlreadyDead	The Master has been suppressed
+20181038	ColorTableStudyDataAlreadyFull	Data limit reached. Try getting other data
+20181039	ColorTableEnergyExecuteLimit	You have already obtained energy of this color and cannot obtain more
+20181040	ColorTableTreatCountLimit	Criticism limit reached for this round. Unable to make more criticism
+20182001	FubenAwarenessChapterNotFound	20182001 Chapter configuration not found
+20182002	FubenAwarenessTeamInfoNotFound	20182002 Team configuration not found
+20182003	FubenAwarenessFightStageAlreadyFinish	20182003 Stage already completed
+20182004	FubenAwarenessTeamNotSet	20182004 Team not configured
+20182005	FubenAwarenessFightCardCountError	20182005 Team character quantity error
+20182006	FubenAwarenessFightCardNotInTeam	20182006 Team does not have this character
+20182007	FubenAwarenessStageInfoNotFound	20182007 Stage info not found
+20182008	FubenAwarenessWinStageNotMatch	20182008 Stage mismatch
+20182009	FubenAwarenessTeamListIsEmpty	20182009 Team is empty
+20182010	FubenAwarenessTeamCountError	20182010 Team character quantity error
+20182011	FubenAwarenessTeamMemberRepeated	20182011 Duplicate character in team
+20182012	FubenAwarenessChapterNotFinish	20182012 Chapter not completed
+20182013	FubenAwarenessChapterCharacterAlreadyUse	20182014 Character in use
+20182014	FubenAwarenessChapterInfoNotExist	20182016 Current chapter has no progress
+20182015	FubenAwarenessChapterStageNotFinish	20182017 Unable to reset current stage as it is not completed
+20182016	FubenAwarenessFinishedStageCanNotChangeTeam	20182018 Unable to change team for already completed stage
+20183001	Regression3NotInRegression	20183001 Special Return - Player is not a returning player
+20183002	Regression3ActivityInvalidId	20183002 Special Return - Invalid event ID
+20183003	Regression3ActivityNotCurrentId	20183003 Special Return - Event ID is not the current one
+20183004	Regression3SignInInvalidId	20183004 Special Return - Invalid sign-in ID
+20183005	Regression3SignInIdNotInActivity	20183005 Special Return - Sign-in ID does not belong to the event
+20183006	Regression3SignInRewardAlreadyGot	20183006 Special Return - Sign-in reward already claimed
+20183007	Regression3SignInUnsatisfied	20183007 Special Return - Sign-in reward requirement(s) not met
+20183008	Regression3PassportAidNotFoundForRid	20183008 Special Return - Pass event not found
+20183009	Regression3PassportInfoNotExist	20183009 Special Return - Pass info not found
+20183010	Regression3PassportNotUnlock	20183010 Special Return - Pass locked
+20183011	Regression3PassportAlreadyUnlocked	20183011 Special Return - Pass unlocked
+20183012	Regression3PassportInfoActivityIdNotMatch	20183012 Special Return - Pass not available in this event
+20183013	Regression3PassportLevelNotEnough	20183013 Special Return - Insufficient level to claim reward
+20183014	Regression3PassportNoRewardCanGet	20183014 Special Return - No claimable rewards found
+20183015	Regression3PassportAlreadyMaxLevel	20183015 Special Return - Max level reached
+20183016	Regression3PassportLevelCfgNotExist	20183016 Special Return - Level info not found
+20183017	Regression3PassportRewardTemplateNotExist	20183017 Special Return - Reward not found
+20183018	Regression3PassportBuyLevelMustBiggerThanNow	20183018 Special Return Purchase level cannot be lower than current level
+20183019	Regression3PassportExpConfigError	20183019 Special Return - EXP settings error
+20183020	Regression3PassportRewardAlreadyGot	20183020 Special Return - Reward already claimed
+20183021	Regression3PassportBuyTimeAlreadyEnd	20183021 Special Return - Event purchase time over
+20183022	Regression3PassportBuyExpTranscend	20183022 Special Return - Unable to purchase Infinite Zone Level
+20184001	SkinVoteNameGroupNotFind	Coating Name Voting name does not exist
+20184002	SkinVoteActivityNotFind	Coating Name Voting event does not exist
+20184003	SkinVoteActivityNotOpen	Coating Name Voting event is not available yet
+20184004	SkinVoteActivityIsJoin	4 Coating Name Voting already participated
+20184005	SkinVoteNotOpen	Coating Name Voting not started
+20184006	SkinVoteError	Coating Name Voting internal error
+25000001	DlcWorldInfoTemplateNotFound	25000001Dlc World information settings do not exist
+25000002	DlcCharacterTemplateNotFound	25000002 Character settings not found
+25000003	DlcCharacterCreateCharacterFail	25000003 Character creation failed
+25000004	DlcCharacterCreateCharacterAlreadyExist	25000004 Character already exists
+25000005	DlcCharacterGetCharacterByIdNotFound	25000005 Character does not exist
+25000006	DlcCharacterAlreadyFighting	25000006 Character already deployed
+25002001	DlcChipTemplateNotFound	25002001 Chip configuration not found
+25002002	DlcChipBreakthroughTemplateNotFound	25002002 Chip Overclock configuration not found
+25002003	DlcChipLevelUpTemplateNotFound	25002003 Chip level configuration not found
+25002004	DlcChipLevelNotFound	25002004 Chip level not found
+25002005	DlcChipGetChipNotFound	25002005 Chip not found
+25002006	DlcChipCapacityNotEnough	25002006 Insufficient chip space
+25002007	DlcChipExistChipAlreadyLock	25002007 One or more chip is locked
+25002008	DlcChipExistChipAlreadyWearChipForm	25002008 Chip already equipped in chip group
+25002009	DlcChipExistChipAlreadyAssist	25002009 Chip already used in support
+25002010	DlcChipAlreadyLock	25002010 Chip already locked
+25002011	DlcChipAlreadyUnLock	25002011 Chip already unlocked
+25002012	DlcChipLevelUpUseChipIsEmpty	25002012 Empty chip list for level up
+25002013	DlcChipLevelUpMaxLevel	25002013 Chip already at max level
+25002014	DlcChipLevelUpLevelLimit	25002014 Chip level limit
+25002015	DlcChipLevelUpCanNotUseSelf	25002015 Unable to consume self to level up chip
+25002016	DlcChipLevelUpCanNotRepeatUseSameChip	25002016 Unable to use the same chip repeatedly in level up
+25002017	DlcChipLevelUpUseChipTypeNotSame	25002017 Different chip type for level up
+25002018	DlcChipBreakthroughUseChipIsEmpty	25002018 Empty chip list for Overclock
+25002019	DlcChipBreakthroughCanNotUseSelf	25002019 Unable to consume self to Overclock chip
+25002020	DlcChipBreakthroughCanNotRepeatUseSameChip	25002020 Unable to use the same chip repeatedly in level up
+25002021	DlcChipBreakthroughIsMaxBreakthrough	25002021 Chip already at max Overclock level
+25002022	DlcChipBreakthroughNotAchieveLevelLimit	25002022 Chip level not at maximum. Unable to Overclock
+25002023	DlcChipBreakthroughUseChipNumNotAccord	25002023 Chip quantity does not match. Unable to Overclock
+25002024	DlcChipBreakthroughNeedUseSameChip	25002024 Overclocking this chip requires identical chips
+25002025	DlcChipBreakthroughUseChipBreakthroughNotAccord	25002025 The chips to consume do not have the required Overclock level
+25002026	DlcChipBreakthroughUseChipTypeNotAccord	25002026 The chips to consume do not have the required chip type
+25002027	DlcChipBreakthroughUseChipQualityNotAccord	25002027 The chips to consume do not have the required chip quality
+25002028	DlcChipFormNotFound	25002028 Chip group not found
+25002029	DlcChipFormNameIsEmpty	25002029 The name to change is empty
+25002030	DlcChipFormNameIsTooLong	25002030 Max name length exceeded
+25002031	DlcChipFormNameIsInvalid	25002031 Name contains sensitive characters. Please change it
+25002032	DlcChipFormWearPosNotFound	25002032 Equipment slot not found
+25002033	DlcChipFormSameChipCanNotWearMultiplePos	25002033 The same chip cannot be equipped in multiple slots
+25002034	DlcChipFormSamePosCanNotWearMultiplePos	25002034 Each slot can only equip one chip
+25002035	DlcChipFormWearPosTypeNotSame	25002035 Mismatching chip slot type
+25002036	DlcChipFormChosePosWearNotWearChip	25002036 No chip equipped in this slot
+25002037	DlcChipFormChipNotWearOnChipForm	25002037 Chip not equipped in chip group
+25002038	DlcChipFormAlreadyWearThisChip	25002038 Chip already equipped in chip group
+25002039	DlcChipAssistChipTypeNeedMaster	25002039 You must use main chip in support
+25003001	DlcShareTemplateNotFound	25003001 Constant configuration not found
+25003002	DlcBossSettleConditionError	25003002 DLC - Boss result badge condition not satisfied
+25003003	DlcBossPlayerDataNotFind	25003003 DLC - Player data not found
+25003004	DlcBossPreWorldNotPass	25003004 DLC - Previous stage not completed
+25003005	DlcBossChapterNotFind	25003005 DLC - Chapter data not found
+25003006	DlcBossChapterNotOpen	25003006 DLC - Event chapter not available
+25003007	DlcAssistPointAlreadyReceive	25003007 Already claimed today
+25003008	DlcAssistPointAlreadyReceiveLimit	25003008 Weekly claim limit reached
+25003009	DlcAssistPointNotAssistData	25003009 No support data found. Unable to claim
+25003010	DlcBossActivityNotOpen	25003010 DLC - Event is not available yet
+25003011	DlcBossGetRankError	25003011 DLC - Failed to retrieve ranking info
+25003012	DlcDisconnectAfterTimeout	25003012 Timeout no reconnection
 30002001	PlayerNotExist	Player does not exist
 30002002	ServerNodeNotFound	Server not found
 30002003	RequestError	Request error

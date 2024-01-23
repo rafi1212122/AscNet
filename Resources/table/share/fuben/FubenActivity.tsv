@@ -1,10 +1,20 @@
 Id	Name	ManagerName	Icon	TimeId	FunctionNameId	SkipId	Order	RedPointConditions[1]	RedPointConditions[2]
-1	A Dance in the Park	RpgTowerManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner21.png	12201	10321	11736	5	CONDITION_RPGTOWER_TASK_RED	CONDITION_RPGTOWER_DAILYREWARD_RED
-2	Babel Tower: Triumphant Tide	FubenBabelTowerManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner06.png		10307	20015		CONDITION_ACTIVITYBRIE_BABELTOWER_REWARD	
-3	Midsummer Memento	FubenSpecialTrainManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner80.png		10316	11727		CONDITION_SPECIALTRAIN_RED	
+1	A Dance in the Park	RpgTowerManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner21.png		10321	11736		CONDITION_RPGTOWER_TASK_RED	CONDITION_RPGTOWER_DAILYREWARD_RED
+2	Babel Tower: Sidereal Impression	FubenBabelTowerManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner06.png	14804	10307	20015	3	CONDITION_ACTIVITYBRIE_BABELTOWER_REWARD	
+3	Magic Square Trial	FubenSpecialTrainManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner73.png		10316	85010		CONDITION_SPECIALTRAIN_RED	
 4	Starry Conversations	PokerGuessingManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner81.png		10333	11761		CONDITION_POKER_GUESSING_RED	
-5	House of Hope	FubenRepeatChallengeManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner09.png	12301	10309	20017	1	CONDITION_REPEAT_CHALLENGE_REWARD	
-6	Exodus Memoria	FubenActivityBossSingleManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner82.png		10304	11724		CONDITION_ACTIVITYBRIE_BOSSSINGLE	
-7	Operation Uniframe	PivotCombatManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner60.png	12403	10422	82070	3	CONDITION_PIVOTCOMBAT_ALL_RED_POINT	
-8	Dialogues with an Existentialist	FubenNewCharActivityManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner85.png	12505	10325	20071	2	CONDITION_KOROMCHARACTIVITYMAINRED	
-9	Circuit Connect - Force Unleashed	SameColorActivityManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner61.png	12101	10413	82010	4	CONDITION_SAMECOLOR_TASK	
+5	Kaleidoscopic Dream	FubenRepeatChallengeManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner09.png	14201	10309	20017	1	CONDITION_REPEAT_CHALLENGE_REWARD	
+6	Hyperspace Collapse	FubenActivityBossSingleManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner82.png		10304	11724		CONDITION_ACTIVITYBRIE_BOSSSINGLE	
+7	Operation Uniframe	PivotCombatManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner60.png		10422	82070		CONDITION_PIVOTCOMBAT_ALL_RED_POINT	
+8	Circuit Connect: Force Unleashed	SameColorActivityManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner61.png		10413	82010		CONDITION_SAMECOLOR_TASK	
+9	Simulacrum Submersion	RiftManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner88.png		10437	88003		CONDITION_RIFT_ENTRANCE	
+10	Co-op Mode	DlcHuntManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBannerDlcHunt.png			87001			
+11	Cat Grab	GoldenMinerManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner64.png		10426	20122			
+12	Spectroscopic Binary Star	FubenCoupleCombatManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner68.png		10343	82001		CONDITION_COUPLE_COMBAT_TASK_REWARD	
+13	Arcade Anima: Alpha	CharacterTowerManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner89.png		10436	11770			
+14	Arcade Anima: Watanabe	CharacterTowerManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner90.png		10436	11768			
+15	Endless Summer Blue	FashionStoryManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner86.png			11773		CONDITION_FASHION_STORY_HAVE_STAGE	
+16	Palette Clash	ColorTableManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner94.png	14002			5	CONDITION_COLORTABLE_ENTRANCE	
+17	Blazing Trails	BrilliantWalkManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner92.png	14601	10439	89001	4	CONDITION_BRILLIANTWALK_ENTRANCE	
+18	Memory Rescue - Canvas Chronicle	MemorySaveManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner91.png	14401	10351	88005	6	CONDITION_MEMORYSAVE_ALL_RED_POINT	
+19	Age of Creators	FubenNewCharActivityManager	Assets/Product/Texture/Image/UiFubenActivityBanner/FubenActivityBanner93.png	14301	10325	20071	2	CONDITION_KOROMCHARACTIVITYMAINRED	

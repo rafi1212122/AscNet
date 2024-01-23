@@ -1,0 +1,45 @@
+Id	Name	Type	Des	Power	IsPercent
+1	Life	1	HP	1	0
+2	Attack	1	ATK	1	0
+3	Defense	1	DEF	1	0
+4	Pierce	1	Pierce	1	0
+5	PhysicalAmp	2	Physical DMG Up	1	1
+6	Element1Amp	3	Fire DMG Up	1	1
+7	Element2Amp	4	Ice DMG Up	1	1
+8	Element3Amp	5	Lightning DMG Up	1	1
+9	Element4Amp	6	Dark DMG Up	1	1
+10	PhysicalReduction	2	Physical DMG Reduction	1	1
+11	Element1Reduction	3	Fire DMG Reduction	1	1
+12	Element2Reduction	4	Ice DMG Reduction	1	1
+13	Element3Reduction	5	Lightning DMG Reduction	1	1
+14	Element4Reduction	6	Dark DMG Reduction	1	1
+15	PhysicalPierce	2	Piercing Physical DMG	1	1
+16	Element1Pierce	3	Piercing Fire DMG	1	1
+17	Element2Pierce	4	Piercing Ice DMG	1	1
+18	Element3Pierce	5	Piercing Lightning DMG	1	1
+19	Element4Pierce	6	Piercing Dark DMG	1	1
+20	PhysicalResistance	2	Physical DMG Resistance	1	1
+21	Element1Resistance	3	Fire DMG Resistance	1	1
+22	Element2Resistance	4	Ice DMG Resistance	1	1
+23	Element3Resistance	5	Lightning DMG Resistance	1	1
+24	Element4Resistance	6	Dark DMG Resistance	1	1
+25	DamageBonus	7	Extra DMG	1	1
+26	DamageReduction	7	DMG Reduction	1	1
+27	Crit	8	Critical	1	1
+28	CritResistance	8	Crit DMG Resistance	1	1
+29	CritDamage	8	CRIT DMG	1	1
+30	PartDamageBonus	7	Extra Part DMG	1	1
+31	PartDamageReduction	7	Part DMG Reduction	1	1
+32	ThreatRate	7	Aggro converted from DMG	1	1
+33	CharacterValue	9	Character Value	1	0
+34	Sp	9	Signature Points	1	0
+35	IdleSpinningSpeed	9	Standby Turn Rate	1	0
+36	RunSpinningSpeed	9	Running Turn Rate	1	0
+37	DodgeEnergy	9	Dodge Energy	1	0
+38	JumpEnergy	9	Jump Energy	1	0
+39	DodgeEnergyRegen	9	Dodge Energy Regeneration	1	0
+40	JumpEnergyRegen	9	Jump Energy Regeneration	1	0
+41	CustomEnergyGroup1	10	Custom Energy Set 1	1	0
+42	CustomEnergyGroup2	10	Custom Energy Set 2	1	0
+43	CustomEnergyGroup3	10	Custom Energy Set 3	1	0
+44	CustomEnergyGroup4	10	Custom Energy Set 4	1	0

@@ -2684,8 +2684,8 @@ FxR3LuosaitaAtk45Sound	R3LuosaitaMd019241	11105405		0
 FxR3LuosaitaAtk46Sound	R3LuosaitaMd019241	11105406		0
 FxR3LuosaitaQte	R3LuosaitaMd019241	11105407		0
 FxR3LuosaitaQteHit	R3LuosaitaMd019241	11105408		0
-FxR3LuosaitaBone002mirroredB	R3LuosaitaMd019241	11105409		0
-FxR3LuosaitaBuff	R3LuosaitaMd019241	11105410		0
+FxR3LuosaitaBone002mirroredB	R3LuosaitaMd019241			0
+FxR3LuosaitaBuff	R3LuosaitaMd019241	11105409		0
 FxR3LuosaitaAtk51	R3LuosaitaMd019241	11105501		0
 FxR3LuosaitaMove01	R3LuosaitaMd019241	11105601		0
 FxR3LuosaitaMove02	R3LuosaitaMd019241	11105602		0
@@ -8585,15 +8585,15 @@ FxR3WeilaAtk32Dilie02	R3WeilaMd019331	11113307
 FxR3WeilaAtk51Sound01	R3WeilaMd019331	11113401		
 FxR3WeilaAtk51Fly	R3WeilaMd019331	11113402		
 FxR3WeilaAtk4101WpCase2	R3WeilaMd019331	11113501		
-FxR3WeilaAtk4101Dian	R3WeilaMd019331			
-FxR3WeilaAtk4101	R3WeilaMd019331	11113503		
+FxR3WeilaAtk4101Dian	R3WeilaMd019331	11113502		
+FxR3WeilaAtk4101	R3WeilaMd019331	11113505		
 FxR3WeilaAtk4102	R3WeilaMd019331	11113504		
 FxR3WeilaAtkWpLightning	R3WeilaMd019331			
 FxR3WeilaAtk41JX002	R3WeilaMd019331	11113506		
 FxR3WeilaQiziSound	R3WeilaMd019331			
 FxR3WeilaAtk42Fly	R3WeilaMd019331	11113508		
 FxR3WeilaAtk42Sound	R3WeilaMd019331	11113509		
-FxR3WeilaAtkQte	R3WeilaMd019331	11113510		
+FxR3WeilaAtkQteMd030011	R3WeilaMd019331	11113510		
 FxR3WeilaAtk01Hit	R3WeilaMd019331	11113601		
 FxR3WeilaAtk0201Hit	R3WeilaMd019331	11113602		
 FxR3WeilaAtk0202Hit	R3WeilaMd019331	11113603		
@@ -8633,6 +8633,10 @@ FxR3WeilaAtk22Sound	R3WeilaMd019331	11113906
 FxR3WeilaAtk31Sound	R3WeilaMd019331	11113907		
 FxR3WeilaAtk41Sound	R3WeilaMd019331	11113908		
 FxR3WeilaAtk51Sound02	R3WeilaMd019331	11113909		
+FxR3WeilaAtkQteqizi06Md030011		11113510		
+FxR3WeilaAtkQteqizi05Md030011		11113510		
+FxR3WeilaAtkQteqizi04Md030011		11113510		
+FxR3WeilaAtkQteHitMd030011		11113626		
 FxPet3YuoffBornDummy001		4112001		
 FxPet3YuoffAtk41Dummy001		4112002		
 FxPet3YuoffAtk43Dummy001		4112003		
@@ -8658,6 +8662,10 @@ FxR4LifuAtk13Sound	R4LifuMd019331	12033203
 FxR4LifuAtk2201	R4LifuMd019331	12033204		
 FxR4LifuAtk4103	R4LifuMd019331	12033205		
 FxR4LifuAtk4001Pingmu	R4LifuMd019331	12033206		
+FxR4LifuAtk41Sound	R4LifuMd019331	12033207		
+FxR4LifuAtk51StartSound	R4LifuMd019331	12033301		
+FxR4LifuAtk51EndSound	R4LifuMd019331	12033302		
+FxR4LifuAtk5101Scene	R4LifuMd019331	12033303		
 FxR4LifuAtk51Dance01	R4LifuMd019331	12033304		
 FxR4LifuAtk51Dance02	R4LifuMd019331	12033305		
 FxR4LifuAtk51Dance03	R4LifuMd019331	12033306		
@@ -8668,7 +8676,7 @@ FxR4LifuAtk0101Hit	R4LifuMd019331	12033401
 FxR4LifuAtk0401Hit	R4LifuMd019331	12033401		
 FxR4LifuAtk1101Hit	R4LifuMd019331	12033402		
 FxR4LifuAtk1201Hit	R4LifuMd019331	12033403		
-FxR4LifuAtk3101Hit	R4LifuMd019331	12033404		
+FxR4LifuAtk3101Hit	R4LifuMd019331	12033403		
 FxR4LifuAtk4101Hit	R4LifuMd019331	12033405		
 FxR4LifuAtkQte	R4LifuMd019331	12033501		
 FxR4LifuMove01	R4LifuMd019331	12033502		
@@ -9341,3 +9349,892 @@ FxMb1MaidmasterMd010002Atk92Hand		9335172
 FxMb1MaidmasterMd010002Atk92		9335173		
 FxMb1MaidmasterMd010002Atk17Xuli		9335103		
 FxMb1MaidmasterMd010002Atk98Pingmu		9335174		
+FxMb1MaidmasterMd01Hit01		9335030		
+FxMb1MaidmasterMd01Hit02		9335031		
+FxMb1MaidmasterMd01Hit03		9335032		
+FxMb1MaidmasterMd01Hit04		9335033		
+FxMb1MaidmasterMd01Hit05		9335034		
+FxMb1MaidmasterMd01Hit06		9335035		
+FxMb1MaidmasterMd01Hit07		9335036		
+FxCizhuiR4YongyechaobotAtk40		2721		
+FxCizhuiR4KalieninaBaofa		2722		
+FxCizhuiR3LuxiyaBaozha		2723		
+FxCiZhuiR3KalieninaBaozha		2724		
+FxR1LuxiyaRMSpearjumpSz		11002001		
+FxR1LuxiyaRMSpearjumpQiliu		11002002		
+FxR1LuxiyaRMfallHit		11002003		
+FxR1LuxiyaRMAtk10		11002004		
+FxR1LuxiyaRMAtk11		11002005		
+FxR1LuxiyaRMAtk10DandaoBao		11002006		
+FxR1LuxiyaRMAtk10Dandao		11002007		
+FxR1LuxiyaRMAtk11Dandao01		11002007		
+FxR1LuxiyaRMAtk11Dandao02		11002007		
+FxR1LuxiyaRMAtk12Dandao		11002007		
+FxR1LuxiyaRMAtk10Hit		11002008		
+FxR1LuxiyaRMAtk11Hit		11002009		
+FxR1LuxiyaRMAtk12Hit		11002010		
+FxR1LuxiyaRMAtk20InWeaponCase1		11002011		
+FxR1LuxiyaRMAtk2001LoopWeaponCase1		11002012		
+FxR1LuxiyaRMAtk21Xuli		11002013		
+FxR1LuxiyaRMAtk22Dandao01		11002014		
+FxR1LuxiyaRMAtk22Dandao02		11002015		
+FxR1LuxiyaRMAtk22Dandao03		11002016		
+FxR1LuxiyaRMAtk22Hit		11002017		
+FxR1LuxiyaRMAtk2001OutWeaponCase1		11002018		
+FxPet3QuanoffBorn		4113001		
+FxPet3QuanoffAtk01		4113002		
+FxPet3QuanoffAtk03		4113002		
+FxPet3QuanoffAtk02		4113003		
+FxPet3QuanoffAtk41		4113004		
+FxPet3QuanoffAtk43		4113005		
+FxPet3QuanoffAtk51		4113006		
+FxPet3QuanoffAtk51Loop				
+FxPet3QuanonAtk11Chuansong		4113008		
+FxPet3QuanonAtk11Chuansong02		4113008		
+FxPet3QuanonAtk11Penhuo		4113009		
+FxPet3QuanonAtk11Dilie		4113010		
+FxPet3QuanonAtk11Hit		4113011		
+FxPet3QuanonAtk12Hit		4113011		
+FxR3KuluomuAtk01	R3KuluomuMd019011	13105001		
+FxR3KuluomuAtk0201	R3KuluomuMd019011	13105002		
+FxR3KuluomuAtk0202	R3KuluomuMd019011	13105003		
+FxR3KuluomuAtk03xuli	R3KuluomuMd019011	13105004		
+FxR3KuluomuAtk03	R3KuluomuMd019011	13105005		
+FxR3KuluomuAtk03Dilie	R3KuluomuMd019011	13105006		
+FxR3KuluomuAtk04	R3KuluomuMd019011	13105007		
+FxR3KuluomuAtk0401	R3KuluomuMd019011	13105015		
+FxR3KuluomuAtk05	R3KuluomuMd019011	13105009		
+FxR3KuluomuAtk05Dilie	R3KuluomuMd019011	13105010		
+FxR3KuluomuAtk05smoke	R3KuluomuMd019011	13105011		
+FxR3KuluomuAtk06xuli	R3KuluomuMd019011	13105012		
+FxR3KuluomuAtk06	R3KuluomuMd019011	13105013		
+FxR3KuluomuAtk06smoke	R3KuluomuMd019011	13105504		
+FxR3KuluomuAtk12	R3KuluomuMd019011	13105101		
+FxR3KuluomuAtk12Dilie	R3KuluomuMd019011	13105102		
+FxR3KuluomuAtk11	R3KuluomuMd019011	13105103		
+FxR3KuluomuAtk11Dilie	R3KuluomuMd019011	13105104		
+FxR3KuluomuAtk22	R3KuluomuMd019011	13105201		
+FxR3KuluomuAtk22Dilie	R3KuluomuMd019011	13105202		
+FxR3KuluomuAtk21	R3KuluomuMd019011	13105203		
+FxR3KuluomuAtk21Dilie	R3KuluomuMd019011	13105204		
+FxR3KuluomuAtk21Hitcase	R3KuluomuMd019011	13105205		
+FxR3KuluomuAtk32	R3KuluomuMd019011	13105301		
+FxR3KuluomuAtk32Dilie	R3KuluomuMd019011	13105302		
+FxR3KuluomuAtk31	R3KuluomuMd019011	13105303		
+FxR3KuluomuAtk31Dilie	R3KuluomuMd019011	13105304		
+FxR3KuluomuAtk51Wp1	R3KuluomuMd019011	13105402		
+FxR3KuluomuAtk51Dilie	R3KuluomuMd019011	13105401		
+FxR3KuluomuAtk41	R3KuluomuMd019011	13105501		
+FxR3KuluomuAtk42	R3KuluomuMd019011	13105502		
+FxR3KuluomuAtk42Dilie	R3KuluomuMd019011	13105503		
+FxR3KuluomuAtk43xuli	R3KuluomuMd019011	13105504		
+FxR3KuluomuAtk43	R3KuluomuMd019011	13105505		
+FxR3KuluomuBeidong	R3KuluomuMd019011	13105506		
+FxR3KuluomuBeidongHudun	R3KuluomuMd019011	13105508		
+FxR3KuluomuBeidongHudunChufa	R3KuluomuMd019011	13105507		
+FxR3KuluomuAtkQte	R3KuluomuMd019011	13105509		
+FxR3KuluomuAtkQteDilie	R3KuluomuMd019011	13105510		
+FxR3KuluomuAtk01Hit	R3KuluomuMd019011	13105601		
+FxR3KuluomuAtk0201Hit	R3KuluomuMd019011	13105602		
+FxR3KuluomuAtk0202Hit	R3KuluomuMd019011	13105603		
+FxR3KuluomuAtk03Hit	R3KuluomuMd019011	13105604		
+FxR3KuluomuAtk04Hit	R3KuluomuMd019011	13105605		
+FxR3KuluomuAtk05Hit	R3KuluomuMd019011	13105606		
+FxR3KuluomuAtk06Hit	R3KuluomuMd019011	13105607		
+FxR3KuluomuAtk12Hit	R3KuluomuMd019011	13105608		
+FxR3KuluomuAtk12Hit02	R3KuluomuMd019011	13105609		
+FxR3KuluomuAtk11Hit	R3KuluomuMd019011	13105610		
+FxR3KuluomuAtk11Hit02	R3KuluomuMd019011			
+FxR3KuluomuAtk22Hit	R3KuluomuMd019011	13105612		
+FxR3KuluomuAtk21Hit	R3KuluomuMd019011	13105613		
+FxR3KuluomuAtk32Hit	R3KuluomuMd019011	13105614		
+FxR3KuluomuAtk32Hit2	R3KuluomuMd019011	13105615		
+FxR3KuluomuAtk31Hit	R3KuluomuMd019011	13105616		
+FxR3KuluomuAtk31Hit2	R3KuluomuMd019011	13105617		
+FxR3KuluomuAtk41Hit	R3KuluomuMd019011	13105618		
+FxR3KuluomuAtk42Hit	R3KuluomuMd019011	13105619		
+FxR3KuluomuAtk43Hit	R3KuluomuMd019011	13105620		
+FxR3KuluomuBeidongHit	R3KuluomuMd019011			
+FxR3KuluomuAtk51DilieHit	R3KuluomuMd019011	13105622		
+FxR3KuluomuMove01	R3KuluomuMd019011	13105701		
+FxR3KuluomuMove02Hitcase	R3KuluomuMd019011	13105702		
+FxR3KuluomuBorn	R3KuluomuMd019011	13105801		
+FxR3KuluomuBornWp2	R3KuluomuMd019011	13105802		
+FxR3KuluomuWin	R3KuluomuMd019011	13105803		
+FxMo1GztcaptainMd010001Rool		9336001		
+FxMo1GztcaptainAtk1		9336002		
+FxMo1GztcaptainAtk102		9336003		
+FxMo1GztcaptainAtk102Dile		9336004		
+FxMo1GztcaptainAtk2		9336005		
+FxMo1GztcaptainAtk3		9336006		
+FxMo1GztcaptainAtk301		9336007		
+FxMo1GztcaptainAtk302		9336008		
+FxMo1GztcaptainAtk302Dilie		9336009		
+FxMo1GztcaptainTrail		9336010		
+FxMo1GztcaptainAtk5		9336011		
+FxMo1GztcaptainAtk5Dilie		9336012		
+FxMo1GztcaptainAtk502		9336013		
+FxMo1GztcaptainAtk502Dilie		9336014		
+FxMo1GztcaptainGravitationalFieldYujin		9336015		
+FxMo1GztcaptainGravitationalFieldBoom		9336016		
+FxMo1GztcaptainGravitationalField		9336017		
+FxMo1GztcaptainGravitationalFieldBuff		9336018		
+FxMo1GztcaptainAtk10		9336019		
+FxMo1GztcaptainAtk1001		9336020		
+FxMo1GztcaptainAtk1Hit		9336021		
+FxMo1GztcaptainAtk2Hit		9336022		
+FxMo1GztcaptainAtk3Hit		9336023		
+FxMo1GztcaptainAtk301Hit		9336024		
+FxMo1GztcaptainAtk10Hit		9336012		
+FxMo1GztcaptainAtk1001Hit		9336014		
+FxMo1GztcaptainAtk13		9336001		
+FxMo1GztcaptainAtk14		9336001		
+zhonglishangsheng		2756		
+FxR4LiangTebiechaosuanRedStart		2757		
+suidaopingmu		2759		
+FxFallingSnow01		2742		
+FxRedExplosion		2745		
+FxMb1MercyWeaglow		9337001		
+FxMb1MercyAtk01		9337002		
+FxMb1MercyAtk01A		9337003		
+FxMb1MercyAtk01B		9337004		
+FxMb1MercyHit01		9337005		
+FxMb1MercyAtk01Trail		9337006		
+FxMb1MercyAtk02		9337007		
+FxMb1MercyAtk02Sound		9337008		
+FxMb1MercyAtk03		9337009		
+FxMb1MercyAtk03Dilie		9337010		
+FxMb1FxMb1MercyHit02		9337011		
+FxMb1FxMb1MercyHit04		9337012		
+FxMb1MercyAtk04		9337013		
+FxMb1MercyAtk04Dilie		9337014		
+FxMb1MercyAtk04Wea		9337015		
+FxMb1MercyAtk05		9337016		
+FxMb1MercyAtk05Wea		9337017		
+FxMb1MercyAtk06		9337018		
+FxMb1MercyAtk06Dilie		9337019		
+FxMb1MercyPindaoYujing		9337020		
+FxMb1MercyChuxian		9337021		
+FxMb1MercyAtk07		9337022		
+FxMb1MercyHit03		9337005		
+FxMb1MercyAtk07Dilie		9337024		
+FxMb1MercyPindaoHit		9337025		
+FxMb1MercyAtk09		9337026		
+FxMb1MercyAtk11		9337027		
+FxMb1MercyAtk12		9337028		
+FxMb1MercyAtk14		9337029		
+FxMb1MercyAtk15Trai		9337030		
+FxMb1MercyAtk16wea		9337031		
+FxMb1MercyAtk16		9337032		
+FxMb1MercyAtk18		9337033		
+FxMb1MercyAtk18Dilie		9337034		
+FxMb1MercyAtk19		9337035		
+FxMb1MercyAtk91		9337036		
+FxMb1MercyAtk91Dilie		9337037		
+FxMb1MercyShanxian		9337038		
+FxMb1MercyAtk62Dilie		9337039		
+FxMb1MercyAtk63Dilie		9337040		
+FxMb1MercyAtk64		9337041		
+FxMb1MercyAtk64Dilie		9337042		
+FxMb1MercyAtk65		9337043		
+FxMb1MercyAtk65Dilie		9337044		
+FxMb1MercyHudun		9337045		
+FxMb1MercyHudunHit		9337046		
+FxMb1MercyAtk31		9337047		
+FxMb1MercyAtk32		9337048		
+FxMb1MercyAtk33		9337049		
+FxMb1MercyAtk34		9337050		
+FxMb1MercyAtk35		9337051		
+FxMb1MercyAtk37Wea		9337052		
+FxMb1MercyAtk37		9337053		
+FxMb1MercyAtk37Chibang		9337054		
+FxMb1MercyHit		9337055		
+FxMb1Mercy2Atk02		9337056		
+FxMb1Mercy2Atk03		9337057		
+FxMb1Mercy2Atk03Dilie		9337058		
+FxMb1Mercy2Atk04		9337059		
+FxMb1Mercy2Atk04Rao		9337060		
+FxMb1Mercy2Atk04TuoWei		9337061		
+FxMb1Mercy2Atk05		9337062		
+FxMb1Mercy2Atk0601		9337063		
+FxMb1Mercy2Atk0602		9337064		
+FxMb1Mercy2Atk0603		9337065		
+FxMb1Mercy2Atk06Shifa		9337066		
+FxMb1Mercy2Atk07Weapon		9337067		
+FxMb1Mercy2Atk07		9337068		
+FxMb1Mercy2Atk07Shifa		9337069		
+FxMb1Mercy2Atk08Dandao		9337070		
+FxMb1Mercy2Atk08Di		9337071		
+FxMb1Mercy2Atk09Yujing		9337072		
+FxMb1Mercy2Atk09		9337073		
+FxMb1Mercy2Atk10		9337074		
+FxMb1Mercy2Atk10ChangDi		9337075		
+FxMb1Mercy2Atk10Bao		9337076		
+FxMb1Mercy2Atk11		9337077		
+FxR4LiangAtk01		10021001		
+FxR4LiangAtk02		10021002		
+FxR4LiangAtk03XuliBip001		10021003		
+FxR4LiangAtk03Dilie1		10021004		
+FxR4LiangAtk03Dilie2		10021005		
+FxR4LiangAtk04		10021006		
+FxR4LiangAtk05		10021007		
+FxR4LiangAtk05WeaponCase		10021008		
+FxR4LiangAtk05Dilie		10021009		
+FxR4LiangAtk10		10021101		
+FxR4LiangAtk11		10021102		
+FxR4LiangAtk11Dilie		10021103		
+FxR4LiangAtk34Dilie		10021201		
+FxR4LiangAtk34WeaponCase2				
+FxR4LiangAtk34BoneLCalfTwist1		10021203		
+FxR4LiangAtk32		10021204		
+FxR4LiangAtk32Dilie		10021205		
+FxR4LiangAtk20		10021301		
+FxR4LiangAtk20WeaponCase1		10021302		
+FxR4LiangAtk20Bao		10021303		
+FxR4LiangAtk51Sound		10021401		
+FxR4LiangAtk41		10021501		
+FxR4LiangAtk41Loop		10021502		
+FxR4LiangAtk41Bao		10021503		
+FxR4LiangAtk41Sound		10021504		
+FxR4LiangAtk41Out		10021505		
+FxR4LiangAtk35		10021506		
+FxR4LiangAtk35Zidan		10021507		
+FxR4LiangAtk35Zidan02		10021508		
+FxR4LiangAtk35Zidan03		10021509		
+FxR4LiangAtk14XuliBip001		10021510		
+FxR4LiangAtk14Dilie		10021511		
+FxR4LiangAtk14End		10021514		
+FxR4LiangAtk23		10021515		
+FxR4LiangAtk24		10021516		
+FxR4LiangAtk24Bao		10021518		
+FxR4LiangAtk01Hit		10021601		
+FxR4LiangAtk02Hit01		10021602		
+FxR4LiangAtk02Hit02		10021603		
+FxR4LiangAtk03Hit01		10021604		
+FxR4LiangAtk03Hit02		10021605		
+FxR4LiangAtk04Hit		10021606		
+FxR4LiangAtk10Hit01		10021607		
+FxR4LiangAtk10Hit02		10021608		
+FxR4LiangAtk20Hit		10021609		
+FxR4LiangAtk34Hit		10021610		
+FxR4LiangAtk32Hit		10021611		
+FxR4LiangAtk35Hit		10021612		
+FxR4LiangAtk14FsHit01		10021613		
+FxR4LiangAtk14FsHit02		10021614		
+FxR4LiangAtk24Hit		10021615		
+FxR4LiangAtk41Hit		10021616		
+FxR4LiangMove01		10021701		
+FxR4LiangMove02		10021702		
+FxR4LiangMove01BoneLCalfTwist1		10021703		
+FxR4LiangMove01BoneRCalfTwist1		10021703		
+FxR4LiangBorn		10021801		
+FxR4LiangWin		10021802		
+FxMb1TifaAtk01Dandao		9339003		
+FxMb1TifaAtk01Yujing		9339004		
+FxMb1TifaAtk01Tuci		9339005		
+FxMb1TifaAtk01TuciLoop		9339006		
+FxMb1TifaAtk02Bip001Trail		9339007		
+FxMb1TifaAtk0301Fly		9339008		
+FxMb1TifaAtk0301		9339009		
+FxMb1TifaAtk0302		9339009		
+FxMb1TifaAtk0401		9339010		
+FxMb1TifaAtk04Baozha		9339011		
+FxMb1TifaAtk05Dandao		9339012		
+FxMb1TifaAtk06DaoguangTrail		9339013		
+FxMb1TifaAtk06Bip001Trail		9339014		
+FxMb1TifaAttack06DaoGuang		9339031		
+FxMb1TifaAtk07		9339015		
+FxMb1TifaAtk08		9339016		
+FxMb1TifaAttack09DaoGuang1		9339017		
+FxMb1TifaAttack09DaoGuang2		9339018		
+FxMb1TifaAttack09DaoGuang		9339019		
+FxMb1TifaAttack09DaoGuang201		9339019		
+FxMb1TifaAttack09Bao		9339020		
+FxMb1TifaAttack10XiaoShi		9339021		
+FxMb1TifaAttack10Yan		9339022		
+FxMb1TifaAttack11		9339023		
+FxMb1TifaAttack12		9339024		
+FxMb1TifaAttack13JiLuo		9339025		
+FxMb1TifaAttack13XuanZhuan		9339026		
+FxMb1TifaAttack13Hit		9339027		
+FxMb1TifaAttack14ChuXian		9339028		
+FxMb1TifaAttack14ZiDan		9339029		
+FxMb1TifaAtk14		9339030		
+FxMb1TifaAtk1501		9339031		
+FxMb1TifaAtk1502		9339032		
+FxMb1TifaAtk16		9339033		
+FxMb1TifaAtk16Dandao		9339034		
+FxMb1TifaAtk17bowen		9339045		
+FxMb1TifaAtk1801		9339036		
+FxMb1TifaAtk1802		9339037		
+FxMb1TifaAtk1803		9339038		
+FxMb1TifaAtk18Dandao		9339039		
+FxMb1TifaAtk19		9339040		
+FxMb1TifaAtk19Shuihua		9339041		
+FxMb1TifaAtk20		9339042		
+FxMb1TifaHit		9339043		
+FxMb1Starnight2Bip001Spine1				
+FxMb1Starknight2ArmorBoneSL01				
+FxMb1Starknight2ArmorBoneSL03				
+FxMb1Starknight2ArmorBoneSR01				
+FxMb1Starknight2ArmorBoneSR03				
+FxMb1Starknight2ArmorBoneSL01Burst				
+FxMb1Starknight2ArmorBoneSL03Burst				
+FxMb1Starknight2ArmorBoneSR01Burst				
+FxMb1Starknight2ArmorBoneSR03Burst				
+FxMb1Starknight2Atk50 				
+FxMb1Starknight2Atk50Pingmu				
+FxMb1Starknight2Atk50PingmuBoli				
+FxMb1Starknight2Atk50Bip001LHand				
+FxMb1Starknight2Atk50Bip001RHand				
+FxMb1Starknight2Atk50Hit				
+FxMb1Starknight2Atk52				
+FxMb1Starknight2Atk52Hit01				
+FxMb1Starknight2Atk52Hit02				
+FxMb1Starknight2Atk52Hit03				
+FxMb1Starknight2Atk52Pen01				
+FxMb1Starknight2Atk52Pen02				
+FxMb1Starknight2Atk52Dilie				
+FxMb1Starknight2Atk52XvliBip001RHand				
+FxMb1Starknight2Atk20Baodian				
+FxMb1Starknight2Atk21				
+FxMb1Starknight2Atk22				
+FxMb1Starknight2Atk22Bip001				
+FxMb1Starknight2Atk22Dilie				
+FxMb1Starknight2Atk22DilieBurst				
+FxMb1Starknight2Atk57LanceBoneFm01				
+FxMb1Starknight2Atk57LanceBoneFm01Burst01				
+FxR4SailinnaAtk01Sound	R4SailinnaMd019261	10321001		
+FxR4SailinnaAtk02Sound	R4SailinnaMd019261	10321002		
+FxR4SailinnaAtk03Sound	R4SailinnaMd019261	10321003		
+FxR4SailinnaAtk0401Dandao	R4SailinnaMd019261	10321004		
+FxR4SailinnaAtk0402Dandao	R4SailinnaMd019261	10321010		
+FxR4SailinnaAtk0403Dandao	R4SailinnaMd019261	10321012		
+FxR4SailinnaAtk0404Dandao	R4SailinnaMd019261	10321011		
+FxR4SailinnaAtk05Sound	R4SailinnaMd019261	10321008		
+FxR4SailinnaAtk06Sound	R4SailinnaMd019261	10321009		
+FxR4SailinnaAtk1202	R4SailinnaMd019261	10321101		
+FxR4SailinnaAtk1201	R4SailinnaMd019261	10321102		
+FxR4SailinnaAtk32Sound	R4SailinnaMd019261	10321201		
+FxR4SailinnaAtk32Move	R4SailinnaMd019261	10321202		
+FxR4SailinnaAtk32Dandao	R4SailinnaMd019261	10321203		
+FxR4SailinnaAtk22Wuqi	R4SailinnaMd019261	10321301		
+FxR4SailinnaAtk22Move	R4SailinnaMd019261	10321302		
+FxR4SailinnaAtk22WuqiFashe	R4SailinnaMd019261	10321303		
+FxR4SailinnaAtk2201	R4SailinnaMd019261	10321304		
+FxR4SailinnaAtk2202	R4SailinnaMd019261	10321305		
+FxR4SailinnaAtk22WuqiFanhui	R4SailinnaMd019261	10321306		
+FxR4SailinnaAtk51BadaoWuqi	R4SailinnaMd019261	10321401		
+FxR4SailinnaAtk51DimianJL	R4SailinnaMd019261	10321402		
+FxR4SailinnaAtk52JL	R4SailinnaMd019261	10321403		
+FxR4SailinnaAtk51Sound	R4SailinnaMd019261	10321404		
+FxR4SailinnaAtk5203	R4SailinnaMd019261	10321405		
+FxR4SailinnaAtk5205	R4SailinnaMd019261	10321406		
+FxR4SailinnaAtk5202	R4SailinnaMd019261	10321407		
+FxR4SailinnaAtk5206	R4SailinnaMd019261	10321408		
+FxR4SailinnaAtk5204	R4SailinnaMd019261	10321409		
+FxR4SailinnaAtk01Hit	R4SailinnaMd019261	10321501		
+FxR4SailinnaAtk0201Hit	R4SailinnaMd019261	10321502		
+FxR4SailinnaAtk0202Hit	R4SailinnaMd019261	10321503		
+FxR4SailinnaAtk0301Hit	R4SailinnaMd019261	10321504		
+FxR4SailinnaAtk0302Hit	R4SailinnaMd019261	10321505		
+FxR4SailinnaAtk0303Hit	R4SailinnaMd019261	10321506		
+FxR4SailinnaAtk0401HitSound	R4SailinnaMd019261	10321507		
+FxR4SailinnaAtk0501HitSound	R4SailinnaMd019261	10321508		
+FxR4SailinnaAtk06Hit	R4SailinnaMd019261	10321509		
+FxR4SailinnaAtk1202Hit01	R4SailinnaMd019261	10321510		
+FxR4SailinnaAtk1202Hit02	R4SailinnaMd019261	10321511		
+FxR4SailinnaAtk1202Hit	R4SailinnaMd019261	10321512		
+FxR4SailinnaAtk3201Hit	R4SailinnaMd019261	10321513		
+FxR4SailinnaAtk3202Hit	R4SailinnaMd019261	10321514		
+FxR4SailinnaAtk22Hit01	R4SailinnaMd019261	10321515		
+FxR4SailinnaAtk5201Hit	R4SailinnaMd019261	10321516		
+FxR4SailinnaAtk51BaoHit	R4SailinnaMd019261	10321517		
+FxR4SailinnaAtk5203Hit	R4SailinnaMd019261			
+FxR4SailinnaAtk5205Hit	R4SailinnaMd019261			
+FxR4SailinnaAtk5202Hit	R4SailinnaMd019261			
+FxR4SailinnaAtk5206Hit	R4SailinnaMd019261			
+FxR4SailinnaAtk5204Hit	R4SailinnaMd019261			
+FxR4SailinnaMove01	R4SailinnaMd019261	10321601		
+FxR4SailinnaMove02	R4SailinnaMd019261	10321602		
+FxR4SailinnaQTE	R4SailinnaMd019261	10321603		
+FxR4SailinnaZhiliao	R4SailinnaMd019261	10321604		
+FxR4SailinnaStandchange	R4SailinnaMd019261	10321605		
+FxR4SailinnaBorn	R4SailinnaMd019261	10321701		
+FxR4SailinnaWin01	R4SailinnaMd019261	10321702		
+FxR3LunaAtk0101	R3LunaMd019251	13108001		
+FxR3LunaAtk02	R3LunaMd019251	13108002		
+FxR3LunaAtk03	R3LunaMd019251	13108003		
+FxR3LunaAtk08	R3LunaMd019251	13108003		
+FxR3LunaAtk0401	R3LunaMd019251	13108004		
+FxR3LunaAtk0402	R3LunaMd019251	13108005		
+FxR3LunaAtk05	R3LunaMd019251	13108006		
+FxR3LunaAtk06	R3LunaMd019251	13108007		
+FxR3LunaAtk11	R3LunaMd019251	13108101		
+FxR3LunaAtk13	R3LunaMd019251	13108102		
+FxR3LunaAtk11shifa	R3LunaMd019251	13108103		
+FxR3LunaAtk1102	R3LunaMd019251	13108104		
+FxR3LunaAtk21	R3LunaMd019251	13108201		
+FxR3LunaAtk23	R3LunaMd019251	13108202		
+FxR3LunaAttack21shifa	R3LunaMd019251	13108203		
+FxR3LunaAtk3101	R3LunaMd019251	13108301		
+FxR3LunaAtk3102	R3LunaMd019251	13108302		
+FxR3LunaAtk3103	R3LunaMd019251	13108303		
+FxR3LunaAtk3104	R3LunaMd019251	13108304		
+FxR3LunaAtk3301	R3LunaMd019251	13108305		
+FxR3LunaAtk3302	R3LunaMd019251	13108306		
+FxR3LunaAtk3303	R3LunaMd019251	13108307		
+FxR3LunaAtk3304	R3LunaMd019251	13108308		
+FxR3LunaAtk40Sound	R3LunaMd019251	13108401		
+FxR3LunaAtk41	R3LunaMd019251	13108402		
+FxR3LunaAtk42	R3LunaMd019251	13108403		
+FxR3LunaAtk43Sound	R3LunaMd019251	13108404		
+FxR3LunaAtk44Sound	R3LunaMd019251	13108405		
+FxR3LunaAtk45Sound	R3LunaMd019251	13108406		
+FxR3LunaAtk46Sound	R3LunaMd019251	13108407		
+FxR3LunaAtk1504	R3LunaMd019251	13108408		
+FxR3LunaAtk1505	R3LunaMd019251	13108409		
+FxR3LunaAtk1506	R3LunaMd019251	13108410		
+FxR3LunaAtk1507	R3LunaMd019251	13108411		
+FxR3LunaAtk1508	R3LunaMd019251	13108412		
+FxR3LunaAtk51Sound	R3LunaMd019251	13108501		
+FxR3LunaAtk01Hit	R3LunaMd019251	13108601		
+FxR3LunaAtk02shouji	R3LunaMd019251	13108602		
+FxR3LunaAtk03shouji	R3LunaMd019251	13108603		
+FxR3LunaAtk0401shouji	R3LunaMd019251	13108604		
+FxR3LunaAtk0402shouji	R3LunaMd019251	13108605		
+FxR3LunaAtk05shouji	R3LunaMd019251	13108606		
+FxR3LunaAtk06shouji	R3LunaMd019251	13108607		
+FxR3LunaAtk11shouji	R3LunaMd019251	13108608		
+FxR3LunaAtk21shouji	R3LunaMd019251	13108609		
+FxR3LunaAtk4101shouji	R3LunaMd019251	13108610		
+FxR3LunaAtk4203shouji	R3LunaMd019251	13108611		
+FxR3LunaAtk4301shouji	R3LunaMd019251	13108612		
+FxR3LunaAtk4302shouji	R3LunaMd019251	13108613		
+FxR3LunaAtk4303shouji	R3LunaMd019251	13108613		
+FxR3LunaAtk4304shouji	R3LunaMd019251	13108613		
+FxR3LunaAtk4402shouji	R3LunaMd019251	13108614		
+FxR3LunaAtk1501shouji	R3LunaMd019251	13108615		
+FxR3LunaAtk1502shouji	R3LunaMd019251	13108615		
+FxR3LunaAtk1503shouji1	R3LunaMd019251	13108616		
+FxR3LunaAtk1503shouji2	R3LunaMd019251	13108616		
+FxR3LunaAtkQTEshouji	R3LunaMd019251	13108617		
+FxR3LunaAtkQTESound	R3LunaMd019251	13108618		
+FxR3LunaWuqiChuxianWeapons3	R3LunaMd019251	13108701		
+FxR3LunaAtk31WeaponsSound	R3LunaMd019251	13108702		
+FxR3LunaMove01	R3LunaMd019251	13108703		
+FxR3LunaMove02	R3LunaMd019251	13108704		
+FxR3LunaBorn	R3LunaMd019251	13108801		
+FxR3LunaWin	R3LunaMd019251	13108802		
+FxR2WeilaAttack4601		10103801		
+FxR2WeilaAttack46Dandao01		10103802		
+FxR2WeilaAttack46Dandao02		10103803		
+FxR2WeilaAttack4701				
+FxR2WeilaAttack47WuqiBuff		10103805		
+FxR2WeilaAttack47Dandao		10103806		
+FxR2WeilaAttack21Kuosan		10103807		
+FxR2WeilaAttack52DandaoEx		10103808		
+FxR2WeilaWuqiBaoEx		10103420		
+FxR2WeilaAttack4601	R2WeilaMd019181	10103801		
+FxR2WeilaAttack46Dandao01	R2WeilaMd019181	10103802		
+FxR2WeilaAttack46Dandao02	R2WeilaMd019181	10103803		
+FxR2WeilaAttack4701	R2WeilaMd019181			
+FxR2WeilaAttack47WuqiBuff	R2WeilaMd019181	10103805		
+FxR2WeilaAttack47Dandao	R2WeilaMd019181	10103806		
+FxR2WeilaAttack21Kuosan	R2WeilaMd019181	10103807		
+FxR2WeilaAttack52DandaoEx	R2WeilaMd019181	10103808		
+FxR2WeilaWuqiBaoEx	R2WeilaMd019181	10103420		
+FxR2WeilaAttack4601	R2WeilaMd019041	10103801		
+FxR2WeilaAttack46Dandao01	R2WeilaMd019041	10103802		
+FxR2WeilaAttack46Dandao02	R2WeilaMd019041	10103803		
+FxR2WeilaAttack4701	R2WeilaMd019041			
+FxR2WeilaAttack47WuqiBuff	R2WeilaMd019041	10103805		
+FxR2WeilaAttack47Dandao	R2WeilaMd019041	10103806		
+FxR2WeilaAttack21Kuosan	R2WeilaMd019041	10103807		
+FxR2WeilaAttack52DandaoEx	R2WeilaMd019041	10103808		
+FxR2WeilaWuqiBaoEx	R2WeilaMd019041	10103420		
+FxMb1LuxiyaMd000003Attack6101		819045		
+FxMb1LuxiyaMd000003Attack6102		819045		
+FxMb1LuxiyaMd000003Attack6103		819044		
+FxMb1LuxiyaMd000003Attack61Shortcharge		819039		
+FxMb1LuxiyaMd000003Attack61Longcharge		819043		
+FxMb1LuxiyaMd000003Attack6301		819044		
+FxMb1LuxiyaMd000003Attack63Shanxian		819041		
+FxMb1LuxiyaMd000003Attack51				
+FxR3AilaAtk01		10019001		
+FxR3AilaAtk02		10019002		
+FxR3AilaAtk02Ground		10019003		
+FxR3AilaAtk03Dao01		10019004		
+FxR3AilaAtk03Dao02		10019005		
+FxR3AilaAtk04Kick		10019006		
+FxR3AilaAtk04		10019007		
+FxR3AilaAtk05		10019008		
+FxR3AilaAtk05Dilie		10019009		
+FxR3AilaAtk11		10019101		
+FxR3AilaAtk13		10019102		
+FxR3AilaAtk21Daoguang		10019201		
+FxR3AilaAtk21Dimian		10019202		
+FxR3AilaAtk23Daoguang		10019203		
+FxR3AilaAtk23Dimian		10019204		
+FxR3AilaAtk21wuqi01		10019205		
+FxR3AilaAtk33WeaponCase1		10019301		
+FxR3AilaAtk31Zidan		10019302		
+FxR3AilaAtk31Kaiqiang		10019306		
+FxR3AilaAtk31Dimian		10019304		
+FxR3AilaAtk31Hit		10019305		
+FxR3AilaAtk32Kaiqiang		10019306		
+FxR3AilaAtk32Dimian		10019304		
+FxR3AilaAtk32Hit		10019305		
+FxR3AilaAtk33Dimian		10019307		
+FxR3AilaAtk33Kaiqiang		10019303		
+FxR3AilaAtk33Hit		10019308		
+FxR3AilaAtk51Daoguang		10019401		
+FxR3AilaAtk51zhankai		10019402		
+FxR3AilaAtk51wuqi		10019403		
+FxR3AilaAtk43		10019410		
+FxR3AilaAtk49		10019405		
+FxR3AilaAtk50		10019405		
+FxR3AilaAtk48		10019406		
+FxR3AilaAtk43HongHitdi		10019407		
+FxR3AilaAtk52		10019408		
+FxR3AilaAtk53		10019409		
+FxR3AilaAtk43LanHitdi		10019407		
+FxR3AilaAtk43HuangHitdi		10019407		
+FxR3AilaAtk43HunHitdi		10019407		
+FxR3AilaAtk43Hun				
+FxR3AilaAtk43Hong				
+FxR3AilaAtk43Lan				
+FxR3AilaAtk43Huang				
+FxR3AilaAtk43Tuowei		10019404		
+FxR3AilaAtk4101		10019501		
+FxR3AilaAtk4102		10019502		
+FxR3AilaAtk4201Red		10019503		
+FxR3AilaAtk4202Red		10019504		
+FxR3AilaAtk4203Red		10019505		
+FxR3AilaAtk4201Blue		10019503		
+FxR3AilaAtk4202Blue		10019504		
+FxR3AilaAtk4203Blue		10019505		
+FxR3AilaAtk4201Yellow		10019503		
+FxR3AilaAtk4202Yellow		10019504		
+FxR3AilaAtk4203Yellow		10019505		
+FxR3AilaAtk01Hit		10019601		
+FxR3AilaAtk02Hit		10019602		
+FxR3AilaAtk03Hit		10019603		
+FxR3AilaAtk04Hit		10019604		
+FxR3AilaAtk04KickHit		10019605		
+FxR3AilaAtk05Hit		10019606		
+FxR3AilaAtk11Hit		10019607		
+FxR3AilaAtk21Hit		10019608		
+FxR3AilaAtk4101Hit		10019609		
+FxR3AilaAtk43HunHit		10019610		
+FxR3AilaAtk43HongHit				
+FxR3AilaAtk43LanHit				
+FxR3AilaAtk43HuangHit				
+FxR3AilaAtk4203RedHit		10019610		
+FxR3AilaAtk4203BlueHit		10019610		
+FxR3AilaAtk4203YellowHit		10019610		
+FxR3AilaMove01		10019701		
+FxR3AilaMove02		10019702		
+FxR3AilaAtkQte		10019703		
+FxR3AilaAtkQteBaokai		10019704		
+FxR3AilaBorn		10019801		
+FxR3AilaWin		10019802		
+FxPyramidLaser		2799		
+FxStandingPointLoop01		2800		
+FxStandingPointAtcive01		2801		
+FxStandingPointOut01		2802		
+FxSceneBoard00		2803		
+FxSceneBoard01		2803		
+FxSceneBoard02		2803		
+FxSceneBoard03		2803		
+FxSceneBoardOut		2804		
+FxLightBallIn		2806		
+FxLightBallLoop		2807		
+FxLightBallOut		2808		
+FxPet3WuzeioffAtk01		4114001		
+FxPet3WuzeioffAtk02		4114002		
+FxPet3WuzeioffAtk51		4114003		
+FxPet3WuzeioffAtk31		4114004		
+FxPet3WuzeionAtk11Xuli		4114006		
+FxPet3WuzeionAtk11		4114007		
+FxPet3WuzeionAtk11Tuowei		4114008		
+FxPet3WuzeionAtk12		4114009		
+FxPet3WuzeionAtk12Hit		4114010		
+FxMo1ShigaonanAttack1		9340001		
+FxMo1ShigaonanAttack2		9340002		
+FxMo1ShigaonanAttack3Start		9340003		
+FxMo1ShigaonanAttack3Flow		9340004		
+FxMo1ShigaonanAttack3Dilie		9340005		
+FxMo1ShigaonanAttack4Start		9340006		
+FxMo1ShigaonanAttack4		9340007		
+FxMo1ShigaonanAttack5Flow		9340008		
+FxMo1ShigaonanAttack5Dilie		9340009		
+FxMo1ShigaonanAttack6Start		9340010		
+FxMo1ShigaonanAttack6Bullet		9340011		
+FxMo1ShigaonanAttack7		9340012		
+FxDataScanShader02		2815		
+FxRobotDeathFire		2816		
+FxLanding01		2823		
+FxMe1SimmoonguyAtk01Xuli		9341001		
+FxMe1SimmoonguyAtk01XulieyeballBonesM3		9341002		
+FxMe1SimmoonguyAtk01WenHao		9341003		
+FxMe1SimmoonguyAtk02Daoguang		9341005		
+FxMe1SimmoonguyAtk02Tiao		9341006		
+FxMe1SimmoonguyAtk02DaYin		9341007		
+FxMe1SimmoonguyAtk02Xuli		9341008		
+FxMe1SimmoonguyAtk02Dilie		9341009		
+FxMe1SimmoonguyAtk03		9341010		
+FxMe1SimmoonguyAtk03Dilie		9341011		
+FxMe1SimmoonguyAtkHit01		9341012		
+FxMe1SimmoonguyAtk04		9341013		
+FxMe1SimmoonguyAtk04Dilie		9341018		
+FxMe1SimmoonguyAtk05		9341014		
+FxMe1SimmoonguyAtk06		9341015		
+FxMe1SimmoonguyAtk06Hou		9341016		
+FxMe1SimmoonguyAtk06Huoxing		9341017		
+FxMe1SimmoonguyAtk07Dilie		9341018		
+FxMe1SimmoonguyAtk08		9341019		
+FxMe1SimmoonguyAtk09weaponBoneZ06		9341020		
+FxMe1SimmoonguyAtk09Daoguang		9341021		
+FxMe1SimmoonguyAtk09Dilie		9341022		
+FxMe1SimmoonguyAtk10		9341023		
+FxMe1SimmoonguyAtk10Di		9341024		
+FxMe1SimmoonguyAtk10Huoxing		9341025		
+FxMe1SimmoonguyAtk11		9341026		
+FxMe1SimmoonguySmoke1s		9341027		
+FxMe1SimmoonguyAtk12Dilie		9341028		
+FxMe1SimmoonguyAtk13		9341029		
+FxMe1SimmoonguyAtk13Dilie		9341030		
+FxMe1SimmoonguyAtk14Gundong		9341031		
+FxMe1SimmoonguyAtk14		9341032		
+FxMe1SimmoonguyAtk14Daoguang		9341033		
+FxMe1SimmoonguyAtk14weaponBoneZ06		9341034		
+FxMe1SimmoonguyAtk14Dilie		9341035		
+FxMe1SimmoonguyAtk15		9341036		
+FxMe1SimmoonguyAtk15Dandao		9341037		
+FxMe1SimmoonguyAtk15Dilie		9341022		
+FxMe1SimmoonguyAtk21		9341038		
+FxMe1SimmoonguyAtk21Dilie		9341039		
+FxMe1SimmoonguyAtk22		9341040		
+FxMe1SimmoonguyAtk22Dilie		9341041		
+FxMe1SimmoonguyAtk23		9341042		
+FxMe1SimmoonguyAtk23Dilie		9341043		
+FxMe1SimmoonguyAtk25		9341044		
+FxMe1SimmoonguyAtk28		9341045		
+FxMe1SimmoonguyAtk28Dilie		9341046		
+FxMe1SimmoonguyAtk28Hou		9341047		
+FxMe1SimmoonguyAtk30Dilie		9341048		
+FxMe1SimmoonguyAtk36Bip001RUpperArm		9341049		
+FxMe1SimmoonguyAtk36Dilie		9341050		
+FxMe1SimmoonguyAtk36Zhua		9341051		
+FxMe1SimmoonguyAtk40		9341052		
+FxMe1SimmoonguyAtk43		9341053		
+FxMe1SimmoonguyAtk43Dilie		9341054		
+FxMe1SimmoonguyAtk45Daoguang		9341055		
+FxMe1SimmoonguyAtk45		9341056		
+FxMe1SimmoonguyAtk46		9341057		
+FxMb1YalishaAtk01		9342001		
+FxMb1YalishaAtk02		9342001		
+FxMb1YalishaAtk61		9342002		
+FxMb1YalishaDandao02		9342003		
+FxMb1YalishaAtk03		9342004		
+FxMb1YalishaAtk04		9342005		
+FxMb1YalishaAtk05		9342006		
+FxMb1YalishaAtk05Dandao		9342007		
+FxMb1YalishaAtk06		9342008		
+FxMb1YalishaAtk07		9342009		
+FxMb1YalishaAtk08		9342010		
+FxMb1YalishaAtk10		9342011		
+FxMb1YalishaAtk11		9342012		
+FxMb1YalishaAtk1202		9342013		
+FxMb1YalishaAtk1201		9342014		
+FxMb1YalishaAtk13		9342015		
+FxMb1YalishaAtk14xuli		9342016		
+FxMb1YalishaAtk14		9342017		
+FxMb1YalishaAtk14Dandao		9342018		
+FxMb1YalishaAtk1501		9342019		
+FxMb1YalishaAtk1502		9342020		
+FxMb1YalishaAtk1503		9342021		
+FxMb1YalishaAtk16Xuli		9342022		
+FxMb1YalishaAtk16Bao		9342023		
+FxMb1YalishaAtk16Dandao		9342024		
+FxMb1YalishaAtk17Bao		9342025		
+FxMb1YalishaAtk1701Move		9342026		
+FxMb1YalishaAtk1701Bao		9342027		
+FxMb1YalishaAtk1702Move		9342026		
+FxMb1YalishaAtk1702Bao		9342027		
+FxMb1YalishaAtk1703Move		9342026		
+FxMb1YalishaAtk1703Bao		9342027		
+FxMb1YalishaAtk1704Move		9342026		
+FxMb1YalishaAtk1704Bao		9342027		
+FxMb1YalishaAtk1705Move		9342026		
+FxMb1YalishaAtk1705Bao		9342027		
+FxMb1YalishaAtk17Dandao		9342028		
+FxMb1YalishaAtk18Loop		9342029		
+FxMb1YalishaAtk18End		9342030		
+FxMb1YalishaAtk19		9342031		
+FxMb1YalishaAtk19dandao		9342032		
+FxMb1YalishaAtk09		9342033		
+FxMb1YalishaAtk20		9342034		
+FxMb1YalishaAtk22Qifei		9342035		
+FxMb1YalishaAtk22		9342036		
+FxMb1AliyaAtk27Xuli		9342037		
+FxMb1AliyaAtk27Fashe		9342038		
+FxMb1AliyaAtk27Yj		9342039		
+FxMb1AliyaAtk27Dandao		9342040		
+FxMb1AliyaAtk27Dilie		9342041		
+FxMb1AliyaAtk28		9342042		
+FxMb1AliyaAtk28Xuli		9342043		
+FxMb1AliyaAtk28Qifei		9342044		
+FxMb1YalishaAtkMoveL		9342045		
+FxMb1YalishaAtkMoveR		9342045		
+FxMb1AliyaAtk22Yujing		9342046		
+FxMb1AliyaAtk22Qifei		9342047		
+FxMb1AliyaAtk22		9342048		
+FxMb1AliyaAtk22Dandao		9342049		
+FxMb1AliyaAtk21Hit		9342050		
+FxMb1AliyaAtk22Cjb		9342051		
+FxMb1AliyaAtk22Xuli1		9342052		
+FxMb1AliyaAtk22Weapon		9342053		
+FxMb1AliyaAtk22Dilie		9342054		
+FxMb1AliyaAtk23DG		9342055		
+FxMb1AliyaAtk23Gedang		9342056		
+FxMb1AliyaAtk24Yujing		9342057		
+FxMb1AliyaAtk24DG		9342058		
+FxMb1AliyaAtk25DG		9342059		
+FxMb1AliyaAtk26		9342060		
+FxMb1AliyaAtk35Xuli		9342062		
+FxMb1AliyaAtk35		9342063		
+FxMb1AliyaAtk36Xuli		9342064		
+FxMb1AliyaAtk36DG		9342065		
+FxMb1AliyaAtk37Xuli		9342066		
+FxMb1AliyaAtk37DG		9342067		
+FxMb1AliyaAtk37Dilie		9342068		
+FxMb1AliyaAtk38Xuli		9342069		
+FxMb1AliyaAtk38Dilie		9342070		
+FxMb1AliyaAtk39		9342071		
+FxMb1AliyaAtk39Weapon		9342072		
+FxMb1AliyaBornAniZha		9342073		
+FxMb1YalishaAtk01Hit		9342074		
+FxMb1YalishaAtk03Hit		9342074		
+FxMb1YalishaAtk05Hit		9342075		
+FxMb1YalishaAtk06Hit		9342075		
+FxMb1YalishaAtk08Hit		9342076		
+FxMb1YalishaAtk1101Hit		9342077		
+FxMb1YalishaAtk1102Hit		9342078		
+FxMb1YalishaAtk12Hit		9342079		
+FxMb1YalishaAtk14Hit		9342080		
+FxMb1YalishaAtk1502Hit		9342080		
+FxMb1YalishaAtk16Hit		9342080		
+FxMb1YalishaAtk17Hit		9342081		
+FxMb1YalishaAtk19Hit		9342082		
+FxMb1AliyaAtk27Hit		9342083		
+FxMb1AliyaAtk28Hit		9342083		
+FxMb1AliyaAtk2201Shouji		9342083		
+FxMb1AliyaAtk2202Shouji		9342084		
+FxMb1AliyaAtk24Hit		9342085		
+FxMb1AliyaAtk25Hit		9342085		
+FxMb1AliyaAtk35Hit		9342083		
+FxMb1AliyaAtk36Hit		9342085		
+FxMb1AliyaAtk37Hit		9342085		
+FxMb1AliyaAtk38Hit		9342085		
+FxMb1AliyaChuxian		9342086		
+FxMb1AliyaXiaoshi		9342087		
+FxMb1Starknight2Atk01	Mb1StarknightMd010002	18511001		
+FxMb1Starknight2Atk02	Mb1StarknightMd010002	18511002		
+FxMb1Starknight2Atk03	Mb1StarknightMd010002	18511003		
+FxMb1Starknight2Atk04	Mb1StarknightMd010002	18511004		
+FxMb1Starknight2Atk05	Mb1StarknightMd010002	18511005		
+FxMb1Starknight2Atk05Dilie	Mb1StarknightMd010002	18511006		
+FxMb1Starknight2Atk06Dilie	Mb1StarknightMd010002	18511007		
+FxMb1Starknight2Atk07	Mb1StarknightMd010002	18511008		
+FxMb1Starknight3Dandao	Mb1StarknightMd010002	18511009		
+FxMb1Starknight2Atk21	Mb1StarknightMd010002	18511010		
+FxMb1Starknight2Atk20Baodian	Mb1StarknightMd010002	18511011		
+FxMb1Starknight2Atk22	Mb1StarknightMd010002	18511012		
+FxMb1Starknight2Atk22Dilie	Mb1StarknightMd010002	18511013		
+FxMb1Starknight2Atk22DilieBurst	Mb1StarknightMd010002	18511014		
+FxMb1Starknight2Atk25	Mb1StarknightMd010002	18511015		
+FxMb1Starknight2Atk26	Mb1StarknightMd010002	18511016		
+FxMb1Starknight2Atk27Xishou	Mb1StarknightMd010002	18511017		
+FxMb1Starknight2Atk27XuliBip001RHand	Mb1StarknightMd010002	18511018		
+FxMb1Starknight2Atk27BaodianBip001RHand	Mb1StarknightMd010002	18511019		
+FxMb1Starknight2Atk28	Mb1StarknightMd010002	18511020		
+FxMb1Starknight2Atk30	Mb1StarknightMd010002	18511021		
+FxMb1Starknight2Atk31	Mb1StarknightMd010002	18511022		
+FxMb1Starknight2Atk31Dilie	Mb1StarknightMd010002	18511023		
+FxMb1Starknight2Atk32	Mb1StarknightMd010002	18511024		
+FxMb1Starknight2Atk32Burst	Mb1StarknightMd010002	18511025		
+FxMb1Starknight2Atk36Dandao01	Mb1StarknightMd010002	18511026		
+FxMb1Starknight2Atk36Dandao01Dilie	Mb1StarknightMd010002	18511027		
+FxMb1Starknight2Atk37Dandao02	Mb1StarknightMd010002	18511028		
+FxMb1Starknight2Atk37Dandao02Dilie	Mb1StarknightMd010002	18511029		
+FxMb1Starknight2Atk37Dandao03	Mb1StarknightMd010002	18511030		
+FxMb1Starknight2Atk37Dandao03Dilie	Mb1StarknightMd010002	18511031		
+FxMb1Starknight2Atk37Dandao04	Mb1StarknightMd010002	18511032		
+FxMb1Starknight2Atk37Dandao04Dilie	Mb1StarknightMd010002	18511033		
+FxMb1Starknight2Atk40Chongci	Mb1StarknightMd010002	18511034		
+FxMb1Starknight2Atk47DaodanDown	Mb1StarknightMd010002	18511035		
+FxMb1Starknight2Atk47DaodanDown01	Mb1StarknightMd010002	18511035		
+FxMb1Starknight2Atk47DaodanDown02	Mb1StarknightMd010002	18511035		
+FxMb1Starknight2Atk47DaodanUpL01	Mb1StarknightMd010002	18511036		
+FxMb1Starknight2Atk47DaodanUpL02	Mb1StarknightMd010002	18511036		
+FxMb1Starknight2Atk47DaodanUpL03	Mb1StarknightMd010002	18511036		
+FxMb1Starknight2Atk47DaodanUpR01	Mb1StarknightMd010002	18511036		
+FxMb1Starknight2Atk47DaodanUpR02	Mb1StarknightMd010002	18511036		
+FxMb1Starknight2Atk47DaodanUpR03	Mb1StarknightMd010002	18511036		
+FxMb1Starknight2Atk46XuliShoulderBoneL03	Mb1StarknightMd010002	18511037		
+FxMb1Starknight2Atk46XuliShoulderBoneR03	Mb1StarknightMd010002	18511037		
+FxMb1Starknight2Atk47ShoulderBoneL03	Mb1StarknightMd010002	18511038		
+FxMb1Starknight2Atk47ShoulderBoneR03	Mb1StarknightMd010002	18511038		
+FxMb1Starknight2Atk55LanceBoneFm01	Mb1StarknightMd010002	18511039		
+FxMb1Starknight2Atk55	Mb1StarknightMd010002	18511040		
+FxMb1Starknight2Atk56	Mb1StarknightMd010002	18511040		
+FxMb1Starknight2Shoupao	Mb1StarknightMd010002	18511041		
+FxMb1Starknight2Atk57LanceBoneFm01	Mb1StarknightMd010002	18511042		
+FxMb1Starknight2Atk57Bip001LHand	Mb1StarknightMd010002	18511043		
+FxMb1Starknight2Atk57TishiBip001LHand	Mb1StarknightMd010002	18511044		
+FxMb1Starknight2Atk57TishiBip001RHand	Mb1StarknightMd010002	18511044		
+FxMb1Starknight2Atk57Dilie	Mb1StarknightMd010002	18511045		
+FxMb1Starknight2Atk50	Mb1StarknightMd010002	18511046		
+FxMb1Starknight2Atk52XvliBip001RHand	Mb1StarknightMd010002	18511047		
+FxMb1Starknight2Atk52Pen01	Mb1StarknightMd010002	18511048		
+FxMb1Starknight2Atk52Pen02	Mb1StarknightMd010002	18511048		
+FxMb1Starknight2Atk52	Mb1StarknightMd010002	18511049		
+FxMb1Starknight2Atk53Sound	Mb1StarknightMd010002	18511050		
+FxMb1Starknight2Atk54Sound	Mb1StarknightMd010002	18511051		
+FxMb1Starknight2Atk01Hit	Mb1StarknightMd010002	18511052		
+FxMb1Starknight2Atk02Hit01	Mb1StarknightMd010002	18511053		
+FxMb1Starknight2Atk02Hit02	Mb1StarknightMd010002	18511054		
+FxMb1Starknight2Atk03Hit	Mb1StarknightMd010002	18511055		
+FxMb1Starknight2Atk04Hit	Mb1StarknightMd010002	18511056		
+FxMb1Starknight2Atk05Hit	Mb1StarknightMd010002	18511057		
+FxMb1Starknight2Atk06Hit	Mb1StarknightMd010002	18511058		
+FxMb1Starknight2Atk21Hit	Mb1StarknightMd010002	18511059		
+FxMb1Starknight2Atk22Hit01	Mb1StarknightMd010002	18511060		
+FxMb1Starknight2Atk22Hit02	Mb1StarknightMd010002	18511060		
+FxMb1Starknight2Atk25Hit	Mb1StarknightMd010002	18511052		
+FxMb1Starknight2Atk26Hit	Mb1StarknightMd010002	18511061		
+FxMb1Starknight2Atk30Hit	Mb1StarknightMd010002	18511052		
+FxMb1Starknight2Atk32Hit	Mb1StarknightMd010002	18511062		
+FxMb1StarknightAtk12Hit	Mb1StarknightMd010002	18511062		
+FxMb1Starknight2Atk36Hit	Mb1StarknightMd010002	18511063		
+FxMb1Starknight2Atk40Hit	Mb1StarknightMd010002	18511064		
+FxMb1Starknight2Atk52Hit01	Mb1StarknightMd010002	18511065		
+FxMb1Starknight2Atk52Hit02	Mb1StarknightMd010002	18511066		
+FxMb1Starknight2Atk52Hit03	Mb1StarknightMd010002	18511067		
+FxMb1Starknight2Atk56Hit	Mb1StarknightMd010002	18511068		
+FxMb1Starknight2ShoupaoHit	Mb1StarknightMd010002	18511053		
+FxMb1Starknight2Atk91Bip001LHand	Mb1StarknightMd010002	18511069		
+FxMb1Starknight2Atk91Bip001RHand	Mb1StarknightMd010002	18511069		
+FxMb1Starknight2Atk90Bip001LHand	Mb1StarknightMd010002	18511070		
+FxMb1Starknight2Atk90Bip001RHand	Mb1StarknightMd010002	18511070		
+FxMb1Starknight2Move01	Mb1StarknightMd010002	18511071		
+FxMb1Starknight2Move02	Mb1StarknightMd010002	18511072		
+FxMb1Starknight2Born	Mb1StarknightMd010002	18511074		
+FxMb1Starknight2Win	Mb1StarknightMd010002	18511075		
+FxMb1Starknight2ArmorBoneSL01	Mb1StarknightMd010002	8510001		
+FxMb1Starknight2ArmorBoneSL03	Mb1StarknightMd010002	8510002		
+FxMb1Starknight2ArmorBoneSR01	Mb1StarknightMd010002	8510003		
+FxMb1Starknight2ArmorBoneSR03	Mb1StarknightMd010002	8510004		
+FxMb1Starknight2Bip001Spine1	Mb1StarknightMd010002	8510005		

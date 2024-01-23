@@ -1,0 +1,38 @@
+Key	Desc	Params[1]	Params[2]	Params[3]
+UiMainHelpKey	Main Interface Help Tip Sheet Key	ColortableHelp		
+UiChooseStageHelpKey	Stage Selection Interface Help Tip Sheet Key	ColortableHelp		
+UiStageMainHelpKey	Map Mode Main Interface Help Tip Sheet Key	ColortableHelp		
+GuideStageColor	Novice Stage Color	2		
+TimeLinePointIcon	Timing Icon	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableActionBoss2.png	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableActionBoss3.png	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableActionBoss1.png
+StudyDataIcon	Research Data Point Icon	Assets/Product/Texture/Image/UiColorTable/UiColorTableIconRed.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableIconGreen.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableIconBlue.png
+StudyDataCostIcon	Research Data Point Consumption Icon	Assets/Product/Texture/Image/UiColorTable/UiColorTableRed.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableGreen.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableBlue.png
+ColorText	Colored Text	Red	Green	Blue
+PointBoss	Boss Point Preset Format Path	Assets/Product/Ui/ComponentPrefab/UiColorTable/ColorTableBoss.prefab		
+PointEnergy	Energy Point Preset Format Path	Assets/Product/Ui/ComponentPrefab/UiColorTable/ColorTableEnergy.prefab		
+PointMedical	Healing Point Preset Format Path	Assets/Product/Ui/ComponentPrefab/UiColorTable/ColorTableMedical.prefab		
+PointStudy	Research Point Preset Format Path	Assets/Product/Ui/ComponentPrefab/UiColorTable/ColorTableStudy.prefab		
+PointMovie	Story Point Preset Format Path	Assets/Product/Ui/ComponentPrefab/UiColorTable/ColorTableRandomMovie.prefab		
+PointStudySelectIcon	Research Point Selection Icon	Assets/Product/Texture/Image/UiColorTable/UiColorTableStudyRed2.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableStudyGreen3.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableStudyBlue2.png
+PointMedicalSelectIcon	Healing Point Selection Icon	Assets/Product/Texture/Image/UiColorTable/UiColorTableMedicalRed2.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableMedicalGreen2.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableMedicalBlue2.png
+PointEnergySelectIcon	Energy Point Selection Icon	Assets/Product/Texture/Image/UiColorTable/UiColorTableEnergyRed2.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableEnergyGreen2.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableEnergyBlue2.png
+PointStudyDisableIcon	Research Point Prohibition Icon	Assets/Product/Texture/Image/UiColorTable/UiColorTableStudyRed1.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableStudyGreen1.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableStudyBlue1.png
+PointMedicalDisableIcon	Healing Point Prohibition Icon	Assets/Product/Texture/Image/UiColorTable/UiColorTableMedicalRed1.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableMedicalGreen1.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableMedicalBlue1.png
+PointEnergyDisableIcon	Energy Point Prohibition Icon	Assets/Product/Texture/Image/UiColorTable/UiColorTableEnergyRed1.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableEnergyGreen1.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableEnergyBlue1.png
+PointBossBgIcon	Boss Point Background Icon	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableRedBossBg.png	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableGreenBossBg.png	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableBlueBossBg.png
+PointBossSelectIcon	Boss Point Selection Icon	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableRedBoss1.png	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableGreenBoss1.png	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableBlueBoss1.png
+TipBoss	Boss Point Details Preset Format Path	Assets/Product/Ui/ComponentPrefab/UiColorTable/TipsColorTableBoss.prefab		
+TipEnergy	Energy Point Details Preset Format Path	Assets/Product/Ui/ComponentPrefab/UiColorTable/TipsColorTableEnergy.prefab		
+TipMedical	Healing Point Details Preset Format Path	Assets/Product/Ui/ComponentPrefab/UiColorTable/TipsColorTableMedical.prefab		
+TipStudy	Research Point Details Preset Format Path	Assets/Product/Ui/ComponentPrefab/UiColorTable/TipsColorTableStudy.prefab		
+HalfSettleBgIcon	Result Calculation Interface Background Picture Path (1: Normal Victory, 2: Special Victory, 3: Failure.)	Assets/Product/Texture/Image/UiColorTable/UiColorTableTangchuanSuccessBg.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableTangchuanSuccessBg.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableTangchuanFailBg.png
+HalfSettleTitleIcon	Result Calculation Interface Title Icon Path (1: Normal Victory, 2: Special Victory, 3: Failure.)	Assets/Product/Texture/Image/UiColorTable/UiColorTableTangchuanSuccessTitle2.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableTangchuanSuccessTitle.png	Assets/Product/Texture/Image/UiColorTable/UiColorTableTangchuanFailTitle.png
+HalfSettleTxtColor	Result Calculation Interface Text Color	F8F8F8	F8F8F8	
+HalfSettleTipTxtColor	Result Calculation Interface Text Color	A1A1A1	A1A1A1	
+RImgStageRollPanel	Roll Energy Point Interface Roll Point Color Palette Icon Path	Assets/Product/Texture/Image/UiColorTable/UiColorTablePaletteRed321.png	Assets/Product/Texture/Image/UiColorTable/UiColorTablePaletteGreen321.png	Assets/Product/Texture/Image/UiColorTable/UiColorTablePaletteBlue321.png
+ImgStageRollPoint	Roll Energy Point Interface Acquiring Points Icon Path (%s in the middle for coders to fill in)	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableNumber3.png	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableNumber4.png	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableNumber5.png
+ColorStageRollPointRed	Roll Energy Point Interface Acquiring Red Point Color Number	cd5049	c8597e	cc5f73
+ColorStageRollPointGreen	Roll Energy Point Interface Acquiring Green Point Color Number	27a183	369c63	5e9a58
+ColorStageRollPointBlue	Roll Energy Point Interface Acquiring Blue Point Color Number	3988c1	6b71cd	3e74d7
+PointHideBossBgIcon	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableMiddleBossBg.png			
+PointHideBossSelectIcon	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableMiddleBossSelect.png			
+PointHideBossBgMaskIcon	Assets/Product/Texture/Atlas/UiColorTable/UiColorTableMiddleBossMask.png			

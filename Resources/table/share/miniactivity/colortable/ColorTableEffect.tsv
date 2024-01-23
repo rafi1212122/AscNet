@@ -1,0 +1,265 @@
+Id	Name	Type	LifeType	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]	Params[9]	Desc	ShowType	ShowDesc	ShowOnColors[1]	ShowOnColors[2]	ShowOnColors[3]	ShowOnPointTypes[1]	ShowOnPointTypes[2]	ShowOnPointTypes[3]	ShowOnPointTypes[4]	Icon
+1	Effect 1	1	1	1									The first movement in each round costs no Action Points - Vera	0	The first movement in each round costs no Action Points.	1	2	3	1	2	3	4	Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill001.png
+2	Effect 2	15	1	5									Increasing Research Level only costs 5 Research Points now - Lee	0	Increasing Exhibition Level only costs 5 Paints in this round.	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill003.png
+3	Effect 3	18	1	999	2								Quantity of Data obtained from Energy Point +2 - Ayla	0	Quantity of Paint obtained from Paint Workshop +2	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill004.png
+4	Effect 4	3	1	999									Three-Color Paints have no storage limit - Karenina	0	Three-Color Paints have no storage limit								Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill005.png
+5	Effect 5	22	1										Regular & Outbreak are no longer randomized but upgrade the Boss of the character's color - Commandant	0	Masterpiece and Burst of Inspiration are no longer randomized, but increase the Master Level of the same color as the character's area instead.								Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill007.png
+6	Effect 6	2	2	2									Movement in Green area costs no Action Points in this round (determined by starting point)	1	Movement in Green area costs no Action Points in this round	2			1	2	3		
+7	Effect 7	4	1	3									Stage - Cube Level starts from 3	0	Stage - Cube Level starts from 3								
+8	Effect 8	5	1	1									Stage - When upgrading the Cube, the level increment +1	0	Stage - When upgrading the Cube, the level increment +1								
+9	Effect 9	6	2	1									Each Healing will cost 1 more Data of the corresponding color in this round	1	Healing in this round costs 1 more Paint	1	2	3	2				
+10	Effect 10	6	1	1									Stage - Each Healing will cost 1 more Data of the corresponding color in this round	0	Each Healing will cost 1 more Paint	1	2	3	2				
+11	Effect 11	7	2	1									Unable to heal with Red in this round	1	Unable to heal with Red in this round	1			2				
+12	Effect 12	7	3	1									Unable to heal with Red in the next round	1	Unable to heal with Red in this round	1			2				
+13	Effect 13	8	2	1	1								You can only heal with Red 1 time in this round	1	You can only heal with Red 1 time in this round	1			2				
+14	Effect 14	8	2	2	1								You can only heal with Green 1 time in this round	1	You can only heal with Green 1 time in this round	2			2				
+15	Effect 15	8	2	3	1								You can only heal with Blue 1 time in this round	1	You can only heal with Blue 1 time in this round	3			2				
+16	Effect 16	9	2	3									Out of all colors, you can only heal 3 times in this round	1	Out of all colors, you can only heal 3 times in this round	1	2	3	2				
+17	Effect 17	9	3	3									Out of all colors, you can only heal 3 times in the next round	1	Out of all colors, you can only heal 3 times in this round	1	2	3	2				
+18	Effect 18	10	4	1	3								Red Data increases by 3	1	Red Paint +3								
+19	Effect 19	10	4	2	3								Green Data increases by 3	1	Green Paint +3								
+20	Effect 20	10	4	3	3								Blue Data increases by 3	1	Blue Paint +3								
+21	Effect 21	11	6	1	1								Red Boss Level increases by 1 in the next round	1	Red Boss Level increases by 1 in the next round	1			101				
+22	Effect 22	11	6	2	1								Green Boss Level increases by 1 in the next round	1	Green Boss Level increases by 1 in the next round	2			101				
+23	Effect 23	11	6	3	1								Blue Boss Level increases by 1 in the next round	1	Blue Boss Level increases by 1 in the next round	3			101				
+24	Effect 24	12	4	7									All colors of Data become 7 in this round	1	All colors of Paint become 7 in this round								
+25	Effect 25	12	6	7									All colors of Data become 7 in the next round	1	All colors of Paint become 7 in the next round								
+26	Effect 26	13	4	1	1								Red Research Level increases by 1	1	Red Research Level +1								
+27	Effect 27	13	4	2	1								Green Research Level increases by 1	1	Green Research Level +1								
+28	Effect 28	13	4	3	1								Blue Research Level increases by 1	1	Blue Research Level +1								
+29	Effect 29	14	4	3									Action Points increase by 3 in this round	1	+3 Action Points in this round								
+30	Effect 30	15	2	4									Increasing Research Level only costs 4 Research Data in this round	1	Increasing Research Level only costs 4 Research Paint in this round								
+31	Effect 31	17	1	1	1								Stage - In every round, deduct 1 Data of the area's color after making the first area action	0	Stage - In every round, deduct 1 Paint of the area's color after making the first area action								
+32	Effect 32	17	2	1	1								In this round, deduct 1 Data of the area's color after making the first area action	1	In this round, deduct 1 Paint of the area's color after making the first area action								
+33	Effect 33	18	2	1	2								Get +2 Data upon obtaining Data for the first time in this round	1	Get +2 Paint upon obtaining Paint for the first time in this round								
+34	Effect 34	19	2	2	1								Get Green Data (Energy Point) 1 more time in this round	1	Get Green Paint (Energy Point) 1 more time in this round								
+35	Effect 35	20	1	2	4								Stage - Unable to take action in Green blocks. After Green Virus Outbreak, set its level to 4	0	Stage - Unable to take action in Green blocks. After Green Virus Outbreak, set its level to 4								
+36	Effect 36	21	2										At the end of this round, the timeline is not tallied but the progress will continue to move forward normally	1	At the end of this round, the timeline is not tallied but the progress will continue to move forward normally								
+37	Effect 37	23	2	1	1								Get 1 Red Resource when staying in or passing the Central area for the first time in this round	1	Get 1 Red Resource when staying in or passing the Central area for the first time in this round								
+38	Effect 38	23	2	2	1								Get 1 Green Resource when staying in or passing the Central area for the first time in this round	1	Get 1 Green Resource when staying in or passing the Central area for the first time in this round								
+39	Effect 39	23	2	3	1								Get 1 Blue Resource when staying in or passing the Central area for the first time in this round	1	Get 1 Blue Resource when staying in or passing the Central area for the first time in this round								
+40	Effect 40	24	2	2									The timeline tally event will be executed 2 times during this round's tally	1	The timeline tally event will be executed 2 times during this round's tally								
+41	Effect 41	25	6	1									At the start of the next round, the Boss of the color that your character is currently staying will lose 1 level	1	At the start of the next round, the Boss of the color that your character is currently staying will lose 1 level								
+42	Effect 42	26	1	3	3	3	4	4	4				Stage - Research only yields 3 or 4 points	0	Stage - Research only yields 3 or 4 points								
+43	Effect 43	27	2	2									You can reroll 2 times when performing research in this round	1	You can reroll 2 times when performing research in this round								
+44	Effect 44	28	2	2	1								The first 2 healings in this round get +1 effect	1	The first 2 healings in this round get +1 effect								
+45	Effect 45	29	2	1	2								Red and Green Data can be used together in Research or Healing in this round	1	Red and Green Paint can be used together in Research or Healing in this round								
+46	Effect 46	29	2	2	3								Green and Blue Data can be used together in Research or Healing in this round	1	Green and Blue Paint can be used together in Research or Healing in this round								
+47	Effect 47	29	2	1	3								Red and Blue Data can be used together in Research or Healing in this round	1	Red and Blue Paint can be used together in Research or Healing in this round								
+48	Effect 48	5	1	2									Stage - When upgrading the Cube, the level increment +2	0	Stage - When upgrading the Cube, the level increment +2								
+49	Teleport I	1	2	1									The first movement in this round costs no Action Points (check if this is stacking with the Leader Skill)	0	The first movement in each round costs no Action Points.	1	2	3	1	2	3	4	Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+50	Teleport II	1	2	2									The first 2 movements in this round cost no Action Points (check if this is stacking with the Leader Skill)	0	The first 2 movements in each round cost no Action Points	1	2	3	1	2	3	4	Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+51	Teleport III	1	2	3									The first 3 movements in this round cost no Action Points (check if this is stacking with the Leader Skill)	0	The first 3 movements in each round cost no Action Points	1	2	3	1	2	3	4	Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+52	Bonus Data 1	18	2	999	2								Get a bonus 2 Data when obtaining Data in this round	0	Get a bonus 2 Paint when obtaining Paint in this round	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+53	Bonus Data 2	18	2	999	3								Get a bonus 3 Data when obtaining Data in this round	0	Get a bonus 3 Paint when obtaining Paint in this round	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+54	Bonus Data 3	18	2	999	4								Get a bonus 4 Data when obtaining Data in this round	0	Get a bonus 4 Paint when obtaining Paint in this round	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+55	Enhanced Healing 1	28	2	999	1								Healing effect increases by 1 in this round	0	Criticism can further reduce the Master's level by 1 in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+56	Enhanced Healing 2	28	2	999	2								Healing effect increases by 2 in this round	0	Criticism can further reduce the Master's level by 2 in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+57	Enhanced Healing 3	28	2	999	3								Healing effect increases by 3 in this round	0	Criticism can further reduce the Master's level by 3 in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+58	Data Abundance 1	10	4	1	2								Red Data increases by 2	1	Obtain 2 Three-Color Paints								
+59	Data Abundance 1	10	4	2	2								Green Data increases by 2	0	Obtain 2 Three-Color Paints								
+60	Data Abundance 1	10	4	3	2								Blue Data increases by 2	0	Obtain 2 Three-Color Paints								
+61	Data Abundance 2	10	4	1	4								Red Data increases by 4	1	Obtain 4 Three-Color Paints								
+62	Data Abundance 2	10	4	2	4								Green Data increases by 4	0	Obtain 4 Three-Color Paints								
+63	Data Abundance 2	10	4	3	4								Blue Data increases by 4	0	Obtain 4 Three-Color Paints								
+64	Data Abundance 3	10	4	1	7								Red Data increases by 7	1	Obtain 7 Three-Color Paints								
+65	Data Abundance 3	10	4	2	7								Green Data increases by 7	0	Obtain 7 Three-Color Paints								
+66	Data Abundance 3	10	4	3	7								Blue Data increases by 7	0	Obtain 7 Three-Color Paints								
+67	Efficient Research 1	15	2	5									Increasing Research Level only costs 5 Research Data in this round (check if this is stacking with the Leader Skill, and whether the lower value should be used)	0	Upgrading Exhibition only costs 5 Paint in this round	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+68	Efficient Research 2	15	2	4									Increasing Research Level only costs 3 Research Data in this round (check if this is stacking with the Leader Skill, and whether the lower value should be used)	0	Increasing Exhibition only costs 3 Paint in this round.	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+69	Efficient Research 3	15	2	2									Increasing Research Level only costs 2 Research Data in this round (check if this is stacking with the Leader Skill, and whether the lower value should be used)	0	Increasing Exhibition only costs 2 Paint in this round.	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+70	Time Stop	21	2										At the end of this round, the timeline is not tallied but the progress will continue to move forward normally	1	Master will not level up during this round's tally								
+71	Virus Reduction 1	11	4	1	-1								Red Boss Level decreases by 1	1	All School Masters' level decreases by 1								
+72	Virus Reduction 1	11	4	2	-1								Green Boss Level decreases by 1	0	All School Masters' level decreases by 1								
+73	Virus Reduction 1	11	4	3	-1								Blue Boss Level decreases by 1	0	All School Masters' level decreases by 1								
+74	Virus Reduction 2	11	4	1	-3								Red Boss Level decreases by 3	1	All School Masters' level decreases by 3								
+75	Virus Reduction 2	11	4	2	-3								Green Boss Level decreases by 3	0	All School Masters' level decreases by 3								
+76	Virus Reduction 2	11	4	3	-3								Blue Boss Level decreases by 3	0	All School Masters' level decreases by 3								
+77	Research Boost 1	13	4	1	1								Red Research Level increases by 1	1	Increase the level of all Exhibitions by 1.								
+78	Research Boost 1	13	4	2	1								Green Research Level increases by 1	0	Increase the level of all Exhibitions by 1.								
+79	Research Boost 1	13	4	3	1								Blue Research Level increases by 1	0	Increase the level of all Exhibitions by 1.								
+80	Red-Green Mixture	29	2	1	2								Red and Green Data can be used together in Research or Healing in this round	0	Red and Green Paint can be used together in Criticism or upgrading Exhibition in this round	1	2		1	2			Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+81	Green-Blue Mixture	29	2	2	3								Green and Blue Data can be used together in Research or Healing in this round	0	Green and Blue Paint can be used together in Criticism or upgrading Exhibition in this round	2	3		1	2			Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+82	Red-Blue Mixture	29	2	1	3								Red and Blue Data can be used together in Research or Healing in this round	0	Red and Blue Paint can be used together in Criticism or upgrading Exhibition in this round	1	3		1	2			Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+83	Costly Healing 1	6	2	1									Each Healing will cost 1 more Data of the corresponding color in this round	0	Each Criticism will cost 1 more Paint in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill008.png
+84	Costly Healing 2	6	2	2									Each Healing will cost 2 more Data of the corresponding color in this round	0	Each Criticism will cost 2 more Paint in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill008.png
+85	Costly Healing 3	6	2	3									Each Healing will cost 3 more Data of the corresponding color in this round	0	Each Criticism will cost 3 more Paint in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill008.png
+86	Limited Healing 1	9	2	2									Out of all colors, you can only heal 2 times in this round	0	You can only Criticize 2 times in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill008.png
+87	Limited Healing 2	9	2	1									Out of all colors, you can only heal 1 time in this round	0	You can only Criticize 1 time in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill008.png
+88	Data Loss 1	10	4	1	-1								Lose 1 Red Data	1	Lose 1 Three-Color Paint								
+89	Data Loss 1	10	4	2	-1								Lose 1 Green Data	0	Lose 1 Three-Color Paint								
+90	Data Loss 1	10	4	3	-1								Lose 1 Blue Data	0	Lose 1 Three-Color Paint								
+91	Data Loss 2	10	4	1	-2								Lose 2 Red Data	1	Lose 2 Three-Color Paints								
+92	Data Loss 2	10	4	2	-2								Lose 2 Green Data	0	Lose 2 Three-Color Paints								
+93	Data Loss 2	10	4	3	-2								Lose 2 Blue Data	0	Lose 2 Three-Color Paints								
+94	Data Loss 3	10	4	1	-4								Lose 4 Red Data	1	Lose 4 Three-Color Paints								
+95	Data Loss 3	10	4	2	-4								Lose 4 Green Data	0	Lose 4 Three-Color Paints								
+96	Data Loss 3	10	4	3	-4								Lose 4 Blue Data	0	Lose 4 Three-Color Paints								
+97	Inefficiency 1	32	2	999	1								Lose 1 Paint of the corresponding color when obtaining Data in this round	0	Quantity of Paint obtained in this round -1	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill008.png
+98	Inefficiency 2	32	2	999	2								Lose 2 Paint of the corresponding color when obtaining Data in this round	0	Quantity of Paint obtained in this round -2	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill008.png
+99	404	10	4	1	-999								Lose 999 Red Data	1	Lose all Paint								
+100	404	10	4	2	-999								Lose 999 Green Data	0	Lose all Paint								
+101	404	10	4	3	-999								Lose 999 Blue Data	0	Lose all Paint								
+102	Red Enhancement 1	11	6	1	1								Red Boss Level increases by 1 in the next round	1	School Master (Red)'s level increases by 1								
+103	Red Enhancement 2	11	6	1	2								Red Boss Level increases by 2 in the next round	1	School Master (Red)'s level increases by 2								
+104	Red Enhancement 3	11	6	1	3								Red Boss Level increases by 3 in the next round	1	School Master (Red)'s level increases by 3								
+105	Green Enhancement 1	11	6	2	1								Green Boss Level increases by 1 in the next round	1	School Master (Green)'s level increases by 1								
+106	Green Enhancement 2	11	6	2	2								Green Boss Level increases by 2 in the next round	1	School Master (Green)'s level increases by 2								
+107	Green Enhancement 3	11	6	2	3								Green Boss Level increases by 3 in the next round	1	School Master (Green)'s level increases by 3								
+108	Blue Enhancement 1	11	6	3	1								Blue Boss Level increases by 1 in the next round	1	School Master (Blue)'s level increases by 1								
+109	Blue Enhancement 2	11	6	3	2								Blue Boss Level increases by 2 in the next round	1	School Master (Blue)'s level increases by 2								
+110	Blue Enhancement 3	11	6	3	3								Blue Boss Level increases by 3 in the next round	1	School Master (Blue)'s level increases by 3								
+111	Red Enhancement 1	11	6	1	1								Red Boss Level increases by 1 in the next round	1	All Masters' level increases by 1								
+112	Green Enhancement 1	11	6	2	1								Green Boss Level increases by 1 in the next round	0	All Masters' level increases by 1								
+113	Blue Enhancement 1	11	6	3	1								Blue Boss Level increases by 1 in the next round	0	All Masters' level increases by 1								
+114	Red Enhancement 2	11	6	1	2								Red Boss Level increases by 2 in the next round	1	All Masters' level increases by 2								
+115	Green Enhancement 2	11	6	2	2								Green Boss Level increases by 2 in the next round	0	All Masters' level increases by 2								
+116	Blue Enhancement 2	11	6	3	2								Blue Boss Level increases by 2 in the next round	0	All Masters' level increases by 2								
+117	Enhanced Tally	31	2										At round tally, Virus Level from Normal, Outbreak and Pandemic +1	0									
+118	Crippled Action 1	14	4	-1									Lose 1 Action Point in this round	1	Lose 1 Action Point								
+119	Crippled Action 2	14	4	-2									Lose 2 Action Points in this round	1	Lose 2 Action Points								
+120	Stagnant Area 1	17	2	999	2								In this round, deduct 2 Data of the area's color after making an area action	0	In this round, deduct 2 Paint of the area's color after making an area action	1	2	3	1	2	3		Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill008.png
+121	Stagnant Area 2	17	2	999	3								In this round, deduct 3 Data of the area's color after making an area action	0	In this round, deduct 3 Paint of the area's color after making an area action	1	2	3	1	2	3		Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill008.png
+122	Efficient Research 4	15	2	1									Increasing Research Level only costs 1 Research Data in this round	0	Increasing Exhibition Level only costs 1 Paint in this round	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+123	Teleport III	1	2	999									Vera Timeline 2 - Movement costs no Action Points in this round	0	Movement costs no Action Points in this round	1	2	3	1	2	3	4	Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+124	Combat Boost I	28	2	999	1								Vera Timeline 2 - Healing effect +1 in this round	0	Criticism can further reduce the Master's level by 1 in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+125	Boss Enhancement	11	6	1	3								Vera 4 - Boss Level +3 in the next round	1	School Master's level increases by 3								Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+126	Boss Enhancement	11	6	2	3								Vera 4 - Boss Level +3 in the next round	0									
+127	Boss Enhancement	11	6	3	3								Vera 4 - Boss Level +3 in the next round	0									
+128	Combat Boost II	28	2	999	2								Vera 4 - Healing effect +2 in this round	0	Criticism Effect +2 in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+129	Combat Boost III	28	2	999	3								Vera 6 - Healing effect +3 in this round	0	Criticism Effect +3 in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+130	Dangerous Tally	24	2	2									Vera 6 - The timeline tally will be executed 2 times in this round	0									
+131	Action Points	14	4	2									Lee 2 - Action Point +2	1	Obtain 2 Action Point								
+132	Empowered Extraction	18	2	999	1								Lee 2 - Energy obtained +1 in this round	0	Quantity of Paint obtained in this round +1	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+133	Action Points	14	4	3									Lee 4 - Action Point +3	1	Obtain 3 Action Points and 7 Three-Color Paints								
+134	Data Acquired	10	4	1	7								Lee 4 - Three-Color Paints +7	0									
+135	Data Acquired	10	4	2	7								Lee 4 - Three-Color Paints +7	0									
+136	Data Acquired	10	4	3	7								Lee 4 - Three-Color Paints +7	0									
+137	Action Points	14	4	5									Lee 6 - Action Point +5	1	Obtain 5 Action Points								
+138	Unlimited Energy	19	2	1	999								Lee 6 - No limit on the quantity of Energy obtained in this round	0	No limit on the quantity of Paint obtained in this round	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+139	Unlimited Energy	19	2	2	999								Lee 6 - No limit on the quantity of Energy obtained in this round	0	No limit on the quantity of Paint obtained in this round								
+140	Unlimited Energy	19	2	3	999								Lee 6 - No limit on the quantity of Energy obtained in this round	0	No limit on the quantity of Paint obtained in this round								
+141	Blue Boost	11	6	3	3								Ayla 2 - Blue Virus Level +3 in the next round	1	School Master (Blue) Level +3, Red & Green Level -1								
+142	Red Reduction	11	6	1	-1								Ayla 2 - Red Virus Level -1 in the next round	0									
+143	Green Reduction	11	6	2	-1								Ayla 2 - Green Virus Level -1 in the next round	0									
+144	Timeline Tally	24	2	2									Ayla 4 - Timeline tally executed 2 times	0									
+145	Data Acquired	10	4	1	7								Ayla 4 - Three-Color Paints +7	1	Obtain 7 Three-Color Paints								
+146	Data Acquired	10	4	2	7								Ayla 4 - Three-Color Paints +7	0									
+147	Data Acquired	10	4	3	7								Ayla 4 - Three-Color Paints +7	0									
+148	Action Points	14	4	5									Ayla 6 - Action Point +5	1	Obtain 5 Action Points								
+149	Efficient Research	15	2	5									Ayla 6 - Increasing Research Level only costs 5 Research Data in this round	0	Upgrading Exhibition only costs 5 Paint in this round	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+150	Empowered Extraction	18	2	999	2								Karenina 2 - Energy obtained +2 in this round	0	Quantity of Paint obtained in this round +2	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+151	Reroll	27	2	2									Karenina 2 - Can roll 2 times when obtaining Energy	0	Can reroll 2 times when obtaining Paint	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+152	Data Acquired	10	4	1	5								Karenina 4 - Three-Color Paints +5	1	Obtain 5 Three-Color Paints								
+153	Data Acquired	10	4	2	5								Karenina 4 - Three-Color Paints +5	0									
+154	Data Acquired	10	4	3	5								Karenina 4 - Three-Color Paints +5	0									
+155	Reroll	27	2	3									Karenina 4 - Can reroll 3 times when obtaining Energy	0	Can reroll 3 times when obtaining Energy	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+156	Action Points	14	4	5									Karenina 6 - Action Point +5	1	Obtain 5 Action Points								
+157	Acquired Multiple Times	19	2	1	2								Karenina 6 - Get bonus 2 Energy from each of the three colors	0	Get Paint 2 more times in this round	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+158	Acquired Multiple Times	19	2	2	2								Karenina 6 - Get bonus 2 Energy from each of the three colors	0	Get Paint 2 more times in this round								
+159	Acquired Multiple Times	19	2	3	2								Karenina 6 - Get bonus 2 Energy from each of the three colors	0	Get Paint 2 more times in this round								
+160	Energy Limit	33	1	0	3								Vera Hard - Unable to obtain Energy	0	Unable to obtain Paint in this stage	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill008.png
+161	Energy Limit	36	1	1	999								Vera Hard - Each movement yields 1 point of the corresponding color	0	Get 1 Paint of the same color in the area after each movement	1	2	3	1	2	3	4	Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+162	Efficient Research	34	1										Lee Hard - Data required for Research -1 in each round; reset after Research (check if this is stacking with Lee's skill; the Data required should start from 6 and lower)	0	-1 to the Paint cost to upgrade Exhibition in every round. Resets after upgrade.	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+163	Research Limit	33	1	0	1								Ayla Hard - Unable to research	0	Unable to increase Exhibition Level	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill008.png
+164	Use another research method	35	1	6	1								Ayla Hard - At the start of the round, set Virus Level at 6 and increase the Research Level of the corresponding color by 1	0									
+165	Painful Tally I	30	1										Virus Level increase from Normal and Outbreak +1	0									
+166	Painful Tally II	31	1										Virus Level increase from Normal, Outbreak and Pandemic +1	0									
+167	Combat Boost I	28	2	999	1								Vera Easy 1 - Healing effect +1 in this round	0	Criticism can further reduce the Master's level by 1 in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+168	Action Points	14	4	1									Vera Easy 1 - Action Point +1	1	Obtain 1 Action Point								
+169	Teleport III	1	2	999									Vera Easy 2 - Movement costs no Action Points in this round	0	Movement costs no Action Points in this round	1	2	3	1	2	3	4	Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+170	Boss Enhancement	11	6	1	1								Vera Hard 1 - Boss Level +1 in the next round	1	All Masters' level increases by 1								
+171	Boss Enhancement	11	6	2	1								Vera Hard 1 - Boss Level +1 in the next round	0									
+172	Boss Enhancement	11	6	3	1								Vera Hard 1 - Boss Level +1 in the next round	0									
+173	Combat Boost II	28	2	999	2								Vera Hard 1 - Healing effect +2 in this round	0	Criticism can further reduce the Master's level by 1 in this round	1	2	3	2				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+174	Teleport III	1	2	999									Vera Hard 2 - Movement costs no Action Points in this round	0	Movement costs no Action Points in this round	1	2	3	1	2	3	4	Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+175	Boss Enhancement	11	6	1	2								Vera Hard 2 - Boss Level +2 in the next round	1	All Masters' level increases by 2								
+176	Boss Enhancement	11	6	2	2								Vera Hard 2 - Boss Level +2 in the next round	0									
+177	Boss Enhancement	11	6	3	2								Vera Hard 2 - Boss Level +2 in the next round	0									
+178	Action Points	14	4	2									Lee Easy 1 - Action Point +2	1	Obtain 2 Action Point								
+179	Empowered Extraction	18	2	999	1								Lee Easy 1 - Energy obtained +1 in this round	0	Quantity of Paint obtained in this round +1	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+180	Action Points	14	4	5									Lee Easy 2 - Action Point +5	1	Obtain 5 Action Points and 5 Three-Color Paints								
+181	Data Acquired	10	4	1	5								Lee Easy 2 - Three-Color Paints +5	0									
+182	Data Acquired	10	4	2	5								Lee Easy 2 - Three-Color Paints +5	0									
+183	Data Acquired	10	4	3	5								Lee Easy 2 - Three-Color Paints +5	0									
+184	Action Points	14	4	2									Lee Hard 1 - Action Point +2	1	Obtain 2 Action Point								
+185	Empowered Extraction	18	2	999	2								Lee Hard 1 - Energy obtained +2 in this round	0	Quantity of Paint obtained in this round +2	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+186	Action Points	14	4	5									Lee Hard 2 - Action Point +5	1	Obtain 5 Action Points and 5 Three-Color Paints								
+187	Data Acquired	10	4	1	5								Lee Hard 2 - Three-Color Paints +5	0									
+188	Data Acquired	10	4	2	5								Lee Hard 2 - Three-Color Paints +5	0									
+189	Data Acquired	10	4	3	5								Lee Hard 2 - Three-Color Paints +5	0									
+190	Blue Boost	11	6	3	1								Ayla Easy 1 - Blue Virus Level +1 in the next round	1	School Master (Blue) Level +3, Red & Green Level -1								
+191	Red Reduction	11	6	1	-1								Ayla Easy 1 - Red Virus Level -1 in the next round	0									
+192	Green Reduction	11	6	2	-1								Ayla Easy 1 - Green Virus Level -1 in the next round	0									
+193	Action Points	14	4	5									Ayla Easy 2 - Action Point +5	1	Obtain 5 Action Points								
+194	Efficient Research	15	2	5									Ayla Easy 2 - Increasing Research Level only costs 5 Research Data in this round	0	Upgrading Exhibition only costs 5 Paint in this round	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+195	Data Acquired	10	4	1	4								Ayla Hard 1 - Three-Color Paints +4	1	Obtain 4 Three-Color Paints								
+196	Data Acquired	10	4	2	4								Ayla Hard 1 - Three-Color Paints +4	0									
+197	Data Acquired	10	4	3	4								Ayla Hard 1 - Three-Color Paints +4	0									
+198	Blue Boost	11	6	3	1								Ayla Hard 1 - Blue Virus Level +1 in the next round	1	All Masters' level increases by 1								
+199	Red Boost	11	6	1	1								Ayla Hard 1 - Red Virus Level +1 in the next round	0									
+200	Green Boost	11	6	2	1								Ayla Hard 1 - Green Virus Level +1 in the next round	0									
+201	Action Points	14	4	5									Ayla Hard 2 - Action Point +5	1	Obtain 5 Action Points								
+202	Efficient Research	15	2	5									Ayla Hard 2 - Increasing Research Level only costs 5 Research Data in this round	0	Upgrading Exhibition only costs 5 Paint in this round	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+203	Empowered Extraction	18	2	999	2								Karenina Easy 1 - Energy obtained +2 in this round	0	Quantity of Paint obtained in this round +2	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+204	Reroll	27	2	2									Karenina Easy 1 - Can roll the die 2 times in research	0	Can reroll 2 times when obtaining Paint	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+205	Action Points	14	4	5									Karenina Easy 2 - Action Point +5	1	Obtain 5 Action Points								
+206	Acquired Multiple Times	26	2	5	5	5	5	5	5				Karenina Easy 2 - In this round, Data obtained from Energy Point is guaranteed to be maximum	0	Guaranteed to obtain the maximum quantity of Paint in this round	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+207	Data Acquired	10	4	1	3								Karenina Hard 1 - Three-Color Paints +3	1	Obtain 3 Three-Color Paints								
+208	Data Acquired	10	4	2	3								Karenina Hard 1 - Three-Color Paints +3	0									
+209	Data Acquired	10	4	3	3								Karenina Hard 1 - Three-Color Paints +3	0									
+210	Reroll	27	2	3									Karenina Hard 1 - Can roll the die 3 times in research	0	Can reroll 2 times when obtaining Paint	1	2	3	1				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+211	Action Points	14	4	5									Karenina Hard 2 - Action Point +5	1	Obtain 5 Action Points								
+212	Acquired Multiple Times	26	2	5	5	5	5	5	5				Karenina Hard 2 - In this round, Data obtained from Energy Point is guaranteed to be maximum	0	Guaranteed to obtain the maximum Paint in this round	1	2	3	3				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+213	Green Reduction	11	4	2	-1								Commandant 1 Easy 1 - Green Boss Level -1	1	School Master (Green)'s level decreases by 1								
+214	No Action Needed	2	2	2									Commandant 1 Easy 1 - Movement in Green area costs no Action Points in this round	0	Movement in Green area costs no Action Points in this round	2			1	2	3		Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+215	Data Loss	10	4	2	-5								Commandant 1 Easy 2 - Green Data -5	1	Lose 5 Green Paint								
+216	Time Stop	21	2										Commandant 1 Easy 2 - At the end of this round, the timeline is not tallied but the progress will continue to move forward normally	0									
+217	Action Points	14	4	3									Commandant 2 Easy 1 - Action Point +3	1	Obtain 3 Action Points but lost 1 Three-Color Paint								
+218	Data Acquired	10	4	1	-1								Commandant 2 Easy 1 - Three-Color Paints -1	0									
+219	Data Acquired	10	4	2	-1								Commandant 2 Easy 1 - Three-Color Paints -1	0									
+220	Data Acquired	10	4	3	-1								Commandant 2 Easy 1 - Three-Color Paints -1	0									
+221	Action Points	14	4	5									Commandant 2 Easy 2 - Action Point +5	1	Obtain 5 Action Points and 5 Three-Color Paints								
+222	Data Acquired	10	4	1	5								Commandant 2 Easy 2 - Three-Color Paints +5	0									
+223	Data Acquired	10	4	2	5								Commandant 2 Easy 2 - Three-Color Paints +5	0									
+224	Data Acquired	10	4	3	5								Commandant 2 Easy 2 - Three-Color Paints +5	0									
+225	Teleport III	1	2	999									Commandant 3 Easy 1 - Movement costs no Action Points in this round	0	Movement costs no Action Points in this round	1	2	3	1	2	3	4	Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+226	Blue Boost	11	6	3	1								Commandant 3 Easy 1 - Blue Virus Level +1 in the next round	1	School Master's level increases by 1								
+227	Red Boost	11	6	1	1								Commandant 3 Easy 1 - Red Virus Level +1 in the next round	0									
+228	Green Boost	11	6	2	1								Commandant 3 Easy 1 - Green Virus Level +1 in the next round	0									
+229	Blue Boost	11	4	3	-2								Commandant 3 Easy 2 - Blue Virus Level -2	1	School Master's level decreases by 2								
+230	Red Boost	11	4	1	-2								Commandant 3 Easy 2 - Red Virus Level -2	0									
+231	Green Boost	11	4	2	-2								Commandant 3 Easy 2 - Green Virus Level -2	0									
+232	Data Acquired	10	4	1	5								Commandant 3 Easy 2 - Three-Color Paints +5	1	Obtain 5 Three-Color Paints								
+233	Data Acquired	10	4	2	5								Commandant 3 Easy 2 - Three-Color Paints +5	0									
+234	Data Acquired	10	4	3	5								Commandant 3 Easy 2 - Three-Color Paints +5	0									
+235	Green Reduction	11	4	2	-1								Commandant 1 Hard 1 - Green Boss Level -1	1	School Master (Green)'s level decreases by 1								
+236	No Action Needed	2	2	2									Commandant 1 Hard 1 - Movement in Green area costs no Action Points in this round	0	Movement in Green area costs no Action Points in this round	2			1	2			Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+237	Data Loss	10	4	2	-5								Commandant 1 Hard 2 - Green Data -5	1	Lose 5 Green Paint								
+238	Time Stop	21	2										Commandant 1 Hard 2 - At the end of this round, the timeline is not tallied but the progress will continue to move forward normally	0									
+239	Action Points	14	4	3									Commandant 2 Hard 1 - Action Points +3	1	Obtain 3 Action Points but lost 1 Three-Color Paint								
+240	Data Acquired	10	4	1	-1								Commandant 2 Hard 1 - Three-Color Paints -1	0									
+241	Data Acquired	10	4	2	-1								Commandant 2 Hard 1 - Three-Color Paints -1	0									
+242	Data Acquired	10	4	3	-1								Commandant 2 Hard 1 - Three-Color Paints -1	0									
+243	Action Points	14	4	5									Commandant 2 Hard 2 - Action Points +5	1	Obtain 5 Action Points and 5 Three-Color Paints								
+244	Data Acquired	10	4	1	5								Commandant 2 Hard 2 - Three-Color Paints +5	0									
+245	Data Acquired	10	4	2	5								Commandant 2 Hard 2 - Three-Color Paints +5	0									
+246	Data Acquired	10	4	3	5								Commandant 2 Hard 2 - Three-Color Paints +5	0									
+247	Teleport III	1	2	999									Commandant 3 Hard 1 - Movement costs no Action Points in this round	0	Movement costs no Action Points in this round	1	2	3	1	2			Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+248	Blue Boost	11	6	3	1								Commandant 3 Hard 1 - Blue Virus Level +1 in the next round	1	School Master's level increases by 1								
+249	Red Boost	11	6	1	1								Commandant 3 Hard 1 - Red Virus Level +1 in the next round	0									
+250	Green Boost	11	6	2	1								Commandant 3 Hard 1 - Green Virus Level +1 in the next round	0									
+251	Blue Boost	11	4	3	-2								Commandant 3 Hard 2 - Blue Virus Level -2	1	School Master's level decreases by 2								
+252	Red Boost	11	4	1	-2								Commandant 3 Hard 2 - Red Virus Level -2	0									
+253	Green Boost	11	4	2	-2								Commandant 3 Hard 2 - Green Virus Level -2	0									
+254	Data Acquired	10	4	1	5								Commandant 2 Hard 2 - Three-Color Paints +5	1	Obtain 5 Three-Color Paints								
+255	Data Acquired	10	4	2	5								Commandant 2 Hard 2 - Three-Color Paints +5	0									
+256	Data Acquired	10	4	3	5								Commandant 2 Hard 2 - Three-Color Paints +5	0									
+257	Red Ban	20	1	1	1								For beginner only: movement in Red areas is forbidden	0									
+258	Blue Ban	20	1	3	1								For beginner only: movement in Blue areas is forbidden	0									
+259	Central Area Reward - Red	23	2	1	7								Central Area Reward - Red	1	Get 7 Red Paint when passing or staying in the Core area	1			4				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+260	Central Area Reward - Green	23	2	2	7								Central Area Reward - Blue	1	Get 7 Green Paint when passing or staying in the Core area	2			4				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+261	Central Area Reward - Blue	23	2	3	7								Central Area Reward - Green	1	Get 7 Blue Paint when passing or staying in the Core area	3			4				Assets/Product/Texture/Image/UiColorTable/Skill/UiColorTableSkill010.png
+262	Novice Stage 1	26	3	5	5	5	5	5	5				For Novice Stage 1 Round 2 only: Guaranteed to roll 5. Continue in the next round if not used in the first round	0	For Novice Stage 1 Round 2 only: Guaranteed to roll 5								
+263	Novice Stage 1	37	1	2									Stage effect. Regular Outbreak is not randomized but is guaranteed to increase the level of Green Boss	0									
+264	Novice Stage 2	37	2	2									An stage effect that lasts only 1 round and increases the level of Green Boss	0									

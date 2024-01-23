@@ -1,27 +1,36 @@
-Id	FunctionName	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]
-1001	DoNieRoleDeath					
-1002	DoOpenChildUi	UiFightRollingNum				
-1003	DoCloseChildUi	UiFightRollingNum				
-1004	DoChildUiFunction	UiFightRollingNum	SetActive			
-1005	DoChildUiFunction	UiFightRollingNum	AddTotalCount			
-1006	DoOpenChildUi	UiFightNewspaper				
-3001	HideClientScene					
-3002	HideClientFightUi					
-3003	ClearRLManager					
-3004	ClearSLivBallEffect					
-3005	HideClientSceneEx					
-5001	DoOpenChildUi	UiFightPivotCombat				
-5002	DoCloseChildUi	UiFightPivotCombat				
-5003	DoChildUiFunction	UiFightPivotCombat	AddScore			
-5004	DoChildUiFunction	UiFightPivotCombat	SetFillAmount			
-5005	DoChildUiFunction	UiFightPivotCombat	SetTimeBarLength			
-5006	DoChildUiFunction	UiFightPivotCombat	SetMultiSlashTimes			
-5007	DoChildUiFunction	UiFightPivotCombat	SetMultiSlashDotsActive			
-6002	LoadResource	Assets/Product/EffectEx/Prefab/FxTongyong/FxMebiaoji001.prefab				
-7001	RecordDamageNum					
-7002	PopDamageNum					
-8001	DoOpenChildUi	UiFightBangbiSkill				
-8002	DoCloseChildUi	UiFightBangbiSkill				
-8003	DoChildUiFunction	UiFightBangbiSkill	SetCanActive			
-8004	DoChildUiFunction	UiFightBangbiSkill	SetActived			
-8005	DoOpenChildUi	UiFightBangbiPaper				
+Id	FunctionName	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Params[7]	Params[8]
+1001	DoNieRoleDeath								
+1002	DoOpenChildUi	UiFightRollingNum							
+1003	DoCloseChildUi	UiFightRollingNum							
+1004	DoChildUiFunction	UiFightRollingNum	SetActive						
+1005	DoChildUiFunction	UiFightRollingNum	AddTotalCount						
+1006	DoOpenChildUi	UiFightNewspaper							
+2001	DoOpenChildUi	UiFightMovieBagua							
+2002	DoChildUiFunction	UiFightMovieBagua	Init						
+2003	DoCloseChildUi	UiFightMovieBagua							
+3001	HideClientScene								
+3002	HideClientFightUi								
+3003	ClearRLManager								
+3004	ClearSLivBallEffect								
+3005	HideClientSceneEx								
+5001	DoOpenChildUi	UiFightPivotCombat							
+5002	DoCloseChildUi	UiFightPivotCombat							
+5003	DoChildUiFunction	UiFightPivotCombat	AddScore						
+5004	DoChildUiFunction	UiFightPivotCombat	SetFillAmount						
+5005	DoChildUiFunction	UiFightPivotCombat	SetTimeBarLength						
+5006	DoChildUiFunction	UiFightPivotCombat	SetMultiSlashTimes						
+5007	DoChildUiFunction	UiFightPivotCombat	SetMultiSlashDotsActive						
+6002	LoadResource	Assets/Product/EffectEx/Prefab/FxTongyong/FxMebiaoji001.prefab							
+7001	RecordDamageNum								
+7002	PopDamageNum								
+8001	DoOpenChildUi	UiFightBangbiSkill							
+8002	DoCloseChildUi	UiFightBangbiSkill							
+8003	DoChildUiFunction	UiFightBangbiSkill	SetCanActive						
+8004	DoChildUiFunction	UiFightBangbiSkill	SetActived						
+8005	DoOpenChildUi	UiFightBangbiPaper							
+9001	DoOpenChildUi	UiFightBrilliantwalk							
+9002	DoChildUiFunction	UiFightBrilliantwalk	DestroyTips						
+9003	DoChildUiFunctionEx	UiFightBrilliantwalk	SetModPercent						
+9004	DoChildUiFunctionEx	UiFightBrilliantwalk	SetModIsUnlock						
+9005	DoChildUiFunctionEx	UiFightBrilliantwalk	SetIcon						
+9006	DoCloseChildUi	UiFightBrilliantwalk							

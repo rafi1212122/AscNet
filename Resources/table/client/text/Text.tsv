@@ -598,6 +598,10 @@ LoadingType2	Custom loading screen: Select pictures to add them to the random li
 FocusType1	Auto Lock: Move the joystick and cast a skill to lock the enemy in your way.
 FocusType2	Manual Lock: Tap empty space (excluding the joystick area) to switch lock-on target. Press and hold to unlock the target. <color=#0e70bd>If you have checked "Display Lock Button", press "Lock" to switch lock-on target in battle.</color>
 FocusType3	Advanced Lock: Toggle between Auto Lock and Manual Lock in real time. <color=#0e70bd>Auto Lock</color> is activated by default and locks the enemy in the direction of your joystick when you cast a skill. Tapping any blank space on the screen will switch it to <color=#0e70bd>Manual Lock</color>, with which tapping again will change the locked target, while holding down will unlock the current target and revert to Auto Lock. <color=#0e70bd>If the [Display Lock Button] option is enabled, tapping the button will lock the enemy and holding it will unlock the target.</color>
+FocusTypeDlcHunt1	Auto Lock: Move the joystick and use a skill to lock the enemy's part in your way.
+FocusTypeDlcHunt2	Manual Lock: Tap the Lock button once to switch to a new enemy. Press and hold the Lock button to call out the part lock bar and perform precise locking of the enemy's parts.
+FocusTypeDlcHunt3	
+FocusTypeDlcHuntTeaching	Lock mode modification is prohibited in tutorial stages
 WeaponTransType1	Off: On the weapon screen, <color=#0e70bd>skip animations and display the transformed weapon directly</color>
 WeaponTransType2	On: On the weapon screen, <color=#0e70bd>display the weapon transform animation</color>
 RechargeType1	Off: The accumulated recharge screen will not display the current recharge amount
@@ -759,6 +763,7 @@ TrialLevelFinish	Rescued: {0}/{1}
 NoticeTag1	Event
 NoticeTag2	Supply
 NoticeTag3	Important
+NoticeTypeTitle1	Event News
 NoticeTypeTitle2	News
 ShopAutoRefresh	<size=26><color=#626c78>Refreshes in: </color></size>
 PrequelUnTrigger	Conditions unmet
@@ -837,7 +842,7 @@ ExploreNotOpenError	Please clear the previous chapter
 DormOnline	Online
 DormOffline	Offline
 DormNoCount	No Dormitory
-DormBagFurnitureCount	<size=26><color=#000000FF>Decor Owned </color></size><size=52><color=#0f70bc>{0}</color></size>
+DormBagFurnitureCount	Decors <size=26><color=#000000FF> Owned:   </color></size><size=52><color={0}>{1}</color>/<color=#0f70bc>{2}</color></size>
 DormBagEmneyCount	<size=26><color=#000000FF>Corrupted Owned </color></size><size=52><color=#0f70bc>{0}</color></size>/{1}
 DormBagCharacterCount	<size=26><color=#000000FF>Owned Omniframes   </color></size><size=52><color=#0f70bc>{0}</color></size>/{1}
 DormBagHumanrCount	<size=26><color=#000000FF>Humans Owned </color></size><size=52><color=#0f70bc>{0}</color></size>/{1}
@@ -934,6 +939,8 @@ FurnitureSaveSuccess	Decor Saved
 FunitureCannotCompound	Selected Blueprint cannot craft Decor
 FurnitureTips	Tips
 FurnitureIsSave	Save changes?
+DormFurnitureCreateDetailTips	Too many Decors in the warehouse. Unable to manufacture. Please recycle some of the Decors first.
+DormFurnitureCreateLimitTips	The number of Decors is about to exceed the limit. ({0}/{1})
 DormWorkNoRewardTips	No claimable rewards
 ExhibitionNotObtainCharacter	Member unobtained
 ExhibitionTaskNotFinish	Conditions unmet
@@ -1119,6 +1126,8 @@ DormTaskText	Mission
 DormShopText	Shop
 DormWareHouseText	Warehouse
 DormBuidText	Build
+DormTemplateText	Template
+DormEntrustText	Commission
 BossSingleReslutDesc	You have broken your highest Progress record. Cancel?
 DormDisable	Dorm not available yet
 PurchaseLBBuySuccessTips	Purchase successful
@@ -1322,6 +1331,7 @@ GuildDonationDeleDes	Client: <color=#0f70bc>{0}</color>
 GuildDonationPosDes	Position: {0}
 GuildRankYoukuDes	Members {0}/{1}
 GuildPersonCountDes	<color=#0F70BCFF>{0}</color>/{1}
+GuildGoodsShopAuthorityTips	Purchase only available to the Leader/Deputy Leader
 SocialDeleteRemarkSucceed	Note deleted
 GuildDetailsDes	1. Rankings will rank Command Bureaus based on Total Contribution over 7 days.\n2. Command Bureaus with the same Contribution will be rated based on time.\n3. In the Command Bureau, you can switch to Personal Level Rankings.
 GuidVistorRankBtnDes	Ranking
@@ -1358,6 +1368,7 @@ ItemHaveSelectedCount	<color=#0e70bd>{0}</color>/{1}
 ItemSelectedCountOverLimit	Limit exceeded
 MailWillFull	(Mail nearly full)
 MailIsFull	(Mailbox full)
+MailCantManulDelete	All deletable mails removed. Mails that can't be manually deleted are kept.
 CanBuyText	Purchases Left
 MaxCanBuyText	Limited warehouse spaces left. You can only purchase 
 GuildGiftBtnDes	Filter
@@ -1466,8 +1477,8 @@ BabelTowerRankReset	<size=32><color=#000000FF>Ends in </color></size>%s
 BabelTowerRankItemLevel	<size=22><color=#000000FF>  </color></size>%d
 Guild	The Bureau
 PlayStory	  Play Story
-PlayBeforeStory	  Play pre-combat Cutscene
-PlayAfterStory	  Play post-combat Cutscene
+PlayBeforeStory	Play pre-combat Cutscene
+PlayAfterStory	Play post-combat Cutscene
 MovieSkipTipTitle	Story Skip Notice
 MovieSkipTipContent	Skip story?
 RogueLikeTaskLeftTime	Remaining time: {0}
@@ -1487,13 +1498,19 @@ AssignTeamTitle	Battle Team [{0}]
 AssignInfoTeamName	Team {0}
 AssignSelectNotMatch	Character doesn't meet the requirements
 AssignSelectIsUsed	This character is already stationing in another area
-AssignFightNoMember	Battle team does not meet requirements
+AssignFightNoMember	Team(s) not met the required deployment team size. Empty starter/leader slot.
 AssignStageUnlock	Complete the previous stage first
 AssignBuffOccupyLock	Stationing requirements not met. Check details within the stage
 AssignStageOccupyLock	Stationing requirements not met
 AssignOccupySelected	Stationed
 AssignOccupyUnselected	Dismissed
 AssignChapterProgressTxt	Occupy area: {0}
+AssignChapterCanOccupy	[{0}] is available for stationing!
+AssignChapterPass	Clear Area [{0}]
+AssignChapterProgress	<color=#0f70bc>{0}</color><size=40>/{1}</size>
+AssignName	Border Pact
+AssignOccupyProgress	Border Pact Stationing: {0}/{1}
+AwarenessCoverOccupyProgress	Sequence Pact Guards: {0}/{1}
 PicCompositionHintText	<color=#878787FF>Enter message</color>
 RegressionTabTextTask	Welcome Back
 RegressionTabTextSendInvitation	Invite Friend
@@ -1511,6 +1528,7 @@ RegressionAcceptInvitationUseCodeFrequently	Action too frequent. Please try agai
 RegressionActivityOver	Event is over
 RegressionInvitationActivityOver	Event is over
 FuBenMainlineActivityNotReachChallengeTime	Main Event Hidden Mode unlocks in {0}
+FuBenMainlineActivityNotReachVariationsTime	Main Event Mutation Mode unlocks in {0}
 PicCompositionSave	Sketches saved ({0}/{1})
 PicCompositionUpLoad	Uploading successful. Status refreshes in 30s
 RogueLikeCostAction	Stage AP cost: {0}
@@ -1734,7 +1752,7 @@ GuildQuitRemovePosition	Please transfer Commander-in-Chief to another player bef
 GuildQuitLastMember	<size=43>Upon leaving, the Command Bureau will disband and you must wait 8 hours before joining a new Command Bureau. United Achievement Points will also be temporarily deducted until joining a new Command Bureau, at which point they will be returned. Confirm?</size>
 GuildQuitMemberQuit	<size=43>Upon leaving, you must wait 8 hours before joining a new Command Bureau. United Achievement Points will also be temporarily deducted until joining a new Command Bureau, at which point they will be returned. Confirm?</size>
 GuildTalentConditionLevel	Command Bureau reaches Lv.{0}
-GuildTalentConditionPoint	Any preconfigured beacon level ≥ Lv.{0}
+GuildTalentConditionPoint	Any prerequisite beacon level ≥ Lv.{0}
 GuildTalentUpgradeComplete	Beacon Level upgraded
 GuildTalentPointNotEnough	Insufficient Beacon Points
 GuildTalentPointProgress	Beacon Points: <color=#0e70bd><size=47>{0}</size></color>/{1}
@@ -1764,6 +1782,8 @@ GuildSettingLevelLessThanZero	Application Settings level below 0
 ArchiveStoryNpcLock	Not enough data
 GuildBossRankPersonalTitle	Change to Personal Ranking
 GuildBossRankGuildTitle	Change to Command Bureau Ranking
+GuildBossNotCurrentActivity	You can only claim your Weekly Contribution Rewards after the reset next Monday upon switching to a different Command Bureau.
+GuildBossNotOpen	Simulated Siege available at Lv.40
 GuildCustomNameNotSpace	Define Positions cannot be blank
 InfestorExploreSectionLeftTimeSection1	Time until analysis: {0}
 InfestorExploreSectionLeftTimeSection2	Remaining time: {0}
@@ -1881,8 +1901,22 @@ EliminateResetSuccess	Reset
 EliminateCannotReset	Please move first
 EliminateFlipEnd	Card flipping has ended
 EliminateEnd	All ranks complete. Please claim your reward.
-SpecialTrainNotOpen	Event not yet available
-SpecialTrainTimeOut	Event is over
+SpecialTrainNotOpen	Outside the event period
+SpecialTrainTimeOut	Outside the event period
+SpecialTrainHellModeLock	Hard Mode available at {0}
+SpecialTrainTimeFormat	MM/dd/yyyy HH:mm
+SpecialTrainBreakthroughDesc1	Different bombs will trigger explosions in different areas
+SpecialTrainBreakthroughDesc2	Hit the boss with bombs to earn points
+SpecialTrainBreakthroughDesc3	Team hitting the target with bombs of the same color can cause CRIT DMG
+SpecialTrainBreakthroughHellDesc1	<color=#57f0fb>Friendly Fire On</color>: Bombs will also deal damage to teammates
+SpecialTrainBreakthroughHellDesc2	<color=#57f0fb>Victory in Advance</color>: Kills in advance grant bonus points
+SpecialTrainBreakthroughHellDesc3	<color=#57f0fb>More Turns</color>: Hard Mode contains more turns
+SpecialTrainBreakthroughSettleRound	Remaining Turns Bonus: +{0}
+SpecialTrainBreakthroughTimeHellMode	Available in: {0}
+SpecialTrainBreakthroughSettleDesc1	Remaining Turns Bonus +{0}
+SpecialTrainBreakthroughSettleDesc2	Boss DMG -{0}
+SpecialTrainBreakthroughSettleDesc3	Personal Hit +{0}
+SpecialTrainBreakthroughSettleDesc4	Teammate DMG Reduction -{0}
 ActivityBossOpenTip	Clear the previous level to unlock
 GuildNoneJoinGuild	Not yet joined
 ExhibitionCollectionDefaultLable	Collection Rate
@@ -1891,6 +1925,11 @@ ExhibitionCollectionLable2	Uniframe Collection Rate
 ExhibitionCollectionLable3	Collab Collection Rate
 ExhibitionDefaultGroupName	Unidentified
 ExhibitionDefaultGroupDescription	No information on this force can be found in Babylonia's database.
+ExhibitionSelectAureoTitle	Please select an Infinitas Awakening Wrist Band.
+ExhibitionSelectAureoDesc	A Halo device for Infinitas Awakening frames.
+ExhibitionSelectBallColorTitle	Please select a color for the Signal Orbs.
+ExhibitionSelectBallColorDesc	Gains 3 orbs of the same color after entering the battlefield for the first time.
+ExhibitionSuperLimit	The Custom feature can only be unlocked after the Infinitas Awakening.
 HeadFrameUse	Equip
 HeadFrameNonUse	Unequip
 HeadFrameSelect	Select Portrait Frame
@@ -2366,6 +2405,8 @@ TRPGUseItemComplete	Successfully used
 SpecialPointRewardIsGet	Reward Claimed
 NierAbilityLock	Unactivated
 NierAbilityUnLock	Activated
+AwarenessUnAwake	[Not Activated]
+AwarenessAwake	[Hypertune]
 NieRActivityChapterEnd	Current area has ended
 AwarenessGroup	Memory Set 
 AwarenessGroupWithName	{0} Memory Set 
@@ -2637,6 +2678,13 @@ CoupleCombatRobotUsed	This member has been locked in another stage
 CoupleCombatResetStageTip	This stage will be considered not cleared after resetting it, and the corresponding character will be unlocked. Confirm reset?
 CoupleCombatResetStageSucc	Stage reset!
 CoupleCombatHardModeNotOpen	Unlocked once the last stage in Normal Mode is cleared
+CoupleCombatSkillCareer	Class: {0}
+CoupleCombatSkillActiveDesc	Active Effects: {0}
+CoupleCombatSkillPassiveDesc	Passive Effects: {0}
+CoupleCombatSkillCareerTitle	Carrier
+CoupleCombatSkillActiveTitle	Active Effects
+CoupleCombatSkillPassiveTitle	Passive Effects
+CoupleCombatCareerName	<color=#6495ED>{0}</color>
 PartnerListIsEmpty	You do not have a CUB yet
 PartnerSkillFieldIsLock	Evolve CUB to {0} to unlock
 SignGiftPackTimeRemainTip	Remaining
@@ -2719,6 +2767,7 @@ StrongholdEnterChapterConfirmTitle	High-risk Zone Reminder
 StrongholdEnterChapterConfirmContent	Only basic stronghold can be built in this mine. The electricity usage limit is further impacted and you cannot request external assistance.
 StrongholdDeployElectricTipsTitle	Electricity Limit Reminder
 StrongholdDeployElectricTipsContent	The total electricity limit of all teams in Cloud Island is 600
+StrongholdPerfectStrategyNotActivate	Team's average BP is not enough to activate the Perfect Tactics. The progress of areas cleared with Perfect Tactics will be reset. Confirm?
 SettleLoseSkipConfirmTitle	Tips
 SettleLoseSkipConfirmContent	Would you like to leave this stage?
 PurchaseCanBuyText	{0} purchases Left
@@ -2770,6 +2819,7 @@ WhiteValentineAttrCharaComplete	You have obtained all characters of this type
 PartnerSelectSkillFull	Equipped skill limit reached
 PartnerNoBadyCarry	  N/A
 PartnerSkillUnLock	Unlocked
+PartnerSkillLevelUp	Skill Upgrade Successful
 StrongholdSetAssistRecordLendCount	Day {0}, battle support provided for {1} time(s). Received rewards from Command Bureau: {2}*{3}
 StrongholdUiElectricActDes	1. Power Station instructions 1.\n2. Power station instructions 2.\n3. You may use the "switch" button to change the leaderboard to ranked by level.
 StrongholdUseElectricDes	Electricity used: {0}
@@ -3125,8 +3175,8 @@ RpgMakerGameCharacterLockInfoDesc	Information encrypted
 MineSweepingNotOpenHint	Event is not open yet
 MineSweepingOverTimeHint	Event has ended
 MineSweepingStageWinHint	Victory: Open all the safe areas ({0}/{1})
-MineSweepingStageLoseHint	Failure Condition: Get frozen by "Snowball" {0} time(s) ({1}/{2})
-MineSweepingChapterWinHint	???: The fireflies will lead the way for us even if the dark clouds cover the sky.
+MineSweepingStageLoseHint	Failure Condition: Hit by the "Lightning" {0} times ({1}/{2})
+MineSweepingChapterWinHint	???: Now that you're ready. Try to follow me.
 MineStageUnLockHint	Clear STAGE {0} to unlock
 MineChapterLockHint	Prerequisite chapters locked
 KillZoneActivityNotOpen	Event not yet available
@@ -3160,7 +3210,7 @@ KillZoneSettleWinKillEnemyCount	Target Count: {0}
 ScheOpenCountdown	Available in {0}
 STThemeLayer	F{0}
 STStageProgress	Progress: {0}
-MineSweepingNotCoinHint	You do not have sufficient [Crumpled Paper].
+MineSweepingNotCoinHint	Insufficient [Energy Cubes]. Unable to do this.
 STOverTimeHint	Event has ended
 STStartTierText	Begin Adventure
 STContinueTierText	Continue Adventure
@@ -3283,6 +3333,7 @@ STNotUsePlugin	No Add-on has been consumed for this challenge
 STSettleConfirmHint	Use Add-on to claim the challenge rewards?
 STSettleCancelHint	Abandon challenge? (No Add-on will be consumed, but you cannot get any rewards)
 STTierPrepareEnhanceTip	You can select an Abyssal Buff at the start of each floor based on the characters deployed. Buffs are only active during the current adventure.
+PartnerLongPressLevelUpSkill	Cost to upgrade skill to Lv.<color=#0E70BDFF>{2}</color> —\nCogs ×<color=#0E70BDFF>{0}</color>    Support Skill Component ×<color=#0E70BDFF>{1}</color>\n \nUpgrade the skill?
 LongPressLevelUpSkill	Upgrade requires Cogs x<color=#0E70BDFF>{0}</color>    Skill Point x<color=#0E70BDFF>{1}</color>\nAfter upgrade, the new skill level is: {2}\nWould you like to proceed?
 SummerEpisodeMapSelectTitle	Photo scene selection
 SummerEpisodeActivityEnd	Midsummer's Memorial Day has ended
@@ -3302,6 +3353,7 @@ UiFashionIntroHeadPortrait	   Unlock Requirements
 UiFashionHeadPortraitConditionDefault	Obtain member to unlock
 UiFashionHeadPortraitConditionLiberation	Upgrade Construct to Ultima to unlock
 UiFashionHeadPortraitConditionFashion	Obtain Coating to unlock
+PartnerLongPressLevelUpSkillMax	Cost to upgrade skill to Lv.<color=#0E70BDFF>{2}(Max)</color> —\nCogs ×<color=#0E70BDFF>{0}</color>    Support Skill Component ×<color=#0E70BDFF>{1}</color>\n \nUpgrade the skill?
 LongPressLevelUpSkillMax	Upgrade requires Cogs x<color=#0E70BDFF>{0}</color>    Skill Point x<color=#0E70BDFF>{1}</color>\nAfter upgrade, the new skill level is: {2} (Max)\nWould you like to proceed?
 SummerEpisodePhotoScore	Photo Points
 SummerEpisodeMischiefScore	Mischief Points
@@ -4165,6 +4217,208 @@ NotOwn	{0} Not Owned
 AssistOnlyOne	Only 1 assistant in the assistant queue. Unable to randomize.
 PurchaseLBOwnAll	You already have all the items in the pack
 MentorSearceInCD	Frequent search attempts. Please search again after {0}s.
+DlcHuntBecomeLeader	You have become the room host.
+RiftPluginLoad	{0}/<size=30>{1}</size>
+RiftPluginLoad2	<size=30><color=#ff5f2d>{0}</color></size>/{1}
+RiftPluginLoadRed	<size=30><color=#ff1831>{0}</color></size>/{1}
+RiftPluginLoadYellow	<size=30><color=#e85e03>{0}</color></size>/{1}
+RiftPluginLoadBlue	<size=30><color=#34aff8>{0}</color></size>/{1}
+RiftChapterDepthRange	{0}-{1}KM
+RiftChapterDepthRangeUnKnown	Depth Range      Unknown
+RiftChapterHadExploreDepth	Detected      {0}km
+RiftChapterOutliersDepth	Abnormal Snapshot      {0}
+RiftChapterProgress	Clearance Progress: {0}%
+RiftChapterPreLimit	Incomplete prerequisite floor
+RiftChapterTimeLimit	Not yet available
+RiftDepth	{0}KM
+RiftDepthSettle	Depth {0}km
+RiftPluginLoadMax	Max add-on load reached
+RiftPluginLoadNoneLeft	Insufficient remaining load of the add-on
+RiftPluginCharLimit	Add-on can only be equipped on designated character(s)
+RiftPluginTypeLimit	Cannot be equipped with add-ons of the same type
+RiftLoad	Load: {0}
+RiftChapterFightingLock	You are already engaged in a battle on another layer. Please abandon the battle and try again.
+RiftChapterFirstPassTip	Battle layer already completed. Move to the next battle layer?
+RiftChapterTimeLock	Layer is not available yet
+RiftLuckValueLimit	Insufficient Perception Signal. Unable to start Simulacrum Snapshot.
+RiftLuckNotFightLimit	Please start the battle
+RiftLuckOnlyLimit	Incomplete Serendipitous Snapshot stage(s). Unable to generate. Advance to complete it/them?
+RiftFightLimit	Cannot jump in battle. Abandon the battle and try again.
+RiftGiveUpConfirm	Are you sure you want to abandon the battle?
+RiftRefreshRandomConfirm	Are you sure you want to reset?
+RiftSweepConfirm	Are you sure you want to Quick Clear the stage? This will consume 1 dispatch attempt.
+RiftLucyNodeDesc	Defeat Kuroro and get the luxurious reward!
+RiftLucyNodeEnterLimit	Please start the battle and then enter
+RiftNodeEnterPreLock	Complete the previous stage first
+RiftJumpFromTo	({0}km-{1}km)
+RiftSweepTimesLimit	Insufficient remaining dispatch attempts today. Unable to dispatch.
+RiftSweepFirstPassLimit	You have to clear the area once. Unable to dispatch.
+RiftSweepDataLimit	Complete the result calculation of the stage(s) cleared to dispatch
+RiftAttributeLimit	Perception Amplification feature is not available
+RiftFinish	Event is over
+RiftLayerNormal	Regular Snapshot
+RiftLayerMulti	Overlapped Snapshot
+RiftLayerZoom	Collapsed Snapshot
+RiftLayerLimit1	Area can be unlocked via 90km Zone Leap
+RiftLayerLimit2	Incomplete prerequisite combat zone(s). Unable to keep going.
+RiftLayerStartByAuto	Note: Battle in the {0}km area is available
+RiftLayerStartByJump	<size=50><b>Collapse completed </b></size><size=65><b>{0}</b></size><b>km zone is now available</b>
+RiftLuckValueTip	Serendipitous Snapshot's Perception Signal is full. Continuing will not grant more signal.
+RiftMopup	Dispatch Again ({0}/{1})
+UnKnown	Unknown
+CollectionBoxFavorMailTime	Time: {0}
+Common	Common
+PartnerSkillUpConfirm	Upgraded
+CharacterTowerOpenTimeDesc	Reach {0} to unlock
+CharacterTowerChapterInActivityDesc	In Progress: <color=#fee82a>{0}</color>
+CharacterTowerChapterProgressDesc	Progress: {0}/{1}
+CharacterTowerChapterRewardProgressDesc	Progress <color=#a9a9a9>{0}</color>/{1}
+CharacterTowerChapterRewardDesc	Complete all missions ({0}/{1}) to obtain {2}'s gift
+CharacterTowerChapterRewardFinishDesc	Obtained: {0}'s gift
+CharacterTowerRelationLevelDesc	Lv{0}：
+CharacterTowerRelationActivatedDesc	Activated: <color=#ff3f3f> {0} </color>/ {1}
+CharacterTowerRelationFinishDesc	Completed: {0} Contract Target(s)
+CharacterTowerRelationLockTips	Complete {0} Contract Target(s) to unlock
+GuildDormClose	({0}s)
+GuildSignNumberTex	Keep Improving
+PartnerSkillCoinNotEnough	Insufficient Cogs
+PartnerSkillItemNotEnough	Insufficient upgrade items!
+DlcHuntPercent	{0}%
+DlcHuntChipName	Chip Group
+DlcHuntChipUndress	Remove all chips of this chip group?
+DlcHuntChipDecompose	Scrapped chips will disappear. Continue?
+DlcHuntChipDecomposeFull	Max Shards reached
+DlcHuntChipUndressFromAllGroup	Chip will be removed from all chip groups. Continue?
+DlcHuntChipExpensive	6★ chip(s) in materials selected. Continue?
+DlcHuntChipLevel	<color=#7ae4ec>{0}</color><size=30>/{1}</size>
+DlcHuntChipLevel2	{0}/<color=#28cfff>{1}</color>
+DlcHuntTaskFinish	All missions completed
+DlcHuntChipMaxLevel	Max level reached
+DlcHuntChipBreakthrough	Overclock {0}
+DlcHuntChipSelect	Selected: <color=#00ffffff>{0}</color>/{1}
+DlcHuntChipGroupPower	Battle Power: <color=#58c5cd><size=32>{0}</size></color>
+DlcHuntChipGroupLevel	Lv<color=#1f494f><size=28>{0}</size></color>
+DlcHuntChipAmount	（<color=#00ffffff>{0}</color>/{1}）
+DlcHuntChipGroupEquipAmount	Equipped: <color=#58c5cd><size=36>3</size></color>/9
+DlcHuntChipGroupAmount	<color=#ffffff>{0}</color>/{1}
+DlcHuntChipAssistantZero	Cannot be obtained
+DlcHuntChipLevel3	Lv：{0}
+DlcHuntReconnectFail1	Disconnected from the team for too long. Disconnection failed.
+DlcHuntReconnectFail2	Stage cleared. Reward will be mailed.
+DlcHuntReconnectFail3	Failed to clear the stage. Unable to reconnect.
+DlcHuntReconnectToRoom	Resume to the battle in Artemis Anchor's Co-op room?\nTap "Cancel" to reconnect to the battle through the Co-op room later.
+DlcHuntFightingPower	Battle Power: <color=#58c5cd>{0}</color>
+RiftAttributeTemplateName1	Default Plan
+RiftAttributeTemplateName2	A
+RiftAttributeTemplateName3	B
+RiftAttributeTemplateName4	C
+RiftAttributeTemplateName5	?
+RiftUnlockPluginName	Unknown
+RiftBuyAttrConst	Consume Points
+RiftNextAttrConst	Cost of Next Level:
+GuildDormSetThemeCd	Scene switchable in {0}
+ColorTableNoOpenTime	Not available yet. Unable to start challenge.
+ColorTableNoPassStage	Complete the previous stage and then start the challenge.
+ColorTableBreakFight	{0} challenge in progress. The progress will be lost, and the result calculation will immediately start if you end. End anyway?
+ColorTableCurObtain	Total: {0}
+ColorTableUnlockShopTips	Collect {0} Badge to unlock.
+ColorTableRoundTxt	Round {0}
+ColorTableLvTxt	Lv.: {0}
+ColorTableBurstSettleTip	Master(s) over Lv.6! The age of masters is triggered!
+ColorTableNoEnoughCostTxt	<color=#ff3f3f> {0} </color>
+ColorTableRollPointTxt	Obtained: {0} Paint +{1}
+ColorTableStudyLevelMaxDes	{0} work exhibition at max level
+ColorTableStudyLevelMaxTip	Reach the max level to point out a master's fatal flaw or suppress the master.
+ColorTableStudyLevelMaxMassage	Can reduce the master's level to Lv.1.
+ColorTableTipActionPoint	Obtain 5 Points each round to perform Actions.
+ColorTableTipEsayModeTitle	After it is enabled, tap the building to advance to or execute the building feature.
+ColorTableTipEsayMode	Too many options for art evaluation. The building window will still be open.
+ColorTableTipStudyData	Three-Color Paint:\nCan store up to 7 Points. Can be obtained by consuming Action Points in the Paint Workshop. Use it to raise the Rating Level or reduce the percentage of a Painting School.
+ColorTableEndDialogTitle	End
+ColorTableEndDialogContext	Unused Action Points. End anyway?
+ColorTableStartBossBattle	Challenge Boss
+ColorTableRollBossNormalTitle	Masterpiece
+ColorTableRollBossExplodeTitle	Burst of Inspiration
+ColorTableRollBossEpidemicTitle	Clash of Schools
+ColorTableNewRoundTxt	Round {0}
+ColorTableSettleWinTitle	<color=#{0}>{1}</color>
+ColorTableSettleWinTip	<color=#{0}>Tap Confirm to unlock the next phase.</color>
+ColorTableSettleLoseTitle	<color=#F8F8F8>All masters have reached Lv.6. Challenge failed.</color>
+ColorTableSettleLoseTip	<color=#A1A1A1>Bring the level of all masters down to Lv.4 and continue the challenge?\n(You will receive the same rewards by clearing the stage in Normal mode.)</color>
+ColorTableSettleHardLoseTip	<color=#F8F8F8>Challenge failed.\n(You cannot revive in the Hard mode.)</color>
+ColorTableShopTime	Remaining Time: <size=32><color=#34aff8> {0}</color></size>
+ColorTableChallengingTips	Challenge in progress. Unable to enter or select other stages.
+BrilliantWalkChapterUnlock	Unlocks after clearing Stage {0}
+BrilliantWalkStageUnlock	Unlocks after clearing Stage {0}
+BrilliantWalkStagelockMsg	The stage is still locked
+BrilliantWalkTrenchNotUnlock	Modification content is locked
+BrilliantWalkStageModuleActiveTipContent	Module not activated. Activate it?
+BrilliantWalkModuleActivated	Module activated
+BrilliantWalkModuleEquiped	Module already enabled in another slot.
+BrilliantWalkModuleDisactiveWarning	Disabling the module will <color=#c94141>disconnect</color> all circuits connected to it. Disable?
+BrilliantWalkModuleActiveWarning	Enabling the module will replace {0}. All connected circuits on {1} will all be <color=#c94141>disconnected</color>. Enable?
+BrilliantWalkQuickChangeWarning	Active {1} to connect to the second circuit in {0}.
+BrilliantWalkCancelChangeWarning	Are you sure you want to abandon the modification plan?
+BrilliantWalkResultWords	Trailblazer
+BrilliantWalkStageNotEnoughEnergy	Insufficient available ports
+BrilliantWalkStagePluginNotExist	Nonexistent modification content
+BrilliantWalkStagePluginNotUnlock	Modification content is locked
+BrilliantWalkStagePluginHasntRelatedTrenchId	No corresponding module slot found
+BrilliantWalkBossGameSetDifficultNormal	NORMAL
+BrilliantWalkBossGameSetDifficultHard	HARD
+BrilliantWalkChapterTime	Unlocks in {0}.
+BrilliantWalkChapterTimeTip	Chapter not yet available
+BrilliantWalkActivityNotOpen	Event is not available yet
+BrilliantWalkMaxPoint	(Max {0} Progress obtainable)
+AwarenessOccupyProgress	Sequence Pact Guard Progress: {0}/{1}
+DormQuestTerminalTeamTime	{0} left
+DormQuestTerminalLevelDesc	Lv.{0}
+DormQuestTerminalMaxLevel	Max level reached
+DormQuestTerminalNotUpgradeCondition	Upgrade requirement not met.
+DormQuestTerminalNotUpgradeItem	Insufficient upgrade items
+DormQuestTerminalStartUpgrade	System upgrade started.
+DormQuestTerminalUpgradeTime	Remaining: {0}
+DormQuestTerminalRecallTeamTitle	Recall Team
+DormQuestTerminalRecallTeamContent	You <color=#c94141>will not receive the Commission Reward</color> if you recall team instantly.\nRecall team?
+DormQuestTerminalDetailMemberCount	<color=#0F70BC>{0}</color> members required.
+DormQuestTerminalTeamMemberLimit	Team limit reached.
+DormQuestTerminalMemberNumber	Not enough members.
+DormQuestTerminalQuestAccept	Commission already accepted
+DormQuestTerminalSurpassTeamNumber	Exceeding the required team size.
+DormQuestTerminalMemberInTeam	Member in another team. Unable to select.
+DormQuestTerminalMemberInWork	Member doing chores. Unable to select.
+DormQuestTerminalQuestUpdate	Today's commissions refreshed.
+DormQuestTerminalTeamRegress	Team Returned
+DormQuestTerminalTeamFree	Idle Team
+DormQuestTerminalFinishQuestCount	<size=80>{0}</size><color=#000000>/{1}</color>
+DormQuestTerminalNextQuestRefreshTime	Next Commission Refresh in: <color=#1482E4>{0}</color>
+EquipResonancedLimit	Resonance is required to unlock the Hypertune feature.
+FubenMainLineActionPointLackTitle	Dimension Rerun Failure
+FubenMainLineActionPointLackContent	Insufficient Stamina. Unable to perform Dimension Rerun.
+RedColorValue	<color=#cb230f>({0}/{1})</color>
+AwarenessHintText	If <color=#ff0000>all</color> assigned members <color=#ff0000>meet</color> the recommended BP, you may <color=#ff0000>reboot</color> when you fail. (Max <color=#ff0000>10 reboots</color>)
+AwarenessTotalHarm	Extra DMG Bonus: {0}%
+AssignOccypyProgress	Border Pact Station Progress: {0}/{1}
+AutoTeamLimit	The stage already has progress. Unable to use Quick Deploy.
+AwarenessSelectIsUsed	Member is guarding another sequence.
+AwarenessOccupySuccess	Guarded
+AwarenessOccupyDesc	Challenge the sequence. Guard to increase the <color=#ff0000>Extra DMG Bonus</color>.
+AwarenessOccupyProgressOnCover	Guard Progress:
+AssignSendMemberCalled	Station Requirement
+AwarenessSendMemberCalled	Guard Requirement
+AwarenessFight	Sequence Pact Bonus
+VotingPeriod	Voting period
+StatisticalPeriod	Notice Period
+SkinNameVoteNotSelectButConfirm	Please select a name and then tap the Confirm button.
+SkinNameVoteSecondaryConfirmation	Your choice is subject to the official name of the Coating. Would you like to give it more thought?
+SkinNameVoteTip	Event Details
+AssignOccupyThisMember	Currently Stationing
+AssignOccupyOtherMember	Stationing in another area
+AwarenessOccupyThisMember	Currently Guarding
+AwarenessOccupyOtherMember	Guarding in another area
+SuperAwareness	Hypertune is only available when Memory is at max level and Resonnance Skill is unlocked
+ColorTableStudyDataTxt	{0} / {1}
+GuildBossOpenLimit	Event is not available. Please try again later.
 GWSelectDifficultyConfirmContentRecommend	Recommended Activity for this Difficulty is <color=#A52A2A>{0}</color>. Activity of the Command Bureau last round is {1}. Please make sure the Difficulty you select matches the number of active members in the Command Bureau. Continue?
 MultiDimFightExitTipTitle	Dead Characters
 ActivityRepeatChallengeChapterLockBtn	Unlock at Authority Lv.{0}
@@ -4266,6 +4520,8 @@ JPBlackCardFirstPurchaseGift	初回限定おまけ\n{0}
 JPBlackCardPurchaseGift	購入おまけ\n{0}
 JPReviewActivityButtonText	2nd Anniversary Review
 JPReviewActivityButton	Claim
+JPBuyTicketSuccessTips	購入しました、{0}を{1}枚獲得
+JPNoticeTypeTitle3	外部サイト
 DoomsdayNumberUp	<color=#0F70BC><size=28> (+{0})</size></color>
 DoomsdayNumberDown	<color=#E1504F><size=28> (-{0})</size></color>
 Draw01	Research drop chance as follows:
@@ -4326,3 +4582,8 @@ FavorabilityDropDownHKCV	Cantonese:
 ThousandEN	K
 MillionEN	M
 FavorabilityCastEN	CV:{0}
+GuildDormBgmExperienceExpire	Trial expired. Unable to select.
+GuildDormBgmEditExperienceExpire	Trial period for the songs of the list is over.
+GuildDormSceneTrialTime	Remaining time: {0}
+GuildDormSpecialThemeIdTips	Manual change of scenes is forbidden during special events.
+skinvotetimeshowen	01.18 - 01.23(utc)

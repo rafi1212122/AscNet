@@ -1,0 +1,10 @@
+Id	GroupId	Note	ConditionType	ConditionArg	ConditionState	ShowButtonName	ButtonType	ButtonArg	InteractPoint	BehaviorType
+1	1		0			Lay Down	1		1	SLEEP
+2	2		0			Sit	1		1	CHAIR
+3	3		0			Sit	1		1	BENCH
+4	4		0			Search	1		1	CABINET
+5	5		0			Set off Fireworks	1		1	FIREWORK
+101	100		0			Simulated Siege	2	84040	1	
+102	200		0			Player	2	85014	1	
+103	300		3	CONDITION_GUILD_SIGN_REWARD	1	Get an Oracle	2	88001	1	
+104	300		3	CONDITION_GUILD_SIGN_REWARD	0	Check Oracle	2	88001	1	
