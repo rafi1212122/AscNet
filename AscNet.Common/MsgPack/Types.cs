@@ -105,10 +105,17 @@ namespace AscNet.Common.MsgPack
     [MessagePackObject(true)]
     public partial class ResonanceInfo
     {
-        public long Slot { get; set; }
-        public long Type { get; set; }
-        public long CharacterId { get; set; }
-        public long TemplateId { get; set; }
+        public int Slot { get; set; }
+        public EquipResonanceType Type { get; set; }
+        public int CharacterId { get; set; }
+        public int TemplateId { get; set; }
+    }
+
+    public enum EquipResonanceType
+    {
+        Attrib = 1,
+        CharacterSkill = 2,
+        WeaponSkill = 3,
     }
 
     [MessagePackObject(true)]
@@ -345,15 +352,15 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class NotifyEquipChipAutoRecycleSite
     {
-        [global::MessagePack.MessagePackObject(true)]
-        public class NotifyEquipChipAutoRecycleSiteChipRecycleSite
-        {
-            public List<Int32> RecycleStar { get; set; } = new();
-            public Int32 Days { get; set; }
-            public Int32 SetRecycleTime { get; set; }
-        }
+        public ChipRecycleSite ChipRecycleSite { get; set; }
+    }
 
-        public NotifyEquipChipAutoRecycleSiteChipRecycleSite ChipRecycleSite { get; set; }
+    [global::MessagePack.MessagePackObject(true)]
+    public class ChipRecycleSite
+    {
+        public List<Int32> RecycleStar { get; set; } = new();
+        public Int32 Days { get; set; }
+        public Int32 SetRecycleTime { get; set; }
     }
 
 

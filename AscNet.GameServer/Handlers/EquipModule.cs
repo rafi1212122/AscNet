@@ -4,6 +4,7 @@ using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
 using AscNet.Table.V2.share.equip;
 using AscNet.Table.V2.share.item;
+using AscNet.Table.V2.share.attrib;
 using MessagePack;
 
 namespace AscNet.GameServer.Handlers
@@ -33,6 +34,25 @@ namespace AscNet.GameServer.Handlers
     public class EquipBreakthroughResponse
     {
         public int Code;
+    }
+
+    [MessagePackObject(true)]
+    public class EquipResonanceRequest
+    {
+        public int EquipId;
+        public int Slot;
+        public int? UseItemId;
+        public int? UseEquipId;
+        public int? SelectSkillId;
+        public int? CharacterId;
+        public EquipResonanceType? SelectType;
+    }
+
+    [MessagePackObject(true)]
+    public class EquipResonanceResponse
+    {
+        public int Code;
+        public ResonanceInfo ResonanceData;
     }
 
     [MessagePackObject(true)]
@@ -233,6 +253,79 @@ namespace AscNet.GameServer.Handlers
             }
 
             session.SendResponse(new EquipTakeOffResponse(), packet.Id);
+        }
+
+        // TODO: Swapping equip resonance is broken!
+        [RequestPacketHandler("EquipResonanceRequest")]
+        public static void EquipResonanceRequestHandler(Session session, Packet.Request packet)
+        {
+            EquipResonanceRequest request = packet.Deserialize<EquipResonanceRequest>();
+
+            var equip = session.character.Equips.Find(x => x.Id == request.EquipId);
+
+            if (equip is null)
+            {
+                // EquipManagerGetCharEquipBySiteNotFound
+                session.SendResponse(new EquipResonanceResponse() { Code = 20021012 }, packet.Id);
+                return;
+            }
+
+            #region Pools
+            EquipResonanceTable? equipResonance = TableReaderV2.Parse<EquipResonanceTable>().Find(x => x.Id == equip.TemplateId);
+            List<ResonanceInfo> resonancePool = new();
+            foreach (var attribPoolId in equipResonance?.AttribPoolId ?? [])
+            {
+                var attribPool = TableReaderV2.Parse<AttribPoolTable>().Where(x => x.PoolId == attribPoolId);
+                foreach (var attrib in attribPool)
+                {
+                    resonancePool.Add(new()
+                    {
+                        Slot = request.Slot,
+                        Type = EquipResonanceType.Attrib,
+                        TemplateId = attrib.Id
+                    });
+                }
+            }
+            foreach (var characterSkillPoolId in equipResonance?.CharacterSkillPoolId ?? [])
+            {
+                throw new NotImplementedException();
+            }
+            foreach (var weaponSkillPoolId in equipResonance?.WeaponSkillPoolId ?? [])
+            {
+                throw new NotImplementedException();
+            }
+            #endregion
+
+            if (request.UseItemId is not null && request.UseItemId > 0)
+            {
+                EquipResonanceUseItemTable? resonanceUseItem = TableReaderV2.Parse<EquipResonanceUseItemTable>().Find(x => x.Id == equip.TemplateId);
+                if (resonanceUseItem is not null)
+                {
+                    NotifyItemDataList notifyItemData = new();
+                    for (int i = 0; i < Math.Min(resonanceUseItem.ItemId.Count, resonanceUseItem.ItemCount.Count); i++)
+                    {
+                        notifyItemData.ItemDataList.Add(session.inventory.Do(resonanceUseItem.ItemId[i], resonanceUseItem.ItemCount[i] * -1));
+                    }
+
+                    session.SendPush(notifyItemData);
+                }
+                else
+                {
+                    session.log.Error($"EquipResonanceUseItem for template {equip.TemplateId} not found!");
+                    // EquipResonanceUseItemTemplateNotFound
+                    session.SendResponse(new EquipResonanceResponse() { Code = 20021038 }, packet.Id);
+                    return;
+                }
+            }
+            else if (request.UseEquipId is not null && request.UseEquipId > 0)
+            {
+                throw new NotImplementedException();
+            }
+
+            ResonanceInfo resonance = resonancePool[Random.Shared.Next(resonancePool.Count)];
+            equip.ResonanceInfo.Add(resonance);
+
+            session.SendResponse(new EquipResonanceResponse() { ResonanceData = resonance }, packet.Id);
         }
     }
 }
