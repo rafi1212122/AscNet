@@ -255,7 +255,7 @@ namespace AscNet.GameServer.Handlers
             session.SendResponse(new EquipTakeOffResponse(), packet.Id);
         }
 
-        // TODO: Swapping equip resonance is broken!
+        // TODO: Swapping equip resonance is broken, this is only partially implemented!
         [RequestPacketHandler("EquipResonanceRequest")]
         public static void EquipResonanceRequestHandler(Session session, Packet.Request packet)
         {

@@ -77,7 +77,7 @@ namespace AscNet.Common.Database
                 throw new ServerCodeException("Character already obtained!", 20009022);
             }
             
-            NotifyCharacterDataList.CharacterData characterData = new()
+            CharacterData characterData = new()
             {
                 Id = (uint)character.Id,
                 Level = 1,
@@ -100,7 +100,7 @@ namespace AscNet.Common.Database
             };
 
             // TODO: Don't do the ToString, query skill properly pls.
-            characterData.SkillList.AddRange(characterSkill.SkillGroupId.Take(8).Select(x => new NotifyCharacterDataList.CharacterData.CharacterSkill()
+            characterData.SkillList.AddRange(characterSkill.SkillGroupId.Take(8).Select(x => new CharacterSkill()
             {
                 Id = uint.Parse(x.ToString().Take(6).ToArray()),
                 Level = 1
@@ -121,7 +121,7 @@ namespace AscNet.Common.Database
             return ret;
         }
 
-        public NotifyCharacterDataList.CharacterData? AddCharacterExp(int characterId, int exp, int maxLvl = 0)
+        public CharacterData? AddCharacterExp(int characterId, int exp, int maxLvl = 0)
         {
             var characterData = TableReaderV2.Parse<CharacterTable>().FirstOrDefault(x => x.Id == characterId);
             var character = Characters.FirstOrDefault(x => x.Id == characterId);
@@ -153,7 +153,7 @@ namespace AscNet.Common.Database
             return character;
         }
 
-        public UpgradeCharacterSkillResult UpgradeCharacterSkillGroup(uint skillGroupId, int count)
+        public UpgradeCharacterSkillResult UpgradeCharacterSkillGroup(int skillGroupId, int count)
         {
             List<uint> affectedCharacters = new();
             int totalCoinCost = 0;
@@ -257,7 +257,7 @@ namespace AscNet.Common.Database
 
         [BsonElement("characters")]
         [BsonRequired]
-        public List<NotifyCharacterDataList.CharacterData> Characters { get; set; }
+        public List<CharacterData> Characters { get; set; }
         
         [BsonElement("equips")]
         [BsonRequired]
@@ -307,7 +307,7 @@ namespace AscNet.Common.Database
 
     public struct AddCharacterRet
     {
-        public NotifyCharacterDataList.CharacterData Character { get; set; }
+        public CharacterData Character { get; set; }
         public EquipData Equip { get; set; }
         public FashionList Fashion { get; set; }
     }

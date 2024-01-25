@@ -38,7 +38,7 @@ namespace AscNet.GameServer.Handlers
                 session.player.PlayerData.DisplayCharIdList.Add(request.CharId);
             }
 
-            NotifyCharacterDataList.CharacterData? character = session.character.Characters.Find(x => x.Id == request.CharId);
+            CharacterData? character = session.character.Characters.Find(x => x.Id == request.CharId);
             if (character is not null && character.FashionId != request.FashionId && TableReaderV2.Parse<FashionTable>().Any(x => x.CharacterId == request.CharId && x.Id == request.FashionId))
             {
                 character.FashionId = (uint)request.FashionId;

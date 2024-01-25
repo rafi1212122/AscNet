@@ -2503,7 +2503,7 @@ namespace AscNet.Common.MsgPack
     [global::MessagePack.MessagePackObject(true)]
     public class CharacterUpgradeSkillGroupRequest
     {
-        public UInt32 SkillGroupId { get; set; }
+        public Int32 SkillGroupId { get; set; }
         public Int32 Count { get; set; }
     }
 
@@ -2514,43 +2514,43 @@ namespace AscNet.Common.MsgPack
     }
 
     [global::MessagePack.MessagePackObject(true)]
+    public class CharacterSkill
+    {
+        public UInt32 Id { get; set; }
+        public Int32 Level { get; set; }
+    }
+
+    [global::MessagePack.MessagePackObject(true)]
+    public class CharacterData
+    {
+        public UInt32 Id { get; set; }
+        public Int32 Level { get; set; }
+        public UInt32 Exp { get; set; }
+        public Int32 Quality { get; set; }
+        public Int32 InitQuality { get; set; }
+        public Int32 Star { get; set; }
+        public Int32 Grade { get; set; }
+        public List<CharacterSkill> SkillList { get; set; } = new();
+        public List<CharacterSkill> EnhanceSkillList { get; set; } = new();
+        public UInt32 FashionId { get; set; }
+        public Int64 CreateTime { get; set; }
+        public Int32 TrustLv { get; set; }
+        public Int32 TrustExp { get; set; }
+        public Int32 Ability { get; set; }
+        public Int32 LiberateLv { get; set; }
+
+        [global::MessagePack.MessagePackObject(true)]
+        public class CharacterHead
+        {
+            public UInt32 HeadFashionId { get; set; }
+            public Int32 HeadFashionType { get; set; }
+        }
+        public CharacterHead CharacterHeadInfo { get; set; }
+    }
+
+    [global::MessagePack.MessagePackObject(true)]
     public class NotifyCharacterDataList
     {
-        [global::MessagePack.MessagePackObject(true)]
-        public class CharacterData
-        {
-            public UInt32 Id { get; set; }
-            public Int32 Level { get; set; }
-            public UInt32 Exp { get; set; }
-            public Int32 Quality { get; set; }
-            public Int32 InitQuality { get; set; }
-            public Int32 Star { get; set; }
-            public Int32 Grade { get; set; }
-            [global::MessagePack.MessagePackObject(true)]
-            public class CharacterSkill
-            {
-                public UInt32 Id { get; set; }
-                public Int32 Level { get; set; }
-            }
-
-            public List<CharacterSkill> SkillList { get; set; } = new();
-            public List<dynamic> EnhanceSkillList { get; set; } = new();
-            public UInt32 FashionId { get; set; }
-            public Int64 CreateTime { get; set; }
-            public Int32 TrustLv { get; set; }
-            public Int32 TrustExp { get; set; }
-            public Int32 Ability { get; set; }
-            public Int32 LiberateLv { get; set; }
-            [global::MessagePack.MessagePackObject(true)]
-            public class CharacterHead
-            {
-                public UInt32 HeadFashionId { get; set; }
-                public Int32 HeadFashionType { get; set; }
-            }
-
-            public CharacterHead CharacterHeadInfo { get; set; }
-        }
-
         public List<CharacterData> CharacterDataList { get; set; } = new();
     }
 

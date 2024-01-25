@@ -1,6 +1,5 @@
 ﻿using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
-using static AscNet.Common.MsgPack.NotifyCharacterDataList;
 using AscNet.Common.Util;
 using AscNet.Common;
 using AscNet.Table.V2.share.fuben;
@@ -249,7 +248,7 @@ namespace AscNet.GameServer.Handlers
                             InitQuality = robot.CharacterQuality,
                             Star = robot.CharacterStar,
                             Grade = robot.CharacterGrade,
-                            SkillList = skills.Where(x => !robot.RemoveSkillId.Contains(x)).Select(x => new CharacterData.CharacterSkill() { Id = (uint)x, Level = Math.Min(robot.SkillLevel, TableReaderV2.Parse<CharacterSkillLevelEffectTable>().OrderByDescending(x => x.Level).FirstOrDefault(y => y.SkillId == x)?.Level ?? 1) }).ToList(),
+                            SkillList = skills.Where(x => !robot.RemoveSkillId.Contains(x)).Select(x => new CharacterSkill() { Id = (uint)x, Level = Math.Min(robot.SkillLevel, TableReaderV2.Parse<CharacterSkillLevelEffectTable>().OrderByDescending(x => x.Level).FirstOrDefault(y => y.SkillId == x)?.Level ?? 1) }).ToList(),
                             FashionId = (uint)robot.FashionId,
                             CreateTime = 0,
                             TrustLv = 1,
