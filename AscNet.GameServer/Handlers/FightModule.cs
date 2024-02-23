@@ -132,6 +132,18 @@ namespace AscNet.GameServer.Handlers
     }
 
     [MessagePackObject(true)]
+    public class EnterStoryRequest
+    {
+        public int StageId { get; set; }
+    }
+
+    [MessagePackObject(true)]
+    public class EnterStoryResponse
+    {
+        public int Code { get; set; }
+    }
+
+    [MessagePackObject(true)]
     public class FightRebootRequest
     {
         public int FightId { get; set; }
@@ -275,6 +287,32 @@ namespace AscNet.GameServer.Handlers
         {
             FightRebootRequest req = MessagePackSerializer.Deserialize<FightRebootRequest>(packet.Content);
             session.SendResponse(new FightRebootResponse(), packet.Id);
+        }
+
+        [RequestPacketHandler("EnterStoryRequest")]
+        public static void HandleEnterStoryRequestHandler(Session session, Packet.Request packet)
+        {
+            EnterStoryRequest req = packet.Deserialize<EnterStoryRequest>();
+
+            StageDatum stageData = new()
+            {
+                StageId = req.StageId,
+                StarsMark = 7,
+                Passed = true,
+                PassTimesToday = 0,
+                PassTimesTotal = 1,
+                BuyCount = 0,
+                Score = 0,
+                LastPassTime = (uint)DateTimeOffset.Now.ToUnixTimeSeconds(),
+                RefreshTime = (uint)DateTimeOffset.Now.ToUnixTimeSeconds(),
+                CreateTime = (uint)DateTimeOffset.Now.ToUnixTimeSeconds(),
+                BestRecordTime = 0,
+                LastRecordTime = 0
+            };
+            session.stage.AddStage(stageData);
+
+            session.SendPush(new NotifyStageData() { StageList = [stageData] });
+            session.SendResponse(new EnterStoryResponse(), packet.Id);
         }
 
         [RequestPacketHandler("TeamSetTeamRequest")]

@@ -234,6 +234,14 @@ namespace AscNet.GameServer.Handlers
                 },
                 BossInfo = new()
             });
+            session.SendPush(new NotifyTaskData()
+            {
+                TaskData = new()
+                {
+                    NewbieHonorReward = false,
+                    NewbieUnlockPeriod = 7
+                }
+            });
 
             #region DisclamerMail
             NotifyMails notifyMails = new();
