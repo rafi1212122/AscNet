@@ -1,64 +1,64 @@
-Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic
-13060104		2	0.3				0			4			2						999						FxR2NuoanAtk01		-1			1																								0																		2		0																	
-13060105		2	0.3				0			4			2						999						FxR2NuoanAtk01Dilie		-1			1																								0																		0		0																	
-13060206		2	0.3				0			4			2						999						FxR2NuoanAtk02		-1			1																								0																		0		0																	
-13060305		2	0.3				0			4			1.2						999						FxR2NuoanAtk0301		-1			1																								0																		2		0																	
-13060306		2	0.3				0			4			1						999						FxR2NuoanAtk0302		-1			1																								0																		2		0																	
-13060406		2	0.3				0			4			1.2						999						FxR2NuoanAtk0301		-1			1																								0																		0		0																	
-13060407		2	0.3			0	0			4			1						999						FxR2NuoanAtk0302		-1			1																								0																		1		0																	
-13060418		2	0.3				0			4			2						999						FxR2NuoanAtk04		-1			1																								0																		1		0																	
-13060505		2	0.3				0			4			2						999						FxR2NuoanAtk0501		-1			1																								0																		2		0																	
-13060506		2	0.3				0			4			2						999						FxR2NuoanAtk0501Dilie		-1			1																								0																				0																	
-13060507		2	0.3				0			4			2						999						FxR2NuoanAtk0502		-1			1																								0																				0																	
-13060508		2	0.3				0			4			2						999						FxR2NuoanAtk0502Dilie		-1			1																								0																				0																	
-13060605		2	0.3				0			4			2						999						FxR2NuoanAtk06Xuli		-1			1																								0																		2		0																	
-13060606		2	0.3				0			4			2						999						FxR2NuoanAtk06		-1			1																								0																				0																	
-13060607		2	0.3				0			4			2						999						FxR2NuoanAtk06Dilie		-1			1																								0																				0																	
-13060709		2	0.3				0			4			2						999						FxR2NuoanAtk1201		-1			1																								0																		2		0																	
-13060710		2	0.3				0			4			2						999						FxR2NuoanAtk1202		-1			1																								0																		2		0																	
-13060711		2	0.3				0			4			2						999						FxR2NuoanAtk1203Dilie		-1			1																								0																		0		0																	
-13060712		2	0.3				0			4			2						999						FxR2NuoanAtk1204		-1			1																								0																		2		0																	
-13060809		2	0.3				0			4			2						999						FxR2NuoanAtk1201		-1			1																								0																		2		0																	
-13060810		2	0.3				0			4			2						999						FxR2NuoanAtk1202		-1			1																								0																		2		0																	
-13060811		2	0.3				0			4			2						999						FxR2NuoanAtk1203Dilie		-1			1																								0																		0		0																	
-13060812		2	0.3				0			4			2						999						FxR2NuoanAtk1204		-1			1																								0																		2		0																	
-13060909		2	0.3				0			4			2						999						FxR2NuoanAtk1201		-1			1																								0																		2		0																	
-13060910		2	0.3				0			4			2						999						FxR2NuoanAtk1202		-1			1																								0																		2		0																	
-13060911		2	0.3				0			4			2						999						FxR2NuoanAtk1203Dilie		-1			1																								0																		0		0																	
-13060912		2	0.3				0			4			2						999						FxR2NuoanAtk1204		-1			1																								0																		2		0																	
-13061006		2	0.3				0			4			10						999						FxR2NuoanAtk22		-1			1																								0																		1		0																	
-13061007		2	0.3			0	0			4			10						999						FxR2NuoanAtk22Dilie		-1			1																								0																				0																	
-13061106		2	0.3				0			4			10						999						FxR2NuoanAtk22		-1			1																								0																		1		0																	
-13061107		2	0.3			0	0			4			10						999						FxR2NuoanAtk22Dilie		-1			1																								0																				0																	
-13061205		2	0.3				0			4			10						999						FxR2NuoanAtk22		-1			1																								0																		1		0																	
-13061206		2	0.3			0	0			4			10						999						FxR2NuoanAtk22Dilie		-1			1																								0																				0																	
-13061304		2	0.3				0			4			10						999						FxR2NuoanAtk32		-1			1																								0																		1		0																	
-13061404		2	0.3				0			4			10						999						FxR2NuoanAtk32		-1			1																								0																		1		0																	
-13061504		2	0.3				0			4			10						999						FxR2NuoanAtk32		-1			1																								0																		1		0																	
-13061604		2	0.3			-1.5	0			4			2						999						FxR2NuoanMove1		-1			1																								0															-0.15			0		0																	
-13061704		2	0.3				0			4			2						999						FxR2NuoanMove2		-1			1																								0																		0		0																	
-13061809		2	0.3				0			4			2						999						FxR2NuoanAtk4101		-1			1																								0																		1		0																	
-13061810		2	0.3				0			4			2						999						FxR2NuoanAtk4102		-1			1																								0																		1		0																	
-13061811		2	0.3				0			4			2						999						FxR2NuoanAtk41Dimian		-1			1																								0																				0																	
-13061912		2	0.3			-0.5	0			4			2						999						FxR2NuoanAtk42		-1			1																								0																		1		0																	
-13061913		2	0.3				0			4			2						999						FxR2NuoanAtk42Dilie		-1			1																								0																				0																	
-13062018		2	0.3				0			4			0.5						999						FxR2NuoanAtk43Out		-1			1																								0																		1		0																	
-13062020		2	0.3			1	0			4			2						999						FxR2NuoanAtk4301		-1			1																								0																		0		0																	
-13062021		2	0.3			1	0			4			2						999						FxR2NuoanAtk4301Dilie		-1			1																								0																				0																	
-13062022		2	0.3				0			4			2						999						FxR2NuoanAtk4302		-1			1																								0																		0		0																	
-13062105		2	0.3				0			4			2						999						FxR2NuoanAtkQTEdilie		-1			1																								0																		0		0																	
-13062107		2	0.3				0			4			10						999						FxQte		-1			1																								0																				0																	
-13062108		2	0.3				0			4			10						999						FxQte		-1			1																								0																				0																	
-13062210		2	0.3				0			4			10						999						FxR2NuoanAtk5101		-1			1																								0																				0																	
-13062211		2	0.3				0			4			10						999						FxR2NuoanAtk5102		-1			1																								0																				0																	
-13062309		2	0.3				0			4			2						999						FxR2NuoanAtk1201		-1			1																								0																		2		0																	
-13062310		2	0.3				0			4			2						999						FxR2NuoanAtk1202		-1			1																								0																		2		0																	
-13062311		2	0.3				0			4			2						999						FxR2NuoanAtk1203Dilie		-1			1																								0																		0		0																	
-13062312		2	0.3				0			4			2						999						FxR2NuoanAtk1204		-1			1																								0																		2		0																	
-13062833		2	0.3				0			4			1						999						FxR2NuoanExecutioner0101		-1			1																								0																				0																	
-13062834		2	0.3			0.7	0			4			1						999						FxR2NuoanExecutioner0102		-1			1																								0																				0																	
-13062835		2	0.3			1	0			4			1						999						FxR2NuoanExecutioner0103		-1			1																								0																				0																	
-13062933		2	0.3				0			4			1						999						FxR2NuoanExecutioner0101		-1			1																								0																				0																	
-13062934		2	0.3			0.7	0			4			1						999						FxR2NuoanExecutioner0102		-1			1																								0																				0																	
-13062935		2	0.3			1	0			4			1						999						FxR2NuoanExecutioner0103		-1			1																								0																				0																	
-13063017		2	0.3				0			4			2						999						FxR2NuoanExecutioner03Bao		-1			1																								0																				0																	
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType	FollowHeightJoint	BindLauncherFrame	BindSkillFrame
+13060104		2	0.3				0			4			2						999						FxR2NuoanAtk01		-1			1																								0																		2		0																					
+13060105		2	0.3				0			4			2						999						FxR2NuoanAtk01Dilie		-1			1																								0																		0		0																					
+13060206		2	0.3				0			4			2						999						FxR2NuoanAtk02		-1			1																								0																		0		0																					
+13060305		2	0.3				0			4			1.2						999						FxR2NuoanAtk0301		-1			1																								0																		2		0																					
+13060306		2	0.3				0			4			1						999						FxR2NuoanAtk0302		-1			1																								0																		2		0																					
+13060406		2	0.3				0			4			1.2						999						FxR2NuoanAtk0301		-1			1																								0																		0		0																					
+13060407		2	0.3			0	0			4			1						999						FxR2NuoanAtk0302		-1			1																								0																		1		0																					
+13060418		2	0.3				0			4			2						999						FxR2NuoanAtk04		-1			1																								0																		1		0																					
+13060505		2	0.3				0			4			2						999						FxR2NuoanAtk0501		-1			1																								0																		2		0																					
+13060506		2	0.3				0			4			2						999						FxR2NuoanAtk0501Dilie		-1			1																								0																				0																					
+13060507		2	0.3				0			4			2						999						FxR2NuoanAtk0502		-1			1																								0																				0																					
+13060508		2	0.3				0			4			2						999						FxR2NuoanAtk0502Dilie		-1			1																								0																				0																					
+13060605		2	0.3				0			4			2						999						FxR2NuoanAtk06Xuli		-1			1																								0																		2		0																					
+13060606		2	0.3				0			4			2						999						FxR2NuoanAtk06		-1			1																								0																				0																					
+13060607		2	0.3				0			4			2						999						FxR2NuoanAtk06Dilie		-1			1																								0																				0																					
+13060709		2	0.3				0			4			2						999						FxR2NuoanAtk1201		-1			1																								0																		2		0																					
+13060710		2	0.3				0			4			2						999						FxR2NuoanAtk1202		-1			1																								0																		2		0																					
+13060711		2	0.3				0			4			2						999						FxR2NuoanAtk1203Dilie		-1			1																								0																		0		0																					
+13060712		2	0.3				0			4			2						999						FxR2NuoanAtk1204		-1			1																								0																		2		0																					
+13060809		2	0.3				0			4			2						999						FxR2NuoanAtk1201		-1			1																								0																		2		0																					
+13060810		2	0.3				0			4			2						999						FxR2NuoanAtk1202		-1			1																								0																		2		0																					
+13060811		2	0.3				0			4			2						999						FxR2NuoanAtk1203Dilie		-1			1																								0																		0		0																					
+13060812		2	0.3				0			4			2						999						FxR2NuoanAtk1204		-1			1																								0																		2		0																					
+13060909		2	0.3				0			4			2						999						FxR2NuoanAtk1201		-1			1																								0																		2		0																					
+13060910		2	0.3				0			4			2						999						FxR2NuoanAtk1202		-1			1																								0																		2		0																					
+13060911		2	0.3				0			4			2						999						FxR2NuoanAtk1203Dilie		-1			1																								0																		0		0																					
+13060912		2	0.3				0			4			2						999						FxR2NuoanAtk1204		-1			1																								0																		2		0																					
+13061006		2	0.3				0			4			10						999						FxR2NuoanAtk22		-1			1																								0																		1		0																					
+13061007		2	0.3			0	0			4			10						999						FxR2NuoanAtk22Dilie		-1			1																								0																				0																					
+13061106		2	0.3				0			4			10						999						FxR2NuoanAtk22		-1			1																								0																		1		0																					
+13061107		2	0.3			0	0			4			10						999						FxR2NuoanAtk22Dilie		-1			1																								0																				0																					
+13061205		2	0.3				0			4			10						999						FxR2NuoanAtk22		-1			1																								0																		1		0																					
+13061206		2	0.3			0	0			4			10						999						FxR2NuoanAtk22Dilie		-1			1																								0																				0																					
+13061304		2	0.3				0			4			10						999						FxR2NuoanAtk32		-1			1																								0																		1		0																					
+13061404		2	0.3				0			4			10						999						FxR2NuoanAtk32		-1			1																								0																		1		0																					
+13061504		2	0.3				0			4			10						999						FxR2NuoanAtk32		-1			1																								0																		1		0																					
+13061604		2	0.3			-1.5	0			4			2						999						FxR2NuoanMove1		-1			1																								0															-0.15			0		0																					
+13061704		2	0.3				0			4			2						999						FxR2NuoanMove2		-1			1																								0																		0		0																					
+13061809		2	0.3				0			4			2						999						FxR2NuoanAtk4101		-1			1																								0																		1		0																					
+13061810		2	0.3				0			4			2						999						FxR2NuoanAtk4102		-1			1																								0																		1		0																					
+13061811		2	0.3				0			4			2						999						FxR2NuoanAtk41Dimian		-1			1																								0																				0																					
+13061912		2	0.3			-0.5	0			4			2						999						FxR2NuoanAtk42		-1			1																								0																		1		0																					
+13061913		2	0.3				0			4			2						999						FxR2NuoanAtk42Dilie		-1			1																								0																				0																					
+13062018		2	0.3				0			4			0.5						999						FxR2NuoanAtk43Out		-1			1																								0																		1		0																					
+13062020		2	0.3			1	0			4			2						999						FxR2NuoanAtk4301		-1			1																								0																		0		0																					
+13062021		2	0.3			1	0			4			2						999						FxR2NuoanAtk4301Dilie		-1			1																								0																				0																					
+13062022		2	0.3				0			4			2						999						FxR2NuoanAtk4302		-1			1																								0																		0		0																					
+13062105		2	0.3				0			4			2						999						FxR2NuoanAtkQTEdilie		-1			1																								0																		0		0																					
+13062107		2	0.3				0			4			10						999						FxQte		-1			1																								0																				0																					
+13062108		2	0.3				0			4			10						999						FxQte		-1			1																								0																				0																					
+13062210		2	0.3				0			4			10						999						FxR2NuoanAtk5101		-1			1																								0																				0																					
+13062211		2	0.3				0			4			10						999						FxR2NuoanAtk5102		-1			1																								0																				0																					
+13062309		2	0.3				0			4			2						999						FxR2NuoanAtk1201		-1			1																								0																		2		0																					
+13062310		2	0.3				0			4			2						999						FxR2NuoanAtk1202		-1			1																								0																		2		0																					
+13062311		2	0.3				0			4			2						999						FxR2NuoanAtk1203Dilie		-1			1																								0																		0		0																					
+13062312		2	0.3				0			4			2						999						FxR2NuoanAtk1204		-1			1																								0																		2		0																					
+13062833		2	0.3				0			4			1						999						FxR2NuoanExecutioner0101		-1			1																								0																				0																					
+13062834		2	0.3			0.7	0			4			1						999						FxR2NuoanExecutioner0102		-1			1																								0																				0																					
+13062835		2	0.3			1	0			4			1						999						FxR2NuoanExecutioner0103		-1			1																								0																				0																					
+13062933		2	0.3				0			4			1						999						FxR2NuoanExecutioner0101		-1			1																								0																				0																					
+13062934		2	0.3			0.7	0			4			1						999						FxR2NuoanExecutioner0102		-1			1																								0																				0																					
+13062935		2	0.3			1	0			4			1						999						FxR2NuoanExecutioner0103		-1			1																								0																				0																					
+13063017		2	0.3				0			4			2						999						FxR2NuoanExecutioner03Bao		-1			1																								0																				0																					

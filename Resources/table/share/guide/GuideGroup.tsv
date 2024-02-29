@@ -156,10 +156,10 @@ Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	C
 60204	60204	0	Cultural Festival 2.0 Parkour Guide	1	84601200			60204	UiMoeWarParkourMain	0	60204
 60211	60211	0	Auto Chess 3.0 Main Interface Guide	1	775100			60211	UiExpeditionMain	0	60211
 60221	60221	0	Guild Dormitory Hall Guide	1	852731			60221	UiGuildDormMain	0	60221
-60231	60231	0	Ultimate Brawl 2.0 Mode Guide	1	84601800			60231	UiSuperSmashBrosMain	0	60231
-60232	60232	0	Ultimate Brawl 2.0 Scenario Guide	1	84601800			60232	UiSuperSmashBrosSelectStage	0	60232
-60233	60233	0	Ultimate Brawl 2.0 Edit Team Guide	1	84601800			60233	UiSuperSmashBrosPick	0	60233
-60234	60234	0	Ultimate Brawl 2.0 Member Preparation Guide	1	84601800			60234	UiSuperSmashBrosCharacter	0	60234
+60231	60231	1	Ultimate Brawl 2.0 Mode Guide	1	84601800			60231	UiSuperSmashBrosMain	0	60231
+60232	60232	1	Ultimate Brawl 2.0 Scenario Guide	1	84601800			60232	UiSuperSmashBrosSelectStage	0	60232
+60233	60233	1	Ultimate Brawl 2.0 Edit Team Guide	1	84601800			60233	UiSuperSmashBrosPick	0	60233
+60234	60234	1	Ultimate Brawl 2.0 Member Preparation Guide	1	84601800			60234	UiSuperSmashBrosCharacter	0	60234
 60301	60301	0	Guide - Guild Simulated Siege	1	772310	1002234		60301	UiGuildBossStage	0	60301
 60302	60302	0	Guide - Guild Simulated Siege Difficulty Selection	1	772310	1002234		60302	UiGuildBossDiff	0	60302
 60303	60303	0	Guide - Guild Simulated Siege School Selection	1	772310	1002234		60303	UiGuildBossSelectStyle	0	60303
@@ -181,11 +181,15 @@ Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	C
 60404	60404	0	Guide: Roguelike 2.0 Mode Interface	1	1002036			60404	UiBiancaTheatrePlayMain	0	60404
 60405	60405	0	Guide: Roguelike 2.0 First Result Calculation	1	1002036			60405	UiBiancaTheatreMain	0	60405
 60406	60406	0	Guide: Roguelike 2.0 Skill Ability	1	1002036			60406	UiBiancaTheatreSkill	0	60406
+60407	60407	0	Guide: Roguelike 2.0 Achievement System	1	1002036	860407		60407	UiBiancaTheatreMain	0	60407
+60408	60408	0	Guide: Roguelike 2.0 Insight System	1	1002036	1005048		60408	UiBiancaTheatrePlayMain	0	60408
 60411	60411	0	Guide: Double Seventh Festival poker guessing	1	774800			60411	UiFubenPokerGuessing	0	60411
-60421	60421	0	Guide: Guild Expedition 2.0 Interface Entrance	1	852731	1002105		60421	UiGuildMain|UiGuildDormMain	0	60421
-60422	60422	0	Guide: Guild Expedition 2.0 Mode Interface	1	852731	1002105		60422	UiGuildWarStageMain	0	60422
+60421	60421	0	Guide: Guild Expedition 2.0 Interface Entrance	1	852731	1002110		60421	UiGuildMain|UiGuildDormMain	0	60421
+60422	60422	0	Guide: Guild Expedition 2.0 Mode Interface	1	852731	1002110		60422	UiGuildWarStageMain	0	60422
 60423	60423	0	Guide: Guild Expedition 2.0 Support Construct	1	852731			60423	UiGuildWarSupport	0	60423
-60424	60424	0	Guide: Guild Expedition 2.0 Boss Challenge	1	852731			60424	UiGuildWarBossStageDetail	0	60424
+60424	60424	1	Guide: Guild Expedition 2.0 Boss Challenge	1	852731			60424	UiGuildWarBossStageDetail	0	60424
+60425	60425	0	Guide: Guild Expedition 3.0 Boss Challenge	1	852731	1002110		60425	UiGuildWarTwinsPanel	0	60425
+60426	60426	0	Guide: Guild Expedition 3.0 Hidden Node	1	852731	1002110		60426	UiGuildWarConcealStageDetail	0	60426
 60501	60501	0	Circuit Connect 3.0 battle guide	1	774800	771000		59011	UiSameColorGameBattle	0	60501
 60511	60511	0	Rpg 5.0 main screen guide	1	774800			60511	UiRpgTowerNewMain	0	60511
 60601	60601	0	Guide Spectroscopic Binary Star 3.0 Main Interface	1	8005			60601	UiCoupleCombatChapter	0	60601
@@ -211,4 +215,22 @@ Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	C
 60731	60731	0	Guide Blazing Trails Main Page	1	774800			60731	UiBrilliantWalkMain	0	60731
 60732	60732	0	Guide Blazing Trails Main Page Modification	1	774800	860732		60732	UiBrilliantWalkMain	0	60732
 60741	60741	0	Guide Main Page Switch Scene	1	860741	860740		60741	UiMain	0	60741
+60801	60801	0	Guide: Ultimate Brawl Mode 3.0 Gameplay	1	84601800			60801	UiSuperSmashBrosMain	0	60801
+60802	60802	0	Guide: Ultimate Brawl Mode 3.0 Scene	1	84601800			60802	UiSuperSmashBrosSelectStage	0	60802
+60803	60803	0	Guide: Ultimate Brawl 3.0 Member Preparation	1	84601800			60803	UiSuperSmashBrosCharacter	0	60803
+60804	60804	0	Guide: Ultimate Brawl 3.0 Emergency Dispatch	1	84601800	860810		60804	UiSuperSmashBrosMain	0	60804
+60805	60805	0	Guide: Ultimate Brawl 3.0 Emergency Dispatch Preparation Interface	1	84601800	860810	860811	60805	UiSuperSmashBrosReady	0	60805
+60811	60811	0	Guide: Corrupted Battlefront 2.0 Gameplay	1	774800			60811	UiMaverick2Main	0	60811
+60812	60812	0	Guide: Corrupted Battlefront 2.0 Chapter Interface	1	774800			60812	UiMaverick2Explore	0	60812
+60813	60813	0	Guide: Corrupted Battlefront 2.0 Mind Allocation	1	774800	860813		60813	UiMaverick2Explore	0	60813
+60814	60814	0	Guide: Corrupted Battlefront 2.0 Daily Stages	1	774800	860814		60814	UiMaverick2Explore	0	60814
+60821	60821	0	Guide: DLC Hunting Mode Tutorial Stage	1	30406			60821	UiDlcHuntMain	0	60821
+60822	60822	0	Guide: DLC Hunting Mode Tutorial Main Interface	1	30406			60822	UiDlcHuntMain	0	60822
+60823	60823	0	Guide: DLC Hunting Mode Tutorial Chip Equipment	1	860823	860824	860825	60823	UiDlcHuntMain	0	60823
+60831	60831	0	Guide: Punishing: Gray Raven Restaurant Main Interface	1	774800			60831	UiRestaurantMain	0	60831
+60832	60832	0	Guide: Punishing: Gray Raven Restaurant Ingredient Area	1	774800			60832	UiRestaurantMain	0	60831
+60833	60833	0	Guide: Punishing: Gray Raven Restaurant Service Area	1	774800			60833	UiRestaurantMain	0	60831
+60834	60834	0	Guide: Punishing: Gray Raven Restaurant Staff Interface	1	774800			60834	UiRestaurantCook	0	60834
+60835	60835	0	Guide: Punishing: Gray Raven Restaurant Hot Seller Interface	1	774800			60835	UiRestaurantRecommend	0	60835
+60836	60836	0	Guide: Punishing: Gray Raven Restaurant Upgrade	1	774800			60836	UiRestaurantHire	0	60836
 280011	280011	0	英文服PC端预设键位调整说明引导	1	3000000	3000001		280011	UiMain	0	280011

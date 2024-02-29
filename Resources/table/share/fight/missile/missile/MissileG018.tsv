@@ -1,263 +1,319 @@
-Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
-96010800	齿轮射击预警	2	1.5				0			4			1.5						-1						FxYujing1M15S		-1			1	0				0	0	0										1	1		1	96010801			0	3														0.1	HitCase	1	0		1				0														
-96010801	齿轮射击弹道	2	0.1				0			4			1						-1						FxMe1UnknownDandao		-1			1					0	0	0										3	0.5		1	96010802			1	3		0.3	0.1	960108011	745006	745002	745004							0	HitCase		0		1				0														
-96010802	齿轮射击伤害	2	1.5				0			4			15						-1	1			0.3		FxMe1UnknownBaozha		-1			1					0	0	0										3							0	3					745001	745011								0.1	HitCase		0		1				0														
-96010803	万事狙击表演子弹	2	1.2				0			4			0.5						1		FxR2WanshiAtk31Hit				FxR2WanshiAtk31Hit		1			1					0	0	0										1							0	3					745000	745003	745005							0.1	HitCase		0		1				0														
-96010804	万事狙击空子弹	2	1				0			4			0.5						1		FxR2WanshiAtk12Hit01				FxR2WanshiAtk12Hit01		1			1					0	0	0										1							0	3														2	HitCase		0		1				0														
-96010805	救护车爆炸	2	1				0			2			5						1	1			0.3		FxAmbulanceFire		1			1					0	0	0										0							0	3		0.3	0.1	960108051	745032									0	HitCase		0		1				0														
-96010806	死亡特效	2	1				0			4			1						1						FxDead		1			1					0	0	0										3							0	3														0	HitCase		0		1				0														
-96010807	风击飞	1	2	20			0			2			1						-1								-1			1					0	0	0										3							0	3				960108071	745045	745053								0	HitCase		0		1				0														
-96010808	表演子弹	1	2	20			0			2			1						-1								-1			1					0	0	0										3							0	3				960108081										0	HitCase		0		1				0														
-96010809	超长风击飞	1	2	30			0			2			1						-1								-1			1					0	0	0										3							0	3				960108091	745049	745053								0	HitCase		0		1				0														
-96010810	风击飞2	1	2	15			0			2			1						-1								-1			1					0	0	0										3							0	3				960108101	745051	745053								0	HitCase		0		1				0														
-96010811	光幕墙 15米	1	15	1			3			4			12		1				1						FxTongyongDataBoxLoop01		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	3					744064	744065								1	HitCase	1	0		1	1			0														
-96010812	光幕墙 12米	1	12	1			3			4			12		1				1						FxTongyongDataBoxLoop01		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	3					744064	744065								1	HitCase	1	0		1	1			0														
-96010813	光幕 3米	1	5	1			0			4			9999		1				-1						FxTongyongDataBoxLoop01		-1		FxTongyongDataBoxOut01	1					0	0	0										3							0	3						744065								1	HitCase	1	6		1	1			0														
-96010814	阻断墙，16倍平行X轴	1	16	2			0		90	4			9999						1						FxFlashWallloop		0			1					0	0	0										3							0	3														0	HitCase	1	0		1	1			0														
-96010815	阻断墙，6.7倍平行X轴	1	6.7	2			0		90	4			9999						1						FxFlashWallloop		0			1					0	0	0										3							4	3														0	HitCase	1	0		1	1			0														
-96010816	阻断墙，5.45倍平行X轴	1	5.4	2			0		90	4			9999						1						FxFlashWallloop		0			1					0	0	0										3							4	3														0	HitCase	1	0		1	1			0														
-96010817	全屏减攻击子弹	2	100				0			4			0.3						-1								-1			1					0	0	0										0							0	3					741403									0	HitCase		0		0	0			0		1												
-96010819	风预警	1	80	60		30	0			1			3						-1						FxWindYujing01		-1			1					0	0	0										3							1	3														0	HitCase	1	1		0				0														
-96010820	平移用子弹	2	50				0			1			2						-1	1			0.02				-1			1					0	0	0										3							5	2					741411									0	HitCase		0		1				0														
-96010821	北风标记子弹	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741413									0	HitCase		1		0				0														
-96010822	南风标记子弹	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741414									0	HitCase		1		0				0														
-96010823	西风标记子弹	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741415									0	HitCase		1		0				0														
-96010824	东风标记子弹	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741416									0	HitCase		1		0				0														
-96010818	北风击飞	1	80	60		30	0			4			2						-1	1			0.02		FxBattleWindEx		-1			1					0	0	0										3							1	3					741407									0	HitCase	1	1		0				0														
-96010825	南风击飞	1	80	60		30	0			4			2						-1	1			0.02		FxBattleWindEx		-1			1					0	0	0										3							1	3					741417									0	HitCase	1	1		0				0														
-96010826	西风击飞	1	80	60		30	0			4			2						-1	1			0.02		FxBattleWindEx		-1			1					0	0	0										3							1	3					741418									0	HitCase	1	1		0				0														
-96010827	东风击飞	1	80	60		30	0			4			2						-1	1			0.02		FxBattleWindEx		-1			1					0	0	0										3							1	3					741419									0	HitCase	1	1		0				0														
-96010828	爆炸方块伤害子弹	2	5.25				0			4			0.1						-1	0	FxTongyongFireShouji			Root	FxJianZuBaoZha		-1			1					0	0	0										0							0	2				960108281	741453	741456	741474							0	HitCase		0		0	0			1		1												
-96010829	红区方块预警特效子弹6s	1	10.5	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0							4	3														0	HitCase	1	6		1	1			0														
-96010830	红区方块效果子弹	1	10.5	10.5			0			6			15						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							4	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010831	激光方块预警特效子弹6s	1	3.5	80		40	0			1			6						-1					Root	FxJiguangBiaojiYujing01		-1			1					0	0	0										0							0	3														0	HitCase	1	6		1	1			0		1												
-96010832	激光方块伤害子弹	1	3.5	160			0			4			0.1						-1	0	FxTongyongFireShouji				FxJiguangBiaojiAttack01		1			1					0	0	0										0							0	2				960108321	741454	741457	741473							0.8	HitCase		0		0	0			1														
-96010843	爆炸方块预警特效子弹6s	2	5.25				0			1			6						-1					Root	FxBaozhaBiaojiYujing01		-1			1					0	0	0										0							0	3														0	HitCase	1	6		1	1			0		1												
-96010845	红区方块预警特效子弹8s	1	10.5	10.5			0			1			8						-1					Root	FxWeixianBiaojiYujing8s		-1			1					0	0	0										0							4	3														0	HitCase	1	6		1	1			0														
-96010846	激光方块预警特效子弹8s	1	3.5	80		40	0			1			8						-1					Root	FxJiguangBiaojiYujing8s		-1			1					0	0	0										0							0	3														0	HitCase	1	6		1	1			0		1												
-96010847	爆炸方块预警特效子弹8s	2	5.25				0			1			8						-1					Root	FxBaozhaBiaojiYujing8s		-1			1					0	0	0										0							0	3														0	HitCase	1	6		1	1			0		1												
-96010833	红区蔓延子弹预警方形1*1	1	3.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010872			0	3														0	HitCase	1	2		1	0			0														
-96010834	红区蔓延子弹预警方形3*2	1	10.5	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010873			0	3														0	HitCase	1	2		1	0			0														
-96010858	红区蔓延子弹预警方形4*2	1	14	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010874			0	3														0	HitCase	1	2		1	0			0														
-96010849	红区蔓延子弹预警方形5*2	1	17.5	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010875			0	3														0	HitCase	1	2		1	0			0														
-96010848	红区蔓延子弹预警方形6*2	1	21	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010876			0	3														0	HitCase	1	2		1	0			0														
-96010836	红区蔓延子弹预警方形7*2	1	24.5	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010877			0	3														0	HitCase	1	2		1	0			0														
-96010835	红区蔓延子弹预警方形8*2	1	28	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010878			0	3														0	HitCase	1	2		1	0			0														
-96010860	红区蔓延子弹预警方形9*2	1	31.5	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010879			0	3														0	HitCase	1	2		1	0			0														
-96010859	红区蔓延子弹预警方形3*3	1	10.5	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010880			0	3														0	HitCase	1	2		1	0			0														
-96010837	红区蔓延子弹预警方形4*3	1	14	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010881			0	3														0	HitCase	1	2		1	0			0														
-96010842	红区蔓延子弹预警方形5*3	1	17.5	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010882			0	3														0	HitCase	1	2		1	0			0														
-96010850	红区蔓延子弹预警方形6*3	1	21	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010883			0	3														0	HitCase	1	2		1	0			0														
-96010863	红区蔓延子弹预警方形7*3	1	24.5	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010884			0	3														0	HitCase	1	2		1	0			0														
-96010864	红区蔓延子弹预警方形8*3	1	28	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010885			0	3														0	HitCase	1	2		1	0			0														
-96010851	红区蔓延子弹预警方形5*4	1	17.5	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010886			0	3														0	HitCase	1	2		1	0			0														
-96010852	红区蔓延子弹预警方形5*5	1	17.5	17.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010887			0	3														0	HitCase	1	2		1	0			0														
-96010853	红区蔓延子弹预警方形6*5	1	21	17.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010888			0	3														0	HitCase	1	2		1	0			0														
-96010854	红区蔓延子弹预警方形6*6	1	21	21			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010889			0	3														0	HitCase	1	2		1	0			0														
-96010862	红区蔓延子弹预警方形4*1	1	14	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010890			0	3														0	HitCase	1	2		1	0			0														
-96010861	红区蔓延子弹预警方形5*1	1	17.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010891			0	3														0	HitCase	1	2		1	0			0														
-96010855	红区蔓延子弹预警方形6*1	1	21	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010892			0	3														0	HitCase	1	2		1	0			0														
-96010856	红区蔓延子弹预警方形7*1	1	24.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010893			0	3														0	HitCase	1	2		1	0			0														
-96010857	红区蔓延子弹预警方形8*1	1	28	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010894			0	3														0	HitCase	1	2		1	0			0														
-96010844	红区蔓延子弹预警L型	1	10.5	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010895			0	3														0	HitCase	1	2		1	0			0														
-96010838	红区蔓延子弹预警阶梯型5	1	17.5	17.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010896			0	3														0	HitCase	1	2		1	0			0														
-96010839	红区蔓延子弹预警阶梯型4	1	14	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010897			0	3														0	HitCase	1	2		1	0			0														
-96010840	红区蔓延子弹预警阶梯型3	1	10.5	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010898			0	3														0	HitCase	1	2		1	0			0														
-96010841	红区蔓延子弹预警阶梯型2	1	7	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010899			0	3														0	HitCase	1	2		1	0			0														
-96010865	红区蔓延子弹预警方形6*4	1	21	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012000			0	3														0	HitCase	1	2		1	0			0														
-96010866	红区蔓延子弹预警方形7*4	1	24.5	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012001			0	3														0	HitCase	1	2		1	0			0														
-96010867	红区蔓延子弹预警方形8*4	1	28	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012002			0	3														0	HitCase	1	2		1	0			0														
-96010868	红区蔓延子弹预警方形9*1	1	31.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012003			0	3														0	HitCase	1	2		1	0			0														
-96010869	红区蔓延子弹预警方形7*5	1	24.5	17.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012004			0	3														0	HitCase	1	2		1	0			0														
-96010870	红区蔓延子弹预警方形12*2	1	42	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012005			0	3														0	HitCase	1	2		1	0			0														
-96010871	红区蔓延子弹预警方形15*4	1	52.5	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012006			0	3														0	HitCase	1	2		1	0			0														
-96010872	红区蔓延子弹方形1*1	1	3.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010873	红区蔓延子弹方形3*2	1	10.5	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010874	红区蔓延子弹方形4*2	1	14	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010875	红区蔓延子弹方形5*2	1	17.5	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010876	红区蔓延子弹方形6*2	1	21	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010877	红区蔓延子弹方形7*2	1	24.5	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010878	红区蔓延子弹方形8*2	1	28	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010879	红区蔓延子弹方形9*2	1	31.5	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010880	红区蔓延子弹方形3*3	1	10.5	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010881	红区蔓延子弹方形4*3	1	14	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010882	红区蔓延子弹方形5*3	1	17.5	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010883	红区蔓延子弹方形6*3	1	21	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010884	红区蔓延子弹方形7*3	1	24.5	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010885	红区蔓延子弹方形8*3	1	28	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010886	红区蔓延子弹方形5*4	1	17.5	14			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010887	红区蔓延子弹方形5*5	1	17.5	17.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010888	红区蔓延子弹方形6*5	1	21	17.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010889	红区蔓延子弹方形6*6	1	21	21			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010890	红区蔓延子弹方形4*1	1	14	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010891	红区蔓延子弹方形5*1	1	17.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010892	红区蔓延子弹方形6*1	1	21	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010893	红区蔓延子弹方形7*1	1	24.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010894	红区蔓延子弹方形8*1	1	28	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010895	红区蔓延子弹L型	1	10.5	7			0			6			9999						-1	1			0.02	Root	FxRedZone03		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010896	红区蔓延子弹阶梯型5	1	17.5	17.5			0			6			9999						-1	1			0.02	Root	FxRedZone06		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010897	红区蔓延子弹阶梯型4	1	14	14			0			6			9999						-1	1			0.02	Root	FxRedZone05		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010898	红区蔓延子弹阶梯型3	1	10.5	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone04		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96010899	红区蔓延子弹阶梯型2	1	7	7			0			6			9999						-1	1			0.02	Root	FxRedZone02		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012000	红区蔓延子弹方形6*4	1	21	14			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012001	红区蔓延子弹方形7*4	1	24.5	14			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012002	红区蔓延子弹方形8*4	1	28	14			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012003	红区蔓延子弹方形9*1	1	31.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012004	红区蔓延子弹方形7*5	1	24.5	17.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012005	红区蔓延子弹方形12*2	1	42	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012006	红区蔓延子弹方形15*4	1	52.5	14			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012007	红区蔓延子弹方形3*1	1	10.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012008	红区蔓延子弹方形10*1	1	35	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012009	红区蔓延子弹预警方形3*1	1	10.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012007			0	3														0	HitCase	1	2		1	0			0														
-96012010	红区蔓延子弹预警方形10*1	1	35	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012008			0	3														0	HitCase	1	2		1	0			0														
-96012011	红区蔓延子弹预警方形2*1	1	7	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012012			0	3														0	HitCase	1	2		1	0			0														
-96012012	红区蔓延子弹方形2*1	1	7	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012013	红区蔓延子弹预警方形2*2	1	7	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012014			0	3														0	HitCase	1	2		1	0			0														
-96012014	红区蔓延子弹方形2*2	1	7	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012015	红区蔓延子弹预警方形11*1	1	38.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012016			0	3														0	HitCase	1	2		1	0			0														
-96012016	红区蔓延子弹方形11*1	1	38.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012017	红区蔓延子弹预警方形12*1	1	42	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012018			0	3														0	HitCase	1	2		1	0			0														
-96012018	红区蔓延子弹方形12*1	1	42	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0														
-96012019	终点子弹	1	15	4			0			4			9999						-1					Root	FxNpcYujing02		-1			1					0	0	0										0							0	3					741483									0	HitCase	1	2		1	0			0														
-96012020	终点红警戒条1	2	0.1			2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012021	终点红警戒条2	2	0.1		-5	2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012022	终点红警戒条3	2	0.1		5	2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012023	终点红警戒条4	2	0.1			7.5	0		90	4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012024	终点红警戒条5	2	0.1			-7.5	0		90	4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012025	终点黄警戒条1	2	0.1			2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012026	终点黄警戒条2	2	0.1		-5	2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012027	终点黄警戒条3	2	0.1		5	2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012028	终点黄警戒条4	2	0.1			7.5	0		90	4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012029	终点黄警戒条5	2	0.1			-7.5	0		90	4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012030	终点蓝警戒条1	2	0.1			2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012031	终点蓝警戒条2	2	0.1		-5	2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012032	终点蓝警戒条3	2	0.1		5	2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012033	终点蓝警戒条4	2	0.1			7.5	0		90	4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012034	终点蓝警戒条5	2	0.1			-7.5	0		90	4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012035	终点红警戒条后1	2	0.1			-2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012036	终点红警戒条后2	2	0.1		-5	-2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012037	终点红警戒条后3	2	0.1		5	-2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012038	终点黄警戒条后1	2	0.1			-2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012039	终点黄警戒条后2	2	0.1		-5	-2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012040	终点黄警戒条后3	2	0.1		5	-2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012041	终点蓝警戒条后1	2	0.1			-2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012042	终点蓝警戒条后2	2	0.1		-5	-2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012043	终点蓝警戒条后3	2	0.1		5	-2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012044	起点红警戒条1	2	0.1				0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012045	起点红警戒条2	2	0.1		2.5	2.5	0		90	4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012046	起点红警戒条3	2	0.1		2.5	-2.5	0		90	4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0														
-96012047	追人球预警特效子弹	2	5				0			1			0.5						-1					Root	FxNpcYujing01		-1			1					0	0	0										0	0.5		1	96012048			0	3														0	HitCase	1	6		0	0			0		1												
-96012048	追人球伤害子弹	2	5				0			4			0.1						-1	0	FxTongyongFireShouji						1			1					0	0	0										0							0	2					741454	741473	741704							0.8	HitCase		6		0	0			0														
-96012049	追人球预警特效子弹（反水版）	2	5				0			1			0.5						-1					Root	FxNpcYujing05		-1			1					0	0	0										0	0.5		1	96012050			0	3														0	HitCase	1	6		0	0			0		1												
-96012050	追人球伤害子弹（反水版）	2	5				0			2			0.1						-1	0	FxTongyongFireShouji						1			1					0	0	0										0							0	2					741454	741541	741705							0.8	HitCase		6		0	0			0														
-96012051	触发器全屏子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0			1	96012052			0	2					741537									0	HitCase		6		1				0														
-96012052	触发器击退子弹	2	10				0			2			0.5						-1	1			0.02				-1			1					0	0	0										0							0	2					741542									0	HitCase		6		1				0														
-96012053	聚光灯炸弹预警特效子弹	1	14	14			0			1			0.5						-1					Root	FxNpcYujing02		-1			1					0	0	0										0	0.5		1	96012054			0	3														0	HitCase	1	6		0	0			0		1												
-96012054	聚光灯炸弹伤害子弹	1	14	14			0			4			0.1						-1	0	FxTongyongFireShouji				FxDWAudioExplosion01		-1			1					0	0	0										0	0.1		1	96012055			0	2					741454	741473	741704							0.8	HitCase		6		0	0			0														
-96012055	聚光灯炸弹引燃子弹1	1	14	42			0			2			0.1						-1								-1			1					0	0	0										0			1	96012056			0	3					741556									0	HitCase		6		0	0			0		1												
-96012056	聚光灯炸弹引燃子弹2	1	42	14			0			2			0.1						-1								-1			1					0	0	0										0							0	3					741556									0	HitCase		6		0	0			0		1												
-96012057	阶段结束标记子弹	2	100				0			7			1						-1	0							-1			1					0	0	0										0							0	2					741563									0	HitCase		6		1				0														
-96012058	聚光灯区域判断子弹	1	14	14			0			2			9999						-1	0							-1			1					0	0	0										0							0	2					741570									0	HitCase		6		0	1			0														
-96012059	聚光灯区域判断反馈子弹	2	10				0			2			0.1						-1	0							-1			1					0	0	0										0							0	2					741571									0	HitCase		6		0	1			0														
-96012060	聚光灯炸弹预警特效子弹	1	14	14			0			1			0.5						-1					Root	FxNpcYujing02		-1			1					0	0	0										0	0.5		1	96012061			0	3														0	HitCase	1	6		0	1			0		1												
-96012061	聚光灯炸弹伤害子弹（反水版）	1	14	14			0			2			0.1						-1	0	FxTongyongFireShouji				FxDWAudioExplosion02		-1			1					0	0	0										0							0	2				960120611	741454									0.8	HitCase		6		0	1			0														
-96012062	桌球柱方向判断子弹北	3	6	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741583									0	HitCase		2		0	1			0														
-96012063	桌球柱方向判断子弹东	3	6	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741584									0	HitCase		2		0	1			0														
-96012064	桌球柱方向判断子弹南	3	6	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741585									0	HitCase		2		0	1			0														
-96012065	桌球柱方向判断子弹西	3	6	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741586									0	HitCase		2		0	1			0														
-96012066	桌球柱方向反馈子弹北	2	6				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741591									0	HitCase		6		0	1			0														
-96012067	桌球柱方向反馈子弹东	2	6				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741592									0	HitCase		6		0	1			0														
-96012068	桌球柱方向反馈子弹南	2	6				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741593									0	HitCase		6		0	1			0														
-96012069	桌球柱方向反馈子弹西	2	6				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741594									0	HitCase		6		0	1			0														
-96012070	桌球柱方向判断子弹东北	3	6.5	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741587									0	HitCase		2		0	1			0														
-96012071	桌球柱方向判断子弹东南	3	6.5	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741588									0	HitCase		2		0	1			0														
-96012072	桌球柱方向判断子弹西南	3	6.5	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741589									0	HitCase		2		0	1			0														
-96012073	桌球柱方向判断子弹西北	3	6.5	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741590									0	HitCase		2		0	1			0														
-96012074	桌球柱方向反馈子弹东北	2	6.5				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741595									0	HitCase		6		0	1			0														
-96012075	桌球柱方向反馈子弹东南	2	6.5				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741596									0	HitCase		6		0	1			0														
-96012076	桌球柱方向反馈子弹西南	2	6.5				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741597									0	HitCase		6		0	1			0														
-96012077	桌球柱方向反馈子弹西北	2	6.5				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741598									0	HitCase		6		0	1			0														
-96012078	桌球子弹	2	3				50			2			5						-1	0					FxDWDiscoBall03		-1			1	0				0	0	0										0							4	2					741601									0	HitCase		0		1				0														
-96012079	桌球柱全屏子弹	2	100				0			3			1						-1	0							-1			1					0	0	0										0							0	2					741537									0	HitCase		6		1				0														
-96012080	掉落红球	2	1				10			4			999		1				-1						FxDropRed		-1			3	-20	0	10	0	0	0	0										3	999		1	96012083	1		4	1														1	HitCase		0		0	0	999	1	0														
-96012081	掉落蓝球	2	1				10			4			999		1				-1						FxDropBlue		-1			3	-20	0	10	0	0	0	0										3	999		1	96012084	1		4	1														1	HitCase		0		0	0	999	1	0														
-96012082	掉落黄球	2	1				10			4			999		1				-1						FxDropYellow		-1			3	-20	0	10	0	0	0	0										3	999		1	96012085	1		4	1														1	HitCase		0		0	0	999	1	0														
-96012083	持续红球	2	5				0	0		4			999		1				1						FxDropRed		1			1	0				0	0	0										2	999		1	96012086	1	1	2	1														0.5	HitCase		0		0	0			0														
-96012084	持续蓝球	2	5				0	0		4			999		1				1						FxDropBlue		1			1	0				0	0	0										2	999		1	96012087	1	1	2	1														0.5	HitCase		0		0	0			0														
-96012085	持续黄球	2	5				0	0		4			999		1				1						FxDropYellow		1			1	0				0	0	0										2	999		1	96012088	1	1	2	1														0.5	HitCase		0		0	0			0														
-96012086	追踪红球	2	0.3				10	0		4		1	10		1				1		FxDropRedBeHit				FxDropRed		1			1	200				0	0	0										2							2	1					710238	741707								0.5	HitCase		0		0	0			0														
-96012087	追踪蓝球	2	0.3				10	0		4		1	10		1				1		FxDropBlueBeHit				FxDropBlue		1			1	200				0	0	0										2							2	1					710239	741707								0.5	HitCase		0		0	0			0														
-96012088	追踪黄球	2	0.3				10	0		4		1	10		1				1		FxDropYellowBeHit				FxDropYellow		1			1	200				0	0	0										2							2	1					710240	741707								0.5	HitCase		0		0	0			0														
-96012089	桌球瞄准线	1	2	60		30	0			2			0.1						-1	0							-1			1					0	0	0										0							4	2					741607									0	HitCase		0		1				0														
-96012090	桌球柱范围指示	2	5.5				0			1			999						-1					Root	FxNpcYujing05		-1			1					0	0	0										0							0	3					741648									0	HitCase	1	6		0	1			0		1												
-96012091	击飞子弹	1	1	14			0			4			0.1						-1	0							-1			1					0	0	0										0							0	2				960120911										0	HitCase		6		0	1			0														
-96012092	击飞子弹2	1	1	14			0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960120921	741736									0	HitCase		6		0	1			0														
-96012093	白毛剑气第1段	1	2	1			40			1			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack41Dandao		-1			1	6				0	0	0										3							4	1														2	HitCase		0		0	0			0														
-96012094	白毛剑气第2段	1	2	1			40			1			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack42Dandao		-1			1	6				0	0	0										3							4	3														2	HitCase		0		0	0			0														
-96012095	白毛剑气第3段	1	2	1			40			1			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack43Dandao		-1			1	6				0	0	0										3							4	3														2	HitCase		0		0	0			0														
-96012096	白毛剑气第4段	1	2	1			40			1			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack44Dandao		-1			1	6				0	0	0										3							4	1														2	HitCase		0		0	0			0														
-96012097	受击表演子弹	2	2				0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960120971										0	HitCase		6		0	1			0														
-96012098	受击表演子弹	2	2				0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960120981										0	HitCase		6		0	1			0														
-96012099	受击表演子弹	2	2				0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960120991										0	HitCase		6		0	1			0														
-96012100	重力场启动子弹	2	50				0			4			0.1						3	0							3			1					0	0	0										0							0	2					741714									0	HitCase		6		0	1			0														
-96012101	卡列大招处理	1	1	1			0			1			20						-1						FxR4KalieninaAtk4001Mask		-1			1					0	0	0										3							5	3														0	HitCase		0		1				0														
-96012102	小鱼判断子弹	2	1.5				0			6			9999						1		FxMb1LuxiyaMd000003Attack41Shouji						1			1					0	0	0										0							0	3					744147	744148								0	HitCase		6		1	0			0										4	744148			
-96012103	鲨鱼咬人特效	2	0.1				0			6			4						-1	0					FxRogueBigfishEnd		-1			1					0	0	0										0	0.1		1	96012104			0	3														0	HitCase		6		0	0			0														
-96012104	鲨鱼咬人伤害	2	4				0			6			0.1						-1	0	FxDibingShouji						-1			1					0	0	0										0	0		1	96012126			0	3					744274	744251								0	HitCase		6		0	0			0														
-96012106	地雷判定区域	2	5				0			4			9999						1					Root			1			1					0	0	0										0							0	3										744198				0	HitCase	1	6		1	1			0		1												
-96012107	地雷显示区域	2	3				0			4			9999		1				1					Root	FxNpcYujing01		1			1					0	0	0										0	999		1	96012148	1	1	0	3														0	HitCase	1	6		1	1			0		1												
-96012148	地雷开眼预警	2	3				0			7			0.5						-1	0					FxYujing1M05S		-1			1					0	0	0										0	0.5		1	96012108			0	3										744198				0	HitCase	1	6		0	0			0														
-96012108	地雷开眼	2	3				0			6			3						-1	0					FxRogueAbyssEnd		-1			1					0	0	0										0	0.1		1	96012109			0	3														0	HitCase	1	6		0	0			0														
-96012109	地雷伤害	2	3				0			6			0.1						-1	0	FxMb1HadisiAtk04Shouji						-1			1					0	0	0										0	0		1	96012127			0	3					744251	744272								0	HitCase		6		0	0			0														
-96012110	海浪出生	1	20	3		-1.5	0			1			7						-1	0					FxRogueWaveStart		-1			1					0	0	0										0	2		1	96012111			0	3														0	HitCase		6		0	0			0														
-96012111	海浪预警	1	20	50		15	10			1			5						-1	0				Root	FxRogueWaveYujing		-1			1	6				0	0	0										0	1		1	96012112			0	3														0	HitCase		4		1	0			0														
-96012112	海浪	1	20	3			12.5			4			4		1				-1	0	FxMb1HadisiAtk04Shouji				FxRogueWaveLoop		-1			1	6				0	0	0										0	999		1	96012113	1		0	1					744251	744211	744277							0	HitCase		4		0	0			1														
-96012113	海浪结束	1	20	3			0			1			1.5						-1	0					FxRogueWaveEnd		-1			1					0	0	0										2							0	3														0	HitCase		4		0	0			0														
-96012114	雷击预警	2	1.5				0			1			1		1				-1					Root	FxRogueLightningYujing02		-1			1					0	0	0										1	1		1	96012115			4	3														0	HitCase	1	0		0	0			0														
-96012115	雷击特效	2	0.1				0			1			2						-1	0					FxTongyongLuolei02		-1			1					0	0	0										2	0.1		1	96012116			2	3														0	HitCase		0		0	0			0														
-96012116	雷击伤害	2	1.5				0			6			0.1						-1	0	FxMo1BraveMd010101Attack01Shouji						-1			1					0	0	0										2	0		1	96012129			2	3					744251	744278								0	HitCase		0		0	0			1														
-96012117	诡异迷雾开始	2	3.5				0			6			1						-1	1			1		FxRogueFogStart		-1			1					0	0	0										0			1	96012149			0	3														1	HitCase		0		0	0			0														
-96012105	诡异迷雾循环	2	3.5				0			6			3						-1	1	FxMb1LadyMd10001Attack01Shouji		1		FxRogueFogLoop		-1			1					0	0	0										2	2.5		1	96012118			2	3					744183	744190	744189	744250						1	HitCase		0		0	0			0										4	744183			
-96012118	诡异迷雾结束	2	3.5				0			6			1						-1	1	FxMb1LadyMd10001Attack01Shouji		1		FxRogueFogEnd		-1			1					0	0	0										2							2	3					744183	744190	744189	744250						1	HitCase		0		0	0			0										4	744183			
-96012149	诡异迷雾伤害	2	3.5				0			6			3.5						-1	1			1				-1			1					0	0	0										2			1	96012105			2	3					744273									1	HitCase		0		0	0			0										4	744183			
-96012119	灯塔爆炸	2	2.5				0			6			0.1						-1	0							-1			1					0	0	0										0							0	1				960121191	744251	744272								0	HitCase		6		0	0			0										4	744183			
-96012120	触手出生预警	2	3				0			1			1.5						-1					Root	FxYujing1M15S		-1			1					0	0	0										0	1.5		1	96012121			1	3														0	HitCase	1	0		0	0			0		1												
-96012121	触手出生伤害	2	3				0			6			0.1						-1	0	FxMb1HadisiAtk04Shouji						-1			1					0	0	0										0	0.1		1	96012122			2	1					744251	744275								0	HitCase		0		0	0			1		1												
-96012122	触手特效	2	0.1				0			1			10						-1					Root	FxRogueTentacle		-1			1					0	0	0										0	1		1	96012123			2	3														0	HitCase		6		0	0			0		1												
-96012123	触手推人子弹	2	6				0			6			2.5						-1	1			0.1				-1			1					0	0	0										0	2.2		1	96012124			2	2					744242									0	HitCase	1	6		0	0			0		1												
-96012124	触手砸地伤害	1	6	16		6	0			6			0.1						-1	0	FxMb1HadisiAtk04Shouji						-1			1					0	0	0										0	0		1	96012130			2	1					744251	744276								0	HitCase		6		0	0			1														
-96012125	地雷眼	2	3.5				0			4			9999		1				-1					Root	FxRogueAbyssLoop		-1			1					0	0	0										0							0	3														0.1	HitCase	1	6		1	1			0		1												
-96012126	鲨鱼标记	2	4				0			4			0.1						-1	0							-1			1					0	0	0										2							2	3					744175									0	HitCase		6		0	0			0														
-96012127	眼睛标记	2	3.5				0			4			0.1						-1	0							-1			1					0	0	0										2							2	3					744204									0	HitCase		6		0	0			0														
-96012128	海浪标记	1	20	3			12.5			4			4		1				-1	0							-1			1	6				0	0	0										2							2	3					744211									0	HitCase		4		0	0			0														
-96012129	雷击标记	2	1.5				0			4			0.1						-1	0							-1			1					0	0	0										2							2	3					744221									0	HitCase		0		0	0			0														
-96012130	触手标记	1	6	16		6	0			4			0.1						-1	0							-1			1					0	0	0										0							2	3					744214									0	HitCase		0		0	0			0														
-96012131	迷雾全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760253									0	HitCase		6		1				0										4	700007			
-96012132	迷雾消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744255									0	HitCase		6		1				0														
-96012133	鲨鱼全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760343									0	HitCase		6		1				0										4	700007			
-96012134	鲨鱼消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744256									0	HitCase		6		1				0														
-96012135	触手全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760652									0	HitCase		6		1				0										4	700007			
-96012136	触手消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744257									0	HitCase		6		1				0														
-96012137	海浪全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760453									0	HitCase		6		1				0										4	700007			
-96012138	海浪消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744258									0	HitCase		6		1				0														
-96012139	闪电全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760353									0	HitCase		6		1				0										4	700007			
-96012140	闪电消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744259									0	HitCase		6		1				0														
-96012141	雷电光环	2	4				0			4			0.1						-1	0	FxTongyongLuolei02						-1			1					0	0	0										0							0	3				960121411	744280									0	HitCase		6		0	0			0														
-96012142	鲨鱼光环特效	2	0.1				0			4			4						-1	0					FxRogueBigfishEnd		-1			1					0	0	0										0	0.1		1	96012143			0	3														0	HitCase		6		0	0			0														
-96012143	鲨鱼光环伤害	2	4				0			4			0.1						-1	0	FxDibingShouji						-1			1					0	0	0										0							0	3				960121431	744279									0	HitCase		6		0	0			0														
-96012144	开眼全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744261									0	HitCase		6		1				0										4	700007			
-96012145	开眼消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744262									0	HitCase		6		1				0														
-96012146	冥灯全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760392	760472	760252	760073						0	HitCase		6		1				0										4	700007			
-96012147	冥灯消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744263									0	HitCase		6		1				0														
-96012150	脚踏蝴蝶	2	0.1		-0.2	0.2	0			1			0.5		1				-1	0					FxVanessaButterflyRest		-1			1					0	0	0										0	0.5		1	96012154			0	3														0	HitCase		6		0	0			0														
-96012151	脚踏蝴蝶	2	0.1		0.2	0.2	0			1			0.5		1				-1	0					FxVanessaButterflyRest		-1			1					0	0	0										0							0	3														0	HitCase		6		0	0			0														
-96012152	脚踏蝴蝶	2	0.1		-0.2	-0.2	0			1			0.5		1				-1	0					FxVanessaButterflyRest		-1			1					0	0	0										0							0	3														0	HitCase		6		0	0			0														
-96012153	脚踏蝴蝶	2	0.1		0.2	-0.2	0			1			0.5		1				-1	0					FxVanessaButterflyRest		-1			1					0	0	0										0							0	3														0	HitCase		6		0	0			0														
-96012154	脚踏蝴蝶爆炸	2	0.1				0			1			0.5		1				-1	0					FxMb1HuoshaMd010002Atk07Shouji		-1			1					0	0	0										0							0	3														0	HitCase		6		0	0			0														
-96012155	雷击	2	0.1				0			1			1		1				-1						FxTongyongLuolei02		-1			1					0	0	0										1							4	3														0	HitCase	1	0		0	0			0														
-96012156	雷击预警	2	2				0			1			1		1				-1					Root	FxRogueLightningYujing02		-1			1					0	0	0										3	1		1	96012157			4	3														0	HitCase	1	0		0	0			0														
-96012157	雷击特效	2	0.1				0			1			2						-1	0					FxTongyongLuolei02		-1			1					0	0	0										2	0.1		1	96012158			2	3														0	HitCase		0		0	0			0														
-96012158	雷击伤害	2	2				0			4			0.1						-1	0	FxMo1BraveMd010101Attack01Shouji						-1			1					0	0	0										2							2	3				960121581	744251	744278								0	HitCase		0		0	0			1														
-96012159	受击表演子弹	2	2				0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960121591										0	HitCase		6		0	1			0														
-96012160	飞蛾扑火左	2	1				0			4			0.1						-1	0	FxMb1HuoshaMd010002Atk07Shouji						-1			1					0	0	0										0							0	2				960121601	744359									0	HitCase		6		0	0			0														
-96012161	飞蛾扑火右	2	1				0			4			0.1						-1	0	FxMb1HuoshaMd010002Atk07Shouji						-1			1					0	0	0										0							0	2				960121611	744359									0	HitCase		6		0	0			0														
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType	FollowHeightJoint	BindLauncherFrame	BindSkillFrame	SlopeTargetJoint	IgnoreCollideType
+96010800	齿轮射击预警	2	1.5				0			4			1.5						-1						FxYujing1M15S		-1			1	0				0	0	0										1	1		1	96010801			0	3														0.1	HitCase	1	0		1				0																			
+96010801	齿轮射击弹道	2	0.1				0			4			1						-1						FxMe1UnknownDandao		-1			1					0	0	0										3	0.5		1	96010802			1	3		0.3	0.1	960108011	745006	745002	745004							0	HitCase		0		1				0																			
+96010802	齿轮射击伤害	2	1.5				0			4			15						-1	1			0.3		FxMe1UnknownBaozha		-1			1					0	0	0										3							0	3					745001	745011								0.1	HitCase		0		1				0																			
+96010803	万事狙击表演子弹	2	1.2				0			4			0.5						1		FxR2WanshiAtk31Hit				FxR2WanshiAtk31Hit		1			1					0	0	0										1							0	3					745000	745003	745005							0.1	HitCase		0		1				0																			
+96010804	万事狙击空子弹	2	1				0			4			0.5						1		FxR2WanshiAtk12Hit01				FxR2WanshiAtk12Hit01		1			1					0	0	0										1							0	3														2	HitCase		0		1				0																			
+96010805	救护车爆炸	2	1				0			2			5						1	1			0.3		FxAmbulanceFire		1			1					0	0	0										0							0	3		0.3	0.1	960108051	745032									0	HitCase		0		1				0																			
+96010806	死亡特效	2	1				0			4			1						1						FxDead		1			1					0	0	0										3							0	3														0	HitCase		0		1				0																			
+96010807	风击飞	1	2	20			0			2			1						-1								-1			1					0	0	0										3							0	3				960108071	745045	745053								0	HitCase		0		1				0																			
+96010808	表演子弹	1	2	20			0			2			1						-1								-1			1					0	0	0										3							0	3				960108081										0	HitCase		0		1				0																			
+96010809	超长风击飞	1	2	30			0			2			1						-1								-1			1					0	0	0										3							0	3				960108091	745049	745053								0	HitCase		0		1				0																			
+96010810	风击飞2	1	2	15			0			2			1						-1								-1			1					0	0	0										3							0	3				960108101	745051	745053								0	HitCase		0		1				0																			
+96010811	光幕墙 15米	1	15	1			3			4			12		1				1						FxTongyongDataBoxLoop01		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	3					744064	744065								1	HitCase	1	0		1	1			0																			
+96010812	光幕墙 12米	1	12	1			3			4			12		1				1						FxTongyongDataBoxLoop01		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	3					744064	744065								1	HitCase	1	0		1	1			0																			
+96010813	光幕 3米	1	5	1			0			4			9999		1				-1						FxTongyongDataBoxLoop01		-1		FxTongyongDataBoxOut01	1					0	0	0										3							0	3						744065								1	HitCase	1	6		1	1			0																			
+96010814	阻断墙，16倍平行X轴	1	16	2			0		90	4			9999						1						FxFlashWallloop		-1			1					0	0	0										3							0	3														0	HitCase	1	0		1	1			0																			
+96010815	阻断墙，6.7倍平行X轴	1	6.7	2			0		90	4			9999						1						FxFlashWallloop		-1			1					0	0	0										3							4	3														0	HitCase	1	0		1	1			0																			
+96010816	阻断墙，5.45倍平行X轴	1	5.4	2			0		90	4			9999						1						FxFlashWallloop		-1			1					0	0	0										3							4	3														0	HitCase	1	0		1	1			0																			
+96010817	全屏减攻击子弹	2	100				0			4			0.3						-1								-1			1					0	0	0										0							0	3					741403									0	HitCase		0		0	0			0		1																	
+96010819	风预警	1	80	60		30	0			1			3						-1						FxWindYujing01		-1			1					0	0	0										3							1	3														0	HitCase	1	1		0				0																			
+96010820	平移用子弹	2	50				0			1			2						-1	1			0.02				-1			1					0	0	0										3							5	2					741411									0	HitCase		0		1				0																			
+96010821	北风标记子弹	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741413									0	HitCase		1		0				0																			
+96010822	南风标记子弹	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741414									0	HitCase		1		0				0																			
+96010823	西风标记子弹	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741415									0	HitCase		1		0				0																			
+96010824	东风标记子弹	1	80	60		30	0			2			1						-1	1			0.02				-1			1					0	0	0										3							1	3					741416									0	HitCase		1		0				0																			
+96010818	北风击飞	1	80	60		30	0			4			2						-1	1			0.02		FxBattleWindEx		-1			1					0	0	0										3							1	3					741407									0	HitCase	1	1		0				0																			
+96010825	南风击飞	1	80	60		30	0			4			2						-1	1			0.02		FxBattleWindEx		-1			1					0	0	0										3							1	3					741417									0	HitCase	1	1		0				0																			
+96010826	西风击飞	1	80	60		30	0			4			2						-1	1			0.02		FxBattleWindEx		-1			1					0	0	0										3							1	3					741418									0	HitCase	1	1		0				0																			
+96010827	东风击飞	1	80	60		30	0			4			2						-1	1			0.02		FxBattleWindEx		-1			1					0	0	0										3							1	3					741419									0	HitCase	1	1		0				0																			
+96010828	爆炸方块伤害子弹	2	5.25				0			4			0.1						-1	0	FxTongyongFireShouji			Root	FxJianZuBaoZha		-1			1					0	0	0										0							0	2				960108281	741453	741456	741474							0	HitCase		0		0	0			1		1																	
+96010829	红区方块预警特效子弹6s	1	10.5	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0							4	3														0	HitCase	1	6		1	1			0																			
+96010830	红区方块效果子弹	1	10.5	10.5			0			6			15						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							4	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010831	激光方块预警特效子弹6s	1	3.5	80		40	0			1			6						-1					Root	FxJiguangBiaojiYujing01		-1			1					0	0	0										0							0	3														0	HitCase	1	6		1	1			0		1																	
+96010832	激光方块伤害子弹	1	3.5	160			0			4			0.1						-1	0	FxTongyongFireShouji				FxJiguangBiaojiAttack01		1			1					0	0	0										0							0	2				960108321	741454	741457	741473							0.8	HitCase		0		0	0			1																			
+96010843	爆炸方块预警特效子弹6s	2	5.25				0			1			6						-1					Root	FxBaozhaBiaojiYujing01		-1			1					0	0	0										0							0	3														0	HitCase	1	6		1	1			0		1																	
+96010845	红区方块预警特效子弹8s	1	10.5	10.5			0			1			8						-1					Root	FxWeixianBiaojiYujing8s		-1			1					0	0	0										0							4	3														0	HitCase	1	6		1	1			0																			
+96010846	激光方块预警特效子弹8s	1	3.5	80		40	0			1			8						-1					Root	FxJiguangBiaojiYujing8s		-1			1					0	0	0										0							0	3														0	HitCase	1	6		1	1			0		1																	
+96010847	爆炸方块预警特效子弹8s	2	5.25				0			1			8						-1					Root	FxBaozhaBiaojiYujing8s		-1			1					0	0	0										0							0	3														0	HitCase	1	6		1	1			0		1																	
+96010833	红区蔓延子弹预警方形1*1	1	3.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010872			0	3														0	HitCase	1	2		1	0			0																			
+96010834	红区蔓延子弹预警方形3*2	1	10.5	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010873			0	3														0	HitCase	1	2		1	0			0																			
+96010858	红区蔓延子弹预警方形4*2	1	14	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010874			0	3														0	HitCase	1	2		1	0			0																			
+96010849	红区蔓延子弹预警方形5*2	1	17.5	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010875			0	3														0	HitCase	1	2		1	0			0																			
+96010848	红区蔓延子弹预警方形6*2	1	21	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010876			0	3														0	HitCase	1	2		1	0			0																			
+96010836	红区蔓延子弹预警方形7*2	1	24.5	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010877			0	3														0	HitCase	1	2		1	0			0																			
+96010835	红区蔓延子弹预警方形8*2	1	28	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010878			0	3														0	HitCase	1	2		1	0			0																			
+96010860	红区蔓延子弹预警方形9*2	1	31.5	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010879			0	3														0	HitCase	1	2		1	0			0																			
+96010859	红区蔓延子弹预警方形3*3	1	10.5	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010880			0	3														0	HitCase	1	2		1	0			0																			
+96010837	红区蔓延子弹预警方形4*3	1	14	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010881			0	3														0	HitCase	1	2		1	0			0																			
+96010842	红区蔓延子弹预警方形5*3	1	17.5	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010882			0	3														0	HitCase	1	2		1	0			0																			
+96010850	红区蔓延子弹预警方形6*3	1	21	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010883			0	3														0	HitCase	1	2		1	0			0																			
+96010863	红区蔓延子弹预警方形7*3	1	24.5	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010884			0	3														0	HitCase	1	2		1	0			0																			
+96010864	红区蔓延子弹预警方形8*3	1	28	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010885			0	3														0	HitCase	1	2		1	0			0																			
+96010851	红区蔓延子弹预警方形5*4	1	17.5	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010886			0	3														0	HitCase	1	2		1	0			0																			
+96010852	红区蔓延子弹预警方形5*5	1	17.5	17.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010887			0	3														0	HitCase	1	2		1	0			0																			
+96010853	红区蔓延子弹预警方形6*5	1	21	17.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010888			0	3														0	HitCase	1	2		1	0			0																			
+96010854	红区蔓延子弹预警方形6*6	1	21	21			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010889			0	3														0	HitCase	1	2		1	0			0																			
+96010862	红区蔓延子弹预警方形4*1	1	14	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010890			0	3														0	HitCase	1	2		1	0			0																			
+96010861	红区蔓延子弹预警方形5*1	1	17.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010891			0	3														0	HitCase	1	2		1	0			0																			
+96010855	红区蔓延子弹预警方形6*1	1	21	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010892			0	3														0	HitCase	1	2		1	0			0																			
+96010856	红区蔓延子弹预警方形7*1	1	24.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010893			0	3														0	HitCase	1	2		1	0			0																			
+96010857	红区蔓延子弹预警方形8*1	1	28	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010894			0	3														0	HitCase	1	2		1	0			0																			
+96010844	红区蔓延子弹预警L型	1	10.5	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010895			0	3														0	HitCase	1	2		1	0			0																			
+96010838	红区蔓延子弹预警阶梯型5	1	17.5	17.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010896			0	3														0	HitCase	1	2		1	0			0																			
+96010839	红区蔓延子弹预警阶梯型4	1	14	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010897			0	3														0	HitCase	1	2		1	0			0																			
+96010840	红区蔓延子弹预警阶梯型3	1	10.5	10.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010898			0	3														0	HitCase	1	2		1	0			0																			
+96010841	红区蔓延子弹预警阶梯型2	1	7	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96010899			0	3														0	HitCase	1	2		1	0			0																			
+96010865	红区蔓延子弹预警方形6*4	1	21	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012000			0	3														0	HitCase	1	2		1	0			0																			
+96010866	红区蔓延子弹预警方形7*4	1	24.5	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012001			0	3														0	HitCase	1	2		1	0			0																			
+96010867	红区蔓延子弹预警方形8*4	1	28	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012002			0	3														0	HitCase	1	2		1	0			0																			
+96010868	红区蔓延子弹预警方形9*1	1	31.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012003			0	3														0	HitCase	1	2		1	0			0																			
+96010869	红区蔓延子弹预警方形7*5	1	24.5	17.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012004			0	3														0	HitCase	1	2		1	0			0																			
+96010870	红区蔓延子弹预警方形12*2	1	42	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012005			0	3														0	HitCase	1	2		1	0			0																			
+96010871	红区蔓延子弹预警方形15*4	1	52.5	14			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012006			0	3														0	HitCase	1	2		1	0			0																			
+96010872	红区蔓延子弹方形1*1	1	3.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010873	红区蔓延子弹方形3*2	1	10.5	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010874	红区蔓延子弹方形4*2	1	14	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010875	红区蔓延子弹方形5*2	1	17.5	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010876	红区蔓延子弹方形6*2	1	21	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010877	红区蔓延子弹方形7*2	1	24.5	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010878	红区蔓延子弹方形8*2	1	28	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010879	红区蔓延子弹方形9*2	1	31.5	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010880	红区蔓延子弹方形3*3	1	10.5	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010881	红区蔓延子弹方形4*3	1	14	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010882	红区蔓延子弹方形5*3	1	17.5	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010883	红区蔓延子弹方形6*3	1	21	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010884	红区蔓延子弹方形7*3	1	24.5	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010885	红区蔓延子弹方形8*3	1	28	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010886	红区蔓延子弹方形5*4	1	17.5	14			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010887	红区蔓延子弹方形5*5	1	17.5	17.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010888	红区蔓延子弹方形6*5	1	21	17.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010889	红区蔓延子弹方形6*6	1	21	21			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010890	红区蔓延子弹方形4*1	1	14	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010891	红区蔓延子弹方形5*1	1	17.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010892	红区蔓延子弹方形6*1	1	21	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010893	红区蔓延子弹方形7*1	1	24.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010894	红区蔓延子弹方形8*1	1	28	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010895	红区蔓延子弹L型	1	10.5	7			0			6			9999						-1	1			0.02	Root	FxRedZone03		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010896	红区蔓延子弹阶梯型5	1	17.5	17.5			0			6			9999						-1	1			0.02	Root	FxRedZone06		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010897	红区蔓延子弹阶梯型4	1	14	14			0			6			9999						-1	1			0.02	Root	FxRedZone05		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010898	红区蔓延子弹阶梯型3	1	10.5	10.5			0			6			9999						-1	1			0.02	Root	FxRedZone04		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96010899	红区蔓延子弹阶梯型2	1	7	7			0			6			9999						-1	1			0.02	Root	FxRedZone02		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012000	红区蔓延子弹方形6*4	1	21	14			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012001	红区蔓延子弹方形7*4	1	24.5	14			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012002	红区蔓延子弹方形8*4	1	28	14			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012003	红区蔓延子弹方形9*1	1	31.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012004	红区蔓延子弹方形7*5	1	24.5	17.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012005	红区蔓延子弹方形12*2	1	42	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012006	红区蔓延子弹方形15*4	1	52.5	14			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012007	红区蔓延子弹方形3*1	1	10.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012008	红区蔓延子弹方形10*1	1	35	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012009	红区蔓延子弹预警方形3*1	1	10.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012007			0	3														0	HitCase	1	2		1	0			0																			
+96012010	红区蔓延子弹预警方形10*1	1	35	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012008			0	3														0	HitCase	1	2		1	0			0																			
+96012011	红区蔓延子弹预警方形2*1	1	7	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012012			0	3														0	HitCase	1	2		1	0			0																			
+96012012	红区蔓延子弹方形2*1	1	7	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012013	红区蔓延子弹预警方形2*2	1	7	7			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012014			0	3														0	HitCase	1	2		1	0			0																			
+96012014	红区蔓延子弹方形2*2	1	7	7			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012015	红区蔓延子弹预警方形11*1	1	38.5	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012016			0	3														0	HitCase	1	2		1	0			0																			
+96012016	红区蔓延子弹方形11*1	1	38.5	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012017	红区蔓延子弹预警方形12*1	1	42	3.5			0			1			6						-1					Root	FxWeixianBiaojiYujing01		-1			1					0	0	0										0	6		1	96012018			0	3														0	HitCase	1	2		1	0			0																			
+96012018	红区蔓延子弹方形12*1	1	42	3.5			0			6			9999						-1	1			0.02	Root	FxRedZone01		-1			1					0	0	0										0							0	3					741432	741451								0	HitCase	1	2		1	0			0																			
+96012019	终点子弹	1	15	4			0			4			9999						-1					Root	FxNpcYujing02		-1			1					0	0	0										0							0	3					741483									0	HitCase	1	2		1	0			0																			
+96012020	终点红警戒条1	2	0.1			2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012021	终点红警戒条2	2	0.1		-5	2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012022	终点红警戒条3	2	0.1		5	2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012023	终点红警戒条4	2	0.1			7.5	0		90	4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012024	终点红警戒条5	2	0.1			-7.5	0		90	4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012025	终点黄警戒条1	2	0.1			2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012026	终点黄警戒条2	2	0.1		-5	2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012027	终点黄警戒条3	2	0.1		5	2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012028	终点黄警戒条4	2	0.1			7.5	0		90	4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012029	终点黄警戒条5	2	0.1			-7.5	0		90	4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012030	终点蓝警戒条1	2	0.1			2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012031	终点蓝警戒条2	2	0.1		-5	2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012032	终点蓝警戒条3	2	0.1		5	2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012033	终点蓝警戒条4	2	0.1			7.5	0		90	4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012034	终点蓝警戒条5	2	0.1			-7.5	0		90	4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012035	终点红警戒条后1	2	0.1			-2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012036	终点红警戒条后2	2	0.1		-5	-2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012037	终点红警戒条后3	2	0.1		5	-2.5	0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012038	终点黄警戒条后1	2	0.1			-2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012039	终点黄警戒条后2	2	0.1		-5	-2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012040	终点黄警戒条后3	2	0.1		5	-2.5	0			4			9999						-1						FxTDDangerZone02		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012041	终点蓝警戒条后1	2	0.1			-2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012042	终点蓝警戒条后2	2	0.1		-5	-2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012043	终点蓝警戒条后3	2	0.1		5	-2.5	0			4			9999						-1						FxTDDangerZone03		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012044	起点红警戒条1	2	0.1				0			4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012045	起点红警戒条2	2	0.1		2.5	2.5	0		90	4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012046	起点红警戒条3	2	0.1		2.5	-2.5	0		90	4			9999						-1						FxTDDangerZone01		-1			1					0	0	0										0							0	3														0.6	HitCase	0	0		1				0																			
+96012047	追人球预警特效子弹	2	5				0			1			0.5						-1					Root	FxNpcYujing01		-1			1					0	0	0										0	0.5		1	96012048			0	3														0	HitCase	1	6		0	0			0		1																	
+96012048	追人球伤害子弹	2	5				0			4			0.1						-1	0	FxTongyongFireShouji						1			1					0	0	0										0							0	2					741454	741473	741704							0.8	HitCase		6		0	0			0																			
+96012049	追人球预警特效子弹（反水版）	2	5				0			1			0.5						-1					Root	FxNpcYujing05		-1			1					0	0	0										0	0.5		1	96012050			0	3														0	HitCase	1	6		0	0			0		1																	
+96012050	追人球伤害子弹（反水版）	2	5				0			2			0.1						-1	0	FxTongyongFireShouji						1			1					0	0	0										0							0	2					741454	741541	741705							0.8	HitCase		6		0	0			0																			
+96012051	触发器全屏子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0			1	96012052			0	2					741537									0	HitCase		6		1				0																			
+96012052	触发器击退子弹	2	10				0			2			0.5						-1	1			0.02				-1			1					0	0	0										0							0	2					741542									0	HitCase		6		1				0																			
+96012053	聚光灯炸弹预警特效子弹	1	14	14			0			1			0.5						-1					Root	FxNpcYujing02		-1			1					0	0	0										0	0.5		1	96012054			0	3														0	HitCase	1	6		0	0			0		1																	
+96012054	聚光灯炸弹伤害子弹	1	14	14			0			4			0.1						-1	0	FxTongyongFireShouji				FxDWAudioExplosion01		-1			1					0	0	0										0	0.1		1	96012055			0	2					741454	741473	741704							0.8	HitCase		6		0	0			0																			
+96012055	聚光灯炸弹引燃子弹1	1	14	42			0			2			0.1						-1								-1			1					0	0	0										0			1	96012056			0	3					741556									0	HitCase		6		0	0			0		1																	
+96012056	聚光灯炸弹引燃子弹2	1	42	14			0			2			0.1						-1								-1			1					0	0	0										0							0	3					741556									0	HitCase		6		0	0			0		1																	
+96012057	阶段结束标记子弹	2	100				0			7			1						-1	0							-1			1					0	0	0										0							0	2					741563									0	HitCase		6		1				0																			
+96012058	聚光灯区域判断子弹	1	14	14			0			2			9999						-1	0							-1			1					0	0	0										0							0	2					741570									0	HitCase		6		0	1			0																			
+96012059	聚光灯区域判断反馈子弹	2	10				0			2			0.1						-1	0							-1			1					0	0	0										0							0	2					741571									0	HitCase		6		0	1			0																			
+96012060	聚光灯炸弹预警特效子弹	1	14	14			0			1			0.5						-1					Root	FxNpcYujing02		-1			1					0	0	0										0	0.5		1	96012061			0	3														0	HitCase	1	6		0	1			0		1																	
+96012061	聚光灯炸弹伤害子弹（反水版）	1	14	14			0			2			0.1						-1	0	FxTongyongFireShouji				FxDWAudioExplosion02		-1			1					0	0	0										0							0	2				960120611	741454									0.8	HitCase		6		0	1			0																			
+96012062	桌球柱方向判断子弹北	3	6	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741583									0	HitCase		2		0	1			0																			
+96012063	桌球柱方向判断子弹东	3	6	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741584									0	HitCase		2		0	1			0																			
+96012064	桌球柱方向判断子弹南	3	6	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741585									0	HitCase		2		0	1			0																			
+96012065	桌球柱方向判断子弹西	3	6	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741586									0	HitCase		2		0	1			0																			
+96012066	桌球柱方向反馈子弹北	2	6				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741591									0	HitCase		6		0	1			0																			
+96012067	桌球柱方向反馈子弹东	2	6				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741592									0	HitCase		6		0	1			0																			
+96012068	桌球柱方向反馈子弹南	2	6				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741593									0	HitCase		6		0	1			0																			
+96012069	桌球柱方向反馈子弹西	2	6				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741594									0	HitCase		6		0	1			0																			
+96012070	桌球柱方向判断子弹东北	3	6.5	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741587									0	HitCase		2		0	1			0																			
+96012071	桌球柱方向判断子弹东南	3	6.5	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741588									0	HitCase		2		0	1			0																			
+96012072	桌球柱方向判断子弹西南	3	6.5	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741589									0	HitCase		2		0	1			0																			
+96012073	桌球柱方向判断子弹西北	3	6.5	30			0			4			9999						-1	1			0.2				-1			1					0	0	0										0							4	2					741590									0	HitCase		2		0	1			0																			
+96012074	桌球柱方向反馈子弹东北	2	6.5				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741595									0	HitCase		6		0	1			0																			
+96012075	桌球柱方向反馈子弹东南	2	6.5				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741596									0	HitCase		6		0	1			0																			
+96012076	桌球柱方向反馈子弹西南	2	6.5				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741597									0	HitCase		6		0	1			0																			
+96012077	桌球柱方向反馈子弹西北	2	6.5				0			4			0.5						-1	0							-1			1					0	0	0										0							0	2					741598									0	HitCase		6		0	1			0																			
+96012078	桌球子弹	2	3				50			2			5						-1	0					FxDWDiscoBall03		-1			1	0				0	0	0										0							4	2					741601									0	HitCase		0		1				0																			
+96012079	桌球柱全屏子弹	2	100				0			3			1						-1	0							-1			1					0	0	0										0							0	2					741537									0	HitCase		6		1				0																			
+96012080	掉落红球	2	1				10			4			999		1				-1						FxDropRed		-1			3	-20	0	10	0	0	0	0										3	999		1	96012083	1		4	1														1	HitCase		0		0	0	999	1	0																			
+96012081	掉落蓝球	2	1				10			4			999		1				-1						FxDropBlue		-1			3	-20	0	10	0	0	0	0										3	999		1	96012084	1		4	1														1	HitCase		0		0	0	999	1	0																			
+96012082	掉落黄球	2	1				10			4			999		1				-1						FxDropYellow		-1			3	-20	0	10	0	0	0	0										3	999		1	96012085	1		4	1														1	HitCase		0		0	0	999	1	0																			
+96012083	持续红球	2	5				0	0		4			999		1				1						FxDropRed		1			1	0				0	0	0										2	999		1	96012086	1	1	2	1														0.5	HitCase		0		0	0			0																			
+96012084	持续蓝球	2	5				0	0		4			999		1				1						FxDropBlue		1			1	0				0	0	0										2	999		1	96012087	1	1	2	1														0.5	HitCase		0		0	0			0																			
+96012085	持续黄球	2	5				0	0		4			999		1				1						FxDropYellow		1			1	0				0	0	0										2	999		1	96012088	1	1	2	1														0.5	HitCase		0		0	0			0																			
+96012086	追踪红球	2	0.3				10	0		4		1	10		1				1		FxDropRedBeHit				FxDropRed		1			1	200				0	0	0										2							2	1					710238	741707								0.5	HitCase		0		0	0			0																			
+96012087	追踪蓝球	2	0.3				10	0		4		1	10		1				1		FxDropBlueBeHit				FxDropBlue		1			1	200				0	0	0										2							2	1					710239	741707								0.5	HitCase		0		0	0			0																			
+96012088	追踪黄球	2	0.3				10	0		4		1	10		1				1		FxDropYellowBeHit				FxDropYellow		1			1	200				0	0	0										2							2	1					710240	741707								0.5	HitCase		0		0	0			0																			
+96012089	桌球瞄准线	1	2	60		30	0			2			0.1						-1	0							-1			1					0	0	0										0							4	2					741607									0	HitCase		0		1				0																			
+96012090	桌球柱范围指示	2	5.5				0			1			999						-1					Root	FxNpcYujing05		-1			1					0	0	0										0							0	3					741648									0	HitCase	1	6		0	1			0		1																	
+96012091	击飞子弹	1	1	14			0			4			0.1						-1	0							-1			1					0	0	0										0							0	2				960120911										0	HitCase		6		0	1			0																			
+96012092	击飞子弹2	1	1	14			0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960120921	741736									0	HitCase		6		0	1			0																			
+96012093	白毛剑气第1段	1	2	1			40			1			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack41Dandao		-1			1	6				0	0	0										3							4	1														2	HitCase		0		0	0			0																			
+96012094	白毛剑气第2段	1	2	1			40			1			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack42Dandao		-1			1	6				0	0	0										3							4	3														2	HitCase		0		0	0			0																			
+96012095	白毛剑气第3段	1	2	1			40			1			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack43Dandao		-1			1	6				0	0	0										3							4	3														2	HitCase		0		0	0			0																			
+96012096	白毛剑气第4段	1	2	1			40			1			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack44Dandao		-1			1	6				0	0	0										3							4	1														2	HitCase		0		0	0			0																			
+96012097	受击表演子弹	2	2				0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960120971										0	HitCase		6		0	1			0																			
+96012098	受击表演子弹	2	2				0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960120981										0	HitCase		6		0	1			0																			
+96012099	受击表演子弹	2	2				0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960120991										0	HitCase		6		0	1			0																			
+96012100	重力场启动子弹	2	50				0			4			0.1						3	0							3			1					0	0	0										0							0	2					741714									0	HitCase		6		0	1			0																			
+96012101	卡列大招处理	1	1	1			0			1			20						-1						FxR4KalieninaAtk4001Mask		-1			1					0	0	0										3							5	3														0	HitCase		0		1				0																			
+96012102	小鱼判断子弹	2	1.5				0			6			9999						1		FxMb1LuxiyaMd000003Attack41Shouji						1			1					0	0	0										0							0	3					744147	744148								0	HitCase		6		1	0			0										4	744148								
+96012103	鲨鱼咬人特效	2	0.1				0			6			4						-1	0					FxRogueBigfishEnd		-1			1					0	0	0										0	0.1		1	96012104			0	3														0	HitCase		6		0	0			0																			
+96012104	鲨鱼咬人伤害	2	4				0			6			0.1						-1	0	FxDibingShouji						-1			1					0	0	0										0	0		1	96012126			0	3					744274	744251								0	HitCase		6		0	0			0																			
+96012106	地雷判定区域	2	5				0			4			9999						1					Root			1			1					0	0	0										0							0	3										744198				0	HitCase	1	6		1	1			0		1																	
+96012107	地雷显示区域	2	3				0			4			9999		1				1					Root	FxNpcYujing01		1			1					0	0	0										0	999		1	96012148	1	1	0	3														0	HitCase	1	6		1	1			0		1																	
+96012148	地雷开眼预警	2	3				0			7			0.5						-1	0					FxYujing1M05S		-1			1					0	0	0										0	0.5		1	96012108			0	3										744198				0	HitCase	1	6		0	0			0																			
+96012108	地雷开眼	2	3				0			6			3						-1	0					FxRogueAbyssEnd		-1			1					0	0	0										0	0.1		1	96012109			0	3														0	HitCase	1	6		0	0			0																			
+96012109	地雷伤害	2	3				0			6			0.1						-1	0	FxMb1HadisiAtk04Shouji						-1			1					0	0	0										0	0		1	96012127			0	3					744251	744272								0	HitCase		6		0	0			0																			
+96012110	海浪出生	1	20	3		-1.5	0			1			7						-1	0					FxRogueWaveStart		-1			1					0	0	0										0	2		1	96012111			0	3														0	HitCase		6		0	0			0																			
+96012111	海浪预警	1	20	50		15	10			1			5						-1	0				Root	FxRogueWaveYujing		-1			1	6				0	0	0										0	1		1	96012112			0	3														0	HitCase		4		1	0			0																			
+96012112	海浪	1	20	3			12.5			4			4		1				-1	0	FxMb1HadisiAtk04Shouji				FxRogueWaveLoop		-1			1	6				0	0	0										0	999		1	96012113	1		0	1					744251	744211	744277							0	HitCase		4		0	0			1																			
+96012113	海浪结束	1	20	3			0			1			1.5						-1	0					FxRogueWaveEnd		-1			1					0	0	0										2							0	3														0	HitCase		4		0	0			0																			
+96012114	雷击预警	2	1.5				0			1			1		1				-1					Root	FxRogueLightningYujing02		-1			1					0	0	0										1	1		1	96012115			4	3														0	HitCase	1	0		0	0			0																			
+96012115	雷击特效	2	0.1				0			1			2						-1	0					FxTongyongLuolei02		-1			1					0	0	0										2	0.1		1	96012116			2	3														0	HitCase		0		0	0			0																			
+96012116	雷击伤害	2	1.5				0			6			0.1						-1	0	FxMo1BraveMd010101Attack01Shouji						-1			1					0	0	0										2	0		1	96012129			2	3					744251	744278								0	HitCase		0		0	0			1																			
+96012117	诡异迷雾开始	2	3.5				0			6			1						-1	1			1		FxRogueFogStart		-1			1					0	0	0										0			1	96012149			0	3														1	HitCase		0		0	0			0																			
+96012105	诡异迷雾循环	2	3.5				0			6			3						-1	1	FxMb1LadyMd10001Attack01Shouji		1		FxRogueFogLoop		-1			1					0	0	0										2	2.5		1	96012118			2	3					744183	744190	744189	744250						1	HitCase		0		0	0			0										4	744183								
+96012118	诡异迷雾结束	2	3.5				0			6			1						-1	1	FxMb1LadyMd10001Attack01Shouji		1		FxRogueFogEnd		-1			1					0	0	0										2							2	3					744183	744190	744189	744250						1	HitCase		0		0	0			0										4	744183								
+96012149	诡异迷雾伤害	2	3.5				0			6			3.5						-1	1			1				-1			1					0	0	0										2			1	96012105			2	3					744273									1	HitCase		0		0	0			0										4	744183								
+96012119	灯塔爆炸	2	2.5				0			6			0.1						-1	0							-1			1					0	0	0										0							0	1				960121191	744251	744272								0	HitCase		6		0	0			0										4	744183								
+96012120	触手出生预警	2	3				0			1			1.5						-1					Root	FxYujing1M15S		-1			1					0	0	0										0	1.5		1	96012121			1	3														0	HitCase	1	0		0	0			0		1																	
+96012121	触手出生伤害	2	3				0			6			0.1						-1	0	FxMb1HadisiAtk04Shouji						-1			1					0	0	0										0	0.1		1	96012122			2	1					744251	744275								0	HitCase		0		0	0			1		1																	
+96012122	触手特效	2	0.1				0			1			10						-1					Root	FxRogueTentacle		-1			1					0	0	0										0	1		1	96012123			2	3														0	HitCase		6		0	0			0		1																	
+96012123	触手推人子弹	2	6				0			6			2.5						-1	1			0.1				-1			1					0	0	0										0	2.2		1	96012124			2	2					744242									0	HitCase	1	6		0	0			0		1																	
+96012124	触手砸地伤害	1	6	16		6	0			6			0.1						-1	0	FxMb1HadisiAtk04Shouji						-1			1					0	0	0										0	0		1	96012130			2	1					744251	744276								0	HitCase		6		0	0			1																			
+96012125	地雷眼	2	3.5				0			4			9999		1				-1					Root	FxRogueAbyssLoop		-1			1					0	0	0										0							0	3														0.1	HitCase	1	6		1	1			0		1																	
+96012126	鲨鱼标记	2	4				0			4			0.1						-1	0							-1			1					0	0	0										2							2	3					744175									0	HitCase		6		0	0			0																			
+96012127	眼睛标记	2	3.5				0			4			0.1						-1	0							-1			1					0	0	0										2							2	3					744204									0	HitCase		6		0	0			0																			
+96012128	海浪标记	1	20	3			12.5			4			4		1				-1	0							-1			1	6				0	0	0										2							2	3					744211									0	HitCase		4		0	0			0																			
+96012129	雷击标记	2	1.5				0			4			0.1						-1	0							-1			1					0	0	0										2							2	3					744221									0	HitCase		0		0	0			0																			
+96012130	触手标记	1	6	16		6	0			4			0.1						-1	0							-1			1					0	0	0										0							2	3					744214									0	HitCase		0		0	0			0																			
+96012131	迷雾全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760253									0	HitCase		6		1				0										4	700007								
+96012132	迷雾消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744255									0	HitCase		6		1				0																			
+96012133	鲨鱼全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760343									0	HitCase		6		1				0										4	700007								
+96012134	鲨鱼消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744256									0	HitCase		6		1				0																			
+96012135	触手全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760652									0	HitCase		6		1				0										4	700007								
+96012136	触手消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744257									0	HitCase		6		1				0																			
+96012137	海浪全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760453									0	HitCase		6		1				0										4	700007								
+96012138	海浪消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744258									0	HitCase		6		1				0																			
+96012139	闪电全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760353									0	HitCase		6		1				0										4	700007								
+96012140	闪电消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744259									0	HitCase		6		1				0																			
+96012141	雷电光环	2	4				0			4			0.1						-1	0	FxTongyongLuolei02						-1			1					0	0	0										0							0	3				960121411	744280									0	HitCase		6		0	0			0																			
+96012142	鲨鱼光环特效	2	0.1				0			4			4						-1	0					FxRogueBigfishEnd		-1			1					0	0	0										0	0.1		1	96012143			0	3														0	HitCase		6		0	0			0																			
+96012143	鲨鱼光环伤害	2	4				0			4			0.1						-1	0	FxDibingShouji						-1			1					0	0	0										0							0	3				960121431	744279									0	HitCase		6		0	0			0																			
+96012144	开眼全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744261									0	HitCase		6		1				0										4	700007								
+96012145	开眼消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744262									0	HitCase		6		1				0																			
+96012146	冥灯全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760392	760472	760252	760073						0	HitCase		6		1				0										4	700007								
+96012147	冥灯消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744263									0	HitCase		6		1				0																			
+96012150	脚踏蝴蝶	2	0.1		-0.2	0.2	0			1			0.5		1				-1	0					FxVanessaButterflyRest		-1			1					0	0	0										0	0.5		1	96012154			0	3														0	HitCase		6		0	0			0																			
+96012151	脚踏蝴蝶	2	0.1		0.2	0.2	0			1			0.5		1				-1	0					FxVanessaButterflyRest		-1			1					0	0	0										0							0	3														0	HitCase		6		0	0			0																			
+96012152	脚踏蝴蝶	2	0.1		-0.2	-0.2	0			1			0.5		1				-1	0					FxVanessaButterflyRest		-1			1					0	0	0										0							0	3														0	HitCase		6		0	0			0																			
+96012153	脚踏蝴蝶	2	0.1		0.2	-0.2	0			1			0.5		1				-1	0					FxVanessaButterflyRest		-1			1					0	0	0										0							0	3														0	HitCase		6		0	0			0																			
+96012154	脚踏蝴蝶爆炸	2	0.1				0			1			0.5		1				-1	0					FxMb1HuoshaMd010002Atk07Shouji		-1			1					0	0	0										0							0	3														0	HitCase		6		0	0			0																			
+96012155	雷击	2	0.1				0			1			1		1				-1						FxTongyongLuolei02		-1			1					0	0	0										1							4	3														0	HitCase	1	0		0	0			0																			
+96012156	雷击预警	2	2				0			1			1		1				-1					Root	FxRogueLightningYujing02		-1			1					0	0	0										3	1		1	96012157			4	3														0	HitCase	1	0		0	0			0																			
+96012157	雷击特效	2	0.1				0			1			2						-1	0					FxTongyongLuolei02		-1			1					0	0	0										2	0.1		1	96012158			2	3														0	HitCase		0		0	0			0																			
+96012158	雷击伤害	2	2				0			4			0.1						-1	0	FxMo1BraveMd010101Attack01Shouji						-1			1					0	0	0										2							2	3				960121581	744251	744278								0	HitCase		0		0	0			1																			
+96012159	受击表演子弹	2	2				0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960121591										0	HitCase		6		0	1			0																			
+96012160	飞蛾扑火左	2	1				0			4			0.1						-1	0	FxMb1HuoshaMd010002Atk07Shouji						-1			1					0	0	0										0							0	2				960121601	744359									0	HitCase		6		0	0			0																			
+96012161	飞蛾扑火右	2	1				0			4			0.1						-1	0	FxMb1HuoshaMd010002Atk07Shouji						-1			1					0	0	0										0							0	2				960121611	744359									0	HitCase		6		0	0			0																			
+96012162	放火1	2	1				0			1			99999						-1	0					FxScene01901Fire02		-1			1					0	0	0										1							4	3														0.05	HitCase	1	0		0	0			0																			
+96012163	放火2	2	1.5				0			1			99999						-1	0					FxScene01901Fire02		-1			1					0	0	0										1							4	3														0	HitCase	1	0		0	0			0																			
+96012164	放火3	2	2				0			1			99999						-1	0					FxScene01901Fire02		-1			1					0	0	0										1							4	3														0	HitCase	1	0		0	0			0																			
+96012165	放火4	2	3				0			1			99999						-1	0					FxScene01901Fire02		-1			1					0	0	0										1							4	3														0.1	HitCase	1	0		0	0			0																			
+96012166	炸弹区域显示	2	5				0			1			99999						-1					Root	FxNpcYujing01		-1			1					0	0	0										0							0	3														0.01	HitCase	1	6		1				0																			
+96012167	炸弹爆炸特效	2	3				0			4			5						-1						FxAmbulanceFire		-1			1					0	0	0										0	0		1	96012168			0	3														0.01	HitCase		0		1				0																			
+96012168	炸弹爆炸地火	2	4				0			4			4						-1	1			0.3				-1			1					0	0	0										0	1		1	96012169			0	1		0.3	0.1	960121681	744398	744402				744400				0	HitCase		0		1				0																			
+96012169	炸弹爆炸	2	5				0			4			0.1						-1								-1			1					0	0	0										0							0	3				960121691	744399	744402				744400				0	HitCase		0		1				0																			
+96012170	全场顿帧	2	100				0			6			0.1						-1	0							-1			1					0	0	0										0							0	3					744401									0	HitCase		6		1				0																			
+96012171	去全场顿帧	2	100				0			6			0.1						-1	0							-1			1					0	0	0										0							0	3					744402									0	HitCase		6		1				0																			
+96012172	吐痰区域显示	2	3				0			1			2						-1					Root	FxNpcYujing01		-1			1					0	0	0										3							4	3														0.01	HitCase	1	0		1				0																			
+96012173	受击表演子弹	2	2				0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960121731										0	HitCase		6		0	1			0																			
+96012174	表演击飞	1	1	14			0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960121741										0	HitCase		6		0	1			0																			
+96012175	表演击飞	1	1	14			0			1			0.1						-1	0							-1			1					0	0	0										0							0	2				960121751										0	HitCase		6		0	1			0																			
+96012176	降级·冥灯全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760391	760471	760251							0	HitCase		6		1				0										4	700007								
+96012177	降级·海浪出生	1	20	3		-1.5	0			1			7						-1	0					FxRogueWaveStart		-1			1					0	0	0										0	2		1	96012178			0	3														0	HitCase		6		0	0			0																			
+96012178	降级·海浪预警	1	20	50		15	10			1			5						-1	0				Root	FxRogueWaveYujing		-1			1	6				0	0	0										0	1		1	96012179			0	3														0	HitCase		4		1	0			0																			
+96012179	降级·海浪	1	20	3			12.5			4			4		1				-1	0	FxMb1HadisiAtk04Shouji				FxRogueWaveLoop		-1			1	6				0	0	0										0	999		1	96012180	1		0	1					744251	744277								0	HitCase		4		0	0			1																			
+96012180	降级·海浪结束	1	20	3			0			1			1.5						-1	0					FxRogueWaveEnd		-1			1					0	0	0										2							0	3														0	HitCase		4		0	0			0																			
+96012181	降级·雷击预警	2	1.5				0			1			1		1				-1					Root	FxRogueLightningYujing02		-1			1					0	0	0										1	1		1	96012182			4	3														0	HitCase	1	0		0	0			0																			
+96012182	降级·雷击特效	2	0.1				0			1			2						-1	0					FxTongyongLuolei02		-1			1					0	0	0										2	0.1		1	96012183			2	3														0	HitCase		0		0	0			0																			
+96012183	降级·雷击伤害	2	1.5				0			6			0.1						-1	0	FxMo1BraveMd010101Attack01Shouji						-1			1					0	0	0										2							2	3					744251	744278								0	HitCase		0		0	0			1																			
+96012184	降级·地雷显示区域	2	3				0			4			9999		1				1					Root	FxNpcYujing01		1			1					0	0	0										0	999		1	96012185	1	1	0	3														0	HitCase	1	6		1	1			0		1																	
+96012185	降级·地雷开眼预警	2	3				0			7			0.5						-1	0					FxYujing1M05S		-1			1					0	0	0										0	0.5		1	96012186			0	3										744198				0	HitCase	1	6		0	0			0																			
+96012186	降级·地雷开眼	2	3				0			6			3						-1	0					FxRogueAbyssEnd		-1			1					0	0	0										0	0.1		1	96012187			0	3														0	HitCase	1	6		0	0			0																			
+96012187	降级·地雷伤害	2	3				0			6			0.1						-1	0	FxMb1HadisiAtk04Shouji						-1			1					0	0	0										0							0	3					744251	744272								0	HitCase		6		0	0			0																			
+96012188	降级·诡异迷雾开始	2	3.5				0			6			1						-1	1			1		FxRogueFogStart		-1			1					0	0	0										0			1	96012189			0	3														1	HitCase		0		0	0			0																			
+96012189	降级·诡异迷雾伤害	2	3.5				0			6			3.5						-1	1			1				-1			1					0	0	0										2			1	96012190			2	3					744273									1	HitCase		0		0	0			0										4	744183								
+96012190	降级·诡异迷雾循环	2	3.5				0			6			3						-1	1	FxMb1LadyMd10001Attack01Shouji		1		FxRogueFogLoop		-1			1					0	0	0										2	2.5		1	96012191			2	3					744183	744250	744190	744548						1	HitCase		0		0	0			0										4	744183								
+96012191	降级·诡异迷雾结束	2	3.5				0			6			1						-1	1	FxMb1LadyMd10001Attack01Shouji		1		FxRogueFogEnd		-1			1					0	0	0										2							2	3					744183	744250	744190	744548						1	HitCase		0		0	0			0										4	744183								
+96012192	降级·鲨鱼咬人特效	2	0.1				0			6			4						-1	0					FxRogueBigfishEnd		-1			1					0	0	0										0	0.1		1	96012193			0	3														0	HitCase		6		0	0			0																			
+96012193	降级·鲨鱼咬人伤害	2	4				0			6			0.1						-1	0	FxDibingShouji						-1			1					0	0	0										0							0	3					744274	744251								0	HitCase		6		0	0			0																			
+96012194	降级·触手出生预警	2	3				0			1			1.5						-1					Root	FxYujing1M15S		-1			1					0	0	0										0	1.5		1	96012195			1	3														0	HitCase	1	0		0	0			0		1																	
+96012195	降级·触手出生伤害	2	3				0			6			0.1						-1	0	FxMb1HadisiAtk04Shouji						-1			1					0	0	0										0	0.1		1	96012196			2	1					744251	744275								0	HitCase		0		0	0			1		1																	
+96012196	降级·触手特效	2	0.1				0			1			10						-1					Root	FxRogueTentacle		-1			1					0	0	0										0	1		1	96012197			2	3														0	HitCase		6		0	0			0		1																	
+96012197	降级·触手推人子弹	2	6				0			6			2.5						-1	1			0.1				-1			1					0	0	0										0	2.2		1	96012198			2	2					744242									0	HitCase	1	6		0	0			0		1																	
+96012198	降级·触手砸地伤害	1	6	16		6	0			6			0.1						-1	0	FxMb1HadisiAtk04Shouji						-1			1					0	0	0										0							2	1					744251	744276								0	HitCase		6		0	0			1																			
+96012199	DLC·海浪全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					712004									0	HitCase		6		1				0										4	700007								
+96012200	DLC·闪电全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760493									0	HitCase		6		1				0										4	700007								
+96012201	DLC·鲨鱼全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760253									0	HitCase		6		1				0										4	700007								
+96012202	DLC·触手全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760672									0	HitCase		6		1				0										4	700007								
+96012203	DLC·迷雾全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760642									0	HitCase		6		1				0										4	700007								
+96012204	龙卷风区域	2	10				0			4			9999						-1	1			1	Root	FxNpcYujing01		-1			1					0	0	0										0							0	3					903538	744276	744576							0	HitCase	1	6		1	1			0		1																	
+96012205	龙卷风全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760632									0	HitCase		6		1				0										4	700007								
+96012206	龙卷风消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744568									0	HitCase		6		1				0																			
+96012207	黑洞开始	2	5				0			6			1						-1	1			1		FxRogueHeidongStart		-1			1					0	0	0										0	1		1	96012208			0	3														0	HitCase		0		0	0			0										4	744183								
+96012208	黑洞伤害	2	5				0			4			10						-1	1			1				-1			1					0	0	0										2			1	96012209			2	3					744274	744566								0	HitCase		0		0	0			0										4	744183								
+96012209	黑洞循环	2	5				0			6			9						-1	1	FxMb1LadyMd10001Attack01Shouji		1		FxRogueHeidongLoop		-1			1					0	0	0										2	9		1	96012210			2	3					744183	744250								0	HitCase		0		0	0			0										4	744183								
+96012210	黑洞结束	2	5				0			6			1						-1	1			1		FxRogueHeidongEnd		-1			1					0	0	0										2							2	3														0	HitCase		0		0	0			0										4	744183								
+96012211	红潮地板	2	10				0			4			8						-1	1			0.3		FxRoguePunishFloor		-1			1					0	0	0										0							0	3					903538	744573	716161	744276						0	HitCase		6		0	0			0		1																	
+96012212	红潮全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760642									0	HitCase		6		1				0										4	700007								
+96012213	红潮消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744255									0	HitCase		6		1				0																			
+96012214	黑洞全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					715713									0	HitCase		6		1				0										4	700007								
+96012215	黑洞消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744255	100078								0	HitCase		6		1				0																			
+96012216	眼睛全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					760382									0	HitCase		6		1				0										4	700007								
+96012217	眼睛消除全体子弹	2	100				0			2			1						-1	0							-1			1					0	0	0										0							0	2					744256	760385								0	HitCase		6		1				0																			

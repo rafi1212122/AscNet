@@ -1,13 +1,9 @@
 Id	Name	Model	ScriptId	DeathEffectNames[1]	DeathEffectNames[2]
-1	Explosive Barrel_Old	Assets/Product/Scene/DlcSceneObjectPrefab/Mt1GunpowderMd000001.prefab			
-2	Tree_Old	Assets/Product/Scene/DlcSceneObjectPrefab/Mt1TreeMd000001.prefab			
-3	Ore_Old	Assets/Product/Scene/DlcSceneObjectPrefab/Mt1StoneMd000001.prefab			
-4	Paralysis Trap_Old	Assets/Product/Scene/DlcSceneObjectPrefab/Mt1MabixianjingMd000001.prefab			
-5	Drops_Old	Assets/Product/Scene/DlcSceneObjectPrefab/FxDiaoluowu.prefab			
-6	Shining Bug_Old	Assets/Product/Scene/DlcSceneObjectPrefab/FxMhwflash.prefab			
+1	Explosive Barrel_Old	Assets/Product/Scene/DlcSceneObjectPrefab/Trigger.prefab			
+2	Tree_Old	Assets/Product/Scene/DlcSceneObjectPrefab/ReadyTrigger.prefab			
 7	Elevator_Test	Assets/Product/Scene/DlcSceneObjectPrefab/Elevator0.prefab	1		
 8	Spear Hook Point_Test	Assets/Product/Scene/DlcSceneObjectPrefab/SpearPoint0.prefab			
-9	Cyclic Mobile Platform_Test	Assets/Product/Scene/DlcSceneObjectPrefab/Elevator0.prefab			
+9	Cyclic Mobile Platform_Test	Assets/Product/Scene/DlcSceneObjectPrefab/Elevator0.prefab	3		
 10	Button Triggered by Attack_Test	Assets/Product/Scene/DlcSceneObjectPrefab/SpearPoint0.prefab			
 12	Small Tower_Beng Yue Boss Level	Assets/Product/Scene/DlcSceneObjectPrefab/SceneHunt/SHunt02_Zhuzi02Ani.prefab	5		
 13	Rough Tower_Beng Yue Boss Level	Assets/Product/Scene/DlcSceneObjectPrefab/SceneHunt/SHunt02_Zhuzi01Ani.prefab	5		
@@ -16,9 +12,10 @@ Id	Name	Model	ScriptId	DeathEffectNames[1]	DeathEffectNames[2]
 16	Small Tower_Test	Assets/Product/Scene/DlcSceneObjectPrefab/ThinTower.prefab	5		
 17	Rough Tower_Test	Assets/Product/Scene/DlcSceneObjectPrefab/ThickTower.prefab	5		
 18	Floating Platform (Function Same Tower)_Test	Assets/Product/Scene/DlcSceneObjectPrefab/Elevator0.prefab	5		
-19	Test Track for 11th Stage_Test	Assets/Product/Camera/DLCDollyTrack/DollyTrack2.prefab			
 20	Pure Trigger	Assets/Product/Scene/DlcSceneObjectPrefab/Trigger.prefab			
 21	Virtual Camera Proxy	Assets/Product/Scene/DlcSceneObjectPrefab/Trigger.prefab	6		
 22	Tower Switch	Assets/Product/Scene/DlcSceneObjectPrefab/SceneHunt/SHunt02_04Switch03.prefab	7		
 23	Convex Spear Hook Point	Assets/Product/Scene/DlcSceneObjectPrefab/SceneHunt/SHunt02_01Maodian.prefab	8		
 24	Flat Spear Hook Point	Assets/Product/Scene/DlcSceneObjectPrefab/SceneHunt/SHunt02_02Maodian.prefab	8		
+8000	Test Track for Stage 8000_Test	Assets/Product/Camera/DLCDollyTrack/DollyTrack2.prefab			
+8001	Ring Track	Assets/Product/Camera/DLCDollyTrack/DollyTrack1.prefab			

@@ -1,45 +1,53 @@
-Id	Name	Type	Des	Power	IsPercent
-1	Life	1	HP	1	0
-2	Attack	1	ATK	1	0
-3	Defense	1	DEF	1	0
-4	Pierce	1	Pierce	1	0
-5	PhysicalAmp	2	Physical DMG Up	1	1
-6	Element1Amp	3	Fire DMG Up	1	1
-7	Element2Amp	4	Ice DMG Up	1	1
-8	Element3Amp	5	Lightning DMG Up	1	1
-9	Element4Amp	6	Dark DMG Up	1	1
-10	PhysicalReduction	2	Physical DMG Reduction	1	1
-11	Element1Reduction	3	Fire DMG Reduction	1	1
-12	Element2Reduction	4	Ice DMG Reduction	1	1
-13	Element3Reduction	5	Lightning DMG Reduction	1	1
-14	Element4Reduction	6	Dark DMG Reduction	1	1
-15	PhysicalPierce	2	Piercing Physical DMG	1	1
-16	Element1Pierce	3	Piercing Fire DMG	1	1
-17	Element2Pierce	4	Piercing Ice DMG	1	1
-18	Element3Pierce	5	Piercing Lightning DMG	1	1
-19	Element4Pierce	6	Piercing Dark DMG	1	1
-20	PhysicalResistance	2	Physical DMG Resistance	1	1
-21	Element1Resistance	3	Fire DMG Resistance	1	1
-22	Element2Resistance	4	Ice DMG Resistance	1	1
-23	Element3Resistance	5	Lightning DMG Resistance	1	1
-24	Element4Resistance	6	Dark DMG Resistance	1	1
-25	DamageBonus	7	Extra DMG	1	1
-26	DamageReduction	7	DMG Reduction	1	1
-27	Crit	8	Critical	1	1
-28	CritResistance	8	Crit DMG Resistance	1	1
-29	CritDamage	8	CRIT DMG	1	1
-30	PartDamageBonus	7	Extra Part DMG	1	1
-31	PartDamageReduction	7	Part DMG Reduction	1	1
-32	ThreatRate	7	Aggro converted from DMG	1	1
-33	CharacterValue	9	Character Value	1	0
-34	Sp	9	Signature Points	1	0
-35	IdleSpinningSpeed	9	Standby Turn Rate	1	0
-36	RunSpinningSpeed	9	Running Turn Rate	1	0
-37	DodgeEnergy	9	Dodge Energy	1	0
-38	JumpEnergy	9	Jump Energy	1	0
-39	DodgeEnergyRegen	9	Dodge Energy Regeneration	1	0
-40	JumpEnergyRegen	9	Jump Energy Regeneration	1	0
-41	CustomEnergyGroup1	10	Custom Energy Set 1	1	0
-42	CustomEnergyGroup2	10	Custom Energy Set 2	1	0
-43	CustomEnergyGroup3	10	Custom Energy Set 3	1	0
-44	CustomEnergyGroup4	10	Custom Energy Set 4	1	0
+Id	Name	Type	Des	Power	IsPercent	DescEn
+1001	Life	1	HP	0.2	0	HEALTH
+1002	Attack	1	Attack	1	0	DAMAGE
+1003	AttackIntensity	1	Attack Boost	0	0	
+1004	Defense	1	DEF	0.5	0	DEFENCE
+1005	DefensePierceP	1	Defense Piercing	0	1	
+2001	CritP	2	CRIT Rate	0	1	
+2002	CritResistanceP	2	CRIT Resistance	0	1	
+2003	CritDmgRateP	2	CRIT DMG Rate	0	1	
+2004	CritDmgRateReductionP	2	CRIT DMG Rate Reduction	0	1	
+3001	ShieldEfficiencyP	3	Shield Efficiency	0	1	
+3002	ShieldAmpP	3	Shield Bonus	0	1	
+3003	ShieldReductionP	3	Shield Reduction	0	1	
+3004	ShieldGainBonusP	3	Shield Bonus Received	0	1	
+3005	ShieldGainReductionP	3	Shield Reduction Received	0	1	
+4001	PhysicalAmpP	4	Physical DMG Increase	0	1	
+4002	Element1AmpP	4	Fire DMG Increase	0	1	
+4003	Element2AmpP	4	Lightning DMG Increase	0	1	
+4004	Element3AmpP	4	Ice DMG Increase	0	1	
+4005	Element4AmpP	4	Dark DMG Increase	0	1	
+4006	PhysicalReductionP	4	Physical DMG Reduction	0	1	
+4007	Element1ReductionP	4	Fire DMG Reduction	0	1	
+4008	Element2ReductionP	4	Lightning DMG Reduction	0	1	
+4009	Element3ReductionP	4	Ice DMG Reduction	0	1	
+4010	Element4ReductionP	4	Dark DMG Reduction	0	1	
+4011	PhysicalPierceP	4	Piercing Physical DMG	0	1	
+4012	Element1PierceP	4	Piercing Fire DMG	0	1	
+4013	Element2PierceP	4	Piercing Lightning DMG	0	1	
+4014	Element3PierceP	4	Piercing Ice DMG	0	1	
+4015	Element4PierceP	4	Piercing Dark DMG	0	1	
+5001	SignalSkillDmgAmpP	5	Signal Orb Skill DMG Bonus	0	1	
+5002	SpecialSkillDmgAmpP	5	Special Skill DMG Bonus	0	1	
+5003	NormalAtkDmgAmpP	5	Basic Attack Skill DMG Bonus	0	1	
+5004	ExSkillDmgAmpP	5	Signature Move DMG Bonus	0	1	
+5005	HuntSkillDmgAmpP	5	Spear Skill DMG Bonus	0	1	
+5006	SignalSkillDmgReductionP	5	Signal Orb Skill DMG Reduction	0	1	
+5007	SpecialSkillDmgReductionP	5	Special Skill DMG Reduction	0	1	
+5008	NormalAtkDmgReductionP	5	Basic Attack Skill DMG Reduction	0	1	
+5009	ExSkillDmgReductionP	5	Signature Move DMG Reduction	0	1	
+5010	HuntSkillDmgReductionP	5	Spear Skill DMG Reduction	0	1	
+6001	ThreatRate	6	Aggro converted from DMG	0	1	
+6002	CharacterValue	6	Character Value	0	0	
+6003	ExSkillPoint	6	Signature Points	0	0	
+6004	IdleSpinningSpeed	6	Standby Turn Rate	0	0	
+6005	RunSpinningSpeed	6	Running Turn Rate	0	0	
+6006	DodgeEnergy	6	Dodge Energy	0	0	
+6007	JumpEnergy	6	Jump Energy	0	0	
+6008	DodgeEnergyRegen	6	Dodge Energy Regeneration	0	0	
+6009	JumpEnergyRegen	6	Jump Energy Regeneration	0	0	
+6010	CustomEnergyGroup1	6	Custom Energy Set 1	0	0	
+6011	CustomEnergyGroup2	6	Custom Energy Set 2	0	0	
+6012	CustomEnergyGroup3	6	Custom Energy Set 3	0	0	
+6013	CustomEnergyGroup4	6	Custom Energy Set 4	0	0	

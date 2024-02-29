@@ -1,13 +1,13 @@
-Key	Comment	Values[1]	Values[2]	Values[3]	Values[4]	Values[5]	Values[6]	Values[7]
-StageMainCostItems	Consumable slot for stage main interface.	96114						
-DayRefreshTime	Daily refresh (enemy movement, etc.) time unit: hours in the 24-hour clock format (e.g., 8 AM is 08:00 and 8 PM is 20:00).	20						
-HourRefreshTime	Regular Refresh Time (in minutes)	5						
-PathMarkMaxCount	Max Mark Points	2						
-StageTypeName	Stage type name	Resource Security Area	Juncture	Land of Resources	Ambush Outpost	Dangerous Pass	Dangerous Cliff	Dangerous Cliff
-StageTypeIcon	Stage type icon	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon1.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon2.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon6.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon3.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon4_1.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon5.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon7.png
-LogCount	Show the recent battle reports	30						
-AutoSelectDifficultyTime	Auto-select Difficulty Time (24-hour)	23						
-EntryRewardId	Entrance reward display	550600						
-SpecialRoleIcon1	Operation Icon 1	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarUpIcon1.png						
-SpecialRoleIcon2	Operation Icon 2	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarUpIcon2.png						
-PassRewardShow	Difficulty selection screen reward preview	15231	15232	15233				
+Key	Comment	Values[1]	Values[2]	Values[3]	Values[4]	Values[5]	Values[6]	Values[7]	Values[8]	Values[9]	Values[10]	Values[11]	Values[12]	Values[13]
+StageMainCostItems	Consumable slot for stage main interface.	96114												
+DayRefreshTime	Daily refresh (enemy movement, etc.) time unit: hours in the 24-hour clock format (e.g., 8 AM is 08:00 and 8 PM is 20:00).	20												
+HourRefreshTime	Regular Refresh Time (in minutes)	5												
+PathMarkMaxCount	Max Mark Points	2												
+StageTypeName	Stage type name	Resource Security Area	Juncture	Land of Resources	Ambush Outpost	Dangerous Pass	Dangerous Cliff	Dangerous Cliff	Dangerous Cliff	Dangerous Cliff	Dangerous Cliff	Hidden Area	Assistance Outpost	Hidden Area
+StageTypeIcon	Stage type icon	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon1.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon2.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon6.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon3.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon4_1.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon5.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon7.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon9.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon9.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon9.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon11.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon10.png	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarStageIcon11.png
+LogCount	Show the recent battle reports	30												
+AutoSelectDifficultyTime	Auto-select Difficulty Time (24-hour)	23												
+EntryRewardId	Entrance reward display	550600												
+SpecialRoleIcon1	Operation Icon 1	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarUpIcon1.png												
+SpecialRoleIcon2	Operation Icon 2	Assets/Product/Texture/Image/UiGuildWar/UiGuildWarUpIcon2.png												
+PassRewardShow	Difficulty selection screen reward preview	15231	15232	15233										

@@ -65,7 +65,9 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 4024	(Placeholder)		778801											
 4025	Increases CRIT Rate and CRIT DMG every time upon entering Matrix		778805											
 4026	Lee: Hyperreal Placeholder		763833											
-4027	Ayla War Zone		763859											
+4027	The character deals X% more Core Passive DMG after a 3-Ping. Stacks up to Y times. Lasts Zs. Duration resets every time the effect is triggered.		763859											
+4028	Ultimate Brawl Positions		763840											
+4029	Alpha: Crimson Weave War Zone		763866											
 11001	During Simulation, HP of enemies increases by 15%.						770000							
 11002	During Simulation, HP of enemies increases by 30%.						770001							
 11003	During Simulation, HP of enemies increases by 45%.						770002							
@@ -3288,10 +3290,14 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2200503	Imaginary Exchange Field III		470750	470799										
 2200504	Imaginary Exchange Field IV		470750	470800										
 2200505	Imaginary Exchange Field V		470750	470801										
-2200601	Ultimate Brawl Support Balance		776150											
-2200602	Ultimate Brawl Amplifier Balance		776153											
-2200603	Ultimate Brawl Attacker Balance		776156											
-2200604	Ultimate Brawl Tank Balance		776159											
+2200506	Heal		776037											
+2200507	Dodge		776053											
+2200508	Reflect		776047											
+2200509	Beta		776168											
+2200601	Ultimate Brawl Support Balance		776150	763835	763864									
+2200602	Ultimate Brawl Amplifier Balance		776153	763835	763864									
+2200603	Ultimate Brawl Attacker Balance		776156	763835	763864									
+2200604	Ultimate Brawl Tank Balance		776159	763835	763864									
 2200605	Co-op Buff		199910											
 2200701	Ultimate Brawl Environment 1						776107							
 2200702	Ultimate Brawl Environment 2		776109				776110							
@@ -3339,6 +3345,10 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2201603	Map Environment - True DMG						776139							
 2201604	Map Environment - Arena		746181				746180							
 2201605	Map Environment - Musashi Super Armor						751100							
+2201606	For all support enemies		763840				763865							
+2201607	For all support characters		763835				763865							
+2201608	Support characters themselves		763839	740778	778863									
+2201609	For all Easter Egg characters		763864											
 2210101	"Gain a shield equal to 10% HP at the start of battle. Ultimate Brawl Test Environment 1"		761358											
 2210102	"Gain a shield equal to 20% HP at the start of battle. Ultimate Brawl Test Environment 2"		761359											
 2210103	"Gain a shield equal to 30% HP at the start of battle. Ultimate Brawl Test Environment 3"		761360											
@@ -3387,6 +3397,85 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2230016	Punishing Shooting Blast Kill ATK Up		779052											
 2230017	Punishing Shooting Blast the More Enemies the Tougher		779053											
 2230018	Punishing Shooting Blast Dodge Burst HP Recovery		779060											
+2230020	Shoot 2.0 Blast: Hit Delay		761550											
+2230021	Shoot 2.0 Blast: Attack Slowdown		761554											
+2230022	Shoot 2.0 Blast: CD Dodge		761558											
+2230023	Shoot 2.0 Blast: Dodge DMG Stacking		761561											
+2230024	Shoot 2.0 Blast: Ranged and Close DMG		761564											
+2230025	Shoot 2.0 Blast: Dodge Signature		761567											
+2230026	Shoot 2.0 Rigor: Kill to Restore Energy		761570											
+2230027	Shoot 2.0 Rigor: Matrix Shield		761572											
+2230028	Shoot 2.0 Rigor: Signature Refresh		761574											
+2230029	Shoot 2.0 Rigor: Low HP Slowness		761575											
+2230030	Shoot 2.0 Rigor: Basic Attack DMG Boost		761579											
+2230031	Shoot 2.0 Rigor: Infinite Dodge		761583											
+2230032	Shoot 2.0 Rigor: Basic Attack Modification		500481											
+2230033	Shoot 2.0 Rigor: Red Orb Modification		500482											
+2230034	Shoot 2.0 Rigor: Yellow Orb Modification		500484											
+2230035	Shoot 2.0 Rigor: Blue Orb Modification		500483											
+2230036	Shoot 2.0 Rigor: Signature Modification		500480											
+2230037	Shoot 2.0 Blast: ATK		761590											
+2230038	Shoot 2.0 Blast: HP		761591											
+2230039	Shoot 2.0 Blast: Critical		761592											
+2230040	Shoot 2.0 Blast: Dodge Gauge		761593											
+2230041	Shoot 2.0 Blast: Critical DMG		761594											
+2230042	Corrupted Battlefront 2.0: Lee's ATK 1		742647											
+2230043	Corrupted Battlefront - Lee's ATK 1		742647											
+2230044	Corrupted Battlefront - Lee's HP 1		742648											
+2230045	Corrupted Battlefront - Lee's ATK 1		742649											
+2230046	Corrupted Battlefront - Lee's Dodge 1		742650											
+2230047	Corrupted Battlefront - Lee's Critical 1		742651											
+2230048	Corrupted Battlefront - Lee's ATK 2		742652											
+2230049	Corrupted Battlefront - Lee's HP 2		742653											
+2230050	Corrupted Battlefront - Lee's ATK 2		742654											
+2230051	Corrupted Battlefront - Lee's Dodge 2		742655											
+2230052	Corrupted Battlefront - Lee's Critical 2		742656											
+2230053	Corrupted Battlefront - Lee's ATK 3		742657											
+2230054	Corrupted Battlefront - Lee's HP 3		742658											
+2230055	Corrupted Battlefront - Lee's ATK 3		742659											
+2230056	Corrupted Battlefront - Lee's Dodge 3		742660											
+2230057	Corrupted Battlefront - Lee's Critical 3		742661											
+2230058	Corrupted Battlefront - Lee's Effect 2: Dodge Shield		742677											
+2230059	Corrupted Battlefront - Lee's Effect 1: Combo DMG Increase		742681											
+2230060	Corrupted Battlefront - Lee's Effect 5: Resurrection Armor		742685											
+2230061	Corrupted Battlefront - Lee's Effect 3: Kill to Increase DMG		742849											
+2230062	Corrupted Battlefront - Lee's Effect 4: Press and hold Dodge		742800											
+2230063	Corrupted Battlefront - Lee's Effect 6: Max HP		742806											
+2230064	Corrupted Battlefront - Liv's ATK 1		742662											
+2230065	Corrupted Battlefront - Liv's HP 1		742663											
+2230066	Corrupted Battlefront - Liv's DMG Reduction 1		742664											
+2230067	Corrupted Battlefront - Liv's Dodge 1		742665											
+2230068	Corrupted Battlefront - Liv's Critical 1		742666											
+2230069	Corrupted Battlefront - Liv's ATK 2		742667											
+2230070	Corrupted Battlefront - Liv's HP 2		742668											
+2230071	Corrupted Battlefront - Liv's DMG Reduction 2		742669											
+2230072	Corrupted Battlefront - Liv's Dodge 2		742670											
+2230073	Corrupted Battlefront - Liv's Critical 2		742671											
+2230074	Corrupted Battlefront - Liv's ATK 3		742672											
+2230075	Corrupted Battlefront - Liv's HP 3		742673											
+2230076	Corrupted Battlefront - Liv's DMG Reduction 3		742674											
+2230077	Corrupted Battlefront - Liv's Dodge 3		742675											
+2230078	Corrupted Battlefront - Liv's Critical 3		742676											
+2230079	Corrupted Battlefront - Liv's Effect 1: Dodge to Apply Shield		742816											
+2230080	Corrupted Battlefront - Liv's Effect 2: Shield Increases DMG		742820											
+2230081	Corrupted Battlefront - Liv's Effect 3: Basic Attacks Increase DMG		742809											
+2230082	Corrupted Battlefront - Liv's Effect 5: Dodge to Increase DMG		742844	742848										
+2230083	Corrupted Battlefront - Liv's Effect 6: Signature Recovery		742859											
+2230084	Corrupted Battlefront - Liv's Effect 4 Chance: 30%		742861	742862	742863									
+2230085	Corrupted Battlefront - Liv's Effect 4 Chance: 50%		742824											
+2230086	Corrupted Battlefront - Liv's Effect 4 Chance: 70%		742825											
+2230087	Corrupted Battlefront - Liv's Basic Attack Modification		501056											
+2230088	Corrupted Battlefront - Liv's Red Orb Modification		501057											
+2230089	Corrupted Battlefront - Liv's Blue Orb Modification		501058											
+2230090	Corrupted Battlefront - Liv's Yellow Orb Modification		501059											
+2230091	Corrupted Battlefront - Liv's Signature Modification		501055											
+2230092	Shoot 2.0 Rosetta: ATK		761595											
+2230093	Shoot 2.0 Rosetta: HP		761596											
+2230094	Shoot 2.0 Rosetta: Critical		761597											
+2230095	Shoot 2.0 Rosetta: Dodge Gauge		761598											
+2230096	Shoot 2.0 Rosetta: CRIT Rate		761599											
+2230097	Corrupted Battlefront - Liv's Effect 6													
+2230098	Corrupted Battlefront - Liv's Effect 6													
 2230100	Modification 3.0 Down to One		746563											
 2230101	Modification 3.0 Four Trials						746564							
 2230102	Modification 3.0 Quick Battle		746565				746565							
@@ -3595,6 +3684,16 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2230513	The Mythic Paradise - Charged Environment						716137							
 2230514	The Mythic Paradise - Night-blind Environment						716138							
 2230515	The Mythic Paradise - Character Signature Immune to Slow		761547											
+2230600	Shoot 2.0 Stage: Base Stats Settings						746350							
+2230601	Shoot 2.0 Stage: HP Bonus						761603							
+2230602	Shoot 2.0 Healing Support		746351											
+2230603	Shoot 2.0 Super Armor Support		746339											
+2230604	Shoot 2.0 Aircraft Support		746343											
+2230605	Shoot 2.0 Adrenaline Boost		746355											
+2230606	Shoot 2.0 Freeze		746358											
+2230607	Shoot 2.0 Matrix		746360											
+2230608	Shoot 2.0 Blazing Stage Skill						761604							
+2230609	Shoot 2.0 Daily Stage Enemy HP						761605							
 2240001	2-Year Anniversary Roguelike - Sky Fire Lineup - Basic Attack Skill Lv.1		778301											
 2240002	2-Year Anniversary Roguelike - Sky Fire Lineup - Basic Attack Skill Lv.2		778302											
 2240003	2-Year Anniversary Roguelike - Sky Fire Lineup - Basic Attack Skill Lv.3		778303											
@@ -3877,11 +3976,11 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2240281	Uniframe Pass													
 2240282	Lightning Resistance Down						778701							
 2240283	Signature Move Boost		778702											
-2240284	Dark Resistance Down						778703							
+2240284	Ice Resistance Down						778703							
 2240285	Phantom Amplification		778704											
 2240286	Fire Resistance Down						778705							
 2240287	Single Overclock		778706											
-2240288	Physical Resistance Down		779881				778707							
+2240288	DMG Increases Over Time		779881											
 2240289	TBD		778708											
 2240290	Signature Move Boost		779882											
 2240291	DMG Up		778714											
@@ -3985,10 +4084,10 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2240389	Frontline - Time Extension		746529											
 2240390	Frontline - Transformational Skill (Stacks)		746530											
 2240391	Frontline - Transformational Skill (Response)		746531											
-2240392	Outpost Deviation													
-2240393	Outpost Deviation II													
-2240394	Black and White Sharks													
-2240395	Outpost/Pass Boost													
+2240392	Battalion Unseen													
+2240393	Army Unseen													
+2240394	Merge!													
+2240395	Outpost Boost													
 2240396	Guild Expedition - Weakness Mark						746600							
 2250001	Roguelike 2.0 - Bond - Stat Bond - Physical Lv.1 - Reduces 100% DEF Upon Dealing DMG		763453											
 2250002	Roguelike 2.0 - Bond - Stat Bond - Physical Lv.2 - Reduces 50% Anti-Amplify Upon Dealing DMG		763451											
@@ -4023,8 +4122,8 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2250041	Roguelike 2.0 - Bond - Faction Bond - Little League Lv.1 - Coins: Signature Energy or DMG Bonus		747970											
 2250042	Roguelike 2.0 - Bond - Faction Bond - Little League Lv.2 - Summon: Percentage DMG or Enemy-Pulling Resistance Reduction		747971											
 2250043	Roguelike 2.0 - Bond - Faction Bond - Little League Lv.3 - Guaranteed to Have All Enhancement Effects and Enhanced Coin Effects		747972											
-2250044	Roguelike 2.0 - Bond - Faction Bond - Cerberus Lv.1 - Consumes 1 Energy Orb and Restores 20 Energy		747850											
-2250045	Roguelike 2.0 - Bond - Faction Bond - Cerberus Lv.2 - Loses 1% Max HP and Deals AOE DMG Equal to 1% of Current HP		747852											
+2250044	Roguelike 2.0 - Bond - Faction Bond - Cerberus Lv.1 - Consumes 1 Energy Orb and Restores 20 Energy		762280											
+2250045	Roguelike 2.0 - Bond - Faction Bond - Cerberus Lv.2 - Loses 1% Max HP and Deals AOE DMG Equal to 1% of Current HP		762282											
 2250046	Roguelike 2.0 - Bond - Faction Bond - Survivor Lv.1 - Press and Hold Basic Attack for 1s. Gains a 100% DMG Bonus After 3s.		747835											
 2250047	Roguelike 2.0 - Bond - Faction Bond - Survivor Lv.2 - Enters Matrix After Multiple Dodges in a Row		747837											
 2250048	Roguelike 2.0 - Bond - Faction Bond - Purifying Force Lv.1 - Deals More DMG to Units With HP Above 70%		747955											
@@ -4035,9 +4134,9 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2250053	Roguelike 2.0 - Bond - Faction Bond - Engineering Force Lv.1 - Summons a barrage. Increases projectiles upon great success.		747862											
 2250054	Roguelike 2.0 - Bond - Faction Bond - Engineering Force Lv.2 - Summons a laser. Summons an extra laser upon great success.		747865											
 2250055	Roguelike 2.0 - Bond - Faction Bond - Engineering Force Lv.3 - Summons an air strike. Fires great Ivan upon great success		747871											
-2250056	Roguelike 2.0 - Bond - Faction Bond - Pulse Garnet Lv.1 - Signature DMG +50% (Signature DMG Taken by Enemies +50%. Let them take more DMG!)						763474							
-2250057	Roguelike 2.0 - Bond - Faction Bond - Pulse Garnet Lv.2 - Each Signature Move Launched Within 5s After the Previous One Deals 50% More DMG, up to 200%		747832											
-2250058	Roguelike 2.0 - Bond - Faction Bond - Pulse Garnet Lv.3 - Reduces Anti-Amplify by 20% Upon Launching a Signature Move. Stacks up to 120%.		747827											
+2250056	Roguelike 2.0 - Bond - Faction Bond - Pulse Garnet Lv.1 - Each Signature Move Launched Within 15s After the Previous One Deals 100% More DMG; Stacks Up to 3 Times		762269											
+2250057	Roguelike 2.0 - Bond - Faction Bond - Pulse Garnet Lv.2 - Reduces Anti-Amplify by 20% Upon Launching a Signature Move; Stacks Up to 120%		762274											
+2250058	Roguelike 2.0 - Bond - Faction Bond - Pulse Garnet Lv.3 - Each Signature Move Consumes 50% less Energy. Lv.1 Effect Stacks Up to 5 Times		762278											
 2250059	Roguelike 2.0 - Bond - Faction Bond - Crimson Abyss Luna Lv.1 - Extra Skill		747819											
 2250060	Roguelike 2.0 - Bond - Faction Bond - Crimson Abyss Luna Lv.2 - Pinging Multiple Special Orbs in a Row Increases DMG by 20%, up to 200%		747823											
 2250061	Roguelike 2.0 - Bond - Faction Bond - Crimson Abyss Luna Lv.3 - Has a 80% Chance to Obtain One Extra Special Orb		747826											
@@ -4063,6 +4162,20 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2250081	Roguelike 2.0 - Bond - Faction Bond - SP Character Lv.2 - Halves Character Switch Cooldown and Gains a 30% Shield		747804											
 2250082	Roguelike 2.0 - Bond - Faction Bond - SP Character Lv.3 - Gains a 40% DMG Bonus Upon Character Switch, up to 200%		747802											
 2250083	Roguelike 2.0 - Bond - Faction Bond - SP Character Lv.4 - Enters Matrix and Gains 100 Signature Energy and 3 Sets of Orbs Upon Character Switch		747806											
+2250084	Roguelike 2.0 - Bond - Faction Bond - Egret's Old Pact - Rank 1 - 200 Dodge Gauge + Dodge triggers Healing Aura		747919											
+2250085	Roguelike 2.0 - Bond - Faction Bond - Egret's Old Pact - Rank 2 - 400 Dodge Gauge + Healing Aura boosts the DMG Bonus effect		747923											
+2250086	Roguelike 2.0 - Bond - Faction Bond - Lee: Hyperreal - Rank 1 - Single Hyper Space Strike		930778											
+2250087	Roguelike 2.0 - Bond - Faction Bond - Lee: Hyperreal - Rank 2 - 3 Hyper Space Strikes		930779											
+2250088	Spectroscopic Binary Star Phase 4 Attacker Skill		199910	763449	776372	715275								
+2250089	Spectroscopic Binary Star Phase 4 Tank Skill		199910	763449	776375	715275								
+2250090	Spectroscopic Binary Star Phase 4 Support Skill		199910	763449	776382	715275								
+2250091	Roguelike 2.0 - Bond - Stat Bond - Physical Lv.5 - Summons Blood Blade Upon Dealing DMG. Final Physical DMG +50%		762467											
+2250092	Roguelike 2.0 - Bond - Stat Bond - Ice Lv.5 - Enemy Freezes Upon Taking DMG; Final Ice DMG +50%		762472											
+2250093	Roguelike 2.0 - Bond - Stat Bond - Lightning Lv.5 - Summons Lightning Formation Upon Dealing DMG; Final Lightning DMG +50%		762479											
+2250094	Roguelike 2.0 - Bond - Stat Bond - Fire Lv.5 - Summons Meteorites Upon Dealing DMG; Final Fire DMG +50%		762484											
+2250095	Roguelike 2.0 - Bond - Stat Bond - Dark Lv.5 - Summons Black Holes Upon Dealing DMG; Final Dark DMG +50%		762490											
+2250096	Roguelike 2.0 DLC - Bond - Faction Bond - Alpha: Crimson Weave - Rank 1 - Launching Swordwave Increases Basic Attack Bonus		762489											
+2250097	Roguelike 2.0 DLC - Bond - Faction Bond - Alpha: Crimson Weave - Rank 2 - Increases All DMG Bonus		762498											
 2250101	Roguelike 2.0 - Item - 10% ATK		763481											
 2250102	Roguelike 2.0 - Item - 20% ATK		763482											
 2250103	Roguelike 2.0 - Item - 30% ATK		763483											
@@ -4144,6 +4257,21 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2250179	Roguelike 2.0 - Item - Shield Acquisition Doubles		747889											
 2250180	Roguelike 2.0 - Item - Deals AOE DMG Equal to 500% Within 5m Around the Character Upon Entering the Battlefield		747990											
 2250181	Roguelike 2.0 - Item - Each Item Provides 10% DMG Bonus		747991											
+2250182	Roguelike DLC - Special Item - Switch Cooldown -50%; Extra DMG Bonus +30% Within 10s of Character Switch		763717											
+2250183	Roguelike DLC - Special Item - Recovers 1 Orb and 5% of Max HP Per Second, and Extra DMG Bonus +100%		763719											
+2250184	Roguelike DLC - Special Item - Max HP +50%, Extra DMG Bonus +60%		763721	763722										
+2250185	Roguelike DLC - Advanced Item - Allies Receive 50% Extra DMG Bonus, Enemies Receive 30% Extra DMG Bonus		763723				763724							
+2250186	Roguelike DLC - Advanced Item - Recovers 1 Set of 3-Ping Orbs Every 7s, Loses 3% HP Per Second		763725											
+2250187	Roguelike DLC - Advanced Item - Recovers 3 Energy Per Second, Basic Attack Orb Recovery Efficiency -50%		763727	772222										
+2250188	Roguelike DLC - Advanced Item - Extra DMG Reduction +50%, Speed & Dodge Recovery -50%		763728	763729	763730									
+2250189	Roguelike DLC - Advanced Item - Extra DMG Bonus +80%, QTE & Switch Cooldown +50%		763731	763732	763733									
+2250190	Roguelike DLC - Normal Item - Basic Attack DMG +40%, Ping DMG -20%						763734							
+2250191	Roguelike DLC - Normal Item - Ping DMG +40%, Signature DMG -20%						763735							
+2250192	Roguelike DLC - Normal Item - Signature DMG +40%, Basic Attack DMG -20%						763736							
+2250193	Roguelike DLC - Normal Item - Attacker & Vanguard DMG +40%, Armor DMG -20%						763738							
+2250194	Roguelike DLC - Normal Item - Armor DMG +40%, Support & Amplifier DMG -20%						763739							
+2250195	Roguelike DLC - Normal Item - Support & Amplifier DMG +40%, Attacker & Vanguard DMG -20%						763740							
+2250196	Roguelike DLC - Event Item - Attack +20%, Elemental Extra DMG Bonus +40%						764632	764633						
 2250201	Roguelike 2.0 - Event Item - The Brand of Void - Receives 10% More DMG		763571											
 2250202	Roguelike 2.0 - Event Item - The Brand of Infinity - Dodge Recovery +25%		763572											
 2250203	Roguelike 2.0 - Event Item - Merlin's Jewel - Auto Restores 1.5% Every Second		763573											
@@ -4158,7 +4286,7 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2250212	Roguelike 2.0 - Event Item - Scholar's Notes - Gains 1 Orb Upon Entering Battle		763585											
 2250213	Roguelike 2.0 - Event Item - Notes of the Fool - Gains 2 Sets of 3-Pings Upon Entering Battle		763586											
 2250214	Roguelike 2.0 - Event Item - Proof of the Nameless +30% Extra DMG+DMG Taken		763587	763588										
-2250215	Roguelike 2.0 - Event Item - Sword of the Nameless +30% Extra DMG -30% Recovery speed of Signal Orbs by Basic Attack		763589	763590										
+2250215	Roguelike 2.0 - Event Item - Sword of the Nameless +30% Extra DMG -30% Recovery speed of Signal Orbs by Basic Attack		763589	772222										
 2250216	Roguelike 2.0 - Event Item - Black Nat -20% Extra DMG		763591											
 2250217	Roguelike 2.0 - Event Item - Auto Cannon - 1 Orb Every 5s		763592											
 2250218	Roguelike 2.0 - Event Item - Vista - Gains 10% ATK Every 10s at the Frontline, up to 30%. Resets Upon Character Switch.		763593											
@@ -4187,13 +4315,16 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2250406	Roguelike 2.0 - Difficulty Mark - Hard Difficulty Lamia - ATK Decrease						763690							
 2250501	Roguelike 2.0 - Environment - Light Tower		744270											
 2250502	Roguelike 2.0 - Environment - Abyss		744264											
-2250503	Roguelike 2.0 - Environment - Ghost Fish		744265											
+2250503	Roguelike 2.0 - Environment - Mist		744265											
 2250504	Roguelike 2.0 - Environment - Small Fish		744266											
 2250505	Roguelike 2.0 - Environment - Tentacle		744267											
 2250506	Roguelike 2.0 - Environment - Sea Wave		744268											
 2250507	Roguelike 2.0 - Environment - Lightning		744269											
+2250508	Roguelike 2.0 DLC - Added Environment Marks - Second Sight Control - Tornado/Red Tide/Fissure Mark		763716											
+2250509	Roguelike 2.0 DLC - Added Environment Marks - Guaranteed Trigger - Tornado/Red Tide/Fissure Mark		763743											
 2250601	Roguelike 2.0 - Team - Battle Team - Each Team Provides 5% Extra DMG Bonus		763681											
 2250602	Roguelike 2.0 - Star Up - Star Up +300 ATK		763683											
+2250603	Roguelike 2.0 DLC - Corruption - Corruption +500 ATK		764631											
 2250701	Roguelike 2.0 - Dialogue - Story Stage Dialogue - Swordsman		763701											
 2250702	Roguelike 2.0 - Dialogue - Story Stage Dialogue - Sister		763702											
 2250703	Roguelike 2.0 - Dialogue - Story Stage Dialogue - Musashi		763703											
@@ -4204,22 +4335,36 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2250708	Roguelike 2.0 - Dialogue - Story Stage Dialogue - Cradle		763708											
 2250709	Roguelike 2.0 - Dialogue - Story Stage Dialogue - Moon Eater		763709											
 2250710	Roguelike 2.0 - Bond - Faction Bond - WGAA Lv.3 - Character Deals 25% Extra DMG for Each Different Weapon		747994											
+2250711	Roguelike DLC - Rivalry Ending - Infinite Stage Lines		764601											
+2250712	Roguelike DLC - Rivalry Ending - Battle Stage 1 Lines		764602											
+2250713	Roguelike DLC - Rivalry Ending - Battle Stage 2 Lines		764603											
+2250714	Roguelike DLC - Rivalry Ending - Battle Stage 3 Lines		764604											
+2250715	Roguelike DLC - Red Tide Ending - Punishment Boss Lines		764605											
+2250716	Roguelike DLC - Red Tide Ending - Battle Stage 1 Lines		764606											
+2250717	Roguelike DLC - Red Tide Ending - Battle Stage 2 Lines		764607											
+2250718	Roguelike DLC - Red Tide Ending - Battle Stage 3 Lines		764608											
+2250719	Roguelike DLC - Red Tide Ending - Twin Shark Lines		764609											
+2250720	Roguelike DLC - Red Tide Ending - White Shark Lines		764610											
+2250761	Second Sight Influences Boss Stage Stats - Event Stage - Chapters 1, 2: Rose						764611							
+2250762	Second Sight Influences Boss Stage Stats - Event Stage - Chapters 1, 2: Nun						764612							
+2250763	Second Sight Influences Boss Stage Stats - Event Stage - Chapter 3: Musashi						764613							
+2250764	Second Sight Influences Boss Stage Stats - Boss Stage - Chapter 3: Lamia						764614							
+2250765	Second Sight Influences Boss Stage Stats - Event Stage - Chapter 4: Gabriel						764615							
+2250766	Second Sight Influences Boss Stage Stats - Event Stage - Chapter 5: Camu						764616							
+2250767	Second Sight Influences Boss Stage Stats - Boss Stage - Chapter 5: Siren, Red Tide Girl						764617							
+2250768	Second Sight Influences Boss Stage Stats - Boss Stage - Chapter 6: Moon Eater						764618							
+2250769	Second Sight Influences Boss Stage Stats - Boss Stage - New Ending: Red Tide Girl						764619							
+2250770	Second Sight Influences Boss Stage Stats - Boss Stage - Twin Shark						764620							
+2250771	Second Sight Influences Boss Stage Stats - Boss Stage - White Shark						764621							
 2260101	Nightblade enters Matrix upon a successful backstab. 10s cooldown (unlocked at Origins Contract Lv.1).		763751											
 2260102	Nightblade's backstab deals 50% more DMG (unlocked at Origins Contract Lv.3).		763752											
 2260103	Nightblade gains a set of Blue Orbs after a Yellow Orb 3-Ping, and a set of Red Orbs after a Blue Orb 3-Ping (unlocked at Origins Contract Lv.5).		763754											
 2260201	Crimson Abyss recovers orbs 100% faster from Basic Attacks (unlocked at Origins Contract Lv.1).		763755											
 2260202	Crimson Abyss enters Matrix upon leaving Blade Will Form (unlocked at Origins Contract Lv.3).		763756											
 2260203	When Crimson Abyss uses a Blade Will Orb, she has a 50% chance to gain another Blade Will Orb (unlocked at Origins Contract Lv.5).		763757											
-2260301	Gigabyte Star Strike will trigger Matrix and realign Signal Orbs (unlocked at Origins Contract Lv.1).		763755											
-2260302	Each "Perfect!" and "Oops! Missed It!" will generate 3 and 1 Signal Orb respectively (unlocked at Origins Contract Lv.2).		763756											
-2260303	Gigabyte Star Strike will grant 9 Signature Energy for each orb (unlocked at Origins Contract Lv.3).		763757											
-2250084	Roguelike 2.0 - Bond - Faction Bond - Egret's Old Pact - Rank 1 - 200 Dodge Gauge + Dodge triggers Healing Aura		747919											
-2250085	Roguelike 2.0 - Bond - Faction Bond - Egret's Old Pact - Rank 2 - 400 Dodge Gauge + Healing Aura boosts the DMG Bonus effect		747923											
-2250086	Roguelike 2.0 - Bond - Faction Bond - Lee: Hyperreal - Rank 1 - Single Hyper Space Strike		930778											
-2250087	Roguelike 2.0 - Bond - Faction Bond - Lee: Hyperreal - Rank 2 - 3 Hyper Space Strikes		930779											
-2250088	Spectroscopic Binary Star Phase 4 Attacker Skill		199910	763449	776372	715275								
-2250089	Spectroscopic Binary Star Phase 4 Tank Skill		199910	763449	776375	715275								
-2250090	Spectroscopic Binary Star Phase 4 Support Skill		199910	763449	776382	715275								
+2260301	Gigabyte Star Strike will trigger Matrix and realign Signal Orbs (unlocked at Origins Contract Lv.1).		763759											
+2260302	Each "Perfect!" and "Oops! Missed It!" will generate 3 and 1 Red Orb respectively (unlocked at Origins Contract Lv.2).		763760											
+2260303	Gigabyte Star Strike will grant 9 Signature Energy for each orb (unlocked at Origins Contract Lv.3).		763761											
 2270101	For each [Hypertuned Memory] equipped in Grid 1 by any character, a 1% Extra DMG Bonus will be granted at the start of battle.		763745											
 2270102	For each [Hypertuned Memory] equipped in Grid 2 by any character, a 1% Extra DMG Bonus will be granted at the start of battle.		763746											
 2270103	For each [Hypertuned Memory] equipped in Grid 3 by any character, a 1% Extra DMG Bonus will be granted at the start of battle.		763747											
@@ -4284,3 +4429,26 @@ Id	Description	ConditionId[1]	BornMagic[1]	BornMagic[2]	BornMagic[3]	BornMagic[4
 2270163	Enemies' Extra DMG Reduction increases by 45% when taking DMG farther than 4m.						777148							
 2270164	Enemies' Extra DMG Reduction increases by 60% when taking DMG farther than 4m.						777149							
 2270165	Babel Tower New Domination						777156							
+2270170	Joyous Wrappings - Lil' Lu's Exclusive Stove		747553											
+2270171	Joyous Wrappings - Rabbit's Tasty Trick		747554											
+2270172	Joyous Wrappings - Vitality Stick		747555											
+2270173	Joyous Wrappings - Freshness Boost Sauce		747556											
+2270174	Joyous Wrappings - Lil' Lu's Summoning Magic		747557											
+2270175	Wheel of Fortune Difficulty 1		779881				779796							
+2270176	Sanctuary Guard Difficulty 1		779881				779795							
+2270177	Wheel of Sanctuary Difficulty 1		779881				779797							
+2270178	Hidden 1 Difficulty 1						779799							
+2270179	Hidden 2 Difficulty 1						779800							
+2270180	Hidden 3 Difficulty 1						779801							
+2270181	Wheel of Fortune Difficulty 2		779881				779821							
+2270182	Sanctuary Guard Difficulty 2		779881				779820							
+2270183	Wheel of Sanctuary Difficulty 2		779881				779822							
+2270184	Hidden 1 Difficulty 2						779824							
+2270185	Hidden 2 Difficulty 2						779786							
+2270186	Hidden 3 Difficulty 2						779814							
+2270187	Wheel of Fortune Difficulty 3		779881				779836							
+2270188	Sanctuary Guard Difficulty 3		779881				779835							
+2270189	Wheel of Sanctuary Difficulty 3		779881				779837							
+2270190	Hidden 1 Difficulty 3						779838							
+2270191	Hidden 2 Difficulty 3						779819							
+2270192	Hidden 3 Difficulty 3						779815							

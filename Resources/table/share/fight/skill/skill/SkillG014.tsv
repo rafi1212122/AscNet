@@ -1,4 +1,14 @@
 Id	Name	SkillType	CastTime	AfterTime	Animation	StandStage	CastMagicIds	FinalMagicIds	Cd	DistNoTarget	SkillMoveType	DistAbort	SkillMoveTrackDistance	MissileLockTarget	SkillFaceType	DodgeLimitTime	SkillPriority	Snapshot	SkillAnimationPriority	CoexistSkills
+500501	首席之手的普通射击		1	0	Attack02					10	0		2							
+500502	首席之手的红球射击		1	0	Attack05					10	0		2							
+500503	首席之手的蓝球射击		1	0	Attack05					10	0		2							
+500504	首席之手的黄球射击		1	0	Attack03					10	0		2							
+500505	首席之手的红球上弹		1.5	0	Attack04					10	0		2							
+500506	首席之手的蓝球上弹		1.5	0	Attack04					10	2		2							
+500507	首席之手的黄球上弹		1.5	0	Attack04					10	2		2							
+500508	首席之手的大招上弹		1.5	0	Attack04					10	2		2							
+500509	首席之手的技能9		0	1						10	2		2							
+500510	首席之手的技能10		0	1						10	2		2							
 991109	击飞内圈		1	0						10	0		2							
 991110	击飞中环		1	0						10	0		2							
 991111	击飞外环		1	0						10	0		2							
@@ -20,3 +30,14 @@ Id	Name	SkillType	CastTime	AfterTime	Animation	StandStage	CastMagicIds	FinalMagi
 998135	残缺刀锯飞刀1		1.733	0	Attack05					10	0		2		1					
 998136	残缺刀锯飞刀2		1.733	0	Attack05					10	0		2		1					
 998137	残缺刀锯飞刀3		1.733	0	Attack05					10	0		2		1					
+998141	双子哥超维空间效果		3.8	0	Attack63		850020	850021		10	0		2		1					
+998142	双子妹超维空间效果		3	0	Attack60		850020	850021		10	0		2		1					
+998143	哥哥的超维技能1-跳跃砸击		4.7	0	Attack02		850020	850068|850021		10	6		2		4					
+998144	哥哥的超维技能2-Z字跳砸		5.433333333	0	Attack28		850020	850068|850021		10	2		2		4					
+998145	GIEGIE的技能30-单独反超算1左闪爪击（无表演）		2.7	0	Attack60		850020	850068|850021		10	2		2		4					
+998146	GIEGIE的技能31-单独反超算2右闪肘击（无表演）		2.766666667	0	Attack61		850020	850068|850021		10	2		2		4					
+998147	GIEGIE的技能32-单独反超算3直线（无表演）		2.866666667	0	Attack62		850020	850068|850021		10	2		2		4					
+998148	召唤援助		2.8	0	Attack06					10	6		0		1					
+998149	MUIMUI的技能28-单独反超算1		3.933333333	0	Attack30		850020	850068|850021		10	2		2		4					
+998150	MUIMUI的技能31-单独反超算2		3.633333333	0	Attack31		850020	850068|850021		10	2		2		4					
+998153	鸦羽击远攻击		3	0	Attack86					10	1		2		2					

@@ -1,146 +1,158 @@
-Id	Magic	Name	Desc	Delay	Duration	EffectType	AffixId	Limit	Kind	Cover	Mutex	Effect	EffectJoint	IsAlwaysShow	TriggerMagic	TriggerInterval	TriggerOnAdd	Icon	DyingRemove
-1000000		Lock Mark - Head			-1			1	1000000	1000001|1000002|1000003|1000004|1000005	1000000	FxSuodibiaoji	Bip001Head						
-1000001		Lock Mark - Body			-1			1	1000001	1000000|1000002|1000003|1000004|1000005	1000001	FxSuodibiaoji	Bip001Spine						
-1000002		Lock Mark - Left Forearm			-1			1	1000002	1000000|1000001|1000003|1000004|1000005	1000002	FxSuodibiaoji	Bip001LForearm						
-1000003		Lock Mark - Right Forearm			-1			1	1000003	1000000|1000001|1000002|1000004|1000005	1000003	FxSuodibiaoji	Bip001RForearm						
-1000004		Lock Mark - Tail			-1			1	1000004	1000000|1000001|1000002|1000003|1000005	1000004	FxSuodibiaoji	weibaLbone04						
-1000005		Remove Lock Mark			-1			1	1000005	1000000|1000001|1000002|1000003|1000004|1000005	1000005								
-1000006	1000999	Crash Group Test			5				1000006										
-1000007		Manual Camera Lock Mark			-1			1	1000007			FxSuodingbiaojiLoop	HitCase						
-1000008		Clear Manual Camera Lock Mark			0			1	1000008	1000007									
-1000009	1000998	4 Random Orbs Generated Upon Initialization			-1				1000009										
-1000010	1000997	Randomly Add Orbs			0			-1	1000010										
-1000011	1000996	Basic Attack Resource Management			-1			1	1000011										
-1000012	1000995	Basic Attack Adds Orbs			-1			1	1000012										
-1000013		the Sound of Tapping button When the Dodge Cannot Be Triggered			1			-1	1000013										
-1000014	1000994	Character Collision Off			-1			1	1000014										
-1000015		Character Collision On			0			1	1000015	1000014									
-1000016	1000993	Spear Attack Combo Strike			-1			1	1000016	1000016									
-1000017	1000992	Spear Combo Strike 2 - Enter Loop (Abandoned)			-1			1	1000017	1000017									
-1000018	1000991	Spear QTE Enters Logic		0.1	-1			1	1000018		1000018								
-1000019	1000990	Spear QTE Camera 1 - Pull Up and Move Camera to the Left			-1			1	1000019|10000180										
-1000020	1000989	Spear QTE Camera 2 - Camera Overlook			-1			1	1000020|10000180										
-1000021	1000988	Spear Camera 3 - Pull In			-1			1	1000021										
-1000022	1000987	Spear Camera 4 - Close Up 1			-1			1	1000022										
-1000023	1000986	Spear Camera 5 - Close Up 2			-1			1	1000023										
-1000024	1000985	Spear Shot 6 - Restoration 1			-1			1	1000024										
-1000025	1000984	Spear Shot 7 -Return to Normal Camera			0			1	1000025								1		
-1000026	1000983	Spear Camera - Locking Back to Body			-1			1	1000026										
-1000027	1000982	Spear Hits Camera in the Direction of the Joystick			-1			1	1000027	1000027									
-1000028	1000981	Spear Camera - Locking Back to Body			-1			1	1000028										
-1000030	1000980	Enter Spear QTE Loop State			-1				1000030										
-1000031	1000979	Exit Spear QTE Loop State			-1				1000031										
-1000032	1000978	Spear QTE in Camera Animation			1.2			-1	1000032	1000033									
-1000033		Remove Spear QTE in Camera			0			1	1000033	1000032									
-1000034		Spear Camera 1 - Enter Mark			0.05			1	1000034								1		
-1000035		Spear Camera 2 - Lift-off Mark			0.05			1	1000035								1		
-1000036		Spear Camera 3 - Pre-Drop Mark			0.05			1	1000036								1		
-1000037		Spear Camera 4 - Drop Mark			0.05			1	1000037								1		
-1000038		Spear Camera 3 - Pre-Drop Mark			0.05			1	1000038								1		
-1000039		Spear Camera 3 - Pre-Drop Pull In Mark			0.05			1	1000039								1		
-1000040		Spear Camera 4 - Drop Mark			0.05			1	1000040								1		
-1000041	1000977	Enter Spear Drop Attack Loop State			-1			1	1000041	1000041									
-1000042	1000976	Exit Spear Drop Attack Loop State			-1			1	1000042	1000015									
-1000043	1000975	Spear Camera 2.5 - Airborne Wide-angle Zoom 1			1.2			1	1000043										
-1000044	1000974	Spear Camera 2.5 - Airborne Wide-angle Zoom 2			0.3			1	1000044										
-1000045	1000973	Spear Rocket Plays QTE Loop Animation			-1				1000045										
-1000046	1000972	Spear Rocket Plays Insert Loop Animation 1		0.5	-1				1000046										
-1000047	1000971	Spear Rocket Plays Insert Loop Animation 2		0.5	-1				1000047										
-1000048	1000970	Spear Rocket Plays Insert Loop Animation		0.5	-1				1000048										
-1000049	1000969	Character Super Armor			-1			1	1000049										
-1000050		Disable Character Super Armor			0			1	1000050	1000049									
-1000051	1000968	Character Invincible When Doding			0.2			1	1000051										
-1000052		Disable Character Invincible			0			1	1000052	1000051									
-1000053	1000967	Spear QTE Countdown UI			-1				1000053										
-1000056	1000966	Spear QTE Penetration Display UI			-1				1000056										
-1000061	1000965	Spear QTE Penetration Calculation			-1				1000061										
-1000062	1000964	NPC Removes Reset Tree			-1				1000062										
-1000063		Manual Camera Lock Mark In			0.5			1	1000063			FxSuodingbiaoji	HitCase						
-1000064	1000963	Invincible During QTE			-1			1	1000064										
-1000065		Disable Invincible During QTE			0			1	1000065	1000064									
-1000066	1000962	Aerial Combo Logic			-1				1000066										
-1000067	1000961	Spear Fall Special Check			-1				1000067										
-1000100		Lock Mark - Head			-1			1	1000100	1000101|1000102|1000103|1000104|1000105	1000100	FxSuodibiaoji	Bip001Head						
-1000101		Lock Mark - Body			-1			1	1000101	1000100|1000102|1000103|1000104|1000105	1000101	FxSuodibiaoji	Bip001Spine						
-1000102		Lock Mark - Left Forearm			-1			1	1000102	1000100|1000101|1000103|1000104|1000105	1000102	FxSuodibiaoji	Bip001LForearm						
-1000103		Lock Mark - Right Forearm			-1			1	1000103	1000100|1000101|1000102|1000104|1000105	1000103	FxSuodibiaoji	Bip001RForearm						
-1000104		Lock Mark - Tail			-1			1	1000104	1000100|1000101|1000102|1000103|1000105	1000104	FxSuodibiaoji	weibaLbone04						
-1000105		Remove Lock Mark			-1			1	1000105	1000100|1000101|1000102|1000103|1000104|1000105	1000105								
-1000107		Manual Camera Lock Mark			-1			1	1000107			FxSuodingbiaojiLoop	HitCase						
-1000108		Clear Manual Camera Lock Mark			0			1	1000108	1000107									
-1000163		Manual Camera Lock Mark In			0.5			1	1000163			FxSuodingbiaoji	HitCase						
-1000200		Lock Mark - Head			-1			1	1000200	1000201|1000202|1000203|1000204|1000205	1000200	FxSuodibiaoji	Bip001Head						
-1000201		Lock Mark - Body			-1			1	1000201	1000200|1000202|1000203|1000204|1000205	1000201	FxSuodibiaoji	Bip001Spine						
-1000202		Lock Mark - Left Forearm			-1			1	1000202	1000200|1000201|1000203|1000204|1000205	1000202	FxSuodibiaoji	Bip001LForearm						
-1000203		Lock Mark - Right Forearm			-1			1	1000203	1000200|1000201|1000202|1000204|1000205	1000203	FxSuodibiaoji	Bip001RForearm						
-1000204		Lock Mark - Tail			-1			1	1000204	1000200|1000201|1000202|1000203|1000205	1000204	FxSuodibiaoji	weibaLbone04						
-1000205		Remove Lock Mark			-1			1	1000205	1000200|1000201|1000202|1000203|1000204|1000205	1000205								
-1000207		Manual Camera Lock Mark			-1			1	1000207			FxSuodingbiaojiLoop	HitCase						
-1000208		Clear Manual Camera Lock Mark			0			1	1000208	1000207									
-1000263		Manual Camera Lock Mark In			0.5			1	1000263			FxSuodingbiaoji	HitCase						
-1002	1002999	Lucia - Rank 1			-1				1002										
-1002027		Blue Orb Fire Mark 1			2			1	1002027	1002027|1002028|1002029		FxR1LuxiyaAttack22Wuqi	WeaponCase1						
-1002028		Blue Orb Fire Mark 2			4			1	1002028	1002027|1002028|1002029		FxR1LuxiyaAttack22Wuqi	WeaponCase1						
-1002029		Blue Orb Fire Mark 3			6			1	1002029	1002027|1002028|1002029		FxR1LuxiyaAttack23Wuqi	WeaponCase1						
-1002030	1002998	Lotus Core Tree			-1				1002030										
-1002031		3-Ping Mark			-1			1	1002031	1002031									
-1002032		Ghosting			1			1	1002032			FxR1LuxiyaCanying	Root						
-1002033		Remove Ghosting			0			1	1002033	1002032									
-1002034	1002997	Signature Move Scene			1.3			-1	1002034										
-1002035	1002996	Passive Screen Effect			5.5				1002035										
-1002036		Passive Effect			5.5				1002036			FxR1LuxiyaBao	Root						
-1002037	1002995	Front 90-degree Spear Camera 1 - Enter Wide Angle and Zoom Out			0.5			1	1002037										
-1002038	1002994	Front 90-degree Spear Camera 1 - Enter and Pull Down Camera			0.5			1	1002038										
-1002039	1002993	Front 90-degree Spear Camera 2 - Lift-off Wide-angle Zoom			1.4			1	1002039										
-1002040	1002992	Front 90-degree Spear Camera 2 - Lift-off			0.7			1	1002040										
-1002041	1002991	Front 90-degree Spear Camera 3 - Pre-fall Wide-angle Zoom Out			1.2			1	1002041										
-1002042	1002990	Front 90-degree Spear Camera 3 - Pre-Drop Pull In			1.2			1	1002042										
-1002043	1002989	Front 90-degree Spear Camera 4 - Falling Wide-angle Zoom Out			0.3			1	1002043										
-1002044	1002988	Rightward 90-degree Spear Camera 1 - Enter Wide Angle and Zoom Out			0.5			1	1002044										
-1002045	1002987	Rightward 90-degree Spear Camera 1 - Enter and Pull Down Camera			0.5			1	1002045										
-1002046	1002986	Rightward 90-degree Spear Camera 2 - Lift-off Wide-angle Zoom			1.4			1	1002046										
-1002047	1002985	Rightward 90-degree Spear Camera 2 - Lift-off			0.7			1	1002047										
-1002048	1002984	Rightward 90-degree Spear Camera 3 - Pre-fall Wide-angle Zoom Out			1.2			1	1002048										
-1002049	1002983	Rightward 90-degree Spear Camera 3 - Pre-Drop Pull In			1.2			1	1002049										
-1002050	1002982	Rightward 90-degree Spear Camera 4 - Falling Wide-angle Zoom Out			0.3			1	1002050										
-1002051	1002981	Rear 90-degree Spear Camera 1 - Enter Wide Angle and Zoom Out			0.5			1	1002051										
-1002052	1002980	Rear 90-degree Spear Camera 1 - Enter and Pull Down Camera			0.5			1	1002052										
-1002053	1002979	Rear 90-degree Spear Camera 2 - Lift-off Wide-angle Zoom			1.4			1	1002053										
-1002054	1002978	Rear 90-degree Spear Camera 2 - Lift-off			0.7			1	1002054										
-1002055	1002977	Rear 90-degree Spear Camera 3 - Pre-fall Wide-angle Zoom Out			1.2			1	1002055										
-1002056	1002976	Rear 90-degree Spear Camera 3 - Pre-Drop Pull In			1.2			1	1002056										
-1002057	1002975	Rear 90-degree Spear Camera 4 - Falling Wide-angle Zoom Out			0.3			1	1002057										
-1002058	1002974	Leftward 90-degree Spear Camera 1 - Enter Wide Angle and Zoom Out			0.5			1	1002058										
-1002059	1002973	Leftward 90-degree Spear Camera 1 - Enter and Pull Down Camera			0.5			1	1002059										
-1002060	1002972	Leftward 90-degree Spear Camera 2 - Lift-off Wide-angle Zoom			1.4			1	1002060										
-1002061	1002971	Leftward 90-degree Spear Camera 2 - Lift-off			0.7			1	1002061										
-1002062	1002970	Leftward 90-degree Spear Camera 3 - Pre-fall Wide-angle Zoom Out			1.2			1	1002062										
-1002063	1002969	Leftward 90-degree Spear Camera 3 - Pre-Drop Pull In			1.2			1	1002063										
-1002064	1002968	Leftward 90-degree Spear Camera 4 - Falling Wide-angle Zoom Out			0.3			1	1002064										
-1002065	1002967	Front 90-degree Spear Camera 3 - Pre-Drop Overlooking			1			1	1002065										
-1002066	1002966	Rightward 90-degree Spear Camera 3 - Pre-Drop Overlooking			1			1	1002066										
-1002067	1002965	Rear 90-degree Spear Camera 3 - Pre-Drop Overlooking			1			1	1002067										
-1002068	1002964	Leftward 90-degree Spear Camera 3 - Pre-Drop Overlooking			1			1	1002068										
-1002069	1002963	Victory Scene			9999			-1	1002069										
-1002070	1002962	Spear QTE Standby Camera			-1			1	1002070|10020700	10020710|10020720|10020730									
-1002071	1002961	Spear QTE Ping in Camera			-1			1	1002071|10020710	10020700									
-1002072	1002960	Spear QTE Ping Consecutive Ping Camera			-1			1	1002072|10020720	10020700|10020710									
-1002073	1002959	Spear QTE Ping 2 Pings Camera - Unused			-1			1	1002073|10020730	10020700									
-1002077	1002958	Lock Camera Rotation			1.2				1002077										
-1002078	1002957	Lock Camera Rotation (Lock Again After Delay)			1.2				1002078										
-1002079	1002956	Spear Camera - Locking Back to Body			-1			1	1002079										
-1002080	1002955	Enable Camera Simple Pan			-1				1002080	1002081									
-1002081		Disable Camera Simple Pan			0				1002081	1002080									
-1002082		Lock Camera Rotation (Lock Again After Delay)—Remove			0				1002082	1002078									
-1002083	1002954	Invincible During QTE Execution			7.5			1	1002083										
-1002084	1002953	Spawn Scene			3.7			-1	1002084										
-1002100		Core Passive Mark			6			1	1002100	1002031									
-1002112	1002952	Slomo 1			10			1	1002112										
-1002150	1002951	Lock Camera Camera Displacement Rotation - Basic Attack 1			0.5			1	1002150										
-1002151	1002950	Lock Camera Camera Displacement Rotation - Basic Attack 2			0.85			1	1002151										
-1002152	1002949	Lock Camera Camera Displacement Rotation - Basic Attack 3			0.75			1	1002152										
-1002153	1002948	Lock Camera Camera Displacement Rotation - Pinging Orbs 1			0.75			1	1002153										
-1002154	1002947	Lock Camera Camera Displacement Rotation - Pinging Orbs 2			1.1			1	1002154										
-1002155	1002946	Lock Camera Camera Displacement Rotation - Pinging Orbs 3			1.45			1	1002155										
-1002156	1002945	Spear QTE in Camera Animation			5.5			-1	1002156										
-1006	1006999	Kamui: Bastion			-1				1006										
+Id	Magic	Name	Desc	Delay	Duration	EffectType	AffixId	IsDifferentPart	IsDifferentCaster	Limit	Kind	IsRefreshTime	Cover	Mutex	Effect	EffectJoint	IsAlwaysShow	TriggerMagic	TriggerInterval	TriggerOnAdd	Icon	DyingRemove
+1000000		Lock Mark - Head			-1				1	1	1000000		1000001|1000002|1000003|1000004|1000005	1000000	FxSuodibiaoji	Bip001Head						
+1000001		Lock Mark - Body			-1				1	1	1000001		1000000|1000002|1000003|1000004|1000005	1000001	FxSuodibiaoji	Bip001Spine						
+1000002		Lock Mark - Left Forearm			-1				1	1	1000002		1000000|1000001|1000003|1000004|1000005	1000002	FxSuodibiaoji	Bip001LForearm						
+1000003		Lock Mark - Right Forearm			-1				1	1	1000003		1000000|1000001|1000002|1000004|1000005	1000003	FxSuodibiaoji	Bip001RForearm						
+1000004		Lock Mark - Tail			-1				1	1	1000004		1000000|1000001|1000002|1000003|1000005	1000004	FxSuodibiaoji	weibaLbone04						
+1000005		Remove Lock Mark			-1				1	1	1000005		1000000|1000001|1000002|1000003|1000004|1000005	1000005								
+1000006	1000999	Crash Group Test			5						1000006											
+1000007		Manual Camera Lock Mark			-1				1	1	1000007				FxSuodingbiaojiLoop	HitCase						
+1000008		Clear Manual Camera Lock Mark			0				1	1	1000008		1000007									
+1000009	1000998	4 Random Orbs Generated Upon Initialization			-1						1000009											
+1000010	1000997	Randomly Add Orbs			0					-1	1000010											
+1000011	1000996	Basic Attack Resource Management			-1					1	1000011											
+1000012	1000995	Basic Attack Adds Orbs			-1					1	1000012											
+1000013		the Sound of Tapping button When the Dodge Cannot Be Triggered			1					-1	1000013											
+1000014	1000994	Character Collision Off			-1					1	1000014											
+1000015		Character Collision On			0					1	1000015		1000014									
+1000016	1000993	Spear Attack Combo Strike			-1					1	1000016		1000016									
+1000017	1000992	Spear Combo Strike 2 - Enter Loop (Abandoned)			-1					1	1000017		1000017									
+1000018	1000991	Spear QTE Enters Logic		0.1	-1					1	1000018			1000018								
+1000019	1000990	Spear QTE Camera 1 - Pull Up and Move Camera to the Left			-1					1	1000019|10000180											
+1000020	1000989	Spear QTE Camera 2 - Camera Overlook			-1					1	1000020|10000180											
+1000021	1000988	Spear Camera 3 - Pull In			-1					1	1000021											
+1000022	1000987	Spear Camera 4 - Close Up 1			-1					1	1000022											
+1000023	1000986	Spear Camera 5 - Close Up 2			-1					1	1000023											
+1000024	1000985	Spear Shot 6 - Restoration 1			-1					1	1000024											
+1000025	1000984	Spear Shot 7 -Return to Normal Camera			0					1	1000025									1		
+1000026	1000983	Spear Camera - Locking Back to Body			-1					1	1000026											
+1000027	1000982	Spear Hits Camera in the Direction of the Joystick			-1					1	1000027		1000027									
+1000028	1000981	Spear Camera - Locking Back to Body			-1					1	1000028											
+1000030	1000980	Enter Spear QTE Loop State			-1						1000030											
+1000031	1000979	Exit Spear QTE Loop State			-1						1000031											
+1000032	1000978	Spear QTE in Camera Animation			1.2					-1	1000032		1000033									
+1000033		Remove Spear QTE in Camera			0					1	1000033		1000032									
+1000034		Spear Camera 1 - Enter Mark			0.05					1	1000034									1		
+1000035		Spear Camera 2 - Lift-off Mark			0.05					1	1000035									1		
+1000036		Spear Camera 3 - Pre-Drop Mark			0.05					1	1000036									1		
+1000037		Spear Camera 4 - Drop Mark			0.05					1	1000037									1		
+1000038		Spear Camera 3 - Pre-Drop Mark			0.05					1	1000038									1		
+1000039		Spear Camera 3 - Pre-Drop Pull In Mark			0.05					1	1000039									1		
+1000040		Spear Camera 4 - Drop Mark			0.05					1	1000040									1		
+1000041	1000977	Enter Spear Drop Attack Loop State			-1					1	1000041		1000041									
+1000042	1000976	Exit Spear Drop Attack Loop State			-1					1	1000042		1000015									
+1000043	1000975	Spear Camera 2.5 - Airborne Wide-angle Zoom 1			1.2					1	1000043											
+1000044	1000974	Spear Camera 2.5 - Airborne Wide-angle Zoom 2			0.3					1	1000044											
+1000045	1000973	Spear Rocket Plays QTE Loop Animation			-1						1000045											
+1000046	1000972	Spear Rocket Plays Insert Loop Animation 1		0.5	-1						1000046											
+1000047	1000971	Spear Rocket Plays Insert Loop Animation 2		0.5	-1						1000047											
+1000048	1000970	Spear Rocket Plays Insert Loop Animation		0.5	-1						1000048											
+1000049	1000969	Character Super Armor			-1					1	1000049											
+1000050		Disable Character Super Armor			0					1	1000050		1000049									
+1000051	1000968	Character Invincible When Doding			0.2					1	1000051											
+1000052		Disable Character Invincible			0					1	1000052		1000051									
+1000053	1000967	Spear QTE Countdown UI			-1						1000053											
+1000056	1000966	Spear QTE Penetration Display UI			-1						1000056											
+1000061	1000965	Spear QTE Penetration Calculation			-1						1000061											
+1000062	1000964	NPC Removes Reset Tree			-1						1000062											
+1000063		Manual Camera Lock Mark In			0.5				1	1	1000063				FxSuodingbiaoji	HitCase						
+1000064	1000963	Invincible During QTE			-1					1	1000064											
+1000065		Disable Invincible During QTE			0					1	1000065		1000064									
+1000066	1000962	Aerial Combo Logic			-1						1000066											
+1000067	1000961	Spear Fall Special Check			-1						1000067											
+1000068	1000960	1-Ping as 3-Ping Special Effect Mark			10					1	1000068|300											
+1000069		Orb Buffs Forbidden			-1					1	1000069											
+1000070	1000959	Loading Delay Small Rocket 1		0.2	-1					1	1000070											
+1000071	1000958	Loading Delay Small Rocket 2		0.2	-1					1	1000071											
+1000072	1000957	Loading Delay Small Rocket 3		0.2	-1					1	1000072											
+1000073	1000956	Spear QTE Exit Guarantee Logic		3	-1					1	1000073											
+1000100		Lock Mark - Head			-1				1	1	1000100		1000101|1000102|1000103|1000104|1000105	1000100	FxSuodibiaoji	Bip001Head						
+1000101		Lock Mark - Body			-1				1	1	1000101		1000100|1000102|1000103|1000104|1000105	1000101	FxSuodibiaoji	Bip001Spine						
+1000102		Lock Mark - Left Forearm			-1				1	1	1000102		1000100|1000101|1000103|1000104|1000105	1000102	FxSuodibiaoji	Bip001LForearm						
+1000103		Lock Mark - Right Forearm			-1				1	1	1000103		1000100|1000101|1000102|1000104|1000105	1000103	FxSuodibiaoji	Bip001RForearm						
+1000104		Lock Mark - Tail			-1				1	1	1000104		1000100|1000101|1000102|1000103|1000105	1000104	FxSuodibiaoji	weibaLbone04						
+1000105		Remove Lock Mark			-1				1	1	1000105		1000100|1000101|1000102|1000103|1000104|1000105	1000105								
+1000107		Manual Camera Lock Mark			-1				1	1	1000107				FxSuodingbiaojiLoop	HitCase						
+1000108		Clear Manual Camera Lock Mark			0				1	1	1000108		1000107									
+1000163		Manual Camera Lock Mark In			0.5				1	1	1000163				FxSuodingbiaoji	HitCase						
+1000200		Lock Mark - Head			-1				1	1	1000200		1000201|1000202|1000203|1000204|1000205	1000200	FxSuodibiaoji	Bip001Head						
+1000201		Lock Mark - Body			-1				1	1	1000201		1000200|1000202|1000203|1000204|1000205	1000201	FxSuodibiaoji	Bip001Spine						
+1000202		Lock Mark - Left Forearm			-1				1	1	1000202		1000200|1000201|1000203|1000204|1000205	1000202	FxSuodibiaoji	Bip001LForearm						
+1000203		Lock Mark - Right Forearm			-1				1	1	1000203		1000200|1000201|1000202|1000204|1000205	1000203	FxSuodibiaoji	Bip001RForearm						
+1000204		Lock Mark - Tail			-1				1	1	1000204		1000200|1000201|1000202|1000203|1000205	1000204	FxSuodibiaoji	weibaLbone04						
+1000205		Remove Lock Mark			-1				1	1	1000205		1000200|1000201|1000202|1000203|1000204|1000205	1000205								
+1000207		Manual Camera Lock Mark			-1				1	1	1000207				FxSuodingbiaojiLoop	HitCase						
+1000208		Clear Manual Camera Lock Mark			0				1	1	1000208		1000207									
+1000263		Manual Camera Lock Mark In			0.5				1	1	1000263				FxSuodingbiaoji	HitCase						
+1002	1002999	Lucia - Rank 1			-1						1002											
+1002027		Blue Orb Fire Mark 1			2					1	1002027		1002027|1002028|1002029		FxR1LuxiyaAttack22Wuqi	WeaponCase1						
+1002028		Blue Orb Fire Mark 2			4					1	1002028		1002027|1002028|1002029		FxR1LuxiyaAttack22Wuqi	WeaponCase1						
+1002029		Blue Orb Fire Mark 3			6					1	1002029		1002027|1002028|1002029		FxR1LuxiyaAttack23Wuqi	WeaponCase1						
+1002030	1002998	Lotus Core Tree			-1						1002030											
+1002031		3-Ping Mark			-1					1	1002031		1002031									
+1002032		Ghosting			1					1	1002032				FxR1LuxiyaCanying	Root						
+1002033		Remove Ghosting			0					1	1002033		1002032									
+1002034	1002997	Signature Move Scene			1.3					-1	1002034											
+1002035	1002996	Passive Screen Effect			-1						1002035											
+1002036		Passive Effect			-1						1002036				FxR1LuxiyaBao	Root						
+1002037	1002995	Front 90-degree Spear Camera 1 - Enter Wide Angle and Zoom Out			0.5					1	1002037											
+1002038	1002994	Front 90-degree Spear Camera 1 - Enter and Pull Down Camera			0.5					1	1002038											
+1002039	1002993	Front 90-degree Spear Camera 2 - Lift-off Wide-angle Zoom			1.4					1	1002039											
+1002040	1002992	Front 90-degree Spear Camera 2 - Lift-off			0.7					1	1002040											
+1002041	1002991	Front 90-degree Spear Camera 3 - Pre-fall Wide-angle Zoom Out			1.2					1	1002041											
+1002042	1002990	Front 90-degree Spear Camera 3 - Pre-Drop Pull In			1.2					1	1002042											
+1002043	1002989	Front 90-degree Spear Camera 4 - Falling Wide-angle Zoom Out			0.3					1	1002043											
+1002044	1002988	Rightward 90-degree Spear Camera 1 - Enter Wide Angle and Zoom Out			0.5					1	1002044											
+1002045	1002987	Rightward 90-degree Spear Camera 1 - Enter and Pull Down Camera			0.5					1	1002045											
+1002046	1002986	Rightward 90-degree Spear Camera 2 - Lift-off Wide-angle Zoom			1.4					1	1002046											
+1002047	1002985	Rightward 90-degree Spear Camera 2 - Lift-off			0.7					1	1002047											
+1002048	1002984	Rightward 90-degree Spear Camera 3 - Pre-fall Wide-angle Zoom Out			1.2					1	1002048											
+1002049	1002983	Rightward 90-degree Spear Camera 3 - Pre-Drop Pull In			1.2					1	1002049											
+1002050	1002982	Rightward 90-degree Spear Camera 4 - Falling Wide-angle Zoom Out			0.3					1	1002050											
+1002051	1002981	Rear 90-degree Spear Camera 1 - Enter Wide Angle and Zoom Out			0.5					1	1002051											
+1002052	1002980	Rear 90-degree Spear Camera 1 - Enter and Pull Down Camera			0.5					1	1002052											
+1002053	1002979	Rear 90-degree Spear Camera 2 - Lift-off Wide-angle Zoom			1.4					1	1002053											
+1002054	1002978	Rear 90-degree Spear Camera 2 - Lift-off			0.7					1	1002054											
+1002055	1002977	Rear 90-degree Spear Camera 3 - Pre-fall Wide-angle Zoom Out			1.2					1	1002055											
+1002056	1002976	Rear 90-degree Spear Camera 3 - Pre-Drop Pull In			1.2					1	1002056											
+1002057	1002975	Rear 90-degree Spear Camera 4 - Falling Wide-angle Zoom Out			0.3					1	1002057											
+1002058	1002974	Leftward 90-degree Spear Camera 1 - Enter Wide Angle and Zoom Out			0.5					1	1002058											
+1002059	1002973	Leftward 90-degree Spear Camera 1 - Enter and Pull Down Camera			0.5					1	1002059											
+1002060	1002972	Leftward 90-degree Spear Camera 2 - Lift-off Wide-angle Zoom			1.4					1	1002060											
+1002061	1002971	Leftward 90-degree Spear Camera 2 - Lift-off			0.7					1	1002061											
+1002062	1002970	Leftward 90-degree Spear Camera 3 - Pre-fall Wide-angle Zoom Out			1.2					1	1002062											
+1002063	1002969	Leftward 90-degree Spear Camera 3 - Pre-Drop Pull In			1.2					1	1002063											
+1002064	1002968	Leftward 90-degree Spear Camera 4 - Falling Wide-angle Zoom Out			0.3					1	1002064											
+1002065	1002967	Front 90-degree Spear Camera 3 - Pre-Drop Overlooking			1					1	1002065											
+1002066	1002966	Rightward 90-degree Spear Camera 3 - Pre-Drop Overlooking			1					1	1002066											
+1002067	1002965	Rear 90-degree Spear Camera 3 - Pre-Drop Overlooking			1					1	1002067											
+1002068	1002964	Leftward 90-degree Spear Camera 3 - Pre-Drop Overlooking			1					1	1002068											
+1002069	1002963	Victory Scene			9999					-1	1002069											
+1002070	1002962	Spear QTE Standby Camera			-1					1	1002070|10020700		10020710|10020720|10020730									
+1002071	1002961	Spear QTE Ping in Camera			-1					1	1002071|10020710		10020700									
+1002072	1002960	Spear QTE Ping Consecutive Ping Camera			-1					1	1002072|10020720		10020700|10020710									
+1002073	1002959	Spear QTE Ping 2 Pings Camera - Unused			-1					1	1002073|10020730		10020700									
+1002077	1002958	Lock Camera Rotation			1.2						1002077											
+1002078	1002957	Lock Camera Rotation (Lock Again After Delay)			1.2						1002078											
+1002079	1002956	Spear Camera - Locking Back to Body			-1					1	1002079											
+1002080	1002955	Enable Camera Simple Pan			-1						1002080		1002081									
+1002081		Disable Camera Simple Pan			0						1002081		1002080									
+1002082		Lock Camera Rotation (Lock Again After Delay)—Remove			0						1002082		1002078									
+1002083	1002954	Invincible During QTE Execution			7.5					1	1002083											
+1002084	1002953	Spawn Scene			3.7					-1	1002084											
+1002100		Core Passive Mark			-1					1	1002100		1002031									
+1002150	1002952	Lock Camera Camera Displacement Rotation - Basic Attack 1			0.5					1	1002150											
+1002151	1002951	Lock Camera Camera Displacement Rotation - Basic Attack 2			0.85					1	1002151											
+1002152	1002950	Lock Camera Camera Displacement Rotation - Basic Attack 3			0.75					1	1002152											
+1002153	1002949	Lock Camera Camera Displacement Rotation - Pinging Orbs 1			0.75					1	1002153											
+1002154	1002948	Lock Camera Camera Displacement Rotation - Pinging Orbs 2			1.1					1	1002154											
+1002155	1002947	Lock Camera Camera Displacement Rotation - Pinging Orbs 3			1.45					1	1002155											
+1002156	1002946	Spear QTE in Camera Animation			5					-1	1002156											
+1002157	1002945	Spear QTEOut Bound Camera Animation			5.8					-1	1002157											
+1002169		Executable Camera Shock Effect			0.05					1	1002169	1										
+1002186	1002944	Slight Wide-Angle Adjustment on the Last Hit of Basic Attack			0.1					1	1002186											
+1002197	1002943	Blue Orb 1-Ping Buff			7					1	1002197	1										
+1002198	1002942	Blue Orb 2-Ping Buff			7					1	1002198	1										
+1002199	1002941	Blue Orb 3-Ping Buff			7					1	1002199	1										
+1002218	1002940	Slight Wide-Angle Adjustment on the Last Hit of Basic Attack			0.3					1	1002218											
+1006	1006999	Kamui: Bastion			-1						1006											

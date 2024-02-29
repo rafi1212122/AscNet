@@ -212,6 +212,7 @@ Id	CueSheetName	CueAwb	HasAwb
 4112	External/Criware/c_pet_yao.acb		0
 4113	External/Criware/c_pet_robot.acb		0
 4114	External/Criware/c_pet_squid.acb		0
+4115	External/Criware/c_pet_moto.acb		0
 4706	External/Criware/me_jiegouqiutu_player.acb		0
 10001	External/Criware/c_liRK2.acb		0
 10011	External/Criware/c_liRK3.acb		0
@@ -225,6 +226,8 @@ Id	CueSheetName	CueAwb	HasAwb
 10032	External/Criware/c_luciaRk4.acb		0
 11032	External/Criware/c_luciaRk4_skin.acb		0
 12032	External/Criware/c_luciaRk4_swim.acb		0
+10042	External/Criware/c_luciaalphaRK5.acb		0
+11042	External/Criware/c_luciaalphaRK5_Gui.acb		0
 10003	External/Criware/c_liv.acb		0
 10013	External/Criware/c_livRK2.acb		0
 11013	External/Criware/c_livRK2_HS.acb		0
@@ -288,15 +291,19 @@ Id	CueSheetName	CueAwb	HasAwb
 11113	External/Criware/c_weilaRK3_swim.acb		0
 14014	External/Criware/c_biankasuperRk3.acb		0
 14114	External/Criware/c_biankasuperRk3_JY.acb		0
+14214	External/Criware/c_biankasuperRk3_QS.acb		0
 12105	External/Criware/c_luosaitaRk3_SC.acb		0
 13071	External/Criware/c_bangbinataRk2.acb		0
 13105	External/Criware/c_kuluomuRk3_XY.acb		0
 11002	External/Criware/c_luciaRk1_RM.acb		0
+11004	External/Criware/c_biankaRk2_RM.acb		0
+11007	External/Criware/c_karenRk2_RM.acb		0
 10021	External/Criware/c_liRk4.acb		0
 10321	External/Criware/c_sailinnaRk4_WN.acb		0
 13108	External/Criware/c_lunaRk3_SN.acb		0
 10019	External/Criware/c_ailaRk3.acb		0
 18511	External/Criware/c_starknightRK3.acb		0
+11027	External/Criware/c_karenRk4_BZ.acb		0
 202	External/Criware/ja/v_lucia.acb	External/Criware/ja/v_lucia.awb	1
 2021	External/Criware/ja/v_luciaalpha.acb	External/Criware/ja/v_luciaalpha.awb	1
 2022	External/Criware/ja/v_luciaice.acb	External/Criware/ja/v_luciaice.awb	1
@@ -334,6 +341,7 @@ Id	CueSheetName	CueAwb	HasAwb
 231	External/Criware/ja/v_biankasuper.acb	External/Criware/ja/v_biankasuper.awb	1
 232	External/Criware/ja/v_bangbinata.acb	External/Criware/ja/v_bangbinata.awb	1
 233	External/Criware/ja/v_lisuper.acb	External/Criware/ja/v_lisuper.awb	1
+234	External/Criware/ja/v_luciaalphaRK4.acb	External/Criware/ja/v_luciaalphaRK4.awb	1
 302	External/Criware/zh/v_lucia.acb	External/Criware/zh/v_lucia.awb	1
 3021	External/Criware/zh/v_luciaalpha.acb	External/Criware/zh/v_luciaalpha.awb	1
 3022	External/Criware/zh/v_luciaice.acb	External/Criware/zh/v_luciaice.awb	1
@@ -372,6 +380,7 @@ Id	CueSheetName	CueAwb	HasAwb
 331	External/Criware/zh/v_biankasuper.acb	External/Criware/zh/v_biankasuper.awb	1
 332	External/Criware/zh/v_bangbinata.acb	External/Criware/zh/v_bangbinata.awb	1
 333	External/Criware/zh/v_lisuper.acb	External/Criware/zh/v_lisuper.awb	1
+334	External/Criware/zh/v_luciaalphaRK4.acb	External/Criware/zh/v_luciaalphaRK4.awb	1
 402	External/Criware/ca/v_lucia.acb	External/Criware/ca/v_lucia.awb	1
 4021	External/Criware/ca/v_luciaalpha.acb	External/Criware/ca/v_luciaalpha.awb	1
 4022	External/Criware/ca/v_luciaice.acb	External/Criware/ca/v_luciaice.awb	1
@@ -409,6 +418,7 @@ Id	CueSheetName	CueAwb	HasAwb
 431	External/Criware/ca/v_biankasuper.acb	External/Criware/ca/v_biankasuper.awb	1
 432	External/Criware/ca/v_bangbinata.acb	External/Criware/ca/v_bangbinata.awb	1
 433	External/Criware/ca/v_lisuper.acb	External/Criware/ca/v_lisuper.awb	1
+434	External/Criware/ca/v_luciaalphaRK4.acb	External/Criware/ca/v_luciaalphaRK4.awb	1
 501	External/Criware/zh/v_ac5.acb	External/Criware/zh/v_ac5.awb	1
 502	External/Criware/zh/v_ac7.acb	External/Criware/zh/v_ac7.awb	1
 503	External/Criware/ja/v_ac8.acb	External/Criware/ja/v_ac8.awb	1
@@ -451,6 +461,15 @@ Id	CueSheetName	CueAwb	HasAwb
 540	External/Criware/ja/ac17_boss.acb	External/Criware/ja/ac17_boss.awb	1
 541	External/Criware/ja/ac18_pulao.acb	External/Criware/ja/ac18_pulao.awb	1
 542	External/Criware/ja/v_ac8.acb	External/Criware/ja/v_ac8.awb	1
+543	External/Criware/ja/ac27.acb	External/Criware/ja/ac27.awb	1
+544	External/Criware/zh/ac27.acb	External/Criware/zh/ac27.awb	1
+545	External/Criware/ca/ac27.acb	External/Criware/ca/ac27.awb	1
+546	External/Criware/ja/ac27_boss.acb	External/Criware/ja/ac27_boss.awb	1
+547	External/Criware/ja/ac27_hunt.acb	External/Criware/ja/ac27_hunt.awb	1
+548	External/Criware/zh/ac27_boss.acb	External/Criware/zh/ac27_boss.awb	1
+549	External/Criware/zh/ac27_hunt.acb	External/Criware/zh/ac27_hunt.awb	1
+550	External/Criware/ca/ac27_boss.acb	External/Criware/ca/ac27_boss.awb	1
+551	External/Criware/ca/ac27_hunt.acb	External/Criware/ca/ac27_hunt.awb	1
 600	External/Criware/m_ev25_CD.acb	External/Criware/m_ev25_CD.awb	1
 601	External/Criware/m_ev26_battle.acb	External/Criware/m_ev26_battle.awb	1
 602	External/Criware/m_ev26_boss1.acb	External/Criware/m_ev26_boss1.awb	1
@@ -461,8 +480,30 @@ Id	CueSheetName	CueAwb	HasAwb
 607	External/Criware/m_ev26_intro_p3.acb	External/Criware/m_ev26_intro_p3.awb	1
 608	External/Criware/m_ev26_lose.acb	External/Criware/m_ev26_lose.awb	1
 609	External/Criware/m_ev26_win.acb	External/Criware/m_ev26_win.awb	1
+610	External/Criware/m_ev26_dragon_1.acb	External/Criware/m_ev26_dragon_1.awb	1
+611	External/Criware/m_ev26_dragon_1_light.acb	External/Criware/m_ev26_dragon_1_light.awb	1
+612	External/Criware/m_ev26_dragon_2_intro.acb	External/Criware/m_ev26_dragon_2_intro.awb	1
+613	External/Criware/m_ev26_dragon_2_loop.acb	External/Criware/m_ev26_dragon_2_loop.awb	1
+614	External/Criware/m_ev26_dragon.acb	External/Criware/m_ev26_dragon.awb	1
 615	External/Criware/m_ev26_cd_1.acb	External/Criware/m_ev26_cd_1.awb	1
+616	External/Criware/m_ev26_cd_2.acb	External/Criware/m_ev26_cd_2.awb	1
+617	External/Criware/PGN_SONG2_M01_lp_normal.acb	External/Criware/PGN_SONG2_M01_lp_normal.awb	1
+618	External/Criware/PGN_SONG2_M01_lp_madness.acb	External/Criware/PGN_SONG2_M01_lp_madness.awb	1
+619	External/Criware/PGN_SONG4_M02_lp_normal.acb	External/Criware/PGN_SONG4_M02_lp_normal.awb	1
+620	External/Criware/PGN_SONG4_M02_lp_madness.acb	External/Criware/PGN_SONG4_M02_lp_madness.awb	1
+621	External/Criware/PGN_SONG5_M04_lp_normal.acb	External/Criware/PGN_SONG5_M04_lp_normal.awb	1
+622	External/Criware/PGN_SONG3_M03_all.acb	External/Criware/PGN_SONG3_M03_all.awb	1
+623	External/Criware/m_ev27_battle.acb	External/Criware/m_ev27_battle.awb	1
+624	External/Criware/m_ev27_boss1.acb	External/Criware/m_ev27_boss1.awb	1
+625	External/Criware/m_ev27_boss2.acb	External/Criware/m_ev27_boss2.awb	1
+626	External/Criware/m_ev27_intro.acb	External/Criware/m_ev27_intro.awb	1
+627	External/Criware/m_ev27_story.acb	External/Criware/m_ev27_story.awb	1
+628	External/Criware/m_ev27_gacha_bianka_1.acb	External/Criware/m_ev27_gacha_bianka_1.awb	1
+629	External/Criware/m_ev27_gacha_bianka_2.acb	External/Criware/m_ev27_gacha_bianka_2.awb	1
+630	External/Criware/m_ev27_8bit.acb	External/Criware/m_ev27_8bit.awb	1
 631	External/Criware/m_ev27_spring.acb	External/Criware/m_ev27_spring.awb	1
+632	External/Criware/m_nbat_victory_error.acb	External/Criware/m_nbat_victory_error.awb	1
+700	External/Criware/g_ingame_EV27.acb		0
 9708	External/Criware/me_sword.acb		0
 8130	External/Criware/mb_sword.acb		0
 8140	External/Criware/mb_lady.acb		0
@@ -616,10 +657,16 @@ Id	CueSheetName	CueAwb	HasAwb
 9340	External/Criware/mo_shigaonan.acb		0
 9341	External/Criware/me_simmoonguy.acb		0
 9342	External/Criware/mb_sister.acb		0
+9343	External/Criware/mb_lilith.acb		0
+9344	External/Criware/mo_naohua.acb		0
+9345	External/Criware/mo_naohua2.acb		0
+9346	External/Criware/mb_juean.acb		0
+9347	External/Criware/mb_luxiya_rk5.acb		0
 10000000	External/Criware/c_luciaRk3_JP.acb		0
 10000001	External/Criware/ja/v_acja1.acb	External/Criware/ja/v_acja1.awb	1
 10000002	External/Criware/m_ev24_jp_CD.acb	External/Criware/m_ev24_jp_CD.awb	1
 10000003	External/Criware/m_ev24_jp_CD_2.acb	External/Criware/m_ev24_jp_CD_2.awb	1
+10000004	External/Criware/m_ev27_cd_1.acb	External/Criware/m_ev27_cd_1.awb	1
 561	External/Criware/en/v_ac5.acb	External/Criware/en/v_ac5.awb	1
 562	External/Criware/en/v_ac7.acb	External/Criware/en/v_ac7.awb	1
 563	External/Criware/en/v_ac8.acb	External/Criware/en/v_ac8.awb	1
@@ -673,6 +720,9 @@ Id	CueSheetName	CueAwb	HasAwb
 832	External/Criware/en/v_bangbinata.acb	External/Criware/en/v_bangbinata.awb	1
 577	External/Criware/en/ac25.acb	External/Criware/en/ac25.awb	1
 833	External/Criware/en/v_lisuper.acb	External/Criware/en/v_lisuper.awb	1
-700	External/Criware/g_ingame_EV27.acb		0
 8091	External/Criware/en/v_ailaRK3.acb	External/Criware/en/v_ailaRK3.awb	1
 578	External/Criware/en/ac26.acb	External/Criware/en/ac26.awb	1
+579	External/Criware/en/ac27.acb	External/Criware/en/ac27.awb	1
+580	External/Criware/en/ac27_boss.acb	External/Criware/en/ac27_boss.awb	1
+581	External/Criware/en/ac27_hunt.acb	External/Criware/en/ac27_hunt.awb	1
+834	External/Criware/en/v_luciaalphaRK4.acb	External/Criware/en/v_luciaalphaRK4.awb	1

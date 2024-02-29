@@ -9,7 +9,6 @@ FriendRecommendationInterval	int	10
 RemoveChatRecordOfDay	int	7
 WorldChatMaxSize	int	200
 RoomChatMaxSize	int	50
-AcfFile	string	External/Criware/Punishing_CRIProject.acf
 EquipBreakThoughTipId	int	1001
 GraphicDefaultLevel	int	2
 GraphicLowFps	int	40
@@ -199,6 +198,7 @@ UiDebuggerDormTemplate	string	Assets/Product/Ui/Prefab/UiDebuggerDormTemplate.pr
 UiDamageNumericalRecordPanel	string	Assets/Product/Ui/Prefab/UiDamageNumericalRecordPanel.prefab
 UiDebuggerDamageStatisticsPanel	string	Assets/Product/Ui/Prefab/UiDebuggerDamageStatisticsPanel.prefab
 UiDebuggerDamageContext	string	Assets/Product/Ui/Prefab/UiDebuggerDamageContext.prefab
+UiXDebuggerCureContext	string	Assets/Product/Ui/Prefab/UiDebuggerDamageContext.prefab
 UiDebuggerFightNumerical	string	Assets/Product/Ui/Prefab/UiDebuggerFightNumerical.prefab
 UiDebuggerFightShortcut	string	Assets/Product/Ui/Prefab/UiDebuggerFightShortcut.prefab
 UiDebuggerFightBuff	string	Assets/Product/Ui/Prefab/UiDebuggerFightBuff.prefab
@@ -331,8 +331,8 @@ RogueLikeDisTabShop	string	Assets/Product/Texture/Image/UiRogueLike/UiRogueLikeT
 RogueLikeDisTabBox	string	Assets/Product/Texture/Image/UiRogueLike/UiRogueLikeTab05.png
 RogueLikeDisTabRest	string	Assets/Product/Texture/Image/UiRogueLike/UiRogueLikeTab06.png
 RogueLikeDisTabEvent	string	Assets/Product/Texture/Image/UiRogueLike/UiRogueLikeTab07.png
-ActivityShopItemTextCanBuyColor	string	3F1200
-ActivityShopItemTextCanNotBuyColor	string	A5A5A5
+ActivityShopItemTextCanBuyColor	string	FFFFFF
+ActivityShopItemTextCanNotBuyColor	string	FF5A5A
 NierShopItemTextCanBuyColor	string	ffffffff
 NierShopItemTextCanNotBuyColor	string	ff8f75ff
 ActivityBriefMovie	int	0
@@ -640,8 +640,8 @@ UiGridPracticeCharacterMoveMinX	int	-600
 UiGridPracticeCharacterMoveMaxX	int	-200
 RpgMakerGameExhibitItemId	int	63301
 PivotCombatAbilityLimit	int	6000
-AprilFoolsDayStartTime	string	2022/4/1 00:00
-AprilFoolsDayEndTime	string	2022/4/2 00:00
+AprilFoolsDayStartTime	string	2024/4/1 0:00
+AprilFoolsDayEndTime	string	2024/4/2 0:00
 CharSkillQualityNor	string	Assets/Product/Texture/Atlas/UiCharacter/PanelCharQlDianNor2.png
 CharSkillQualitySelect	string	Assets/Product/Texture/Atlas/UiCharacter/PanelCharQlDianSlect2.png
 CharSkillQualityOn	string	Assets/Product/Texture/Atlas/UiCharacter/PanelCharQlDianOn2.png
@@ -654,7 +654,7 @@ MoeWarSceneAnimationAddSupportDistance	float	1
 ActivityCalendarBeforeOpenTime	int	2
 ActivityCalendarBeforeEndTime	int	2
 BackgroundChangeTimeStr	string	18:00:00
-BackgroundChangeTimeEnd	string	06:00:00
+BackgroundChangeTimeEnd	string	6:00:00
 ScenePreviewUiHideCD	float	3
 ScenePreviewUiHideDelay	float	1.5
 WaferScreenShopID	string	404/405/406
@@ -663,8 +663,8 @@ TwoSideTowerNegativeIcon	string	Assets/Product/Texture/Image/UiTwoSideTower/UiTw
 ActivityBriefBaseModel	string	Assets/Product/Ui/UiModel/UiActivityBriefBase3D/UiActivityBriefBase.prefab
 DefaultFightBtnExitTexture	string	Assets/Product/Texture/Image/UiFight/FightButtonExitNor.png
 PCFightBtnExitTexture	string	Assets/Product/Texture/Image/UiFight/FightButtonExitPCNor.png
-UiLoginMovieTimeStr	string	2022/4/29 00:00
-UiLoginMovieTimeEnd	string	2022/5/10 00:00
+UiLoginMovieTimeStr	string	2022/4/29 0:00
+UiLoginMovieTimeEnd	string	2022/5/10 0:00
 CourseLessonStagePrfab	string	Assets/Product/Ui/ComponentPrefab/FuBenNor/UiCourseActivity.prefab
 CourseSettleLevelSImgPath	string	Assets/Product/Texture/Image/UiSameColorGame/SameColorS.png
 CourseSettleLevelAImgPath	string	Assets/Product/Texture/Image/UiSameColorGame/SameColorA.png
@@ -733,7 +733,7 @@ BrilliantWalkWeaponModule	int	1032
 UiLoginTimeLineAnim	string	null
 UiLoginSpineStartAnim	string	enable
 UiLoginSpineLoopAnim	string	idle
-UiLoginScreenOffect_H_1.33	int	250
+UiLoginScreenOffect_H_1.33	int	0
 DormQuestTerminalTipDelayTime	int	4
 DormQuestTerminalTeamRegressIcon	string	Assets/Product/Texture/Atlas/UiDorm/FurnitureImgS26.png
 DormQuestTerminalTeamFreeIcon	string	Assets/Product/Texture/Atlas/UiDorm/FurnitureImgS25.png
@@ -748,9 +748,21 @@ MinDragYDistance	float	100
 AwarenessOcuupyActiveResonanced	string	Assets/Product/Texture/Atlas/UIEquipNew/EquipResonanceIcon002.png
 DrawShowLineCommunicationEffect2d1	string	Assets/Product/Effect/Prefab/FxUi/FxUiMain3dQishi02Prefab/FxUi2DXuxian256.prefab
 DrawShowLineCommunicationEffect2d4	string	Assets/Product/Effect/Prefab/FxUi/FxUiMain3dQishi02Prefab/FxUi2DXuxian1141.prefab
+DrawShowLineCommunicationEffect2d15	string	Assets/Product/Effect/Prefab/FxUi/FxUiMain3dQishi02Prefab/FxUi2DXuxian256.prefab
 DrawShowLineCommunicationEffect3d	string	Assets/Product/Effect/Prefab/FxUi/FxUiMain3dQishi02Prefab/FxUiMain3dQishiXuxian.prefab
 DrawShowLineCommunicationEffectWq3d	string	Assets/Product/Effect/Prefab/FxUi/FxUiMain3dQishi02Prefab/FxUiMain3dQishiXuxianWq.prefab
 BtnOccupyJoinImg3	string	Assets/Product/Texture/Atlas/UiAssign/UiAssignCharacterBtn03.png
+CharacterTowerLeftTipDelayTime	int	5
+EpicGachaLayer0	string	Assets/Product/Texture/Image/UiEpicFashionGacha/UiEpicFashionGachaJiangliDecorate5.png
+EpicGachaLayer1	string	Assets/Product/Texture/Image/UiEpicFashionGacha/UiEpicFashionGachaJiangliDecorate4.png
+EpicGachaLayer2	string	Assets/Product/Texture/Image/UiEpicFashionGacha/UiEpicFashionGachaJiangliDecorate2.png
+EpicGahcaSoundClose	string	Assets/Product/Ui/ComponentPrefab/EpicFashionGacha/SoundClose.prefab
+EpicGahcaSoundPingmuIce	string	Assets/Product/Ui/ComponentPrefab/EpicFashionGacha/SoundPingmuIce.prefab
+SuperSmashCareerIcon1	string	Assets/Product/Texture/Atlas/UiSuperSmashBros/UiSuperSmashBrosIcon4.png
+SuperSmashCareerIcon2	string	Assets/Product/Texture/Atlas/UiSuperSmashBros/UiSuperSmashBrosIcon3.png
+SuperSmashCareerIcon3	string	Assets/Product/Texture/Atlas/UiSuperSmashBros/UiSuperSmashBrosIcon1.png
+SuperSmashCareerIcon4	string	Assets/Product/Texture/Atlas/UiSuperSmashBros/UiSuperSmashBrosIcon2.png
+FixBugTemp	string	Assets/Product/Texture/Atlas/UiCharacterExhibition/a_fixbug_temp.png
 PhotoSave	string	Saved to album
 FunctionNotDuringOpening	string	Currently not available
 FocusType1	string	Auto Lock: Automatically locks on the enemy in your way when you move the joystick.

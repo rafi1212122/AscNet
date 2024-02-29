@@ -1,263 +1,275 @@
-Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
-99210101	剑客拔刀斩-伤害子弹	1	5.5	2.5		1.5	0			4			0.3						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992101011										0	HitCase	1	1		1				1														
-99210106	剑客拔刀斩-震屏	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
-99210201	剑客连续斩-一段伤害子弹	1	5.5	2.5	0	1.5	0			4			0.1						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992102011										0	HitCase	1	0		1				1														
-99210202	剑客连续斩-二段伤害子弹	1	5.5	2.5	0	1.5	0			4			0.1						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992102021										0	HitCase	1	0		1				1														
-99210203	剑客连续斩-三段伤害子弹	1	5.5	2.5	0	1.5	0			4			0.1						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992102031										0	HitCase	1	1		1				1														
-99210208	剑客连续斩-震屏	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
-99210301	剑客挥劈-伤害子弹	1	3	6	-0.5	0	0			4			0.1						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992103011										0	HitCase	1	0		1				1														
-99210302	剑客挥劈-震屏	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
-99210401	剑客戳刺-伤害子弹	1	1	6	0	3	0			4			0.27						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992104011										0	HitCase	1	0		1				1														
-99210403	剑客戳刺-震屏	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
-99210501	剑客大招-伤害子弹1	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105011										0	HitCase	1	1		1				1														
-99210502	剑客大招-伤害子弹2	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105021										0	HitCase	1	1		1				1														
-99210503	剑客大招-伤害子弹3	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105031										0	HitCase	1	1		1				1														
-99210504	剑客大招-伤害子弹4	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105041										0	HitCase	1	1		1				1														
-99210505	剑客大招-伤害子弹5	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105051										0	HitCase	1	1		1				1														
-99210506	剑客大招-伤害子弹6	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105061										0	HitCase	1	1		1				1														
-99210507	剑客大招-震屏	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
-97010201	酸液喷射者-Skill-02-戳刺	2	3			4	0			4			0.1						-1		FxMe1SpiderMd000001Shouji						-1			1					0	0	0										0							0	3				970102011	801026	970106								0	HitCase	1	0		1				1														
-97010202	酸液喷射者-Skill-02-戳刺	2	3			4	0			4			0.1						-1		FxMe1SpiderMd000001Shouji						-1			1					0	0	0										0							0	3				970102021	801026	970106								0	HitCase	1	0		1				1														
-97010301	酸液喷射者-Skill-03-吐息	2	0.9			3.6	25			4			3		1				1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		1	0.9		3	-20	0	10	1	0	0	0										0	3		1	97010302	1		1	1				970103011	801052	970106								0	HitCase		0		1		9999	1	1														
-97010302	酸液喷射者-Skill-03-吐息爆炸子子弹	2	2				0			4			1.5						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0.05		1	97010305	1		0	1														0	HitCase	1	0		1			1	0														
-97010303	酸液喷射者-Skill-03-吐息 预警	2	2				0			4			0.7						-1								-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97010304	酸液喷射者-Skill-03-吐息 预警	2	2				0			4			1.5						-1						FxYujing1M05S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97010305	酸液喷射者-Skill-03-吐息 持续毒液	2	1.5				0			4			4						-1	1			0.3		FxMe1SpiderMd000001Attack0304		-1			1	0				0	0	0										2							0	1					801007									0	HitCase	1	0		1				0														
-97010401	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97010406	1		1	1														0	HitCase	1	0		1		9999	1	1														
-97010402	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97010407	1		1	1														0	HitCase	1	0		1		9999	1	1														
-97010403	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97010408	1		1	1														0	HitCase	1	0		1		9999	1	1														
-97010404	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97010409	1		1	1														0	HitCase	1	0		1		9999	1	1														
-97010405	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97010410	1		1	1														0	HitCase	1	0		1		9999	1	1														
-97010406	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97010411	1		0	1														0	HitCase	1	0		1			1	0														
-97010407	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97010412	1		0	1														0	HitCase	1	0		1			1	0														
-97010408	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97010413	1		0	1														0	HitCase	1	0		1			1	0														
-97010409	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97010414	1		0	1														0	HitCase	1	0		1			1	0														
-97010410	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97010415	1		0	1														0	HitCase	1	0		1			1	0														
-97010411	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970104111	801022	970107								0	HitCase		0		1				0														
-97010412	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970104121	801022	970107								0	HitCase		0		1				0														
-97010413	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970104131	801022	970107								0	HitCase		0		1				0														
-97010414	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970104141	801022	970107								0	HitCase		0		1				0														
-97010415	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970104151	801022	970107								0	HitCase		0		1				0														
-97010417	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97010418	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97010419	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97010420	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97010421	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97010501	酸液喷射者-Skill-05-漏酸	2	4			-2	0			4			7						-1	1			0.2				-1			1					0	0	0										0							0	1					801005									0	HitCase	1	0		0				1														
-97010502	酸液喷射者-Skill-05-漏酸	2	4			-2	0			4			7						-1						FxMe1SpiderMd000001Attack0502		-1			1					0	0	0										0							0	1					801005									0	HitCase		0		0				1														
-97011001	转身-1	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
-97020201	酸液喷射者-Skill-02-戳刺	2	3			4	0			4			0.1						-1		FxMe1SpiderMd000001Shouji						-1			1					0	0	0										0							0	3				970202011	801026	970106								0	HitCase	1	0		1				1														
-97020202	酸液喷射者-Skill-02-戳刺	2	3			4	0			4			0.1						-1		FxMe1SpiderMd000001Shouji						-1			1					0	0	0										0							0	3				970202021	801026	970106								0	HitCase	1	0		1				1														
-97020301	酸液喷射者-Skill-03-吐息	2	0.9			3.6	25			4			3		1				1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		1	0.9		3	-20	0	10	1	0	0	0										0	3		1	97010302	1		1	1				970203011	801052	970106								0	HitCase		0		1		9999	1	1														
-97020302	酸液喷射者-Skill-03-吐息爆炸子子弹	2	2				0			4			1.5						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0.05		1	97010305	1		0	1														0	HitCase	1	0		1			1	0														
-97020303	酸液喷射者-Skill-03-吐息 预警	2	2				0			4			1.5						-1								-1			1	0				0	0	0										1							0	1														0	HitCase	1	1		1				0														
-97020304	酸液喷射者-Skill-03-吐息 预警	2	2				0			4			1.5						-1						FxYujing1M05S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97020305	酸液喷射者-Skill-03-吐息 持续毒液	2	1.5				0			4			4						-1	1			0.3		FxMe1SpiderMd000001Attack0304		-1			1	0				0	0	0										2							0	1					801007									0	HitCase	1	0		1				0														
-97020401	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97020406	1		1	1														0	HitCase	1	0		1		9999	1	1														
-97020402	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97020407	1		1	1														0	HitCase	1	0		1		9999	1	1														
-97020403	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97020408	1		1	1														0	HitCase	1	0		1		9999	1	1														
-97020404	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97020409	1		1	1														0	HitCase	1	0		1		9999	1	1														
-97020405	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97020410	1		1	1														0	HitCase	1	0		1		9999	1	1														
-97020406	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97020411	1		0	1														0	HitCase	1	0		1			1	0														
-97020407	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97020412	1		0	1														0	HitCase	1	0		1			1	0														
-97020408	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97020413	1		0	1														0	HitCase	1	0		1			1	0														
-97020409	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97020414	1		0	1														0	HitCase	1	0		1			1	0														
-97020410	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97020415	1		0	1														0	HitCase	1	0		1			1	0														
-97020411	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970204111	801022	970107								0	HitCase		0		1				0														
-97020412	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970204121	801022	970107								0	HitCase		0		1				0														
-97020413	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970204131	801022	970107								0	HitCase		0		1				0														
-97020414	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970204141	801022	970107								0	HitCase		0		1				0														
-97020415	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970204151	801022	970107								0	HitCase		0		1				0														
-97020417	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97020418	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97020419	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97020420	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97020421	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-97020501	酸液喷射者-Skill-05-漏酸	2	4			-2	0			4			7						-1	1			0.2				-1			1					0	0	0										0							0	1					801005									0	HitCase	1	0		0				1														
-97020502	酸液喷射者-Skill-05-漏酸	2	4				0			4			7						-1						FxMe1SpiderMd000001Attack0502		-1			1					0	0	0										0							0	1					801007									0	HitCase		0		0				1														
-97021001	转身-1	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
-99220201	酸液喷射者-Skill-02-戳刺	1	3	8		4	0			4			0.1						-1		FxMe1SpiderMd000001Shouji				FxNpcYujing02		-1			1					0	0	0										0							0	1					701031									0	HitCase	1	0		1				1														
-99220301	酸液喷射者-Skill-03-喷泉-预警	2	1.2				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3							4	1														0	HitCase	1	0		1				0														
-99220302	酸液喷射者-Skill-03-喷泉-实弹	2	1.2				10			4			3		1				-1	1	FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1.2	FxMe1SpiderMd000001Attack04	3	-25	0	10	0	0	0	0										3							4	1					701031									0	HitCase	1	0		1		9999	1	1														
-99220401	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1	FxMe1SpiderMd000001Attack04	3	-20	0	10	0	0	0	0										0							1	1					701031									0	HitCase		0		1		9999	1	1														
-99220402	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1	FxMe1SpiderMd000001Attack04	3	-20	0	10	0	0	0	0										0							1	1					701031									0	HitCase		0		1		9999	1	1														
-99220403	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1	FxMe1SpiderMd000001Attack04	3	-20	0	10	0	0	0	0										0							1	1					701031									0	HitCase		0		1		9999	1	1														
-99220404	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1	FxMe1SpiderMd000001Attack04	3	-20	0	10	0	0	0	0										0							1	1					701031									0	HitCase		0		1		9999	1	1														
-99220405	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1	FxMe1SpiderMd000001Attack04	3	-20	0	10	0	0	0	0										0							1	1					701031									0	HitCase		0		1		9999	1	1														
-99220407	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			0.5						-1						FxNpcYujing01		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-99220408	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			0.5						-1						FxNpcYujing01		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-99220409	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			0.5						-1						FxNpcYujing01		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-99220410	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			0.5						-1						FxNpcYujing01		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-99220411	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			0.5						-1						FxNpcYujing01		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-99220501	酸液喷射者-Skill-05-漏酸	2	4			-2	0			4			7						-1	1			0.3				-1			1					0	0	0										0							0	1					701031									0	HitCase	1	0		0				1														
-99220502	酸液喷射者-Skill-05-漏酸	2	4			-2	0			4			7						-1						FxMe1SpiderMd000001Attack0503		-1			1					0	0	0										0							0	1					701031									0	HitCase		0		0				1														
-99221001	酸液喷射者-Skill-06-直线-预警	2	1.5				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3							4	1														0	HitCase	1	0		1				0														
-99221002	酸液喷射者-Skill-06-直线-实弹	2	1.5				10			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1.5	FxMe1SpiderMd000001Attack04	3	20	0	10	0	0	0	0										3	5000		1	99221005	1		4	1					701031									0	HitCase	1	0		1		9999	1	1														
-99221005	酸液喷射者-Skill-06-直线-毒圈实际	2	1.5				0			4			2.5						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221006			0	1					701031									0	HitCase	1	0		1				0														
-99221006	酸液喷射者-Skill-06-直线-毒圈特效	2	1				0			4			2.5						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0														
-99221101	酸液喷射者-Skill-07-爱心3-预警	2	1				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3							4	1														0	HitCase	1	0		1				0														
-99221102	酸液喷射者-Skill-07-爱心3-实弹	2	1				5			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			Bone22	FxMe1SpiderMd000001Attack03Dandao		0	2	FxMe1SpiderMd000001Attack04	3	-100	0	10	0	0	0	0										3	0.5		1	99221103	1		4	1														0	HitCase	1	0		1		9999	1	1														
-99221103	酸液喷射者-Skill-07-爱心3-毒圈	2	2				0			4			2.1						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221104			0	1					701031									0	HitCase	1	0		1				0														
-99221104	酸液喷射者-Skill-07-爱心3-毒圈特效	2	1				0			4			2.5						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0														
-99221201	酸液喷射者-Skill-08-爱心4-预警	2	2				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3	0.5		1	99221203	1		4	1														0	HitCase	1	0		1				0														
-99221202	酸液喷射者-Skill-08-爱心4-实弹	2	2				5			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			Bone22	FxMe1SpiderMd000001Attack03Dandao		0	2	FxMe1SpiderMd000001Attack04	3	-100	0	10	0	0	0	0										3							4	1														0	HitCase	1	0		1		9999	1	1														
-99221203	酸液喷射者-Skill-08-爱心4-毒圈	2	2				0			4			2.1						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221204			0	1					701031									0	HitCase	1	0		1				0														
-99221204	酸液喷射者-Skill-08-爱心4-毒圈特效	2	1				0			4			2.1						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0														
-99221301	酸液喷射者-Skill-09-爱心5-预警	2	2				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3	0.5		1	99221303	1		4	1														0	HitCase	1	0		1				0														
-99221302	酸液喷射者-Skill-09-爱心5-实弹	2	2				5			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			Bone22	FxMe1SpiderMd000001Attack03Dandao		0	2	FxMe1SpiderMd000001Attack04	3	-100	0	10	0	0	0	0										3							4	1														0	HitCase	1	0		1		9999	1	1														
-99221303	酸液喷射者-Skill-09-爱心5-毒圈	2	2				0			4			2.1						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221304			0	1					701031									0	HitCase	1	0		1				0														
-99221304	酸液喷射者-Skill-09-爱心5-毒圈特效	2	1				0			4			2.1						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0														
-99221401	酸液喷射者-Skill-10-爱心6-预警	2	2				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3	0.5		1	99221403	1		4	1														0	HitCase	1	0		1				0														
-99221402	酸液喷射者-Skill-10-爱心6-实弹	2	2				5			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			Bone22	FxMe1SpiderMd000001Attack03Dandao		0	2	FxMe1SpiderMd000001Attack04	3	-100	0	10	0	0	0	0										3							4	1														0	HitCase	1	0		1		9999	1	1														
-99221403	酸液喷射者-Skill-10-爱心6-毒圈	2	2				0			4			2.1						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221404			0	1					701031									0	HitCase	1	0		1				0														
-99221404	酸液喷射者-Skill-10-爱心6-毒圈特效	2	1				0			4			2.1						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0														
-99221501	酸液喷射者-Skill-11-爱心7-预警	2	2				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3	0.5		1	99221503	1		4	1														0	HitCase	1	0		1				0														
-99221502	酸液喷射者-Skill-11-爱心7-实弹	2	2				5			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			Bone22	FxMe1SpiderMd000001Attack03Dandao		0	2	FxMe1SpiderMd000001Attack04	3	-100	0	10	0	0	0	0										3							4	1														0	HitCase	1	0		1		9999	1	1														
-99221503	酸液喷射者-Skill-11-爱心7-毒圈	2	2				0			4			2.1						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221504			0	1					701031									0	HitCase	1	0		1				0														
-99221504	酸液喷射者-Skill-11-爱心7-毒圈特效	2	1				0			4			2.1						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0														
-99230101	重构镇暴兵盾猛-伤害子弹	3	3	210		1	0			4			0.1						-1		FxDibingShouji						-1			1					0	0	0										0							0	1				992301011		700279								0	HitCase	1	0		1				1														
-99230201	重构镇暴兵横扫-伤害子弹	3	3	210		1	0			4			0.1						-1		FxDibingShouji						-1			1					0	0	0										0							0	1				992302011										0	HitCase	1	0		1				1														
-99230401	重构镇暴兵-冲锋	1	2	2		1.5	0			4			2						-1		FxDibingShouji						-1			1					0	0	0										0							0	1				992304011		700281								0	HitCase	1	1		1				0														
-99230402	重构镇暴兵-预警	1	2	20		6	0			4			2						-1						FxNpcYujing02		-1			1					0	0	0										0							0	1														0	HitCase	1	0		1				0														
-90350101	铁罐（实验级）-普攻-红茶-伤害	1	3	3		1.5	0			4			0.1						-1		FxMe1BioMd004040Attack06Shouji						-1			1					0	0	0										0							0	1				903501011	903512	903524								0	HitCase	1	0		1				1														
-90350104	铁罐（实验级）-普攻-红茶-范围	1	3	3		1.5	0			4			0.5						-1								-1	3		1	0				0	0	0										0							0	1														0	HitCase	1	0		0				0														
-90350105	铁罐（实验级）-普攻-红茶-特效	2	0.1			3	0			4			1.5						-1						FxMe1BioMd004040Attack05a		-1			1					0	0	0										0							0	1														0	HitCase		0		1				1														
-90350603	铁罐（实验级）-摇摇乐-技红-预警	2	4				0			4			2						-1						FxYujing1M05S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-90350604	铁罐（实验级）-摇摇乐-技红-飞桶	2	0.1				10			4			5		1				-1		FxMe1BioMd004040Attack02Shouji			Me1BioMd004040Part	FxMe1BioMd004040Attack02Dandao		-1	2	FxMe1BioMd004040Attack0201	3	-50	0	10	0	0	0	0										0	5000		1	90350605	1		1	1				903506041	903513	903510	903521							0	HitCase		0		0			1	1														
-90350605	铁罐（实验级）-摇摇乐-技红-圆火	2	4				0			4			25						-1	1	FxMe1BioMd004040Attack02Shouji		0.8		FxMe1BioMd004040Attack0202		-1			1	0				0	0	0										2							0	1					903514									0	HitCase		0		0				1														
-90350703	铁罐（实验级）-摇摇乐-技黄-预警	1	3	25		12.5	0			4			1	0.5					-1						FxYujingJu01		-1			1	0				0	0	0										0							0	1														0	HitCase	1	0		1				0														
-90350704	铁罐（实验级）-摇摇乐-技黄-飞桶	1	3	1			20			4			1		1				-1	1	FxMe1BioMd004040Attack03Shouji			Me1BioMd004040Part			-1	2		1	0				0	0	0										0	5000		1	90350705	1		0	1				903507041	903515	903510	903522							0	HitCase		0		1				1														
-90350705	铁罐（实验级）-摇摇乐-技黄-线火伤害	1	3	25		13.5	0			4			25						-1	1	FxMe1BioMd004040Attack03Shouji		0.8				-1			1	0				0	0	0										0							2	1					903516									0	HitCase		0		0				1														
-90350706	铁罐（实验级）-摇摇乐-技黄-线火特效	1	3	25			0			4			25						-1						FxMe1BioMd004040Attack03		-1			1	0				0	0	0										0							0	1														0	HitCase		0		0				0														
-90350804	铁罐（实验级）-摇摇乐-技蓝-爆炸	2	15				0			4			0.1						-1		FxMe1BioMd004040Attack04Shouji			Me1BioMd004040Part			-1			1	0				0	0	0										0							0	1				903508041	903517	903518	903510							0	HitCase	1	0		1				1														
-90350805	铁罐（实验级）-摇摇乐-技蓝-爆炸特效	2	15				0			4			0		1				-1								-1		FxMe1BioMd004040Attack04	1	0				0	0	0										0							0	1														0	HitCase		0		1				0														
-90350808	铁罐（实验级）-摇摇乐-技蓝-范围预警	2	15				0			4			1.5						-1					Me1BioMd004040Part	FxYujing1M06S		-1			1	0				0	0	0										0							0	1														0	HitCase	1	0		1				0														
-90350902	铁罐（实验级）-空手-炮台-子弹1	1	1.5	40		0.5	0		22	4			3.8						-1	1	FxMe1BioMd004040Attack07Shouji		0.3				-1			2	-90	0	0	0	0	0	0										0							0	1					903519	903510								0	HitCase	1	0		1				1														
-90350903	铁罐（实验级）-空手-炮台-子弹2	1	1.5	40		0.5	0		-68	4			3.8						-1	1	FxMe1BioMd004040Attack07Shouji		0.3				-1			2	-90	0	0	0	0	0	0										0							0	1					903520	903510								0	HitCase	1	0		1				1														
-90350904	铁罐（实验级）-空手-炮台-预警1	1	1.5	40		0.5	0		22	4			1.3						-1								-1			2	0	0	0	0	0	0	0										0							0	1														0	HitCase	1	0		0				0														
-90350905	铁罐（实验级）-空手-炮台-预警2	1	1.5	40		0.5	0		-68	4			1.3						-1								-1			2	0	0	0	0	0	0	0										0							0	1														0	HitCase	1	0		0				0														
-90350906	铁罐（实验级）-空手-炮台-范围1	1	1.5	40		0.5	0		22	4			3.8						-1								-1			2	-90	0	0	0	0	0	0										0							0	1														0	HitCase	1	0		1				0														
-90350907	铁罐（实验级）-空手-炮台-范围2	1	1.5	40		0.5	0		-68	4			3.8						-1								-1			2	-90	0	0	0	0	0	0										0							0	1														0	HitCase	1	0		1				0														
-90351101	铁罐（实验级）-普攻-空手-伤害	1	3	3		1.5	0			4			0.1						-1		FxMe1BioMd004040Attack06Shouji						-1			1					0	0	0										0							0	1				903511011	903512	903524								0	HitCase	1	0		1				1														
-90351104	铁罐（实验级）-普攻-空手-范围	1	3	3		1.5	0			4			0.5						-1								-1	3		1	0				0	0	0										0							0	1														0	HitCase	1	0		0				0														
-90351105	铁罐（实验级）-普攻-空手-特效	2	0.1			3	0			4			1.5						-1						FxMe1BioMd004040Attack05		-1			1					0	0	0										0							0	1														0	HitCase		0		1				1														
-90351301	铁罐（实验级）-特殊-小自爆-预警	2	2			0	0			4			1.8						-1								-1			1	0				0	0	0										0							0	1														0	HitCase	1	0		1				0														
-90351302	铁罐（实验级）-特殊-小自爆-伤害	2	0.1			0	0			4			0.1		1				-1								-1	2	FxMe1BioMd004040Attack0201	1	0				0	0	0										0							0	1					903537									0	HitCase		0		1				0														
-90352003	铁罐（实验级）-摇摇乐-技红-预警	2	4				0			4			2						-1						FxYujing1M05S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0														
-90352004	铁罐（实验级）-摇摇乐-技红-飞桶	2	0.1				30			4			7		1				-1		FxMe1BioMd004040Attack02Shouji			Me1BioMd004040Part	FxMe1BioMd004040Attack02Dandao		-1	2	FxMe1BioMd004040Attack0201	3	-50	0	10	0	0	0	0										0							1	1				903520041	903513	903510	903521							0	HitCase		0		0			1	1														
-20080101	新空气墙-空气墙碰撞-1	1	10	2	0	0	0			6			0.1		0				-1								-1			1	0				0	0	0										0							0	1										715036				0	HitCase		0		1				0														
-20160401	电网 - 放电-1	2	8				0			4			1.2		0				-1								-1	0		1	0				0	0	0										0							0	1					201603	201610	201611	201612						0	HitCase		0		1				0														
-20160901	其他 - 瞄准线	2	0.2				20			4			3						-1					EffectCase1	FxWeaponExChongnengDandao		-1			3	-60	0	10	0	0	0	0										0							1	1														0	HitCase		0		0			1	0														
-20160902	掉落银螺母	2	1				10			4			5		1				-1						FxDrop02		-1			3	-10	0	20	0	0	0	0										3							4	1														1	HitCase		0		0				0														
-20160903	进度条60秒	0	0.1				0			4			61						0					Root	FxJindutiao60s		0			1	0				0	0	0										0							4	1														1	HitCase		0		0				0														
-20160904	击倒对方	2	15				0			4			0.1						-1					Root			-1			1	0				0	0	0										1							0	1				201609041										0	HitCase		0		1				0														
-20160905	滚筒撞人子弹	1	18	7			0			4			0.1						-1					Root			-1			1	0				0	0	0										0							0	1					715304					715305				0	HitCase		0		1				0														
-20160906	炮击表演子弹	2	1				0			4			3						-1						FxHongzha		-1			1					0	0	0										3							0	1														0	HitCase		0		1				0														
-20160907	击飞对方	2	15				0			4			0.1						-1					Root			-1			1	0				0	0	0										1							0	1				201609071										0	HitCase		0		1				0														
-20160908	1秒火焰子弹	2	2				0			4			1						-1	1	FxTongyongFireShouji		0.3	Root	FxScene01201Fire01		-1			1	0				0	0	0										0							0	1					715334									0	HitCase		0		0				0		1												
-20160909	火焰预警取消	2	4				0			4			2						-1					Root	FxScene01201Fire01yujing02		-1			1	0				0	0	0										0							0	1														0	HitCase		0		0				0		1												
-20160910	炮击预警子弹	2	1				0			4			2.5						-1						FxYujing1M15S		-1			1	0				0	0	0										1	1.5		1	20160911			0	1														0	HitCase	1	0		1				0														
-20160911	炮击伤害子弹	2	1				0			4			3						-1						FxHongzha		-1			1					0	0	0										3							0	1					903537	715384								0	HitCase		0		1				0														
-20160912	传送特效子弹	2	4				0			4			2						-1					Root	FxQte2		-1			1	0				0	0	0										3							4	1														1	HitCase		0		0				0		1												
-20160913	万事狙击子弹	1	4	10		5	0			4			3						-1		FxR2WanshiAtk12Hit01				FxR2WanshiAtk12		-1			1					0	0	0										0							4	1		0.35	0.5	201609131	801001	110914								1	HitCase		0		1				0														
-20160914	死亡特效子弹1	2	4				0			4			2						-1					Root	FxDead		-1			1	0				0	0	0										3							4	1														1	HitCase		0		0				0		1												
-20160915	死亡特效子弹2	2	4				0			4			2						-1					Root	FxDeath01		-1			1	0				0	0	0										3							4	1														1	HitCase		0		0				0		1												
-20160916	死亡特效子弹3	2	4				0			4			2						-1					Root	FxDeath01New		-1			1	0				0	0	0										3							4	1														1	HitCase		0		0				0		1												
-20160917	暗黑纯伤害子弹	2	100				0			4			0.3						-1		FxTongyongDarkShouji				FxAnbao		-1			1					0	0	0										0							0	1					742186									1	HitCase		0		1				1														
-20160918	暗黑加伤害子弹	2	100				0			2			0.5						-1								-1			1					0	0	0										0							0	1					742185									0	HitCase		0		1				0														
-20160919	暗黑超级黑洞	2	100				0			4			2						-1	1	FxTongyongDarkShouji		0.4				-1			1					0	0	0										0							0	1					742187									0	HitCase		0		1				0														
-20160920	暗黑纯特效子弹1	2	30				0			4			5						-1						FxAnbao		-1			1					0	0	0										0							0	1														1	HitCase		0		1				1														
-20160921	暗黑纯特效子弹2	2	30				0			4			5						-1						FxAnbao		-1			1					0	0	0										0							0	1														1	HitCase		0		1				1														
-20160922	激光子弹	2	0.5				0			4			0.2						-1		FxTongyongFireShouji						-1			1					0	0	0										0							0	1					742176									0	HitCase		0		1				1														
-20160923	旋转飞出子弹1	2	1				0		120	4			20		1				-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	-90	1	5	10	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1												
-20160924	旋转飞出子弹2	2	1				0		-120	4			20		1				-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	-90	1	5	10	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1												
-20160925	旋转飞出子弹3	2	1				0		0	4			20		1				-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	-90	1	5	10	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1												
-20160926	旋转飞回子弹1	2	1				0		120	4			20						-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	90	-1	10	5	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1												
-20160927	旋转飞回子弹2	2	1				0		-120	4			20						-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	90	-1	10	5	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1												
-20160928	旋转飞回子弹3	2	1				0		0	4			20						-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	90	-1	10	5	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1												
-20160931	掉落红球	2	1				20			4			999		1				-1						FxDropRed		-1			3	-20	0	10	0	0	0	0										3	999		1	20160934	1		4	1														1	HitCase		0		0	0	999	1	0														
-20160932	掉落蓝球	2	1				20			4			999		1				-1						FxDropBlue		-1			3	-20	0	10	0	0	0	0										3	999		1	20160935	1		4	1														1	HitCase		0		0	0	999	1	0														
-20160933	掉落黄球	2	1				20			4			999		1				-1						FxDropYellow		-1			3	-20	0	10	0	0	0	0										3	999		1	20160936	1		4	1														1	HitCase		0		0	0	999	1	0														
-20160934	持续红球	2	5				0	0		3			999		1				1						FxDropRed		1			1	0				0	0	0										2	999		1	20160937	1	1	2	1														0.5	HitCase		0		0	0			0														
-20160935	持续蓝球	2	5				0	0		3			999		1				1						FxDropBlue		1			1	0				0	0	0										2	999		1	20160938	1	1	2	1														0.5	HitCase		0		0	0			0														
-20160936	持续黄球	2	5				0	0		3			999		1				1						FxDropYellow		1			1	0				0	0	0										2	999		1	20160939	1	1	2	1														0.5	HitCase		0		0	0			0														
-20160937	追踪红球	2	0.3				10	0		3		1	10		1				1		FxDropRedBeHit				FxDropRed		1			1	200				0	0	0										2							2	1					710238									0.5	HitCase		0		0	0			0														
-20160938	追踪蓝球	2	0.3				10	0		3		1	10		1				1		FxDropBlueBeHit				FxDropBlue		1			1	200				0	0	0										2							2	1					710239									0.5	HitCase		0		0	0			0														
-20160939	追踪黄球	2	0.3				10	0		3		1	10		1				1		FxDropYellowBeHit				FxDropYellow		1			1	200				0	0	0										2							2	1					710240									0.5	HitCase		0		0	0			0														
-20160940	旋转火球 - 前	2	0.3				0		0	4			6		1				-1	1	FxTongyongFireShouji		0.3		FxGuanQiaBaoLQ		-1			2	-200	1	1	1	0	0	0										1							0	1					742176									0	HitCase		1		1	1			1		1												
-20160941	旋转火球 - 后	2	0.3				0		180	4			6		1				-1	1	FxTongyongFireShouji		0.3		FxGuanQiaBaoLQ		-1			2	-200	1	1	1	0	0	0										1							0	1					742176									0	HitCase		1		1	1			1		1												
-20160942	旋转火球 - 左后	2	0.3				0		-120	4			6		1				-1	1	FxTongyongFireShouji		0.3		FxGuanQiaBaoLQ		-1			2	-200	1	1	1	0	0	0										1							0	1					742176									0	HitCase		1		1	1			1		1												
-20160943	旋转火球 - 右后	2	0.3				0		120	4			6		1				-1	1	FxTongyongFireShouji		0.3		FxGuanQiaBaoLQ		-1			2	-200	1	1	1	0	0	0										1							0	1					742176									0	HitCase		1		1	1			1		1												
-20160944	5米判断	2	5				0	0		2			0.1		1				-1								-1			1	0				0	0	0										0							0	1					715545									0	HitCase		0		0	0			0		1												
-20160945	冰爆	2	15				0			4			0.1						-1		FxTongyongIceShouji			HitCase			-1		FxMe1BioMd004040Attack04	1	0				0	0	0										0							0	1					715557									0	HitCase	1	0		1				0														
-20160946	火焰预警子弹	2	1				0			2			2.5						-1						FxScene01201Fire01yujing01		-1			1	0				0	0	0										1	2.5		1	20160947			0	1														0	HitCase	1	0		1				0														
-20160947	火焰伤害子弹	2	2				0			2			1						-1		FxTongyongFireShouji				FxScene01201Fire01		-1			1					0	0	0										3							0	1					715558	715559								0	HitCase		0		1				1														
-20160948	小方块空子弹	2	1				0			2			1.5						-1								-1			1	0				0	0	0										1	1.5		1	20160949			0	1														0	HitCase	1	0		1				0														
-20160949	小方块伤害子弹	2	2				0			2			0.1						-1		FxTongyongFireShouji						-1			1	0				0	0	0										2							0	2				201609491	715564									0	HitCase		0		1				1		1												
-20160950	8米判断	2	8				0	0		2			0.1		1				-1								-1			1	0				0	0	0										0							0	1					715545									0	HitCase		0		0	0			0		1												
-20160951	纯表现2米预警	2	2				0			1			3.5						-1						FxYujing1M30S		-1			1	0				0	0	0										3							0	1														0	HitCase	1	0		0	0			0		1												
-20160952	丽芙大招子弹	2	1				0			4			3						-1						FxR1LifuAttack51Dandao		-1			1					0	0	0										3							0	1														0	HitCase		0		1				0														
-20160953	火盾旋转火球 - 前	2	0.3				0		0	4			1		1				-1	1	FxTongyongFireShouji		0.3		FxHuoQiu		-1			2	-180	1	4	4	0	0	0										1							0	1					713010									0	HitCase		1		1	1			1														
-20160954	火盾旋转火球 - 后	2	0.3				0		180	4			1		1				-1	1	FxTongyongFireShouji		0.3		FxHuoQiu		-1			2	-180	1	4	4	0	0	0										1							0	1					713010									0	HitCase		1		1	1			1														
-20160955	火盾旋转火球 - 前	2	0.3				0		0	4			9		1				-1	1	FxTongyongFireShouji		0.3		FxHuoQiu		-1			2	-120	1	4	4	0	0	0										1							0	1					713010					713013				0	HitCase		1		1	1			1														
-20160956	火盾旋转火球 - 左后	2	0.3				0		-120	4			9		1				-1	1	FxTongyongFireShouji		0.3		FxHuoQiu		-1			2	-120	1	4	4	0	0	0										1							0	1					713010					713013				0	HitCase		1		1	1			1														
-20160957	火盾旋转火球 - 右后	2	0.3				0		120	4			9		1				-1	1	FxTongyongFireShouji		0.3		FxHuoQiu		-1			2	-120	1	4	4	0	0	0										1							0	1					713010					713013				0	HitCase		1		1	1			1														
-20160958	暗盾伤害子弹	2	8				0			4			0.5						-1		FxTongyongDarkShouji			HitCase	FxYingDunBao		-1			1					0	0	0										0							0	1					713012									0	HitCase		0		1				1														
-20160959	鸽子用根据距离加仇恨子弹	2	100				0			4			0.1						-1					HitCase			-1			1					0	0	0										0							0	1					740746									0	HitCase		0		1	1			0														
-20160960	飞机火球子弹	2	5				50			4			20						1		FxTongyongFireShouji				FxGuanQiaBaoLQ		1			1	50				0	0	0										0							1	1					713010	715673								0	HitCase	1	0		1				0														
-20160961	飞机红色子弹	2	5				20			4			20						1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1	30				0	0	0										0							1	1					713010	715673								0	HitCase	1	0		1				0														
-20160962	飞机红色追踪子弹	2	5				50			4		1	20						1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1	50				0	0	0										0							1	1					713010	715673								0	HitCase	1	0		1				0														
-20160963	死亡大马赛克	2	3				0			4			1.1						-1						FxMb1BraveMd010011Attack0604		-1			1					0	0	0										3							0	1														2	HitCase	1	0		0				0														
-20160964	电击预警子弹0.3	2	1				0			4			0.7						-1						FxYujing1M07S		-1			1	0				0	0	0										3	0.7		1	20160970			4	1														0	HitCase	1	0		1				0														
-20160965	电击预警子弹0.6	2	1				0			4			0.8						-1						FxYujing1M08S		-1			1	0				0	0	0										3	0.8		1	20160970			4	1														0	HitCase	1	0		1				0														
-20160966	电击预警子弹0.9	2	1				0			4			0.9						-1						FxYujing1M09S		-1			1	0				0	0	0										3	0.9		1	20160970			4	1														0	HitCase	1	0		1				0														
-20160967	电击预警子弹1.2	2	1				0			4			1						-1						FxYujing1M10S		-1			1	0				0	0	0										3	1		1	20160970			4	1														0	HitCase	1	0		1				0														
-20160968	电击预警子弹1.5	2	1				0			4			1.1						-1						FxNpcYujing01		-1			1	0				0	0	0										3	1.1		1	20160970			4	1														0	HitCase	1	0		1				0														
-20160969	电击预警子弹1.8	2	1				0			4			1.2						-1						FxNpcYujing01		-1			1	0				0	0	0										3	1.2		1	20160970			4	1														0	HitCase	1	0		1				0														
-20160970	电击伤害子弹	2	1				0			4			0.6						-1		FxTongyongEleShouji				FxTongyongLuolei		-1			1					0	0	0										3							0	1					715718									0	HitCase		0		1				0														
-20160971	战鼓攻击子弹	2	100				0			3			0.3						-1								-1			1					0	0	0										0							0	1					715736	715738								0	HitCase		0		0	0			0		1												
-20160972	战鼓防御子弹	2	100				0			3			0.3						-1								-1			1					0	0	0										0							0	1					715737	715739								0	HitCase		0		0	0			0		1												
-20160973	剑气爆发-第一段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack41Dandao		-1			1	6				0	0	0										3							4	1				201609731	715759	200003	816003			200003				1.2	HitCase		0		0				1														
-20160974	剑气爆发-第二段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack42Dandao		-1			1	6				0	0	0										3							4	1				201609741	715759	995506	200003	816003		200003				1.2	HitCase		0		0				1														
-20160975	剑气爆发-第三段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack43Dandao		-1			1	6				0	0	0										3							4	1				201609751	715759	200003	816003			200003				1.2	HitCase		0		0				1														
-20160976	剑气爆发-第四段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack44Dandao		-1			1	6				0	0	0										3							4	1				201609761	715759	200005	816003			200005				1.2	HitCase	0	0		0				1														
-20160977	地爆天星	2	30				0			4			1						-1		FxMe1BioMd004040Attack02Shouji				FxMe1BioMd004040Attack0201		-1			1	0				0	0	0										3							4	1					700935									0	HitCase	1	0		0	0			0		1												
-20160978	慈航普度	2	30				0			3			1						-1		FxR3LifuAttack21Shouji				FxR3LifuAttack23Dandao		-1			1	0				0	0	0										3							4	1					700101									0.1	HitCase		0		0	0			0		1												
-20160979	群体嘲讽	2	30				0			4			1						-1		FxTongyongDarkShouji				FxAnbao		-1			1	0				0	0	0										3							4	1					700305									0.1	HitCase		0		0	0			0		1												
-20160980	自绝经脉	2	30				0			1			1						-1						FxTongyongLuolei		-1			1	0				0	0	0										3							4	1														0	HitCase		0		0	0			0		1												
-20160981	暂停时间	2	100				0			6			2						-1						FxMb1JiabailieMd000001Attack10Dilie		-1			1	0				0	0	0										3							4	1					715795									0.1	HitCase		0		0	0			0		1												
-20160982	恢复时间	2	100				0			6			2						-1						FxAnbao		-1			1	0				0	0	0										3							4	1					715796									0.1	HitCase		0		0	0			0		1												
-20160983	梦幻特效	2	3				0			4			1.1						-1						FxXuewu		-1			1					0	0	0										3							0	1														0.85	HitCase		0		0				0														
-20160984	哈卡玛音游 - 音游短按特效	1	5	0.1			0			2			1						-1						FxTriggerPointWhiteFang		-1			1	0				0	0	0										3							4	1														0.1	HitCase	1	0		0	0			0														
-20160986	哈卡玛音游 - 音游短按Perfect	1	5	0.1			0		90	2			1						-1						FxSeMusicFeedbuckPerfect		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0														
-20160987	哈卡玛音游 - 音游短按Great	1	5	0.1			0		90	2			1						-1						FxSeMusicFeedbuckGreat		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0														
-20160988	哈卡玛音游 - 音游短按Miss	1	5	0.1			0		90	2			1						-1						FxSeMusicFeedbuckMiss		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0														
-20160991	哈卡玛音游 - 长按消失红	1	5	0.1			0			2			2						-1						FxSeMusicPressRedChixujieshu		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0														
-20160992	哈卡玛音游 - 长按消失蓝	1	5	0.1			0			2			2						-1						FxSeMusicPressBlueChixujieshu		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0														
-20160993	哈卡玛音游 - 长按消失黄左	1	5	0.1			0			2			2						-1						FxSeMusicPressYellowChixuJieshuZuo		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0														
-20160994	哈卡玛音游 - 长按消失黄右	1	5	0.1			0			2			2						-1						FxSeMusicPressYellowChixuJieshuYou		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0														
-20160996	4米判定子弹	2	2				0			4			1.5						-1								-1			1	0				0	0	0										3							4	1										715912				0	HitCase		0		1				0														
-20160997	4米伤害子弹红	2	4				0			4			1.5						-1						FxDWDiscoExplosion01		-1			1	0				0	0	0										3							4	1					715907	715910	715911							0	HitCase		0		1				0														
-20160998	4米伤害子弹蓝	2	4				0			4			1.5						-1						FxDWDiscoExplosion02		-1			1	0				0	0	0										3							4	1					715908									0	HitCase		0		1				0														
-20161001	聚光灯范围子弹	1	12	12			0			6			0.3						-1								-1			1	0				0	0	0										3							4	1					715940	715941								0	HitCase		0		1				0														
-20161002	3米伤害子弹	2	3				0			4			1.5						-1						FxDWDiscoExplosion01		-1			1	0				0	0	0										3							4	1					715959	903538	715960	715961						0	HitCase		0		0	0			0														
-20161003	风区加速子弹1	2	4.5				0			6			0.5						-1								-1			1	0				0	0	0										3							4	1					715963	715964	715965							0	HitCase		0		0	0			0														
-20161004	风区加速子弹2	2	4.5				0			6			0.5						-1								-1			1	0				0	0	0										3							4	1					715966	715967	715968							0	HitCase		0		0	0			0														
-20161005	马车矩形子弹	1	2.5	7		1.5	0			6			0.3						-1								-1			1	0				0	0	0										3							4	1				201610051	715975									0	HitCase		0		0	0			1														
-20161006	火球预警	2	4				0			6			2						-1						FxYujing1M20S		-1			1	0				0	0	0										3	0		1	20161007			4	1														0	HitCase	1	0		0	0			0														
-20161007	火球过程	2	4				0			6			2						-1						FxScene02408HuoqiuL5		-1			1	0				0	0	0										2	2		1	20161008			2	1														10	HitCase	0	0		0	0			0														
-20161008	火球爆炸	2	4				0			6			0.5						-1		FxScene02408Baozha				FxScene02405FireballBoom		-1			1	0				0	0	0										2							2	1				201610081	715980	715979								0	HitCase	0	0		0	0			0														
-20161009	终焉倒计时2米伤害子弹不可超算	2	2.5				0			4			0.2						-1								-1			1	0				0	0	0										3							4	1					715989									0	HitCase		0		0	0			0														
-20161010	终焉倒计时2米伤害子弹可超算	2	2.5				0			4			0.2						-1								-1			1	0				0	0	0										3							4	1					715989									0	HitCase		0		0	0			1														
-20161011	完美作战超级黑洞	2	100				0			4			4						-1	1	FxTongyongDarkShouji		0.2				-1			1					0	0	0										3							4	1					715997									0	HitCase		0		1				0														
-20161012	探照灯范围逻辑子弹	1	12	12			0			2			0.5						-1								-1			1	0				0	0	0										3							4	1					716002									0	HitCase		0		0	0			0														
-20161013	石子	2	0.3				1			4			3		1				1						FxGravel		1			1	0				0	0	0										3							4	1														0	HitCase		0		0	0			0														
-20161014	黑闪特效	2	1				0			4			1		1				-1						FxMb1LuxiyaMd000003Shanbi		-1			1	0				0	0	0										3							4	1														1	HitCase		0		0	0			0														
-20161015	距离互加仇恨5米	2	5				0			4			0.1						-1								-1			1	0				0	0	0										3							4	1					716039	700302								0	HitCase		0		0	0			0														
-20161016	距离互加仇恨10米	2	10				0			4			0.1						-1								-1			1	0				0	0	0										3							4	1					716039	700302								0	HitCase		0		0	0			0														
-20161017	距离互加仇恨15米	2	15				0			4			0.1						-1								-1			1	0				0	0	0										3							4	1					716039	700302								0	HitCase		0		0	0			0														
-20161018	距离互加仇恨20米	2	20				0			4			0.1						-1								-1			1	0				0	0	0										3							4	1					716039	700302								0	HitCase		0		0	0			0														
-20161019	距离互加仇恨100米	2	100				0			4			0.1						-1								-1			1	0				0	0	0										3							4	1					716039	700302								0	HitCase		0		0	0			0														
-20161020	马车矩形子弹	1	2.5	7		1.5	0			6			0.3						-1								-1			1	0				0	0	0										3							4	1				201610201										0	HitCase		0		0	0			1														
-90199801	重构镇暴兵的技能5-盾墙释放	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
-90199901	重构镇暴兵的技能5-盾墙结束	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0														
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType	FollowHeightJoint	BindLauncherFrame	BindSkillFrame	SlopeTargetJoint	IgnoreCollideType
+99210101	剑客拔刀斩-伤害子弹	1	5.5	2.5		1.5	0			4			0.3						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992101011										0	HitCase	1	1		1				1																			
+99210106	剑客拔刀斩-震屏	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0																			
+99210201	剑客连续斩-一段伤害子弹	1	5.5	2.5	0	1.5	0			4			0.1						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992102011										0	HitCase	1	0		1				1																			
+99210202	剑客连续斩-二段伤害子弹	1	5.5	2.5	0	1.5	0			4			0.1						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992102021										0	HitCase	1	0		1				1																			
+99210203	剑客连续斩-三段伤害子弹	1	5.5	2.5	0	1.5	0			4			0.1						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992102031										0	HitCase	1	1		1				1																			
+99210208	剑客连续斩-震屏	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0																			
+99210301	剑客挥劈-伤害子弹	1	3	6	-0.5	0	0			4			0.1						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992103011										0	HitCase	1	0		1				1																			
+99210302	剑客挥劈-震屏	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0																			
+99210401	剑客戳刺-伤害子弹	1	1	6	0	3	0			4			0.27						-1		FxDibingShouji				FxNpcYujing02		-1			1					0	0	0										0							0	1				992104011										0	HitCase	1	0		1				1																			
+99210403	剑客戳刺-震屏	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0																			
+99210501	剑客大招-伤害子弹1	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105011										0	HitCase	1	1		1				1																			
+99210502	剑客大招-伤害子弹2	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105021										0	HitCase	1	1		1				1																			
+99210503	剑客大招-伤害子弹3	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105031										0	HitCase	1	1		1				1																			
+99210504	剑客大招-伤害子弹4	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105041										0	HitCase	1	1		1				1																			
+99210505	剑客大招-伤害子弹5	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105051										0	HitCase	1	1		1				1																			
+99210506	剑客大招-伤害子弹6	2	2.5		0	0	0			4			0.15						-1		FxDibingShouji				FxNpcYujing01		-1			1					0	0	0										0							0	1				992105061										0	HitCase	1	1		1				1																			
+99210507	剑客大招-震屏	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0																			
+97010201	酸液喷射者-Skill-02-戳刺	2	3			4	0			4			0.1						-1		FxMe1SpiderMd000001Shouji						-1			1					0	0	0										0							0	3				970102011	801026	970106								0	HitCase	1	0		1				1																			
+97010202	酸液喷射者-Skill-02-戳刺	2	3			4	0			4			0.1						-1		FxMe1SpiderMd000001Shouji						-1			1					0	0	0										0							0	3				970102021	801026	970106								0	HitCase	1	0		1				1																			
+97010301	酸液喷射者-Skill-03-吐息	2	0.9			3.6	25			4			3		1				1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		1	0.9		3	-20	0	10	1	0	0	0										0	3		1	97010302	1		1	1				970103011	801052	970106								0	HitCase		0		1		9999	1	1																			
+97010302	酸液喷射者-Skill-03-吐息爆炸子子弹	2	2				0			4			1.5						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0.05		1	97010305	1		0	1														0	HitCase	1	0		1			1	0																			
+97010303	酸液喷射者-Skill-03-吐息 预警	2	2				0			4			0.7						-1								-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97010304	酸液喷射者-Skill-03-吐息 预警	2	2				0			4			1.5						-1						FxYujing1M05S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97010305	酸液喷射者-Skill-03-吐息 持续毒液	2	1.5				0			4			4						-1	1			0.3		FxMe1SpiderMd000001Attack0304		-1			1	0				0	0	0										2							0	1					801007									0	HitCase	1	0		1				0																			
+97010401	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97010406	1		1	1														0	HitCase	1	0		1		9999	1	1																			
+97010402	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97010407	1		1	1														0	HitCase	1	0		1		9999	1	1																			
+97010403	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97010408	1		1	1														0	HitCase	1	0		1		9999	1	1																			
+97010404	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97010409	1		1	1														0	HitCase	1	0		1		9999	1	1																			
+97010405	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97010410	1		1	1														0	HitCase	1	0		1		9999	1	1																			
+97010406	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97010411	1		0	1														0	HitCase	1	0		1			1	0																			
+97010407	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97010412	1		0	1														0	HitCase	1	0		1			1	0																			
+97010408	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97010413	1		0	1														0	HitCase	1	0		1			1	0																			
+97010409	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97010414	1		0	1														0	HitCase	1	0		1			1	0																			
+97010410	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97010415	1		0	1														0	HitCase	1	0		1			1	0																			
+97010411	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970104111	801022	970107								0	HitCase		0		1				0																			
+97010412	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970104121	801022	970107								0	HitCase		0		1				0																			
+97010413	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970104131	801022	970107								0	HitCase		0		1				0																			
+97010414	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970104141	801022	970107								0	HitCase		0		1				0																			
+97010415	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970104151	801022	970107								0	HitCase		0		1				0																			
+97010417	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97010418	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97010419	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97010420	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97010421	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97010501	酸液喷射者-Skill-05-漏酸	2	4			-2	0			4			7						-1	1			0.2				-1			1					0	0	0										0							0	1					801005									0	HitCase	1	0		0				1																			
+97010502	酸液喷射者-Skill-05-漏酸	2	4			-2	0			4			7						-1						FxMe1SpiderMd000001Attack0502		-1			1					0	0	0										0							0	1					801005									0	HitCase		0		0				1																			
+97011001	转身-1	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0																			
+97020201	酸液喷射者-Skill-02-戳刺	2	3			4	0			4			0.1						-1		FxMe1SpiderMd000001Shouji						-1			1					0	0	0										0							0	3				970202011	801026	970106								0	HitCase	1	0		1				1																			
+97020202	酸液喷射者-Skill-02-戳刺	2	3			4	0			4			0.1						-1		FxMe1SpiderMd000001Shouji						-1			1					0	0	0										0							0	3				970202021	801026	970106								0	HitCase	1	0		1				1																			
+97020301	酸液喷射者-Skill-03-吐息	2	0.9			3.6	25			4			3		1				1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		1	0.9		3	-20	0	10	1	0	0	0										0	3		1	97010302	1		1	1				970203011	801052	970106								0	HitCase		0		1		9999	1	1																			
+97020302	酸液喷射者-Skill-03-吐息爆炸子子弹	2	2				0			4			1.5						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0.05		1	97010305	1		0	1														0	HitCase	1	0		1			1	0																			
+97020303	酸液喷射者-Skill-03-吐息 预警	2	2				0			4			1.5						-1								-1			1	0				0	0	0										1							0	1														0	HitCase	1	1		1				0																			
+97020304	酸液喷射者-Skill-03-吐息 预警	2	2				0			4			1.5						-1						FxYujing1M05S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97020305	酸液喷射者-Skill-03-吐息 持续毒液	2	1.5				0			4			4						-1	1			0.3		FxMe1SpiderMd000001Attack0304		-1			1	0				0	0	0										2							0	1					801007									0	HitCase	1	0		1				0																			
+97020401	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97020406	1		1	1														0	HitCase	1	0		1		9999	1	1																			
+97020402	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97020407	1		1	1														0	HitCase	1	0		1		9999	1	1																			
+97020403	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97020408	1		1	1														0	HitCase	1	0		1		9999	1	1																			
+97020404	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97020409	1		1	1														0	HitCase	1	0		1		9999	1	1																			
+97020405	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1			3	-20	0	10	1	0	0	0										0	3		1	97020410	1		1	1														0	HitCase	1	0		1		9999	1	1																			
+97020406	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97020411	1		0	1														0	HitCase	1	0		1			1	0																			
+97020407	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97020412	1		0	1														0	HitCase	1	0		1			1	0																			
+97020408	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97020413	1		0	1														0	HitCase	1	0		1			1	0																			
+97020409	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97020414	1		0	1														0	HitCase	1	0		1			1	0																			
+97020410	酸液喷射者-Skill-04-轰炸	2	1				0			4			1						-1						FxMe1SpiderMd000001Attack0303		-1			1					0	0	0										2	0		1	97020415	1		0	1														0	HitCase	1	0		1			1	0																			
+97020411	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970204111	801022	970107								0	HitCase		0		1				0																			
+97020412	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970204121	801022	970107								0	HitCase		0		1				0																			
+97020413	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970204131	801022	970107								0	HitCase		0		1				0																			
+97020414	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970204141	801022	970107								0	HitCase		0		1				0																			
+97020415	酸液喷射者-Skill-04-轰炸	2	1				0			4			0.1						-1								-1			1					0	0	0										2							0	1				970204151	801022	970107								0	HitCase		0		1				0																			
+97020417	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97020418	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97020419	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97020420	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97020421	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			1.5						-1						FxYujing1M10S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+97020501	酸液喷射者-Skill-05-漏酸	2	4			-2	0			4			7						-1	1			0.2				-1			1					0	0	0										0							0	1					801005									0	HitCase	1	0		0				1																			
+97020502	酸液喷射者-Skill-05-漏酸	2	4				0			4			7						-1						FxMe1SpiderMd000001Attack0502		-1			1					0	0	0										0							0	1					801007									0	HitCase		0		0				1																			
+97021001	转身-1	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0																			
+99220201	酸液喷射者-Skill-02-戳刺	1	3	8		4	0			4			0.1						-1		FxMe1SpiderMd000001Shouji				FxNpcYujing02		-1			1					0	0	0										0							0	1					701031									0	HitCase	1	0		1				1																			
+99220301	酸液喷射者-Skill-03-喷泉-预警	2	1.2				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3							4	1														0	HitCase	1	0		1				0																			
+99220302	酸液喷射者-Skill-03-喷泉-实弹	2	1.2				10			4			3		1				-1	1	FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1.2	FxMe1SpiderMd000001Attack04	3	-25	0	10	0	0	0	0										3							4	1					701031									0	HitCase	1	0		1		9999	1	1																			
+99220401	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1	FxMe1SpiderMd000001Attack04	3	-20	0	10	0	0	0	0										0							1	1					701031									0	HitCase		0		1		9999	1	1																			
+99220402	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1	FxMe1SpiderMd000001Attack04	3	-20	0	10	0	0	0	0										0							1	1					701031									0	HitCase		0		1		9999	1	1																			
+99220403	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1	FxMe1SpiderMd000001Attack04	3	-20	0	10	0	0	0	0										0							1	1					701031									0	HitCase		0		1		9999	1	1																			
+99220404	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1	FxMe1SpiderMd000001Attack04	3	-20	0	10	0	0	0	0										0							1	1					701031									0	HitCase		0		1		9999	1	1																			
+99220405	酸液喷射者-Skill-04-轰炸	2	1				10			4			3		1				-1		FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1	FxMe1SpiderMd000001Attack04	3	-20	0	10	0	0	0	0										0							1	1					701031									0	HitCase		0		1		9999	1	1																			
+99220407	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			0.5						-1						FxNpcYujing01		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+99220408	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			0.5						-1						FxNpcYujing01		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+99220409	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			0.5						-1						FxNpcYujing01		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+99220410	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			0.5						-1						FxNpcYujing01		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+99220411	酸液喷射者-Skill-04-轰炸 预警	2	1				0			4			0.5						-1						FxNpcYujing01		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+99220501	酸液喷射者-Skill-05-漏酸	2	4			-2	0			4			7						-1	1			0.3				-1			1					0	0	0										0							0	1					701031									0	HitCase	1	0		0				1																			
+99220502	酸液喷射者-Skill-05-漏酸	2	4			-2	0			4			7						-1						FxMe1SpiderMd000001Attack0503		-1			1					0	0	0										0							0	1					701031									0	HitCase		0		0				1																			
+99221001	酸液喷射者-Skill-06-直线-预警	2	1.5				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3							4	1														0	HitCase	1	0		1				0																			
+99221002	酸液喷射者-Skill-06-直线-实弹	2	1.5				10			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			EffectCase1	FxMe1SpiderMd000001Attack03Dandao		-1	1.5	FxMe1SpiderMd000001Attack04	3	20	0	10	0	0	0	0										3	5000		1	99221005	1		4	1					701031									0	HitCase	1	0		1		9999	1	1																			
+99221005	酸液喷射者-Skill-06-直线-毒圈实际	2	1.5				0			4			2.5						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221006			0	1					701031									0	HitCase	1	0		1				0																			
+99221006	酸液喷射者-Skill-06-直线-毒圈特效	2	1				0			4			2.5						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0																			
+99221101	酸液喷射者-Skill-07-爱心3-预警	2	1				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3							4	1														0	HitCase	1	0		1				0																			
+99221102	酸液喷射者-Skill-07-爱心3-实弹	2	1				5			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			Bone22	FxMe1SpiderMd000001Attack03Dandao		0	2	FxMe1SpiderMd000001Attack04	3	-100	0	10	0	0	0	0										3	0.5		1	99221103	1		4	1														0	HitCase	1	0		1		9999	1	1																			
+99221103	酸液喷射者-Skill-07-爱心3-毒圈	2	2				0			4			2.1						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221104			0	1					701031									0	HitCase	1	0		1				0																			
+99221104	酸液喷射者-Skill-07-爱心3-毒圈特效	2	1				0			4			2.5						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0																			
+99221201	酸液喷射者-Skill-08-爱心4-预警	2	2				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3	0.5		1	99221203	1		4	1														0	HitCase	1	0		1				0																			
+99221202	酸液喷射者-Skill-08-爱心4-实弹	2	2				5			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			Bone22	FxMe1SpiderMd000001Attack03Dandao		0	2	FxMe1SpiderMd000001Attack04	3	-100	0	10	0	0	0	0										3							4	1														0	HitCase	1	0		1		9999	1	1																			
+99221203	酸液喷射者-Skill-08-爱心4-毒圈	2	2				0			4			2.1						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221204			0	1					701031									0	HitCase	1	0		1				0																			
+99221204	酸液喷射者-Skill-08-爱心4-毒圈特效	2	1				0			4			2.1						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0																			
+99221301	酸液喷射者-Skill-09-爱心5-预警	2	2				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3	0.5		1	99221303	1		4	1														0	HitCase	1	0		1				0																			
+99221302	酸液喷射者-Skill-09-爱心5-实弹	2	2				5			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			Bone22	FxMe1SpiderMd000001Attack03Dandao		0	2	FxMe1SpiderMd000001Attack04	3	-100	0	10	0	0	0	0										3							4	1														0	HitCase	1	0		1		9999	1	1																			
+99221303	酸液喷射者-Skill-09-爱心5-毒圈	2	2				0			4			2.1						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221304			0	1					701031									0	HitCase	1	0		1				0																			
+99221304	酸液喷射者-Skill-09-爱心5-毒圈特效	2	1				0			4			2.1						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0																			
+99221401	酸液喷射者-Skill-10-爱心6-预警	2	2				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3	0.5		1	99221403	1		4	1														0	HitCase	1	0		1				0																			
+99221402	酸液喷射者-Skill-10-爱心6-实弹	2	2				5			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			Bone22	FxMe1SpiderMd000001Attack03Dandao		0	2	FxMe1SpiderMd000001Attack04	3	-100	0	10	0	0	0	0										3							4	1														0	HitCase	1	0		1		9999	1	1																			
+99221403	酸液喷射者-Skill-10-爱心6-毒圈	2	2				0			4			2.1						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221404			0	1					701031									0	HitCase	1	0		1				0																			
+99221404	酸液喷射者-Skill-10-爱心6-毒圈特效	2	1				0			4			2.1						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0																			
+99221501	酸液喷射者-Skill-11-爱心7-预警	2	2				0			4			1						-1						FxNpcYujing01		-1			1	0				0	0	0										3	0.5		1	99221503	1		4	1														0	HitCase	1	0		1				0																			
+99221502	酸液喷射者-Skill-11-爱心7-实弹	2	2				5			4			10		1				-1	1	FxMe1SpiderMd000001Shouji			Bone22	FxMe1SpiderMd000001Attack03Dandao		0	2	FxMe1SpiderMd000001Attack04	3	-100	0	10	0	0	0	0										3							4	1														0	HitCase	1	0		1		9999	1	1																			
+99221503	酸液喷射者-Skill-11-爱心7-毒圈	2	2				0			4			2.1						-1	1			0.3				-1			1	0				0	0	0										2	0		1	99221504			0	1					701031									0	HitCase	1	0		1				0																			
+99221504	酸液喷射者-Skill-11-爱心7-毒圈特效	2	1				0			4			2.1						-1						FxMe1SpiderMd000001Attack0503		-1			1	0				0	0	0										2							0	1														0	HitCase	1	0		1				0																			
+99230101	重构镇暴兵盾猛-伤害子弹	3	3	210		1	0			4			0.1						-1		FxDibingShouji						-1			1					0	0	0										0							0	1				992301011		700279								0	HitCase	1	0		1				1																			
+99230201	重构镇暴兵横扫-伤害子弹	3	3	210		1	0			4			0.1						-1		FxDibingShouji						-1			1					0	0	0										0							0	1				992302011										0	HitCase	1	0		1				1																			
+99230401	重构镇暴兵-冲锋	1	2	2		1.5	0			4			2						-1		FxDibingShouji						-1			1					0	0	0										0							0	1				992304011		700281								0	HitCase	1	1		1				0																			
+99230402	重构镇暴兵-预警	1	2	20		6	0			4			2						-1						FxNpcYujing02		-1			1					0	0	0										0							0	1														0	HitCase	1	0		1				0																			
+90350101	铁罐（实验级）-普攻-红茶-伤害	1	3	3		1.5	0			4			0.1						-1		FxMe1BioMd004040Attack06Shouji						-1			1					0	0	0										0							0	1				903501011	903512	903524								0	HitCase	1	0		1				1																			
+90350104	铁罐（实验级）-普攻-红茶-范围	1	3	3		1.5	0			4			0.5						-1								-1	3		1	0				0	0	0										0							0	1														0	HitCase	1	0		0				0																			
+90350105	铁罐（实验级）-普攻-红茶-特效	2	0.1			3	0			4			1.5						-1						FxMe1BioMd004040Attack05a		-1			1					0	0	0										0							0	1														0	HitCase		0		1				1																			
+90350603	铁罐（实验级）-摇摇乐-技红-预警	2	4				0			4			2						-1						FxYujing1M05S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+90350604	铁罐（实验级）-摇摇乐-技红-飞桶	2	0.1				10			4			5		1				-1		FxMe1BioMd004040Attack02Shouji			Me1BioMd004040Part	FxMe1BioMd004040Attack02Dandao		-1	2	FxMe1BioMd004040Attack0201	3	-50	0	10	0	0	0	0										0	5000		1	90350605	1		1	1				903506041	903513	903510	903521							0	HitCase		0		0			1	1																			
+90350605	铁罐（实验级）-摇摇乐-技红-圆火	2	4				0			4			25						-1	1	FxMe1BioMd004040Attack02Shouji		0.8		FxMe1BioMd004040Attack0202		-1			1	0				0	0	0										2							0	1					903514									0	HitCase		0		0				1																			
+90350703	铁罐（实验级）-摇摇乐-技黄-预警	1	3	25		12.5	0			4			1	0.5					-1						FxYujingJu01		-1			1	0				0	0	0										0							0	1														0	HitCase	1	0		1				0																			
+90350704	铁罐（实验级）-摇摇乐-技黄-飞桶	1	3	1			20			4			1		1				-1	1	FxMe1BioMd004040Attack03Shouji			Me1BioMd004040Part			-1	2		1	0				0	0	0										0	5000		1	90350705	1		0	1				903507041	903515	903510	903522							0	HitCase		0		1				1																			
+90350705	铁罐（实验级）-摇摇乐-技黄-线火伤害	1	3	25		13.5	0			4			25						-1	1	FxMe1BioMd004040Attack03Shouji		0.8				-1			1	0				0	0	0										0							2	1					903516									0	HitCase		0		0				1																			
+90350706	铁罐（实验级）-摇摇乐-技黄-线火特效	1	3	25			0			4			25						-1						FxMe1BioMd004040Attack03		-1			1	0				0	0	0										0							0	1														0	HitCase		0		0				0																			
+90350804	铁罐（实验级）-摇摇乐-技蓝-爆炸	2	15				0			4			0.1						-1		FxMe1BioMd004040Attack04Shouji			Me1BioMd004040Part			-1			1	0				0	0	0										0							0	1				903508041	903517	903518	903510							0	HitCase	1	0		1				1																			
+90350805	铁罐（实验级）-摇摇乐-技蓝-爆炸特效	2	15				0			4			0		1				-1								-1		FxMe1BioMd004040Attack04	1	0				0	0	0										0							0	1														0	HitCase		0		1				0																			
+90350808	铁罐（实验级）-摇摇乐-技蓝-范围预警	2	15				0			4			1.5						-1					Me1BioMd004040Part	FxYujing1M06S		-1			1	0				0	0	0										0							0	1														0	HitCase	1	0		1				0																			
+90350902	铁罐（实验级）-空手-炮台-子弹1	1	1.5	40		0.5	0		22	4			3.8						-1	1	FxMe1BioMd004040Attack07Shouji		0.3				-1			2	-90	0	0	0	0	0	0										0							0	1					903519	903510								0	HitCase	1	0		1				1																			
+90350903	铁罐（实验级）-空手-炮台-子弹2	1	1.5	40		0.5	0		-68	4			3.8						-1	1	FxMe1BioMd004040Attack07Shouji		0.3				-1			2	-90	0	0	0	0	0	0										0							0	1					903520	903510								0	HitCase	1	0		1				1																			
+90350904	铁罐（实验级）-空手-炮台-预警1	1	1.5	40		0.5	0		22	4			1.3						-1								-1			2	0	0	0	0	0	0	0										0							0	1														0	HitCase	1	0		0				0																			
+90350905	铁罐（实验级）-空手-炮台-预警2	1	1.5	40		0.5	0		-68	4			1.3						-1								-1			2	0	0	0	0	0	0	0										0							0	1														0	HitCase	1	0		0				0																			
+90350906	铁罐（实验级）-空手-炮台-范围1	1	1.5	40		0.5	0		22	4			3.8						-1								-1			2	-90	0	0	0	0	0	0										0							0	1														0	HitCase	1	0		1				0																			
+90350907	铁罐（实验级）-空手-炮台-范围2	1	1.5	40		0.5	0		-68	4			3.8						-1								-1			2	-90	0	0	0	0	0	0										0							0	1														0	HitCase	1	0		1				0																			
+90351101	铁罐（实验级）-普攻-空手-伤害	1	3	3		1.5	0			4			0.1						-1		FxMe1BioMd004040Attack06Shouji						-1			1					0	0	0										0							0	1				903511011	903512	903524								0	HitCase	1	0		1				1																			
+90351104	铁罐（实验级）-普攻-空手-范围	1	3	3		1.5	0			4			0.5						-1								-1	3		1	0				0	0	0										0							0	1														0	HitCase	1	0		0				0																			
+90351105	铁罐（实验级）-普攻-空手-特效	2	0.1			3	0			4			1.5						-1						FxMe1BioMd004040Attack05		-1			1					0	0	0										0							0	1														0	HitCase		0		1				1																			
+90351301	铁罐（实验级）-特殊-小自爆-预警	2	2			0	0			4			1.8						-1								-1			1	0				0	0	0										0							0	1														0	HitCase	1	0		1				0																			
+90351302	铁罐（实验级）-特殊-小自爆-伤害	2	0.1			0	0			4			0.1		1				-1								-1	2	FxMe1BioMd004040Attack0201	1	0				0	0	0										0							0	1					903537									0	HitCase		0		1				0																			
+90352003	铁罐（实验级）-摇摇乐-技红-预警	2	4				0			4			2						-1						FxYujing1M05S		-1			1	0				0	0	0										1							0	1														0	HitCase	1	0		1				0																			
+90352004	铁罐（实验级）-摇摇乐-技红-飞桶	2	0.1				30			4			7		1				-1		FxMe1BioMd004040Attack02Shouji			Me1BioMd004040Part	FxMe1BioMd004040Attack02Dandao		-1	2	FxMe1BioMd004040Attack0201	3	-50	0	10	0	0	0	0										0							1	1				903520041	903513	903510	903521							0	HitCase		0		0			1	1																			
+20080101	新空气墙-空气墙碰撞-1	1	10	2	0	0	0			6			0.1		0				-1								-1			1	0				0	0	0										0							0	1										715036				0	HitCase		0		1				0																			
+20160401	电网 - 放电-1	2	8				0			4			1.2		0				-1								-1	0		1	0				0	0	0										0							0	1					201603	201610	201611	201612						0	HitCase		0		1				0																			
+20160901	其他 - 瞄准线	2	0.2				20			4			3						-1					EffectCase1	FxWeaponExChongnengDandao		-1			3	-60	0	10	0	0	0	0										0							1	1														0	HitCase		0		0			1	0																			
+20160902	掉落银螺母	2	1				10			4			5		1				-1						FxDrop02		-1			3	-10	0	20	0	0	0	0										3							4	1														1	HitCase		0		0				0																			
+20160903	进度条60秒	0	0.1				0			4			61						0					Root	FxJindutiao60s		0			1	0				0	0	0										0							4	1														1	HitCase		0		0				0																			
+20160904	击倒对方	2	15				0			4			0.1						-1					Root			-1			1	0				0	0	0										1							0	1				201609041										0	HitCase		0		1				0																			
+20160905	滚筒撞人子弹	1	18	7			0			4			0.1						-1					Root			-1			1	0				0	0	0										0							0	1					715304					715305				0	HitCase		0		1				0																			
+20160906	炮击表演子弹	2	1				0			4			3						-1						FxHongzha		-1			1					0	0	0										3							0	1														0	HitCase		0		1				0																			
+20160907	击飞对方	2	15				0			4			0.1						-1					Root			-1			1	0				0	0	0										1							0	1				201609071										0	HitCase		0		1				0																			
+20160908	1秒火焰子弹	2	2				0			4			1						-1	1	FxTongyongFireShouji		0.3	Root	FxScene01201Fire01		-1			1	0				0	0	0										0							0	1					715334									0	HitCase		0		0				0		1																	
+20160909	火焰预警取消	2	4				0			4			2						-1					Root	FxScene01201Fire01yujing02		-1			1	0				0	0	0										0							0	1														0	HitCase		0		0				0		1																	
+20160910	炮击预警子弹	2	1				0			4			2.5						-1						FxYujing1M15S		-1			1	0				0	0	0										1	1.5		1	20160911			0	1														0	HitCase	1	0		1				0																			
+20160911	炮击伤害子弹	2	1				0			4			3						-1						FxHongzha		-1			1					0	0	0										3							0	1					903537	715384								0	HitCase		0		1				0																			
+20160912	传送特效子弹	2	4				0			4			2						-1					Root	FxQte2		-1			1	0				0	0	0										3							4	1														1	HitCase		0		0				0		1																	
+20160913	万事狙击子弹	1	4	10		5	0			4			3						-1		FxR2WanshiAtk12Hit01				FxR2WanshiAtk12		-1			1					0	0	0										0							4	1		0.35	0.5	201609131	801001	110914								1	HitCase		0		1				0																			
+20160914	死亡特效子弹1	2	4				0			4			2						-1					Root	FxDead		-1			1	0				0	0	0										3							4	1														1	HitCase		0		0				0		1																	
+20160915	死亡特效子弹2	2	4				0			4			2						-1					Root	FxDeath01		-1			1	0				0	0	0										3							4	1														1	HitCase		0		0				0		1																	
+20160916	死亡特效子弹3	2	4				0			4			2						-1					Root	FxDeath01New		-1			1	0				0	0	0										3							4	1														1	HitCase		0		0				0		1																	
+20160917	暗黑纯伤害子弹	2	100				0			4			0.3						-1		FxTongyongDarkShouji				FxAnbao		-1			1					0	0	0										0							0	1					742186									1	HitCase		0		1				1																			
+20160918	暗黑加伤害子弹	2	100				0			2			0.5						-1								-1			1					0	0	0										0							0	1					742185									0	HitCase		0		1				0																			
+20160919	暗黑超级黑洞	2	100				0			4			2						-1	1	FxTongyongDarkShouji		0.4				-1			1					0	0	0										0							0	1					742187									0	HitCase		0		1				0																			
+20160920	暗黑纯特效子弹1	2	30				0			4			5						-1						FxAnbao		-1			1					0	0	0										0							0	1														1	HitCase		0		1				1																			
+20160921	暗黑纯特效子弹2	2	30				0			4			5						-1						FxAnbao		-1			1					0	0	0										0							0	1														1	HitCase		0		1				1																			
+20160922	激光子弹	2	0.5				0			4			0.2						-1		FxTongyongFireShouji						-1			1					0	0	0										0							0	1					742176									0	HitCase		0		1				1																			
+20160923	旋转飞出子弹1	2	1				0		120	4			20		1				-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	-90	1	5	10	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1																	
+20160924	旋转飞出子弹2	2	1				0		-120	4			20		1				-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	-90	1	5	10	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1																	
+20160925	旋转飞出子弹3	2	1				0		0	4			20		1				-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	-90	1	5	10	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1																	
+20160926	旋转飞回子弹1	2	1				0		120	4			20						-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	90	-1	10	5	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1																	
+20160927	旋转飞回子弹2	2	1				0		-120	4			20						-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	90	-1	10	5	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1																	
+20160928	旋转飞回子弹3	2	1				0		0	4			20						-1	1	FxTongyongFireShouji		0.4		FxGuanQiaBaoLQ		-1			2	90	-1	10	5	0	0	0										1							0	1					742176									0	HitCase	1	1		1	1			1		1																	
+20160931	掉落红球	2	1				20			4			999		1				-1						FxDropRed		-1			3	-20	0	10	0	0	0	0										3	999		1	20160934	1		4	1														1	HitCase		0		0	0	999	1	0																			
+20160932	掉落蓝球	2	1				20			4			999		1				-1						FxDropBlue		-1			3	-20	0	10	0	0	0	0										3	999		1	20160935	1		4	1														1	HitCase		0		0	0	999	1	0																			
+20160933	掉落黄球	2	1				20			4			999		1				-1						FxDropYellow		-1			3	-20	0	10	0	0	0	0										3	999		1	20160936	1		4	1														1	HitCase		0		0	0	999	1	0																			
+20160934	持续红球	2	5				0	0		3			999		1				1						FxDropRed		1			1	0				0	0	0										2	999		1	20160937	1	1	2	1														0.5	HitCase		0		0	0			0																			
+20160935	持续蓝球	2	5				0	0		3			999		1				1						FxDropBlue		1			1	0				0	0	0										2	999		1	20160938	1	1	2	1														0.5	HitCase		0		0	0			0																			
+20160936	持续黄球	2	5				0	0		3			999		1				1						FxDropYellow		1			1	0				0	0	0										2	999		1	20160939	1	1	2	1														0.5	HitCase		0		0	0			0																			
+20160937	追踪红球	2	0.3				10	0		3		1	10		1				1		FxDropRedBeHit				FxDropRed		1			1	200				0	0	0										2							2	1					710238									0.5	HitCase		0		0	0			0																			
+20160938	追踪蓝球	2	0.3				10	0		3		1	10		1				1		FxDropBlueBeHit				FxDropBlue		1			1	200				0	0	0										2							2	1					710239									0.5	HitCase		0		0	0			0																			
+20160939	追踪黄球	2	0.3				10	0		3		1	10		1				1		FxDropYellowBeHit				FxDropYellow		1			1	200				0	0	0										2							2	1					710240									0.5	HitCase		0		0	0			0																			
+20160940	旋转火球 - 前	2	0.3				0		0	4			6		1				-1	1	FxTongyongFireShouji		0.3		FxGuanQiaBaoLQ		-1			2	-200	1	1	1	0	0	0										1							0	1					742176									0	HitCase		1		1	1			1		1																	
+20160941	旋转火球 - 后	2	0.3				0		180	4			6		1				-1	1	FxTongyongFireShouji		0.3		FxGuanQiaBaoLQ		-1			2	-200	1	1	1	0	0	0										1							0	1					742176									0	HitCase		1		1	1			1		1																	
+20160942	旋转火球 - 左后	2	0.3				0		-120	4			6		1				-1	1	FxTongyongFireShouji		0.3		FxGuanQiaBaoLQ		-1			2	-200	1	1	1	0	0	0										1							0	1					742176									0	HitCase		1		1	1			1		1																	
+20160943	旋转火球 - 右后	2	0.3				0		120	4			6		1				-1	1	FxTongyongFireShouji		0.3		FxGuanQiaBaoLQ		-1			2	-200	1	1	1	0	0	0										1							0	1					742176									0	HitCase		1		1	1			1		1																	
+20160944	5米判断	2	5				0	0		2			0.1		1				-1								-1			1	0				0	0	0										0							0	1					715545									0	HitCase		0		0	0			0		1																	
+20160945	冰爆	2	15				0			4			0.1						-1		FxTongyongIceShouji			HitCase			-1		FxMe1BioMd004040Attack04	1	0				0	0	0										0							0	1					715557									0	HitCase	1	0		1				0																			
+20160946	火焰预警子弹	2	1				0			2			2.5						-1						FxScene01201Fire01yujing01		-1			1	0				0	0	0										1	2.5		1	20160947			0	1														0	HitCase	1	0		1				0																			
+20160947	火焰伤害子弹	2	2				0			2			1						-1		FxTongyongFireShouji				FxScene01201Fire01		-1			1					0	0	0										3							0	1					715558	715559								0	HitCase		0		1				1																			
+20160948	小方块空子弹	2	1				0			2			1.5						-1								-1			1	0				0	0	0										1	1.5		1	20160949			0	1														0	HitCase	1	0		1				0																			
+20160949	小方块伤害子弹	2	2				0			2			0.1						-1		FxTongyongFireShouji						-1			1	0				0	0	0										2							0	2				201609491	715564									0	HitCase		0		1				1		1																	
+20160950	8米判断	2	8				0	0		2			0.1		1				-1								-1			1	0				0	0	0										0							0	1					715545									0	HitCase		0		0	0			0		1																	
+20160951	纯表现2米预警	2	2				0			1			3.5						-1						FxYujing1M30S		-1			1	0				0	0	0										3							0	1														0	HitCase	1	0		0	0			0		1																	
+20160952	丽芙大招子弹	2	1				0			4			3						-1						FxR1LifuAttack51Dandao		-1			1					0	0	0										3							0	1														0	HitCase		0		1				0																			
+20160953	火盾旋转火球 - 前	2	0.3				0		0	4			1		1				-1	1	FxTongyongFireShouji		0.3		FxHuoQiu		-1			2	-180	1	4	4	0	0	0										1							0	1					713010									0	HitCase		1		1	1			1																			
+20160954	火盾旋转火球 - 后	2	0.3				0		180	4			1		1				-1	1	FxTongyongFireShouji		0.3		FxHuoQiu		-1			2	-180	1	4	4	0	0	0										1							0	1					713010									0	HitCase		1		1	1			1																			
+20160955	火盾旋转火球 - 前	2	0.3				0		0	4			9		1				-1	1	FxTongyongFireShouji		0.3		FxHuoQiu		-1			2	-120	1	4	4	0	0	0										1							0	1					713010					713013				0	HitCase		1		1	1			1																			
+20160956	火盾旋转火球 - 左后	2	0.3				0		-120	4			9		1				-1	1	FxTongyongFireShouji		0.3		FxHuoQiu		-1			2	-120	1	4	4	0	0	0										1							0	1					713010					713013				0	HitCase		1		1	1			1																			
+20160957	火盾旋转火球 - 右后	2	0.3				0		120	4			9		1				-1	1	FxTongyongFireShouji		0.3		FxHuoQiu		-1			2	-120	1	4	4	0	0	0										1							0	1					713010					713013				0	HitCase		1		1	1			1																			
+20160958	暗盾伤害子弹	2	8				0			4			0.5						-1		FxTongyongDarkShouji			HitCase	FxYingDunBao		-1			1					0	0	0										0							0	1					713012									0	HitCase		0		1				1																			
+20160959	鸽子用根据距离加仇恨子弹	2	100				0			4			0.1						-1					HitCase			-1			1					0	0	0										0							0	1					740746									0	HitCase		0		1	1			0																			
+20160960	飞机火球子弹	2	5				50			4			20						1		FxTongyongFireShouji				FxGuanQiaBaoLQ		1			1	50				0	0	0										0							1	1					713010	715673								0	HitCase	1	0		1				0																			
+20160961	飞机红色子弹	2	5				20			4			20						1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1	30				0	0	0										0							1	1					713010	715673								0	HitCase	1	0		1				0																			
+20160962	飞机红色追踪子弹	2	5				50			4		1	20						1		FxMeFeijiAttack02Shouji				FxMeFeijiAttack02		1			1	50				0	0	0										0							1	1					713010	715673								0	HitCase	1	0		1				0																			
+20160963	死亡大马赛克	2	3				0			4			1.1						-1						FxMb1BraveMd010011Attack0604		-1			1					0	0	0										3							0	1														2	HitCase	1	0		0				0																			
+20160964	电击预警子弹0.3	2	1				0			4			0.7						-1						FxYujing1M07S		-1			1	0				0	0	0										3	0.7		1	20160970			4	1														0	HitCase	1	0		1				0																			
+20160965	电击预警子弹0.6	2	1				0			4			0.8						-1						FxYujing1M08S		-1			1	0				0	0	0										3	0.8		1	20160970			4	1														0	HitCase	1	0		1				0																			
+20160966	电击预警子弹0.9	2	1				0			4			0.9						-1						FxYujing1M09S		-1			1	0				0	0	0										3	0.9		1	20160970			4	1														0	HitCase	1	0		1				0																			
+20160967	电击预警子弹1.2	2	1				0			4			1						-1						FxYujing1M10S		-1			1	0				0	0	0										3	1		1	20160970			4	1														0	HitCase	1	0		1				0																			
+20160968	电击预警子弹1.5	2	1				0			4			1.1						-1						FxNpcYujing01		-1			1	0				0	0	0										3	1.1		1	20160970			4	1														0	HitCase	1	0		1				0																			
+20160969	电击预警子弹1.8	2	1				0			4			1.2						-1						FxNpcYujing01		-1			1	0				0	0	0										3	1.2		1	20160970			4	1														0	HitCase	1	0		1				0																			
+20160970	电击伤害子弹	2	1				0			4			0.6						-1		FxTongyongEleShouji				FxTongyongLuolei		-1			1					0	0	0										3							0	1					715718									0	HitCase		0		1				0																			
+20160971	战鼓攻击子弹	2	100				0			3			0.3						-1								-1			1					0	0	0										0							0	1					715736	715738								0	HitCase		0		0	0			0		1																	
+20160972	战鼓防御子弹	2	100				0			3			0.3						-1								-1			1					0	0	0										0							0	1					715737	715739								0	HitCase		0		0	0			0		1																	
+20160973	剑气爆发-第一段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack41Dandao		-1			1	6				0	0	0										3							4	1				201609731	715759	200003	816003			200003				1.2	HitCase		0		0				1																			
+20160974	剑气爆发-第二段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack42Dandao		-1			1	6				0	0	0										3							4	1				201609741	715759	995506	200003	816003		200003				1.2	HitCase		0		0				1																			
+20160975	剑气爆发-第三段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack43Dandao		-1			1	6				0	0	0										3							4	1				201609751	715759	200003	816003			200003				1.2	HitCase		0		0				1																			
+20160976	剑气爆发-第四段-伤害子弹	1	2	1			40			4			2.5						-1		FxMb1LuxiyaMd000003Attack41Shouji				FxMb1LuxiyaMd000003Attack44Dandao		-1			1	6				0	0	0										3							4	1				201609761	715759	200005	816003			200005				1.2	HitCase	0	0		0				1																			
+20160977	地爆天星	2	30				0			4			1						-1		FxMe1BioMd004040Attack02Shouji				FxMe1BioMd004040Attack0201		-1			1	0				0	0	0										3							4	1					700935									0	HitCase	1	0		0	0			0		1																	
+20160978	慈航普度	2	30				0			3			1						-1		FxR3LifuAttack21Shouji				FxR3LifuAttack23Dandao		-1			1	0				0	0	0										3							4	1					700101									0.1	HitCase		0		0	0			0		1																	
+20160979	群体嘲讽	2	30				0			4			1						-1		FxTongyongDarkShouji				FxAnbao		-1			1	0				0	0	0										3							4	1					700305									0.1	HitCase		0		0	0			0		1																	
+20160980	自绝经脉	2	30				0			1			1						-1						FxTongyongLuolei		-1			1	0				0	0	0										3							4	1														0	HitCase		0		0	0			0		1																	
+20160981	暂停时间	2	100				0			6			2						-1						FxMb1JiabailieMd000001Attack10Dilie		-1			1	0				0	0	0										3							4	1					715795									0.1	HitCase		0		0	0			0		1																	
+20160982	恢复时间	2	100				0			6			2						-1						FxAnbao		-1			1	0				0	0	0										3							4	1					715796									0.1	HitCase		0		0	0			0		1																	
+20160983	梦幻特效	2	3				0			4			1.1						-1						FxXuewu		-1			1					0	0	0										3							0	1														0.85	HitCase		0		0				0																			
+20160984	哈卡玛音游 - 音游短按特效	1	5	0.1			0			2			1						-1						FxTriggerPointWhiteFang		-1			1	0				0	0	0										3							4	1														0.1	HitCase	1	0		0	0			0																			
+20160986	哈卡玛音游 - 音游短按Perfect	1	5	0.1			0		90	2			1						-1						FxSeMusicFeedbuckPerfect		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0																			
+20160987	哈卡玛音游 - 音游短按Great	1	5	0.1			0		90	2			1						-1						FxSeMusicFeedbuckGreat		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0																			
+20160988	哈卡玛音游 - 音游短按Miss	1	5	0.1			0		90	2			1						-1						FxSeMusicFeedbuckMiss		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0																			
+20160991	哈卡玛音游 - 长按消失红	1	5	0.1			0			2			2						-1						FxSeMusicPressRedChixujieshu		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0																			
+20160992	哈卡玛音游 - 长按消失蓝	1	5	0.1			0			2			2						-1						FxSeMusicPressBlueChixujieshu		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0																			
+20160993	哈卡玛音游 - 长按消失黄左	1	5	0.1			0			2			2						-1						FxSeMusicPressYellowChixuJieshuZuo		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0																			
+20160994	哈卡玛音游 - 长按消失黄右	1	5	0.1			0			2			2						-1						FxSeMusicPressYellowChixuJieshuYou		-1			1	0				0	0	0										3							4	1														0.1	HitCase		0		0	0			0																			
+20160996	4米判定子弹	2	2				0			4			1.5						-1								-1			1	0				0	0	0										3							4	1										715912				0	HitCase		0		1				0																			
+20160997	4米伤害子弹红	2	4				0			4			1.5						-1						FxDWDiscoExplosion01		-1			1	0				0	0	0										3							4	1					715907	715910	715911							0	HitCase		0		1				0																			
+20160998	4米伤害子弹蓝	2	4				0			4			1.5						-1						FxDWDiscoExplosion02		-1			1	0				0	0	0										3							4	1					715908									0	HitCase		0		1				0																			
+20161001	聚光灯范围子弹	1	12	12			0			6			0.3						-1								-1			1	0				0	0	0										3							4	1					715940	715941								0	HitCase		0		1				0																			
+20161002	3米伤害子弹	2	3				0			4			1.5						-1						FxDWDiscoExplosion01		-1			1	0				0	0	0										3							4	1					715959	903538	715960	715961						0	HitCase		0		0	0			0																			
+20161003	风区加速子弹1	2	4.5				0			6			0.5						-1								-1			1	0				0	0	0										3							4	1					715963	715964	715965							0	HitCase		0		0	0			0																			
+20161004	风区加速子弹2	2	4.5				0			6			0.5						-1								-1			1	0				0	0	0										3							4	1					715966	715967	715968							0	HitCase		0		0	0			0																			
+20161005	马车矩形子弹	1	2.5	7		1.5	0			6			0.3						-1								-1			1	0				0	0	0										3							4	1				201610051	715975									0	HitCase		0		0	0			1																			
+20161006	火球预警	2	4				0			6			2						-1						FxYujing1M20S		-1			1	0				0	0	0										3	0		1	20161007			4	1														0	HitCase	1	0		0	0			0																			
+20161007	火球过程	2	4				0			6			2						-1						FxScene02408HuoqiuL5		-1			1	0				0	0	0										2	2		1	20161008			2	1														10	HitCase	0	0		0	0			0																			
+20161008	火球爆炸	2	4				0			6			0.5						-1		FxScene02408Baozha				FxScene02405FireballBoom		-1			1	0				0	0	0										2							2	1				201610081	715980	715979								0	HitCase	0	0		0	0			0																			
+20161009	终焉倒计时2米伤害子弹不可超算	2	2.5				0			4			0.2						-1								-1			1	0				0	0	0										3							4	1					715989									0	HitCase		0		0	0			0																			
+20161010	终焉倒计时2米伤害子弹可超算	2	2.5				0			4			0.2						-1								-1			1	0				0	0	0										3							4	1					715989									0	HitCase		0		0	0			1																			
+20161011	完美作战超级黑洞	2	100				0			4			4						-1	1	FxTongyongDarkShouji		0.2				-1			1					0	0	0										3							4	1					715997									0	HitCase		0		1				0																			
+20161012	探照灯范围逻辑子弹	1	12	12			0			2			0.5						-1								-1			1	0				0	0	0										3							4	1					716002									0	HitCase		0		0	0			0																			
+20161013	石子	2	0.3				1			4			3		1				1						FxGravel		1			1	0				0	0	0										3							4	1														0	HitCase		0		0	0			0																			
+20161014	黑闪特效	2	1				0			4			1		1				-1						FxMb1LuxiyaMd000003Shanbi		-1			1	0				0	0	0										3							4	1														1	HitCase		0		0	0			0																			
+20161015	距离互加仇恨5米	2	5				0			4			0.1						-1								-1			1	0				0	0	0										3							4	1					716039	700302								0	HitCase		0		0	0			0																			
+20161016	距离互加仇恨10米	2	10				0			4			0.1						-1								-1			1	0				0	0	0										3							4	1					716039	700302								0	HitCase		0		0	0			0																			
+20161017	距离互加仇恨15米	2	15				0			4			0.1						-1								-1			1	0				0	0	0										3							4	1					716039	700302								0	HitCase		0		0	0			0																			
+20161018	距离互加仇恨20米	2	20				0			4			0.1						-1								-1			1	0				0	0	0										3							4	1					716039	700302								0	HitCase		0		0	0			0																			
+20161019	距离互加仇恨100米	2	100				0			4			0.1						-1								-1			1	0				0	0	0										3							4	1					716039	700302								0	HitCase		0		0	0			0																			
+20161020	马车矩形子弹	1	2.5	7		1.5	0			6			0.3						-1								-1			1	0				0	0	0										3							4	1				201610201										0	HitCase		0		0	0			1																			
+20161021	电浆虫电圈	2	6				0			6			0.6						-1		FxTongyongEleShouji				FxDianQuan		-1			1	0				0	0	0										3							4	1					716169									0	HitCase		0		0	0			0																			
+20161022	统计友军数量	2	10				0			2			0.1						-1								-1			1	0				0	0	0										3							4	1										716184				0	HitCase		0		0	0			0																			
+20161023	仙人掌1级	2	2				1.5			4			7.5		1				-1						FxTraillong01		-1			1	-0.2				0	0	0										3	1.5		1	20161024|20161025	1	1	4	1														0.5	HitCase		0		0	0			0																			
+20161024	仙人掌2级	2	2				1.5		-15	4			6		1				-1						FxTraillong01		-1			1	-0.2				0	0	0										2	1.5		1	20161026|20161027	1	1	2	1														0.5	HitCase		0		0	0			0																			
+20161025	仙人掌2级	2	2				1.5		15	4			6		1				-1						FxTraillong01		-1			1	-0.2				0	0	0										2	1.5		1	20161026|20161027	1	1	2	1														0.5	HitCase		0		0	0			0																			
+20161026	仙人掌3级	2	2				1.5		-15	4			4.5		1				-1						FxTraillong01		-1			1	-0.2				0	0	0										2	1.5		1	20161028|20161029	1	1	2	1														0.5	HitCase		0		0	0			0																			
+20161027	仙人掌3级	2	2				1.5		15	4			4.5		1				-1						FxTraillong01		-1			1	-0.2				0	0	0										2	1.5		1	20161028|20161029	1	1	2	1														0.5	HitCase		0		0	0			0																			
+20161028	仙人掌4级	2	2				1.5		-15	4			3		1				-1						FxTraillong01		-1			1	-0.2				0	0	0										2	1.5		1	20161030|20161031	1	1	2	1														0.5	HitCase		0		0	0			0																			
+20161029	仙人掌4级	2	2				1.5		15	4			3		1				-1						FxTraillong01		-1			1	-0.2				0	0	0										2	1.5		1	20161030|20161031	1	1	2	1														0.5	HitCase		0		0	0			0																			
+20161030	仙人掌5级	2	2				1.5		-15	4			1.5		1				-1						FxTraillong01		-1			1	-0.2				0	0	0										2							2	1														0.5	HitCase		0		0	0			0																			
+20161031	仙人掌5级	2	2				1.5		15	4			1.5		1				-1						FxTraillong01		-1			1	-0.2				0	0	0										2							2	1														0.5	HitCase		0		0	0			0																			
+20161032	圆形击飞	2	100				0			4			0.1						-1					Root			-1			1	0				0	0	0										3							4	2				201610321										0	HitCase		0		1		0.1		0																			
+90199801	重构镇暴兵的技能5-盾墙释放	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0																			
+90199901	重构镇暴兵的技能5-盾墙结束	2	0.1				0			4			0.1						-1								-1			1					0	0	0										0							0	1														0	HitCase		0		1				0																			

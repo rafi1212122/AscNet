@@ -74,11 +74,11 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 83800	Amberia	83801	83802	83803	83804	83809	83810		
 83220	Rosetta (Doll)	83229	83230						
 837000	Shark-speare	837009	837021	837001	837011	837012	837013		
-837100	Shark-speare	837111	837112	837113	837114				
+837100	Shark-speare	837111	837112	837113	837114	837115			
 92790	Guardian I	91790	90790	93790	94790	95790			
 92800	Yunlu	91800	90800						
 92810	Tai'E I	91810	90810						
-83900	Luna	839000							
+83900	Luna	839000	83902						
 84007	Hades	84000							
 92860	Popper	92861	92862	92863	92864	92865	91860	92860	90860
 90880	Nian	91880	92880	90881	91881				
@@ -110,7 +110,7 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 93110	Fairy	93114	93112						
 93081	Dragon	93080	93069	93082	93083	93084	93088	93068	93067
 93101	Treant	93102	93103						
-84900	Hamlet	84901	84902						
+84900	Hamlet	84901	84902	84903					
 93130	God Slayer	93131	93132						
 93160	Gung-hoer	93161	93162						
 93140	Heaven Breaker	93141	93142						
@@ -122,7 +122,7 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 93230	Courier-M	93231	93232						
 93221	Deporter-R	93222	93223						
 93240	Moon Morpher	93241	93242						
-85300	Moon Eater	85310							
+85300	Moon Eater	85310	85301						
 93251	Signal Light Phantom	93252	93253						
 93291	Redcoral Host	93292	93293	93294	93295	93296	93297		
 93301	Chela Host	93302	93303	93304	93305	93306	93307	93308	93309
@@ -133,12 +133,18 @@ Id	Name	NpcId[0]	NpcId[1]	NpcId[2]	NpcId[3]	NpcId[4]	NpcId[5]	NpcId[6]	NpcId[7]
 93341	"Good Child"	93341	93342	93343	93344	93345	93346		
 93321	"Dottie"	93321	93322	93323	93327	93324	93325	93326	
 85550	Mutated Mechanoid: Madorea	85480							
-85560	Mutated Mechanoid: Madorea	85490							
+85560	Mutated Mechanoid: Madorea	85490	85491						
 93351	Elite Construct	93352	93353						
 85350	Primal Projection								
 85360	Primal Projection								
-81720	Iron Maiden: Phantom								
+81720	Iron Maiden: Phantom	81721							
 93361	Mechanoid Moon Eater	93362	93363	93364					
 93371	Statue Guardian	93372	93373						
 85460	"Echo"								
 85470	"Echo"								
+846000	Lamia	846001							
+848100	Unknown Data Cluster	848300							
+845000	Voodoo	845002	845001						
+848200	Unknown Data Cluster	848400							
+93381	Two-Legged Brain	93382	93383						
+93391	Four-Legged Brain	93392	93393						

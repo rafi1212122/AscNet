@@ -390,7 +390,7 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 30161263	16		Mechanic Timer|<size=30> <color=#7FFF00>Divine Impedance+ Roche's Limit</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=30><color=#7FFF00>Floating Icicles</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>||If you see this, report as a bug.			
 30161264	16		Mechanic Timer|<size=30> <color=#7FFF00>Blazing Eruption</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=30><color=#7FFF00>Roche's Limit</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=30><color=#7FFF00>Floating Icicles</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|If you see this, report as a bug.			
 30161265	16		Mechanic Timer|<size=30> <color=#7FFF00>Ultralimit Combustion</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=30><color=#7FFF00>Still Trap</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=30><color=#7FFF00>Floating Icicles</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|If you see this, report as a bug.			
-30161266	16		Mechanic Timer|<size=30> <color=#7FFF00Divine Impedance</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=30><color=#7FFF00>Blazing Eruption</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=30><color=#7FFF00>Wrench Impact</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|If you see this, report as a bug.			
+30161266	16		Mechanic Timer|<size=30><color=#7FFF00>Divine Impedance</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{1}s</color></size>|<size=30><color=#7FFF00>Blazing Eruption</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{2}s</color></size>|<size=30><color=#7FFF00>Wrench Impact</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{3}s</color></size>|If you see this, report as a bug.			
 30161267	16		Mechanic Timer|<size=30> <color=#7FFF00>Sand Storm + Floating Icicles</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=28><color=#7FFF00>Sand Storm + Roche's Limit</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>||If you see this, report as a bug.			
 30161268	16		Mechanic Timer|<size=30> <color=#7FFF00>Wrench Impact</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=30><color=#7FFF00>Roche's Limit</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=30><color=#7FFF00>Floating Icicles</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|If you see this, report as a bug.			
 30161269	16		Mechanic Timer|<size=30> <color=#7FFF00>Blazing Eruption</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=30><color=#7FFF00>Roche's Limit</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|<size=30><color=#7FFF00>Floating Icicles</color> <color=#FFFFFF>Timer</color> <color=#7FFF00>{0}s</color></size>|If you see this, report as a bug.			
@@ -3918,6 +3918,9 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 301010116	1		You may select another Active Skill for Rainbow. Switching to [Ripple Dash] now.	5		
 301010117	8	Current Skill:	[Refraction Siphon]	9999		
 301010118	8	Current Skill:	[Ripple Dash]	9999		
+301010119	1		You may select another active skill for Motorbolt. Switching to [Wheel Drift] now.	5		
+301010120	8	Current Skill:	[Thunder Surge]	9999		
+301010121	8	Current Skill:	[Wheel Drift]	9999		
 301011001	8	Current Tutorial: 	[Shining Wings] (Common)	9999		
 301011002	8	Current Tutorial: 	[Eradication of Sins] (Signature)	9999		
 301011003	8	Current Tutorial: 	[Raging Surge] (Core)	9999		
@@ -4904,11 +4907,42 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 316410001	2		Check on the remains of the Construct			
 316410002	1		Obtain <size=50><color=#ff3300>Auxiliary Device [BN-2]</color></size>	2		
 316410003	2		Try to find a way out			
-316410004	1		Obtain <size=50><color=#ff3300>Auxiliary Device [BN-2]</color></size>			
-316410005	1		Obtain <size=50><color=#ff3300>Auxiliary Device [BN-2]</color></size>			
-316410006	1		Obtain <size=50><color=#ff3300>Auxiliary Device [BN-2]</color></size>			
-316410007	1		Obtain <size=50><color=#ff3300>Auxiliary Device [BN-2]</color></size>			
-316410008	1		Obtain <size=50><color=#ff3300>Auxiliary Device [BN-2]</color></size>			
+316410004	2		Check the mechanoid remains.			
+316410005	1		Get the <size=50><color=#ff3300>location of the area terminal</color></size>.	2		
+316410006	2		Check the sign.			
+316410007	2		Move to the supply depot.			
+316410008	2		Cover BN-2 while it hacks the entrance guard.			
+316410009	1		Get the <size=40><color=#00BFFF>protective gear</color></size>.	2		
+316410010	2		Defeat Nozzle			
+316410011	1		<size=50><color=#ff3300>BPN-08 [Lux]</color></size> simulation data recorded.	2		
+316410012	2		Protect BN-2 while it collects the data.			
+316410013	2		Follow BN-2 to leave here.			
+316410014	8	Mechanoid HP <color=#00FF00>▉▉▉▉▉▉▉▉▉▉</color>	<color=#00FF00>Safe</color>			
+316410015	8	Mechanoid HP <color=#00FF00>▉▉▉▉▉▉▉▉▉</color>	<color=#00FF00>Safe</color>			
+316410016	8	Mechanoid HP <color=#00FF00>▉▉▉▉▉▉▉▉</color>	<color=#00FF00>Safe</color>			
+316410017	8	Mechanoid HP <color=#00FF00>▉▉▉▉▉▉▉</color>	<color=#00FF00>Safe</color>			
+316410018	8	Mechanoid HP <color=#00FF00>▉▉▉▉▉▉</color>	<color=#00FF00>Safe</color>			
+316410019	8	Mechanoid HP <color=#FFFF00>▉▉▉▉▉</color>	<color=#FFFF00>Injured</color>			
+316410020	8	Mechanoid HP <color=#FFFF00>▉▉▉▉</color>	<color=#FFFF00>Injured</color>			
+316410021	8	Mechanoid HP <color=#FF0000>▉▉▉</color>	<color=#FF0000>Dangerous</color>			
+316410022	8	Mechanoid HP <color=#FF0000>▉▉</color>	<color=#FF0000>Dangerous</color>			
+316410023	8	Mechanoid HP <color=#FF0000>▉</color>	<color=#FF0000>Dangerous</color>			
+316410024	1		<size=50><color=#ff3300>BPD-72 [Blast]</color></size> simulation data recorded.	2		
+316410025	1		<color=#FF0000>Mechanoid is already dead</color>			
+316410026	1		Escort Ks-321 back to their camp.	3		
+316410027	2		Find mechanoids that are still alive.			
+316410028	2		Eliminate all enemies			
+316410029	2		Talk to the mechanoid.			
+316410030	2		Defeat the mechanoid boss.			
+316410031	2		Defeat the Red Tide Source.			
+316410032	2		Go to the platform upstairs.			
+316410033	2		Ask someone about the situation.			
+316410034	2		Defeat all opponents.			
+316410035	2		Defeat the chaotic Data.			
+316410036	1		Lose <size=50><color=#ff3300>Auxiliary Device [BN-2]</color></size>.	2		
+316410037	2		Find the Construct remains.			
+316410038	1		Mori finally fell asleep after a long time.	2		
+316410039	8	History Restarts	{0}			
 318070001	1		Boss arrived!	3		
 318070002	1		Kill the boss and get the reward!	3		
 318070003	1		An Elite Corrupted appeared!\n<size=25>The Elite Corrupted are more powerful and come with more points, but you don't have to kill them.</size>	3		
@@ -5290,8 +5324,8 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 301605292	2		<size=27>After pressing Dodge to activate Luminous Realm, <color=#ff0000>pinging Afterglow Orbs adjacent to the orbs of the same color</color> and <color=#ff0000>Phase II Signature Move</color> will grant Bianca a set of 3-Ping Orbs.</size>			
 301605321	2		<size=27>Upon entering the <color=#FF6347>Solitary Dancer</color> status, <color=#FF6347>dodges an attack successfully</color> and then obtains a random set of 3-Ping Orbs.</size>			
 301605322	8	Hyperreal's Extra DMG increases by	{0}%			
-301605323	8	Team deals more Extra DMG 	{0}%			
-301605324	2		<size=27>After Kaleido activates <color=#ff0000>Color Rendering</color>, the enemy gains weaknesses in <color=#ff0000>4 directions</color>. Using the <color=#ff0000>Colorful Brushstroke</color> to trigger the weaknesses will make the team deal more Extra DMG.</size>			
+301605323	8	The team's Extra DMG increases by	{0}%			
+301605324	2		<size=27>After Kaleido activates <color=#ff0000>Color Rendering</color>, the enemy gains weaknesses in <color=#ff0000>4 directions</color>. Using the <color=#ff0000>Vibrant Brushstroke</color> to trigger the weaknesses will make the team deal more Extra DMG.</size>			
 500001	1		Voodoo is now on the defensive. Eliminate the minions to prevent Voodoo from absorbing them and evolving.	3		
 500002	2		Defeat Voodoo.			
 500003	1		Voodoo is now on the defensive. Eliminate the minions to prevent Voodoo from absorbing them and evolving.	3		
@@ -5680,7 +5714,7 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 1021011501	2		Eliminate the Corrupted			
 1021011502	2		Leave the subway station			
 1021011503	16		Matching Coordinates|Target Coordinates (100, 0.5)|Current Coordinates (<color=#58ACFA>{0}</color>, <color=#58ACFA>{1}</color>)| |Placeholder			
-1021011504	16		Matching Coordinates|Target Coordinates (100, 0.5)|Current Coordinates (<color=#58ACFA>{0}</color>, <color=#FE2E2E>{1}</color>)| |Placeholder			
+1021011504	16	        座標整合中|目標（100, 0.5）|現在（<color=#58ACFA>{0}</color>, <color=#FE2E2E>{1}</color>）| |場所取り				
 1021011505	16		Matching Coordinates|Target Coordinates (100, 0.5)|Current Coordinates (<color=#FE2E2E>{0}</color>, <color=#58ACFA>{1}</color>)| |Placeholder			
 1021011506	16		Matching Coordinates|Target Coordinates (100, 0.5)|Current Coordinates (<color=#FE2E2E>{0}</color>, <color=#FE2E2E>{1}</color>)| |Placeholder			
 1021011507	8	（<color=#58ACFA>{0}</color>，<color=#58ACFA>{1}</color>）	Current Coordinates			
@@ -5745,6 +5779,24 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 301902002	8	Collab Core β:	{0}/2			
 301902003	8	Solo Core α:	{0}/6			
 301902004	8	Solo Core β:	{0}/2			
+301902005	1		<size=45><color=#7FFF00>Attack from a side</color></size>\nto break the shield asap.	2		
+301902006	8	Shield Time Remaining	{0}s			
+301902007	1		<size=45><color=#7FFF00>Avoid attacks.</color></size>\nCharge in the sanctuary after being hit by the enemy.	2		
+301902008	8	Charging Time Remaining	{0}s			
+301902009	1		<size=45><color=#7FFF00>Avoid attacks.</color></size>\nThe enemy gains the blood-draining effect.	2		
+301902010	2		<size=25>The shield will be raised for defense at 70% and 30% HP.        <color=#FFFF66>Attack from a side behind the target to break the shield faster.</color></size>			
+301902011	1		<size=45><color=#7FFF00>Select a Boss.</color></size>.\nThe first Boss you fight will be weakened.	2		
+301902012	1		<size=45><color=#7FFF00>Fight the Sanctuary Guard(s)</color></size>	2		
+301902013	2		<size=25>Energy absorption starts at 50% HP.        <color=#FFFF66>Avoid being hit by the enemy, so they don't get to restore HP.</color></size>			
+301902014	1		<size=45><color=#7FFF00>Fight the Wheel of Fortune</color></size>	2		
+301902015	2		<size=25>The shield will be raised for defense at 50% HP.        <color=#FFFF66>Attack from a side behind the target to break the shield faster.</color></size>			
+301902016	2		<size=25>Energy absorption starts at 70% and 30% HP.        <color=#FFFF66>Avoid being hit by the enemy, so they don't get to restore HP.</color></size>			
+301902017	1		<size=45><color=#7FFF00>Fight the Wheel of Fortune</color></size>	1		
+301902018	1		<size=45><color=#7FFF00>Concentrate your attacks.</color></size>\nThe enemy takes 100% more DMG.	2		
+301902019	1		Guild War Phase III Placeholder	1		
+301902020	1		Guild War Phase III Placeholder	1		
+301902021	1		Guild War Phase III Placeholder	1		
+301902022	1		Guild War Phase III Placeholder	1		
 1502032101	1		<size=50>Open Eyes</size>			
 1502032102	1		<size=50>Stand Up</size>			
 1502032103	1		<size=50>Move Forward</size>			
@@ -5880,7 +5932,7 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 300603341	1		Defeat Acid Ant.\n<color=#33FFFF><size=28>Chariot has joined the battle as reinforcements.</size></color>	1		
 300603342	2		Defeat Acid Ant.           <color=#33FFFF><size=25>Defeating <color=#FF9900>marked</color> enemies will charge Chariot.</size></color>			
 300603351	1		Defeat Musashi IX.\n<color=#33FFFF><size=28>Chariot has joined the battle as reinforcements.</size></color>	1		
-300603352	2		Defeat Musashi IX.           <color=#33FFFF><size=25>Defeating <color=#FF9900>marked</color> enemies will charge Chariot.</size></color>			
+300603352	2		Defeat Musashi IX.           <color=#33FFFF><size=25><color=#FF9900>Execute</color> the enemy to charge the chariot.</size></color>			
 300603511	2		Weakness triggered! <size=25><color=#33FFFF>Matrix</color> will deal <color=#33FFFF>DMG equal to 20% of HP</color> once.</size>			
 300603521	2		Weakness triggered! Using <size=25><color=#33FFFF>Extreme Dodge 3 times</color> will interrupt the formation of phantoms.</size>			
 300603522	8	Extreme Dodge: <color=#999999>●●●</color>	 0/3			
@@ -6310,7 +6362,7 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 1021012107	2		Find the intersection of different timelines			
 1021012108	2		Activate the node back to the tower			
 1021012109	2		Find clues to leave here			
-300613041	1	Target:	<size=30><color=#FF6600>Activate</color> the <color=#33CC66>"Tactical Mode"</color> and <color=#FF6600>check on the frame</color>.</size>	0	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelCenterTopTip.prefab	
+300613041	1	Target:	<size=30><color=#FF6600>Activate</color><color=#000000> the </color><color=#33CC66>"Tactical Mode"</color><color=#000000> and </color><color=#FF6600>check on the frame</color>.</size>	0	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelCenterTopTip.prefab	
 300613042	2	Target:	<size=30>Obtain <color=#FF6600>energy</color> from the broken machine.</size>		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelUiFightBrilliantwalk.prefab	
 300613043	2	Target:	<size=30>Attack or slide and bump to break the gate open.</size>		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelUiFightBrilliantwalk.prefab	
 300613044	2	Target:	<size=30>Go to the target location.</size>		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelUiFightBrilliantwalk.prefab	
@@ -6332,10 +6384,10 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 300613073	1	Machine Facility Factory	Core Device Factory	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	DATA REPORT
 300613081	1	A Desert in the Eastern Hemisphere	Abandoned Research Facility	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	DATA REPORT
 300613111	1	Coastal City N71	Abandoned Dock	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	DATA REPORT
-300613121	2	Target:	<size=28>Eliminate the enemy in the way and go after the prototype.</size>		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelUiFightBrilliantwalk.prefab	
+300613121	2	Target:	<size=28>Eliminate the enemies in the way and go after the prototype.</size>		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelUiFightBrilliantwalk.prefab	
 300613122	1	Coastal City N71	Suburb	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	DATA REPORT
 300613141	2	Target:	<size=28>Check on the lock device.</size>		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelUiFightBrilliantwalk.prefab	
-300613142	2	Target:	<size=28>Eliminate the enemy to lift the alarm.</size>		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelUiFightBrilliantwalk.prefab	
+300613142	2	Target:	<size=28>Eliminate the enemies to lift the alarm.</size>		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelUiFightBrilliantwalk.prefab	
 300613143	1	A Desert in the Southern Hemisphere	Running Train	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	DATA REPORT
 300613321	1	CT1-01	Eliminate all enemies.	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	CIRCUIT TASK
 300613341	1	CT1-02	Eliminate all enemies.	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	CIRCUIT TASK
@@ -6366,7 +6418,7 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 1022021404	8	Top Lane Progress	{0}%			
 1022021405	8	Mid Lane Progress	{0}%			
 1022021406	8	Bottom Lane Progress	{0}%			
-1022021407	1	Pulia Forest Park Encounter	Courage and faith are the light tower that supports me in the mist.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Pulia Forest Park
+1022021407	1	Pulia Forest Park Encounter	Courage and faith are the light tower that supports one in the mist.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Pulia Forest Park
 1022021408	2		Scan the terrain.			
 1022021409	2		Observe the terrain.			
 1022021410	2		Observe the terrain again.			
@@ -6399,29 +6451,29 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 1022011305	1	<size=80>Don Quixote: Illusion</size>		1		
 1022011306	2		Help "Don Quixote" to eliminate the enemy.			
 1022011307	1	Stage Play	Marius at Minturnae	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	<size=60>STAGE PLAY 1</size>
-1022021301	2		Help "Don Quixote" to defeat the Mirror Knight.			
+1022021301	2		Help "Don Quixote" to defeat the Knight of the Mirrors.			
 1022021302	1	Stage Play	Ophelia	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	<size=60>STAGE PLAY 2</size>
-1022031301	2		Defeat the Whitemoon Knight's servant!			
-1022031302	2		Defeat the Whitemoon Knight!			
-1022031303	1		<color=#800000><size=50>Don Quixote: Right, I failed.</size>\n<size=50>Don Quixote: Right, I failed.</size>\n<size=50>Don Quixote: Right, I failed.</size>\n<size=50>Don Quixote: Right, I failed.</size>\n<size=50>Don Quixote: Right, I failed.</size></color>	2		
+1022031301	2		Defeat the Knight of the White Moon's servants!			
+1022031302	2		Defeat the Knight of the White Moon!			
+1022031303	1		<color=#800000><size=50>Don Quixote: Right, I have lost.</size>\n<size=50>Don Quixote: Right, I have lost.</size>\n<size=50>Don Quixote: Right, I have lost.</size>\n<size=50>Don Quixote: Right, I have lost.</size>\n<size=50>Don Quixote: Right, I have lost.</size></color>	2		
 1022031304	1		<color=#800000><size=50>Don Quixote: But what I saw is not an illusion!</size>\n<size=50>Don Quixote: But what I saw is not an illusion!</size>\n<size=50>Don Quixote: But what I saw is not an illusion!</size>\n<size=50>Don Quixote: But what I saw is not an illusion!</size>\n<size=50>Don Quixote: But what I saw is not an illusion!</size>\n<size=50>Don Quixote: But what I saw is not an illusion!</size>\n<size=50>Don Quixote: But what I saw is not an illusion!</size>\n<size=50>Don Quixote: But what I saw is not an illusion!</size>\n<size=50>Don Quixote: But what I saw is not an illusion!</size>\n<size=50>Don Quixote: But what I saw is not an illusion!</size>\n<size=50>Don Quixote: But what I saw is not an illusion!</size></color>	2		
 1022031305	1		<color=#800000><size=50>Don Quixote: I can't deny the truth because of my powerlessness!</size>\n<size=50>Don Quixote: I can't deny the truth because of my powerlessness!</size>\n<size=50>Don Quixote: I can't deny the truth because of my powerlessness!</size>\n<size=50>Don Quixote: I can't deny the truth because of my powerlessness!</size></color>	2		
 1022031306	1		<color=#800000><size=50>Don Quixote: Powerless as I am, how do I get the power that matches the truth I see?</size>\n<size=50>Don Quixote: Powerless as I am, how do I get the power that matches the truth I see?</size>\n<size=50>Don Quixote: Powerless as I am, how do I get the power that matches the truth I see?</size>\n<size=50>Don Quixote: Powerless as I am, how do I get the power that matches the truth I see?</size>\n<size=50>Don Quixote: Powerless as I am, how do I get the power that matches the truth I see?</size>\n<size=50>Don Quixote: Powerless as I am, how do I get the power that matches the truth I see?</size></color>	3		
 1022031307	1		<color=#800000><size=50>Don Quixote: I don't accept this.</size>\n<size=50>Don Quixote: I don't accept this.</size>\n<size=50>Don Quixote: I don't accept this.</size>\n<size=50>Don Quixote: I don't accept this.</size>\n<size=50>Don Quixote: I don't accept this.</size>\n<size=50>Don Quixote: I don't accept this.</size></color>	2		
 1022031308	1	Stage Play	Knight, Death, and Demon	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	<size=60>STAGE PLAY 3</size>
 1022010901	1	Constellia	Kowloong Hall	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	LOCATION
-1022010902	5	<size=45><b>Azure Dragon Scroll</b></size>	Features Kowloong's legendary creature, the Azure Dragon.\n\nThe Azure Dragon is the god of the <color=#FFFFFF><size=35>east</size></color>\n\namong Kowloong's four spirit animals, who protects Kowloong on\n\nits <color=#FFFFFF><size=35>east</size></color>.			
-1022010903	5	<size=45><b>White Tiger Scroll</b></size>	Features Kowloong's legendary creature, the White Tiger.\n\nThe White Tiger is the god of the <color=#FFFFFF><size=35>west</size></color>\n\namong Kowloong's four spirit animals, who protects Kowloong on\n\nits <color=#FFFFFF><size=35>west</size></color>.			
-1022010904	5	<size=45><b>Black Tortoise Scroll</b></size>	Features Kowloong's legendary creature, the Black Tortoise.\n\nThe Black Tortoise is the god of the <color=#FFFFFF><size=35>north</size></color>\n\namong Kowloong's four spirit animals, who protects Kowloong on\n\nits <color=#FFFFFF><size=35>north</size></color>.			
-1022010905	5	<size=45><b>Vermilion Bird Scroll</b></size>	Features Kowloong's legendary creature, the Vermilion Bird.\n\nThe Vermilion Bird is the god of the <color=#FFFFFF><size=35>south</size></color>\n\namong Kowloong's four spirit animals, who protects Kowloong on\n\nits <color=#FFFFFF><size=35>south</size></color>.			
+1022010902	5	<size=45><b>Azure Dragon Scroll</b></size>	Features Kowloong's legendary creature, the Azure Dragon.\n\nThe Azure Dragon is the god of the <color=#FFFFFF><size=35>east</size></color> among Kowloong's four spirit animals, who protects Kowloong on its <color=#FFFFFF><size=35>east</size></color>.			
+1022010903	5	<size=45><b>White Tiger Scroll</b></size>	Features Kowloong's legendary creature, the White Tiger.\n\nThe White Tiger is the god of the <color=#FFFFFF><size=35>west</size></color> among Kowloong's four spirit animals, who protects Kowloong on its <color=#FFFFFF><size=35>west</size></color>.			
+1022010904	5	<size=45><b>Black Tortoise Scroll</b></size>	Features Kowloong's legendary creature, the Black Tortoise.\n\nThe Black Tortoise is the god of the <color=#FFFFFF><size=35>north</size></color> among Kowloong's four spirit animals, who protects Kowloong on its <color=#FFFFFF><size=35>north</size></color>.			
+1022010905	5	<size=45><b>Vermilion Bird Scroll</b></size>	Features Kowloong's legendary creature, the Vermilion Bird.\n\nThe Vermilion Bird is the god of the <color=#FFFFFF><size=35>south</size></color> among Kowloong's four spirit animals, who protects Kowloong on its <color=#FFFFFF><size=35>south</size></color>.			
 1022010906	5	<size=45><b>Eight-Diagram-Shaped Mirror</b></size>	The Eight-Diagram-Shaped Mirror has been regarded as a Feng Shui lucky charm throughout Kowloong's long history.\n\nThe mirror consists of trigrams\n\nin the order of <color=#FFFFFF>E - Thunder, SE - Wind,\n\nS - Fire, SW - Earth, W - River,\n\nNW - Heaven, N - Water, NE - Mountain</color>.			
-1022010907	5	<size=45><b>Dial Lock</b></size>	This dial lock for export is full of Kowloong's cultural elements. Arrange the elements on it in the correct order to open the door.			
+1022010907	5	<size=45><b>Exit Dial Lock</b></size>	This dial lock at the exit is full of Kowloong's cultural elements. To open the door, rotate the elements and ensure they align correctly in their respective positions.			
 1022010908	5	<size=45><b>Pottery</b></size>	A vessel made by shaping and then baking the clay.\n\nAccording to research, it is one of the daily utensils of the Stone-Age Kowloong.\n\nMostly seen in art collections today.			
 1022010909	5	<size=45><b>Drum</b></size>	Kowloong's traditional musical instrument that was originally used in\n\nritual dances and battles.\n\nNow a part of Kowloong's traditional dance performance.			
-1022010910	5	<size=45><b>Unknown: Halberd Weapon</b></size>	A halberd weapon that perfectly combines the spear and the dagger-axe.\n\nOriginally used as ceremonial weapon,\n\nlater as a powerful war weapon in Kowloong.			
+1022010910	5	<size=45><b>Unnamed: Halberd Weapon</b></size>	A halberd weapon that perfectly combines the spear and the dagger-axe.\n\nOriginally used as ceremonial weapon,\n\nlater as a powerful war weapon in Kowloong.			
 1022010915	2		Learn about how to leave from the smart bot.			
-1022010916	2		Check the information of the cultural relics in the hall. Arrange the elements on the dial lock in the correct order to leave.			
-1022020901	2		Defeat the enemies.			
+1022010916	2		Check the information of the cultural relics in the hall. Rotate the elements to the correct positions on the dial lock to leave.			
+1022020901	2		Defeat the enemy.			
 1022020902	8	Huaxu: <color=#5FDF41>■■■■■■■■■</color><color=#999999></color>	Syncing			
 1022020903	8	Huaxu: <color=#5FDF41>■■■■■■■■</color><color=#999999>■</color>	Syncing			
 1022020904	8	Huaxu: <color=#5FDF41>■■■■■■■</color><color=#999999>■■</color>	Syncing			
@@ -6431,13 +6483,13 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 1022020908	8	Huaxu: <color=#F6542E>■■■</color><color=#999999>■■■■■■</color>	Syncing			
 1022020909	8	Huaxu: <color=#E11505>■■</color><color=#999999>■■■■■■■</color>	Syncing			
 1022020910	8	Huaxu: <color=#E11505>■</color><color=#999999>■■■■■■■■</color>	Syncing			
-1022020911	8	Huaxu: <color=#999999>■■■■■■■■■</color>	<color=#E11505>Death</color>			
+1022020911	8	Huaxu: <color=#999999>■■■■■■■■■</color>	<color=#E11505>Defeated</color>			
 1022020912	2		Work with Sica to defeat Qu and Huaxu at the same time.			
 140290100	1	Sequence Slot 1	Sequence Pact	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Found: Sleeping Soldier
 140290600	1	Sequence Slot 2	Sequence Pact	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Found: Record Under the Wall
 140291100	1	Sequence Slot 3	Sequence Pact	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Found: Terminal in the Universe
 140291600	1	Sequence Slot 5	Sequence Pact	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Found: Invitation Before the Door
-140292100	1	Sequence Slot 4	Sequence Pact	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Found: Ringtone Without Answer
+140292100	1	Sequence Slot 4	Sequence Pact	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Found: Call Without Answer
 140292600	1	Sequence Slot 6	Sequence Pact	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Found: Music on the Vehicle
 140293000	1		Hidden target found!\n<size=25>The character restores HP and Signature Energy. Deals 15% more All DMG. Gains a shield of 100% of Max HP.</size>	3		
 140290101	5	Construct Kane's Record	I think you were right, sister. I should've given it more thought before taking the operation to become a Construct. But at that time months ago, I only wanted an escape from the fact that I could no longer paint. I'd rather choose another path than exist as a human who couldn't hold a pen properly due to hand disability. I don't regret my choice. But... There's something I do regret. If I hadn't left out of spite, I might have gotten WGAA's approval of my application. Although it was not my intention to become a soldier, the troop I'm in is mostly made up of rookies, so we are stationing safer areas in most cases. I also have time to paint every after the shift. (I haven't finished it, but I can bring it to you when you're free next time.)\nSorry for not writing to you for a long time. I know that you've been asking people about me.\n...It's my shift. I'll end it here. I promise to write more. Sorry. Miss you!\n...\n...\n(The rest of the audio is full of noise. Maybe someone accidentally pressed the record button in battle. Some information about the battle could be restored through analysis.)			
@@ -6454,7 +6506,7 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 140292601	5	Squad Log	Record 14\n\nArrived at the designated mission location and started to eliminate the enemy.\n...With that said, but I'm the only one in charge of vehicle management and temporary vehicle support... I know that captain and the two seniors don't want me to risk it on the frontline because I'm new, but I want to be useful! Damn! Snipping minions once in a while in the floating car is not the ground mission I expected.\n...\n\nRecord 18\n\nThe mission was carried out smoothly and was about to end. Captain and the others read my logs. They rubbed my hair and laughed a long time. Well, it seems there's no chance to make any great contribution this time...\n...\n\nRecord 26\n\nThey live under the ventilation duct! The number of enemies is twice, no, three times, as we expected! Captain is injured. We have to leave immediately!\n...\n\nRecord 30\n\nThey are coming from all directions. Did they deliberately hide themselves for us to reach the ventilation duct? No... They can't be this smart! It's impossible! Captain's injury seems serious... I just checked. There isn't much fuel left in the vehicle... We took a detour to break their siege. According to the plan, we should have been on our way back home at this time...\n\nRecord 31\n\nWe are now hiding between two solar panels. Everyone has run out of ammo. Guns have become clumsy cold weapons. Captain asked us to get rid of everything except medicine and fuel. Our chance to withdraw would be small if we fail to get our vehicle moving, so we have to reduce the load. Next, we are gonna rush out. Hope it will work... Damn... My hands... Just stop shaking...\n\nRecord 32\n\nThey found us. We spent a lot more fuel to get rid of them... Is there really nothing we can do this time?\n\nRecord 33\n\n...\n\nCaptain jumped... I saw him falling into the enemies with my own eyes...\n\nRecord 34\n\nWe sniped the illumination system with the vehicle and finally reached the exit as planned. But... There are too many of them... Zod seems lost ever since we lost captain. Now Lin is in charge.\n\nRecord 35\n\nThe sun is up... but Zod is not on the vehicle...\n...\nEven Lin fails to force a smile as he always managed to when he tried to encourage us.\n\nRecord 36\n\nWe decided to try if we can break the doom and leave from there. But... Is this transparent doom really as fragile and breakable as the glass?\n\nRecord 37\n\n...\nWould we all have lived if captain were still here?\nWould none of this have happened if I had treated the mission more seriously?\nIf only... I were the one who died...			
 301605381	8	DMG Bonus(es) gained:	{0}%			
 301605382	2		Ayla has successfully moved Xm. All team gains a DMG Bonus!	2		
-301605391	8	Extra DMG Bonus of Kaleido's Colorful Brushstroke and Ink Painting increases.	{0}%			
+301605391	8	Vibrant Brushstroke&Finishing Touch's Extra DMG+	{0}%			
 301605392	2		Ayla gains a DMG Bonus!	2		
 1022020601	1		Use Sica's Support Skill to limit Rosetta's movement!	2		
 1022020602	1		Rosetta has been weakened! Defeat her to complete the challenge!	2		
@@ -6463,15 +6515,15 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 1022010501	1	Constellia	Central Art Museum Hall	4	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	LOCATION
 1022011701	1	Constellia	Hall ???	4	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	LOCATION
 1022010502	5	Arctic Route Union	An economic union formed by the trading ports around the Arctic Circle. One of the biggest four economic entities in the Golden Age.			
-1022010503	5	Kowloong	A regional commercial organization in the Golden Age in the coastal cities of East Asia with well developed trade and shipbuilding businesses and a Kua-Er-class armed dreadnought "Nona Ouroboros". It is one of the biggest four economic entities in the world.			
+1022010503	5	Kowloong	A regional commercial organization in the Golden Age in the coastal cities of East Asia with well developed trade and shipbuilding businesses and a Kua-Er-class armed dreadnought "Nighter". It is one of the biggest four economic entities in the world.			
 1022010504	5	Pulia Forest Park	A peaceful and quiet forest park. One of the famous Golden-Age human tourist spots.			
 1022010505	5	■■■■	■■■■■■■■■■■■\n(Encrypted Data)			
 1022010601	2		Follow the guide.			
-1022010602	5	<size=45><b>Cyborg SO-79:</b></size>	Production Date: 210■-12-1■, Service Time: Unknown.\nRecycle Log: Cyborg found in ruins. Modified from Snow Owl that was originally designed for military reconnaissance purposes to be a robot pet for kids...\nIt's said that humans would put flowers in the muzzles to express their desire for peace...\nConflicts and meaningless behaviors, but...			
-1022010603	5	<size=45><b>Cyborg SH27&28:</b></size>	Production Date: Unknown, Service Time: Unknown.\nRecycle Log: Cyborg found after the huge "tide." The memory shell is completely broken and can't be fixed.\nAmberia... the Forest Guards... the Ascendants... And, Babylonia...			
-1022010604	5	<size=45><b>Cyborg PB-03:</b></size>	Production Date: 209■-07-2■, Service Time: 3■ years.\nRecycle Log: Military cyborg found among scrapped machines in the Arctic Route Union's abandoned Perm Military-Industrial Base. As a mechanoid without logic circuit capable of deep learning, it was designed solely for strategic attacks.\nOrder, obedience, discipline, violence, and subdual—\nWas this how the Arctic Route Union achieved unification?			
-1022010605	5	<size=45><b>Commandant ■■■■</b></size>	The Babylonia Task Force Commandant who played a big role in the Arctic Route Union event.\nFace the first humanoid hybrid Construct Amberia with the human body.\n"Hero of Babylonia"/Ascendant ■■'s ■■■...\nFailed to analyze the detailed data of that human...\nThis a replica of the battle suit that human wore in the battle in the polar area.			
-1022010606	8	Cyborg Waves Defended:	{0}WAVE			
+1022010602	5	<size=45><b>Bionic SO-79:</b></size>	Production Date: 210■-12-1■, Service Time: Unknown.\nRecycle Log: Bionic found in ruins. Modified from Snow Owl that was originally designed for military reconnaissance purposes to be a robot pet for kids...\nIt's said that humans would put flowers in the muzzles to express their desire for peace...\nConflicts and meaningless behaviors, but...			
+1022010603	5	<size=45><b>Bionic SH27 & 28:</b></size>	Production Date: Unknown, Service Time: Unknown.\nRecycle Log: Bionics found after the huge "Tide". Their memory shells are completely broken and can't be fixed.\nAmberia... the Forest Guards... the Ascendants... And, Babylonia...			
+1022010604	5	<size=45><b>Bionic PB-03:</b></size>	Production Date: 209■-07-2■, Service Time: 3■ years.\nRecycle Log: Military bionic found among scrapped machines in the Arctic Route Union's abandoned Pehrm Military-Industrial Base. As a mechanoid without logic circuit capable of deep learning, it was designed solely for strategic attacks.\nOrder, obedience, discipline, violence, and subdual—\nWas this how the Arctic Route Union achieved unification?			
+1022010605	5	<size=45><b>Commandant ■■■■</b></size>	The Babylonia Task Force Commandant who played a big role in the Arctic Route Union incident.\nFaced the first humanoid hybrid Construct Amberia with the human body.\n"Hero of Babylonia"/Ascendant ■■'s ■■■...\nFailed to analyze the detailed data of that human...\nThis is a replica of the combat suit that human wore during the battle in the Arctic area.			
+1022010606	8	Bionic Wave(s) Defended:	{0}WAVE			
 1022010607	1	Hold on before the guide recovers!		2		
 1022010608	5	<size=45><b>Narwhal - Derek</b></size>	Details unknown			
 1022010609	5	<size=40><b>Moses-Class Icebreaker — Naval</b></size>	Production Date: 210■-01-2■, Service Time: ■■\nOne of the Arctic Route Union's biggest Moses-class icebreakers. Equipped with two RPNF-310 nuclear reactors. Capacity: 80 persons. Tonnage: 35550 tons. Load: 100k tons.			
@@ -6485,22 +6537,22 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 1022011104	8	Obtained: [Technician's ID Card]	Success	2		
 1022011105	8	Obtained: [Cracking Device Remote Control]	Success	2		
 1022011106	1	There's nothing useful in this pocket!		1		
-1022011107	5	<size=45><b>[Comms Record]</b></size>	[14:56; Sword 9] Sword squad called for tech support. Data document A found in Area H. We are in the process of hacking into the security system. We request technicians for support as the core level is indecipherable.\n[14:58; Technician] Command received. Heading to the area. Have we eliminated all the Constructs in the hall? We are short of hands. I didn't manage to get any combat Construct to come with us.\n[15:02; Sword 9] We have eliminated all the Constructs. No need to worry about safety. According to the rules, if we can't decipher it before 16:00, we will have to give it up and destroy the evidence. We can't let the Task Force and the "Fledglings" notice our actions.			
+1022011107	5	<size=45><b>[Comms Record]</b></size>	[14:56; Sword 9] Sword squad called for tech support. Data document A found in Area H. We are in the process of hacking into the security system. We request technicians for support as the core level is indecipherable.\n[14:58; Technician] Command received. Heading to the area. Have we eliminated all the mechanoids in the hall? We are short of hands. I didn't manage to get any combat Construct to come with me.\n[15:02; Sword 9] We have eliminated all the mechanoids. No need to worry about safety. According to the rules, if we can't decipher it before 16:00, we will have to give it up and destroy the evidence. We can't let the Task Force and the "Fledglings" notice our actions.			
 1022011108	5	<size=45><b>[ID Card]</b></size>	Sword squad's external technician 013. Advanced technician.			
 1022011109	5	<size=45><b>[Cracking Device Remote Control]</b></size>	...Product Instructions: Capable of controlling the matched ground cracking device via various methods...\nFeature 1: Connection to the ground cracking device. Capable of fast reading and sending all cracked content...\nFeature 3: Capable of remote-controlling the cracking device to send EMP against Inver-Devices in emergent cases. The feature requires at least one person. The success rate is between 70% to 90% based on the actual elements...\n*This product is only available to mid-level internal data personnel. Please keep it a secret. Otherwise, there will be severe consequences!*			
-1022011110	2		Search the Kurono Constructs for useful things.			
+1022011110	2		Search the Kurono Construct for useful items.			
 1022011111	2		Use the ID card to gain access to the control panel.			
 1022011112	1	Access obtained!		3		
 1022011113	1	Use Spooner's Support Skill to defeat the enemy!		2		
 1022011114	1	Kurono's reinforcements are coming!		2		
-1022011115	2		Holoscan to look for awakened machines and enter the cleaner.			
+1022011115	2		Holoscan to look for awakened machines and enter the cleansing program.			
 1022011116	8	Mechanoid A Virus Cleaning	Success	2		
 1022011117	8	Mechanoid B Virus Cleaning	Success	2		
-1022011118	2		Stand by in the hall and wait for Spooner's order.			
+1022011118	2		Stand by in the hall and wait for Spooner's signal.			
 1022011119	1	There's no useful information on this soldier.		2		
 1022011199	1	Constellia	Hall ??	3	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	LOCATION
-1022011150	5	<size=45><b>Comms Record</b></size>	[14:56; Sword 9] Sword squad called for tech support. Data document A found in Area H. We are in the process of hacking into the security system. We request technicians for support as the core level is indecipherable.\n[14:58; Technician] Command received. Heading to the area. Have we eliminated all the Constructs in the hall? We are short of hands. I didn't manage to get any combat Construct to come with us.\n[15:02; Sword 9] We have eliminated all the Constructs. No need to worry about safety. According to the rules, if we can't decipher it before 16:00, we will have to give it up and destroy the evidence. We can't let the Task Force and the "Fledglings" notice our actions.\n[15:30, Sword 9] Area H is under attack!!! Calling for fire support!\n[15:30, System Message] Failed to send the message. Try again?			
-1022011151	5	<size=45><b>Mission X1</b></size>	Mission Content: Invade City ■■■■ and recycle test subject ■■■■. In case of any Construct who stands in the way, refer to Attachment 1 - Construct Virus to control it.\nAttachment 1 - Construct Virus			
+1022011150	5	<size=45><b>Comms Record</b></size>	"[14:56; Sword 9] Sword squad called for tech support. Data document A found in Area H. We are in the process of hacking into the security system. We request technicians for support as the core level is indecipherable.\n[14:58; Technician] Command received. Heading to the area. Have we eliminated all the mechanoids in the hall? We are short of hands. I didn't manage to get any combat Construct to come with us.\n[15:02; Sword 9] We have eliminated all the Constructs. No need to worry about safety. According to the rules, if we can't decipher it before 16:00, we will have to give it up and destroy the evidence. We can't let the Task Force and the "Fledglings" notice our actions.\n[15:30, Sword 9] Area H is under attack!!! Calling for fire support!\n[15:30, System Message] Failed to send the message. Try again?"			
+1022011151	5	<size=45><b>Mission X1</b></size>	Mission Content: Invade City ■■■■ and recycle test subject ■■■■. In case of any mechanoid who stands in the way, refer to Attachment 1 - Mechanoid Virus to control it.\nAttachment 1 - Mechanoid Virus			
 1022011152	5	<size=45><b>Mission Record</b></size>	—Experiment base ■■■■ invaded by unidentified ■■■. Test subject ■■■ was lost.\n—Coordinates confirmed for test subject ■■■. Special team ■■■■ dispatched to the target location to recycle it.\n—Unexpected interference from ■■■. Mission delayed.\n—■■ is confimed to be on the move. Backup plan ■■■■ activated.\n(Record destroyed)			
 1022011153	5	<size=45><b>Intel: Constellia (Old Site)</b></size>	A huge city constructed in the late Golden Age. Part of ■■■■.\nThe identity of the reconstructor is still unknown. Confirmed as an abnormal mechanoid.\nIntel sent back to ■■■■. Waiting for further instructions.\n(Record destroyed)			
 1022011400	1	Pulia Forest Park Hall	Life thrives in the forest with or without visitors.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Pulia Forest Park
@@ -6508,21 +6560,21 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 1022011402	2		Leave the hall.			
 1022011403	2		Defeat the Hetero-Creature projection.			
 1022011404	2		To "Courage"			
-1022011405	2		To "Defense"			
+1022011405	2		To "Perseverance"			
 1022031400	1	Pulia Forest Park Withdrawal	We... did it...		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Pulia Forest Park
 1022031401	2		Explore			
 1022031402	2		Get more information.			
 1022031403	2		Get information and start calculation.			
-1022031404	2		Start calculation.			
+1022031404	2		Start simulation.			
 1022031405	8	Calculation Result:	Success			
-1022031406	2		Explain the tactics to Jack.			
+1022031406	2		Explain the tactics to Jacqued.			
 1022031407	2		Advance to the destination.			
 1022031408	1	Pulia Forest Park Withdrawal	Withdraw		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	1246s
 1022031409	2		Defense			
-1022031410	1	Dasle	Core damaged. Service Time: 3.5 years.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Mission completion
+1022031410	1	Dasle	Core damaged. Service Time: 3.5 years.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Mission complete
 1022031411	8	Casualty Rate	<color=#FF0000>{0}</color>%			
-1022031412	1	Leonard	Core damaged. Service Time: 1.5 years.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Mission completion
-1022031413	1	Dreiser	Core damaged. Service Time: 7 years.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Mission completion
+1022031412	1	Leonard	Core damaged. Service Time: 1.5 years.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Mission complete
+1022031413	1	Dreiser	Core damaged. Service Time: 7 years.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Mission complete
 1022041400	1	Pulia Forest Park Ruins	The end of the catastrophe. The light of the dawn.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Ending
 1022041401	2		Reconstruct the past through the data port.			
 1022041402	2		<size=30>Defeat the Corrupted.</size>	3		
@@ -6530,15 +6582,234 @@ Id	Type	Title	Desc	Time	PrefabPath	SecondDesc
 1022041404	8	Remaining Time	{0}s			
 1022041405	8	Captain Joyce's Remaining HP	<color=#FF0000>{0}%</color>			
 1022041406	2		Protect Joyce.	3		
-1022041407	1	Joyce	Core damaged. Service Time: 5 years.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Mission completion
+1022041407	1	Joyce	Core damaged. Service Time: 5 years.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Mission complete
 1022020500	5	<size=45><b>Art Museum Hall - Theater</b></size>	This is the Constellia Theater. The next play is...			
 1022020501	5	<size=45><b>Art Museum Hall - Forest Park</b></size>	A peaceful and quiet forest park. A habitat for life.			
 1022020502	5	<size=45><b>Art Museum Hall - ■■■■</b></size>	■■■■■■■■■■■■ Encrypted Data			
 1022020503	5	<size=45><b>Art Museum Hall - Moon Hall</b></size>	Back when humans were still unfamiliar with the world, the Moon channeled all their wildest stories of the night.			
 1022020504	5	<size=45><b>Art Museum Hall</b></size>	Here it gathers the artistic crystallization of numerous cultures.			
 1022020505	5	Arctic Route Union	An economic union formed by the trading ports around the Arctic Circle. One of the biggest four economic entities in the Golden Age.			
-1022020506	5	Kowloong	A regional commercial organization in the Golden Age in the coastal cities of East Asia with well developed trade and shipbuilding businesses and a Kua-Er-class armed dreadnought "Nona Ouroboros". It is one of the biggest four economic entities in the world.			
+1022020506	5	Kowloong	A regional commercial organization in the Golden Age in the coastal cities of East Asia with well developed trade and shipbuilding businesses and a Kua-Er-class armed dreadnought "Nighter". It is one of the biggest four economic entities in the world.			
 1022020507	5	Pulia Forest Park	A peaceful and quiet forest park. One of the famous Golden-Age human tourist spots.			
 1022020508	5	■■■■	■■■■■■■■■■■■\n(Encrypted Data)			
 1022020509	5	Theater Hall	The gate of the hall is wide open. All the lights in the ring theater are on as if it is welcoming you quietly.			
 1022020510	5	Airplane Mode	<color=#FF0000>Press and hold Dodge</color> to activate the Airplane Mode.\nWith the Airplane Mode on, <color=#FF0000>tap Dodge</color> to go up and <color=#FF0000>tap again</color> to slow down and go down.\nWith the Airplane Mode on, <color=#FF0000>press and hold Dodge</color> to slow down and exit the Airplane Mode after going lower than a certain level.			
+1023011201	1	North Asian Research Institute of Life Science and Evolution	Genetic Engineering Lab	3	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Genetic Engineering
+1023011202	2		Find a way to remove the entrance guard.			
+1023011203	2		Find the terminal corresponding to the key.			
+1023011204	2		Gain the access key.			
+1023011205	2		Use the terminal to remove the entrance guard.			
+1023011206	2		Leave the lab.			
+1023011251	1		The isolation door is locked. No passing!	3		
+1023011252	1		Admin key obtained!	2		
+1023011253	1		Already the uppermost directory!	2		
+1023011254	1		Higher permissions required!	2		
+1023011255	1		Locked!	2		
+1023011256	1		Already locked!	2		
+1023011257	1		Unlocked!	2		
+1023011258	1		Already unlocked!	2		
+1023011259	1		Switched!	2		
+1023011260	1		Key verification required!	2		
+1023011261	5	News Archive A21654211	Jul 13, the contract plan of human experiment on death-row prisoners has been terminated officially.\nThe plan approved by the World Government has been around for three years. Originally, it was a charity contract signed by the prisoner and their family voluntarily for the prisoner to assist in the medical experiment after receiving compensation.\nHowever, this year, it was revealed that the related institutes had "borrowed" the prisoners secretly to carry out inhuman experiments in the name of the World Government without their agreement.\nAfter that, people started a mass protest against the plan. Three days later, the plan was completely halted. Human experiments were once again listed as an illegal operation.			
+1023011262	5	M.I.N.D. Group Testing Record XX8798	"Group A Biological Brain Experiment List:\n■■■■, ■■■■, ■■■■, ■■■■\n■■■■...\nGroup B Memory Shell Experiment List:\n00237-00897\n33254-33278\n00178-02971\nGroup C Memory Shell Experiment List:\nAC5465\nVC1120\nMX3545."			
+1023011263	5	Lab Report 45551	...\nnamed this symptom as M.I.N.D. deviation, the mismatch of individual Memory, perception of self, and the body with extremely low neural sync rate.\n94.1% of the subjects showed difficulty in controlling their body when the deviation occurred.\nMost of them also had symptoms of agitation or depression and a marked increase in the desire to destroy others and themselves.\n48.12% still experienced memory disorder even after treatment.\n(The data of the second half of the report were damaged...)			
+1023011264	5	Lab Report 49012	"—\nSubjects created by the replica M.I.N.D. have a shared cognition.\nWe named it "Shared Memory". It allows them to transmit information and share feelings between one another in a hardly noticeable way."			
+1023011265	5	Old Work Log 575446	"(The work log was created before the Punishing Virus and those experiment reports...)\nThe regular check is done. We've picked 8 out of the 103 subjects for the next round of cultivation.\nAmong them, subject CB103 is closest to the target state. Whether this is related to her relationship with ■■■■ remains to be seen in further experiments.\nCB107 has been confirmed dead after delivery. CB103 showed a high level of concern for the baby and requested to touch it."			
+1023011266	5	Old Work Log 575459	"All selected 8 subjects are dead except CB103. Please refer to the attachment for details.\nWe checked up on CB103 and found she was pregnant. Researcher ■■■■ confessed what he did.\nProfessor ■■■ believes that this is probably the reason why CB103 is still alive and proposed to let CB103 deliver before participating in the regular experiments again."			
+1023011267	5	Old Work Log 575518	"(The record here is incomplete...)\nIf..., CB103 will be our Cthylla and give birth to ■■■.\nThe success is around the corner..."			
+1023010901	1	Area D14	Temporary Shelter	3	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	D14
+1023010902	2		Stop the enemy from getting to you.			
+1023010903	1		A group of mechanoids are coming.	3		
+1023010904	1		More mechanoids are coming.	3		
+1023010905	1		A large number of mechanoids are coming. Fight until reinforcements arrive.	3		
+1023011401	1	North Asian Research Institute of Life Science and Evolution	Genetic Engineering Lab	3	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Genetic Engineering
+1023011402	1		Due to serious infection, both <color=#00FFFF>lost 20% ATK</color>.	2		
+1023011403	1		The two worked perfectly together. Character switch CD <color=#FFFF00>decreased significantly</color>.	2		
+1023011404	2		Eliminate all enemies in the way.			
+2100023100	1	Norman Hero 11	—Gear of the Fool—		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	NORMAN HERO 11
+2100023101	5	Nanami's Secret Game	This time. it's not just a three-second tip but a simple line of game description.\nLet's finish this in one go—!\nｂ（￣▽￣）ｄ			
+2100023102	5	Nanami's Secret Game (Cracked Version)	Now you're the Boss. Defeat all the players all at once!\nLet's finish this in one go—!\nｂ（￣▽￣）ｄ			
+2100023103	1	"World Egg" B11F	Defeat the enemies hiding in the deepest part.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Hiranyagarbha 11F
+2100023104	2		<color=#00FFFF>Press Jump again</color> to perform a <color=#00FFFF>double jump</color>.			
+2100023105	2		Use <color=#FF0000>Red Orbs</color> to launch <color=#FF0000>melee attacks</color>.			
+2100023106	2		Use <color=#00FFFF>Blue Orbs</color> to perform <color=#00FFFF>jump firing</color>.			
+2100023107	2		Use <color=#00FFFF>Red</color>/<color=#00FFFF>Blue</color> Orbs <color=#00FFFF>when dashing forward</color> to get <color=#00FFFF>enhanced</color>.			
+2100023108	2		Use <color=#FFFF00>Yellow Orbs</color> to <color=#FFFF00>enter Matrix</color> actively.			
+2100023109	2		Avoid the "lasers that kill on contact" and move on!			
+2100023110	8	Points:	{0}			
+2100023111	1		<color=#00FFFF>Double jump</color> to move forward by stepping on the boxes.	4		
+2100023112	2		<color=#00FFFF>Wall jump</color> to avoid the boss' skills.			
+2100023113	1	NEW! Congrats on being ranked!	Score: {0}		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	Congratulation！
+2100023114	1	Game Over	Damn...		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	YOU LOSE
+2100023500	1	The Last Challenger	Protect the server.		Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	The Final Challenger
+2100023501	1		New enemies have appeared!	3		
+2100023502	1		Protect the server from the corruption and defeat the enemies.	3		
+2100023503	2		Get close to the <color=#00FFFF>server terminal</color> to gain bonuses.			
+2100023504	2		Defeat the enemies.			
+2100023505	8	Server HP:	{0}%			
+2100023506	1		Server HP below 50%!	3		
+2100022000	8	Starfarer Signature DMG Bonus	{0}%			
+2100022001	1		[Starfarer] gains a Signature Extra DMG Bonus every time when she deals DMG through a Signature Move.	3		
+301304121	1		Investigate the site with the Phantom Tracer.	3		
+301304122	1		The virtual images are gone...	3		
+301304123	1		Check the defector's shackles.	2		
+301304124	1		The defectors' reinforcements are coming...	2		
+301304125	1		Close to the target location. Move carefully.	2		
+301304126	1		Strange noises came from the refugees...	2		
+301304127	1		Emergency treatment started...	2		
+301304128	1		Strange noises came from the refugees, but it's slow this time...	3		
+301304129	2		Move along the path.			
+301304130	2		Defeat the Corrupted "Rennan".			
+301304131	2		Investigate Rennan			
+300603931	2		<size=25>Deals 15% DMG when hit.      Total DMG: <color=#7FFF00>{0}</color></size>			
+300603932	8	DMG Down Time	{0}s			
+300603941	2		<size=25>Explodes when the enemy has 80% HP.      Total DMG: <color=#7FFF00>{0}</color></size>			
+300603942	8	Enemy Status	Normal			
+300603943	8	Enemy Dying	DMG Taken +100%			
+300603951	2		<size=25>Character of the corresponding color deal +30% DMG.      Total DMG: <color=#7FFF00>{0}</color></size>			
+300603952	8	Color Switch Countdown	{0}s			
+300603953	1		Characters in the <color=#FF0000>red positions</color> have been enhanced.	2		
+300603954	1		Characters in the <color=#00FFFF>blue positions</color> have been enhanced.	2		
+300603955	1		Characters in the <color=#FFFF00>yellow positions</color> have been enhanced.	2		
+301605400	8	At full Blade Aura, press and hold Dodge to gain DMG Increase.	{0}%			
+301605401	1		Casting Munen Moment at full Blade Aura (<color=#FFFF00>press and hold Dodge and then release</color>) will grant an Extra DMG Bonus.	3		
+301605402	2		<size=32>When <color=#FF0000>Crimson Abyss</color> unleashes swordwaves, <color=#FF0000>Crimson Weave's</color> Base Swordwave DMG increases</size>.			
+301605403	1		Casting Eternaflare at full Lightless Points will grant a 20% Extra DMG Bonus permanently.	3		
+301605404	8	Crimson Weave Extra DMG Up	{0}%			
+301614871	2		Defeat the enemies. {0} to go.			
+301614872	2		Defeat the remaining enemies.			
+301614873	2		Survive this or defeat the enemies. {0}s remaining.			
+301614874	2		Protect the device or defeat the enemies. {0}s remaining.			
+301614875	8	Remaining Device HP:	{0}			
+301311541	2		Find the enemies' weaknesses with the scan mode to eliminate them faster!			
+301311542	2		Take the elevator to the bridge to assist!			
+301311543	2		Eliminate the incoming drones.			
+301311544	2		Talk to Liv and Lucia.			
+301311545	2		Eliminate the enemy!			
+301311546	2		Advance to the control panel and open the door.			
+301311547	2		Investigate the cabin!			
+301311548	2		Use the scan device to check the device.			
+301311549	2		Turn on the navigation feature. Fly to the Medic Bot and destroy it.			
+301311550	2		Advance to the designated location and get the memory data for the next fight!			
+1023010701	2		Seize the control over the transport craft.			
+1023010702	2		<color=#FF9900>Alert: {0}%</color>            Seize the control over the transport craft.			
+1023010703	2		<color=#FF0000>Alarm: {0}%</color>            Seize the control over the transport craft.			
+1023010704	1	Ground City Ruins	Center Avenue	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	LOCATION
+1023011301	2		Go to the lab on that floor.			
+1023011302	1	North Asian Research Institute of Life Science and Evolution	Memory Research Center	2	Assets/Product/Ui/UiFightPrefab/UiFightTips/PanelLocationTip.prefab	LOCATION
+1023011303	2		Move to the next area.			
+1023011304	2		Try to get to the elevator.			
+1023011305	2		Go through the lift bridge.			
+1023011306	2		Defeat all enemies.			
+1023011307	2		Talk to Lucia about what to do next.			
+1023011308	2		Control the device to get the lift bridge down.			
+1023011309	2		Find the IC card.			
+1023011310	2		Leave the storage room.			
+1023011311	2		Reactivate the Door Sensors: {0}/2			
+1023011312	2		Go to the elevator of the next floor.			
+1023011601	2		Hitting an enemy will grant Signal Orbs. Being attacked will reduce Signal Orbs.			
+1017011271	8	<color=#00FF66>Normal</color>	{0}			
+1017011272	8	<color=#FF6600>Elite</color>	{0}			
+1017011273	8	<color=#FF3300>Leader</color>	{0}			
+1017011274	8	<color=#FF00CC>Boss</color>	{0}			
+110101	1		Get close to Nozzle\n<color=#fffff><size=26>Follow the instructions to get the clues</size></color>	3		
+1000000001	2		Defeat all the Corrupted			
+11120301	1		Cut a path\n<color=#fffff><size=27>Defeat all of Rosetta's toys</size></color>	2		
+1013015201	2		Defeat all the Corrupted			
+1013010201	1		Reach the beach	3		
+1013010202	2		Reach the beach			
+1013010203	1		Defeat all enemies	3		
+1013010204	2		Defeat all enemies			
+1013010205	2		Check the broken robot			
+1013010206	2		Get parts from the nearby enemies			
+1013010207	2		Get more parts			
+1013010208	1		Get the second part	3		
+1013010209	2		Go back and repair the robot			
+1013010210	1		Enter the theme park	3		
+1013010211	2		Follow Cathy 6337			
+1013010401	1		Defeat the enemies	3		
+1013010402	2		Defeat the enemies			
+1013010403	1		Find a staff pass in the ruins	3		
+1013010404	2		<color=#FF0000>Attack</color> the rubble to find the staff pass			
+1013010405	2		Defeat the enemies			
+1013010406	2		<color=#FF0000>Attack</color> the last rubble to find the staff pass			
+1013010407	1		Staff pass found	3		
+1013010408	2		Give the staff pass back to Cathy			
+1013010501	1		Complete the first challenge	3		
+1013010502	2		Defeat the enemies to complete the first challenge			
+1013010503	1		Complete the second challenge	3		
+1013010504	2		Find the different Cathy within three attempts to complete the second challenge.			
+1013010505	2		Try again! Find the different Cathy to complete the second challenge.			
+1013010506	2		Last chance! Find the different Cathy to complete the second challenge.			
+1013010507	1		Complete the third challenge	3		
+1013010508	2		Defeat Roland to complete the third challenge.			
+1013010509	2		Move to the designated location			
+1013010601	2		Defeat the Corrupted			
+1013010602	2		Go to the target point			
+1013010603	2		Ride the hot-air balloon			
+1013010604	2		Ride the roller coaster			
+1013010605	2		Find a way to open the gate			
+1013010606	2		Advance further into the theme park			
+1013010607	2		Get the crafted wine from the bar counter			
+1013010608	2		Open the smaller door that leads to the gate			
+1013010609	2		Give the crafted wine to Martini 2442			
+1013010610	1		Received the key to the smaller door	2		
+1013010611	1		Something dropped from Martini	2		
+1013010612	2		Go through the park and keep tracking			
+1013010613	2		Check what's dropped			
+1013010701	2		Defeat the Corrupted			
+1013010702	2		Go to the target point			
+1013010703	2		Pick up the key			
+1013010704	2		Activate the control panel			
+1013010705	2		Take the elevator to the upper floor			
+1013010706	2		Take the elevator to the lower floor			
+1013010707	2		Go to the furnace			
+1013010708	2		Activate the central control			
+1013011001	2		Defeat the Corrupted			
+1013011002	2		Go to the target point			
+1013011003	2		Take the elevator to the lower floor			
+1013011004	2		Use the control panel			
+1013011201	2		Defeat the Corrupted			
+1013011202	2		Go to the target point			
+1013011203	2		Ride the hot-air balloon			
+1013011204	2		Ride the Ferris wheel			
+1013011205	1		Cathy 999 is about to start the first live!	2		
+1013011206	1		Mr. White feels depressed after losing their idol	2		
+1013011207	1		Without fans, Cathy 999 feels lost...	2		
+1013011208	1		Cathy 999 is preparing for a comeback live!	2		
+1013011209	2		Go through the park and keep tracking			
+1013011401	2		Defeat the Corrupted			
+1013011402	2		Go to the target point			
+1013011403	2		Ride the roller coaster			
+1013011404	2		Take the elevator to the upper floor			
+1013011405	2		Catch up with the suspicious mechanoid			
+1013011406	2		Leave the bar			
+10115209	8	Use emergency activation device 	{0} time(s)			
+10115210	1		Construct takes severe damage.\n<color=#fffff><size=27>Use an emergency activation device to heal the Construct.</size></color>	2		
+301502211	1		Project Babel\nCode name Sands of Infinity activated\n<size=27>Defeat all Corrupted to complete the battle simulation</size>	2		
+10100101	2		Defend against the attack from the unknown Corrupted			
+10100102	2		Fight the unknown Corrupted			
+10100201	2		Keep pursuing			
+10100301	2		Defeat the Special Corrupted			
+10100401	2		Go to the rooftop			
+10100501	2		Defeat the Rail Heterozygote			
+10100601	2		Eliminate the Corrupted in the station			
+10100602	2		Find the gate switch			
+10100603	2		Take the elevator to the 2nd floor			
+10100701	2		Cleared the obstacles and relocated successfully			
+10100901	2		Destroy the limbs of the Rail Heterozygote			
+10101001	2		Destroy the Rail Heterozygote			
+300503011	1		The{0}st wave of enemies are coming	1		
+300503012	2		Collected {0} Coin(s)			
+1301101701	2		<color=#ff0000>Defeat another Lucia</color>			
+1301101711	1		<color=#ff0000>Defeat another Lucia!</color>	3		
+1301101712	1		<color=#ff0000>This Lucia in front of you has fueled your rage!</color>	3		
+1502012980	2		Hello Miss cop, you think you're a God, mucking around dissing underground hip-hop.	7		
+1502012981	2		Y'all roast me/diss me/grill me, kicking me around thinking I'ma gonna drop.	7		
+1502012982	2		But you cannot destroy me, gonna tryna fight my destiny.	7		
+1502012983	2		I'm hustling on a higher level, struggling 'n' battling all the devil.	7		
+1502012984	2		Get lost you scums, traitors 'n' hypocrites; I've had enough of y'all haters' bulls**t.	7		
+1502012985	2		This is my band, my tunes 'n' my house. My swag's cool, and it ain't your business.	7		
+1502012986	2		I'ma biggest show; it's time for you to go. Call me DAILOU, I'm ya Skylord!	7		
+1502012987	2		You go by Pulao? I laugh out loud! You're just a flop, now get the f*** out!	7		
+1502012988	2		I'm no flop! It's Pulao!	3

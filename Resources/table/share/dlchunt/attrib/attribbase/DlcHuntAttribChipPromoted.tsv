@@ -1,19 +1,11 @@
-Id	Life	Attack	Defense	Pierce	PhysicalAmp	Element1Amp	Element2Amp	Element3Amp	Element4Amp	PhysicalReduction	Element1Reduction	Element2Reduction	Element3Reduction	Element4Reduction	PhysicalPierce	Element1Pierce	Element2Pierce	Element3Pierce	Element4Pierce	PhysicalResistance	Element1Resistance	Element2Resistance	Element3Resistance	Element4Resistance	DamageBonus	DamageReduction	Crit	CritResistance	CritDamage	PartDamageBonus	PartDamageReduction	ThreatRate	CharacterValue	Sp	IdleSpinningSpeed	RunSpinningSpeed	DodgeEnergy	JumpEnergy	DodgeEnergyRegen	JumpEnergyRegen	CustomEnergyGroup1	CustomEnergyGroup2	CustomEnergyGroup3	CustomEnergyGroup4
-10011	10	10																																										
-10012	20	20																																										
-10013	30	30																																										
-10021		10	10																																									
-10022		20	20																																									
-10023		30	30																																									
-10031	50	50																																										
-10041		50	50																																									
-10042		100	100																																									
-20011	10	10																																										
-20012	20	20																																										
-20013	30	30																																										
-20021		10	10																																									
-20022		20	20																																									
-20023		30	30																																									
-20031	50	50																																										
-20041		50	50																																									
-20042		100	100																																									
+Id	Life	Attack	AttackIntensity	Defense	DefensePierceP	CritP	CritResistanceP	CritDmgRateP	CritDmgRateReductionP	ShieldEfficiencyP	ShieldAmpP	ShieldReductionP	ShieldGainBonusP	ShieldGainReductionP	PhysicalAmpP	Element1AmpP	Element2AmpP	Element3AmpP	Element4AmpP	PhysicalReductionP	Element1ReductionP	Element2ReductionP	Element3ReductionP	Element4ReductionP	PhysicalPierceP	Element1PierceP	Element2PierceP	Element3PierceP	Element4PierceP	SignalSkillDmgAmpP	SpecialSkillDmgAmpP	NormalAtkDmgAmpP	ExSkillDmgAmpP	HuntSkillDmgAmpP	SignalSkillDmgReductionP	SpecialSkillDmgReductionP	NormalAtkDmgReductionP	ExSkillDmgReductionP	HuntSkillDmgReductionP	ThreatRate	CharacterValue	ExSkillPoint	IdleSpinningSpeed	RunSpinningSpeed	DodgeEnergy	JumpEnergy	DodgeEnergyRegen	JumpEnergyRegen	CustomEnergyGroup1	CustomEnergyGroup2	CustomEnergyGroup3	CustomEnergyGroup4
+410101		12.25		14.75																																																
+410102		14.78		17.79																																																
+410201	27.5	2.5																																																		
+410202	33.23	2.9																																																		
+510101		14.5		17.5																																																
+510102		14.82		17.89																																																
+510103		15.33		18.5																																																
+510201	32.8	2.9																																																		
+510202	33.53	2.96																																																		
+510203	34.67	3.07																																																		

@@ -1,3 +1,5 @@
-ChapterId	Name	Icon	TimeId	PreWorldId	WorldIds[1]	WorldIds[2]	Desc	Index	ModelId
-100001	Chapter 1		0	0	2	1	This is the description of Chapter 1	1	Mb1BengyuehtMd010001
-100002	Chapter 2		0	0	3	4	This is the description of Chapter 1	2	Mb1TifaMd010001UI
+ChapterId	Name	NameEn	Icon	TimeId	PreWorldId	WorldIds[1]	WorldIds[2]	WorldIds[3]	WorldIds[4]	WorldIds[5]	Desc	Index	ModelId	ModelId2
+100001	Anomaly Invasion	Story	Assets/Product/Texture/Image/UiDlcHunt/ImgDlcHuntBoss02.png	15302		2						1	Mb1BengyuehtMd010001	
+100002	Folded Edge	Black	Assets/Product/Texture/Image/UiDlcHunt/ImgDlcHuntBoss03.png	15302	2	3	4	5	6	7		2	Mb1BengyuehtMd010001	
+100003	Severed Light	White	Assets/Product/Texture/Image/UiDlcHunt/ImgDlcHuntBoss01.png	15302	3	8	9	10	11	12		3	Mb1JueanhtMd010001	
+100004	Binary Array		Assets/Product/Texture/Image/UiDlcHunt/ImgDlcHuntBoss04.png	15302	8	13	14	15	16	17		4	Mb1BengyuehtMd010001	Mb1JueanhtMd010001

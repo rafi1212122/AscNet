@@ -1001,6 +1001,9 @@ ActivityBossSingleNotOpen	Event is not available yet
 ActivityBossSingleOver	Event is over
 ActivityRepeatChallengeNotOpen	Event is not available yet
 ActivityRepeatChallengeOver	Event is over
+ActivityRepeatChallengeDesc	When the team has <color=#59f5ff>{0}</color>, you can obtain Lv.{1} permission effects in advance upon starting the stage.
+ActivityRepeatChallengeLevelTitle	Authority Level: {0}/{1}
+ActivityRepeatChallengeAutoOpen	Auto Clear is on.
 ActivityBossOnlineOver	Opens at 01:00-04:59, 09:00-12:59 and 17:00-20:59 from 2/7 - 2/20 (UTC) daily
 ActivityArenaOnlineOver	"Regional Co-op Event time: 11:00-14:00 and 20:00-23:00 daily"
 BossOnlineOver	Boss has been refreshed
@@ -1777,7 +1780,7 @@ GuildSortByRankLevel	Command Bureau Position
 GuildRecommendInCd	Command Bureau refresh recommendation on cooldown. Please try again later.
 BuyAssetPanelTitle	Use
 GuildSearchGuildNotFound	Command Bureau not found
-ActivityBossSingleSchedule	{0}/{1}
+ActivityBossSingleSchedule	{0}<size=62>/{1}</size>
 GuildSettingLevelLessThanZero	Application Settings level below 0
 ArchiveStoryNpcLock	Not enough data
 GuildBossRankPersonalTitle	Change to Personal Ranking
@@ -1928,7 +1931,7 @@ ExhibitionDefaultGroupDescription	No information on this force can be found in B
 ExhibitionSelectAureoTitle	Please select an Infinitas Awakening Wrist Band.
 ExhibitionSelectAureoDesc	A Halo device for Infinitas Awakening frames.
 ExhibitionSelectBallColorTitle	Please select a color for the Signal Orbs.
-ExhibitionSelectBallColorDesc	Gains 3 orbs of the same color after entering the battlefield for the first time.
+ExhibitionSelectBallColorDesc	Gains 3 Signal Orbs of the same color on debut.
 ExhibitionSuperLimit	The Custom feature can only be unlocked after the Infinitas Awakening.
 HeadFrameUse	Equip
 HeadFrameNonUse	Unequip
@@ -1961,7 +1964,7 @@ GuildBossChangePlayerRankStr	Change to Personal Ranking
 GuildBossEnterWarningTitleStr	Tips
 GuildBossEnterWarningStyleStr	You can select more <color=#2a5caa>School Skills</color>. They can be of great help to you in battle. It is suggested to reconsider before proceeding.
 GuildBossStyleWarningCountinue	Proceed Anyway
-GuildBossStyleWarningGoSelect	Select School
+GuildBossStyleWarningGoSelect	Select a School
 GuildBossEnterLowWarningStr	Each commandant can only select 1 <color=#2a5caa>[Regular Zone]</color> stage to challenge each round of the event. Continue?
 GuildBossEnterHighWarningStr	Each commandant can only select 1 <color=#c63c26>[Special Dispatch Zone]</color> stage to challenge each round of the event. Continue?
 GuildBossDamage	Deal {0} DMG to the Siege Target
@@ -2357,7 +2360,7 @@ NieRChapterPartStr	PART.{0}
 NieRChapterPercentStr	{0}%
 NieRChapterPhaseStr	Phase {0}
 NieStageTitleStr	STORY_{0}
-ContributeScoreDesc	Merits are proof of honor and effort that celebrate commandants' contributions in War Zone.\nMerits are distributed based on your ranking in every phase of War Zone. Different groups and rankings provide different Merits.\nOnce you reach 100 Merits, they will no longer increase and will become a demotion protection that exempts you from demotion (all Merits will be rest to 0 in such case).\nMerits are not affected by promotion/demotion in War Zone, yet they will be deducted for demotion protection.\nRegardless of your ranking, you will not receive any Merits when you have 0 War Zone points.\nYou must spend 100 Merits to advance from Hero Squad to Legend Squad.
+ContributeScoreDesc	Merits are proof of honor and effort that celebrate commandants' contributions in War Zone.\nMerits are distributed based on your ranking in every phase of War Zone. Different groups and rankings provide different Merits.\nOnce you reach 100 Merits, they will no longer increase and will become a demotion protection that exempts you from demotion (all Merits will be reset to 0 in such case).\nMerits are not affected by promotion/demotion in War Zone, yet they will be deducted for demotion protection.\nRegardless of your ranking, you will not receive any Merits when you have 0 War Zone points.\nYou must spend 100 Merits to advance from Hero Squad to Legend Squad.
 ContributeScoreNumberDesc	Gain {0} points to offset demotion penalty
 ActivityNierShopLock	Locked
 ActivityNierShopLeftTime	(Shop Remaining: {0})
@@ -3127,7 +3130,7 @@ PokerGuessingActivityEnd	Event is over
 PokerGuessingPlayStory	Play Cutscene
 PokerGuessingUnlockStory	Unlock Story
 PokerGuessingSendTitle	Send Gift
-PokerGuessingSendContent	Sending {0} Astro-Mystery Box(es) can view the character's Double Seventh Festival story.\nConfirm to send?
+PokerGuessingSendContent	Sending {0} Astro-Mystery Box can view the character's Valentine's Day story.\nConfirm to send?
 PokerGuessingGameNotStart	Game not started
 PokerGuessingTipsCountDeficiency	Insufficient tip attempts
 PokerGuessingCharacterSwitch	Character Switched
@@ -3279,6 +3282,8 @@ STShopRefreshBtnText	Refresh: {0}/{1}
 STCostPluginNumberOver	Add-on equip limit exceeded
 STHonorNameText	Data Track obtained:
 SuperTowerShopOwnerText	Owned {0}
+SuperSmashRollbackNothing	Select the records you wish to withdraw.
+SuperSmashRoleHasSelected	P{0} selected
 SuperSmashProgressText	First Opponent\n<color=#ff8e43>{0}/{1}</color>
 SuperSmashTeamLevel	Team Level: {0}
 SuperSmashModeLock	Unlocks after [{0}] is available
@@ -3575,7 +3580,7 @@ HiddenAchievementTips	Congrats, you have unlocked a hidden achievement!
 ReviewActivityNoGuild	N/A
 ReviewActivityDefaultFavorName	Stranger
 ReviewActivityPanelName	Career Record 
-DiceGameNoEnoughCoinHint	<color=#ff0000>{0}</color> Enameled Plum Blossom(s) required
+DiceGameNoEnoughCoinHint	Canned Tea Leaves x<color=#ff0000>{0}</color> required to do this.
 DiceGameCostFlagHint	<color=#8DD4FF>{0}</color> Markers have been converted into <color=#8DD4FF>{1}</color> points.
 DiceGameOperationTitleVerb	Get
 DiceGameOperationTitleA	                             Points equal to: Total number of dice with 1, 2 and 3 <color=#9EDCFF>×{0}</color>
@@ -3643,7 +3648,7 @@ TheatrePassReopen	Remaining Returns
 TheatreNotSelectTokenTip	Are you sure you do not want to select any work? <color=#6495ED>Equipping a work</color> can <color=#6495ED>increase</color> the <color=#6495ED>chance</color> of getting the corresponding School.
 MemorySaveTreasureTip	Stages completed in current chapter
 TheatreDetailRoleMaxLevel	/{0}
-NotOwnCurRole	You do not own this character
+NotOwnCurRole	You do not own this character 
 TheatreRestartCount	Restarts: {0}
 TheatreCurChapter	Scene {0}
 TheatreRecruitRefreshNotEnough	Insufficient refresh attempts
@@ -3655,6 +3660,7 @@ TheatreRecruitComplete	Member recruited
 TheatreRecruitRefreshComplete	Members refreshed
 TheatreEndShopTip	Would you like to end the trade?
 TheatreUpLevelSuccess	Upgraded
+TheatreNotSelectItem	Please?select.
 DoomsdayActivityNotOpen	Event not yet available
 DoomsdayActivityEnd	Event is over
 DoomsdayStageStartLeftDay	Available after Stage {0}
@@ -3866,6 +3872,7 @@ YuanXiaoNextGrade	Next Grade
 YuanXiaoHighestGrade	Highest Grade
 YuanXiaoGradeScore	{0}/{1}
 YuanXiaoGameIncrease	(+{0})
+YuanXiaoGetReward	The system will automatically claim Daily Mission Rewards for Commandant:
 SpecialTrainYuanXiaoMatchTipTitle	Tips
 SpecialTrainYuanXiaoMatchTipContent	Too many players in the matching queue. Create room directly?
 UpLevelSuccess	Upgraded
@@ -3948,6 +3955,10 @@ GuildDormMusicEditSaveSuccess	Playlist saved.
 GuildDormMusicEditCloseTitle	Exit
 GuildDormMusicEditCloseContent	Save playlist changes?
 GuildDormThemeChanged	Command Bureau Special Scene Expired
+GuildDormBgmExperienceExpire	Trial expired. Unable to select.
+GuildDormBgmEditExperienceExpire	Trial period for the songs of the list is over.
+GuildDormSceneTrialTime	Remaining time: {0}
+GuildDormSpecialThemeIdTips	Manual change of scenes is forbidden during special events.
 BabelTowerAffixLevelInadequateTitle	Affix Level insufficient
 BabelTowerAffixLevelInadequateContent	Strategy Target will not be increased by completing this challenge. Continue?
 BabelTowerAbilityWarningTitle	Warning
@@ -4118,6 +4129,7 @@ YuanXiaoText1	Ranking
 YuanXiaoText2	Completed
 YuanXiaoText3	Trophy
 YuanXiaoText4	Score
+YuanXiaoText5	Training Star
 MoeWarGiftTipsDesc	Sending             can restore <color=#197dcb>{0}</color> Mood to the Helper.\nConfirm to proceed?
 MoeWarWinnerGroup	Champions
 MoeWarFailGroup	Underdogs
@@ -4208,11 +4220,14 @@ SpecialTrainRandomMapTip	Cannot create room after selecting a random map
 CurLevel	Degraded successfully.
 DecreaseLevel	Degrade
 DrawFreeTicketCoolDown	Expire in {0}
-SummerSignInDefault	Please select to check an unopened postcard, Commandant.
+SummerSignInDefault	Please select to check an unopened postcard.
 SummerSignInFinishSign	You have used up the check attempts today. Please come back tomorrow.
 SummerSignInChoseMessage	Postcard from {0} and gifted <color=#ff8105>Free Research</color>
 SummerSignInViewCountFinishTip	You have used up the check attempts today. Please come back tomorrow.
 BiancaTheatreRestartTipsDesc	Insufficient Biomimetic Blood
+BiancaTheatreLockRollCount	Limited by Sight, you cannot deploy more than {0} characters.
+BiancaTheatreAchievementLeft	Already the first page
+BiancaTheatreAchievementRight	Already the last page
 NotOwn	{0} Not Owned
 AssistOnlyOne	Only 1 assistant in the assistant queue. Unable to randomize.
 PurchaseLBOwnAll	You already have all the items in the pack
@@ -4295,11 +4310,12 @@ DlcHuntChipLevel2	{0}/<color=#28cfff>{1}</color>
 DlcHuntTaskFinish	All missions completed
 DlcHuntChipMaxLevel	Max level reached
 DlcHuntChipBreakthrough	Overclock {0}
+DlcHuntChipBreakthrough0	N/A
 DlcHuntChipSelect	Selected: <color=#00ffffff>{0}</color>/{1}
 DlcHuntChipGroupPower	Battle Power: <color=#58c5cd><size=32>{0}</size></color>
 DlcHuntChipGroupLevel	Lv<color=#1f494f><size=28>{0}</size></color>
 DlcHuntChipAmount	（<color=#00ffffff>{0}</color>/{1}）
-DlcHuntChipGroupEquipAmount	Equipped: <color=#58c5cd><size=36>3</size></color>/9
+DlcHuntChipGroupEquipAmount	Equipped: <color=#58c5cd><size=36>{0}</size></color>/{1}
 DlcHuntChipGroupAmount	<color=#ffffff>{0}</color>/{1}
 DlcHuntChipAssistantZero	Cannot be obtained
 DlcHuntChipLevel3	Lv：{0}
@@ -4308,6 +4324,16 @@ DlcHuntReconnectFail2	Stage cleared. Reward will be mailed.
 DlcHuntReconnectFail3	Failed to clear the stage. Unable to reconnect.
 DlcHuntReconnectToRoom	Resume to the battle in Artemis Anchor's Co-op room?\nTap "Cancel" to reconnect to the battle through the Co-op room later.
 DlcHuntFightingPower	Battle Power: <color=#58c5cd>{0}</color>
+DlcHuntStrengthenSuccess	Chip enhanced successfully.
+DlcHuntBreakthroughSelectMaterial	Please select Overclock Materials.
+DlcHuntSelectAssistantChip	Support Chip not selected. Battle preparation is not done. Select Support Chip?
+DlcHuntWorldLock4Time	Challenge Available in: {0}
+DlcHuntWorldLock4PreWorld	Unlocks after clearing Stage {0}
+DlcHuntAssistPointReward	Support Chip Borrow Reward
+DlcHuntAssistCreateRoom	Too few players for matching. Create a room instead?
+DlcHuntReconnecting	Conneting to battle. Unable to do this.
+DlcHuntPopUpAttrPrefix	{0} growth
+DlcHuntChipEquiped	Chip equipped.
 RiftAttributeTemplateName1	Default Plan
 RiftAttributeTemplateName2	A
 RiftAttributeTemplateName3	B
@@ -4323,7 +4349,7 @@ ColorTableBreakFight	{0} challenge in progress. The progress will be lost, and t
 ColorTableCurObtain	Total: {0}
 ColorTableUnlockShopTips	Collect {0} Badge to unlock.
 ColorTableRoundTxt	Round {0}
-ColorTableLvTxt	Lv.: {0}
+ColorTableLvTxt	Lv. {0}
 ColorTableBurstSettleTip	Master(s) over Lv.6! The age of masters is triggered!
 ColorTableNoEnoughCostTxt	<color=#ff3f3f> {0} </color>
 ColorTableRollPointTxt	Obtained: {0} Paint +{1}
@@ -4332,7 +4358,7 @@ ColorTableStudyLevelMaxTip	Reach the max level to point out a master's fatal fla
 ColorTableStudyLevelMaxMassage	Can reduce the master's level to Lv.1.
 ColorTableTipActionPoint	Obtain 5 Points each round to perform Actions.
 ColorTableTipEsayModeTitle	After it is enabled, tap the building to advance to or execute the building feature.
-ColorTableTipEsayMode	Too many options for art evaluation. The building window will still be open.
+ColorTableTipEsayMode	The building window will still be open as there are multiple options for Art Criticism.
 ColorTableTipStudyData	Three-Color Paint:\nCan store up to 7 Points. Can be obtained by consuming Action Points in the Paint Workshop. Use it to raise the Rating Level or reduce the percentage of a Painting School.
 ColorTableEndDialogTitle	End
 ColorTableEndDialogContext	Unused Action Points. End anyway?
@@ -4342,7 +4368,7 @@ ColorTableRollBossExplodeTitle	Burst of Inspiration
 ColorTableRollBossEpidemicTitle	Clash of Schools
 ColorTableNewRoundTxt	Round {0}
 ColorTableSettleWinTitle	<color=#{0}>{1}</color>
-ColorTableSettleWinTip	<color=#{0}>Tap Confirm to unlock the next phase.</color>
+ColorTableSettleWinTip	<color=#{0}>Tap Continue to unlock the next phase.</color>
 ColorTableSettleLoseTitle	<color=#F8F8F8>All masters have reached Lv.6. Challenge failed.</color>
 ColorTableSettleLoseTip	<color=#A1A1A1>Bring the level of all masters down to Lv.4 and continue the challenge?\n(You will receive the same rewards by clearing the stage in Normal mode.)</color>
 ColorTableSettleHardLoseTip	<color=#F8F8F8>Challenge failed.\n(You cannot revive in the Hard mode.)</color>
@@ -4390,6 +4416,8 @@ DormQuestTerminalMemberInWork	Member doing chores. Unable to select.
 DormQuestTerminalQuestUpdate	Today's commissions refreshed.
 DormQuestTerminalTeamRegress	Team Returned
 DormQuestTerminalTeamFree	Idle Team
+DormQuestTerminalMainTeamRegress	Dormitory Commission System: Teams Returned ({0})
+DormQuestTerminalMainTeamFree	Dormitory Commission System: Idle Teams ({0})
 DormQuestTerminalFinishQuestCount	<size=80>{0}</size><color=#000000>/{1}</color>
 DormQuestTerminalNextQuestRefreshTime	Next Commission Refresh in: <color=#1482E4>{0}</color>
 EquipResonancedLimit	Resonance is required to unlock the Hypertune feature.
@@ -4417,8 +4445,58 @@ AssignOccupyOtherMember	Stationing in another area
 AwarenessOccupyThisMember	Currently Guarding
 AwarenessOccupyOtherMember	Guarding in another area
 SuperAwareness	Hypertune is only available when Memory is at max level and Resonnance Skill is unlocked
-ColorTableStudyDataTxt	{0} / {1}
+SetKeyConflict	This key is already used by another function. Would you like to swap them?\nCurrently used by: {0}\nKey selected: {1}
+SetInputStartNoCombine	Tap a button
 GuildBossOpenLimit	Event is not available. Please try again later.
+FightDlcSosTips	Waiting for Rescue: {0}
+ColorTableStudyDataTxt	{0} / {1}
+BuyItemCountLimit	{0} purchase limit reached.
+SuperSmashAssistance	Backup
+SuperSmashCareer	Support/\nAmplifier
+SuperSmashProgress2	Progress: <color=#0da6ec><size=42>{0}</size></color>
+SuperSmashRollBack	Cancel [challenge record]?\nThis will clear the challenge record.
+SuperSmashRollBackTitle	Reset Notice
+SuperSmashFinish	Completed
+SuperSmashNotRipe	Progress must be over {0}.
+SuperSmashCanNotSelect	Cannot select
+Maverick2RemainUnitCount	Units to Be Allocated: {0}
+Maverick2UnitCountUnlock	Allocate <color=#fff21f><size=32>{0}</size></color> Mind Units to unlock.
+Maverick2MentalLvUnlock	Unlocked at Mind Lv.<color=#fff21f><size=32>{0}</size></color>.
+Maverick2TalentLv	Lv.{0}
+Maverick2TalentLock	Talent activation conditions not met.
+Maverick2TalentUnEffect	Talent locked. It cannot take effect.
+Maverick2HelpSkillName	{0}: Lv.{1}
+Maverick2HelpSkillUnlock	Support Skill unlocked
+Maverick2RobotlUnlock	New character unlocked.
+Maverick2TalentLvUpNoEnough	Insufficient Mind Units. Unable to upgrade.
+Maverick2ChapterCompleteProgress	{0}%
+GuildWarEditPathCantLink	Unable to connect to this node. Please try again.
+GuildWarTwinsChildDetail	Merge when defeated. The lower HP the Nodes have, the lower HP after the merge.
+GuildWarTwinsRootDetail	Boss can restore 10% of Max HP to Ambushers.
+RedText	<color=#ff1831>{0}</color>
+GachaMinCount	Special Rewards Guarantee: {0}/{1}
+GuildWarTeamAreaResetDialogTitle	The record is better than the previous one. Reset?
+GuildWarTeamAreaMemberLocked	Character is already locked in another team. Unable to deploy.
+GuildWarTeamAreaSelfMemberChange	Character already in team {0}. Deploy anyway?
+GuildWarTeamAreaAssitantMemberChange	You can only use up to 2 support characters for 3 battles.
+GuildWarTeamNumber	Team {0}
+MovieSpeed	{0}x Speed
+EpicGachaLayer0	Core Layer
+EpicGachaLayer1	Level 1
+EpicGachaLayer2	Level 2
+BuySpeedLimit	Exchange action too fast.
+GuildIsKickMemberInGuildWarTime	Are you sure you want to dismiss the member during the Guild Expedition?
+GuildDialogKickMemberTitle	Dismissal of Member
+DormSkipToNewDrawMainContent	Leaving the Dormitory and jumping to the Research interface. Confirm to jump?
+ClearMinimumGuarantee	All Special Rewards obtained.
+GuildWarTeamAreaSetMemberSuccess	Deployed
+GuildWarTeamAreaTitle	Deployment Notice
+GuildWarFormationTeamTitle	Combat Team [{0}]
+GuildWarTeamAreaFormationChangeError	Support character(s) in team. Unable to switch.
+GuildWarTeamAreaUploadSuccess	Record uploaded.
+GuildWarTeamAreaUploadError	No better challenge record. Unable to upload.
+StartFight	Battle
+StartPlay	Play
 GWSelectDifficultyConfirmContentRecommend	Recommended Activity for this Difficulty is <color=#A52A2A>{0}</color>. Activity of the Command Bureau last round is {1}. Please make sure the Difficulty you select matches the number of active members in the Command Bureau. Continue?
 MultiDimFightExitTipTitle	Dead Characters
 ActivityRepeatChallengeChapterLockBtn	Unlock at Authority Lv.{0}
@@ -4521,7 +4599,7 @@ JPBlackCardPurchaseGift	購入おまけ\n{0}
 JPReviewActivityButtonText	2nd Anniversary Review
 JPReviewActivityButton	Claim
 JPBuyTicketSuccessTips	購入しました、{0}を{1}枚獲得
-JPNoticeTypeTitle3	外部サイト
+JPNoticeTypeTitle3	External Site
 DoomsdayNumberUp	<color=#0F70BC><size=28> (+{0})</size></color>
 DoomsdayNumberDown	<color=#E1504F><size=28> (-{0})</size></color>
 Draw01	Research drop chance as follows:
@@ -4562,8 +4640,6 @@ EnKrFireworksLeveldonotenough	Requirement: Commandant Lv.20
 DeepLinkNotTime	Event is not available
 EnKrNotSpecialTrainDailyTime	Co-op opening Time: 01:00-04:59，09:00-12:59，17:00-20:59.
 BuyAssetHKNotEnoughTipsEN	Insufficient Rainbow Card. Go to the recharge page to purchase more?
-SetKeyConflict	This key is already used by another function. Would you like to swap them?\nCurrently used by: {0}\nKey selected: {1}
-SetInputStartNoCombine	Press Key
 SetJoyStickNotSwap	This button is already occupied and cannot be used.
 SetSingleKeyConflict	One or more buttons selected in this combo are conflicting with another action. Please change the button of the conflicting action first.\nButton occupied: {0}\nConflict:  {1}
 PcKeyBoardButtonNoCusTip	Unable to modify this button in Keyboard & Mouse mode. Please configure in Button 2 instead.
@@ -4582,8 +4658,6 @@ FavorabilityDropDownHKCV	Cantonese:
 ThousandEN	K
 MillionEN	M
 FavorabilityCastEN	CV:{0}
-GuildDormBgmExperienceExpire	Trial expired. Unable to select.
-GuildDormBgmEditExperienceExpire	Trial period for the songs of the list is over.
-GuildDormSceneTrialTime	Remaining time: {0}
-GuildDormSpecialThemeIdTips	Manual change of scenes is forbidden during special events.
-skinvotetimeshowen	01.18 - 01.23(utc)
+skinvotetimevoteen	01.18 - 01.23(utc)
+skinvotetimenoticeen	01.18 - 01.25(utc)
+SceneTranslationEN	Scene

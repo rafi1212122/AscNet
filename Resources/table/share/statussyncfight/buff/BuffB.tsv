@@ -14,7 +14,13 @@ Id	Magic	Name	Desc	Delay	Duration	EffectType	AffixId	Limit	Kind	Cover	Mutex	Effe
 5000002	5000998	Stay			-1				5000002									
 5000003	5000997	Black Screen			-1				5000003									
 5000004	5000996	Screen Vignetting, Use Preloaded Special Effect "FxDianyingPingmu00"			-1			1	5000004									
+5000005		Remove Screen Vignette			0				5000005	5000004								
+5000006		Remove Black Screen			0				5000006	5000003								
+5000007		Combat UI Off			-1				5000007									
+5000008		Cancel Combat UI Shutdown			0				5000008	5000007								
 5010000	5010999	Local Black and White Screen			-1				5010000									
 599013		13th Stage Mark Means 13th Stage			-1				599013									
 5990130		13th Stage Mark Jump Starts			-1				5990130									
 5990131		13th Stage Mark Jump Ends			0				5990131	5990130								
+5990140		Stage 14 False Result Calculation Mark			-1				5990140									
+5990141		Delete False Result Calculation Mark			0				5990141	5990140								

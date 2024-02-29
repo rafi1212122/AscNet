@@ -1,100 +1,100 @@
-Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
-11050102	普攻1-伤害	3	3	240		1	0			4			0.1						-1		FxR3LuosaitaAtk01Hit						-1			1																	0							0	3		0.2	0.1	110501021	110501									1.2			0						0	1												110501022	
-11050203	普攻2-伤害	1	3	4.5		2.25	0			4			0.1						-1		FxR3LuosaitaAtk02Hit						-1			1																	0							0	3		0.2	0.1	110502031	110502	110507								1.5			0						0	1													
-11050302	普攻3-伤害	1	3	8		0.5	0			4			0.1						-1		FxR3LuosaitaAtk03Hit						-1			1																	0							0	3		0.2	0.1	110503021	110503									1.5			0						0	1												110503022	
-11050303	普攻3-伤害	1	3	8		0.5	0			4			0.1						-1		FxR3LuosaitaAtk03Hit						-1			1																	0							0	3		0.2	0.1	110503031	110503									1.5			0						0	1												110503032	
-11050402	普攻4-伤害	2	3			1.5	0			4			0.1						-1		FxR3LuosaitaAtk04Hit01						-1			1																	0							0	3		0.2	0.1	110504021	110504									1.3			0						0	1													
-11050501	普攻5-伤害	1	3	6		1.5	0			4			0.3						-1	1	FxR3LuosaitaAtk05Hit		0.15				-1			1																	0							0	3		0.2	0.1	110505011	110505									1.2			1						0	1												110505012	
-11050601	普攻6-伤害	3	3.5	240			0			4			0.3						-1		FxR3LuosaitaAtk0601Hit						-1			1																	0							0	3		0.2	0.1	110506011	110506									1.2			0						0	1												110506012	
-11050602	普攻6-伤害	3	4.5	240		-0.5	0			4			0.3						-1		FxR3LuosaitaAtk0602Hit						-1			1																	0							0	3		0.2	0.1	110506021	110506	110508				110508				1.2			0						0	1													
-11050702	红球1消-2	1	2.5	2		1	40			4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110507021	110511									0	HitCase		0						0	1													
-11050703	红球1消-3	1	2.5	2		1	40		-10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110507031	110511									0	HitCase		0						0	1													
-11050704	红球1消-4	1	2.5	2		1	40		10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110507041	110511									0	HitCase		0						0	1													
-11050802	红球2消-2	1	2.5	2		1	40			4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110508021	110512									0	HitCase		0						0	1													
-11050803	红球2消-3	1	2.5	2		1	40		-10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110508031	110512									0	HitCase		0						0	1													
-11050804	红球2消-4	1	2.5	2		1	40		10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110508041	110512									0	HitCase		0						0	1													
-11050902	红球3消-2	1	2.5	2		1	40			4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110509021	110513									0	HitCase		0						0	1													
-11050903	红球3消-3	1	2.5	2		1	40		-10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110509031	110513									0	HitCase		0						0	1													
-11050904	红球3消-4	1	2.5	2		1	40		10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110509041	110513									0	HitCase		0						0	1													
-11051002	蓝球1消-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110510021	110521									1.2			0						0	1												110510022	
-11051004	蓝球1消-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110510041	110525									1.3			0						0	1													
-11051005	蓝球1消-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110510051	110525									1.3			0						0	1													
-11051006	蓝球1消-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110510061	110525									1.3			0						0	1													
-11051007	蓝球1消-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11051008	蓝球1消-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11051102	蓝球2消-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110511021	110522									1.2			0						0	1												110511022	
-11051104	蓝球2消-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110511041	110526									1.3			0						0	1													
-11051105	蓝球2消-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110511051	110526									1.3			0						0	1													
-11051106	蓝球2消-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110511061	110526									1.3			0						0	1													
-11051107	蓝球2消-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11051108	蓝球2消-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11051202	蓝球3消-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110512021	110523									1.2			0						0	1												110512022	
-11051204	蓝球3消-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110512041	110527									1.3			0						0	1													
-11051205	蓝球3消-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110512051	110527									1.3			0						0	1													
-11051206	蓝球3消-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110512061	110527									1.3			0						0	1													
-11051207	蓝球3消-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11051208	蓝球3消-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11051304	黄球1消-4	1	2.5	1.5		1	0			4			0.1						-1		FxR3LuosaitaAtk3101Hit						-1			1																	0							0	3		0.2	0.1	110513041	110531	110508								1.2			1						0	1												110513042	
-11051305	黄球1消-5	1	2.5	6		4	0			4			0.1						-1		FxR3LuosaitaAtk3102Hit						-1			1																	0							0	3		0.2	0.1	110513051	110531									1.2			0						0	1												110513052	
-11051404	黄球2消-4	1	2.5	1.5		1	0			4			0.1						-1		FxR3LuosaitaAtk3101Hit						-1			1																	0							0	3		0.2	0.1	110514041	110532	110508								1.2			1						0	1												110514042	
-11051405	黄球2消-5	1	2.5	6		4	0			4			0.1						-1		FxR3LuosaitaAtk3102Hit						-1			1																	0							0	3		0.2	0.1	110514051	110532									1.2			0						0	1												110514052	
-11051504	黄球3消-4	1	2.5	1.5		1	0			4			0.1						-1		FxR3LuosaitaAtk3101Hit						-1			1																	0							0	3		0.2	0.1	110515041	110533	110508								1.2			1						0	1												110515042	
-11051505	黄球3消-5	1	2.5	6		4	0			4			0.1						-1		FxR3LuosaitaAtk3102Hit						-1			1																	0							0	3		0.2	0.1	110515051	110533									1.2			0						0	1												110515052	
-11051604	QTE技能-4	2	3				0			4			0.1						-1		FxR3LuosaitaQteHit						-1			1																	0							0	3	30	0.2	0.1	110516041	110562									0	HitCase		0						0	1													
-11051605	QTE技能-5	2	4				0			4			0.35						-1	1	FxR3LuosaitaQteHit		0.05				-1			1																	0							0	3	30	0.2	0.1	110516051	110562									0	HitCase		1						0	1													
-11051607	QTE聚怪	2	4				0			4			1.8						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		100316									0	HitCase		0						0	1													
-11051909	大招-聚怪34	2	15			5	0			4			2.2						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		100316									0	HitCase		0						0	1													
-11051910	大招-时停	2	99				0			4			0.1						-1								-1			1																	0							0	3		0.2	0.1		110566									0	HitCase		0						0	1													
-11051911	大招-聚怪伤害	2	15			5	0			4			2.2						-1	1			0.15				-1			1																	0							0	2		0.2	0.1		110550									0	HitCase		0						0	1													
-11051912	大招-炸伤害	2	25			5	0			4			0.1						-1								-1			1																	0							0	3		0.2	0.1	110519121	110551									0	HitCase		0						0	1													
-11052402	出场技-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110524021	110523									1.2			0						0	1												110524022	
-11052404	出场技-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110524041	110527									1.3			0						0	1													
-11052405	出场技-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110524051	110527									1.3			0						0	1													
-11052406	出场技-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110524061	110527									1.3			0						0	1													
-11052407	出场技-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11052408	出场技-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11052502	普攻1（突进）-2	3	3	240		1	0			4			0.1						-1		FxR3LuosaitaAtk01Hit						-1			1																	0							0	3		0.2	0.1	110525021	110501									1.2			0						0	1												110525022	
-11052903	电磁炮-3	1	1	50		25	0			4			0.1						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110529031	110535									0	HitCase		0						0	1													
-11053004	超电磁炮-4	1	1	50		25	0			4			0.1						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110530041	110536									0	HitCase		0						0	1													
-11053102	红球3消EX-2	1	2.5	2		1	40			4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110531021	110514									0	HitCase		0						0	1													
-11053103	红球3消EX-3	1	2.5	2		1	40		-10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110531031	110514									0	HitCase		0						0	1													
-11053104	红球3消EX-4	1	2.5	2		1	40		10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110531041	110514									0	HitCase		0						0	1													
-11053202	蓝球3消EX-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110532021	110524									1.2			0						0	1												110532022	
-11053204	蓝球3消EX-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110532041	110528									1.3			0						0	1													
-11053205	蓝球3消EX-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110532051	110528									1.3			0						0	1													
-11053206	蓝球3消EX-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110532061	110528									1.3			0						0	1													
-11053207	蓝球3消EX-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11053208	蓝球3消EX-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11053304	黄球3消EX-4	1	2.5	1.5		1	0			4			0.1						-1		FxR3LuosaitaAtk3101Hit						-1			1																	0							0	3		0.2	0.1	110533041	110534	110508								1.2			1						0	1												110533042	
-11053305	黄球3消EX-5	1	2.5	6		4	0			4			0.1						-1		FxR3LuosaitaAtk3102Hit						-1			1																	0							0	3		0.2	0.1	110533051	110534									1.2			0						0	1												110533052	
-11053404	超电磁炮EX-4	1	1.8	50		25	0			4			0.55						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110534041	110537									0	HitCase		0						0	1													
-11053417	QTE聚怪	1	18	5		2	0			4			0.4						-1	1			0.05				-1			1																	0	0	999	1	11053419|11053420|11053421|11053422			0	2		0.2	0.1		118531									0	HitCase		0						0	1													
-11053419	QTE聚怪	1	18	4		6	0			4			0.4						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		118531									0	HitCase		0						0	1													
-11053420	QTE聚怪	1	18	4		10	0			4			0.4						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		118531									0	HitCase		0						0	1													
-11053421	QTE聚怪	1	18	4		14	0			4			0.4						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		118531									0	HitCase		0						0	1													
-11053422	QTE聚怪	1	18	4		18	0			4			0.4						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		118531									0	HitCase		0						0	1													
-11053502	出场技EX-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110535021	110524									1.2			0						0	1												110535022	
-11053504	出场技EX-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110535041	110528									1.3			0						0	1													
-11053505	出场技EX-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110535051	110528									1.3			0						0	1													
-11053506	出场技EX-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110535061	110528									1.3			0						0	1													
-11053507	出场技EX-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11053508	出场技EX-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1													
-11053603	电磁炮-3	2	6	50		0	0			4			0.1						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110536031	110535									0	HitCase		0						0	1													
-11053605	超电磁炮_降雷2-4	1	0.3	0.3			0			4			5						-1						FxR3WeilaAtk4101		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1													
-11053606	超电磁炮_降雷2-4	1	0.2	0.2			0			4			5						-1						FxR3WeilaAtk4101Dian		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1													
-11053607	超电磁炮_降雷2-4	1	0.4	0.4			0			4			5						-1						FxR3WeilaAtk4102		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1													
-11053608	超电磁炮_降雷2-4	2	0.3				0			4			5						-1						FxR3LuosaitaAtk52Dilie		-1			1																	0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-11053610	大招-时停	2	99				0			4			0.1						-1								-1			1																	0							0	3		0.2	0.1		118538									0	HitCase		0						0	1													
-11053703	超电磁炮-4	2	6	50		0	0			4			0.1						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110537031	110536									0	HitCase		0						0	1													
-11053708	超电磁炮_降雷2-4	1	0.4	0.4			0			4			5						-1						FxR3WeilaAtk4101		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1													
-11053709	超电磁炮_降雷2-4	1	0.2	0.2			0			4			5						-1						FxR3WeilaAtk4101Dian		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1													
-11053710	超电磁炮_降雷2-4	1	0.5	0.5			0			4			5						-1						FxR3WeilaAtk4102		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1													
-11053711	超电磁炮_降雷2-4	2	0.3				0			4			5						-1						FxR3LuosaitaAtk52Dilie		-1			1																	0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-11053713	大招-时停	2	99				0			4			0.1						-1								-1			1																	0							0	3		0.2	0.1		118538									0	HitCase		0						0	1													
-11053803	超电磁炮EX-4	2	8	50		0	0			4			0.1						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110538031	110537									0	HitCase		0						0	1													
-11053809	超电磁炮_降雷2-4	2	0.3				0			4			5						-1						FxR3LuosaitaAtk53Dilie		-1			1																	0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-11053810	超电磁炮_降雷26	1	1.5	1.5			0			4			5						-1						FxR3WeilaAtk4101		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1													
-11053811	超电磁炮_降雷14	1	2	2			0			4			5						-1						FxR3WeilaAtk4101Dian		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1													
-11053812	超电磁炮_降雷19	1	2	2			0			4			5						-1						FxR3WeilaAtk4102		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1													
-11053814	大招-时停	2	99				0			4			0.1						-1								-1			1																	0							0	3		0.2	0.1		118541									0	HitCase		0						0	1													
-11053815	QTE聚怪	2	10			1	0			4			0.4						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		118531									0	HitCase		0						0	1													
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType	FollowHeightJoint	BindLauncherFrame	BindSkillFrame
+11050102	普攻1-伤害	3	3	240		1	0			4			0.1						-1		FxR3LuosaitaAtk01Hit						-1			1																	0							0	3		0.2	0.1	110501021	110501									1.2			0						1	1												110501022				
+11050203	普攻2-伤害	1	3	4.5		2.25	0			4			0.1						-1		FxR3LuosaitaAtk02Hit						-1			1																	0							0	3		0.2	0.1	110502031	110502	110507								1.5			0						0	1																
+11050302	普攻3-伤害	1	3	8		0.5	0			4			0.1						-1		FxR3LuosaitaAtk03Hit						-1			1																	0							0	3		0.2	0.1	110503021	110503									1.5			0						1	1												110503022				
+11050303	普攻3-伤害	1	3	8		0.5	0			4			0.1						-1		FxR3LuosaitaAtk03Hit						-1			1																	0							0	3		0.2	0.1	110503031	110503									1.5			0						1	1												110503032				
+11050402	普攻4-伤害	2	3			1.5	0			4			0.1						-1		FxR3LuosaitaAtk04Hit01						-1			1																	0							0	3		0.2	0.1	110504021	110504									1.3			0						1	1																
+11050501	普攻5-伤害	1	3	6		1.5	0			4			0.3						-1	1	FxR3LuosaitaAtk05Hit		0.15				-1			1																	0							0	3		0.2	0.1	110505011	110505									1.2			1						1	1												110505012				
+11050601	普攻6-伤害	3	3.5	240			0			4			0.3						-1		FxR3LuosaitaAtk0601Hit						-1			1																	0							0	3		0.2	0.1	110506011	110506									1.2			0						1	1												110506012				
+11050602	普攻6-伤害	3	4.5	240		-0.5	0			4			0.3						-1		FxR3LuosaitaAtk0602Hit						-1			1																	0							0	3		0.2	0.1	110506021	110506	110508				110508				1.2			0						1	1																
+11050702	红球1消-2	1	2.5	2		1	40			4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110507021	110511									0	HitCase		0						1	1																
+11050703	红球1消-3	1	2.5	2		1	40		-10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110507031	110511									0	HitCase		0						1	1																
+11050704	红球1消-4	1	2.5	2		1	40		10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110507041	110511									0	HitCase		0						1	1																
+11050802	红球2消-2	1	2.5	2		1	40			4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110508021	110512									0	HitCase		0						1	1																
+11050803	红球2消-3	1	2.5	2		1	40		-10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110508031	110512									0	HitCase		0						1	1																
+11050804	红球2消-4	1	2.5	2		1	40		10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk11Dandao		-1			1																	0							0	3	30	0.2	0.1	110508041	110512									0	HitCase		0						1	1																
+11050902	红球3消-2	1	2.5	2		1	40			4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110509021	110513									0	HitCase		0						1	1																
+11050903	红球3消-3	1	2.5	2		1	40		-10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110509031	110513									0	HitCase		0						1	1																
+11050904	红球3消-4	1	2.5	2		1	40		10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110509041	110513									0	HitCase		0						1	1																
+11051002	蓝球1消-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110510021	110521									1.2			0						1	1												110510022				
+11051004	蓝球1消-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110510041	110525									1.3			0						1	1																
+11051005	蓝球1消-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110510051	110525									1.3			0						1	1																
+11051006	蓝球1消-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110510061	110525									1.3			0						1	1																
+11051007	蓝球1消-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11051008	蓝球1消-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11051102	蓝球2消-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110511021	110522									1.2			0						1	1												110511022				
+11051104	蓝球2消-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110511041	110526									1.3			0						1	1																
+11051105	蓝球2消-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110511051	110526									1.3			0						1	1																
+11051106	蓝球2消-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110511061	110526									1.3			0						1	1																
+11051107	蓝球2消-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11051108	蓝球2消-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11051202	蓝球3消-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110512021	110523									1.2			0						1	1												110512022				
+11051204	蓝球3消-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110512041	110527									1.3			0						1	1																
+11051205	蓝球3消-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110512051	110527									1.3			0						1	1																
+11051206	蓝球3消-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110512061	110527									1.3			0						1	1																
+11051207	蓝球3消-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11051208	蓝球3消-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11051304	黄球1消-4	1	2.5	1.5		1	0			4			0.1						-1		FxR3LuosaitaAtk3101Hit						-1			1																	0							0	3		0.2	0.1	110513041	110531	110508								1.2			1						1	1												110513042				
+11051305	黄球1消-5	1	2.5	6		4	0			4			0.1						-1		FxR3LuosaitaAtk3102Hit						-1			1																	0							0	3		0.2	0.1	110513051	110531									1.2			0						1	1												110513052				
+11051404	黄球2消-4	1	2.5	1.5		1	0			4			0.1						-1		FxR3LuosaitaAtk3101Hit						-1			1																	0							0	3		0.2	0.1	110514041	110532	110508								1.2			1						1	1												110514042				
+11051405	黄球2消-5	1	2.5	6		4	0			4			0.1						-1		FxR3LuosaitaAtk3102Hit						-1			1																	0							0	3		0.2	0.1	110514051	110532									1.2			0						1	1												110514052				
+11051504	黄球3消-4	1	2.5	1.5		1	0			4			0.1						-1		FxR3LuosaitaAtk3101Hit						-1			1																	0							0	3		0.2	0.1	110515041	110533	110508								1.2			1						1	1												110515042				
+11051505	黄球3消-5	1	2.5	6		4	0			4			0.1						-1		FxR3LuosaitaAtk3102Hit						-1			1																	0							0	3		0.2	0.1	110515051	110533									1.2			0						1	1												110515052				
+11051604	QTE技能-4	2	3				0			4			0.1						-1		FxR3LuosaitaQteHit						-1			1																	0							0	3	30	0.2	0.1	110516041	110562									0	HitCase		0						1	1																
+11051605	QTE技能-5	2	4				0			4			0.35						-1	1	FxR3LuosaitaQteHit		0.05				-1			1																	0							0	3	30	0.2	0.1	110516051	110562									0	HitCase		1						1	1																
+11051607	QTE聚怪	2	4				0			4			1.8						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		100316									0	HitCase		0						0	1																
+11051909	大招-聚怪34	2	15			5	0			4			2.2						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		100316									0	HitCase		0						0	1																
+11051910	大招-时停	2	99				0			4			0.1						-1								-1			1																	0							0	3		0.2	0.1		110566									0	HitCase		0						0	1																
+11051911	大招-聚怪伤害	2	15			5	0			4			2.2						-1	1			0.15				-1			1																	0							0	2		0.2	0.1		110550									0	HitCase		0						0	1																
+11051912	大招-炸伤害	2	25			5	0			4			0.1						-1								-1			1																	0							0	3		0.2	0.1	110519121	110551									0	HitCase		0						1	1																
+11052402	出场技-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110524021	110523									1.2			0						1	1												110524022				
+11052404	出场技-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110524041	110527									1.3			0						1	1																
+11052405	出场技-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110524051	110527									1.3			0						1	1																
+11052406	出场技-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110524061	110527									1.3			0						1	1																
+11052407	出场技-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11052408	出场技-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11052502	普攻1（突进）-2	3	3	240		1	0			4			0.1						-1		FxR3LuosaitaAtk01Hit						-1			1																	0							0	3		0.2	0.1	110525021	110501									1.2			0						1	1												110525022				
+11052903	电磁炮-3	1	1	50		25	0			4			0.1						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110529031	110535									0	HitCase		0						1	1																
+11053004	超电磁炮-4	1	1	50		25	0			4			0.1						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110530041	110536									0	HitCase		0						1	1																
+11053102	红球3消EX-2	1	2.5	2		1	40			4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110531021	110514									0	HitCase		0						1	1																
+11053103	红球3消EX-3	1	2.5	2		1	40		-10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110531031	110514									0	HitCase		0						1	1																
+11053104	红球3消EX-4	1	2.5	2		1	40		10	4			1						-1		FxR3LuosaitaAtk11Hit				FxR3LuosaitaAtk13Dandao		-1			1																	0							0	3	30	0.2	0.1	110531041	110514									0	HitCase		0						1	1																
+11053202	蓝球3消EX-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110532021	110524									1.2			0						1	1												110532022				
+11053204	蓝球3消EX-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110532041	110528									1.3			0						1	1																
+11053205	蓝球3消EX-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110532051	110528									1.3			0						1	1																
+11053206	蓝球3消EX-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110532061	110528									1.3			0						1	1																
+11053207	蓝球3消EX-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11053208	蓝球3消EX-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11053304	黄球3消EX-4	1	2.5	1.5		1	0			4			0.1						-1		FxR3LuosaitaAtk3101Hit						-1			1																	0							0	3		0.2	0.1	110533041	110534	110508								1.2			1						1	1												110533042				
+11053305	黄球3消EX-5	1	2.5	6		4	0			4			0.1						-1		FxR3LuosaitaAtk3102Hit						-1			1																	0							0	3		0.2	0.1	110533051	110534									1.2			0						1	1												110533052				
+11053404	超电磁炮EX-4	1	1.8	50		25	0			4			0.55						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110534041	110537									0	HitCase		0						1	1																
+11053417	QTE聚怪	1	18	5		2	0			4			0.4						-1	1			0.05				-1			1																	0	0	999	1	11053419|11053420|11053421|11053422			0	2		0.2	0.1		118531									0	HitCase		0						0	1																
+11053419	QTE聚怪	1	18	4		6	0			4			0.4						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		118531									0	HitCase		0						0	1																
+11053420	QTE聚怪	1	18	4		10	0			4			0.4						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		118531									0	HitCase		0						0	1																
+11053421	QTE聚怪	1	18	4		14	0			4			0.4						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		118531									0	HitCase		0						0	1																
+11053422	QTE聚怪	1	18	4		18	0			4			0.4						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		118531									0	HitCase		0						0	1																
+11053502	出场技EX-2	3	3	240		0.5	0			4			0.1						-1		FxR3LuosaitaAtk21Hit						-1			1																	0							0	3		0.2	0.1	110535021	110524									1.2			0						1	1												110535022				
+11053504	出场技EX-4	2	3			1	15			4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110535041	110528									1.3			0						1	1																
+11053505	出场技EX-5	2	3.5			4.5	0			4			0.35						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110535051	110528									1.3			0						1	1																
+11053506	出场技EX-6	2	3.5			-4.5	25		180	4			0.1						-1	1	FxR3LuosaitaAtk21Hit		0.1				-1			1																	0							0	3		0.2	0.1	110535061	110528									1.3			0						1	1																
+11053507	出场技EX-7	2	3.5			4.5	0			4			0.35						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11053508	出场技EX-8	2	3.5			-4.5	25		180	4			0.15						-1	1			0.05				-1			1																	0							0	3		0.2	0.1		110529									0	HitCase		0						0	1																
+11053603	电磁炮-3	2	6	50		0	0			4			0.1						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110536031	110535									0	HitCase		0						1	1																
+11053605	超电磁炮_降雷2-4	1	0.3	0.3			0			4			5						-1						FxR3WeilaAtk4101		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1																
+11053606	超电磁炮_降雷2-4	1	0.2	0.2			0			4			5						-1						FxR3WeilaAtk4101Dian		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1																
+11053607	超电磁炮_降雷2-4	1	0.4	0.4			0			4			5						-1						FxR3WeilaAtk4102		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1																
+11053608	超电磁炮_降雷2-4	2	0.3				0			4			5						-1						FxR3LuosaitaAtk52Dilie		-1			1																	0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+11053610	大招-时停	2	99				0			4			0.1						-1								-1			1																	0							0	3		0.2	0.1		118538									0	HitCase		0						0	1																
+11053703	超电磁炮-4	2	6	50		0	0			4			0.1						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110537031	110536									0	HitCase		0						1	1																
+11053708	超电磁炮_降雷2-4	1	0.4	0.4			0			4			5						-1						FxR3WeilaAtk4101		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1																
+11053709	超电磁炮_降雷2-4	1	0.2	0.2			0			4			5						-1						FxR3WeilaAtk4101Dian		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1																
+11053710	超电磁炮_降雷2-4	1	0.5	0.5			0			4			5						-1						FxR3WeilaAtk4102		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1																
+11053711	超电磁炮_降雷2-4	2	0.3				0			4			5						-1						FxR3LuosaitaAtk52Dilie		-1			1																	0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+11053713	大招-时停	2	99				0			4			0.1						-1								-1			1																	0							0	3		0.2	0.1		118538									0	HitCase		0						0	1																
+11053803	超电磁炮EX-4	2	8	50		0	0			4			0.1						-1		FxR3LuosaitaAtk44Hit						-1			1																	0							0	3		0.2	0.1	110538031	110537									0	HitCase		0						1	1																
+11053809	超电磁炮_降雷2-4	2	0.3				0			4			5						-1						FxR3LuosaitaAtk53Dilie		-1			1																	0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+11053810	超电磁炮_降雷26	1	1.5	1.5			0			4			5						-1						FxR3WeilaAtk4101		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1																
+11053811	超电磁炮_降雷14	1	2	2			0			4			5						-1						FxR3WeilaAtk4101Dian		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1																
+11053812	超电磁炮_降雷19	1	2	2			0			4			5						-1						FxR3WeilaAtk4102		-1			1																	0							0	3		0	0.1											0	HitCase	1	0		0				0	1																
+11053814	大招-时停	2	99				0			4			0.1						-1								-1			1																	0							0	3		0.2	0.1		118541									0	HitCase		0						0	1																
+11053815	QTE聚怪	2	10			1	0			4			0.4						-1	1			0.05				-1			1																	0							0	2		0.2	0.1		118531									0	HitCase		0						0	1																

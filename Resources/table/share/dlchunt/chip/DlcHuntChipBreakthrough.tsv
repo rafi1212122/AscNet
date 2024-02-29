@@ -1,19 +1,22 @@
-Id	ChipId	BreakTimes	LevelLimit	AttribId	AttribPromotedId	MagicEventIds[1]	MagicEventIds[2]	LevelUpTemplateId	CostType	CostChipBreakTime	CostChipQuality	CostCount	OfferExp	ResolveItem	ResolveItemCount	ConsumeDes
-1	23001001	0	10	100101	10011			1	1	0	5	1	1000	96125	10	Master chips of the same quality and overclock rank
-2	23001001	1	15	100102	10012	111		2	1	1	5	2	2000	96125	20	Master chips of the same quality and overclock rank
-3	23001001	2	20	100103	10013	111	112	3	1	2	5	3	3000	96125	30	Master chips of the same quality and overclock rank
-4	23001002	0	10	100201	10021			1	1	0	5	1	1000	96125	10	Master chips of the same quality and overclock rank
-5	23001002	1	15	100202	10022	113		2	1	1	5	2	2000	96125	20	Master chips of the same quality and overclock rank
-6	23001002	2	20	100203	10023	113	114	3	1	2	5	3	3000	96125	30	Master chips of the same quality and overclock rank
-7	23001003	0	10	100301	10031			1	1	0	3	1	500	96127	10	Master chips of the same quality and overclock rank
-8	23001004	0	10	100401	10041			1	1	0	3	1	500	96126	10	Master chips of the same quality and overclock rank
-9	23001004	1	15	100402	10042	115		2	1	0	3	2	1000	96126	20	Master chips of the same quality and overclock rank
-10	23002001	0	10	200101	20011			1	1	0	5	1	1000	96128	10	Subordinate chips of the same quality and overclock rank
-11	23002001	1	15	200102	20012	116		2	1	1	5	2	2000	96128	20	Subordinate chips of the same quality and overclock rank
-12	23002001	2	20	200103	20013	116	117	3	1	2	5	3	3000	96128	30	Subordinate chips of the same quality and overclock rank
-13	23002002	0	10	200201	20021			1	1	0	5	1	1000	96128	10	Subordinate chips of the same quality and overclock rank
-14	23002002	1	15	200202	20022	118		2	1	1	5	2	2000	96128	20	Subordinate chips of the same quality and overclock rank
-15	23002002	2	20	200203	20023	118	119	3	1	2	5	3	3000	96128	30	Subordinate chips of the same quality and overclock rank
-16	23002003	0	10	200301	20031			1	1	0	3	1	500	96130	10	Subordinate chips of the same quality and overclock rank
-17	23002004	0	10	200401	20041			1	1	0	3	1	500	96129	10	Subordinate chips of the same quality and overclock rank
-18	23002004	1	15	200402	20042	119		2	1	0	3	2	1000	96129	20	Subordinate chips of the same quality and overclock rank
+Id	ChipId	BreakTimes	LevelLimit	AttribId	AttribPromotedId	MagicEventIds[1]	MagicEventIds[2]	MagicLevel[1]	MagicLevel[2]	LevelUpTemplateId	CostType	CostChipBreakTime	CostChipQuality	CostCount	OfferExp	ResolveItem	ResolveItemCount	ConsumeDes
+1	23014002	0	5	400101	410101	4001000		1		401	1	0	4	1	100	96126	10	Main chips of the same quality
+2	23014002	1	10	400102	410102	4001000		1		402	1	0	4	1	300	96126	10	Main chips of the same quality
+3	23014001	0	5	400101	410101	4002000		1		401	1	0	4	1	100	96126	10	Main chips of the same quality
+4	23014001	1	10	400102	410102	4002000		1		402	1	0	4	1	300	96126	10	Main chips of the same quality
+5	23024001	0	5	400201	410201	4003000		1		401	2	0	4	1	100	96129	10	Secondary chips of the same quality
+6	23024001	1	10	400202	410202	4003000		1		402	2	0	4	1	300	96129	10	Secondary chips of the same quality
+7	23015002	0	5	500101	510101	5001001		1		501	1	0	5	1	200	96125	10	Main chips of the same quality
+8	23015002	1	10	500102	510102	5001001		1		502	1	0	5	1	500	96125	10	Main chips of the same quality
+9	23015002	2	15	500103	510103	5001001	5001002	1	1	503	1	0	5	1	1000	96125	10	Main chips of the same quality
+10	23015001	0	5	500101	510101	5002001		1		501	1	0	5	1	200	96125	10	Main chips of the same quality
+11	23015001	1	10	500102	510102	5002001		1		502	1	0	5	1	500	96125	10	Main chips of the same quality
+12	23015001	2	15	500103	510103	5002001	5002002	1	1	503	1	0	5	1	1000	96125	10	Main chips of the same quality
+13	23025001	0	5	500201	510201	5003001		1		501	2	0	5	1	200	96128	10	Secondary chips of the same quality
+14	23025001	1	10	500202	510202	5003001		1		502	2	0	5	1	500	96128	10	Secondary chips of the same quality
+15	23025001	2	15	500203	510203	5003001	5003002	1	1	503	2	0	5	1	1000	96128	10	Secondary chips of the same quality
+16	23025002	0	5	500201	510201	5004001		1		501	2	0	5	1	200	96128	10	Secondary chips of the same quality
+17	23025002	1	10	500202	510202	5004001		1		502	2	0	5	1	500	96128	10	Secondary chips of the same quality
+18	23025002	2	15	500203	510203	5004001	5004002	1	1	503	2	0	5	1	1000	96128	10	Secondary chips of the same quality
+19	23025003	0	5	500201	510201	5005001		1		501	2	0	5	1	200	96128	10	Secondary chips of the same quality
+20	23025003	1	10	500202	510202	5005001		1		502	2	0	5	1	500	96128	10	Secondary chips of the same quality
+21	23025003	2	15	500203	510203	5005001	5005002	1	1	503	2	0	5	1	1000	96128	10	Secondary chips of the same quality

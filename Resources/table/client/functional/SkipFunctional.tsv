@@ -93,11 +93,16 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 40037	2	UiAutoWindow	38	1.32 Version Image								1					
 40038	2	UiAutoWindow	39	Ice Lucia Mermaid Dynamic Coating								1					
 40039	2	UiAutoWindow	40	Return Event 3								1					
-40040	2	UiAutoWindow	41	V2.0 Version Close-up Image			2022/11/17 10:00	2022/11/24 5:00				1					
-40041	2	UiAutoWindow	42	V2.0 Luna Effect Coating Close-up Image			2022/11/18 10:00	2022/12/12 9:59				1					
-40042	2	UiAutoWindow	43	V2.0 Dark Selena Effect Coating Close-up Image			2022/11/18 10:00	2022/12/12 9:59				1					
+40040	2	UiAutoWindow	41	V2.0 Version Close-up Image								1					
+40041	2	UiAutoWindow	42	V2.0 Luna Effect Coating Close-up Image								1					
+40042	2	UiAutoWindow	43	V2.0 Dark Selena Effect Coating Close-up Image								1					
+40043	2	UiAutoWindow	44	V2.1 Bianca: Stigmata Top-standard Special Effect Coating								1					
 40044	2	UiAutoWindow	45	V2.1 Version Close-up Image								1					
-40045	2	UiAutoWindow	46	Skip to Crimson Weave Short Animation								1					
+40045	2	UiAutoWindow	46	V2.1 Alpha: Crimson Weave Effect Coating Close-up Image								1					
+40046	2	UiAutoWindow	47	V2.1 Karenina Effect Coating Close-up Image								1					
+40047	2	UiAutoWindow	48	V2.1 Guild Dormitory Spring Festival Event Close-up Image								1					
+40048	2	UiAutoWindow	49	V2.2 Version Close-up Image								1					
+40049	2	UiAutoWindow	50	深红囚影动画短片跳转								1					
 50000	2	UiSignBanner	1									1					
 50001	2	UiSignBanner	2									1					
 50004	2	UiSignBanner	3									1					
@@ -119,7 +124,7 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 50021	2	UiSignBanner	15	Anniversary 7-day Sign-in								1					
 50022	2	UiSignBanner	16	Anniversary 3-day Sign-in								1					
 50023	2	UiSignBanner	17	Nier 7-day Sign-in								1					
-50024	2	UiPurchase	4	Black Card Interface					1	0	0	1					
+50024	2	UiPurchase	4	Black Card Exchange					1	0	0	1					
 50025	2	UiSignBanner	18	New Year Sign-in								1					
 50026	2	UiSignBanner	19	Spring Tribute Sign-in								1					
 50027	2	UiSignBanner	20	New Year Sign-in								1					
@@ -151,6 +156,9 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 50054	2	UiSignBanner	46	Lee: Hyperreal Sign-in								1					
 50055	2	UiSignBanner	48	S Ayla Version Sign-in								1					
 50056	2	UiSignBanner	49	3rd Year Anniversary 3-day Sign-in								1					
+50057	2	UiSignBanner	50	S Crimson Abyss Version 7-Day Sign-in								1					
+50058	2	UiSignBanner	51	2.1 Lantern Festival 3-Day Sign-in								1					
+50059	2	UiSignBanner	52	2.1 Spring Festival 3-Day Sign-in								1					
 50042	7	SkipToWeekChallenge		Weekly Mission								1					
 500	1	UiMedalUnlock		Go to Unlock Medals								1					
 11	2	UiDrawGroup	1	Research System								1					
@@ -439,6 +447,7 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 502	7	OnOpenMainLineStage		"Main Story - Chapter xx (check Share-Fuben-Mainline-Chapter.tab, fill in the 1st stage ID of the chapter)"	10308				10200101			1					
 503	7	OnOpenMainLineStage		Main Story - Chapter xx (check Share-Fuben-Mainline-Chapter.tab, fill in the 1st stage ID of the chapter)	10308				10210101			1					
 504	7	OnOpenMainLineStage		Main Story - Chapter xx (check Share-Fuben-Mainline-Chapter.tab, fill in the 1st stage ID of the chapter)	10308				10220101			1					
+505	7	OnOpenMainLineStage		Main Story - Chapter xx (check Share-Fuben-Mainline-Chapter.tab, fill in the 1st stage ID of the chapter)	10308				10230101			1					
 700	3	UiNewFuben	12010102	Go to Stronghold mode	10103							1					
 701	3	UiNewFuben	12010202	Go to Stronghold mode	10103							1					
 702	3	UiNewFuben	12010402	Go to Stronghold mode	10103							1					
@@ -948,7 +957,8 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 7113	7	SkipToPartnerTeachingChapter		To CUB tutorial trial - Chapter 6	1801				6			1					
 7114	7	SkipToPartnerTeachingChapter		To CUB Tutorial Trial - Chapter 7	1801				7			1					
 7115	7	SkipToPartnerTeachingChapter		To CUB Tutorial Trial - Chapter 8	1801				8			1					
-7116	7	SkipToPartnerTeachingChapter		To CUB Tutorial Trial - Chapter 8	1801				9			1					
+7116	7	SkipToPartnerTeachingChapter		To CUB Tutorial Trial - Chapter 9	1801				9			1					
+7117	7	SkipToPartnerTeachingChapter		To CUB Tutorial Trial - Chapter 10	1801				10			1					
 7200	3	UiNewFuben	10030304	Go to Main Stage								1					
 7201	6	UiCharacter		Go to Enhance Your Member	101				0			1					
 7202	6	UiCharacter		Go to Upgrade Your Member	101				0			1					
@@ -1215,7 +1225,7 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 10009	7	OnOpenUiFubenBossSingle		Phantom Pain Cage	10203							1					
 10010	4			Recycle HQ Facility	901							1					
 10011	7	OnOpenMainlineSubtab		Interlude	1701				2			1					
-10012	1	UiNewDrawMain		Research	401							1					
+10012	7	SkipToNewDrawMain		Research	401							1					
 10013	7	OnOpenUiFubenDaily		Special Training	10406				1000			1					
 10014	7	OnOpenUiFubenDaily		Military Hardware 2-4	10408				1002			1					
 10015	8	SkipDormShop		Dormitory Shop	902							1					
@@ -1301,6 +1311,7 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 19045	7	OnOpenExhibition		Members - Omniframe	105				1231002	1		1					
 19046	7	OnOpenExhibition		Members - Omniframe	105				1011004	1		1					
 19047	7	OnOpenExhibition		Members - Omniframe	105				1091003	1		1					
+19048	7	OnOpenExhibition		Members - Omniframe	105				1021005	1		1					
 20000	1	UiNewFuben		Event Quest								1					
 20001	7	OnOpenUiActivityBossSingle		Gestalt								1					
 20002	7	OnOpenUiOnlineBoss		Co-op	10302							1					
@@ -1355,7 +1366,7 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 20052	2	UiPhotograph		Photo Mode								1					
 20053	7	OnOpenGacha		Obtained from Backlight Matrix	403				1			1					
 20054	7	OnOpenGacha		To Heavenly Gift	403				2			1					
-20055	7	OnOpenActivityBriefShop		Event Material Shop (Limited Tab)	1001				1246			1					
+20055	7	OnOpenActivityBriefShop		Event Material Shop (Limited Tab)	1001				1250			1					
 20056	2	UiActivityBase	1	Complete Christmas Event Mission					1	207		1					
 20057	2	UiActivityBase	1	Complete New Year Event Mission					1	204		1					
 20058	2	UiNierTask		Abyssal Action	1305							1					
@@ -1371,7 +1382,7 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 20068	7	OnOpenFestivalActivity		Go to April Fools instance	10306				20			1					
 20069	2	UiActivityBase	1	"Complete Event Mission of ""Fist of the Overlord"""					1	202		1					
 20070	6	UiPuzzleActivity		To Puzzle	10324				3			1					
-20071	7	OnOpenNewCharActivity		New Character Theme Trial (CustomParams is the number of the current season)	10325				15			1					
+20071	7	OnOpenNewCharActivity		New Character Theme Trial (CustomParams is the number of the current season)	10325				16			1					
 20072	7	OnOpenGachaOrganize		Moe War Card Draw Redirect	403		2021/4/8 10:00	2021/5/6 9:59	1			1					
 20073	7	OnOpenFestivalActivity		To S-Rank Pet Event	10306				21			1					
 20074	6	UiMovieAssemble		Go to Story Recollection					1			1					
@@ -1393,9 +1404,9 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 20090	7	OnOpenUiPrequel		"(Example) Go to a specific Interlude, put the Interlude ID in CustomParams (Custom-1 = the first 4 digits of Custom-2; Custom-2 = Prequel ID)"	1701				1020	1012002		1					
 20091	6	UiLivWarmActivityPop		Go to Super Liv Tile-matching Minigame	10347				1			1					
 20092	6	UiLivWarmSoundsActivity		Go to Super Liv Audio Minigame	10348				1			1					
-20093	2	UiActivityBase	1	"Complete ""Springtime Tavern"" event missions"					1	91		1					
-20094	7	OnOpenUiPrequel		"Roland Interlude: A Great Show (Example) Go to a specific Interlude, put the Interlude ID in CustomParams (Custom-1 = the first 4 digits of Custom-2; Custom-2 = Prequel ID)"	1701				1030	1021001		1					
-20095	7	OnOpenMainLineStage		"Main Story - Chapter 16 (check Share-Fuben-Mainline-Chapter.tab, fill in the 1st stage ID of the chapter)"	10308				10160101			1					
+20093	6	UiWelfare		Complete the "Dark Winter Origin" event mission.	1				1	91							
+20094	7	OnOpenUiPrequel		Roland Interlude: A Great Show (Example) Go to a specific Interlude, put the Interlude ID in CustomParams (Custom-1 = the first 4 digits of Custom-2; Custom-2 = Prequel ID)	1701				1030	1021001		1					
+20095	7	OnOpenMainLineStage		Main Story - Chapter 16 (check Share-Fuben-Mainline-Chapter.tab, fill in the 1st stage ID of the chapter)	10308				10160101			1					
 20096	7	OnOpenPassport		Tactical Assessment Manual	10342		2021/8/13 5:00	2021/9/30 4:59				1					
 20097	1	UiLivWarmRaceMain		To Racing Minigame	10414							1					
 20098	7	SkipToPickFlipRewardActivity		Liv: Empyrea Coating Flip Event					1			1					
@@ -1445,14 +1456,14 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 20143	7	OnOpenMainLineStage		"Main Story - Chapter 19 (check Share-Fuben-Mainline-Chapter.tab, fill in the 1st stage ID of the chapter)"	10308				10190101			1					
 20144	7	OnOpenGachaOrganize		Skip to Moe War Season 2 Draw	403		2022/3/1 10:00	2022/5/6 9:59	3			1					
 20145	7	OnOpenPassport		Tactical Assessment Manual	10342		2022/4/21 5:00	2022/6/2 4:59				1					
-20146	7	SkipToFavorabilityNew		Advance to Communicate with Members	1400	9001						1					
+20146	7	SkipToFavorabilityNew		Advance to Communicate with Members	1400	2160247						1					
 20147	7	OnOpenFestivalActivity		"Clear the story mission ""Dragon Boat Festical"""	10306				25			1					
 20148	2	UiActivityBase	1	"Complete ""Veiled Rift"" Event Mission"					1	91		1					
 20149	6	UiPuzzleActivity		To Puzzle	10324				5			1					
 20150	7	OpenLotto		To Departure 2.0					4			1					
 20151	7	ShortStoryChapter		Go to Floating Record Chapter 2: Cinder Burns	10314				2002			1					
 20152	7	OnOpenPassport		Tactical Assessment Manual	10342		2022/6/2 10:00	2022/7/8 4:59				1					
-20153	7	SkipToRepeatChallengeActivityShop		Go to Rerun Event - Shop	1001				1246			1					
+20153	7	SkipToRepeatChallengeActivityShop		Go to Rerun Event - Shop	1001				1250			1					
 20154	7	SkipToBodyCombineGame		Go to A Covenant of Glass Minigame	10419				2			1					
 20155	2	UiActivityBase	1	"Complete ""A Covenant of Glass"" Event Missions"					1	92		1					
 20156	7	SkipToSummerSignInMain		Go to 2022 Summer Sign-in	10434							1					
@@ -1478,6 +1489,11 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 20176	7	OpenLotto		Obtain Coating					6			1					
 20177	7	SkipToGoldenMiner		Go to the Cat Grab event.	10426							1					
 20178	7	OnOpenMainLineStage		Main Story - Chapter 22 (check Share-Fuben-Mainline-Chapter.tab, fill in the 1st stage ID of the chapter)	10308				10220100			1					
+20179	7	OnOpenGacha		Directed to Spring Festival Pool	403				14			1					
+20180	6	UiWelfare		Complete the "Homeward Season" event mission.	1				1	91							
+20181	7	OnOpenGacha		Skip to Spring Festival Coating Stage	403				14	1		1					
+20184	7	OnOpenFestivalActivity		Clear the "The Night Train on New Year's Eve" mission.	10306				29			1					
+20185	7	OnOpenMainLineStage		Main Story - Chapter 23 (check Share-Fuben-Mainline-Chapter.tab, fill in the 1st stage ID of the chapter)	10308				10230101			1					
 11010101	3	UiNewFuben	11010101	困难1-1								1					
 11010102	3	UiNewFuben	11010102	困难1-2								1					
 11010103	3	UiNewFuben	11010103	困难1-3								1					
@@ -1830,13 +1846,24 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 11766	6	UiFubenFashionStory		Endless Summer Blue - Chapter 3	10341				1	30101018		1					
 11767	6	UiLivWarmExtActivity		Jump to Super Liv Warm-up Event Interface								1					
 11768	7	SkipToUiCharacterTowerChapter		Advance to Arcade Anima - Nightblade story (Parameter 1=Tower Sheet ID, Parameter 2=Chapter Type/1=Story/2=Challenge, Parameter 3=ChapterId)	10436				1001	100111		1					
-11769	7	SkipToUiCharacterTowerChapter		Advance to Arcade Anima - Nightblade challenge	10436				1001	100121		1					
+11769	7	SkipToUiCharacterTowerChapter		Advance to Arcade Anima - Nightblade challenge	10436				1001	100121	1	1					
 11770	7	SkipToUiCharacterTowerChapter		Advance to Arcade Anima - Crimson Abyss story	10436				1002	100211		1					
-11771	7	SkipToUiCharacterTowerChapter		Advance to Arcade Anima - Crimson Abyss challenge	10436				1002	100221		1					
+11771	7	SkipToUiCharacterTowerChapter		Advance to Arcade Anima - Crimson Abyss challenge	10436				1002	100221	1	1					
 11772	7	SkipToUiCharacterTowerChapter		Advance to Arcade Anima	10436							1					
 11773	7	SkipToFashionStory		Rerun: Endless Summer Blue	10341				2			1					
 11774	7	SkipToFubenAssign		Advance to Border Pact	10311							1					
 11775	7	SkipToFubenAwareness		Advance to Sequence Pact	10440							1					
+11776	7	SkipToUiCharacterTowerChapter		Advance to Arcade Anima - Nanami Story	10436				1002	100311		1					
+11777	7	SkipToUiCharacterTowerChapter		Advance to Arcade Anima - Nanami Challenge	10436				1002	100321	1	1					
+11778	6	UiCharacter		Advance to Members - Nightblade	101				1081002			1					
+11779	6	UiCharacter		Advance to Members - Crimson Abyss	101				1021003			1					
+11780	6	UiCharacter		Advance to Members - Starfarer	101				1051004			1					
+11781	3	UiNewFuben	10040203	Advance to Nightblade Story								1					
+11782	3	UiNewFuben	11140105	Advance to Crimson Abyss Story								1					
+11783	7	ShortStoryChapter		Advance to Starfarer Story	10314				2001	15020222		1					
+11784	7	SkipToFavorabilityNewParam		Go to Featured Lines (Affection)	1400				1081002			1					
+11785	7	SkipToFavorabilityNewParam		Go to Featured Lines (Affection)	1400				1021003			1					
+11786	7	SkipToFavorabilityNewParam		Go to Featured Lines (Affection)	1400				1051004			1					
 60001	1	UiPartnerMain		Partner System	5001							1					
 70001	7	SkipToStrongholdMain		Norman Revival Plan	10205							1					
 70002	1	UiStrongholdPower		Norman Revival Plan Power Station	10206							1					
@@ -1923,6 +1950,14 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 80080	6	UiPurchase		Purchase Coating Supply Pack	5		2024/1/18 2:00	2024/2/22 7:59	2	0	3	1					
 80081	6	UiShop	3	Coating Shop	1001		2024/2/23 2:00		1	0	502	1					
 80082	6	UiWelfare		Advance to [Renaissance du Fantastique] Sign-in	7		2023/1/18 2:00	2023/2/1 6:59				1					
+80083	6	UiPurchase		Purchase Coating Supply Pack	5		2024/2/23 2:00	2024/4/7 7:59	2	0	3	1					
+80084	6	UiShop	3	Coating Shop	1001		2024/4/8 2:00		1	0	502	1					
+80085	7	OnOpenGacha		Advance to event [Snow Petals].			2024/2/29 8:00	2024/3/28 7:59	14								
+80086	6	UiPurchase		Purchase Coating Supply Pack	5		2024/2/23 2:00	2024/4/7 7:59	2	0	3	1					
+80087	7	SkipToDlcHuntMain		Advance to event [Anchor Realm].	10441		2024/3/8 7:00	2024/4/5 6:59									
+80088	7	OnOpenPassport		Tactical Assessment Manual	10342		2024/2/23 7:00	2024/4/8 1:59				1					
+80089	6	UiPurchase		Purchase Coating Supply Pack	5		2024/2/23 2:00	2024/4/7 7:59	2	0	3	1					
+80090	6	UiPurchase		Purchase Coating Supply Pack	5		2024/2/23 2:00	2024/4/7 7:59	2	0	3	1					
 81001	7	SkipToSpringFestivalActivity		Purchase Coating Supply Pack								1					
 81002	7	SkipToSpringFestivalCollectWord		Card Collection Event	1308							1					
 81003	7	SkipToSpringFestivalSmashEggs		Smash Eggs Event								1					
@@ -1969,7 +2004,7 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 86012	7	SkipToStrongholdFightMain		"Norman Revival Plan (Stage Select; Parameter 1: ChapterId, Paremeter 2: GroupId)"	10205				7	136		1					
 86013	7	SkipToStrongholdFightMain		"Norman Revival Plan (Stage Select; Parameter 1: ChapterId, Paremeter 2: GroupId)"	10205				8	140		1					
 86014	7	SkipToStrongholdFightMain		"Norman Revival Plan (Stage Select; Parameter 1: ChapterId, Paremeter 2: GroupId)"	10205				9	144		1					
-87001	7	SkipToDlcHuntMain		DLC													
+87001	7	SkipToDlcHuntMain		DLC	10441		2023/1/12 5:00	2023/2/9 5:00									
 88001	6	UiGuildSign		Guild Dorm Music Box								1					
 88002	6	UiShop		Guild Shop	1001				301			1					
 88003	7	SkipRift		To the Mythic Paradise	10437							1					
@@ -1979,8 +2014,13 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 89002	7	SkipToRegression3rdMovie		Return Event 3								1					
 89003	6	UiFubenPracticeCharacterDetail		Skip to Celica's tutorial	1800				1031003	30100923		1					
 89004	1	UiNewbieTaskMain		For Beginning Player	10435							1					
-89006	7	SkipToSkinVote		Skip to the Coating Name Voting.	10442												
 89005	7	SkipToShopByShopTypeAndShopId		Voucher — Rare Item Exchange Shop	1002				3	6002		1					
+89006	7	SkipToSkinVote		Skip to the Coating Name Voting.	10442												
+89007	7	OnOpenUiSpecialTrainActivity		Handmade Blessings Training Stage	10316				10			1					
+89008	7	SkipToRestaurantMain		Punishing: Gray Raven Restaurant	10443							1					
+89009	7	OnOpenGacha		Bianca Spring Festival Pool					14								
+89011	7	SkipToMaverick2		Corrupted Battlefront 2	10444							1					
+89012	7	OnOpenGacha		Bianca Spring Festival Pool					14	1							
 1400001	2	UiActivityBase	3	deeplink公告跳转		1400001			1								
 1400002	6	UiNewDrawMain		deeplink联动卡池跳转	401	1400002			1	19							
 1400003	1	UiActivityBriefBase		deeplink尼尔活动主界面跳转		1400003											
@@ -1995,7 +2035,7 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 1400012	2	UiActivityBase	3	超丽芙cg预热跳转					1	1							
 1400013	2	UiAutoWindow	19	JP1.22海之日活动打脸跳转													
 1400014	2	UiActivityBase	1	イベントタブ					17								
-1000001	2	UiSet	9		7				7								
+1000001	2	UiSet	10		7				7								
 1400015	2	UiActivityBase	3	夏日祭公告跳转					1	1							
 1400016	2	UiActivityBase	3	JP1.23超丽芙cg预热跳转					2	2002							
 1400017	2	UiAutoWindow	22									1					
@@ -2021,6 +2061,9 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 1100133	6	UiNewDrawMain		JP1.32Deeplink超刻卡池跳转	401	2121059			1	11		1					
 1100140	1	UiActivityBriefBase		JP2.0版本deeplink创汇映想活动面板跳转		2121060											
 1100141	6	UiNewDrawMain		JP2.0版本deeplink艾拉卡池跳转	401	2121061			1	11		1					
+1100150	1	UiActivityBriefBase		JP2.1版本deeplink凛桎鸣渊活动面板跳转		2121066											
+1100151	6	UiNewDrawMain		JP2.1版本deeplink超白毛卡池跳转	401	2121067			1	11		1					
+1100152	7	OnOpenGacha		JP2.1版本deeplink超比安卡涂装卡池跳转			2023/9/21 5:00	2023/11/2 5:00	14								
 8100	2	UiActivityBase	1	5th Sub Tab under Event Tab					5								
 1000002	2	UiSignBanner	1000002														
 1100001	2	UiSignBanner	12	Lucky Summer													
@@ -2152,4 +2195,8 @@ SkipId	Origin	UiName	ParamId	Explain	FunctionalId	TimeId	StartTime	CloseTime	Cus
 1300503	2	UiSignBanner	1300260	EN1.32圣诞签到					1								
 1300504	2	UiSignBanner	1300270	EN2.0春节签到					1								
 1300510	1	UiActivityBriefBase		EN2.0deeplink创绘映想活动面板		2160227											
-1300511	6	UiNewDrawMain		EN2.0deeplink艾拉卡池	401	2160228			1	11		1					
+1300511	6	UiNewDrawMain		EN2.0deeplink艾拉卡池	401	2160228			1	11		1
+1300520	1	UiActivityBriefBase		EN2.1Deeplink活动面板跳转		2160240											
+1300521	6	UiNewDrawMain		EN2.1Deeplink雷白毛卡池跳转	401	2160241			1	11		1					
+1300522	7	OnOpenFestivalActivity		EN2.1Deeplink春节剧情跳转	10306	2160242			29			1					
+1300523	7	OnOpenGacha		EN2.1Deeplink比安卡特效涂装卡池跳转	403	2160243			14			1					

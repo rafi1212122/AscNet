@@ -1,18 +1,51 @@
-Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic
-50010404		2	0.3				0			4			10						999						FxR2LiangAttack5102		-1			1																								0																																					
-50010709		2	0.3				0			4			10						999						FxHuanjueseLan		-1			1																								0																																					
-50011604		2	0.3				0			4			10						999						FxR2LiangAttack5103		-1			1																								0																																					
-50020101		2	0.3			3	0			4			10						999						FxR2KalieninaAttack21Dandao		-1			1																								0																																					
-50020203		2	0.3				0			4			10						999						FxR2KalieninaAttack41		-1			1																								0																																					
-50020204		2	0.3				0			4			10						999								-1			1																								0																																					
-50020404		2	0.3			5	0			4			5						999						FxR2KalieninaAttack51Yujing		-1			1																								0																																					
-50020510		2	0.3				0			4			10						999						FxR2KalieninaAttack11Dandao		-1			1																								0																																					
-50020601		2	0.3			3	0			4			10						999						FxR2KalieninaAttack21Dandao		-1			1																								0																																					
-50020710		2	0.3			1	0			4			10						999						FxR2KalieninaAttack11Dandao		-1			1																								0																																					
-50020718		2	0.3			1	0			4			10						999						FxR2KalieninaAttack11Dandao		-1			1																								0																																					
-50020905		2	0.3				0			4			10						999						FxR2KalieninaAttack33Dandao		-1			1																								0																																					
-50021004		2	0.3			5	0			4			5						999						FxR2KalieninaAttack51Yujing		-1			1																								0																																					
-50021301		2	0.3				0			4			10						999						FxR2KalieninaAttack23Dandao		-1			1																								0																																					
-50021307		2	0.3				0			4			10						999						FxQte		-1			1																								0																																					
-50021308		2	0.3				0			4			10						999						FxQte		-1			1																								0																																					
-50021603		2	0.3				0			4			10						999						FxR2KalieninaAttack41		-1			1																								0																																					
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType	FollowHeightJoint	BindLauncherFrame	BindSkillFrame	SlopeTargetJoint	IgnoreCollideType
+50010404		2	0.3				0			4			10						999						FxR2LiangAttack5102		-1			1																								0																																											
+50010709		2	0.3				0			4			10						999						FxHuanjueseLan		-1			1																								0																																											
+50011604		2	0.3				0			4			10						999						FxR2LiangAttack5103		-1			1																								0																																											
+50020101		2	0.3			3	0			4			10						999						FxR2KalieninaAttack21Dandao		-1			1																								0																																											
+50020203		2	0.3				0			4			10						999						FxR2KalieninaAttack41		-1			1																								0																																											
+50020204		2	0.3				0			4			10						999								-1			1																								0																																											
+50020404		2	0.3			5	0			4			5						999						FxR2KalieninaAttack51Yujing		-1			1																								0																																											
+50020510		2	0.3				0			4			10						999						FxR2KalieninaAttack11Dandao		-1			1																								0																																											
+50020601		2	0.3			3	0			4			10						999						FxR2KalieninaAttack21Dandao		-1			1																								0																																											
+50020710		2	0.3			1	0			4			10						999						FxR2KalieninaAttack11Dandao		-1			1																								0																																											
+50020718		2	0.3			1	0			4			10						999						FxR2KalieninaAttack11Dandao		-1			1																								0																																											
+50020905		2	0.3				0			4			10						999						FxR2KalieninaAttack33Dandao		-1			1																								0																																											
+50021004		2	0.3			5	0			4			5						999						FxR2KalieninaAttack51Yujing		-1			1																								0																																											
+50021301		2	0.3				0			4			10						999						FxR2KalieninaAttack23Dandao		-1			1																								0																																											
+50021307		2	0.3				0			4			10						999						FxQte		-1			1																								0																																											
+50021308		2	0.3				0			4			10						999						FxQte		-1			1																								0																																											
+50021603		2	0.3				0			4			10						999						FxR2KalieninaAttack41		-1			1																								0																																											
+50030102		2	0.3				0			4			10						999						FxR2LifuAttack01		-1			1																								0																																											
+50030202		2	0.3				0			4			10						999						FxR2LifuAttack02		-1			1																								0																																											
+50030304		2	0.3				0			4			10						999						FxR2LifuAttack03DandaoNM		-1			1																	1							0																																											
+50030402		2	0.3				0			4			10						999						FxR2LifuAttack04		-1			1																								0																																											
+50030503		2	0.3				0			4			10						999						FxR2LifuAttack05DandaoNM		-1			1																	1							0																																											
+50030702		2	0.3				0			4			10						999						FxR2LifuAttack23Dandao		-1			1																	1							0																																											
+50030802		2	0.3				0			4			10						999						FxR2LifuAttack33Dandao		-1			1																	1							0																																											
+50030903		2	0.3				0			3			10						999						FxR2LifuAttack51		-1			1																								0																																											
+50031002		2	0.3				0			4			10						999						FxR2LifuAttack01		-1			1																								0																																											
+50031007		2	0.3				0			4			10						999						FxR2LifuAttack02		-1			1																								0																																											
+50031102		2	0.3				0			4			10						999						FxR2LifuAttack02		-1			1																								0																																											
+50031107		2	0.3				0			4			10						999						FxR2LifuAttack01		-1			1																								0																																											
+50031909		2	0.3				0			4			0.3						999						FxR2LifuMove01Start		-1			1																								0																																											
+50031910		2	0.3				0			4			0.3						999						FxR2LifuMove01End		-1			1																								0																																											
+50032009		2	0.3				0			4			0.3						999						FxR2LifuMove02Start		-1			1																								0																																											
+50032010		2	0.3				0			4			0.3						999						FxR2LifuMove02End		-1			1																								0																																											
+50040101		2	0.3				0			4			10						999						FxR3LuosaitaAtk01		-1			1																								0																		1																									
+50040202		2	0.3				0			4			10						999						FxR3LuosaitaAtk02Dilie		-1			1																								0																																											
+50040304		2	0.3				0			4			10						999						FxR3LuosaitaAtk03Dilie01		-1			1																								0																																											
+50040403		2	0.3				0			4			10						999						FxR3LuosaitaAtk04Dilie		-1			1																								0																																											
+50040503		2	0.3				0			4			10						999						FxR3LuosaitaAtk05Dilie		-1			1																								0																																											
+50040701		2	0.3				0			4			10						999						FxR3LuosaitaAtk01		-1			1																								0																		1																									
+50041008		2	0.3				0			4			10						999						FxR3LuosaitaAtk31		-1			1																								0																																											
+50041108		2	0.3			5	0			4			10						999						FxR3LuosaitaAtk51Zha		-1			1																								0																																											
+50042108		2	0.3				0			4			10						999						FxR3LuosaitaAtk33		-1			1																								0																																											
+50042305		2	0.3				0			4			10						999						FxR3WeilaAtk4101		-1			1																								0																																											
+50042306		2	0.3				0			4			10						999						FxR3WeilaAtk4101Dian		-1			1																								0																																											
+50042307		2	0.3				0			4			10						999						FxR3WeilaAtk4102		-1			1																								0																																											
+50042407		2	0.3				0			4			10						999						FxR3WeilaAtk4101		-1			1																								0																																											
+50042408		2	0.3				0			4			10						999						FxR3WeilaAtk4101Dian		-1			1																								0																																											
+50042802		2	0.3				0			4			10						999						FxR3LuosaitaAtk44		-1			1																								0																																											
+50042903		2	0.3				0			4			10						999						FxR3LuosaitaAtk45		-1			1																								0																																											
+50043003		2	0.3				0			4			10						999						FxR3LuosaitaAtk46		-1			1																								0																																											

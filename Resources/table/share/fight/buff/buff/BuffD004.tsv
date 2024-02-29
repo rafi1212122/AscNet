@@ -131,9 +131,9 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 780293			0	-1		780293		1	0	7802930|7700000			780293000	FxCizhuiFushe	Root							
 780297			0	-1				1	0	7802970				FxCizhuiFusheShouji	HitCase							
 780298			0	-1				1	0	7802980			780298000									
-780301			0	-1		780301		1	0	7803010|7700000			780301000	FxCizhuiBihuan	Root							
-780302			0	-1		780302		1	0	7803020|7700000			780302000	FxCizhuiBihuan	Root							
-780303			0	-1		780303		1	0	7803030|7700000			780303000	FxCizhuiBihuan	Root							
+780301			0	-1		780301		1	0	7803010|7700000			780301000		Root							
+780302			0	-1		780302		1	0	7803020|7700000			780302000		Root							
+780303			0	-1		780303		1	0	7803030|7700000			780303000		Root							
 780307			0	-1				1	0	7803070			780307000									
 780308			0	-1				1	0	7803080			780308000									
 780309			0	-1				1	0	7803090			780309000									
@@ -568,4 +568,7 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 780904			0	-1				1	0	7809040	7809040	7809040	780904000									
 780905			0	-1				1	0	7809050	7809050	7809050	780905000									
 780907			0	-1				1	0	7809070	7809070			FxTongyongDianjiHua	HitCase							
-780908			0	-1				1	0	7809080				FxTongyongFuShe	Root							
+780908			0	-1				1	0	7809080				FxTongyongFuShe								
+780909			0	-1				1	0	7809090	7809090		780909000									
+780910			0	-1				1	0	7809100	7809100|7809110			FxCizhuiBihuan3	Root							
+780911			0	-1				1	0	7809110	7809100|7809110			FxCizhuiBihuan2	Root							

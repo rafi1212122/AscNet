@@ -14,7 +14,8 @@ Id	Key[1]	Key[2]	Key[3]	Key[4]	Key[5]	Key[6]	Key[7]	Key[8]	Key[9]	Key[10]	Key[11
 10021013	0|BindEffect|FxR1LuxiyaRMSpearfallmissileBoneSL|missileBoneSL|1|0	0|BindEffect|FxR1LuxiyaRMSpearfallmissileBoneSR|missileBoneSR|1|0																																																																														
 10021014																																																																																
 10021015																																																																																
-10021101																																																																																
+10021016	0.2|BindEffect|FxR1LuxiyaRMSpearout2missileBoneSL|missileBoneSL|1|0	0.2|BindEffect|FxR1LuxiyaRMSpearout2missileBoneSR|missileBoneSR|1|0																																																																														
+10021101	0|Hide|1																																																																															
 10021102	0|Hide|0	0|MoveByMissile|10024005|2																																																																														
 10021103	1|Hide|0	0.5|BindEffect|FxR1LuxiyaRMS1Spear01In||1|1																																																																														
 10021104	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Loop|RocketBonetrunk00|1|1																																																																														
@@ -24,7 +25,7 @@ Id	Key[1]	Key[2]	Key[3]	Key[4]	Key[5]	Key[6]	Key[7]	Key[8]	Key[9]	Key[10]	Key[11
 10021108	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light02|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
 10021109	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light03|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
 10021110	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Out||1|1	3|Hide|1																																																																													
-10021201																																																																																
+10021201	0|Hide|1																																																																															
 10021202	0|Hide|0	0|MoveByMissile|10024005|2																																																																														
 10021203	1|Hide|0	0.5|BindEffect|FxR1LuxiyaRMS1Spear01In||1|1																																																																														
 10021204	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Loop|RocketBonetrunk00|1|1																																																																														
@@ -34,7 +35,7 @@ Id	Key[1]	Key[2]	Key[3]	Key[4]	Key[5]	Key[6]	Key[7]	Key[8]	Key[9]	Key[10]	Key[11
 10021208	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light02|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
 10021209	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light03|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
 10021210	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Out||1|1	3|Hide|1																																																																													
-10021301																																																																																
+10021301	0|Hide|1																																																																															
 10021302	0|Hide|0	0|MoveByMissile|10024005|2																																																																														
 10021303	1|Hide|0	0.5|BindEffect|FxR1LuxiyaRMS1Spear01In||1|1																																																																														
 10021304	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Loop|RocketBonetrunk00|1|1																																																																														
@@ -57,10 +58,16 @@ Id	Key[1]	Key[2]	Key[3]	Key[4]	Key[5]	Key[6]	Key[7]	Key[8]	Key[9]	Key[10]	Key[11
 10141011	0|BindEffect|FxS1BiankaRMmissileBoneQteIn2102|missileBone|1|1																																																																															
 10141012																																																																																
 10141013																																																																																
-10141014	0.15|BindEffect|FxS1BiankaRMmissileBoneQte23|missileBone|1|1																																																																															
-10141015	0.15|BindEffect|FxS1BiankaRMmissileBoneQte23|missileBone|1|1																																																																															
+10141014	0.4|BindEffect|FxS1BiankaRMmissileBoneQte23|missileBone|1|1																																																																															
+10141015	0.4|BindEffect|FxS1BiankaRMmissileBoneQte23|missileBone|1|1																																																																															
 10141016	0|Hide|1	0.3|Hide|0																																																																														
-10141101																																																																																
+10141017	0|BindEffect|FxR3BiankaRMSpearout2missileBone|missileBone|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSL|missileBoneSL|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSL02|missileBoneSL02|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSR|missileBoneSR|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSR02|missileBoneSR02|1|1																																																																											
+10141018	0|BindEffect|FxR3BiankaRMPenqimissileBoneSL|missileBoneSL|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSL02|missileBoneSL02|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSR|missileBoneSR|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSR02|missileBoneSR02|1|1																																																																												
+10141019	0|BindEffect|FxR3BiankaRMPenqimissileBoneSL|missileBoneSL|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSL02|missileBoneSL02|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSR|missileBoneSR|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSR02|missileBoneSR02|1|1																																																																												
+10141020	0|BindEffect|FxR3BiankaRMPenqimissileBoneSL|missileBoneSL|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSL02|missileBoneSL02|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSR|missileBoneSR|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSR02|missileBoneSR02|1|1																																																																												
+10141021	0|BindEffect|FxR3BiankaRMPenqimissileBoneSL|missileBoneSL|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSL02|missileBoneSL02|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSR|missileBoneSR|1|1	0|BindEffect|FxR3BiankaRMPenqimissileBoneSR02|missileBoneSR02|1|1																																																																												
+10141022																																																																																
+10141101	0|Hide|1																																																																															
 10141102	0|Hide|0	0|MoveByMissile|10024005|2																																																																														
 10141103	1|Hide|0	0.5|BindEffect|FxR1LuxiyaRMS1Spear01In||1|1																																																																														
 10141104	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Loop|RocketBonetrunk00|1|1																																																																														
@@ -70,7 +77,7 @@ Id	Key[1]	Key[2]	Key[3]	Key[4]	Key[5]	Key[6]	Key[7]	Key[8]	Key[9]	Key[10]	Key[11
 10141108	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light02|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
 10141109	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light03|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
 10141110	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Out||1|1	3|Hide|1																																																																													
-10141201																																																																																
+10141201	0|Hide|1																																																																															
 10141202	0|Hide|0	0|MoveByMissile|10024005|2																																																																														
 10141203	1|Hide|0	0.5|BindEffect|FxR1LuxiyaRMS1Spear01In||1|1																																																																														
 10141204	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Loop|RocketBonetrunk00|1|1																																																																														
@@ -80,7 +87,7 @@ Id	Key[1]	Key[2]	Key[3]	Key[4]	Key[5]	Key[6]	Key[7]	Key[8]	Key[9]	Key[10]	Key[11
 10141208	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light02|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
 10141209	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light03|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
 10141210	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Out||1|1	3|Hide|1																																																																													
-10141301																																																																																
+10141301	0|Hide|1																																																																															
 10141302	0|Hide|0	0|MoveByMissile|10024005|2																																																																														
 10141303	1|Hide|0	0.5|BindEffect|FxR1LuxiyaRMS1Spear01In||1|1																																																																														
 10141304	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Loop|RocketBonetrunk00|1|1																																																																														
@@ -102,41 +109,41 @@ Id	Key[1]	Key[2]	Key[3]	Key[4]	Key[5]	Key[6]	Key[7]	Key[8]	Key[9]	Key[10]	Key[11
 80020502																																																																																
 80020601																																																																																
 80020602																																																																																
-10071101																																																																																
+10071101	0|Hide|1																																																																															
 10071102	0|Hide|0	0|MoveByMissile|10024005|2																																																																														
-10071103	1|Hide|0	0.5|BindEffect|FxR1LuxiyaRMS1Spear01In||1|1																																																																														
-10071104	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Loop|RocketBonetrunk00|1|1																																																																														
+10071103	1|Hide|0	0.5|BindEffect|FxS1SpearR2KalieninaRMAtk01||1|1																																																																														
+10071104	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMAtk02||1|1																																																																														
 10071105	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Out||1|1	3|Hide|1																																																																													
-10071106	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02In|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop|RocketBonetrunk00|1|1																																																																													
-10071107	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light01|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
-10071108	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light02|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
-10071109	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light03|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
+10071106	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMAtk03||1|1																																																																														
+10071107	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMLight01|rocketBone00|1|1	0|BindEffect|FxS1SpearR2KalieninaRMLoop02|rocketBone00|1|1																																																																													
+10071108	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMLight01|rocketBone00|1|1	0|BindEffect|FxS1SpearR2KalieninaRMLoop02|rocketBone00|1|1																																																																													
+10071109	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMLight01|rocketBone00|1|1	0|BindEffect|FxS1SpearR2KalieninaRMLoop02|rocketBone00|1|1																																																																													
 10071110	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Out||1|1	3|Hide|1																																																																													
-10071201																																																																																
+10071201	0|Hide|1																																																																															
 10071202	0|Hide|0	0|MoveByMissile|10024005|2																																																																														
-10071203	1|Hide|0	0.5|BindEffect|FxR1LuxiyaRMS1Spear01In||1|1																																																																														
-10071204	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Loop|RocketBonetrunk00|1|1																																																																														
+10071203	1|Hide|0	0.5|BindEffect|FxS1SpearR2KalieninaRMAtk01||1|1																																																																														
+10071204	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMAtk02||1|1																																																																														
 10071205	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Out||1|1	3|Hide|1																																																																													
-10071206	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02In|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop|RocketBonetrunk00|1|1																																																																													
-10071207	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light01|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
-10071208	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light02|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
-10071209	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light03|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
+10071206	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMAtk03||1|1																																																																														
+10071207	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMLight01|rocketBone00|1|1	0|BindEffect|FxS1SpearR2KalieninaRMLoop02|rocketBone00|1|1																																																																													
+10071208	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMLight01|rocketBone00|1|1	0|BindEffect|FxS1SpearR2KalieninaRMLoop02|rocketBone00|1|1																																																																													
+10071209	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMLight01|rocketBone00|1|1	0|BindEffect|FxS1SpearR2KalieninaRMLoop02|rocketBone00|1|1																																																																													
 10071210	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Out||1|1	3|Hide|1																																																																													
-10071301																																																																																
+10071301	0|Hide|1																																																																															
 10071302	0|Hide|0	0|MoveByMissile|10024005|2																																																																														
-10071303	1|Hide|0	0.5|BindEffect|FxR1LuxiyaRMS1Spear01In||1|1																																																																														
-10071304	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Loop|RocketBonetrunk00|1|1																																																																														
+10071303	1|Hide|0	0.5|BindEffect|FxS1SpearR2KalieninaRMAtk01||1|1																																																																														
+10071304	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMAtk02||1|1																																																																														
 10071305	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Out||1|1	3|Hide|1																																																																													
-10071306	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02In|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop|RocketBonetrunk00|1|1																																																																													
-10071307	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light01|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
-10071308	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light02|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
-10071309	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear02Light03|RocketBonetrunk00|1|1	0|BindEffect|FxR1LuxiyaRMS1Spear02Loop02|RocketBonetrunk00|1|1																																																																													
+10071306	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMAtk03||1|1																																																																														
+10071307	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMLight01|rocketBone00|1|1	0|BindEffect|FxS1SpearR2KalieninaRMLoop02|rocketBone00|1|1																																																																													
+10071308	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMLight01|rocketBone00|1|1	0|BindEffect|FxS1SpearR2KalieninaRMLoop02|rocketBone00|1|1																																																																													
+10071309	0|Hide|0	0|BindEffect|FxS1SpearR2KalieninaRMLight01|rocketBone00|1|1	0|BindEffect|FxS1SpearR2KalieninaRMLoop02|rocketBone00|1|1																																																																													
 10071310	0|Hide|0	0|BindEffect|FxR1LuxiyaRMS1Spear01Out||1|1	3|Hide|1																																																																													
 10071001	0|BindEffect|FxR2KalieninaRMSpearfall|planeBone05|0|1																																																																															
 10071002																																																																																
 10071003	0.4|BindEffect|FxR2KalieninaRMSpearjumpQiliu|planeBone05|0|1	1.25|BindEffect|FxR2KalieninaRMSpearjumpLianjie|planeBone05|0|1																																																																														
 10071004																																																																																
-10071005	0.6|BindEffect|FxR2KalieninaRMAtk61Xuli|planeBone05|1|1	1.1|BindEffect|FxR2KalieninaRMAtk61|planeBone05|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop01|planeBone07|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop02|planeBone09|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																																										
+10071005					0|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																																										
 10071006	0|BindEffect|FxR2KalieninaRMSpearQteIn|planeBone05|1|1																				0|BindEffect|FxR2KalieninaRMSpearQteInLoop01|planeBone07|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop02|planeBone09|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																								
 10071007																					0|BindEffect|FxR2KalieninaRMSpearQteInLoop01|planeBone07|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop02|planeBone09|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																								
 10071008																					0|BindEffect|FxR2KalieninaRMSpearQteInLoop01|planeBone07|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop02|planeBone09|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																								
@@ -146,7 +153,7 @@ Id	Key[1]	Key[2]	Key[3]	Key[4]	Key[5]	Key[6]	Key[7]	Key[8]	Key[9]	Key[10]	Key[11
 10071012	0.12|BindEffect|FxR2KalieninaRMSpearQte20out1101|planeBone07|1|1	0.12|BindEffect|FxR2KalieninaRMSpearQte20out1102|planeBone09|1|1	0.28|BindEffect|FxR2KalieninaRMSpearQte20out1101|planeBone07|1|1	0.28|BindEffect|FxR2KalieninaRMSpearQte20out1102|planeBone09|1|1																	0|BindEffect|FxR2KalieninaRMSpearQteInLoop01|planeBone07|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop02|planeBone09|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																								
 10071013	0.12|BindEffect|FxR2KalieninaRMSpearQte20out1101|planeBone07|1|1	0.12|BindEffect|FxR2KalieninaRMSpearQte20out1102|planeBone09|1|1	0.28|BindEffect|FxR2KalieninaRMSpearQte20out1101|planeBone07|1|1	0.28|BindEffect|FxR2KalieninaRMSpearQte20out1102|planeBone09|1|1	0.62|BindEffect|FxR2KalieninaRMSpearQte20out1101|planeBone07|1|1	0.62|BindEffect|FxR2KalieninaRMSpearQte20out1102|planeBone09|1|1															0|BindEffect|FxR2KalieninaRMSpearQteInLoop01|planeBone07|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop02|planeBone09|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																								
 10071014																					0|BindEffect|FxR2KalieninaRMSpearQteInLoop01|planeBone07|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop02|planeBone09|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																								
-10071015	0.23|BindEffect|FxR2KalieninaRMSpearQte20out3Xuli|planeBone05|1|1																				0|BindEffect|FxR2KalieninaRMSpearQteInLoop01|planeBone07|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop02|planeBone09|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																								
+10071015																					0|BindEffect|FxR2KalieninaRMSpearQteInLoop01|planeBone07|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop02|planeBone09|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																								
 10071016	0|BindEffect|FxR2KalieninaRMGroundPlane01|planeBone07|1|1	0|BindEffect|FxR2KalieninaRMGroundPlane02|planeBone09|1|1																																																																														
-10071017	2.37|BindEffect|FxR2KalieninaRMSpearout02Xuli|planeBone05|0|1		0.733|BindEffect|FxR2KalieninaRMSpearfall|planeBone05|0|1																		0|BindEffect|FxR2KalieninaRMSpearQteInLoop01|planeBone07|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop02|planeBone09|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	0|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																								
+10071017	2.3|BindEffect|FxR2KalieninaRMSpearout02Xuli|planeBone05|0|1	1|BindEffect|FxR2KalieninaRMSpearfall|planeBone05|0|1																			1.5|BindEffect|FxR2KalieninaRMSpearQteInLoop01|planeBone07|1|1	1.5|BindEffect|FxR2KalieninaRMSpearQteInLoop02|planeBone09|1|1	1.5|BindEffect|FxR2KalieninaRMSpearQteInLoop03|planeBone11|1|1	1.5|BindEffect|FxR2KalieninaRMSpearQteInLoop04|planeBone12|1|1																																																								
 10071018																																																																																

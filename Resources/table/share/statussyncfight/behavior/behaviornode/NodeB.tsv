@@ -73,5 +73,5 @@ Id	Type	Negative	Name	Param	Children[1]	Children[2]	Children[3]	Children[4]	Chil
 110000070	0		CheckInt	1#30000|3|1
 110000071	0		CheckBehaviorTime	1#30002|1#30001
 110000072	0		StopMove	
-110000073	0		Debug	Movement ended|1																																																																																																																																																																																																																																																										
+110000073	0		Debug	移动结束|1
 110000074	0		SetInt	1#30000|0

@@ -1,5 +1,5 @@
 Id	MonsterId	MonsterType	Icon	Num	Level	LimitStageId	ModelScale	FightEventList[1]	FightEventList[2]	FightEventList[3]	FightEventList[4]	FightEventList[5]	FightEventList[6]	BuffIds[1]	BuffIds[2]	BuffIds[3]	BuffIds[4]	BuffIds[5]	BuffIds[6]	MonsterInfoId	Note
-1001	93160	1	Assets/Product/Texture/Image/RoleCharacter/ChoujueNormal01.png	1	1000		0.6	776102	772591	760373				776102	772591	760373	776500	776170		100	Gung-hoer
+1001	93160	1	Assets/Product/Texture/Image/RoleCharacter/ChoujueNormal01.png	1	1000		0.6	776102	772591					776102	772591		776500	776170		100	Gung-hoer
 1002	93230	1	Assets/Product/Texture/Image/RoleCharacter/CourierNormal01.png	1	1000		0.6	760332	760311					760332	760311		776501	776171		103	Courier
 1003	93221	1	Assets/Product/Texture/Image/RoleCharacter/DeporterNormal01.png	1	1000		0.6	760241						760241			776502	776172		104	Deporter
 1004	93020	1	Assets/Product/Texture/Image/RoleCharacter/YouyezheNormal01.png	1	1000		0.8	712002	760271					712002	760271		776503	776173		43	Octopus
@@ -11,7 +11,7 @@ Id	MonsterId	MonsterType	Icon	Num	Level	LimitStageId	ModelScale	FightEventList[1
 1010	90830	1	Assets/Product/Texture/Image/RoleCharacter/Mo1MifengMd010001.png	1	1000		0.7	778076	760263					778076	760263		776509	776179		32	Mosquito
 1011	90810	1	Assets/Product/Texture/Image/RoleCharacter/Taieyixing01.png	1	1000		0.8	760221	772595					760221	772595		776510	776180		31	Tai'E
 1012	90760	1	Assets/Product/Texture/Image/RoleCharacter/TuziNormal01.png	1	1000		0.6	712002	780163					712002	780163		776511	776181		29	Hanging Rabbit
-1013	90770	1	Assets/Product/Texture/Image/RoleCharacter/ZhangyuNormal01.png	1	1000		0.6	760373	760401					760373	760401		776512	776182		30	Squid
+1013	90770	1	Assets/Product/Texture/Image/RoleCharacter/ZhangyuNormal01.png	1	1000		0.6	760401						760401			776512	776182		30	Squid
 1014	90780	1	Assets/Product/Texture/Image/RoleCharacter/XiongrenNormal01.png	1	1000		0.6	760451	760603					760451	760603		776513	776183		65	Bear
 1015	90750	1	Assets/Product/Texture/Image/RoleCharacter/XuehaoNormal01.png	1	1000		0.6	760381	760394					760381	760394		776514	776184		28	Snow Owl
 1016	90710	1	Assets/Product/Texture/Image/RoleCharacter/KaixiNormal01.png	1	1000		0.7	772587						772587			776515	776185		25	Cathy
@@ -34,8 +34,8 @@ Id	MonsterId	MonsterType	Icon	Num	Level	LimitStageId	ModelScale	FightEventList[1
 1201	83520	3	Assets/Product/Texture/Image/RoleCharacter/Mb1MelodyhuaxuMd10001.png	1	1000	30161266	0.6	742199						742199			776532	776202		83	Huaxu
 1202	841000	3	Assets/Product/Texture/Image/RoleCharacter/ShulinghouNormal01.png	1	1000	30161267	0.6	772583						772583			776533	776203		89	Pterygota Queen
 1203	81700	3	Assets/Product/Texture/Image/RoleCharacter/TifaNomal01.png	1	1000	30161268	0.7	760242						760242			776534	776204		76	Punishment
-2001		1	Assets/Product/Texture/Image/RoleCharacter/Mo1ShouhuzheMd000001.png	1	1000		0.6	760282	760372					760282	760372					12	Shieldbearer
-2002		1	Assets/Product/Texture/Image/RoleCharacter/Me1XunjingzheMd000001.png	1	1000		0.6	760372						760372						4	Pilgrim
+2001		1	Assets/Product/Texture/Image/RoleCharacter/Mo1ShouhuzheMd000001.png	1	1000		0.6	760282						760282						12	Shieldbearer
+2002		1	Assets/Product/Texture/Image/RoleCharacter/Me1XunjingzheMd000001.png	1	1000		0.6													4	Pilgrim
 2003		1	Assets/Product/Texture/Image/RoleCharacter/Me1ShenhaiqianfuzheMd000002.png	1	1000		1	760302	760132					760302	760132					13	Ambusher
 2004		1	Assets/Product/Texture/Image/RoleCharacter/ZhangyuNormal01.png	1	1000		0.6	760132						760132						30	Squid
 2005		1	Assets/Product/Texture/Image/RoleCharacter/YijushaojiejipaoNormal01.png	1	1000		1	760452	760322					760452	760322					14	Heteromer Gun
@@ -49,8 +49,8 @@ Id	MonsterId	MonsterType	Icon	Num	Level	LimitStageId	ModelScale	FightEventList[1
 2013		1	Assets/Product/Texture/Image/RoleCharacter/BaixianshengNormal01.png	1	1000		1	760272						760272						27	Mr. White
 2014		1	Assets/Product/Texture/Image/RoleCharacter/Mo1YingdengyuMd010001.png	1	1000		0.7	760231	780432					760231	780432					37	Monkfish
 2015		1	Assets/Product/Texture/Image/RoleCharacter/Mo1CiganxieMd010001.png	1	1000		1	760231						760231						39	Buthus
-2016		2	Assets/Product/Texture/Image/RoleCharacter/Me1UnknownMd010001.png	1	1000		0.6	760352	760372					760352	760372					69	Gear
-2017		1	Assets/Product/Texture/Image/RoleCharacter/Mo1HaiqiaoMd010001.png	1	1000		1	760372						760372						36	Sea Squirt
+2016		2	Assets/Product/Texture/Image/RoleCharacter/Me1UnknownMd010001.png	1	1000		0.6	760352						760352						69	Gear
+2017		1	Assets/Product/Texture/Image/RoleCharacter/Mo1HaiqiaoMd010001.png	1	1000		1													36	Sea Squirt
 2018		1	Assets/Product/Texture/Image/RoleCharacter/Mo1MifengMd010001.png	1	1000		0.7	760292	780231					760292	780231					32	Beetle
 2019		1	Assets/Product/Texture/Image/RoleCharacter/ZhuNormal01.png	1	1000		1	760292						760292						33	Chomper
 2020		1	Assets/Product/Texture/Image/RoleCharacter/Taieyixing01.png	1	1000		0.8	760242	760342					760242	760342					31	Tai'E
@@ -64,7 +64,7 @@ Id	MonsterId	MonsterType	Icon	Num	Level	LimitStageId	ModelScale	FightEventList[1
 2028		2	Assets/Product/Texture/Image/RoleCharacter/YouyezheNormal01.png	1	1000		0.8	760212	780392					760212	780392					43	SSG
 2101		2	Assets/Product/Texture/Image/RoleCharacter/LangrenNormal01.png	1	1000		0.8	760132	780392					760132	780392					45	Ronin
 2102		2	Assets/Product/Texture/Image/RoleCharacter/XiaofangweishiNormal01.png	1	1000		0.5	772583	780352					772583	780352					48	Firefighter
-2103		2	Assets/Product/Texture/Image/RoleCharacter/FangshengdouniuNormal01.png	1	1000		0.5		776102						776102					53	Bull
+2103		2	Assets/Product/Texture/Image/RoleCharacter/FangshengdouniuNormal01.png	1	1000		0.5	776102						776102						53	Bull
 2104		2	Assets/Product/Texture/Image/RoleCharacter/ZhizunNormal01.png	1	1000		0.8	712005	780292					712005	780292					63	Prime
 2105		2	Assets/Product/Texture/Image/RoleCharacter/FenjiezheNormal01.png	1	1000		0.8	772593	780392					772593	780392					49	Deconstructor
 2106		2	Assets/Product/Texture/Image/RoleCharacter/JidijibingNormal01.png	1	1000		0.7	760671	780452					760671	780452					59	Polar Soldier
@@ -74,7 +74,7 @@ Id	MonsterId	MonsterType	Icon	Num	Level	LimitStageId	ModelScale	FightEventList[1
 2110		3	Assets/Product/Texture/Image/RoleCharacter/Me1ZilujingweiMd000001.png	1	1000		0.5	772595	776105					772595	776105					55	Terrapod
 2201		3	Assets/Product/Texture/Image/RoleCharacter/LuolanNomal01.png	1	1000		1	760251	776105					760251	776105					79	Roland
 2202		3	Assets/Product/Texture/Image/RoleCharacter/TifaNomal01.png	1	1000		0.7	772591	712005					772591	712005					76	Punishment
-2203		3	Assets/Product/Texture/Image/RoleCharacter/WuzangjiuxingNormal01.png	1	1000		0.7		776102						776102					74	Musashi IX
+2203		3	Assets/Product/Texture/Image/RoleCharacter/WuzangjiuxingNormal01.png	1	1000		0.7	776102						776102						74	Musashi IX
 2204		3	Assets/Product/Texture/Image/RoleCharacter/RoleHeadLuxiyaaerfa1SS.png	1	1000		1	760251	776105					760251	776105					78	α
 2205		3	Assets/Product/Texture/Image/RoleCharacter/KamuNomal01.png	1	1000		1	746005	760473					746005	760473					81	Camu
 3001	93060	2	Assets/Product/Texture/Image/RoleCharacter/NvDuiZhangNormal01.png	1	1000		0.6	742152	778091					742152	778091		776535	776205		96	Female Captain
@@ -147,13 +147,13 @@ Id	MonsterId	MonsterType	Icon	Num	Level	LimitStageId	ModelScale	FightEventList[1
 5214	837100	3	Assets/Product/Texture/Image/RoleCharacter/ShashibierNormal02.png	1	1000		0.6													86	Black Shark
 5215	848100	3	Assets/Product/Texture/Image/RoleCharacter/HongChaoNormal01.png	1	1000		0.5													111	Red Tide's Daughter
 5216	841000	3	Assets/Product/Texture/Image/RoleCharacter/ShulinghouNormal01.png	1	1000		0.6													89	Pterygota Queen
-5217	82150	3	Assets/Product/Texture/Image/RoleCharacter/Mb1BraveMd010011.png	1	1000		0.5													115	Riot
+5217	85300	3	Assets/Product/Texture/Image/RoleCharacter/V130syyzNormal01.png	1	1000		0.5													117	Moon Eater
 5218	84200	3	Assets/Product/Texture/Image/RoleCharacter/Mb1MajiyaweiliMd010001.png	1	1000		0.5													90	Machi
 5219	84400	3	Assets/Product/Texture/Image/RoleCharacter/PunishjuhemutiNormal01.png	1	1000		0.12													92	Mother
-5220	87500	3	Assets/Product/Texture/Image/RoleCharacter/JiabailieNormal02.png	1	1000		0.5													116	Gabriel - Starfall
+5220	81720	3	Assets/Product/Texture/Image/RoleCharacter/TifaNomal02.png	1	1000		0.5													119	Iron Maiden: Phantom
 5221	847100	3	Assets/Product/Texture/Image/RoleCharacter/ShuangziNormal01.png	1	1000		0.5													95	Gemini
-5222	84300	3	Assets/Product/Texture/Image/RoleCharacter/Mb1SirenMd010001.png	1	1000		0.4													91	Siren 1
-5223	845000	3	Assets/Product/Texture/Image/RoleCharacter/VoodooNormal01.png	1	1000		0.4													93	Voodoo
+5222	85400	3	Assets/Product/Texture/Image/RoleCharacter/HuoshaNormal01.png	1	1000		0.5													118	Lithos
+5223	85350	3	Assets/Product/Texture/Image/RoleCharacter/WeiyuantyNomal01.png	1	1000		0.5													120	Primal Projection
 5224	846000	3	Assets/Product/Texture/Image/RoleCharacter/LamiyaNormal01.png	1	1000		0.5													94	Lamia
 5225	85100	3	Assets/Product/Texture/Image/RoleCharacter/GaodaNormal01.png	1	1000		0.5													114	Gaoda
 6201	81300	3	Assets/Product/Texture/Image/RoleCharacter/BalaswordNomal.png	1	1000		0.8													73	Roseblade
@@ -166,6 +166,14 @@ Id	MonsterId	MonsterType	Icon	Num	Level	LimitStageId	ModelScale	FightEventList[1
 6208	83600	3	Assets/Product/Texture/Image/RoleCharacter/JiabailieNormal01.png	1	1000		0.6	760692						760692						84	Gabriel
 6209	83100	3	Assets/Product/Texture/Image/RoleCharacter/KamuNomal01.png	1	1000		1													81	Camu
 6210	84300	3	Assets/Product/Texture/Image/RoleCharacter/Mb1SirenMd010001.png	1	1000		0.4													91	Siren 1
+6211	81720	3	Assets/Product/Texture/Image/RoleCharacter/TifaNomal02.png	1	1000		0.5													119	Iron Maiden: Phantom
+6212	82150	3	Assets/Product/Texture/Image/RoleCharacter/Mb1BraveMd010011.png	1	1000		0.5													115	Riot
+6213	845000	3	Assets/Product/Texture/Image/RoleCharacter/VoodooNormal01.png	1	1000		0.4													93	Voodoo
+6214	93331	1	Assets/Product/Texture/Image/RoleCharacter/HaohaiziNomal01.png	1	1000		0.5													123	Good Child
+6215	93351	2	Assets/Product/Texture/Image/RoleCharacter/V132gztNormal01.png	1	1000		0.5													125	Elite Construct
+6216	93321	2	Assets/Product/Texture/Image/RoleCharacter/V130stNormal02.png	1	1000		0.4													121	Hetero-Consciousness
+6217	93311	2	Assets/Product/Texture/Image/RoleCharacter/V131bzNormal01.png	1	1000		0.4													122	Dottie
+6218	93140	2	Assets/Product/Texture/Image/RoleCharacter/GuitaristNormal01.png	1	1000		0.7													107	Heaven Breaker
 1204	81300	3	Assets/Product/Texture/Image/RoleCharacter/BalaswordNomal.png	1	1000		0.8	760251	746005					760251	746005		776534	776204		73	Roseblade
 3204	83900	3	Assets/Product/Texture/Image/RoleCharacter/LunaNormal03.png	1	1000		1										776591	776261		88	Luna
 3205	841000	3	Assets/Product/Texture/Image/RoleCharacter/ShulinghouNormal01.png	1	1000		0.6										776592	776262		89	Pterygota Queen

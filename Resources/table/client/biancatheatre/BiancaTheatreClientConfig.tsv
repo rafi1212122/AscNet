@@ -31,9 +31,9 @@ NotSelectRecruitTicket	The text of a pop-up message when tapping Next without se
 NotSelectExReward	The text of a pop-up message when tapping Next without selecting extra rewards.	Select Artifact.						
 StrengthenBtnActiveName	Skill Details Activation Button Text	Locked	Activated	Activate				
 TextColor	Text Color	BBBBBBFF	FF0000FF					
-RewardTips	Reward Tips	No claimable rewards found	Rewards cannot be claimed when a journey is in progress.	Level limit reached				
+RewardTips	Reward Tips	No claimable rewards found	Rewards cannot be claimed when a journey is in progress.	Level limit reached.				
 UnitIcon	Instruction Icon (1 Squad, 2 item)	Assets/Product/Texture/Atlas/UiBiancaTheatre/UiTheatreIconBtnFenDui.png	Assets/Product/Texture/Atlas/UiBiancaTheatre/UiTheatreIconBtnDaoJu.png					
-BtnRecruitName	Recruit Button Name	Recruit	Star Up					
+BtnRecruitName	Recruit Button Name	Recruit	Star Up	Declension				
 BiancaTheatreComboTips	Bond Description	Evolve Requirement: 						
 BannerProgress	Entry Progress Description	Current Level: %s/%s						
 StartViewTitle	Titles for Difficulty Selection, Squad Selection, Recruit Voucher Selection, and Battle Rewards	Select Difficulty	Establish Survey Team	Select Invitation	Claim Battle Rewards			
@@ -46,10 +46,33 @@ RebootTitle	Battle Reset Title	Reset Warning
 RebootDesc	Battle Reset Warning	You have %s *%d. Stage reset requires %s *%d. Confirm to proceed?						
 RetreatTitle	Battle Retreat Title	Battle Warning						
 RetreatDesc	Battle Retreat Description	This round of adventure will count as defeat once you leave the battle. You have %s *%d. %s can be used to revive/reset the stage. Confirm to leave and tally your results?						
-MainViewShowRewardId	Main Screen Reward Display	550193						
+MainViewShowRewardId	Main Screen Reward Display	550224						
 SettleAnimaTime	Time for the result calculation screen to slide to the bottom (in seconds)	3						
 NotActiveQualityColor	Unactivated Quality Color	797979						
 UnusedRecruitCountDialogContent	The description of the second pop-up when tapping Next without using up all recruit attempts.	Confirm to proceed? (Unused recruit attempts will not be carried over.)						
 RoleDetailBallIconBg	In the character details brief skill panel, the background resource path of the Red, Yellow, and Blue Orbs	Assets/Product/Texture/Atlas/Common/CommonSekuai1.png						
 ReceiveExpTipsContent	Pop-Up Description When Claiming Rewards at Max Level	The Curse Queller's Path has already reached its max level. Excess Downfall Crystals will be lost. Confirm to claim?						
 MissionComplete		All mission completed						
+VisionUnlockDesc	Insight Unlocking Text	The ancient Insight has summoned the longing for crimson.\nThe journey will be different from now on.						
+VisionUpSound	Insight Level-Up Sound Effect (Lv.1 | Lv.2 | Lv.3)	2827	2827	2827				
+VisionUpDesc	Insight Level-Up Text (Lv.1 | Lv.2 | Lv.3)	Your understanding of the Insight has improved.\nInsight Level increased to phase 2.	You'll see the other side of the world.\nInsight Level increased to phase 3.	You have merged with the supernatural Insight.\nThe world will be crimson. The Insight has been raised to the ultimate phase.				
+StrengthenSkillNodePrefab	External Loop Enhancement Node Preset Format Url	Assets/Product/Ui/ComponentPrefab/UiBiancaTheatre/GridBiancaTheatreFetters.prefab						
+AchievementAllPrecoss	Total Achievement Mission Progress (Achievement Interface)	Completed: <color=#d7c979>%d</color>/%d						
+MainAchievementAllPrecoss	Total Achievement Mission Progress (Main Interface)	Progress: %d/%d						
+TxtBureauTeam5Effect	Survey Team: Additional description of the expedition effect	Current: %s bonus						
+TeamUnLockConditionProgress	Survey Team: Condition Progress	<color=#bfae53>Progress: %d</color>/%d						
+RecruitFloorIndexesTxt	Recruitment: Guarantee Character Draw Notice	Recruitment slot %s has all been drawn. A random draw will be made among all characters.						
+RecruitDecayTitleTxt	Declension: Title Text	"Select one of the characters you have for Declension. After the Declension,\nthe recruitment limit will be increased to 3★. The 5th phase will be unlocked for the Bond of the selected element."						
+RecruitOverDecayTxt	Declension: Button Text	Declension done.						
+RecruitDecayTxt	Declension Text	%s has accepted declension						
+RecruitDecayRefreshTxt	Declension Refresh Text	Remaining Declension Attempts:						
+RecruitAreNotRole	Recruitment: No Characters	All characters have been drawn.						
+RecruitDecayTip	Declension: Ability Notice	3★ characters and elemental Bond phase 5 unlocked.						
+DecayRoleEffect	Declension: Character Effect	Assets/Product/Effect/Prefab/FxUi/FxUiBiancaTheatre/FxUiBiancaTheatreShenghua.prefab						
+CueWhenGetReward	Reward Sound Effect (1: Artifact Chest | 2: Artifact | 3: Invitation)	2829	2830	2831				
+AchievementRewardAllGet	Complete all Achievement Rewards.	All rewards claimed.						
+VisionSettleDesc	Sight Conclusion Text During Result Calculation (Phase 1 | Phase 2 | Phase 3 | Phase 4)	Your knowledge of Insight is only at the surface level.	Your knowledge of Insight is growing.	Insight has become an inseparable part of you.	You have mastered the most profound wisdom of the world.			
+VisionUiEffectUrl	Sight Effect Preset Format Url (Phase 1 | Phase 2 | Phase 3 | Phase 4)	Assets/Product/Effect/Prefab/FxUi/FxUiBiancaTheatre/FxUiBiancaTheatreHc01.prefab	Assets/Product/Effect/Prefab/FxUi/FxUiBiancaTheatre/FxUiBiancaTheatreHc02.prefab	Assets/Product/Effect/Prefab/FxUi/FxUiBiancaTheatre/FxUiBiancaTheatreHc03.prefab	Assets/Product/Effect/Prefab/FxUi/FxUiBiancaTheatre/FxUiBiancaTheatreHc04.prefab			
+VisionPsionicEffectUrl	Sight Effect Preset Format Url (Phase 1 | Phase 2 | Phase 3 | Phase 4)	Assets/Product/Effect/Prefab/FxUi/FxUiBiancaTheatre/FxUiBiancaTheatreLingshi01.prefab	Assets/Product/Effect/Prefab/FxUi/FxUiBiancaTheatre/FxUiBiancaTheatreLingshi02.prefab	Assets/Product/Effect/Prefab/FxUi/FxUiBiancaTheatre/FxUiBiancaTheatreLingshi03.prefab	Assets/Product/Effect/Prefab/FxUi/FxUiBiancaTheatre/FxUiBiancaTheatreLingshi04.prefab			
+AchievementFinishTipTxt	Accomplished Achievement Top Left Corner Small Window Text	Completed Entries +1						
+VersionUpdateOldPlaySettleTip	Player Progress Reset Notice	Due to version update, the result of your ongoing exploration has been calculated.						

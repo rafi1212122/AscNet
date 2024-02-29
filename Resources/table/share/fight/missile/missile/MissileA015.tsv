@@ -1,43 +1,43 @@
-Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic
-11090101	普攻1-1	1	4	3		1.5	0			4			0.1						-1		FxR2WanshiAtk01Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110901011	110901									1			0						0	1												110901012
-11090201	普攻2-1	1	4	3		1.5	0			4			0.1						-1		FxR2WanshiAtk02Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110902011	110902									1.2			0						0	1												110902012
-11090301	普攻3-1	2	4				0			4			0.1						-1		FxR2WanshiAtk03Hit01						-1			1					0	0	0										0							0	3		0.2	0.35	110903011	110903	110965				110965				0.6			1						0	1												110903012
-11090401	普攻4-1	1	2	15		7.5	0			4			0.1						-1		FxR2WanshiAtk04Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110904011	110904									0.75			0						0	1												
-11090402	普攻4-2	1	2	15		7.5	0			4			0.1						-1		FxR2WanshiAtk04Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110904021	110904									0.77			0						0	1												
-11090501	普攻5-1	1	5	3		1.5	0			4			0.1						-1		FxR2WanshiAtk05Hit01						-1			1					0	0	0										0							0	3	180	0.2	0.35	110905011	110905	110965				110965				1.25			0						0	1												110905012
-11090601	普攻6-1	1	2	15		7.5	0			4			0.1						-1		FxR2WanshiAtk06Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110906011	110906									0.8			0						0	1												
-11090602	普攻6-2	1	2	15		7.5	0			4			0.1						-1		FxR2WanshiAtk06Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110906021	110906									1.1			0						0	1												
-11090603	普攻6-3	1	2	15		7.5	0			4			0.1						-1		FxR2WanshiAtk06Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110906031	110906									1.6			0						0	1												
-11090701	普攻7-1	1	5	25		12.5	0			4			0.1						-1		FxR2WanshiAtk07Hit01						-1			1					0	0	0										0							0	3		0.35	0.5	110907011	110907	110964								1			0						0	1												
-11090801	红球1消-1	1	4	2		0	0			4			0.2						-1		FxR2WanshiAtk11Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110908011	110910									1.1			1						0	1												110908012
-11090901	红球2消-1	1	4	2		0	0			4			0.2						-1		FxR2WanshiAtk11Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110909011	110911									1.1			1						0	1												110909012
-11091001	红球3消-1	1	4	2		0	0			4			0.2						-1		FxR2WanshiAtk11Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110910011	110912									1.1			1						0	1												110910012
-11091102	蓝球1消-伤害和减速	2	5		0	5	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110911021	110916	110922								0	HitCase		0						0	1												
-11091103	蓝球1消-治疗	2	20		0	5	0			3			0.1						-1		FxTongyongCureshouji						-1			1					0	0	0										0							0	3		0.2	0.1		110919									1			0						0	1												
-11091202	蓝球2消-伤害和减速	2	5		0	5	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110912021	110917	110922								0	HitCase		0						0	1												
-11091203	蓝球2消-治疗	2	20		0	5	0			3			0.1						-1		FxTongyongCureshouji						-1			1					0	0	0										0							0	3		0.2	0.1		110920									1			0						0	1												
-11091302	蓝球3消-伤害和减速	2	5		0	5	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110913021	110918	110922								0	HitCase		0						0	1												
-11091303	蓝球3消-治疗	2	20		0	5	0			3			0.1						-1		FxTongyongCureshouji						-1			1					0	0	0										0							0	3		0.2	0.1		110921									1			0						0	1												
-11091401	黄球1消-1	1	3	3	0	1.5	0			4			0.1						-1		FxR2WanshiAtk31Hit						-1			1					0	0	0										0							0	3		0.2	0.4	110914011	110923	110966				110966				0	HitCase		1						0	1												110914012
-11091501	黄球2消-1	1	3	3	0	1.5	0			4			0.1						-1		FxR2WanshiAtk31Hit						-1			1					0	0	0										0							0	3		0.2	0.4	110915011	110924	110966				110966				0	HitCase		1						0	1												110915012
-11091601	黄球3消-1	1	3	3	0	1.5	0			4			0.1						-1		FxR2WanshiAtk31Hit						-1			1					0	0	0										0							0	3		0.2	0.4	110916011	110925	110966				110966				0	HitCase		1						0	1												110916012
-11091701	QTE-1	2	3.8		0	2	0			4			0.1						-1								-1			1					0	0	0										0	0		1	11091702			0	3		0.2	0.1	110917011	110928									0	HitCase		0						0	1												
-11091702	QTE-2	2	3.8				0			4			2.9						-1	1	FxR2WanshiAtkQteHit01		0.6				-1			1					0	0	0										2							0	3		0.2	0.1		110929	110932	110933							0.9			0						0	1												
-11091703	QTE-3	2	20		0	2	0			3			0.1						-1		FxTongyongCureshouji						-1			1					0	0	0										0							0	3		0.2	0.1		110930									1			0						0	1												
-11091705	QTE-默认版加冰攻	2	20				0			3			0.1						-1								-1			1					0	0	0										0							0	3	0	0	0		110990									0	HitCase		0						0	1												
-11091706	QTE-SSS强化版加冰攻	2	20				0			3			0.1						-1								-1			1					0	0	0										0							0	3	0	0	0		110991									0	HitCase		0						0	1												
-11092301	狙击终结技-1	1	5	25		12.5	0			4			0.1						-1		FxR2WanshiAtk42Hit						-1			1					0	0	0										0							0	3		0.35	0.5	110923011	110935	110964								1			0						0	1												
-11092401	真·狙击终结技-1	1	5	25		12.5	0			4			0.1						-1		FxR2WanshiAtk43Hit						-1			1					0	0	0										0							0	3		0.35	0.5	110924011	110936									1			0						0	1												
-11092420	真·狙击终结技-20	2	666				0			4			0.1						-1								-1			1					0	0	0										1							1	3	0	0	0		110954									0	HitCase		0						0	1												
-11092501	普攻1（突进）-1	1	4	3		1.5	0			4			0.1						-1		FxR2WanshiAtk01Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110925011	110901									1			0						0	1												110925012
-11092601	必杀-1	1	8	25	0	12.5	0			4			0.2						-1		FxR2WanshiAtk51Hit						-1			1					0	0	0										0							0	3		0.35	0.5	110926011	110955									1			0		1				0	1												
-11092606	必杀-大招超算	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	3	0	0	0		110960									0	HitCase		0						0	1												
-11092705	撤步-见切成功超算	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	3	0	0	0		110953									0	HitCase		0						0	1												
-11092706	撤步-见切成功镜头	2	666				0			1			0.1						1								1			1					0	0	0										0							0	3	0	0	0		110949	110950								0	HitCase		0						0	1												
-11092708	撤步-8	2	666				0			1			0.1						1								1			1					0	0	0										0							0	3	0	0	0		110990									0	HitCase		0						0	1												
-11092709	撤步-9	2	666				0			1			0.1						1								1			1					0	0	0										0							0	3	0	0	0		110991									0	HitCase		0						0	1												
-11092801	闪避后普攻-1	2	3				0			4			0.1						-1		FxR2WanshiAtk03Hit01						-1			1					0	0	0										0							0	3		0.2	0.35	110928011	110903	110965				110965				0.6			1						0	1												110928012
-11093001	出场技-1	1	3	3	0	1.5	0			4			0.1						-1		FxR2WanshiAtk31Hit						-1			1					0	0	0										0							0	3		0.2	0.4	110930011	110925	110966				110966				0	HitCase		1						0	1												110930012
-11093401	红球追加射击循环-1	1	2	15	0	7.5	0			4			0.53						-1	1	FxR2WanshiAtk12Hit01		0.1				-1			1					0	0	0										0							0	3		0.2	0.1		110934									0.8			1		1				0	1												
-11093501	蓝球追加射击循环-1	1	2	15	0	7.5	0			4			0.53						-1	1	FxR2WanshiAtk22Hit01		0.1				-1			1					0	0	0										0							0	3		0.2	0.1		110934									1.3			1		1				0	1												
-11093601	黄球追加射击循环-1	1	2	15	0	7.5	0			4			0.53						-1	1	FxR2WanshiAtk32Hit01		0.1				-1			1					0	0	0										0							0	3		0.2	0.1		110934									1			1		1				0	1												
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType	FollowHeightJoint	BindLauncherFrame	BindSkillFrame
+11090101	普攻1-1	1	4	3		1.5	0			4			0.1						-1		FxR2WanshiAtk01Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110901011	110901									1			0						1	1												110901012				
+11090201	普攻2-1	1	4	3		1.5	0			4			0.1						-1		FxR2WanshiAtk02Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110902011	110902									1.2			0						1	1												110902012				
+11090301	普攻3-1	2	4				0			4			0.1						-1		FxR2WanshiAtk03Hit01						-1			1					0	0	0										0							0	3		0.2	0.35	110903011	110903	110965				110965				0.6			1						1	1												110903012				
+11090401	普攻4-1	1	2	15		7.5	0			4			0.1						-1		FxR2WanshiAtk04Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110904011	110904									0.75			0						1	1																
+11090402	普攻4-2	1	2	15		7.5	0			4			0.1						-1		FxR2WanshiAtk04Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110904021	110904									0.77			0						1	1																
+11090501	普攻5-1	1	5	3		1.5	0			4			0.1						-1		FxR2WanshiAtk05Hit01						-1			1					0	0	0										0							0	3	180	0.2	0.35	110905011	110905	110965				110965				1.25			0						1	1												110905012				
+11090601	普攻6-1	1	2	15		7.5	0			4			0.1						-1		FxR2WanshiAtk06Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110906011	110906									0.8			0						1	1																
+11090602	普攻6-2	1	2	15		7.5	0			4			0.1						-1		FxR2WanshiAtk06Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110906021	110906									1.1			0						1	1																
+11090603	普攻6-3	1	2	15		7.5	0			4			0.1						-1		FxR2WanshiAtk06Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110906031	110906									1.6			0						1	1																
+11090701	普攻7-1	1	5	25		12.5	0			4			0.1						-1		FxR2WanshiAtk07Hit01						-1			1					0	0	0										0							0	3		0.35	0.5	110907011	110907	110964								1			0						1	1																
+11090801	红球1消-1	1	4	2		0	0			4			0.2						-1		FxR2WanshiAtk11Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110908011	110910									1.1			1						1	1												110908012				
+11090901	红球2消-1	1	4	2		0	0			4			0.2						-1		FxR2WanshiAtk11Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110909011	110911									1.1			1						1	1												110909012				
+11091001	红球3消-1	1	4	2		0	0			4			0.2						-1		FxR2WanshiAtk11Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110910011	110912									1.1			1						1	1												110910012				
+11091102	蓝球1消-伤害和减速	2	5		0	5	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110911021	110916	110922								0	HitCase		0						1	1																
+11091103	蓝球1消-治疗	2	20		0	5	0			3			0.1						-1		FxTongyongCureshouji						-1			1					0	0	0										0							0	3		0.2	0.1		110919									1			0						0	1																
+11091202	蓝球2消-伤害和减速	2	5		0	5	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110912021	110917	110922								0	HitCase		0						1	1																
+11091203	蓝球2消-治疗	2	20		0	5	0			3			0.1						-1		FxTongyongCureshouji						-1			1					0	0	0										0							0	3		0.2	0.1		110920									1			0						0	1																
+11091302	蓝球3消-伤害和减速	2	5		0	5	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1	110913021	110918	110922								0	HitCase		0						1	1																
+11091303	蓝球3消-治疗	2	20		0	5	0			3			0.1						-1		FxTongyongCureshouji						-1			1					0	0	0										0							0	3		0.2	0.1		110921									1			0						0	1																
+11091401	黄球1消-1	1	3	3	0	1.5	0			4			0.1						-1		FxR2WanshiAtk31Hit						-1			1					0	0	0										0							0	3		0.2	0.4	110914011	110923	110966				110966				0	HitCase		1						1	1												110914012				
+11091501	黄球2消-1	1	3	3	0	1.5	0			4			0.1						-1		FxR2WanshiAtk31Hit						-1			1					0	0	0										0							0	3		0.2	0.4	110915011	110924	110966				110966				0	HitCase		1						1	1												110915012				
+11091601	黄球3消-1	1	3	3	0	1.5	0			4			0.1						-1		FxR2WanshiAtk31Hit						-1			1					0	0	0										0							0	3		0.2	0.4	110916011	110925	110966				110966				0	HitCase		1						1	1												110916012				
+11091701	QTE-1	2	3.8		0	2	0			4			0.1						-1								-1			1					0	0	0										0	0		1	11091702			0	3		0.2	0.1	110917011	110928									0	HitCase		0						1	1																
+11091702	QTE-2	2	3.8				0			4			2.9						-1	1	FxR2WanshiAtkQteHit01		0.6				-1			1					0	0	0										2							0	3		0.2	0.1		110929	110932	110933							0.9			0						0	1																
+11091703	QTE-3	2	20		0	2	0			3			0.1						-1		FxTongyongCureshouji						-1			1					0	0	0										0							0	3		0.2	0.1		110930									1			0						0	1																
+11091705	QTE-默认版加冰攻	2	20				0			3			0.1						-1								-1			1					0	0	0										0							0	3	0	0	0		110990									0	HitCase		0						0	1																
+11091706	QTE-SSS强化版加冰攻	2	20				0			3			0.1						-1								-1			1					0	0	0										0							0	3	0	0	0		110991									0	HitCase		0						0	1																
+11092301	狙击终结技-1	1	5	25		12.5	0			4			0.1						-1		FxR2WanshiAtk42Hit						-1			1					0	0	0										0							0	3		0.35	0.5	110923011	110935	110964								1			0						1	1																
+11092401	真·狙击终结技-1	1	5	25		12.5	0			4			0.1						-1		FxR2WanshiAtk43Hit						-1			1					0	0	0										0							0	3		0.35	0.5	110924011	110936									1			0						1	1																
+11092420	真·狙击终结技-20	2	666				0			4			0.1						-1								-1			1					0	0	0										1							1	3	0	0	0		110954									0	HitCase		0						0	1																
+11092501	普攻1（突进）-1	1	4	3		1.5	0			4			0.1						-1		FxR2WanshiAtk01Hit01						-1			1					0	0	0										0							0	3		0.2	0.1	110925011	110901									1			0						1	1												110925012				
+11092601	必杀-1	1	8	25	0	12.5	0			4			0.2						-1		FxR2WanshiAtk51Hit						-1			1					0	0	0										0							0	3		0.35	0.5	110926011	110955									1			0		1				1	1																
+11092606	必杀-大招超算	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	3	0	0	0		110960									0	HitCase		0						0	1																
+11092705	撤步-见切成功超算	2	666				0			4			0.1						-1								-1			1					0	0	0										0							0	3	0	0	0		110953									0	HitCase		0						0	1																
+11092706	撤步-见切成功镜头	2	666				0			1			0.1						1								1			1					0	0	0										0							0	3	0	0	0		110949	110950								0	HitCase		0						0	1																
+11092708	撤步-8	2	666				0			1			0.1						1								1			1					0	0	0										0							0	3	0	0	0		110990									0	HitCase		0						0	1																
+11092709	撤步-9	2	666				0			1			0.1						1								1			1					0	0	0										0							0	3	0	0	0		110991									0	HitCase		0						0	1																
+11092801	闪避后普攻-1	2	3				0			4			0.1						-1		FxR2WanshiAtk03Hit01						-1			1					0	0	0										0							0	3		0.2	0.35	110928011	110903	110965				110965				0.6			1						1	1												110928012				
+11093001	出场技-1	1	3	3	0	1.5	0			4			0.1						-1		FxR2WanshiAtk31Hit						-1			1					0	0	0										0							0	3		0.2	0.4	110930011	110925	110966				110966				0	HitCase		1						1	1												110930012				
+11093401	红球追加射击循环-1	1	2	15	0	7.5	0			4			0.53						-1	1	FxR2WanshiAtk12Hit01		0.1				-1			1					0	0	0										0							0	3		0.2	0.1		110934									0.8			1		1				0	1																
+11093501	蓝球追加射击循环-1	1	2	15	0	7.5	0			4			0.53						-1	1	FxR2WanshiAtk22Hit01		0.1				-1			1					0	0	0										0							0	3		0.2	0.1		110934									1.3			1		1				0	1																
+11093601	黄球追加射击循环-1	1	2	15	0	7.5	0			4			0.53						-1	1	FxR2WanshiAtk32Hit01		0.1				-1			1					0	0	0										0							0	3		0.2	0.1		110934									1			1		1				0	1																

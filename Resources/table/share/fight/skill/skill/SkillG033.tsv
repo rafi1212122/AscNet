@@ -14,8 +14,8 @@ Id	Name	SkillType	CastTime	AfterTime	Animation	StandStage	CastMagicIds	FinalMagi
 855513	右闪（镜像）		1.5	0.5	Attack13					10	6				4					
 855514	武器切换1		2.8	0.4	Attack14					10	6				4					
 855515	子弹调用		7.1	0.5	Attack15					10	6				4					
-855516	飞雷神前刺		3.5	0.4	Attack15		855680|855527			10	6				4					
-855517	前刺失败		3.5	0.4	Attack17		855600			10	6				4					
+855516	飞雷神拼刀		3.5	0.4	Attack15		855680|855527	855730		10	6				4					
+855517	拼刀成功		3	0.2	Attack17		855600			10	6				4					
 855518	步进周身三连快斩1		2.6	0	Attack90		855527			10	6				4					
 855519	步进周身三连慢斩2		2.8	0.2	Attack91		855527			10	6				4					
 855520	步进周身第四斩		1	0.2	Attack92					10	6				4					
@@ -28,8 +28,8 @@ Id	Name	SkillType	CastTime	AfterTime	Animation	StandStage	CastMagicIds	FinalMagi
 855602	吼叫驱使		2	0.2	Attack02					10	6				4					
 855603	充能		3.6	0.9	Attack03					10	6				4					
 855604	抓技2-举高高撕裂		7.2	1	Attack98					10	6				4					
-855605	雷电招来-右		3	0.6	Attack05					10	6				4					
-855606	雷电连段终结		6	1.2	Attack61					10	2		0.5		4					
+855605	雷枪		3	0.6	Attack05					10	6				4					
+855606	雷电连段		6	1.2	Attack61					10	2		0.5		4					
 855607	散魂铁爪		3.3	1	Attack07					10	6				4					
 855608	周身爪		3	0.7	Attack08					10	6				4					
 855609	后撤上挑	50	2.4	0.1	Attack09					10	6				4					
@@ -47,5 +47,20 @@ Id	Name	SkillType	CastTime	AfterTime	Animation	StandStage	CastMagicIds	FinalMagi
 855621	蹬墙2 拉扯上墙		1.5	0.2	Attack93					10	6				4					
 855622	蹬墙3-近距离直线冲地		5.3	0.3	Attack53					10	6				4					
 855623	后撤前刺		2.5	0.5	Attack92					10	6				4					
-855624	抓技2-成功		7	1.1	Attack98					10	6				4					
+855624	关卡用死亡动作		1.1	0	Attack19					10	6				4					
 855625	抓技失败通用技能		1.5	0.2	Attack99					10	6				4					
+854801	闪亮登场		4.5	1.2	Attack03		700014			10	6				4					
+854802	法阵-starto!		3.7	0.6	Attack01		855528			10	6				4					
+854803	法阵-looping!		5	0	Attack02		855528			10	6				4					
+854804	拼刀成功弱化		3	0.2	Attack17		855600			10	6				4					
+854805	虚空穿刺		2	0	Attack11		855528|854878			10	6				4					
+854806	左腰闪		1.2	0	Attack21					10	6				4					
+854807	右腰闪		1.2	0	Attack20					10	6				4					
+854808	傀儡技-starto!		1.5	0.5	Attack11		855528|854878			10	6				4					
+854809	傀儡技-attacking!		5	0	Attack05		855528|854879			10	6				4					
+854901	强人锁男		5.84	0	Attack01					10	6				4					
+854902	狮子王		7.2	1	Attack98					10	6				4					
+854903	左腰闪		2.25	0.99	Attack21					10	6				4					
+854904	右腰闪		2.25	0.99	Attack20					10	6				4					
+854905	傀儡技-starto!		1.8	0.4	Attack16		854878			10	6				4					
+854906	傀儡技-attacking!		5	0	Attack02		854878			10	6				4					

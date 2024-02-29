@@ -57,6 +57,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 346	10102		1231002																													Own Omniframe Bambinata: Vitrum
 347	10102		1011004																													Own Omniframe Lee: Hyperreal
 348	10102		1091003																													Own Omniframe Ayla: Kaleido
+349	10102		1021005																													Own Omniframe Alpha: Crimson Weave
 401	11105		6210204																													Coating owned
 7001	10105		13010116																													Complete all Lucia Interludes
 7002	10105		13010216																													Complete all Liv Interludes
@@ -92,8 +93,19 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 10436028	17117		15	21000200	21000201	21000202	21000203	21000204																								Complete [Heart-Lock Trial] with a 3-star rating
 10436029	10105		21000214																													Unlocks after clearing all stages of [Fragmented Memories]
 10436030	11101		1202	1																												Unlocks Display Poses
+10436031	10101		40																													Reach Commandant Level 40
+10436032	10102		1051004																													Own Omniframe Nanami: Starfarer
+10436033	13103		80																													Nanami: Starfarer reaches Lv.80
+10436034	10105		15020222																													Clear Floating Record ER01-13 once
+10436035	13117		5																													Nanami: Starfarer reaches Affection 5
+10436036	13114		4																													Nanami: Starfarer reaches Ultima
+10436037	13108		6200																													Nanami: Starfarer reaches 6200 in Battle Power
+10436038	17117		15	21000220	21000221	21000222	21000223	21000224																								Complete all 3★ objectives in [Heart-Lock Trial]
+10436039	10105		21000235																													Unlocks after clearing all stages of [Fragmented Memories]
+10436040	11101		1203	1																												Unlocks Display Poses
 21000100	18103		1	1081002																												Watanabe: Nightblade required
 21000200	18103		1	1021003																												Lucia: Crimson Abyss required
+21000300	18103		1	1051004																												Nanami: Starfarer must be depoyed
 8000	10101		25																													Reach Commandant Level 25
 8001	10101		35																													Reach Commandant Level 35
 8002	10101		45																													Reach Commandant Level 45
@@ -891,6 +903,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 60445	11102		1231002	4																												Awaken Vitrum's Ultima Rank
 60446	11102		1011004	4																												Awaken Hyperreal's Ultima Rank
 60447	11102		1091003	4																												Awaken Kaleido's Ultima Rank
+60448	11102		1021005	4																												Awaken Crimson Weave's Ultima Rank
 60600	11102		1011002	5																												
 60601	11102		1021001	5																												
 60602	11102		1031001	5																												
@@ -968,16 +981,16 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 61315	13105		3	0																												Construct reaches Lv.72 and evolves to S-rank
 61316	13105		3	0																												Construct reaches Lv.76 and evolves to S-rank
 61317	13105		3	0																												Construct reaches Lv.80 and evolves to S-rank
-62001	13105		1	0	0																											Evolve quality to B
-62002	13105		2	0	0																											Evolve quality to A
-62003	13105		3	0	0																											Evolve quality to S
-62004	13105		3	0	5																											Evolve quality to S5
-62005	13105		4	0	0																											Evolve quality to SS
-62006	13105		4	0	3																											Evolve quality to S3
-62007	13105		5	0	0																											Evolve quality to SSS
-62008	13105		5	0	3																											Evolve quality to SSS3
-62009	13105		5	0	6																											Evolve quality to SSS6
-62010	13105		6	0	0																											Evolve quality to SSS+
+62001	13105		1	0	0																											Evolve to Rank B
+62002	13105		2	0	0																											Evolve to Rank A
+62003	13105		3	0	0																											Evolve to Rank S
+62004	13105		3	0	5																											Evolve to Rank S5
+62005	13105		4	0	0																											Evolve to Rank SS
+62006	13105		4	0	3																											Evolve to Rank S3
+62007	13105		5	0	0																											Evolve to Rank SSS
+62008	13105		5	0	3																											Evolve to Rank SSS3
+62009	13105		5	0	6																											Evolve to Rank SSS6
+62010	13105		6	0	0																											Evolve to Rank SSS+
 70000	10101		200																													Not available yet
 70001	10105		10010203																													Complete Normal Story 1-7
 70002	10105		10010302																													Complete Normal Story 1-10
@@ -1303,6 +1316,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 775600	10101		52																													Unlocked when Commandant reaches Lv.52
 775700	10101		52																													Unlocked at Commandant Lv.52
 775800	10105		11080106																													Complete Hidden Story 8-6 to unlock
+775900	11117		14000005																													Must unlock the scene [Daydream Believer]
 850000	10101		1																													Unlocked when Commandant reaches Lv.1
 850101	10105		10010102																													Complete Normal Story 1-2 to unlock
 850102	10105		10010102																													Complete Normal Story 1-2 to unlock
@@ -2132,54 +2146,54 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 40062298	13108		3500																													Member reaches 3500 BP
 40062299	13108		5000																													Member reaches 5000 BP
 40062300	13108		6500																													Member reaches 6500 BP
-40063001	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063002	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063003	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063004	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063005	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063006	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063007	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063008	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063009	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063010	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063011	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063012	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063013	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063014	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063015	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063016	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063017	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063018	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063019	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063020	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063021	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063022	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063023	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063024	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063025	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063026	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063027	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063028	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063029	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063030	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063031	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063032	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063033	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063034	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063035	13109		6	12																												Equip 6★ Resonance Skills x12
-40063036	13109		6	12																												Equip 6★ Resonance Skills x12
-40063037	13109		6	12																												Equip 6★ Resonance Skills x12
-40063038	13109		6	12																												Equip 6★ Resonance Skills * 12
-40063039	13109		6	12																												Equip 6★ Resonance Skills x12
-40063040	13109		6	12																												Equip 6★ Resonance Skill x12
-40063041	13109		6	12																												Equip 6★ Resonance Skill x12
-40063042	13109		6	12																												Equip 6★ Resonance Skill x12
-40063043	13109		6	12																												Equip 6★ Resonance Skill x12
-40063044	13109		6	12																												Equip 6★ Resonance Skill x12
-40063045	13109		6	12																												Equip 6★ Resonance Skills x12
-40063046	13109		6	12																												Equip 6★ Resonance Skills x12
-40063047	13109		6	12																												Equip 6★ Resonance Skills x12
-40063048	13109		6	12																												Equip 6★ Resonance Skill x12
+40063001	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063002	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063003	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063004	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063005	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063006	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063007	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063008	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063009	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063010	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063011	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063012	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063013	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063014	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063015	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063016	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063017	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063018	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063019	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063020	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063021	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063022	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063023	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063024	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063025	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063026	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063027	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063028	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063029	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063030	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063031	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063032	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063033	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063034	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063035	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063036	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063037	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063038	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063039	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063040	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063041	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063042	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063043	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063044	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063045	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063046	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063047	13109		6	12																												Equip 6★ Resonance Skills x12 
+40063048	13109		6	12																												Equip 6★ Resonance Skills x12 
 40064001	13118		12																													Equip Hypertuned Resonance Skill x12 
 40064002	13118		12																													Equip Hypertuned Resonance Skill x12 
 40064003	13118		12																													Equip Hypertuned Resonance Skill x12 
@@ -2458,6 +2472,9 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 6002804	11105		6002804																													Coating owned
 6000806	11105		6000806																													Coating owned
 6001905	11105		6001905																													Coating owned
+6002904	11105		6002904																													Coating owned
+6002505	11105		6002505																													Coating owned
+6002305	11105		6002305																													Coating owned
 6002005	11105		6002005																													Coating owned
 6310206	11105		6310206																													Coating owned
 30499	10101		50																													Reach Commandant Level 50
@@ -2545,11 +2562,11 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 301004	11108		17																													Reach Authority Lv.17
 301005	11108		20																													Reach Authority Lv.20
 301006	10105		30090541																													Clear Abyss Mode stage once
-301101	11108		2																													Reach Authority Lv.2
-301102	11108		8																													Reach Authority Lv.8
-301103	11108		13																													Reach Authority Lv.13
-301104	11108		17																													Reach Authority Lv.17
-301105	11108		20																													Reach Authority Lv.20
+301101	11108		5																													Lv.5
+301102	11108		10																													Lv.10
+301103	11108		15																													Lv.15
+301104	11108		20																													Lv.20
+301105	11108		25																													Lv.25
 301201	11108		25																													Upgrade to Lv.25
 800000	30101		1																													Kill more than 1 enemy
 800001	30101		3																													Kill more than 5 enemies
@@ -2627,6 +2644,12 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 812031	11104		6001406																													Unlocks after owning the Coating "Radiant Respite"
 812032	11104		6000806																													Unlocks from owning the Coating "Fiery Moon"
 812033	11104		6001905																													Unlocks from owning the Coating "Vox Solaris"
+812034	13119		6002505																													Must use the Coating <color=#C14F38>Snow Petals</color>
+812035	10182		14000005																													Must use the scene <color=#C14F38>Daydream Believer</color>
+812036	13120		6002505	14000005																												Must use the Coating <color=#C14F38>Snow Petals</color> and the scene <color=#C14F38>Daydream Believer</color> at the same time
+812037	11104		6002904																													Unlocks from owning the Coating "Zhuolu's Rain"
+812038	11104		6002305																													Unlocks from owning the Coating "March Hare"
+812039	11104		6002505																													Unlocks from owning the Coating "Snow Petals"
 841001	10105		14010133																													Clear all stages
 841002	10101		80																													Commandant reaches Lv.80
 841003	15102		2001																													Clear all stages in this area
@@ -2895,6 +2918,17 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 990109	15103		13019304	2																												Obtain 2
 990110	15103		13019304	3																												Obtain 3
 990111	15103		13019304	4																												Obtain 4
+990112	15103		13019403	2																												Obtain 2
+990113	15103		13019403	3																												Obtain 3
+990114	15103		13019403	5																												Obtain 5
+990115	15103		13019407	2																												Obtain 2
+990116	15103		13019407	3																												Obtain 3
+990117	15103		13019407	4																												Obtain 4
+990118	15103		13019406	2																												Obtain 2
+990119	15103		13019406	3																												Obtain 3
+990120	15103		13019406	4																												Obtain 4
+990121	15103		13019405	2																												Obtain 2
+990122	15103		13019405	3																												Obtain 3
 84100101	10105		10010101																													Unlocks after clearing Main Story 1-1
 84100102	10105		10010102																													Unlocks after clearing Main Story 1-2
 84100103	10105		10010103																													Unlocks after clearing Main Story 1-3
@@ -3383,6 +3417,28 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 84102527	10105		10220119																													Unlocks after clearing Main Story (Normal) 22-26
 84102528	10105		10220120																													Unlocks after clearing Main Story (Normal) 22-27
 84102529	10105		10220121																													Unlocks after clearing Main Story (Normal) 22-28
+84102530	10105		10230101																													Unlocks after clearing Main Story (Normal) 23-01
+84102531	10105		10230102																													Unlocks after clearing Main Story (Normal) 23-02
+84102532	10105		10230103																													Unlocks after clearing Main Story (Normal) 23-03
+84102533	10105		10230104																													Unlocks after clearing Main Story (Normal) 23-04
+84102534	10105		10230105																													Unlocks after clearing Main Story (Normal) 23-05
+84102535	10105		10230106																													Unlocks after clearing Main Story (Normal) 23-06
+84102536	10105		10230107																													Unlocks after clearing Main Story (Normal) 23-07
+84102537	10105		10230108																													Unlocks after clearing Main Story (Normal) 23-08
+84102538	10105		10230109																													Unlocks after clearing Main Story (Normal) 23-09
+84102539	10105		10230110																													Unlocks after clearing Main Story (Normal) 23-10
+84102540	10105		10230111																													Unlocks after clearing Main Story (Normal) 23-11
+84102541	10105		10230112																													Unlocks after clearing Main Story (Normal) 23-12
+84102542	10105		10230113																													Unlocks after clearing Main Story (Normal) 23-13
+84102543	10105		10230114																													Unlocks after clearing Main Story (Normal) 23-14
+84102544	10105		10230115																													Unlocks after clearing Main Story (Normal) 23-15
+84102545	10105		10230116																													Unlocks after clearing Main Story (Normal) 23-16
+84102546	10105		10230117																													Unlocks after clearing Main Story (Normal) 23-17
+84102547	10105		21000231																													Unlocks after clearing Side Story Arcade Anima: Nanami No.1
+84102548	10105		21000232																													Unlocks after clearing Side Story Arcade Anima: Nanami No.2
+84102549	10105		21000233																													Unlocks after clearing Side Story Arcade Anima: Nanami No.3
+84102550	10105		21000234																													Unlocks after clearing Side Story Arcade Anima: Nanami No.4
+84102551	10105		21000235																													Unlocks after clearing Side Story Arcade Anima: Nanami No.5
 84200101	10105		11010101																													Unlocks after clearing Main Hidden Story 1-1
 84200102	10105		11010102																													Unlocks after clearing Main Hidden Story 1-2
 84200106	10105		11010106																													Unlocks after clearing Main Hidden Story 1-6
@@ -4216,6 +4272,21 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 84602314	10105		30061352																													Unlocks after clearing [Blazing Trails] Turning Back - 9
 84602315	10105		30061353																													Unlocks after clearing [Blazing Trails] Companion - 7
 84602400	10101		200																													Unlocks after the event [Palette Clash]
+84602401	10105		30131155																													Unlocks after clearing Festive Lanterns in [The Night Train on New Year's Eve]
+84602402	10105		30131150																													Unlocks after clearing Lantern-Lit New Year's Eve in [The Night Train on New Year's Eve]
+84602403	10105		30131151																													Unlocks after clearing A Journey's End in [The Night Train on New Year's Eve]
+84602404	10105		30131152																													Unlocks after clearing The Show Goes On in [The Night Train on New Year's Eve]
+84602405	10105		30131156																													Unlocks after clearing Past Relived in [The Night Train on New Year's Eve]
+84602406	10105		30131157																													Unlocks after clearing Festive Spring in [The Night Train on New Year's Eve]
+84602407	10105		30131153																													Unlocks after clearing New Day, Old Dreams in [The Night Train on New Year's Eve]
+84602408	10105		30131158																													Unlocks after clearing Candle Vigil in [The Night Train on New Year's Eve]
+84602409	10105		30131154																													Unlocks after clearing Dawn of Spring in [The Night Train on New Year's Eve]
+84602410	10105		30131159																													Unlocks after clearing Let's Eat in [The Night Train on New Year's Eve]
+84602411	10105		30130411																													Unlocks after clearing Winter Wanderer in [Daydream Believer]
+84602412	10105		30130412																													Unlocks after clearing Hidden Scars in [Daydream Believer]
+84602413	10105		30130413																													Unlocks after clearing Snowy Prophecy in [Daydream Believer]
+84602414	10105		30130414																													Unlocks after clearing Oath to Death in [Daydream Believer]
+84602415	10105		30130415																													Unlocks after clearing Shadowy Dream in [Daydream Believer]
 84700101	15104		1																													Help other to clear Joint Warfare once
 84700102	15104		10																													Help other to clear Joint Warfare 10 times
 84700103	15104		50																													Help other to clear Joint Warfare 50 times
@@ -4491,6 +4562,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 96006	10105		30100953																													Clear all tutorial stages
 96007	10105		30100961																													Clear all tutorial stages
 96008	10105		30100967																													Clear all tutorial stages
+96009	10105		30100974																													Clear all tutorial stages
 999999	10136		16010000	0	10																											Have any Yuan Ye reach Lv.10 (no Overclock)
 1000000	10136		16020000	0	10																											Have any Noctua reach Lv.10 (no Overclock)
 1000001	10137		16010000	3																												Have any Yuan Ye reach S-Rank
@@ -4533,6 +4605,9 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 1000038	10136		16140000	0	10																											Have any Rainbow reach Lv.10 (no Overclock)
 1000039	10137		16140000	4																												Have any Rainbow reach SS-Rank
 1000040	10138		16140000	10																												Total skill level of any Rainbow reaches Lv.10
+1000041	10136		16150000	0	10																											Have any Motorbolt reach Lv.10 (no Overclock)
+1000042	10137		16150000	4																												Have any Motorbolt reach SS-Rank
+1000043	10138		16150000	10																												Total skill level of any Motorbolt reaches Lv.10
 1001001	10142		16010000																													Unlock Yuan Ye
 1001002	10142		16020000																													Unlock Noctua
 1001003	10142		16030000																													Unlock Toniris
@@ -4547,6 +4622,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 1001012	10142		16120000																													Unlock Shimmer
 1001013	10142		16130000																													Unlock Punchy
 1001014	10142		16140000																													Unlock Rainbow
+1001015	10142		16150000																													Unlock Motorbolt
 1002001	10142		16010000																													Combine CUB "Yuan Ye" unlocked
 1002002	10142		16020000																													Combine CUB "Noctua" unlocked
 1002003	10142		16030000																													Combine CUB "Toniris" unlocked
@@ -4561,6 +4637,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 1002121	10142		16120000																													Combine CUB "Shimmer" unlocked
 1002122	10142		16130000																													Combine CUB "Punchy" to unlock
 1002123	10142		16140000																													Combine CUB "Rainbow" to unlock
+1002124	10142		16150000																													Combine CUB "Motorbolt" to unlock
 94031	10131		101																													Clear NA-01 in Norman Revival Plan
 94032	10135		104																													Have never cleared NA-01 in Norman Revival Plan
 94033	10131		104																													Clear SP-01 in Norman Revival Plan
@@ -4579,7 +4656,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 1002901	0	2120000|2120001																														Unlock the story replay of the 1st birthday
 1002902	10150		6027																													Unlock the story replay of the 1st birthday
 1002903	10150		6033																													Unlock Phase II Birthday Story Replay
-1002904	10150		6033																													Phase II Story Unlocked
+1002904	10150		6033																													Phase II Birthday Unlocked
 1002027	17003		2																													Clear Chapter 3 Ending A - Pay attention to changes
 1002018	17003		3																													Clear Chapter 5 Ending B
 1002019	23001		801																													The roguelike event enters the 2nd week
@@ -4674,6 +4751,11 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 1002104	0	1002101|1002102|1002103																														Reach the entrance of one of the Guild War rounds
 1002105	23001		11202																													Reach the entrance of the Guild War that unlocks on Jul 8, 2022
 1002106	17119		4																													Clear Regular Battle EASY 4
+1002107	23001		15602																													Phase III Guild War Round 1 Combat Duration
+1002108	23001		15603																													Phase III Guild War Round 2 Combat Duration
+1002109	23001		15604																													Phase III Guild War Round 3 Combat Duration
+1002110	0	1002107|1002108|1002109																														Phase III Guild War Total Combat Duration
+1002111	59002																															Hidden node appearance condition - Currently in testing, needs to be finalized
 410	10101		80																													Reach Commandant Level 80
 411	10101		52																													Reach Commandant Level 52.
 1003001	10148		2	388888																												Obtain the designated number of Cogs from the Lucky Chests
@@ -4759,6 +4841,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 1004045	17107		2																													Achieve the "Farewell" ending for the first time
 1004046	17107		3																													Achieve the "Cycle" ending for the first time
 1004047	17111		1428																													Reach chapter 6 of any adventure
+1004048	17107		5																													Achieve the "Contract" ending for the first time
 1005001	17100		8																													Clear chapter 2 of any adventure
 1005006	17100		9																													Clear chapter 3 of any adventure
 1005007	17100		10																													Clear chapter 4 of any adventure
@@ -4767,6 +4850,12 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 1005039	17116		8																													Clear chapter 2 in the previous adventure
 1005044	17100		7																													Clear chapter 1 of any adventure
 1005045	10101		70																													Reach Commandant Lv.70
+1005046	17122		2																													Insight reaches Phase 2
+1005047	17111		1429																													Unlocked after first encounter with "Crimson Insight"
+1005048	17122		1																													Insight reaches Phase 1
+1005049	17122		3																													Insight reaches Phase 3
+1005050	17122		4																													Insight reaches Phase 4
+1005051	17111		1502																													Unlocked after first encounter with "Crimson Insight"
 1006001	0	1004001|1005001																														Clear chapter 2 of any adventure
 1006006	0	1004006|1005006																														Clear chapter 3 of any adventure
 1006007	0	1004007|1005007																														Clear chapter 4 of any adventure
@@ -4839,27 +4928,27 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 890019	16100		7																													Unlocked at Command Bureau Lv.7
 890020	16100		9																													Unlocked at Command Bureau Lv.9
 890021	16100		1																													
-1500001	34101		8001	1000																												
-1500002	34101		8001	3000																												
-1500003	34101		8001	5000																												
-1500004	34102		8001	1000																												
-1500005	34102		8001	3000																												
-1500006	34102		8001	5000																												
-1500007	34103		1																													
-1500008	34103		3																													
-1500009	34103		5																													
+1500001	34101		2000000																													
+1500002	34101		5000000																													
+1500003	34101		10000000																													
+1500004	34102		1000																													
+1500005	34102		3000																													
+1500006	34102		5000																													
+1500007	34103		2																													
+1500008	34103		5																													
+1500009	34103		10																													
 1500010	34104		1																													
 1500011	34104		3																													
 1500012	34104		5																													
 1500013	34105		1000																													
-1500014	34105		1000																													
-1500015	34105		1000																													
-1500016	34106		8001																													
-1500017	34107																															
-1500018	34108		1																													
-1500019	34108		5																													
+1500014	34105		3000																													
+1500015	34105		5000																													
+1500016	34106		1																													
+1500017	34107		1																													
+1500018	34108		50																													
+1500019	34108		20																													
 1500020	34108		10																													
-1500021	34109																															
+1500021	34109		1																													
 1008001	12201		12000																													Unlocks after accumulating 12000 tokens in Welcome Back Shop
 1009001	17118		1200																													Unlocks after obtaining 1200 City Art Badge
 1009002	17119		1																													Clear Palette Clash Stage 1
@@ -4867,6 +4956,7 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 1009004	17120		2																													Palette Clash Stage 2
 1009005	17120		3																													Palette Clash Stage 3
 1009006	17121		5																													Palette Clash Encounter Entrance
+860407	17123		1																													
 860700	10153		1668654000	1																												Register before 11:00 (UTC) on 11/17/2022
 860701	10101		40																													Commandant reaches Lv.40
 860721	10101		65																													Commandant reaches Lv.65
@@ -4875,11 +4965,37 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 860740	10101		20																													Commandant reaches Lv.20
 860741	11117		14000004																													Unlock the beach home screen
 860742	0	774800&771000																														Available after reaching Commandant Lv.40 and clearing Normal Story 2-3
+860743	10181		3	2																												
+860744	10180		6																													[Unlocks at Restaurant Lv.6]
+860745	20110																															Concurrent data download available
+860800	10105		30161460																													Prerequisite: Normal Story 5-12
+860801	10105		30161465																													Prerequisite: Normal Story 5-12
+860802	10105		30161453																													Prerequisite: Normal Story 5-12
+860803	10105		30161441																													Prerequisite: Normal Story 5-12
+860804	10105		30161450																													
+860805	10105		30161458																													
+860806	10105		30161459																													
+860807	10105		30161464																													
+860808	10105		30161466																													
+860746	10180		3																													[Unlocks at Restaurant Lv.3]
+860747	10180		5																													[Unlocks at Restaurant Lv.5]
+860810	10186		6																													Ultimate Brawl Unlocks Emergency Dispatch
+860811	10188		6																													
+860813	10105		30161441																													
+860814	10105		30161442																													
+860823	10183																															DLC - Own any main chip
+860824	10184																															DLC - Player has not upgraded any chip
+860825	10185																															DLC - Player's all chip groups are empty
+1009101	10105		30161465																													Clear normal mode [4-1]
+1009102	10105		30161469																													Clear normal mode [4-5]
+1009103	10105		30161472																													Clear normal mode [5-3]
+1009104	11104		6002505																													Unlocks from owning the Coating "Snow Petals"
 900000001	10105		10020101																													
 900000002	10101		20																													Unlocked when Commandant reaches Lv.20
 1400000	10105		10010103																													
 2120000	10150		6217																													第1期誕生日をアンロック
 2120001	10150		1																													第1期誕生日をアンロック
+2084602133	11104		6902301																													塗装「荒魂神祭」を所持でアンロック
 1002208	10105		30010401																													PV Codex Test Configuration - Memory Drop Stage 1
 1002209	10105		30010402																													PV Codex Test Configuration - Memory Drop Stage 2
 1002210	10105		30010403																													PV Codex Test Configuration - Memory Drop Stage 3
@@ -4915,3 +5031,9 @@ Id	Type	Formula	Params[1]	Params[2]	Params[3]	Params[4]	Params[5]	Params[6]	Para
 900000013	11104		6902301																													Unlocks from owning the Coating "Volatile Priestess"
 3000000	10153		1695693600	1																												EN1.30PC端引导触发条件注册时间早于版更时间
 3000001	10155		1																													EN1.30PC端引导触发条件开启键盘模式
+3000002	10152		960000025																													
+3000003	10152		960000026																													
+3000004	10152		960000027																													
+3000005	10152		960000028																													
+3000006	10152		960000029																													
+3000007	10152		960000030																													

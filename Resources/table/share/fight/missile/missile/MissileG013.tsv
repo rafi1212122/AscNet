@@ -1,78 +1,99 @@
-Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
-96010900	构造体自爆范围预警	2	8				0			1			1						-1						FxYujing1M10S		-1			1					0	0	0										0							0	1					900023									0	HitCase	1	0		1				0														
-96010901	构造体自爆-伤害子弹	2	8				0			6			0.1						-1		FxMo1BraveMd010101Attack01Shouji						-1			1					0	0	0										0							0	3				960109011	744007	816003								0	HitCase		0		1				1														
-96010902	emp爆炸特效1	2	8				0			1			3						-1						FxScene01803Boom01		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
-96010903	emp爆炸buff-对怪物	2	8				0			4			0.1						-1								-1			1					0	0	0										0							0	1					744009	700208	700249	744014						0	HitCase		0						0														
-96010904	流光qte-对队友加血	2	6				0			2			5						-1	1	FxTongyongCureshouji		1		FxR2LifuLuoleiEx		-1			1					0	0	0										0							0	1					700105									0	HitCase		0						0														
-96010905	流光qte-队友免疫爆炸	2	6				0			2			1						-1								-1			1					0	0	0										0							0	1					744010									0	HitCase		0						0														
-96010906	萌战库洛洛消失特效	2	10				0			1			1		1				-1						FxDrop02BeHit		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
-96010907	萌战蚀暗-击退	2	10				0			4			1		1				-1				0.5				-1			1					0	0	0										0							0	1					744049									0	HitCase		0		0				0														
-96010908	萌战艾拉聚怪-吸附	2	100				0			4			1		1				-1	1			0.05				-1			1					0	0	0										0							0	1					744029									0	HitCase		0		0				0														
-96010909	阻断墙，8倍平行Y轴	1	8	2			0		90	4			9999						-1						FxFlashWallloop		-1			1					0	0	0										3							4	1														0	HitCase	1	0			1			0														
-96010910	阻断墙，1.5倍平行X轴	1	1.5	2			0		90	4			9999						-1						FxFlashWallloop		-1			1					0	0	0										3							4	1														0	HitCase	1	0			1			0														
-96010911	萌战入阵激光子子弹	2	1				50			4			0.8						-1						FxMb1BraveMd010011Attack08Laser		-1			1					0	0	0										2							2	1					744066	821542								0	HitCase	1	0						1														
-96010912	萌战入阵激光	2	1				0			4			0.4						-1								-1			1					0	0	0										3	0.4		1	96010911	1		4	1														0	HitCase	1	0						0														
-96010913	萌战入阵激光45m预警	1	2	45			0			1			0.5						-1						FxMb1BraveMd010011Attack08Yujing		-1			1					0	0	0										3							4	1														0	HitCase	1	0						0														
-96010914	光幕墙萌战版本 15米	1	15	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
-96010915	光幕墙萌战版本 12米	1	12	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
-96010916	光幕墙萌战版本3米	1	3	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
-96010917	光幕墙萌战版本 28米	1	28	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
-96010918	光幕墙萌战版本 10米	1	10	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
-96010919	光幕墙萌战版本 18米	1	18	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
-96010920	光幕墙萌战版本6米	1	6	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0														
-96010921	萌战塔防爆炸	2	8				0			4			0.1						-1		FxMo1BraveMd010101Attack01Shouji				FxScene01803Boom01		-1			1					0	0	0										0							0	3				960109211	816003	100002								0	HitCase		0		1				1														
-96010922	阻断墙，16倍平行X轴	1	16	2			0		90	4			9999						-1						FxFlashWallloop		-1			1					0	0	0										3							4	1														0	HitCase	1	0			1			0														
-96010923	阻断墙，6.7倍平行X轴	1	6.7	2			0		90	4			9999						-1						FxFlashWallloop		-1			1					0	0	0										3							4	1														0	HitCase	1	0			1			0														
-96010924	阻断墙，5.45倍平行X轴	1	5.4	2			0		90	4			9999						-1						FxFlashWallloop		-1			1					0	0	0										3							4	1														0	HitCase	1	0			1			0														
-96010925	萌战入阵激光子子弹	2	1				15			4			3.7						-1						FxMb1BraveMd010011Attack08Laser		-1			1					0	0	0										2							2	1					744066	821542								0	HitCase	1	0						1														
-96010926	萌战入阵激光	2	1				0			4			0.4						-1								-1			1					0	0	0										3	0.4		1	96010925	1		4	1														0	HitCase	1	0						0														
-96010927	萌战入阵激光45m预警	1	2	45			0			1			0.5						-1						FxMb1BraveMd010011Attack08Yujing		-1			1					0	0	0										3							4	1														0	HitCase	1	0						0														
-96010928	夏活拍照-击飞	2	2.5				0			1			0.5		1				-1								-1			1					0	0	0										0							0	1				960109281										0	HitCase		0		0				0														
-96010929	夏活拍照-击倒	1	2.5	5			0			1			0.5		1				-1								-1			1					0	0	0										0							0	1				960109291										0	HitCase		0		0				0														
-96010930	雷电地面预警	2	4.5				0			1			9999						-1						FxScene02402LightningYujing		-1			1					0	0	0										0							0	1														0	HitCase		1		1	1			0														
-96010931	雷电-落雷特效	2	4.5				0			1			3						-1						FxScene02402Lightning		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0														
-96010932	雷电-伤害子弹	2	4.5				0			6			0.1						-1		FxMo1BraveMd010101Attack01Shouji						-1			1					0	0	0										0							0	3				960109321	744165	816003								0	HitCase		0		1				1														
-96010933	火球（大）废弃	2	5.3				10			6			5		1				1		FxMo1BraveMd010101Attack01Shouji		1		FxScene02405FireballBig		1	0.6	FxScene02405FireballBoom	3	-8	2	20	0	0	0	0										3							4	1				960109331	744007									20	HitCase		0						1														
-96010934	风区加速子弹	2	4.5				0			6			0.1						-1								-1			1					0	0	0										0							0	1					744155									0	HitCase		0						0														
-96010935	马车冲锋子弹	1	2	5			0			6			20		1				-1		FxMo1BraveMd010101Attack01Shouji		1				-1	0.6		1					0	0	0										0							0	2				960109351	744167									0	HitCase		1		1				1														
-96010936	火球（小）	2	2.6				10			6			5		1				-1		FxMo1BraveMd010101Attack01Shouji		1		FxScene02405Fireball		-1	2.6	FxScene02405FireballBoom	1					0	0	0										3							4	3				960109361	744169									2.4	HitCase		0						1														
-96010937	风区持续特效	2	4.5				0			1			9999						-1						FxScene02402Windarea		-1			1					0	0	0										0							0	1														0	HitCase		1		1	1			0														
-96010938	从天而降的火球	2	4				0			6			2		1				-1						FxScene02408HuoqiuL5		-1	4		1					0	0	0										0	2		1	96010939			0	1														10	HitCase		0						0														
-96010939	从天而降的火球爆炸	2	4				0			6			2		1				-1						FxScene02405FireballBoom		-1			1					0	0	0										2			1	96010941			2	1														0	HitCase	0	0						0														
-96010940	从天而降的火球预警	2	4				0			6			2						-1						FxYujing1M20S		-1			1					0	0	0										0							0	1														0	HitCase	1	0		1				0														
-96010941	从天而降的火球伤害子弹	2	4				0			6			0.1						-1		FxScene02408Baozha						-1			1					0	0	0										2							2	1				960109411	744168	816003								0	HitCase		0		1				1														
-96010942	携带半隐身效果的子弹	2	4				0			4			0.1						-1								-1			1					0	0	0										0							0	1					720316									0	HitCase		0						0														
-96010943	携带去半隐身效果的子弹	2	4				0			4			0.1						-1								-1			1					0	0	0										0							0	1					720317									0	HitCase		0						0														
-96010944	携带隐身效果的子弹	2	4				0			4			0.1						-1								-1			1					0	0	0										0							0	1					720318									0	HitCase		0						0														
-96010945	携带去隐身效果的子弹	2	4				0			4			0.1						-1								-1			1					0	0	0										0							0	1					720319									0	HitCase		0						0														
-96010946	绿色1号九宫格炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianGreen		-1			1					0	0	0										3	2		1	96010957			4	1					748051									0	HitCase	0	0						0														
-96010947	黄色1号十字形炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianYellow		-1			1					0	0	0										3	2		1	96010958			4	1					748052									0	HitCase	0	0						0														
-96010948	蓝色1号斜字型炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianBlue		-1			1					0	0	0										3	2		1	96010959			4	1					748053									0	HitCase	0	0						0														
-96010949	红色随机型预警炸弹	1	2.8	2.8			0			6			20						-1						FxScene2705DimianRed		-1			1					0	0	0										3							4	1														0	HitCase	0	0						0														
-96010950	红色随机型带判断信号炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705HongChao		-1			1					0	0	0										3							4	1					748054									0	HitCase	0	0						0														
-96010951	绿色2号九宫格炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianGreen		-1			1					0	0	0										3	2		1	96010957			4	1					748063									0	HitCase	0	0						0														
-96010952	黄色2号十字形炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianYellow		-1			1					0	0	0										3	2		1	96010958			4	1					748064									0	HitCase	0	0						0														
-96010953	蓝色2号斜字型炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianBlue		-1			1					0	0	0										3	2		1	96010959			4	1					748065									0	HitCase	0	0						0														
-96010954	绿色3号九宫格炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianGreen		-1			1					0	0	0										3	2		1	96010957			4	1					748066									0	HitCase	0	0						0														
-96010955	黄色3号十字形炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianYellow		-1			1					0	0	0										3	2		1	96010958			4	1					748067									0	HitCase	0	0						0														
-96010956	蓝色3号斜字型炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianBlue		-1			1					0	0	0										3	2		1	96010959			4	1					748068									0	HitCase	0	0						0														
-96010957	绿色九宫格炸弹爆炸特效	1	2.8	2.8			0			6			1						-1						FxScene2705DiLieGreen		-1			1					0	0	0										2							2	1														0	HitCase	0	0						0														
-96010958	黄色十字形炸弹爆炸特效	1	2.8	2.8			0			6			1						-1						FxScene2705DiLieYellow		-1			1					0	0	0										2							2	1														0	HitCase	0	0						0														
-96010959	蓝色斜字型炸弹爆炸特效	1	2.8	2.8			0			6			1						-1						FxScene2705DiLieBlue		-1			1					0	0	0										2							2	1														0	HitCase	0	0						0														
-96010960	绿色1号九宫格炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748051									0	HitCase	0	0						0														
-96010961	黄色1号十字形炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748052									0	HitCase	0	0						0														
-96010962	蓝色1号斜字型炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748053									0	HitCase	0	0						0														
-96010963	绿色2号九宫格炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748063									0	HitCase	0	0						0														
-96010964	黄色2号十字形炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748064									0	HitCase	0	0						0														
-96010965	蓝色2号斜字型炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748065									0	HitCase	0	0						0														
-96010966	绿色3号九宫格炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748066									0	HitCase	0	0						0														
-96010967	黄色3号十字形炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748067									0	HitCase	0	0						0														
-96010968	蓝色3号斜字型炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748068									0	HitCase	0	0						0														
-96010969	燃烧瓶爆炸	2	1				0			6			0.8						-1						FxBottle02		-1			1					0	0	0										3	0.8		1	96010970			4	1					748083	748086								0	HitCase	0	0						0														
-96010970	燃烧瓶燃烧	2	1				0			6			8						-1						FxBottle03		-1			1					0	0	0										2							2	1					748088	748087								0	HitCase	0	0						0														
-96010971	救护车爆炸无伤版	2	1				0			2			5						1	1			0.3		FxAmbulanceFire		1			1					0	0	0										0							0	1		0.3	0.1	960109711										0	HitCase		0						0														
-96010972	爆炸子弹	2	2				0			6			2						-1						FxBottle02		-1			1					0	0	0										0							0	1														0	HitCase	1	0						0														
-96010973	信号子弹1方块炸弹	1	0.2	0.2			0			6			9999						-1								-1			1					0	0	0										3							4	1					748157									0	HitCase	0	0						0														
-96010974	信号子弹1虫子炸弹	1	0.05	0.05			0			6			9999						-1								-1			1					0	0	0										3							4	1					748157									0	HitCase	0	0						0														
-96010975	信号子弹中心信号炸弹	1	2.8	6.5			0			6			9999						-1								-1			1					0	0	0										3							4	1					748158									0	HitCase	0	0						0														
-96010976	蓝色地砖炸弹	1	9	9			0			6			9999						-1						FxScene2705DimianBlue		-1			1					0	0	0										3	2		1				4	1					748053									0	HitCase	1	0						0														
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType	FollowHeightJoint	BindLauncherFrame	BindSkillFrame	SlopeTargetJoint
+96010900	构造体自爆范围预警	2	8				0			1			1						-1						FxYujing1M10S		-1			1					0	0	0										0							0	1					900023									0	HitCase	1	0		1				0																		
+96010901	构造体自爆-伤害子弹	2	8				0			6			0.1						-1		FxMo1BraveMd010101Attack01Shouji						-1			1					0	0	0										0							0	3				960109011	744007	816003								0	HitCase		0		1				1																		
+96010902	emp爆炸特效1	2	8				0			1			3						-1						FxScene01803Boom01		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0																		
+96010903	emp爆炸buff-对怪物	2	8				0			4			0.1						-1								-1			1					0	0	0										0							0	1					744009	700208	700249	744014						0	HitCase		0						0																		
+96010904	流光qte-对队友加血	2	6				0			2			5						-1	1	FxTongyongCureshouji		1		FxR2LifuLuoleiEx		-1			1					0	0	0										0							0	1					700105									0	HitCase		0						0																		
+96010905	流光qte-队友免疫爆炸	2	6				0			2			1						-1								-1			1					0	0	0										0							0	1					744010									0	HitCase		0						0																		
+96010906	萌战库洛洛消失特效	2	10				0			1			1		1				-1						FxDrop02BeHit		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0																		
+96010907	萌战蚀暗-击退	2	10				0			4			1		1				-1				0.5				-1			1					0	0	0										0							0	1					744049									0	HitCase		0		0				0																		
+96010908	萌战艾拉聚怪-吸附	2	100				0			4			1		1				-1	1			0.05				-1			1					0	0	0										0							0	1					744029									0	HitCase		0		0				0																		
+96010909	阻断墙，8倍平行Y轴	1	8	2			0		90	4			9999						-1						FxFlashWallloop		-1			1					0	0	0										3							4	1														0	HitCase	1	0			1			0																		
+96010910	阻断墙，1.5倍平行X轴	1	1.5	2			0		90	4			9999						-1						FxFlashWallloop		-1			1					0	0	0										3							4	1														0	HitCase	1	0			1			0																		
+96010911	萌战入阵激光子子弹	2	1				50			4			0.8						-1						FxMb1BraveMd010011Attack08Laser		-1			1					0	0	0										2							2	1					744066	821542								0	HitCase	1	0						1																		
+96010912	萌战入阵激光	2	1				0			4			0.4						-1								-1			1					0	0	0										3	0.4		1	96010911	1		4	1														0	HitCase	1	0						0																		
+96010913	萌战入阵激光45m预警	1	2	45			0			1			0.5						-1						FxMb1BraveMd010011Attack08Yujing		-1			1					0	0	0										3							4	1														0	HitCase	1	0						0																		
+96010914	光幕墙萌战版本 15米	1	15	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0																		
+96010915	光幕墙萌战版本 12米	1	12	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0																		
+96010916	光幕墙萌战版本3米	1	3	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0																		
+96010917	光幕墙萌战版本 28米	1	28	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0																		
+96010918	光幕墙萌战版本 10米	1	10	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0																		
+96010919	光幕墙萌战版本 18米	1	18	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0																		
+96010920	光幕墙萌战版本6米	1	6	1			3			4			12		1				1						FxTongyongDataBoxLoop02		1		FxTongyongDataBoxOut01	1					0	0	0										3							4	1					744064	744065								1	HitCase	1	0			1			0																		
+96010921	萌战塔防爆炸	2	8				0			4			0.1						-1		FxMo1BraveMd010101Attack01Shouji				FxScene01803Boom01		-1			1					0	0	0										0							0	3				960109211	816003	100002								0	HitCase		0		1				1																		
+96010922	阻断墙，16倍平行X轴	1	16	2			0		90	4			9999						-1						FxFlashWallloop		-1			1					0	0	0										3							4	1														0	HitCase	1	0			1			0																		
+96010923	阻断墙，6.7倍平行X轴	1	6.7	2			0		90	4			9999						-1						FxFlashWallloop		-1			1					0	0	0										3							4	1														0	HitCase	1	0			1			0																		
+96010924	阻断墙，5.45倍平行X轴	1	5.4	2			0		90	4			9999						-1						FxFlashWallloop		-1			1					0	0	0										3							4	1														0	HitCase	1	0			1			0																		
+96010925	萌战入阵激光子子弹	2	1				15			4			3.7						-1						FxMb1BraveMd010011Attack08Laser		-1			1					0	0	0										2							2	1					744066	821542								0	HitCase	1	0						1																		
+96010926	萌战入阵激光	2	1				0			4			0.4						-1								-1			1					0	0	0										3	0.4		1	96010925	1		4	1														0	HitCase	1	0						0																		
+96010927	萌战入阵激光45m预警	1	2	45			0			1			0.5						-1						FxMb1BraveMd010011Attack08Yujing		-1			1					0	0	0										3							4	1														0	HitCase	1	0						0																		
+96010928	夏活拍照-击飞	2	2.5				0			1			0.5		1				-1								-1			1					0	0	0										0							0	1				960109281										0	HitCase		0		0				0																		
+96010929	夏活拍照-击倒	1	2.5	5			0			1			0.5		1				-1								-1			1					0	0	0										0							0	1				960109291										0	HitCase		0		0				0																		
+96010930	雷电地面预警	2	4.5				0			1			9999						-1						FxScene02402LightningYujing		-1			1					0	0	0										0							0	1														0	HitCase		1		1	1			0																		
+96010931	雷电-落雷特效	2	4.5				0			1			3						-1						FxScene02402Lightning		-1			1					0	0	0										0							0	1														0	HitCase		0		0				0																		
+96010932	雷电-伤害子弹	2	4.5				0			6			0.1						-1		FxMo1BraveMd010101Attack01Shouji						-1			1					0	0	0										0							0	3				960109321	744165	816003								0	HitCase		0		1				1																		
+96010933	火球（大）废弃	2	5.3				10			6			5		1				1		FxMo1BraveMd010101Attack01Shouji		1		FxScene02405FireballBig		1	0.6	FxScene02405FireballBoom	3	-8	2	20	0	0	0	0										3							4	1				960109331	744007									20	HitCase		0						1																		
+96010934	风区加速子弹	2	4.5				0			6			0.1						-1								-1			1					0	0	0										0							0	1					744155									0	HitCase		0						0																		
+96010935	马车冲锋子弹	1	2	5			0			6			20		1				-1		FxMo1BraveMd010101Attack01Shouji		1				-1	0.6		1					0	0	0										0							0	2				960109351	744167									0	HitCase		1		1				1																		
+96010936	火球（小）	2	2.6				10			6			5		1				-1		FxMo1BraveMd010101Attack01Shouji		1		FxScene02405Fireball		-1	2.6	FxScene02405FireballBoom	1					0	0	0										3							4	3				960109361	744169									2.4	HitCase		0						1																		
+96010937	风区持续特效	2	4.5				0			1			9999						-1						FxScene02402Windarea		-1			1					0	0	0										0							0	1														0	HitCase		1		1	1			0																		
+96010938	从天而降的火球	2	4				0			6			2		1				-1						FxScene02408HuoqiuL5		-1	4		1					0	0	0										0	2		1	96010939			0	1														10	HitCase		0						0																		
+96010939	从天而降的火球爆炸	2	4				0			6			2		1				-1						FxScene02405FireballBoom		-1			1					0	0	0										2			1	96010941			2	1														0	HitCase	0	0						0																		
+96010940	从天而降的火球预警	2	4				0			6			2						-1						FxYujing1M20S		-1			1					0	0	0										0							0	1														0	HitCase	1	0		1				0																		
+96010941	从天而降的火球伤害子弹	2	4				0			6			0.1						-1		FxScene02408Baozha						-1			1					0	0	0										2							2	1				960109411	744168	816003								0	HitCase		0		1				1																		
+96010942	携带半隐身效果的子弹	2	4				0			4			0.1						-1								-1			1					0	0	0										0							0	1					720316									0	HitCase		0						0																		
+96010943	携带去半隐身效果的子弹	2	4				0			4			0.1						-1								-1			1					0	0	0										0							0	1					720317									0	HitCase		0						0																		
+96010944	携带隐身效果的子弹	2	4				0			4			0.1						-1								-1			1					0	0	0										0							0	1					720318									0	HitCase		0						0																		
+96010945	携带去隐身效果的子弹	2	4				0			4			0.1						-1								-1			1					0	0	0										0							0	1					720319									0	HitCase		0						0																		
+96010946	绿色1号九宫格炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianGreen		-1			1					0	0	0										3	2		1	96010957			4	1					748051									0	HitCase	0	0						0																		
+96010947	黄色1号十字形炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianYellow		-1			1					0	0	0										3	2		1	96010958			4	1					748052									0	HitCase	0	0						0																		
+96010948	蓝色1号斜字型炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianBlue		-1			1					0	0	0										3	2		1	96010959			4	1					748053									0	HitCase	0	0						0																		
+96010949	红色随机型预警炸弹	1	2.8	2.8			0			6			20						-1						FxScene2705DimianRed		-1			1					0	0	0										3							4	1														0	HitCase	0	0						0																		
+96010950	红色随机型带判断信号炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705HongChao		-1			1					0	0	0										3							4	1					748054									0	HitCase	0	0						0																		
+96010951	绿色2号九宫格炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianGreen		-1			1					0	0	0										3	2		1	96010957			4	1					748063									0	HitCase	0	0						0																		
+96010952	黄色2号十字形炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianYellow		-1			1					0	0	0										3	2		1	96010958			4	1					748064									0	HitCase	0	0						0																		
+96010953	蓝色2号斜字型炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianBlue		-1			1					0	0	0										3	2		1	96010959			4	1					748065									0	HitCase	0	0						0																		
+96010954	绿色3号九宫格炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianGreen		-1			1					0	0	0										3	2		1	96010957			4	1					748066									0	HitCase	0	0						0																		
+96010955	黄色3号十字形炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianYellow		-1			1					0	0	0										3	2		1	96010958			4	1					748067									0	HitCase	0	0						0																		
+96010956	蓝色3号斜字型炸弹	1	2.8	2.8			0			6			2						-1						FxScene2705DimianBlue		-1			1					0	0	0										3	2		1	96010959			4	1					748068									0	HitCase	0	0						0																		
+96010957	绿色九宫格炸弹爆炸特效	1	2.8	2.8			0			6			1						-1						FxScene2705DiLieGreen		-1			1					0	0	0										2							2	1														0	HitCase	0	0						0																		
+96010958	黄色十字形炸弹爆炸特效	1	2.8	2.8			0			6			1						-1						FxScene2705DiLieYellow		-1			1					0	0	0										2							2	1														0	HitCase	0	0						0																		
+96010959	蓝色斜字型炸弹爆炸特效	1	2.8	2.8			0			6			1						-1						FxScene2705DiLieBlue		-1			1					0	0	0										2							2	1														0	HitCase	0	0						0																		
+96010960	绿色1号九宫格炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748051									0	HitCase	0	0						0																		
+96010961	黄色1号十字形炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748052									0	HitCase	0	0						0																		
+96010962	蓝色1号斜字型炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748053									0	HitCase	0	0						0																		
+96010963	绿色2号九宫格炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748063									0	HitCase	0	0						0																		
+96010964	黄色2号十字形炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748064									0	HitCase	0	0						0																		
+96010965	蓝色2号斜字型炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748065									0	HitCase	0	0						0																		
+96010966	绿色3号九宫格炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748066									0	HitCase	0	0						0																		
+96010967	黄色3号十字形炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748067									0	HitCase	0	0						0																		
+96010968	蓝色3号斜字型炸弹自身不爆炸	1	2.8	2.8			0			6			3						-1								-1			1					0	0	0										3							4	1					748068									0	HitCase	0	0						0																		
+96010969	燃烧瓶爆炸	2	1				0			6			0.8						-1						FxBottle02		-1			1					0	0	0										3	0.8		1	96010970			4	1					748083	748086								0	HitCase	0	0						0																		
+96010970	燃烧瓶燃烧	2	1				0			6			8						-1						FxBottle03		-1			1					0	0	0										2							2	1					748088	748087								0	HitCase	0	0						0																		
+96010971	救护车爆炸无伤版	2	1				0			2			5						1	1			0.3		FxAmbulanceFire		1			1					0	0	0										0							0	1		0.3	0.1	960109711										0	HitCase		0						0																		
+96010972	爆炸子弹	2	2				0			6			2						-1						FxBottle02		-1			1					0	0	0										0							0	1														0	HitCase	1	0						0																		
+96010973	信号子弹1方块炸弹	1	0.2	0.2			0			6			9999						-1								-1			1					0	0	0										3							4	1					748157									0	HitCase	0	0						0																		
+96010974	信号子弹1虫子炸弹	1	0.05	0.05			0			6			9999						-1								-1			1					0	0	0										3							4	1					748157									0	HitCase	0	0						0																		
+96010975	信号子弹中心信号炸弹	1	2.8	6.5			0			6			9999						-1								-1			1					0	0	0										3							4	1					748158									0	HitCase	0	0						0																		
+96010976	蓝色地砖炸弹	1	9	9			0			6			9999						-1						FxScene2705DimianBlue		-1			1					0	0	0										3	2		1				4	1					748053									0	HitCase	1	0						0																		
+96010977	绿色1号九宫格炸弹	1	3.2	3.2			0			6			2.5						-1						FxScene2705DimianGreen		-1			1					0	0	0										3	2		1	96010986			4	1					748231	748252	748247							0	HitCase	0	0				0.5		0																		
+96010978	绿色2号九宫格炸弹	1	3.2	3.2			0			6			2.5						-1						FxScene2705DimianGreen		-1			1					0	0	0										3	2		1	96010986			4	1					748232	748253	748247							0	HitCase	0	0				0.5		0																		
+96010979	绿色3号九宫格炸弹	1	3.2	3.2			0			6			2.5						-1						FxScene2705DimianGreen		-1			1					0	0	0										3	2		1	96010986			4	1					748233	748254	748247							0	HitCase	0	0				0.5		0																		
+96010980	黄色1号十字形炸弹	1	3.2	3.2			0			6			2.5						-1						FxScene2705DimianYellow		-1			1					0	0	0										3	2		1	96010987			4	1					748234	748252	748248							0	HitCase	0	0				0.5		0																		
+96010981	黄色2号十字形炸弹	1	3.2	3.2			0			6			2.5						-1						FxScene2705DimianYellow		-1			1					0	0	0										3	2		1	96010987			4	1					748235	748253	748248							0	HitCase	0	0				0.5		0																		
+96010982	黄色3号十字形炸弹	1	3.2	3.2			0			6			2.5						-1						FxScene2705DimianYellow		-1			1					0	0	0										3	2		1	96010987			4	1					748236	748254	748248							0	HitCase	0	0				0.5		0																		
+96010983	蓝色1号斜字型炸弹	1	3.2	3.2			0			6			2.5						-1						FxScene2705DimianBlue		-1			1					0	0	0										3	2		1	96010988			4	1					748237	748252	748249							0	HitCase	0	0				0.5		0																		
+96010984	蓝色2号斜字型炸弹	1	3.2	3.2			0			6			2.5						-1						FxScene2705DimianBlue		-1			1					0	0	0										3	2		1	96010988			4	1					748238	748253	748249							0	HitCase	0	0				0.5		0																		
+96010985	蓝色3号斜字型炸弹	1	3.2	3.2			0			6			2.5						-1						FxScene2705DimianBlue		-1			1					0	0	0										3	2		1	96010988			4	1					748239	748254	748249							0	HitCase	0	0				0.5		0																		
+96010986	绿色九宫格炸弹爆炸特效	1	3.2	3.2			0			6			1						-1						FxScene2705DiLieGreen		-1			1					0	0	0										2							2	1														0	HitCase	0	0						0																		
+96010987	黄色十字形炸弹爆炸特效	1	3.2	3.2			0			6			1						-1						FxScene2705DiLieYellow		-1			1					0	0	0										2							2	1														0	HitCase	0	0						0																		
+96010988	蓝色斜字型炸弹爆炸特效	1	3.2	3.2			0			6			1						-1						FxScene2705DiLieBlue		-1			1					0	0	0										2							2	1														0	HitCase	0	0						0																		
+96010989	红色随机型预警炸弹普通	1	3.2	3.2			0			6			10						-1						FxScene2705DimianRed		-1			1					0	0	0										3	10		1	96010991			4	1														0	HitCase	0	0						0																		
+96010990	红色随机型预警炸弹困难	1	3.2	3.2			0			6			8						-1						FxScene2705DimianRed		-1			1					0	0	0										3	8		1	96010991			4	1														0	HitCase	0	0						0																		
+96010991	红色随机型带判断信号炸弹	1	3.2	3.2			0			6			3						-1						FxScene2705HongChao		-1			1					0	0	0										2							2	1					748054									0	HitCase	0	0				0.5		0																		
+96010992	S赛琳娜挑战关3伤害者方位判断-上	3	100	90			0			4			1						-1								-1			1					0	0	0										3							4	1					742725									0	HitCase		0						0																		
+96010993	S赛琳娜挑战关3伤害者方位判断-下	3	100	90			0			4			1						-1								-1			1					0	0	0										3							4	1					742726									0	HitCase		0						0																		
+96010994	S赛琳娜挑战关3伤害者方位判断-左	3	100	90			0			4			1						-1								-1			1					0	0	0										3							4	1					742727									0	HitCase		0						0																		
+96010995	S赛琳娜挑战关3伤害者方位判断-右	3	100	90			0			4			1						-1								-1			1					0	0	0										3							4	1					742728									0	HitCase		0						0																		
+96010996	援助技能机炮子弹	2	2				0			4			3						-1						FxR2KalieninaAttack51Dandao		-1			1					0	0	0										3							4	1					748295									0	HitCase		0						0																		
+96010997	受击反馈	2	2				0			4			0.3						-1								-1			1					0	0	0										2							2	2				960109971										1.2			0						0													960109972					

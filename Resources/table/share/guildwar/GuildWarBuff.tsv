@@ -1,9 +1,10 @@
-Id	GroupId	HpPercent	FightEventId
-1	1	67	
-2	1	33	2240292
-3	1	1	2240293
-4	1	0	2240294
-5	2	67	
-6	2	33	2240295
-7	2	1	2240296
-8	2	0	2240297
+Id	GroupId	HpPercent	FightEventId	KillMonsterCount	DelayMonsterBornInterval
+1	1	67		1	
+2	1	33		1	
+3	1	0		1	24
+4	2	67		1	
+5	2	33		1	
+6	2	0		1	24
+7	3	67		2	
+8	3	33		2	
+9	3	0		2	48

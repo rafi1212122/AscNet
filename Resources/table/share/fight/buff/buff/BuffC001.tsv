@@ -115,7 +115,7 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 710225			0	-1				1	0	7102250			710225000									
 710227			0	-1				1	0	7102270			710227000									
 710229			0	-1				1	0	7102290			710229000									
-710231			0	-1				1	0	7102310			710231000									
+710231			0	-1				1	0	7102310			710231000					1				
 710233			0	-1				1	0	7102330			710233000									
 710235			0	-1				1	0	7102350			710235000									
 710237			0	5				-1	0	7102370				FxTongyongDarkShouji	HitCase							
@@ -161,6 +161,8 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 710290			0	-1				1	0	7102900			710290000					1				
 710291			0	0				1	0	7102910			710291000					1				
 710292			0	0				1	0	7102920			710292000					1				
+710293			0	-1				1	0	7102930			710293000					1				
+710294			0	-1				1	0	7102940			710294000					1				
 710295			0	-1				1	0	7102950			710295000					1				
 710296			0	-1				1	0	7102960			710296000					1				
 710297			0	0				1	0	7102970			710297000					1				
@@ -185,6 +187,7 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 710316			0	-1				1	0	7103160			710316000					1				
 710317			0	-1				1	0	7103170			710317000					1				
 710318			0	-1				1	0	7103180			710318000					1				
+710319			0	-1				1	0	7103190			710319000					1				
 710321			0	-1				1	0	7103210			710321000					1				
 710322			0	-1				1	0	7103220			710322000					1				
 710331			0	-1				1	0	7103310			710331000					1				
@@ -193,6 +196,14 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 710334			0	-1				1	0	7103340			710334000					1				
 710335			0	-1				1	0	7103350			710335000									
 710337			0	-1				1	0	7103370			710337000									
+710341			0	-1				1	0	7103410				FxChaJianDiaoLuoBlueTrail								
+710342			0	-1				1	0	7103420				FxChaJianDiaoLuoVioletTrail								
+710343			0	-1				1	0	7103430				FxChaJianDiaoLuoOrangeTrail								
+710344			0	-1				1	0	7103440				FxChaJianDiaoLuoRedTrail								
+710345			0	-1				1	0	7103450				FxChaJianGuangZhuBule								
+710346			0	-1				1	0	7103460				FxChaJianGuangZhuViolet								
+710347			0	-1				1	0	7103470				FxChaJianGuangZhuOrange								
+710348			0	-1				1	0	7103480				FxChaJianGuangZhuRed								
 711101			0	-1				1	0	7111010			711101000									
 711102			0	-1				1	0	7111020			711102000					1				
 711103			0	-1				1	0	7111030												
@@ -223,7 +234,10 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 712004			0	-1		712004		1	0	7120040			712004000	FxShuangDun	HitCase							
 712005			0	-1		712005		1	0	7120050			712005000									
 712006			0	-1		712006		1	0	7120060			712006000									
+712007			0	-1		712007		1	0	7120070			712007000									
 713004			0	2				1	0	7130040|15|5			713004000	FxR4LuxiyaAttackBingdong	HitCase							
 713005			0	2				1	0	7130050|15|5			713005000									
 713006			0	2				1	0	7130060|15|5			713006000									
 713011			0	8		713011		1	0	7130110|110|100|6			713011000	FxYingDun	HitCase			1				
+713014			0	-1				1	0	7130140			713014000									
+713015			0	-1				1	0	7130150			713015000									

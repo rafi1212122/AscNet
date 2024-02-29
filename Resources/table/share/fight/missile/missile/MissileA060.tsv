@@ -1,361 +1,365 @@
-Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType
-47001401	4-1：石化面朝自身八米内目标持续6秒，易伤20-1	2	8				0			4			0.2						-1								-1			1					0	0	0										0							0	3		0.2	0.1		470047									0	HitCase		0						0	1													
-47001402	4-1：石化面朝自身八米内目标持续6秒，易伤20-2	2	8				0			4			0.2						-1								-1			1					0	0	0										0							0	3		0.2	0.1		470051									0	HitCase		0						0	1													
-47001403	4-1：石化面朝自身八米内目标持续6秒，易伤20-3	2	8				0			4			0.2						-1								-1			1					0	0	0										0							0	3		0.2	0.1		470055									0	HitCase		0						0	1													
-47001404	4-1：石化面朝自身八米内目标持续6秒，易伤20-4	2	8				0			4			0.2						-1								-1			1					0	0	0										0							0	3		0.2	0.1		470059									0	HitCase		0						0	1													
-47001702	5-1：5米内每秒选5个敌人造成200%伤害-2	2	0.3				0			4			5						-1		FxR3LifuAttack11Shouji				FxCizhuiHuolizhiyuan		-1			1					0	0	0										3	0	1	1	47001703			4	3		0.2	0.1											0	HitCase		0						0	1													
-47001703	5-1：5米内每秒选5个敌人造成200%伤害-3	2	1.5				0			4			0.6						-1								-1			1					0	0	0										2							2	3		0	0	470017031	470064									0	HitCase		0						0	1													
-47001802	5-2：5米内每秒选5个敌人造成240%伤害-2	2	0.3				0			4			5						-1		FxR3LifuAttack11Shouji				FxCizhuiHuolizhiyuan		-1			1					0	0	0										3	0	1	1	47001803			4	3		0.2	0.1											0	HitCase		0						0	1													
-47001803	5-2：5米内每秒选5个敌人造成240%伤害-3	2	1.5				0			4			0.6						-1								-1			1					0	0	0										2							2	3		0	0	470018031	470067									0	HitCase		0						0	1													
-47001902	5-3：5米内每秒选5个敌人造成280%伤害-2	2	0.3				0			4			5						-1		FxR3LifuAttack11Shouji				FxCizhuiHuolizhiyuan		-1			1					0	0	0										3	0	1	1	47001903			4	3		0.2	0.1											0	HitCase		0						0	1													
-47001903	5-3：5米内每秒选5个敌人造成280%伤害-3	2	1.5				0			4			0.6						-1								-1			1					0	0	0										2							2	3		0	0		470070									0	HitCase		0						0	1													
-47002002	5-4：5米内每秒选5个敌人造成320%伤害-2	2	0.3				0			4			5						-1		FxR3LifuAttack11Shouji				FxCizhuiHuolizhiyuan		-1			1					0	0	0										3	0	1	1	47002003			4	3		0.2	0.1											0	HitCase		0						0	1													
-47002003	5-4：5米内每秒选5个敌人造成320%伤害-3	2	1.5				0			4			0.6						-1								-1			1					0	0	0										2							2	3		0	0		470073									0	HitCase		0						0	1													
-47050101	普攻4-1	1	3	10		5	0			4			0.1						-1		FxR1LifuAttack01Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.09	470501011	100352									2.2		1	0						1	1													
-47050701	QTE-1	2	3.5				0			3			0.1		1				-1		FxTongyongCureshouji						-1			1					0	0	0										0			1	10031802			0	3		0.2	0.1		100354									0	HitCase		0						0	1													
-47050702	QTE-2	2	3.5				0			4			0.1						-1		FxR1LifuQteShouji						-1			1					0	0	0										2							1	3		0.2	0.1	470507021	100355									0	HitCase		0						0	1													
-47060104	第一下-伤害	1	7	7		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk01Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470601041	470656					470607		470613		0	HitCase		1		1				1	1													
-47060110	地裂-特效	2	1.2		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk12Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						0	1													
-47060203	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470602031	470662					470666				0	HitCase		1		1				1	1													
-47060204	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470602041	470662					470666				0	HitCase		1		1				1	1													
-47060205	第二下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470602051	470662					470666				0	HitCase		1		1				1	1													
-47060206	第三下推搡-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470602061	470662					470666				0	HitCase		1		1				1	1													
-47060208	第四下-伤害	1	6	6		2.4	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470602081	470663					470608		470614		0	HitCase		1		1				1	1													
-47060212	地裂-特效	2	0.3		0.5	4	0			4			5						-1						FxMe1JiegouqiutuAtk02Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1													
-47060303	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk04Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470603031	470650	470603				470603		470653		0	HitCase		1		1				1	1													
-47060404	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470604041	470650	470603				470603		470653		0	HitCase		1		1				1	1													
-47060405	刀光-特效	2	0.3				0			4			2						-1						FxMe1JiegouqiutuAtk24		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-47060504	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470605041	801060	909502	909531		909531					0	HitCase		1		1				1	1													
-47060604	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk06Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470606041	470651	470604				470604		470654		0	HitCase		1		1				1	1													
-47060704	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk07Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470607041	801030									0	HitCase		1		1				1	1													
-47060710	第二下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk07Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470607101	801040									0	HitCase		1		1				1	1													
-47060904	第一下-伤害	1	4	6		3	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470609041	470652					470606		470612		0	HitCase		1		1				1	1													
-47060911	地裂-特效	2	1.5		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk01Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						0	1													
-47061204	第一下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk12Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470612041	801030	909506								0	HitCase		1		1				1	1													
-47061207	第二下-伤害	1	6	6		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk12Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470612071	801060									0	HitCase		1		1				1	1													
-47061215	地裂-特效	2	1.5		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk12Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						1	1													
-47061304	地裂-特效	2	0.6				0			4			3						-1						FxMe1JiegouqiutuAtk13Dilie		-1			1					0	0	0										1							0	3		0.2	0.1											0	HitCase	1	0						0	1					20	120							
-47061305	地裂-特效	2	4				0			4			0.2						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.2	0.1	470613051	470670									0	HitCase	1	0						0	1													
-47061504	第一下-伤害	1	6	5		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470615041	470657					470660				0	HitCase		1		1				1	1													
-47061507	第二下-伤害	1	7	7		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470615071	470658					470607		470613		0	HitCase		1		1				1	1													
-47061515	地裂-特效	2	0.3		-2	3	0			4			5						-1						FxMe1JiegouqiutuAtk15Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1													
-47061516	黑洞-拉扯1	2	8			3	0			4			1.5						-1	1			0.02	HitCase	FxCizhuiHeidong		-1			1					0	0	0										0							0	3		0.2	0.1		470678									0	HitCase		1		0				0	1													
-47061706	第一下-伤害	2	8			2	0			4			0.1						-1		FxMe1JiegouqiutuAtk17ZkHit						-1			1					0	0	0										0							0	3		0.4	0.3	470617061	470674									0	HitCase		1		1				1	1													
-47061713	地裂-特效	2	0.3		0	3	0			4			5						-1						FxMe1JiegouqiutuAtk17ZkDilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1													
-47061714	地裂-特效	2	0.3		0	3	0			4			5						-1						FxMe1JiegouqiutuAtk26Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1					3	120							
-47061715	第二下伤害	2	8			3	0			4			0.1						-1		FxMe1JiegouqiutuAtk17ZkHit						-1			1					0	0	0										0							0	1		0.4	0.3	470617151	470675	470687				470687				0	HitCase		1		1				1	1													
-47061902	地裂-特效	2	0.3		0	0	0			4			5						-1						FxMe1JiegouqiutuAtk17Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1													
-47062002	第二下-伤害	1	2	4		2	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		801010									0	HitCase		1		1				1	1													
-47062203	砸地-伤害	2	2				0			4			0.1						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.2	0.1		801060									0	HitCase		1		1				1	1													
-47062208	地裂-特效	2	0.3		0	2	0			4			5						-1						FxMe1JiegouqiutuAtk22Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1													
-47062303	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470623031	470664					470668				0	HitCase		1		1				1	1													
-47062304	第一下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470623041	470664					470668				0	HitCase		1		1				0	1													
-47062305	第二下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470623051	470664					470668				0	HitCase		1		1				0	1													
-47062306	第三下推搡-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470623061	470664					470668				0	HitCase		1		1				0	1													
-47062308	第四下-伤害	2	7			1.5	0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470623081	470665					470669	470614	470608		0	HitCase		1		1				1	1													
-47062404	地裂-特效	2	1.2				0			4			3						-1						FxMe1JiegouqiutuAtk13Dilie		-1			1					0	0	0										1							0	3		0.2	0.1											0	HitCase	1	0						0	1					20	120							
-47062405	地裂-特效	2	6				0			4			0.2						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.4	0.3	470624051	470671									0	HitCase		0						0	1													
-47062504	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk04Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470625041	470650	470603				470603		470653		0	HitCase		1		1				1	1													
-47062505	刀光-特效	2	0.3				0			4			2						-1						FxMe1JiegouqiutuAtk24		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-47070104	第一下-伤害	1	7	7		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk01Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470701041	470656					470607		470613		0	HitCase		1		1				1	1													
-47070110	地裂-特效	2	1.2		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk12Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						0	1													
-47070203	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470702031	470662					470666				0	HitCase		1		1				1	1													
-47070204	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470702041	470662					470666				0	HitCase		1		1				1	1													
-47070205	第二下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470702051	470662					470666				0	HitCase		1		1				1	1													
-47070206	第三下推搡-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470702061	470662					470666				0	HitCase		1		1				1	1													
-47070208	第四下-伤害	1	6	6		2.4	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470702081	470663					470608		470614		0	HitCase		1		1				1	1													
-47070212	地裂-特效	2	0.3		0.5	4	0			4			5						-1						FxMe1JiegouqiutuAtk02Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1													
-47070303	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk04Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470703031	470650	470603				470603		470653		0	HitCase		1		1				1	1													
-47070307	电锯子弹	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk06Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470703071	470651	470604				470604		470654		0	HitCase		1		0				1	1	1												
-47070404	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470704041	470650	470603					470901	470653		0	HitCase		1		1				1	1													
-47070405	刀光-特效	2	0.3				0			4			2						-1						FxMe1JiegouqiutuAtk24		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-47070504	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470705041	801060	909502	909531		909531					0	HitCase		1		1				1	1													
-47070604	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk06Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470706041	470651	470604				470604		470654		0	HitCase		1		1				1	1													
-47070704	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk07Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470707041	801030									0	HitCase		1		1				1	1													
-47070710	第二下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk07Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470707101	801040									0	HitCase		1		1				1	1													
-47070904	第一下-伤害	1	4	6		3	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470709041	470652					470606		470612		0	HitCase		1		1				1	1													
-47070911	地裂-特效	2	1.5		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk01Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						0	1													
-47071204	第一下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk12Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470712041	801030	909506								0	HitCase		1		1				1	1													
-47071207	第二下-伤害	1	6	6		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk12Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470712071	801060									0	HitCase		1		1				1	1													
-47071215	地裂-特效	2	1.5		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk12Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						1	1													
-47071304	地裂-特效	2	0.6				0			4			3						-1						FxMe1JiegouqiutuAtk13Dilie		-1			1					0	0	0										1							0	3		0.2	0.1											0	HitCase	1	0						0	1					20	120							
-47071305	地裂-特效	2	4				0			4			0.2						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.2	0.1	470713051	470670									0	HitCase	1	0						0	1													
-47071504	第一下-伤害	1	6	5		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470715041	470657					470660				0	HitCase		1		1				1	1													
-47071507	第二下-伤害	1	7	7		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470715071	470658					470607		470613		0	HitCase		1		1				1	1													
-47071515	地裂-特效	2	0.3		-2	3	0			4			5						-1						FxMe1JiegouqiutuAtk15Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1													
-47071516	黑洞-拉扯1	2	8			3	0			4			1.5						-1	1			0.02	HitCase	FxCizhuiHeidong		-1			1					0	0	0										0							0	3		0.2	0.1		470678									0	HitCase		1		0				0	1													
-47071706	第一下-伤害	2	8			2	0			4			0.1						-1		FxMe1JiegouqiutuAtk17ZkHit						-1			1					0	0	0										0							0	3		0.4	0.3	470717061	470674									0	HitCase		1		1				1	1													
-47071713	地裂-特效	2	0.3		0	3	0			4			5						-1						FxMe1JiegouqiutuAtk17ZkDilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1													
-47071714	地裂-特效	2	0.3		0	3	0			4			5						-1						FxMe1JiegouqiutuAtk26Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1					3	120							
-47071715	第二下伤害	2	8			3	0			4			0.1						-1		FxMe1JiegouqiutuAtk17ZkHit						-1			1					0	0	0										0							0	1		0.4	0.3	470717151	470675	470687				470687				0	HitCase		1		1				1	1													
-47071902	地裂-特效	2	0.3		0	0	0			4			5						-1						FxMe1JiegouqiutuAtk17Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1													
-47072002	第二下-伤害	1	2	4		2	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		801010									0	HitCase		1		1				1	1													
-47072203	砸地-伤害	2	2				0			4			0.1						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.2	0.1		801060									0	HitCase		1		1				1	1													
-47072208	地裂-特效	2	0.3		0	2	0			4			5						-1						FxMe1JiegouqiutuAtk22Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1													
-47072303	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470723031	470664					470668				0	HitCase		1		1				1	1													
-47072304	第一下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470723041	470664					470668				0	HitCase		1		1				0	1													
-47072305	第二下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470723051	470664					470668				0	HitCase		1		1				0	1													
-47072306	第三下推搡-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470723061	470664					470668				0	HitCase		1		1				0	1													
-47072308	第四下-伤害	2	7			1.5	0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470723081	470665					470669	470614	470608		0	HitCase		1		1				1	1													
-47072404	地裂-特效	2	1.2				0			4			3						-1						FxMe1JiegouqiutuAtk13Dilie		-1			1					0	0	0										1							0	3		0.2	0.1											0	HitCase	1	0						0	1					20	120							
-47072405	地裂-特效	2	6				0			4			0.2						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.4	0.3	470724051	470671									0	HitCase		0						0	1													
-47072504	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk04Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470725041	470650	470603					470901	470653		0	HitCase		1		1				1	1													
-47072505	刀光-特效	2	0.3				0			4			2						-1						FxMe1JiegouqiutuAtk24		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10540102	第一下-伤害（禁止改弹道id）	2	4			0.5	0		-90	4			0.15						-1		FxR4YongyechaobotAtk01LineHit						-1			2	800	0	3	3	0	0	0										0							0	3		0.3	0.2	105401021	105566		105447			105426	105447	105448		0	HitCase		1		1				1	1													
-10540106	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10540110	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10540113	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105401131	105582					105615		470653		2.2			1		1	1			1	1	1												
-10540202	第一下-伤害（禁止改弹道id）	2	4			0.5	0		90	4			0.2						-1		FxR4YongyechaobotAtk01LineHit						-1			2	-800	0	3	3	0	0	0										0							0	3		0.3	0.2	105402021	105567		105447			105426	105447	105448		0	HitCase		1		1				1	1													
-10540206	刀光-特效	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10540212	地裂-特效	2	0.3		0.5	4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10540302	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.4	0.3	105403021	105568	105447				105447	105448	105426		0	HitCase		1		1				1	1													
-10540310	地裂-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10540311	刀光-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		0				0	1													
-10540402	第一下-伤害（禁止改弹道id）	2	4			0.5	0		90	4			0.2						-1		FxR4YongyechaobotAtk01LineHit						-1			2	-800	0	3	3	0	0	0										0							0	3		0.3	0.2	105404021	105567		105447			105426	105447	105448		0	HitCase		1		1				1	1													
-10540406	刀光-特效	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10540412	地裂-特效	2	0.3		0.5	4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10540418	地裂-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10540502	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.4	0.3	105405021	105568	105447				105447	105448	105426		0	HitCase		1		1				1	1													
-10540511	刀光-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10540521	地裂-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10540604	吸附效果（禁止改弹道id）	1	3	6		3.2	0			4			1						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0												
-10540605	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01Pre		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10540704	吸附效果（禁止改弹道id）	1	3	6		3.2	0			4			1						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0												
-10540705	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk02LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105407051	105582					105615		105736		1.8			1		1	1			1	1	1												
-10540706	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk02Pre		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10540806	吸附效果（禁止改弹道id）	1	3	6		3.2	0			4			1						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0												
-10540807	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105408071	105582					105615		105737		2			1		1	1			1	1	1												
-10540808	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk03Pre		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10540902	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105409021	105569							105689		0	HitCase		1		0				1	1	0												
-10540903	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105409031	105569									0	HitCase		1		0				1	1	0												
-10540904	爆炸伤害（禁止改弹道id）	1	8	12		5	0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105409041	105570							105690		0	HitCase		0		0				1	1	0												
-10540905	爆炸伤害（禁止改弹道id）	1	8	12		5	0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105409051	105570									0	HitCase		0		0				1	1	0												
-10540906	爆炸特效	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk11Baozha		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10540907	吸附特效	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk11Xishou		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10540909	吸附效果（禁止改弹道id）	1	8	10		4	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		0				1	1	0												
-10540911	测试-特效	2	1.5		0	-1	0			4			2						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10540918	红球特殊消	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk24hit01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10540921	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk11Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541002	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105410021	105571							105692		0	HitCase		1		1				1	1	1												
-10541003	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105410031	105571									0	HitCase		1		1				1	1	1												
-10541004	爆炸伤害（禁止改弹道id）	1	10	14		6	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105410041	105572							105693		0	HitCase		1		1				1	1	1												
-10541005	爆炸伤害（禁止改弹道id）	1	10	14		6	0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105410051	105572									0	HitCase		1		1				1	1	1												
-10541006	爆炸特效12	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk11BaozhaBig		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541007	吸附特效6	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk11Xishou		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541009	吸附效果（禁止改弹道id）	1	999	999		4	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		0				1	1	0												
-10541012	测试-特效	2	1.5		0	-1	5			4			2						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10541013	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk11Sound02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541018	红球特殊消	2	0.3			3	0			4			3						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541102	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105411021	105573							105695		0	HitCase		1		1				1	1	1												
-10541103	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105411031	105573							105695		0	HitCase		1		1				1	1	1												
-10541104	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105411041	105573							105695		0	HitCase		1		1				1	1	1												
-10541105	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.15						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0	0.1	999	1	10541106			0	3		0.3	0.2	105411051	105573							105695		0	HitCase		0		0				1	1	1												
-10541106	爆炸伤害（禁止改弹道id）	1	8	12		2	0			4			0.4						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										2	0.35	999	1	10541107			2	3		0.3	0.2	105411061	105574							105695		0	HitCase		0		0				1	1	1												
-10541107	爆炸伤害（禁止改弹道id）	1	8	12		2	0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										2							2	3		0.3	0.2	105411071	105574							105696		0	HitCase		0		0				1	1	1												
-10541109	特效（飞轮）	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk22lunzi		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10541110	特效（刀光）	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk22		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10541125	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk11Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541202	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105412021	105575							105698		0	HitCase		1		1				1	1	1												
-10541203	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105412031	105575							105698		0	HitCase		1		1				1	1	1												
-10541204	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105412041	105575							105698		0	HitCase		1		1				1	1	1												
-10541205	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.15						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0	0.1	999	1	10541206			0	3		0.3	0.2	105412051	105575							105698		0	HitCase		0		0				1	1	1												
-10541206	爆炸伤害（禁止改弹道id）	1	10	14		3	0			4			0.4						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										2	0.35	999	1	10541207			2	3		0.3	0.2	105412061	105576							105698		0	HitCase		0		0				1	1	1												
-10541207	爆炸伤害（禁止改弹道id）	1	10	14		3	0			4			0.1						-1		FxR4YongyechaobotAtk24hit01						-1			1					0	0	0										2							2	3		0.3	0.2	105412071	105576							105699		0	HitCase		0		0				1	1	1												
-10541209	特效（飞轮）11	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk22lunziBig		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10541210	特效（刀光）8	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk22		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10541211	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk11Sound02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541302	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105413021	105577							105701		0	HitCase		1		1				1	1	1												
-10541303	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105413031	105577							105701		0	HitCase		1		1				1	1	1												
-10541304	爆炸伤害（禁止改弹道id）	1	8	12		5	0			4			0.25						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0	0.25	999	1	10541305			0	3		0.3	0.2	105413041	105578							105701		0	HitCase		0		0				1	1	1												
-10541305	爆炸伤害（禁止改弹道id）	1	8	12		0	0			4			0.1						-1		FxR4YongyechaobotAtk24hit01						-1			1					0	0	0										2							2	3		0.3	0.2	105413051	105578							105702		0	HitCase		0		0				1	1	1												
-10541308	特效3低劣	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk32Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10541319	地裂-特效	2	4				0			4			0.1						-1								-1			1					0	0	0										1							0	3		0.2	0.1	105413191	470670									0	HitCase		0						0	1													
-10541325	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk32Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541402	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105414021	105579							105704		0	HitCase		1		1				1	1	1												
-10541403	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105414031	105579							105704		0	HitCase		1		1				1	1	1												
-10541404	爆炸伤害（禁止改弹道id）	1	10	14		6	0			4			0.25						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0	0.25	999	1	10541405			0	3		0.3	0.2	105414041	105580							105704		0	HitCase		0		0				1	1	1												
-10541405	爆炸伤害（禁止改弹道id）	1	10	14		0	0			4			0.1						-1		FxR4YongyechaobotAtk24hit01						-1			1					0	0	0										2							2	3		0.3	0.2	105414051	105580							105705		0	HitCase		0		0				1	1	1												
-10541408	特效3低劣7	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk32Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10541413	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk32Sound02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541502	连斩伤害（禁止改弹道id）	1	8	8			0			4			0.1						-1		FxR4YongyechaobotAtk07DgHit						-1			1					0	0	0										0							0	3		0.3	0.2	105415021	105579							105710		0	HitCase		1		1				1	1	1												
-10541503	连斩伤害（禁止改弹道id）	1	8	8			0			4			0.1						-1		FxR4YongyechaobotAtk07DgHit						-1			1					0	0	0										0							0	3		0.3	0.2	105415031	105579							105710		0	HitCase		1		1				1	1	1												
-10541504	爆炸伤害（禁止改弹道id）	1	8	14		-5	0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105415041	105580							105711		0	HitCase		1		1				1	1	1												
-10541505	爆炸伤害（禁止改弹道id）	1	8	14		-5	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.3	0.2	105415051	105580							105711		0	HitCase		1		1				1	1	1												
-10541515	刀光-特效	2	0.3		0	0	0			4			2						-1						FxR4YongyechaobotAtk07Trail		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541520	刀光-特效	2	0.3		0	0	0			4			2						-1						FxR4YongyechaobotAtk07		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541521	刀光-特效	2	0.3		0	0	0			4			2						-1						FxR4YongyechaobotAtk07Dg		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1						0	1			1										
-10541525	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk07Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541607	红球特殊消	2	0.3			3	0			4			3						-1						FxR4Yongyechaobot21DaodanDown		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541613	导弹爆炸	2	0.3			3	0			4			3						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541624	导弹爆炸1	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown		-1			1					0	0	0										1	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541625	导弹爆炸2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown01		-1			1					0	0	0										1	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541626	导弹爆炸3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown02		-1			1					0	0	0										1	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541627	伤害子弹（禁止改弹道id）	2	4				0			4			0.3						-1	1			0.2				-1			1					0	0	0										1	0.1	999	1	10541628			0	3		0.2	0.1			105540	105541			105662				0	HitCase		0		0	0			0	1	0												
-10541628	伤害子弹（禁止改弹道id）	2	4				0			4			0.3						-1	1			0.2				-1			1					0	0	0										1							0	3		0.2	0.1			105540	105541			105662				0	HitCase		0		0	0			0	1	0												
-10541629	伤害子弹（禁止改弹道id没用到）	2	4				0			4			0.1						-1								-1			1					0	0	0										1							0	3		0.2	0.1			105540	105541			105662				0	HitCase		0						0	1	0												
-10541630	左肩部1	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpL01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541631	左肩部2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpL02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541632	左肩部3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpL03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541633	右肩部1	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpR04		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541634	右肩部2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpR05		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541635	右肩部3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpR06		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541636	导弹爆炸1伤害在行为树里	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown		-1			1					0	0	0										1	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541637	导弹爆炸2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown01		-1			1					0	0	0										1	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541638	导弹爆炸3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown02		-1			1					0	0	0										1	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541639	伤害子弹（禁止改弹道id）	2	4				0			4			0.3						-1	1			0.2				-1			1					0	0	0										1	0.1	999	1	10541640			0	3		0.2	0.1			105540	105541			105662				0	HitCase		0		0	0			0	1	0												
-10541640	伤害子弹（禁止改弹道id）	2	4				0			4			0.3						-1	1			0.2				-1			1					0	0	0										1							0	3		0.2	0.1			105540	105541			105662				0	HitCase		0		0	0			0	1	0												
-10541641	伤害子弹（禁止改弹道id没用到）	2	4				0			4			0.1						-1								-1			1					0	0	0										1							0	3		0.2	0.1			105540	105541			105662				0	HitCase		0						0	1	0												
-10541642	导弹爆炸1_以下为无目标	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown		-1			1					0	0	0										3	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541643	导弹爆炸2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown01		-1			1					0	0	0										3	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541644	导弹爆炸3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown02		-1			1					0	0	0										3	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541645	导弹爆炸1伤害在行为树里	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown		-1			1					0	0	0										3	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541646	导弹爆炸2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown01		-1			1					0	0	0										3	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541647	导弹爆炸3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown02		-1			1					0	0	0										3	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0												
-10541648	倒计时	2	0.3				0			4			13						-1						FxR4YongyechaobotHuan13		-1			1					0	0	0										1							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	1		0										
-10541649	倒计时	2	0.3				0			4			13						-1						FxR4YongyechaobotHuan13		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		2		0	0			0	1	1		0										
-10541702	红球1消-3	2	0.1		-0.8	0.7	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1			5	0	90	0	2	62.8318	0	0	1.2	0								0	999		1	10541703	1		0	3		0.2	0.1											0	HitCase		0						0	1													
-10541703	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit				FxR4Yongyechaobot31Baozha		-1			1					0	0	0										2							0	3	60	0.2	0.15	105417031	105556					105663				0			0						1	1												105417032	
-10541704	红球2消-3	2	0.1		-0.8	0.7	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1			5	0	90	0	2	62.8318	0	0	1.2	0								0	999		1	10541705	1		0	3		0.2	0.1											0	HitCase		0						0	1													
-10541705	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit				FxR4Yongyechaobot31Baozha		-1			1					0	0	0										2							0	3	60	0.2	0.15	105417051	105557					105663				0			0						1	1												105417052	
-10541706	红球3消-3	2	0.1		-0.8	0.7	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1			5	0	90	0	2	62.8318	0	0	1.2	0								0	999		1	10541707	1		0	3		0.2	0.1											0	HitCase		0						0	1													
-10541707	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit				FxR4Yongyechaobot31Baozha		-1			1					0	0	0										2							0	3	60	0.2	0.15	105417071	105558					105663				0			0						1	1												105417072	
-10541708	红球特殊消	2	0.1		-0.8	0.7	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1		FxR4Yongyechaobot31Baozha	5	0	90	0	2	62.8318	0	0	1.2	0								0	999		1	10541709	1		0	3		0.2	0.1											0	HitCase		0						0	1													
-10541709	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit						-1			1					0	0	0										2							0	3	60	0.2	0.15	105417091	105558					105663				0			0						1	1												105417092	
-10541713	地裂-特效	2	0.3		0	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541714	地裂-特效	2	0.3		0	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541715	开枪子弹	2	0.3				0			4			3						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541716	开枪火焰	2	0.3				0			4			3						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10541721	枪口	2	0.3		-0.8	1	0			4			3						-1						FxR4Yongyechaobot31Fashe		-1			1					0	0	0										0							0	3		0.2	0.1											1.6	HitCase		0		0	0			0	1	0												
-10541722	红球1消-3_以下为无目标子弹	2	0.1		-0.8	0.5	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1		FxR4Yongyechaobot31Baozha	1					0	0	0										0	999		1	10541723	1		0	3		0.2	0.1											1.4	HitCase		0					1	0	1													
-10541723	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit						-1			1					0	0	0										2							0	3	60	0.2	0.15	105417231	105556					105663				-1.4			0						1	1												105417232	
-10541724	红球2消-3	2	0.1		-0.8	0.5	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1		FxR4Yongyechaobot31Baozha	1					0	0	0										0	999		1	10541725	1		0	3		0.2	0.1											1.4	HitCase		0					1	0	1													
-10541725	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit						-1			1					0	0	0										2							0	3	60	0.2	0.15	105417251	105557					105663				-1.4			0						1	1												105417252	
-10541726	红球3消-3	2	0.1		-0.8	0.5	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1		FxR4Yongyechaobot31Baozha	1					0	0	0										0	999		1	10541727	1		0	3		0.2	0.1											1.4	HitCase		0					1	0	1													
-10541727	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit						-1			1					0	0	0										2							0	3	60	0.2	0.15	105417271	105558					105663				-1.4			0						1	1												105417272	
-10541728	红球特殊消	2	0.1		-0.8	0.5	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1		FxR4Yongyechaobot31Baozha	1					0	0	0										0	999		1	10541729	1		0	3		0.2	0.1											1.4	HitCase		0					1	0	1													
-10541729	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit						-1			1					0	0	0										2							0	3	60	0.2	0.15	105417291	105558					105663				-1.4			0						1	1												105417292	
-10541902	第一下-伤害	1	5	10		2	0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.3				-1			1					0	0	0										0							0	3		0.3	0.2	105419021	105550							105666		0	HitCase		1		0				1	1													
-10542002	第一下-伤害	1	5	10		2	0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.3				-1			1					0	0	0										0							0	3		0.3	0.2	105420021	105551							105666		0	HitCase		1		0				1	1													
-10542104	第一下-伤害	1	5	10		2	0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.3				-1			1					0	0	0										0							0	3		0.3	0.2	105421041	105552							105666		0	HitCase		1		0				1	1													
-10542105	第一下-伤害	2	6				0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.34				-1			1					0	0	0										0							0	3		0.3	0.2	105421051	105553							105667		0	HitCase		1		0				1	1													
-10542109	吸附效果（禁止改弹道id）	1	8	10		2.5	0			4			0.3						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0												
-10542203	砸地-伤害	3	12	180		-1.8	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										1							0	3		0.2	0.1		105559									0	HitCase		1						0	1													
-10542208	压暗	2	0.3		0	2	0			4			5						-1						FxR4YongyechaobotAtk39Sc		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10542210	超算	2	30				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		105724									0	HitCase		0		1				1	1	1												
-10542211	爆炸伤害	3	12	180		-1.8	0			4			0.1						-1		FxR4YongyechaobotAtk39hit						-1			1					0	0	0										0							0	3		0.3	0.2	105422111	105560					105460				0	HitCase		1		1				1	1	1												
-10542212	爆炸伤害	3	12	180		-1.8	0			4			0.1						-1		FxR4YongyechaobotAtk39hit						-1			1					0	0	0										0							0	3		0.3	0.2	105422121	105560									0	HitCase		1		1				1	1	1												
-10542213	爆炸伤害	3	12	180		-1.8	0			4			0.1						-1		FxR4YongyechaobotAtk39hit						-1			1					0	0	0										0							0	3		0.3	0.2	105422131	105560					105459				0	HitCase		1		1				1	1	1												
-10542220	爆炸-特效	2	0.3		0	2	0			4			5						-1						FxR4YongyechaobotAtk39Baozha		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10542229	音效子弹	2	0.3				0			4			4						-1						FxR4YongyechaobotAtk39Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10542303	第一下-伤害（禁止改变伤害id）	3	20	160		-4	0			4			0.1						-1		FxR4YongyechaobotAtk40hit						-1			1					0	0	0										0							0	3		0.3	0.2	105423031	105561									0	HitCase		1						0	1													
-10542304	第一下-伤害	3	20	160		-4	0			4			0.1						-1		FxR4YongyechaobotAtk40hit						-1			1					0	0	0										0							0	3		0.3	0.2	105423041	105561									0	HitCase		1						0	1													
-10542305	第二下-伤害	3	20	160		-4	0			4			0.1						-1		FxR4YongyechaobotAtk40hit						-1			1					0	0	0										0							0	3		0.3	0.2	105423051	105561									0	HitCase		1						0	1													
-10542306	第三下推搡-伤害	3	20	160		-4	0			4			0.1						-1		FxR4YongyechaobotAtk40hit						-1			1					0	0	0										0							0	3		0.3	0.2	105423061	105561									0	HitCase		1						0	1													
-10542308	第四下-伤害	3	20	160		-4	0			4			0.1						-1		FxR4YongyechaobotAtk40hit						-1			1					0	0	0										0							0	3		0.4	0.3	105423081	105562									0	HitCase		1						0	1													
-10542309	爆炸伤害超算	2	30				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		105725									0	HitCase		0		1				1	1	1												
-10542310	音效子弹	2	0.3				0			4			8						-1						FxR4YongyechaobotAtk40Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10542316	伤害复制2（禁止改变伤害id）	3	20	160		-4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1							470668				0	HitCase		1						0	1													
-10542317	3	3	20	160		-4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1							470668				0	HitCase		1						0	1													
-10542318	第二下-伤害	3	20	160		-4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1							470668				0	HitCase		1						0	1													
-10542319	第三下推搡-伤害	3	20	160		-4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1							470668				0	HitCase		1						0	1													
-10542405	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotPenSound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10542501	后闪——音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotPenSound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10542606	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAttack25Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10542706	音效子弹	2	0.3				0			4			0.5						-1						FxR4YongyechaobotAttack43Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10542803	音效子弹	2	0.3				0			4			0.5						-1						FxR4YongyechaobotAttack46Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10543115	后闪——音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotPenSound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10543202	子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtkQte		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10543203	第一下-伤害	2	6				0			4			1						-1								-1			1					0	0	0										0							0	3		0.3	0.2	105432031	105583							470653		0	HitCase		1		0				1	1													
-10543204	第一下-伤害	2	6				0			4			1						-1		FxR4YongyechaobotAtkQtehit01						-1			1					0	0	0										0							0	3		0.3	0.2	105432041	105583							470653		0	HitCase		1		0				1	1													
-10543205	第一下-伤害	2	6				0			4			1						-1								-1			1					0	0	0										0							0	3		0.3	0.2	105432051	105583							470653		0	HitCase		1		0				1	1													
-10543210	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtkQteSound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10543304	第一下-伤害	1	5	6		-1	0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105433041	105552							105666		0	HitCase		1		0				1	1													
-10543305	第一下-伤害	2	6				0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.34				-1			1					0	0	0										0							0	3		0.3	0.2	105433051	105553							105667		0	HitCase		1		0				1	1													
-10543309	吸附效果（禁止改弹道id）	1	8	10		2	0			4			0.5						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		0				1	1	0												
-10543802	连斩伤害（禁止改伤害id）	3	8	130		-1	0			4			0.1						-1		FxR4YongyechaobotAtk36hit						-1			1					0	0	0										0							0	3		0.3	0.2	105438021								105707		0	HitCase		0		1				1	1	1												
-10543803	连斩伤害（禁止改伤害id）	3	8	130		-1	0			4			0.35						-1								-1			1					0	0	0										0	0.3	99	1	10543804	0		0	3		0.3	0.2	105438031	105727					105727				0	HitCase		0						1	1	1												
-10543804	爆炸伤害（禁止改伤害id）14	3	12	130			0			4			0.2						-1		FxR4YongyechaobotAtkQtehit01						-1			1					0	0	0										2	0.15	99	1	10543805	0		2	3		0.3	0.2	105438041								105708		0	HitCase		0						1	1	1												
-10543805	爆炸伤害（禁止改伤害id）17	3	12	150			0			4			0.1						-1								-1			1					0	0	0										2							2	3		0.3	0.2	105438051								105708		0	HitCase		0						1	1	1												
-10543812	测试-特效	2	0.3			-1	0			4			5						-1						FxR4YongyechaobotAtk36		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10543821	音效子弹	2	0.3				0			4			5						-1						FxR4YongyechaobotAtk36Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10543823	压暗	2	0.3		0	2	0			4			5						-1						FxR4YongyechaobotAtk39Sc		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10544015	后闪——音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotPenSound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10544202	发射效果1	2	0.1		-0.65		18			4			0.5						-1								-1			5	12	-5	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1													
-10544203	发射效果2	2	0.1		-0.65		16			4			0.5						-1								-1			5	-15	-5	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1													
-10544204	发射效果3	2	0.1		-0.65		17			4			0.5						-1								-1			5	24	10	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1													
-10544205	发射效果4	2	0.1		-0.65		15			4			0.5						-1								-1			5	-22	5	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1													
-10544206	发射效果5	2	0.1		-0.65		16			4			0.5						-1								-1			5	8	10	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1													
-10544207	发射效果6	2	0.1		-0.65		17			4			0.5						-1								-1			5	-7	-10	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1													
-10544208	被动-【追踪子弹1】	2	0.2		8	-7	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737					120261		120796		0			0	1			0.7		1	1													
-10544209	被动-【追踪子弹2】	2	0.2		-7	8	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737							120796		0			0	1			0.7		1	1													
-10544214	发射火花	2	50				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0	0			120793								0	HitCase		0						0	1													
-10544218	被动-【追踪子弹2】	2	0.2		6	11	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737					120261		120796		0			0	1			0.7		1	1													
-10544219	被动-【追踪子弹3】	2	0.2		-5	7	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737							120796		0			0	1			0.7		1	1													
-10544220	被动-【追踪子弹4】	2	0.2		7	-9	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737					120261		120796		0			0	1			0.7		1	1													
-10544221	被动-【追踪子弹5】	2	0.2		-8	-11	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737							120796		0			0	1			0.72		1	1													
-10544223	Pod发射准备1 	2	15				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0	0			120291	120264							0	HitCase		0						0	1													
-10544230	红球1消-3	2	0.1			0.5	20			4			3		1				1								1			5	0	90	0	2	62.8318	-4	5	0.8	-0.5								0	999		1	10544231	1		0	3		0.2	0.1											0	HitCase		0						0	1													
-10544231	红球1消-4	2	3			1	0			4			0.3						-1								-1			1					0	0	0										2							0	3	60	0.2	0.15	105442311	101310									2.2			0						1	1												105442312	
-10544232	红球1消-3	2	0.1			0.5	20			4			3		1				1								1			5	0	90	0	2	62.8318	-4	5	0.8	-0.5								0	999		1	10544233	1		0	3		0.2	0.1											0	HitCase		0						0	1													
-10544233	红球1消-4	2	3			1	0			4			0.3						-1								-1			1					0	0	0										2							0	3	60	0.2	0.15	105442331	101310									2.2			0						1	1												105442332	
-10544234	红球1消-3	2	0.1			0.5	20			4			3		1				1								1			5	0	90	0	2	62.8318	-4	5	0.8	-0.5								0	999		1	10544235	1		0	3		0.2	0.1											0	HitCase		0						0	1													
-10544235	红球1消-4	2	3			1	0			4			0.3						-1								-1			1					0	0	0										2							0	3	60	0.2	0.15	105442351	101310									2.2			0						1	1												105442352	
-10544302	第一下-伤害（禁止改弹道id）	2	4			0.5	0		-90	4			0.15						-1		FxR4YongyechaobotAtk01LineHit						-1			2	800	0	3	3	0	0	0										0							0	3		0.3	0.2	105443021	105566		105447			105426	105447	105448		0	HitCase		1		1				1	1													
-10544306	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10544310	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10544313	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105443131	105582					105615		105735		1.8			1		1	1			1	1	1												
-10544402	第一下-伤害（禁止改弹道id）	2	4			0.5	0		90	4			0.2						-1		FxR4YongyechaobotAtk01LineHit						-1			2	-800	0	3	3	0	0	0										0							0	3		0.3	0.2	105444021	105567		105447			105426	105447	105448		0	HitCase		1		1				1	1													
-10544406	刀光-特效	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10544502	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.4	0.3	105445021	105568	105447				105447	105448	105426		0	HitCase		1		1				1	1													
-10544511	刀光-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10544523	地裂-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10544605	第一下-伤害	3	4	180			0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105446051	105566					105735				0	HitCase		1		1				1	1													
-10544606	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10544610	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10544704	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105447041	105567					105736				0	HitCase		1		1	1			1	1	1												
-10544712	地裂-特效	2	0.3		0.5	4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10544804	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105448041	105567					105736				0	HitCase		1		1	1			1	1	1												
-10544810	刀光-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1						0	1													
-10544811	地裂-特效	2	1.5		-0.5	3	0			4			5						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						0	1													
-10544908	连斩伤害	3	6	160		-1	0			4			1						-1	1	FxR4YongyechaobotAtk01LineHit		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105449081	105582					105489		470653		0	HitCase		1		1				1	1	1												
-10545108	连斩伤害	3	6	160		-1	0			4			1						-1	1	FxR4YongyechaobotAtk01LineHit		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105451081	105582					105489		470653		0	HitCase		1		1				1	1	1												
-10545306	音效子弹	2	0.3				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10545406	音效子弹	2	0.3				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10545602	第一下-伤害（禁止改弹道id）	2	4			0.5	0		90	4			0.2						-1		FxR4YongyechaobotAtk01LineHit						-1			2	-800	0	3	3	0	0	0										0							0	3		0.3	0.2	105456021	105567		105447			105426	105447	105448		0	HitCase		1		1				1	1													
-10545606	刀光-特效	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10545608	连斩伤害	3	6	160		-1	0			4			1						-1	1	FxR4YongyechaobotAtk01LineHit		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105456081	105582					105489		105736		0	HitCase		1		1	1			1	1	1												
-10545609	机甲BOSS拼刀子弹（禁止改弹道id）	1	5	5		2.5	0			4			0.2						-1								-1			1					0	0	0										0							0	3		0.2	0.1		852033									0	HitCase		0		1				1	1													
-10545612	地裂-特效	2	0.3		0.5	4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10545702	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.4	0.3	105457021	105568	105447				105447	105448	105426		0	HitCase		1		1				1	1													
-10545711	刀光-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10545722	地裂-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1													
-10545802	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105458021	105563		105447			105426	105447	105448		0	HitCase		1		1				1	1													
-10545806	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10545810	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10545813	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105458131	105582					105615		105712		0	HitCase		1		1	1			1	1	1												
-10545902	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105459021	105563		105447			105426	105447	105448		0	HitCase		1		1				1	1													
-10545906	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10545910	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10545913	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105459131	105582					105615		105712		0	HitCase		1		1	1			1	1	1												
-10546004	连斩伤害废弃	3	6	160		-1	0			4			0.1						-1	1	FxR4YongyechaobotAtk01LineHit		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105460041	105582					105489		105712		1.8			1		1	1			1	1	1												
-10546005	吸附效果（禁止改弹道id）	1	3	6		3.2	0			4			0.1						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0												
-10546006	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01Pre		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10546105	第一下-伤害	3	4	180			0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105461051	105582	105728					105728			0	HitCase		1		1				1	1													
-10546106	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10546110	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10546114	第二下-伤害	3	4	180			0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105461141	105563					105651		105652		0	HitCase		1		1				1	1													
-10546202	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105462021	105564		105447			105426	105447	105448		0	HitCase		1		1				1	1													
-10546206	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10546210	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10546213	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105462131	105582					105615		105682		0	HitCase		1		1	1			1	1	1												
-10546302	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk02LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105463021	105564		105447			105426	105447	105448		0	HitCase		1		1				1	1													
-10546306	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10546310	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10546313	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk02LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105463131	105563					105615		105682		0	HitCase		1		1	1			1	1	1												
-10546404	连斩伤害	3	6	160		-1	0			4			0.1						-1	1	FxR4YongyechaobotAtk01LineHit		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105464041	105582					105489		105682		1.8			1		1	1			1	1	1												
-10546405	吸附效果（禁止改弹道id）	1	3	6		3.2	0			4			0.1						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0												
-10546406	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk02Pre		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1													
-10546505	第一下-伤害	3	4	180			0			4			0.1						-1		FxR4YongyechaobotAtk02LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105465051	105582	105655					105655			0	HitCase		1		1				1	1													
-10546506	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1													
-10546510	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1													
-10546514	第一下-伤害	3	4	180			0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105465141	105564					105653		105652		0	HitCase		1		1				1	1													
+Id	Name	Shape	SizeX	SizeY	OffsetX	OffsetY	Speed	HitSpeed	Direction	TargetType	NpcSearcherId	TrackTarget	LiveTime	FillTime	DeadExplosion	MoveExcludeObstacle	ActsExcludeObstacle	ExplosionOnCollideObstacle	HitCount	RepeatDamage	HitEffect[1]	HitEffect[2]	DamageInterval	StartJoint	Effect	WaitTime	DamageCount	DamageRange	ExplosionEffect	LineType	LineParams[1]	LineParams[2]	LineParams[3]	LineParams[4]	LineParams[5]	LineParams[6]	LineParams[7]	LineParams[8]	LineParams[9]	ScaleFunction	ScaleParams[1]	ScaleParams[2]	ScaleParams[3]	ScaleParams[4]	ScaleParams[5]	ScaleType	BornPosition	ChildDelay	ChildInterval	ChildCountLimit	ChildId	BornChildWhileDead	SwitchTargetOnHit	BornDirectionType	BeHitCenter	HitShakeDirection	HitShakeDuration	HitShakeIntensity	BeHitState	Magic[1]	Magic[2]	Magic[3]	Magic[4]	Magic[5]	MagicLauncherNpc[1]	MagicLauncherNpc[2]	MagicLauncherNpc[3]	MagicLauncherNpc[4]	EffectHeight	HitOnJoint	ResizeEffect	BindLauncher	LockLauncherFightTarget	BindSkill	DeathWithNpc	ActiveDelayTime	ExplodeOnFloor	DodgeLimitMark	HitEffectUseMissileDirection	IgnoreNpcTimeScale	ScaleTimeOnHit	BindBornNpc	SingleClientEffect	TimeScale	TimeScaleDuration	ReboundTimes	ReboundType	CollideFilterType	BuffFilter	NpcHitCount	ShakeMagic	CollideMissileType	FollowHeightJoint	BindLauncherFrame	BindSkillFrame
+47001401	4-1：石化面朝自身八米内目标持续6秒，易伤20-1	2	8				0			4			0.2						-1								-1			1					0	0	0										0							0	3		0.2	0.1		470047									0	HitCase		0						0	1																
+47001402	4-1：石化面朝自身八米内目标持续6秒，易伤20-2	2	8				0			4			0.2						-1								-1			1					0	0	0										0							0	3		0.2	0.1		470051									0	HitCase		0						0	1																
+47001403	4-1：石化面朝自身八米内目标持续6秒，易伤20-3	2	8				0			4			0.2						-1								-1			1					0	0	0										0							0	3		0.2	0.1		470055									0	HitCase		0						0	1																
+47001404	4-1：石化面朝自身八米内目标持续6秒，易伤20-4	2	8				0			4			0.2						-1								-1			1					0	0	0										0							0	3		0.2	0.1		470059									0	HitCase		0						0	1																
+47001702	5-1：5米内每秒选5个敌人造成200%伤害-2	2	0.3				0			4			5						-1		FxR3LifuAttack11Shouji				FxCizhuiHuolizhiyuan		-1			1					0	0	0										3	0	1	1	47001703			4	3		0.2	0.1											0	HitCase		0						0	1																
+47001703	5-1：5米内每秒选5个敌人造成200%伤害-3	2	1.5				0			4			0.6						-1								-1			1					0	0	0										2							2	3		0	0	470017031	470064									0	HitCase		0						0	1																
+47001802	5-2：5米内每秒选5个敌人造成240%伤害-2	2	0.3				0			4			5						-1		FxR3LifuAttack11Shouji				FxCizhuiHuolizhiyuan		-1			1					0	0	0										3	0	1	1	47001803			4	3		0.2	0.1											0	HitCase		0						0	1																
+47001803	5-2：5米内每秒选5个敌人造成240%伤害-3	2	1.5				0			4			0.6						-1								-1			1					0	0	0										2							2	3		0	0	470018031	470067									0	HitCase		0						0	1																
+47001902	5-3：5米内每秒选5个敌人造成280%伤害-2	2	0.3				0			4			5						-1		FxR3LifuAttack11Shouji				FxCizhuiHuolizhiyuan		-1			1					0	0	0										3	0	1	1	47001903			4	3		0.2	0.1											0	HitCase		0						0	1																
+47001903	5-3：5米内每秒选5个敌人造成280%伤害-3	2	1.5				0			4			0.6						-1								-1			1					0	0	0										2							2	3		0	0		470070									0	HitCase		0						0	1																
+47002002	5-4：5米内每秒选5个敌人造成320%伤害-2	2	0.3				0			4			5						-1		FxR3LifuAttack11Shouji				FxCizhuiHuolizhiyuan		-1			1					0	0	0										3	0	1	1	47002003			4	3		0.2	0.1											0	HitCase		0						0	1																
+47002003	5-4：5米内每秒选5个敌人造成320%伤害-3	2	1.5				0			4			0.6						-1								-1			1					0	0	0										2							2	3		0	0		470073									0	HitCase		0						0	1																
+47050101	普攻4-1	1	3	10		5	0			4			0.1						-1		FxR1LifuAttack01Shouji						-1			1					0	0	0										0							0	3	30	0.2	0.09	470501011	100352									2.2		1	0						1	1																
+47050701	QTE-1	2	3.5				0			3			0.1		1				-1		FxTongyongCureshouji						-1			1					0	0	0										0			1	10031802			0	3		0.2	0.1		100354									0	HitCase		0						0	1																
+47050702	QTE-2	2	3.5				0			4			0.1						-1		FxR1LifuQteShouji						-1			1					0	0	0										2							1	3		0.2	0.1	470507021	100355									0	HitCase		0						0	1																
+47060104	第一下-伤害	1	7	7		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk01Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470601041	470656					470607		470613		0	HitCase		1		1				1	1																
+47060110	地裂-特效	2	1.2		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk12Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						0	1																
+47060203	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470602031	470662					470666				0	HitCase		1		1				1	1																
+47060204	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470602041	470662					470666				0	HitCase		1		1				1	1																
+47060205	第二下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470602051	470662					470666				0	HitCase		1		1				1	1																
+47060206	第三下推搡-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470602061	470662					470666				0	HitCase		1		1				1	1																
+47060208	第四下-伤害	1	6	6		2.4	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470602081	470663					470608		470614		0	HitCase		1		1				1	1																
+47060212	地裂-特效	2	0.3		0.5	4	0			4			5						-1						FxMe1JiegouqiutuAtk02Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1																
+47060303	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk04Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470603031	470650	470603				470603		470653		0	HitCase		1		1				1	1																
+47060404	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470604041	470650	470603				470603		470653		0	HitCase		1		1				1	1																
+47060405	刀光-特效	2	0.3				0			4			2						-1						FxMe1JiegouqiutuAtk24		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+47060504	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470605041	801060	909502	909531		909531					0	HitCase		1		1				1	1																
+47060604	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk06Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470606041	470651	470604				470604		470654		0	HitCase		1		1				1	1																
+47060704	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk07Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470607041	801030									0	HitCase		1		1				1	1																
+47060710	第二下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk07Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470607101	801040									0	HitCase		1		1				1	1																
+47060904	第一下-伤害	1	4	6		3	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470609041	470652					470606		470612		0	HitCase		1		1				1	1																
+47060911	地裂-特效	2	1.5		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk01Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						0	1																
+47061204	第一下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk12Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470612041	801030	909506								0	HitCase		1		1				1	1																
+47061207	第二下-伤害	1	6	6		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk12Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470612071	801060									0	HitCase		1		1				1	1																
+47061215	地裂-特效	2	1.5		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk12Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						1	1																
+47061304	地裂-特效	2	0.6				0			4			3						-1						FxMe1JiegouqiutuAtk13Dilie		-1			1					0	0	0										1							0	3		0.2	0.1											0	HitCase	1	0						0	1					20	120										
+47061305	地裂-特效	2	4				0			4			0.2						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.2	0.1	470613051	470670									0	HitCase	1	0						0	1																
+47061504	第一下-伤害	1	6	5		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470615041	470657					470660				0	HitCase		1		1				1	1																
+47061507	第二下-伤害	1	7	7		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470615071	470658					470607		470613		0	HitCase		1		1				1	1																
+47061515	地裂-特效	2	0.3		-2	3	0			4			5						-1						FxMe1JiegouqiutuAtk15Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1																
+47061516	黑洞-拉扯1	2	8			3	0			4			1.5						-1	1			0.02	HitCase	FxCizhuiHeidong		-1			1					0	0	0										0							0	3		0.2	0.1		470678									0	HitCase		1		0				0	1																
+47061706	第一下-伤害	2	8			2	0			4			0.1						-1		FxMe1JiegouqiutuAtk17ZkHit						-1			1					0	0	0										0							0	3		0.4	0.3	470617061	470674									0	HitCase		1		1				1	1																
+47061713	地裂-特效	2	0.3		0	3	0			4			5						-1						FxMe1JiegouqiutuAtk17ZkDilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1																
+47061714	地裂-特效	2	0.3		0	3	0			4			5						-1						FxMe1JiegouqiutuAtk26Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1					3	120										
+47061715	第二下伤害	2	8			3	0			4			0.1						-1		FxMe1JiegouqiutuAtk17ZkHit						-1			1					0	0	0										0							0	1		0.4	0.3	470617151	470675	470687				470687				0	HitCase		1		1				1	1																
+47061902	地裂-特效	2	0.3		0	0	0			4			5						-1						FxMe1JiegouqiutuAtk17Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1																
+47062002	第二下-伤害	1	2	4		2	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		801010									0	HitCase		1		1				1	1																
+47062203	砸地-伤害	2	2				0			4			0.1						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.2	0.1		801060									0	HitCase		1		1				1	1																
+47062208	地裂-特效	2	0.3		0	2	0			4			5						-1						FxMe1JiegouqiutuAtk22Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1																
+47062303	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470623031	470664					470668				0	HitCase		1		1				1	1																
+47062304	第一下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470623041	470664					470668				0	HitCase		1		1				0	1																
+47062305	第二下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470623051	470664					470668				0	HitCase		1		1				0	1																
+47062306	第三下推搡-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470623061	470664					470668				0	HitCase		1		1				0	1																
+47062308	第四下-伤害	2	7			1.5	0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470623081	470665					470669	470614	470608		0	HitCase		1		1				1	1																
+47062404	地裂-特效	2	1.2				0			4			3						-1						FxMe1JiegouqiutuAtk13Dilie		-1			1					0	0	0										1							0	3		0.2	0.1											0	HitCase	1	0						0	1					20	120										
+47062405	地裂-特效	2	6				0			4			0.2						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.4	0.3	470624051	470671									0	HitCase		0						0	1																
+47062504	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk04Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470625041	470650	470603				470603		470653		0	HitCase		1		1				1	1																
+47062505	刀光-特效	2	0.3				0			4			2						-1						FxMe1JiegouqiutuAtk24		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+47070104	第一下-伤害	1	7	7		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk01Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470701041	470656					470607		470613		0	HitCase		1		1				1	1																
+47070110	地裂-特效	2	1.2		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk12Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						0	1																
+47070203	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470702031	470662					470666				0	HitCase		1		1				1	1																
+47070204	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470702041	470662					470666				0	HitCase		1		1				1	1																
+47070205	第二下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470702051	470662					470666				0	HitCase		1		1				1	1																
+47070206	第三下推搡-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470702061	470662					470666				0	HitCase		1		1				1	1																
+47070208	第四下-伤害	1	6	6		2.4	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470702081	470663					470608		470614		0	HitCase		1		1				1	1																
+47070212	地裂-特效	2	0.3		0.5	4	0			4			5						-1						FxMe1JiegouqiutuAtk02Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1																
+47070303	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk04Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470703031	470650	470603				470603		470653		0	HitCase		1		1				1	1																
+47070307	电锯子弹	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk06Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470703071	470651	470604				470604		470654		0	HitCase		1		0				1	1	1															
+47070404	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470704041	470650	470603					470901	470653		0	HitCase		1		1				1	1																
+47070405	刀光-特效	2	0.3				0			4			2						-1						FxMe1JiegouqiutuAtk24		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+47070504	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470705041	801060	909502	909531		909531					0	HitCase		1		1				1	1																
+47070604	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk06Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470706041	470651	470604				470604		470654		0	HitCase		1		1				1	1																
+47070704	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk07Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470707041	801030									0	HitCase		1		1				1	1																
+47070710	第二下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk07Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470707101	801040									0	HitCase		1		1				1	1																
+47070904	第一下-伤害	1	4	6		3	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470709041	470652					470606		470612		0	HitCase		1		1				1	1																
+47070911	地裂-特效	2	1.5		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk01Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						0	1																
+47071204	第一下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk12Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470712041	801030	909506								0	HitCase		1		1				1	1																
+47071207	第二下-伤害	1	6	6		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk12Hit						-1			1					0	0	0										0							0	3		0.2	0.1	470712071	801060									0	HitCase		1		1				1	1																
+47071215	地裂-特效	2	1.5		-0.5	3	0			4			5						-1						FxMe1JiegouqiutuAtk12Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						1	1																
+47071304	地裂-特效	2	0.6				0			4			3						-1						FxMe1JiegouqiutuAtk13Dilie		-1			1					0	0	0										1							0	3		0.2	0.1											0	HitCase	1	0						0	1					20	120										
+47071305	地裂-特效	2	4				0			4			0.2						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.2	0.1	470713051	470670									0	HitCase	1	0						0	1																
+47071504	第一下-伤害	1	6	5		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470715041	470657					470660				0	HitCase		1		1				1	1																
+47071507	第二下-伤害	1	7	7		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk15Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470715071	470658					470607		470613		0	HitCase		1		1				1	1																
+47071515	地裂-特效	2	0.3		-2	3	0			4			5						-1						FxMe1JiegouqiutuAtk15Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1																
+47071516	黑洞-拉扯1	2	8			3	0			4			1.5						-1	1			0.02	HitCase	FxCizhuiHeidong		-1			1					0	0	0										0							0	3		0.2	0.1		470678									0	HitCase		1		0				0	1																
+47071706	第一下-伤害	2	8			2	0			4			0.1						-1		FxMe1JiegouqiutuAtk17ZkHit						-1			1					0	0	0										0							0	3		0.4	0.3	470717061	470674									0	HitCase		1		1				1	1																
+47071713	地裂-特效	2	0.3		0	3	0			4			5						-1						FxMe1JiegouqiutuAtk17ZkDilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1																
+47071714	地裂-特效	2	0.3		0	3	0			4			5						-1						FxMe1JiegouqiutuAtk26Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1					3	120										
+47071715	第二下伤害	2	8			3	0			4			0.1						-1		FxMe1JiegouqiutuAtk17ZkHit						-1			1					0	0	0										0							0	1		0.4	0.3	470717151	470675	470687				470687				0	HitCase		1		1				1	1																
+47071902	地裂-特效	2	0.3		0	0	0			4			5						-1						FxMe1JiegouqiutuAtk17Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1																
+47072002	第二下-伤害	1	2	4		2	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		801010									0	HitCase		1		1				1	1																
+47072203	砸地-伤害	2	2				0			4			0.1						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.2	0.1		801060									0	HitCase		1		1				1	1																
+47072208	地裂-特效	2	0.3		0	2	0			4			5						-1						FxMe1JiegouqiutuAtk22Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						1	1																
+47072303	第一下-伤害	1	3	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470723031	470664					470668				0	HitCase		1		1				1	1																
+47072304	第一下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470723041	470664					470668				0	HitCase		1		1				0	1																
+47072305	第二下-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470723051	470664					470668				0	HitCase		1		1				0	1																
+47072306	第三下推搡-伤害	1	2	4		2	0			4			0.1						-1		FxMe1JiegouqiutuAtk02Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470723061	470664					470668				0	HitCase		1		1				0	1																
+47072308	第四下-伤害	2	7			1.5	0			4			0.1						-1		FxMe1JiegouqiutuAtk05Hit						-1			1					0	0	0										0							0	3		0.4	0.3	470723081	470665					470669	470614	470608		0	HitCase		1		1				1	1																
+47072404	地裂-特效	2	1.2				0			4			3						-1						FxMe1JiegouqiutuAtk13Dilie		-1			1					0	0	0										1							0	3		0.2	0.1											0	HitCase	1	0						0	1					20	120										
+47072405	地裂-特效	2	6				0			4			0.2						-1		FxMe1JiegouqiutuAtk22Hit						-1			1					0	0	0										1							0	3		0.4	0.3	470724051	470671									0	HitCase		0						0	1																
+47072504	第一下-伤害	3	4	180			0			4			0.1						-1		FxMe1JiegouqiutuAtk04Hit						-1			1					0	0	0										0							0	3		0.3	0.2	470725041	470650	470603					470901	470653		0	HitCase		1		1				1	1																
+47072505	刀光-特效	2	0.3				0			4			2						-1						FxMe1JiegouqiutuAtk24		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10540102	第一下-伤害（禁止改弹道id）	2	4			0.5	0		-90	4			0.15						-1		FxR4YongyechaobotAtk01LineHit						-1			2	800	0	3	3	0	0	0										0							0	3		0.3	0.2	105401021	105566		105447			105426	105447	105448		0	HitCase		1		1				1	1																
+10540106	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10540110	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10540113	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105401131	105582					105615		470653		2.2			1		1	1			1	1	1															
+10540202	第一下-伤害（禁止改弹道id）	2	4			0.5	0		90	4			0.2						-1		FxR4YongyechaobotAtk01LineHit						-1			2	-800	0	3	3	0	0	0										0							0	3		0.3	0.2	105402021	105567		105447			105426	105447	105448		0	HitCase		1		1				1	1																
+10540206	刀光-特效	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10540212	地裂-特效	2	0.3		0.5	4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10540302	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.4	0.3	105403021	105568	105447				105447	105448	105426		0	HitCase		1		1				1	1																
+10540310	地裂-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10540311	刀光-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		0				0	1																
+10540402	第一下-伤害（禁止改弹道id）	2	4			0.5	0		90	4			0.2						-1		FxR4YongyechaobotAtk01LineHit						-1			2	-800	0	3	3	0	0	0										0							0	3		0.3	0.2	105404021	105567		105447			105426	105447	105448		0	HitCase		1		1				1	1																
+10540406	刀光-特效	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10540412	地裂-特效	2	0.3		0.5	4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10540418	地裂-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10540502	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.4	0.3	105405021	105568	105447				105447	105448	105426		0	HitCase		1		1				1	1																
+10540511	刀光-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10540521	地裂-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10540604	吸附效果（禁止改弹道id）	1	3	6		3.2	0			4			1						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0															
+10540605	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01Pre		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10540704	吸附效果（禁止改弹道id）	1	3	6		3.2	0			4			1						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0															
+10540705	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk02LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105407051	105582					105615		105736		1.8			1		1	1			1	1	1															
+10540706	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk02Pre		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10540806	吸附效果（禁止改弹道id）	1	3	6		3.2	0			4			1						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0															
+10540807	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105408071	105582					105615		105737		2			1		1	1			1	1	1															
+10540808	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk03Pre		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10540902	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105409021	105569							105689		0	HitCase		1		0				1	1	0															
+10540903	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105409031	105569									0	HitCase		1		0				1	1	0															
+10540904	爆炸伤害（禁止改弹道id）	1	8	12		5	0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105409041	105570							105690		0	HitCase		0		0				1	1	0															
+10540905	爆炸伤害（禁止改弹道id）	1	8	12		5	0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105409051	105570									0	HitCase		0		0				1	1	0															
+10540906	爆炸特效	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk11Baozha		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10540907	吸附特效	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk11Xishou		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10540909	吸附效果（禁止改弹道id）	1	8	10		4	0			4			0.15						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		0				1	1	0															
+10540911	测试-特效	2	1.5		0	-1	0			4			2						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10540918	红球特殊消	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk24hit01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10540921	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk11Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541002	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105410021	105571							105692		0	HitCase		1		1				1	1	1															
+10541003	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105410031	105571									0	HitCase		1		1				1	1	1															
+10541004	爆炸伤害（禁止改弹道id）	1	10	14		6	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105410041	105572							105693		0	HitCase		1		1				1	1	1															
+10541005	爆炸伤害（禁止改弹道id）	1	10	14		6	0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105410051	105572									0	HitCase		1		1				1	1	1															
+10541006	爆炸特效12	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk11BaozhaBig		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541007	吸附特效6	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk11Xishou		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541009	吸附效果（禁止改弹道id）	1	999	999		4	0			4			0.25						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		0				1	1	0															
+10541012	测试-特效	2	1.5		0	-1	5			4			2						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10541013	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk11Sound02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541018	红球特殊消	2	0.3			3	0			4			3						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541102	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105411021	105573							105695		0	HitCase		1		1				1	1	1															
+10541103	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105411031	105573							105695		0	HitCase		1		1				1	1	1															
+10541104	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105411041	105573							105695		0	HitCase		1		1				1	1	1															
+10541105	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.15						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0	0.1	999	1	10541106			0	3		0.3	0.2	105411051	105573							105695		0	HitCase		0		0				1	1	1															
+10541106	爆炸伤害（禁止改弹道id）	1	8	12		2	0			4			0.4						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										2	0.35	999	1	10541107			2	3		0.3	0.2	105411061	105574							105695		0	HitCase		0		0				1	1	1															
+10541107	爆炸伤害（禁止改弹道id）	1	8	12		2	0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										2							2	3		0.3	0.2	105411071	105574							105696		0	HitCase		0		0				1	1	1															
+10541109	特效（飞轮）	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk22lunzi		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10541110	特效（刀光）	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk22		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10541125	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk11Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541202	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105412021	105575							105698		0	HitCase		1		1				1	1	1															
+10541203	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105412031	105575							105698		0	HitCase		1		1				1	1	1															
+10541204	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105412041	105575							105698		0	HitCase		1		1				1	1	1															
+10541205	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.15						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0	0.1	999	1	10541206			0	3		0.3	0.2	105412051	105575							105698		0	HitCase		0		0				1	1	1															
+10541206	爆炸伤害（禁止改弹道id）	1	10	14		3	0			4			0.4						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										2	0.35	999	1	10541207			2	3		0.3	0.2	105412061	105576							105698		0	HitCase		0		0				1	1	1															
+10541207	爆炸伤害（禁止改弹道id）	1	10	14		3	0			4			0.1						-1		FxR4YongyechaobotAtk24hit01						-1			1					0	0	0										2							2	3		0.3	0.2	105412071	105576							105699		0	HitCase		0		0				1	1	1															
+10541209	特效（飞轮）11	2	0.3			0	0			4			3						-1						FxR4YongyechaobotAtk22lunziBig		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10541210	特效（刀光）8	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk22		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10541211	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk11Sound02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541302	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105413021	105577							105701		0	HitCase		1		1				1	1	1															
+10541303	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105413031	105577							105701		0	HitCase		1		1				1	1	1															
+10541304	爆炸伤害（禁止改弹道id）	1	8	12		5	0			4			0.25						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0	0.25	999	1	10541305			0	3		0.3	0.2	105413041	105578							105701		0	HitCase		0		0				1	1	1															
+10541305	爆炸伤害（禁止改弹道id）	1	8	12		0	0			4			0.1						-1		FxR4YongyechaobotAtk24hit01						-1			1					0	0	0										2							2	3		0.3	0.2	105413051	105578							105702		0	HitCase		0		0				1	1	1															
+10541308	特效3低劣	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk32Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10541319	地裂-特效	2	4				0			4			0.1						-1								-1			1					0	0	0										1							0	3		0.2	0.1	105413191	470670									0	HitCase		0						0	1																
+10541325	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk32Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541402	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105414021	105579							105704		0	HitCase		1		1				1	1	1															
+10541403	连斩伤害（禁止改弹道id）	1	6	8		3	0			4			0.1						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105414031	105579							105704		0	HitCase		1		1				1	1	1															
+10541404	爆炸伤害（禁止改弹道id）	1	10	14		6	0			4			0.25						-1		FxR4YongyechaobotAtk03LineHit						-1			1					0	0	0										0	0.25	999	1	10541405			0	3		0.3	0.2	105414041	105580							105704		0	HitCase		0		0				1	1	1															
+10541405	爆炸伤害（禁止改弹道id）	1	10	14		0	0			4			0.1						-1		FxR4YongyechaobotAtk24hit01						-1			1					0	0	0										2							2	3		0.3	0.2	105414051	105580							105705		0	HitCase		0		0				1	1	1															
+10541408	特效3低劣7	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk32Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10541413	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk32Sound02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541502	连斩伤害（禁止改弹道id）	1	8	8			0			4			0.1						-1		FxR4YongyechaobotAtk07DgHit						-1			1					0	0	0										0							0	3		0.3	0.2	105415021	105579							105710		0	HitCase		1		1				1	1	1															
+10541503	连斩伤害（禁止改弹道id）	1	8	8			0			4			0.1						-1		FxR4YongyechaobotAtk07DgHit						-1			1					0	0	0										0							0	3		0.3	0.2	105415031	105579							105710		0	HitCase		1		1				1	1	1															
+10541504	爆炸伤害（禁止改弹道id）	1	8	14		-5	0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105415041	105580							105711		0	HitCase		1		1				1	1	1															
+10541505	爆炸伤害（禁止改弹道id）	1	8	14		-5	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.3	0.2	105415051	105580							105711		0	HitCase		1		1				1	1	1															
+10541515	刀光-特效	2	0.3		0	0	0			4			2						-1						FxR4YongyechaobotAtk07Trail		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541520	刀光-特效	2	0.3		0	0	0			4			2						-1						FxR4YongyechaobotAtk07		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541521	刀光-特效	2	0.3		0	0	0			4			2						-1						FxR4YongyechaobotAtk07Dg		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1						0	1			1													
+10541525	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk07Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541607	红球特殊消	2	0.3			3	0			4			3						-1						FxR4Yongyechaobot21DaodanDown		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541613	导弹爆炸	2	0.3			3	0			4			3						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541624	导弹爆炸1	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown		-1			1					0	0	0										1	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541625	导弹爆炸2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown01		-1			1					0	0	0										1	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541626	导弹爆炸3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown02		-1			1					0	0	0										1	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541627	伤害子弹（禁止改弹道id）	2	4				0			4			0.3						-1	1			0.2				-1			1					0	0	0										1	0.1	999	1	10541628			0	3		0.2	0.1			105540	105541			105662				0	HitCase		0		0	0			1	1	0															
+10541628	伤害子弹（禁止改弹道id）	2	4				0			4			0.3						-1	1			0.2				-1			1					0	0	0										1							0	3		0.2	0.1			105540	105541			105662				0	HitCase		0		0	0			1	1	0															
+10541629	伤害子弹（禁止改弹道id没用到）	2	4				0			4			0.1						-1								-1			1					0	0	0										1							0	3		0.2	0.1			105540	105541			105662				0	HitCase		0						1	1	0															
+10541630	左肩部1	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpL01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541631	左肩部2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpL02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541632	左肩部3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpL03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541633	右肩部1	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpR04		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541634	右肩部2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpR05		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541635	右肩部3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanUpR06		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541636	导弹爆炸1伤害在行为树里	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown		-1			1					0	0	0										1	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541637	导弹爆炸2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown01		-1			1					0	0	0										1	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541638	导弹爆炸3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown02		-1			1					0	0	0										1	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541639	伤害子弹（禁止改弹道id）	2	4				0			4			0.3						-1	1			0.2				-1			1					0	0	0										1	0.1	999	1	10541640			0	3		0.2	0.1			105540	105541			105662				0	HitCase		0		0	0			1	1	0															
+10541640	伤害子弹（禁止改弹道id）	2	4				0			4			0.3						-1	1			0.2				-1			1					0	0	0										1							0	3		0.2	0.1			105540	105541			105662				0	HitCase		0		0	0			1	1	0															
+10541641	伤害子弹（禁止改弹道id没用到）	2	4				0			4			0.1						-1								-1			1					0	0	0										1							0	3		0.2	0.1			105540	105541			105662				0	HitCase		0						1	1	0															
+10541642	导弹爆炸1_以下为无目标	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown		-1			1					0	0	0										3	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541643	导弹爆炸2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown01		-1			1					0	0	0										3	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541644	导弹爆炸3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown02		-1			1					0	0	0										3	0.4	999	1	10541627			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541645	导弹爆炸1伤害在行为树里	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown		-1			1					0	0	0										3	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541646	导弹爆炸2	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown01		-1			1					0	0	0										3	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541647	导弹爆炸3	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown02		-1			1					0	0	0										3	0.4	999	1	10541639			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10541648	倒计时	2	0.3				0			4			13						-1						FxR4YongyechaobotHuan13		-1			1					0	0	0										1							0	3		0.2	0.1											0	HitCase		0		0	0			0	1	1		0													
+10541649	倒计时	2	0.3				0			4			13						-1						FxR4YongyechaobotHuan13		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		2		0	0			0	1	1		0													
+10541702	红球1消-3	2	0.1		-0.8	0.7	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1			5	0	90	0	2	62.8318	0	0	1.2	0								0	999		1	10541703	1		0	3		0.2	0.1											0	HitCase		0						0	1																
+10541703	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit				FxR4Yongyechaobot31Baozha		-1			1					0	0	0										2							0	3	60	0.2	0.15	105417031	105556					105663				0			0						1	1												105417032				
+10541704	红球2消-3	2	0.1		-0.8	0.7	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1			5	0	90	0	2	62.8318	0	0	1.2	0								0	999		1	10541705	1		0	3		0.2	0.1											0	HitCase		0						0	1																
+10541705	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit				FxR4Yongyechaobot31Baozha		-1			1					0	0	0										2							0	3	60	0.2	0.15	105417051	105557					105663				0			0						1	1												105417052				
+10541706	红球3消-3	2	0.1		-0.8	0.7	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1			5	0	90	0	2	62.8318	0	0	1.2	0								0	999		1	10541707	1		0	3		0.2	0.1											0	HitCase		0						0	1																
+10541707	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit				FxR4Yongyechaobot31Baozha		-1			1					0	0	0										2							0	3	60	0.2	0.15	105417071	105558					105663				0			0						1	1												105417072				
+10541708	红球特殊消	2	0.1		-0.8	0.7	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1		FxR4Yongyechaobot31Baozha	5	0	90	0	2	62.8318	0	0	1.2	0								0	999		1	10541709	1		0	3		0.2	0.1											0	HitCase		0						0	1																
+10541709	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit						-1			1					0	0	0										2							0	3	60	0.2	0.15	105417091	105558					105663				0			0						1	1												105417092				
+10541713	地裂-特效	2	0.3		0	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541714	地裂-特效	2	0.3		0	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541715	开枪子弹	2	0.3				0			4			3						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541716	开枪火焰	2	0.3				0			4			3						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10541721	枪口	2	0.3		-0.8	1	0			4			3						-1						FxR4Yongyechaobot31Fashe		-1			1					0	0	0										0							0	3		0.2	0.1											1.6	HitCase		0		0	0			0	1	0															
+10541722	红球1消-3_以下为无目标子弹	2	0.1		-0.8	0.5	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1		FxR4Yongyechaobot31Baozha	1					0	0	0										0	999		1	10541723	1		0	3		0.2	0.1											1.4	HitCase		0					1	0	1																
+10541723	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit						-1			1					0	0	0										2							0	3	60	0.2	0.15	105417231	105556					105663				-1.4			0						1	1												105417232				
+10541724	红球2消-3	2	0.1		-0.8	0.5	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1		FxR4Yongyechaobot31Baozha	1					0	0	0										0	999		1	10541725	1		0	3		0.2	0.1											1.4	HitCase		0					1	0	1																
+10541725	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit						-1			1					0	0	0										2							0	3	60	0.2	0.15	105417251	105557					105663				-1.4			0						1	1												105417252				
+10541726	红球3消-3	2	0.1		-0.8	0.5	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1		FxR4Yongyechaobot31Baozha	1					0	0	0										0	999		1	10541727	1		0	3		0.2	0.1											1.4	HitCase		0					1	0	1																
+10541727	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit						-1			1					0	0	0										2							0	3	60	0.2	0.15	105417271	105558					105663				-1.4			0						1	1												105417272				
+10541728	红球特殊消	2	0.1		-0.8	0.5	40			4			3		1				1						FxR4Yongyechaobot31Dandao		1		FxR4Yongyechaobot31Baozha	1					0	0	0										0	999		1	10541729	1		0	3		0.2	0.1											1.4	HitCase		0					1	0	1																
+10541729	伤害子弹	2	3			1	0			4			0.8						-1		FxR4YongyechaobotAtk31hit						-1			1					0	0	0										2							0	3	60	0.2	0.15	105417291	105558					105663				-1.4			0						1	1												105417292				
+10541902	第一下-伤害	1	5	10		2	0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.3				-1			1					0	0	0										0							0	3		0.3	0.2	105419021	105550							105666		0	HitCase		1		0				1	1																
+10542002	第一下-伤害	1	5	10		2	0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.3				-1			1					0	0	0										0							0	3		0.3	0.2	105420021	105551							105666		0	HitCase		1		0				1	1																
+10542104	第一下-伤害	1	5	10		2	0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.3				-1			1					0	0	0										0							0	3		0.3	0.2	105421041	105552							105666		0	HitCase		1		0				1	1																
+10542105	第一下-伤害	2	6				0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.34				-1			1					0	0	0										0							0	3		0.3	0.2	105421051	105553							105667		0	HitCase		1		0				1	1																
+10542109	吸附效果（禁止改弹道id）	1	8	10		2.5	0			4			0.3						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0															
+10542203	砸地-伤害	3	12	180		-1.8	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										1							0	3		0.2	0.1		105559									0	HitCase		1						0	1																
+10542208	压暗	2	0.3		0	2	0			4			5						-1						FxR4YongyechaobotAtk39Sc		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10542210	超算	2	30				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		105724									0	HitCase		0		1				1	1	1															
+10542211	爆炸伤害	3	12	180		-1.8	0			4			0.1						-1		FxR4YongyechaobotAtk39hit						-1			1					0	0	0										0							0	3		0.3	0.2	105422111	105560					105460				0	HitCase		1		1				1	1	1															
+10542212	爆炸伤害	3	12	180		-1.8	0			4			0.1						-1		FxR4YongyechaobotAtk39hit						-1			1					0	0	0										0							0	3		0.3	0.2	105422121	105560									0	HitCase		1		1				1	1	1															
+10542213	爆炸伤害	3	12	180		-1.8	0			4			0.1						-1		FxR4YongyechaobotAtk39hit						-1			1					0	0	0										0							0	3		0.3	0.2	105422131	105560					105459				0	HitCase		1		1				1	1	1															
+10542220	爆炸-特效	2	0.3		0	2	0			4			5						-1						FxR4YongyechaobotAtk39Baozha		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10542229	音效子弹	2	0.3				0			4			4						-1						FxR4YongyechaobotAtk39Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10542303	第一下-伤害（禁止改变伤害id）	3	20	160		-4	0			4			0.1						-1		FxR4YongyechaobotAtk40hit						-1			1					0	0	0										0							0	3		0.3	0.2	105423031	105561									0	HitCase		1						1	1																
+10542304	第一下-伤害	3	20	160		-4	0			4			0.1						-1		FxR4YongyechaobotAtk40hit						-1			1					0	0	0										0							0	3		0.3	0.2	105423041	105561									0	HitCase		1						1	1																
+10542305	第二下-伤害	3	20	160		-4	0			4			0.1						-1		FxR4YongyechaobotAtk40hit						-1			1					0	0	0										0							0	3		0.3	0.2	105423051	105561									0	HitCase		1						1	1																
+10542306	第三下推搡-伤害	3	20	160		-4	0			4			0.1						-1		FxR4YongyechaobotAtk40hit						-1			1					0	0	0										0							0	3		0.3	0.2	105423061	105561									0	HitCase		1						1	1																
+10542308	第四下-伤害	3	20	160		-4	0			4			0.1						-1		FxR4YongyechaobotAtk40hit						-1			1					0	0	0										0							0	3		0.4	0.3	105423081	105562									0	HitCase		1						1	1																
+10542309	爆炸伤害超算	2	30				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1		105725									0	HitCase		0		1				1	1	1															
+10542310	音效子弹	2	0.3				0			4			8						-1						FxR4YongyechaobotAtk40Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10542316	伤害复制2（禁止改变伤害id）	3	20	160		-4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1							470668				0	HitCase		1						0	1																
+10542317	3	3	20	160		-4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1							470668				0	HitCase		1						0	1																
+10542318	第二下-伤害	3	20	160		-4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1							470668				0	HitCase		1						0	1																
+10542319	第三下推搡-伤害	3	20	160		-4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1							470668				0	HitCase		1						0	1																
+10542405	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotPenSound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10542501	后闪——音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotPenSound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10542606	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAttack25Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10542706	音效子弹	2	0.3				0			4			0.5						-1						FxR4YongyechaobotAttack43Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10542803	音效子弹	2	0.3				0			4			0.5						-1						FxR4YongyechaobotAttack46Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10543115	后闪——音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotPenSound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10543202	子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtkQte		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10543203	第一下-伤害	2	6				0			4			1						-1								-1			1					0	0	0										0							0	3		0.3	0.2	105432031	105583							470653		0	HitCase		1		0				1	1																
+10543204	第一下-伤害	2	6				0			4			1						-1		FxR4YongyechaobotAtkQtehit01						-1			1					0	0	0										0							0	3		0.3	0.2	105432041	105583							470653		0	HitCase		1		0				1	1																
+10543205	第一下-伤害	2	6				0			4			1						-1								-1			1					0	0	0										0							0	3		0.3	0.2	105432051	105583							470653		0	HitCase		1		0				1	1																
+10543210	音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotAtkQteSound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10543304	第一下-伤害	1	5	6		-1	0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105433041	105552							105666		0	HitCase		1		0				1	1																
+10543305	第一下-伤害	2	6				0			4			1						-1	1	FxR4YongyechaobotAtk24hit01		0.34				-1			1					0	0	0										0							0	3		0.3	0.2	105433051	105553							105667		0	HitCase		1		0				1	1																
+10543309	吸附效果（禁止改弹道id）	1	8	10		2	0			4			0.5						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		0				1	1	0															
+10543802	连斩伤害（禁止改伤害id）	3	8	130		-1	0			4			0.1						-1		FxR4YongyechaobotAtk36hit						-1			1					0	0	0										0							0	3		0.3	0.2	105438021								105707		0	HitCase		0		1				1	1	1															
+10543803	连斩伤害（禁止改伤害id）	3	8	130		-1	0			4			0.35						-1								-1			1					0	0	0										0	0.3	99	1	10543804	0		0	3		0.3	0.2	105438031	105727					105727				0	HitCase		0						1	1	1															
+10543804	爆炸伤害（禁止改伤害id）14	3	12	130			0			4			0.2						-1		FxR4YongyechaobotAtkQtehit01						-1			1					0	0	0										2	0.15	99	1	10543805	0		2	3		0.3	0.2	105438041								105708		0	HitCase		0						1	1	1															
+10543805	爆炸伤害（禁止改伤害id）17	3	12	150			0			4			0.1						-1								-1			1					0	0	0										2							2	3		0.3	0.2	105438051								105708		0	HitCase		0						1	1	1															
+10543812	测试-特效	2	0.3			-1	0			4			5						-1						FxR4YongyechaobotAtk36		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10543821	音效子弹	2	0.3				0			4			5						-1						FxR4YongyechaobotAtk36Sound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10543823	压暗	2	0.3		0	2	0			4			5						-1						FxR4YongyechaobotAtk39Sc		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10544015	后闪——音效子弹	2	0.3				0			4			3						-1						FxR4YongyechaobotPenSound		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10544202	发射效果1	2	0.1		-0.65		18			4			0.5						-1								-1			5	12	-5	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1																
+10544203	发射效果2	2	0.1		-0.65		16			4			0.5						-1								-1			5	-15	-5	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1																
+10544204	发射效果3	2	0.1		-0.65		17			4			0.5						-1								-1			5	24	10	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1																
+10544205	发射效果4	2	0.1		-0.65		15			4			0.5						-1								-1			5	-22	5	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1																
+10544206	发射效果5	2	0.1		-0.65		16			4			0.5						-1								-1			5	8	10	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1																
+10544207	发射效果6	2	0.1		-0.65		17			4			0.5						-1								-1			5	-7	-10	0.1	1	0	-10	20	1.5	10								0							0	3		0.2	0.1											0			0				1		0	1																
+10544208	被动-【追踪子弹1】	2	0.2		8	-7	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737					120261		120796		0			0	1			0.7		1	1																
+10544209	被动-【追踪子弹2】	2	0.2		-7	8	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737							120796		0			0	1			0.7		1	1																
+10544214	发射火花	2	50				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0	0			120793								0	HitCase		0						0	1																
+10544218	被动-【追踪子弹2】	2	0.2		6	11	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737					120261		120796		0			0	1			0.7		1	1																
+10544219	被动-【追踪子弹3】	2	0.2		-5	7	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737							120796		0			0	1			0.7		1	1																
+10544220	被动-【追踪子弹4】	2	0.2		7	-9	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737					120261		120796		0			0	1			0.7		1	1																
+10544221	被动-【追踪子弹5】	2	0.2		-8	-11	10			4		1	4		1	0	0	0	1								1			5	-90	-90	0	1000	0	-20	50	15	0.5								1							5	3		0.2	0.1		120737							120796		0			0	1			0.72		1	1																
+10544223	Pod发射准备1 	2	15				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0	0			120291	120264							0	HitCase		0						0	1																
+10544230	红球1消-3	2	0.1			0.5	20			4			3		1				1								1			5	0	90	0	2	62.8318	-4	5	0.8	-0.5								0	999		1	10544231	1		0	3		0.2	0.1											0	HitCase		0						0	1																
+10544231	红球1消-4	2	3			1	0			4			0.3						-1								-1			1					0	0	0										2							0	3	60	0.2	0.15	105442311	101310									2.2			0						1	1												105442312				
+10544232	红球1消-3	2	0.1			0.5	20			4			3		1				1								1			5	0	90	0	2	62.8318	-4	5	0.8	-0.5								0	999		1	10544233	1		0	3		0.2	0.1											0	HitCase		0						0	1																
+10544233	红球1消-4	2	3			1	0			4			0.3						-1								-1			1					0	0	0										2							0	3	60	0.2	0.15	105442331	101310									2.2			0						1	1												105442332				
+10544234	红球1消-3	2	0.1			0.5	20			4			3		1				1								1			5	0	90	0	2	62.8318	-4	5	0.8	-0.5								0	999		1	10544235	1		0	3		0.2	0.1											0	HitCase		0						0	1																
+10544235	红球1消-4	2	3			1	0			4			0.3						-1								-1			1					0	0	0										2							0	3	60	0.2	0.15	105442351	101310									2.2			0						1	1												105442352				
+10544302	第一下-伤害（禁止改弹道id）	2	4			0.5	0		-90	4			0.15						-1		FxR4YongyechaobotAtk01LineHit						-1			2	800	0	3	3	0	0	0										0							0	3		0.3	0.2	105443021	105566		105447			105426	105447	105448		0	HitCase		1		1				1	1																
+10544306	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10544310	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10544313	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105443131	105582					105615		105735		1.8			1		1	1			1	1	1															
+10544402	第一下-伤害（禁止改弹道id）	2	4			0.5	0		90	4			0.2						-1		FxR4YongyechaobotAtk01LineHit						-1			2	-800	0	3	3	0	0	0										0							0	3		0.3	0.2	105444021	105567		105447			105426	105447	105448		0	HitCase		1		1				1	1																
+10544406	刀光-特效	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10544502	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.4	0.3	105445021	105568	105447				105447	105448	105426		0	HitCase		1		1				1	1																
+10544511	刀光-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10544523	地裂-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10544605	第一下-伤害	3	4	180			0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105446051	105566					105735				0	HitCase		1		1				1	1																
+10544606	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10544610	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10544704	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105447041	105567					105736				0	HitCase		1		1	1			1	1	1															
+10544712	地裂-特效	2	0.3		0.5	4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10544804	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105448041	105567					105736				0	HitCase		1		1	1			1	1	1															
+10544810	刀光-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1						0	1																
+10544811	地裂-特效	2	1.5		-0.5	3	0			4			5						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase	1	0						0	1																
+10544908	连斩伤害	3	6	160		-1	0			4			1						-1	1	FxR4YongyechaobotAtk01LineHit		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105449081	105582					105489		470653		0	HitCase		1		1				1	1	1															
+10545108	连斩伤害	3	6	160		-1	0			4			1						-1	1	FxR4YongyechaobotAtk01LineHit		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105451081	105582					105489		470653		0	HitCase		1		1				1	1	1															
+10545306	音效子弹	2	0.3				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10545406	音效子弹	2	0.3				0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10545602	第一下-伤害（禁止改弹道id）	2	4			0.5	0		90	4			0.2						-1		FxR4YongyechaobotAtk01LineHit						-1			2	-800	0	3	3	0	0	0										0							0	3		0.3	0.2	105456021	105567		105447			105426	105447	105448		0	HitCase		1		1				1	1																
+10545606	刀光-特效	2	0.3				0			4			3						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10545608	连斩伤害	3	6	160		-1	0			4			1						-1	1	FxR4YongyechaobotAtk01LineHit		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105456081	105582					105489		105736		0	HitCase		1		1	1			1	1	1															
+10545609	机甲BOSS拼刀子弹（禁止改弹道id）	1	5	5		2.5	0			4			0.2						-1								-1			1					0	0	0										0							0	3		0.2	0.1		852033									0	HitCase		0		1				1	1																
+10545612	地裂-特效	2	0.3		0.5	4	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10545702	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.4	0.3	105457021	105568	105447				105447	105448	105426		0	HitCase		1		1				1	1																
+10545711	刀光-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10545722	地裂-特效	2	0.3		0	0	0			4			3						-1						FxR4YongyechaobotAtk03Dilie		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		1				0	1																
+10545802	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105458021	105563		105447			105426	105447	105448		0	HitCase		1		1				1	1																
+10545806	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10545810	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10545813	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105458131	105582					105615		105712		0	HitCase		1		1	1			1	1	1															
+10545902	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105459021	105563		105447			105426	105447	105448		0	HitCase		1		1				1	1																
+10545906	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10545910	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10545913	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105459131	105582					105615		105712		0	HitCase		1		1	1			1	1	1															
+10546004	连斩伤害废弃	3	6	160		-1	0			4			0.1						-1	1	FxR4YongyechaobotAtk01LineHit		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105460041	105582					105489		105712		1.8			1		1	1			1	1	1															
+10546005	吸附效果（禁止改弹道id）	1	3	6		3.2	0			4			0.1						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0															
+10546006	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01Pre		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10546105	第一下-伤害	3	4	180			0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105461051	105582	105728					105728			0	HitCase		1		1				1	1																
+10546106	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk01		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10546110	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10546114	第二下-伤害	3	4	180			0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105461141	105563					105651		105652		0	HitCase		1		1				1	1																
+10546202	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105462021	105564		105447			105426	105447	105448		0	HitCase		1		1				1	1																
+10546206	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10546210	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10546213	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk01LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105462131	105582					105615		105682		0	HitCase		1		1	1			1	1	1															
+10546302	第一下-伤害（禁止改弹道id）	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk02LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105463021	105564		105447			105426	105447	105448		0	HitCase		1		1				1	1																
+10546306	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10546310	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10546313	连斩伤害	3	6	160		-1	0			4			0.1						-1		FxR4YongyechaobotAtk02LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105463131	105563					105615		105682		0	HitCase		1		1	1			1	1	1															
+10546404	连斩伤害	3	6	160		-1	0			4			0.1						-1	1	FxR4YongyechaobotAtk01LineHit		0.25				-1			1					0	0	0										0							0	3		0.3	0.2	105464041	105582					105489		105682		1.8			1		1	1			1	1	1															
+10546405	吸附效果（禁止改弹道id）	1	3	6		3.2	0			4			0.1						-1	1			0.05				-1			1					0	0	0										0							0	3		0.2	0.1		105517									0	HitCase		1		1				1	1	0															
+10546406	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk02Pre		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0		0				0	1																
+10546505	第一下-伤害	3	4	180			0			4			0.1						-1		FxR4YongyechaobotAtk02LineHit						-1			1					0	0	0										0							0	3		0.3	0.2	105465051	105582	105655					105655			0	HitCase		1		1				1	1																
+10546506	刀光-特效7	2	0.3				0			4			2						-1						FxR4YongyechaobotAtk02		-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		1		1				0	1																
+10546510	地裂-特效	2	1.2		-0.5	3	0			4			0.1						-1								-1			1					0	0	0										0							0	3		0.2	0.1											0	HitCase		0						0	1																
+10546514	第一下-伤害	3	4	180			0			4			0.1						-1		FxR4YongyechaobotAtk01PointHit						-1			1					0	0	0										0							0	3		0.3	0.2	105465141	105564					105653		105652		0	HitCase		1		1				1	1																
+10549901	大秘境追加导弹攻击	2	0.3				0			4			3						-1						FxR4Yongyechaobot21DaodanDown01		-1			1					0	0	0										1	0.4	999	1	10549902			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10549902	大秘境追加导弹的伤害	2	4				0			4			0.15						-1	1			0.05				-1			1					0	0	0										1							0	3		0.2	0.1		760760									0	HitCase		0		0	0			0	1	0															
+10549903	大秘境完美触发追加大爆炸	2	0.3				0			4			3						-1						FxCizhuiR4YongyechaobotAtk40		-1			1					0	0	0										1	0.2	999	1	10549904			0	3		0.2	0.1											0	HitCase		0		0	0			0	1	0															
+10549904	大秘境追加大爆炸伤害	2	999				0			4			0.1						-1	1							-1			1					0	0	0										1							0	3		0.2	0.1		760761									0	HitCase		0		0	0			0	1	0															

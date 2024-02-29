@@ -59,7 +59,7 @@ UiFightPassword	UiFight			Bundle	Assets/Product/Ui/Prefab/UiFightPassword.prefab
 UiFightPassword2	UiFight			Bundle	Assets/Product/Ui/Prefab/UiFightPassword2.prefab			30000			0
 UiHacker	UiFight			Bundle	Assets/Product/Ui/Prefab/UiHacker.prefab			30000			0
 UiFightDLC			Normal	Bundle	Assets/Product/Ui/Prefab/UiFightDLC.prefab						
-UiFightRebornDLC	UiFightDLC			Bundle	Assets/Product/Ui/Prefab/UiFightReboot.prefab			30000			0
+UiFightRebornDLC	UiFightDLC			Bundle	Assets/Product/Ui/Prefab/UiFightRebootDLC.prefab			30000			0
 UiFightTipsDLC	UiFightDLC			Bundle	Assets/Product/Ui/Prefab/UiFightTipsDLC.prefab			30000			0
 UiFightGuideDLC	UiFightDLC			Bundle	Assets/Product/Ui/Prefab/UiFightGuideDLC.prefab						
 UiFightSuperTowerEnhancerSelect	UiFight			Bundle	Assets/Product/Ui/Prefab/UiFightSuperTowerEnhancerSelect.prefab			30000			0
@@ -104,7 +104,6 @@ UiPracticeSingleDetail	UiFubenPractice	1		Bundle	Assets/Product/Ui/Prefab/UiPrac
 UiPracticeBossDetail	UiFubenPractice	1		Bundle	Assets/Product/Ui/Prefab/UiPracticeBossDetail.prefab			5000			0
 UiFubenPracticeCharacterDetail			Normal	Bundle	Assets/Product/Ui/Prefab/UiFubenPracticeCharacterDetail.prefab			5000			0
 UiPracticeCharacterDetail	UiFubenPracticeCharacterDetail	1		Bundle	Assets/Product/Ui/Prefab/UiPracticeCharacterDetail.prefab			5000			0
-UiFubenRepeatChallengeStageDetail	UiFubenRepeatchallenge			Bundle	Assets/Product/Ui/Prefab/UiFubenRepeatChallengeStageDetail.prefab			5000			0
 UiFubenSpringFestivalStageDetail	UiFubenSpringFestivalChapter		Normal	Bundle	Assets/Product/Ui/Prefab/UiFubenSpringFestivalStageDetail.prefab			5000			0
 UiStorySpringFestivalStageDetail	UiFubenSpringFestivalChapter		Normal	Bundle	Assets/Product/Ui/Prefab/UiStorySpringFestivalStageDetail.prefab			5000			0
 UiFunbenKoroTutoriaTeachingDetail	UiFunbenWeiLaTutorial			Bundle	Assets/Product/Ui/Prefab/UiFunbenKoroTutoriaTeachingDetail.prefab			5000			0
@@ -156,10 +155,9 @@ UiActivityBossSingle			Normal	Bundle	Assets/Product/Ui/Prefab/UiActivityBossSing
 UiActivityBossSingleDetail			Normal	Bundle	Assets/Product/Ui/Prefab/UiActivityBossSingleDetail.prefab	Assets/Product/Ui/Scene3DPrefab/UiActivityBossSingle3d.prefab	Assets/Product/Ui/UiModel/UiActivityBossSingle3d/UiActivityBossSingleDetail.prefab	5000			0
 UiActivityBranch			Normal	Bundle	Assets/Product/Ui/Prefab/UiActivityBranch.prefab			5000			0
 UiActivityBranchReward			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiActivityBranchReward.prefab			5000			0
+UiRepeatChallengeEnter			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRepeatChallengeEnter.prefab			5000			0
 UiFubenRepeatchallenge			Normal	Bundle	Assets/Product/Ui/Prefab/UiFubenRepeatchallenge.prefab			5000			0
 UiFubenRepeatchallengeLevelDes			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiFubenRepeatchallengeLevelDes.prefab			5000			0
-UiRepeatChallengeEnter			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRepeatChallengeEnter.prefab			5000			0
-UiFubenRepeatChallengeNewChapter			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiFubenRepeatChallengeNewChapter.prefab			5000			0
 UiArena			Normal	Bundle	Assets/Product/Ui/Prefab/UiArena.prefab			5000			0
 UiArenaContributeTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiArenaContributeTips.prefab			5000			0
 UiArenaRank			Normal	Bundle	Assets/Product/Ui/Prefab/UiArenaRank.prefab			5000			0
@@ -349,7 +347,7 @@ UiMedalUnlock			Popup	Bundle	Assets/Product/Ui/Prefab/UiMedalUnlock.prefab			500
 UiGuildMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildMain.prefab	Assets/Product/Ui/Scene3DPrefab/UiGuild3D01.prefab	Assets/Product/Ui/UiModel/UiGuild3D/UiGuildMain.prefab	5000			0
 UiFightButtonSettings			Normal	Bundle	Assets/Product/Ui/Prefab/UiFightButtonSettings.prefab			5000			0
 UiActivityBriefBase			Normal	Bundle	Assets/Product/Ui/Prefab/UiActivityBriefBase.prefab			5000			0
-UiActivityBriefShop			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiActivityBriefShop.prefab			5000			0
+UiActivityBriefShop			Normal	Bundle	Assets/Product/Ui/Prefab/UiActivityBriefShop.prefab			5000			0
 UiFurnitureCreate			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiFurnitureCreate.prefab			5000			0
 UiDrawLog			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDrawLog.prefab			5000			0
 UiSystemDialog			System	Bundle	Assets/Product/Ui/Prefab/UiDialog.prefab			5000			0
@@ -809,10 +807,11 @@ UiSuperTowerDeploy			Normal	Bundle	Assets/Product/Ui/Prefab/UiSuperTowerDeploy.p
 UiSuperTowerPlugUp			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiSuperTowerPlugUp.prefab			5000			0
 UiSupertowerUpTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiSupertowerUpTips.prefab			5000			0
 UiSuperTowerUnlockTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiSuperTowerUnlockTips.prefab			5000			0
-UiFunbenWeiLaTutorial			Normal	Bundle	Assets/Product/Ui/Prefab/UiAylaActivityMain.prefab			5000			0
+UiFunbenWeiLaTutorial			Normal	Bundle	Assets/Product/Ui/Prefab/UiLuciaActivityMain.prefab			5000			0
 UiSkipTip			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiEquipStrengthenSkip.prefab			5000			0
 UiPassportTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiPassportTips.prefab			5000			0
 UiDownload			Dialog	Bundle	Assets/Product/Ui/Prefab/UiDownload.prefab			5000			0
+UiDownLoadMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiDownLoadMain.prefab			5000			0
 UiSummerEpisodeSettle			Normal	Bundle	Assets/Product/Ui/Prefab/UiMultiplayerFightGrade.prefab			5000			0
 UiDlcTest			Normal	Bundle	Assets/Product/Ui/Prefab/PanelDlcTest.prefab			5000			0
 UiSameColorGameBossMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiSameColorGameBossMain.prefab	Assets/Product/Ui/Scene3DPrefab/UiSameColorGame3D.prefab	Assets/Product/Ui/UiModel/UiSameColorGame/UiSameColorGame3D.prefab	5000			
@@ -851,6 +850,8 @@ UiSuperSmashBrosOrder			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiSuperSmash
 UiSuperSmashBrosClearTime			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiSuperSmashBrosClearTime.prefab			5000			0
 UiSuperSmashBrosDialog			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiSuperSmashBrosDialog.prefab			5000			0
 UiSuperSmashBrosObtain			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiSuperSmashBrosObtain.prefab			5000			0
+UiSuperSmashBrosRoleSelection			Normal	Bundle	Assets/Product/Ui/Prefab/UiSuperSmashBrosRoleSelection.prefab			5000			0
+UiSuperSmashBrosVictoryList			Normal	Bundle	Assets/Product/Ui/Prefab/UiSuperSmashBrosVictoryList.prefab			5000			0
 UiReformPreview2			Normal	Bundle	Assets/Product/Ui/Prefab/UiReformPreview2.prefab			5000			
 UiLivWarmExtActivity			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiLivWarmExtActivity.prefab			5000			0
 UiLivWarmRaceMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiLivWarmRaceMain.prefab	Assets/Product/Ui/Scene3DPrefab/UiLivWarmRace3D.prefab	Assets/Product/Ui/UiModel/UiLivWarmRace/UiLivWarmRaceMain.prefab	5000			0
@@ -998,10 +999,6 @@ UiFubenYuanXiaoMapTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiFubenYuan
 UiFubenYuanXiaoMedalTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiFubenYuanxiaoMedalTips.prefab			5000			0
 UiFubenYuanXiaoFight			Normal	Bundle	Assets/Product/Ui/Prefab/UiFubenYuanxiaoFight.prefab			5000			0
 UiGuildWarStageMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarStageMain.prefab			5000			0
-UiBodyCombineGameMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiBodyCombineGameMain.prefab			5000			0
-UiBodyCombineGameTask			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiFubenMaverickTask.prefab			5000			0
-UiBodyCombineGamePlay			Normal	Bundle	Assets/Product/Ui/Prefab/UiBodyCombineGamePlay.prefab			5000			0
-UiBodyCombineGameSuccess			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBodyCombineGameSuccess.prefab			5000			0
 UiGuildWarBossReaults			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarBossReaults.prefab			5000			0
 UiGuildWarLastResults			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarLastResults.prefab			5000			0
 UiGuildWarStageResults			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarStageResults.prefab			5000			0
@@ -1010,6 +1007,23 @@ UiGuildWarUpCharacter			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarUp
 UiGuildWarRank			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarRank.prefab			5000			0
 UiGuildWarStageRank			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarStageRank.prefab			5000			0
 UiGuildWarMap			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarMap.prefab			5000			0
+UiGuildWarSelect			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarSelect.prefab			5000			0
+UiGuildWarAssistantSelect			Normal	Bundle	Assets/Product/Ui/Prefab/UiBattleRoomRoleDetail.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiRoomCharacter.prefab	5000			0
+UiGuildWarSupport			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarSupport.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiDoubleTowersRoom.prefab	5000			0
+UiGuildWarInformation			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarInformation.prefab			5000			0
+UiGuildWarStageDetail			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarStageDetail.prefab			5000			0
+UiGuildWarStageTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarStageTips.prefab			5000			0
+UiGuildWarPandaStageDetail			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarBossStageDetail.prefab	Assets/Product/Ui/Scene3DPrefab/UiGuildWarBoss3d.prefab	Assets/Product/Ui/UiModel/UiGuildWarBoss3d/UiGuildWarBossStageDetailCam.prefab	5000			0
+UiGuildWarTwinsPanel			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarBossStageDetail.prefab	Assets/Product/Ui/Scene3DPrefab/UiGuildWarBoss3d02.prefab	Assets/Product/Ui/UiModel/UiGuildWarBoss3d/UiGuildWarBossStageDetailCam02.prefab	5000			0
+UiGuildWarConcealStageDetail			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarConcealStageDetail.prefab			5000			0
+UiGuildWarCharacterSelect			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarCharacter.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiStrongholdRoomCharacter.prefab	5000			0
+UiGuildWarDeploy			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarDeploy.prefab			5000			0
+UiGuildWarDeployCharacterSelect			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarCharacter.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiStrongholdRoomCharacter.prefab	5000			0
+UiGuildWarRankStage			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarRankStage.prefab			5000			0
+UiBodyCombineGameMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiBodyCombineGameMain.prefab			5000			0
+UiBodyCombineGameTask			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiFubenMaverickTask.prefab			5000			0
+UiBodyCombineGamePlay			Normal	Bundle	Assets/Product/Ui/Prefab/UiBodyCombineGamePlay.prefab			5000			0
+UiBodyCombineGameSuccess			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBodyCombineGameSuccess.prefab			5000			0
 UiCommonBuffDetail			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiCommonBuffDetail.prefab			5000			0
 UiGoldenMinerMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiGoldenMinerMain.prefab	Assets/Product/Ui/Scene3DPrefab/UiGoldenMiner3D.prefab	Assets/Product/Ui/UiModel/UiGoldenMiner/UiGoldenMiner3D.prefab	5000			0
 UiGoldenMinerChange	UiGoldenMinerMain		Normal	Bundle	Assets/Product/Ui/Prefab/UiGoldenMinerChange.prefab			5000			0
@@ -1019,8 +1033,6 @@ UiGoldenMinerReport			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGoldenMinerR
 UiGoldenMinerShop			Normal	Bundle	Assets/Product/Ui/Prefab/UiGoldenMinerShop.prefab			5000			0
 UiGoldenMinerDialog			Dialog	Bundle	Assets/Product/Ui/Prefab/UiGoldenMinerDialog.prefab			5000			0
 UiGoldenMinerTask			Normal	Bundle	Assets/Product/Ui/Prefab/UiGoldenMinerTask.prefab			5000			0
-UiGuildWarStageDetail			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarStageDetail.prefab			5000			0
-UiGuildWarStageTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarStageTips.prefab			5000			0
 SignWeeklyChallenge			Normal	Bundle	Assets/Product/Ui/ComponentPrefab/Sign/SignWeeklyChallenge.prefab			5000			0
 UiDoubleTowers			Normal	Bundle	Assets/Product/Ui/Prefab/UiDoubleTowers.prefab			5000			0
 UiDoubleTowersDetail	UiDoubleTowers	1		Bundle	Assets/Product/Ui/Prefab/UiDoubleTowersDetail.prefab			5000			0
@@ -1031,7 +1043,6 @@ UiDoubleTowersChoose			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDoubleTower
 UiDoubleTowersSettlement			Normal	Bundle	Assets/Product/Ui/Prefab/UiDoubleTowersSettlement.prefab			5000			0
 UiDoubleTowersSkillDetails			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDoubleTowersSkillDetails.prefab			5000			0
 UiFubenRpgMakerGameTanChuang			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiFubenRpgMakerGameTanChuang.prefab			5000			0
-UiGuildWarInformation			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildWarInformation.prefab			5000			0
 UiConsumeActivityMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiConsumeActivityMain.prefab			5000			0
 UiConsumeActivityShop			Normal	Bundle	Assets/Product/Ui/Prefab/UiConsumeActivityShop.prefab			5000			0
 UiConsumeActivityLuckyBag			Normal	Bundle	Assets/Product/Ui/Prefab/UiConsumeActivityLuckyBag01.prefab	Assets/Product/Ui/Scene3DPrefab/UiConsumeActivity3D.prefab	Assets/Product/Ui/UiModel/UiReviewActivity/UiConsumeActivityLuckyBag.prefab	5000			0
@@ -1125,11 +1136,6 @@ UiCoursePrepare	UiCourseManagement		NormalPopup	Bundle	Assets/Product/Ui/Prefab/
 UiCourseCombatlicense			Normal	Bundle	Assets/Product/Ui/Prefab/UiCourseCombatlicense.prefab			5000			0
 UiCourseLiveWell			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiCourseLiveWell.prefab			5000			0
 UiCourseB4Tips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiCourseB4Tips.prefab			5000			0
-UiGuildWarSelect			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarSelect.prefab			5000			0
-UiGuildWarAssistantSelect			Normal	Bundle	Assets/Product/Ui/Prefab/UiBattleRoomRoleDetail.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiRoomCharacter.prefab	5000			0
-UiGuildWarCharacter			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarCharacter.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiStrongholdRoomCharacter.prefab	5000			0
-UiGuildWarSupport			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarSupport.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiDoubleTowersRoom.prefab	5000			0
-UiGuildWarBossStageDetail			Normal	Bundle	Assets/Product/Ui/Prefab/UiGuildWarBossStageDetail.prefab	Assets/Product/Ui/Scene3DPrefab/UiGuildWarBoss3d.prefab	Assets/Product/Ui/UiModel/UiGuildWarBoss3d/UiGuildWarBossStageDetailCam.prefab	5000			0
 UiCourseMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiCourseMain.prefab			5000			0
 UiGuildMovie			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildMovie.prefab			5000			0
 UiNewbieTaskMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiNewbieTask.prefab			5000			0
@@ -1143,6 +1149,8 @@ UiBiancaTheatreLoading			Normal	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreL
 UiBiancaTheatreOutpost			Normal	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreOutpost.prefab			5000			0
 UiBiancaTheatrePlayMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatrePlayMain.prefab			5000			0
 UiBiancaTheatreTask			Normal	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreTask.prefab			5000			0
+UiBiancaTheatreAchievement			Normal	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreAchievement.prefab			5000			0
+UiBiancaTheatrePreviewTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatrePreviewTips.prefab			5000			0
 UiBiancaTheatreTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreTips.prefab			5000			0
 UiBiancaTheatreBureauTeam			Normal	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreBureauTeam.prefab			5000			0
 UiBiancaTheatreChoice			Normal	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreChoice.prefab			5000			0
@@ -1162,6 +1170,7 @@ UiBiancaTheatreEndLoading			Normal	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheat
 UiBiancaTheatreUnlockTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreUnlockTips.prefab			5000			0
 UiBiancaTheatreItemUnlockTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreTipReward.prefab			5000			0
 UiBiancaTheatreLvTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatreLvTips.prefab			5000			0
+UiBiancaTheatrePsionicVision			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBiancaTheatrePsionicVision.prefab			5000			0
 UiBuySecondConfirm			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiBuySecondConfirm.prefab			5000			0
 UiBiancaTheatreBlack			Normal	Bundle	Assets/Product/Ui/Prefab/UiBlackScreen.prefab			5000			0
 UiFavorabilityLineRoomCharacterSelect			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiFavorabilityLineRoomCharacterSelect.prefab			5000			0
@@ -1173,7 +1182,6 @@ UiDlcHuntMatching			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntMatchin
 UiDlcHuntPlayerRoom			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntPlayerRoom.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiMultiplayerRoom.prefab	5000			0
 UiDlcHuntRoleDetail			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntRoleDetail.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiRoomCharacter.prefab	5000			0
 UiGuildSign			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildSign.prefab			5000			0
-UiDlcHuntSettleLose			Normal	Bundle	Assets/Product/Ui/Prefab/UiSettleLose.prefab			5000			0
 UiDlcHuntFightGrade			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntFightGrade.prefab			5000			0
 UiGuildDormSceneChoice			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildroomsceneChoice.prefab			5000			0
 UiGuildRoomSceneTips			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildroomsceneTips01.prefab			5000			0
@@ -1261,6 +1269,8 @@ UiDlcHuntAttrDialog			Dialog	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntAttrDialog
 UiDlcHuntCharacter			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntCharacter.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcHuntPlayerRoom.prefab	5000			0
 UiDlcHuntSkillDetails			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntSkillDetails.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcInterface.prefab	5000			0
 UiDlcHuntChipUp			Dialog	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntChipUp.prefab			5000			0
+UiDlcShopTip			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDlcShopTip.prefab			5000			0
+UiDlcRwlTip			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDlcRwlTip.prefab			5000			0
 UiFurnitureCreateDetail			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiFurnitureCreateDetail.prefab			5000			0
 UiDormTerminalSystem			Normal	Bundle	Assets/Product/Ui/Prefab/UiDormTerminalSystem.prefab			5000			0
 UiDormTerminalLineDetail	UiDormTerminalSystem		NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDormTerminalLineDetail.prefab			5000			0
@@ -1268,10 +1278,10 @@ UiDormTerminalUpgradeDetail			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDorm
 UiDormTerminalCompleteDetail			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDormTerminalCompleteDetail.prefab			5000			0
 UiDormArchivesCenter			Normal	Bundle	Assets/Product/Ui/Prefab/UiDormArchivesCenter.prefab			5000			0
 UiDormArchivesCenterDetails			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDormArchivesCenterDetails.prefab			5000			0
-UiDlcHuntBoss			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntBoss2.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcHuntMain.prefab	5000			0
-UiDlcHuntBossLevel			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntBossLevel.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcHuntMain.prefab	5000			0
+UiDlcHuntBoss	UiDlcHuntMain			Bundle	Assets/Product/Ui/Prefab/UiDlcHuntBoss2.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcHuntMain.prefab	5000			0
+UiDlcHuntBossLevel	UiDlcHuntMain			Bundle	Assets/Product/Ui/Prefab/UiDlcHuntBossLevel.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcHuntMain.prefab	5000			0
 UiDlcHuntPlayerRoom2			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntPlayerRoom2.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcHuntPlayerRoom.prefab	5000			0
-UiDlcHuntBossDetails			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntBossDetails.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcInterface.prefab	5000			0
+UiDlcHuntBossDetails			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntBossDetails.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcHuntBoss.prefab	5000			0
 UiDlcHuntPlayerInviteFriend			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntPlayerInviteFriend.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcInterface.prefab	5000			0
 UiFightComponentDLC	UiFightDLC			Bundle	Assets/Product/Ui/Prefab/UiFightComponentDLC.prefab						
 UiDlcHuntPersonalSupport			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntPersonalSupport.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcHuntChipDetails.prefab	5000			0
@@ -1280,9 +1290,61 @@ UiDlcHuntShop			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntShop.prefab	Asse
 UiDlcHuntPersonalChoice			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntPersonalChoice.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcInterface.prefab	5000			0
 UiDlcHuntChipHelp			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntChipHelp.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcInterface.prefab	5000			0
 UiFightBrilliantwalk	UiFight			Bundle	Assets/Product/Ui/UiFightPrefab/UiFightBrilliantwalk.prefab			30000			0
+UiDlcHuntTeamRank			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntTeamRank.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcInterface.prefab	5000			0
+UiDlcHuntSettlement			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntSettlement.prefab	Assets/Product/Ui/Scene3DPrefab/SceneHunt02_UI.prefab	Assets/Product/Ui/UiModel/UiDlcHunt/UiDlcInterface.prefab	5000			0
+UiDlcHuntPersonalSettlement			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntPersonalSettlement.prefab			5000			0
+UiDlcHuntSettleLose			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntSettleLose.prefab			5000			0
+UiDlcHuntPowerSettleLose			Normal	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntPowerSettleLose.prefab			5000			0
+UiFightOnlineMsgDLC	UiFightDLC			Bundle	Assets/Product/Ui/Prefab/UiFightOnlineMsgDLC.prefab						
+UiDlcHuntDialog			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntDialog.prefab			5000			0
+UiDlcHuntTip			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntTip.prefab			5000			0
 UiFightMovieBagua	UiFight			Bundle	Assets/Product/Ui/Prefab/UiFightMovieBagua.prefab			30000			0
+UiDlcHuntBattleDialog			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntBattleDialog.prefab			5000			0
+UiDlcHuntPlayerInfo			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiDlcHuntPlayerInfo.prefab			5000			0
 UiSkinVoteMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiSkinVoteMain.prefab			5000			0
 UiSkinVoteSee			Normal	Bundle	Assets/Product/Ui/Prefab/UiSkinVoteSee.prefab			5000			0
+UiRestaurantMain			Normal	Bundle	Assets/Product/Ui/Prefab/UiRestaurantMain.prefab			5000			0
+UiRestaurantCommon			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantCommon.prefab			5000			0
+UiRestaurantRadio			Tips	Bundle	Assets/Product/Ui/Prefab/UiRestaurantRadio.prefab			5000			0
+UiRestaurantCashierDesk			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantCashierDesk.prefab			5000			0
+UiRestaurantBill			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantBill.prefab			5000			0
+UiRestaurantPopup			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantPopup.prefab			5000			0
+UiRestaurantExamine			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantExamine.prefab			5000			0
+UiRestaurantWork			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantWork.prefab			5000			0
+UiRestaurantCook			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantCook.prefab			5000			0
+UiRestaurantHire			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantHire.prefab			5000			0
+UiRestaurantRecommend			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantRecommend.prefab			5000			0
+UiEpicFashionGacha			Normal	Bundle	Assets/Product/Ui/Prefab/UiEpicFashionGacha.prefab	Assets/Product/Ui/Scene3DPrefab/UiMain3dClock.prefab	Assets/Product/Ui/UiModel/UiGacha/UiEpicFashionGacha.prefab	5000			0
+UiRestaurantSignIn			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantSignIn.prefab			5000			0
+UiRestaurantTask			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantTask.prefab			5000			0
+UiRestaurantShop			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiRestaurantShop.prefab			5000			0
+UiRestaurantOpening			Normal	Bundle	Assets/Product/Ui/Prefab/UiRestaurantOpening.prefab			5000			0
+UiEpicFashionGachaBuyTicket			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiEpicFashionGachaBuyTicket.prefab			5000			0
+UiEpicFashionGachaStageLine	UiEpicFashionGacha		Normal	Bundle	Assets/Product/Ui/Prefab/UiEpicFashionGachaStageLine.prefab			5000			0
+UiEpicFashionGachaStageDetail			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiEpicFashionGachaStageDetail.prefab			5000			0
+UiEpicFashionGachaLog			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiEpicFashionGachaLog.prefab			5000			0
+UiEpicFashionGachaShow			Normal	Bundle	Assets/Product/Ui/Prefab/UiDrawShowNew.prefab	Assets/Product/Ui/Scene3DPrefab/UiMain3dQishi_02.prefab	Assets/Product/Ui/UiModel/UiNewDrawMain/UiNewDrawShow1.prefab	5000			0
+UiEpicFashionGachaResult			Normal	Bundle	Assets/Product/Ui/Prefab/UiDrawResult.prefab			5000			0
+UiEpicFashionGachaQuickWear			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiEpicFashionGachaQuickWear.prefab			5000			0
+UiMaverick2Main			Normal	Bundle	Assets/Product/Ui/Prefab/UiMaverick2Main.prefab			5000			0
+UiMaverick2Task			Normal	Bundle	Assets/Product/Ui/Prefab/UiMaverick2Task.prefab			5000			0
+UiMaverick2Shop			Normal	Bundle	Assets/Product/Ui/Prefab/UiMaverick2Shop.prefab			5000			0
+UiMaverick2Rank			Normal	Bundle	Assets/Product/Ui/Prefab/UiFubenMaverickRank.prefab			5000			0
+UiMaverick2Explore			Normal	Bundle	Assets/Product/Ui/Prefab/UiMaverick2Explore.prefab			5000			0
+UiMaverick2StageDetail			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiMaverick2StageDetail.prefab			5000			0
+UiMaverick2Character			Normal	Bundle	Assets/Product/Ui/Prefab/UiMaverick2Character.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiMaverick2.prefab	5000			0
+UiMaverick2ScoreResult			Normal	Bundle	Assets/Product/Ui/Prefab/UiFubenMaverickFight.prefab			5000			0
+UiMaverick2Talent			Normal	Bundle	Assets/Product/Ui/Prefab/UiMaverick2Talent.prefab	Assets/Product/Ui/Scene3DPrefab/UiCharacter3d.prefab	Assets/Product/Ui/UiModel/UiCharacter3d/UiMaverick2.prefab	5000			0
+UiMaverick2CharacterExchange	UiMaverick2Talent			Bundle	Assets/Product/Ui/Prefab/UiMaverick2CharacterExchange.prefab			5000			0
+UiMaverick2LevelUp			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiMaverick2LevelUp.prefab			5000			0
+UiMaverick2Details			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiMaverick2Details.prefab			5000			0
+UiMaverick2Unlock			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiMaverick2Unlock.prefab			5000			0
+UiMaverick2Lose			Normal	Bundle	Assets/Product/Ui/Prefab/UiFubenMaverickLose.prefab			5000			0
+UiFuben2023YuanXiao			Normal	Bundle	Assets/Product/Ui/Prefab/UiFuben2023YuanXiao.prefab			5000			0
+Ui2023YuanXiaoRoomsceneChoice			NormalPopup	Bundle	Assets/Product/Ui/Prefab/Ui2023YuanXiaoRoomsceneChoice.prefab			5000			0
+UiGuildDormPhotoSet			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildDormPhotoSet.prefab			5000			0
+UiCharacterTowerLeftTip			Popup	Bundle	Assets/Product/Ui/Prefab/UiCharacterTowerLeftTip.prefab			5000			0
+UiCharacterTowerPhotograph			Normal	Bundle	Assets/Product/Ui/Prefab/UiCharacterTowerPhotograph.prefab			5000			0
 UiLoginDialog			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiLoginDialog.prefab			5000			0
 UiAccountSign			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiAccountSign.prefab			5000			0
 UiSetAccount			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiSetAccount.prefab			5000			0
@@ -1297,6 +1359,5 @@ UiBubbleTip			Tips	Bundle	Assets/Product/Ui/Prefab/UiBubbleTip.prefab			5000			0
 UiSlotmachine			Normal	Bundle	Assets/Product/Ui/Prefab/UiSlotmachine.prefab			5000			
 UiSlotmachineTask	UiSlotmachine			Bundle	Assets/Product/Ui/Prefab/UiSlotmachineTask.prefab			5000			
 UiSlotmachineRules	UiSlotmachine			Bundle	Assets/Product/Ui/Prefab/UiSlotmachineRules.prefab			5000			
-UiSpecialRegulationShow			Normal	Bundle	Assets/Product/Ui/Prefab/UiSpecialRegulationShow.prefab			5000			
+UiSpecialRegulationShow			Normal	Bundle	Assets/Product/Ui/Prefab/UiSpecialRegulationShow.prefab			5000
 UiMouseButtonConfig			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiMouseButtonConfig.prefab			5000
-UiGuildDormPhotoSet			NormalPopup	Bundle	Assets/Product/Ui/Prefab/UiGuildDormPhotoSet.prefab			5000			0

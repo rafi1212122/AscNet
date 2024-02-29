@@ -392,6 +392,15 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 568	1	6290	Normal Chapter 22	Clear Normal Story 22-26	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					568			1		100338	504			Story	553		37	36		1	
 569	1	6280	Normal Chapter 22	Clear Normal Story 22-27	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					569			1		100339	504			Story	553		37	36		1	
 570	1	6270	Complete all Chapter 22 missions	Complete all Normal Chapter 22 missions	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					570			16		100346				Story	553		37	36	1	1	
+57100	1	6260	Normal Chapter 23	Clear Normal Story 23-5	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					57100			1		100336	505			Story	570		38	37		1	
+572	1	6250	Normal Chapter 23	Clear Normal Story 23-7	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					572			1		100337	505			Story	570		38	37		1	
+573	1	6240	Normal Chapter 23	Clear Normal Story 23-9	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					573			1		100338	505			Story	570		38	37		1	
+574	1	6230	Normal Chapter 23	Clear Normal Story 23-11	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					574			1		100339	505			Story	570		38	37		1	
+575	1	6220	Normal Chapter 23	Clear Normal Story 23-12	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					575			1		100336	505			Story	570		38	37		1	
+576	1	6210	Normal Chapter 23	Clear Normal Story 23-13	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					576			1		100337	505			Story	570		38	37		1	
+577	1	6200	Normal Chapter 23	Clear Normal Story 23-14	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					577			1		100338	505			Story	570		38	37		1	
+578	1	6190	Normal Chapter 23	Clear Normal Story 23-16	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					578			1		100339	505			Story	570		38	37		1	
+579	1	6180	Complete all Chapter 23 missions	Complete all Normal Chapter 23 missions	Assets/Product/Texture/Image/IconTask/TaskIconFight.png					579			8		100346				Story	570		38	37	1	1	
 700	9	10000	Expedition	Dispatch a team to complete Stronghold once	Assets/Product/Texture/Image/IconTask/TaskIconThread01.png					700			1		210000	700			Clear							
 710	9	9970	New Area	Clear Stronghold 2-1	Assets/Product/Texture/Image/IconTask/TaskIconThread02.png					710			1		210001	710			Clear							
 720	9	9940	Crossfire	Clear Stronghold 3-1	Assets/Product/Texture/Image/IconTask/TaskIconThread03.png					720			1		210002	720			Clear							
@@ -619,7 +628,7 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 7804	71	9970	Beginner Guide Mission	Research Basic <color=#009fe1>A Member Target</color> <color=#009fe1>10</color> times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					7804			10		701224	7804			Target							
 7805	71	9960	Beginner Guide Mission	Commandant Level reaches Lv.<color=#009fe1>15</color>	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					7805			15		701225	7805			Target							
 7806	71	9950	Beginner Guide Mission	Train <color=#009fe1>3</color> members (including Uniframes) to Lv.<color=#009fe1>15</color>	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					7806			3		701226	7806			Target							
-7807	71	9940	Beginner Guide Mission	Train <color=#009fe1>3</color> pieces of equipment (<color=#009fe1>indlcuding Weapon Memories</color>) that have been overclocked to Lv.<color=#009fe1>30</color>	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					7807			3		701227	7807			Target							
+7807	71	9940	Beginner Guide Mission	Train <color=#009fe1>3</color> pieces of equipment (<color=#009fe1>including Weapon Memories</color>) that have been overclocked to Lv.<color=#009fe1>30</color>	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					7807			3		701227	7807			Target							
 7808	71	9930	Beginner Guide Mission	Complete F.O.S. Rating Center Elementary Subject <color=#009fe1>C1</color>	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					7808			1		701228	7808			Target							
 7811	71	9920	Beginner Guide Mission	Clear Main Story <color=#009fe1>Hidden Story 1-6</color>	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					7811			1		701229	7811			Target							
 7812	71	9910	Beginner Guide Mission	Clear Resources - BP Training stage <color=#009fe1>5</color> times	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					7812			5		701230	7812			Target							
@@ -1507,6 +1516,7 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 11634	11	9760	Triumphant Return II	Clear Event Mission [Co-op Rerun!] 3 times	Assets/Product/Texture/Image/IconTask/TaskIconAcitive.png					11634			3		11634	11624			Clear							
 11635	11	9750	Triumphant Return III	Clear Event Mission [Co-op Rerun!] 5 times	Assets/Product/Texture/Image/IconTask/TaskIconAcitive.png					11635			5		11635	11624			Clear							
 11640	11	9740		1						450			1		3100				Collect							
+11641	76	9741		1						571			1		3300				Collect							
 11701	11	10000		5						11701			5		11701				Collect							
 11702	11	9990		10						11702			10		11702				Collect							
 11703	11	9980		15						11703			15		11703				Collect							
@@ -1903,6 +1913,9 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 12414	11	10000	Dark Winter Origin I	Log in to the game for the 1st time in a day	Assets/Product/Texture/Image/IconTask/TaskIconAcitive54.png					12139			1		18001				Clear							
 12415	11	9900	Dark Winter Origin II	Use a total of 200 Serum today	Assets/Product/Texture/Image/IconTask/TaskIconAcitive54.png					12140			200		18002	2014			Event							
 12416	11	9800	Dark Winter Origin III	Total Activity has reached 100 points today	Assets/Product/Texture/Image/IconTask/TaskIconAcitive54.png					12141			100		18003	20038			Event							
+12417	11	10000	Homeward Season I	Log in to the game for the 1st time in a day	Assets/Product/Texture/Image/IconTask/TaskIconAcitive55.png					12139			1		18015				Event							
+12418	11	9900	Homeward Season II	Use a total of 200 Serum today	Assets/Product/Texture/Image/IconTask/TaskIconAcitive55.png					12140			200		18016	2016			Event							
+12419	11	9800	Homeward Season III	Total Activity reaches 100 points today	Assets/Product/Texture/Image/IconTask/TaskIconAcitive55.png					12141			100		18017	20038			Event							
 120001	11	9700	Machine Precursor I	Clear [Machine Precursor] 1 time	Assets/Product/Texture/Image/IconTask/TaskIconAcitive1.png					12245			1		12775	20017			Clear							
 120002	11	9600	Machine Precursor II	Clear [Machine Precursor] 5 times	Assets/Product/Texture/Image/IconTask/TaskIconAcitive1.png					12246			5		12776	20017			Clear							
 120003	11	9500	Extremis Collaboration	Clear [Extremis Collaboration] 1 time	Assets/Product/Texture/Image/IconTask/TaskIconAcitive1.png					12247			1		12782	84020			Clear							
@@ -1988,6 +2001,23 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 120083	11	9000	Babel Tower: Sidereal Impression	Clear Babel Tower: Sidereal Impression once	Assets/Product/Texture/Image/IconTask/TaskIconActiveMainLineV200.png					12388			1		15215	20015			Clear							
 120084	11	8900	Palette Clash	Clear [Palette Clash] 3 times	Assets/Product/Texture/Image/IconTask/TaskIconActiveMainLineV200.png					12389			3		15215	88004			Clear							
 120085	11	8800	Join a Command Bureau	Join a Command Bureau	Assets/Product/Texture/Image/IconTask/TaskIconActiveGonghuiV200.png					35000			1		15215	20126			Guild							
+120086	11	10000	Overwinter I	Clear [Overwinter] once	Assets/Product/Texture/Image/IconTask/TaskIconActiveMainLineV201.png					12390			1		15215	20017			Clear							
+120087	11	9900	Overwinter II	Clear [Overwinter] 5 times	Assets/Product/Texture/Image/IconTask/TaskIconActiveMainLineV201.png					12391			5		15215	20017			Clear							
+120088	11	9800	Abyssal Unbounded I	Clear [Shadow's Cage] I	Assets/Product/Texture/Image/IconTask/TaskIconActiveTrySuperAlphaV201.png					12392			1		15217	20071			Clear							
+120089	11	9700	Abyssal Unbounded II	Clear [Shadow's Cage] II	Assets/Product/Texture/Image/IconTask/TaskIconActiveTrySuperAlphaV201.png					12393			1		15217	20071			Clear							
+120090	11	9600	Abyssal Unbounded III	Clear [Shadow's Cage] III	Assets/Product/Texture/Image/IconTask/TaskIconActiveTrySuperAlphaV201.png					12394			1		15215	20071			Clear							
+120091	11	9500	Zhuolu's Rain	Clear the trial stage of Coating: [Zhuolu's Rain]	Assets/Product/Texture/Image/IconTask/TaskIconActiveSuperAlphaEffectCoatingTryV201.png					12395			1		15216	10035			Clear							
+120092	11	9400	March Hare	Clear the trial stage of Coating: [March Hare]	Assets/Product/Texture/Image/IconTask/TaskIconActiveKalieEffectCoatingTryV201.png					12396			1		15216	10035			Clear							
+120093	11	9300	Daydream Believer	Clear the story stage of Coating: [Daydream Believer]	Assets/Product/Texture/Image/IconTask/TaskIconActiveBiankaEffectCoatingTryV201.png					12397			1		15216	89012			Clear							
+120094	11	9200	Adaptation Fitting: Motorbolt	Clear Adaptation Fitting: Motorbolt	Assets/Product/Texture/Image/IconTask/TaskIconActiveTryPetV201.png					12398			1		15218	7117			Clear							
+120095	11	9100	Arcade Anima	Clear [Let's Play Together!]	Assets/Product/Texture/Image/IconTask/TaskIconActiveCharacterTowerV201.png					12399			1		15215	11776			Clear							
+120096	11	9000	Corrupted Battlefront	Clear Foreign Lands - 1	Assets/Product/Texture/Image/IconTask/TaskIconActiveMainLineV201.png					12400			1		15215	89011			Clear							
+120097	11	8900	Sinister Craft	Clear the stage once	Assets/Product/Texture/Image/IconTask/TaskIconActiveMainLineV201.png					12401			1		15218	11724			Clear							
+120098	11	8800	Ultimate Brawl	Defeat 9 enemies in Classical Showdown	Assets/Product/Texture/Image/IconTask/TaskIconActiveMainLineV201.png					12402			9		15216	20104			Clear							
+120099	11	8700	Lantern-Lit New Year's Eve	Clear [Lantern-Lit New Year's Eve]	Assets/Product/Texture/Image/IconTask/TaskIconActiveSpringFestivalStoryV201.png					12403			1		15217	20184			Clear							
+120100	11	8600	Cooking Lulu	Enter Cooking Lulu	Assets/Product/Texture/Image/IconTask/TaskIconActiveMainLineV201.png					12404			1		15215	89008			Event							
+120101	11	8500	Joyous Wrappings	Make 1 sweet dumpling	Assets/Product/Texture/Image/IconTask/TaskIconActiveMainLineV201.png					12405			1		15216	89007			Clear							
+120102	11	8400	Anchor Realm	Clear [Folded Edge - Facade] once	Assets/Product/Texture/Image/IconTask/TaskIconActiveMainLineV201.png					12406			1		15215	87001			Clear							
 99900	11	11000	Photo Op	Take 1 photo in Photo Mode	Assets/Product/Texture/Image/IconTask/TaskIconAcitive.png					99900			1		99900	20052			Share							
 15001	25	10000	Elegy Of Nightmare I	Clear the abnormal info from any nightmare location.	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					15001			1		400201				Clear							
 15002	25	9990	Elegy Of Nightmare II	Complete one Amberia challenge at any difficulty.	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					15002			1		400202				Clear							
@@ -2039,6 +2069,18 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 15531	11	10000	Endless Battle - I	Reach Floor 3	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15531			3		15531				Clear							
 15532	11	9900	Endless Battle - II	Reach Floor 6	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15532			6		15532				Event							
 15533	11	9800	Endless Battle III	Reach Floor 10	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15533			10		15533				Event							
+15541	11	10000	Classical Showdown I	Defeat 3 enemies	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15541			3		15541				Clear							
+15542	11	9900	Classical Showdown II	Defeat 6 enemies	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15542			6		15542				Event							
+15543	11	9800	Classical Showdown III	Defeat 9 enemies	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15543			9		15543				Event							
+15544	11	9700	Classical Showdown IV	Defeat 12 enemies	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15544			12		15544				Event							
+15551	11	10000	Emergency Dispatch I	Defeat 3 enemies	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15551			3		15551				Clear							
+15552	11	9900	Emergency Dispatch II	Defeat 6 enemies	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15552			6		15552				Event							
+15553	11	9800	Emergency Dispatch III	Defeat 9 enemies	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15553			9		15553				Event							
+15554	11	9700	Emergency Dispatch IV	Defeat 12 enemies	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15554			12		15554				Event							
+15561	11	10000	Endless Battle I	Reach up to Floor 3	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15561			3		15561				Clear							
+15562	11	9900	Endless Battle II	Reach up to Floor 6	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15562			6		15562				Event							
+15563	11	9800	Endless Battle III	Reach up to Floor 9	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15563			9		15563				Event							
+15566	11	9700	Endless Battle IV	Reach up to Floor 12	Assets/Product/Texture/Image/UiMultiDim/UiSuperSmashBrosTask01.png					15566			12		15566				Event							
 16001	6	10000	Moment of Peace I	Rest or Prep 2 times at Respite	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					11531			2		16001				Clear							
 16002	6	10000	Moment of Peace II	Rest or Prep 4 times at Respite	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					11532			4		16002				Clear							
 16003	6	9980	Small Harvest I	Gain 200 Support Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					11533			200		16003				Collect							
@@ -3208,6 +3250,9 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 80065	51	7800	Event - Palette Clash	Complete Palette Clash 3 times	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					80065			3		800037	88004			Event							
 80066	51	7700	Event - Babel Tower: Sidereal Impression Challenge	Reach Sidereal Impression Strategic Lv.120	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					80066			120		800038	20015			Event							
 80067	51	7600	Event - Memory Rescue	Clear [Modern - Decapitation] once	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					80067			1		800039	88005			Event							
+80068	51	7800	Event - Deadlocked	Defeat 16 enemies in Classical Showdown	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					80068			16		800037	20104			Event							
+80069	51	7700	Event - Corrupted Battlefront	Clear Chapter 2 Seize - Fin	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					80069			1		800038	89011			Event							
+80070	51	7600	Event - Cooking Lulu	Cumulatively obtain Lulu's Hearty Bowl	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					80070			60000		800039	89008			Event							
 1000001	56	8700	Corrupted Battlefront I	Clear Normal Stage 1-1	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					1000001			1		346002				Event							
 1000002	56	8600	Corrupted Battlefront II	Clear Normal Stage 1-5	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					1000002			1		346003				Event							
 1000003	56	8500	Corrupted Battlefront III	Clear Normal Stage 1-10	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					1000003			1		346004				Event							
@@ -3310,6 +3355,36 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 82028	66	9730	Simulated Siege	Clear 3 Simulated Siege stages for the first time	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					82028			3			15001			Event							
 82029	66	9720	Cosmic Glow	Clear Cosmic Glow stages 50 times	Assets/Product/Texture/Image/IconTask/TaskIconDubian2.png					82029			50			20017			Event							
 82030	66	9710	Norman Revival Plan	Clear Norman Revival Plan stages 10 times	Assets/Product/Texture/Image/IconTask/TaskIconDubian2.png					82030			10			70001			Event							
+82031	66	10000	Total Logins	Login for a total of 5 days	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					82031			5						Event							
+82032	66	9990	Construct Research	Use Event Construct R&D Ticket x2500	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					82032			2500			20131			Event							
+82033	66	9980	Phantom Pain Cage	Clear 10 Phantom Pain Cage stages for the first time	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					82033			10			30001			Event							
+82034	66	9970	Overwinter	Clear Overwinter a total of 50 times	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					82034			50			20017			Event							
+82035	66	9960	Corrupted Battlefront	Clear Seize - Fin	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					82035			1			89011			Event							
+82036	66	9950	Arcade Anima	Clear Let's Play Together!	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					82036			1			11776			Event							
+82037	66	9940	Serum Consumption	Use 1,500 of Serum in total	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					82037			1500						Event							
+82038	66	9930	Guild Expedition	Join the Guild Expedition 9 times (Auto Clears Excluded)	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					82038			9			20126			Event							
+82039	66	9920	War Zone	Clear 12 War Zone stages for the first time	Assets/Product/Texture/Image/IconTask/TaskIconYongyechao2.png					82039			12			30013			Event							
+82040	66	9910	Operation Guardians	Participate in Operation Guardians 20 times	Assets/Product/Texture/Image/IconTask/TaskIconYongyechao2.png					82040			20			11737			Event							
+82041	66	9900	Cursed Waves	Activate Insight and clear any ending	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya2.png					82041			1			85015			Event							
+82042	66	9890	Ultimate Brawl	Defeat 9 enemies in Classical Showdown	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya2.png					82042			9			20104			Event							
+82043	66	9880	Total Logins	Login for a total of 5 days	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya2.png					82043			5						Event							
+82044	66	9870	Anchor Realm	Clear 10 stages in total	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya2.png					82044			10			87001			Event							
+82045	66	9860	Phantom Pain Cage	Clear 10 Phantom Pain Cage stages for the first time	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya2.png					82045			10			30001			Event							
+82046	66	9850	War Zone	Clear 12 War Zone stages for the first time	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya2.png					82046			12			30013			Event							
+82047	66	9840	Overwinter	Clear Overwinter a total of 50 times	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya2.png					82047			50			20017			Event							
+82048	66	9830	Cooking Lulu	Cumulatively obtain Lulu's Hearty Bowl	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya2.png					82048			150000			89008			Event							
+82049	66	9820	Serum Consumption	Use 1,500 of Serum in total	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					82049			1500						Event							
+82050	66	9810	Phantom Pain Cage	Clear 10 Phantom Pain Cage stages for the first time	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					82050			10			30001			Event							
+82051	66	9800	War Zone	Clear 12 War Zone stages for the first time	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					82051			12			30013			Event							
+82052	66	9790	Operation Guardians	Participate in Operation Guardians 20 times	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					82052			20			11737			Event							
+82053	66	9780	Simulated Siege	Clear 3 Simulated Siege stages for the first time	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					82053			3			15001			Event							
+82054	66	9770	Lantern-Lit New Year's Eve	Clear Lantern-Lit New Year's Eve	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					82054			1			20184			Event							
+82055	66	9760	Total Logins	Login for a total of 5 days	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					82055			5						Event							
+82056	66	9750	War Zone	Clear 12 War Zone stages for the first time	Assets/Product/Texture/Image/IconTask/TaskIconDubian2.png					82056			12			30013			Event							
+82057	66	9740	Phantom Pain Cage	Clear 10 Phantom Pain Cage stages for the first time	Assets/Product/Texture/Image/IconTask/TaskIconDubian2.png					82057			10			30001			Event							
+82058	66	9730	Operation Guardians	Participate in Operation Guardians 20 times	Assets/Product/Texture/Image/IconTask/TaskIconYongyechao2.png					82058			20			11737			Event							
+82059	66	9720	Overwinter	Clear Overwinter a total of 50 times	Assets/Product/Texture/Image/IconTask/TaskIconDubian2.png					82059			50			20017			Event							
+82060	66	9710	Joyous Wrappings	Make 70 sweet dumplings in total	Assets/Product/Texture/Image/IconTask/TaskIconDubian2.png					82060			70			89007			Event							
 84001	57	16	Human Stronghold I	Clear Ep.01 - Anchor Point	Assets/Product/Texture/Image/UiDoomsday/UidoomsdayTaskIcon.png					84001			1		560000				Clear			1				
 84002	57	15	Human Stronghold II	Clear Ep.02 - Getting Worse	Assets/Product/Texture/Image/UiDoomsday/UidoomsdayTaskIcon.png					84002			1		560001				Clear			1				
 84003	57	14	Human Stronghold III	Clear Ep.03 - Christmas	Assets/Product/Texture/Image/UiDoomsday/UidoomsdayTaskIcon.png					84003			1		560002				Clear			1				
@@ -3454,6 +3529,16 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 11061903	4	19507	Ultimate - Shark-speare [Dark] Challenge III	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11061903			240000		30482	3043			Battle		1					
 11061904	4	19506	Ultimate - Shark-speare [Dark] Challenge IV	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11061904			480000		30483	3043			Battle		1					
 11061905	4	19505	Ultimate - Shark-speare [Dark] Challenge V	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11061905			580000		30484	3043			Battle		1					
+11062001	4	19504	Ultimate - Phantom Challenge I	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11062001			48000		30480	3043			Battle		1					
+11062002	4	19503	Ultimate - Phantom Challenge II	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11062002			128000		30481	3043			Battle		1					
+11062003	4	19502	Ultimate - Phantom Challenge III	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11062003			240000		30482	3043			Battle		1					
+11062004	4	19501	Ultimate - Phantom Challenge IV	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11062004			480000		30483	3043			Battle		1					
+11062005	4	19500	Ultimate - Phantom Challenge V	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11062005			580000		30484	3043			Battle		1					
+11062101	4	19499	Ultimate - Madorea Challenge I	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11062101			48000		30480	3043			Battle		1					
+11062102	4	19498	Ultimate - Madorea Challenge II	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11062102			128000		30481	3043			Battle		1					
+11062103	4	19497	Ultimate - Madorea Challenge III	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11062103			240000		30482	3043			Battle		1					
+11062104	4	19496	Ultimate - Madorea Challenge IV	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11062104			480000		30483	3043			Battle		1					
+11062105	4	19495	Ultimate - Madorea Challenge V	Ultimate Zone Progress reaches	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					11062105			580000		30484	3043			Battle		1					
 3030	4	19499	Co-op! Novice	Clear 10 Co-op Missions	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					3030			10		30300	3030			戦闘		1					
 3031	4	19498	Co-op! Journeyman	Clear 30 Co-op Missions	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					3031			30		30310	3031			戦闘		1					
 3032	4	19497	Co-op! Expert	Clear 50 Co-op Missions	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskBattle.png					3032			50		30320	3032			戦闘		1					
@@ -3864,6 +3949,14 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 4237	4	25386	Prismatic Radiance VI	Upgrade Ayla: Kaleido to Lv.60	Assets/Product/Texture/Image/IconTask/TaskIconR3Ayla.png					4237			1		34350	3435			Train	4236	3					
 4238	4	25385	Prismatic Radiance VII	Upgrade Ayla: Kaleido to Lv.70	Assets/Product/Texture/Image/IconTask/TaskIconR3Ayla.png					4238			1		34360	3436			Train	4237	3					
 4239	4	25384	Prismatic Radiance VIII	Upgrade Ayla: Kaleido to Lv.80	Assets/Product/Texture/Image/IconTask/TaskIconR3Ayla.png					4239			1		34370	3437			Train	4238	3					
+4240	4	25383	Beneath the Shadow I	Upgrade Alpha: Crimson Weave to Lv.10	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					4240			1		34300	3430			Train		3					
+4241	4	25382	Beneath the Shadow II	Upgrade Alpha: Crimson Weave to Lv.20	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					4241			1		34310	3431			Train	4240	3					
+4242	4	25381	Beneath the Shadow III	Upgrade Alpha: Crimson Weave to Lv.30	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					4242			1		34320	3432			Train	4241	3					
+4243	4	25380	Beneath the Shadow IV	Upgrade Alpha: Crimson Weave to Lv.40	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					4243			1		34330	3433			Train	4242	3					
+4244	4	25379	Beneath the Shadow V	Upgrade Alpha: Crimson Weave to Lv.50	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					4244			1		34340	3434			Train	4243	3					
+4245	4	25378	Beneath the Shadow VI	Upgrade Alpha: Crimson Weave to Lv.60	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					4245			1		34350	3435			Train	4244	3					
+4246	4	25377	Beneath the Shadow VII	Upgrade Alpha: Crimson Weave to Lv.70	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					4246			1		34360	3436			Train	4245	3					
+4247	4	25376	Beneath the Shadow VIII	Upgrade Alpha: Crimson Weave to Lv.80	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					4247			1		34370	3437			Train	4246	3					
 3130	4	26099	I Have No Friends I	Own 1 SS-rank members	Assets/Product/Texture/Image/IconTask/TaskIconExem.png					3130			1		31300	3130			Train		3					
 3131	4	26098	I Have No Friends II	Own 3 SS-rank members	Assets/Product/Texture/Image/IconTask/TaskIconExem.png					3131			3		31310	3131			Train	3130	3					
 3132	4	26097	I Have No Friends III	Own 5 SS-rank members	Assets/Product/Texture/Image/IconTask/TaskIconExem.png					3132			5		31320	3132			Train	3131	3					
@@ -3988,6 +4081,8 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 21054702	4	25706	The True Power of Hyperreal II	Evolve Hyperreal to SSS-Rank	Assets/Product/Texture/Image/IconTask/TaskIconR4Li2.png					21054702			1		37147	3300			Train		3					
 21054801	4	25705	The True Power of Kaleido I	Evolve Kaleido to SS-Rank	Assets/Product/Texture/Image/IconTask/TaskIconR3Ayla.png					21054801			1		37048	3300			Train		3					
 21054802	4	25704	The True Power of Kaleido II	Evolve Kaleido to SSS-Rank	Assets/Product/Texture/Image/IconTask/TaskIconR3Ayla.png					21054802			1		37148	3300			Train		3					
+21054901	4	25703	The True Power of Crimson Weave I	Evolve Crimson Weave to SS-Rank	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					21054901			1		37049	3300			Train		3					
+21054902	4	25702	The True Power of Crimson Weave II	Evolve Crimson Weave to SSS-Rank	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					21054902			1		37149	3300			Train		3					
 3500	4	25599	Medal of Honor I	Promote members a total of 5 times	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					3500			5		35000	3500			Train		3					
 3501	4	25598	Medal of Honor II	Promote members a total of 10 times	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					3501			10		35010	3501			Train	3500	3					
 3502	4	25597	Medal of Honor III	Promote members a total of 20 times	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					3502			20		35020	3502			Train	3501	3					
@@ -4046,54 +4141,56 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 21074601	4	25454	Vitrum: Ultima Awaken	Awaken Vitrum's Ultima Rank	Assets/Product/Texture/Image/IconTask/TaskIconBbnt.png					21074601			1		37246	19045			Train		3					
 21074701	4	25453	Hyperreal: Ultima Awaken	Awaken Hyperreal's Ultima Rank	Assets/Product/Texture/Image/IconTask/TaskIconR4Li2.png					21074701			1		37247	19046			Train		3					
 21074801	4	25452	Kaleido: Ultima Awaken	Awaken Kaleido's Ultima Rank	Assets/Product/Texture/Image/IconTask/TaskIconR3Ayla.png					21074801			1		37248	19047			Train		3					
-21080101	4	25451	Palefire: Infinitas Awaken	Awaken Palefire's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLi2.png					21080101			1		37500	19000			Train		3					
-21080201	4	25450	Lotus: Infinitas Awaken	Awaken Lotus's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya1.png					21080201			1		37500	19001			Train		3					
-21080301	4	25449	Eclipse: Infinitas Awaken	Awaken Eclipse's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					21080301			1		37500	19002			Train		3					
-21080401	4	25448	Zero: Infinitas Awaken	Awaken Zero's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconBianka2.png					21080401			1		37500	19003			Train		3					
-21080501	4	25447	Storm: Infinitas Awaken	Awaken Storm's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconYongyechao2.png					21080501			1		37500	19004			Train		3					
-21080601	4	25446	Bastion: Infinitas Awaken	Awaken Bastion's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconShenwei2.png					21080601			1		37500	19005			Train		3					
-21080701	4	25445	Blast: Infinitas Awaken	Awaken Blast's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconKalienina2.png					21080701			1		37500	19006			Train		3					
-21080801	4	25444	Nightblade: Infinitas Awaken	Awaken Nightblade's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconDubian2.png					21080801			1		37500	19007			Train		3					
-21080901	4	25443	Dawn: Infinitas Awaken	Awaken Dawn's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya2.png					21080901			1		37500	19008			Train		3					
-21081001	4	25442	Lux: Infinitas Awaken	Awaken Lux's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					21081001			1		37500	19009			Train		3					
-21081101	4	25441	Entropy: Infinitas Awaken	Awaken Entropy's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLi3.png					21081101			1		37500	19010			Train		3					
-21081201	4	25440	Luminance: Infinitas Awaken	Awaken Luminance's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLifu3.png					21081201			1		37500	19011			Train		3					
-21081301	4	25439	Tenebrion: Infinitas Awaken	Awaken Tenebrion's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconShenwei3.png					21081301			1		37500	19012			Train		3					
-21081401	4	25438	Ember: Infinitas Awaken	Awaken Ember's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconKalienina3.png					21081401			1		37500	19013			Train		3					
-21081501	4	25437	Pulse: Infinitas Awaken	Awaken Pulse's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconYongyechao3.png					21081501			1		37500	19014			Train		3					
-21081601	4	25436	Crimson Abyss: Infinitas Awaken	Awaken Crimson Abyss's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLuxiyaaerfa.png					21081601			1		37500	19015			Train		3					
-21081701	4	25435	Astral: Infinitas Awaken	Awaken Astral's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconDubian3.png					21081701			1		37500	19016			Train		3					
-21081801	4	25434	Brilliance: Infinitas Awaken	Awaken Brilliance's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconAila2.png					21081801			1		37500	19017			Train		3					
-21081901	4	25433	Veritas: Infinitas Awaken	Awaken Veritas's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconBianka3.png					21081901			1		37500	19018			Train		3					
-21082001	4	25432	Silverfang: Infinitas Awaken	Awaken Silverfang's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconSufeiya2.png					21082001			1		37500	19019			Train		3					
-21082101	4	25431	Arclight: Infinitas Awaken	Awaken Arclight's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconKuluomu2.png					21082101			1		37500	19020			Train		3					
-21082201	4	25430	Plume: Infinitas Awaken	Awaken Plume's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR4Luxiya2.png					21082201			1		37500	19021			Train		3					
-21082301	4	25429	Rozen: Infinitas Awaken	Awaken Rozen's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconWeila2.png					21082301			1		37500	19022			Train		3					
-21082401	4	25428	Crocotta: Infinitas Awaken	Awaken Crocotta's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconKamu2.png					21082401			1		37500	19023			Train		3					
-21082501	4	25427	Rigor: Infinitas Awaken	Awaken Rigor's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLuosaita2.png					21082501			1		37500	19024			Train		3					
-21082601	4	25426	Pavo: Infinitas Awaken	Awaken Pavo's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconQu2.png					21082601			1		37500	19026			Train		3					
-21082701	4	25425	Qilin: Infinitas Awaken	Awaken Qilin's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconChangyu2.png					21082701			1		37500	19025			Train		3					
-21082801	4	25424	Laurel: Infinitas Awaken	Awaken Laurel's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLuna2.png					21082801			1		37500	19027			Train		3					
-21082901	4	25423	2B: Infinitas Awaken	Awaken 2B's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconTwob2.png					21082901			1		37500	19028			Train		3					
-21083001	4	25422	9S: Infinitas Awaken	Awaken 9S's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconNines2.png					21083001			1		37500	19029			Train		3					
-21083101	4	25421	A2: Infinitas Awaken	Awaken A2's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconATwo3.png					21083101			1		37500	19030			Train		3					
-21083201	4	25420	Hypnos: Infinitas Awaken	Awaken Hypnos's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconWanshi2.png					21083201			1		37500	19031			Train		3					
-21083301	4	25419	Tempest: Infinitas Awaken	Awaken Tempest's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconSailinna2.png					21083301			1		37500	19032			Train		3					
-21083401	4	25418	Glory: Infinitas Awaken	Awaken Glory's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR3Kuluomu2.png					21083401			1		37500	19033			Train		3					
-21083501	4	25417	XXI: Infinitas Awaken	Awaken XXI's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconTwentyone2.png					21083501			1		37500	19038			Train		3					
-21083601	4	25416	Garnet: Infinitas Awaken	Awaken Garnet's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR3Weila2.png					21083601			1		37500	19034			Train		3					
-21083701	4	25415	Flambeau: Infinitas Awaken	Awaken Flambeau's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLuolan2.png					21083701			1		37500	19035			Train		3					
-21083801	4	25414	Empyrea: Infinitas Awaken	Awaken Empyrea's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR4Lifu2.png					21083801			1		37500	19036			Train		3					
-21083901	4	25413	Capriccio: Infinitas Awaken	Awaken Capriccio's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR3Sailinna2.png					21083901			1		37500	19037			Train		3					
-21084001	4	25412	Dragontoll: Infinitas Awaken	Awaken Dragontoll's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconPulao2.png					21084001			1		37500	19039			Train		3					
-21084101	4	25411	Starfarer: Infinitas Awaken	Awaken Starfarer's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR5Yongyechao2.png					21084101			1		37500	19040			Train		3					
-21084201	4	25410	Starveil: Infinitas Awaken	Awaken Starveil's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconHakama2.png					21084201			1		37500	19041			Train		3					
-21084301	4	25409	Scire: Infinitas Awaken	Awaken Scire's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconKalienina4.png					21084301			1		37500	19042			Train		3					
-21084401	4	25408	Arca: Infinitas Awaken	Awaken Arca's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconNuoan1.png					21084401			1		37500	19043			Train		3					
-21084501	4	25407	Stigmata: Infinitas Awaken	Awaken Stigmata's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR4Bianka2.png					21084501			1		37500	19044			Train		3					
-21084601	4	25406	Vitrum: Infinitas Awaken	Awaken Vitrum's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconBbnt.png					21084601			1		37500	19045			Train		3					
-21084701	4	25405	Hyperreal: Infinitas Awaken	Awaken Hyperreal's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR4Li2.png					21084701			1		37500	19046			Train		3					
-21084801	4	25404	Kaleido: Infinitas Awaken	Awaken Kaleido's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR3Ayla.png					21084801			1		37500	19047			Train		3					
+21074901	4	25451	Crimson Weave - Ultima Awaken	Awaken Crimson Weave's Ultima Rank	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					21074901			1		37249	19048			Train		3					
+21080101	4	25000	Palefire: Infinitas Awaken	Awaken Palefire's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLi2.png					21080101			1		37500	19000			Train		3					
+21080201	4	24999	Lotus: Infinitas Awaken	Awaken Lotus's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya1.png					21080201			1		37500	19001			Train		3					
+21080301	4	24998	Eclipse: Infinitas Awaken	Awaken Eclipse's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					21080301			1		37500	19002			Train		3					
+21080401	4	24997	Zero: Infinitas Awaken	Awaken Zero's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconBianka2.png					21080401			1		37500	19003			Train		3					
+21080501	4	24996	Storm: Infinitas Awaken	Awaken Storm's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconYongyechao2.png					21080501			1		37500	19004			Train		3					
+21080601	4	24995	Bastion: Infinitas Awaken	Awaken Bastion's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconShenwei2.png					21080601			1		37500	19005			Train		3					
+21080701	4	24994	Blast: Infinitas Awaken	Awaken Blast's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconKalienina2.png					21080701			1		37500	19006			Train		3					
+21080801	4	24993	Nightblade: Infinitas Awaken	Awaken Nightblade's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconDubian2.png					21080801			1		37500	19007			Train		3					
+21080901	4	24992	Dawn: Infinitas Awaken	Awaken Dawn's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLuxiya2.png					21080901			1		37500	19008			Train		3					
+21081001	4	24991	Lux: Infinitas Awaken	Awaken Lux's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					21081001			1		37500	19009			Train		3					
+21081101	4	24990	Entropy: Infinitas Awaken	Awaken Entropy's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLi3.png					21081101			1		37500	19010			Train		3					
+21081201	4	24989	Luminance: Infinitas Awaken	Awaken Luminance's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLifu3.png					21081201			1		37500	19011			Train		3					
+21081301	4	24988	Tenebrion: Infinitas Awaken	Awaken Tenebrion's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconShenwei3.png					21081301			1		37500	19012			Train		3					
+21081401	4	24987	Ember: Infinitas Awaken	Awaken Ember's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconKalienina3.png					21081401			1		37500	19013			Train		3					
+21081501	4	24986	Pulse: Infinitas Awaken	Awaken Pulse's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconYongyechao3.png					21081501			1		37500	19014			Train		3					
+21081601	4	24985	Crimson Abyss: Infinitas Awaken	Awaken Crimson Abyss's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					21081601			1		37500	19015			Train		3					
+21081701	4	24984	Astral: Infinitas Awaken	Awaken Astral's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconDubian3.png					21081701			1		37500	19016			Train		3					
+21081801	4	24983	Brilliance: Infinitas Awaken	Awaken Brilliance's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconAila2.png					21081801			1		37500	19017			Train		3					
+21081901	4	24982	Veritas: Infinitas Awaken	Awaken Veritas's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconBianka3.png					21081901			1		37500	19018			Train		3					
+21082001	4	24981	Silverfang: Infinitas Awaken	Awaken Silverfang's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconSufeiya2.png					21082001			1		37500	19019			Train		3					
+21082101	4	24980	Arclight: Infinitas Awaken	Awaken Arclight's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconKuluomu2.png					21082101			1		37500	19020			Train		3					
+21082201	4	24979	Plume: Infinitas Awaken	Awaken Plume's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR4Luxiya2.png					21082201			1		37500	19021			Train		3					
+21082301	4	24978	Rozen: Infinitas Awaken	Awaken Rozen's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconWeila2.png					21082301			1		37500	19022			Train		3					
+21082401	4	24977	Crocotta: Infinitas Awaken	Awaken Crocotta's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconKamu2.png					21082401			1		37500	19023			Train		3					
+21082501	4	24976	Rigor: Infinitas Awaken	Awaken Rigor's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLuosaita2.png					21082501			1		37500	19024			Train		3					
+21082601	4	24975	Pavo: Infinitas Awaken	Awaken Pavo's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconQu2.png					21082601			1		37500	19026			Train		3					
+21082701	4	24974	Qilin: Infinitas Awaken	Awaken Qilin's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconChangyu2.png					21082701			1		37500	19025			Train		3					
+21082801	4	24973	Laurel: Infinitas Awaken	Awaken Laurel's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLuna2.png					21082801			1		37500	19027			Train		3					
+21082901	4	24972	2B: Infinitas Awaken	Awaken 2B's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconTwob2.png					21082901			1		37500	19028			Train		3					
+21083001	4	24971	9S: Infinitas Awaken	Awaken 9S's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconNines2.png					21083001			1		37500	19029			Train		3					
+21083101	4	24970	A2: Infinitas Awaken	Awaken A2's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconATwo3.png					21083101			1		37500	19030			Train		3					
+21083201	4	24969	Hypnos: Infinitas Awaken	Awaken Hypnos's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconWanshi2.png					21083201			1		37500	19031			Train		3					
+21083301	4	24968	Tempest: Infinitas Awaken	Awaken Tempest's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconSailinna2.png					21083301			1		37500	19032			Train		3					
+21083401	4	24967	Glory: Infinitas Awaken	Awaken Glory's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR3Kuluomu2.png					21083401			1		37500	19033			Train		3					
+21083501	4	24966	XXI: Infinitas Awaken	Awaken XXI's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconTwentyone2.png					21083501			1		37500	19038			Train		3					
+21083601	4	24965	Garnet: Infinitas Awaken	Awaken Garnet's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR3Weila2.png					21083601			1		37500	19034			Train		3					
+21083701	4	24964	Flambeau: Infinitas Awaken	Awaken Flambeau's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconLuolan2.png					21083701			1		37500	19035			Train		3					
+21083801	4	24963	Empyrea: Infinitas Awaken	Awaken Empyrea's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR4Lifu2.png					21083801			1		37500	19036			Train		3					
+21083901	4	24962	Capriccio: Infinitas Awaken	Awaken Capriccio's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR3Sailinna2.png					21083901			1		37500	19037			Train		3					
+21084001	4	24961	Dragontoll: Infinitas Awaken	Awaken Dragontoll's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconPulao2.png					21084001			1		37500	19039			Train		3					
+21084101	4	24960	Starfarer: Infinitas Awaken	Awaken Starfarer's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR5Yongyechao2.png					21084101			1		37500	19040			Train		3					
+21084201	4	24959	Starveil: Infinitas Awaken	Awaken Starveil's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconHakama2.png					21084201			1		37500	19041			Train		3					
+21084301	4	24958	Scire: Infinitas Awaken	Awaken Scire's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconKalienina4.png					21084301			1		37500	19042			Train		3					
+21084401	4	24957	Arca: Infinitas Awaken	Awaken Arca's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconNuoan1.png					21084401			1		37500	19043			Train		3					
+21084501	4	24956	Stigmata: Infinitas Awaken	Awaken Stigmata's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR4Bianka2.png					21084501			1		37500	19044			Train		3					
+21084601	4	24955	Vitrum: Infinitas Awaken	Awaken Vitrum's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconBbnt.png					21084601			1		37500	19045			Train		3					
+21084701	4	24954	Hyperreal: Infinitas Awaken	Awaken Hyperreal's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR4Li2.png					21084701			1		37500	19046			Train		3					
+21084801	4	24953	Kaleido: Infinitas Awaken	Awaken Kaleido's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR3Ayla.png					21084801			1		37500	19047			Train		3					
+21084901	4	24952	Crimson Weave - Infinitas Awaken	Awaken Crimson Weave's Infinitas Rank	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					21084901			1		37500	19048			Train		3					
 3170	4	25299	Right Tool for the Job I	Own 5★ weapons * 2	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskEquip.png					3170			2		31700	3170			Train		3					
 3171	4	25298	Right Tool for the Job II	Own 5★ weapons * 4	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskEquip.png					3171			4		31710	3171			Train	3170	3					
 3172	4	25297	Right Tool for the Job III	Own 5★ weapons * 6	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskEquip.png					3172			6		31720	3172			Train	3171	3					
@@ -4217,6 +4314,10 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 23011402	4	24750	Rainbow Deployed II	Upgrade Rainbow to Lv.15	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet15.png					23011402			1		374096	20110			Train	23011401	3					
 23011403	4	24749	Rainbow Deployed III	Upgrade Rainbow to Lv.20	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet15.png					23011403			1		374097	20110			Train	23011402	3					
 23011404	4	24748	Rainbow Deployed IV	Upgrade Rainbow to Lv.25	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet15.png					23011404			1		374098	20110			Train	23011403	3					
+23011501	4	24747	Motorbolt Deployed I	Upgrade Motorbolt to Lv.10	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet16.png					23011501			1		374099	20110			Train		3					
+23011502	4	24746	Motorbolt Deployed II	Upgrade Motorbolt to Lv.15	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet16.png					23011502			1		374100	20110			Train	23011501	3					
+23011503	4	24745	Motorbolt Deployed III	Upgrade Motorbolt to Lv.20	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet16.png					23011503			1		374101	20110			Train	23011502	3					
+23011504	4	24744	Motorbolt Deployed IV	Upgrade Motorbolt to Lv.25	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet16.png					23011504			1		374102	20110			Train	23011503	3					
 23020001	4	24599	Not a P0kemon I	Own 1 SS-Rank CUB	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskEquip.png					23020001			1		37601	20110			Train		3					
 23020002	4	24598	Not a P0kemon II	Own 3 SS-Rank CUBs	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskEquip.png					23020002			3		37602	20110			Train	23020001	3					
 23020003	4	24597	Not a P0kemon III	Own 5 SS-Rank CUBs	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskEquip.png					23020003			5		37603	20110			Train	23020002	3					
@@ -4263,6 +4364,8 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 23041302	4	24476	Leave That Punchy to Me II	Evolve Punchy to SSS-Rank	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet14.png					23041302			1		37513	20110			Train		3					
 23041401	4	24475	Leave That Rainbow to Me I	Evolve Rainbow to SS-Rank	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet15.png					23041401			1		37414	20110			Train		3					
 23041402	4	24474	Leave That Rainbow to Me II	Evolve Rainbow to SSS-Rank	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet15.png					23041402			1		37514	20110			Train		3					
+23041501	4	24473	Leave That Motorbolt to Me I	Evolve Motorbolt to SS-Rank	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet16.png					23041501			1		37415	20110			Train		3					
+23041502	4	24472	Leave That Motorbolt to Me II	Evolve Motorbolt to SSS-Rank	Assets/Product/Texture/Image/UIAchievemen/UIAchievementTaskPet16.png					23041502			1		37515	20110			Train		3					
 23050001	4	24199	It's a CUB Attack I	Total CUB Skill Level reaches Lv.10	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					23050001			10		37801	20110			Train		3					
 23050002	4	24198	It's a CUB Attack II	Total CUB Skill Level reaches Lv.20	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					23050002			20		37802	20110			Train	23050001	3					
 23050003	4	24197	It's a CUB Attack III	Total CUB Skill Level reaches Lv.50	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					23050003			50		37803	20110			Train	23050002	3					
@@ -4367,6 +4470,7 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 31094601	4	19554	Vitrum's Gift	Vitrum reaches Affection 8	Assets/Product/Texture/Image/IconTask/TaskIconBbnt.png					31094601			1		37346	3653			Challenge		2					
 31094701	4	19553	Hyperreal's Gift	Hyperreal reaches Affection 8	Assets/Product/Texture/Image/IconTask/TaskIconR4Li2.png					31094701			1		37347	3653			Challenge		2					
 31094801	4	19552	Kaleido's Gift	Kaleido reaches Affection 8	Assets/Product/Texture/Image/IconTask/TaskIconR3Ayla.png					31094801			1		37348	3653			Challenge		2					
+31094901	4	19551	Crimson Weave's Gift	Crimson Weave reaches Affection 8	Assets/Product/Texture/Image/IconTask/TaskIconR5Luxiya.png					31094901			1		37349	3653			Challenge		2					
 3660	4	19099	Flock of Ravens	Commandant reaches Lv.10	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					3660			10		36600	3660			Challenge		2					
 3661	4	19098	Blue Sky	Commandant reaches Lv.20	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					3661			20		36610	3661			Challenge	3660	2					
 3662	4	19097	Ship of the Line	Commandant reaches Lv.30	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					3662			30		36620	3662			Challenge	3661	2					
@@ -4794,6 +4898,12 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 86128	11	9973	Standard Simulation - Extreme	Highest Points reach the designated value	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					86128			30000		555031							108				
 86129	11	9972	Malfunction Synergy - Extreme	Highest Points reach the designated value	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					86129			35000		555032							108				
 86130	11	9971	Danger After Danger - Extreme	Highest Points reach the designated value	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					86130			40000		555033							108				
+2120014	11	9860	Oath of Purity I	Use a total of 300 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120014			300		2000418	2014			血清							
+2120015	11	9850	Oath of Purity II	Use a total of 500 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120015			500		2000419	2014			血清							
+2120016	11	9840	Oath of Purity III	Use a total of 800 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120016			800		2000420	2014			血清							
+2120017	11	9830	Oath of Purity IV	Use a total of 1200 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120017			1200		2000421	2014			血清							
+2120018	11	9820	Oath of Purity V	Use a total of 1600 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120018			1600		2000422	2014			血清							
+2120019	11	9810	Oath of Purity VI	Use a total of 2000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120019			2000		2000423	2014			血清							
 86131	11	9970	New Moon Lament I	Traverse Critical Point VH-01	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					86131			1		12834											
 86132	11	9968	New Moon Lament II	Traverse Critical Point VH-02	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					86132			1		12834											
 86133	11	9966	New Moon Lament III	Traverse Alert Zone NH-06	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					86133			1		12835											
@@ -5210,6 +5320,231 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 85664	65	10347	Crying Shark-speare II - Dangerous	Defeat Shark-speare ×2	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85664			2		15225											
 85665	65	10348	Crying Shark-speare II - Rugged	Defeat Shark-speare ×2	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85665			2		15226											
 85666	65	10349	Crying Shark-speare II - Rugged	Defeat Shark-speare ×2	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85666			2		15227											
+85667	65	10350	1st Round Challenge II - Flat	Challenge Guild Expedition 6 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85667			6		17595											
+85668	65	10351	1st Round Challenge IV - Flat	Challenge Guild Expedition 12 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85668			12		17596											
+85669	65	10352	1st Round Challenge VI - Flat	Challenge Guild Expedition 18 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85669			18		17597											
+85670	65	10353	1st Round Challenge VII - Flat	Challenge Guild Expedition 21 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85670			21		17598											
+85671	65	10354	1st Round Challenge VIII - Flat	Challenge Guild Expedition 24 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85671			24		17599											
+85672	65	10355	2nd Round Challenge II - Flat	Challenge Guild Expedition 6 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85672			6		17600											
+85673	65	10356	2nd Round Challenge IV - Flat	Challenge Guild Expedition 12 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85673			12		17601											
+85674	65	10357	2nd Round Challenge VI - Flat	Challenge Guild Expedition 18 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85674			18		17602											
+85675	65	10358	2nd Round Challenge VII - Flat	Challenge Guild Expedition 21 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85675			21		17603											
+85676	65	10359	2nd Round Challenge VIII - Flat	Challenge Guild Expedition 24 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85676			24		17604											
+85677	65	10360	3rd Round Challenge II - Flat	Challenge Guild Expedition 6 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85677			6		17605											
+85678	65	10361	3rd Round Challenge IV - Flat	Challenge Guild Expedition 12 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85678			12		17606											
+85679	65	10362	3rd Round Challenge VI - Flat	Challenge Guild Expedition 18 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85679			18		17607											
+85680	65	10363	3rd Round Challenge VII - Flat	Challenge Guild Expedition 21 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85680			21		17608											
+85681	65	10364	3rd Round Challenge VIII - Flat	Challenge Guild Expedition 24 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85681			24		17609											
+85682	65	10365	1st Round Challenge I - Dangerous	Challenge Guild Expedition 3 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85682			3		17610											
+85683	65	10366	1st Round Challenge II - Dangerous	Challenge Guild Expedition 6 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85683			6		17611											
+85684	65	10367	1st Round Challenge III - Dangerous	Challenge Guild Expedition 9 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85684			9		17612											
+85685	65	10368	1st Round Challenge IV - Dangerous	Challenge Guild Expedition 12 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85685			12		17613											
+85686	65	10369	1st Round Challenge V - Dangerous	Challenge Guild Expedition 15 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85686			15		17614											
+85687	65	10370	1st Round Challenge VI - Dangerous	Challenge Guild Expedition 18 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85687			18		17615											
+85688	65	10371	1st Round Challenge VII - Dangerous	Challenge Guild Expedition 21 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85688			21		17616											
+85689	65	10372	1st Round Challenge VIII - Dangerous	Challenge Guild Expedition 24 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85689			24		17617											
+85690	65	10373	1st Round Challenge IX - Dangerous	Challenge Guild Expedition 27 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85690			27		17618											
+85691	65	10374	2nd Round Challenge I - Dangerous	Challenge Guild Expedition 3 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85691			3		17619											
+85692	65	10375	2nd Round Challenge II - Dangerous	Challenge Guild Expedition 6 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85692			6		17620											
+85693	65	10376	2nd Round Challenge III - Dangerous	Challenge Guild Expedition 9 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85693			9		17621											
+85694	65	10377	2nd Round Challenge IV - Dangerous	Challenge Guild Expedition 12 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85694			12		17622											
+85695	65	10378	2nd Round Challenge V - Dangerous	Challenge Guild Expedition 15 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85695			15		17623											
+85696	65	10379	2nd Round Challenge VI - Dangerous	Challenge Guild Expedition 18 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85696			18		17624											
+85697	65	10380	2nd Round Challenge VII - Dangerous	Challenge Guild Expedition 21 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85697			21		17625											
+85698	65	10381	2nd Round Challenge VIII - Dangerous	Challenge Guild Expedition 24 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85698			24		17626											
+85699	65	10382	2nd Round Challenge IX - Dangerous	Challenge Guild Expedition 27 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85699			27		17627											
+85700	65	10383	3rd Round Challenge I - Dangerous	Challenge Guild Expedition 3 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					857001			3		17628											
+85701	65	10384	3rd Round Challenge II - Dangerous	Challenge Guild Expedition 6 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					857002			6		17629											
+85702	65	10385	3rd Round Challenge III - Dangerous	Challenge Guild Expedition 9 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					857003			9		17630											
+85703	65	10386	3rd Round Challenge IV - Dangerous	Challenge Guild Expedition 12 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					857004			12		17631											
+85704	65	10387	3rd Round Challenge V - Dangerous	Challenge Guild Expedition 15 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					857005			15		17632											
+85705	65	10388	3rd Round Challenge VI - Dangerous	Challenge Guild Expedition 18 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					857006			18		17633											
+85706	65	10389	3rd Round Challenge VII - Dangerous	Challenge Guild Expedition 21 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					857007			21		17634											
+85707	65	10390	3rd Round Challenge VIII - Dangerous	Challenge Guild Expedition 24 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					857008			24		17635											
+85708	65	10391	3rd Round Challenge IX - Dangerous	Challenge Guild Expedition 27 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					857009			27		17636											
+85709	65	10392	2nd Round Challenge I - Rugged	Challenge Guild Expedition 3 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85709			3		17637											
+85710	65	10393	2nd Round Challenge II - Rugged	Challenge Guild Expedition 6 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85710			6		17638											
+85711	65	10394	2nd Round Challenge III - Rugged	Challenge Guild Expedition 9 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85711			9		17639											
+85712	65	10395	2nd Round Challenge IV - Rugged	Challenge Guild Expedition 12 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85712			12		17640											
+85713	65	10396	2nd Round Challenge V - Rugged	Challenge Guild Expedition 15 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85713			15		17641											
+85714	65	10397	2nd Round Challenge VI - Rugged	Challenge Guild Expedition 18 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85714			18		17642											
+85715	65	10398	2nd Round Challenge VII - Rugged	Challenge Guild Expedition 21 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85715			21		17643											
+85716	65	10399	2nd Round Challenge VIII - Rugged	Challenge Guild Expedition 24 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85716			24		17644											
+85717	65	10400	2nd Round Challenge IX - Rugged	Challenge Guild Expedition 27 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85717			27		17645											
+85718	65	10401	3rd Round Challenge I - Rugged	Challenge Guild Expedition 3 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85718			3		17646											
+85719	65	10402	3rd Round Challenge II - Rugged	Challenge Guild Expedition 6 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85719			6		17647											
+85720	65	10403	3rd Round Challenge III - Rugged	Challenge Guild Expedition 9 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85720			9		17648											
+85721	65	10404	3rd Round Challenge IV - Rugged	Challenge Guild Expedition 12 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85721			12		17649											
+85722	65	10405	3rd Round Challenge V - Rugged	Challenge Guild Expedition 15 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85722			15		17650											
+85723	65	10406	3rd Round Challenge VI - Rugged	Challenge Guild Expedition 18 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85723			18		17651											
+85724	65	10407	3rd Round Challenge VII - Rugged	Challenge Guild Expedition 21 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85724			21		17652											
+85725	65	10408	3rd Round Challenge VIII - Rugged	Challenge Guild Expedition 24 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85725			24		17653											
+85726	65	10409	3rd Round Challenge IX - Rugged	Challenge Guild Expedition 27 times in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85726			27		17654											
+85727	65	10410	1st Round Points I - Flat	Obtain a total of 2,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85727			2000		17655											
+85728	65	10411	1st Round Points II - Flat	Obtain a total of 4,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85728			4000		17656											
+85729	65	10412	1st Round Points III - Flat	Obtain a total of 6,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85729			6000		17657											
+85730	65	10413	1st Round Points IV - Flat	Obtain a total of 8,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85730			8000		17658											
+85731	65	10414	1st Round Points V - Flat	Obtain a total of 10,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85731			10000		17659											
+85732	65	10415	1st Round Points VI - Flat	Obtain a total of 12,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85732			12000		17660											
+85733	65	10416	2nd Round Points I - Flat	Obtain a total of 2,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85733			2000		17661											
+85734	65	10417	2nd Round Points II - Flat	Obtain a total of 4,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85734			4000		17662											
+85735	65	10418	2nd Round Points III - Flat	Obtain a total of 6,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85735			6000		17663											
+85736	65	10419	2nd Round Points IV - Flat	Obtain a total of 8,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85736			8000		17664											
+85737	65	10420	2nd Round Points V - Flat	Obtain a total of 10,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85737			10000		17665											
+85738	65	10421	2nd Round Points VI - Flat	Obtain a total of 12,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85738			12000		17666											
+85739	65	10422	3rd Round Points I - Flat	Obtain a total of 2,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85739			2000		17667											
+85740	65	10423	3rd Round Points II - Flat	Obtain a total of 4,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85740			4000		17668											
+85741	65	10424	3rd Round Points III - Flat	Obtain a total of 6,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85741			6000		17669											
+85742	65	10425	3rd Round Points IV - Flat	Obtain a total of 8,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85742			8000		17670											
+85743	65	10426	3rd Round Points V - Flat	Obtain a total of 10,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85743			10000		17671											
+85744	65	10427	3rd Round Points VI - Flat	Obtain a total of 12,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85744			12000		17672											
+85745	65	10428	1st Round Points I - Dangerous	Obtain a total of 4,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85745			4000		17673											
+85746	65	10429	1st Round Points II - Dangerous	Obtain a total of 8,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85746			8000		17674											
+85747	65	10430	1st Round Points III - Dangerous	Obtain a total of 12,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85747			12000		17675											
+85748	65	10431	1st Round Points IV - Dangerous	Obtain a total of 16,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85748			16000		17676											
+85749	65	10432	1st Round Points V - Dangerous	Obtain a total of 20,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85749			20000		17677											
+85750	65	10433	1st Round Points VI - Dangerous	Obtain a total of 22,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85750			22000		17678											
+85751	65	10434	1st Round Points VII - Dangerous	Obtain a total of 24,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85751			24000		17679											
+85752	65	10435	2nd Round Points I - Dangerous	Obtain a total of 4,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85752			4000		17680											
+85753	65	10436	2nd Round Points II - Dangerous	Obtain a total of 8,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85753			8000		17681											
+85754	65	10437	2nd Round Points III - Dangerous	Obtain a total of 12,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85754			12000		17682											
+85755	65	10438	2nd Round Points IV - Dangerous	Obtain a total of 16,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85755			16000		17683											
+85756	65	10439	2nd Round Points V - Dangerous	Obtain a total of 20,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85756			20000		17684											
+85757	65	10440	2nd Round Points VI - Dangerous	Obtain a total of 22,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85757			22000		17685											
+85758	65	10441	2nd Round Points VII - Dangerous	Obtain a total of 24,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85758			24000		17686											
+85759	65	10442	3rd Round Points I - Dangerous	Obtain a total of 4,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85759			4000		17687											
+85760	65	10443	3rd Round Points II - Dangerous	Obtain a total of 8,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85760			8000		17688											
+85761	65	10444	3rd Round Points III - Dangerous	Obtain a total of 12,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85761			12000		17689											
+85762	65	10445	3rd Round Points IV - Dangerous	Obtain a total of 16,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85762			16000		17690											
+85763	65	10446	3rd Round Points V - Dangerous	Obtain a total of 20,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85763			20000		17691											
+85764	65	10447	3rd Round Points VI - Dangerous	Obtain a total of 22,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85764			22000		17692											
+85765	65	10448	3rd Round Points VII - Dangerous	Obtain a total of 24,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85765			24000		17693											
+85766	65	10449	2nd Round Points I - Rugged	Obtain a total of 6,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85766			6000		17694											
+85767	65	10450	2nd Round Points II - Rugged	Obtain a total of 12,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85767			12000		17695											
+85768	65	10451	2nd Round Points III - Rugged	Obtain a total of 18,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85768			18000		17696											
+85769	65	10452	2nd Round Points IV - Rugged	Obtain a total of 24,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85769			24000		17697											
+85770	65	10453	2nd Round Points VI - Rugged	Obtain a total of 30,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85770			30000		17698											
+85771	65	10454	2nd Round Points VII - Rugged	Obtain a total of 33,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85771			33000		17699											
+85772	65	10455	2nd Round Points V - Rugged	Obtain a total of 36,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85772			36000		17700											
+85773	65	10456	3rd Round Points I - Rugged	Obtain a total of 6,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85773			6000		17701											
+85774	65	10457	3rd Round Points II - Rugged	Obtain a total of 12,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85774			12000		17702											
+85775	65	10458	3rd Round Points III - Rugged	Obtain a total of 18,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85775			18000		17703											
+85776	65	10459	3rd Round Points IV - Rugged	Obtain a total of 24,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85776			24000		17704											
+85777	65	10460	3rd Round Points VI - Rugged	Obtain a total of 30,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85777			30000		17705											
+85778	65	10461	3rd Round Points VII - Rugged	Obtain a total of 33,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85778			33000		17706											
+85779	65	10462	3rd Round Points V - Rugged	Obtain a total of 36,000 Expedition Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85779			36000		17707											
+85780	65	10463	Juncture Breakthrough I - Flat	Clear a total of 1 juncture	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85780			1		17708											
+85781	65	10464	Juncture Breakthrough II - Flat	Clear a total of 3 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85781			3		17709											
+85782	65	10465	Juncture Breakthrough I - Flat	Clear a total of 1 juncture	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85782			1		17710											
+85783	65	10466	Juncture Breakthrough II - Flat	Clear a total of 3 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85783			3		17711											
+85784	65	10467	Juncture Breakthrough I - Flat	Clear a total of 1 juncture	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85784			1		17712											
+85785	65	10468	Juncture Breakthrough II - Flat	Clear a total of 3 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85785			3		17713											
+85786	65	10469	Juncture Breakthrough I - Dangerous	Clear a total of 1 juncture	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85786			1		17714											
+85787	65	10470	Juncture Breakthrough II - Dangerous	Clear a total of 2 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85787			2		17715											
+85788	65	10471	Juncture Breakthrough III - Dangerous	Clear a total of 3 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85788			3		17716											
+85789	65	10472	Juncture Breakthrough IV - Dangerous	Clear a total of 4 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85789			4		17717											
+85790	65	10473	Juncture Breakthrough V - Dangerous	Clear a total of 6 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85790			6		17718											
+85791	65	10474	Juncture Breakthrough I - Dangerous	Clear a total of 1 juncture	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85791			1		17719											
+85792	65	10475	Juncture Breakthrough II - Dangerous	Clear a total of 2 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85792			2		17720											
+85793	65	10476	Juncture Breakthrough III - Dangerous	Clear a total of 3 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85793			3		17721											
+85794	65	10477	Juncture Breakthrough IV - Dangerous	Clear a total of 4 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85794			4		17722											
+85795	65	10478	Juncture Breakthrough V - Dangerous	Clear a total of 6 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85795			6		17723											
+85796	65	10479	Juncture Breakthrough I - Dangerous	Clear a total of 1 juncture	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85796			1		17724											
+85797	65	10480	Juncture Breakthrough II - Dangerous	Clear a total of 2 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85797			2		17725											
+85798	65	10481	Juncture Breakthrough III - Dangerous	Clear a total of 3 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85798			3		17726											
+85799	65	10482	Juncture Breakthrough IV - Dangerous	Clear a total of 4 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85799			4		17727											
+85800	65	10483	Juncture Breakthrough V - Dangerous	Clear a total of 6 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85800			6		17728											
+85801	65	10484	Juncture Breakthrough I - Rugged	Clear a total of 2 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85801			2		17729											
+85802	65	10485	Juncture Breakthrough II - Rugged	Clear a total of 3 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85802			3		17730											
+85803	65	10486	Juncture Breakthrough III - Rugged	Clear a total of 4 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85803			4		17731											
+85804	65	10487	Juncture Breakthrough IV - Rugged	Clear a total of 5 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85804			5		17732											
+85805	65	10488	Juncture Breakthrough V - Rugged	Clear a total of 7 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85805			7		17733											
+85806	65	10489	Juncture Breakthrough VI - Rugged	Clear a total of 9 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85806			9		17734											
+85807	65	10490	Juncture Breakthrough I - Rugged	Clear a total of 2 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85807			2		17735											
+85808	65	10491	Juncture Breakthrough II - Rugged	Clear a total of 3 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85808			3		17736											
+85809	65	10492	Juncture Breakthrough III - Rugged	Clear a total of 4 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85809			4		17737											
+85810	65	10493	Juncture Breakthrough IV - Rugged	Clear a total of 5 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85810			5		17738											
+85811	65	10494	Juncture Breakthrough V - Rugged	Clear a total of 7 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85811			7		17739											
+85812	65	10495	Juncture Breakthrough VI - Rugged	Clear a total of 9 junctures	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85812			9		17740											
+85813	65	10496	Resource Collecting I - Flat	Clear Land of Resources x1	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85813			1		17741											
+85814	65	10497	Resource Collecting I - Flat	Clear Land of Resources x1	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85814			1		17742											
+85815	65	10498	Resource Collecting I - Flat	Clear Land of Resources x1	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85815			1		17743											
+85816	65	10499	Resource Collecting I - Dangerous	Clear Land of Resources x1	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85816			1		17744											
+85817	65	10500	Resource Collecting II - Dangerous	Clear Land of Resources x2	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85817			2		17745											
+85818	65	10501	Resource Collecting I - Dangerous	Clear Land of Resources x1	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85818			1		17746											
+85819	65	10502	Resource Collecting II - Dangerous	Clear Land of Resources x2	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85819			2		17747											
+85820	65	10503	Resource Collecting I - Dangerous	Clear Land of Resources x1	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85820			1		17748											
+85821	65	10504	Resource Collecting II - Dangerous	Clear Land of Resources x2	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85821			2		17749											
+85822	65	10505	Resource Collecting I - Rugged	Clear Land of Resources x1	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85822			1		17750											
+85823	65	10506	Resource Collecting II - Rugged	Clear Land of Resources x2	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85823			2		17751											
+85824	65	10507	Resource Collecting I - Rugged	Clear Land of Resources x1	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85824			1		17752											
+85825	65	10508	Resource Collecting II - Rugged	Clear Land of Resources x2	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85825			2		17753											
+85826	65	10509	Base Protection I - Flat	Base HP no less than 30%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85826			1		17754											
+85827	65	10510	Base Protection II - Flat	Base HP no less than 50%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85827			1		17755											
+85828	65	10511	Base Protection III - Flat	Base HP no less than 70%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85828			1		17756											
+85829	65	10512	Base Protection IV - Flat	Base HP no less than 100%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85829			1		17757											
+85830	65	10513	Base Protection I - Flat	Base HP no less than 30%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85830			1		17758											
+85831	65	10514	Base Protection II - Flat	Base HP no less than 50%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85831			1		17759											
+85832	65	10515	Base Protection III - Flat	Base HP no less than 70%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85832			1		17760											
+85833	65	10516	Base Protection IV - Flat	Base HP no less than 100%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85833			1		17761											
+85834	65	10517	Base Protection I - Flat	Base HP no less than 30%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85834			1		17762											
+85835	65	10518	Base Protection II - Flat	Base HP no less than 50%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85835			1		17763											
+85836	65	10519	Base Protection III - Flat	Base HP no less than 70%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85836			1		17764											
+85837	65	10520	Base Protection IV - Flat	Base HP no less than 100%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85837			1		17765											
+85838	65	10521	Base Protection I - Dangerous	Base HP no less than 30%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85838			1		17766											
+85839	65	10522	Base Protection II - Dangerous	Base HP no less than 50%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85839			1		17767											
+85840	65	10523	Base Protection III - Dangerous	Base HP no less than 70%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85840			1		17768											
+85841	65	10524	Base Protection IV - Dangerous	Base HP no less than 100%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85841			1		17769											
+85842	65	10525	Base Protection I - Dangerous	Base HP no less than 30%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85842			1		17770											
+85843	65	10526	Base Protection II - Dangerous	Base HP no less than 50%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85843			1		17771											
+85844	65	10527	Base Protection III - Dangerous	Base HP no less than 70%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85844			1		17772											
+85845	65	10528	Base Protection IV - Dangerous	Base HP no less than 100%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85845			1		17773											
+85846	65	10529	Base Protection I - Dangerous	Base HP no less than 30%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85846			1		17774											
+85847	65	10530	Base Protection II - Dangerous	Base HP no less than 50%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85847			1		17775											
+85848	65	10531	Base Protection III - Dangerous	Base HP no less than 70%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85848			1		17776											
+85849	65	10532	Base Protection IV - Dangerous	Base HP no less than 100%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85849			1		17777											
+85850	65	10533	Base Protection I - Rugged	Base HP no less than 30%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85850			1		17778											
+85851	65	10534	Base Protection II - Rugged	Base HP no less than 50%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85851			1		17779											
+85852	65	10535	Base Protection III - Rugged	Base HP no less than 70%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85852			1		17780											
+85853	65	10536	Base Protection IV - Rugged	Base HP no less than 100%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85853			1		17781											
+85854	65	10537	Base Protection I - Rugged	Base HP no less than 30%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85854			1		17782											
+85855	65	10538	Base Protection II - Rugged	Base HP no less than 50%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85855			1		17783											
+85856	65	10539	Base Protection III - Rugged	Base HP no less than 70%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85856			1		17784											
+85857	65	10540	Base Protection IV - Rugged	Base HP no less than 100%	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85857			1		17785											
+85858	65	10541	Clear the 1st Round Boss Node - Flat	Clear boss nodes	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85858			1		17786											
+85859	65	10542	Clear the 2nd Round Boss Node - Flat	Clear boss nodes	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85859			1		17787											
+85860	65	10543	Clear the 3rd Round Boss Node - Flat	Clear boss nodes	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85860			1		17788											
+85861	65	10544	Clear the 1st Round Boss Node - Dangerous	Clear boss nodes	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85861			1		17789											
+85862	65	10545	Clear the 2nd Round Boss Node - Dangerous	Clear boss nodes	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85862			1		17790											
+85863	65	10546	Clear the 3rd Round Boss Node - Dangerous	Clear boss nodes	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85863			1		17791											
+85864	65	10547	Clear the 2nd Round Boss Node - Rugged	Clear boss nodes	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85864			1		17792											
+85865	65	10548	Clear the 3rd Round Boss Node - Rugged	Clear boss nodes	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85865			1		17793											
+85866	65	10549	Guild Expedition I	Clear an expedition stage of Flat difficulty or above	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85866			1		17794											
+85867	65	10550	Guild Expedition II	Clear an expedition stage of Dangerous difficulty or above	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85867			1		17795											
+85868	65	10551	Guild Expedition III	Clear an expedition stage of Rugged difficulty or above	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85868			1		17796											
+85869	65	10552	Expedition Ranking I	Enters the top 30% in the Command Bureau at the end of the event	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85869			1		17797											
+85870	65	10553	Expedition Ranking II	Enters the top 20% in the Command Bureau at the end of the event	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85870			1		17798											
+85871	65	10554	Expedition Ranking III	Enters the top 10% in the Command Bureau at the end of the event	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85871			1		17799											
+85872	65	10555	Expedition Ranking IV	Enters the top 5% in the Command Bureau at the end of the event	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85872			1		17800											
+85873	65	10556	Hidden Node - Flat	Upload a hidden node challenge record	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85873			1		17801											
+85874	65	10557	Hidden Node - Flat	Upload a hidden node challenge record	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85874			1		17802											
+85875	65	10558	Hidden Node - Flat	Upload a hidden node challenge record	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85875			1		17803											
+85876	65	10559	Hidden Node - Dangerous	Upload a hidden node challenge record	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85876			1		17804											
+85877	65	10560	Hidden Node - Dangerous	Upload a hidden node challenge record	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85877			1		17805											
+85878	65	10561	Hidden Node - Dangerous	Upload a hidden node challenge record	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85878			1		17806											
+85879	65	10562	Hidden Node - Rugged	Upload a hidden node challenge record	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85879			1		17807											
+85880	65	10563	Hidden Node - Rugged	Upload a hidden node challenge record	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					85880			1		17808											
+2120040	11	8	Daily Login Serum	Claim 60 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpDayOfSea01.png					5304			5		3450092											
+2120030	11	1000	Scarlet Summers I	Use a total of 1,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120030			10		2000461				Serum							
+2120031	11	5	Scarlet Summers II	Use a total of 2,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpWeiLaSummer.png					2120031			1000		3450050	2004										
+2120032	11	4	Scarlet Summers III	Use a total of 3,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpWeiLaSummer.png					2120032			2000		3450051	2004										
+2120033	11	3	Scarlet Summers IV	Use a total of 4,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpWeiLaSummer.png					2120033			3000		3450052	2004										
+2120034	11	2	Scarlet Summers V	Use a total of 5,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpWeiLaSummer.png					2120034			4000		3450053	2004										
+2120035	11	1	Scarlet Summers VI	Use a total of 6,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpWeiLaSummer.png					2120035			6000		3450054	2004										
+2120036	11	10130	Scarlet Summers VII	Use a total of 7,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120036			7000		12955	2014			Serum							
+2120037	11	10129	Scarlet Summers VIII	Use a total of 8,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120037			8000		12956	2014			Serum							
+2120038	11	10128	Scarlet Summers IX	Use a total of 9,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120038			9000		12957	2014			Serum							
+2120039	11	10127	Scarlet Summers X	Use a total of 10,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120039			10000		12958	2014			Serum							
 91001	11	100	Total Nodes Cleared I	Clear a total of 10 nodes	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					91001			10		550051				Version			1				
 91002	11	99	Total Nodes Cleared II	Clear a total of 30 nodes	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					91002			30		550052				Version			1				
 91003	11	98	Total Nodes Cleared III	Clear a total of 50 nodes	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					91003			50		550053				Version			1				
@@ -5223,7 +5558,10 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 91011	11	93	Bond Experience I	Clear any ending with [Aliasing Resonance] Bond activated	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					91011			1		550054				Version			1				
 91012	11	95	Curse Queller's Journey I	Clear a total of 30 nodes	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					91012			30		550052				Version			1				
 91013	11	94	Curse Queller's Journey II	Clear a total of 50 nodes	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					91013			50		550053				Version			1				
-91014	11	93	Bond Experience I	Clear any ending when activating the [Phantom Capriccio] Bond	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					91014			1		550054				Version			1				
+91014	11	93	Bond Experience I	Clear any ending with [Phantom Capriccio] Bond activated	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					91014			1		550054				Version			1				
+91015	11	95	Curse Queller's Journey I	Clear a total of 50 nodes	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					91015			50		550052				Version			1				
+91016	11	94	Insight Awakened I	Clear any ending with activating Crimson activated	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					91016			1		550053				Version			1				
+91017	11	93	Bond Experience I	Clear any ending with [Crimson Weave] Bond activated	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					91017			1		550054				Version			1				
 92001	72	92	Journey of Adventure I	Reach Adventure Chapter I: "Courtyard"	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					92001			1		550056				Process			2				
 92002	72	91	Journey of Adventure II	Reach Adventure Chapter III: "Fortress"	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					92002			1		550057				Process			2				
 92003	72	90	Journey of Adventure III	Reach Adventure Chapter V: "Deep Sea"	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					92003			1		550058				Process			2				
@@ -5236,6 +5574,36 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 93004	72	83	Star Recruiter I	Perform a total of 20 character recruitments	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93004			20		550065				Total			3				
 93005	72	82	Star Recruiter II	Perform a total of 50 character recruitments	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93005			50		550066				Total			3				
 93006	72	81	Star Recruiter III	Perform a total of 100 character recruitments	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93006			100		550067				Total			3				
+93007	72	10	Exploratory Journey I	Complete the [Farewell] ending at any difficulty level	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93007			1						Total			3				
+93008	72	9	Exploratory Journey II	Complete the [Reincarnation] ending at any difficulty level	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93008			1						Total			3				
+93009	72	8	Exploratory Journey III	Complete the [Story] ending at any difficulty level	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93009			1						Total			3				
+93010	72	7	Exploratory Journey IV	Complete the [Contract] ending at any difficulty level	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93010			1						Total			3				
+93011	72	6	First Contact	First encounter with the Crimson Insight	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93011			1						Total			3				
+93012	72	5	Amethyst Hunter	Complete a series of events to obtain [Indigo Wave Amethyst]	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93012			1						Total			3				
+93013	72	4	Pendant Hunter	Complete a series of events to obtain a [three-colored] [Teardrop Pendant]	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93013			1						Total			3				
+93014	72	3	Scripture Baptizer	Complete a series of events to obtain [Saphorus White Codex]	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93014			1						Total			3				
+93015	72	2	Shark-speare Conqueror	Complete a series of events to obtain the Artifact [Proof of Friendship!]	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93015			1						Total			3				
+93016	72	1	Lucky Day	Try 10 or more times consecutively in the [Sharky Box] or [Dream of Mist] events	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93016			1						Total			3				
+93017	72	10	Curse Queller's Journey I	Go on 7 adventures in total	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93017			7						Total			3				
+93018	72	9	Curse Queller's Journey II	Go on 14 adventures in total	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93018			14						Total			3				
+93019	72	8	Curse Queller's Journey III	Go on 21 adventures in total	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93019			21						Total			3				
+93020	72	7	Battle Maniac I	Clear a total of 130 battle nodes	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93020			130						Total			3				
+93021	72	6	Battle Maniac II	Clear a total of 260 battle nodes	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93021			260						Total			3				
+93022	72	5	Battle Maniac III	Clear a total of 400 battle nodes	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93022			400						Total			3				
+93023	72	4	Artifact Hunter I	Collect a total of 100 Artifacts	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93023			100						Total			3				
+93024	72	3	Artifact Hunter II	Collect a total of 200 Artifacts	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93024			200						Total			3				
+93025	72	2	Round Table Summoner I	Recruit 200 times in total	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93025			200						Total			3				
+93026	72	1	Round Table Summoner II	Recruit 400 times in total	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93026			400						Total			3				
+93027	72	8	Insight Explorer I	Complete any ending with Insight at 60 or above	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93027			1						Total			3				
+93028	72	7	Insight Explorer II	Complete any ending with Insight at 90 or above	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93028			1						Total			3				
+93029	72	6	Bond Weaver	Recruit over 30 characters in a single adventure	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93029			30						Total			3				
+93030	72	5	Treasure Mountain	Collect over 30 Artifacts in a single adventure	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93030			30						Total			3				
+93031	72	4	Best Survey Team	A single Survey Team completes at least 4 endings	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93031			4						Total			3				
+93032	72	9	Path of the Fire Sword	Complete all Lost Apocrypha nodes	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93032			1						Total			3				
+93033	72	3	One-Life Clear	Complete any ending on the [Abyssal Torrent] difficulty without using Biomimetic Blood to revive	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93033			1						Total			3				
+93034	72	2	End of Declension	Activate the 5th phase of any Bond	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93034			1						Total			3				
+93035	72	1	Peak of Declension	Upgrade any character to 3★	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93035			1						Total			3				
+93036	72	10	Adventure Guild	Unlock 4 additional Survey Teams	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93036			4						Total			3				
 1001110	11	6	Path of Remembrance	Clear the stage "PTSD Intervention"	Assets/Product/Texture/Image/IconTask/TaskIconActiveCharacterTowerDubianV132.png					1001110			1		15215	11768			Total			100111				
 1001111	6	10	Character Tower - Watanabe Story 1	Clear Story Stage 1	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93006			1		550063	11768			Clear			100111				
 1001112	6	9	Character Tower - Watanabe Story 2	Clear Story Stage 2	Assets/Product/Texture/Image/UiBiancaTheatre/UiBiancaTheatreTaskTiao8.png					93006			1		550064	11768			Clear			100111				
@@ -5275,19 +5643,44 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 94108	11	9992	Master of Criticism!!	Suppress a Master 2 times	Assets/Product/Texture/Image/IconTask/TaskIconColortable.png					95108			2		17042							174				
 94109	11	9991	Constellia I	Unlock the special victory of Overture of Future III	Assets/Product/Texture/Image/IconTask/TaskIconColortable.png					95109			1		17045							174				
 94110	11	9990	Constellia II	Unlock the special victory of Hard - Overture of Future III	Assets/Product/Texture/Image/IconTask/TaskIconColortable.png					95110			1		17046							174				
-95001	75	9999	Clear the Stage	Clear Co-op Boss Stage 3 times	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95001			3		346002							5				
-95002	75	9998	Chip Enhancement	Enhance a chip 3 times	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95002			3		346002							6				
-95003	75	9997	Borrowed Chip	Borrow a support chip 3 times	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95003			3		346002							5				
-95004	75	9996	Specified Time	Clear Black Dragon - Normal within 10 minutes	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95004			1		346002							6				
-95005	75	9995	Specified Character	Clear any stage 3 times with Lotus	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95005			3		346002							6				
-95006	75	9994	Specified Boss	Clear Black Dragon 3 times under any difficulty	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95006			3		346002							6				
-95007	75	9993	5★ Chip	Enhance a 5★ Chip to Lv.20	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95007			20		346002							6				
-95008	75	9992	Support Points	Earn a total of 100 Support Points	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95008			100		346002							5				
-95009	75	9991	Chip Obtained	Obtain any 3 chips	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95009			3		346002							6				
-95010	75	9990	Chip Overclock	Overclock a chip 3 times	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95010			3		346002							6				
-95011	75	9989	Boss DMG	Deal 1000 DMG to the Black Dragon	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95011			1000		346002							5				
-95012	75	9988	Damaged Parts	Break 3 parts of the Black Dragon	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95012			3		346002							5				
-95013	75	9987	Clear With Friends	Clear any stage 3 times with a friend	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					95013			3		346002							5				
+95001	75	9999	Realm Expert I	Clear 1 stage in total	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95001			1		17900							6				
+95002	75	9998	Realm Expert II	Clear 3 stages in total	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95002			3		17901							6				
+95003	75	9997	Realm Expert III	Clear 5 stages in total	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95003			5		17902							6				
+95004	75	9996	Realm Expert IV	Clear 10 stages in total	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95004			10		17920							6				
+95005	75	9995	Realm Expert V	Clear 20 stages in total	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95005			20		17904							6				
+95006	75	9994	Realm Expert VI	Clear 35 stages in total	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95006			35		17905							6				
+95007	75	9993	Realm Expert VII	Clear 50 stages in total	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95007			50		17906							6				
+95008	75	9992	Grimhorn Challenge I	Clear Folded Edge - Facade	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95008			1		17907							6				
+95009	75	9991	Grimhorn Challenge II	Clear Folded Edge - Surface	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95009			1		17908							6				
+95010	75	9990	Grimhorn Challenge III	Clear Folded Edge - Derivative	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95010			1		17909							6				
+95011	75	9989	Grimhorn Challenge IV	Clear Folded Edge - Bottom	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95011			1		17910							6				
+95012	75	9988	Grimhorn Challenge V	Clear Folded Edge - Folded Edge	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95012			1		17911							6				
+95013	75	9987	Bloom Challenge	Clear Severed Light - Facade	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95013			1		17912							6				
+95014	75	9986	Bloom Challenge II	Clear Severed Light - Surface	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95014			1		17913							6				
+95015	75	9985	Bloom Challenge III	Clear Severed Light - Derivative	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95015			1		17914							6				
+95016	75	9984	Bloom Challenge IV	Clear Severed Light - Bottom	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95016			1		17915							6				
+95017	75	9983	Bloom Challenge V	Clear Severed Light - Source	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95017			1		17916							6				
+95018	75	9982	Twin Dragon Challenge I	Clear Binary Array - Facade	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95018			1		17917							6				
+95019	75	9981	Twin Dragon Challenge II	Clear Binary Array - Surface	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95019			1		17918							6				
+95020	75	9980	Twin Dragon Challenge III	Clear Binary Array - Derivative	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95020			1		17919							6				
+95021	75	9979	Twin Dragon Challenge IV	Clear Binary Array - Bottom	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95021			1		17903							6				
+95022	75	9978	Twin Dragon Challenge V	Clear Binary Array - Source	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95022			1		17921							6				
+95023	75	9977	Tactical Training - Lotus I	Clear a total of 1 stage using the Lotus Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95023			1		17922							6				
+95024	75	9976	Tactical Training - Lotus II	Clear a total of 3 stages using the Lotus Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95024			3		17923							6				
+95025	75	9975	Tactical Training - Lotus III	Clear a total of 5 stages using the Lotus Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95025			5		17924							6				
+95026	75	9974	Tactical Training - Veritas I	Clear a total of 1 stage using the Veritas Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95026			1		17925							6				
+95027	75	9973	Tactical Training - Veritas II	Clear a total of 3 stages using the Veritas Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95027			3		17926							6				
+95028	75	9972	Tactical Training - Veritas III	Clear a total of 5 stages using the Veritas Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95028			5		17927							6				
+95029	75	9971	Tactical Training - Blast I	Clear a total of 1 stage using the Blast Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95029			1		17928							6				
+95030	75	9970	Tactical Training - Blast II	Clear a total of 3 stages using the Blast Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95030			3		17929							6				
+95031	75	9969	Tactical Training - Blast III	Clear a total of 5 stages using the Blast Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95031			5		17930							6				
+95032	75	9968	Realm Weekly I	Clear a total of 2 stages using the Lotus Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95032			2		17958							5				
+95033	75	9967	Realm Weekly II	Clear a total of 2 stages using the Veritas Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95033			2		17959							5				
+95034	75	9966	Realm Weekly III	Clear a total of 2 stages using the Blast Construct	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95034			2		17960							5				
+95035	75	9965	Realm Weekly IV	Clear any 5 stages	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95035			5		17961							5				
+95036	75	9964	Realm Weekly V	Enhance 5 chips	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95036			5		17962							5				
+95037	75	9963	Realm Weekly VI	Overclock 5 chips	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95037			5		17963							5				
+95038	75	9962	Realm Weekly VII	Obtain 50 Support Points	Assets/Product/Texture/Image/UiDlcHunt/UiDlcHuntTask.png					95038			50		17964							5				
 96001	11	10000	Trailblazer's Past I	Clear Lone Walker - 5	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					96001			1		17500											
 96002	11	9090	Trailblazer's Past II	Clear Lone Walker - 8	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					96002			1		17501											
 96003	11	9080	Trailblazer's Past III	Clear Departure - 4	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					96003			1		17502											
@@ -5309,6 +5702,111 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 96019	11	8920	Glorious Challenge VII	Clear Normal - 1 with the recommended equipment	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					96019			1		17592											
 96020	11	8910	Glorious Challenge IX	Clear Normal - 2 with the recommended equipment	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					96020			1		17593											
 96021	11	8900	Glorious Challenge X	Clear Normal - 3 with the recommended equipment	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					96021			1		17594											
+97001	77	10000	Daily Mission I	Use the skill Roaring Flame Stove once	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97001			1		59001				Clear			1				
+97002	77	8000	Daily Mission III	Challenge the stage Joyous Wrappings 3 times	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97002			3		59003				Clear			1				
+97003	77	9000	Daily Mission II	Use the Flour material 20 times in a game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97003			20		59002				Clear			1				
+97004	77	8000	Daily Mission III	Challenge the stage Joyous Wrappings 3 times	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97004			3		59003				Clear			2				
+97005	77	9000	Daily Mission II	Complete 25 servings of sweet dumplings	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97005			25		59002				Clear			2				
+97006	77	10000	Daily Mission I	Reach up to 8 combos in a game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97006			8		59001				Clear			2				
+97007	77	10000	Daily Mission I	Challenge the stage Joyous Wrappings once	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97007			1		59001				Clear			3				
+97008	77	9000	Daily Mission II	Challenge the stage Joyous Wrappings twice	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97008			2		59002				Clear			3				
+97009	77	8000	Daily Mission III	Use the Flour material 30 times in a game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97009			30		59003				Clear			3				
+97010	77	10000	Daily Mission I	Complete 15 servings of sweet dumplings	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97010			15		59001				Clear			4				
+97011	77	8000	Daily Mission III	Reach up to 750 points in a single game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97011			750		59003				Clear			4				
+97012	77	9000	Daily Mission II	Use the skill Bunny Yummy Station twice	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97012			2		59002				Clear			4				
+97013	77	10000	Daily Mission I	Use the Osmanthus material 10 times in a game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97013			10		59001				Clear			5				
+97014	77	8000	Daily Mission III	Obtain 1,600 points in total	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97014			1600		59003				Clear			5				
+97015	77	9000	Daily Mission II	Use the skill Star Bonus Wand twice	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97015			2		59002				Clear			5				
+97016	77	10000	Daily Mission I	Challenge the stage Joyous Wrappings once	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97016			1		59001				Clear			6				
+97017	77	8000	Daily Mission III	Complete 35 servings of sweet dumplings	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97017			35		59003				Clear			6				
+97018	77	9000	Daily Mission II	Use the skill Zesty Universal Sauce twice	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97018			2		59002				Clear			6				
+97019	77	10000	Daily Mission I	Use the skill Lil' Lu's Summoning Magic once	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97019			1		59001				Clear			7				
+97020	77	9000	Daily Mission II	Obtain 1,200 points in total	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97020			1200		59002				Clear			7				
+97021	77	8000	Daily Mission III	Reach up to 12 combos in a game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97021			12		59003				Clear			7				
+97022	77	8000	Daily Mission III	Challenge the stage Joyous Wrappings 3 times	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97022			3		59003				Clear			8				
+97023	77	10000	Daily Mission I	Use the Pure Water material 10 times in a game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97023			10		59001				Clear			8				
+97024	77	9000	Daily Mission II	Reach up to 10 combos in a game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97024			10		59002				Clear			8				
+97025	77	10000	Daily Mission I	Use the Flour material 10 times in a game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97025			10		59001				Clear			9				
+97026	77	8000	Daily Mission III	Achieve 1st place in a game once	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97026			1		59003				Clear			9				
+97027	77	9000	Daily Mission II	Complete 25 servings of sweet dumplings	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97027			25		59002				Clear			9				
+97028	77	10000	Daily Mission I	Complete 10 servings of sweet dumplings	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97028			10		59001				Clear			10				
+97029	77	8000	Daily Mission III	Reach up to 15 combos in a game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97029			15		59003				Clear			10				
+97030	77	9000	Daily Mission II	Use the skill Lil' Lu's Summoning Magic twice	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97030			2		59002				Clear			10				
+97031	77	9000	Daily Mission II	Challenge the stage Joyous Wrappings 3 times	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97031			3		59005				Clear			11				
+97032	77	10000	Daily Mission I	Use the skill Zesty Universal Sauce twice	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97032			2		59004				Clear			11				
+97033	77	8000	Daily Mission III	Use the Pure Water material 35 times in a game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97033			35		59006				Clear			11				
+97034	77	10000	Daily Mission I	Challenge the stage Joyous Wrappings twice	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97034			2		59004				Clear			12				
+97035	77	9000	Daily Mission II	Complete 40 servings of sweet dumplings	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97035			40		59005				Clear			12				
+97036	77	8000	Daily Mission III	Reach up to 15 combos in a game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97036			15		59006				Clear			12				
+97037	77	10000	Daily Mission I	Challenge the stage Joyous Wrappings twice	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97037			2		59004				Clear			13				
+97038	77	9000	Daily Mission II	Complete 40 servings of sweet dumplings	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97038			40		59005				Clear			13				
+97039	77	8000	Daily Mission III	Achieve 1st place in a game twice	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97039			2		59006				Clear			13				
+97040	77	10000	Daily Mission I	Challenge the stage Joyous Wrappings twice	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97040			2		59004				Clear			14				
+97041	77	9000	Daily Mission II	Reach up to 800 points in a single game	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97041			800		59005				Clear			14				
+97042	77	8000	Daily Mission III	Complete 60 servings of sweet dumplings	Assets/Product/Texture/Image/UiSpecialTrainMusic/UiSpecialTrainMusicBg19.png					97042			60		59006				Clear			14				
+97043	11	10000	Training Star I	Reach the Beginner Grade for the first time	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97043			1		59018				Clear							
+97044	11	9900	Training Star II	Reach the Experienced Grade for the first time	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97044			1		59019				Clear							
+97045	11	9800	Training Star III	Reach the Advanced Grade for the first time	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97045			1		59020				Clear							
+97046	11	9700	Training Star IV	Reach the Master Grade for the first time	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97046			1		59020				Clear							
+97047	11	9600	Training Star V	Reach the Grandmaster Grade for the first time	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97047			1		59021				Clear							
+97048	11	9500	Accumulated Challenges I	Challenge 1 stage	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97048			1		59007				Clear							
+97049	11	9000	Accumulated Points I	Obtain 1,800 points in total	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97049			1800		59008				Clear							
+97050	11	8900	Accumulated Points II	Obtain 3,000 points in total	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97050			3000		59009				Clear							
+97051	11	8700	Accumulated Crafting I	Make 90 sweet dumplings in total	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97051			90		59010				Clear							
+97052	11	8600	Accumulated Crafting II	Make 120 sweet dumplings in total	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97052			120		59011				Clear							
+97053	11	9400	Accumulated Challenges V	Challenge 10 stages	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97053			10		59012				Clear							
+97054	11	8500	Accumulated Crafting III	Make 180 sweet dumplings in total	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97054			180		59013				Clear							
+97055	11	8800	Accumulated Points III	Obtain 8,500 points in total	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97055			8500		59014				Clear							
+97056	11	9300	Accumulated Challenges II	Challenge 15 stages	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97056			15		59015				Clear							
+97057	11	9200	Accumulated Challenges III	Challenge 20 stages	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97057			20		59016				Clear							
+97058	11	9100	Accumulated Challenges IV	Challenge 30 stages	Assets/Product/Texture/Image/UiFuben2023YuanXiao/UiFuben2023YuanXiaoTask3.png					97058			30		59017				Clear							
+97101	11	10000	Daily Mission I	Enter the restaurant once	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97101			1		59501											
+97102	11	9000	Daily Mission II	Obtain Lulu's Hearty Bowl:	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97102			500		59502											
+97103	11	8000	Daily Mission III	Use Culinary God's Blessing twice	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97103			2		59503											
+97104	11	10000	Daily Mission I	Enter the restaurant once	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97104			1		59504											
+97105	11	9000	Daily Mission II	Obtain Lulu's Hearty Bowl:	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97105			500		59505											
+97106	11	8000	Daily Mission III	Obtain 10 vegetables	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97106			10		59506											
+97107	11	7000	Daily Mission IV	Use Culinary God's Blessing twice	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97107			2		59507											
+97108	11	9200	Cooking Lulu	Make 3 Oyster Sauce Lettuces in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97108			3		59508											
+97109	11	7900	Cooking Lulu	Cumulatively obtain Lulu's Hearty Bowl:	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97109			500		59509											
+97110	11	8900	Cooking Lulu	Have 4 staff at the restaurant	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97110			4		59510											
+97111	11	9700	Cooking Lulu	The restaurant reaches Lv.2	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97111			2		59511											
+97112	11	8800	Cooking Lulu	Have 7 staff at the restaurant	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97112			7		59512											
+97113	11	7800	Cooking Lulu	Cumulatively obtain Lulu's Hearty Bowl:	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97113			10000		59513											
+97114	11	9600	Cooking Lulu	The restaurant reaches Lv.3	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97114			3		59514											
+97115	11	7700	Cooking Lulu	Cumulatively obtain Lulu's Hearty Bowl:	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97115			50000		59515											
+97116	11	8300	Cooking Lulu	Unlock 7 dishes	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97116			7		59516											
+97117	11	9100	Cooking Lulu	Make 200 Black Truffle Egg Custards in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97117			200		59517											
+97118	11	9500	Cooking Lulu	The restaurant reaches Lv.4	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97118			4		59518											
+97119	11	8500	Cooking Lulu	Have 2 staff reach senior levels	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97119			2		59519											
+97120	11	8200	Cooking Lulu	Unlock Braised Lion's Head Meatballs	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97120			1		59520											
+97121	11	8700	Cooking Lulu	Level up staff a total of 6 times	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97121			6		59521											
+97122	11	9400	Cooking Lulu	The restaurant reaches Lv.5	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97122			5		59522											
+97123	11	7600	Cooking Lulu	Cumulatively obtain Lulu's Hearty Bowl:	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97123			100000		59523											
+97124	11	8400	Cooking Lulu	Have 4 staff reach senior levels	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97124			4		59524											
+97125	11	8600	Cooking Lulu	Have 10 staff reach mid-level levels	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97125			10		59525											
+97126	11	9300	Cooking Lulu	The restaurant reaches Lv.6	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97126			6		59526											
+97127	11	8000	Cooking Lulu	Unlock Kowloong Bewitching Rice	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97127			1		59527											
+97128	11	8100	Cooking Lulu	Unlock 15 dishes	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97128			15		59528											
+97129	11	9000	Cooking Lulu	Make 30 Buddha Jumps Over the Walls in total	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97129			30		59529											
+97130	11	10000	New Year's Greetings Event	Collect New Year's Greetings rewards from the sales area from 1/22 to 1/28.	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97130			1		59530											
+97131	11	9900	New Year's Greetings Event	Collect New Year's Greetings rewards from the sales area from 1/22 to 1/28.	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97131			3		59531											
+97132	11	9800	New Year's Greetings Event	Collect New Year's Greetings rewards from the sales area from 1/22 to 1/28.	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97132			5		59532											
+97150	11	10000	Corrupted I	Clear Foreign Lands - 4	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97150			1		17931											
+97151	11	9990	Corrupted II	Clear Foreign Lands - Fin	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97151			1		17932											
+97152	11	9980	Corrupted III	Clear Seize - 4	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97152			1		17933											
+97153	11	9970	Corrupted IV	Clear Seize - Fin	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97153			1		17934											
+97154	11	9960	Corrupted V	Clear Sanity - 3	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97154			1		17935											
+97155	11	9950	Corrupted VI	Clear Sanity - Fin	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97155			1		17936											
+97157	11	9930	Corrupted VIII	Clear Wish - Fin	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97157			1		17938											
+97158	11	9920	Corrupted IX	Clear Final Chapter - Fin	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97158			1		17939											
+97159	11	9880	Battlefront I	Collect a total of 3 stars in normal mode	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97159			3		17940											
+97160	11	9870	Battlefront II	Collect a total of 6 stars in normal mode	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97160			6		17941											
+97161	11	9860	Battlefront III	Collect a total of 9 stars in normal mode	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97161			9		17942											
+97162	11	9650	Battlefront IV	Collect a total of 12 stars in normal mode	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97162			12		17943											
+97164	11	9910	Corrupted X	Clear Wish - IF	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97164			1		17945											
+97165	11	9900	Corrupted XI	Clear Sanity - IF	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97165			1		17946											
+97166	11	9890	Corrupted XII	Clear Seize - IF	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					97166			1		17947											
 100001	24	10000	Clear Co-op stage 1	Clear 7 Co-op stages	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					100001			7		150000											
 100002	24	9999	Clear Co-op stage 2	Clear 14 Co-op stages	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					100002			14		150001											
 100003	24	9998	Clear Co-op stage 3	Clear 21 Co-op stages	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					100003			21		150002											
@@ -5325,12 +5823,6 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 2120011	11	9700	New Year Mission-10	Use 1000ml of Serum in total	Assets/Product/Texture/Image/IconTask/TaskIconNewYear01.png					2120011			1000		2120011	2120011										
 2120012	11	9680	New Year Mission-11	Use 1500ml of Serum in total	Assets/Product/Texture/Image/IconTask/TaskIconNewYear01.png					2120012			1500		2120012	2120012										
 2120013	11	9660	New Year Mission-12	Use 2000ml of Serum in total	Assets/Product/Texture/Image/IconTask/TaskIconNewYear01.png					2120013			2000		2120013	2120013										
-2120014	11	9860	Oath of Purity I	Use a total of 300 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120014			300		2000418	2014			血清							
-2120015	11	9850	Oath of Purity II	Use a total of 500 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120015			500		2000419	2014			血清							
-2120016	11	9840	Oath of Purity III	Use a total of 800 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120016			800		2000420	2014			血清							
-2120017	11	9830	Oath of Purity IV	Use a total of 1200 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120017			1200		2000421	2014			血清							
-2120018	11	9820	Oath of Purity V	Use a total of 1600 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120018			1600		2000422	2014			血清							
-2120019	11	9810	Oath of Purity VI	Use a total of 2000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpLiFu.png					2120019			2000		2000423	2014			血清							
 2120020	11	1010	Daily Gift	Login once	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120020			1		2000451				登錄							
 2120021	11	1009	Perseverance I	Login for a total of 1 day	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120021			1		2000452				Target							
 2120022	11	1008	Perseverance II	Login for a total of 2 day	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120022			2		2000453				Target							
@@ -5341,7 +5833,6 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 2120027	11	1003	Perseverance VII	Login for a total of 7 day	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120027			7		2000458				Target							
 2120028	11	1002	Perseverance VIII	Login for a total of 8 day	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120028			8		2000459				Target							
 2120029	11	1001	Perseverance IX	Login for a total of 9 day	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120029			9		2000460				Target							
-2120030	11	1000	Scarlet Summers I	Use a total of 1,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120030			10		2000461				Serum							
 3000001	11	100001	Today's Gift	Login once	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2000			1		3000354				登錄							
 3000002	11	100002	Energy Supply I	Clear any 1 stage	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2004			1		3000355	2004			通關							
 3000003	11	100003	Energy Supply II	Clear any 3 stages	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2006			3		3000356	2004			通關							
@@ -5363,12 +5854,6 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 3000021	11	100021	武器開発	エネルギー回収作戦期間中に指定武器開発券15000を消費	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					200016			15000		3000351	7211			历程							
 3000022	11	100022	幻痛の檻最終攻略	幻痛の檻最終区の討伐Pt150万到達	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					200017			1500000		3000352	30001			目标							
 3000023	11	100023	武器共鳴	エネルギー回収作戦期間中に武器共鳴2回	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					200018			2		3000353	3530			历程							
-2120031	11	5	Scarlet Summers II	Use a total of 2,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpWeiLaSummer.png					2120031			1000		3450050	2004										
-2120032	11	4	Scarlet Summers III	Use a total of 3,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpWeiLaSummer.png					2120032			2000		3450051	2004										
-2120033	11	3	Scarlet Summers IV	Use a total of 4,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpWeiLaSummer.png					2120033			3000		3450052	2004										
-2120034	11	2	Scarlet Summers V	Use a total of 5,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpWeiLaSummer.png					2120034			4000		3450053	2004										
-2120035	11	1	Scarlet Summers VI	Use a total of 6,000 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpWeiLaSummer.png					2120035			6000		3450054	2004										
-2120040	11	8	Daily Login Serum	Claim 60 Serum	Assets/Product/Texture/Image/IconTask/TaskIconJpDayOfSea01.png					5304			5		3450092											
 2120041	11	7	海の日！スイカ割り	累計ログイン4日	Assets/Product/Texture/Image/IconTask/TaskIconJpDayOfSea01.png					5303			4		3450093											
 2120042	11	6	海の日！スイカ割り	累計ログイン3日	Assets/Product/Texture/Image/IconTask/TaskIconJpDayOfSea01.png					5302			3		3450094											
 2120043	11	5	海の日！スイカ割り	毎日ログイン	Assets/Product/Texture/Image/IconTask/TaskIconJpDayOfSea01.png					5300			1		3450087											
@@ -5387,10 +5872,8 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 2120056	11	10129	紺碧夏日VIII	血清を累計8000消費	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120056			8000		12956	2014			血清							
 2120057	11	10128	紺碧夏日IX	血清を累計9000消費	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120057			9000		12957	2014			血清							
 2120058	11	10127	紺碧夏日X	血清を累計10000消費	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					2120058			10000		12958	2014			血清							
+2120059	66	9700	血清消費	血清消費が累計1800に到達	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					1300000			1800						Event							
 80012	51	13	Pass Test Mission 13	Upgrade Liv: Eclipse to Lv.50	Assets/Product/Texture/Image/IconTask/TaskIconLifu1.png					3324			1		800003	3324			Train	3323						
-80068	51	69	Pass Test Mission 69	Upgrade Liv: Lux to Lv.50	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					3394			1		800004	3394			Train	3393						
-80069	51	70	Pass Test Mission 70	Upgrade Liv: Lux to Lv.60	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					3395			1		800005	3395			Train	3394						
-80070	51	71	Pass Test Mission 71	Upgrade Liv: Lux to Lv.70	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					3396			1		800001	3396			Train	3395						
 80071	51	72	Pass Test Mission 72	Upgrade Liv: Lux to Lv.80	Assets/Product/Texture/Image/IconTask/TaskIconLifu2.png					3397			1		800002	3397			Train	3396						
 80072	51	73	Pass Test Mission 73	Upgrade Liv: Luminance to Lv.10	Assets/Product/Texture/Image/IconTask/TaskIconLifu3.png					3400			1		800003	3400			Train							
 80073	51	74	Pass Test Mission 74	Upgrade Liv: Luminance to Lv.20	Assets/Product/Texture/Image/IconTask/TaskIconLifu3.png					3401			1		800004	3401			Train	3400						
@@ -5475,4 +5958,4 @@ Id	Type	Priority	Title	Desc	Icon	PreTaskId	ActivateCondition[1]	ActivateConditio
 3000238	11	10129	Scarlet Summers VIII	Use 8000ml of Serum during the event	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					3000238			8000		12956	2014			血清							
 3000239	11	10128	Scarlet Summers IX	Use 9000ml of Serum during the event	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					3000239			9000		12957	2014			血清							
 3000240	11	10127	Scarlet Summers X	Use 10000ml of Serum during the event	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					3000240			10000		12958	2014			血清							
-3000241	11	10137	Today's Gift	Login once today	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					3000241			1		12948				登录
+3000241	11	10137	Today's Gift	Login once today	Assets/Product/Texture/Image/IconTask/TaskIconCommon.png					3000241			1		12948				登录							

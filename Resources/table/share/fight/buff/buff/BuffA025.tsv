@@ -56,7 +56,7 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 102754			0	-1				1	0	1027540	1027540			FxR4KalieninaAtk1102WeaponCase1	WeaponCase1							
 102755			0	0				1	0	1027550	1027540|1027550											
 102756			0	5.5				1	0	1027560			102756000					1				
-102757			0	6				1	0	1027570			102757000									
+102757			0	-1				1	0	1027570			102757000									
 102758			0.1	0.15				1	0	1027580			102758000									
 102759			0	-1				1	0	1027590				FxR4KalieninaWuqiGlow								
 102760			0	-1				1	0	1027600				FxR4KalieninaHudu								
@@ -98,7 +98,7 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 103747			0	0.8				1	0	1037470	1037470			FxR4KalieninaAtk4101Shan	WeaponCase1							
 103748			0	4				1	0	1037480	1037480			FxR4KalieninaAtk4102Qilang	HitCase							
 103749			0	-1				1	0	1037490				FxR4KalieninaAtk4103XunHuan						1		
-103750			0	-1				1	0	1037500			103750000	FxR4KalieninaAtkBip001RHand	Bip001RHand							
+103750			0	-1				1	0	1037500|411			103750000	FxR4KalieninaAtkBip001RForearm	Bip001RForearm							
 103751			0	-1				1	0	1037510			103751000									
 103752			0	-1				1	0	1037520			103752000									
 103753			0	-1				1	0	1037530			103753000									
@@ -143,12 +143,12 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 104708			0	0				1	0	1047080	1047070											
 104713			0	0				1	0	1047130	1047130		104713000									
 104714			0	0				1	0	1047140			104714000									
-104715			0	0.6				1	0	1047150			104715000									
-104716			0	0.6				1	0	1047160			104716000					1				
-104717			0	0.6				1	0	1047170			104717000									
-104718			0	0.6				1	0	1047180			104718000					1				
-104719			0	0.6				1	0	1047190			104719000									
-104720			0	0.6				1	0	1047200			104720000					1				
+104715			0	0.8				1	0	1047150			104715000									
+104716			0	0.8				1	0	1047160			104716000					1				
+104717			0	0.8				1	0	1047170			104717000									
+104718			0	0.8				1	0	1047180			104718000					1				
+104719			0	0.8				1	0	1047190			104719000									
+104720			0	0.8				1	0	1047200			104720000					1				
 104721			0	1				1	0	1047210			104721000					1				
 104722			0	1				1	0	1047220	1047210		104722000									
 104723			0	5				1	0	1047230			104723000									
@@ -169,7 +169,7 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 104741			0	0.2				1	0	1047410			104741000									
 104742			0	0.2				1	0	1047420			104742000									
 104743			0	0				1	0	1047430			104743000									
-104747			0	-1				1	0	1047470|1	1000410	1000410	104747000									
+104747			0	-1				1	0	1047470|1	1000410|1999500|1999510	1000410|1999500|1999510	104747000									
 104748			0	0				1	0	1047480	1047470											
 104749			0	0				1	0	1047490			104749000									
 104750			0	-1				1	0	1047500												
@@ -221,6 +221,7 @@ Id	Name	Desc	Delay	Duration	EffectType	AffixId	GroupIds	Limit	Cd	Kind	Cover	Mute
 104797			0	1				1	0	1047970				FxR4KalieninaAtk03WpBurst	WeaponCase1							
 104798			0	1				1	0	1047980	1047970			FxR4KalieninaAtk1102WeaponCase1	WeaponCase1							
 104799			0	1				1	0	1047990				FxR4KalieninaAtk1102WeaponCase1	WeaponCase1							
+104800			0	3				1	0	1048000			104800000					1				
 747900			0	-1				1	0	7479000			747900000									
 747901			0	-1				1	0	7479010			747901000									
 747902			0	-1				1	0	7479020			747902000									
