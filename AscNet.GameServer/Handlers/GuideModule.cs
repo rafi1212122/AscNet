@@ -40,6 +40,10 @@ namespace AscNet.GameServer.Handlers
         [RequestPacketHandler("GuideOpenRequest")]
         public static void GuideOpenRequestHandler(Session session, Packet.Request packet)
         {
+            GuideCompleteRequest request = packet.Deserialize<GuideCompleteRequest>();
+
+            session.player.PlayerData.GuideData.Add(request.GuideGroupId);
+            session.SendPush(new NotifyGuide() { GuideGroupId = request.GuideGroupId });
             session.SendResponse(new GuideOpenResponse(), packet.Id);
         }
 

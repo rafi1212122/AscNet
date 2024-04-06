@@ -106,8 +106,8 @@ namespace AscNet.SDKServer.Controllers
                 {
                     Id = "1",
                     ModifyTime = DateTimeOffset.Now.ToUnixTimeSeconds(),
-                    Content = new ScrollPicNotice.NoticeContent[]
-                    {
+                    Content =
+                    [
                         new ScrollPicNotice.NoticeContent()
                         {
                             Id = 0,
@@ -123,7 +123,7 @@ namespace AscNet.SDKServer.Controllers
                             AppearanceTime = Array.Empty<dynamic>(),
                             DisappearanceCondition = Array.Empty<dynamic>(),
                         }
-                    }
+                    ]
                 };
 
                 string serializedObject = JsonConvert.SerializeObject(notice);
