@@ -85,8 +85,8 @@ namespace AscNet.GameServer.Handlers
     public class EquipLevelUpRequest
     {
         public int EquipId;
-        public Dictionary<int, int> UseItems;
-        public List<int> UseEquipIdList;
+        public Dictionary<int, int>? UseItems;
+        public List<int>? UseEquipIdList;
     }
 
     [MessagePackObject(true)]
@@ -109,7 +109,7 @@ namespace AscNet.GameServer.Handlers
             NotifyItemDataList notifyItemData = new();
             int totalExp = 0;
             int totalCost = 0;
-            foreach (var item in request.UseItems)
+            foreach (var item in request.UseItems ?? [])
             {
                 ItemTable? itemTable = TableReaderV2.Parse<ItemTable>().FirstOrDefault(x => x.Id == item.Key);
                 if (itemTable is not null)
@@ -120,6 +120,12 @@ namespace AscNet.GameServer.Handlers
                     notifyItemData.ItemDataList.Add(session.inventory.Do(item.Key, item.Value * -1));
                 }
             }
+
+            // TODO: Handle equip enchantment with equip cost
+            /*foreach (var costEquipId in request.UseEquipIdList ?? [])
+            {
+
+            }*/
 
             notifyItemData.ItemDataList.Add(session.inventory.Do(Inventory.Coin, totalCost * -1));
             session.SendPush(notifyItemData);
