@@ -41,7 +41,7 @@ namespace AscNet.SDKServer
         private class RequestLoggingMiddleware
         {
             private readonly RequestDelegate _next;
-            private static readonly string[] SurpressedRoutes = new string[] { "/feedback" };
+            private static readonly string[] surpressedRoutes = ["/feedback"];
 
             public RequestLoggingMiddleware(RequestDelegate next)
             {
