@@ -1,236 +1,242 @@
-Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	CompleteId	ActiveUi	RewardId	GroupId
-100001	1	0	Novice Stage 1	2	850000			100001	UiMain	0	1
-100002	2	0	Novice Stage 2	2	850000			100002	UiMain	0	1
-100003	3	0	Novice Stage 3	2	850000			100003	UiMain	0	1
-50000	50000	0	Guide to 1-1	1	850000			50000	UiMain	0	50000
-50101	50101	1	(Abandoned) Claim Mission 1-2 reward	1	200000			50101	UiMain	0	50101
-50102	50102	1	(Abandoned) Equip your 1st Memory	1	200000			50102	UiMain	0	50101
-50103	50103	1	(Abandoned) Equip your 2nd Memory	1	200000			50103	UiEquipAwarenessReplace|UiMain	0	50101
-50201	50201	0	Complete 1-3 Claim Reward Liv	1	850201			50201	UiMain	0	50201
-50202	50202	1	(Abandoned) Guide to upgrade Liv	1	200000			50202	UiMain	0	50201
-50203	50203	0	Complete 1-3 Guide: Deploy Liv	1	850203			50203	UiMain	0	50201
-50301	50301	0	Complete 1-4 Guide: Lucia Upgrade (Originally Lucia Skill Upgrade)	1	850301			50301	UiMain	0	50301
-50401	50401	0	Complete 1-6 Guide: Beginner Target	1	850401			50401	UiMain	0	50401
-50501	50402	0	Complete 1-6 Guide: Memory Equipment (Originally 1-8 Guide: Promotion)	1	850401			50501	UiMain	0	50401
-50701	50701	0	Complete 1-8 Unlock Research to get R&D Tickets	1	770402			50701	UiMain	1300	50701
-50800	50800	0	Complete 1-8 Draw Nanami	1	770402			50800	UiMain|UiNewDrawMain	0	50800
-50801	50801	0	Complete 1-8 Guide: Weapon Research	1	770402			50801	UiNewDrawMain	0	50801
-50803	50803	1	(Abandoned) Deploy Nanami	1	200000			50803	UiBattleRoleRoom	0	50801
-50901	50901	0	Complete 1-8 Guide: Member Info (Originally 2-1 Return to Main Story Guide)	1	770402			50901	UiMain	0	50800
-51101	51101	0	Complete 1-8 Guide: Celica's Class	1	774501			51101	UiMain|UiFubenPractice	0	51101
-50602	50602	0	Complete 1-9 Equip 4★ Blade	1	850602			50602	UiMain	0	50602
-50603	50603	0	Complete 1-9 Upgrade 4★ Blade	1	850603			50603	UiEquipReplaceNew|UiMain	0	50602
-50931	50931	0	Complete 2-2 Guide: Daily Mission (Originally Single Daily Mission)	1	772800			50931	UiMain	0	50931
-51001	51001	0	Complete 2-3 Guide: Shop and Token	1	851001			51001	UiMain	0	51001
-53201	53201	0	Complete 2-4 Guide: Exam System	1	774500			53201	UiMain	0	53201
-53202	53202	0	Complete 2-4 Guide: Course Interface	1	774500			53202	UiCourseTutorial	0	53201
-53203	53203	0	Complete 2-4 Guide: License Interface	1	774500			53203	UiCourseCombatlicense	0	53203
-53204	53204	0	Complete 2-4 Guide: License Stage Interface	1	774500			53204	UiCourseManagement	0	53204
-51201	51201	1	(Abandoned) Learn about Skill Stage	1	200000			51201	UiMain	0	51201
-51301	51301	1	(Abandoned) Learn about Coin Stage	1	200000			51301	UiMain	0	51301
-51401	51401	1	(Abandoned) Learn about equipment EXP	1	200000			51401	UiMain	0	51401
-51501	51501	1	(Abandoned) Learn about equipment overclock	1	200000			51501	UiMain	0	51501
-51601	51601	0	Complete 2-11 Memory Rescue Info	1	851601			51601	UiMain	0	51601
-51701	51701	0	Complete 2-12 Guide: Hidden Story	1	851701			51701	UiMain	0	51701
-53005	53005	0	Lv.20 Guide: Mentorship System	1	870003			53005	UiMain	0	53005
-51801	51801	1	(Abandoned) Guide to Blitz	1	200000			51801	UiMain	0	51801
-51901	51901	1	(Abandoned) Guide to high-rank equipment stage	1	200000			51901	UiMain	0	51901
-52001	52001	1	(Abandoned) Guide to Construct details	1	200000			52001	UiMain	0	52001
-52031	52031	1	(Abandoned) Guide to Test Area	1	200000			52031	UiMain	0	52031
-52101	52101	1	(Abandoned) Learn about Construct collection	1	200000			52101	UiMain	0	52101
-52301	52301	0	Complete 3-7 Use Assistance	1	852301			52301	UiMain	0	52301
-52401	52401	0	Complete 3-8 Guide: Interlude Story (Lotus)	1	852401			52401	UiMain	0	52401
-52501	52501	0	Complete 3-8 Guide: Character Shard (Originally Complete 3-10 Learn about outfits)	1	852401			52501	UiMain|UiNewFuben	0	52501
-52601	52601	1	Guide to Bounty Mission	1	200000			52601	UiMain	0	52601
-52801	52801	0	Complete 3-12 Guide: War Zone	1	771801			52801	UiMain	0	52801
-52802	52802	0	Complete 3-12 Guide: Full-Realm Support	1	771801			52802	UiArenaWarZone	0	52802
-52602	52602	0	Complete Hidden 2-1 Guide: Operation Guardians	1	852601	870002		52602	UiFubenMaintaineraction	0	52602
-52701	52701	0	Complete 4-2 Learn about Dormitory and open illustrated guide	1	852701			52701	UiMain	0	52701
-52707	52707	0	Complete 4-2 Guide Dormitory Commission	1	852701			52707	UiDormMain	0	52707
-52708	52708	0	Complete 4-2 Guide Dormitory Commission Reward Claim	1	852701			52708	UiDormTerminalCompleteDetail	0	52708
-52731	500000	0	Complete 4-5 Guild System Guide	1	852731			52731	UiMain	0	52731
-52901	52901	0	Complete 5-7 Phantom Pain Cage Guide	1	852901			52901	UiMain	0	52901
-53301	53301	0	Guide: Border Pact Stationing	1	8470100			53301	UiPanelAssignMain	0	53301
-53401	53401	0	Guide: Equipment Goal Recommendation	1	770403			53401	UiMain	0	53401
-53402	53402	0	Guide: Use Equipment Goal	1	770404			53402	UiEquipGuideDetail	0	53402
-52931	52931	1	Guide to Medals	1	200000			52931	UiMain	0	52931
-52961	52961	0	Lv.52 Guide: Uniframe	1	852961			52961	UiMain|UiTask|UiPlayerUp	0	52961
-52962	52962	0	Lv.52 Guide: SP Character Tutorial Stage	1	852961			52962	UiMain	0	52961
-52991	52991	0	Complete AE-5 Guide: Resource Shop	1	852991			52991	UiMain|UiFubenDaily	0	52991
-52201	52201	1	(Abandoned) Join Co-op Boss	1	200000			52201	UiMain	0	52201
-53101	53101	0	Lv.60 Guide: Stronghold	1	771500			53101	UiMain	0	53101
-53001	53001	0	Lv.65 Guide: Golden Vortex	1	774300			53001	UiMain	0	53001
-53002	53002	1	Guide: Virtual Horizon	1	775100			53002	UiExpeditionMain	0	53002
-53003	53003	0	Guide Chapter 13 Main Story	1	601000	603910		53003	UiTRPGExploreRegion	0	53003
-53004	53004	1	Guide - Photo Mode	1	200000			53004	UiMain	0	53004
-53006	53006	1	Guide - Horizon Phase 2	1	775100			53006	UiExpeditionMain	0	53006
-53007	53007	0	Nier Mode Guide	1	601000			53007	UiFubenNierEnter	0	53007
-53008	53008	1	(Abandoned) Pocket Punishing Event	1	601000			53008	UiPokemonMain	0	53008
-53009	53009	0	Chestlefield Guide	1	860016			53009	UiChessPursuitMain	0	53009
-53010	53010	0	Nier Mode Training Guide	1	880510			53010	UiFubenNierEnter|UiFubenNierLineChapter	0	53010
-53011	53011	0	Nier Mode Stage Guide	1	880511			53011	UiFubenNierRepeat	0	53011
-53012	53012	0	Simulated Battle Guide	1	601000			53012	UiSimulatedCombatMain	0	53012
-53013	53013	0	Simulated Battle Guide	1	930001			53013	UiSimulatedCombatMain	0	53013
-54020	54020	0	Super Stronghold Guide Grouping	1	870006			54020	UiStrongholdChooseLevelType	0	54020
-54021	54021	0	Super Stronghold Guide 1	1	870006			54021	UiStrongholdMain	0	54021
-54022	54022	0	Super Stronghold Guide 2	1	94031	94032		54022	UiStrongholdFightMain	0	54022
-54023	54023	0	Super Stronghold Guide 3	1	94031	94033	94034	54023	UiStrongholdFightMain	0	54023
-54024	54024	0	Super Stronghold Guide 4	1	94035	94036		54024	UiStrongholdMining	0	54024
-54025	54025	0	Super Stronghold Guide Electricity Generation	1	870006			54025	UiStrongholdMain	0	54025
-54026	54026	0	Super Stronghold Guide Auto Clear	1	95431			54026	UiStrongholdMainLineBanner	0	54026
-54031	54031	0	Lv.61 Guide Pet	1	8006			54031	UiMain	0	54031
-54032	54032	0	Lv.61 Guide Pet Material Mission	1	8006			54032	UiMain	0	54032
-54041	54041	1	Guide White Day Event	1	10014			54041	UiWhitedayMain	0	54041
-54042	54042	1	Guide RPG Mode	1	84600203			54042	UiRpgTowerMain	0	54042
-54051	54051	1	Guide the Festival Foundation	1	84601200			54051	UiMoeWarMain	0	54051
-54052	54052	1	Guide the Festival Daily Tasks	1	84601200			54051	UiMoeWarPreparation	0	54052
-54053	54053	1	Festival Mission Guide	1	84601209			54051	UiMoeWarPreparation	0	54053
-54054	54054	1	Guide the Festival Lottery Event	1	84601210			54051	UiMoeWarMain	0	54054
-55011	55011	1	Guide Limit Break Basics	1	774800			55011	UiReform	0	55011
-55012	55012	1	Guide Boundary Modification Interaction	1	84600390			55012	UiReform	0	55012
-55021	55021	0	Guide Hacking Mode	1	5001			55012	UiFubenHack	0	55021
-55031	55031	1	(Scrapped) Guide Zongzi Winning Event	1	30406			55031	UiRpgMakerGameMain	0	55031
-55032	55032	1	(Scrapped) Guide Zongzi Winning gameplay	1	30406			55032	UiRpgMakerGamePlayMain	0	55032
-55041	55041	0	Super Tower Climb Home Screen Guide	1	84601500			55041	UiSuperTowerMain	0	55041
-55042	55042	0	Infinite Tower Climb Home Screen Guide	1	84601500			55042	UiSuperTowerStageDetail04	0	55042
-55043	55043	0	Super Tower Climb Lucky Draw Guide	1	84601506			55043	UiSuperTowerMain	0	55043
-55044	55044	0	Super Tower Climb Shop Guide	1	84601501			55044	UiSuperTowerMain	0	55044
-55045	55045	0	Super Tower Climb Character Ultralimit Guide	1	84601502			55045	UiSuperTowerMain	0	55045
-55046	55046	0	Super Tower Climb Special Enhancement Guide	1	84601505			55046	UiSuperTowerMain	0	55046
-56011	56011	1	Rabbit Hunt gameplay guide	1	30406			56011	UiRpgMakerGameMain	0	56011
-56012	56012	1	Rabbit Hunt Event	1	30406			56012	UiRpgMakerGamePlayMain	0	56012
-56021	56021	0	Circuit Connect gameplay guide	1	774800	771000		56021	UiSameColorGameBossMain	0	56021
-56022	56022	1	Circuit Connect event guide	1	774800			56022	UiSameColorGameBattle	0	56022
-57011	57011	0	Guide Babel Tower Gameplay	1	772280			57011	UiBabelTowerMainNew	0	57011
-57012	57012	0	Guide Babel Tower Event	1	772280			57012	UiBabelTowerChildSupport	0	57012
-57021	57021	1	Ultimate Brawl Mode Guide	1	84601800			57021	UiSuperSmashBrosMain	0	57021
-57022	57022	1	Ultimate Brawl Interface Guide	1	84601800			57022	UiSuperSmashBrosMain	0	57022
-57023	57023	1	Ultimate Brawl Event Guide	1	84601800			57023	UiSuperSmashBrosSelectStage	0	57023
-57024	57024	1	Ultimate Brawl Formation Guide	1	84601800			57024	UiSuperSmashBrosPick	0	57024
-57025	57025	1	Ultimate Brawl Member Preparation Guide	1	84601800			57025	UiSuperSmashBrosCharacter	0	57025
-57031	57031	0	Server Final Battle Mode Guide	1	84601200			57031	UiAreaWarMain	0	57031
-57032	57032	0	Server Final Battle Progress Interface Guide	1	84601200			57032	UiAreaWarInformation	0	57032
-57033	57033	0	Server Final Battle Details Interface Guide	1	84601200			57033	UiAreaWarStageDetail	0	57033
-57034	57034	0	Server Final Battle Special Character Interface Guide	1	84601200			57034	UiAreaWarSpecialRole	0	57034
-57035	57035	0	Server Final Battle Tactical Amplification Guide	1	84601200			57035	UiAreaWarJingHua	0	57035
-57036	57036	0	Server Final Battle Phase Results Guide	1	84601200			57036	UiAreaWarHangUp	0	57036
-57041	57041	1	Limit Break Phase 2 Basics Guide	1	774800			57041	UiReform	0	57041
-57042	57042	1	Boundary Modification Interaction Phase 2 Guide	1	84600391			57042	UiReform	0	57042
-58011	58011	0	Guide - Roguelike Main Interface	1	1002036			58011	UiTheatreMain	0	58011
-58012	58012	1	(Scrapped) Guide - Roguelike Character Recruitment	1	1002036			58012	UiTheatreRecruit	0	58012
-58013	58013	0	Guide - Roguelike Mission Selection	1	1002036			58013	UiTheatrePlayMain	0	58013
-58014	58014	0	Guide - Roguelike Team Level Upgrade	1	1002036			58014	UiTheatreTeamUp	0	58014
-58015	58015	0	Guide - Roguelike Faction Selection	1	1002036			58015	UiTheatreChooseBuff	0	58015
-58016	58016	0	Guide - Roguelike Affection System	1	1002036			58016	UiTheatreFavorability	0	58016
-58017	58017	0	Guide - Roguelike Curtain Stage	1	1002036			58017	UiTheatreDecoration	0	58017
-58021	58021	0	Guide - Corrupted Battlefront Main Interface	1	774800			58021	UiFubenMaverickMain	0	58021
-58031	58031	1	Guide - Doomsday Survival Main Interface	1	30406			58031	UiDoomsdayChapter	0	58031
-58032	58032	1	Guide - Doomsday Survival Exercise Description	1	30406			58032	UiDoomsdayFubenMain	0	58032
-58033	58033	1	Guide - Doomsday Survival Exploration Team	1	30406			58033	UiDoomsdayExplore	0	58033
-58034	58034	1	Guide - Doomsday Survival Exploration Location	1	30406			58034	UiDoomsdayExplore	0	58034
-59011	59011	1	3-Ping Phase 2 Mode Guide	1	774800	771000		59011	UiSameColorGameBattle	0	59011
-59021	59021	0	Guide - Punishing: Gray Raven Battle Royale	1	30406			59021	UiEscapeMain	0	59021
-59022	59022	0	Guide - Punishing: Gray Raven Battle Royale Team Interface	1	30406			59022	UiEscapeTeamTips	0	59022
-59031	59031	1	Operation Uniframe Mode Guide	1	84601800			59031	UiPivotCombatMain	0	59031
-59032	59032	0	Guide - Operation Uniframe Energy Supply Effect	1	84601800	1002311		59032	UiPivotCombatSecondary	0	59032
-59033	59033	0	Operation Uniframe Central Area Guide	1	84601800			59033	UiPivotCombatNormalDetail	0	59033
-60001	60001	0	Guide - Plum Snow Interface	1	30406			60001	UiRpgMakerGameMain	0	60001
-60011	60011	0	Guide - Winter Sequence Interface	1	30406			60011	UiDoubleTowers	0	60011
-60012	60012	0	Winter Sequence Guide	1	30406			60012	UiDoubleTowersDeploy	0	60012
-60021	60021	1	Guide - RPG Phase 4 Interface	1	774800			60021	UiRpgTowerMain	0	60021
-60022	60022	1	RPG Phase 4 Guide	1	84600203			60022	UiRpgTowerMain	0	60022
-60031	60031	1	Guide - Guild War Interface Access	1	852731	1002104		60031	UiGuildMain	0	60031
-60032	60032	1	Guide - Guild War Interface	1	852731	1002100		60032	UiGuildWarStageDetail	0	60032
-60101	60101	1	Guide - Spectroscopic Binary Star Main Interface	1	8005			60101	UiCoupleCombatChapter	0	60101
-60111	60111	0	Guide - Music Game Main Interface	1	8005			60111	UiTaikoMasterMain	0	60111
-60112	60112	0	Guide - Music Game Calibration Stage	1	8005			60112	UiTaikoMasterMain	0	60111
-60121	60121	0	Guide - Extremis Collaboration Main Interface	1	30406			60121	UiMultiDimMain	0	60121
-60122	60122	0	Guide - Extremis Collaboration Talent Skill	1	30406			60122	UiMultiDimTalent	0	60122
-60123	60123	0	Guide - Extremis Collaboration Solo Mission	1	30406			60123	UiMultiDimSingleCopyTips	0	60123
-60124	60124	0	Guide - Extremis Collaboration Multiplayer Mission	1	30406	1002202		60124	UiMultiDimMain	0	60124
-60131	60131	0	Guide - Operation Uniframe Season 2 Main Interface	1	84601800			60131	UiPivotCombatMain	0	60131
-60132	60132	0	Guide - Operation Uniframe Season 2	1	84601800			60132	UiPivotCombatSecondary	0	60132
-60201	60201	0	Cultural Festival 2.0 Basics Guide	1	84601200			60201	UiMoeWarMain	0	60201
-60202	60202	0	Cultural Festival 2.0 Daily Guide	1	84601200			60202	UiMoeWarPreparation	0	60202
-60203	60203	0	Cultural Festival 2.0 Giveaway Guide	1	84601216			60203	UiMoeWarMain	0	60203
-60204	60204	0	Cultural Festival 2.0 Parkour Guide	1	84601200			60204	UiMoeWarParkourMain	0	60204
-60211	60211	0	Auto Chess 3.0 Main Interface Guide	1	775100			60211	UiExpeditionMain	0	60211
-60221	60221	0	Guild Dormitory Hall Guide	1	852731			60221	UiGuildDormMain	0	60221
-60231	60231	1	Ultimate Brawl 2.0 Mode Guide	1	84601800			60231	UiSuperSmashBrosMain	0	60231
-60232	60232	1	Ultimate Brawl 2.0 Scenario Guide	1	84601800			60232	UiSuperSmashBrosSelectStage	0	60232
-60233	60233	1	Ultimate Brawl 2.0 Edit Team Guide	1	84601800			60233	UiSuperSmashBrosPick	0	60233
-60234	60234	1	Ultimate Brawl 2.0 Member Preparation Guide	1	84601800			60234	UiSuperSmashBrosCharacter	0	60234
-60301	60301	0	Guide - Guild Simulated Siege	1	772310	1002234		60301	UiGuildBossStage	0	60301
-60302	60302	0	Guide - Guild Simulated Siege Difficulty Selection	1	772310	1002234		60302	UiGuildBossDiff	0	60302
-60303	60303	0	Guide - Guild Simulated Siege School Selection	1	772310	1002234		60303	UiGuildBossSelectStyle	0	60303
-60311	60311	0	Guide - Management Sim 2.0 Main Interface	1	30406			60311	UiDoomsdayChapter	0	60311
-60312	60312	0	Guide - Management Sim 2.0 Stage	1	30406			60312	UiDoomsdayFubenMain	0	60311
-60313	60313	0	Guide - Management Sim 2.0 Exploration	1	30406			60313	UiDoomsdayExplore	0	60311
-60314	60314	0	Guide - Management Sim 2.0 Location Exploration	1	30406			60314	UiDoomsdayExplore	0	60311
-60315	60315	0	Guide - Management Sim 2.0 End	1	30406			60315	UiDoomsdayFubenMain	0	60311
-60321	60321	0	Guide - Limit Break Phase 3 Basics	1	774800			60321	UiReform	0	60321
-60322	60322	0	Guide - Limit Break Phase 3 Modification	1	774800			60322	UiReformList	0	60321
-60323	60323	0	Guide - Limit Break Phase 3 Interaction	1	774800			60323	UiReform	0	60321
-60324	60324	0	Guide - Limit Break Phase 3 Multiple Waves	1	774800	1002222		60324	UiReform	0	60321
-60331	60331	0	Guide - Yin-Yang Tower Main Interface	1	8005			60331	UiTwoSideTowerMain	0	60331
-60332	60332	0	Guide - Yin-Yang Tower Yin Tower Mode	1	1002232			60332	UiTwoSideTowerMainLine	0	60331
-60333	60333	0	Guide - Yin-Yang Tower Vision Points	1	1002233			60333	UiTwoSideTowerMainLine	0	60331
-60401	60401	0	Guide: Roguelike 2.0 Main Interface	1	1002036			60401	UiBiancaTheatreMain	0	60401
-60402	60402	0	Guide: Roguelike 2.0 Difficulty Selection	1	1002036			60402	UiBiancaTheatreChoice	0	60402
-60403	60403	0	Guide: Roguelike 2.0 Character Selection	1	1002036			60403	UiBiancaTheatreRecruit	0	60403
-60404	60404	0	Guide: Roguelike 2.0 Mode Interface	1	1002036			60404	UiBiancaTheatrePlayMain	0	60404
-60405	60405	0	Guide: Roguelike 2.0 First Result Calculation	1	1002036			60405	UiBiancaTheatreMain	0	60405
-60406	60406	0	Guide: Roguelike 2.0 Skill Ability	1	1002036			60406	UiBiancaTheatreSkill	0	60406
-60407	60407	0	Guide: Roguelike 2.0 Achievement System	1	1002036	860407		60407	UiBiancaTheatreMain	0	60407
-60408	60408	0	Guide: Roguelike 2.0 Insight System	1	1002036	1005048		60408	UiBiancaTheatrePlayMain	0	60408
-60411	60411	0	Guide: Double Seventh Festival poker guessing	1	774800			60411	UiFubenPokerGuessing	0	60411
-60421	60421	0	Guide: Guild Expedition 2.0 Interface Entrance	1	852731	1002110		60421	UiGuildMain|UiGuildDormMain	0	60421
-60422	60422	0	Guide: Guild Expedition 2.0 Mode Interface	1	852731	1002110		60422	UiGuildWarStageMain	0	60422
-60423	60423	0	Guide: Guild Expedition 2.0 Support Construct	1	852731			60423	UiGuildWarSupport	0	60423
-60424	60424	1	Guide: Guild Expedition 2.0 Boss Challenge	1	852731			60424	UiGuildWarBossStageDetail	0	60424
-60425	60425	0	Guide: Guild Expedition 3.0 Boss Challenge	1	852731	1002110		60425	UiGuildWarTwinsPanel	0	60425
-60426	60426	0	Guide: Guild Expedition 3.0 Hidden Node	1	852731	1002110		60426	UiGuildWarConcealStageDetail	0	60426
-60501	60501	0	Circuit Connect 3.0 battle guide	1	774800	771000		59011	UiSameColorGameBattle	0	60501
-60511	60511	0	Rpg 5.0 main screen guide	1	774800			60511	UiRpgTowerNewMain	0	60511
-60601	60601	0	Guide Spectroscopic Binary Star 3.0 Main Interface	1	8005			60601	UiCoupleCombatChapter	0	60601
-60602	60602	0	Guide Spectroscopic Binary Star 3.0 Chapter Intro	1	8005			60602	UiCoupleCombatMain	0	60602
-60611	60611	0	Guide Character Tower Entrance	1	10436000			60611	UiMain	0	60611
-60612	60612	0	Guide Character Tower Character Challenge	1	10436000			60612	UiCharacterTowerBattle	0	60612
-60621	60621	0	Guide Deep Blue Warzone 2.0	1	84601800			60621	UiRiftMain	0	60621
-60622	60622	0	Guide Deep Blue Warzone 2.0 Member Preparation	1	84601800			60622	UiRiftCharacter	0	60622
-60623	60623	0	Guide Deep Blue Warzone 2.0 Perception Amplification	1	84601800	890010		60623	UiRiftFightLayerSelect	0	60623
-60624	60624	0	Guide Deep Blue Warzone 2.0 Serendipitous Snapshot	1	84601800	890011		60624	UiRiftFightLayerSelect	0	60624
-60625	60625	0	Guide Deep Blue Warzone 2.0 Add-on Codex	1	84601800	890012		60625	UiRiftFightLayerSelect	0	60625
-60700	60700	0	Guiade 3rd Anniversary Main Interface Adjustment	1	860700	860701		60700	UiMain	0	60700
-60701	60701	0	Guide Palette Clash Main Interface	1	774800	771000		60701	UiColorTableMain	0	60701
-60702	60702	0	Guide Palette Clash Stage 1	1	774800	771000	1009003	60702	UiColorTableStageMain	0	60702
-60703	60703	0	Guide Palette Clash Stage 2 Content	1	774800	771000	1009004	60703	UiColorTableStageMain	0	60703
-60704	60704	0	Guide Palette Clash Stage 3 Content	1	774800	771000	1009005	60704	UiColorTableStageMain	0	60704
-60705	60705	0	Guide Palette Clash Stage 3 Encounter	1	774800	1009006	1009005	60705	UiColorTableStageMainInfo	0	60705
-60711	60711	0	Guide Sequence Pact Main Interface	1	841207			60711	UiMain	0	60711
-60712	60712	0	Guide Sequence Pact Room Interface	1	841207			60712	UiAwarenessDeploy	0	60712
-60713	60713	0	Guide Pact Infinitas Awaken Effect	1	841200	841107		60713	UiMain|UiAwarenessMain	0	60713
-60721	60721	0	Guide Character Ultima Awaken	1	860721	842074		60721	UiMain	0	60721
-60722	60722	0	Guide Character Infinitas Awaken	1	860722			60722	UiMain|UiExhibitionInfo	0	60722
-60731	60731	0	Guide Blazing Trails Main Page	1	774800			60731	UiBrilliantWalkMain	0	60731
-60732	60732	0	Guide Blazing Trails Main Page Modification	1	774800	860732		60732	UiBrilliantWalkMain	0	60732
-60741	60741	0	Guide Main Page Switch Scene	1	860741	860740		60741	UiMain	0	60741
-60801	60801	0	Guide: Ultimate Brawl Mode 3.0 Gameplay	1	84601800			60801	UiSuperSmashBrosMain	0	60801
-60802	60802	0	Guide: Ultimate Brawl Mode 3.0 Scene	1	84601800			60802	UiSuperSmashBrosSelectStage	0	60802
-60803	60803	0	Guide: Ultimate Brawl 3.0 Member Preparation	1	84601800			60803	UiSuperSmashBrosCharacter	0	60803
-60804	60804	0	Guide: Ultimate Brawl 3.0 Emergency Dispatch	1	84601800	860810		60804	UiSuperSmashBrosMain	0	60804
-60805	60805	0	Guide: Ultimate Brawl 3.0 Emergency Dispatch Preparation Interface	1	84601800	860810	860811	60805	UiSuperSmashBrosReady	0	60805
-60811	60811	0	Guide: Corrupted Battlefront 2.0 Gameplay	1	774800			60811	UiMaverick2Main	0	60811
-60812	60812	0	Guide: Corrupted Battlefront 2.0 Chapter Interface	1	774800			60812	UiMaverick2Explore	0	60812
-60813	60813	0	Guide: Corrupted Battlefront 2.0 Mind Allocation	1	774800	860813		60813	UiMaverick2Explore	0	60813
-60814	60814	0	Guide: Corrupted Battlefront 2.0 Daily Stages	1	774800	860814		60814	UiMaverick2Explore	0	60814
-60821	60821	0	Guide: DLC Hunting Mode Tutorial Stage	1	30406			60821	UiDlcHuntMain	0	60821
-60822	60822	0	Guide: DLC Hunting Mode Tutorial Main Interface	1	30406			60822	UiDlcHuntMain	0	60822
-60823	60823	0	Guide: DLC Hunting Mode Tutorial Chip Equipment	1	860823	860824	860825	60823	UiDlcHuntMain	0	60823
-60831	60831	0	Guide: Punishing: Gray Raven Restaurant Main Interface	1	774800			60831	UiRestaurantMain	0	60831
-60832	60832	0	Guide: Punishing: Gray Raven Restaurant Ingredient Area	1	774800			60832	UiRestaurantMain	0	60831
-60833	60833	0	Guide: Punishing: Gray Raven Restaurant Service Area	1	774800			60833	UiRestaurantMain	0	60831
-60834	60834	0	Guide: Punishing: Gray Raven Restaurant Staff Interface	1	774800			60834	UiRestaurantCook	0	60834
-60835	60835	0	Guide: Punishing: Gray Raven Restaurant Hot Seller Interface	1	774800			60835	UiRestaurantRecommend	0	60835
-60836	60836	0	Guide: Punishing: Gray Raven Restaurant Upgrade	1	774800			60836	UiRestaurantHire	0	60836
-280011	280011	0	英文服PC端预设键位调整说明引导	1	3000000	3000001		280011	UiMain	0	280011
+Id	Priority	Ignore	Desc	GuideType	ConditionId[1]	ConditionId[2]	ConditionId[3]	CompleteId	ActiveUi	CheckNodeActive	RewardId	GroupId
+100001	1	0	Novice Stage 1	2	850000			100001	UiMain		0	1
+100002	2	0	Novice Stage 2	2	850000			100002	UiMain		0	1
+100003	3	0	Novice Stage 3	2	850000			100003	UiMain		0	1
+50000	50000	0	Guide to 1-1	1	850000			50000	UiMain		0	50000
+50101	50101	1	(Abandoned) Claim Mission 1-2 reward	1	200000			50101	UiMain		0	50101
+50102	50102	1	(Abandoned) Equip your 1st Memory	1	200000			50102	UiMain		0	50101
+50103	50103	1	(Abandoned) Equip your 2nd Memory	1	200000			50103	UiEquipAwarenessReplace|UiMain		0	50101
+50201	50201	0	Complete 1-3 Claim Reward Liv	1	850201			50201	UiMain		0	50201
+50202	50202	1	(Abandoned) Guide to upgrade Liv	1	200000			50202	UiMain		0	50201
+50203	50203	0	Complete 1-3 Guide: Deploy Liv	1	850203			50203	UiMain		0	50201
+50301	50301	0	Complete 1-4 Guide: Lucia Upgrade (Originally Lucia Skill Upgrade)	1	850301			50301	UiMain		0	50301
+50401	50401	0	Complete 1-6 Guide: Beginner Target	1	850401			50401	UiMain		0	50401
+50501	50402	0	Complete 1-6 Guide: Memory Equipment (Originally 1-8 Guide: Promotion)	1	850401			50501	UiMain		0	50401
+50701	50701	0	Complete 1-8 Unlock Research to get R&D Tickets	1	770402			50701	UiMain		1300	50701
+50800	50800	0	Complete 1-8 Draw Nanami	1	770402			50800	UiMain|UiDrawOptional		0	50800
+50801	50801	0	Complete 1-8 Guide: Weapon Research	1	770402			50801	UiNewDrawMain		0	50801
+50803	50803	1	(Abandoned) Deploy Nanami	1	200000			50803	UiBattleRoleRoom		0	50801
+50901	50901	0	Complete 1-8 Guide: Member Info (Originally 2-1 Return to Main Story Guide)	1	770402			50901	UiMain		0	50800
+51101	51101	0	Complete 1-8 Guide: Celica's Class	1	774501			51101	UiMain|UiFubenPractice		0	51101
+50602	50602	0	Complete 1-9 Equip 4★ Blade	1	850602			50602	UiMain		0	50602
+50603	50603	0	Complete 1-9 Upgrade 4★ Blade	1	850603			50603	UiEquipReplaceNew|UiMain		0	50602
+50931	50931	0	Complete 2-2 Guide: Daily Mission (Originally Single Daily Mission)	1	772800			50931	UiMain		0	50931
+51001	51001	0	Complete 2-3 Guide: Shop and Token	1	851001			51001	UiMain		0	51001
+53201	53201	0	Complete 2-4 Guide: Exam System	1	774500			53201	UiMain		0	53201
+53202	53202	0	Complete 2-4 Guide: Course Interface	1	774500			53202	UiCourseTutorial		0	53201
+53203	53203	0	Complete 2-4 Guide: License Interface	1	774500			53203	UiCourseCombatlicense		0	53203
+53204	53204	0	Complete 2-4 Guide: License Stage Interface	1	774500			53204	UiCourseManagement		0	53204
+51201	51201	1	(Abandoned) Learn about Skill Stage	1	200000			51201	UiMain		0	51201
+51301	51301	1	(Abandoned) Learn about Coin Stage	1	200000			51301	UiMain		0	51301
+51401	51401	1	(Abandoned) Learn about equipment EXP	1	200000			51401	UiMain		0	51401
+51501	51501	1	(Abandoned) Learn about equipment overclock	1	200000			51501	UiMain		0	51501
+51601	51601	0	Complete 2-11 Memory Rescue Info	1	851601			51601	UiMain		0	51601
+51701	51701	0	Complete 2-12 Guide: Hidden Story	1	851701			51701	UiMain		0	51701
+53005	53005	0	Lv.20 Guide: Mentorship System	1	870003			53005	UiMain		0	53005
+51801	51801	1	(Abandoned) Guide to Blitz	1	200000			51801	UiMain		0	51801
+51901	51901	1	(Abandoned) Guide to high-rank equipment stage	1	200000			51901	UiMain		0	51901
+52001	52001	1	(Abandoned) Guide to Construct details	1	200000			52001	UiMain		0	52001
+52031	52031	1	(Abandoned) Guide to Test Area	1	200000			52031	UiMain		0	52031
+52101	52101	1	(Abandoned) Learn about Construct collection	1	200000			52101	UiMain		0	52101
+52301	52301	0	Complete 3-7 Use Assistance	1	852301			52301	UiMain		0	52301
+52401	52401	0	Complete 3-8 Guide: Interlude Story (Lotus)	1	852401			52401	UiMain		0	52401
+52501	52501	0	Complete 3-8 Guide: Character Shard (Originally Complete 3-10 Learn about outfits)	1	852401			52501	UiMain|UiNewFuben		0	52501
+52601	52601	1	Guide to Bounty Mission	1	200000			52601	UiMain		0	52601
+52801	52801	0	Complete 3-12 Guide: War Zone	1	771801			52801	UiMain		0	52801
+52802	52802	0	Complete 3-12 Guide: Full-Realm Support	1	771801			52802	UiArenaWarZone		0	52802
+52602	52602	0	Complete Hidden 2-1 Guide: Operation Guardians	1	852601	870002		52602	UiFubenMaintaineraction		0	52602
+52701	52701	0	Complete 4-2 Learn about Dormitory and open illustrated guide	1	852701			52701	UiMain		0	52701
+52707	52707	0	Complete 4-2 Guide Dormitory Commission	1	852701			52707	UiDormMain		0	52707
+52708	52708	0	Complete 4-2 Guide Dormitory Commission Reward Claim	1	852701			52708	UiDormTerminalCompleteDetail		0	52708
+52731	500000	0	Complete 4-5 Guild System Guide	1	852731			52731	UiMain		0	52731
+52901	52901	0	Complete 5-7 Phantom Pain Cage Guide	1	852901			52901	UiMain		0	52901
+53301	53301	0	Guide: Border Pact Stationing	1	8470100			53301	UiPanelAssignMain		0	53301
+53401	53401	0	Guide: Equipment Goal Recommendation	1	770403			53401	UiMain		0	53401
+53402	53402	0	Guide: Use Equipment Goal	1	770404			53402	UiEquipGuideDetail		0	53402
+52931	52931	1	Guide to Medals	1	200000			52931	UiMain		0	52931
+52961	52961	0	Lv.52 Guide: Uniframe	1	852961			52961	UiMain|UiTask|UiPlayerUp		0	52961
+52962	52962	0	Lv.52 Guide: SP Character Tutorial Stage	1	852961			52962	UiMain		0	52961
+52991	52991	0	Complete AE-5 Guide: Resource Shop	1	852991			52991	UiMain|UiFubenDaily		0	52991
+52201	52201	1	(Abandoned) Join Co-op Boss	1	200000			52201	UiMain		0	52201
+53101	53101	0	Lv.60 Guide: Stronghold	1	771500			53101	UiMain		0	53101
+53001	53001	0	Lv.65 Guide: Golden Vortex	1	774300			53001	UiMain		0	53001
+53002	53002	1	Guide: Virtual Horizon	1	775100			53002	UiExpeditionMain		0	53002
+53003	53003	0	Guide Chapter 13 Main Story	1	601000	603910		53003	UiTRPGExploreRegion		0	53003
+53004	53004	1	Guide - Photo Mode	1	200000			53004	UiMain		0	53004
+53006	53006	1	Guide - Horizon Phase 2	1	775100			53006	UiExpeditionMain		0	53006
+53007	53007	0	Nier Mode Guide	1	601000			53007	UiFubenNierEnter		0	53007
+53008	53008	1	(Abandoned) Pocket Punishing Event	1	601000			53008	UiPokemonMain		0	53008
+53009	53009	0	Chestlefield Guide	1	860016			53009	UiChessPursuitMain		0	53009
+53010	53010	0	Nier Mode Training Guide	1	880510			53010	UiFubenNierEnter|UiFubenNierLineChapter		0	53010
+53011	53011	0	Nier Mode Stage Guide	1	880511			53011	UiFubenNierRepeat		0	53011
+53012	53012	0	Simulated Battle Guide	1	601000			53012	UiSimulatedCombatMain		0	53012
+53013	53013	0	Simulated Battle Guide	1	930001			53013	UiSimulatedCombatMain		0	53013
+54020	54020	0	Super Stronghold Guide Grouping	1	870006			54020	UiStrongholdChooseLevelType		0	54020
+54021	54021	0	Super Stronghold Guide 1	1	870006			54021	UiStrongholdMain		0	54021
+54022	54022	0	Super Stronghold Guide 2	1	94031	94032		54022	UiStrongholdFightMain		0	54022
+54023	54023	0	Super Stronghold Guide 3	1	94031	94033	94034	54023	UiStrongholdFightMain		0	54023
+54024	54024	0	Super Stronghold Guide 4	1	94035	94036		54024	UiStrongholdMining		0	54024
+54025	54025	0	Super Stronghold Guide Electricity Generation	1	870006			54025	UiStrongholdMain		0	54025
+54026	54026	0	Super Stronghold Guide Auto Clear	1	95431			54026	UiStrongholdMainLineBanner		0	54026
+54031	54031	0	Lv.61 Guide Pet	1	8006			54031	UiMain		0	54031
+54032	54032	0	Lv.61 Guide Pet Material Mission	1	8006			54032	UiMain		0	54032
+54041	54041	1	Guide White Day Event	1	10014			54041	UiWhitedayMain		0	54041
+54042	54042	1	Guide RPG Mode	1	84600203			54042	UiRpgTowerMain		0	54042
+54051	54051	1	Guide the Festival Foundation	1	84601200			54051	UiMoeWarMain		0	54051
+54052	54052	1	Guide the Festival Daily Tasks	1	84601200			54051	UiMoeWarPreparation		0	54052
+54053	54053	1	Festival Mission Guide	1	84601209			54051	UiMoeWarPreparation		0	54053
+54054	54054	1	Guide the Festival Lottery Event	1	84601210			54051	UiMoeWarMain		0	54054
+55011	55011	1	Guide Limit Break Basics	1	774800			55011	UiReform		0	55011
+55012	55012	1	Guide Boundary Modification Interaction	1	84600390			55012	UiReform		0	55012
+55021	55021	0	Guide Hacking Mode	1	5001			55012	UiFubenHack		0	55021
+55031	55031	1	(Scrapped) Guide Zongzi Winning Event	1	30406			55031	UiRpgMakerGameMain		0	55031
+55032	55032	1	(Scrapped) Guide Zongzi Winning gameplay	1	30406			55032	UiRpgMakerGamePlayMain		0	55032
+55041	55041	0	Super Tower Climb Home Screen Guide	1	84601500			55041	UiSuperTowerMain		0	55041
+55042	55042	0	Infinite Tower Climb Home Screen Guide	1	84601500			55042	UiSuperTowerStageDetail04		0	55042
+55043	55043	0	Super Tower Climb Lucky Draw Guide	1	84601506			55043	UiSuperTowerMain		0	55043
+55044	55044	0	Super Tower Climb Shop Guide	1	84601501			55044	UiSuperTowerMain		0	55044
+55045	55045	0	Super Tower Climb Character Ultralimit Guide	1	84601502			55045	UiSuperTowerMain		0	55045
+55046	55046	0	Super Tower Climb Special Enhancement Guide	1	84601505			55046	UiSuperTowerMain		0	55046
+56011	56011	1	Rabbit Hunt gameplay guide	1	30406			56011	UiRpgMakerGameMain		0	56011
+56012	56012	1	Rabbit Hunt Event	1	30406			56012	UiRpgMakerGamePlayMain		0	56012
+56021	56021	0	Circuit Connect gameplay guide	1	774800	771000		56021	UiSameColorGameBossMain		0	56021
+56022	56022	1	Circuit Connect event guide	1	774800			56022	UiSameColorGameBattle		0	56022
+57011	57011	0	Guide Babel Tower Gameplay	1	772280			57011	UiBabelTowerMainNew		0	57011
+57012	57012	0	Guide Babel Tower Event	1	772280			57012	UiBabelTowerChildSupport		0	57012
+57021	57021	1	Ultimate Brawl Mode Guide	1	84601800			57021	UiSuperSmashBrosMain		0	57021
+57022	57022	1	Ultimate Brawl Interface Guide	1	84601800			57022	UiSuperSmashBrosMain		0	57022
+57023	57023	1	Ultimate Brawl Event Guide	1	84601800			57023	UiSuperSmashBrosSelectStage		0	57023
+57024	57024	1	Ultimate Brawl Formation Guide	1	84601800			57024	UiSuperSmashBrosPick		0	57024
+57025	57025	1	Ultimate Brawl Member Preparation Guide	1	84601800			57025	UiSuperSmashBrosCharacter		0	57025
+57031	57031	0	Server Final Battle Mode Guide	1	84601200			57031	UiAreaWarMain		0	57031
+57032	57032	0	Server Final Battle Progress Interface Guide	1	84601200			57032	UiAreaWarInformation		0	57032
+57033	57033	0	Server Final Battle Details Interface Guide	1	84601200			57033	UiAreaWarStageDetail		0	57033
+57034	57034	0	Server Final Battle Special Character Interface Guide	1	84601200			57034	UiAreaWarSpecialRole		0	57034
+57035	57035	0	Server Final Battle Tactical Amplification Guide	1	84601200			57035	UiAreaWarJingHua		0	57035
+57036	57036	0	Server Final Battle Phase Results Guide	1	84601200			57036	UiAreaWarHangUp		0	57036
+57041	57041	1	Limit Break Phase 2 Basics Guide	1	774800			57041	UiReform		0	57041
+57042	57042	1	Boundary Modification Interaction Phase 2 Guide	1	84600391			57042	UiReform		0	57042
+58011	58011	0	Guide - Roguelike Main Interface	1	1002036			58011	UiTheatreMain		0	58011
+58012	58012	1	(Scrapped) Guide - Roguelike Character Recruitment	1	1002036			58012	UiTheatreRecruit		0	58012
+58013	58013	0	Guide - Roguelike Mission Selection	1	1002036			58013	UiTheatrePlayMain		0	58013
+58014	58014	0	Guide - Roguelike Team Level Upgrade	1	1002036			58014	UiTheatreTeamUp		0	58014
+58015	58015	0	Guide - Roguelike Faction Selection	1	1002036			58015	UiTheatreChooseBuff		0	58015
+58016	58016	0	Guide - Roguelike Affection System	1	1002036			58016	UiTheatreFavorability		0	58016
+58017	58017	0	Guide - Roguelike Curtain Stage	1	1002036			58017	UiTheatreDecoration		0	58017
+58021	58021	0	Guide - Corrupted Battlefront Main Interface	1	774800			58021	UiFubenMaverickMain		0	58021
+58031	58031	1	Guide - Doomsday Survival Main Interface	1	30406			58031	UiDoomsdayChapter		0	58031
+58032	58032	1	Guide - Doomsday Survival Exercise Description	1	30406			58032	UiDoomsdayFubenMain		0	58032
+58033	58033	1	Guide - Doomsday Survival Exploration Team	1	30406			58033	UiDoomsdayExplore		0	58033
+58034	58034	1	Guide - Doomsday Survival Exploration Location	1	30406			58034	UiDoomsdayExplore		0	58034
+59011	59011	1	3-Ping Phase 2 Mode Guide	1	774800	771000		59011	UiSameColorGameBattle		0	59011
+59021	59021	0	Guide - Punishing: Gray Raven Battle Royale	1	30406			59021	UiEscapeMain		0	59021
+59022	59022	0	Guide - Punishing: Gray Raven Battle Royale Team Interface	1	30406			59022	UiEscapeTeamTips		0	59022
+59031	59031	1	Operation Uniframe Mode Guide	1	84601800			59031	UiPivotCombatMain		0	59031
+59032	59032	0	Guide - Operation Uniframe Energy Supply Effect	1	84601800	859042		59032	UiPivotCombatSecondary		0	59032
+59033	59033	0	Operation Uniframe Central Area Guide	1	84601800			59033	UiPivotCombatNormalDetail		0	59033
+60001	60001	1	Guide - Plum Snow Interface	1	200000			60001	UiRpgMakerGameMain		0	60001
+60011	60011	0	Guide - Winter Sequence Interface	1	30406			60011	UiDoubleTowers		0	60011
+60012	60012	0	Winter Sequence Guide	1	30406			60012	UiDoubleTowersDeploy		0	60012
+60021	60021	1	Guide - RPG Phase 4 Interface	1	774800			60021	UiRpgTowerMain		0	60021
+60022	60022	1	RPG Phase 4 Guide	1	84600203			60022	UiRpgTowerMain		0	60022
+60031	60031	1	Guide - Guild War Interface Access	1	852731	1002104		60031	UiGuildMain		0	60031
+60032	60032	1	Guide - Guild War Interface	1	852731	1002100		60032	UiGuildWarStageDetail		0	60032
+60101	60101	1	Guide - Spectroscopic Binary Star Main Interface	1	8005			60101	UiCoupleCombatChapter		0	60101
+60111	60111	0	Guide - Music Game Main Interface	1	8005			60111	UiTaikoMasterMain		0	60111
+60112	60112	0	Guide - Music Game Calibration Stage	1	8005			60112	UiTaikoMasterMain		0	60111
+60121	60121	0	Guide - Extremis Collaboration Main Interface	1	30406			60121	UiMultiDimMain		0	60121
+60122	60122	0	Guide - Extremis Collaboration Talent Skill	1	30406			60122	UiMultiDimTalent		0	60122
+60123	60123	0	Guide - Extremis Collaboration Solo Mission	1	30406			60123	UiMultiDimSingleCopyTips		0	60123
+60124	60124	0	Guide - Extremis Collaboration Multiplayer Mission	1	30406	1002202		60124	UiMultiDimMain		0	60124
+60131	60131	0	Guide - Operation Uniframe Season 2 Main Interface	1	84601800			60131	UiPivotCombatMain		0	60131
+60132	60132	0	Guide - Operation Uniframe Season 2	1	84601800			60132	UiPivotCombatSecondary		0	60132
+60201	60201	0	Cultural Festival 2.0 Basics Guide	1	84601200			60201	UiMoeWarMain		0	60201
+60202	60202	0	Cultural Festival 2.0 Daily Guide	1	84601200			60202	UiMoeWarPreparation		0	60202
+60203	60203	0	Cultural Festival 2.0 Giveaway Guide	1	84601216			60203	UiMoeWarMain		0	60203
+60204	60204	0	Cultural Festival 2.0 Parkour Guide	1	84601200			60204	UiMoeWarParkourMain		0	60204
+60211	60211	0	Auto Chess 3.0 Main Interface Guide	1	775100			60211	UiExpeditionMain		0	60211
+60221	60221	0	Guild Dormitory Hall Guide	1	852731			60221	UiGuildDormMain		0	60221
+60231	60231	1	Ultimate Brawl 2.0 Mode Guide	1	84601800			60231	UiSuperSmashBrosMain		0	60231
+60232	60232	1	Ultimate Brawl 2.0 Scenario Guide	1	84601800			60232	UiSuperSmashBrosSelectStage		0	60232
+60233	60233	1	Ultimate Brawl 2.0 Edit Team Guide	1	84601800			60233	UiSuperSmashBrosPick		0	60233
+60234	60234	1	Ultimate Brawl 2.0 Member Preparation Guide	1	84601800			60234	UiSuperSmashBrosCharacter		0	60234
+60301	60301	0	Guide - Guild Simulated Siege	1	772310	1002234		60301	UiGuildBossStage		0	60301
+60302	60302	0	Guide - Guild Simulated Siege Difficulty Selection	1	772310	1002234		60302	UiGuildBossDiff		0	60302
+60303	60303	0	Guide - Guild Simulated Siege School Selection	1	772310	1002234		60303	UiGuildBossSelectStyle		0	60303
+60311	60311	0	Guide - Management Sim 2.0 Main Interface	1	30406			60311	UiDoomsdayChapter		0	60311
+60312	60312	0	Guide - Management Sim 2.0 Stage	1	30406			60312	UiDoomsdayFubenMain		0	60311
+60313	60313	0	Guide - Management Sim 2.0 Exploration	1	30406			60313	UiDoomsdayExplore		0	60311
+60314	60314	0	Guide - Management Sim 2.0 Location Exploration	1	30406			60314	UiDoomsdayExplore		0	60311
+60315	60315	0	Guide - Management Sim 2.0 End	1	30406			60315	UiDoomsdayFubenMain		0	60311
+60321	60321	0	Guide - Limit Break Phase 3 Basics	1	774800			60321	UiReform		0	60321
+60322	60322	0	Guide - Limit Break Phase 3 Modification	1	774800			60322	UiReformList		0	60321
+60323	60323	0	Guide - Limit Break Phase 3 Interaction	1	774800			60323	UiReform		0	60321
+60324	60324	0	Guide - Limit Break Phase 3 Multiple Waves	1	774800	1002222		60324	UiReform		0	60321
+60331	60331	1	Guide - Yin-Yang Tower Main Interface	1	8005			60331	UiTwoSideTowerMain		0	60331
+60332	60332	1	Guide - Yin-Yang Tower Yin Tower Mode	1	1002232			60332	UiTwoSideTowerMainLine		0	60331
+60333	60333	1	Guide - Yin-Yang Tower Vision Points	1	1002233			60333	UiTwoSideTowerMainLine		0	60331
+60401	60401	0	Guide: Roguelike 2.0 Main Interface	1	1002036			60401	UiBiancaTheatreMain		0	60401
+60402	60402	0	Guide: Roguelike 2.0 Difficulty Selection	1	1002036			60402	UiBiancaTheatreChoice		0	60402
+60403	60403	0	Guide: Roguelike 2.0 Character Selection	1	1002036			60403	UiBiancaTheatreRecruit		0	60403
+60404	60404	0	Guide: Roguelike 2.0 Mode Interface	1	1002036			60404	UiBiancaTheatrePlayMain		0	60404
+60405	60405	0	Guide: Roguelike 2.0 First Result Calculation	1	1002036			60405	UiBiancaTheatreMain		0	60405
+60406	60406	0	Guide: Roguelike 2.0 Skill Ability	1	1002036			60406	UiBiancaTheatreSkill		0	60406
+60407	60407	0	Guide: Roguelike 2.0 Achievement System	1	1002036	860407		60407	UiBiancaTheatreMain		0	60407
+60408	60408	0	Guide: Roguelike 2.0 Insight System	1	1002036	1005048		60408	UiBiancaTheatrePlayMain		0	60408
+60411	60411	0	Guide: Double Seventh Festival poker guessing	1	774800			60411	UiFubenPokerGuessing		0	60411
+60421	60421	0	Guide: Guild Expedition 2.0 Interface Entrance	1	852731	1002110		60421	UiGuildMain|UiGuildDormMain		0	60421
+60422	60422	0	Guide: Guild Expedition 2.0 Mode Interface	1	852731	1002110		60422	UiGuildWarStageMain		0	60422
+60423	60423	0	Guide: Guild Expedition 2.0 Support Construct	1	852731			60423	UiGuildWarSupport		0	60423
+60424	60424	1	Guide: Guild Expedition 2.0 Boss Challenge	1	852731			60424	UiGuildWarBossStageDetail		0	60424
+60425	60425	0	Guide: Guild Expedition 3.0 Boss Challenge	1	852731	1002110		60425	UiGuildWarTwinsPanel		0	60425
+60426	60426	0	Guide: Guild Expedition 3.0 Hidden Node	1	852731	1002110		60426	UiGuildWarConcealStageDetail		0	60426
+60501	60501	0	Circuit Connect 3.0 battle guide	1	774800	771000		59011	UiSameColorGameBattle		0	60501
+60511	60511	1	Rpg 5.0 main screen guide	1	774800			60511	UiRpgTowerNewMain		0	60511
+60601	60601	0	Guide Spectroscopic Binary Star 3.0 Main Interface	1	8005			60601	UiCoupleCombatChapter		0	60601
+60602	60602	0	Guide Spectroscopic Binary Star 3.0 Chapter Intro	1	8005			60602	UiCoupleCombatMain		0	60602
+60611	60611	0	Guide Character Tower Entrance	1	10436000			60611	UiMain		0	60611
+60612	60612	0	Guide Character Tower Character Challenge	1	10436000			60612	UiCharacterTowerBattle		0	60612
+60621	60621	0	Guide Deep Blue Warzone 2.0	1	84601800			60621	UiRiftMain		0	60621
+60622	60622	0	Guide Deep Blue Warzone 2.0 Member Preparation	1	84601800			60622	UiRiftCharacter		0	60622
+60623	60623	0	Guide Deep Blue Warzone 2.0 Perception Amplification	1	84601800	890010		60623	UiRiftFightLayerSelect		0	60623
+60624	60624	0	Guide Deep Blue Warzone 2.0 Serendipitous Snapshot	1	84601800	890011		60624	UiRiftFightLayerSelect		0	60624
+60625	60625	0	Guide Deep Blue Warzone 2.0 Add-on Codex	1	84601800	890012		60625	UiRiftFightLayerSelect		0	60625
+60700	60700	0	Guiade 3rd Anniversary Main Interface Adjustment	1	860700	860701		60700	UiMain		0	60700
+60701	60701	0	Guide Palette Clash Main Interface	1	774800	771000		60701	UiColorTableMain		0	60701
+60702	60702	0	Guide Palette Clash Stage 1	1	774800	771000	1009003	60702	UiColorTableStageMain		0	60702
+60703	60703	0	Guide Palette Clash Stage 2 Content	1	774800	771000	1009004	60703	UiColorTableStageMain		0	60703
+60704	60704	0	Guide Palette Clash Stage 3 Content	1	774800	771000	1009005	60704	UiColorTableStageMain		0	60704
+60705	60705	0	Guide Palette Clash Stage 3 Encounter	1	774800	1009006	1009005	60705	UiColorTableStageMainInfo		0	60705
+60711	60711	0	Guide Sequence Pact Main Interface	1	841207			60711	UiMain		0	60711
+60712	60712	0	Guide Sequence Pact Room Interface	1	841207			60712	UiAwarenessDeploy		0	60712
+60713	60713	0	Guide Pact Infinitas Awaken Effect	1	841200	841107		60713	UiMain|UiAwarenessMain		0	60713
+60721	60721	0	Guide Character Ultima Awaken	1	860721	842074		60721	UiMain		0	60721
+60722	60722	0	Guide Character Infinitas Awaken	1	860722			60722	UiMain|UiExhibitionInfo		0	60722
+60731	60731	0	Guide Blazing Trails Main Page	1	774800			60731	UiBrilliantWalkMain		0	60731
+60732	60732	0	Guide Blazing Trails Main Page Modification	1	774800	860732		60732	UiBrilliantWalkMain		0	60732
+60741	60741	0	Guide Main Page Switch Scene	1	860741	860740		60741	UiMain		0	60741
+60801	60801	0	Guide: Ultimate Brawl Mode 3.0 Gameplay	1	84601800			60801	UiSuperSmashBrosMain		0	60801
+60802	60802	0	Guide: Ultimate Brawl Mode 3.0 Scene	1	84601800			60802	UiSuperSmashBrosSelectStage		0	60802
+60803	60803	0	Guide: Ultimate Brawl 3.0 Member Preparation	1	84601800			60803	UiSuperSmashBrosCharacter		0	60803
+60804	60804	0	Guide: Ultimate Brawl 3.0 Emergency Dispatch	1	84601800	860810		60804	UiSuperSmashBrosMain		0	60804
+60805	60805	0	Guide: Ultimate Brawl 3.0 Emergency Dispatch Preparation Interface	1	84601800	860810	860811	60805	UiSuperSmashBrosReady		0	60805
+60811	60811	0	Guide: Corrupted Battlefront 2.0 Gameplay	1	774800			60811	UiMaverick2Main		0	60811
+60812	60812	0	Guide: Corrupted Battlefront 2.0 Chapter Interface	1	774800			60812	UiMaverick2Explore		0	60812
+60813	60813	0	Guide: Corrupted Battlefront 2.0 Mind Allocation	1	774800	860813		60813	UiMaverick2Explore		0	60813
+60814	60814	0	Guide: Corrupted Battlefront 2.0 Daily Stages	1	774800	860814		60814	UiMaverick2Explore		0	60814
+60821	60821	0	Guide: DLC Hunting Mode Tutorial Stage	1	30406			60821	UiDlcHuntMain		0	60821
+60822	60822	0	Guide: DLC Hunting Mode Tutorial Main Interface	1	30406			60822	UiDlcHuntMain		0	60822
+60823	60823	0	Guide: DLC Hunting Mode Tutorial Chip Equipment	1	860823	860824	860825	60823	UiDlcHuntMain		0	60823
+60831	60831	0	Guide: Punishing: Gray Raven Restaurant Main Interface	1	774800			60831	UiRestaurantMain		0	60831
+60832	60832	0	Guide: Punishing: Gray Raven Restaurant Prep Station	1	774800			60832	UiRestaurantMain		0	60831
+60833	60833	0	Guide: Punishing: Gray Raven Restaurant Service Area	1	774800			60833	UiRestaurantMain		0	60831
+60834	60834	0	Guide: Punishing: Gray Raven Restaurant Staff Interface	1	774800			60834	UiRestaurantCook		0	60834
+60835	60835	0	Guide: Punishing: Gray Raven Restaurant Hot Seller Interface	1	774800			60835	UiRestaurantRecommend		0	60835
+60836	60836	0	Guide: Punishing: Gray Raven Restaurant Upgrade	1	774800			60836	UiRestaurantHire		0	60836
+60901	60901	0	Guide - Valentine's Day Maze	1	774800			60901	UiMazeMain		0	60901
+60911	60911	0	Guide - Rpg 6.0 main screen	1	774800			60911	UiRpgTowerNewMain		0	60911
+60921	60921	0	Guide - Yin-Yang Tower Main Interface	1	8005			60921	UiTwoSideTowerMain		0	60921
+60922	60922	0	Guide - Yin-Yang Tower Gameplay	1	860923			60922	UiTwoSideTowerMainLine		0	60922
+60931	60931	0	Guide - Push Box 4.0	1	30406			60931	UiRpgMakerGameMain		0	60931
+60932	60932	0	Guide - Push Box 4.0 Character Stats	1	30406			60932	UiRpgMakerGameChoice	ImgAttribute	0	60932
+280011	280011	0	英文服PC端预设键位调整说明引导	1	3000000	3000001		280011	UiMain		0	280011
