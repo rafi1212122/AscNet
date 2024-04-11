@@ -1,15 +1,15 @@
-﻿using AscNet.Common.Database;
+﻿using AscNet.Common;
+using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
-using AscNet.Table.V2.share.item;
 using AscNet.Table.V2.share.character;
-using AscNet.Table.V2.share.character.grade;
-using MessagePack;
-using AscNet.Common;
-using AscNet.Table.V2.share.character.quality;
-using MongoDB.Driver.Linq;
-using AscNet.Table.V2.share.character.skill;
 using AscNet.Table.V2.share.character.enhanceskill;
+using AscNet.Table.V2.share.character.grade;
+using AscNet.Table.V2.share.character.quality;
+using AscNet.Table.V2.share.character.skill;
+using AscNet.Table.V2.share.item;
+using MessagePack;
+using MongoDB.Driver.Linq;
 
 namespace AscNet.GameServer.Handlers
 {
@@ -39,7 +39,7 @@ namespace AscNet.GameServer.Handlers
     {
         public int Code;
     }
-    
+
     [MessagePackObject(true)]
     public class CharacterLevelUpRequest
     {
@@ -184,7 +184,7 @@ namespace AscNet.GameServer.Handlers
                 }
 
                 character.Grade = nextGrade;
-                
+
                 session.SendPush(new NotifyCharacterDataList()
                 {
                     CharacterDataList = { character }
@@ -275,7 +275,7 @@ namespace AscNet.GameServer.Handlers
                     // CharacterManagerGetQualityFragmentTemplateNotFound
                     throw new ServerCodeException("Character quality fragment table data not found!", 20009004);
                 }
-                
+
                 if (TableReaderV2.Parse<CharacterQualityFragmentTable>().Any(x => x.Type == characterData?.Type && x.Quality == character?.Quality + 1))
                 {
                     if (characterQualityFragment.PromoteUseCoin is not null && characterQualityFragment.PromoteUseCoin > 0)

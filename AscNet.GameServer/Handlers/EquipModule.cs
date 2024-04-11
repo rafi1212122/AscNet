@@ -2,9 +2,9 @@
 using AscNet.Common.Database;
 using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
+using AscNet.Table.V2.share.attrib;
 using AscNet.Table.V2.share.equip;
 using AscNet.Table.V2.share.item;
-using AscNet.Table.V2.share.attrib;
 using MessagePack;
 
 namespace AscNet.GameServer.Handlers

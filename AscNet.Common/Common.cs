@@ -1,11 +1,5 @@
-﻿using System.Reflection;
-using AscNet.Common.Database;
+﻿using Config.Net;
 using MongoDB.Driver;
-using Config.Net;
-using MongoDB.Bson.Serialization;
-using MongoDB.Bson.Serialization.Options;
-using Newtonsoft.Json;
-using AscNet.Common.Util;
 
 namespace AscNet.Common
 {
@@ -29,6 +23,7 @@ namespace AscNet.Common
            db = mongoClient.GetDatabase(config.Database.Name);
         }
 
+        /*
         public static void DumpTables()
         {
             IEnumerable<Type> tableTypes = Assembly.GetAssembly(typeof(Table.V2.client.activity.ActivityGroupTable))!.GetTypes().Where(t => typeof(ITable).IsAssignableFrom(t));
@@ -57,7 +52,9 @@ namespace AscNet.Common
                 }
             }
         }
+        */
     }
+
     public class ServerCodeException : Exception
     {
         public int Code { get; set; }

@@ -1,6 +1,5 @@
 ﻿using AscNet.Common.MsgPack;
 using AscNet.Common.Util;
-using AscNet.Table.V2.share.reward;
 using AscNet.Table.V2.share.trpg;
 using MessagePack;
 

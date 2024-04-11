@@ -4,7 +4,6 @@ using AscNet.Common.Util;
 using AscNet.Table.V2.share.chat;
 using AscNet.Table.V2.share.guide;
 using AscNet.Table.V2.share.photomode;
-using AscNet.Table.V2.share.trpg;
 using MessagePack;
 using System.Diagnostics;
 
