@@ -227,15 +227,21 @@ namespace AscNet.GameServer
                 return;
 
             // DB save on disconnect
-            log.Info($"Saving session state...");
-            player?.Save();
-            character?.Save();
-            stage?.Save();
-            inventory?.Save();
+            Save();
 
             log.Warn($"{id} disconnected");
             client.Close();
             Server.Instance.Sessions.Remove(id);
+        }
+
+        public void Save()
+        {
+            player?.Save();
+            character?.Save();
+            stage?.Save();
+            inventory?.Save();
+            
+            log.Info($"Saving session state...");
         }
     }
 }
