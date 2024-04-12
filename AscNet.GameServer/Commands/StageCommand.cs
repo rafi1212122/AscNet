@@ -19,7 +19,7 @@ namespace AscNet.GameServer.Commands
             if (TargetStage == "all")
             {
                 session.stage.Stages.Clear();
-                foreach (var stageData in TableReaderV2.Parse<StageTable>())
+                foreach (var stageData in TableReaderV2.Parse<StageTable>().Where(x => x.StageId >= 10000000 && x.StageId <= 20000000))
                 {
                     session.stage.Stages.Add(stageData.StageId, new()
                     {
