@@ -29,7 +29,7 @@ namespace AscNet.GameServer.Handlers
         }
 
         [RequestPacketHandler("PayInitiatedRequest")]
-        public static void PayInitiatedRequest(Session session, Packet.Request packet)
+        public static void PayInitiatedRequestHandler(Session session, Packet.Request packet)
         {
             session.SendResponse(new PayInitiatedResponse() { Code = 1 }, packet.Id);
         }

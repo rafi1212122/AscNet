@@ -41,7 +41,7 @@ namespace AscNet.GameServer.Handlers
         }
         
         [RequestPacketHandler("ItemUseRequest")]
-        public static void ItemUseRequest(Session session, Packet.Request packet)
+        public static void ItemUseRequestHandler(Session session, Packet.Request packet)
         {
             session.SendResponse(new ItemUseResponse() { Code = 1 }, packet.Id);
         }
