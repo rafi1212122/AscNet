@@ -21,6 +21,18 @@ namespace AscNet.GameServer.Handlers
     public class ShutdownNotify
     {
     }
+    
+    [MessagePackObject(true)]
+    public class UseCdKeyRequest
+    {
+        public string Id;
+    }
+
+    [MessagePackObject(true)]
+    public class UseCdKeyResponse
+    {
+        public int Code;
+    }
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     #endregion
 
@@ -120,7 +132,7 @@ namespace AscNet.GameServer.Handlers
                 ReconnectToken = request.Token
             }, packet.Id);
         }
-        
+
         /* TODO
         [RequestPacketHandler("ReconnectAck")]
         public static void ReconnectAckHandler(Session session, Packet.Request packet)
@@ -128,6 +140,12 @@ namespace AscNet.GameServer.Handlers
         }
         */
 
+        [RequestPacketHandler("UseCdKeyRequest")]
+        public static void UseCdKeyRequestHandler(Session session, Packet.Request packet)
+        {
+            session.SendResponse(new UseCdKeyResponse() { Code = 1 }, packet.Id);
+        }
+        
         // TODO: Move somewhere else, also split.
         static void DoLogin(Session session)
         {
