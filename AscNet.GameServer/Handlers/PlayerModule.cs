@@ -129,6 +129,32 @@ namespace AscNet.GameServer.Handlers
         public int Code;
         public List<long> DisplayCharIdList;
     }
+
+    [MessagePackObject(true)]
+    public class QueryPlayerDetailRequest
+    {
+        public int PlayerId;
+    }
+
+    [MessagePackObject(true)]
+    public class QueryPlayerDetailResponse
+    {
+        public int Code;
+    }
+
+    [MessagePackObject(true)]
+    public class SetAppearanceRequest
+    {
+        public int CharacterAppearanceType;
+        public dynamic? Characters;
+        public AppearanceSettingInfo AppearanceSettingInfo;
+    }
+
+    [MessagePackObject(true)]
+    public class SetAppearanceResponse
+    {
+        public int Code;
+    }
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     #endregion
 
@@ -233,6 +259,18 @@ namespace AscNet.GameServer.Handlers
             session.player.PlayerData.DisplayCharIdList.Insert(0, request.CharId);
 
             session.SendResponse(new SetDisplayCharIdFirstResponse() { DisplayCharIdList = session.player.PlayerData.DisplayCharIdList }, packet.Id);
+        }
+
+        [RequestPacketHandler("QueryPlayerDetailRequest")]
+        public static void QueryPlayerDetailRequestHandler(Session session, Packet.Request packet)
+        {
+            session.SendResponse(new QueryPlayerDetailResponse() { Code = 1 }, packet.Id);
+        }
+        
+        [RequestPacketHandler("SetAppearanceRequest")]
+        public static void SetAppearanceRequestHandler(Session session, Packet.Request packet)
+        {
+            session.SendResponse(new SetAppearanceResponse() { Code = 1 }, packet.Id);
         }
     }
 }
