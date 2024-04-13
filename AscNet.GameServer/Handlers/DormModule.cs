@@ -31,12 +31,14 @@ namespace AscNet.GameServer.Handlers
 
     internal class DormModule
     {
+        // TODO: Dorm entry
         [RequestPacketHandler("DormEnterRequest")]
         public static void DormEnterRequestHandler(Session session, Packet.Request packet)
         {
             session.SendResponse(new DormEnterResponse(), packet.Id);
         }
         
+        // TODO: Dorm list (called from Details section within account info menu)
         [RequestPacketHandler("DormitoryListRequest")]
         public static void DormitoryListRequestHandler(Session session, Packet.Request packet)
         {

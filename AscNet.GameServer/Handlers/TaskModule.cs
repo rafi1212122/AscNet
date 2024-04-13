@@ -27,7 +27,8 @@ namespace AscNet.GameServer.Handlers
         {
             session.SendResponse(new DoClientTaskEventResponse(), packet.Id);
         }
-        
+
+        // TODO: Reward acquisition from course reward line in Tasks menu
         [RequestPacketHandler("GetCourseRewardRequest")]
         public static void GetCourseRewardRequestHandler(Session session, Packet.Request packet)
         {

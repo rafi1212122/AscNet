@@ -40,6 +40,7 @@ namespace AscNet.GameServer.Handlers
             }, packet.Id);
         }
         
+        // TODO: Consumable item usage
         [RequestPacketHandler("ItemUseRequest")]
         public static void ItemUseRequestHandler(Session session, Packet.Request packet)
         {

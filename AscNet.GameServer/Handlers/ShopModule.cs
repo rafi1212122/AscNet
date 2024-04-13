@@ -45,6 +45,7 @@ namespace AscNet.GameServer.Handlers
             session.SendResponse(rsp, packet.Id);
         }
         
+        // TODO: Dorm shop
         [RequestPacketHandler("GetShopBaseInfoRequest")]
         public static void GetShopBaseInfoRequestHandler(Session session, Packet.Request packet)
         {

@@ -133,13 +133,14 @@ namespace AscNet.GameServer.Handlers
             }, packet.Id);
         }
 
-        /* TODO
+        /* TODO Reconnection state resumption?
         [RequestPacketHandler("ReconnectAck")]
         public static void ReconnectAckHandler(Session session, Packet.Request packet)
         {
         }
         */
 
+        // TODO: Promo code
         [RequestPacketHandler("UseCdKeyRequest")]
         public static void UseCdKeyRequestHandler(Session session, Packet.Request packet)
         {

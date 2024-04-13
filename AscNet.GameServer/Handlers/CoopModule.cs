@@ -35,12 +35,14 @@ namespace AscNet.GameServer.Handlers
 
     internal class CoopModule
     {
+        // TODO: Co-op room creation
         [RequestPacketHandler("CreateRoomRequest")]
         public static void CreateRoomRequestHandler(Session session, Packet.Request packet)
         {
             session.SendResponse(new CreateRoomResponse() { Code = 1 }, packet.Id);
         }
 
+        // TODO: Co-op room matchmaking
         [RequestPacketHandler("MatchRoomRequest")]
         public static void MatchRoomRequestHandler(Session session, Packet.Request packet)
         {

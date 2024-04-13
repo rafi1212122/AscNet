@@ -22,6 +22,7 @@ namespace AscNet.GameServer.Handlers
 
     internal class PartnerModule
     {
+        // TODO: CUB combining
         [RequestPacketHandler("PartnerComposeRequest")]
         public static void PartnerComposeRequestHandler(Session session, Packet.Request packet)
         {

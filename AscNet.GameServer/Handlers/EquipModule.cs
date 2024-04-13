@@ -346,6 +346,7 @@ namespace AscNet.GameServer.Handlers
             session.SendResponse(new EquipResonanceResponse() { ResonanceData = resonance }, packet.Id);
         }
 
+        // TODO: Equipment scrapping
         [RequestPacketHandler("EquipDecomposeRequest")]
         public static void EquipDecomposeRequestHandler(Session session, Packet.Request packet)
         {

@@ -22,6 +22,7 @@ namespace AscNet.GameServer.Handlers
 
     internal class GuildModule
     {
+        // TODO: Guild listing
         [RequestPacketHandler("GuildListRecommendRequest")]
         public static void GuildListRecommendRequestHandler(Session session, Packet.Request packet)
         {

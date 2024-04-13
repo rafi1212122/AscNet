@@ -261,12 +261,14 @@ namespace AscNet.GameServer.Handlers
             session.SendResponse(new SetDisplayCharIdFirstResponse() { DisplayCharIdList = session.player.PlayerData.DisplayCharIdList }, packet.Id);
         }
 
+        // TODO: "Display Preview" button in Details section of account info menu
         [RequestPacketHandler("QueryPlayerDetailRequest")]
         public static void QueryPlayerDetailRequestHandler(Session session, Packet.Request packet)
         {
             session.SendResponse(new QueryPlayerDetailResponse() { Code = 1 }, packet.Id);
         }
-        
+
+        // TODO: "Save" button in Details section of account info menu
         [RequestPacketHandler("SetAppearanceRequest")]
         public static void SetAppearanceRequestHandler(Session session, Packet.Request packet)
         {

@@ -31,12 +31,14 @@ namespace AscNet.GameServer.Handlers
 
     internal class BossModule
     {
+        // TODO: Pain Cage entry
         [RequestPacketHandler("BossSingleRankInfoRequest")]
         public static void BossSingleRankInfoRequestHandler(Session session, Packet.Request packet)
         {
             session.SendResponse(new BossSingleRankInfoResponse() { Code = 1 }, packet.Id);
         }
 
+        // TODO: Co-op entry
         [RequestPacketHandler("GetActivityBossDataRequest")]
         public static void GetActivityBossDataRequestHandler(Session session, Packet.Request packet)
         {
