@@ -96,6 +96,18 @@ namespace AscNet.GameServer.Handlers
         public int Level;
         public int Exp;
     }
+
+    [MessagePackObject(true)]
+    public class EquipDecomposeRequest
+    {
+        public List<int> EquipIds;
+    }
+
+    [MessagePackObject(true)]
+    public class EquipDecomposeResponse
+    {
+        public int Code;
+    }
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     #endregion
 
@@ -332,6 +344,12 @@ namespace AscNet.GameServer.Handlers
             equip.ResonanceInfo.Add(resonance);
 
             session.SendResponse(new EquipResonanceResponse() { ResonanceData = resonance }, packet.Id);
+        }
+
+        [RequestPacketHandler("EquipDecomposeRequest")]
+        public static void EquipDecomposeRequestHandler(Session session, Packet.Request packet)
+        {
+            session.SendResponse(new EquipDecomposeResponse() { Code = 1 }, packet.Id);
         }
     }
 }
