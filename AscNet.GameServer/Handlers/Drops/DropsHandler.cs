@@ -182,9 +182,9 @@ namespace AscNet.GameServer.Handlers.Drops
         #endregion
 
         /// <summary>
-        /// Progressive chance of getting the item based on item quality and commandant level
+        /// TODO: Progressive chance of getting the item based on item quality and commandant level
         /// </summary>
-        private static bool GetProgressiveChance(int level, int quality)
+        static bool GetProgressiveChance(int level, int quality)
         {
             return true;
         }

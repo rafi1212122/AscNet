@@ -8,7 +8,6 @@ using AscNet.Table.V2.share.character;
 using AscNet.Table.V2.share.character.quality;
 using AscNet.Table.V2.share.equip;
 using AscNet.Table.V2.share.item;
-using System;
 
 namespace AscNet.GameServer.Game
 {
@@ -447,10 +446,10 @@ namespace AscNet.GameServer.Game
                     }
                     break;
                 case 2:
-                    // Weapon
+                    // TODO: Weapon gacha
                     break;
                 case 3:
-                    // CUB
+                    // TODO: CUB gacha
                     break;
                 default:
                     break;

@@ -29,9 +29,17 @@ namespace AscNet.GameServer.Handlers
     }
 
     [MessagePackObject(true)]
+    public class CdKeyRewardGoods
+    {
+        public RewardType RewardType;
+        public int TemplateId;
+    }
+    
+    [MessagePackObject(true)]
     public class UseCdKeyResponse
     {
         public int Code;
+        public List<CdKeyRewardGoods>? RewardGoods;
     }
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     #endregion
@@ -144,7 +152,7 @@ namespace AscNet.GameServer.Handlers
         [RequestPacketHandler("UseCdKeyRequest")]
         public static void UseCdKeyRequestHandler(Session session, Packet.Request packet)
         {
-            session.SendResponse(new UseCdKeyResponse() { Code = 1 }, packet.Id);
+            session.SendResponse(new UseCdKeyResponse() { Code = 20054001 }, packet.Id);
         }
         
         // TODO: Move somewhere else, also split.
