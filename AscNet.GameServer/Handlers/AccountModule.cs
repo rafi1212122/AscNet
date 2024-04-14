@@ -27,17 +27,17 @@ namespace AscNet.GameServer.Handlers
     {
         public string Id;
     }
-
-    [MessagePackObject(true)]
-    public class CdKeyRewardGoods
-    {
-        public RewardType RewardType;
-        public int TemplateId;
-    }
     
     [MessagePackObject(true)]
     public class UseCdKeyResponse
     {
+        [MessagePackObject(true)]
+        public class CdKeyRewardGoods
+        {
+            public RewardType RewardType;
+            public int TemplateId;
+        }
+        
         public int Code;
         public List<CdKeyRewardGoods>? RewardGoods;
     }

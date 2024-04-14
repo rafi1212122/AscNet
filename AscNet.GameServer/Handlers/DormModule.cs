@@ -8,6 +8,7 @@ namespace AscNet.GameServer.Handlers
     [MessagePackObject(true)]
     public class DormEnterRequest
     {
+        public dynamic? Content;
     }
 
     [MessagePackObject(true)]
