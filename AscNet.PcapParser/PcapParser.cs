@@ -69,6 +69,12 @@ namespace AscNet.PcapParser
 
             while (true)
             {
+                if (4 > bytes.Length - readLen)
+                {
+                    buffer[packet.Ethernet.IpV4.Source] = bytes.AsSpan(readLen).ToArray();
+                    break;
+                }
+
                 int len = (int)BinaryPrimitives.ReadUInt32LittleEndian(bytes.AsSpan(readLen));
                 readLen += Marshal.SizeOf<int>();
 
